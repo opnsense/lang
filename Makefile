@@ -1,3 +1,28 @@
+# Copyright (c) 2015-2016 Franco Fichtner <franco@opnsense.org>
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+# OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+# HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+# OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+# SUCH DAMAGE.
+
 XGETTEXT=	xgettext -L PHP --from-code=UTF-8 -F --strict --debug
 XGETTEXT_PL=	xgettext.pl -P Locale::Maketext::Extract::Plugin::Volt \
 		-u -w -W
@@ -9,15 +34,11 @@ PERL_NAME=	Locale/Maketext/Extract/Plugin
 
 LOCALEDIR=	/usr/local/share/locale/%%LANG%%/LC_MESSAGES
 
-# stable
-LANGUAGES=	de_DE fr_FR ja_JP zh_CN
-# devel
-LANGUAGES+=	es_CO mn_MN nl_NL ru_RU
+LANGUAGES=	de_DE es_CO fr_FR nl_NL ja_JP mn_MN ru_RU zh_CN
 
 TEMPLATE=	en_US
 INSTALL=
 MERGE=
-PLIST=
 
 PAGER?=		less
 
@@ -33,9 +54,6 @@ install-${LANG}:
 clean-${LANG}:
 	@rm -f ${DESTDIR}${${LANG}DIR}/OPNsense.mo
 
-plist-${LANG}:
-	@echo ${${LANG}DIR}/OPNsense.mo
-
 merge-${LANG}:
 	${MSGMERGE} ${LANG}.po ${TEMPLATE}.pot
 	# strip stale translations
@@ -43,7 +61,6 @@ merge-${LANG}:
 
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
-PLIST+=		plist-${LANG}
 MERGE+=		merge-${LANG}
 .endfor
 
@@ -58,10 +75,9 @@ ${TEMPLATE}:
 template: ${TEMPLATE}
 install: ${INSTALL}
 clean: ${CLEAN}
-plist: ${PLIST}
 merge: ${MERGE}
 
 dynamic:
 	@${.CURDIR}/dynamic/collect.py ${.CURDIR}/..
 
-.PHONY: ${INSTALL} ${PLIST} ${MERGE} ${TEMPLATE} dynamic
+.PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} dynamic
