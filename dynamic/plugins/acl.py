@@ -30,6 +30,14 @@
 """
 __author__ = 'Ad Schellevis'
 
+def recursiveParseForm(xmlNode):
+    for childNode in xmlNode:
+        for tag in recursiveParseForm(childNode):
+            yield tag
+
+    if xmlNode.tag == 'description':
+        yield xmlNode.text
+
 def getTranslations(root):
     import json
 
@@ -43,3 +51,18 @@ def getTranslations(root):
     for aclKey in aclMap.keys():
         if aclMap[aclKey].has_key('descr'):
            yield aclMap[aclKey]['descr']
+
+    import os
+    import xml.etree.ElementTree as ET
+
+    rootpath='%s/opnsense/mvc/app/models/'%root
+
+    for rootdir, dirs, files in os.walk(rootpath, topdown=False):
+        for name in files:
+            if name.lower()[-4:] == '.xml':
+                filename = '%s/%s'%(rootdir,name)
+                tree = ET.parse(filename)
+                rootObj = tree.getroot()
+                if rootObj.tag == 'acl':
+                    for tag in recursiveParseForm(rootObj):
+                        yield tag
