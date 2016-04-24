@@ -36,6 +36,10 @@ LOCALEDIR=	/usr/local/share/locale/%%LANG%%/LC_MESSAGES
 
 LANGUAGES=	de_DE es_CO fr_FR nl_NL ja_JP mn_MN ru_RU zh_CN
 
+PLUGINSDIR?=	/usr/plugins
+COREDIR?=	/usr/core
+LANGDIR?=	/usr/lang
+
 TEMPLATE=	en_US
 INSTALL=
 MERGE=
@@ -64,13 +68,19 @@ CLEAN+=		clean-${LANG}
 MERGE+=		merge-${LANG}
 .endfor
 
+_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list
+PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
+
 ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
-	cd ${.CURDIR}/.. && \
-	    ${XGETTEXT_PL} -D src -p ${.CURDIR} -o ${TEMPLATE}.pot
-	cd ${.CURDIR}/.. && find src lang/dynamic/helpers | \
-	    xargs ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
+.for ROOTDIR in ${PLUGINSDIRS} ${COREDIR}
+	${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot
+	find ${ROOTDIR}/src -print0 | \
+	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
+.endfor
+	find ${LANGDIR}/dynamic/helpers -print0 | \
+	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
 
 template: ${TEMPLATE}
 install: ${INSTALL}
@@ -78,6 +88,6 @@ clean: ${CLEAN}
 merge: ${MERGE}
 
 dynamic:
-	@${.CURDIR}/dynamic/collect.py ${.CURDIR}/..
+	@${.CURDIR}/dynamic/collect.py ${PLUGINSDIRS} ${COREDIR}
 
 .PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} dynamic

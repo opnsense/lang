@@ -36,11 +36,11 @@ if len(sys.argv) < 2:
     print 'Usage: collect.py rootdir'
     sys.exit(1)
 
-# get source location (root of core package)
-OPNsenseRoot=sys.argv[1] + '/src'
+# get source locations
+RootPaths = sys.argv[1:]
 
 # create target location
-targetPath=sys.argv[1] + '/lang/dynamic/helpers'
+targetPath = 'dynamic/helpers'
 
 if len(glob.glob(targetPath)) == 0:
     os.mkdir(targetPath)
@@ -58,8 +58,9 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
 
         # collect and sort tags
         translations = list()
-        for textValue in lang.getTranslations(OPNsenseRoot):
-            translations.append(textValue)
+        for RootPath in RootPaths:
+            for textValue in lang.getTranslations(RootPath + '/src'):
+                translations.append(textValue)
         translations.sort()
 
         # fill with gettext tags

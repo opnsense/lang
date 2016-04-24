@@ -32,8 +32,13 @@ __author__ = 'Ad Schellevis'
 
 def getTranslations(root):
     import json
+
     filename='%s/opnsense/mvc/app/models/OPNsense/Core/ACL_Legacy_Page_Map.json'%root
-    aclMap = json.loads(open(filename).read())
+
+    try:
+        aclMap = json.loads(open(filename).read())
+    except IOError:
+        aclMap = dict()
 
     for aclKey in aclMap.keys():
         if aclMap[aclKey].has_key('descr'):
