@@ -61,6 +61,7 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
         for RootPath in RootPaths:
             for textValue in lang.getTranslations(RootPath + '/src'):
                 translations.append(textValue)
+        translations = list(set(translations))
         translations.sort()
 
         # fill with gettext tags
