@@ -118,8 +118,7 @@ echo gettext('Filter to use when downloading this ruleset, applies this action t
 echo gettext('Grant access to HAProxy statistics page. Please provide both user and password in clear text separated by a \':\', i.e. john:secret123 or jdoe:anonymous. Use TAB key to complete adding a user.');
 echo gettext('Hostname (of this machine) to redirect login page to, leave blank to use this interface IP address, otherwise make sure the client can access DNS to resolve this location. When using a SSL certificate, make sure both this name and the cert name are equal.');
 echo gettext('If provided, all traffic will be transmitted over an HTTPS connection to protect against eavesdroppers.');
-echo gettext('If set (default), Squid will include a Via header in requests and
-            replies as required by RFC2616.');
+echo gettext('If set (default), Squid will include a Via header in requests and replies as required by RFC2616.');
 echo gettext('If this checkbox is checked, you can use an ICAP server to filter or replace content.');
 echo gettext('If this option is set, users can login on multiple machines at once. If disabled subsequent logins will cause machines previously logged in with the same username to be disconnected.');
 echo gettext('If you enable this option, the client IP address will be sent to the ICAP server. This can be useful if you want to filter traffic based on IP addresses.');
