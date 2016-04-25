@@ -74,7 +74,7 @@ PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
-.for ROOTDIR in ${PLUGINSDIRS} ${COREDIR}
+.for ROOTDIR in ${PLUGINSDIRS} ${LANGDIR} ${COREDIR}
 	${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot
 	find ${ROOTDIR}/src -print0 | \
 	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
@@ -87,7 +87,7 @@ install: ${INSTALL}
 clean: ${CLEAN}
 merge: ${MERGE}
 
-dynamic:
-	@${.CURDIR}/dynamic/collect.py ${PLUGINSDIRS} ${COREDIR}
+src:
+	@${.CURDIR}/scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
 
-.PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} dynamic
+.PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src

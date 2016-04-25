@@ -6,10 +6,10 @@ from the source code.  You'll need to run this once locally:
 
     # pkg install gettext-tools p5-Locale-Maketext-Lexicon python27
 
-Regenerate dynamic strings that can't be found in the template
+Regenerate source strings that can't be found in the template
 generation step (XML contents, etc.):
 
-    # make dynamic
+    # make src
 
 Regenerate the translation template using:
 
