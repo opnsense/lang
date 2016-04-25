@@ -79,7 +79,7 @@ ${TEMPLATE}:
 	find ${ROOTDIR}/src -print0 | \
 	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
 .endfor
-	find ${LANGDIR}/dynamic/helpers -print0 | \
+	find ${LANGDIR}/src -print0 | \
 	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
 
 template: ${TEMPLATE}

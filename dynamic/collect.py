@@ -40,7 +40,7 @@ if len(sys.argv) < 2:
 RootPaths = sys.argv[1:]
 
 # create target location
-targetPath = 'dynamic/helpers'
+targetPath = 'helpers'
 
 if len(glob.glob(targetPath)) == 0:
     os.mkdir(targetPath)
