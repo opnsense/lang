@@ -74,13 +74,11 @@ PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
-.for ROOTDIR in ${PLUGINSDIRS} ${LANGDIR} ${COREDIR}
+.for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${LANGDIR}
 	${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot
 	find ${ROOTDIR}/src -print0 | \
 	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
 .endfor
-	find ${LANGDIR}/src -print0 | \
-	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
 
 template: ${TEMPLATE}
 install: ${INSTALL}
