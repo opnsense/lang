@@ -43,17 +43,17 @@ def recursiveParseMenu(xmlNode):
         for tag in recursiveParseMenu(childNode):
             yield tag
 
-    if xmlNode.attrib.has_key('VisibleName'):
-        yield xmlNode.attrib['VisibleName']
-    else:
-        yield xmlNode.tag
+    if not xmlNode.attrib.has_key('visibility'):
+        if xmlNode.attrib.has_key('VisibleName'):
+            yield xmlNode.attrib['VisibleName']
+        else:
+            yield xmlNode.tag
 
 def getTranslations(root):
     import os
     import xml.etree.ElementTree as ET
 
     rootpath='%s/opnsense/mvc/app/models/'%root
-
 
     for rootdir, dirs, files in os.walk(rootpath, topdown=False):
         for name in files:
