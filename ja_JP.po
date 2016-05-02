@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13 05:40+0000\n"
+"POT-Creation-Date: 2016-05-02 05:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
 "Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
@@ -7319,7 +7319,7 @@ msgid ""
 msgstr "「デフォルト」の場合はシステムルーティングテーブルを使用します。もしくは、ポリシーベースルーティングを利用するゲートウェイを選択してください。"
 
 msgid "Advanced Options"
-msgstr "高度なオプション"
+msgstr "詳細オプション"
 
 # File: src/www/firewall_rules_edit.php, line: 1219
 msgid "Show/Hide"
@@ -7327,11 +7327,11 @@ msgstr "表示 / 隠す"
 
 # File: src/www/firewall_rules_edit.php, line: 1224
 msgid "Note: Leave fields blank to disable the feature."
-msgstr ""
+msgstr "注意: 機能を無効にするには、フィールドを空白にしてください。"
 
 # File: src/www/firewall_rules_edit.php, line: 1227
 msgid "allow options"
-msgstr ""
+msgstr "オプションを許可"
 
 msgid ""
 "This allows packets with IP options to pass. Otherwise they are blocked by "
@@ -7340,14 +7340,14 @@ msgstr "IP オプションがあるパケットが通過できるようにしま
 
 # File: src/www/firewall_rules_edit.php, line: 1236
 msgid "disable reply-to"
-msgstr ""
+msgstr "reply-to を無効"
 
 msgid "This will disable auto generated reply-to for this rule."
 msgstr "このルールに対する reply-to の自動生成を無効にします。"
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"
-msgstr ""
+msgstr "ローカルタグを設定"
 
 msgid "Policy filtering"
 msgstr "ポリシフィルタリング"
@@ -7359,55 +7359,52 @@ msgstr "このルールに一致するパケットをマークすると、他の
 
 # File: src/www/firewall_rules_edit.php, line: 1254
 msgid "Match local tag"
-msgstr ""
+msgstr "ローカルタグと一致"
 
 msgid "You can match packet on a mark placed before on another rule."
 msgstr "パケットに、他のルールよりも、マークを優先して一致させることができます。"
 
 # File: src/www/firewall_rules_edit.php, line: 1263
 msgid "Max states"
-msgstr ""
+msgstr "最大ステータス"
 
 msgid " Maximum state entries this rule can create"
 msgstr " このルールが作成できるステータスエントリの最大数"
 
 # File: src/www/firewall_rules_edit.php, line: 1272
 msgid "Max source nodes"
-msgstr ""
+msgstr "最大送信元ノード"
 
 msgid " Maximum number of unique source hosts"
 msgstr " 固有の送信元ホストの最大数"
 
 # File: src/www/firewall_rules_edit.php, line: 1281
 msgid "Max established"
-msgstr ""
+msgstr "最大接続確立"
 
-#, fuzzy
 msgid " Maximum number of established connections per host (TCP only)"
-msgstr "ホスト毎の確立した接続の最大数"
+msgstr "ホスト毎の接続確立の最大数 ( TCP のみ )"
 
 # File: src/www/firewall_rules_edit.php, line: 1290
 msgid "Max source states"
-msgstr ""
+msgstr "最大送信元ステータス"
 
 msgid " Maximum state entries per host"
 msgstr "ホスト毎の最大ステータスエントリ"
 
 # File: src/www/firewall_rules_edit.php, line: 1299
 msgid "Max new connections"
-msgstr ""
+msgstr "最大新規接続"
 
-#, fuzzy
 msgid "Maximum new connections per host / per second(s) (TCP only)"
-msgstr "ホスト毎の最大新規接続 / 秒"
+msgstr "ホスト / 秒単位の新規接続の最大数 ( TCP のみ )"
 
 # File: src/www/firewall_rules_edit.php, line: 1329
 msgid "State timeout"
-msgstr ""
+msgstr "ステータスタイムアウト"
 
-#, fuzzy
 msgid "State Timeout in seconds (TCP only)"
-msgstr "数秒でステータスタイムアウトします"
+msgstr "数秒でステータスタイムアウトします ( TCP のみ )"
 
 msgid "TCP flags"
 msgstr "TCP フラグ"
@@ -7422,7 +7419,7 @@ msgstr "このルールに一致するように、設定もしくは削除する
 
 # File: src/www/firewall_rules_edit.php, line: 1376
 msgid "NO pfsync"
-msgstr ""
+msgstr "pfsync をしない"
 
 msgid "State Type"
 msgstr "ステータスタイプ"
@@ -7430,7 +7427,7 @@ msgstr "ステータスタイプ"
 # File: src/www/firewall_rules_edit.php, line: 1315
 msgid ""
 "Hint: This prevents states created by this rule to be sync'ed over pfsync."
-msgstr ""
+msgstr "ヒント: この設定は、pfsync でこのルールが同期されることにより、ステータスが作成されないようにします。"
 
 msgid "keep state"
 msgstr "keep state"
@@ -7526,7 +7523,7 @@ msgstr "スケジュールを削除できません。現在 %s で使用され�
 
 # File: src/www/firewall_schedule.php, line: 79
 msgid "Add a new schedule"
-msgstr ""
+msgstr "新規スケジュールを追加"
 
 msgid "Do you really want to delete this schedule?"
 msgstr "本当にこのスケジュールを削除しますか？"
@@ -7539,11 +7536,11 @@ msgstr "スケジュールは現在アクティブです"
 
 # File: src/www/firewall_schedule.php, line: 238
 msgid "delete schedule"
-msgstr ""
+msgstr "スケジュールを削除"
 
 # File: src/www/firewall_schedule.php, line: 241
 msgid "clone schedule"
-msgstr ""
+msgstr "スケジュールをクローン"
 
 msgid ""
 "Schedules act as placeholders for time ranges to be used in Firewall Rules."
@@ -7567,13 +7564,11 @@ msgstr "スケジュール名に使用できる文字は、a-z、A-Z、0-9 の�
 msgid "A Schedule with this name already exists."
 msgstr "この名前のスケジュールは既に存在しています"
 
-#, fuzzy
 msgid "Invalid start time - '%s'"
-msgstr "無効な開始日 / 時間: "
+msgstr "無効な開始時間 - %s"
 
-#, fuzzy
 msgid "Invalid stop time - '%s'"
-msgstr "無効なカスタムオプション"
+msgstr "無効な停止時間 - %s"
 
 msgid "The schedule must have at least one time range configured."
 msgstr "スケジュールには、1 つ以上の時間範囲を設定してください"
@@ -7600,11 +7595,10 @@ msgstr "火"
 msgid "Thu"
 msgstr "木"
 
-#, fuzzy
 msgid ""
 "Click individual date to select that date only. Click the appropriate "
 "weekday Header to select all occurrences of that weekday."
-msgstr "特定の日付を選択する場合は、個々の日付をクリックしてください。平日に発生するもの全てを選択するには、適当な平日ヘッダをクリックしてください。"
+msgstr "特定の日付のみを選択するには、個々の日付をクリックしてください。平日に発生するもの全てを選択するには、適当な平日ヘッダをクリックしてください。"
 
 msgid "Start Time"
 msgstr "開始時間"
@@ -7658,27 +7652,27 @@ msgstr "仮想 IP アドレス"
 
 # File: src/www/firewall_virtual_ip.php, line: 309
 msgid "move selected virtual IPs before this entry"
-msgstr ""
+msgstr "選択した仮想 IP をこのエントリの前に移動"
 
 # File: src/www/firewall_virtual_ip.php, line: 312
 msgid "edit virtual IP"
-msgstr ""
+msgstr "仮想 IP を編集"
 
 # File: src/www/firewall_virtual_ip.php, line: 315
 msgid "delete virtual IP"
-msgstr ""
+msgstr "仮想 IP を削除"
 
 # File: src/www/firewall_virtual_ip.php, line: 318
 msgid "clone virtual IP"
-msgstr ""
+msgstr "仮想 IP をクローン"
 
 # File: src/www/firewall_virtual_ip.php, line: 332
 msgid "move selected virtual IPs to end"
-msgstr ""
+msgstr "選択した仮想 IP を末尾に移動"
 
 # File: src/www/firewall_virtual_ip.php, line: 335
 msgid "add new virtual IP"
-msgstr ""
+msgstr "新規仮想 IP を追加"
 
 msgid "The virtual IP addresses defined on this page may be used in"
 msgstr "このページで定義された仮想 IP アドレスは、"
@@ -7723,13 +7717,12 @@ msgid ""
 "Please add an IP alias in this subnet on this interface."
 msgstr "%s のサブネットと一致するインタフェースが見つかりません。このインタフェースに、そのサブネットの IP エイリアスを追加してください。"
 
-#, fuzzy
 msgid "For this type of vip localhost is not allowed."
-msgstr "このタイプの VIP には、CARP の親は許可されません。"
+msgstr "このタイプの VIP は、ローカルホストには許可されていません。"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 266
 msgid "Please provide a single IP address"
-msgstr ""
+msgstr "単一 IP アドレスを設定してください"
 
 msgid ""
 "This must be the network's subnet mask. It does not specify a CIDR range."
@@ -7746,7 +7739,7 @@ msgstr "IP エイリアス"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 334
 msgid "carp"
-msgstr ""
+msgstr "CARP"
 
 msgid "Proxy ARP"
 msgstr "プロキシ ARP"
@@ -7770,7 +7763,7 @@ msgstr "拡張: "
 msgid ""
 "Disable expansion of this entry into IPs on NAT lists (e.g. 192.168.1.0/24 "
 "expands to 256 entries."
-msgstr ""
+msgstr "このエントリの拡張を NAT リストの IP にするのは無効です (例: 192.168.1.0/24 を 256 エントリに拡張する )"
 
 msgid "Virtual IP Password"
 msgstr "仮想 IP パスワード"
@@ -7789,11 +7782,11 @@ msgstr "広告周期"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 433
 msgid "Base"
-msgstr ""
+msgstr "ベース"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 441
 msgid "Skew"
-msgstr ""
+msgstr "スキュー"
 
 msgid ""
 "The frequency that this machine will advertise.  0 means usually master. "
@@ -7822,7 +7815,7 @@ msgstr "利用可能なウィジェット"
 
 # File: src/www/graph.php, line: 79
 msgid "Cannot get data about interface %s"
-msgstr ""
+msgstr "インタフェース %s のデータを取得できません"
 
 msgid "In"
 msgstr "内"
@@ -7878,17 +7871,15 @@ msgstr "MB/s"
 msgid "GB/s"
 msgstr "GB/s"
 
-#, fuzzy
 msgid "The field %s contains invalid characters."
-msgstr "フィールド '%s' には無効な文字が含まれています"
+msgstr "フィールド %s に無効な文字があります。"
 
-#, fuzzy
 msgid "The field %s is required."
-msgstr "フィールド '%s' が必要です"
+msgstr "フィールド %s は必須です。"
 
 # File: src/www/guiconfig.inc, line: 264
 msgid "The following input errors were detected:"
-msgstr ""
+msgstr "次の入力エラーを検出しました: "
 
 msgid "Apply changes"
 msgstr "変更を適用"
@@ -7897,38 +7888,36 @@ msgstr "変更を適用"
 msgid ""
 "The firewall has globally been disabled and configured rules are currently "
 "not enforced. It can be enabled in the %sFirewall/NAT%s settings."
-msgstr ""
+msgstr "ファイアウォール全体が無効になりました。構成されたルールは現在実行されていません。%sファイアウォール / NAT%s 設定で有効にできます。"
 
-#, fuzzy
 msgid "The changes have been applied successfully."
-msgstr "ステータステーブルは正常に書き込みされました"
+msgstr "変更は正常に適用されました。"
 
 # File: src/www/guiconfig.inc, line: 380
 msgid ""
 "You can also <a href=\"status_filter_reload.php\">monitor</a> the filter "
 "reload progress."
-msgstr ""
+msgstr "フィルタ再読み込みの進行状況の<a href=\\\"status_filter_reload.php\\\">監視</a>もできます。"
 
 # File: src/www/guiconfig.inc, line: 412
 msgid "File %s is a directory."
-msgstr ""
+msgstr "ファイル %s はディレクトリです。"
 
 # File: src/www/guiconfig.inc, line: 414
 msgid "File %s doesn't exist."
-msgstr ""
+msgstr "ファイル %s は存在しません。"
 
 # File: src/www/guiconfig.inc, line: 389
 # File: src/www/guiconfig.inc, line: 420
 msgid "File %s yielded no results."
-msgstr ""
+msgstr "ファイル %s は何の結果も得られませんでした。"
 
-#, fuzzy
 msgid "Currently viewing: "
-msgstr "現バージョン"
+msgstr "現在の表示: "
 
 # File: src/www/guiconfig.inc, line: 629
 msgid "A problem was detected. Click %shere%s for more information."
-msgstr ""
+msgstr "問題が検出されました。詳しい情報は%sこちら%sをクリックしてください。"
 
 msgid "Acknowledge All Notices"
 msgstr "全ての通知を確認"
@@ -7942,9 +7931,8 @@ msgstr "未読の通知"
 msgid "Widget configuration has been changed."
 msgstr "ウィジェット構成が変更されました"
 
-#, fuzzy
 msgid "Starting initial configuration"
-msgstr "静的 IPv4 構成"
+msgstr "初期構成を開始しています"
 
 msgid "Welcome to %s!\n"
 msgstr "%s へようこそ！\n"
@@ -7965,7 +7953,7 @@ msgstr "選択したウィジェットを読み込んでいます"
 
 # File: src/www/interfaces.php, line: 214
 msgid "XML error: %s at line %d"
-msgstr ""
+msgstr "XML エラー: %s : %d 行"
 
 msgid "You have already applied your settings!"
 msgstr "設定は適用済みです！"
@@ -7990,6 +7978,8 @@ msgid ""
 "static IPv6 configuration. Please disable the DHCPv6 Server service on this "
 "interface first, then change the interface configuration."
 msgstr ""
+"このインタフェースでは DHCPv6 サーバがアクティブですが、静的 IPv6 構成でのみ使用できます。最初に DHCPv6 "
+"サーバサービスを無効にしてから、インタフェースの構成を変更してください。"
 
 msgid "IPv4 address"
 msgstr "IPv4 アドレス"
@@ -8075,11 +8065,11 @@ msgstr "この IPv4 アドレスは、別のインタフェース、または VI
 
 # File: src/www/interfaces.php, line: 628
 msgid "This IPv4 address is the network address and cannot be used"
-msgstr ""
+msgstr "この IPv4 アドレスはネットワークアドレスのため使用できません"
 
 # File: src/www/interfaces.php, line: 630
 msgid "This IPv4 address is the broadcast address and cannot be used"
-msgstr ""
+msgstr "この IPv4 アドレスはブロードキャストアドレスのため使用できません"
 
 msgid "This IPv4 address conflicts with a Static Route."
 msgstr "静的ルートで、この IPv4 アドレスが競合しています。"
@@ -8102,9 +8092,8 @@ msgstr "有効なエイリアス IP アドレスを指定してください"
 msgid "A valid alias subnet bit count must be specified."
 msgstr "有効なエイリアスサブネットビット数を指定してください"
 
-#, fuzzy
 msgid "A valid alias IP address must be specified to reject DHCP Leases from."
-msgstr "有効なエイリアス IP アドレスを指定してください"
+msgstr "拒絶する DHCP リースに有効なエイリアス IP アドレスを指定してください。"
 
 msgid "A valid gateway must be specified."
 msgstr "有効なゲートウェイを指定してください"
@@ -8136,9 +8125,8 @@ msgstr "有効な PPTP リモート IP アドレスを指定してください"
 msgid "A valid MAC address must be specified."
 msgstr "有効な MAC アドレスを指定してください。"
 
-#, fuzzy
 msgid "The MTU must be greater than 576 bytes and less than 9000."
-msgstr "MTU は、576 バイト以上です"
+msgstr "MTU は、576 - 9000 バイトです。"
 
 msgid "MTU of a vlan should not be bigger than parent interface."
 msgstr "VLAN の MTU は、親インタフェースよりも小さい値を設定してください。"
@@ -8188,6 +8176,8 @@ msgid ""
 "private  networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well as "
 "loopback addresses (127/8)."
 msgstr ""
+"このオプションが設定されると、プライベートネットワークとして RFC 1918 で予約されている IP アドレス (10/8, 172.16/12, "
+"192.168/16)、及びループバックアドレス (127/8) のトラフィックを拒否します。"
 
 msgid ""
 "You should generally leave this option turned on, unless your WAN network "
@@ -8198,8 +8188,8 @@ msgid ""
 "When set, this option blocks traffic from IP addresses that are reserved ("
 "but not RFC 1918) or not yet assigned by IANA."
 msgstr ""
-"このオプションが設定されると、予約されているIP アドレス ( RFC 1918 以外 )、もしくは、IANA が未割当ての IP "
-"アドレスからのトラフィックをブロックします。"
+"このオプションが設定されると、予約されている IP アドレス ( RFC 1918 以外 )、もしくは、IANA が未割当ての IP "
+"アドレスからのトラフィックを拒否します。"
 
 msgid ""
 "Bogons are prefixes that should never appear in the Internet routing table, "
@@ -8285,7 +8275,7 @@ msgstr "速度と双方向通信"
 
 # File: src/www/interfaces.php, line: 1802
 msgid "Default (no preference, typically autoselect)"
-msgstr ""
+msgstr "デフォルト ( 参照しない、通常は自動選択 )"
 
 msgid ""
 "Here you can explicitly set speed and duplex mode for this interface. "
@@ -8299,16 +8289,14 @@ msgstr ""
 msgid "Static IPv4 configuration"
 msgstr "静的 IPv4 構成"
 
-#, fuzzy
 msgid "IPv4 Upstream Gateway"
-msgstr "ゲートウェイを使用"
+msgstr "IPv4 アップストリームゲートウェイ"
 
 msgid "add a new one."
 msgstr "新規で追加"
 
-#, fuzzy
 msgid "Add new gateway"
-msgstr "新規ゲートウェイを追加: "
+msgstr "新規ゲートウェイを追加"
 
 msgid "Default gateway:"
 msgstr "デフォルトゲートウェイ: "
@@ -8325,16 +8313,15 @@ msgstr "説明: "
 msgid "Save Gateway"
 msgstr "ゲートウェイを保存"
 
-#, fuzzy
 msgid ""
 "If this interface is an Internet connection, select an existing Gateway from "
 "the list or add a new one using the link above."
-msgstr "このインタフェースがインターネット接続する場合、リストから既存のゲートウェイを選択するか、上記のリンクを使用して新規で追加してください。"
+msgstr "このインタフェースがインターネット接続である場合、リストから既存のゲートウェイを選択するか、上記のリンクを使用して新規で追加してください。"
 
 # File: src/www/interfaces.php, line: 1776
 # File: src/www/interfaces.php, line: 1885
 msgid "On local LANs the upstream gateway should be \"none\"."
-msgstr ""
+msgstr "ローカル LAN のアップストリームゲートウェイは「なし」にしてください。"
 
 msgid "NOTE:"
 msgstr "注意: "
@@ -8348,13 +8335,13 @@ msgstr "DHCP クライアント構成"
 # File: src/www/interfaces.php, line: 1937
 # File: src/www/interfaces.php, line: 2530
 msgid "Basic"
-msgstr ""
+msgstr "基本"
 
 # File: src/www/interfaces.php, line: 1945
 # File: src/www/interfaces.php, line: 2073
 # File: src/www/interfaces.php, line: 2538
 msgid "Config File Override"
-msgstr ""
+msgstr "構成ファイルを上書き"
 
 msgid ""
 "The value in this field is sent as the DHCP client identifier and hostname "
@@ -8374,89 +8361,88 @@ msgstr "このフィールドの値は、DHCP クライアントが、エイリ�
 
 # File: src/www/interfaces.php, line: 1996
 msgid "Reject Leases From"
-msgstr ""
+msgstr "リースの拒絶"
 
 # File: src/www/interfaces.php, line: 2000
 msgid ""
 "If there is a certain upstream DHCP server that should be ignored, place the "
 "IP address or subnet of the DHCP server to be ignored here."
 msgstr ""
+"無視すべきアップストリーム DHCP サーバが確実に存在する場合は、その DHCP サーバの IP "
+"アドレスもしくはサブネットをここに設定することで無視されるようになります。"
 
 # File: src/www/interfaces.php, line: 2001
 msgid ""
 "This is useful for rejecting leases from cable modems that offer private IPs "
 "when they lose upstream sync."
-msgstr ""
+msgstr "これは、アップストリームと同期できなくなった場合に、プライベート IP を要求するケーブルモデムからのリースを拒絶するのに便利です。"
 
-#, fuzzy
 msgid "Protocol Timing"
-msgstr "プロトコルバージョン"
+msgstr "プロトコルタイミング"
 
 # File: src/www/interfaces.php, line: 2003
 msgid "Timeout"
-msgstr ""
+msgstr "タイムアウト"
 
 msgid "Retry"
 msgstr "再試行"
 
 # File: src/www/interfaces.php, line: 2005
 msgid "Select Timeout"
-msgstr ""
+msgstr "タイムアウトを選択"
 
 # File: src/www/interfaces.php, line: 2006
 msgid "Reboot"
-msgstr ""
+msgstr "再起動"
 
 # File: src/www/interfaces.php, line: 2007
 msgid "Backoff Cutoff"
-msgstr ""
+msgstr "バックオフ カットオフ"
 
 # File: src/www/interfaces.php, line: 2008
 msgid "Initial Interval"
-msgstr ""
+msgstr "初期間隔"
 
 # File: src/www/interfaces.php, line: 2010
 msgid "Presets:"
-msgstr ""
+msgstr "プリセット: "
 
 # File: src/www/interfaces.php, line: 2013
 msgid "FreeBSD Default"
-msgstr ""
+msgstr "FreeBSD デフォルト"
 
 msgid "Clear"
 msgstr "消去"
 
 # File: src/www/interfaces.php, line: 2019
 msgid "OPNsense Default"
-msgstr ""
+msgstr "OPNsense デフォルト"
 
 # File: src/www/interfaces.php, line: 2022
 msgid "Saved Cfg"
-msgstr ""
+msgstr "構成を保存"
 
-#, fuzzy
 msgid ""
 "The values in these fields are DHCP protocol timings used when requesting a "
 "lease. <br /> "
-msgstr "このフィールドの値は、DHCPv6 リースのリクエスト時に、DHCPv6 クライアント識別子として送信されます。"
+msgstr "これらのフィールドの値は、リースのリクエスト時に使用される DHCP プロトコルタイミングです。<br /> "
 
 # File: src/www/interfaces.php, line: 2032
 msgid "Lease Requirements"
-msgstr ""
+msgstr "リースの必要条件"
 
 # File: src/www/interfaces.php, line: 2035
 msgid "FreeBSD Manual"
-msgstr ""
+msgstr "FreeBSD マニュアル"
 
 # File: src/www/interfaces.php, line: 2035
 msgid ""
 "More detailed information about lease requirements and requests can be found "
 "in the "
-msgstr ""
+msgstr "リースの必要条件やリクエストに関する詳細情報は次で確認できます: "
 
-#, fuzzy
 msgid "Send Options"
-msgstr "オプション"
+msgstr "送信オプション"
 
 # File: src/www/interfaces.php, line: 2073
 msgid ""
@@ -8467,33 +8453,34 @@ msgid ""
 "omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent. "
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP オプションとして送信されます。[オプション 宣言 [, ...]] <br "
+"/>値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
+"指定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
-#, fuzzy
 msgid "Request Options"
-msgstr "NetBIOS オプション"
+msgstr "リクエストオプション"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP option 55 to be sent when requesting a "
 "DHCP lease.  [option [, ...]] <br />Some ISPs may require certain options be "
 "or not be requested. "
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に、DHCP クライアント識別子とホスト名として送信されます。一部の ISP はこの値を ( "
-"クライアント識別子として ) 要求します。"
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP オプション 55 として送信されます。  [オプション [, ...]] <br />"
+"一部の ISP は、リクエストされる、もしくは、リクエストされなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
-msgstr ""
+msgstr "必須オプション"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease.  [option [, ...]] "
-msgstr "このフィールドの値は、DHCPv6 リースのリクエスト時に、DHCPv6 クライアント識別子として送信されます。"
+msgstr "このフィールドの値は、DHCP リースのリクエスト時に、クライアントが要求する DHCP オプションです。  [オプション [, ...]] "
 
 # File: src/www/interfaces.php, line: 2062
 msgid "Option Modifiers"
-msgstr ""
+msgstr "オプション修飾子"
 
 # File: src/www/interfaces.php, line: 2096
 msgid ""
@@ -8501,11 +8488,13 @@ msgid ""
 "lease.  [modifier option declaration [, ...]] <br /> modifiers: (default, "
 "supersede, prepend, append)"
 msgstr ""
+"このフィールドの値は DHCP オプション修飾子で、取り込まれた DHCP リースに適用されます。  [修飾子 オプション 宣言 [, ...]] <"
+"br /> 修飾子: (default, supersede, prepend, append)"
 
 # File: src/www/interfaces.php, line: 2068
 # File: src/www/interfaces.php, line: 2081
 msgid "FreeBSD manual"
-msgstr ""
+msgstr "FreeBSD マニュアル"
 
 # File: src/www/interfaces.php, line: 2106
 # File: src/www/interfaces.php, line: 2351
@@ -8517,6 +8506,10 @@ msgid ""
 "Delimiter (space, colon, hyphen, or period) (omitted for none). <br />Some "
 "ISPs may require certain options be or not be sent. "
 msgstr ""
+"このフィールドの値は、DHCP クライアント構成ファイルの完全な絶対パスです。  [/[ディレクトリ名/[.../]]ファイル名[.ext]] <br "
+"/>構成ファイルの値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} "
+"<br />C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ("
+" 指定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
 msgid "PPP configuration"
 msgstr "PPP 構成"
@@ -8624,7 +8617,7 @@ msgid "reset at each hour ('0 * * * *')"
 msgstr "毎時間リセット ('0 * * * *')"
 
 msgid "Advanced and MLPPP"
-msgstr "高度な構成・MLPPP"
+msgstr "詳細構成・MLPPP"
 
 msgid ""
 "for additional PPPoE configuration options. Save first if you made changes."
@@ -8658,9 +8651,8 @@ msgstr "詳細な PPTP・L2TP 構成オプション"
 msgid "Static IPv6 configuration"
 msgstr "静的 IPv6 構成"
 
-#, fuzzy
 msgid "IPv6 Upstream Gateway"
-msgstr "ゲートウェイを使用"
+msgstr "IPv6 アップストリームゲートウェイ"
 
 msgid "Add new v6 gateway:"
 msgstr "新規 IPv6 ゲートウェイを追加: "
@@ -8676,48 +8668,45 @@ msgstr "IPv6 ゲートウェイ: "
 
 # File: src/www/interfaces.php, line: 2520
 msgid "DHCPv6 client configuration"
-msgstr ""
+msgstr "DHCPv6 クライアント構成"
 
 # File: src/www/interfaces.php, line: 2544
 msgid "Use IPv4 connectivity"
-msgstr ""
+msgstr "IPv4 接続を使用"
 
 # File: src/www/interfaces.php, line: 2188
 msgid "Request a IPv6 prefix/information through the IPv4 connectivity link"
-msgstr ""
+msgstr "IPv4 接続リンクを経由して IPv6 プレフィックス / 情報をリクエスト"
 
-#, fuzzy
 msgid "Request only a IPv6 prefix"
-msgstr "送信先 IPv6 プレフィックス"
+msgstr "IPv6 プレフィックスのみをリクエスト"
 
 # File: src/www/interfaces.php, line: 2195
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
-msgstr ""
+msgstr "IPv6 プレフィックスのみをリクエストし、IPv6 アドレスはリクエストしない"
 
 msgid "DHCPv6 Prefix Delegation size"
-msgstr "DHCPv6 Prefix Delegation サイズ"
+msgstr "DHCPv6 プレフィックスデリゲーションサイズ"
 
 msgid ""
 "The value in this field is the delegated prefix length provided by the "
 "DHCPv6 server. Normally specified by the ISP."
-msgstr "このフィールドの値は、DHCPv6 サーバが提供する delegated prefix の長さです。通常は ISP が指定します。"
+msgstr "このフィールドの値は、DHCPv6 サーバが提供する委譲されたプレフィックスの長さです。通常は ISP が指定します。"
 
-#, fuzzy
 msgid "Send IPv6 prefix hint"
-msgstr "内部 IPv6 プレフィックス"
+msgstr "IPv6 プレフィックスヒントを送信"
 
 # File: src/www/interfaces.php, line: 2219
 msgid ""
 "Send an IPv6 prefix hint to indicate the desired prefix size for delegation"
-msgstr ""
+msgstr "デリゲーションで要求されるプレフィックスサイズを指定する IPv6 プレフィックスヒントを送信します。"
 
 # File: src/www/interfaces.php, line: 2588
 msgid "Interface Statement"
-msgstr ""
+msgstr "インタフェースステートメント"
 
-#, fuzzy
 msgid "Information Only"
-msgstr "情報応答"
+msgstr "情報のみ"
 
 # File: src/www/interfaces.php, line: 2593
 msgid ""
@@ -8727,10 +8716,13 @@ msgid ""
 "does not need stateful configuration parameters such as IPv6 addresses or  "
 "prefixes."
 msgstr ""
+"このステートメントは、サーバとの情報構成パラメータの交換でのみ dhcp6c に指定されます。DNS "
+"サーバリストのアドレスはそのようなパラメータの一例です。このステートメントはクライアントが IPv6 "
+"アドレスやプレフィックスのようなステートフル構成パラメータを必要としない場合に便利です。"
 
 # File: src/www/interfaces.php, line: 2598
 msgid "source: FreeBSD man page"
-msgstr ""
+msgstr "情報源: FreeBSD man ページ"
 
 # File: src/www/interfaces.php, line: 2234
 msgid ""
@@ -8741,19 +8733,23 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent. "
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP 送信オプションとして送信されます。[オプション 宣言 [, ...]] <br "
+"/>値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
+"指定しない場合は省略してください )。<br />一部の DHCP "
+"サービスは、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP request options to be sent when requesting "
 "a DHCP lease.  [option [, ...]] <br />Some DHCP services may require certain "
 "options be or not be requested. "
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に、DHCP クライアント識別子とホスト名として送信されます。一部の ISP はこの値を ( "
-"クライアント識別子として ) 要求します。"
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP リクエストオプションとして送信されます。  [オプション [, ...]] <br />"
+"一部の DHCP サービスは、リクエストされる、もしくは、リクエストされなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2247
 msgid "Script"
-msgstr ""
+msgstr "スクリプト"
 
 # File: src/www/interfaces.php, line: 2250
 msgid ""
@@ -8761,116 +8757,112 @@ msgid ""
 "conditions including when a reply message is received. <br "
 "/>[/[dirname/[.../]]filename[.ext]] "
 msgstr ""
+"このフィールドの値は、応答メッセージを受信した場合も含み、特定の条件で起動するスクリプトの絶対パスです。<br "
+"/>[/[ディレクトリ名/[.../]]ファイル名[.ext]] "
 
 # File: src/www/interfaces.php, line: 2629
 msgid "Identity Association"
-msgstr ""
+msgstr "ID 関連付け"
 
-#, fuzzy
 msgid "Non-Temporary Address Allocation"
-msgstr "ネットワークアドレス変換"
+msgstr "非一時アドレス割当て"
 
 # File: src/www/interfaces.php, line: 2264
 msgid "id-assoc na"
-msgstr ""
+msgstr "id-assoc na"
 
 # File: src/www/interfaces.php, line: 2265
 # File: src/www/interfaces.php, line: 2282
 msgid "<i>ID</i>"
-msgstr ""
+msgstr "<i>ID</i>"
 
 # File: src/www/interfaces.php, line: 2269
 msgid "<i>ipv6-address</i>"
-msgstr ""
+msgstr "<i>ipv6-address</i>"
 
 # File: src/www/interfaces.php, line: 2271
 # File: src/www/interfaces.php, line: 2288
 msgid "<i>pltime</i>"
-msgstr ""
+msgstr "<i>pltime</i>"
 
 # File: src/www/interfaces.php, line: 2273
 # File: src/www/interfaces.php, line: 2290
 msgid "<i>vltime</i>"
-msgstr ""
+msgstr "<i>vltime</i>"
 
-#, fuzzy
 msgid "Prefix Delegation"
-msgstr "プレフィックスデリゲーションサイズ"
+msgstr "プレフィックスデリゲーション"
 
 # File: src/www/interfaces.php, line: 2281
 msgid "id-assoc pd"
-msgstr ""
+msgstr "id-assoc pd"
 
-#, fuzzy
 msgid "Prefix"
-msgstr "IPv6 プレフィックス"
+msgstr "プレフィックス"
 
 # File: src/www/interfaces.php, line: 2286
 msgid "<i>ipv6-prefix</i>"
-msgstr ""
+msgstr "<i>ipv6-prefix</i>"
 
 # File: src/www/interfaces.php, line: 2665
 msgid "Prefix Interface"
-msgstr ""
+msgstr "プレフィックスインタフェース"
 
-#, fuzzy
 msgid "Prefix Interface "
-msgstr "ブリッジインタフェース"
+msgstr "プレフィックスインタフェース "
 
 # File: src/www/interfaces.php, line: 2302
 msgid "<i>sla-id</i>"
-msgstr ""
+msgstr "<i>sla-id</i>"
 
 # File: src/www/interfaces.php, line: 2304
 msgid "<i>sla-len</i>"
-msgstr ""
+msgstr "<i>sla-len</i>"
 
 msgid "Authentication"
 msgstr "認証"
 
 # File: src/www/interfaces.php, line: 2314
 msgid "<i>authname</i>"
-msgstr ""
+msgstr "<i>authname</i>"
 
-#, fuzzy
 msgid "<i>protocol</i>"
-msgstr "プロトコル"
+msgstr "<i>protocol</i>"
 
-#, fuzzy
 msgid "<i>algorithm</i>"
-msgstr "ハッシュアルゴリズム"
+msgstr "<i>algorithm</i>"
 
 # File: src/www/interfaces.php, line: 2320
 msgid "<i>rdm</i>"
-msgstr ""
+msgstr "<i>rdm</i>"
 
 # File: src/www/interfaces.php, line: 2688
 msgid "Keyinfo"
-msgstr ""
+msgstr "鍵情報"
 
 # File: src/www/interfaces.php, line: 2330
 msgid "<i>keyname</i>"
-msgstr ""
+msgstr "<i>keyname</i>"
 
 # File: src/www/interfaces.php, line: 2332
 msgid "<i>realm</i>"
-msgstr ""
+msgstr "<i>realm</i>"
 
 # File: src/www/interfaces.php, line: 2335
 msgid "<i>keyid</i>"
-msgstr ""
+msgstr "<i>keyid</i>"
 
 # File: src/www/interfaces.php, line: 2337
 msgid "<i>secret</i>"
-msgstr ""
+msgstr "<i>secret</i>"
 
 # File: src/www/interfaces.php, line: 2339
 msgid "<i>expire</i>"
-msgstr ""
+msgstr "<i>expire</i>"
 
 # File: src/www/interfaces.php, line: 2704
 msgid "Configuration File Override"
-msgstr ""
+msgstr "構成ファイル上書き"
 
 msgid "6RD Rapid Deployment"
 msgstr "6RD Rapid Deployment"
@@ -8920,8 +8912,8 @@ msgid ""
 "The value in this field is the (Delegated) IPv6 prefix id. This determines "
 "the configurable network ID based on the dynamic IPv6 connection"
 msgstr ""
-"このフィールドの値は、(Delegated) IPv6 プレフィックス IDです。この値は、ダイナミック IPv6 接続に基づいた、"
-"構成可能なネットワーク ID を決定します。"
+"このフィールドの値は、( 委譲された ) IPv6 プレフィックス IDです。この値は、ダイナミック IPv6 接続に基づいた、構成可能なネットワーク "
+"ID を決定します。"
 
 msgid ""
 "Enter a <b>hexadecimal</b> value between %x and %x here, default value is 0."
@@ -9087,7 +9079,7 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 3067
 msgid "Minimum standard"
-msgstr ""
+msgstr "最低基準"
 
 msgid "802.11g"
 msgstr "802.11g"
@@ -9257,7 +9249,7 @@ msgstr "このオプションは「WPA 装置を有効」をチェックする�
 
 # File: src/www/interfaces.php, line: 3275
 msgid "802.1X Server IP Address"
-msgstr ""
+msgstr "802.1X サーバ IP アドレス"
 
 msgid ""
 "Enter the IP address of the 802.1X Authentication Server.  This is commonly "
@@ -9267,43 +9259,43 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 3284
 msgid "802.1X Server Port"
-msgstr ""
+msgstr "802.1X サーバポート"
 
 msgid "Leave blank for the default 1812 port."
 msgstr "デフォルトの 1812 ポートの場合は空白にします。"
 
 # File: src/www/interfaces.php, line: 3293
 msgid "802.1X Server Shared Secret"
-msgstr ""
+msgstr "802.1X サーバ共有秘密鍵"
 
 # File: src/www/interfaces.php, line: 3299
 msgid "802.1X Server IP Address (2)"
-msgstr ""
+msgstr "802.1X サーバ IP アドレス (2)"
 
 msgid "Secondary 802.1X Authentication Server IP Address"
 msgstr "セカンダリ 802.1X 認証サーバの IP アドレス"
 
 # File: src/www/interfaces.php, line: 3309
 msgid "802.1X Server Port (2)"
-msgstr ""
+msgstr "802.1X サーバポート (2)"
 
 msgid "Secondary 802.1X Authentication Server Port"
 msgstr "セカンダリ 802.1X 認証サーバのポート"
 
 # File: src/www/interfaces.php, line: 3319
 msgid "802.1X Server Shared Secret (2)"
-msgstr ""
+msgstr "802.1X サーバ共有秘密鍵 (2)"
 
 msgid "Secondary 802.1X Authentication Server Shared Secret"
 msgstr "セカンダリ 802.1X 認証サーバの共有秘密鍵"
 
 # File: src/www/interfaces.php, line: 3328
 msgid "802.1X Roaming Preauth"
-msgstr ""
+msgstr "802.1X ローミング事前認証"
 
 # File: src/www/interfaces_assign.php, line: 49
 msgid "vlan %s on %s"
-msgstr ""
+msgstr "VLAN %s : %s"
 
 msgid "lan"
 msgstr "LAN"
@@ -9330,7 +9322,7 @@ msgstr "インタフェースは GIF トンネルの一部です。継続する�
 
 # File: src/www/interfaces_assign.php, line: 271
 msgid "Port %s was assigned to %d interfaces:"
-msgstr ""
+msgstr "ポート %s は %d インタフェースに割り当てられました: "
 
 msgid ""
 "You cannot set port %s to interface %s because this interface is a member of "
@@ -9339,7 +9331,7 @@ msgstr "%s ポートを %s インタフェースに設定できません。こ�
 
 # File: src/www/interfaces_assign.php, line: 299
 msgid "VLAN parent interface %s does not exist."
-msgstr ""
+msgstr "VLAN 親 インタフェース %s は存在しません。"
 
 msgid "Do you really want to delete this interface?"
 msgstr "本当にこのインタフェースを削除しますか？"
@@ -9350,19 +9342,17 @@ msgstr "ネットワークポート"
 msgid "delete interface"
 msgstr "インタフェースの削除"
 
-#, fuzzy
 msgid "Available network ports:"
-msgstr "ネットワークポートの割当て"
+msgstr "利用可能なネットワークポート: "
 
-#, fuzzy
 msgid "add selected interface"
-msgstr "インタフェースの削除"
+msgstr "選択したインタフェースを追加"
 
 # File: src/www/interfaces_assign.php, line: 527
 msgid ""
 "Interfaces that are configured as members of a LAGG interface will not be "
 "shown."
-msgstr ""
+msgstr "LAGG インタフェースのメンバとして構成されたインタフェースは表示されなくなります。"
 
 msgid "This bridge cannot be deleted because it is assigned as an interface."
 msgstr "このブリッジは削除できません。インタフェースとして割当てされています。"
@@ -9375,7 +9365,7 @@ msgstr "メンバ"
 
 # File: src/www/interfaces_bridge.php, line: 155
 msgid "edit bridge"
-msgstr ""
+msgstr "ブリッジを編集"
 
 msgid "Here you can configure bridging of interfaces."
 msgstr "インタフェースのブリッジを構成できます。"
@@ -9406,13 +9396,13 @@ msgstr "STP の転送保留カウント値は 1 - 10 の整数です。"
 
 # File: src/www/interfaces_bridge_edit.php, line: 143
 msgid "%s interface priority for STP needs to be an integer between 0 and 240."
-msgstr ""
+msgstr "STP での %s インタフェースの優先度は 0 - 240 の整数です。"
 
 # File: src/www/interfaces_bridge_edit.php, line: 149
 msgid ""
 "%s interface path cost for STP needs to be an integer between 1 and "
 "200000000."
-msgstr ""
+msgstr "STP での %s インタフェースのパスコストは 1 - 200000000 の整数です。"
 
 msgid "You must select at least 2 member interfaces for a bridge."
 msgstr "ブリッジには最低でも 2 つのメンバインタフェースを選択してください。"
@@ -9441,25 +9431,25 @@ msgid "Interfaces participating in the bridge."
 msgstr "ブリッジに参加しているインタフェース"
 
 msgid "Show advanced options"
-msgstr "高度なオプションを表示"
+msgstr "詳細オプションを表示"
 
 msgid "RSTP/STP"
 msgstr "RSTP / STP"
 
 # File: src/www/interfaces_bridge_edit.php, line: 298
 msgid "Spanning Tree Protocol"
-msgstr ""
+msgstr "スパニングツリープロトコル"
 
 msgid "Enable spanning tree options for this bridge."
 msgstr "このブリッジにスパニングツリーオプションを有効"
 
 # File: src/www/interfaces_bridge_edit.php, line: 316
 msgid "RSTP"
-msgstr ""
+msgstr "RSTP"
 
 # File: src/www/interfaces_bridge_edit.php, line: 319
 msgid "STP"
-msgstr ""
+msgstr "STP"
 
 msgid "Protocol used for spanning tree."
 msgstr "スパニングツリーに使用されるプロトコル"
@@ -9546,7 +9536,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 452
 msgid "Advanced options"
-msgstr ""
+msgstr "詳細オプション"
 
 msgid "Cache size"
 msgstr "キャッシュサイズ"
@@ -9558,7 +9548,7 @@ msgstr "エントリ"
 msgid ""
 "Set the size of the bridge address cache to size.  The default is .100 "
 "entries."
-msgstr ""
+msgstr "サイズには、ブリッジアドレスキャッシュのサイズを設定してください。デフォルトは .100 エントリです。"
 
 msgid "Cache entry expire time"
 msgstr "キャッシュエントリの有効期限"
@@ -9673,7 +9663,7 @@ msgstr "トンネル接続先..."
 # File: src/www/interfaces_lagg.php, line: 144
 # File: src/www/interfaces_vlan.php, line: 136
 msgid "edit interface"
-msgstr ""
+msgstr "インタフェースを編集"
 
 msgid "GIF tunnels are configured here."
 msgstr "GIF トンネルはここで構成します。"
@@ -9685,6 +9675,9 @@ msgid ""
 "Tunnelbroker dynamic DNS entry%s to keep your tunnel functional when your IP "
 "changes."
 msgstr ""
+"動的 IP を使用した WAN で Hurricane Electric (he.net) Tunnel Broker との接続に GIF "
+"トンネルを使っている場合は、IP 変更時にトンネル機能を維持するために、%sHE.net Tunnelbroker 動的 DNS エントリ%s "
+"を追加したくなるかもしれません。"
 
 msgid ""
 "Parent interface,Local address, Remote tunnel address, Remote tunnel "
@@ -9714,21 +9707,21 @@ msgstr "ここのインタフェースは、GIF トンネルに使用される�
 
 # File: src/www/interfaces_gif_edit.php, line: 205
 msgid "GIF remote address"
-msgstr ""
+msgstr "GIF リモートアドレス"
 
 msgid "Peer address where encapsulated gif packets will be sent. "
 msgstr "カプセル化した GIF パケットが送信されるピアアドレス"
 
 # File: src/www/interfaces_gif_edit.php, line: 214
 msgid "GIF tunnel local address"
-msgstr ""
+msgstr "GIF トンネルローカルアドレス"
 
 msgid "Local gif tunnel endpoint"
 msgstr "ローカル GIF トンネルエンドポイント"
 
 # File: src/www/interfaces_gif_edit.php, line: 223
 msgid "GIF tunnel remote address "
-msgstr ""
+msgstr "GIF トンネルリモートアドレス"
 
 msgid ""
 "Remote gif address endpoint. The subnet part is used for determining the "
@@ -9831,7 +9824,7 @@ msgstr "WCCP バージョン"
 msgid ""
 "Check this box for WCCP encapsulation version 2, or leave unchecked for "
 "version 1."
-msgstr ""
+msgstr "WCCP カプセル化バージョン 2 を使用する場合は、このボックスをチェックしてください。チェックしない場合はバージョン 1 を使用します。"
 
 msgid ""
 "Do you really want to delete this group? All elements that still use it will "
@@ -9862,7 +9855,7 @@ msgstr "グループ名に使用可能な文字は A - Z のみです"
 msgid ""
 "The specified group name is already used by an interface. Please choose "
 "another name."
-msgstr ""
+msgstr "指定したグループ名は、既にインタフェースが使用しています。他の名前を選択してください。"
 
 msgid "Interface Groups Edit"
 msgstr "インタフェースグループの編集"
@@ -9871,7 +9864,7 @@ msgid "Group Name"
 msgstr "グループ名"
 
 msgid "No numbers or spaces are allowed. Only characters in a-zA-Z"
-msgstr "数字やスペースは使用できません。A - Z のみが使用可です"
+msgstr "数字やスペースは使用できません。a - z A - Z のみが使用可です"
 
 msgid "Member (s)"
 msgstr "メンバ"
@@ -9880,14 +9873,13 @@ msgstr "メンバ"
 msgid ""
 "Rules for WAN type interfaces in groups do not contain the reply-to "
 "mechanism upon which Multi-WAN typically relies."
-msgstr ""
+msgstr "グループ内の WAN タイプインタフェースへのルールには reply-to メカニズムは含みません。マルチ WAN は通常信頼します。"
 
 msgid "This LAGG interface cannot be deleted because it is still being used."
 msgstr "この LAGG インタフェースを削除できません。まだ使用されています"
 
-#, fuzzy
 msgid "Do you really want to delete this LAGG interface?"
-msgstr "本当にこのインタフェースを削除しますか？"
+msgstr "本当にこの LAGG インタフェースを削除しますか？"
 
 msgid ""
 "LAGG allows for link aggregation, bonding and fault tolerance. Only "
@@ -10333,7 +10325,7 @@ msgstr "親として指定されたインタフェースは無効です"
 # File: src/www/interfaces_vlan_edit.php, line: 85
 msgid ""
 "Interface is assigned and you cannot change the VLAN tag while assigned."
-msgstr ""
+msgstr "インタフェースは割当てされました。割当て中は VLAN タグを変更できません。"
 
 msgid "A VLAN with the tag %s is already defined on this interface."
 msgstr "タグ %s の VLAN は、このインタフェースで既に定義されています"
@@ -10380,6 +10372,8 @@ msgid ""
 "Error creating interface with mode %s. The %s interface may not support "
 "creating more clones with the selected mode."
 msgstr ""
+"モード %s でのインタフェースの作成にエラーが発生しました。%s "
+"インタフェースは、選択したモードでこれ以上のクローン作成をサポートしていない可能性があります。"
 
 msgid "Wireless clone configuration"
 msgstr "無線クローン構成"
@@ -10455,6 +10449,8 @@ msgid ""
 "This feature is intended for server load balancing, not multi-WAN. For load "
 "balancing or failover for multiple WANs, use %sGateway Groups%s."
 msgstr ""
+"この機能はサーバのロードバランシング用で、マルチ WAN 用ではありません。マルチ WAN "
+"のロードバランシングもしくはフェイルオーバは、%sゲートウェイグループ%sを使用してください。"
 
 msgid "Server List"
 msgstr "サーバリスト"
@@ -10464,11 +10460,10 @@ msgstr "このプール名は既に使用されています。プール名は固
 
 # File: src/www/load_balancer_pool_edit.php, line: 81
 msgid "The name '%s' is a reserved word and cannot be used."
-msgstr ""
+msgstr "「%s」という名前は予約語ですので、使用できません。"
 
-#, fuzzy
 msgid "Sorry, an alias is already named %s."
-msgstr "%s という名前のインタフェースは既にあります"
+msgstr "残念ですが、%s という名前のエイリアスは既に存在します。"
 
 msgid "The port must be an integer between 1 and 65535, or a port alias."
 msgstr "ポートは、1-65535 の整数、または、ポートエイリアスです"
@@ -10554,7 +10549,7 @@ msgstr "prefork 値は 1 - 32 です"
 
 # File: src/www/load_balancer_setting.php, line: 117
 msgid "Global settings"
-msgstr ""
+msgstr "全般設定"
 
 msgid "timeout"
 msgstr "タイムアウト"
@@ -10575,11 +10570,10 @@ msgstr "プールのメンバをチェックする間隔を、秒単位で設定
 msgid "prefork"
 msgstr "prefork"
 
-#, fuzzy
 msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
-msgstr "relayd が使用するプロセス数です。空白の場合は、デフォルト値の 5 プロセスを使用します。"
+msgstr "DNS プロトコルに対して relayd が使用するプロセス数です。空白の場合は、デフォルト値の 5 プロセスを使用します。"
 
 msgid "The virtual server configuration has been changed"
 msgstr "仮想サーバの構成が変更されました"
@@ -10613,7 +10607,7 @@ msgstr "%s は IP アドレスが 64 個以上含まれるサブネットです"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 89
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
-msgstr ""
+msgstr "DNS リレープロトコルの使用時は、フォールバックプールを選択できません。"
 
 msgid "Edit Load Balancer - Virtual Server entry"
 msgstr "ロードバランサの編集 - 仮想サーバエントリ"
@@ -10642,15 +10636,14 @@ msgstr "仮想サーバプール"
 msgid "Please add a pool on the Pools tab to use this feature."
 msgstr "この機能を使用するには、プールタブで、プールを追加してください"
 
-#, fuzzy
 msgid ""
 "The server pool to which clients will be redirected if *ALL* servers in the "
 "Virtual Server Pool are offline."
-msgstr "プールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバにリダイレクトされます。"
+msgstr "仮想サーバプールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバプールにリダイレクトされます。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 244
 msgid "This option is NOT compatible with the DNS relay protocol."
-msgstr ""
+msgstr "このオプションは DNS リレープロトコルと互換性が「ありません」。"
 
 msgid "Submit"
 msgstr "設定"
@@ -10709,15 +10702,13 @@ msgstr "最大リース期間は 60 秒以上で、かつ、デフォルトリ�
 msgid "A valid domain name must be specified for the dynamic DNS registration."
 msgstr "ダイナミック DNS 登録に有効なドメイン名を指定してください"
 
-#, fuzzy
 msgid ""
 "A valid primary domain name server IP address must be specified for the "
 "dynamic domain name."
-msgstr "DNS ドメインに有効なドメイン名を指定してください"
+msgstr "動的ドメイン名に、有効なプライマリドメインネームサーバ IP アドレスを指定してください。"
 
-#, fuzzy
 msgid "You must specify both a valid domain key and key name."
-msgstr "有効なポート番号を指定してください"
+msgstr "有効なドメイン認証鍵と鍵名を指定してください。"
 
 msgid "A valid domain search list must be specified."
 msgstr "有効なドメイン検索リストを指定してください"
@@ -10759,6 +10750,7 @@ msgid ""
 "Cannot enable static ARP when you have static map entries without IP "
 "addresses. Ensure all static maps have IP addresses and try again."
 msgstr ""
+"IP アドレスのない静的マップエントリがあると、静的 ARP は有効にできません。全ての静的マップに IP アドレスを持たせてから、再試行してください。"
 
 msgid "Text type cannot include quotation marks."
 msgstr "text 型には、クォーテーションマークは使用できません"
@@ -10919,14 +10911,13 @@ msgstr ""
 "注意: システムデフォルトの DNS サーバを使用する場合は空白にしてください - DNS フォワーダが有効な場合は、このインタフェースの IP "
 "を、それ以外の場合は、全般ページでサーバを構成してください。"
 
-#, fuzzy
 msgid ""
 "The default is to use the IP on this interface of the firewall as the "
 "gateway. Specify an alternate gateway here if this is not the correct "
 "gateway for your network. Type \"none\" for no gateway assignment."
 msgstr ""
-"デフォルトでは、このファイアウォールインタフェースの IP "
-"をゲートウェイとして使用します。これがネットワークの正しいゲートウェイでない場合は、ここで、別のゲートウェイを指定してください。"
+"デフォルトでは、ファイアウォールのこのインタフェースに設定されている IP をゲートウェイとして使用します。これがネットワークの正しいゲートウェイでない場"
+"合は、ここで、別のゲートウェイを指定してください。「なし」タイプにすると、ゲートウェイ割当てを行いません。"
 
 msgid "Domain name"
 msgstr "ドメイン名"
@@ -10941,11 +10932,10 @@ msgstr ""
 msgid "Domain search list"
 msgstr "ドメインサーチリスト"
 
-#, fuzzy
 msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator "
-msgstr "オプションで、DHCP サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "DHCP サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください "
 
 msgid "Default lease time"
 msgstr "デフォルトリース期間"
@@ -10993,6 +10983,7 @@ msgid ""
 "machines listed below will be able to communicate with the firewall on this "
 "NIC."
 msgstr ""
+"警告: このオプションは DHCP サーバが無効の場合でも保持されます。下記のリストにあるマシンのみが、この NIC でファイアウォールと通信できます。"
 
 msgid "Time format change"
 msgstr "時間形式の変更"
@@ -11006,6 +10997,8 @@ msgid ""
 "box DHCP lease time will be displayed in local time and set to time zone "
 "selected. This will be used for all DHCP interfaces lease time."
 msgstr ""
+"警告: デフォルトでは DHCP リースは UTC 時間で表示されます。このボックスをチェックすると、DHCP "
+"リース時間は現地時間表示になり、選択されたタイムゾーンに設定されます。この設定は、全ての DHCP インタフェースのリース時間に適用されます。"
 
 msgid "Dynamic DNS"
 msgstr "ダイナミック DNS"
@@ -11029,19 +11022,17 @@ msgstr "DNS サーバで、クライアント名の登録に使用される、�
 # File: src/www/services_dhcpv6.php, line: 683
 msgid ""
 "Enter the primary domain name server IP address for the dynamic domain name."
-msgstr ""
+msgstr "ダイナミックドメイン名で使用する、プライマリドメインネームサーバ IP アドレスを入力してください。"
 
-#, fuzzy
 msgid ""
 "Enter the dynamic DNS domain key name which will be used to register client "
 "names in the DNS server."
-msgstr "DNS サーバで、クライアント名の登録に使用される、ダイナミック DNS ドメインを入力してください。"
+msgstr "DNS サーバでクライアント名の登録に使用される、ダイナミック DNS ドメイン鍵名を入力してください。"
 
-#, fuzzy
 msgid ""
 "Enter the dynamic DNS domain key secret which will be used to register "
 "client names in the DNS server."
-msgstr "DNS サーバで、クライアント名の登録に使用される、ダイナミック DNS ドメインを入力してください。"
+msgstr "DNS サーバでクライアント名の登録に使用される、ダイナミック DNS ドメイン秘密鍵を入力してください。"
 
 msgid "MAC Address Control"
 msgstr "MAC アドレス管理"
@@ -11103,27 +11094,23 @@ msgstr "IP アドレスを入力してください: "
 msgid "next-server"
 msgstr "next-server"
 
-#, fuzzy
 msgid "and the default bios filename"
-msgstr "ファイル名を入力してください: "
+msgstr "及び、デフォルト BIOS ファイル名"
 
-#, fuzzy
 msgid "and the UEFI 32bit filename  "
-msgstr "ファイル名を入力してください: "
+msgstr "及び、UEFI 32bit ファイル名 "
 
-#, fuzzy
 msgid "and the UEFI 64bit filename  "
-msgstr "ファイル名を入力してください: "
+msgstr "及び、UEFI 64bit ファイル名 "
 
 msgid ""
 "Note: You need both a filename and a boot server configured for this to work!"
-msgstr "注意: これが機能するように設定するには、ファイル名と起動サーバの構成の両方が必要です！"
+msgstr "注意: これを機能させるには、ファイル名と起動サーバの構成の両方が必要です！"
 
-#, fuzzy
 msgid ""
 "You will need all three filenames and a boot server configured for UEFI to "
 "work!"
-msgstr "注意: これが機能するように設定するには、ファイル名と起動サーバの構成の両方が必要です！"
+msgstr "UEFI を機能させるには、3 つ全てのファイル名と起動サーバの構成が必要です！"
 
 msgid "Enter the"
 msgstr "以下を入力してください: "
@@ -11191,9 +11178,8 @@ msgstr "このインタフェースの DHCP 静的マッピング"
 msgid "Do you really want to delete this mapping?"
 msgstr "本当にこのマッピングを削除しますか？"
 
-#, fuzzy
 msgid "Either MAC address or Client identifier must be specified"
-msgstr "「ピア識別子」には有効な IP アドレスを指定してください"
+msgstr "MAC アドレス、もしくはクライアント識別子のいずれかを指定してください"
 
 msgid "The hostname cannot end with a hyphen according to RFC952"
 msgstr "ホスト名は RFC952 により、末尾をハイフンにできません"
@@ -11205,9 +11191,8 @@ msgstr "有効なホスト名が指定されていますが、ドメイン名部
 msgid "Static ARP is enabled.  You must specify an IP address."
 msgstr "静的 ARP が有効です。IP アドレスを指定してください"
 
-#, fuzzy
 msgid "This Hostname, IP, MAC address or Client identifier already exists."
-msgstr "このホスト名、IP、または、DUID 識別子は既に存在しています"
+msgstr "このホスト名、IP、MAC アドレス、もしくは、クライアント識別子は既に存在しています。"
 
 msgid "The IP address must not be within the DHCP range for this interface."
 msgstr "このインタフェースの DHCP 範囲内ではない IP アドレスを設定してください"
@@ -11229,9 +11214,8 @@ msgstr "自分の MAC アドレスを複写"
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx"
 msgstr "次の形式で MAC アドレスを入力してください: xx:xx:xx:xx:xx:xx"
 
-#, fuzzy
 msgid "Client identifier"
-msgstr "ピア識別子"
+msgstr "クライアント識別子"
 
 msgid "If an IPv4 address is entered, the address must be outside of the pool."
 msgstr "入力される IPv4 アドレスは、プールの範囲外である必要があります。"
@@ -11245,31 +11229,30 @@ msgstr "ドメイン部分のないホスト名です。"
 
 # File: src/www/services_dhcp_edit.php, line: 400
 msgid "Netboot Filename"
-msgstr ""
+msgstr "ネットブートファイル名"
 
 # File: src/www/services_dhcp_edit.php, line: 403
 # File: src/www/services_dhcpv6_edit.php, line: 225
 msgid ""
 "Name of the file that should be loaded when this host boots off of the "
 "network, overrides setting on main page."
-msgstr ""
+msgstr "ファイルの名前は、このホストのネットワークブートがオフの場合に読み込まれ、メインページの設定で上書きされます。"
 
 # File: src/www/services_dhcp_edit.php, line: 406
 # File: src/www/services_dhcpv6_edit.php, line: 228
 msgid "Root Path"
-msgstr ""
+msgstr "ルートパス"
 
 # File: src/www/services_dhcp_edit.php, line: 409
 # File: src/www/services_dhcpv6_edit.php, line: 231
 msgid "Enter the root-path-string, overrides setting on main page."
-msgstr ""
+msgstr "メインページの設定で上書きする、ルートパス文字列を入力してください。"
 
 msgid "ARP Table Static Entry"
 msgstr "ARP テーブル静的エントリ"
 
-#, fuzzy
 msgid "Create an ARP Table Static Entry for this MAC &amp; IP Address pair. "
-msgstr "この MAC & IP アドレスペアに対して、ARP テーブル静的エントリを作成します。"
+msgstr "この MAC &amp; IP アドレスペアに対して、ARP テーブル静的エントリを作成します。"
 
 msgid ""
 "The default is to use the IP on this interface of the firewall as the "
@@ -11290,6 +11273,7 @@ msgid ""
 "DHCP Server is currently enabled. Cannot enable the DHCP Relay service while "
 "the DHCP Server is enabled on any interface."
 msgstr ""
+"DHCP サーバは現在有効になっています。DHCP サーバが有効になっているインタフェースがある場合は、DHCP リレーサービスを有効にできません。"
 
 msgid "DHCP Relay configuration"
 msgstr "DHCP リレー構成"
@@ -11301,7 +11285,7 @@ msgstr "インタフェースで DHCP リレーを有効"
 # File: src/www/services_dhcpv6_relay.php, line: 155
 # File: src/www/services_ntpd.php, line: 230
 msgid "Interface(s)"
-msgstr ""
+msgstr "インタフェース"
 
 msgid "Interfaces without an IP address will not be shown."
 msgstr "IP アドレスが設定されていないインタフェースは表示されません。"
@@ -11333,6 +11317,7 @@ msgid ""
 "The DHCPv6 Server can only be enabled on interfaces configured with static "
 "IP addresses. Only interfaces configured with a static IP will be shown."
 msgstr ""
+"DHCPv6 サーバは静的 IP アドレスで構成されたインタフェースでのみ有効にできます。静的 IP で構成されたインタフェースのみ表示されます。"
 
 msgid "A valid prefix range must be specified."
 msgstr "有効なプレフィックス範囲を指定してください"
@@ -11344,11 +11329,10 @@ msgid ""
 "A valid IPv6 address must be specified for the primary/secondary DNS servers."
 msgstr "プライマリ / セカンダリ DNS サーバに、有効な IPv6 アドレスを指定してください"
 
-#, fuzzy
 msgid ""
 "A valid primary domain name server IPv4 address must be specified for the "
 "dynamic domain name."
-msgstr "DNS ドメインに有効なドメイン名を指定してください"
+msgstr "動的ドメイン名に、有効なプライマリドメインネームサーバ IPv4 アドレスを指定してください。"
 
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary NTP servers."
@@ -11357,9 +11341,8 @@ msgstr "プライマリ / セカンダリ NTP サーバに、有効な IPv6 ア�
 msgid "A valid IPv6 address or hostname must be specified for the TFTP server."
 msgstr "TFTP サーバに、有効な IPv6 アドレス、もしくはホスト名を指定してください"
 
-#, fuzzy
 msgid "A valid URL must be specified for the network bootfile."
-msgstr "ネットワーク起動サーバに有効な IP アドレスを指定してください"
+msgstr "ネットワークブートファイルに有効な URL を指定してください。"
 
 msgid "The subnet range cannot overlap with virtual IPv6 address %s."
 msgstr "サブネット範囲は、仮想 IPv6 アドレス %s と重複できません"
@@ -11379,27 +11362,23 @@ msgstr "プレフィックスデリゲーション範囲"
 msgid "Prefix Delegation Size"
 msgstr "プレフィックスデリゲーションサイズ"
 
-#, fuzzy
 msgid ""
 "You can define a Prefix range here for DHCP Prefix Delegation. This allows "
 "for\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\tassigning networks to subrouters. The start and "
 "end of the range must end on boundaries of the prefix delegation size."
 msgstr ""
-"DHCP プレフィックスデリゲーションのプレフィックス範囲をここで定義できます。\n"
-"\t\t\t\t\t"
-"サブルータにネットワーク割当てを許可します。範囲の先頭と末尾は、プレフィックスデリゲーションサイズの限度内に収まっている必要があります。"
+"DHCP プレフィックスデリゲーションのプレフィックス範囲をここで定義できます。この設定はサブルータにネットワーク割当てを許可します。\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t範囲の先頭と末尾は、プレフィックスデリゲーションサイズの両端になります。"
 
-#, fuzzy
 msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator"
-msgstr "オプションで、DHCP サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "DHCP サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください"
 
 msgid "Change DHCPv6 display lease time from UTC to local time."
 msgstr "DHCPv6 リースの時間表示を、UTC から現地時間に変更します。"
 
-#, fuzzy
 msgid ""
 "By default DHCPv6 leases are displayed in UTC time.  By checking this\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\t\tbox DHCPv6 lease time will be displayed in local "
@@ -11407,12 +11386,11 @@ msgid ""
 "interfaces lease time."
 msgstr ""
 "デフォルトでは、DHCPv6 リースは UTC 時間で表示されます。このボックスをチェックすると\n"
-"\t\t\t\t\t\tDHCPv6 リースは現地時間表示になり、選択されたタイムゾーンに設定されます。全ての DHCPv6 "
-"インタフェースのリース時間に適用されます。"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tDHCPv6 リース時間は現地時間表示になり、選択されたタイムゾーンに設定されます。この設定は、"
+"全ての DHCPv6 インタフェースのリース時間に適用されます。"
 
-#, fuzzy
 msgid "Enter the Bootfile URL"
-msgstr "生成 / 発行されたバウチャーの一番上にあるロールの"
+msgstr "ブートファイルの URL を入力"
 
 msgid "Delete"
 msgstr "削除"
@@ -11446,7 +11424,7 @@ msgstr "次の形式で DUID 識別子を入力してください: "
 
 # File: src/www/services_dhcpv6_edit.php, line: 201
 msgid "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
-msgstr ""
+msgstr "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
 
 msgid "If an IPv6 address is entered, the address must be outside of the pool."
 msgstr "入力される IPv6 アドレスは、プールの範囲外である必要があります。"
@@ -11457,7 +11435,7 @@ msgstr "IPv6 アドレスが指定されていない場合は、プールから�
 
 # File: src/www/services_dhcpv6_edit.php, line: 222
 msgid "Netboot filename"
-msgstr ""
+msgstr "ネットブートファイル名"
 
 msgid "A valid Destination Server IPv6 address  must be specified."
 msgstr "有効な送信先サーバ IPv6 アドレスを指定してください。"
@@ -11467,6 +11445,8 @@ msgid ""
 "DHCPv6 Server is currently enabled.  Cannot enable the DHCPv6 Relay service "
 "while the DHCPv6 Server is enabled on any interface."
 msgstr ""
+"DHCPv6 サーバは現在有効になっています。DHCPv6 サーバが有効になっているインタフェースがある場合は、DHCPv6 "
+"リレーサービスを有効にできません。"
 
 msgid "DHCPv6 Relay configuration"
 msgstr "DHCPv6 リレー構成"
@@ -11484,14 +11464,10 @@ msgstr ""
 "これがチェックされている場合は、DHCPv6 リレーは、回線 ID ( %s インタフェース番号 ) と、エージェント ID を DHCPv6 "
 "リクエストに追加します。"
 
-#, fuzzy
 msgid ""
 "This is the IPv6 address of the server to which DHCPv6 requests are relayed. "
 "You can enter multiple server IPv6 addresses, separated by commas. "
-msgstr ""
-"DHCPv6 リクエストをリレーするサーバの IPv6 アドレスです。コンマ区切りで、複数のサーバの IPv6 アドレスを入力できます。WAN "
-"インタフェースで DHCPv6 パケットをサーバにリレーするには、「プロキシが WAN サブネットの DHCPv6 "
-"サーバにリクエスト」を選択してください。"
+msgstr "DHCPv6 リクエストをリレーするサーバの IPv6 アドレスです。コンマ区切りで、複数のサーバの IPv6 アドレスを入力できます。"
 
 msgid "You must specify a valid port number"
 msgstr "有効なポート番号を指定してください"
@@ -11501,7 +11477,7 @@ msgstr "無効なカスタムオプション"
 
 # File: src/www/services_dnsmasq.php, line: 178
 msgid "The DNS forwarder configuration has been changed."
-msgstr ""
+msgstr "DNS フォワーダの構成が変更されました。"
 
 msgid "General DNS Forwarder Options"
 msgstr "DNS フォワーダ全般オプション"
@@ -11631,14 +11607,13 @@ msgid ""
 msgstr "注意: このオプションは IPv6 では動作「しません」。設定された場合、dnsmasq は IPv6 アドレスをバインドしません。"
 
 msgid "Show advanced option"
-msgstr "高度なオプションを表示"
+msgstr "詳細オプションを表示"
 
 msgid ""
 "Enter any additional options you would like to add to the dnsmasq "
 "configuration here, separated by a space or newline"
 msgstr "Dnsmasq 構成の追加オプションを入力します。空白、または、改行で区切ります。"
 
-#, fuzzy
 msgid ""
 "If the DNS forwarder is enabled, the DHCP service (if enabled) will "
 "automatically serve the LAN IP address as a DNS server to DHCP clients so "
@@ -11649,11 +11624,11 @@ msgid ""
 "IP address on WAN), you must manually specify at least one DNS server on the "
 "%sSystem: General setup%s page."
 msgstr ""
-"DNS フォワーダが有効な場合、DHCP サービス ( 有効であれば ) は自動的に DHCP クライアントに、DNS サーバの LAN IP "
-"アドレスを提供し、クライアントはそのアドレスを DNS フォワーダとして使用します。DNS フォワーダが使用する DNS サーバは、%sシステム: "
-"全般設定%s で入力されたものか、もしくは、&quot;WAN の DHCP/PPP による DNS サーバリストの上書きを許可&quot; "
+"DNS フォワーダが有効な場合、DHCP サービス ( 有効であれば ) は自動的にその LAN IP アドレスを DNS サーバとして DHCP "
+"クライアントに提供し、クライアントはそのアドレスを DNS フォワーダとして使用します。DNS フォワーダが使用する DNS サーバは、%sシステム: "
+"全般設定%sで入力されたものか、もしくは、&quot;WAN の DHCP/PPP による DNS サーバリストの上書きを許可&quot; "
 "がチェックされている場合に、WAN の DHCP か PPP 経由で得られるものです。そのオプションを使用しない ( もしくは WAN で 静的 IP "
-"アドレスを使用する ) 場合は、%sシステム: 全般設定%s ページで 1 つ以上の DNS サーバを手動で指定する必要があります。"
+"アドレスを使用する ) 場合は、%sシステム: 全般設定%sページで 1 つ以上の DNS サーバを手動で指定する必要があります。"
 
 msgid "Host Overrides"
 msgstr "ホストオーバーライド"
@@ -11674,11 +11649,11 @@ msgstr "本当にこのホストを削除しますか？"
 msgid "Domain Overrides"
 msgstr "ドメインオーバーライド"
 
-#, fuzzy
 msgid ""
 "Entries in this area override an entire domain, and subdomains, by "
 "specifying an authoritative DNS server to be queried for that domain."
-msgstr "このエリアのエントリは、そのドメインに対する問い合わせに使用される、権威 DNS サーバが指定するドメイン全体を上書きします。"
+msgstr ""
+"そのドメインに対して問い合わせされる権威 DNS サーバを設定することにより、このエリアのエントリはドメイン全体及びサブドメインを上書きします。"
 
 msgid "Do you really want to delete this domain override?"
 msgstr "本当にこのドメインオーバーライドを削除しますか？"
@@ -11785,15 +11760,14 @@ msgstr "サービスタイプ"
 msgid "Update URL"
 msgstr "更新 URL"
 
-#, fuzzy
 msgid "The Hostname contains invalid characters."
-msgstr "ホスト名に無効な文字が含まれています"
+msgstr "ホスト名に無効な文字が含まれています。"
 
 msgid "The MX contains invalid characters."
-msgstr "MX には無効な文字が含まれています"
+msgstr "MX に無効な文字が含まれています。"
 
 msgid "The username contains invalid characters."
-msgstr "ユーザ名に無効な文字が含まれています"
+msgstr "ユーザ名に無効な文字が含まれています。"
 
 msgid "Dynamic DNS client"
 msgstr "ダイナミック DNS クライアント"
@@ -11823,12 +11797,12 @@ msgstr "MX"
 msgid ""
 "Note: With a dynamic DNS service you can only use a hostname, not an IP "
 "address."
-msgstr ""
+msgstr "注意: ダイナミック DNS サービスでは、IP アドレスではなくホスト名のみが使用可能です。"
 
 msgid ""
 "Set this option only if you need a special MX record. Not all services "
 "support this."
-msgstr "特別な MX レコードが必要な場合だけ、このオプションを設定してください。全てのサービスが、これに対応しているわけではありません。"
+msgstr "特別な MX レコードが必要な場合だけ、このオプションを設定してください。全てのサービスがこれに対応しているわけではありません。"
 
 msgid "Wildcards"
 msgstr "ワイルドカード"
@@ -11845,17 +11819,16 @@ msgstr "詳細ログ"
 msgid "verbose logging"
 msgstr "詳細ログ"
 
-#, fuzzy
 msgid "CURL options"
-msgstr "RADIUS オプション"
+msgstr "CURL オプション"
 
 # File: src/www/services_dyndns_edit.php, line: 357
 msgid "Force IPv4 resolving"
-msgstr ""
+msgstr "IPv4 解決を強制"
 
 # File: src/www/services_dyndns_edit.php, line: 359
 msgid "Verify SSL peer"
-msgstr ""
+msgstr "SSL ピアを検証"
 
 msgid ""
 "Username is required for all types except Namecheap, FreeDNS and Custom "
@@ -11867,7 +11840,7 @@ msgstr "Route 53: 自分のアクセス鍵 ID を入力してください。"
 
 # File: src/www/services_dyndns_edit.php, line: 368
 msgid "Duck DNS: Enter your Token."
-msgstr ""
+msgstr "Duck DNS: トークンを入力してください。"
 
 msgid ""
 "For Custom Entries, Username and Password represent HTTP Authentication "
@@ -11884,7 +11857,7 @@ msgstr "Route 53: 自分の秘密アクセス鍵を入力してください。"
 
 # File: src/www/services_dyndns_edit.php, line: 379
 msgid "Duck DNS: Leave blank."
-msgstr ""
+msgstr "Duck DNS: 空白のままにする。"
 
 msgid "Zone ID"
 msgstr "ゾーン ID"
@@ -11914,13 +11887,13 @@ msgid ""
 "if the update succeeds, leave it blank to disable checking of returned "
 "results."
 msgstr ""
+"このフィールドは、更新が成功した場合に、ダイナミック DNS "
+"プロバイダが返してくる内容と同一になるようにしてください。空白にすると、戻り値チェックは無効になります。"
 
-#, fuzzy
 msgid ""
 "If you need to include multiple possible values, separate them with a |.  If "
 "your provider includes a |, escape it with \\|"
-msgstr ""
-"複数の可能な値を含める必要がある場合は、| で区切ってください。プロバイダが | を値に含めている場合は、それを \\| でエスケープしてください。"
+msgstr "とり得る値を複数使用する必要がある場合は | で区切ってください。プロバイダが | を値に含めている場合は \\| でエスケープしてください。"
 
 msgid ""
 "Tabs (\\t), newlines (\\n"
@@ -11939,7 +11912,6 @@ msgstr "DNS レコードの TTL を選択してください。"
 msgid "Save & Force Update"
 msgstr "保存 & 強制更新"
 
-#, fuzzy
 msgid ""
 "You must configure a DNS server in %sSystem:\n"
 "\t\t\t\t\t                    General setup%s or allow the DNS server list "
@@ -11947,9 +11919,9 @@ msgid ""
 "\t\t\t\t\t                    by DHCP/PPP on WAN for dynamic DNS updates to "
 "work."
 msgstr ""
-"ダイナミック DNS 更新を動作させるには\n"
-"                    %sシステム: 全般設定%s で DNS サーバの構成をするか、\n"
-"                    もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください"
+"ダイナミック DNS の更新を動作させるには\n"
+"\t\t\t\t\t                   %sシステム: 全般設定%s で DNS サーバの構成をするか、\n"
+"\t\t\t\t\t                   もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください。"
 
 msgid "add a new igmpentry"
 msgstr "新規 IGMP エントリの追加"
@@ -11960,7 +11932,6 @@ msgstr "IGMP エントリリストが変更されました"
 msgid "edit igmpentry"
 msgstr "IGMP エントリの編集"
 
-#, fuzzy
 msgid ""
 "Do you really want to delete this igmp entry? All elements that still use it "
 "will become invalid (e.g. filter rules)!"
@@ -12011,7 +11982,6 @@ msgstr ""
 msgid "Threshold"
 msgstr "しきい値"
 
-#, fuzzy
 msgid ""
 "Defines the TTL threshold for  the  network  interface.  Packets with  a "
 "lower TTL than the threshold value will be ignored. This setting is "
@@ -12026,9 +11996,8 @@ msgstr "ネットワーク"
 msgid "CIDR"
 msgstr "CIDR"
 
-#, fuzzy
 msgid "Add another Time server"
-msgstr "他のスケジュールを追加"
+msgstr "他のタイムサーバを追加"
 
 msgid "NTP Server Configuration"
 msgstr "NTP サーバ構成"
@@ -12043,39 +12012,40 @@ msgstr "全てのインタフェースが選択されている場合は、明示
 
 # File: src/www/services_ntpd.php, line: 261
 msgid "Time servers"
-msgstr ""
+msgstr "タイムサーバ"
 
 # File: src/www/services_ntpd.php, line: 280
 msgid "prefer this server"
-msgstr ""
+msgstr "このサーバを優先"
 
 # File: src/www/services_ntpd.php, line: 283
 msgid "do not use this server"
-msgstr ""
+msgstr "このサーバを使用しない"
 
 # File: src/www/services_ntpd.php, line: 296
 msgid "For best results three to five servers should be configured here."
-msgstr ""
+msgstr "最良の結果を出すには、ここで 3 - 5 個のサーバを構成しておくべきです。"
 
 # File: src/www/services_ntpd.php, line: 292
 msgid ""
 "The %sprefer%s option indicates that NTP should favor the use of this server "
 "more than all others."
-msgstr ""
+msgstr "%s優先%sオプションは、NTP に他の全てのサーバよりもこのサーバを優先して使用させるという意味になります。"
 
 # File: src/www/services_ntpd.php, line: 294
 msgid ""
 "The %snoselect%s option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
+"%s選択しない%s\"オプションは、NTP に時間用としてこのサーバを使用させないという意味になります。しかし、このサーバの統計は収集され、表示されます。"
 
 # File: src/www/services_ntpd.php, line: 299
 msgid "Orphan mode"
-msgstr ""
+msgstr "Orphan mode"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "(0-15)"
-msgstr ""
+msgstr "(0-15)"
 
 # File: src/www/services_ntpd.php, line: 307
 msgid ""
@@ -12084,56 +12054,56 @@ msgid ""
 "and should normally be set to a number high enough to insure that any other "
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
+"Orphan mode は、他の時計が利用可能ではない場合に、システム時計を使用することを許可します。ここで指定する番号は orphan mode "
+"の間に報告される階層です。一般的には高い番号を設定し、クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるようにします ( デフォルト:"
+" 12 )。"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "NTP graphs"
-msgstr ""
+msgstr "NTP グラフ"
 
 # File: src/www/services_ntpd.php, line: 314
 msgid "Enable rrd graphs of NTP statistics (default: disabled)."
-msgstr ""
+msgstr "NTP 統計の RRD グラフを有効にする ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 313
 msgid "Syslog logging"
-msgstr ""
+msgstr "Syslog ログ"
 
-#, fuzzy
 msgid "Status > System Logs > NTP"
-msgstr "Web 設定 - ステータス: システムログ: NTP ページ"
+msgstr "ステータス > システムログ > NTP"
 
 # File: src/www/services_ntpd.php, line: 320
 msgid ""
 "These options enable additional messages from NTP to be written to the "
 "System Log"
-msgstr ""
+msgstr "これらのオプションは、NTP からの追加メッセージのシステムログへの書き込みを許可します。"
 
 # File: src/www/services_ntpd.php, line: 323
 msgid "Enable logging of peer messages (default: disabled)."
-msgstr ""
+msgstr "ピアメッセージのログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 326
 msgid "Enable logging of system messages (default: disabled)."
-msgstr ""
+msgstr "システムメッセージのログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 325
 msgid "Statistics logging"
-msgstr ""
+msgstr "ログ統計"
 
-#, fuzzy
 msgid "Show statistics logging options"
-msgstr "リモートログオプション"
+msgstr "ログ統計オプションを表示"
 
-#, fuzzy
 msgid "Warning: "
 msgstr "警告: "
 
 # File: src/www/services_ntpd.php, line: 336
 msgid "these options will create persistant daily log files in /var/log/ntp."
-msgstr ""
+msgstr "これらのオプションは、/car/log/ntp に継続的にデイリーログファイルを作成します。"
 
 # File: src/www/services_ntpd.php, line: 339
 msgid "Enable logging of reference clock statistics (default: disabled)."
-msgstr ""
+msgstr "時計参照統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 342
 msgid "Enable logging of clock discipline statistics (default: disabled)."
@@ -12935,7 +12905,7 @@ msgid "The configuration of the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は、変更されました"
 
 msgid "Advanced Resolver Options"
-msgstr "高度なリゾルバオプション"
+msgstr "詳細なリゾルバオプション"
 
 msgid "Hide Identity"
 msgstr "識別子を非表示"
@@ -16237,7 +16207,7 @@ msgid "This will force this gateway to be considered Down"
 msgstr "このゲートウェイが常にアップであると見なします"
 
 msgid " - Show advanced option"
-msgstr " - 高度なオプションを表示"
+msgstr " - 詳細オプションを表示"
 
 msgid "Weight for this gateway when used in a Gateway Group."
 msgstr "ゲートウェイグループ使用時に、このゲートウェイの重み付けをします。"
@@ -16341,7 +16311,7 @@ msgstr "DNS %s サーバにゲートウェイが割当てられません。ネ�
 
 msgid ""
 "A NTP Time Server name may only contain the characters a-z, 0-9, '-' and '.'."
-msgstr "NTP 時刻サーバ名には、a-z、0-9、-、. のみが使用できます。"
+msgstr "NTP タイムサーバ名には、a-z、0-9、-、. のみが使用できます。"
 
 msgid "Name of the firewall host, without domain part"
 msgstr "ファイアウォールホスト名、ドメイン部分は含まない"
@@ -16419,7 +16389,7 @@ msgid "Select the location closest to you"
 msgstr "最も近い場所を選択してください"
 
 msgid "NTP time server"
-msgstr "NTP 時刻サーバ"
+msgstr "NTP タイムサーバ"
 
 msgid ""
 "Use a space to separate multiple hosts (only one required). Remember to set "
