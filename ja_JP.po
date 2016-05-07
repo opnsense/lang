@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 05:10+0000\n"
+"POT-Creation-Date: 2016-05-07 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
 "Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
@@ -5956,7 +5956,7 @@ msgid ""
 msgstr "エイリアス名に使用できる文字は、a-z、A-Z、0-9、_ のみです"
 
 msgid "You may enter a description here for your reference (not parsed)."
-msgstr "自分用のメモを入力できます ( 自由形式 )"
+msgstr "参照用の説明を入力できます ( 自由形式 )"
 
 # File: src/www/firewall_aliases_edit.php, line: 467
 # File: src/www/firewall_aliases_edit.php, line: 672
@@ -6042,7 +6042,7 @@ msgid ""
 msgstr "エイリアス名には a-z、A-Z、0-9 の文字のみが使用できます。"
 
 msgid "You may enter a description here for your reference (not parsed)"
-msgstr "自分用のメモを入力できます ( 自由形式 )"
+msgstr "参照用の説明を入力できます ( 自由形式 )"
 
 msgid "Aliases to import"
 msgstr "インポートするエイリアス"
@@ -10036,7 +10036,7 @@ msgstr "マルチリンク (MLPPP) 接続には 2 つ以上のインタフェー
 msgid ""
 "You may enter a description here for your reference. Description will appear "
 "in the \"Interfaces Assign\" select lists."
-msgstr "自分用のメモを入力できます。メモは「インタフェースの割当て」で選択するリストに表示されます。"
+msgstr "参照用の説明を入力できます。説明は「インタフェースの割当て」で選択するリストに表示されます。"
 
 msgid "Note: Typically *99# for GSM networks and #777 for CDMA networks"
 msgstr "注意: 通常、GSM ネットワークは *99#、CDMA ネットワークは #777 です"
@@ -12055,8 +12055,8 @@ msgid ""
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
 "Orphan mode は、他の時計が利用可能ではない場合に、システム時計を使用することを許可します。ここで指定する番号は orphan mode "
-"の間に報告される階層です。一般的には高い番号を設定し、クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるようにします ( デフォルト:"
-" 12 )。"
+"の間に報告される stratumです。一般的には高い番号を設定し、クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるようにします ( "
+"デフォルト: 12 )。"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "NTP graphs"
@@ -12107,83 +12107,78 @@ msgstr "時計参照統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 342
 msgid "Enable logging of clock discipline statistics (default: disabled)."
-msgstr ""
+msgstr "時計統制統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 345
 msgid "Enable logging of NTP peer statistics (default: disabled)."
-msgstr ""
+msgstr "NTP ピア統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 345
 msgid "Access restrictions"
-msgstr ""
+msgstr "アクセス制限"
 
-#, fuzzy
 msgid "Show access restriction options"
-msgstr "高度なオプションを表示"
+msgstr "アクセス制限オプションを表示"
 
 # File: src/www/services_ntpd.php, line: 356
 msgid "these options control access to NTP from the WAN."
-msgstr ""
+msgstr "これらのオプションは WAN から NTP へのアクセスをコントロールします。"
 
 # File: src/www/services_ntpd.php, line: 359
 msgid "Enable Kiss-o'-death packets (default: enabled)."
-msgstr ""
+msgstr "Kiss-o'-death パケットを有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 362
 msgid ""
 "Deny state modifications (i.e. run time configuration) by ntpq and ntpdc "
 "(default: enabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc による状態変更 ( ランタイム構成 ) を拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 365
 msgid "Disable ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc クエリを無効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 368
 msgid "Disable all except ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc クエリを全て除外を無効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 371
 msgid "Deny packets that attempt a peer association (default: enabled)."
-msgstr ""
+msgstr "ピア関連付けを試みるパケットを拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Deny mode 6 control message trap service (default: enabled)."
-msgstr ""
+msgstr "モード 6 コントロールメッセージトラップサービスを拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Leap seconds"
-msgstr ""
+msgstr "うるう秒"
 
-#, fuzzy
 msgid "Show Leap second configuration"
-msgstr "LDAP 構成を表示"
+msgstr "うるう秒構成を表示"
 
 # File: src/www/services_ntpd.php, line: 385
 msgid ""
 "A leap second file allows NTP to advertize an upcoming leap second addition "
 "or subtraction."
-msgstr ""
+msgstr "うるう秒ファイルは、次回のうるう秒加算もしくは減算の広告を NTP に許可します。"
 
 # File: src/www/services_ntpd.php, line: 386
 msgid "Normally this is only useful if this server is a stratum 1 time server."
-msgstr ""
+msgstr "通常、これはこのサーバが stratum 1 のタイムサーバである場合にのみ有用です。"
 
-#, fuzzy
 msgid "Enter Leap second configuration as text:"
-msgstr "この構成ファイルを暗号化する"
+msgstr "テキストでうるう秒構成を入力してください: "
 
 # File: src/www/services_ntpd.php, line: 390
 msgid "Or"
-msgstr ""
+msgstr "もしくは"
 
-#, fuzzy
 msgid "select a file to upload:"
-msgstr "アップロードするファイル: "
+msgstr "アップロードするファイルを選択してください: "
 
-#, fuzzy
 msgid "NTP Serial GPS Configuration"
-msgstr "NTP サーバ構成"
+msgstr "NTP シリアル GPS 構成"
 
 # File: src/www/services_ntpd_gps.php, line: 356
 msgid ""
@@ -12192,73 +12187,72 @@ msgid ""
 "GPS may also be used as a Pulse Per Second clock reference. NOTE: a USB GPS "
 "may work, but is not recommended due to USB bus timing issues."
 msgstr ""
+"シリアルポート経由で接続した GPS を NTP の参照時計として使用できます。GPS が PPS "
+"にも対応しており、適切に構成され、かつ接続されていれば、その GPS はパルスパーセコンド時計参照としても使用できます。注意: USB GPS "
+"も動作可能ですが、USB バスタイミング問題により推奨されません。"
 
 # File: src/www/services_ntpd_gps.php, line: 381
 msgid ""
 "For the best results, NTP should have at least three sources of time. So it "
 "is best to configure at least 2 servers under"
-msgstr ""
+msgstr "最善の結果を出すには、NTP には最低 3 つの時間のソースを設定すべきです。そのためベストなのは、最低 2 つのサーバの構成を"
 
-#, fuzzy
 msgid "Services > NTP"
-msgstr "サービス"
+msgstr "サービス > NTP "
 
-#, fuzzy
 msgid ""
 "to minimize clock drift if the GPS data is not valid over time. Otherwise "
 "ntpd may only use values from the unsynchronized local clock when providing "
 "time to clients."
 msgstr ""
-"」で、最低でも 2 つ以上構成することをお勧めします。GPS データが継続的に不正な場合に、同期のロスを避けるためです。さもなくば、ntpd "
+"で行うことで、GPS データが時間が経過することにより有効ではなくなる場合に、時間のずれを最小化します。さもなくば、ntpd "
 "は時刻をクライアントに提供する際に、非同期のローカル時計の値のみを使用します。"
 
 # File: src/www/services_ntpd_gps.php, line: 366
 msgid "Generic"
-msgstr ""
+msgstr "一般"
 
 # File: src/www/services_ntpd_gps.php, line: 368
 msgid "Garmin"
-msgstr ""
+msgstr "Garmin"
 
 # File: src/www/services_ntpd_gps.php, line: 370
 msgid "SiRF"
-msgstr ""
+msgstr "SiRF"
 
 # File: src/www/services_ntpd_gps.php, line: 371
 msgid "U-Blox"
-msgstr ""
+msgstr "U-Blox"
 
 # File: src/www/services_ntpd_gps.php, line: 372
 msgid "SureGPS"
-msgstr ""
+msgstr "SureGPS"
 
 # File: src/www/services_ntpd_gps.php, line: 397
 msgid "This option allows you to select a predefined configuration."
-msgstr ""
+msgstr "このオプションは、定義済みの構成を選択可能にします。"
 
 # File: src/www/services_ntpd_gps.php, line: 400
 msgid "Select Generic if your GPS is not listed."
-msgstr ""
+msgstr "使用したい GPS がリストにない場合は、「一般」を選択してください。"
 
 # File: src/www/services_ntpd_gps.php, line: 401
 msgid ""
 "The perdefined configurations assume your GPS has already been set to NMEA "
 "mode."
-msgstr ""
+msgstr "定義済みの構成は、GPS が既に NMEA モードに設定されていることを前提としています。"
 
 # File: src/www/services_ntpd_gps.php, line: 388
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "Serial port"
-msgstr ""
+msgstr "シリアルポート"
 
-#, fuzzy
 msgid ""
 "All serial ports are listed, be sure to pick the port with the GPS attached."
-msgstr "全てのシリアルポートがリスンされている場合は、GPS を添付するポートのみを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けるポートを選択するようにしてください。"
 
-#, fuzzy
 msgid "Serial port baud rate."
-msgstr "次の証明書のシリアル"
+msgstr "シリアルポートボーレート"
 
 # File: src/www/services_ntpd_gps.php, line: 437
 msgid ""
@@ -12266,32 +12260,34 @@ msgid ""
 "many sentences. It is recommended to configure the GPS to send only one "
 "sentence at a baud rate of 4800 or 9600."
 msgstr ""
+"高いボーレートは、通常 GPS が非常に多いセンテンスを送信する場合にのみ有用です。GPS の推奨構成は、ボーレート 4800 もしくは 9600 で "
+"1 センテンスのみを送信です。"
 
 # File: src/www/services_ntpd_gps.php, line: 423
 msgid "NMEA sentences"
-msgstr ""
+msgstr "NMEA センテンス"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 msgid ""
 "By default NTP will listen for all supported NMEA sentences. Here one or "
 "more sentences to listen for may be specified."
-msgstr ""
+msgstr "デフォルトでは、NTP は全ての対応している NMEA センテンスをリスンします。ここでは、リスンする 1 つ以上のセンテンスを指定できます。"
 
 # File: src/www/services_ntpd_gps.php, line: 436
 msgid "Fudge time 1"
-msgstr ""
+msgstr "Fudge time 1"
 
 # File: src/www/services_ntpd_gps.php, line: 461
 msgid "Fudge time 1 is used to specify the GPS PPS signal offset"
-msgstr ""
+msgstr "Fudge time 1 は GPS PPS 信号のオフセットを指定するのに使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 442
 msgid "Fudge time 2"
-msgstr ""
+msgstr "Fudge time 2"
 
 # File: src/www/services_ntpd_gps.php, line: 467
 msgid "Fudge time 2 is used to specify the GPS time offset"
-msgstr ""
+msgstr "Fudge time 2 は GPS 時刻のオフセットを指定するのに使用されます"
 
 msgid "Stratum"
 msgstr "Stratum"
@@ -12299,55 +12295,55 @@ msgstr "Stratum"
 # File: src/www/services_ntpd_gps.php, line: 472
 # File: src/www/services_ntpd_pps.php, line: 161
 msgid "(0-16)"
-msgstr ""
+msgstr "(0-16)"
 
 # File: src/www/services_ntpd_gps.php, line: 473
 msgid "This may be used to change the GPS Clock stratum"
-msgstr ""
+msgstr "GPS 時計の stratum を変更するのに使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 473
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock"
-msgstr ""
+msgstr "この設定は、なんらかの理由で別の時計を ntpd で優先したい場合に便利です"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 # File: src/www/services_ntpd_pps.php, line: 159
 msgid "Flags"
-msgstr ""
+msgstr "フラグ"
 
 # File: src/www/services_ntpd_gps.php, line: 481
 # File: src/www/services_ntpd_pps.php, line: 170
 msgid ""
 "Normally there should be no need to change these options from the defaults."
-msgstr ""
+msgstr "通常は、これらのオプションをデフォルトから変更する必要はありません。"
 
 # File: src/www/services_ntpd_gps.php, line: 491
 msgid "NTP should prefer this clock (default: enabled)."
-msgstr ""
+msgstr "NTP にこの時計を優先させます ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 499
 msgid ""
 "NTP should not use this clock, it will be displayed for reference "
 "only(default: disabled)."
-msgstr ""
+msgstr "NTP にこの時計を使用させないようにします。参照用のみで表示されるようになります ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 507
 msgid "Enable PPS signal processing (default: enabled)."
-msgstr ""
+msgstr "PPS 信号処理を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 515
 # File: src/www/services_ntpd_pps.php, line: 180
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
-msgstr ""
+msgstr "PPS 信号処理に立ち下がりエッジを有効 ( デフォルト: 立ち上がりエッジ )。"
 
 # File: src/www/services_ntpd_gps.php, line: 523
 msgid "Enable kernel PPS clock discipline (default: enabled)."
-msgstr ""
+msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr ""
+msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )"
 
 # File: src/www/services_ntpd_gps.php, line: 539
 msgid ""
@@ -12355,28 +12351,30 @@ msgid ""
 "logged).<br />Note: enabling this will rapidly fill the log, but is useful "
 "for tuning Fudge time 2."
 msgstr ""
+"受信したタイムスタンプの 1 秒未満の小数をログに記録する ( デフォルト: ログに記録しない )。<br />注意: "
+"これを有効にすると、ログが急激に一杯になりますが、Fudge time 2 の調整には便利です。"
 
 # File: src/www/services_ntpd_gps.php, line: 524
 # File: src/www/services_ntpd_pps.php, line: 197
 msgid "Clock ID"
-msgstr ""
+msgstr "Clock ID"
 
 # File: src/www/services_ntpd_gps.php, line: 548
 # File: src/www/services_ntpd_pps.php, line: 205
 msgid "(1 to 4 charactors)"
-msgstr ""
+msgstr "( 1 - 4 文字 )"
 
 # File: src/www/services_ntpd_gps.php, line: 549
 msgid "This may be used to change the GPS Clock ID"
-msgstr ""
+msgstr "GPS Clock ID の変更に使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 530
 msgid "GPS Initialization"
-msgstr ""
+msgstr "GPS 初期化"
 
 # File: src/www/services_ntpd_gps.php, line: 555
 msgid "Show GPS Initialization commands"
-msgstr ""
+msgstr "GPS 初期化コマンドを表示"
 
 # File: src/www/services_ntpd_gps.php, line: 560
 msgid ""
@@ -12384,28 +12382,28 @@ msgid ""
 "Please read and understand your GPS documentation before making any changes "
 "here."
 msgstr ""
+"注意: ここで入力するコマンドは、GPS の初期化中に送信されます。ここで何らかの変更をする前に、使用する GPS "
+"のドキュメントを読んで理解してください。"
 
 # File: src/www/services_ntpd_gps.php, line: 561
 msgid "NMEA checksum calculator"
-msgstr ""
+msgstr "NMEA チェックサム計算"
 
 # File: src/www/services_ntpd_gps.php, line: 563
 msgid ""
 "Enter the text between &quot;$&quot; and &quot;*&quot; of a NMEA command "
 "string:"
-msgstr ""
+msgstr "NMEA コマンド文字列の &quot;$&quot; と &quot;*&quot; の間にテキストを入力してください: "
 
-#, fuzzy
 msgid "checksum"
-msgstr "チェックサムビット"
+msgstr "チェックサム"
 
 # File: src/www/services_ntpd_gps.php, line: 564
 msgid "Calculate NMEA checksum"
-msgstr ""
+msgstr "NMEA チェックサムを計算します"
 
-#, fuzzy
 msgid "NTP PPS Configuration"
-msgstr "NTP サーバ構成"
+msgstr "NTP PPS 構成"
 
 # File: src/www/services_ntpd_pps.php, line: 128
 msgid ""
@@ -12413,92 +12411,92 @@ msgid ""
 "signal from DCF77 (DE), JJY (JP), MSF (GB) or WWVB (US) may be used as a PPS "
 "reference for NTP."
 msgstr ""
+"無線のようなパルスパーセコンド出力のデバイスは、タイムシグナルを DCF77 (DE)、JJY (JP)、MSF (GB)、もしくは WWVB (US) "
+"から受信し、NTP に対する PPS 参照のように使用します。"
 
 # File: src/www/services_ntpd_pps.php, line: 129
 msgid ""
 "A serial GPS may also be used, but the serial GPS driver would usually be "
 "the better option."
-msgstr ""
+msgstr "シリアル GPS も使用可能ですが、通常はシリアル GPS ドライバにもっと適切なオプションを設定します。"
 
 # File: src/www/services_ntpd_pps.php, line: 130
 msgid ""
 "A PPS signal only provides a reference to the change of a second, so at "
 "least one other source to number the seconds is required."
-msgstr ""
+msgstr "PPS シグナルは秒を変更する参照のみを提供します。そのため、その他に最低でも 1 つの秒数のソースが必要です。"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "At least 3 additional time sources should be configured under"
-msgstr ""
+msgstr "最低でも 3 つの追加タイムソースの構成を、"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "to reliably supply the time of each PPS pulse."
-msgstr ""
+msgstr "で行うことで、PPS パルス単位の時間を確実に提供されます。"
 
-#, fuzzy
 msgid ""
 "All serial ports are listed, be sure to pick the port with the PPS source "
 "attached."
-msgstr "全てのシリアルポートがリスンされている場合は、GPS を添付するポートのみを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、PPS ソースを取り付けたポートを選択するようにしてください。"
 
 # File: src/www/services_ntpd_pps.php, line: 147
 msgid "Fudge time"
-msgstr ""
+msgstr "Fudge time"
 
 # File: src/www/services_ntpd_pps.php, line: 156
 msgid ""
 "Fudge time is used to specify the PPS signal offset from the actual second "
 "such as the transmission delay between the transmitter and the receiver."
-msgstr ""
+msgstr "Fudge time は、トランスミッタとレシーバ間の伝送遅延のような実際の秒数から、PPS シグナルオフセットを指定するのに使用されます。"
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid "This may be used to change the PPS Clock stratum"
-msgstr ""
+msgstr "PPS Clock stratum の変更に使用されます"
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock and just monitor this source."
-msgstr ""
+msgstr "この設定は、なんらかの理由で別の時計とこのソースのモニタ自体を ntpd で優先したい場合に便利です。"
 
 # File: src/www/services_ntpd_pps.php, line: 188
 msgid "Enable kernel PPS clock discipline (default: disabled)."
-msgstr ""
+msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_pps.php, line: 196
 msgid ""
 "Record a timestamp once for each second, useful for constructing Allan "
 "deviation plots (default: disabled)."
-msgstr ""
+msgstr "1 秒に 1 回タイムスタンプを記録します。アラン偏差プロットの構成に便利です ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_pps.php, line: 206
 msgid "This may be used to change the PPS Clock ID"
-msgstr ""
+msgstr "PPS Clock ID の変更に使用されます"
 
-#, fuzzy
 msgid "OpenDNS Setup"
-msgstr "全般設定"
+msgstr "OpenDNS 設定"
 
 # File: src/www/services_opendns.php, line: 133
 msgid "Filter DNS requests using OpenDNS"
-msgstr ""
+msgstr "OpenDNS を使用して DNS リクエストをフィルタする"
 
 # File: src/www/services_opendns.php, line: 153
 msgid ""
 "Signon Username to log into your OpenDNS dashboard. It is used to "
 "automatically update the IP address of the registered network."
 msgstr ""
+"OpenDNS ダッシュボードにログインするには、ユーザ名でサインオンしてください。登録されたネットワークの IP "
+"アドレスを自動的に更新するのに使用されます。"
 
 # File: src/www/services_opendns.php, line: 177
 msgid "Networks Dashboard of OpenDNS"
-msgstr ""
+msgstr "OpenDNS のネットワークダッシュボード"
 
-#, fuzzy
 msgid "Test result"
-msgstr "ポートテスト結果"
+msgstr "テスト結果"
 
-#, fuzzy
 msgid "Test/Update"
-msgstr "更新"
+msgstr "テスト / 更新"
 
 msgid "Do you really want to delete this client?"
 msgstr "本当にこのクライアントを削除しますか？"
@@ -12526,7 +12524,7 @@ msgstr "RFC 2136 クライアント"
 
 # File: src/www/services_rfc2136_edit.php, line: 169
 msgid "Fully qualified hostname of the host to be updated."
-msgstr ""
+msgstr "ホストの完全修飾ホスト名が更新されました。"
 
 msgid "This must match the setting on the DNS server."
 msgstr "DNS サーバの設定と一致する必要があります"
@@ -12548,17 +12546,16 @@ msgstr "UDP ではなく TCP を使用"
 
 # File: src/www/services_rfc2136_edit.php, line: 211
 msgid "Use Public IP"
-msgstr ""
+msgstr "パブリック IP を使用"
 
 # File: src/www/services_rfc2136_edit.php, line: 214
 msgid ""
 "If the interface IP is private, attempt to fetch and use the public IP "
 "instead."
-msgstr ""
+msgstr "インタフェース IP がプライベートな場合は、代わりとなるパブリック IP の取得を試みて使用します。"
 
-#, fuzzy
 msgid "Save &amp; Force Update"
-msgstr "保存 & 強制更新"
+msgstr "保存 &amp; 強制更新"
 
 msgid ""
 "You must configure a DNS server in %sSystem: General setup %sor allow the "
@@ -12620,11 +12617,10 @@ msgstr "ルータ広告 (RA) デーモンのインタフェースを選択して
 msgid "RA Subnet(s)"
 msgstr "RA サブネット"
 
-#, fuzzy
 msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
 "character as separator"
-msgstr "オプションで、RA サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "RA サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください"
 
 msgid "Use same settings as DHCPv6 server"
 msgstr "DHCPv6 サーバと同じ設定を使用"
@@ -12731,23 +12727,22 @@ msgstr "インタフェースのバインド"
 msgid ""
 "The DNS Forwarder is still active. Disable it before enabling the DNS "
 "Resolver."
-msgstr ""
+msgstr "DNS フォワーダは現在アクティブになっています。DNS リゾルバを有効にする前に、無効にしてください。"
 
 # File: src/www/services_unbound.php, line: 92
 msgid ""
 "A single network interface needs to be selected for the DNS Resolver to bind "
 "to."
-msgstr ""
+msgstr "DNS リゾルバにバインドする、単一ネットワークインタフェースを選択してください。"
 
 # File: src/www/services_unbound.php, line: 95
 msgid ""
 "A single outgoing network interface needs to be selected for the DNS "
 "Resolver to use for outgoing DNS requests."
-msgstr ""
+msgstr "DNS リゾルバが DNS リクエスト発信に使用する、単一ネットワークインタフェースを選択してください。"
 
-#, fuzzy
 msgid "You must specify a valid port number."
-msgstr "有効なポート番号を指定してください"
+msgstr "有効なポート番号を指定してください。"
 
 msgid "The configuration for the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は変更されました"
@@ -12761,20 +12756,18 @@ msgstr "DNS リゾルバを有効"
 msgid "Network Interfaces"
 msgstr "ネットワークインタフェース"
 
-#, fuzzy
 msgid ""
 "Interface IPs used by the DNS Resolver for responding to queries from "
 "clients. If an interface has both IPv4 and IPv6 IPs, both are used. Queries "
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
-"DNS フォワーダがクライアントからの照会に応答するのに使用されるインタフェース IP です。インタフェースに IPv4 と IPv6 "
+"DNS リゾルバがクライアントからの照会に応答するのに使用されるインタフェース IP です。インタフェースに IPv4 と IPv6 "
 "を両方とも設定すれば、どちらからも使用されます。その他の、下記で選択されていないインタフェース IP への照会は破棄されます。デフォルトの振る舞いは、"
 "全ての使用可能な IPv4 及び IPv6 アドレスへの照会に応答します。"
 
-#, fuzzy
 msgid "Outgoing Network Interfaces"
-msgstr "ネットワークインタフェース"
+msgstr "発信ネットワークインタフェース"
 
 msgid ""
 "Utilize different network interface(s) that the DNS Resolver will use to "
@@ -12818,19 +12811,19 @@ msgstr ""
 
 # File: src/www/services_unbound.php, line: 322
 msgid "TXT Comment Support"
-msgstr ""
+msgstr "TXT コメントサポート"
 
 # File: src/www/services_unbound.php, line: 325
 msgid ""
 "If this option is set, then any descriptions associated with Host entries "
 "and DHCP Static mappings will create a corresponding TXT record."
 msgstr ""
+"このオプションが設定されている場合、ホストエントリ及び DHCP 静的 マッピングと関連付けられた全ての説明に対応する TXT レコードが作成されます。"
 
-#, fuzzy
 msgid ""
 "Enter any additional options you would like to add to the DNS Resolver "
 "configuration here, separated by a space or newline"
-msgstr "Dnsmasq 構成の追加オプションを入力します。空白、または、改行で区切ります。"
+msgstr "DNS リゾルバ構成の追加オプションを入力します。空白、または、改行で区切ります。"
 
 msgid ""
 "If the DNS Resolver is enabled, the DHCP service (if enabled) will "
@@ -12890,7 +12883,7 @@ msgstr ""
 "キャッシュスヌーピングに使用されるため、理想的には、自分の管理下にあるホストにのみ構成されるべきです。"
 
 msgid "You may enter a description here for your reference."
-msgstr "自分用のメモを入力できます。"
+msgstr "参照用の説明を入力できます。"
 
 msgid "Access List Name"
 msgstr "アクセスリスト名"
@@ -12905,7 +12898,7 @@ msgid "The configuration of the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は、変更されました"
 
 msgid "Advanced Resolver Options"
-msgstr "詳細なリゾルバオプション"
+msgstr "詳細リゾルバオプション"
 
 msgid "Hide Identity"
 msgstr "識別子を非表示"
@@ -13060,27 +13053,27 @@ msgstr "ホストキャッシュエントリの TTL"
 # File: src/www/services_unbound_advanced.php, line: 331
 # File: src/www/services_unbound_advanced.php, line: 346
 msgid "1 minute"
-msgstr ""
+msgstr "1 分"
 
 # File: src/www/services_unbound_advanced.php, line: 332
 # File: src/www/services_unbound_advanced.php, line: 347
 msgid "2 minutes"
-msgstr ""
+msgstr "2 分"
 
 # File: src/www/services_unbound_advanced.php, line: 333
 # File: src/www/services_unbound_advanced.php, line: 348
 msgid "5 minutes"
-msgstr ""
+msgstr "5 分"
 
 # File: src/www/services_unbound_advanced.php, line: 334
 # File: src/www/services_unbound_advanced.php, line: 349
 msgid "10 minutes"
-msgstr ""
+msgstr "10 分"
 
 # File: src/www/services_unbound_advanced.php, line: 335
 # File: src/www/services_unbound_advanced.php, line: 350
 msgid "15 minutes"
-msgstr ""
+msgstr "15 分"
 
 msgid ""
 "Time to live for entries in the host cache. The host cache contains "
@@ -13102,23 +13095,23 @@ msgstr "キャッシュするホスト数"
 
 # File: src/www/services_unbound_advanced.php, line: 361
 msgid "1000"
-msgstr ""
+msgstr "1000"
 
 # File: src/www/services_unbound_advanced.php, line: 362
 msgid "5000"
-msgstr ""
+msgstr "5000"
 
 # File: src/www/services_unbound_advanced.php, line: 363
 msgid "10 000"
-msgstr ""
+msgstr "10 000"
 
 # File: src/www/services_unbound_advanced.php, line: 364
 msgid "20 000"
-msgstr ""
+msgstr "20 000"
 
 # File: src/www/services_unbound_advanced.php, line: 365
 msgid "50 000"
-msgstr ""
+msgstr "50 000"
 
 msgid "Number of hosts for which information is cached. The default is 10,000."
 msgstr "情報をキャッシュするホストの数です。デフォルトは 10,000 です。"
@@ -13128,29 +13121,28 @@ msgstr "望まない応答のしきい値"
 
 # File: src/www/services_unbound_advanced.php, line: 376
 msgid "disabled"
-msgstr ""
+msgstr "無効"
 
 # File: src/www/services_unbound_advanced.php, line: 377
 msgid "5 million"
-msgstr ""
+msgstr "500 万"
 
 # File: src/www/services_unbound_advanced.php, line: 378
 msgid "10 million"
-msgstr ""
+msgstr "1000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 379
 msgid "20 million"
-msgstr ""
+msgstr "2000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 380
 msgid "40 million"
-msgstr ""
+msgstr "4000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 381
 msgid "50 million"
-msgstr ""
+msgstr "5000 万"
 
-#, fuzzy
 msgid ""
 "If enabled, a total number of unwanted replies is kept track of in every "
 "thread. When it reaches the threshold, a defensive action is taken and a "
@@ -13158,9 +13150,9 @@ msgid ""
 "RRSet and message caches, hopefully flushing away any poison. The default is "
 "disabled, but if enabled a value of 10 million is suggested."
 msgstr ""
-"有効な場合、望まない応答の合計数をスレッド毎に記録します。しきい値に達すると、防御処理が実行され、警告がログファイルに出力されます。防御処理は、"
-"RRSet とメッセージキャッシュを削除するというもので、ポイズンが全て除去されることが期待されます。デフォルトは無効ですが、有効にする場合は、値を "
-"1000 万に設定することが推奨されます。"
+"有効な場合、望まない応答の合計数をスレッド毎に記録します。しきい値に達すると防御処理が実行され、警告がログファイルに出力されます。防御処理は RRSet "
+"とメッセージキャッシュの消去を行うことで、ポイズンが全て除去されることを期待します。デフォルトは無効ですが、有効にする場合は、値を 1000 "
+"万に設定することが推奨されます。"
 
 msgid "Log level verbosity"
 msgstr "ログ詳細度レベル"
@@ -13168,152 +13160,149 @@ msgstr "ログ詳細度レベル"
 msgid "Select the log verbosity."
 msgstr "ログの詳細度を選択します。"
 
-#, fuzzy
 msgid ""
 "A valid IP address and port must be specified, for example "
 "192.168.100.10@5353."
-msgstr "ゲートウェイに有効な IP アドレスを指定してください"
+msgstr "有効な IP アドレスとポートを指定してください。例: 192.168.100.10@5353"
 
-#, fuzzy
 msgid "A valid IP address must be specified, for example 192.168.100.10."
-msgstr "ゲートウェイに有効な IP アドレスを指定してください"
+msgstr "有効な IP アドレスを指定してください。例: 192.168.100.10"
 
 # File: src/www/services_unbound_domainoverride_edit.php, line: 146
 msgid ""
 "To use a nondefault port for communication, append an '@' with the port "
 "number."
-msgstr ""
+msgstr "通信にデフォルトではないポートを使用する場合は、ポート番号に「@」を追加してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 306
 msgid "MX Host"
-msgstr ""
+msgstr "MX ホスト"
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 298
 msgid "MX Priority"
-msgstr ""
+msgstr "MX 優先度"
 
 # File: src/www/services_unbound_host_edit.php, line: 114
 msgid "A valid MX priority must be specified."
-msgstr ""
+msgstr "有効な MX 優先度を指定してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 118
 msgid "A valid MX host must be specified."
-msgstr ""
+msgstr "有効な MX ホストを指定してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 122
 msgid "A valid resource record type must be specified."
-msgstr ""
+msgstr "有効なリソースレコードタイプを指定してください。"
 
-#, fuzzy
 msgid "Edit DNS Resolver entry"
-msgstr "DNS フォワーダエントリの編集"
+msgstr "DNS リゾルバエントリを編集"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "A or AAAA (IPv4 or IPv6 address)"
-msgstr ""
+msgstr "A もしくは AAAA ( IPv4 もしくは IPv6 アドレス )"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "MX (Mail server)"
-msgstr ""
+msgstr "MX ( メールサーバ )"
 
 # File: src/www/services_unbound_host_edit.php, line: 285
 msgid "Type of resource record"
-msgstr ""
+msgstr "リソースレコードのタイプ"
 
 # File: src/www/services_unbound_host_edit.php, line: 286
 msgid "for IPv4 or IPv6 addresses"
-msgstr ""
+msgstr "IPv4 もしくは IPv6 アドレス用"
 
 # File: src/www/services_unbound_host_edit.php, line: 301
 msgid "Priority of MX record"
-msgstr ""
+msgstr "MX レコードの優先度"
 
 # File: src/www/services_unbound_host_edit.php, line: 309
 msgid "Host name of MX host"
-msgstr ""
+msgstr "MX ホストのホスト名"
 
 # File: src/www/services_unbound_overrides.php, line: 124
 msgid ""
 "Keep in mind that all resource record types (i.e. A, AAAA, MX, etc. records) "
 "of a specified host below are being overwritten."
-msgstr ""
+msgstr "下で指定されるホストの全てのリソースレコードタイプ ( A、AAAA、MX、等のレコード ) は上書きされます。ご注意ください。"
 
 msgid ""
 "Entries in this area override an entire domain by specifying an "
 "authoritative DNS server to be queried for that domain."
-msgstr "このエリアのエントリは、そのドメインに対する問い合わせに使用される、権威 DNS サーバが指定するドメイン全体を上書きします。"
+msgstr "そのドメインに対して問い合わせされる権威 DNS サーバを設定することにより、このエリアのエントリはドメイン全体を上書きします。"
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
-msgstr ""
+msgstr "1 つ以上の UPnP もしくは NAT-PMP を使用できます"
 
 # File: src/www/services_upnp.php, line: 74
 msgid "It is a security risk to specify WAN in the 'Interface' field"
-msgstr ""
+msgstr "「インタフェース」フィールドに WAN を指定するのはセキュリティリスクになります"
 
 # File: src/www/services_upnp.php, line: 76
 msgid "You cannot select the external interface as an internal interface."
-msgstr ""
+msgstr "内部インタフェースとして外部インタフェースは選択できません。"
 
 # File: src/www/services_upnp.php, line: 79
 msgid "You must specify a valid ip address in the 'Override WAN address' field"
-msgstr ""
+msgstr "「WAN アドレスを上書き」フィールドに有効な IP アドレスを指定してください"
 
 # File: src/www/services_upnp.php, line: 81
 msgid ""
 "You must fill in both 'Maximum Download Speed' and 'Maximum Upload Speed' "
 "fields"
-msgstr ""
+msgstr "「最大ダウンロード速度」及び「最大アップロード速度」も入力してください"
 
 # File: src/www/services_upnp.php, line: 83
 msgid ""
 "You must specify a value greater than 0 in the 'Maximum Download Speed' field"
-msgstr ""
+msgstr "「最大ダウンロード速度」フィールドは 0 より大きい値を指定してください"
 
 # File: src/www/services_upnp.php, line: 85
 msgid ""
 "You must specify a value greater than 0 in the 'Maximum Upload Speed' field"
-msgstr ""
+msgstr "「最大アップロード速度」フィールドは 0 より大きい値を指定してください"
 
 # File: src/www/services_upnp.php, line: 93
 msgid ""
 "You must follow the specified format in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、指定された形式に従ってください"
 
 # File: src/www/services_upnp.php, line: 97
 msgid ""
 "You must begin with allow or deny in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、許可もしくは拒否で始めてください"
 
 # File: src/www/services_upnp.php, line: 100
 msgid ""
 "You must specify a port or port range between 0 and 65535 in the 'User "
 "specified permissions %s' field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、ポートもしくはポート範囲を 0 - 65535 で指定してください"
 
 # File: src/www/services_upnp.php, line: 103
 msgid ""
 "You must specify a valid ip address in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドに、有効な IP アドレスを指定してください"
 
 # File: src/www/services_upnp.php, line: 208
 msgid "Modified Universal Plug and Play settings."
-msgstr ""
+msgstr "ユニバーサルプラグアンドプレイ設定が変更されました。"
 
 # File: src/www/services_wol.php, line: 55
 msgid "Sent magic packet to %s (%s)."
-msgstr ""
+msgstr "マジックパケットを %s (%s) に送信しました。"
 
 # File: src/www/services_wol.php, line: 57
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s (%s) did not "
 "complete successfully."
-msgstr ""
+msgstr "%sシステムログ%sを確認してください。%s (%s) に対する WOL コマンドが完了しませんでした。"
 
 msgid "A valid interface must be specified."
 msgstr "有効なインタフェースを指定してください。"
@@ -13322,23 +13311,23 @@ msgid "A valid ip could not be found!"
 msgstr "有効な IP がありません！"
 
 msgid "Sent magic packet to %s."
-msgstr "%s にマジックパケットを送信"
+msgstr "%s にマジックパケットを送信しました。"
 
 # File: src/www/services_wol.php, line: 94
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s did not complete "
 "successfully."
-msgstr ""
+msgstr "%sシステムログ%sを確認してください。%s に対する WOL コマンドが完了しませんでした。"
 
 msgid "Choose which interface the host to be woken up is connected to."
 msgstr "接続で起動するホストのインタフェースを選択してください。"
 
 # File: src/www/services_wol.php, line: 157
 msgid "Enter a MAC address %sin the following format: xx:xx:xx:xx:xx:xx%s"
-msgstr ""
+msgstr "MAC アドレスを%s次の形式で入力してください: xx:xx:xx:xx:xx:xx%s"
 
 msgid "Or Click the MAC address to wake up an individual device:"
-msgstr "もしくは起動する個々のデバイスの MAC アドレスをクリックしてください。"
+msgstr "もしくは起動する個々のデバイスの MAC アドレスをクリックしてください: "
 
 msgid "Wake all clients at once: "
 msgstr "一度に全てのクライアントを起動: "
@@ -13350,6 +13339,8 @@ msgid ""
 "support Wake on LAN and has to be configured properly (WOL cable, BIOS "
 "settings)."
 msgstr ""
+"このサービスは特別な「マジックパケット」を送信することで、コンピュータを起動する ( 電源を入れる ) ことができます。起動する予定のコンピュータの "
+"NIC が Wake-on-LAN に対応しており、適切に構成されている必要があります ( WOL ケーブル、BIOS 設定 )。"
 
 msgid "Edit WOL entry"
 msgstr "WOL エントリの編集"
@@ -13394,7 +13385,7 @@ msgstr "終了"
 
 # File: src/www/status_dhcp_leases.php, line: 346
 msgid "Lease type"
-msgstr ""
+msgstr "リースタイプ"
 
 msgid "send Wake on LAN packet to this MAC address"
 msgstr "この MAC アドレスに Wake-on-LAN パケットを送信"
@@ -13434,11 +13425,11 @@ msgstr "IPv6 プレフィックス"
 
 # File: src/www/status_filter_reload.php, line: 73
 msgid "Reload Filter"
-msgstr ""
+msgstr "フィルタのリロード"
 
 # File: src/www/status_filter_reload.php, line: 75
 msgid "Force Config Sync"
-msgstr ""
+msgstr "構成同期を強制"
 
 msgid "Warning, Packetloss"
 msgstr "警告: パケットロス"
@@ -13461,28 +13452,27 @@ msgstr "損失"
 msgid "Pending"
 msgstr "ペンディング"
 
-#, fuzzy
 msgid "Offline (forced)"
-msgstr "オフライン"
+msgstr "オフライン ( 強制 )"
 
 msgid "Last check:"
 msgstr "最新チェック: "
 
 # File: src/www/status_graph.php, line: 207
 msgid "Sort by"
-msgstr ""
+msgstr "次でソート"
 
 # File: src/www/status_graph.php, line: 209
 msgid "Display"
-msgstr ""
+msgstr "表示"
 
 # File: src/www/status_graph.php, line: 224
 msgid "Bw In"
-msgstr ""
+msgstr "Bw In"
 
 # File: src/www/status_graph.php, line: 225
 msgid "Bw Out"
-msgstr ""
+msgstr "Bw Out"
 
 msgid "Local"
 msgstr "ローカル"
@@ -13492,7 +13482,7 @@ msgstr "ホスト名"
 
 # File: src/www/status_graph.php, line: 235
 msgid "FQDN"
-msgstr ""
+msgstr "FQDN"
 
 msgid "Host IP"
 msgstr "ホスト IP"
@@ -13511,6 +13501,8 @@ msgid ""
 "The %sAdobe SVG Viewer%s, Firefox 1.5 or later or other browser supporting "
 "SVG is required to view the graph."
 msgstr ""
+"%sAdobe SVG Viewer%s でグラフを表示するには、Firefox 1.5 以上、もしくは SVG "
+"に対応しているその他のブラウザが必要です。"
 
 msgid "interface"
 msgstr "インタフェース"
@@ -13523,7 +13515,7 @@ msgstr "更新"
 
 # File: src/www/status_interfaces.php, line: 102
 msgid "DHCP6"
-msgstr ""
+msgstr "DHCP6"
 
 msgid "Connect"
 msgstr "接続"
@@ -13554,7 +13546,7 @@ msgstr "セル上流"
 # File: src/www/status_interfaces.php, line: 228
 # File: src/www/status_interfaces.php, line: 235
 msgid "kbit/s"
-msgstr ""
+msgstr "kbit/s"
 
 msgid "Cell Downstream"
 msgstr "セル下流"
@@ -13631,8 +13623,8 @@ msgid ""
 "prevent dial-on-demand from making connections to the outside! Don't use "
 "dial-on-demand if you want to make sure that the line is kept disconnected."
 msgstr ""
-"ダイヤルオンデマンドを使用すると、なんらかのパケットがトリガとなって、接続が再度アップになります。これを具体的に言うと、手動で切断しても、ダイヤルオンデマ"
-"ンドが外部に対して接続することを、妨げられ %sません%s。もし、回線を確実に切断状態にしておきたい場合は、ダイヤルオンデマンドを使用しないでください。"
+"ダイヤルオンデマンドを使用中に、なんらかのパケットがトリガになると接続は再度アップになります。要するに、手動で切断してもダイヤルオンデマンドが外部に対して"
+"接続することを、妨げられ%sません%s！回線を確実に切断状態にしておきたい場合は、ダイヤルオンデマンドは使用しないでください。"
 
 msgid "Ref ID"
 msgstr "RefID"
@@ -13659,11 +13651,11 @@ msgstr "Jitter"
 msgid ""
 "Statistics unavailable because ntpq and ntpdc queries are disabled in the %"
 "sNTP service settings%s."
-msgstr ""
+msgstr "統計が利用できません。ntpq 及び ntpdc クエリが %sNTP サービス設定%sで無効になっています。"
 
 # File: src/www/status_ntpd.php, line: 196
 msgid "No peers found, %sis the ntp service running%s?"
-msgstr ""
+msgstr "ピアが見つかりません。%sntp サービスは実行されていますか%s？"
 
 msgid "Clock Latitude"
 msgstr "時計の緯度"
@@ -13671,17 +13663,16 @@ msgstr "時計の緯度"
 msgid "Clock Longitude"
 msgstr "時計の経度"
 
-#, fuzzy
 msgid "Clock Altitude"
-msgstr "時計の緯度"
+msgstr "時計の高度"
 
 # File: src/www/status_ntpd.php, line: 244
 msgid "Satellites"
-msgstr ""
+msgstr "衛星"
 
 # File: src/www/status_openvpn.php, line: 131
 msgid "OpenVPN Status"
-msgstr ""
+msgstr "OpenVPN ステータス"
 
 msgid "Client connections"
 msgstr "クライアント接続"
@@ -13709,7 +13700,7 @@ msgstr "次からのクライアント接続を強制終了: "
 
 # File: src/www/status_openvpn.php, line: 185
 msgid "Show/Hide Routing Table"
-msgstr ""
+msgstr "ルーティングテーブルを表示 / 隠す"
 
 msgid "Routing Table"
 msgstr "ルーティングテーブル"
@@ -13745,21 +13736,20 @@ msgstr "定義済みの OpenVPN インスタンスはありません"
 
 # File: src/etc/inc/service-utils.inc, line: 410
 msgid "Could not start unknown service `%s'"
-msgstr ""
+msgstr "不明なサービス %s を開始できませんでした"
 
 msgid "%s has been started."
 msgstr "%s が開始されました"
 
-#, fuzzy
 msgid "Could not stop unknown service `%s'"
-msgstr "エラー！ %s サーバに接続できません"
+msgstr "不明なサービス %s を停止できませんでした"
 
 msgid "%s has been stopped."
 msgstr "%s が停止されました"
 
 # File: src/etc/inc/service-utils.inc, line: 566
 msgid "Could not restart unknown service `%s'"
-msgstr ""
+msgstr "不明なサービス %s を再起動できませんでした"
 
 msgid "%s has been restarted."
 msgstr "%s が再起動されました"
@@ -13768,14 +13758,13 @@ msgid "No services found"
 msgstr "サービスがありません"
 
 msgid "Rules have been cleared and the daemon restarted"
-msgstr "ルールは消去され、デーモンは再起動しました。"
+msgstr "ルールは消去され、デーモンは再起動しました"
 
 msgid "UPnP is currently disabled."
 msgstr "UPnP は現在無効です"
 
-#, fuzzy
 msgid "Int. Port"
-msgstr "送信先ポート"
+msgstr "Int. ポート"
 
 msgid "all currently connected sessions"
 msgstr "現在接続している全てのセッション"
@@ -13791,70 +13780,72 @@ msgstr "近くのアクセスポイント、またはアドホックピア"
 # File: src/www/status_wireless.php, line: 99
 # File: src/www/status_wireless.php, line: 151
 msgid "CHAN"
-msgstr ""
+msgstr "CHAN"
 
 # File: src/www/status_wireless.php, line: 100
 # File: src/www/status_wireless.php, line: 152
 msgid "RATE"
-msgstr ""
+msgstr "RATE"
 
 # File: src/www/status_wireless.php, line: 102
 msgid "INT"
-msgstr ""
+msgstr "INT"
 
 # File: src/www/status_wireless.php, line: 103
 # File: src/www/status_wireless.php, line: 157
 msgid "CAPS"
-msgstr ""
+msgstr "CAPS"
 
 msgid "Associated or ad-hoc peers"
 msgstr "アソシエーション済、またはアドホックピア"
 
 # File: src/www/status_wireless.php, line: 149
 msgid "ADDR"
-msgstr ""
+msgstr "ADDR"
 
 # File: src/www/status_wireless.php, line: 150
 msgid "AID"
-msgstr ""
+msgstr "AID"
 
 # File: src/www/status_wireless.php, line: 154
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 # File: src/www/status_wireless.php, line: 155
 msgid "TXSEQ"
-msgstr ""
+msgstr "TXSEQ"
 
 # File: src/www/status_wireless.php, line: 156
 msgid "RXSEQ"
-msgstr ""
+msgstr "RXSEQ"
 
 # File: src/www/status_wireless.php, line: 158
 msgid "ERP"
-msgstr ""
+msgstr "ERP"
 
 # File: src/www/status_wireless.php, line: 190
 msgid "Rescan"
-msgstr ""
+msgstr "再スキャン"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "A = authorized, E = Extended Rate (802.11g), P = Power save mode"
-msgstr ""
+msgstr "A = 認証済、E = 拡張レート (802.11g)、P = 省電力モード"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "Flags:"
-msgstr ""
+msgstr "フラグ: "
 
 # File: src/www/status_wireless.php, line: 192
 msgid "Capabilities:"
-msgstr ""
+msgstr "ケイパビリティ: "
 
 # File: src/www/status_wireless.php, line: 192
 msgid ""
 "E = ESS (infrastructure mode), I = IBSS (ad-hoc mode), P = privacy "
 "(WEP/TKIP/AES), S = Short preamble, s = Short slot time"
 msgstr ""
+"E = ESS ( インフラストラクチャモード )、I = IBSS ( アドホックモード )、P = プライバシー (WEP/TKIP/AES)、S ="
+" ショートプリアンブル、s = ショートスロットタイム"
 
 msgid "You must specify a valid webConfigurator port number"
 msgstr "有効な Web 設定管理画面 ポート番号を指定してください"
@@ -13863,15 +13854,15 @@ msgid "Alternate hostname %s is not a valid hostname."
 msgstr "代替ホスト名 %s は有効なホスト名ではありません"
 
 msgid "One moment...redirecting to %s in 20 seconds."
-msgstr "少しお待ちください···20 秒で %s にリダイレクトします"
+msgstr "少しお待ちください...20 秒で %s にリダイレクトします"
 
 # File: src/www/system_advanced_admin.php, line: 252
 msgid "Secure Shell configuration has changed. Applying now..."
-msgstr ""
+msgstr "セキュアシェル構成は変更されました。現在適用しています..."
 
 # File: src/www/system_advanced_admin.php, line: 257
 msgid "webConfigurator configuration has changed. Applying now..."
-msgstr ""
+msgstr "Web 設定管理画面構成は変更されました。現在適用しています..."
 
 msgid "webConfigurator"
 msgstr "Web 設定管理画面"
@@ -13892,7 +13883,7 @@ msgstr "SSL 証明書"
 msgid ""
 "The %sSSL certificate manager%s can be used to create or import certificates "
 "if required."
-msgstr ""
+msgstr "%sSSL 証明書マネジャ%sは、必要な証明書の新規作成もしくはインポートを行えます。"
 
 msgid "TCP port"
 msgstr "TCP ポート"
@@ -13916,17 +13907,15 @@ msgid ""
 "even on port 80, regardless of the listening port configured. Check this box "
 "to disable this automatically added redirect rule. "
 msgstr ""
-"これをチェックしない場合は、Web 設定管理画面へのアクセスは、常に許可されます。例えポート 80 "
-"だとしても、リスニングポートの構成内容は考慮されません。このボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にします。"
+"これをチェックしないと、使用するポートが 80 の場合でも Web 設定管理画面へのアクセスは常に許可されます。リスニングポートの構成は考慮されません。こ"
+"のボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にします。"
 
 msgid "WebGUI Login Autocomplete"
 msgstr "WebGUI ログインオートコンプリート"
 
-#, fuzzy
 msgid "Enable webConfigurator login autocomplete"
-msgstr "Web 設定管理画面ログインオートコンプリートを無効"
+msgstr "Web 設定管理画面ログインオートコンプリートを有効"
 
-#, fuzzy
 msgid ""
 "When this is checked, login credentials for the webConfigurator may be saved "
 "by the browser. While convenient, some security standards require this to be "
@@ -13934,9 +13923,9 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option). "
 msgstr ""
-"これをチェックしない場合は、Web 設定管理画面へのログイン認証情報はブラウザに保存されます。便利ですが、一部のセキュリティ標準では、これを無効にする必要"
-"があります。このボックスをチェックすると、ログインフォームでオートコンプリートが無効になり、ブラウザは、認証情報を保存するよう促さなくなります。 ( "
-"注意: このオプションを無視するブラウザが存在します )"
+"これをチェックすると、Web 設定管理画面へのログイン認証情報はブラウザに保存されます。便利ですが、一部のセキュリティ標準ではこの機能を無効にする必要があ"
+"ります。このボックスをチェックすると、ログインフォームでオートコンプリートが有効になり、ブラウザは認証情報を保存するよう促すようになります ( 注意: "
+"このオプションを無視するブラウザが存在します )。"
 
 msgid "WebGUI login messages"
 msgstr "WebGUI ログインメッセージ"
@@ -14005,10 +13994,10 @@ msgstr "DNS リバインディング攻撃確認を回避するために、ル�
 
 # File: src/www/system_advanced_admin.php, line: 458
 msgid "HTTP_REFERER enforcement"
-msgstr ""
+msgstr "HTTP_REFERER 強制"
 
 msgid "Disable HTTP_REFERER enforcement check"
-msgstr "ブラウザ HTTP_REFERER 強制確認を無効"
+msgstr "HTTP_REFERER 強制確認を無効"
 
 msgid ""
 "When this is unchecked, access to the webConfigurator is protected against "
@@ -14024,21 +14013,22 @@ msgstr ""
 "'_blank' "
 "href='http://en.wikipedia.org/wiki/HTTP_referrer'>ウィキペディア</a>を参照してください。"
 
-#, fuzzy
 msgid "Enable XDebug"
-msgstr "有効: "
+msgstr "XDebug を有効"
 
 # File: src/www/system_advanced_admin.php, line: 509
 msgid ""
 "Enable debugger / profiler (developer mode, do not enable in production "
 "environment)"
-msgstr ""
+msgstr "デバッガ / プロファイラを有効 ( デベロッパモード、プロダクション環境では有効にしてはいけません )"
 
 # File: src/www/system_advanced_admin.php, line: 511
 msgid ""
 "When this is checked, php XDebug will be enabled and profiling output can be "
 "analysed using webgrind which will be available at [this-url]/webgrind/"
 msgstr ""
+"これをチェックすると、php XDebug が有効になり、webgrind を使用して出力のプロファイリングを分析することができます。webgrind "
+"は [this-url]/webgrind/ で利用可能です。"
 
 # File: src/www/system_advanced_admin.php, line: 513
 msgid ""
@@ -14046,6 +14036,9 @@ msgid ""
 "requests, please visit "
 "http://www.xdebug.org/docs/all_settings#profiler_enable_trigger"
 msgstr ""
+"XDebug "
+"のプロファイリングについてや、あなたの要求にあわせてそれをどのように有効にするかに関する、より詳しい情報については、次のサイトを参照してください: "
+"http://www.xdebug.org/docs/all_settings#profiler_enable_trigger"
 
 msgid "Secure Shell"
 msgstr "SSH"
@@ -14056,30 +14049,26 @@ msgstr "SSH サーバ"
 msgid "Enable Secure Shell"
 msgstr "SSH を有効"
 
-#, fuzzy
 msgid "Root Login"
-msgstr "ログイン"
+msgstr "root ログイン"
 
-#, fuzzy
 msgid "Permit root user login"
-msgstr "ユーザ同時ログイン"
+msgstr "root ユーザログインを許可"
 
 # File: src/www/system_advanced_admin.php, line: 499
 msgid ""
 "Root login is generally discouraged. It is advised to log in via another "
 "user and switch to root afterwards."
-msgstr ""
+msgstr "root ログインは一般的には非推奨です。他のユーザとしてログインしてから、root に切り替えることをお勧めします。"
 
 msgid "Authentication Method"
 msgstr "認証方法"
 
-#, fuzzy
 msgid "Permit password login"
-msgstr "ログインするにはユーザ名とパスワードを入力してください"
+msgstr "パスワードログインを許可"
 
-#, fuzzy
 msgid "When disabled, authorized keys need to be configured for each"
-msgstr "有効にすると、SSH アクセスを許可された"
+msgstr "無効にすると、SSH アクセスを許可された"
 
 msgid "user"
 msgstr "ユーザ"
@@ -14090,22 +14079,19 @@ msgstr "毎に、認証鍵を構成する必要があります。"
 msgid "SSH port"
 msgstr "SSH ポート"
 
-#, fuzzy
 msgid "Leave this blank for the default of 22."
-msgstr "注意: 空白にすると、デフォルトの 22 が設定されます。"
+msgstr "空白にすると、デフォルトの 22 が設定されます。"
 
-#, fuzzy
 msgid "Serial Communications"
-msgstr "シリアル接続"
+msgstr "シリアル通信"
 
 msgid "Serial Terminal"
 msgstr "シリアル端末"
 
-#, fuzzy
 msgid ""
 "Enables the first serial port with 115200/8/N/1 by default, or another speed "
 "selectable below."
-msgstr "有効にすると、デフォルトでは、第 1 シリアルポートは 9600/8/N/1 に設定されます。それ以外の速度は以下から選択可能です。"
+msgstr "有効にすると、第 1 シリアルポートはデフォルトの 115200/8/N/1 に設定されます。それ以外の速度は以下から選択可能です。"
 
 msgid ""
 "Note:  This will redirect the console output and messages to the serial "
@@ -14121,22 +14107,22 @@ msgstr "シリアル速度"
 
 # File: src/www/system_advanced_admin.php, line: 549
 msgid "bps"
-msgstr ""
+msgstr "bps"
 
 msgid "Allows selection of different speeds for the serial console port."
 msgstr "シリアルコンソールポート毎に異なる速度が選択できます。"
 
 # File: src/www/system_advanced_admin.php, line: 606
 msgid "Primary Console"
-msgstr ""
+msgstr "プライマリコンソール"
 
 # File: src/www/system_advanced_admin.php, line: 560
 msgid "Serial Console"
-msgstr ""
+msgstr "シリアルコンソール"
 
 # File: src/www/system_advanced_admin.php, line: 563
 msgid "VGA Console"
-msgstr ""
+msgstr "VGA コンソール"
 
 # File: src/www/system_advanced_admin.php, line: 616
 msgid ""
@@ -14144,6 +14130,8 @@ msgid ""
 "console will show OPNsense boot script output. All consoles display OS boot "
 "messages, console messages, and the console menu."
 msgstr ""
+"複数のコンソールが存在する場合は、優先するコンソールを選択してください。優先設定のコンソールに OPNsense ブートスクリプト出力が表示されます。"
+"全てのコンソールに OS ブートメッセージ、コンソールメッセージ、及びコンソールメニューが表示されます。"
 
 msgid "Console Options"
 msgstr "コンソールオプション"
@@ -14169,9 +14157,8 @@ msgstr "ファイアウォール適応終了値は整数です。"
 msgid "The Firewall Maximum States value must be an integer."
 msgstr "ファイアウォールステータスの最大値は整数です"
 
-#, fuzzy
 msgid "The Aliases Hostname Resolve Interval value must be an integer."
-msgstr "アイドルタイムアウト値は整数です"
+msgstr "エイリアスホスト名解決間隔値は整数です。"
 
 msgid "The Firewall Maximum Table Entries value must be an integer."
 msgstr "ファイアウォールテーブルエントリの最大値は整数です"
@@ -14184,7 +14171,7 @@ msgstr "ファイアウォール詳細設定"
 
 # File: src/www/system_advanced_firewall.php, line: 269
 msgid "IP Do-Not-Fragment"
-msgstr ""
+msgstr "IP Do-Not-Fragment"
 
 msgid "Clear invalid DF bits instead of dropping the packets"
 msgstr "パケットを落とす代わりに無効な DF ビットを消去"
@@ -14201,7 +14188,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 282
 msgid "IP Random id"
-msgstr ""
+msgstr "IP ランダム ID"
 
 msgid ""
 "Insert a stronger id into IP header of packets passing through the filter."
@@ -14218,7 +14205,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 295
 msgid "Firewall Optimization"
-msgstr ""
+msgstr "ファイアウォール最適化"
 
 msgid "normal"
 msgstr "通常"
@@ -14235,9 +14222,8 @@ msgstr "コンサバティブ"
 msgid "Select the type of state table optimization to use"
 msgstr "ステータステーブルの最適化に使用するタイプを選択してください"
 
-#, fuzzy
 msgid "as the name says, it is the normal optimization algorithm"
-msgstr "一般的な最適化アルゴリズムを使用します。"
+msgstr "名前の通り、一般的な最適化アルゴリズムです。"
 
 msgid ""
 "used for high latency links, such as satellite links.  Expires idle "
@@ -14262,17 +14248,17 @@ msgstr "全てのパケットフィルタリングを無効"
 
 # File: src/www/system_advanced_firewall.php, line: 357
 msgid "Warning: This converts %s into a routing only platform!"
-msgstr ""
+msgstr "警告: これは %s をルーティングのみのプラットフォームに変換します！"
 
 # File: src/www/system_advanced_firewall.php, line: 358
 msgid "Warning: This will also turn off NAT!"
-msgstr ""
+msgstr "警告: これは NAT もオフになります！"
 
 # File: src/www/system_advanced_firewall.php, line: 360
 msgid ""
 "If you only want to disable NAT, and not firewall rules, visit the %"
 "sOutbound NAT%s page."
-msgstr ""
+msgstr "ファイアウォールルールではなく、NAT を無効にしたいだけであれば、%s外向き NAT%s ページにアクセスしてください。"
 
 msgid "Disable Firewall Scrub"
 msgstr "ファイアウォールスクラブを無効"
@@ -14288,12 +14274,12 @@ msgstr "ファイアウォール適応タイムアウト"
 # File: src/www/system_advanced_firewall.php, line: 365
 # File: src/www/system_advanced_firewall.php, line: 383
 msgid "start"
-msgstr ""
+msgstr "開始"
 
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
 msgid "end"
-msgstr ""
+msgstr "終了"
 
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "

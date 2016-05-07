@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-02 05:08+0000\n"
+"POT-Creation-Date: 2016-05-07 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9658,10 +9658,11 @@ msgstr "DHCPv6 Clientkonfiguration"
 
 # File: src/www/interfaces.php, line: 2544
 msgid "Use IPv4 connectivity"
-msgstr ""
+msgstr "IPv4-Verbindung verwenden"
 
 msgid "Request a IPv6 prefix/information through the IPv4 connectivity link"
 msgstr ""
+"Frage einen IPv6-Präfix oder IPv6-Information über eine IPv4-Verbindung ab"
 
 msgid "Request only a IPv6 prefix"
 msgstr "Nur einen IPv6-Präfix anfordern"
@@ -9676,6 +9677,9 @@ msgid ""
 "The value in this field is the delegated prefix length provided by the "
 "DHCPv6 server. Normally specified by the ISP."
 msgstr ""
+"Der Wert in diesem Feld ist die delegierte Präfixlänge, die durch den DHCPv6-"
+"Server zur Verfügung gestellt wird. Dieser Wert wird normalerweise von Ihrem "
+"ISP spezifiziert."
 
 msgid "Send IPv6 prefix hint"
 msgstr "Sende einen IPv6-Präfixhinweis"
@@ -10686,10 +10690,10 @@ msgstr ""
 
 # File: src/www/interfaces_gif_edit.php, line: 214
 msgid "GIF tunnel local address"
-msgstr ""
+msgstr "Lokale GIF-Tunneladresse"
 
 msgid "Local gif tunnel endpoint"
-msgstr ""
+msgstr "Lokaler GIF-Tunnelendpunkt"
 
 # File: src/www/interfaces_gif_edit.php, line: 223
 msgid "GIF tunnel remote address "
@@ -11044,9 +11048,11 @@ msgid ""
 "Note: Time to wait for SIM to discover network after PIN is sent to SIM "
 "(seconds)."
 msgstr ""
+"Hinweis: Zeit in Sekunden in der auf das Auffinden des Netzwerks durch die "
+"SIM gewartet wird, nachdem die PIN an die SIM gesendet wurde."
 
 msgid "Init String"
-msgstr ""
+msgstr "Initialisierungszeichenkette"
 
 # File: src/www/interfaces_ppps_edit.php, line: 582
 msgid ""
@@ -11067,7 +11073,7 @@ msgid "Uptime Logging"
 msgstr "Laufzeitaufzeichnung"
 
 msgid "Enable persistent logging of connection uptime."
-msgstr ""
+msgstr "Persistente Protokollierung der Verbindungsverfügbarkeit aktivieren."
 
 msgid ""
 "This option causes cumulative uptime to be recorded and displayed on the "
@@ -11676,6 +11682,7 @@ msgstr ""
 msgid ""
 "The gateway address %s does not lie within the chosen interface's subnet."
 msgstr ""
+"Die Gatewayadresse %s liegt nicht im Subnetz der ausgewählten Schnittstelle."
 
 msgid ""
 "A valid IP address must be specified for the primary/secondary DNS servers."
@@ -11684,7 +11691,7 @@ msgstr ""
 "werden."
 
 msgid "The default lease time must be at least 60 seconds."
-msgstr ""
+msgstr "Die Standardleasedauer muss mindestens 60 Sekunden betragen."
 
 msgid ""
 "The maximum lease time must be at least 60 seconds and higher than the "
@@ -12561,7 +12568,7 @@ msgid ""
 msgstr ""
 
 msgid "Do not forward private reverse lookups"
-msgstr ""
+msgstr "Private reverse lookups nicht weiterleiten"
 
 msgid ""
 "If this option is set, %s DNS Forwarder (dnsmasq) will not forward reverse "
