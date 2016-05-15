@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-05 23:13+0000\n"
+"POT-Creation-Date: 2016-05-15 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2146,7 +2146,7 @@ msgstr "pfTables"
 
 # File: lang/dynamic/helpers/models.php, line: 232
 msgid "SocketsDetails"
-msgstr ""
+msgstr "DétailsSockets"
 
 # File: src/www/diag_sockets.php, line: 32
 msgid "Sockets"
@@ -8901,7 +8901,7 @@ msgstr "Port(s)"
 
 # File: src/www/firewall_aliases_edit.php, line: 619
 msgid "Alias Edit"
-msgstr "Editer un Alias"
+msgstr "Saisie d'un alias"
 
 # File: src/www/firewall_aliases_edit.php, line: 650
 msgid ""
@@ -9406,7 +9406,7 @@ msgstr "Adresse de destination"
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 101
 msgid "External subnet"
-msgstr "Sous-réseau distant"
+msgstr "Sous-réseau externe"
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 104
 # File: src/www/firewall_nat_edit.php, line: 189
@@ -9487,7 +9487,7 @@ msgstr ""
 # File: src/www/firewall_nat_1to1_edit.php, line: 346
 # File: src/www/firewall_nat_npt_edit.php, line: 206
 msgid "Choose which interface this rule applies to"
-msgstr "Choisissez sur quelle interface cette règle sera appliquée"
+msgstr "Choisissez sur quelle interface cette règle va s'appliquer"
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 347
 # File: src/www/firewall_nat_npt_edit.php, line: 207
@@ -9605,7 +9605,7 @@ msgstr "Port de destination jusqu'à"
 # File: src/www/firewall_nat_edit.php, line: 197
 # File: src/www/firewall_nat_edit.php, line: 764
 msgid "Redirect target IP"
-msgstr ""
+msgstr "Rediriger l'IP de destination"
 
 # File: src/www/firewall_nat_edit.php, line: 219
 msgid "\"%s\" is not a valid redirect target IP address or host alias."
@@ -10163,7 +10163,7 @@ msgstr "TCP/UDP"
 # File: src/www/firewall_rules_edit.php, line: 970
 # File: src/www/firewall_rules_edit.php, line: 1072
 msgid "This Firewall (self)"
-msgstr ""
+msgstr "Ce Pare-feu (lui-même)"
 
 # File: src/www/firewall_nat_out_edit.php, line: 568
 msgid "Enter the source network for the outbound NAT mapping."
@@ -10184,7 +10184,7 @@ msgstr "Port de destination :"
 
 # File: src/www/firewall_nat_out_edit.php, line: 561
 msgid "Translation / target"
-msgstr ""
+msgstr "Translation / destination"
 
 # File: src/www/firewall_nat_out_edit.php, line: 572
 msgid "Interface address"
@@ -10192,7 +10192,7 @@ msgstr "Adresse de l'interface"
 
 # File: src/www/firewall_nat_out_edit.php, line: 582
 msgid "Translation address"
-msgstr ""
+msgstr "Adresse translatée"
 
 # File: src/www/firewall_nat_out_edit.php, line: 721
 msgid "Packets matching this rule will be mapped to the IP address given here."
@@ -10345,7 +10345,7 @@ msgstr "Réservé/non affecté par l'IANA"
 # File: src/www/firewall_rules.php, line: 494
 # File: src/www/interfaces.php, line: 3313
 msgid "Block bogon networks"
-msgstr ""
+msgstr "Bloquer les adresses bogon (non attribuées par l'IANA)"
 
 # File: src/www/firewall_rules.php, line: 441
 # File: src/www/firewall_rules.php, line: 658
@@ -10400,7 +10400,7 @@ msgstr "sollicitation routeur (type: 10, code: 0)"
 # File: src/www/firewall_rules.php, line: 126
 # File: src/www/firewall_rules_edit.php, line: 926
 msgid "Time exceeded"
-msgstr "temps dépassé (TTL à zéro) (type: 11, code: 0 ou 1)"
+msgstr "Délai dépassé"
 
 # File: src/www/firewall_rules.php, line: 127
 # File: src/www/firewall_rules_edit.php, line: 927
@@ -10511,7 +10511,7 @@ msgstr "Planification (cliquez pour voir/modifier)"
 # File: src/www/vpn_l2tp.php, line: 383
 # File: src/www/vpn_l2tp.php, line: 402
 msgid "Hint:"
-msgstr "Suggestion :"
+msgstr "Conseil:"
 
 # File: src/www/firewall_rules.php, line: 857
 msgid ""
@@ -10587,6 +10587,8 @@ msgid ""
 "When selecting aliases for destination ports, both from and to fields must "
 "be the same"
 msgstr ""
+"Les champs source et destination doivent être identiques lors de la "
+"sélection d'alias pour les ports en destination."
 
 # File: src/www/firewall_rules_edit.php, line: 436
 msgid ""
@@ -10834,6 +10836,8 @@ msgid ""
 "Set this option if you need to apply this action to traffic that matches "
 "this rule immediately."
 msgstr ""
+"Utilisez cette option pour appliquer immédiatement cette action au trafic "
+"concerné par cette règle."
 
 # File: src/www/firewall_rules_edit.php, line: 789
 msgid "Associated filter rule"
@@ -11066,11 +11070,11 @@ msgstr ""
 
 # File: src/www/firewall_rules_edit.php, line: 1267
 msgid "TCP flags"
-msgstr ""
+msgstr "Drapeaux TCP"
 
 # File: src/www/firewall_rules_edit.php, line: 1299
 msgid "Any flags."
-msgstr ""
+msgstr "Tous les drapeaux."
 
 # File: src/www/firewall_rules_edit.php, line: 1301
 msgid ""
@@ -12358,7 +12362,7 @@ msgstr "Passerelle IPv4"
 # File: src/www/interfaces.php, line: 1881
 # File: src/www/system_routes_edit.php, line: 299
 msgid "add a new one."
-msgstr ""
+msgstr "ajouter une route."
 
 # File: src/www/interfaces.php, line: 1787
 msgid "Add new gateway"
@@ -12425,7 +12429,7 @@ msgstr "Configuration du client DHCP"
 # File: src/www/interfaces.php, line: 1937
 # File: src/www/interfaces.php, line: 2530
 msgid "Basic"
-msgstr ""
+msgstr "De base"
 
 # File: src/www/interfaces.php, line: 1945
 # File: src/www/interfaces.php, line: 2073
@@ -12455,7 +12459,7 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 1996
 msgid "Reject Leases From"
-msgstr ""
+msgstr "Rejeter les baux venant de"
 
 # File: src/www/interfaces.php, line: 2000
 msgid ""
@@ -12564,7 +12568,7 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
-msgstr ""
+msgstr "Options requises"
 
 # File: src/www/interfaces.php, line: 2087
 msgid ""
@@ -12616,7 +12620,7 @@ msgstr "Pays:"
 # File: src/www/interfaces.php, line: 2552
 # File: src/www/interfaces_ppps_edit.php, line: 508
 msgid "Provider:"
-msgstr ""
+msgstr "Fournisseur d'accès:"
 
 # File: src/www/interfaces.php, line: 2560
 # File: src/www/interfaces_ppps_edit.php, line: 516

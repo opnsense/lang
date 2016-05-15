@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-07 11:00+0000\n"
+"POT-Creation-Date: 2016-05-15 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13718,7 +13718,7 @@ msgid ""
 msgstr ""
 
 msgid "Register DHCP static mappings in the DNS Resolver"
-msgstr ""
+msgstr "Registriere statische DHCP-Zuweisungen im DNS-Resolver"
 
 # File: src/www/services_unbound.php, line: 315
 msgid ""
@@ -13726,6 +13726,10 @@ msgid ""
 "DNS Resolver, so that their name can be resolved. You should also set the "
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
+"Falls diese Option gesetzt ist, werden statische DHCP-Zuweisungen im DNS-"
+"Resolver registriert, damit deren Name aufgelöst werden kann. Sie sollten "
+"auch die Domain unter %sSystem: Allgemeine Einstellungen%s auf einen "
+"passenden Wert setzen."
 
 msgid "TXT Comment Support"
 msgstr "TXT-Kommentarunterstützung"
@@ -14152,11 +14156,13 @@ msgstr "Zumindest eins von 'UPnP' oder 'NAT-PMP' muss erlaubt werden"
 
 # File: src/www/services_upnp.php, line: 74
 msgid "It is a security risk to specify WAN in the 'Interface' field"
-msgstr ""
+msgstr "Es ist ein Sicherheitsrisiko, im Feld \"Schnittstelle\" WAN anzugeben"
 
 # File: src/www/services_upnp.php, line: 76
 msgid "You cannot select the external interface as an internal interface."
 msgstr ""
+"Sie können die externe Schnittstelle nicht als interne Schnittstelle "
+"auswählen."
 
 # File: src/www/services_upnp.php, line: 79
 msgid "You must specify a valid ip address in the 'Override WAN address' field"
@@ -14310,7 +14316,7 @@ msgid "send Wake on LAN packet to this MAC address"
 msgstr "sende Wake-on-LAN-Paket an diese MAC-Adresse"
 
 msgid "add a static mapping for this MAC address"
-msgstr ""
+msgstr "eine statische Zuweisung für diese MAC-Adresse hinzufügen"
 
 msgid "add a Wake on LAN mapping for this MAC address"
 msgstr ""
@@ -14426,7 +14432,7 @@ msgid "interface"
 msgstr "Schnittstelle"
 
 msgid "Release"
-msgstr ""
+msgstr "Freigabe"
 
 msgid "Renew"
 msgstr "Erneuern"
@@ -14961,6 +14967,8 @@ msgid ""
 "Root login is generally discouraged. It is advised to log in via another "
 "user and switch to root afterwards."
 msgstr ""
+"Vom root-Login wird generell abgeraten. Die Anmeldung mit einem anderen "
+"Benutzer mit einem anschließendem Wechsel auf root wird empfohlen."
 
 msgid "Authentication Method"
 msgstr "Authentifizierungsmethode"
@@ -15941,6 +15949,8 @@ msgid ""
 "NOTE: A test notification will be sent even if the service is marked as "
 "disabled."
 msgstr ""
+"HINWEIS: Eine Testnachricht wird unabängig davon, ob der Dienst deaktiviert "
+"ist oder nicht, gesendet."
 
 # File: src/www/system_advanced_sysctl.php, line: 111
 msgid "Add a new tunable"
@@ -16947,7 +16957,7 @@ msgid "The high Packet Loss threshold needs to be positive."
 msgstr ""
 
 msgid "The high Packet Loss threshold needs to be 100 or less."
-msgstr ""
+msgstr "Der obere Paketverlustgrenzwert muss 100 oder weniger betragen."
 
 msgid ""
 "The high latency threshold needs to be higher than the low latency threshold"
@@ -16957,6 +16967,8 @@ msgid ""
 "The high Packet Loss threshold needs to be higher than the low Packet Loss "
 "threshold"
 msgstr ""
+"Der obere Paketverlustgrenzwert muss größer als der untere "
+"Paketverlustgrenzwert sein."
 
 msgid "The probe interval needs to be a numeric value."
 msgstr ""
@@ -17539,6 +17551,8 @@ msgid ""
 "Using this option implies \"Synchronize Certificates\" as they are required "
 "for OpenVPN."
 msgstr ""
+"Die Verwendung dieser Option impliziert \"Zertifikate synchronisieren\", da "
+"diese für OpenVPN erforderlich sind."
 
 # File: src/www/system_hasync.php, line: 278
 msgid "DHCPD"
@@ -17570,6 +17584,8 @@ msgid ""
 "Automatically sync the Static Route configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"Statische Routen bei Änderungen automatisch auf die anderen HA-Hosts "
+"synchronisieren."
 
 # File: src/www/system_hasync.php, line: 332
 msgid ""
@@ -18260,7 +18276,7 @@ msgid "DNS Servers"
 msgstr "DNS Server"
 
 msgid "Provide a DNS server list to clients"
-msgstr ""
+msgstr "Den Clients eine DNS-Serverliste zur Verfügung stellen"
 
 msgid "WINS Servers"
 msgstr "WINS-Server"

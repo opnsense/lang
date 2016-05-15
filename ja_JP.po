@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-07 10:54+0000\n"
+"POT-Creation-Date: 2016-05-15 19:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
 "Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
@@ -1247,7 +1247,7 @@ msgstr "エイリアス"
 
 # File: lang/dynamic/helpers/models.php, line: 92
 msgid "RulesEdit"
-msgstr "ルールの編集"
+msgstr "ルールを編集"
 
 msgid "Floating"
 msgstr "フローティング"
@@ -4001,7 +4001,7 @@ msgid "Pipe"
 msgstr "パイプ"
 
 msgid "Weight"
-msgstr "重み付け"
+msgstr "重み"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 170
 msgid "#"
@@ -4593,11 +4593,11 @@ msgstr "時間"
 
 # File: src/www/diag_ipsec.php, line: 174
 msgid "Bytes in"
-msgstr "IN バイト"
+msgstr "入力バイト"
 
 # File: src/www/diag_ipsec.php, line: 175
 msgid "Bytes out"
-msgstr "OUT バイト"
+msgstr "出力バイト"
 
 msgid "Pool: "
 msgstr "プール: "
@@ -5624,8 +5624,7 @@ msgid ""
 "-6lL\".%sOr in case of showing all sockets the output for: \"sockstat -4\" "
 "and \"sockstat -6\".%s%sThe information listed for each socket is:"
 msgstr ""
-"このページはコマンド \\\"sockstat -4lL\\\"、\\\"sockstat -6lL\\\" の出力を表示します。\\\""
-"sockstat -4\\\"、\\\"sockstat -6\\\" "
+"このページはコマンド sockstat -4lL、sockstat -6lL の出力を表示します。sockstat -4、sockstat -6 "
 "の場合は、全てのソケットの出力を表示します。%s%sそれぞれのソケットに対する情報リストは次の通りです: "
 
 # File: src/www/diag_sockets.php, line: 129
@@ -6116,7 +6115,7 @@ msgid "move selected rules before this rule"
 msgstr "選択したルールをこのルールの前に移動"
 
 msgid "edit rule"
-msgstr "ルールの編集"
+msgstr "ルールを編集"
 
 # File: src/www/firewall_nat.php, line: 423
 # File: src/www/firewall_nat_1to1.php, line: 269
@@ -7754,7 +7753,7 @@ msgid "Type:"
 msgstr "タイプ: "
 
 msgid "Single address"
-msgstr "シングルアドレス"
+msgstr "単一アドレス"
 
 msgid "Expansion:"
 msgstr "拡張: "
@@ -7818,10 +7817,10 @@ msgid "Cannot get data about interface %s"
 msgstr "インタフェース %s のデータを取得できません"
 
 msgid "In"
-msgstr "内"
+msgstr "In"
 
 msgid "Out"
-msgstr "外"
+msgstr "Out"
 
 msgid "Switch to bytes/s"
 msgstr "byte/s に切替"
@@ -7897,7 +7896,7 @@ msgstr "変更は正常に適用されました。"
 msgid ""
 "You can also <a href=\"status_filter_reload.php\">monitor</a> the filter "
 "reload progress."
-msgstr "フィルタ再読み込みの進行状況の<a href=\\\"status_filter_reload.php\\\">監視</a>もできます。"
+msgstr "フィルタ再読み込みの進行状況の<a href=\"status_filter_reload.php\">監視</a>もできます。"
 
 # File: src/www/guiconfig.inc, line: 412
 msgid "File %s is a directory."
@@ -8455,7 +8454,7 @@ msgid ""
 msgstr ""
 "このフィールドの値は、DHCP リースのリクエスト時に、DHCP オプションとして送信されます。[オプション 宣言 [, ...]] <br "
 "/>値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
-"C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
+"C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
 "指定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
 msgid "Request Options"
@@ -8508,8 +8507,8 @@ msgid ""
 msgstr ""
 "このフィールドの値は、DHCP クライアント構成ファイルの完全な絶対パスです。  [/[ディレクトリ名/[.../]]ファイル名[.ext]] <br "
 "/>構成ファイルの値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} "
-"<br />C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ("
-" 指定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
+"<br />C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
+"指定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
 msgid "PPP configuration"
 msgstr "PPP 構成"
@@ -8735,7 +8734,7 @@ msgid ""
 msgstr ""
 "このフィールドの値は、DHCP リースのリクエスト時に、DHCP 送信オプションとして送信されます。[オプション 宣言 [, ...]] <br "
 "/>値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
-"C は U(大文字) もしくは L(小文字)、 D は \\\" :-.\\\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
+"C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( "
 "指定しない場合は省略してください )。<br />一部の DHCP "
 "サービスは、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
@@ -10010,7 +10009,7 @@ msgid "A valid local IP address must be specified for %s."
 msgstr "%s の有効なローカル IP アドレスを指定してください"
 
 msgid "A valid gateway IP address OR hostname must be specified for %s."
-msgstr "%s の有効なゲートウェイ IP アドレス、もしくはホスト名を指定してください"
+msgstr "%s の有効なゲートウェイ IP アドレス、もしくはホスト名を指定してください。"
 
 msgid "The bandwidth value for %s must be an integer."
 msgstr "%s の帯域幅の値は整数です"
@@ -12037,7 +12036,7 @@ msgid ""
 "The %snoselect%s option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
-"%s選択しない%s\"オプションは、NTP に時間用としてこのサーバを使用させないという意味になります。しかし、このサーバの統計は収集され、表示されます。"
+"%s選択しない%sオプションは、NTP に時間用としてこのサーバを使用させないという意味になります。しかし、このサーバの統計は収集され、表示されます。"
 
 # File: src/www/services_ntpd.php, line: 299
 msgid "Orphan mode"
@@ -12249,7 +12248,7 @@ msgstr "シリアルポート"
 
 msgid ""
 "All serial ports are listed, be sure to pick the port with the GPS attached."
-msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けるポートを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けたポートを選択するようにしてください。"
 
 msgid "Serial port baud rate."
 msgstr "シリアルポートボーレート"
@@ -12343,7 +12342,7 @@ msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )"
+msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )。"
 
 # File: src/www/services_ntpd_gps.php, line: 539
 msgid ""
@@ -13491,10 +13490,10 @@ msgid "Host Name or IP"
 msgstr "ホスト名または IP"
 
 msgid "Bandwidth In"
-msgstr "下り帯域幅"
+msgstr "入力帯域幅"
 
 msgid "Bandwidth Out"
-msgstr "上り帯域幅"
+msgstr "出力帯域幅"
 
 # File: src/www/status_graph.php, line: 202
 msgid ""
@@ -14348,7 +14347,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 433
 msgid "Disable Auto-added VPN rules"
-msgstr ""
+msgstr "自動追加 VPN ルールを無効"
 
 msgid "Disable all auto-added VPN rules."
 msgstr "全ての自動追加 VPN ルールを無効"
@@ -14358,7 +14357,7 @@ msgstr "注意: IPsec や PPTP に自動的に追加されたルールを無効�
 
 # File: src/www/system_advanced_firewall.php, line: 444
 msgid "Disable reply-to"
-msgstr ""
+msgstr "reply-to を無効"
 
 msgid "Disable reply-to on WAN rules"
 msgstr "WAN ルールで reply-to を無効"
@@ -14375,7 +14374,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 456
 msgid "Disable Negate rules"
-msgstr ""
+msgstr "否定ルールを無効"
 
 msgid "Disable Negate rule on policy routing rules"
 msgstr "ポリシルーティングルールの「否定」ルールを無効"
@@ -14391,31 +14390,31 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 467
 msgid "Aliases Resolve Interval"
-msgstr ""
+msgstr "エイリアス解決間隔"
 
 # File: src/www/system_advanced_firewall.php, line: 465
 msgid ""
 "Interval, in seconds, that will be used to resolve hostnames configured on "
 "aliases."
-msgstr ""
+msgstr "間隔はエイリアスのホスト名解決の構成に使用されます。単位は秒です。"
 
-#, fuzzy
 msgid "Note:  Leave this blank for the default (300s)."
-msgstr "注意: 空白の場合は、デフォルト (0) になります。"
+msgstr "注意: 空白の場合は、デフォルト ( 300 秒 ) になります。"
 
 # File: src/www/system_advanced_firewall.php, line: 471
 msgid "Check certificate of aliases URLs"
-msgstr ""
+msgstr "エイリアス URL の証明書を確認"
 
 # File: src/www/system_advanced_firewall.php, line: 476
 msgid "Verify HTTPS certificates when downloading alias URLs"
-msgstr ""
+msgstr "エイリアス URL のダウンロード時に HTTPS 証明書を検証"
 
 # File: src/www/system_advanced_firewall.php, line: 478
 msgid ""
 "Make sure the certificate is valid for all HTTPS addresses on aliases. If "
 "it's not valid or is revoked, do not download it."
 msgstr ""
+"エイリアスの全ての HTTPS アドレスの証明書が有効かどうか確認してください。無効、もしくは失効している場合は、ダウンロードしないでください。"
 
 msgid "Bogon Networks"
 msgstr "Bogon ネットワーク"
@@ -14442,7 +14441,7 @@ msgstr "ネットワークアドレス変換"
 
 # File: src/www/system_advanced_firewall.php, line: 516
 msgid "Reflection for port forwards"
-msgstr ""
+msgstr "ポートフォワードのリフレクション"
 
 msgid ""
 "When enabled, this automatically creates additional NAT redirect rules for "
@@ -14493,7 +14492,7 @@ msgstr "注意: NAT + プロキシモードのポートフォワードで、リ�
 
 # File: src/www/system_advanced_firewall.php, line: 552
 msgid "Enable Reflection for 1:1"
-msgstr ""
+msgstr "1:1 のリクレクションを有効"
 
 msgid ""
 "Enables the automatic creation of additional NAT redirect rules for access "
@@ -14588,7 +14587,7 @@ msgstr "ロードバランシング"
 
 # File: src/www/system_advanced_misc.php, line: 310
 msgid "Gateway switching"
-msgstr ""
+msgstr "ゲートウェイ切替え"
 
 msgid "Allow default gateway switching"
 msgstr "デフォルトゲートウェイの切替えを許可"
@@ -14600,7 +14599,7 @@ msgstr "デフォルトゲートウェイとのリンクに障害が発生した
 
 # File: src/www/system_advanced_misc.php, line: 321
 msgid "Sticky connections"
-msgstr ""
+msgstr "スティッキー接続"
 
 msgid "Use sticky connections"
 msgstr "スティッキー接続を使用"
@@ -14620,7 +14619,7 @@ msgstr ""
 
 # File: src/www/system_advanced_misc.php, line: 335
 msgid "Source tracking timeout"
-msgstr ""
+msgstr "送信元追跡タイムアウト"
 
 msgid ""
 "Set the source tracking timeout for sticky connections. By default this is "
@@ -14655,7 +14654,6 @@ msgstr "最小"
 msgid "Maximum"
 msgstr "最大"
 
-#, fuzzy
 msgid ""
 "The powerd utility monitors the system state and sets various power control "
 "options accordingly.  It offers four modes (maximum, minimum, adaptive and "
@@ -14675,9 +14673,9 @@ msgstr ""
 "最大、最小、適応、高適応 )、AC 電源やバッテリで個々に選択可能です。モードの最大、最小、適応、高適応は、max、min、adp、hadp、と省略表記し"
 "ます。最大モードは、最も高いパフォーマンスとなる値を選択します。最小モードは、最も低いパフォーマンスの値を選択することで、最大限の省電力を行います。適応モ"
 "ードは、パフォーマンスと省電力をうまく均衡させようとします。システムがアイドルに見える場合はパフォーマンスを落とし、システムがビジーの場合はパフォーマンス"
-"を上昇させます。ほど良いバランスを提供し、少しのパフォーマンスの低下で、より大きな省電力を可能にします。高適応モードは、適応モードに似ていますが、システム"
-"のパフォーマンスと双方向性が、電力消費よりも重要であるシステム向けに調整されています。速度が頻繁に上がる場合は、速度を落とし、CPU 負荷が 1/2 "
-"になる状態を維持します。"
+"を上昇させます。少しのパフォーマンスの低下で、より大きな省電力を可能にする、ほど良いバランスを提供します。高適応モードは、適応モードに似ていますが、システ"
+"ムのパフォーマンスと応答性が、電力消費よりも重要であるシステム向けに調整されています。周波数が高速に上がったら、低速に落として CPU 負荷が低い状態を "
+"2 倍継続します。"
 
 msgid "Cryptographic Hardware Acceleration"
 msgstr "暗号化ハードウェアアクセラレーション"
@@ -14685,7 +14683,7 @@ msgstr "暗号化ハードウェアアクセラレーション"
 # File: src/www/system_advanced_misc.php, line: 417
 # File: src/www/system_advanced_misc.php, line: 446
 msgid "Hardware"
-msgstr ""
+msgstr "ハードウェア"
 
 msgid ""
 "A cryptographic accelerator module will use hardware support to speed up "
@@ -14748,23 +14746,22 @@ msgstr "ゲートウェイ監視"
 
 # File: src/www/system_advanced_misc.php, line: 485
 msgid "Kill states"
-msgstr ""
+msgstr "ステータスをキル"
 
 # File: src/www/system_advanced_misc.php, line: 517
 msgid "State Killing on Gateway Failure"
-msgstr ""
+msgstr "ゲートウェイ障害のステータスをキルします"
 
-#, fuzzy
 msgid ""
 "The monitoring process will flush states for a gateway that goes down if "
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
-"デフォルトでは、ゲートウェイがダウンする場合は、監視プロセスはステータスをフラッシュします。このオプションはその振る舞いを上書きするため、既存の接続ステー"
-"タスは消去されません。"
+"このボックスがチェックされていない場合、ゲートウェイがダウンする時に監視プロセスはステータスをフラッシュします。このボックスをチェックすると、この振る舞い"
+"を無効にします。"
 
 # File: src/www/system_advanced_misc.php, line: 495
 msgid "Skip rules"
-msgstr ""
+msgstr "ルールをスキップ"
 
 msgid "Skip rules when gateway is down"
 msgstr "ゲートウェイのダウン時は、ルールをスキップ"
@@ -14853,19 +14850,20 @@ msgstr ""
 "RFC 2893 互換のメカニズムを提供し、IPv4 ルーティングインフラストラクチャ上で IPv6 "
 "パケットのトンネルングを使用可能にします。有効にする場合は、ファイアウォールルールに IPv6 パケットの許可を追加してください。"
 
-#, fuzzy
 msgid "Prefer IPv4 over IPv6"
-msgstr "古い IPsec SA を優先"
+msgstr "IPv4 over IPv6 を優先"
 
 # File: src/www/system_advanced_network.php, line: 222
 msgid "Prefer to use IPv4 even if IPv6 is available"
-msgstr ""
+msgstr "IPv6 が利用可能でも IPv4 の使用を優先"
 
 # File: src/www/system_advanced_network.php, line: 223
 msgid ""
 "By default, if a hostname resolves IPv6 and IPv4 addresses IPv6 will be "
 "used, if you check this option, IPv4 will be used instead of IPv6."
 msgstr ""
+"デフォルトでは、ホスト名が IPv6 と IPv4 アドレスに解決した場合 IPv6 が使用されますが、このオプションをチェックすると IPv6 "
+"の代わりに IPv4 が使用されるようになります。"
 
 msgid "Device polling"
 msgstr "デバイスポーリング"
@@ -14887,7 +14885,7 @@ msgstr ""
 
 # File: src/www/system_advanced_network.php, line: 239
 msgid "Hardware CRC"
-msgstr ""
+msgstr "ハードウェア CRC"
 
 msgid "Disable hardware checksum offload"
 msgstr "ハードウェアチェックサムオフロードを無効"
@@ -14907,11 +14905,11 @@ msgstr ""
 msgid ""
 "This will take effect after you reboot the machine or re-configure each "
 "interface."
-msgstr ""
+msgstr "これは、マシンを再起動するかインタフェース毎に再構成することで有効になります。"
 
 # File: src/www/system_advanced_network.php, line: 252
 msgid "Hardware TSO"
-msgstr ""
+msgstr "ハードウェア TSO"
 
 msgid "Disable hardware TCP segmentation offload"
 msgstr "ハードウェア TCP セグメンテーションオフロードを無効"
@@ -14922,11 +14920,11 @@ msgid ""
 "impact performance with some specific NICs."
 msgstr ""
 "このオプションをチェックすると、ハードウェア TCP セグメンテーションオフロード ( TSO, TSO4, TSO6 ) "
-"を無効にします。このオフロードは一部のハードウェアドライバでは動作しません。また、一部の特定の NIC とのパフォーマンスに影響を及ぼす可能性があります。"
+"を無効にします。このオフロードは一部のハードウェアドライバでは動作しません。また、一部の特定の NIC とのパフォーマンスに影響する可能性があります。"
 
 # File: src/www/system_advanced_network.php, line: 265
 msgid "Hardware LRO"
-msgstr ""
+msgstr "ハードウェア LRO"
 
 msgid "Disable hardware large receive offload"
 msgstr "ハードウェアラージレシーブオフロードを無効"
@@ -14937,15 +14935,15 @@ msgid ""
 "performance with some specific NICs."
 msgstr ""
 "このオプションをチェックすると、ハードウェアラージレシーブオフロード (LRO) "
-"を無効にします。このオフロードは一部のハードウェアドライバでは動作しません。また、一部の特定の NIC とのパフォーマンスに影響を及ぼす可能性があります。"
+"を無効にします。このオフロードは一部のハードウェアドライバでは動作しません。また、一部の特定の NIC とのパフォーマンスに影響する可能性があります。"
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid "VLAN Hardware Filtering"
-msgstr ""
+msgstr "VLAN ハードウェアフィルタリング"
 
 # File: src/www/system_advanced_network.php, line: 279
 msgid "Disable VLAN Hardware Filtering"
-msgstr ""
+msgstr "VLAN ハードウェアフィルタリングを無効"
 
 # File: src/www/system_advanced_network.php, line: 280
 msgid ""
@@ -14953,6 +14951,8 @@ msgid ""
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
 msgstr ""
+"このオプションをチェックすると、VLAN ハードウェアフィルタリングが無効になります。このオフロードは一部のハードウェアドライバでは動作しません。また、"
+"一部の特定の NIC とのパフォーマンスに影響する可能性があります。"
 
 msgid "ARP Handling"
 msgstr "ARP 処理"
@@ -14965,29 +14965,26 @@ msgid ""
 "on the same broadcast domain"
 msgstr "このオプションは、同じブロードキャストドメインに複数のインタフェースが存在する場合に、ARP ログメッセージを抑制します。"
 
-#, fuzzy
 msgid "Test Growl"
-msgstr "Growl"
+msgstr "Growl をテスト"
 
 msgid "This is a test message from %s.  It is safe to ignore this message."
 msgstr "%s からのテストメッセージです。このメッセージは無視して構いません。"
 
-#, fuzzy
 msgid "Test SMTP"
-msgstr "ポートテスト"
+msgstr "SMTP をテスト"
 
 msgid "Growl"
 msgstr "Growl"
 
-#, fuzzy
 msgid "Disable Growl Notifications"
-msgstr "通知"
+msgstr "Growl 通知を無効"
 
 # File: src/www/system_advanced_notifications.php, line: 210
 msgid ""
 "Check this option to disable growl notifications but preserve the settings "
 "below."
-msgstr ""
+msgstr "このオプションをチェックすると Growl 通知が無効になりますが、下の設定は保持されます。"
 
 msgid "Registration Name"
 msgstr "登録名"
@@ -15011,9 +15008,8 @@ msgstr "リモート Growl 通知デバイスのパスワードを入力して�
 msgid "SMTP E-Mail"
 msgstr "SMTP メール"
 
-#, fuzzy
 msgid "Disable SMTP Notifications"
-msgstr "通知"
+msgstr "SMTP 通知を無効"
 
 # File: src/www/system_advanced_notifications.php, line: 260
 msgid ""
@@ -15021,6 +15017,8 @@ msgid ""
 "below. Some other mechanisms, such as packages, may need these settings in "
 "place to function."
 msgstr ""
+"このオプションをチェックすると SMTP "
+"通知が無効になりますが、下の設定は保持されます。パッケージのような他の一部のメカニズムでは、機能するためにこれらの設定が必要になる場合があります。"
 
 msgid "E-Mail server"
 msgstr "メールサーバ"
@@ -15033,25 +15031,21 @@ msgstr "通知を送信する SMTP メールサーバの FQDN もしくは IP �
 msgid "SMTP Port of E-Mail server"
 msgstr "メールサーバの SMTP ポート"
 
-#, fuzzy
 msgid ""
 "This is the port of the SMTP E-Mail server, typically 25, 587 (submission) "
 "or 465 (smtps)"
-msgstr ""
-"SMTP メールサーバのポートで、通常は、25、587 ( サブミッション )、もしくは、465 ( smtps、ssl/tls "
-"チェックボックスをチェックしてください ) です。"
+msgstr "これは SMTP メールサーバのポートです。通常は 25、587 ( サブミッション )、もしくは 465 ( smtps ) です。"
 
-#, fuzzy
 msgid "Secure SMTP Connection"
-msgstr "同時接続"
+msgstr "セキュア SMTP 接続"
 
 # File: src/www/system_advanced_notifications.php, line: 283
 msgid "Enable SMTP over SSL/TLS"
-msgstr ""
+msgstr "SMTP over SSL/TLS を有効"
 
 # File: src/www/system_advanced_notifications.php, line: 287
 msgid "Enable STARTTLS"
-msgstr ""
+msgstr "STARTTLS を有効"
 
 msgid "From e-mail address"
 msgstr "差出人メールアドレス"
@@ -15061,7 +15055,7 @@ msgstr "差出人フィールドに表示されるメールアドレスです。
 
 # File: src/www/system_advanced_notifications.php, line: 257
 msgid "E-Mail address"
-msgstr ""
+msgstr "メールアドレス"
 
 msgid ""
 "Enter the e-mail address that you would like email notifications sent to."
@@ -15069,7 +15063,7 @@ msgstr "通知メールを送信する、メールアドレスを入力してく
 
 # File: src/www/system_advanced_notifications.php, line: 266
 msgid "E-Mail auth username"
-msgstr ""
+msgstr "メール認証ユーザ名"
 
 msgid "(optional)"
 msgstr "( オプション )"
@@ -15079,7 +15073,7 @@ msgstr "SMTP 認証用に、メールアドレスのユーザ名を入力して�
 
 # File: src/www/system_advanced_notifications.php, line: 276
 msgid "E-Mail auth password"
-msgstr ""
+msgstr "メール認証パスワード"
 
 msgid "Enter the e-mail address password for SMTP authentication."
 msgstr "SMTP 認証用に、メールアドレスのパスワードを入力してください。"
@@ -15100,11 +15094,11 @@ msgstr "これをチェックすると、起動とシャットダウンの音が
 msgid ""
 "NOTE: A test notification will be sent even if the service is marked as "
 "disabled."
-msgstr ""
+msgstr "注意: サービスが無効になっていても、テスト通知は送信されるようになります。"
 
 # File: src/www/system_advanced_sysctl.php, line: 111
 msgid "Add a new tunable"
-msgstr ""
+msgstr "新規調整パラメータを追加"
 
 msgid "Tunable"
 msgstr "調整パラメータ"
@@ -15117,13 +15111,11 @@ msgstr "ファイアウォール調整パラメータが変更されました。
 msgid "Tunable Name"
 msgstr "調整パラメータ名"
 
-#, fuzzy
 msgid "Edit Tunable"
-msgstr "調整パラメータ"
+msgstr "調整パラメータを編集"
 
-#, fuzzy
 msgid "Delete Tunable"
-msgstr "ルールの削除"
+msgstr "調整パラメータを削除"
 
 msgid "Edit system tunable"
 msgstr "システム調整パラメータの編集"
@@ -15175,7 +15167,7 @@ msgstr "削除済"
 
 # File: src/www/system_authservers.php, line: 287
 msgid "Add server"
-msgstr ""
+msgstr "サーバを追加"
 
 msgid "Please fill the required values."
 msgstr "必要な値を入力してください"
@@ -15194,14 +15186,15 @@ msgid ""
 "NOTE: When using SSL, this hostname MUST match the Common Name (CN) of the "
 "LDAP server's SSL Certificate."
 msgstr ""
+"注意: SSL を使用している場合は、このホスト名は LDAP サーバの SSL 証明書のコモンネーム ( CN ) と一致していなければいけません。"
 
 # File: src/www/system_authservers.php, line: 476
 msgid "TCP - Standard"
-msgstr ""
+msgstr "TCP - 標準"
 
 # File: src/www/system_authservers.php, line: 479
 msgid "SSL - Encrypted"
-msgstr ""
+msgstr "SSL - 暗号化"
 
 msgid "Peer Certificate Authority"
 msgstr "ピアの認証局"
@@ -15223,14 +15216,14 @@ msgstr "AD の CA と一致する必要があります。そうでない場合�
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 1031
 msgid "Create one under"
-msgstr ""
+msgstr "次で新規作成してください: "
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php.orig, line: 718
 # File: src/www/vpn_openvpn_server.php, line: 958
 # File: src/www/vpn_openvpn_server.php.orig, line: 958
 msgid "No Certificate Authorities defined."
-msgstr ""
+msgstr "認証局が定義されていません。"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php, line: 756
@@ -15243,7 +15236,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 1031
 msgid "System: Certificates"
-msgstr ""
+msgstr "システム: 証明書"
 
 msgid "Bind credentials"
 msgstr "資格情報をバインド"
@@ -15253,7 +15246,7 @@ msgstr "ユーザ DN: "
 
 # File: src/www/system_authservers.php, line: 525
 msgid "Leave empty to use anonymous binds to resolve distinguished names"
-msgstr ""
+msgstr "空白にすると、識別名の解決に匿名バインドを使用します"
 
 msgid "Search scope"
 msgstr "検索範囲"
@@ -15263,11 +15256,11 @@ msgstr "レベル: "
 
 # File: src/www/system_authservers.php, line: 536
 msgid "One Level"
-msgstr ""
+msgstr "1 レベル"
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
-msgstr ""
+msgstr "サブツリー全体"
 
 msgid "Base DN:"
 msgstr "ベース DN: "
@@ -15278,11 +15271,12 @@ msgstr "認証コンテナ"
 msgid "Select"
 msgstr "選択"
 
-#, fuzzy
 msgid ""
 "Note: Semi-Colon separated. This will be prepended to the search base dn "
 "above or you can specify full container path containing a dc= component."
-msgstr "注意: セミコロンで区切ってください。上記のベース DN 検索の先頭に追加されます。または、フルコンテナパスを指定することもできます。"
+msgstr ""
+"注意: セミコロンで区切ってください。これは上記のベース DN 検索の先頭に追加されます。もしくは、dc= "
+"コンポーネントを含めたフルコンテナパスを指定することもできます。"
 
 msgid "Extended Query"
 msgstr "拡張クエリ"
@@ -15292,15 +15286,15 @@ msgstr "初期テンプレート"
 
 # File: src/www/system_authservers.php, line: 579
 msgid "OpenLDAP"
-msgstr ""
+msgstr "OpenLDAP"
 
 # File: src/www/system_authservers.php, line: 580
 msgid "Microsoft AD"
-msgstr ""
+msgstr "Microsoft AD"
 
 # File: src/www/system_authservers.php, line: 581
 msgid "Novell eDirectory"
-msgstr ""
+msgstr "Novell eDirectory"
 
 msgid "User naming attribute"
 msgstr "ユーザネーミング属性"
@@ -15310,7 +15304,7 @@ msgstr "提供するサービス"
 
 # File: src/www/system_authservers.php, line: 611
 msgid "Authentication and Accounting"
-msgstr ""
+msgstr "認証とアカウンティング"
 
 msgid "Accounting port value"
 msgstr "アカウンティングポート値"
@@ -15341,7 +15335,7 @@ msgstr "認証サーバは、ここで追加できます。"
 
 # File: src/www/system_authservers.php, line: 695
 msgid "delete this server"
-msgstr ""
+msgstr "このサーバを削除"
 
 msgid "Certificate data"
 msgstr "証明書データ"
@@ -15383,17 +15377,17 @@ msgstr "認証局の署名"
 # File: src/www/system_certmanager.php, line: 361
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
-msgstr ""
+msgstr "「識別名メールアドレス」フィールドには無効な文字が含まれています。"
 
 # File: src/www/system_camanager.php, line: 319
 # File: src/www/system_certmanager.php, line: 366
 msgid "The field 'Distinguished name Common Name' contains invalid characters."
-msgstr ""
+msgstr "「識別名コモンネーム」フィールドには無効な文字が含まれています。"
 
 # File: src/www/system_camanager.php, line: 322
 # File: src/www/system_certmanager.php, line: 369
 msgid "The field '%s' contains invalid characters."
-msgstr ""
+msgstr "「%s」フィールドには無効な文字が含まれています。"
 
 msgid "Please select a valid Key Length."
 msgstr "有効な鍵長を選択してください。"
@@ -15406,7 +15400,7 @@ msgstr "有効なダイジェストアルゴリズムを選択してください
 # File: src/www/system_certmanager.php, line: 441
 # File: src/www/system_certmanager.php, line: 464
 msgid "openssl library returns:"
-msgstr ""
+msgstr "OpenSSL ライブラリの戻り値: "
 
 msgid "add or import ca"
 msgstr "CA の追加またはインポート"
@@ -15476,7 +15470,7 @@ msgstr "例: "
 # File: src/www/system_camanager.php, line: 570
 # File: src/www/system_certmanager.php, line: 969
 msgid "Sachsen"
-msgstr ""
+msgstr "ザクセン"
 
 msgid "City"
 msgstr "市"
@@ -15484,14 +15478,13 @@ msgstr "市"
 # File: src/www/system_camanager.php, line: 580
 # File: src/www/system_certmanager.php, line: 979
 msgid "Leipzig"
-msgstr ""
+msgstr "ライプツィヒ"
 
 msgid "Organization"
 msgstr "組織"
 
-#, fuzzy
 msgid "My Company Inc"
-msgstr "My Company Inc."
+msgstr "My Company Inc"
 
 msgid "admin@mycompany.com"
 msgstr "admin@mycompany.com"
@@ -15561,31 +15554,30 @@ msgstr "既存の証明書の選択"
 
 # File: src/www/system_certmanager.php, line: 329
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
-msgstr ""
+msgstr "DNS subjectAltName 値は、有効なホスト名もしくは FQDN です"
 
 # File: src/www/system_certmanager.php, line: 334
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr ""
+msgstr "IP subjectAltName 値は、有効な IP アドレスです"
 
 # File: src/www/system_certmanager.php, line: 339
 msgid "You must provide an e-mail address for this type of subjectAltName"
-msgstr ""
+msgstr "このタイプの subjectAltName にはメールアドレスを設定してください"
 
 # File: src/www/system_certmanager.php, line: 342
 msgid "The e-mail provided in a subjectAltName contains invalid characters."
-msgstr ""
+msgstr "subjectAltName のメールアドレスに無効な文字が含まれています。"
 
 # File: src/www/system_certmanager.php, line: 348
 msgid "URI subjectAltName types must be a valid URI"
-msgstr ""
+msgstr "URI subjectAltName タイプは、有効な URI です"
 
 # File: src/www/system_certmanager.php, line: 352
 msgid "Unrecognized subjectAltName type."
-msgstr ""
+msgstr "未確認の subjectAltName タイプです。"
 
-#, fuzzy
 msgid "add or import certificate"
-msgstr "CA の追加またはインポート"
+msgstr "証明書の追加またはインポート"
 
 msgid "Do you really want to delete this Certificate?"
 msgstr "本当にこの証明書を削除しますか？"
@@ -15609,7 +15601,7 @@ msgstr "内部証明書"
 msgid ""
 "No internal Certificate Authorities have been defined. You must %sadd%s an "
 "internal CA before creating an internal certificate."
-msgstr ""
+msgstr "内部認証局が定義されていません。内部証明書を作成する前に、内部 CA を%s追加%sしてください。"
 
 msgid "Client Certificate"
 msgstr "クライアント証明書"
@@ -15624,7 +15616,7 @@ msgstr "認証局"
 msgid ""
 "Choose the type of certificate to generate here, the type defines it's "
 "constraints"
-msgstr ""
+msgstr "ここで生成する証明書のタイプを選択してください。タイプはその制約で定義されます"
 
 msgid "Alternative Names"
 msgstr "代替名"
@@ -15635,12 +15627,12 @@ msgstr "DNS"
 # File: src/www/system_certmanager.php, line: 922
 # File: src/www/system_certmanager.php, line: 942
 msgid "email"
-msgstr ""
+msgstr "email"
 
 # File: src/www/system_certmanager.php, line: 923
 # File: src/www/system_certmanager.php, line: 943
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 msgid "External Signing Request"
 msgstr "外部署名要求"
@@ -15653,11 +15645,11 @@ msgstr "既存の証明書"
 
 # File: src/www/system_certmanager.php, line: 1110
 msgid "*In Use"
-msgstr ""
+msgstr "*使用中"
 
 # File: src/www/system_certmanager.php, line: 1111
 msgid "*Revoked"
-msgstr ""
+msgstr "*失効済"
 
 msgid "Complete Signing Request"
 msgstr "署名要求が完了しました"
@@ -15684,36 +15676,36 @@ msgstr "外部 - 署名申請中"
 
 # File: src/www/system_certmanager.php, line: 1247
 msgid "CA:"
-msgstr ""
+msgstr "CA: "
 
 # File: src/www/system_certmanager.php, line: 1248
 msgid "Server:"
-msgstr ""
+msgstr "サーバ: "
 
 # File: src/www/system_certmanager.php, line: 1272
 # File: src/www/system_usermanager.php, line: 842
 msgid "Revoked"
-msgstr ""
+msgstr "失効済"
 
 # File: src/www/system_certmanager.php, line: 1282
 msgid "User Cert"
-msgstr ""
+msgstr "ユーザ証明書"
 
 # File: src/www/system_certmanager.php, line: 1287
 msgid "OpenVPN Server"
-msgstr ""
+msgstr "OpenVPN サーバ"
 
 # File: src/www/system_certmanager.php, line: 1292
 msgid "OpenVPN Client"
-msgstr ""
+msgstr "OpneVPN クライアント"
 
 # File: src/www/system_certmanager.php, line: 1297
 msgid "IPsec Tunnel"
-msgstr ""
+msgstr "IPsec トンネル"
 
 # File: src/www/system_certmanager.php, line: 1276
 msgid "show certificate info"
-msgstr ""
+msgstr "証明書情報を表示"
 
 msgid "export ca"
 msgstr "CA のエクスポート"
@@ -15721,9 +15713,8 @@ msgstr "CA のエクスポート"
 msgid "export key"
 msgstr "鍵のエクスポート"
 
-#, fuzzy
 msgid "export ca cert+user cert+user cert key in .p12 format"
-msgstr "P12 証明書と鍵のエクスポート"
+msgstr ".P12 形式で、認証局、証明書+ユーザ、証明書+ユーザ証明書鍵でエクスポート"
 
 msgid "delete cert"
 msgstr "証明書の削除"
@@ -15809,9 +15800,8 @@ msgstr "この CRL の証明書はありません"
 msgid "No Certificates Found for this CA."
 msgstr "この CA の証明書はありません"
 
-#, fuzzy
 msgid "Revoke a Certificate"
-msgstr "サーバ証明書"
+msgstr "証明書の失効"
 
 msgid "Choose a Certificate to Revoke"
 msgstr "失効する証明書を選択してください"
@@ -15830,7 +15820,7 @@ msgstr "%s の CRL をインポート"
 
 # File: src/www/system_crlmanager.php, line: 719
 msgid "Unknown (imported)"
-msgstr ""
+msgstr "不明 ( インポート済 )"
 
 msgid "Export CRL"
 msgstr "CRL のエクスポート"
@@ -15843,11 +15833,11 @@ msgstr "CRL の削除"
 
 # File: src/www/system_gateway_groups.php, line: 135
 msgid "Add group"
-msgstr ""
+msgstr "グループを追加"
 
 # File: src/www/system_gateway_groups.php, line: 131
 msgid "Gateway-group"
-msgstr ""
+msgstr "ゲートウェイグループ"
 
 msgid "Do you really want to delete this gateway group?"
 msgstr "本当にこのゲートウェイグループを削除しますか？"
@@ -15859,7 +15849,7 @@ msgstr "ゲートウェイ構成は変更されました。%s有効にするに�
 
 # File: src/www/system_gateway_groups.php, line: 193
 msgid "Tier "
-msgstr ""
+msgstr "ティア "
 
 msgid "delete group"
 msgstr "グループの削除"
@@ -15897,14 +15887,14 @@ msgstr "ゲートウェイ優先度"
 
 # File: src/www/system_gateway_groups_edit.php, line: 197
 msgid "Tier"
-msgstr ""
+msgstr "ティア"
 
 msgid "Never"
 msgstr "選択しない"
 
 # File: src/www/system_gateway_groups_edit.php, line: 226
 msgid "Tier %d"
-msgstr ""
+msgstr "ティア %d"
 
 msgid "Interface Address"
 msgstr "インタフェースアドレス"
@@ -15947,26 +15937,23 @@ msgstr "パケットロスまたは高遅延"
 msgid "When to trigger exclusion of a member"
 msgstr "メンバ除外のトリガとなるタイミング"
 
-#, fuzzy
 msgid ""
 "Gateway '%s' cannot be deleted because it is in use on Gateway Group '%s'"
-msgstr "このエントリは削除できません。1 つ以上のゲートウェイから参照されています。"
+msgstr "ゲートウェイ %s は削除できません。ゲートウェイグループ %s で使用されています"
 
-#, fuzzy
 msgid ""
 "Gateway '%s' cannot be deleted because it is in use on Static Route '%s'"
-msgstr "この GRE トンネルは削除できません。インタフェースとして使用されています"
+msgstr "ゲートウェイ %s は削除できません。静的ルート %s で使用されています"
 
 # File: src/www/system_gateways.php, line: 194
 msgid "Add gateway"
-msgstr ""
+msgstr "ゲートウェイを追加"
 
 msgid "Do you really want to delete this gateway?"
 msgstr "本当にこのゲートウェイを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected gateway items?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したゲートウェイ項目を削除しますか？"
 
 msgid "The gateway configuration has been changed."
 msgstr "ゲートウェイの設定が変更されました。"
@@ -15976,57 +15963,54 @@ msgstr "監視 IP"
 
 # File: src/www/system_gateways.php, line: 326
 msgid "Gateway is inactive because interface is missing"
-msgstr ""
+msgstr "ゲートウェイは非アクティブです。インタフェースが見つかりません"
 
 # File: src/www/system_gateways.php, line: 329
 # File: src/www/system_gateways.php, line: 334
 msgid "disable gateway"
-msgstr ""
+msgstr "ゲートウェイを無効"
 
 # File: src/www/system_gateways.php, line: 329
 # File: src/www/system_gateways.php, line: 334
 msgid "enable gateway"
-msgstr ""
+msgstr "ゲートウェイを有効"
 
 # File: src/www/system_gateways.php, line: 356
 msgid "edit gateway"
-msgstr ""
+msgstr "ゲートウェイを編集"
 
 # File: src/www/system_gateways.php, line: 361
 msgid "delete gateway"
-msgstr ""
+msgstr "ゲートウェイを削除"
 
 # File: src/www/system_gateways.php, line: 368
 msgid "clone gateway"
-msgstr ""
+msgstr "ゲートウェイをクローン"
 
-#, fuzzy
 msgid "delete selected items"
-msgstr "選択したルールを削除"
+msgstr "選択した項目を削除"
 
 # File: src/www/system_gateways_edit.php, line: 118
 msgid "A valid gateway name must be specified."
-msgstr ""
+msgstr "有効なゲートウェイ名を指定してください。"
 
 msgid "A valid gateway IP address must be specified."
 msgstr "有効なゲートウェイ IP アドレスを指定してください"
 
-#, fuzzy
 msgid ""
 "Cannot add IPv4 Gateway Address because no IPv4 address could be found on "
 "the interface."
-msgstr "IPv6 only インタフェースで、IPv4 ゲートウェイアドレスは使用できません"
+msgstr "IPv4 ゲートウェイアドレスを追加できません。そのインタフェースには IPv4 アドレスが設定されていません。"
 
 msgid ""
 "The gateway address %1$s does not lie within one of the chosen interface's "
 "subnets."
-msgstr "ゲートウェイアドレス %1$s は、選択されたインタフェースのサブネット内に存在しません"
+msgstr "ゲートウェイアドレス %1$s は、選択されたインタフェースのサブネット内に存在しません。"
 
-#, fuzzy
 msgid ""
 "Cannot add IPv6 Gateway Address because no IPv6 address could be found on "
 "the interface."
-msgstr "IPv4 only インタフェースで、IPv6 ゲートウェイアドレスは使用できません"
+msgstr "IPv6 ゲートウェイアドレスを追加できません。そのインタフェースには IPv6 アドレスが設定されていません。"
 
 msgid ""
 "Dynamic gateway values cannot be specified for interfaces with a static IPv4 "
@@ -16094,13 +16078,11 @@ msgid ""
 "threshold"
 msgstr "高パケットロスしきい値は、低パケットロスしきい値よりも高い値にしてください。"
 
-#, fuzzy
 msgid "The probe interval needs to be a numeric value."
-msgstr "プローブ頻度間隔は、数値です。"
+msgstr "プローブ間隔は、数値です。"
 
-#, fuzzy
 msgid "The probe interval needs to be positive."
-msgstr "プローブ頻度間隔は、正の値です。"
+msgstr "プローブ間隔は、正の値です。"
 
 msgid "The down time setting needs to be a numeric value."
 msgstr "停止時間設定は、数値です。"
@@ -16108,45 +16090,36 @@ msgstr "停止時間設定は、数値です。"
 msgid "The down time setting needs to be positive."
 msgstr "停止時間設定は、正の値です。"
 
-#, fuzzy
 msgid "The probe interval needs to be less than the down time setting."
-msgstr "「周波数プローブ間隔は、ダウン時間設定未満である必要がある。"
+msgstr "プローブ間隔は、ダウン時間の設定よりも小さい値になります。"
 
-#, fuzzy
 msgid "The average delay replies qty needs to be a numeric value."
-msgstr "高遅延しきい値は、数値です。"
+msgstr "平均遅延応答数は、数値です。"
 
-#, fuzzy
 msgid "The average delay replies qty needs to be positive."
-msgstr "高遅延しきい値は、正の値です。"
+msgstr "平均遅延応答数は、正の値です。"
 
-#, fuzzy
 msgid "The average packet loss probes qty needs to be a numeric value."
-msgstr "高パケットロスしきい値は、数値です。"
+msgstr "平均パケットロスプローブ数は、数値です。"
 
-#, fuzzy
 msgid "The average packet loss probes qty needs to be positive."
-msgstr "高パケットロスしきい値は、正の値です。"
+msgstr "平均パケットロスプローブ数は、正の値です。"
 
-#, fuzzy
 msgid "The lost probe delay needs to be a numeric value."
-msgstr "低パケットロスウォーターマークは数値です"
+msgstr "損失プローブ遅延は、数値です。"
 
-#, fuzzy
 msgid "The lost probe delay needs to be positive."
-msgstr "プローブ頻度間隔は、正の値です。"
+msgstr "損失プローブ遅延は、正の値です。"
 
 msgid "Edit gateway"
 msgstr "ゲートウェイの編集"
 
-#, fuzzy
 msgid "Disable this gateway"
-msgstr "このルールを無効"
+msgstr "このゲートウェイを無効"
 
-#, fuzzy
 msgid ""
 "Set this option to disable this gateway without removing it from the list."
-msgstr "このオプションを設定すると、このルールをリストから削除せずに無効にします"
+msgstr "このオプションを設定すると、このゲートウェイをリストから削除せずに無効にします。"
 
 msgid "Choose which interface this gateway applies to."
 msgstr "このゲートウェイに適用するインタフェースを選択してください。"
@@ -16186,11 +16159,10 @@ msgstr ""
 # File: src/www/system_gateways_edit.php, line: 792
 # File: src/www/system_gateways_edit.php, line: 797
 msgid "Mark Gateway as Down"
-msgstr ""
+msgstr "ゲートウェイをダウンにマーク"
 
-#, fuzzy
 msgid "This will force this gateway to be considered Down"
-msgstr "このゲートウェイが常にアップであると見なします"
+msgstr "強制的に、このゲートウェイがダウンだと見なされます"
 
 msgid " - Show advanced option"
 msgstr " - 詳細オプションを表示"
@@ -16210,44 +16182,40 @@ msgstr "To"
 msgid "Packet Loss thresholds"
 msgstr "パケットロスしきい値"
 
-#, fuzzy
 msgid "Probe Interval"
-msgstr "間隔"
+msgstr "プローブ間隔"
 
-#, fuzzy
 msgid ""
 "NOTE: The quality graph is averaged over seconds, not intervals, so as the "
 "probe interval is increased the accuracy of the quality graph is decreased."
-msgstr ""
-"注意: プローブ頻度が増加することで、品質グラフの正確さは低下することがないように、品質グラフは、間隔単位の平均ではなく、秒単位の平均になっています。"
+msgstr "注意: 品質グラフは、間隔単位ではなく、秒単位の平均になっています。そのため、プローブ間隔が増加すると、品質グラフの正確さは低下します。"
 
 msgid "Down"
 msgstr "ダウン"
 
 # File: src/www/system_gateways_edit.php, line: 772
 msgid "Avg Delay Replies Qty"
-msgstr ""
+msgstr "平均遅延応答数"
 
 # File: src/www/system_gateways_edit.php, line: 882
 # File: src/www/system_gateways_edit.php, line: 894
 # File: src/www/system_gateways_edit.php, line: 906
 msgid "Use calculated value."
-msgstr ""
+msgstr "計算された値を使用します。"
 
 # File: src/www/system_gateways_edit.php, line: 783
 msgid "Avg Packet Loss Probes Qty"
-msgstr ""
+msgstr "平均パケットロスプローブ数"
 
 # File: src/www/system_gateways_edit.php, line: 899
 msgid "Lost Probe Delay"
-msgstr ""
+msgstr "損失プローブ遅延"
 
-#, fuzzy
 msgid ""
 "The probe interval must be less than the down time, otherwise the gateway "
 "will seem to go down then come up again at the next probe."
 msgstr ""
-"プローブ頻度間隔には、停止時間よりも小さい値を設定してください。停止時間より大きい値を設定すると、次のプローブで、ゲートウェイはダウンしてから再度アップし"
+"プローブ間隔には、ダウン時間よりも小さい値を設定してください。ダウン時間より大きい値を設定すると、次のプローブで、ゲートウェイはダウンしてから再度アップし"
 "たかのように見えます。"
 
 # File: src/www/system_gateways_edit.php, line: 913
@@ -16260,6 +16228,10 @@ msgid ""
 "probe interval is 1 second, so 10 probes would have to fail before the "
 "gateway is marked down."
 msgstr ""
+"ダウン時間はゲートウェイがダウンとマークされる前の時間の長さを定義しますが、正確さはプローブ間隔でコントロールされます。例えば、ダウン時間が 40 秒で "
+"プローブ間隔が 30 秒である場合、ゲートウェイが 40 秒でダウンとマークされる前に、エラーにならなければいけないプローブは、たった 1 "
+"つだけです。デフォルトでは、ゲートウェイは 10 秒後にダウンとみなされ、プローブ間隔は 1 秒なので、"
+"ゲートウェイがダウンとマークされる前にエラーにならなければいけないプローブは 10 になります。"
 
 msgid "English"
 msgstr "英語"
@@ -16304,7 +16276,7 @@ msgstr "ファイアウォールホスト名、ドメイン部分は含まない
 
 # File: src/www/system_general.php, line: 331
 msgid "firewall"
-msgstr ""
+msgstr "ファイアウォール"
 
 msgid ""
 "Do not use 'local' as a domain name. It will cause local hosts running mDNS ("
@@ -16315,7 +16287,7 @@ msgstr ""
 
 # File: src/www/system_general.php, line: 341
 msgid "e.g. %smycorp.com, home, office, private, etc.%s"
-msgstr ""
+msgstr "例: %smycorp.com、home、office、private 等%s"
 
 msgid "DNS Server"
 msgstr "DNS サーバ"
@@ -16323,12 +16295,11 @@ msgstr "DNS サーバ"
 msgid "Use gateway"
 msgstr "ゲートウェイを使用"
 
-#, fuzzy
 msgid ""
 "Enter IP addresses to be used by the system for DNS resolution. These are "
 "also used for the DHCP service, DNS forwarder and for PPTP VPN clients."
 msgstr ""
-"DNS 名前解決システムで使用される IP アドレスを入力してください。DHCP サービス、DNS フォワーダ、PPTP VPN "
+"DNS 解決にシステムで使用される IP アドレスを入力してください。DHCP サービス、DNS フォワーダ、PPTP VPN "
 "クライアントでも使用されます。"
 
 msgid ""
@@ -16341,7 +16312,7 @@ msgstr ""
 
 # File: src/www/system_general.php, line: 401
 msgid "DNS server options"
-msgstr ""
+msgstr "DNS サーバオプション"
 
 msgid "Allow DNS server list to be overridden by DHCP/PPP on WAN"
 msgstr "WAN の DHCP/PPP による DNS サーバリストの無効化を許可"
@@ -16357,16 +16328,15 @@ msgstr ""
 msgid "Do not use the DNS Forwarder as a DNS server for the firewall"
 msgstr "ファイアウォールの DNS サーバとして、DNS フォワーダを使用しない"
 
-#, fuzzy
 msgid ""
 "By default localhost (127.0.0.1) will be used as the first DNS server where "
 "the DNS Forwarder or DNS Resolver is enabled and set to listen on Localhost, "
 "so system can use the local DNS service to perform lookups. Checking this "
 "box omits localhost from the list of DNS servers."
 msgstr ""
-"DNS フォワーダが有効の場合、デフォルトでは、localhost (127.0.0.1) が最初の DNS サーバとして使用されるため、"
-"システムは検索の実行に DNS フォワーダを使用できます。このボックスをチェックしている時は DNS サーバのリストから localhost "
-"を削除してください。"
+"DNS フォワーダもしくは DNS リゾルバが有効で、ローカルホストをリスンに設定していれば、デフォルトではローカルホスト ( 127.0.0.1 ) "
+"が最初の DNS サーバとして使用されます。そのため、検索の実行にローカル DNS サービスを使用できます。このボックスをチェックすると、DNS "
+"サーバのリストから localhost を削除します。"
 
 msgid "Time zone"
 msgstr "タイムゾーン"
@@ -16398,33 +16368,31 @@ msgstr "次のルック・アンド・フィールを変更します: "
 
 # File: src/www/system_general.php, line: 565
 msgid "Firmware Mirror"
-msgstr ""
+msgstr "ファームウェアミラー"
 
 # File: src/www/system_general.php, line: 579
 msgid "Select an alternate firmware mirror."
-msgstr ""
+msgstr "代替ファームウェアミラーを選択してください。"
 
 # File: src/www/system_general.php, line: 584
 msgid "Firmware Flavour"
-msgstr ""
+msgstr "ファームウェアフレイバ"
 
 # File: src/www/system_general.php, line: 598
 msgid "Select the firmware cryptography flavour."
-msgstr ""
+msgstr "ファームウェア暗号フレイバを選択してください。"
 
 msgid "The group name contains invalid characters."
 msgstr "グループ名に無効な文字が含まれています"
 
-#, fuzzy
 msgid "The group name is longer than 16 characters."
-msgstr "ユーザ名が 16 文字を超えています"
+msgstr "グループ名が 16 文字を超えています。"
 
 msgid "Another entry with the same group name already exists."
 msgstr "同じグループ名の別のエントリが既に存在しています"
 
-#, fuzzy
 msgid "That groupname is reserved by the system."
-msgstr "そのユーザ名は、システムに予約されています"
+msgstr "そのグループ名は、システムに予約されています。"
 
 msgid "Do you really want to delete this privilege?"
 msgstr "本当にこの権限を削除しますか？"
@@ -16462,9 +16430,8 @@ msgstr "CTRL (pc) / Command (Mac) キーを押したままにすると、複数�
 msgid "Assigned Privileges"
 msgstr "権限の割当"
 
-#, fuzzy
 msgid "delete privilege"
-msgstr "選択した権限"
+msgstr "権限を削除"
 
 msgid "Member Count"
 msgstr "メンバ数"
@@ -16482,6 +16449,10 @@ msgid ""
 "                      Some system object properties can be modified but they "
 "cannot be deleted."
 msgstr ""
+"Web 設定管理画面のグループはここで追加できます。\n"
+"                      グループパーミッションも割当て可能で、グループメンバーのユーザに継承されます。\n"
+"                      グレイ表示されるアイコンはシステムが定義したオブジェクトです。\n"
+"                      一部のシステムオブジェクトプロパティは変更できますが、削除することはできません。"
 
 msgid "Selected priveleges"
 msgstr "選択した権限"
@@ -16494,11 +16465,11 @@ msgstr "説明する権限を、上記のリストから選択してください
 
 # File: src/www/system_hasync.php, line: 98
 msgid "State Synchronization"
-msgstr ""
+msgstr "同期のステータス"
 
 # File: src/www/system_hasync.php, line: 127
 msgid "Synchronize States"
-msgstr ""
+msgstr "ステータスを同期"
 
 # File: src/www/system_hasync.php, line: 132
 msgid ""
@@ -16509,67 +16480,72 @@ msgid ""
 "and imports them into the local state table.%sThis setting should be enabled "
 "on all members of a failover group."
 msgstr ""
+"pfsync はステータス挿入、更新、削除のメッセージをファイアウォール間で転送します。%sそれぞれのファイアウォールは、PFSYNC プロトコル (%"
+"sIP プロトコル 240%s) を使用して、それらのメッセージを指定したインタフェースにマルチキャスト経由で外向きに送信します。%sまた、その他のファイ"
+"アウォールからの同様のメッセージをインタフェースでリスンし、ローカルステータステーブルにそれらをインポートします。%sこの設定はフェイルオーバグループの全"
+"てのメンバで有効にしなければいけません。"
 
 # File: src/www/system_hasync.php, line: 136
 msgid ""
 "Clicking save will force a configuration sync if it is enabled! (see "
 "Configuration Synchronization Settings below)"
-msgstr ""
+msgstr "クリックして保存すると、構成の同期が有効な場合は、強制的に構成が同期されます！( 下の構成同期設定を参照 )"
 
 # File: src/www/system_hasync.php, line: 140
 msgid "Synchronize Interface"
-msgstr ""
+msgstr "同期するインタフェース"
 
 # File: src/www/system_hasync.php, line: 123
 msgid "loopback"
-msgstr ""
+msgstr "ループバック"
 
 # File: src/www/system_hasync.php, line: 151
 msgid ""
 "If Synchronize States is enabled, it will utilize this interface for "
 "communication."
-msgstr ""
+msgstr "ステータスの同期が有効な場合は、通信にこのインタフェースを使用するようになります。"
 
 # File: src/www/system_hasync.php, line: 154
 msgid ""
 "We recommend setting this to a interface other than LAN!  A dedicated "
 "interface works the best."
-msgstr ""
+msgstr "LAN 以外のインタフェースにこれを設定することを推奨します！専用インタフェースが最もよく機能します。"
 
 # File: src/www/system_hasync.php, line: 155
 msgid ""
 "You must define a IP on each machine participating in this failover group."
-msgstr ""
+msgstr "このフェイルオーバグループに参加しているマシン毎に IP を定義してください。"
 
 # File: src/www/system_hasync.php, line: 156
 msgid ""
 "You must have an IP assigned to the interface on any participating sync "
 "nodes."
-msgstr ""
+msgstr "全ての同期ノードに参加しているインタフェースに IP を割り当ててください。"
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
-msgstr ""
+msgstr "同期ピア IP"
 
 # File: src/www/system_hasync.php, line: 165
 msgid ""
 "Setting this option will force pfsync to synchronize its state table to this "
 "IP address.  The default is directed multicast."
 msgstr ""
+"このオプション設定は pfsync にこの IP アドレスへ、自分のステータステーブルを同期するよう強制します。デフォルトはマルチキャストを指定されます。"
 
 # File: src/www/system_hasync.php, line: 178
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
-msgstr ""
+msgstr "同期設定の構成 ( XMLRPC 同期 )"
 
 # File: src/www/system_hasync.php, line: 183
 msgid "Synchronize Config to IP"
-msgstr ""
+msgstr "IP に構成を同期"
 
 # File: src/www/system_hasync.php, line: 186
 msgid ""
 "Enter the IP address of the firewall to which the selected configuration "
 "sections should be synchronized."
-msgstr ""
+msgstr "選択した構成セクションを同期させる、ファイアウォールの IP アドレスを入力してください。"
 
 # File: src/www/system_hasync.php, line: 189
 msgid ""
@@ -16577,172 +16553,174 @@ msgid ""
 "protocol and port as this system - make sure the remote system's port and "
 "protocol are set accordingly!"
 msgstr ""
+"現時点では XMLRPC 同期は、このシステムのように同じプロトコルとポートを使用した通信のみに対応しています。リモートシステムのポートとプロトコルがこれ"
+"に基づいて設定されているかどうか確認してください。"
 
 # File: src/www/system_hasync.php, line: 190
 # File: src/www/system_hasync.php, line: 213
 msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
 "cluster members!"
-msgstr ""
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、パスワードオプションを使用しないでください！"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
-msgstr ""
+msgstr "リモートシステムユーザ名"
 
 # File: src/www/system_hasync.php, line: 200
 msgid ""
 "Enter the webConfigurator username of the system entered above for "
 "synchronizing your configuration."
-msgstr ""
+msgstr "あなたの構成を同期するために、上で入力したシステムの web 設定管理画面ユーザ名を入力してください。"
 
 # File: src/www/system_hasync.php, line: 202
 msgid ""
 "Do not use the Synchronize Config to IP and username option on backup "
 "cluster members!"
-msgstr ""
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、ユーザ名オプションを使用しないでください！"
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
-msgstr ""
+msgstr "リモートシステムパスワード"
 
 # File: src/www/system_hasync.php, line: 211
 msgid ""
 "Enter the webConfigurator password of the system entered above for "
 "synchronizing your configuration."
-msgstr ""
+msgstr "あなたの構成を同期するために、上で入力したシステムの web 設定管理画面パスワードを入力してください。"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Users and Groups"
-msgstr ""
+msgstr "ユーザとグループ"
 
 # File: src/www/system_hasync.php, line: 223
 msgid ""
 "Automatically sync the users and groups over to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、ユーザとグループは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 205
 msgid "Auth Servers"
-msgstr ""
+msgstr "認証サーバ"
 
 # File: src/www/system_hasync.php, line: 232
 msgid ""
 "Automatically sync the authentication servers (e.g. LDAP, RADIUS) over to "
 "the other HA host when changes are made."
-msgstr ""
+msgstr "変更が発生すると、認証サーバ ( 例: LDAP、RADIUS ) は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 241
 msgid ""
 "Automatically sync the Certificate Authorities, Certificates, and "
 "Certificate Revocation Lists over to the other HA host when changes are made."
-msgstr ""
+msgstr "変更が発生すると、認証局、証明書、証明書失効リストは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 250
 msgid ""
 "Automatically sync the firewall rules to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、ファイアウォールルールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 232
 msgid "Firewall Schedules"
-msgstr ""
+msgstr "ファイアウォールスケジュール"
 
 # File: src/www/system_hasync.php, line: 259
 msgid ""
 "Automatically sync the firewall schedules to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、ファイアウォールスケジュールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 268
 msgid ""
 "Automatically sync the aliases over to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、エイリアスは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 277
 msgid ""
 "Automatically sync the NAT rules over to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、NAT ルールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 286
 msgid ""
 "Automatically sync the IPsec configuration to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、IPsec 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 295
 msgid ""
 "Automatically sync the OpenVPN configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、OpenVPN 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 296
 msgid ""
 "Using this option implies \"Synchronize Certificates\" as they are required "
 "for OpenVPN."
-msgstr ""
+msgstr "このオプションを使用する場合は、OpenVPN で「証明書の同期」が必須であることを暗に示しています。"
 
 # File: src/www/system_hasync.php, line: 278
 msgid "DHCPD"
-msgstr ""
+msgstr "DHCPD"
 
 # File: src/www/system_hasync.php, line: 305
 msgid ""
 "Automatically sync the DHCP Server settings over to the other HA host when "
 "changes are made. This only applies to DHCP for IPv4."
 msgstr ""
+"変更が発生すると、DHCP サーバ設定は他の HA ホストに自動的に同期されます。これは DHCP が IPv4 用である場合のみ適用されます。"
 
 # File: src/www/system_hasync.php, line: 314
 msgid ""
 "Automatically sync the WoL configuration to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、WoL 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 296
 msgid "Static Routes"
-msgstr ""
+msgstr "静的ルート"
 
 # File: src/www/system_hasync.php, line: 323
 msgid ""
 "Automatically sync the Static Route configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、静的ルート構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 332
 msgid ""
 "Automatically sync the Load Balancer configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、ロードバランサ構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 341
 msgid ""
 "Automatically sync the CARP Virtual IPs to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、CARP 仮想 IP は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 350
 msgid ""
 "Automatically sync the DNS Forwarder configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、DNS フォワーダ構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_routes.php, line: 210
 msgid "Add route"
-msgstr ""
+msgstr "ルートを追加"
 
 # File: src/www/system_routes.php, line: 165
 # File: src/www/system_routes.php, line: 187
 msgid "Route"
-msgstr ""
+msgstr "ルート"
 
 # File: src/www/system_routes.php, line: 166
 msgid "Do you really want to delete this route?"
-msgstr ""
+msgstr "本当にこのルートを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected routes?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したルートを削除しますか？"
 
 msgid ""
 "The static route configuration has been changed.%sYou must apply the changes "
@@ -16751,47 +16729,45 @@ msgstr "静的ルート構成は変更されました。%s有効にするには�
 
 # File: src/www/system_routes.php, line: 258
 msgid "disable route"
-msgstr ""
+msgstr "ルートを無効"
 
 # File: src/www/system_routes.php, line: 258
 msgid "enable route"
-msgstr ""
+msgstr "ルートを有効"
 
 # File: src/www/system_routes.php, line: 275
 msgid "move selected routes before this route"
-msgstr ""
+msgstr "選択したルートをこのルートの前に移動"
 
 # File: src/www/system_routes.php, line: 279
 msgid "edit route"
-msgstr ""
+msgstr "ルートを編集"
 
 # File: src/www/system_routes.php, line: 283
 msgid "delete route"
-msgstr ""
+msgstr "ルートを削除"
 
 # File: src/www/system_routes.php, line: 287
 msgid "clone route"
-msgstr ""
+msgstr "ルートをクローン"
 
-#, fuzzy
 msgid "move selected routes to end"
-msgstr "選択したルールを末尾に移動"
+msgstr "選択したルートを末尾に移動"
 
-#, fuzzy
 msgid "delete selected routes"
-msgstr "選択したルールを削除"
+msgstr "選択したルートを削除"
 
 # File: src/www/system_routes.php, line: 321
 msgid "add route"
-msgstr ""
+msgstr "ルートを追加"
 
 msgid ""
 "Do not enter static routes for networks assigned on any interface of this "
 "firewall.  Static routes are only used for networks reachable via a "
 "different router, and not reachable via your default gateway."
 msgstr ""
-"このファイアウォールのインタフェースに割当てられたネットワークには、静的ルートを入力しないでください。静的ルートは、このファイアウォールのデフォルトゲート"
-"ウェイ経由では到達できず、異なるルータを経由することで到達可能なネットワークにのみ使用します。"
+"このファイアウォールのインタフェースに割当てられたネットワークには、静的ルートを入力しないでください。デフォルトゲートウェイ経由では到達できず、異なるルー"
+"タを経由することで到達可能なネットワークにのみ、静的ルートを使用します。"
 
 msgid "Destination network"
 msgstr "送信先ネットワーク"
@@ -16839,15 +16815,15 @@ msgstr "関連付けは削除されました"
 
 # File: src/www/system_usermanager.php, line: 227
 msgid "API key"
-msgstr ""
+msgstr "API 鍵"
 
 # File: src/www/system_usermanager.php, line: 228
 msgid "removed."
-msgstr ""
+msgstr "削除されました。"
 
 # File: src/www/system_usermanager.php, line: 230
 msgid "No API key found"
-msgstr ""
+msgstr "API 鍵が見つかりません"
 
 msgid "The username is longer than 16 characters."
 msgstr "ユーザ名が 16 文字を超えています"
@@ -16878,7 +16854,7 @@ msgstr "本当にこのユーザを削除しますか？"
 
 # File: src/www/system_usermanager.php, line: 611
 msgid "Do you really want to delete this API key?"
-msgstr ""
+msgstr "本当にこの API 鍵を削除しますか？"
 
 msgid "User distinguished name"
 msgstr "ユーザ識別名"
@@ -16902,11 +16878,11 @@ msgstr "アカウントに有効期限を設定しない場合は空白にして
 
 # File: src/www/system_usermanager.php, line: 704
 msgid "add groups"
-msgstr ""
+msgstr "グループを追加"
 
 # File: src/www/system_usermanager.php, line: 708
 msgid "remove groups"
-msgstr ""
+msgstr "グループを削除"
 
 msgid "Effective Privileges"
 msgstr "有効な権限"
@@ -16916,11 +16892,11 @@ msgstr "次から継承: "
 
 # File: src/www/system_usermanager.php, line: 761
 msgid "revoke privilege"
-msgstr ""
+msgstr "権限を失効"
 
 # File: src/www/system_usermanager.php, line: 774
 msgid "assign privileges"
-msgstr ""
+msgstr "権限を割当て"
 
 msgid "User Certificates"
 msgstr "ユーザ証明書"
@@ -16933,44 +16909,44 @@ msgstr "秘密鍵のエクスポート"
 
 # File: src/www/system_usermanager.php, line: 811
 msgid "export certificate"
-msgstr ""
+msgstr "証明書のエクスポート"
 
 # File: src/www/system_usermanager.php, line: 815
 msgid "unlink certificate"
-msgstr ""
+msgstr "証明書のリンク解除"
 
 # File: src/www/system_usermanager.php, line: 828
 msgid "create or link user certificate"
-msgstr ""
+msgstr "ユーザ証明書の新規作成もしくはリンク"
 
 # File: src/www/system_usermanager.php, line: 880
 msgid "API keys"
-msgstr ""
+msgstr "API 鍵"
 
 # File: src/www/system_usermanager.php, line: 887
 msgid "key"
-msgstr ""
+msgstr "鍵"
 
 # File: src/www/system_usermanager.php, line: 907
 msgid "delete API key"
-msgstr ""
+msgstr "API 鍵を削除"
 
 # File: src/www/system_usermanager.php, line: 921
 msgid "create API key"
-msgstr ""
+msgstr "API 鍵の新規作成"
 
 # File: src/www/system_usermanager.php, line: 930
 msgid ""
 "manage API keys here for machine to machine interaction using this users "
 "credentials"
-msgstr ""
+msgstr "このユーザの資格情報を使用してマシン同士の相互作用に対する API 鍵をここで管理します。"
 
 msgid "Click to create a user certificate."
 msgstr "クリックすると、ユーザ証明書を作成します。"
 
 # File: src/www/system_usermanager.php, line: 896
 msgid "Redirects on save"
-msgstr ""
+msgstr "保存でリダイレクト"
 
 msgid "Authorized keys"
 msgstr "認証鍵"
@@ -16982,14 +16958,14 @@ msgid "IPsec Pre-Shared Key"
 msgstr "IPsec 事前共有鍵"
 
 msgid "edit user"
-msgstr "ユーザの編集"
+msgstr "ユーザを編集"
 
 msgid "delete user"
-msgstr "ユーザの削除"
+msgstr "ユーザを削除"
 
 # File: src/www/system_usermanager.php, line: 983
 msgid "import users"
-msgstr ""
+msgstr "ユーザをインポート"
 
 msgid ""
 "Additional users can be added here. User permissions for accessing the "
@@ -17009,15 +16985,15 @@ msgstr "OpenVPN、IPsec、キャプティブポータル等、システムの他
 
 # File: src/www/system_usermanager.php, line: 1053
 msgid "System Admininistrator"
-msgstr ""
+msgstr "システム管理者"
 
 # File: src/www/system_usermanager.php, line: 1055
 msgid "Disabled User"
-msgstr ""
+msgstr "無効にしたユーザ"
 
 # File: src/www/system_usermanager.php, line: 1057
 msgid "Normal User"
-msgstr ""
+msgstr "標準ユーザ"
 
 msgid ""
 "Could not connect to the LDAP server. Please check your LDAP configuration."
@@ -17025,7 +17001,7 @@ msgstr "LDAP サーバに接続できません。LDAP 構成を確認して下�
 
 # File: src/www/system_usermanager_import_ldap.php, line: 150
 msgid "Please select users to import:"
-msgstr ""
+msgstr "インポートするユーザを選択してください: "
 
 msgid "Sorry, you cannot change the password for a non-local user."
 msgstr "非ローカルユーザのパスワードは変更できません"
@@ -17033,15 +17009,12 @@ msgstr "非ローカルユーザのパスワードは変更できません"
 msgid "Password successfully changed"
 msgstr "パスワードは正常に変更されました"
 
-#, fuzzy
 msgid "Old password"
-msgstr "PPTP パスワード"
+msgstr "旧パスワード"
 
-#, fuzzy
 msgid "New password"
-msgstr "PPTP パスワード"
+msgstr "新パスワード"
 
-#, fuzzy
 msgid "Confirmation"
 msgstr "確認"
 
@@ -17095,24 +17068,22 @@ msgid ""
 "Do you really want to delete this phase1 and all associated phase2 entries?"
 msgstr "本当にこのフェーズ 1 エントリ及び、関連する全てのフェーズ 2 エントリを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected phase1 entries?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したフェーズ 1 エントリを削除しますか？"
 
 msgid "Do you really want to delete this phase2 entry?"
 msgstr "本当にこのフェーズ 2 エントリを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected phase2 entries?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したフェーズ 2 エントリを削除しますか？"
 
 # File: src/www/vpn_ipsec.php, line: 300
 msgid "The IPsec tunnel configuration has been changed."
-msgstr ""
+msgstr "IPsec トンネル構成は変更されました。"
 
 # File: src/www/vpn_ipsec.php, line: 270
 msgid "IKE"
-msgstr ""
+msgstr "IKE"
 
 msgid "Remote Gateway"
 msgstr "リモートゲートウェイ"
@@ -17128,31 +17099,30 @@ msgstr "P1 説明"
 
 # File: src/www/vpn_ipsec.php, line: 333
 msgid "disable phase 1 entry"
-msgstr ""
+msgstr "フェーズ 1 エントリを無効"
 
 # File: src/www/vpn_ipsec.php, line: 333
 msgid "enable phase 1 entry"
-msgstr ""
+msgstr "フェーズ 1 エントリを有効"
 
 msgid "auto"
 msgstr "自動"
 
-#, fuzzy
 msgid "move selected entries before this"
-msgstr "選択したルールをこのルールの前に移動"
+msgstr "選択したエントリをこれの前に移動"
 
 msgid "edit phase1 entry"
 msgstr "フェーズ 1 エントリを編集"
 
 msgid "delete phase1 entry"
-msgstr "フェーズ 1 エントリの削除"
+msgstr "フェーズ 1 エントリを削除"
 
 # File: src/www/vpn_ipsec.php, line: 413
 msgid "clone phase1 entry"
-msgstr ""
+msgstr "フェーズ 1 エントリをクローン"
 
 msgid "Show %s Phase-2 entries"
-msgstr "%s フェーズ 2 エントリの表示"
+msgstr "%s フェーズ 2 エントリを表示"
 
 msgid "Local Subnet"
 msgstr "ローカルサブネット"
@@ -17171,47 +17141,47 @@ msgstr "P2 認証方式"
 
 # File: src/www/vpn_ipsec.php, line: 463
 msgid "disable phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを無効"
 
 # File: src/www/vpn_ipsec.php, line: 463
 msgid "enable phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを有効"
 
 # File: src/www/vpn_ipsec.php, line: 519
 msgid "edit phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを編集"
 
 # File: src/www/vpn_ipsec.php, line: 524
 msgid "delete phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを削除"
 
 # File: src/www/vpn_ipsec.php, line: 530
 msgid "clone phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリをクローン"
 
 # File: src/www/vpn_ipsec.php, line: 546
 msgid "move selected phase 2 entries to end"
-msgstr ""
+msgstr "選択したフェーズ 2 エントリを末尾に移動"
 
 # File: src/www/vpn_ipsec.php, line: 550
 msgid "delete selected phase 2 entries"
-msgstr ""
+msgstr "選択したフェーズ 2 エントリを削除"
 
 # File: src/www/vpn_ipsec.php, line: 557
 msgid "add phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを追加"
 
 # File: src/www/vpn_ipsec.php, line: 577
 msgid "move selected phase 1 entries to end"
-msgstr ""
+msgstr "選択したフェーズ 1 エントリを末尾に移動"
 
 # File: src/www/vpn_ipsec.php, line: 584
 msgid "delete selected phase 1 entries"
-msgstr ""
+msgstr "選択したフェーズ 1 エントリを削除"
 
 # File: src/www/vpn_ipsec.php, line: 589
 msgid "add new phase 1 entry"
-msgstr ""
+msgstr "新規フェーズ 1 エントリを追加"
 
 msgid "Enable IPsec"
 msgstr "IPsec を有効"
@@ -17230,11 +17200,10 @@ msgstr "識別子"
 
 # File: src/www/vpn_ipsec_keys.php, line: 129
 msgid "ANY USER"
-msgstr ""
+msgstr "全てのユーザ"
 
-#, fuzzy
 msgid "edit"
-msgstr "CA の編集"
+msgstr "編集"
 
 msgid "edit key"
 msgstr "鍵の編集"
@@ -17245,7 +17214,7 @@ msgstr "鍵の削除"
 # File: src/www/vpn_ipsec_keys.php, line: 193
 # File: src/www/vpn_ipsec_keys_edit.php, line: 177
 msgid "PSK for any user can be set by using an identifier of any/ANY"
-msgstr ""
+msgstr "全てのユーザに対する PSK は any/ANY 識別子を使用することで設定できます"
 
 msgid "A user with this name already exists. Add the key to the user instead."
 msgstr "この名前のユーザは既に存在しています。該当ユーザに鍵を追加します。"
@@ -17266,7 +17235,7 @@ msgstr "追加済"
 msgid ""
 "This can be either an IP address, fully qualified domain name or an e-mail "
 "address."
-msgstr ""
+msgstr "これは IP アドレス、完全修飾ドメイン名、もしくはメールアドレスのいずれかが使用可能です。"
 
 msgid "Group Authentication Source"
 msgstr "グループ認証元"
@@ -17404,7 +17373,7 @@ msgstr "クライアントにログインバナーを提供"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 174
 msgid "EAP-TLS can only be used with IKEv2 type VPNs."
-msgstr ""
+msgstr "EAP-TLS は IKEv2 タイプの VPN でのみ使用可能です。"
 
 msgid "Remote gateway"
 msgstr "リモートゲートウェイ"
@@ -17427,7 +17396,7 @@ msgstr "有効なリモートゲートウェイ IPv6 アドレスを指定する
 
 # File: src/www/vpn_ipsec_phase1.php, line: 233
 msgid "The remote gateway \"%s\" is already used by phase1 \"%s\"."
-msgstr ""
+msgstr "リモートゲートウェイ %s は、フェーズ 1 %s で既に使用されています。"
 
 msgid "There is a Phase 2 using IPv6, you cannot use IPv4."
 msgstr "フェーズ 2 では IPv6 を使用しています。IPv4 は使用できません。"
@@ -17502,7 +17471,7 @@ msgstr "DPD 再試行 には数値を指定してください"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 345
 msgid "Invalid argument for key exchange protocol version."
-msgstr ""
+msgstr "鍵交換プロトコルバージョンに対して無効な引数です。"
 
 msgid "General information"
 msgstr "全般情報"
@@ -17513,50 +17482,51 @@ msgstr "このフェーズ 1 エントリを無効"
 # File: src/www/vpn_ipsec_phase1.php, line: 600
 msgid ""
 "Set this option to disable this phase1 without removing it from the list."
-msgstr ""
+msgstr "このオプションを設定すると、リストから削除せずに、このフェーズ 1 を無効にします。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 606
 msgid "Connection method"
-msgstr ""
+msgstr "接続メソッド"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 611
 msgid "Respond only"
-msgstr ""
+msgstr "応答のみ"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 612
 msgid "Start on traffic"
-msgstr ""
+msgstr "トラフィックで開始"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 613
 msgid "Start immediate"
-msgstr ""
+msgstr "すぐに開始"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 616
 msgid ""
 "Choose the connect behaviour here, when using CARP you might want to "
 "consider the Repond only option here (wait for the other side to connect)."
 msgstr ""
+"接続の振る舞いをここで選択します。CARP を使用している場合は、ここの「応答のみ」オプション ( 接続する相手方を待ちます ) "
+"を検討したいかもしれません。"
 
-#, fuzzy
 msgid "Key Exchange version"
-msgstr "パッケージバージョン"
+msgstr "鍵交換バージョン"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 634
 msgid ""
 "Select the KeyExchange Protocol version to be used. Usually known as IKEv1 "
 "or IKEv2."
-msgstr ""
+msgstr "使用する鍵交換プロトコルバージョンを選択してください。通常 IKEv1 もしくは IKEv2 として知られています。"
 
 msgid "Internet Protocol"
 msgstr "インターネットプロトコル"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 655
 msgid "Select the Internet Protocol family from this dropdown."
-msgstr ""
+msgstr "このドロップダウンから、インターネットプロトコルファミリを選択してください。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 695
 msgid "Select the interface for the local endpoint of this phase1 entry."
-msgstr ""
+msgstr "このフェーズ 1 エントリのローカルエンドポイントに対して、インタフェースを選択してください。"
 
 msgid "Enter the public IP address or host name of the remote gateway"
 msgstr "パブリック IP アドレス、またはリモートゲートウェイのホスト名を入力してください"
@@ -17571,14 +17541,14 @@ msgstr "認証方法"
 # File: src/www/vpn_ipsec_phase1.php, line: 932
 # File: src/www/vpn_ipsec_phase1.php, line: 963
 msgid "Must match the setting chosen on the remote side."
-msgstr ""
+msgstr "リモート側で選択された設定は一致しなければいけません。"
 
 msgid "Negotiation mode"
 msgstr "ネゴシエーションモード"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 772
 msgid "Aggressive is more flexible, but less secure."
-msgstr ""
+msgstr "アグレッシブはよりフレキシブルですが、あまりセキュアではありません。"
 
 msgid "My identifier"
 msgstr "自分の識別子"
@@ -17602,18 +17572,18 @@ msgstr "ピア IP アドレス"
 msgid ""
 "NOTE: This is known as the \"group\" setting on some VPN client "
 "implementations."
-msgstr ""
+msgstr "注意: これは一部の VPN クライアントの実装では「グループ」設定として知られています。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 841
 msgid "Input your Pre-Shared Key string."
-msgstr ""
+msgstr "あなたの事前共有鍵文字列を入力してください。"
 
 msgid "My Certificate"
 msgstr "自分の証明書"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 861
 msgid "Select a certificate previously configured in the Certificate Manager."
-msgstr ""
+msgstr "証明書マネジャであらかじめ構成した証明書を選択してください。"
 
 msgid "My Certificate Authority"
 msgstr "自分の認証局"
@@ -17622,11 +17592,10 @@ msgstr "自分の認証局"
 msgid ""
 "Select a certificate authority previously configured in the Certificate "
 "Manager."
-msgstr ""
+msgstr "証明書マネジャであらかじめ構成した認証局を選択してください。"
 
-#, fuzzy
 msgid "Phase 1 proposal (Algorithms)"
-msgstr "フェーズ 1 プロポーザル ( 認証 )"
+msgstr "フェーズ 1 プロポーザル ( アルゴリズム )"
 
 msgid "Encryption algorithm"
 msgstr "暗号化アルゴリズム"
@@ -17637,23 +17606,20 @@ msgstr "ハッシュアルゴリズム"
 msgid "DH key group"
 msgstr "DH 鍵グループ"
 
-#, fuzzy
 msgid "Disable Rekey"
-msgstr "無効"
+msgstr "リキーを無効"
 
-#, fuzzy
 msgid "Whether a connection should be renegotiated when it is about to expire."
-msgstr "接続数は 1 より大きい値を設定してください"
+msgstr "有効期限切れが間近な場合に、接続を再ネゴシエートすべきかどうかです。"
 
-#, fuzzy
 msgid "Disable Reauth"
-msgstr "CARP を無効"
+msgstr "再認証 を無効"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 994
 msgid ""
 "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, "
 "reauthentication is always done."
-msgstr ""
+msgstr "IKE_SA のリキーでもピアを再認証すべきかどうかです。IKEv1 では再認証は常に行われます。"
 
 msgid "NAT Traversal"
 msgstr "NAT トラバーサル"
@@ -17667,6 +17633,8 @@ msgid ""
 "UDP packets) if needed, which can help with clients that are behind "
 "restrictive firewalls."
 msgstr ""
+"必要であれば、このオプションで NAT-T ( UDP パケットの ESP のカプセル化 ) "
+"の使用を有効、に設定してください。制限のあるファイアウォールの背後にあるクライアントには役立ちます。"
 
 msgid "Dead Peer Detection"
 msgstr "デッドピア検知"
@@ -17676,14 +17644,14 @@ msgstr "DPD を有効"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1029
 msgid "Delay between requesting peer acknowledgement."
-msgstr ""
+msgstr "ピア受信確認要求間に遅延が発生しています。"
 
 msgid "retries"
 msgstr "再試行"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1035
 msgid "Number of consecutive failures allowed before disconnect."
-msgstr ""
+msgstr "切断前に許容する連続失敗の数。"
 
 msgid "A valid ikeid must be specified."
 msgstr "有効な ikeid を指定してください"
@@ -17691,9 +17659,8 @@ msgstr "有効な ikeid を指定してください"
 msgid "Local network type"
 msgstr "ローカルネットワークタイプ"
 
-#, fuzzy
 msgid "Unique Identifier"
-msgstr "DUID 識別子"
+msgstr "固有識別子"
 
 msgid "Remote network type"
 msgstr "リモートネットワークタイプ"
@@ -17745,7 +17712,7 @@ msgstr "有効な NAT ローカルネットワーク IPv6 アドレスを指定�
 msgid ""
 "BINAT requires that the netmask of the local network matches the one of the "
 "NAT/BINAT network."
-msgstr ""
+msgstr "BINAT には、NAT/BINAT ネットワークの 1 つが一致する、ローカルネットワークのネットマスクが必要です。"
 
 msgid "A valid remote network bit count must be specified."
 msgstr "有効なリモートネットワークビット数を指定してください"
@@ -17772,14 +17739,13 @@ msgid ""
 msgstr "このローカル / リモートネットワークにおけるフェーズ 2 の組み合わせは、このフェーズ 1 で既に定義されています。"
 
 msgid "At least one encryption algorithm must be selected."
-msgstr "1 つ以上の暗号化アルゴリズムを選択してください"
+msgstr "1 つ以上の暗号化アルゴリズムを選択してください。"
 
-#, fuzzy
 msgid "At least one hashing algorithm needs to be selected."
-msgstr "1 つ以上の暗号化アルゴリズムを選択してください"
+msgstr "1 つ以上のハッシュアルゴリズムを選択してください。"
 
 msgid "The P2 lifetime must be an integer."
-msgstr "P2 有効期間は整数です"
+msgstr "P2 有効期間は整数です。"
 
 msgid "Disable this phase2 entry"
 msgstr "このフェーズ 2 エントリを無効"
@@ -17797,21 +17763,23 @@ msgstr "%s サブネット"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 725
 msgid "NAT/BINAT"
-msgstr ""
+msgstr "NAT/BINAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 746
 msgid "NAT Type"
-msgstr ""
+msgstr "NAT タイプ"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
 msgid "BINAT"
-msgstr ""
+msgstr "BINAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 760
 msgid ""
 "Enforce the type of NAT by choosing either NAT or BINAT. Leave it to Auto to "
 "let OPNsense automatically choose the best NAT option."
 msgstr ""
+"NAT もしくは BINAT を選択することで NAT のタイプを強制します。自動に設定すると OPNsense は自動的に最も良い NAT "
+"オプションを選択します。"
 
 msgid ""
 "In case you need NAT/BINAT on this network specify the address to be "
@@ -17854,11 +17822,11 @@ msgstr "IPSec 詳細設定"
 
 # File: src/www/vpn_ipsec_settings.php, line: 162
 msgid "LAN security associations"
-msgstr ""
+msgstr "LAN セキュリティアソシエーション"
 
 # File: src/www/vpn_ipsec_settings.php, line: 175
 msgid "Do not install LAN SPD"
-msgstr ""
+msgstr "LAN SPD をインストールしない"
 
 # File: src/www/vpn_ipsec_settings.php, line: 177
 msgid ""
@@ -17866,6 +17834,8 @@ msgid ""
 "protection. This behaviour can be changed by enabling this setting which "
 "will prevent installing these SPDs."
 msgstr ""
+"デフォルトでは、IPsec が有効の場合、保護を提供するために否定の SPD が挿入されます。この設定を有効にすると、これらの SPD "
+"のインストールを防ぐため、この振る舞いを変更できます。"
 
 msgid "Security Associations"
 msgstr "セキュリティアソシエーション"
@@ -17886,21 +17856,20 @@ msgstr "IPsec デバッグ"
 
 # File: src/www/vpn_ipsec_settings.php, line: 197
 msgid "Start IPSec in debug mode based on sections selected"
-msgstr ""
+msgstr "IPsec を、選択したセクションに基づいたデバックモードで開始"
 
-#, fuzzy
 msgid ""
 "Launches IPSec in debug mode so that more verbose logs will be generated to "
 "aid in troubleshooting."
-msgstr "racoon をデバッグモードで起動し、トラブルシューティングに役立つ、より詳細なログを生成させます。"
+msgstr "IPsec をデバッグモードで起動し、トラブルシューティングに役立つ、より詳細なログを生成させます。"
 
 # File: src/www/vpn_ipsec_settings.php, line: 226
 msgid "IPsec Reload on Failover"
-msgstr ""
+msgstr "フェイルオーバで IPsec リロード"
 
 # File: src/www/vpn_ipsec_settings.php, line: 231
 msgid "Force IPsec Reload on Failover"
-msgstr ""
+msgstr "フェイルオーバで IPsec リロードを強制"
 
 # File: src/www/vpn_ipsec_settings.php, line: 233
 msgid ""
@@ -17910,6 +17879,10 @@ msgid ""
 "behavior is disabled by default. Check this box to force IPsec to fully "
 "reload on failover."
 msgstr ""
+"一部の状況では、IPsec トンネルのインタフェースとしてゲートウェイグループを使用していると、適切に動作しません。また、IPsec "
+"はフェイルオーバの発生時には強制的にリロードしなければいけません。これは全ての IPsec "
+"トンネルを破壊するため、デフォルトではこの振る舞いは無効になっています。フェイルオーバで IPsec "
+"に完全なリロードを強制する場合は、このボックスをチェックしてください。"
 
 msgid "Maximum MSS"
 msgstr "最大 MSS"
@@ -17966,7 +17939,7 @@ msgstr "サーバアドレス"
 msgid ""
 "Enter the IP address the L2TP server should give to clients for use as their "
 "\"gateway\"."
-msgstr ""
+msgstr "L2TP サーバの IP アドレスを入力してください。クライアントに「ゲートウェイ」として使用するよう設定されます。"
 
 msgid "Typically this is set to an unused IP just outside of the client range"
 msgstr "通常は、クライアントの範囲に含まれない未使用の IP を設定します"
@@ -17975,7 +17948,7 @@ msgstr "通常は、クライアントの範囲に含まれない未使用の IP
 msgid ""
 "NOTE: This should NOT be set to any IP address currently in use on this "
 "firewall."
-msgstr ""
+msgstr "注意: このファイアウォールで現在使用している IP アドレスは、設定「しないで」ください。"
 
 msgid "Remote Address Range"
 msgstr "リモートアドレス範囲"
@@ -17991,7 +17964,7 @@ msgstr "L2TP ユーザ数"
 
 # File: src/www/vpn_l2tp.php, line: 377
 msgid "10 is ten L2TP clients"
-msgstr ""
+msgstr "10 は L2TP クライアントの数が 10 です"
 
 msgid "Secret"
 msgstr "秘密鍵"
@@ -18114,7 +18087,7 @@ msgstr "IPv6 プロトコルが選択されましたが、選択したインタ�
 # File: src/www/vpn_openvpn_client.php, line: 178
 msgid ""
 "The field Local port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "ローカルポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 msgid "The specified 'Local port' is in use. Please select another value"
 msgstr "指定された「ローカルポート」は使用されています。別の値を選択してください"
@@ -18124,24 +18097,24 @@ msgstr "指定された「ローカルポート」は使用されています。
 msgid ""
 "The field Server host or address must contain a valid IP address or domain "
 "name."
-msgstr ""
+msgstr "サーバホストもしくはアドレスフィールドには、有効な IP アドレスもしくはドメイン名を設定してください。"
 
 # File: src/www/vpn_openvpn_client.php, line: 190
 msgid ""
 "The field Server port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "サーバポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 195
 # File: src/www/vpn_openvpn_client.php.orig, line: 195
 msgid ""
 "The field Proxy host or address must contain a valid IP address or domain "
 "name."
-msgstr ""
+msgstr "プロキシホストもしくはアドレスフィールドには、有効な IP アドレスもしくはドメイン名を設定してください。"
 
 # File: src/www/vpn_openvpn_client.php, line: 198
 msgid ""
 "The field Proxy port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "プロキシポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 msgid "User name and password are required for proxy with authentication."
 msgstr "認証付きプロキシには、ユーザ名とパスワードが必要です。"
@@ -18162,7 +18135,7 @@ msgstr "共有鍵"
 msgid ""
 "If no Client Certificate is selected, a username and password must be "
 "entered."
-msgstr ""
+msgstr "クライアント証明書が選択されていない場合は、ユーザ名とパスワードの入力が必要です。"
 
 msgid "add client"
 msgstr "クライアントの追加"
@@ -18223,17 +18196,14 @@ msgid ""
 "communicating with a server that is not permanently connected to the Internet"
 msgstr "サーバホスト名の名前解決を、継続的に試みます。インターネットと常時接続されていないサーバとの通信時に便利です。"
 
-#, fuzzy
 msgid "User Authentication Settings"
-msgstr "ユーザ認証元"
+msgstr "ユーザ認証設定"
 
-#, fuzzy
 msgid "User name/pass"
-msgstr "ユーザ名"
+msgstr "ユーザ名 / パスワード"
 
-#, fuzzy
 msgid "Leave empty when no user name and password are needed."
-msgstr "ログインするにはユーザ名とパスワードを入力してください"
+msgstr "ユーザ名とパスワードの入力が不要の場合は、空白にしてください。"
 
 msgid "Cryptographic Settings"
 msgstr "暗号化設定"
@@ -18253,7 +18223,7 @@ msgstr "ここに自分の共有鍵を貼り付けてください"
 # File: src/www/vpn_openvpn_client.php, line: 752
 # File: src/www/vpn_openvpn_client.php.orig, line: 752
 msgid "(Username and Password required)"
-msgstr ""
+msgstr "( ユーザ名とパスワードは必須です )"
 
 msgid "No Certificates defined."
 msgstr "定義された証明書はありません。"
@@ -18261,7 +18231,7 @@ msgstr "定義された証明書はありません。"
 # File: src/www/vpn_openvpn_client.php, line: 756
 # File: src/www/vpn_openvpn_client.php.orig, line: 756
 msgid "if one is required for this connection."
-msgstr ""
+msgstr "( この接続に必要な場合 )"
 
 msgid "Shared Key"
 msgstr "共有鍵"
@@ -18269,15 +18239,14 @@ msgstr "共有鍵"
 msgid "Automatically generate a shared key"
 msgstr "自動的に共有鍵を生成"
 
-#, fuzzy
 msgid "Auth Digest Algorithm"
-msgstr "ダイジェストアルゴリズム"
+msgstr "認証ダイジェストアルゴリズム"
 
 # File: src/www/vpn_openvpn_client.php, line: 956
 msgid ""
 "NOTE: Leave this set to SHA1 unless the server is set to match. SHA1 is the "
 "default for OpenVPN."
-msgstr ""
+msgstr "注意: サーバを一致するよう設定する場合を除き、この設定は SHA1 にしてください。SHA1 は OpenVPN のデフォルトです。"
 
 msgid "Hardware Crypto"
 msgstr "ハードウェア暗号"
@@ -18353,6 +18322,8 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently."
 msgstr ""
+"LZO アルゴリズムを使用してトンネルパケットを圧縮します。アダプティブ圧縮は、パケットのデータが効果的に圧縮されていないことを OpenVPN "
+"が検出した場合に、その期間の圧縮を動的に無効にします。"
 
 msgid "Type-of-Service"
 msgstr "サービスタイプ (TOS)"
@@ -18362,28 +18333,26 @@ msgid ""
 "packet value"
 msgstr "カプセル化されたパケットの値と一致する、トンネルパケットの TOS IP ヘッダの値を設定してください。"
 
-#, fuzzy
 msgid "Disable IPv6"
-msgstr "無効"
+msgstr "IPv6 を無効"
 
 # File: src/www/vpn_openvpn_client.php, line: 1095
 # File: src/www/vpn_openvpn_server.php, line: 1577
 msgid "Don't forward IPv6 traffic"
-msgstr ""
+msgstr "IPv6 トラフィックを転送しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 1104
 msgid "Don't pull routes"
-msgstr ""
+msgstr "ルートをプルしない"
 
 # File: src/www/vpn_openvpn_client.php, line: 967
 msgid ""
 "Don't add or remove routes automatically. Instead pass routes to %s--route-"
 "up%s script using environmental variables"
-msgstr ""
+msgstr "ルートを自動的に追加もしくは削除しません。その代わり、環境変数を使用してルートを %s--route-up%s スクリプトに渡します"
 
-#, fuzzy
 msgid "Don't add/remove routes"
-msgstr "次へのルートを削除: "
+msgstr "ルートを追加 / 削除しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 1134
 msgid ""
@@ -18391,6 +18360,8 @@ msgid ""
 "routing table, however note that this option still allows the server to set "
 "the TCP/IP properties of the client's TUN/TAP interface"
 msgstr ""
+"このオプションは、サーバがクライアントのルーティングテーブルにルートを追加することを効果的に禁止します。ただし、このオプションは、サーバがクライアントの "
+"TUN/TAP インタフェースに TCP/IP プロパティを設定することは許可します。注意してください。"
 
 msgid "Advanced configuration"
 msgstr "詳細設定"
@@ -18403,9 +18374,8 @@ msgstr "OpenVPN クライアントに追加する、追加オプションを入�
 msgid "EXAMPLE:"
 msgstr "例: "
 
-#, fuzzy
 msgid "Verbosity level"
-msgstr "第 1 階層タグ"
+msgstr "詳細レベル"
 
 # File: src/www/vpn_openvpn_client.php, line: 1011
 # File: src/www/vpn_openvpn_server.php, line: 1680
@@ -18414,16 +18384,17 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
+"どのレベルも、前のレベルから全ての情報を表示します。出力で溢れさせることなしに、なにが起きたのかの良い概要が欲しいのであれば、推奨はレベル 3 です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
 msgid "%snone%s -- No output except fatal errors."
-msgstr ""
+msgstr "%sなし%s -- 致命的なエラー以外は出力しません。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1013
 # File: src/www/vpn_openvpn_server.php, line: 1682
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%sデフォルト%s-%s4%s -- 標準の使用範囲です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1014
 # File: src/www/vpn_openvpn_server.php, line: 1683
@@ -18432,11 +18403,13 @@ msgid ""
 "write, uppercase is used for TCP/UDP packets and lowercase is used for TUN/"
 "TAP packets."
 msgstr ""
+"%s5%s -- 読み込み及び書き込みパケット毎に、コンソールに R と W の文字を出力します。大文字は TCP/UDP パケットに使用され、小文字は "
+"TUN/TAP パケットに使用されます。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
 msgid "%s6%s-%s11%s -- Debug info range."
-msgstr ""
+msgstr "%s6%s-%s11%s -- デバッグ情報の範囲です。"
 
 msgid "delete client"
 msgstr "クライアントの削除"
@@ -18487,44 +18460,40 @@ msgstr "IPv4 ローカルネットワーク"
 msgid ""
 "These are the IPv4 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more CIDR ranges."
-msgstr ""
+msgstr "この特定のクライアントからアクセス可能になる IPv4 ネットワークです。1 つ以上の CIDR 範囲のカンマ区切りリストとして表記します。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 454
 # File: src/www/vpn_openvpn_csc.php, line: 464
 msgid ""
 "NOTE: You do not need to specify networks here if they have already been "
 "defined on the main server configuration."
-msgstr ""
+msgstr "注意: メインサーバの構成で既に定義されている場合は、ここでネットワークを指定する必要はありません。"
 
 msgid "IPv6 Local Network/s"
 msgstr "IPv6 ローカルネットワーク"
 
-#, fuzzy
 msgid ""
 "These are the IPv6 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more IP/PREFIX "
 "networks."
 msgstr ""
-"リモートエンドポイントからアクセス可能な IPv6 ネットワークです。1 つ以上の IP/PREFIX のカンマ区切りリストとして表記します。リモート機器"
-"に対して、このトンネルを経由したローカルネットワークへのルートを追加したくない場合は、空白にしてください。一般的には、自分の LAN "
-"ネットワークに対して設定します。"
+"この特定のクライアントからアクセス可能になる IPv6 ネットワークです。1 つ以上の IP/PREFIX "
+"ネットワークのカンマ区切りリストとして表記します。"
 
-#, fuzzy
 msgid ""
 "These are the IPv4 networks that will be routed to this client specifically "
 "using iroute, so that a site-to-site VPN can be established. Expressed as a "
 "comma-separated list of one or more CIDR ranges. You may leave this blank if "
 "there are no client-side networks to be routed"
 msgstr ""
-"トンネル経由でルーティングされる IPv4 ネットワークです。ルーティングテーブルを手動で変更せずに、サイト間 VPN 接続を確立させることができます。"
-"1 つ以上の CIDR 範囲のカンマ区切りリストとして表記します。サイト間 VPN の場合は、リモート LAN をここに入力してください。サイト間 "
-"VPN を使用しない場合は、空白にしてください。"
+"iroute を使用して、このクライアントに具体的にルーティングされる IPv4 ネットワークです。サイト間 VPN 接続を確立させることができます。1 "
+"つ以上の CIDR 範囲のカンマ区切りリストとして表記します。ルーティングするクライアント側のネットワークがない場合は、空白にしてください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 478
 msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
-msgstr ""
+msgstr "注意: 対応する OpenVPN サーバ設定の IPv4 リモートネットワークリストに、これらのサブネットを追加するのを忘れないでください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 439
 msgid ""
@@ -18533,12 +18502,15 @@ msgid ""
 "comma-separated list of one or more IP/PREFIX networks. You may leave this "
 "blank if there are no client-side networks to be routed."
 msgstr ""
+"iroute を使用して、このクライアントに具体的にルーティングされる IPv6 ネットワークです。サイト間 VPN 接続を確立させることができます。1 "
+"つ以上の IP/PREFIX "
+"ネットワークのカンマ区切りリストとして表記します。ルーティングするクライアント側のネットワークがない場合は、空白にしてください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 492
 msgid ""
 "NOTE: Remember to add these subnets to the IPv6 Remote Networks list on the "
 "corresponding OpenVPN server settings."
-msgstr ""
+msgstr "注意: 対応する OpenVPN サーバ設定の IPv6 リモートネットワークリストに、これらのサブネットを追加するのを忘れないでください。"
 
 msgid "Redirect Gateway"
 msgstr "リダイレクトゲートウェイ"
@@ -18551,7 +18523,7 @@ msgstr "サーバ定義"
 
 # File: src/www/vpn_openvpn_csc.php, line: 470
 msgid "Prevent this client from receiving any server-defined client settings."
-msgstr ""
+msgstr "このクライアントが、全てのサーバ定義のクライアント設定を受信することを防ぎます。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 491
 # File: src/www/vpn_openvpn_csc.php, line: 510
@@ -18560,7 +18532,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1551
 # File: src/www/vpn_openvpn_server.php, line: 1625
 msgid "Server #1:"
-msgstr ""
+msgstr "サーバ #1: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 493
 # File: src/www/vpn_openvpn_csc.php, line: 512
@@ -18569,17 +18541,17 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1555
 # File: src/www/vpn_openvpn_server.php, line: 1629
 msgid "Server #2:"
-msgstr ""
+msgstr "サーバ #2: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 495
 # File: src/www/vpn_openvpn_server.php, line: 1519
 msgid "Server #3:"
-msgstr ""
+msgstr "サーバ #3: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 497
 # File: src/www/vpn_openvpn_server.php, line: 1523
 msgid "Server #4:"
-msgstr ""
+msgstr "サーバ #4: "
 
 msgid "NTP Servers"
 msgstr "NTP サーバ"
@@ -18609,6 +18581,8 @@ msgid ""
 "to a WINS server), m-node (broadcast then query name server), and h-node ("
 "query name server, then broadcast)."
 msgstr ""
+"使用可能なオプション: b-node ( ブロードキャスト )、p-node ( WINS サーバへのポイントツーポイント名前照会 )、m-node ("
+"ブロードキャストしてからネームサーバ照会 )、h-node ( ネームサーバ照会してからブロードキャスト )。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 555
 msgid ""
@@ -18616,6 +18590,8 @@ msgid ""
 "TCP/IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"NetBIOS スコープ ID は\t NetBIOS over TCP/IP に対する拡張名前サービスを提供します。\tNetBIOS スコープ ID "
+"は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
 msgid ""
 "Enter any additional options you would like to add for this client specific "
@@ -18634,111 +18610,111 @@ msgstr "OpenVPN クライアント固有の上書きは、ここで追加でき�
 # File: src/www/vpn_openvpn_export.php, line: 139
 # File: src/www/vpn_openvpn_export_shared.php, line: 79
 msgid "You need to specify an IP or hostname."
-msgstr ""
+msgstr "IP もしくはホスト名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 149
 msgid ""
 "You cannot use Microsoft Certificate Storage with an Inline configuration."
-msgstr ""
+msgstr "Microsoft 証明書ストレージは、インライン構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 152
 msgid ""
 "You cannot use Microsoft Certificate Storage with a Yealink or SNOM "
 "configuration."
-msgstr ""
+msgstr "Microsoft 証明書ストレージは、Yealink もしくは SNOM 構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 163
 # File: src/www/vpn_openvpn_export_shared.php, line: 88
 msgid "You need to specify an address for the proxy port."
-msgstr ""
+msgstr "プロキシポートにアドレスを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 168
 # File: src/www/vpn_openvpn_export_shared.php, line: 93
 msgid "You need to specify a port for the proxy ip."
-msgstr ""
+msgstr "プロキシ IP にポートを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 179
 # File: src/www/vpn_openvpn_export_shared.php, line: 101
 msgid "You need to specify a username with the proxy config."
-msgstr ""
+msgstr "プロキシ構成でユーザ名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 184
 # File: src/www/vpn_openvpn_export_shared.php, line: 106
 msgid "You need to specify a password with the proxy user."
-msgstr ""
+msgstr "プロキシユーザにパスワードを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 246
 # File: src/www/vpn_openvpn_export_shared.php, line: 119
 msgid "Failed to export config files!"
-msgstr ""
+msgstr "構成ファイルのエクスポートに失敗しました！"
 
 # File: src/www/vpn_openvpn_export.php, line: 338
 # File: src/www/vpn_openvpn_export_shared.php, line: 177
 msgid "Please specify an IP address or hostname."
-msgstr ""
+msgstr "IP アドレスもしくはホスト名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 367
 msgid "The password or confirm field is empty"
-msgstr ""
+msgstr "パスワードもしくは確認フィールドが未入力です"
 
 # File: src/www/vpn_openvpn_export.php, line: 371
 msgid "The password and confirm fields must match"
-msgstr ""
+msgstr "パスワードと確認フィールドは一致する必要があります"
 
 # File: src/www/vpn_openvpn_export.php, line: 385
 # File: src/www/vpn_openvpn_export_shared.php, line: 193
 msgid "The proxy ip and port cannot be empty"
-msgstr ""
+msgstr "プロキシ IP とポートは指定が必要です"
 
 # File: src/www/vpn_openvpn_export.php, line: 400
 # File: src/www/vpn_openvpn_export_shared.php, line: 208
 msgid "Please fill the proxy username and password."
-msgstr ""
+msgstr "プロキシユーザ名とパスワードを入力してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 404
 # File: src/www/vpn_openvpn_export_shared.php, line: 212
 msgid "The proxy password or confirm field is empty"
-msgstr ""
+msgstr "プロキシパスワードもしくは確認フィールドが未入力です"
 
 # File: src/www/vpn_openvpn_export.php, line: 408
 # File: src/www/vpn_openvpn_export_shared.php, line: 216
 msgid "The proxy password and confirm fields must match"
-msgstr ""
+msgstr "プロキシパスワードと確認フィールドは一致する必要があります"
 
 # File: src/www/vpn_openvpn_export.php, line: 638
 # File: src/www/vpn_openvpn_export.php.orig, line: 638
 msgid "Remote Access Server"
-msgstr ""
+msgstr "リモートアクセスサーバ"
 
 # File: src/www/vpn_openvpn_export.php, line: 650
 # File: src/www/vpn_openvpn_export.php.orig, line: 650
 # File: src/www/vpn_openvpn_export_shared.php, line: 329
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 329
 msgid "Host Name Resolution"
-msgstr ""
+msgstr "ホスト名解決"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
 # File: src/www/vpn_openvpn_export_shared.php, line: 332
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 332
 msgid "Interface IP Address"
-msgstr ""
+msgstr "インタフェース IP アドレス"
 
 # File: src/www/vpn_openvpn_export.php, line: 654
 # File: src/www/vpn_openvpn_export.php.orig, line: 654
 msgid "Automagic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "Automagic マルチ WAN IP ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
-msgstr ""
+msgstr "Automagic マルチ WAN ダイナミック DNS ホスト名 ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 # File: src/www/vpn_openvpn_export.php.orig, line: 656
 # File: src/www/vpn_openvpn_export_shared.php, line: 333
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 333
 msgid "Installation hostname"
-msgstr ""
+msgstr "インストールホスト名"
 
 # File: src/www/vpn_openvpn_export.php, line: 679
 # File: src/www/vpn_openvpn_export.php.orig, line: 679
@@ -18747,32 +18723,32 @@ msgstr ""
 msgid ""
 "Enter the hostname or IP address the client will use to connect to this "
 "server."
-msgstr ""
+msgstr "クライアントがこのサーバに接続するのに使用する、ホスト名もしくは IP アドレスを入力してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 686
 # File: src/www/vpn_openvpn_export.php.orig, line: 686
 msgid "Verify Server CN"
-msgstr ""
+msgstr "サーバ CN を検証"
 
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
 msgid "Automatic - Use verify-x509-name (OpenVPN 2.3+) where possible"
-msgstr ""
+msgstr "自動 - 可能であれば verify-x509-name ( OpenVPN 2.3 以降 ) を使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 690
 # File: src/www/vpn_openvpn_export.php.orig, line: 690
 msgid "Use tls-remote (Deprecated, use only on old clients &lt;= OpenVPN 2.2.x"
-msgstr ""
+msgstr "tls-remote を使用 ( 廃止済、OpenVPN 2.2.x 以前の古いクライアントでのみ使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 691
 # File: src/www/vpn_openvpn_export.php.orig, line: 691
 msgid "Use tls-remote and quote the server CN"
-msgstr ""
+msgstr "tls-remote を使用してサーバ CN を引用符で囲む"
 
 # File: src/www/vpn_openvpn_export.php, line: 692
 # File: src/www/vpn_openvpn_export.php.orig, line: 692
 msgid "Do not verify the server CN"
-msgstr ""
+msgstr "サーバ CN を検証しない"
 
 # File: src/www/vpn_openvpn_export.php, line: 695
 # File: src/www/vpn_openvpn_export.php.orig, line: 695
@@ -18782,6 +18758,9 @@ msgid ""
 "Viscosity, Tunnelblick, OpenVPN on iOS and Android and so on should all work "
 "at the default automatic setting."
 msgstr ""
+"オプションで、クライアントの接続時にサーバ証明書のコモンネーム ( CN ) を検証します。Windows "
+"の最新バージョン、Viscosity、Tunnelblick、iOS 及び Android の OpenVPN "
+"等を含む、現在のクライアントは全てデフォルトの自動設定で動作すべきです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 696
 # File: src/www/vpn_openvpn_export.php.orig, line: 696
@@ -18790,6 +18769,8 @@ msgid ""
 "The option has been deprecated by OpenVPN and will be removed in the next "
 "major version."
 msgstr ""
+"tls-remote は、あなたが管理できない古いクライアントを使用しなければいけない場合にのみ使用します。このオプションは OpenVPN "
+"では廃止されており、次のメジャーバージョンで削除される予定です。"
 
 # File: src/www/vpn_openvpn_export.php, line: 697
 # File: src/www/vpn_openvpn_export.php.orig, line: 697
@@ -18799,11 +18780,13 @@ msgid ""
 "server CN. Some clients have problems parsing the CN with quotes. Use only "
 "as needed."
 msgstr ""
+"tls-remote では、サーバ CN はオプションで引用符で囲むことができます。これはサーバ CN に空白が含まれていて、特定のクライアントがサーバ "
+"CN を解析できない場合に有効です。一部のクライアントは引用符のある CN の解析がうまくいきません。必要な場合のみ使用してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 702
 # File: src/www/vpn_openvpn_export.php.orig, line: 702
 msgid "Use Random Local Port"
-msgstr ""
+msgstr "ランダムローカルポートを使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 706
 # File: src/www/vpn_openvpn_export.php.orig, line: 706
@@ -18811,65 +18794,66 @@ msgid ""
 "Use a random local source port (lport) for traffic from the client. Without "
 "this set, two clients may not run concurrently."
 msgstr ""
+"クライアントからのトラフィックに対してランダムローカル送信元ポート ( lport ) を使用します。この設定を使用しないと、2 "
+"つのクライアントが同時に動作できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 708
 # File: src/www/vpn_openvpn_export.php.orig, line: 708
 msgid ""
 "NOTE: Not supported on older clients. Automatically disabled for Yealink and "
 "Snom configurations."
-msgstr ""
+msgstr "注意: 古いクライアントは対応していません。Yealink 及び一部の構成では自動的に無効になります。"
 
 # File: src/www/vpn_openvpn_export.php, line: 712
 # File: src/www/vpn_openvpn_export.php.orig, line: 712
 msgid "Certificate Export Options"
-msgstr ""
+msgstr "証明書エクスポートオプション"
 
 # File: src/www/vpn_openvpn_export.php, line: 716
 # File: src/www/vpn_openvpn_export.php.orig, line: 716
 msgid "Use Microsoft Certificate Storage instead of local files."
-msgstr ""
+msgstr "ローカルファイルの代わりに、Microsoft 証明書ストレージを使用。"
 
 # File: src/www/vpn_openvpn_export.php, line: 720
 # File: src/www/vpn_openvpn_export.php.orig, line: 720
 msgid ""
 "Use a password to protect the pkcs12 file contents or key in Viscosity "
 "bundle."
-msgstr ""
+msgstr "pkcs12 ファイルの内容もしくは Viscosity バンドルの鍵の保護にパスワードを使用。"
 
-#, fuzzy
 msgid "Confirm"
-msgstr "確認: "
+msgstr "確認"
 
 # File: src/www/vpn_openvpn_export.php, line: 731
 # File: src/www/vpn_openvpn_export.php.orig, line: 731
 # File: src/www/vpn_openvpn_export_shared.php, line: 352
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 352
 msgid "Use Proxy"
-msgstr ""
+msgstr "プロキシを使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 735
 # File: src/www/vpn_openvpn_export.php.orig, line: 735
 # File: src/www/vpn_openvpn_export_shared.php, line: 383
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 383
 msgid "Use proxy to communicate with the server."
-msgstr ""
+msgstr "サーバとの通信にプロキシを使用。"
 
 # File: src/www/vpn_openvpn_export.php, line: 733
 # File: src/www/vpn_openvpn_export_shared.php, line: 356
 msgid "SOCKS"
-msgstr ""
+msgstr "SOCKS"
 
 # File: src/www/vpn_openvpn_export.php, line: 748
 # File: src/www/vpn_openvpn_export.php.orig, line: 748
 # File: src/www/vpn_openvpn_export_shared.php, line: 367
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 367
 msgid "Choose proxy authentication if any."
-msgstr ""
+msgstr "もしあれば、プロキシ認証を選択してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 767
 # File: src/www/vpn_openvpn_export.php.orig, line: 767
 msgid "Management Interface OpenVPNManager"
-msgstr ""
+msgstr "OpenVPNManager 管理インタフェース"
 
 # File: src/www/vpn_openvpn_export.php, line: 771
 # File: src/www/vpn_openvpn_export.php.orig, line: 771
@@ -18880,6 +18864,9 @@ msgid ""
 "users.This is also useful for Windows Vista/7/8 systems where elevated "
 "permissions are needed to add routes to the system."
 msgstr ""
+"この設定は、生成した .ovpn 構成を、管理インタフェースの使用を許可するよう変更します。そして、OpenVPNManager プログラムを「"
+"Windows インストーラ」に含めます。これを使うと管理者ではないユーザでも OpenVPN が使用できるようになります。"
+"システムにルートを追加するのに権限の昇格が必要な Windows Vista/7/8 システムでも有用です。"
 
 # File: src/www/vpn_openvpn_export.php, line: 775
 # File: src/www/vpn_openvpn_export.php.orig, line: 775
@@ -18887,32 +18874,31 @@ msgid ""
 "NOTE: This is not currently compatible with the 64-bit OpenVPN installer. It "
 "will work with the 32-bit installer on a 64-bit system."
 msgstr ""
+"注意: これは、現在 64 ビット OpenVPN インストーラと互換性がありません。64 ビットシステムで 32 "
+"ビットインストーラを使用すれば動作します。"
 
 # File: src/www/vpn_openvpn_export.php, line: 783
 # File: src/www/vpn_openvpn_export.php.orig, line: 783
 msgid "Additional configuration options"
-msgstr ""
+msgstr "追加構成オプション"
 
-#, fuzzy
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "export configuration here, separated by a line break or semicolon"
-msgstr "OpenVPN クライアントに追加する、追加オプションを入力してください。セミコロン区切りです。"
+msgstr "OpenVPN クライアントエクスポート構成に追加する、追加オプションを入力してください。改行もしくはセミコロン区切りです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 927
 msgid "EXAMPLE: remote-random"
-msgstr ""
+msgstr "例: remote-random"
 
 # File: src/www/vpn_openvpn_export.php, line: 793
 # File: src/www/vpn_openvpn_export.php.orig, line: 793
 msgid "Client Install Packages"
-msgstr ""
+msgstr "クライアントインストールパッケージ"
 
-#, fuzzy
 msgid "Export"
-msgstr "CRL のエクスポート"
+msgstr "エクスポート"
 
-#, fuzzy
 msgid "NOTES:"
 msgstr "注意: "
 
@@ -18922,68 +18908,66 @@ msgid ""
 "The &quot;win6&quot; Windows installers include a new tap-windows6 driver "
 "that works only on Windows Vista and later."
 msgstr ""
+"&quot;XP&quot; Windows インストーラは、Windows XP 以降で動作します。&quot;win6&quot; Windows "
+"インストーラは、Windows Vista 以降でのみ動作する、新 tap-windows6 ドライバが含まれます。"
 
 # File: src/www/vpn_openvpn_export.php, line: 951
 msgid "Links to OpenVPN clients for various platforms:"
-msgstr ""
+msgstr "様々なプラットフォームに対する OpenVPN クライアントへのリンク: "
 
 # File: src/www/vpn_openvpn_export.php, line: 956
 msgid ""
 "Binaries for Windows, Source for other platforms. Packaged above in the "
 "Windows Installers"
-msgstr ""
+msgstr "Windows 用はバイナリ、その他のプラットフォーム用はソースです。上の Windows インストーラでパッケージ化されています。"
 
-#, fuzzy
 msgid "OpenVPN Community Client"
-msgstr "コミュニティ文字列の読込み"
+msgstr "OpenVPN コミュニティクライアント"
 
-#, fuzzy
 msgid "OpenVPN For Android"
-msgstr "OpenVPN %s ウィザード"
+msgstr "OpenVPN For Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 957
 msgid "Recommended client for Android"
-msgstr ""
+msgstr "Android の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 958
 msgid "FEAT VPN For Android"
-msgstr ""
+msgstr "FEAT VPN For Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 958
 msgid "For older versions of Android"
-msgstr ""
+msgstr "Android の古いバージョン向け"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "Android (Google Play)"
-msgstr ""
+msgstr "Android (Google Play)"
 
-#, fuzzy
 msgid "OpenVPN Connect"
-msgstr "OpenVPN サポート"
+msgstr "OpenVPN 接続"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "Recommended client for iOS"
-msgstr ""
+msgstr "iOS の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "iOS (App Store)"
-msgstr ""
+msgstr "iOS (App Store)"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Recommended client for Mac OSX"
-msgstr ""
+msgstr "Mac OSX の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Viscosity"
-msgstr ""
+msgstr "Viscosity"
 
 # File: src/www/vpn_openvpn_export.php, line: 961
 msgid "Free client for OSX"
-msgstr ""
+msgstr "OSX 用の無料クライアント"
 
-#, fuzzy
 msgid "Tunnelblick"
-msgstr "トンネル"
+msgstr "Tunnelblick"
 
 # File: src/www/vpn_openvpn_export.php, line: 948
 msgid ""
@@ -18991,31 +18975,32 @@ msgid ""
 "usually due to a CA mismatch between the OpenVPN server instance and the "
 "client certificates found in the User Manager."
 msgstr ""
+"リストで特定のクライアントを探しているのに見つからなかった場合、通常は OpenVPN サーバインスタンスとユーザマネジャにあるユーザ証明書とで CA "
+"が一致しないことが原因です。"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 317
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 317
 msgid "Shared Key Server"
-msgstr ""
+msgstr "共有鍵サーバ"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 340
 msgid "Dynamic DNS:"
-msgstr ""
+msgstr "ダイナミック DNS: "
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 388
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 388
 msgid "Client Configuration Packages"
-msgstr ""
+msgstr "クライアント構成パッケージ"
 
-#, fuzzy
 msgid "Client Type"
-msgstr "クライアント"
+msgstr "クライアントタイプ"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 481
 msgid ""
 "These are shared key configurations for use in site-to-site tunnels with "
 "other routers. Shared key tunnels are not normally used for remote access "
 "connections to end users."
-msgstr ""
+msgstr "他のルータとのサイト間トンネルで使用する共有鍵の構成です。通常、共有鍵トンネルはエンドユーザとのリモートアクセス通信用途には使用されません。"
 
 msgid ""
 "You must select a Backend for Authentication if the server mode requires "
@@ -19072,7 +19057,7 @@ msgstr "ピアの証明書失効リスト"
 # File: src/www/vpn_openvpn_server.php, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 msgid "No Certificate Revocation Lists (CRLs) defined."
-msgstr ""
+msgstr "証明書失効リスト ( CRL ) が定義されていません。"
 
 msgid "DH Parameters Length"
 msgstr "DH パラメータ長"
@@ -19082,33 +19067,34 @@ msgid ""
 "NOTE: Leave this set to SHA1 unless all clients are set to match. SHA1 is "
 "the default for OpenVPN."
 msgstr ""
+"注意: 全てのクライアントを一致するよう設定する場合を除き、この設定は SHA1 にしてください。SHA1 は OpenVPN のデフォルトです。"
 
 msgid "Certificate Depth"
 msgstr "証明書の深さ"
 
 # File: src/www/vpn_openvpn_server.php, line: 1160
 msgid "Do Not Check"
-msgstr ""
+msgstr "確認しない"
 
 # File: src/www/vpn_openvpn_server.php, line: 1163
 msgid "One (Client+Server)"
-msgstr ""
+msgstr "1 ( クライアント + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1164
 msgid "Two (Client+Intermediate+Server)"
-msgstr ""
+msgstr "2 ( クライアント + 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1165
 msgid "Three (Client+2xIntermediate+Server)"
-msgstr ""
+msgstr "3 ( クライアント + 2 x 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1166
 msgid "Four (Client+3xIntermediate+Server)"
-msgstr ""
+msgstr "4 ( クライアント + 3 x 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1167
 msgid "Five (Client+4xIntermediate+Server)"
-msgstr ""
+msgstr "5 ( クライアント + 4 x 中間 + サーバ )"
 
 msgid ""
 "When a certificate-based client logs in, do not accept certificates below "
@@ -19134,6 +19120,9 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"このサーバとクライアントホスト間のプライベート通信に使用される IPv4 仮想ネットワークで CIDR ( 例: 10.0.8.0/24 ) を使用して表"
+"記します。最初のネットワークアドレスはサーバ仮想インタフェースに割り当てられます。残りのネットワークアドレスは、オプションで、クライアントの接続に割り当て"
+"ることができます。( アドレスプールを参照 )"
 
 msgid ""
 "This is the IPv6 virtual network used for private communications between "
@@ -19239,6 +19228,8 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently"
 msgstr ""
+"LZO アルゴリズムを使用してトンネルパケットを圧縮します。アダプティブ圧縮は、パケットのデータが効果的に圧縮されていないことを OpenVPN "
+"が検出した場合に、その期間の圧縮を動的に無効にします"
 
 msgid "Inter-client communication"
 msgstr "クライアント間通信"
@@ -19249,13 +19240,12 @@ msgstr "このサーバに接続しているクライアント間の通信を許
 msgid "Duplicate Connections"
 msgstr "重複接続"
 
-#, fuzzy
 msgid ""
 "Allow multiple concurrent connections from clients using the same Common "
 "Name.<br />NOTE: This is not generally recommended, but may be needed for "
 "some scenarios."
 msgstr ""
-"同じコモンネームを使用しているクライアントからの複数の同時接続を許可します。<br/>注意: "
+"同じコモンネームを使用しているクライアントからの複数の同時接続を許可します。<br />注意: "
 "一般的には推奨されません。しかし、一部のケースで必要になる場合があります。"
 
 msgid "Dynamic IP"
@@ -19297,7 +19287,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_server.php, line: 1733
 msgid "Force DNS cache update"
-msgstr ""
+msgstr "DNS キャッシュ更新を強制"
 
 # File: src/www/vpn_openvpn_server.php, line: 1743
 msgid ""
@@ -19305,6 +19295,9 @@ msgid ""
 "and ''ipconfig /registerdns'' on connection initiation. This is known to "
 "kick Windows into recognizing pushed DNS servers."
 msgstr ""
+"接続開始時に ''net stop dnscache''、''net start dnscache''、''ipconfig "
+"/flushdns''、及び、''ipconfig /registerdns'' を実行します。これは Windows に通知された DNS サーバ "
+"を認識させる手法として知られています。"
 
 msgid "Scope ID"
 msgstr "スコープ ID"
@@ -19315,10 +19308,11 @@ msgid ""
 "TCP/IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供します。NetBIOS スコープ ID "
+"は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
-#, fuzzy
 msgid "Client Management Port"
-msgstr "証明書管理"
+msgstr "クライアント管理ポート"
 
 # File: src/www/vpn_openvpn_server.php, line: 1898
 msgid ""
@@ -19326,6 +19320,8 @@ msgid ""
 "a different port if the client machines need to select from multiple OpenVPN "
 "links."
 msgstr ""
+"クライアントで異なる管理ポートを使用します。デフォルトポートは 166 です。クライアントマシンが、複数の OpenVPN "
+"リンクから選択する必要がある場合に異なるポートを指定します。"
 
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN server "
@@ -19344,7 +19340,7 @@ msgstr "サーバを削除"
 # File: src/www/vpn_openvpn_server.php, line: 1749
 # File: src/www/vpn_openvpn_server.php.orig, line: 1749
 msgid "Use a wizard to setup a new server"
-msgstr ""
+msgstr "新規サーバの設定にウィザードを使用"
 
 msgid "add a new pppoe instance"
 msgstr "新規 PPPoE インスタンスを追加"
@@ -19502,10 +19498,12 @@ msgid ""
 "your traffic can be decrypted by virtually any third party. It should be "
 "considered an unencrypted tunneling protocol."
 msgstr ""
+"PPTP は、侵害された MS-CHAPv2 プロトコルを信頼しているため、セキュアな VPN テクノロジとはみなされていません。PPTP "
+"の使用を選択する場合は、事実上どの第三者にもトラフィックを解読されうるということに注意してください。非暗号化トンネルプロトコルだと考えてください。"
 
 # File: src/www/vpn_pptp.php, line: 318
 msgid "Read more"
-msgstr ""
+msgstr "続きを読む"
 
 msgid "Redirect incoming PPTP connections to"
 msgstr "次に対する着信 PPTP 接続をリダイレクト"
@@ -19585,7 +19583,7 @@ msgstr ""
 msgid ""
 "Note: don't forget to %sadd a firewall rule%s to permit traffic from PPTP "
 "clients!"
-msgstr ""
+msgstr "注意: PPTP クライアントからのトラフィックを許可する%sファイアウォールのルールを追加%sすることを忘れないでください！"
 
 msgid "The PPTP user list has been modified"
 msgstr "PPTP ユーザリストが変更されました"
@@ -19601,15 +19599,15 @@ msgstr "ユーザのパスワードを変更する場合は、ここに 2 回入
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 64
 msgid "DISABLED"
-msgstr ""
+msgstr "無効"
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 84
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
-msgstr ""
+msgstr "CARP インタフェースが定義されていません。%sここ%sをクリックして CARP を構成してください。"
 
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 68
 msgid "N/A "
-msgstr ""
+msgstr "N/A "
 
 msgid "Int."
 msgstr "Int."
@@ -19621,31 +19619,25 @@ msgstr "確認しています..."
 # File: src/www/widgets/widgets/interface_statistics.widget.php, line: 65
 # File: src/www/widgets/widgets/interface_statistics.widget.php, line: 70
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
-#, fuzzy
 msgid "Packets In"
-msgstr "パケット"
+msgstr "入力パケット"
 
-#, fuzzy
 msgid "Packets Out"
-msgstr "パケット"
+msgstr "出力パケット"
 
-#, fuzzy
 msgid "Bytes In"
-msgstr "送信バイト"
+msgstr "入力バイト"
 
-#, fuzzy
 msgid "Bytes Out"
-msgstr "送信バイト"
+msgstr "出力バイト"
 
-#, fuzzy
 msgid "Errors In"
-msgstr "エラー"
+msgstr "入力エラー"
 
-#, fuzzy
 msgid "Errors Out"
-msgstr "エラー"
+msgstr "出力エラー"
 
 msgid "Tunnels"
 msgstr "トンネル"
@@ -19653,41 +19645,38 @@ msgstr "トンネル"
 msgid "Mobile"
 msgstr "モバイル"
 
-#, fuzzy
 msgid "Active Tunnels"
-msgstr "アクティブユーザ"
+msgstr "アクティブトンネル"
 
-#, fuzzy
 msgid "Inactive Tunnels"
-msgstr "トンネル"
+msgstr "非アクティブトンネル"
 
-#, fuzzy
 msgid "Mobile Users"
 msgstr "モバイルユーザ"
 
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 245
 msgid "Note: There are no configured IPsec Tunnels"
-msgstr ""
+msgstr "注意: IPsec トンネルは構成されていません"
 
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 248
 msgid "You can configure your IPsec %shere%s."
-msgstr ""
+msgstr "IPsec は%sここで%s構成できます。"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 79
 msgid "Active"
-msgstr ""
+msgstr "アクティブ"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 87
 msgid "Unknown - relayd not running?"
-msgstr ""
+msgstr "不明 - relayd は動作していますか？"
 
 # File: src/www/widgets/widgets/log.widget.php, line: 153
 msgid "Number of lines to display:"
-msgstr ""
+msgstr "表示する行数: "
 
 # File: src/www/widgets/widgets/log.widget.php, line: 190
 msgid "Interfaces:"
-msgstr ""
+msgstr "インタフェース: "
 
 msgid "IF"
 msgstr "IF"
@@ -19697,51 +19686,53 @@ msgstr "DNS で逆引き"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 135
 msgid "No active peers available"
-msgstr ""
+msgstr "利用可能なアクティブピアがありません"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 147
 msgid "Clock location"
-msgstr ""
+msgstr "時計の位置"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 165
 msgid "in view "
-msgstr ""
+msgstr "表示中 "
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 171
 msgid "in use "
-msgstr ""
+msgstr "使用中 "
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 192
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 245
 msgid "Name/Time"
-msgstr ""
+msgstr "名前 / 時間"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 193
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 246
 msgid "Remote/Virtual IP"
-msgstr ""
+msgstr "リモート / 仮想 IP"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 289
 msgid ""
 "You need to bind each OpenVPN client to enable its management daemon: use "
 "'Local port' setting in the OpenVPN client screen"
 msgstr ""
+"管理デーモンを有効にするために、全ての OpenVPN クライアントをバインドする必要があります: OpenVPN "
+"クライアント画面の「ローカルポート」設定を使用してください"
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 97
 msgid "Display number of items:"
-msgstr ""
+msgstr "項目数を表示: "
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 112
 msgid "Widget height:"
-msgstr ""
+msgstr "ウィジェットの高さ: "
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 127
 msgid "Show how many characters from story:"
-msgstr ""
+msgstr "ストーリーから表示する文字数: "
 
 # File: src/www/widgets/widgets/services_status.widget.php, line: 52
 msgid "Comma separated list of services to NOT display in the widget"
-msgstr ""
+msgstr "ウィジェットで表示「しない」サービスのカンマ区切りリスト"
 
 msgid "Drive"
 msgstr "ドライブ"
@@ -19751,45 +19742,37 @@ msgstr "ID"
 
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 58
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#, fuzzy
 msgid "Click to retry"
-msgstr "クリック: "
+msgstr "クリックで再試行"
 
-#, fuzzy
 msgid "Connection Error"
-msgstr "接続タイムアウト"
+msgstr "接続エラー"
 
-#, fuzzy
 msgid "Repository Problem"
-msgstr "リポジトリ URL"
+msgstr "リポジトリの問題"
 
-#, fuzzy
 msgid "Click to check for updates"
-msgstr "更新を確認できません"
+msgstr "クリックで更新確認"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 49
 msgid "Your system is up to date."
-msgstr ""
+msgstr "システムは最新です。"
 
-#, fuzzy
 msgid " update(s) available."
-msgstr "使用できません"
+msgstr "更新が利用可能です。"
 
-#, fuzzy
 msgid "Click to upgrade"
-msgstr "クリック: "
+msgstr "クリックでアップグレード"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 50
 msgid "Re-check now"
-msgstr ""
+msgstr "今すぐ再確認"
 
-#, fuzzy
 msgid "There are "
-msgstr "復元領域: "
+msgstr "次が存在します: "
 
-#, fuzzy
 msgid "Versions"
 msgstr "バージョン"
 
@@ -19831,7 +19814,7 @@ msgstr "CPU 使用率"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 233
 msgid "Updating in 10 seconds"
-msgstr ""
+msgstr "10 秒で更新"
 
 msgid "Memory usage"
 msgstr "メモリ使用量"
@@ -19844,47 +19827,47 @@ msgstr "ディスク使用状況"
 
 # File: src/www/widgets/widgets/system_log.widget.php, line: 58
 msgid "Number of Log lines to display"
-msgstr ""
+msgstr "表示するログの行数"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 181
 msgid "Thresholds in &deg;C (1 to 100):"
-msgstr ""
+msgstr "&deg;C の閾値 ( 1 - 100 ): "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 184
 msgid "Display settings:"
-msgstr ""
+msgstr "表示設定: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 189
 msgid "Zone Warning:"
-msgstr ""
+msgstr "ゾーン警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 198
 msgid "Show raw output (no graph):"
-msgstr ""
+msgstr "生の出力を表示 ( グラフを使用しない ): "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 208
 msgid "Zone Critical:"
-msgstr ""
+msgstr "ゾーン重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 217
 msgid "Show full sensor name:"
-msgstr ""
+msgstr "完全なセンサ名を表示: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 227
 msgid "Core Warning:"
-msgstr ""
+msgstr "コア警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 236
 msgid "Pulsate Warning:"
-msgstr ""
+msgstr "パルス警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 246
 msgid "Core Critical:"
-msgstr ""
+msgstr "コア重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 255
 msgid "Pulsate Critical:"
-msgstr ""
+msgstr "パルス重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 270
 msgid ""
@@ -19892,38 +19875,40 @@ msgid ""
 "    &nbsp;&nbsp;&nbsp;<a href=\"system_advanced_misc.php\">System &gt; "
 "Advanced &gt; Miscellaneous : Thermal Sensors section</a>."
 msgstr ""
+"<a href=\"system_advanced_misc.php\">システム &gt; 詳細設定 &gt; その他 : "
+"サーマルセンサセクション</a><br />\n"
+"    &nbsp;&nbsp;&nbsp;で、サーマルセンサ / モジュールを適切に構成可能です。"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 280
 msgid "Updating..."
-msgstr ""
+msgstr "更新しています..."
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 114
 msgid "Default AutoScale:"
-msgstr ""
+msgstr "デフォルト自動スケール: "
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 133
 msgid "Scale up"
-msgstr ""
+msgstr "拡大"
 
-#, fuzzy
 msgid "Scale follow"
-msgstr "追従"
+msgstr "スケールを合わせる"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 139
 msgid "Refresh Interval:"
-msgstr ""
+msgstr "更新間隔: "
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 148
 msgid "Seconds"
-msgstr ""
+msgstr "秒"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 148
 msgid "changing this setting will increase CPU utilization"
-msgstr ""
+msgstr "この設定の変更は、CPU 稼働率を増加させます"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 190
 msgid "Current %s Traffic"
-msgstr ""
+msgstr "現在の %s トラフィック"
 
 msgid "Computer / Device"
 msgstr "コンピュータ / デバイス"
@@ -19936,8 +19921,8 @@ msgstr "WOL アドレスは保存されていません"
 
 # File: src/www/widgets/widgets/wake_on_lan.widget.php, line: 80
 msgid "DHCP Leases Status"
-msgstr ""
+msgstr "DHCP リースステータス"
 
 # File: src/www/wizard.php, line: 126
 msgid "ERROR: Could not parse %s wizard file."
-msgstr ""
+msgstr "エラー: %s ウィザードファイルを解析できません。"
