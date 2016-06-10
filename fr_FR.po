@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-15 19:43+0000\n"
+"POT-Creation-Date: 2016-06-10 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7522,7 +7522,7 @@ msgstr ""
 
 # File: src/www/status_rrd_graph_settings.php, line: 135
 msgid "Enables the RRD graphing backend."
-msgstr ""
+msgstr "Activer la création en arrière plan des graphiques RRD."
 
 # File: src/www/status_rrd_graph_settings.php, line: 188
 msgid "Reset RRD Data"
@@ -8449,26 +8449,32 @@ msgstr "Retour"
 
 # File: src/www/diag_sockets.php, line: 41
 msgid "Show all socket connections"
-msgstr ""
+msgstr "Afficher toutes les connexions socket"
 
 # File: src/www/diag_sockets.php, line: 41
 msgid "Show only listening sockets"
-msgstr ""
+msgstr "Afficher uniquement les sockets d'écoute"
 
 # File: src/www/diag_sockets.php, line: 52
 msgid "Information about listening sockets for both %sIPv4%s and %sIPv6%s."
 msgstr ""
+"Information sur les sockets d'écoute pour l'ensemble des %sIPv4%s et "
+"%sIPv6%s."
 
 # File: src/www/diag_sockets.php, line: 53
 msgid ""
 "For explanation about the meaning of the information listed for each socket "
 "click %shere%s."
 msgstr ""
+"Pour plus d'explications sur la signification des informations énumérées "
+"pour chaque socket cliquez %sici%s."
 
 # File: src/www/diag_sockets.php, line: 54
 msgid ""
 "To show information about both listening and connected sockets click this."
 msgstr ""
+"Pour afficher des informations sur les sockets en écoute et ceux connectés "
+"cliquez dessus."
 
 # File: src/www/diag_sockets.php, line: 123
 msgid ""
@@ -8487,7 +8493,7 @@ msgstr ""
 
 # File: src/www/diag_sockets.php, line: 131
 msgid "The process ID of the command which holds the socket."
-msgstr ""
+msgstr "L'ID de processus de la commande qui maintient le socket."
 
 # File: src/www/diag_sockets.php, line: 132
 msgid "The file descriptor number of the socket."
@@ -8498,6 +8504,8 @@ msgid ""
 "The transport protocol associated with the socket for Internet sockets, or "
 "the type of socket (stream or data-gram) for UNIX sockets."
 msgstr ""
+"Le protocole de transport associé au socket pour les sockets Internet, ou le "
+"type de socket (flux ou datagramme) pour les sockets UNIX."
 
 # File: src/www/diag_sockets.php, line: 134
 msgid ""
@@ -8671,6 +8679,11 @@ msgid ""
 "function for UDP since there is no way to reliably determine if a UDP port "
 "accepts connections in this manner."
 msgstr ""
+"Cette page vous permet d'effectuer un simple test de connexion TCP pour "
+"déterminer si un hôte est démarré et qu'il accepte les connexions sur un "
+"port spécifique. Ce test ne fonctionne pas pour UDP car il n'y a aucun moyen "
+"de déterminer de façon fiable si un port UDP accepte les connexions de cette "
+"manière."
 
 # File: src/www/diag_testport.php, line: 94
 msgid ""
@@ -8678,6 +8691,9 @@ msgid ""
 "attempt to open a connection and optionally display the data sent back from "
 "the server."
 msgstr ""
+"Aucune données ne sont transmises à l'hôte distant lors de ce test, il ne "
+"fera que tenter d'ouvrir une connexion et afficher éventuellement les "
+"données renvoyées par le serveur."
 
 # File: src/www/diag_testport.php, line: 161
 msgid ""
@@ -8721,15 +8737,15 @@ msgstr "ttl"
 
 # File: src/www/diag_traceroute.php, line: 53
 msgid "Maximum number of hops must be between 1 and %s"
-msgstr ""
+msgstr "Le nombre maximum de sauts doit être compris entre 1 et %s"
 
 # File: src/www/diag_traceroute.php, line: 130
 msgid "Maximum number of hops"
-msgstr ""
+msgstr "Nombre maximum de sauts"
 
 # File: src/www/diag_traceroute.php, line: 138
 msgid "Reverse Address Lookup"
-msgstr ""
+msgstr "Recherche Adresse Inversée"
 
 # File: src/www/diag_traceroute.php, line: 142
 msgid "Use ICMP"
@@ -8753,6 +8769,8 @@ msgid ""
 "Using a source interface/IP address that does not match selected type (IPv4, "
 "IPv6) will result in an error or empty output."
 msgstr ""
+"L'utilisation d'une interface/adresse IP source qui ne correspond pas au "
+"type sélectionné (IPv4, IPv6) se traduira par une erreur ou un résultat vide."
 
 # File: src/www/diag_traceroute.php, line: 180
 msgid "Traceroute output"
@@ -8849,7 +8867,7 @@ msgstr "Entrée ajoutée %s"
 # File: src/www/firewall_aliases_edit.php, line: 140
 # File: src/www/firewall_aliases_import.php, line: 74
 msgid "Cannot use a reserved keyword as alias name %s"
-msgstr ""
+msgstr "Vous ne pouvez pas utiliser un mot-clé réservé comme nom d'alias %s"
 
 # File: src/www/firewall_aliases_edit.php, line: 145
 # File: src/www/firewall_aliases_import.php, line: 79
@@ -8864,7 +8882,7 @@ msgstr ""
 
 # File: src/www/firewall_aliases_edit.php, line: 139
 msgid "Update Frequency should be a number"
-msgstr ""
+msgstr "La fréquence de mise à jour doit être un nombre"
 
 # File: src/www/firewall_aliases_edit.php, line: 131
 # File: src/www/firewall_aliases_import.php, line: 68
@@ -8873,7 +8891,7 @@ msgstr "Un alias avec ce nom existe déjà."
 
 # File: src/www/firewall_aliases_edit.php, line: 156
 msgid "Alias type may not be changed for an existing alias."
-msgstr ""
+msgstr "Le type d'alias ne peut pas être changé pour un alias existant."
 
 # File: src/www/firewall_aliases_edit.php, line: 168
 msgid "You must provide a valid URL."
@@ -8908,6 +8926,8 @@ msgid ""
 "The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and "
 "_\"."
 msgstr ""
+"Le nom de l'alias ne peut comporter que les caractères suivants \"a-z\", \"A-"
+"Z\", \"0-9\" et \"_\"."
 
 # File: src/www/firewall_aliases_edit.php, line: 660
 # File: src/www/firewall_nat_1to1_edit.php, line: 542
@@ -10010,6 +10030,8 @@ msgstr ""
 # File: src/www/firewall_nat_out.php, line: 290
 msgid "(automatically generated rules are applied after manual rules)"
 msgstr ""
+"(les règles générées automatiquement sont appliquées après les règles "
+"manuelles)"
 
 # File: src/www/firewall_nat_out.php, line: 303
 msgid "Manual outbound NAT rule generation"
@@ -10021,11 +10043,11 @@ msgstr ""
 
 # File: src/www/firewall_nat_out.php, line: 315
 msgid "Disable outbound NAT rule generation"
-msgstr ""
+msgstr "Désactiver la création de règle NAT sortante"
 
 # File: src/www/firewall_nat_out.php, line: 316
 msgid "(outbound NAT is disabled)"
-msgstr ""
+msgstr "(NAT sortant est désactivé)"
 
 # File: src/www/firewall_nat_out.php, line: 335
 msgid "Manual rules:"
@@ -10048,7 +10070,7 @@ msgstr "Port statique"
 
 # File: src/www/firewall_nat_out.php, line: 364
 msgid "All manual rules are being ignored"
-msgstr ""
+msgstr "Toutes les règles manuelles sont ignorées"
 
 # File: src/www/firewall_nat_out.php, line: 388
 msgid "This Firewall"
@@ -10070,7 +10092,7 @@ msgstr "Règles automatiques : "
 
 # File: src/www/firewall_nat_out.php, line: 511
 msgid "automatic outbound nat"
-msgstr ""
+msgstr "nat sortant automatique"
 
 # File: src/www/firewall_nat_out_edit.php, line: 134
 # File: src/www/firewall_rules_edit.php, line: 360
@@ -10197,6 +10219,8 @@ msgstr "Adresse translatée"
 # File: src/www/firewall_nat_out_edit.php, line: 721
 msgid "Packets matching this rule will be mapped to the IP address given here."
 msgstr ""
+"Les paquets correspondants à cette règle seront mappés à l'adresse IP "
+"indiquée ici."
 
 # File: src/www/firewall_nat_out_edit.php, line: 604
 msgid ""
@@ -10215,7 +10239,7 @@ msgstr "Round-robin"
 
 # File: src/www/firewall_nat_out_edit.php, line: 612
 msgid "Round Robin with Sticky Address"
-msgstr ""
+msgstr "Round-robin avec les adresses rattachées"
 
 # File: src/www/firewall_nat_out_edit.php, line: 615
 msgid "Random"
@@ -10223,7 +10247,7 @@ msgstr "Aléatoire"
 
 # File: src/www/firewall_nat_out_edit.php, line: 618
 msgid "Random with Sticky Address"
-msgstr ""
+msgstr "Aléatoire avec les adresses rattachées"
 
 # (?) Source Hash is equivalent to the hash of IP address of the source OR corresponds to the hash of the connection (source IP + source port + destination IP address + destination port)?
 msgid "Source Hash"
@@ -10327,7 +10351,7 @@ msgstr "Bloquer tout le trafic IPv6"
 # File: src/www/firewall_rules.php, line: 343
 # File: src/www/firewall_rules.php, line: 368
 msgid "change configuration"
-msgstr ""
+msgstr "modifier la configuration"
 
 # File: src/www/firewall_rules.php, line: 464
 msgid "RFC 1918 networks"
@@ -10439,7 +10463,7 @@ msgstr "éditer la tâche planifiée"
 
 # File: src/www/firewall_rules.php, line: 780
 msgid "No floating rules are currently defined."
-msgstr ""
+msgstr "Aucune règles flottantes ne sont actuellement définies."
 
 # File: src/www/firewall_rules.php, line: 782
 msgid "No rules are currently defined for this interface"
@@ -10996,6 +11020,7 @@ msgstr ""
 # File: src/www/firewall_rules_edit.php, line: 1237
 msgid "This will disable auto generated reply-to for this rule."
 msgstr ""
+"Cela désactivera les réponses générées automatiquement pour cette règle."
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"
@@ -13393,7 +13418,7 @@ msgstr "Activer WME (Wireless Multimedia Extensions)"
 
 # File: src/www/interfaces.php, line: 3083
 msgid "Setting this option will force the card to use WME (wireless QoS)."
-msgstr ""
+msgstr "Définir cette option forcera la carte à utiliser WME (QoS wifi)."
 
 # File: src/www/interfaces.php, line: 3087
 msgid "Enable Hide SSID"
@@ -13529,6 +13554,8 @@ msgid ""
 "Allowed values are 1-9999 but should not be longer than Master Key "
 "Regeneration time."
 msgstr ""
+"Les valeurs autorisées sont 1-9999 mais ne devraient pas être plus longues "
+"que le délai de Régénération de la Clé Principale."
 
 # File: src/www/interfaces.php, line: 3219
 msgid "Master Key Regeneration"
@@ -13538,6 +13565,8 @@ msgstr "Régénération de la Clé Principale"
 msgid ""
 "Allowed values are 1-9999 but should not be shorter than Key Rotation time."
 msgstr ""
+"Les valeurs autorisées sont 1-9999 mais ne devraient pas être plus courtes "
+"que le délai de Rotation de la Clé."
 
 # File: src/www/interfaces.php, line: 3226
 msgid "Strict Key Regeneration"
@@ -13740,7 +13769,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 123
 msgid "Maxaddr needs to be an integer."
-msgstr ""
+msgstr "Maxaddr doit être un nombre entier."
 
 # File: src/www/interfaces_bridge_edit.php, line: 125
 msgid "Timeout needs to be an integer."
@@ -13753,10 +13782,14 @@ msgstr ""
 # File: src/www/interfaces_bridge_edit.php, line: 129
 msgid "Hello time for STP needs to be an integer between 1 and 2."
 msgstr ""
+"Le délai Hello pour le protocole STP doit être un entier compris entre 1 et "
+"2."
 
 # File: src/www/interfaces_bridge_edit.php, line: 131
 msgid "Priority for STP needs to be an integer between 0 and 61440."
 msgstr ""
+"Le numéro de Priorité pour le protocole STP doit être un entier compris "
+"entre 0 et 61440."
 
 # File: src/www/interfaces_bridge_edit.php, line: 133
 msgid "Transmit Hold Count for STP needs to be an integer between 1 and 10."
@@ -13791,6 +13824,8 @@ msgid ""
 "Span interface cannot be part of the bridge. Remove the span interface from "
 "bridge members to continue."
 msgstr ""
+"Une interface Span ne peut pas faire partie du pont (bridge). Retirer "
+"l'interface span des membres du pont (brigde) pour continuer."
 
 # File: src/www/interfaces_bridge_edit.php, line: 214
 # File: src/www/interfaces_gif_edit.php, line: 104
@@ -13882,7 +13917,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 372
 msgid "Hello time"
-msgstr ""
+msgstr "Délai Hello"
 
 # File: src/www/interfaces_bridge_edit.php, line: 377
 msgid ""
@@ -13923,7 +13958,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 414
 msgid "Path cost"
-msgstr ""
+msgstr "Coût du chemin"
 
 # File: src/www/interfaces_bridge_edit.php, line: 424
 msgid ""
@@ -14189,6 +14224,8 @@ msgid ""
 "This GRE tunnel cannot be deleted because it is still being used as an "
 "interface."
 msgstr ""
+"Ce tunnel GRE ne peut pas être supprimé car il est encore utilisé comme "
+"interface."
 
 # File: src/www/interfaces_gre.php, line: 140
 msgid "Do you really want to delete this GRE tunnel?"
@@ -14395,7 +14432,7 @@ msgstr "Protocole lagg"
 # File: src/www/interfaces_lagg_edit.php, line: 86
 # File: src/www/interfaces_lagg_edit.php, line: 89
 msgid "Interface supplied as member is invalid"
-msgstr ""
+msgstr "L'interface renseignée en tant que membre est invalide"
 
 # File: src/www/interfaces_lagg_edit.php, line: 92
 msgid "Protocol supplied is invalid"
@@ -14411,7 +14448,7 @@ msgstr "Choisissez les membres qui seront utilisés pour l'agrégation de lien"
 
 # File: src/www/interfaces_lagg_edit.php, line: 173
 msgid "Lag proto"
-msgstr ""
+msgstr "Protocole LAG"
 
 # File: src/www/interfaces_lagg_edit.php, line: 188
 msgid "failover"
@@ -20108,11 +20145,11 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 433
 msgid "Disable Auto-added VPN rules"
-msgstr ""
+msgstr "Désactiver les règles VPN ajoutées automatiquement"
 
 # File: src/www/system_advanced_firewall.php, line: 429
 msgid "Disable all auto-added VPN rules."
-msgstr ""
+msgstr "Désactiver toutes les règles VPN ajoutées automatiquement."
 
 # File: src/www/system_advanced_firewall.php, line: 431
 msgid "Note: This disables automatically added rules for IPsec, PPTP."
@@ -20138,11 +20175,11 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 456
 msgid "Disable Negate rules"
-msgstr ""
+msgstr "Désactiver les règles de Négation."
 
 # File: src/www/system_advanced_firewall.php, line: 454
 msgid "Disable Negate rule on policy routing rules"
-msgstr ""
+msgstr "Désactiver la règle de Négation de la politique des règles de routage"
 
 # File: src/www/system_advanced_firewall.php, line: 456
 msgid ""
@@ -20182,6 +20219,9 @@ msgid ""
 "Make sure the certificate is valid for all HTTPS addresses on aliases. If "
 "it's not valid or is revoked, do not download it."
 msgstr ""
+"Assurez-vous que le certificat est valide pour toutes les adresses HTTPS sur "
+"les alias. Si il n'est pas valide ou qu'il est révoqué, ne pas le "
+"télécharger."
 
 # File: src/www/system_advanced_firewall.php, line: 484
 msgid "Bogon Networks"
@@ -22133,11 +22173,11 @@ msgstr ""
 
 # File: src/www/system_gateway_groups_edit.php, line: 49
 msgid "High Latency"
-msgstr ""
+msgstr "Latence Élevée"
 
 # File: src/www/system_gateway_groups_edit.php, line: 50
 msgid "Packet Loss or High Latency"
-msgstr ""
+msgstr "Perte de paquets ou Latence élevée"
 
 # File: src/www/system_gateway_groups_edit.php, line: 350
 msgid "When to trigger exclusion of a member"
@@ -22725,7 +22765,7 @@ msgstr "Le nom de groupe contient des caractères invalides."
 
 # File: src/www/system_groupmanager.php, line: 112
 msgid "The group name is longer than 16 characters."
-msgstr ""
+msgstr "Le nom du groupe contient plus de 16 caractères."
 
 # File: src/www/system_groupmanager.php, line: 119
 msgid "Another entry with the same group name already exists."
@@ -22733,7 +22773,7 @@ msgstr "Une autre entrée avec le même nom de groupe existe déjà."
 
 # File: src/www/system_groupmanager.php, line: 127
 msgid "That groupname is reserved by the system."
-msgstr ""
+msgstr "Ce nom de groupe est réservé par le système."
 
 # File: src/www/system_groupmanager.php, line: 408
 # File: src/www/system_usermanager.php, line: 650
@@ -22756,7 +22796,7 @@ msgstr "Nom du groupe"
 
 # File: src/www/system_groupmanager.php, line: 301
 msgid "Group description, for your own information only"
-msgstr ""
+msgstr "Description du groupe, pour votre propre information uniquement"
 
 # File: src/www/system_groupmanager.php, line: 309
 # File: src/www/system_usermanager.php, line: 518
@@ -22826,7 +22866,7 @@ msgstr "Privilèges sélectionnés"
 # File: src/www/system_groupmanager_addprivs.php, line: 180
 # File: src/www/system_usermanager_addprivs.php, line: 160
 msgid "System Privileges"
-msgstr ""
+msgstr "Privilèges Système"
 
 # File: src/www/system_groupmanager_addprivs.php, line: 214
 # File: src/www/system_usermanager_addprivs.php, line: 181
