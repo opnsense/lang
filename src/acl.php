@@ -80,6 +80,7 @@ echo gettext('Allow access to the \'Firewall: NAT: Outbound\' page.');
 echo gettext('Allow access to the \'Firewall: NAT: Outbound: Edit\' page.');
 echo gettext('Allow access to the \'Firewall: NAT: Port Forward\' page.');
 echo gettext('Allow access to the \'Firewall: NAT: Port Forward: Edit\' page.');
+echo gettext('Allow access to the \'Firewall: Normalization\' page.');
 echo gettext('Allow access to the \'Firewall: Rules\' page.');
 echo gettext('Allow access to the \'Firewall: Rules: Edit\' page.');
 echo gettext('Allow access to the \'Firewall: Schedules\' page.');
