@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-18 10:55+0000\n"
+"POT-Creation-Date: 2016-07-11 16:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,7 +139,7 @@ msgstr ""
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 127
 msgid "Show how many characters from story:"
-msgstr ""
+msgstr "Wieviele Zeichen sollen aus dem Verlauf angezeigt werden:"
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 112
 msgid "Widget height:"
@@ -154,6 +154,8 @@ msgid ""
 "You need to bind each OpenVPN client to enable its management daemon: use "
 "'Local port' setting in the OpenVPN client screen"
 msgstr ""
+"Die müssen jeden OpenVPN-Client binden, um dessen Verwaltungs-Daemon zu "
+"aktivieren: Verwenden Nutzen Sie 'Lokaler Port' auf der OpenVPN-Client-Seite."
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 193
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 246
@@ -305,7 +307,7 @@ msgstr "%s4%s -- Normaler Nutzungsbereich."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1685
 msgid "%s2,3%s -- show TLS negotiations & route info."
-msgstr ""
+msgstr "%s2,3%s -- TLS-Aufbau  & Routeninformation anzeigen."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1684
 msgid ""
@@ -331,6 +333,9 @@ msgid ""
 "a different port if the client machines need to select from multiple OpenVPN "
 "links."
 msgstr ""
+"Auf den Clients einen anderen Verwaltungsport verwenden. Der Standardport "
+"ist 166. Geben Sie einen anderen Port an, falls der Client zwischen "
+"verschiedenen OpenVPN-Verbundungen unterscheiden muss."
 
 msgid "Client Management Port"
 msgstr "Clientverwaltungsport"
@@ -343,6 +348,10 @@ msgid ""
 "and ''ipconfig /registerdns'' on connection initiation. This is known to "
 "kick Windows into recognizing pushed DNS servers."
 msgstr ""
+"Führen Sie \"net stop dnscache\", \"net start dnscache\", \"ipconfig /"
+"flushdns\" und \"ipconfig /registerdns\" beim Verbindungsaufbau aus. Dies "
+"ist ein bekannter Trick um Windows dazu zu bringen, die DNS-Server zu "
+"erkennen."
 
 msgid "Force DNS cache update"
 msgstr "Erzwinge DNS-Cache Aktualisierung"
@@ -352,16 +361,24 @@ msgid ""
 "(iOS/Android). Others may break if it is present, such as older versions of "
 "OpenVPN or clients such as Yealink phones."
 msgstr ""
+"Manche Clients könnten dies auch dann erfordern, wenn IPv6 verwendet wird "
+"wie zum Beispiel OpenVPN-Connect (iOS/Android). Andere Clients, z. B. ältere "
+"Versionen von OpenVPN oder Yealink Mobiltelefone, funktionieren "
+"möglicherweise nicht, wenn es vorhanden ist."
 
 msgid ""
 "Relevant when supplying a virtual adapter IP address to clients when using "
 "tun mode on IPv4."
 msgstr ""
+"Relevant, wenn man den Clients eine virtuelle Adapter-IP-Adresse im tun-"
+"Modus für IPv4 zur Verfügung stellt."
 
 msgid ""
 "Allocate only one IP per client (topology subnet), rather than an isolated "
 "subnet per client (topology net30)."
 msgstr ""
+"Weise nur eine IP pro Client (Topologie Subnetz), anstelle eines isolieren "
+"Subnetzes pro Client (Topologie Netz 30) zu."
 
 msgid "Topology"
 msgstr "Netzstruktur"
@@ -449,6 +466,11 @@ msgid ""
 "through this tunnel on the remote machine. This is generally set to your LAN "
 "network"
 msgstr ""
+"Dies sind die als kommagetrennte Liste einer oder merherer IPs/Präfixe "
+"dargestellte IPv6-Netzwerke, die dem fernen Endpunkt zugänglich gemacht "
+"werden. Sie können dies leer lassen, falls Sie keine Route zu dem lokalen "
+"Netzwerk durch diesen Tunnel auf der fernen Maschine wünschen. Dies ist "
+"generell für Ihr LAN-Netzwerk gesetzt"
 
 msgid ""
 "These are the IPv4 networks that will be accessible from the remote "
@@ -457,6 +479,11 @@ msgid ""
 "network through this tunnel on the remote machine. This is generally set to "
 "your LAN network"
 msgstr ""
+"Dies sind die als kommagetrennte Liste einer oder merherer CIDR-Bereichen "
+"dargestellte IPv4-Netzwerke, die dem fernen Endpunkt zugänglich gemacht "
+"werden. Sie können dies leer lassen, falls Sie keine Route zu dem lokalen "
+"Netzwerk durch diesen Tunnel auf der fernen Maschine wünschen. Dies ist "
+"generell für Ihr LAN-Netzwerk gesetzt"
 
 msgid "Server Bridge DHCP End"
 msgstr "DHCP-Ende der Serverbrücke"
@@ -506,11 +533,20 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"Dies ist das virtuelle IPv4-Netzwerk, welches für die private Kommunikation "
+"zwischen diesem Server und den Client-Hosts, dargestellt als CIDR (z. B. "
+"10.0.8.0/24), verwendet wird. Die erste Netzwerkadresse wird der virtuellen "
+"Serverschnittstelle zugewiesen. Die verbleibenden Netzwerkadressen können "
+"optional den verbindungsaufbauenden Clients zugewiesen werden. (siehe "
+"Adresspool)"
 
 msgid ""
 "When authenticating users, enforce a match between the common name of the "
 "client certificate and the username given at login."
 msgstr ""
+"Bei der Benutzerauthentifizierung erzwingen, dass der Common Name des "
+"Clientzertifikats dem Benutzernamen, der bei der Anmeldung angegeben wurde, "
+"entspricht."
 
 msgid "Strict User/CN Matching"
 msgstr "Strenge Benutzer/CN-Prüfung"
@@ -520,6 +556,10 @@ msgid ""
 "this depth. Useful for denying certificates made with intermediate CAs "
 "generated from the same CA as the server."
 msgstr ""
+"Wenn sich ein zertifikatbasierter Client anmeldet, werden keine Zertifikate "
+"unter dieser Tiefe akzeptiert. Nützlich wenn Zertifikate von Intermediate-"
+"CAs verweigert werden sollen, die wiederum von der selben CA wie das "
+"Serverzertifikat ausgestellt wurden."
 
 # File: src/www/vpn_openvpn_server.php, line: 1167
 msgid "Five (Client+4xIntermediate+Server)"
@@ -561,10 +601,10 @@ msgstr "DH Parameterlänge"
 # File: src/www/vpn_openvpn_server.php, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 msgid "No Certificate Revocation Lists (CRLs) defined."
-msgstr ""
+msgstr "Keine Zertifikatsrückruflisten (CRLs) definiert."
 
 msgid "Peer Certificate Revocation List"
-msgstr ""
+msgstr "Peerzertifikatsrückrufliste"
 
 msgid "Device Mode"
 msgstr "Gerätemodus"
@@ -595,19 +635,25 @@ msgstr "Server hinzufügen"
 
 msgid "The Server Bridge DHCP range is invalid (start higher than end)."
 msgstr ""
+"Der DHCP-Bereich der Serverbrücke ist ungültig (Der Start ist größer als das "
+"Ende)."
 
 msgid "Server Bridge DHCP End must be an IPv4 address."
-msgstr ""
+msgstr "Das DHCP-Ende der Serverbrücke muss eine IPv4-Adresse sein."
 
 msgid "Server Bridge DHCP Start must be an IPv4 address."
-msgstr ""
+msgstr "Der DHCP-Start der Serverbrücke muss eine IPv4-Adresse sein."
 
 msgid "Server Bridge DHCP Start and End must both be empty, or defined."
 msgstr ""
+"Sowohl der Start als auch das Ende der Serverbrücke müssen entweder beide "
+"angegeben oder leer gelassen werden."
 
 msgid ""
 "Using a tunnel network and server bridge settings together is not allowed."
 msgstr ""
+"Die gemeinsame Verwendung eines Tunnelnetzwerks und einer Serverbrücke ist "
+"nicht erlaubt."
 
 msgid "Tunnel network"
 msgstr "Tunnel Netzwerk"
@@ -625,6 +671,9 @@ msgid ""
 "other routers. Shared key tunnels are not normally used for remote access "
 "connections to end users."
 msgstr ""
+"Dies sind Konfigurationen mit gemeinsame Schlüsseln zur Verwendung für Site-"
+"to-Site-Tunnel mit anderen Routern. Tunnel mit gemeinsamen Schlüsseln werden "
+"normalerweise nicht für Fernzugangsverbindungen der Endbenutzer verwendet."
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 474
 msgid "Client Type"
@@ -642,7 +691,7 @@ msgstr "Dynamischer DNS:"
 # File: src/www/vpn_openvpn_export_shared.php, line: 317
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 317
 msgid "Shared Key Server"
-msgstr ""
+msgstr "Server für gemeinsame Schlüssel"
 
 # File: src/www/vpn_openvpn_export.php, line: 948
 msgid ""
@@ -837,6 +886,9 @@ msgid ""
 "Use a random local source port (lport) for traffic from the client. Without "
 "this set, two clients may not run concurrently."
 msgstr ""
+"Benutze einen zufälligen Quellport (lport) für den Datenverkehr des Clients. "
+"Wenn diese Option nicht gesetzt ist, können zwei Clients nicht nebeneinander "
+"laufen."
 
 # File: src/www/vpn_openvpn_export.php, line: 702
 # File: src/www/vpn_openvpn_export.php.orig, line: 702
@@ -985,7 +1037,7 @@ msgstr "Sie müssen ein Passwort mit dem Proxyserver-Benutzer angeben."
 # File: src/www/vpn_openvpn_export.php, line: 179
 # File: src/www/vpn_openvpn_export_shared.php, line: 101
 msgid "You need to specify a username with the proxy config."
-msgstr ""
+msgstr "Sie müssen einen Benutzernamen bei der Proxykonfiguration angeben."
 
 # File: src/www/vpn_openvpn_export.php, line: 168
 # File: src/www/vpn_openvpn_export_shared.php, line: 93
@@ -1002,6 +1054,8 @@ msgid ""
 "You cannot use Microsoft Certificate Storage with a Yealink or SNOM "
 "configuration."
 msgstr ""
+"Sie können den Microsoft Zertifikatspeicher nicht mit einer Yealink- oder "
+"SNOM-Konfiguration nutzen."
 
 # File: src/www/vpn_openvpn_export.php, line: 149
 msgid ""
@@ -1100,6 +1154,8 @@ msgstr "Server #1:"
 # File: src/www/vpn_openvpn_csc.php, line: 470
 msgid "Prevent this client from receiving any server-defined client settings."
 msgstr ""
+"Verhindere, dass dieser Client irgendwelche Serverdefinierten "
+"Clienteinstellungen empfängt."
 
 msgid "Server Definitions"
 msgstr "Serverdefinitionen"
@@ -1109,6 +1165,7 @@ msgstr "Client Einstellungen"
 
 msgid "Force all client generated traffic through the tunnel"
 msgstr ""
+"Übertrage sämtlichen, von Clients generierten Datenverkehr über den Tunnel"
 
 msgid "Redirect Gateway"
 msgstr "Weiterleitungs Gateway"
@@ -1117,6 +1174,8 @@ msgid ""
 "NOTE: Remember to add these subnets to the IPv6 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"HINWEIS: Vergessen Sie nicht darauf, diese Subnetze zur fernen IPv6-"
+"Netzwerkliste in den zugehörigen OpenVPN-Servereinstellungen hinzuzufügen."
 
 # File: src/www/vpn_openvpn_csc.php, line: 439
 msgid ""
@@ -1125,11 +1184,18 @@ msgid ""
 "comma-separated list of one or more IP/PREFIX networks. You may leave this "
 "blank if there are no client-side networks to be routed."
 msgstr ""
+"Dies sind die IPv6-Netzwerke die spezifisch unter Verwendung von iroute zu "
+"diesem Client geroutet werden, sodass ein Site-to-Site-VPN aufgebaut werden "
+"kann. Angegeben als kommagetrennte Liste von einem oder mehreren IP/PRÄFIX-"
+"Netzwerken. Sie können dies leer lassen, falls keine clientseitigen "
+"Netzwerke geroutet werden sollen."
 
 msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"HINWEIS: Vergessen Sie nicht darauf, diese Subnetze zur fernen IPv4-"
+"Netzwerkliste in den zugehörigen OpenVPN-Servereinstellungen hinzuzufügen."
 
 msgid ""
 "These are the IPv4 networks that will be routed to this client specifically "
@@ -1137,12 +1203,20 @@ msgid ""
 "comma-separated list of one or more CIDR ranges. You may leave this blank if "
 "there are no client-side networks to be routed"
 msgstr ""
+"Dies sind die IPv4-Netzwerke die spezifisch unter Verwendung von iroute zu "
+"diesem Client geroutet werden, sodass ein Site-to-Site-VPN aufgebaut werden "
+"kann. Angegeben als kommagetrennte Liste von einem oder mehreren CIDR-"
+"Bereichen. Sie können dies leer lassen, falls keine clientseitigen Netzwerke "
+"geroutet werden sollen."
 
 msgid ""
 "These are the IPv6 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more IP/PREFIX "
 "networks."
 msgstr ""
+"Dies sind die IPv6-Netzwerke, die diesem Client zugänglich gemacht werden. "
+"Dargestellt als kommagetrennte Liste von einem oder mehreren IP/PRÄFIX-"
+"Netzwerken."
 
 msgid "IPv6 Local Network/s"
 msgstr "lokale/s IPv6 Netzwerk/e"
@@ -1158,6 +1232,8 @@ msgid ""
 "These are the IPv4 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more CIDR ranges."
 msgstr ""
+"Dies sind die IPv4-Netzwerke, die diesem Client zugänglich gemacht werden. "
+"Dargestellt als kommagetrennte Liste von einem oder mehreren CIDR-Bereichen."
 
 msgid "IPv4 Local Network/s"
 msgstr "Lokale IPv4 Netzwerke"
@@ -1169,6 +1245,9 @@ msgid ""
 "Don't use this option to permanently disable a client due to a compromised "
 "key or password. Use a CRL (certificate revocation list) instead"
 msgstr ""
+"Verwenden Sie diese Option nicht, wenn die einen Client aufgrund eines "
+"kompromittierten Schlüssel oder Passworts deaktivieren möchten. Verwenden "
+"Sie stattdessen eine CRL (Zertifikatsrückrufliste)."
 
 # Formulierung
 msgid "Block this client connection based on its common name"
@@ -1178,7 +1257,7 @@ msgid "Connection blocking"
 msgstr "Verbindungsblockierung"
 
 msgid "Enter the client's X.509 common name here"
-msgstr ""
+msgstr "Geben Sie den X.509 Common Name des Clients hier ein"
 
 msgid "Common name"
 msgstr "Common Name"
@@ -1188,6 +1267,8 @@ msgid ""
 "Select the OpenVPN servers where this override applies to, leave empty for "
 "all"
 msgstr ""
+"Wählen Sie die OpenVPN-Server aus, bei denen diese Überladungen angewandt "
+"werden. Lassen Sie es leer für alle"
 
 msgid ""
 "Set this option to disable this client-specific override without removing it "
@@ -1199,7 +1280,7 @@ msgstr "CSC hinzufügen"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 269
 msgid "Do you really want to delete the selected csc's?"
-msgstr ""
+msgstr "Wollen Sie diese CSCs wirklich löschen?"
 
 msgid "Do you really want to delete this csc?"
 msgstr "Wollen Sie dieses csc wirklich löschen?"
@@ -1268,6 +1349,8 @@ msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "configuration here, separated by a semicolon"
 msgstr ""
+"Geben Sie zusätzliche Optionen, die Sie zur OpenVPN-Clientkonfiguration "
+"hinzufügen möchten, durch einen Strichpunkt getrennt hier an"
 
 msgid "Advanced configuration"
 msgstr "Erweiterte Konfiguration"
@@ -1372,6 +1455,8 @@ msgid ""
 "NOTE: Leave this set to SHA1 unless the server is set to match. SHA1 is the "
 "default for OpenVPN."
 msgstr ""
+"Hinweis: Lassen Sie dies auf SHA1 gesetzt, sofern der Server nicht auch "
+"entsprechend konfiguriert ist. SHA1 ist der Standard bei OpenVPN."
 
 msgid "Auth Digest Algorithm"
 msgstr "Authentifizierungs-Digestalgorithmus"
@@ -1423,6 +1508,8 @@ msgid ""
 "Continuously attempt to resolve the server host name. Useful when "
 "communicating with a server that is not permanently connected to the Internet"
 msgstr ""
+"Permanent versuchen, den Servernamen aufzulösen. Nützlich, wenn mit einem "
+"Server kommuniziert wird, der nicht permanent mit dem Internet verbunden ist"
 
 msgid "Infinitely resolve server"
 msgstr ""
@@ -1599,6 +1686,8 @@ msgid ""
 "Launches IPSec in debug mode so that more verbose logs will be generated to "
 "aid in troubleshooting."
 msgstr ""
+"Startet IPSec im Debug-Modus, sodass detailliertere Protokolle erstellt "
+"werden, welche bei der Fehlersuche helfen."
 
 msgid "Start IPSec in debug mode based on sections selected"
 msgstr ""
@@ -1658,7 +1747,7 @@ msgid "ESP is encryption, AH is authentication only"
 msgstr "ESP ist Verschlüsselung, AH ist nur Authentifizierung"
 
 msgid "Phase 2 proposal (SA/Key Exchange)"
-msgstr ""
+msgstr "Phase-2-Vorschlag (SA / Schlüsselaustausch)"
 
 msgid "Remote Network"
 msgstr "Entferntes Netzwerk"
@@ -1865,6 +1954,8 @@ msgid ""
 "Select a certificate authority previously configured in the Certificate "
 "Manager."
 msgstr ""
+"Wählen Sie eine Zertifizierungsstelle aus, die zuvor in der "
+"Zertifikatsverwaltung konfiguriert wurde."
 
 msgid "My Certificate Authority"
 msgstr "Meine Zertifizierungsstelle"
@@ -1872,19 +1963,23 @@ msgstr "Meine Zertifizierungsstelle"
 # File: src/www/vpn_ipsec_phase1.php, line: 861
 msgid "Select a certificate previously configured in the Certificate Manager."
 msgstr ""
+"Wählen Sie ein Zertifikat aus, das zuvor in der Zertifikatsverwaltung "
+"konfiguriert wurde."
 
 msgid "My Certificate"
 msgstr "Mein Zertifikat"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 841
 msgid "Input your Pre-Shared Key string."
-msgstr ""
+msgstr "Geben Sie Ihre gemeinsame Schlüsselzeichenkette ein."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 830
 msgid ""
 "NOTE: This is known as the \"group\" setting on some VPN client "
 "implementations."
 msgstr ""
+"HINWEIS: Dies wird bei manchen Clientimplementierungen als \""
+"Gruppeneinstellungen\" bezeichnet."
 
 msgid "Peer IP address"
 msgstr "Peer IP-Adresse"
@@ -1984,7 +2079,7 @@ msgstr "Allgemeine Information"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 345
 msgid "Invalid argument for key exchange protocol version."
-msgstr ""
+msgstr "Ungültiges Argument für die Version des Schlüsselaustauschprotokolls."
 
 msgid "A numeric value must be specified for DPD retries."
 msgstr "Ein numerischer Wert muss für DPD Wiederholungen angegeben werden."
@@ -2029,6 +2124,8 @@ msgstr "Geben Sie eine Adresse für 'Peer Bezeichnung' ein"
 
 msgid "A valid Dynamic DNS address for 'My identifier' must be specified."
 msgstr ""
+"Eine gültige dynamische DNS-Adresse muss für 'Mein Identifizierer' angegeben "
+"werden."
 
 msgid ""
 "A valid User FQDN in the form of user@my.domain.com for 'My identifier' must "
@@ -2038,10 +2135,11 @@ msgstr ""
 "'Mein Identifizierer' angegeben werden."
 
 msgid "A valid FQDN for 'My identifier' must be specified."
-msgstr ""
+msgstr "Ein gültiger FQDN muss für 'Mein Identifizierer' angegeben werden."
 
 msgid "A valid domain name for 'My identifier' must be specified."
 msgstr ""
+"Ein gültiger Domainname muss für 'Mein Identifizierer' angegeben werden."
 
 msgid "A valid IP address for 'My identifier' must be specified."
 msgstr "Ein gültige IP-Adresse für 'Meine Kennung' muss eingegeben werden."
@@ -2051,9 +2149,13 @@ msgstr "Bitte gebe ein dynamischen Domainname für 'Meine Kennung' ein"
 
 msgid "Please enter a user and fully qualified domain name for 'My Identifier'"
 msgstr ""
+"Bitte geben Sie einen Benutzer und und einen vollqualifizierten Domainnamen "
+"für 'Mein Identifizierer' ein"
 
 msgid "Please enter a fully qualified domain name for 'My Identifier'"
 msgstr ""
+"Bitte geben Sie einen vollqualifizierten Domainnamen für 'Mein "
+"Identifizierer' ein"
 
 msgid "Please enter a keyid tag for 'My Identifier'"
 msgstr ""
@@ -2067,6 +2169,8 @@ msgstr ""
 
 msgid "There is a Phase 2 using IPv6, you cannot use IPv4."
 msgstr ""
+"Es gibt eine Phase 2, die IPv6 verwendet und daher können Sie IPv4 nicht "
+"verwenden."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 233
 msgid "The remote gateway \"%s\" is already used by phase1 \"%s\"."
@@ -2594,6 +2698,8 @@ msgstr ""
 # File: /usr/core/src/www/system_usermanager.php, line: 852
 msgid "OTP (base32) seed to use when a one time password authenticator is used"
 msgstr ""
+"Base32 OTP-Seed der verwendet wird, wenn der Einmalpasswortauthentifizierer "
+"werwendet wird"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 850
 msgid "generate new (160bit) secret"
@@ -2601,7 +2707,7 @@ msgstr "generiere ein neues (160 Bit) Geheimnis"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 847
 msgid "OTP seed"
-msgstr ""
+msgstr "OTP-Seed"
 
 # File: src/www/system_usermanager.php, line: 896
 msgid "Redirects on save"
@@ -3074,7 +3180,7 @@ msgstr ""
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
-msgstr ""
+msgstr "Peer-IP synchronisieren"
 
 # File: src/www/system_hasync.php, line: 156
 msgid ""
@@ -3086,18 +3192,24 @@ msgstr ""
 msgid ""
 "You must define a IP on each machine participating in this failover group."
 msgstr ""
+"Sie müssen eine IP für jede Maschinde definieren, die Teil der Failover-"
+"Gruppe ist."
 
 # File: /usr/core/src/www/system_hasync.php, line: 136
 msgid ""
 "We recommend setting this to a interface other than LAN! A dedicated "
 "interface works the best."
 msgstr ""
+"Wir empfehlen, eine andere Schnittstelle als LAN zu verwenden! Eine eigene "
+"Schnittstelle funktioniert am besten."
 
 # File: src/www/system_hasync.php, line: 151
 msgid ""
 "If Synchronize States is enabled, it will utilize this interface for "
 "communication."
 msgstr ""
+"Falls Statussynchronisation aktiviert ist, wird die Schnittstelle zur "
+"Kommunikation genutzt."
 
 # File: src/www/system_hasync.php, line: 123
 msgid "loopback"
@@ -3274,7 +3386,7 @@ msgstr "DNS-Server"
 
 # File: /usr/core/src/www/system_general.php, line: 372
 msgid "This will change the look and feel of the GUI."
-msgstr ""
+msgstr "Dadurch wird das Aussehen der Benutzeroberfläche geändert."
 
 msgid "Theme"
 msgstr "Design"
@@ -3335,7 +3447,7 @@ msgstr "Russisch"
 
 # File: /usr/core/src/www/system_general.php, line: 50
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugiesisch"
 
 # File: src/www/system_general.php, line: 48
 msgid "Mongolian"
@@ -4993,13 +5105,15 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 312
 msgid "Periodic NetFlow Backup"
-msgstr ""
+msgstr "Periodische NetFlow-Sicherung"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 307
 msgid ""
 "This will periodically backup the DHCP leases data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Dadurch werden DHCP-Lease-Daten periodisch gesichert, sodass sie nach einem "
+"Neustart automatisch wiederhergestellt werden können."
 
 msgid "Periodic DHCP Leases Backup"
 msgstr "Periodische DHCP-Leases-Sicherung"
@@ -5009,6 +5123,8 @@ msgid ""
 "This will periodically backup the RRD data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Dadurch werden RRD-Daten periodisch gesichert, sodass sie nach einem "
+"Neustart automatisch wiederhergestellt werden können."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
@@ -5228,7 +5344,7 @@ msgstr "Firewall Maximale Status"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
-msgstr ""
+msgstr "Hinweis: Leer lassen für den Standardwert (0)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 495
 msgid ""
@@ -6926,6 +7042,8 @@ msgid ""
 "Allow: This action allows queries from hosts within the netblock defined "
 "below."
 msgstr ""
+"Erlauben: Diese Aktion erlaubt Abfragen von Hosts im unten definierten "
+"Netzwerkblock."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 243
 msgid ""
@@ -6938,6 +7056,8 @@ msgstr ""
 msgid ""
 "Deny: This action stops queries from hosts within the netblock defined below."
 msgstr ""
+"Verbieten: Diese Aktion verhindert Abfragen von Hosts im unten definierten "
+"Netzwerkblock."
 
 msgid ""
 "Choose what to do with DNS requests that match the criteria specified below."
@@ -7241,7 +7361,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 308
 msgid "Bits"
-msgstr ""
+msgstr "Bits"
 
 msgid "RA Subnet(s)"
 msgstr "RA Subnetz/e"
@@ -7254,7 +7374,7 @@ msgid "RA Interface"
 msgstr "RA Schnittstelle"
 
 msgid "Select the Priority for the Router Advertisement (RA) Daemon."
-msgstr ""
+msgstr "Wählen Sie die Priorität für den Router-Advertisement (RA) -Daemon aus."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 257
 msgid "Low"
@@ -7267,6 +7387,8 @@ msgid ""
 "It is not required to activate this DHCPv6 server when set to \"Managed\", "
 "this can be another host on the network"
 msgstr ""
+"Es ist nicht erforderlich, diesen DHCPv6-Server zu aktivieren, sofern \""
+"Verwaltet\" eingestellt ist. Dies kann ein anderer Host im Netzwerk sein."
 
 msgid ""
 "Use \"Router Only\" to only advertise this router, \"Unmanaged\" for Router "
@@ -7280,7 +7402,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 242
 msgid "Assisted"
-msgstr ""
+msgstr "Assistiert"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 239
 msgid "Managed"
@@ -7296,11 +7418,11 @@ msgstr "Nur Router"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 114
 msgid "Minimum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "Das minimale Intervall muss zwischen %s und %s Sekunden liegen."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 111
 msgid "Maximum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "Das maximale Intervall muss zwischen %s und %s Sekunden liegen."
 
 msgid "An invalid subnet or alias was specified. [%s/%s]"
 msgstr "Ein ungültiges Subnetz oder Alias wurde angegeben. [%s/%s]"
@@ -7536,7 +7658,7 @@ msgstr "(1 bis 4 Zeichen)"
 # File: src/www/services_ntpd_gps.php, line: 524
 # File: src/www/services_ntpd_pps.php, line: 197
 msgid "Clock ID"
-msgstr ""
+msgstr "Uhren-ID"
 
 msgid ""
 "Log the sub-second fraction of the received time stamp (default: Not "
@@ -7613,15 +7735,15 @@ msgstr ""
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 377
 msgid "GLL"
-msgstr ""
+msgstr "GLL"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 376
 msgid "GGA"
-msgstr ""
+msgstr "GGA"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 375
 msgid "RMC"
-msgstr ""
+msgstr "RMC"
 
 # File: src/www/services_ntpd_gps.php, line: 423
 msgid "NMEA sentences"
@@ -7689,7 +7811,7 @@ msgid "Generic"
 msgstr "Allgemein"
 
 msgid "NTP Serial GPS Configuration"
-msgstr ""
+msgstr "serielle NTP-GPS-Konfiguration"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 55
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 57
@@ -7793,7 +7915,7 @@ msgstr ""
 
 # File: src/www/services_ntpd.php, line: 313
 msgid "Syslog logging"
-msgstr ""
+msgstr "Systemprotokollprotokollierung"
 
 msgid "Enable rrd graphs of NTP statistics (default: disabled)."
 msgstr ""
@@ -7836,11 +7958,11 @@ msgstr ""
 
 # File: /usr/core/src/www/services_ntpd.php, line: 242
 msgid "Do not use"
-msgstr ""
+msgstr "Nicht verwenden"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 241
 msgid "Prefer"
-msgstr ""
+msgstr "Bevorzugen"
 
 # File: src/www/services_ntpd.php, line: 261
 msgid "Time servers"
@@ -7861,7 +7983,7 @@ msgstr "NTP-Server Konfiguration"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 72
 msgid "Orphan mode must be a value between 0..15"
-msgstr ""
+msgstr "Orphan-Modus muss eine Zahl zwischen 0 und 15 sein"
 
 msgid "CIDR"
 msgstr "CIDR"
@@ -8029,7 +8151,7 @@ msgstr "Ausführliche Protokollierung"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 318
 msgid "Enable Wildcard"
-msgstr ""
+msgstr "Wildcard aktivieren"
 
 msgid "Wildcards"
 msgstr "Wildcards"
@@ -8212,7 +8334,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 434
 msgid "Alias for"
-msgstr ""
+msgstr "Alias für"
 
 msgid "Domain"
 msgstr "Domain"
@@ -8350,7 +8472,7 @@ msgstr "DHCP Registrierung"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 236
 msgid "Enable DNS Forwarder"
-msgstr ""
+msgstr "DNS-Weiterleitung aktivieren"
 
 msgid "General DNS Forwarder Options"
 msgstr "Allgemeine DNS-Forwarder Einstellungen"
@@ -8815,7 +8937,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1005
 msgid "Set next-server IP"
-msgstr ""
+msgstr "Setze die IP des nächsten Servers"
 
 msgid "Enables network booting."
 msgstr "Aktiviert das Booten über das Netzwerk."
@@ -9025,7 +9147,7 @@ msgstr "Zusätzliche Pools"
 # File: /usr/core/src/www/services_dhcpv6.php, line: 514
 # File: /usr/core/src/www/services_dhcpv6.php, line: 533
 msgid "from"
-msgstr ""
+msgstr "von"
 
 msgid "Range"
 msgstr "Bereich"
@@ -9355,7 +9477,7 @@ msgstr ""
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
 msgid "Add/edit - Virtual Server entry"
-msgstr ""
+msgstr "Hinzufügen / Bearbeiten - Virtueller Servereintrag"
 
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
 msgstr ""
@@ -9396,7 +9518,7 @@ msgstr "Die Virtualserver Konfiguration wurde geändert"
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 125
 msgid "Load Balancer: Virtual Server Setup"
-msgstr ""
+msgstr "Lastverteiler: Virtuelle Servereinrichtung"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 159
 msgid ""
@@ -9431,7 +9553,7 @@ msgstr ""
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 136
 msgid "Interval"
-msgstr ""
+msgstr "Intervall"
 
 msgid ""
 "Set the global timeout in milliseconds for checks. Leave blank to use the "
@@ -10639,7 +10761,7 @@ msgid "Timeout needs to be an integer."
 msgstr "Zeitüberschreitung muss eine Zahl sein."
 
 msgid "Maxaddr needs to be an integer."
-msgstr ""
+msgstr "Maxaddr muss eine Zahl sein."
 
 msgid "Maxage needs to be an integer between 6 and 40."
 msgstr ""
@@ -20659,6 +20781,8 @@ msgid ""
 "If this checkbox is checked, you can use an ICAP server to filter or replace "
 "content."
 msgstr ""
+"Falls Sie diese Box auswählen, können Sie einen ICAP-Server dazu verwenden, "
+"Inhalte zu filtern oder zu ersetzen."
 
 # File: lang/dynamic/helpers/controllers.php, line: 101
 msgid ""
@@ -20676,6 +20800,9 @@ msgid ""
 "server. This can be useful if you want to filter traffic based on IP "
 "addresses."
 msgstr ""
+"Falls Sie diese Option aktivieren, wird die Client-IP-Adresse an den ICAP-"
+"Server übertragen. Dies könnte nützlich sein, falls Sie Datenverkehr auf "
+"Basis von IP-Adressen filtern wollen."
 
 # File: /usr/lang/src/controllers.php, line: 131
 msgid ""
@@ -20711,15 +20838,15 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Name to identify this ACL."
-msgstr ""
+msgstr "Name, um diese ACL zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 138
 msgid "Name to identify this Lua script."
-msgstr ""
+msgstr "Name, um dieses Lua-Skript zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 139
 msgid "Name to identify this action."
-msgstr ""
+msgstr "Name, um diese Aktion zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 140
 msgid "Name to identify this backend."
@@ -20869,6 +20996,7 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "Set the maximum inactivity time (in milliseconds) on the client side."
 msgstr ""
+"Setze die maximale Inaktivitätszeit (in Millisekunden) auf der Clientseite."
 
 # File: /usr/lang/src/controllers.php, line: 173
 msgid "Set the maximum inactivity time (in milliseconds) on the server side."
@@ -20990,6 +21118,8 @@ msgstr ""
 msgid ""
 "The header which should be used to send the username to the ICAP server."
 msgstr ""
+"Der Header, der verwendet werden soll, um den Benutzernamen an den ICAP-"
+"Server zu senden."
 
 # File: /usr/lang/src/controllers.php, line: 197
 msgid ""
@@ -21453,7 +21583,7 @@ msgstr "Verlauf"
 
 # File: /usr/lang/src/models.php, line: 116
 msgid "ICAP"
-msgstr ""
+msgstr "ICAP"
 
 # File: lang/dynamic/helpers/models.php, line: 212
 msgid "ICP port needs to be an integer value between 1 and 65535"
@@ -21939,7 +22069,7 @@ msgstr "Server"
 
 # File: /usr/lang/src/models.php, line: 234
 msgid "Service Settings"
-msgstr ""
+msgstr "Diensteinstellungen"
 
 msgid "Services"
 msgstr "Dienste"
@@ -21964,12 +22094,16 @@ msgid ""
 "Should be a number between 1 and 5 characters followed by either \"d\", \"h\""
 ", \"m\", \"s\" or \"ms\"."
 msgstr ""
+"Sollte eine ein- bis fünfstellige Zahl, gefolgt von \"d\", \"h\", \"m\", \""
+"s\" oder \"ms\", sein."
 
 # File: /usr/lang/src/models.php, line: 240
 msgid ""
 "Should be a number between 1 and 5 characters followed by either \"k\", \"m\""
 " or \"g\"."
 msgstr ""
+"Sollte eine ein- bis fünfstellige Zahl, gefolgt von \"k\", \"m\" oder \"g\", "
+"sein."
 
 # File: /usr/lang/src/models.php, line: 241
 msgid "Should be a string between 1 and 255 characters."
@@ -22035,11 +22169,11 @@ msgstr "Statuszusammenfassung"
 
 # File: /usr/lang/src/models.php, line: 256
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiken"
 
 # File: /usr/lang/src/models.php, line: 257
 msgid "Statistics Configuration"
-msgstr ""
+msgstr "Statistikeneinstellungen"
 
 msgid "Status"
 msgstr "Status"
@@ -22094,7 +22228,7 @@ msgstr "Traffic Shaper"
 
 # File: /usr/lang/src/models.php, line: 271
 msgid "TrafficManagement"
-msgstr ""
+msgstr "Datenverkehrsverwaltung"
 
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Trust"
