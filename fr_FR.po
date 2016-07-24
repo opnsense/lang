@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-11 16:16+0000\n"
+"POT-Creation-Date: 2016-07-24 17:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,15 +36,15 @@ msgstr "Ordinateur / Périphérique"
 
 # File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 173
 msgid "Out (bps)"
-msgstr ""
+msgstr "Out (bps)"
 
 # File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 163
 msgid "In (bps)"
-msgstr ""
+msgstr "In (bps)"
 
 # File: /usr/core/src/www/widgets/widgets/thermal_sensors.widget.php, line: 152
 msgid "You can configure a proper Thermal Sensor / Module %shere%s."
-msgstr ""
+msgstr "Vous pouvez configurer un Capteur Thermique / Module approprié %sici%s."
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 246
 msgid "Core Critical:"
@@ -308,7 +308,7 @@ msgstr ""
 
 # File: /usr/core/src/www/widgets/api/plugins/system.inc, line: 58
 msgid "Current: %s MHz, Max: %s MHz"
-msgstr ""
+msgstr "Instantané: %s MHz, Max: %s MHz"
 
 # File: /usr/core/src/www/widgets/api/plugins/gateway.inc, line: 53
 msgid "Packetloss"
@@ -337,7 +337,7 @@ msgstr "Protocole / Port"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1686
 msgid "%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%s4%s -- Plage d'utilisation normale."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1685
 msgid "%s2,3%s -- show TLS negotiations & route info."
@@ -375,7 +375,7 @@ msgstr "Port de Management Client"
 
 # File: src/www/vpn_openvpn_server.php, line: 1837
 msgid "Scope ID"
-msgstr ""
+msgstr "ID de l’étendue"
 
 # File: src/www/vpn_openvpn_server.php, line: 1743
 msgid ""
@@ -816,7 +816,7 @@ msgstr "OpenVPN pour Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 956
 msgid "OpenVPN Community Client"
-msgstr ""
+msgstr "Client OpenVPN de la Communauté"
 
 # File: src/www/vpn_openvpn_export.php, line: 956
 msgid ""
@@ -1000,6 +1000,8 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "Use tls-remote (deprecated, use only on clients prior to OpenVPN 2.3)"
 msgstr ""
+"Utilisez tls-distant (obsolète, utilisé uniquement sur les clients antérieur "
+"à OpenVPN 2.3)"
 
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
@@ -1151,6 +1153,8 @@ msgid ""
 "Enter any additional options you would like to add for this client specific "
 "override, separated by a semicolon"
 msgstr ""
+"Entrez les options supplémentaires que vous souhaitez ajouter à la "
+"configuration spécifique de ce client, séparés par un point-virgule"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 626
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1606
@@ -1352,6 +1356,8 @@ msgid ""
 "Set this option to disable this client-specific override without removing it "
 "from the list"
 msgstr ""
+"Sélectionnez cette option pour désactiver cette configuration spécifique du "
+"client sans la retirer de la liste"
 
 # File: src/www/vpn_openvpn_csc.php, line: 327
 msgid "add csc"
@@ -1359,11 +1365,11 @@ msgstr "ajouter csc"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 269
 msgid "Do you really want to delete the selected csc's?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer les csc sélectionnés?"
 
 # File: src/www/vpn_openvpn_csc.php, line: 818
 msgid "Do you really want to delete this csc?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer ce csc?"
 
 # File: src/www/vpn_openvpn_csc.php, line: 174
 # File: src/www/vpn_openvpn_server.php, line: 339
@@ -1396,7 +1402,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
 msgid "%s6%s-%s11%s -- Debug info range."
-msgstr ""
+msgstr "%s6%s-%s11%s -- Plage des infos de débogage."
 
 # File: src/www/vpn_openvpn_client.php, line: 1014
 # File: src/www/vpn_openvpn_server.php, line: 1683
@@ -1409,7 +1415,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1013
 # File: src/www/vpn_openvpn_server.php, line: 1682
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%sdéfaut%s-%s4%s -- Plage d'utilisation normale."
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
@@ -1570,7 +1576,7 @@ msgstr "Tunnel Réseau IPv4"
 # File: src/www/vpn_openvpn_client.php, line: 960
 # File: src/www/vpn_openvpn_server.php, line: 1240
 msgid "Hardware Crypto"
-msgstr ""
+msgstr "Chiffrement Matériel"
 
 # File: src/www/vpn_openvpn_client.php, line: 956
 msgid ""
@@ -1738,6 +1744,8 @@ msgid ""
 "If no Client Certificate is selected, a username and password must be "
 "entered."
 msgstr ""
+"Si aucun Certificat Client n'est sélectionné, un nom d'utilisateur et un mot "
+"de passe doivent être renseignés."
 
 # File: src/www/vpn_openvpn_client.php, line: 282
 # File: src/www/vpn_openvpn_server.php, line: 376
@@ -1943,7 +1951,7 @@ msgstr "ESP correspond au chiffrement, AH uniquement à l'authentification"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 740
 msgid "Phase 2 proposal (SA/Key Exchange)"
-msgstr ""
+msgstr "Proposition Phase 2 (SA/Échange de Clés)"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 681
 msgid "Remote Network"
@@ -1996,7 +2004,7 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_phase2.php, line: 286
 msgid "The P2 lifetime must be an integer."
-msgstr ""
+msgstr "La durée de vie de la P2 doit être un entier."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 277
 msgid "At least one hashing algorithm needs to be selected."
@@ -2071,7 +2079,7 @@ msgstr ""
 # File: src/www/vpn_ipsec_phase2.php, line: 160
 # File: src/www/vpn_ipsec_phase2.php, line: 189
 msgid "has no subnet."
-msgstr ""
+msgstr "n'a pas de sous-réseau."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 160
 # File: src/www/vpn_ipsec_phase2.php, line: 189
@@ -2116,7 +2124,7 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1035
 msgid "Number of consecutive failures allowed before disconnect."
-msgstr ""
+msgstr "Nombre d'échecs consécutifs autorisé avant la déconnexion."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1037
 msgid "retries"
@@ -2262,7 +2270,7 @@ msgstr "Méthode d'authentification"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 735
 msgid "Phase 1 proposal (Authentication)"
-msgstr ""
+msgstr "Proposition Phase 1 (Authentification)"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 707
 msgid "Enter the public IP address or host name of the remote gateway"
@@ -2278,7 +2286,7 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_phase1.php, line: 638
 msgid "Internet Protocol"
-msgstr ""
+msgstr "Protocole Internet"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 634
 msgid ""
@@ -2306,7 +2314,7 @@ msgstr "Démarrer sur présence de trafic"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 611
 msgid "Respond only"
-msgstr ""
+msgstr "Répondre uniquement"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 606
 msgid "Connection method"
@@ -4616,7 +4624,7 @@ msgstr "Aucun Certificat trouvé dans la CRL."
 
 # File: src/www/system_crlmanager.php, line: 480
 msgid "Revoked At"
-msgstr ""
+msgstr "Révoqué au"
 
 # File: src/www/system_crlmanager.php, line: 479
 msgid "Revocation Reason"
@@ -4654,7 +4662,7 @@ msgstr "Liste de Révocation de Certificats interne"
 # File: src/www/system_crlmanager.php, line: 383
 # File: src/www/system_crlmanager.php, line: 452
 msgid "Paste a Certificate Revocation List in X.509 CRL format here."
-msgstr ""
+msgstr "Insérez ici une Liste de Révocation de Certificats au format CRL X.509."
 
 # File: src/www/system_crlmanager.php, line: 379
 # File: src/www/system_crlmanager.php, line: 448
@@ -4795,7 +4803,7 @@ msgstr "Mise à jour"
 
 # File: src/www/system_certmanager.php, line: 1126
 msgid "Paste the certificate received from your certificate authority here."
-msgstr ""
+msgstr "Insérez ici le certificat reçu de votre autorité de certification."
 
 # File: src/www/system_certmanager.php, line: 1122
 msgid "Final certificate data"
@@ -5131,7 +5139,7 @@ msgstr "Clé privée du certificat"
 # File: src/www/system_camanager.php, line: 449
 # File: src/www/system_certmanager.php, line: 683
 msgid "Paste a certificate in X.509 PEM format here."
-msgstr ""
+msgstr "Insérez ici un certificat au format PEM X.509."
 
 # File: src/www/system_camanager.php, line: 439
 msgid "Existing Certificate Authority"
@@ -6825,7 +6833,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 417
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 # File: src/www/system_advanced_admin.php, line: 455
 msgid ""
@@ -7371,7 +7379,7 @@ msgstr "interface"
 
 # File: /usr/core/src/www/status_habackup.php, line: 298
 msgid "Restart all services"
-msgstr ""
+msgstr "Redémarrez tous les services"
 
 # File: /usr/core/src/www/status_habackup.php, line: 290
 msgid "all (*)"
@@ -7751,7 +7759,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_upnp.php, line: 258
 msgid "Maximum Upload Speed"
-msgstr ""
+msgstr "Vitesse Maximale d’Émission"
 
 # File: /usr/core/src/www/services_upnp.php, line: 253
 # File: /usr/core/src/www/services_upnp.php, line: 262
@@ -7760,7 +7768,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_upnp.php, line: 249
 msgid "Maximum Download Speed"
-msgstr ""
+msgstr "Vitesse Maximale de Réception"
 
 # File: /usr/core/src/www/services_upnp.php, line: 244
 msgid "You can select multiple interfaces here."
@@ -7782,11 +7790,11 @@ msgstr ""
 
 # File: /usr/core/src/www/services_upnp.php, line: 212
 msgid "External Interface"
-msgstr ""
+msgstr "Interface Externe"
 
 # File: /usr/core/src/www/services_upnp.php, line: 207
 msgid "This protocol is often used by Apple-compatible systems."
-msgstr ""
+msgstr "Ce protocole est souvent utilisé par les systèmes Apple compatibles."
 
 # File: /usr/core/src/www/services_upnp.php, line: 203
 msgid "Allow NAT-PMP Port Mapping"
@@ -7795,6 +7803,7 @@ msgstr ""
 # File: /usr/core/src/www/services_upnp.php, line: 198
 msgid "This protocol is often used by Microsoft-compatible systems."
 msgstr ""
+"Ce protocole est souvent utilisé par les systèmes Microsoft compatibles."
 
 # File: /usr/core/src/www/services_upnp.php, line: 194
 msgid "Allow UPnP Port Mapping"
@@ -8313,7 +8322,7 @@ msgstr ""
 
 # File: src/www/services_unbound_acls.php, line: 205
 msgid "Provide an Access List name."
-msgstr ""
+msgstr "Fournir un nom de Liste d'Accès."
 
 # File: src/www/services_unbound_acls.php, line: 201
 msgid "Access List name"
@@ -8357,7 +8366,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_unbound.php, line: 245
 msgid "Custom options"
-msgstr ""
+msgstr "Options personnalisées"
 
 # File: src/www/services_unbound.php, line: 325
 msgid ""
@@ -8598,7 +8607,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 400
 msgid "Maximum Interval"
-msgstr ""
+msgstr "Intervalle Maximum"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 395
 msgid ""
@@ -8608,7 +8617,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
-msgstr ""
+msgstr "Intervalle Minimal"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 386
 msgid ""
@@ -8703,11 +8712,11 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 114
 msgid "Minimum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "L'intervalle minimal doit être compris entre %s et %s secondes."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 111
 msgid "Maximum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "L'intervalle maximum doit être compris entre %s et %s secondes."
 
 # File: src/www/services_router_advertisements.php, line: 112
 msgid "An invalid subnet or alias was specified. [%s/%s]"
@@ -9386,7 +9395,7 @@ msgstr ""
 
 # File: src/www/services_igmpproxy_edit.php, line: 206
 msgid "Threshold"
-msgstr ""
+msgstr "Seuil"
 
 # File: /usr/core/src/www/services_igmpproxy_edit.php, line: 195
 msgid ""
@@ -9491,6 +9500,8 @@ msgstr ""
 # File: src/www/services_dyndns_edit.php, line: 403
 msgid "This field is only used by Custom Dynamic DNS Entries."
 msgstr ""
+"Ce champ est utilisé uniquement par les entrées DNS dynamiques "
+"personnalisées."
 
 # File: src/www/services_dyndns_edit.php, line: 400
 msgid "Result Match"
@@ -11291,7 +11302,7 @@ msgstr "Réinitialiser les données RRD"
 
 # File: src/www/status_rrd_graph_settings.php, line: 135
 msgid "Enables the RRD graphing backend."
-msgstr "Activer la création en arrière plan des graphiques RRD."
+msgstr "Activer la création des graphiques RRD en arrière plan."
 
 # File: src/www/diag_logs_settings.php, line: 342
 msgid "Round-Robin-Database"
@@ -11927,20 +11938,24 @@ msgid ""
 "MRRU: Set ONLY for MLPPP connections. MRRU will be auto-negotiated by "
 "default."
 msgstr ""
+"MRRU: Sélectionnez UNIQUEMENT pour les connexions MLPPP. MRRU sera "
+"automatiquement négociée par défaut."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 790
 msgid "MRU: MRU will be auto-negotiated by default."
-msgstr ""
+msgstr "MRU: MRU sera automatiquement négociée par défaut."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 789
 msgid "MTU: MTU will default to 1492."
-msgstr ""
+msgstr "MTU: MTU par défaut à 1492."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 788
 msgid ""
 "Bandwidth: Set ONLY for MLPPP connections and ONLY when links have different "
 "bandwidths."
 msgstr ""
+"Bande passante: Sélectionnez UNIQUEMENT pour les connexions MLPPP et "
+"SEULEMENT lorsque des liens ont des bandes passantes différentes."
 
 # File: src/www/interfaces_ppps_edit.php, line: 788
 msgid "MRRU"
@@ -11959,20 +11974,25 @@ msgid ""
 "Protocol field compression. This option saves one byte per frame for most "
 "frames."
 msgstr ""
+"Champ du protocole de compression. Cette option permet d'économiser un octet "
+"par trame pour la plupart des trames."
 
 # File: src/www/interfaces_ppps_edit.php, line: 749
 msgid "Disable protocomp (compression) (auto-negotiated by default)."
-msgstr ""
+msgstr "Désactiver le protocomp (compression) (auto-négocié par défaut)."
 
 # File: src/www/interfaces_ppps_edit.php, line: 747
 msgid "ProtoComp"
-msgstr ""
+msgstr "ProtoComp"
 
 # File: src/www/interfaces_ppps_edit.php, line: 743
 msgid ""
 "Address and control field compression. This option only applies to "
 "asynchronous link types. It saves two bytes per frame."
 msgstr ""
+"Champs d'adresse et de contrôle de compression. Cette option concerne "
+"uniquement les types de liens asynchrones. Il économise deux octets par "
+"trame."
 
 # File: src/www/interfaces_ppps_edit.php, line: 742
 msgid "Disable acfcomp (compression) (auto-negotiated by default)."
@@ -12691,7 +12711,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 590
 msgid "Private ports"
-msgstr ""
+msgstr "Ports protégés"
 
 # File: src/www/interfaces_bridge_edit.php, line: 583
 msgid ""
@@ -12703,7 +12723,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 569
 msgid "Sticky ports"
-msgstr "ports attachés"
+msgstr "Ports attachés"
 
 # File: src/www/interfaces_bridge_edit.php, line: 565
 msgid ""
@@ -13295,12 +13315,16 @@ msgid ""
 "104 (128) bit keys may be entered as 13 ASCII characters or 26 hex digits "
 "preceded by '0x'."
 msgstr ""
+"Les clés de 104 (128) bits peuvent être entrées en ASCII de 13 caractères ou "
+"en hexadécimal de 26 chiffres précédés par '0x'."
 
 # File: src/www/interfaces.php, line: 3145
 msgid ""
 "40 (64) bit keys may be entered as 5 ASCII characters or 10 hex digits "
 "preceded by '0x'."
 msgstr ""
+"Les clés de 40 (64) bits peuvent être entrées en ASCII de 5 caractères ou en "
+"hexadécimal de 10 chiffres précédés par '0x'."
 
 # File: src/www/interfaces.php, line: 3135
 msgid "Key 4:"
@@ -13688,7 +13712,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2601
 msgid "secret"
-msgstr ""
+msgstr "secret"
 
 # File: /usr/core/src/www/interfaces.php, line: 2599
 msgid "keyid"
@@ -13696,7 +13720,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2596
 msgid "realm"
-msgstr ""
+msgstr "royaume"
 
 # File: /usr/core/src/www/interfaces.php, line: 2594
 msgid "keyname"
@@ -13712,11 +13736,11 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2585
 msgid "algorithm"
-msgstr ""
+msgstr "algorithme"
 
 # File: /usr/core/src/www/interfaces.php, line: 2583
 msgid "protocol"
-msgstr ""
+msgstr "protocole"
 
 # File: /usr/core/src/www/interfaces.php, line: 2581
 msgid "authname"
@@ -13910,12 +13934,15 @@ msgstr "Configuration IPv6 statique"
 # File: /usr/core/src/www/interfaces.php, line: 2303
 msgid "%sClick here%s for advanced PPTP and L2TP configuration options."
 msgstr ""
+"%sCliquez ici%s pour les options avancées de configuration PPTP et L2TP."
 
 # File: /usr/core/src/www/interfaces.php, line: 2301
 msgid ""
 "%sClick here%s for additional PPTP and L2TP configuration options. Save "
 "first if you made changes."
 msgstr ""
+"%sCliquez ici%s pour les options supplémentaires de configuration PPTP et "
+"L2TP. Enregistrez au préalable si vous avez effectué des modifications."
 
 # File: src/www/interfaces.php, line: 2780
 # File: src/www/interfaces_ppps_edit.php, line: 200
@@ -13938,12 +13965,16 @@ msgid ""
 "%sClick here%s for advanced PPPoE configuration options and MLPPP "
 "configuration."
 msgstr ""
+"%sCliquez ici%s pour les options avancées de configuration PPPoE et de "
+"configuration MLPPP."
 
 # File: /usr/core/src/www/interfaces.php, line: 2220
 msgid ""
 "%sClick here%s for additional PPPoE configuration options. Save first if you "
 "made changes."
 msgstr ""
+"%sCliquez ici%s pour les options supplémentaires de configuration PPPoE. "
+"Enregistrez au préalable si vous avez effectué des modifications."
 
 # File: src/www/interfaces.php, line: 2729
 msgid "Advanced and MLPPP"
@@ -13992,11 +14023,11 @@ msgstr "Configuration PPPoE"
 
 # File: /usr/core/src/www/interfaces.php, line: 2158
 msgid "%sClick here%s to create a PPP configuration."
-msgstr ""
+msgstr "%sCliquez ici%s pour créer une configuration PPP."
 
 # File: /usr/core/src/www/interfaces.php, line: 2156
 msgid "%sClick here%s to edit PPP configuration."
-msgstr ""
+msgstr "%sCliquez ici%s pour modifier la configuration PPP."
 
 # File: src/www/interfaces.php, line: 2620
 msgid "Advanced PPP"
@@ -14105,7 +14136,7 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 2032
 msgid "Lease Requirements"
-msgstr ""
+msgstr "Prérequis des Baux"
 
 # File: /usr/core/src/www/interfaces.php, line: 2002
 msgid ""
@@ -14485,21 +14516,21 @@ msgstr "Une adresse MAC valide doit être spécifiée."
 
 # File: src/www/interfaces.php, line: 703
 msgid "A valid PPTP remote IP address must be specified."
-msgstr ""
+msgstr "Une adresse IP distante PPTP valide doit être renseignée."
 
 # File: src/www/interfaces.php, line: 701
 msgid "A valid PPTP subnet bit count must be specified."
-msgstr ""
+msgstr "Un nombre de bits valide pour le sous-réseau PPTP doit être renseigné."
 
 # File: src/www/interfaces.php, line: 699
 msgid "A valid PPTP local IP address must be specified."
-msgstr ""
+msgstr "Une adresse IP locale PPTP valide doit être renseignée."
 
 # File: src/www/interfaces.php, line: 689
 # File: src/www/interfaces.php, line: 705
 # File: src/www/interfaces_ppps_edit.php, line: 218
 msgid "The idle timeout value must be an integer."
-msgstr ""
+msgstr "La valeur du délai d'inactivité doit être un entier."
 
 # File: src/www/interfaces.php, line: 687
 msgid "The service name contains invalid characters."
@@ -14816,6 +14847,8 @@ msgid ""
 "You can also <a href=\"status_filter_reload.php\">monitor</a> the filter "
 "reload progress."
 msgstr ""
+"Vous pouvez également <a href=\"status_filter_reload.php\">superviser</a> la "
+"progression du rechargement du filtrage."
 
 # File: src/www/guiconfig.inc, line: 375
 msgid "The changes have been applied successfully."
