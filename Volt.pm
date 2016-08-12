@@ -19,7 +19,7 @@ sub extract {
     # Volt Template:
     $line = 1;
     pos($_) = 0;
-    while (m/\G(.*?(?<!\{)\{\{(?!\{).*?lang\._\('(.*?)'\).*?\|?.*?\}\})/sg) {
+    while (m/\G(.*?(?<!\{)\{\{(?!\{).*?[:]?\s*?lang\._\('(.*?)'\)\s*?[,\]]?.*?\|?.*?\}\})/sg) {
         my ( $vars, $str ) = ( '', $2 );
         $line += ( () = ( $1 =~ /\n/g ) );    # cryptocontext!
         $self->add_entry( $str, $line, $vars );
