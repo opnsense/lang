@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-08 12:14+0000\n"
+"POT-Creation-Date: 2016-08-13 11:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,8 +169,8 @@ msgid ""
 "You need to bind each OpenVPN client to enable its management daemon: use "
 "'Local port' setting in the OpenVPN client screen"
 msgstr ""
-"È necessario associare ogni client OpenVPN per abilitare il relativo demone di gestione:"
-" nelle impostazioni del client OpenVPN seleziona 'Local Port'"
+"È necessario associare ogni client OpenVPN per abilitare il relativo demone "
+"di gestione: nelle impostazioni del client OpenVPN seleziona 'Local Port'"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 193
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 246
@@ -337,7 +337,8 @@ msgstr "%s4%s -- Intervallo d'uso normale."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1685
 msgid "%s2,3%s -- show TLS negotiations & route info."
-msgstr "%s2,3%s -- mostra le negoziazioni TLS e le informazioni di instradamento."
+msgstr ""
+"%s2,3%s -- mostra le negoziazioni TLS e le informazioni di instradamento."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1684
 msgid ""
@@ -347,7 +348,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1683
 msgid "%s0%s -- No output except fatal errors."
-msgstr ""
+msgstr "%s0%s -- Nessun output, solo errori fatali."
 
 # File: src/www/vpn_openvpn_server.php, line: 1660
 msgid ""
@@ -362,9 +363,10 @@ msgid ""
 "Use a different management port on clients. The default port is 166. Specify "
 "a different port if the client machines need to select from multiple OpenVPN "
 "links."
-msgstr "Usa una diversa porta di controllo sui client. Quella di default è 166. "
-"Specifica una porta diversa se le macchine client necessitano di scegliere tra "
-"più collegamenti OpenVPN."
+msgstr ""
+"Usa una diversa porta di controllo sui client. Quella di default è 166. "
+"Specifica una porta diversa se le macchine client necessitano di scegliere "
+"tra più collegamenti OpenVPN."
 
 # File: src/www/vpn_openvpn_server.php, line: 1636
 msgid "Client Management Port"
@@ -372,7 +374,7 @@ msgstr "Porta di controllo client"
 
 # File: src/www/vpn_openvpn_server.php, line: 1601
 msgid "Scope ID"
-msgstr ""
+msgstr "ID Scopo"
 
 # File: src/www/vpn_openvpn_server.php, line: 1540
 msgid ""
@@ -380,6 +382,9 @@ msgid ""
 "and ''ipconfig /registerdns'' on connection initiation. This is known to "
 "kick Windows into recognizing pushed DNS servers."
 msgstr ""
+"Esegui ''net stop dnscache'', ''net start dnscache'', ''ipconfig /flushdns'' "
+"e ''ipconfig /registerdns'' all'inizio della connessione. Serve per forzare "
+"Windows a riconoscere i server DNS che gli vengono passati."
 
 # File: src/www/vpn_openvpn_server.php, line: 1535
 msgid "Force DNS cache update"
@@ -391,18 +396,25 @@ msgid ""
 "(iOS/Android). Others may break if it is present, such as older versions of "
 "OpenVPN or clients such as Yealink phones."
 msgstr ""
+"Alcuni client possono richiederlo persino per IPv6, come OpenVPN Connect "
+"(iOS/Android). Altri invece si guastano se è presente, come le più vecchie "
+"versioni di OpenVPN o client tipo i telefoni Yealink."
 
 # File: src/www/vpn_openvpn_server.php, line: 1485
 msgid ""
 "Relevant when supplying a virtual adapter IP address to clients when using "
 "tun mode on IPv4."
 msgstr ""
+"Importante quando si eroga ai client un indirizzo IP su scheda virtuale se "
+"si usa modalità tunnel in IPv4."
 
 # File: src/www/vpn_openvpn_server.php, line: 1484
 msgid ""
 "Allocate only one IP per client (topology subnet), rather than an isolated "
 "subnet per client (topology net30)."
 msgstr ""
+"Predisponi solo un IP per client (topologia sottorete), invece di una "
+"sottorete isolata per client (topologia net30)."
 
 # File: src/www/vpn_openvpn_server.php, line: 1479
 msgid "Topology"
@@ -410,7 +422,8 @@ msgstr "Topologia"
 
 # File: src/www/vpn_openvpn_server.php, line: 1473
 msgid "Provide a virtual adapter IP address to clients (see Tunnel Network)"
-msgstr "Fornisci un indirizzo IP su scheda virtuale ai client (vedi Tunnel Network)"
+msgstr ""
+"Fornisci un indirizzo IP su scheda virtuale ai client (vedi Tunnel Network)"
 
 # File: src/www/vpn_openvpn_server.php, line: 1468
 msgid "Address Pool"
@@ -420,7 +433,7 @@ msgstr "Insieme di indirizzi"
 msgid ""
 "Allow connected clients to retain their connections if their IP address "
 "changes"
-msgstr ""
+msgstr "Consenti ai client di conservare le loro connessioni se cambiano IP"
 
 # File: src/www/vpn_openvpn_server.php, line: 1457
 msgid "Dynamic IP"
@@ -432,6 +445,9 @@ msgid ""
 "Name.<br />NOTE: This is not generally recommended, but may be needed for "
 "some scenarios."
 msgstr ""
+"Consenti più connessioni contemporanee per i client che usano lo stesso "
+"Common Name.<br />NOTA: Generalmente non consigliato, ma può essere "
+"necessario in alcuni scenari."
 
 # File: src/www/vpn_openvpn_server.php, line: 1429
 msgid "Duplicate Connections"
@@ -451,12 +467,18 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently"
 msgstr ""
+"Comprimi i pacchetti nel tunnel con l'algoritmo LZO. La compressione "
+"adattiva disabiliterà dinamicamente la compressione per un intervallo di "
+"tempo se OpenVPN rileva che i dati nei pacchetti non vengono compressi in "
+"modo efficiente"
 
 # File: src/www/vpn_openvpn_server.php, line: 1382
 msgid ""
 "Specify the maximum number of clients allowed to concurrently connect to "
 "this server"
 msgstr ""
+"Specifica il numero massimo di client ammessi a connettersi "
+"contemporaneamente a questo server"
 
 # File: src/www/vpn_openvpn_server.php, line: 1378
 msgid "Concurrent connections"
@@ -470,6 +492,11 @@ msgid ""
 "this is a site-to-site VPN, enter the remote LAN/s here. You may leave this "
 "blank if you don't want a site-to-site VPN"
 msgstr ""
+"Queste sono le reti IPv6 che verranno instradate attraverso il tunnel, così "
+"che una VPN site-to-site può essere stabilita senza cambiare manualmente le "
+"tabelle di instradamento. Espresse come una lista, separata da virgole, di "
+"uno o più IP/PREFISSO. Se questa è una VPN site-to-site, inserisci la (o le) "
+"LAN remota qui. Puoi lasciare in bianco se non vuoi una VPN site-to-site"
 
 # File: src/www/vpn_openvpn_server.php, line: 1352
 msgid ""
@@ -479,6 +506,11 @@ msgid ""
 "this is a site-to-site VPN, enter the remote LAN/s here. You may leave this "
 "blank if you don't want a site-to-site VPN"
 msgstr ""
+"Queste sono le reti IPv4 che saranno instradate attraverso il tunnel, così "
+"che una VPN site-to-site può essere stabilita senza cambiare manualmente le "
+"tabelle di instradamento. Espresse come una lista, separata da virgole, di "
+"uno o più intervalli CIDR. Se questa è una VPN site-to-site, inserisci la (o "
+"le) LAN remota qui. Puoi lasciare in bianco se non vuoi una VPN site-to-site"
 
 # File: src/www/vpn_openvpn_server.php, line: 1338
 msgid ""
@@ -488,6 +520,11 @@ msgid ""
 "through this tunnel on the remote machine. This is generally set to your LAN "
 "network"
 msgstr ""
+"Queste sono le reti IPv6 che saranno accessibili dall'estremo remoto. "
+"Espresse come una lista, separata da virgole, di uno o più IP/PREFISSI. Puoi "
+"lasciare in bianco se non vuoi aggiungere un instradamento alla rete locale "
+"attraverso questo tunnel sulla macchina remota. Questo di solito corrisponde "
+"alla rete della tua LAN"
 
 # File: src/www/vpn_openvpn_server.php, line: 1324
 msgid ""
@@ -497,6 +534,11 @@ msgid ""
 "network through this tunnel on the remote machine. This is generally set to "
 "your LAN network"
 msgstr ""
+"Queste sono le reti IPv4 che saranno accessibili dall'estremo remoto. "
+"Espresse come una lista, separata da virgole, di uno o più intervalli CIDR. "
+"Puoi lasciare in bianco se non vuoi aggiungere un instradamento alla rete "
+"locale attraverso questo tunnel sulla macchina remota. Questo di solito "
+"corrisponde alla rete della tua LAN"
 
 # File: src/www/vpn_openvpn_server.php, line: 1302
 msgid "Server Bridge DHCP End"
@@ -543,6 +585,11 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"Questa è la rete virtuale IPv6 usata per le comunicazioni private tra questo "
+"server e i client espressa in CIDR (es. fe80::/64). Il primo indirizzo della "
+"rete verrà assegnato alla interfaccia virtuale del server. Gli indirizzi "
+"rimanenti possono opzionalmente essere assegnati ai client che si "
+"connettono. (vedi Spazio di indirizzi)"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1217
 msgid ""
@@ -552,12 +599,19 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"Questo è l'indirizzo IPv4 della rete virtuale usato per le comunicazioni "
+"private tra questo server e i client espresso con CIDR (es. 10.0.8.0/24). Il "
+"primo indirizzo di rete verrà assegnato all'interfaccia virtuale del server. "
+"Gli indirizzi rimanenti possono opzionalmente essere assegnati ai client che "
+"si connettono. (vedi Spazio di indirizzi)"
 
 # File: src/www/vpn_openvpn_server.php, line: 1197
 msgid ""
 "When authenticating users, enforce a match between the common name of the "
 "client certificate and the username given at login."
 msgstr ""
+"Quando gli utenti si autenticano, forza una corrispondenza tra il Common "
+"Name del certificato client e il nome utente dato al login."
 
 # File: src/www/vpn_openvpn_server.php, line: 1192
 msgid "Strict User/CN Matching"
@@ -640,6 +694,8 @@ msgstr ""
 msgid ""
 "Set this option to disable this server without removing it from the list"
 msgstr ""
+"Imposta questa opzione per disabilitare questo server senza rimuoverlo dalla "
+"lista"
 
 # File: src/www/vpn_openvpn_server.php, line: 426
 msgid "Do you really want to delete this server?"
@@ -672,7 +728,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_server.php, line: 293
 msgid "Tunnel network"
-msgstr ""
+msgstr "Rete tunnel"
 
 # File: src/www/vpn_openvpn_server.php, line: 186
 msgid ""
@@ -686,54 +742,57 @@ msgid ""
 "usually due to a CA mismatch between the OpenVPN server instance and the "
 "client certificates found in the User Manager."
 msgstr ""
+"Se ti aspetti di vedere un certo client nella lista e invece non c'è, di "
+"solito è perché manca la corrispondenza di CA tra l'istanza del server "
+"OpenVPN e i certificati del client trovati in Gestione Utente."
 
 # File: src/www/vpn_openvpn_export.php, line: 803
 msgid "Tunnelblick"
-msgstr ""
+msgstr "Tunnelblick"
 
 # File: src/www/vpn_openvpn_export.php, line: 803
 msgid "Free client for OSX"
-msgstr ""
+msgstr "Client gratuito per OSX"
 
 # File: src/www/vpn_openvpn_export.php, line: 802
 msgid "Viscosity"
-msgstr ""
+msgstr "Viscosity"
 
 # File: src/www/vpn_openvpn_export.php, line: 802
 msgid "Recommended client for Mac OSX"
-msgstr ""
+msgstr "Client suggerito per Mac OSX"
 
 # File: src/www/vpn_openvpn_export.php, line: 801
 msgid "iOS (App Store)"
-msgstr ""
+msgstr "iOS (App Store)"
 
 # File: src/www/vpn_openvpn_export.php, line: 801
 msgid "Recommended client for iOS"
-msgstr ""
+msgstr "Client suggerito per iOS"
 
 # File: src/www/vpn_openvpn_export.php, line: 801
 msgid "OpenVPN Connect"
-msgstr ""
+msgstr "OpenVPN Connect"
 
 # File: src/www/vpn_openvpn_export.php, line: 801
 msgid "Android (Google Play)"
-msgstr ""
+msgstr "Android (Google Play)"
 
 # File: src/www/vpn_openvpn_export.php, line: 800
 msgid "For older versions of Android"
-msgstr ""
+msgstr "Per versioni di Android più vecchie"
 
 # File: src/www/vpn_openvpn_export.php, line: 800
 msgid "FEAT VPN For Android"
-msgstr ""
+msgstr "FEAT VPN per Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 799
 msgid "Recommended client for Android"
-msgstr ""
+msgstr "Client suggerito per Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 799
 msgid "OpenVPN For Android"
-msgstr ""
+msgstr "OpenVPN per Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 798
 msgid "OpenVPN Community Client"
@@ -747,7 +806,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_export.php, line: 797
 msgid "Links to OpenVPN clients for various platforms:"
-msgstr ""
+msgstr "Collegamenti a client OpenVPN per varie piattaforme:"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 719
 msgid ""
@@ -770,23 +829,23 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 654
 msgid "SNOM SIP Handset"
-msgstr ""
+msgstr "Telefono SIP SNOM"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 653
 msgid "T38G (2)"
-msgstr ""
+msgstr "T38G (2)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 652
 msgid "T38G (1)"
-msgstr ""
+msgstr "T38G (1)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 651
 msgid "T28"
-msgstr ""
+msgstr "T28"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 650
 msgid "Yealink SIP Handsets"
-msgstr ""
+msgstr "Telefoni SIP Yealink"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate with External Auth"
@@ -806,31 +865,31 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 645
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 688
 msgid "Mac OSX"
-msgstr ""
+msgstr "Mac OSX"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 611
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 686
 msgid "x64-win6"
-msgstr ""
+msgstr "x64-win6"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 610
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 642
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 685
 msgid "x86-win6"
-msgstr ""
+msgstr "x86-win6"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 609
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 641
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 684
 msgid "x64-xp"
-msgstr ""
+msgstr "x64-xp"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 608
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 640
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 683
 msgid "x86-xp"
-msgstr ""
+msgstr "x86-xp"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 607
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 639
@@ -842,19 +901,19 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 637
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 680
 msgid "Others"
-msgstr ""
+msgstr "Altri"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 604
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 636
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "OpenVPN Connect (iOS/Android)"
-msgstr ""
+msgstr "OpenVPN Connect (iOS/Android)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 603
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 635
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 678
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 602
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 634
@@ -879,7 +938,7 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 673
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 705
 msgid "Standard Configurations"
-msgstr ""
+msgstr "Configurazioni standard"
 
 # File: src/www/vpn_openvpn_export.php, line: 784
 msgid "Client Install Packages"
@@ -897,7 +956,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_export.php, line: 774
 msgid "Additional configuration options"
-msgstr ""
+msgstr "Opzioni di configurazione addizionali"
 
 # File: src/www/vpn_openvpn_export.php, line: 766
 msgid ""
@@ -930,18 +989,20 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 518
 msgid "Use a proxy to communicate with the server."
-msgstr ""
+msgstr "Usa un proxy per comunicare con il server."
 
 # File: src/www/vpn_openvpn_export.php, line: 722
 # File: src/www/vpn_openvpn_export_shared.php, line: 347
 msgid "Use Proxy"
-msgstr ""
+msgstr "Usa un Proxy"
 
 # File: src/www/vpn_openvpn_export.php, line: 711
 msgid ""
 "Use a password to protect the pkcs12 file contents or key in Viscosity "
 "bundle."
 msgstr ""
+"Usa una password per proteggere i contenuti del file pkcs12 o una chiave nel "
+"bundle Viscosity."
 
 # File: src/www/vpn_openvpn_export.php, line: 707
 msgid "Use Microsoft Certificate Storage instead of local files."
@@ -956,16 +1017,20 @@ msgid ""
 "NOTE: Not supported on older clients. Automatically disabled for Yealink and "
 "Snom configurations."
 msgstr ""
+"NOTA: Non supportato su client più vecchi. Disabilitato automaticamente per "
+"le configurazioni di Yealink e Snom."
 
 # File: src/www/vpn_openvpn_export.php, line: 697
 msgid ""
 "Use a random local source port (lport) for traffic from the client. Without "
 "this set, two clients may not run concurrently."
 msgstr ""
+"Usa una porta locale (lport) a caso come sorgente per il traffico del "
+"client. Altrimenti due client non possono funzionare contemporaneamente."
 
 # File: src/www/vpn_openvpn_export.php, line: 693
 msgid "Use Random Local Port"
-msgstr ""
+msgstr "Usa una porta locale a caso"
 
 # File: src/www/vpn_openvpn_export.php, line: 688
 msgid ""
@@ -992,7 +1057,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_export.php, line: 683
 msgid "Do not verify the server CN"
-msgstr ""
+msgstr "Non verificare il CN del server"
 
 # File: src/www/vpn_openvpn_export.php, line: 682
 msgid "Use tls-remote and quote the server CN"
@@ -1008,7 +1073,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_export.php, line: 677
 msgid "Verify Server CN"
-msgstr ""
+msgstr "Verifica il CN del server"
 
 # File: src/www/vpn_openvpn_export.php, line: 670
 # File: src/www/vpn_openvpn_export_shared.php, line: 341
@@ -1016,11 +1081,13 @@ msgid ""
 "Enter the hostname or IP address the client will use to connect to this "
 "server."
 msgstr ""
+"Inserisci il nome host o l'indirizzo IP che il client userà per connettersi "
+"a questo server."
 
 # File: src/www/vpn_openvpn_export.php, line: 645
 # File: src/www/vpn_openvpn_export_shared.php, line: 326
 msgid "Installation hostname"
-msgstr ""
+msgstr "Nome host di installazione"
 
 # File: src/www/vpn_openvpn_export.php, line: 644
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
@@ -1033,41 +1100,41 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 642
 # File: src/www/vpn_openvpn_export_shared.php, line: 325
 msgid "Interface IP Address"
-msgstr ""
+msgstr "Indirizzo IP dell'interfaccia"
 
 # File: src/www/vpn_openvpn_export.php, line: 639
 # File: src/www/vpn_openvpn_export_shared.php, line: 322
 msgid "Host Name Resolution"
-msgstr ""
+msgstr "Risoluzione del nome host"
 
 # File: src/www/vpn_openvpn_export.php, line: 626
 msgid "Remote Access Server"
-msgstr ""
+msgstr "Server di accesso remoto"
 
 # File: src/www/vpn_openvpn_export.php, line: 245
 # File: src/www/vpn_openvpn_export_shared.php, line: 118
 msgid "Failed to export config files!"
-msgstr ""
+msgstr "Esportazione dei file di configurazione fallita!"
 
 # File: src/www/vpn_openvpn_export.php, line: 183
 # File: src/www/vpn_openvpn_export_shared.php, line: 105
 msgid "You need to specify a password with the proxy user."
-msgstr ""
+msgstr "Devi specificare una password con l'utente del proxy."
 
 # File: src/www/vpn_openvpn_export.php, line: 178
 # File: src/www/vpn_openvpn_export_shared.php, line: 100
 msgid "You need to specify a username with the proxy config."
-msgstr ""
+msgstr "Devi specificare un nome utente con la configurazione del proxy."
 
 # File: src/www/vpn_openvpn_export.php, line: 167
 # File: src/www/vpn_openvpn_export_shared.php, line: 92
 msgid "You need to specify a port for the proxy ip."
-msgstr ""
+msgstr "Devi specificare una porta per l'IP del Proxy."
 
 # File: src/www/vpn_openvpn_export.php, line: 162
 # File: src/www/vpn_openvpn_export_shared.php, line: 87
 msgid "You need to specify an address for the proxy port."
-msgstr ""
+msgstr "Devi specificare un indirizzo per la porta del proxy."
 
 # File: src/www/vpn_openvpn_export.php, line: 151
 msgid ""
@@ -1083,7 +1150,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 138
 # File: src/www/vpn_openvpn_export_shared.php, line: 78
 msgid "You need to specify an IP or hostname."
-msgstr ""
+msgstr "Devi specificare un IP o un nome host."
 
 # File: src/www/vpn_openvpn_csc.php, line: 649
 msgid "Additional OpenVPN client specific overrides can be added here."
@@ -1091,12 +1158,12 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_csc.php, line: 638
 msgid "delete csc"
-msgstr ""
+msgstr "elimina csc"
 
 # File: src/www/vpn_openvpn_csc.php, line: 585
 # File: src/www/vpn_openvpn_server.php, line: 1661
 msgid "EXAMPLE: push \"route 10.0.0.0 255.255.255.0\""
-msgstr ""
+msgstr "ESEMPIO: push \"route 10.0.0.0 255.255.255.0\""
 
 # File: src/www/vpn_openvpn_csc.php, line: 584
 msgid ""
@@ -1119,11 +1186,14 @@ msgid ""
 "to a WINS server), m-node (broadcast then query name server), and h-node ("
 "query name server, then broadcast)."
 msgstr ""
+"Possibili opzioni: b-node (broadcast), p-node (richieste di nomi punto-punto "
+"a un server WINS), m-node (broadcast, poi chiedi al server dei nomi), and h-"
+"node (chiedi al server dei nomi, poi broadcast)."
 
 # File: src/www/vpn_openvpn_csc.php, line: 530
 # File: src/www/vpn_openvpn_server.php, line: 1578
 msgid "Node Type"
-msgstr ""
+msgstr "Tipo Nodo"
 
 # File: src/www/vpn_openvpn_csc.php, line: 526
 # File: src/www/vpn_openvpn_server.php, line: 1573
@@ -1131,36 +1201,38 @@ msgid ""
 "If this option is not set, all NetBIOS-over-TCP/IP options (including WINS) "
 "will be disabled"
 msgstr ""
+"Se questa opzione non viene impostata, tutte le opzioni di NetBIOS su TCP/IP "
+"(WINS incluso) verranno disabilitate"
 
 # File: src/www/vpn_openvpn_csc.php, line: 524
 # File: src/www/vpn_openvpn_server.php, line: 1572
 msgid "Enable NetBIOS over TCP/IP"
-msgstr ""
+msgstr "Abilita NetBIOS su TCP/IP"
 
 # File: src/www/vpn_openvpn_csc.php, line: 521
 # File: src/www/vpn_openvpn_server.php, line: 1567
 msgid "NetBIOS Options"
-msgstr ""
+msgstr "Opzioni NetBIOS"
 
 # File: src/www/vpn_openvpn_csc.php, line: 516
 # File: src/www/vpn_openvpn_server.php, line: 1561
 msgid "Provide a NTP server list to clients"
-msgstr ""
+msgstr "Fornisci una lista di server NTP ai client"
 
 # File: src/www/vpn_openvpn_csc.php, line: 506
 # File: src/www/vpn_openvpn_server.php, line: 1546
 msgid "NTP Servers"
-msgstr ""
+msgstr "Server NTP"
 
 # File: src/www/vpn_openvpn_csc.php, line: 497
 # File: src/www/vpn_openvpn_server.php, line: 1523
 msgid "Server #4:"
-msgstr ""
+msgstr "Server n. 4:"
 
 # File: src/www/vpn_openvpn_csc.php, line: 495
 # File: src/www/vpn_openvpn_server.php, line: 1519
 msgid "Server #3:"
-msgstr ""
+msgstr "Server n. 3:"
 
 # File: src/www/vpn_openvpn_csc.php, line: 493
 # File: src/www/vpn_openvpn_csc.php, line: 512
@@ -1169,7 +1241,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1555
 # File: src/www/vpn_openvpn_server.php, line: 1629
 msgid "Server #2:"
-msgstr ""
+msgstr "Server n. 2:"
 
 # File: src/www/vpn_openvpn_csc.php, line: 491
 # File: src/www/vpn_openvpn_csc.php, line: 510
@@ -1178,11 +1250,13 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1551
 # File: src/www/vpn_openvpn_server.php, line: 1625
 msgid "Server #1:"
-msgstr ""
+msgstr "Server n. 1:"
 
 # File: src/www/vpn_openvpn_csc.php, line: 470
 msgid "Prevent this client from receiving any server-defined client settings."
 msgstr ""
+"Impedisci a questo client di ricevere qualsiasi impostazione definita dal "
+"server."
 
 # File: src/www/vpn_openvpn_csc.php, line: 466
 msgid "Server Definitions"
@@ -1192,12 +1266,12 @@ msgstr ""
 # File: src/www/vpn_openvpn_csc.php, line: 463
 # File: src/www/vpn_openvpn_server.php, line: 1454
 msgid "Client Settings"
-msgstr ""
+msgstr "Impostazioni client"
 
 # File: src/www/vpn_openvpn_csc.php, line: 455
 # File: src/www/vpn_openvpn_server.php, line: 1314
 msgid "Force all client generated traffic through the tunnel"
-msgstr ""
+msgstr "Forza tutto il traffico generato dal client dentro al tunnel"
 
 # File: src/www/vpn_openvpn_csc.php, line: 451
 # File: src/www/vpn_openvpn_server.php, line: 1309
@@ -1209,6 +1283,8 @@ msgid ""
 "NOTE: Remember to add these subnets to the IPv6 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"NOTA: Ricorda di aggiungere queste sottoreti alla lista delle Reti Remote "
+"IPv6 nelle corrispondenti impostazioni del server OpenVPN."
 
 # File: src/www/vpn_openvpn_csc.php, line: 439
 msgid ""
@@ -1217,12 +1293,18 @@ msgid ""
 "comma-separated list of one or more IP/PREFIX networks. You may leave this "
 "blank if there are no client-side networks to be routed."
 msgstr ""
+"Queste sono le reti IPv6 che verranno instradate a questo client "
+"specificamente attraverso iroute, così che si possa stabilire una VPN site-"
+"to-site. Espresse come una lista, separata da virgole, di una o più reti IP/"
+"PREFISSO. Puoi lasciare in bianco se non ci sono reti client da instradare."
 
 # File: src/www/vpn_openvpn_csc.php, line: 429
 msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"NOTA: Ricorda di aggiungere queste sottoreti alla lista delle Reti Remote "
+"IPv4 nelle corrispondenti impostazioni del server OpenVPN."
 
 # File: src/www/vpn_openvpn_csc.php, line: 423
 msgid ""
@@ -1231,6 +1313,10 @@ msgid ""
 "comma-separated list of one or more CIDR ranges. You may leave this blank if "
 "there are no client-side networks to be routed"
 msgstr ""
+"Queste sono le reti IPv4 che verranno instradate specificamente a questo "
+"client attraverso iroute, così che si possa stabilire una VPN site-to-site. "
+"Espresse come una lista, separata da virgole, di uno o più intervalli CIDR. "
+"Puoi lasciare in bianco se non ci sono reti client da instradare."
 
 # File: src/www/vpn_openvpn_csc.php, line: 411
 msgid ""
@@ -1238,11 +1324,14 @@ msgid ""
 "client. Expressed as a comma-separated list of one or more IP/PREFIX "
 "networks."
 msgstr ""
+"Queste sono le reti IPv6 che saranno accessibili da questo particolare "
+"client. Espresse come una lista, separata da virgole, di uno o più reti "
+"IP/PREFISSO."
 
 # File: src/www/vpn_openvpn_csc.php, line: 407
 # File: src/www/vpn_openvpn_server.php, line: 1334
 msgid "IPv6 Local Network/s"
-msgstr ""
+msgstr "Rete Locale IPv6"
 
 # File: src/www/vpn_openvpn_csc.php, line: 401
 # File: src/www/vpn_openvpn_csc.php, line: 413
@@ -1250,44 +1339,52 @@ msgid ""
 "NOTE: You do not need to specify networks here if they have already been "
 "defined on the main server configuration."
 msgstr ""
+"NOTA: Non devi specificare le reti qui se sono già state definite nella "
+"configurazione principale del server."
 
 # File: src/www/vpn_openvpn_csc.php, line: 399
 msgid ""
 "These are the IPv4 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more CIDR ranges."
 msgstr ""
+"Queste sono le reti IPv4 che saranno accessibili da questo client "
+"particolare. Espresse come una lista, separate da virgola, di uno o più "
+"intervalli CIDR."
 
 # File: src/www/vpn_openvpn_csc.php, line: 395
 # File: src/www/vpn_openvpn_server.php, line: 1320
 msgid "IPv4 Local Network/s"
-msgstr ""
+msgstr "Rete Locale IPv4"
 
 # File: src/www/vpn_openvpn_csc.php, line: 380
 # File: src/www/vpn_openvpn_server.php, line: 1712
 msgid "Tunnel Network"
-msgstr ""
+msgstr "Rete Tunnel"
 
 # File: src/www/vpn_openvpn_csc.php, line: 367
 msgid ""
 "Don't use this option to permanently disable a client due to a compromised "
 "key or password. Use a CRL (certificate revocation list) instead"
 msgstr ""
+"Non usare questa opzione per disabilitare permanentemente un client a causa "
+"di una compromissione di chiave o di password. Usa invece una CRL (lista di "
+"revoca certificati)"
 
 # File: src/www/vpn_openvpn_csc.php, line: 366
 msgid "Block this client connection based on its common name"
-msgstr ""
+msgstr "Blocca la connessione di questo client sulla base del suo Common Name"
 
 # File: src/www/vpn_openvpn_csc.php, line: 362
 msgid "Connection blocking"
-msgstr ""
+msgstr "Bloccare la connessione"
 
 # File: src/www/vpn_openvpn_csc.php, line: 348
 msgid "Enter the client's X.509 common name here"
-msgstr ""
+msgstr "Inserisci qui il Common Name X.509 del client"
 
 # File: src/www/vpn_openvpn_csc.php, line: 344
 msgid "Common name"
-msgstr ""
+msgstr "Common Name"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 414
 msgid ""
@@ -1303,43 +1400,43 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_csc.php, line: 297
 msgid "add csc"
-msgstr ""
+msgstr "aggiungi csc"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 269
 msgid "Do you really want to delete the selected csc's?"
-msgstr ""
+msgstr "Vuoi davvero eliminare le csc selezionate?"
 
 # File: src/www/vpn_openvpn_csc.php, line: 219
 msgid "Do you really want to delete this csc?"
-msgstr ""
+msgstr "Vuoi davvero eliminare questa csc?"
 
 # File: src/www/vpn_openvpn_csc.php, line: 146
 # File: src/www/vpn_openvpn_server.php, line: 259
 msgid "The field 'NTP Server #4' must contain a valid IP address"
-msgstr ""
+msgstr "Il campo 'Server NTP n. 4' deve contenere un indirizzo IP valido"
 
 # File: src/www/vpn_openvpn_csc.php, line: 143
 # File: src/www/vpn_openvpn_server.php, line: 256
 msgid "The field 'NTP Server #3' must contain a valid IP address"
-msgstr ""
+msgstr "Il campo 'Server NTP n. 3' deve contenere un indirizzo IP valido"
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1134
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 728
 msgid "move selected items to end"
-msgstr ""
+msgstr "sposta gli elementi selezionati alla fine"
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1123
 msgid "clone client"
-msgstr ""
+msgstr "clona il client"
 
 # File: src/www/vpn_openvpn_client.php, line: 1081
 msgid "delete client"
-msgstr ""
+msgstr "elimina il client"
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1114
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 710
 msgid "move selected before this item"
-msgstr ""
+msgstr "sposta la selezione prima di questo elemento"
 
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
@@ -1362,7 +1459,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
 msgid "%snone%s -- No output except fatal errors."
-msgstr ""
+msgstr "%snone%s -- Nessun output tranne errori fatali."
 
 # File: src/www/vpn_openvpn_client.php, line: 1011
 # File: src/www/vpn_openvpn_server.php, line: 1680
@@ -1371,26 +1468,31 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
+"Ciascun livello mostra tutte le informazioni dei livelli precedenti. Il "
+"livello 3 è quello suggerito se vuoi un buon sunto di ciò che accade senza "
+"essere sommerso dall'output."
 
 # File: src/www/vpn_openvpn_client.php, line: 997
 # File: src/www/vpn_openvpn_server.php, line: 1666
 msgid "Verbosity level"
-msgstr ""
+msgstr "Livello di verbosità"
 
 # File: src/www/vpn_openvpn_client.php, line: 992
 msgid "EXAMPLE:"
-msgstr ""
+msgstr "ESEMPIO:"
 
 # File: src/www/vpn_openvpn_client.php, line: 991
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "configuration here, separated by a semicolon"
 msgstr ""
+"Inserisci qui qualsiasi altra opzione che vuoi aggiungere alla "
+"configurazione del client OpenVPN, separata da un punto e virgola"
 
 # File: src/www/vpn_openvpn_client.php, line: 984
 # File: src/www/vpn_openvpn_server.php, line: 1653
 msgid "Advanced configuration"
-msgstr ""
+msgstr "Configurazione avanzata"
 
 # File: src/www/vpn_openvpn_client.php, line: 976
 msgid ""
@@ -1398,16 +1500,23 @@ msgid ""
 "routing table, however note that this option still allows the server to set "
 "the TCP/IP properties of the client's TUN/TAP interface"
 msgstr ""
+"Questa opzione impedisce effettivamente al server di aggiungere "
+"instradamenti alla tabella di instradamento del client, tuttavia nota che "
+"questa opzione consente comunque al server di impostare le proprietà TCP/IP "
+"dell'interfaccia TUN/TAP del client"
 
 # File: src/www/vpn_openvpn_client.php, line: 972
 msgid "Don't add/remove routes"
-msgstr ""
+msgstr "Non aggiungere/rimuovere instradamenti"
 
 # File: src/www/vpn_openvpn_client.php, line: 967
 msgid ""
 "Don't add or remove routes automatically. Instead pass routes to %s--route-"
 "up%s script using environmental variables"
 msgstr ""
+"Non aggiungere o rimuovere instradamenti automaticamente. Piuttosto, passa "
+"gli instradamenti allo script %s--route-up%s attraverso le variabili "
+"d'ambiente"
 
 # File: src/www/vpn_openvpn_client.php, line: 963
 msgid "Don't pull routes"
@@ -1416,12 +1525,12 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 958
 # File: src/www/vpn_openvpn_server.php, line: 1445
 msgid "Don't forward IPv6 traffic"
-msgstr ""
+msgstr "Non inoltrare traffico IPv6"
 
 # File: src/www/vpn_openvpn_client.php, line: 954
 # File: src/www/vpn_openvpn_server.php, line: 1440
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Disabilita IPv6"
 
 # File: src/www/vpn_openvpn_client.php, line: 949
 # File: src/www/vpn_openvpn_server.php, line: 1412
@@ -1429,11 +1538,13 @@ msgid ""
 "Set the TOS IP header value of tunnel packets to match the encapsulated "
 "packet value"
 msgstr ""
+"Imposta il valore dell'intestazione IP TOS ai pacchetti del tunnel così da "
+"corrispondere al valore del pacchetto incapsulato"
 
 # File: src/www/vpn_openvpn_client.php, line: 945
 # File: src/www/vpn_openvpn_server.php, line: 1407
 msgid "Type-of-Service"
-msgstr ""
+msgstr "Type-of-Service"
 
 # File: src/www/vpn_openvpn_client.php, line: 940
 msgid ""
