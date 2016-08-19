@@ -1,19 +1,3 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-23 05:13+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ru/gui/ru.po\n"
-"X-Pootle-Revision: 0\n"
-
 # File: src/www/wizard.php, line: 126
 #, php-format
 msgid "ERROR: Could not parse %s wizard file."
@@ -49,7 +33,7 @@ msgstr "Входящая скорость (бит/с)"
 # File: /usr/core/src/www/widgets/widgets/thermal_sensors.widget.php, line: 152
 #, php-format
 msgid "You can configure a proper Thermal Sensor / Module %shere%s."
-msgstr "Вы можете настроить нужный тепловой датчик или модуль (-и) %shere%s"
+msgstr "Вы можете настроить нужный тепловой датчик или модуль (-и) %sздесь%s."
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 246
 msgid "Core Critical:"
@@ -305,7 +289,8 @@ msgstr "Int."
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 84
 #, php-format
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
-msgstr "CARP-интерфейсы не определены. Нажмите %shere%s, чтобы настроить CARP."
+msgstr ""
+"CARP-интерфейсы не определены. Нажмите %sздесь%s, чтобы настроить CARP."
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 64
 msgid "DISABLED"
@@ -705,6 +690,8 @@ msgid ""
 "Leave this set to SHA1 unless all clients are set to match. SHA1 is the "
 "default for OpenVPN."
 msgstr ""
+"Не изменяйте эти настройки, если все клиенты поддерживают установленный по "
+"умолчанию для OpenVPN алгоритм хеширования SHA1."
 
 # File: src/www/vpn_openvpn_server.php, line: 1046
 msgid "DH Parameters Length"
@@ -873,98 +860,102 @@ msgid ""
 "\"win6\" Windows installers include a new tap-windows6 driver that works "
 "only on Windows Vista and later."
 msgstr ""
+"Установщики Windows XP работают на Windows XP и более поздних версиях. "
+"Установщики Windows Mobile 6 включают в себя новый драйвер виртуального "
+"ethernet-адаптера tap-windows6, который работает только на Windows Vista и "
+"более поздних версиях."
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 707
 msgid "Configuration archive"
-msgstr ""
+msgstr "Архив конфигураций"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 698
 msgid "Other Shared Key OS Client"
-msgstr ""
+msgstr "Другой общий ключ OS-клиента"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 666
 msgid "Authentication Only (No Cert)"
-msgstr ""
+msgstr "Только аутентификация (без сертификата)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 654
 msgid "SNOM SIP Handset"
-msgstr ""
+msgstr "SIP-телефон SNOM"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 653
 msgid "T38G (2)"
-msgstr ""
+msgstr "T38G (2)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 652
 msgid "T38G (1)"
-msgstr ""
+msgstr "T38G (1)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 651
 msgid "T28"
-msgstr ""
+msgstr "T28"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 650
 msgid "Yealink SIP Handsets"
-msgstr ""
+msgstr "SIP-телефоны Yealink "
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate with External Auth"
-msgstr ""
+msgstr "Сертификат с внешней аутентификацией"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate (SSL/TLS, no Auth)"
-msgstr ""
+msgstr "Сертификат (SSL/TLS без аутентификации)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 614
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 646
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 689
 msgid "Viscosity Bundle"
-msgstr ""
+msgstr "Viscosity Bundle"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 613
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 645
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 688
 msgid "Mac OSX"
-msgstr ""
+msgstr "Mac OSX"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 611
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 686
 msgid "x64-win6"
-msgstr ""
+msgstr "x64-win6"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 610
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 642
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 685
 msgid "x86-win6"
-msgstr ""
+msgstr "x86-win6"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 609
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 641
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 684
 msgid "x64-xp"
-msgstr ""
+msgstr "x64-xp"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 608
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 640
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 683
 msgid "x86-xp"
-msgstr ""
+msgstr "x86-xp"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 607
@@ -972,49 +963,49 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 682
 #, php-format
 msgid "Windows Installers (%s-Ix%s)"
-msgstr ""
+msgstr "Установщики Windows (%s-Ix%s)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 605
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 637
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 680
 msgid "Others"
-msgstr ""
+msgstr "Другие"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 604
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 636
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "OpenVPN Connect (iOS/Android)"
-msgstr ""
+msgstr "OpenVPN Connect (iOS/Android)"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 603
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 635
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 678
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 602
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 634
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 677
 msgid "Inline Configurations"
-msgstr ""
+msgstr "Встроенная конфигурация"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 600
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 632
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 675
 msgid "File Only"
-msgstr ""
+msgstr "Только файл"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 599
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 631
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 674
 msgid "Archive"
-msgstr ""
+msgstr "Архив"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 598
@@ -1022,7 +1013,7 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 673
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 705
 msgid "Standard Configurations"
-msgstr ""
+msgstr "Стандартные конфигурации"
 
 # File: src/www/vpn_openvpn_export.php, line: 784
 msgid "Client Install Packages"
@@ -1086,7 +1077,7 @@ msgstr "SOCKS"
 #
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 518
 msgid "Use a proxy to communicate with the server."
-msgstr ""
+msgstr "Использовать прокси для обмена данными с сервером."
 
 # File: src/www/vpn_openvpn_export.php, line: 722
 # File: src/www/vpn_openvpn_export_shared.php, line: 347
@@ -1904,10 +1895,6 @@ msgstr "базовый"
 msgid "Proxy authentication extra options"
 msgstr "Дополнительные опции аутентификации прокси"
 
-# File: src/www/vpn_openvpn_client.php, line: 613
-msgid "Proxy port"
-msgstr "Номер порта прокси-сервера"
-
 # File: src/www/vpn_openvpn_client.php, line: 607
 msgid "Proxy host or address"
 msgstr "Хост или адрес Прокси"
@@ -2199,6 +2186,8 @@ msgid ""
 "In case you need NAT/BINAT on this network specify the address to be "
 "translated."
 msgstr ""
+"Если вам нужен NAT/BINAT в этой сети, укажите адрес, который должен быть "
+"преобразован."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 753
 msgid ""
@@ -2527,11 +2516,6 @@ msgstr "Режим согласования"
 msgid "Must match the setting chosen on the remote side."
 msgstr "Должно соответствовать настройке, выбранной в удалённой части."
 
-# File: src/www/vpn_ipsec_phase1.php, line: 730
-# File: src/www/vpn_openvpn_client.php, line: 621
-msgid "Authentication method"
-msgstr "Метод аутентификации"
-
 # File: src/www/vpn_ipsec_phase1.php, line: 727
 msgid "Phase 1 proposal (Authentication)"
 msgstr "Предложение Phase 1 (Аутентификация)"
@@ -2712,6 +2696,8 @@ msgid ""
 "Please select an identifier (My Identifier) other then 'any' when selecting "
 "'Any' interface"
 msgstr ""
+"Выберите идентификатор (Мой идентификатор), помимо значения «любой» при "
+"выборе любого интерфейса."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 249
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
@@ -2759,7 +2745,7 @@ msgstr "Удалённый шлюз"
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 182
 #, php-format
 msgid "%s can only be used with IKEv2 type VPNs."
-msgstr ""
+msgstr "%s может использоваться только с помощью VPN типа IKEv2."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 536
 msgid "Provide a login banner to clients"
@@ -3398,6 +3384,8 @@ msgstr "Авторизованные ключи"
 msgid ""
 "When using google authenticator, scan the following qrcode for easy setup:"
 msgstr ""
+"Если используется Google Authenticator, просканируйте QR-код для простой "
+"настройки:"
 
 #
 # File: /usr/core/src/www/system_usermanager.php, line: 852
@@ -4094,12 +4082,12 @@ msgstr "Зажмите CTRL (pc)/COMMAND (Mac), чтобы выбрать нес
 #
 # File: /usr/core/src/www/system_groupmanager.php, line: 286
 msgid "Remove Users"
-msgstr ""
+msgstr "Удалить пользователей"
 
 #
 # File: /usr/core/src/www/system_groupmanager.php, line: 282
 msgid "Add Users"
-msgstr ""
+msgstr "Добавить пользователей"
 
 # File: src/www/system_groupmanager.php, line: 349
 # File: src/www/system_usermanager.php, line: 682
@@ -4321,7 +4309,7 @@ msgstr "Турецкий"
 #
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Swedish"
-msgstr ""
+msgstr "Шведский"
 
 # File: src/www/system_general.php, line: 49
 msgid "Spanish"
@@ -4348,7 +4336,7 @@ msgstr "Японский"
 #
 # File: /usr/core/src/www/system_general.php, line: 47
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 # File: src/www/system_general.php, line: 46
 msgid "German"
@@ -5198,16 +5186,18 @@ msgstr "удалить сертификат"
 # File: /usr/core/src/www/system_certmanager.php, line: 1288
 msgid "export ca+user cert+user key in .p12 format"
 msgstr ""
+"экспортировать ca-сертификат+пользовательский сертификат+пользовательский "
+"ключ в формате .p12"
 
 #
 # File: /usr/core/src/www/system_certmanager.php, line: 1284
 msgid "export user key"
-msgstr ""
+msgstr "экспортировать пользовательский ключ"
 
 #
 # File: /usr/core/src/www/system_certmanager.php, line: 1280
 msgid "export user cert"
-msgstr ""
+msgstr "экспортировать пользовательский сертификат"
 
 # File: src/www/system_certmanager.php, line: 1276
 msgid "show certificate info"
@@ -6500,16 +6490,18 @@ msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than use the hard disk."
 msgstr ""
+"Выберите, если хотите использовать /tmp в качестве RAM-диска (диск файловой "
+"системы памяти) вместо жесткого диска."
 
 #
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr ""
+msgstr "Использовать файловую систему памяти для /tmp и /var"
 
 #
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
-msgstr ""
+msgstr "RAM-диск /tmp"
 
 #
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
@@ -6518,6 +6510,10 @@ msgid ""
 "disks) rather than use the hard disk. Setting this will cause the data /var "
 "to be lost on reboot, including log data."
 msgstr ""
+"Установите этот параметр, если хотите использовать /tmp and /var в качестве "
+"RAM-дисков (диски файловой системы памяти) вместо жесткого диска. Установка "
+"этого параметра вызовет потерю данных в /tmp и /var при перезагрузке, "
+"включая данные журнала."
 
 # File: src/www/system_advanced_misc.php, line: 514
 msgid "Use memory file system for /tmp and /var"
@@ -6526,7 +6522,7 @@ msgstr "Использовать систему файловой памяти д
 #
 # File: /usr/core/src/www/system_advanced_misc.php, line: 400
 msgid "/tmp and /var RAM disks"
-msgstr ""
+msgstr "RAM-диски /tmp и /var"
 
 # File: src/www/system_advanced_misc.php, line: 507
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
@@ -6577,6 +6573,24 @@ msgid ""
 "important than power consumption. It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
+"Сервисная программа Powerd отслеживает состояние системы и соответственно "
+"устанавливает различные параметры включения/выключения питания. Она "
+"предлагает четыре режима (максимальный, минимальный, адаптивный и "
+"высокоадаптивный), которые могут выбираться отдельно при питании от сети "
+"переменного тока или батареи. Режимы максимальный, минимальный, адаптивный и "
+"высокоадаптивный могут быть сокращены до max, min, adp, hadp. В режиме "
+"максимальный выбираются самые высокие значения производительности. В режиме "
+"минимальный выбираются самые низкие значения производительности, чтобы "
+"получить максимальную экономию электроэнергии. В режиме адаптивный "
+"производится попытка найти баланс путем снижения производительности, если "
+"система оказывается в режиме ожидания, и увеличения ее, если система "
+"недоступна. Он предлагает соответствующий баланс между небольшой потерей "
+"производительности и значительным увеличением экономии электроэнергии. Режим "
+"высокоадаптивный аналогичен режиму адаптивный, но он предназначен для "
+"систем, в которых производительность и интерактивность являются более "
+"важными элементами, чем потребление энергии. Он повышает частоту быстрее, "
+"сбрасывает медленнее и поддерживает в два раза меньшую нагрузку на "
+"центральный процессор."
 
 # File: src/www/system_advanced_misc.php, line: 348
 msgid "Use PowerD"
@@ -7438,6 +7452,8 @@ msgid ""
 "Enable serial ports with 115200/8/N/1 by default, or another speed "
 "selectable below."
 msgstr ""
+"Включить последовательный порт 115200/8/N/1 по умолчанию или другой с "
+"выбираемой скоростью ниже."
 
 # File: src/www/system_advanced_admin.php, line: 530
 msgid "Serial Terminal"
@@ -8170,10 +8186,6 @@ msgstr "Возобновить"
 msgid "Release"
 msgstr "Версия"
 
-# File: src/www/status_interfaces.php, line: 76
-msgid "interface"
-msgstr "интерфейс"
-
 #
 # File: /usr/core/src/www/status_habackup.php, line: 298
 msgid "Restart all services"
@@ -8536,7 +8548,7 @@ msgstr "Пользовательские разрешения"
 #
 # File: /usr/core/src/www/services_upnp.php, line: 295
 msgid "By default deny access to UPnP and NAT-PMP?"
-msgstr ""
+msgstr "Запретить доступ к UPnP и NAT-PMP по умолчанию?"
 
 #
 # File: /usr/core/src/www/services_upnp.php, line: 291
@@ -8547,6 +8559,8 @@ msgstr "Запрет доступа по умолчанию"
 # File: /usr/core/src/www/services_upnp.php, line: 286
 msgid "Use system uptime instead of UPnP and NAT-PMP service uptime?"
 msgstr ""
+"Использовать время работы системы вместо времени работы службы UPnP и NAT-"
+"PMP?"
 
 #
 # File: /usr/core/src/www/services_upnp.php, line: 282
@@ -8636,7 +8650,7 @@ msgstr "Разрешить преобразование портов UPnP"
 #
 # File: /usr/core/src/www/services_upnp.php, line: 177
 msgid "UPnP and NAT-PMP Settings"
-msgstr ""
+msgstr "Настройки UPnP и NAT-PMP"
 
 # File: src/www/services_upnp.php, line: 206
 msgid "Modified Universal Plug and Play settings."
@@ -9289,11 +9303,6 @@ msgstr ""
 "Введите любые дополнительные параметры, которые вы хотели бы добавить в "
 "конфигурацию DNS-преобразователя."
 
-#
-# File: /usr/core/src/www/services_unbound.php, line: 245
-msgid "Custom options"
-msgstr "Пользовательские настройки"
-
 # File: src/www/services_unbound.php, line: 294
 msgid ""
 "If this option is set, then any descriptions associated with Host entries "
@@ -9599,7 +9608,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/services_router_advertisements.php, line: 367
 msgid "Use the DNS settings of the DHCPv6 server"
-msgstr ""
+msgstr "Использовать настройки DNS DHCPv6-сервера"
 
 #
 # File: /usr/core/src/www/services_router_advertisements.php, line: 350
@@ -9610,6 +9619,11 @@ msgid ""
 "(RA) Daemon will advertise to the subnet to which the router's interface is "
 "assigned."
 msgstr ""
+"Подсети задаются в формате CIDR. Выберите маску CIDR, которая относится к "
+"каждой записи. Маска /128 определяет один хост IPv6; / 64 определяет "
+"нормальную сеть IPv6 и т. д. Если здесь не указаны подсети, демон объявления "
+"маршрутизатора (RA) будет отправлять сообщение подсети, к которой привязан "
+"интерфейс маршрутизатора."
 
 #
 # File: /usr/core/src/www/services_router_advertisements.php, line: 308
@@ -9722,6 +9736,9 @@ msgid ""
 "static IP addresses. Only interfaces configured with a static IP will be "
 "shown."
 msgstr ""
+"Объявления маршрутизатора могут быть включены только на интерфейсах со "
+"статическими IP-адресами. Будут показаны только интерфейсы со статическим IP-"
+"адресами."
 
 # File: src/www/services_rfc2136_edit.php, line: 229
 msgid "Save &amp; Force Update"
@@ -10559,6 +10576,9 @@ msgid ""
 "DNS server list to be overridden by DHCP/PPP on WAN for dynamic DNS updates "
 "to work."
 msgstr ""
+"Вы должны настроить DNS-сервер на странице «%sСистема. Общие настройки%s» "
+"или разрешить переопределить список DNS-серверов с помощью DHCP/PPP в сети "
+"WAN для работы динамических обновлений DNS."
 
 # File: src/www/services_dyndns_edit.php, line: 437
 # File: src/www/services_rfc2136_edit.php, line: 105
@@ -10873,10 +10893,6 @@ msgid ""
 "Source IP address for queries to the DNS server for the override domain."
 msgstr ""
 "IP-адрес источника для запросов к DNS-серверу для домена переопределения."
-
-# File: src/www/services_dnsmasq_domainoverride_edit.php, line: 153
-msgid "Source IP"
-msgstr "IP-адрес источника"
 
 #
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 174
@@ -11303,6 +11319,8 @@ msgid ""
 "The DHCPv6 server is currently enabled. Cannot enable the DHCPv6 relay while "
 "the DHCPv6 server is enabled on any interface."
 msgstr ""
+"DHCPv6-сервер включен. Невозможно включить DHCPv6-ретрансляцию пока включен "
+"DHCPv6-сервер на этом интерфейсе."
 
 # File: src/www/services_dhcpv6_relay.php, line: 73
 msgid "A valid Destination Server IPv6 address  must be specified."
@@ -11367,6 +11385,9 @@ msgid ""
 "include in the DHCP lease information. For a list of available options "
 "please visit this %sURL%s"
 msgstr ""
+"Введите номер и значение каждого параметра, который вы хотели бы включить в "
+"информацию об аренде адреса DHCP. Чтобы посмотреть список доступных "
+"параметров, посетите эту страницу %sURL%s"
 
 # File: src/www/services_dhcp.php, line: 1021
 # File: src/www/services_dhcpv6.php, line: 748
@@ -11383,6 +11404,8 @@ msgid ""
 "Leave blank to disable. Enter a full URI for the LDAP server in the form "
 "ldap://ldap.example.com/dc=example,dc=com"
 msgstr ""
+"Оставьте поле пустым, чтобы отключить. Введите полный URL для LDAP-сервера в "
+"формате ldap://ldap.example.com/dc=example,dc=com"
 
 #
 # File: /usr/core/src/www/services_dhcpv6.php, line: 610
@@ -11391,6 +11414,9 @@ msgid ""
 "DHCPv6 lease time will be displayed in local time and set to time zone "
 "selected. This will be used for all DHCPv6 interfaces lease time."
 msgstr ""
+"По умолчанию время аренды DHCPv6 отображается по UTC. Установите этот флажок,"
+"чтобы время аренды DHCPv6 отображалось по местному времени и укажите часовой "
+"пояс. Эти настройки будут использоваться для всех DHCPv6-интерфейсов."
 
 # File: src/www/services_dhcpv6.php, line: 656
 msgid "Change DHCPv6 display lease time from UTC to local time."
@@ -11411,6 +11437,9 @@ msgid ""
 "DNS forwarder is enabled, otherwise the servers configured on the General "
 "page."
 msgstr ""
+"Оставьте это поле пустым, чтобы использовать стандартные DNS-серверы (IP-"
+"адрес этого интерфейса, если включен перенаправляющий DNS-сервер), или "
+"настройте серверы на странице «Общие настройки»."
 
 #
 # File: /usr/core/src/www/services_dhcpv6.php, line: 549
@@ -11419,6 +11448,10 @@ msgid ""
 "for assigning networks to subrouters. The start and end of the range must "
 "end on boundaries of the prefix delegation size."
 msgstr ""
+"Здесь вы можете определить диапазон префиксов для DHCP делегирования, "
+"которое позволяет позволяет назначать сети суб-маршрутизаторам. Начало и "
+"конец диапазона должны заканчиваться на границах размера делегируемого "
+"префикса."
 
 # File: src/www/services_dhcpv6.php, line: 591
 msgid "Prefix Delegation Size"
@@ -11447,6 +11480,13 @@ msgstr "Диапазон сети не должен пересекаться с 
 # File: src/www/services_dhcpv6.php, line: 194
 msgid "A valid URL must be specified for the network bootfile."
 msgstr "Укажите действительный URL для файла сетевой загрузки."
+
+# File: src/www/services_dhcpv6.php, line: 188
+msgid ""
+"A valid IPv6 address must be specified for the primary/secondary NTP servers."
+msgstr ""
+"Укажите действительный IPv6-адрес для основного/вспомогательного NTP-"
+"серверов."
 
 # File: src/www/services_dhcpv6.php, line: 173
 msgid ""
@@ -11673,7 +11713,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 139
 msgid "Static ARP is enabled. You must specify an IP address."
-msgstr ""
+msgstr "Включен статический ARP. Вы должны указать IP-адрес."
 
 # File: src/www/services_dhcp_edit.php, line: 154
 # File: src/www/services_dhcpv6_edit.php, line: 107
@@ -11723,6 +11763,9 @@ msgid ""
 "The DNS servers entered in %sSystem: General setup%s (or the %sDNS forwarder"
 "%s, if enabled), will be assigned to clients by the DHCP server."
 msgstr ""
+"DNS-серверы, указанные на странице «%sСистема. Общие настройки%s» (или "
+"%sперенаправляющий DNS-сервер%s, если он включен) будут назначены клиентам "
+"DHCP-сервером."
 
 # File: src/www/services_dhcp.php, line: 1032
 # File: src/www/services_dhcpv6.php, line: 759
@@ -11905,6 +11948,8 @@ msgid ""
 "Enter a list of partial MAC addresses to deny access, comma separated, no "
 "spaces, such as %s"
 msgstr ""
+"Введите список блокируемых MAC-адресов через запятую и без пробелов, "
+"например %s"
 
 #
 # File: /usr/core/src/www/services_dhcp.php, line: 954
@@ -11913,6 +11958,8 @@ msgid ""
 "Enter a list of partial MAC addresses to allow, comma separated, no spaces, "
 "such as %s"
 msgstr ""
+"Введите список разрешенных MAC-адресов через запятую и без пробелов, "
+"например %s"
 
 # File: src/www/services_dhcp.php, line: 947
 msgid "Show MAC Address Control"
@@ -12424,7 +12471,7 @@ msgstr "Вы должны указать действительный домен
 # File: /usr/core/src/www/services_dhcp.php, line: 287
 # File: /usr/core/src/www/services_dhcpv6.php, line: 172
 msgid "You must specify a Base64-encoded domain key."
-msgstr ""
+msgstr "Вы должны указать доменный ключ, закодированный в base64."
 
 # File: src/www/services_dhcp.php, line: 247
 # File: src/www/services_dhcp_edit.php, line: 224
@@ -12907,7 +12954,7 @@ msgstr "Имя «%s» является зарезервированным сло
 #
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 75
 msgid "This pool name has already been used. Pool names must be unique."
-msgstr ""
+msgstr "Это имя пула уже используется. Пулы должны иметь уникальные имена."
 
 # File: src/www/load_balancer_pool_edit.php, line: 63
 msgid "Server List"
@@ -13466,10 +13513,6 @@ msgstr ""
 "Примечание: введите значение тайм-аута в секундах, в течение которого должно "
 "быть установлено соединение (сек.). Значение по умолчанию равно 45 сек."
 
-# File: src/www/interfaces_ppps_edit.php, line: 761
-msgid "Connection Timeout"
-msgstr "Тайм-аут ожидания подключения"
-
 # File: src/www/interfaces_ppps_edit.php, line: 755
 msgid ""
 "Note: Enter the modem initialization string here. Do NOT include the \"AT\" "
@@ -13646,6 +13689,8 @@ msgid ""
 "This protocol is intended to do nothing: It disables any traffic without "
 "disabling the lagg interface itself."
 msgstr ""
+"Этот протокол приостанавливает работу: отключает любой трафик без отключения "
+"самого LAGG-интерфейса."
 
 #
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 241
@@ -13653,6 +13698,8 @@ msgid ""
 "Distributes outgoing traffic using a round-robin scheduler through all "
 "active ports and accepts incoming traffic from any active port."
 msgstr ""
+"Исходящий трафик распределяется циклическим планировщиком через все активные "
+"порты, а входящий трафик принимается с любого активного порта."
 
 # File: src/www/interfaces_lagg_edit.php, line: 239
 msgid "roundrobin"
@@ -13668,6 +13715,12 @@ msgid ""
 "and destination address, and, if available, the VLAN tag, and the IP source "
 "and destination address."
 msgstr ""
+"Балансирует трафик между активными портами на основе хэшированной информации "
+"в заголовке протокола и принимает входящий трафик из любого активного порта. "
+"Это статическая установка не согласовывает агрегацию с участником или обмен "
+"кадрами для наблюдения за соединением. Хэш включает Ethernet-адреса "
+"источника и назначения, и, если возможно, VLAN-тег, и IP-адреса источника и "
+"назначения."
 
 # File: src/www/interfaces_lagg_edit.php, line: 231
 msgid "loadbalance"
@@ -13685,6 +13738,14 @@ msgid ""
 "in physical connectivity, Link Aggregation will quickly converge to a new "
 "configuration."
 msgstr ""
+"Поддерживает протокол агрегирования каналов (LACP) и протокол маркирования, "
+"описанные в IEEE 802.3ad. LACP согласовывает набор агрегированных ссылок с "
+"узлом в одну или несколько групп агрегированных каналов (LAG). Каждая группа "
+"состоит из портов с одинаковой скоростью, установленной для двустороннего "
+"режима передачи данных. Трафик будет сбалансирован в портах группы с "
+"наибольшей общей скоростью, в большинстве случаев будет одна группа, которая "
+"содержит все порты. В случае изменений физического соединения агрегирование "
+"ссылок будет быстро сформировано в новой конфигурации."
 
 # File: src/www/interfaces_lagg_edit.php, line: 220
 msgid "lacp"
@@ -13696,6 +13757,9 @@ msgid ""
 "Supports Cisco EtherChannel. This is a static setup and does not negotiate "
 "aggregation with the peer or exchange frames to monitor the link."
 msgstr ""
+"Поддерживает технологию Cisco EtherChannel. Это статическая настройка не "
+"согласовывает агрегирование с узлом или обмен кадрами для наблюдения за "
+"каналом."
 
 # File: src/www/interfaces_lagg_edit.php, line: 215
 msgid "fec"
@@ -13709,6 +13773,11 @@ msgid ""
 "is the master port; any interfaces added after that are used as failover "
 "devices."
 msgstr ""
+"Посылает и принимает трафик только через главный порт. Если главный порт "
+"недоступен, используется следующий активный порт. Первый добавленный "
+"интерфейс является ведущим, все добавленные после ведущего интерфейсы "
+"используются в качестве аварийных и включаются в работу при обрыве "
+"соединения."
 
 # File: src/www/interfaces_lagg_edit.php, line: 210
 msgid "failover"
@@ -13863,6 +13932,10 @@ msgid ""
 "a route to the decapsulating host that does not run over the tunnel, as this "
 "would be a loop."
 msgstr ""
+"Для правильной работы устройства GRE нужен менее конкретный маршрут к месту "
+"назначения, чем маршрут через туннель (в большинстве случаев это маршрут к "
+"хосту декапсуляции, который не проходит через туннель, так как это создаст "
+"петлю коммутации)."
 
 # File: src/www/interfaces_gre_edit.php, line: 235
 msgid "Route search type"
@@ -13871,7 +13944,7 @@ msgstr "Способ поиска маршрута"
 #
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 229
 msgid "Specify which encapsulation method the tunnel should use."
-msgstr ""
+msgstr "Укажите, какой метод инкапсуляции должен использовать туннель."
 
 # File: src/www/interfaces_gre_edit.php, line: 226
 msgid "Mobile tunnel"
@@ -13888,7 +13961,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 199
 msgid "GRE tunnel remote address"
-msgstr ""
+msgstr "Удаленный IP-адрес GRE-туннеля"
 
 # File: src/www/interfaces_gre_edit.php, line: 195
 msgid "Local GRE tunnel endpoint"
@@ -13897,12 +13970,12 @@ msgstr "Локальная конечная точка GRE-туннеля"
 #
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 190
 msgid "GRE tunnel local address"
-msgstr ""
+msgstr "Локальный IP-адрес GRE-туннеля"
 
 #
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 185
 msgid "Peer address where encapsulated GRE packets will be sent."
-msgstr ""
+msgstr "IP-адрес пира, которому будут отправлены инкапсулированные пакеты GRE."
 
 # File: src/www/interfaces_gre_edit.php, line: 182
 msgid "GRE remote address"
@@ -13956,6 +14029,8 @@ msgid ""
 "Note that the ECN friendly behavior violates RFC2893. This should be used in "
 "mutual agreement with the peer."
 msgstr ""
+"Примечание: дружественное поведение ECN нарушает RFC2893. Эта установка "
+"должна использоваться по взаимному соглашению с узлом."
 
 # File: src/www/interfaces_gif_edit.php, line: 258
 msgid "ECN friendly behavior"
@@ -13967,11 +14042,13 @@ msgid ""
 "Specify if route caching can be enabled. Be careful with these settings on "
 "dynamic networks."
 msgstr ""
+"Укажите, если хотите включить кэширование маршрутов. Будьте осторожны с "
+"этими настройками в динамических сетях."
 
 #
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 248
 msgid "Route caching"
-msgstr ""
+msgstr "Кэширование маршрутов"
 
 # File: src/www/interfaces_gif_edit.php, line: 244
 msgid ""
@@ -14095,6 +14172,8 @@ msgid ""
 "Mark an interface as a \"private\" interface. A private interface does not "
 "forward any traffic to any other port that is also a private interface."
 msgstr ""
+"Отметить интерфейс как «частный». Частный интерфейс не пересылает трафик на "
+"любой другой порт, который тоже является частным интерфейсом."
 
 # File: src/www/interfaces_bridge_edit.php, line: 600
 msgid "Private ports"
@@ -14108,6 +14187,10 @@ msgid ""
 "are never aged out of the cache or replaced, even if the address is seen on "
 "a different interface."
 msgstr ""
+"Отметить интерфейс как «фиксированный» интерфейс. Полученные в процессе "
+"коммутации записи адресов после попадания в кэш рассматриваются как "
+"статические. Фиксированные записи никогда не устаревают и не заменяются "
+"другими, даже если адрес наблюдается на другом интерфейсе."
 
 # File: src/www/interfaces_bridge_edit.php, line: 580
 msgid "Sticky ports"
@@ -14125,6 +14208,9 @@ msgid ""
 "full duplex link status. This is the default for interfaces added to the "
 "bridge."
 msgstr ""
+"Автоматическое определение состояния порта «точка-точка» на интерфейсе путем "
+"проверки статуса полнодуплексного канала связи. Это значение по умолчанию "
+"для интерфейсов, добавленных к мосту."
 
 # File: src/www/interfaces_bridge_edit.php, line: 559
 msgid "Auto PTP ports"
@@ -14137,6 +14223,9 @@ msgid ""
 "transitions to forwarding and should be enabled on a direct link to another "
 "RSTP-capable switch."
 msgstr ""
+"Установите интерфейс в качестве канала «точка-точка». Этот параметр "
+"необходим для прямого перехода в состояние пересылки и должен быть включен "
+"для прямого соединения с RSTP-совместимым коммутатором."
 
 # File: src/www/interfaces_bridge_edit.php, line: 540
 msgid "PTP ports"
@@ -14152,6 +14241,8 @@ msgid ""
 "Allow interface to automatically detect edge status. This is the default for "
 "all interfaces added to a bridge."
 msgstr ""
+"Позволяет интерфейсу автоматически определять статус граничного порта. Этот "
+"параметр включен по умолчанию для всех интерфейсов, добавленных к мосту."
 
 # File: src/www/interfaces_bridge_edit.php, line: 520
 msgid "Auto Edge ports"
@@ -14164,6 +14255,10 @@ msgid ""
 "stations and cannot create bridging loops in the network; this allows it to "
 "transition straight to forwarding."
 msgstr ""
+"Установите интерфейс в качестве пограничного порта. Пограничный порт "
+"подключается непосредственно к конечным станциям и не может создать петлю "
+"коммутации в сети; это позволяет ему осуществить прямой переход в состояние "
+"пересылки."
 
 # File: src/www/interfaces_bridge_edit.php, line: 501
 msgid "Edge ports"
@@ -14181,6 +14276,10 @@ msgid ""
 "useful for snooping a bridged network passively on another host connected to "
 "one of the span ports of the bridge."
 msgstr ""
+"Добавьте интерфейс в качестве порта SPAN на мосту. Порты SPAN передают копию "
+"каждого кадра, полученного мостом. Это особенно полезно для пассивного "
+"отслеживания мостовой сети на другом хосте, подключенном к одному из портов "
+"SPAN сетевого моста."
 
 # File: src/www/interfaces_bridge_edit.php, line: 477
 msgid "Span port"
@@ -14193,6 +14292,8 @@ msgid ""
 "seconds is zero, then address cache entries will not be expired. The default "
 "is 240 seconds."
 msgstr ""
+"Установите время (в секундах) нахождения записи адреса в кэше адресов. Если "
+"значение равно 0, то запись не устаревает. По умолчанию равно 240 секундам."
 
 # File: src/www/interfaces_bridge_edit.php, line: 466
 msgid "Cache entry expire time"
@@ -14204,6 +14305,8 @@ msgid ""
 "Set the size of the bridge address cache to size. The default is .100 "
 "entries."
 msgstr ""
+"Установите размер кэша адресов сетевого моста. По умолчанию равен 100 "
+"записям."
 
 # File: src/www/interfaces_bridge_edit.php, line: 457
 msgid "entries"
@@ -14225,6 +14328,10 @@ msgid ""
 "back to automatic, set the cost to 0. The minimum is 1 and the maximum is "
 "200000000."
 msgstr ""
+"Установите стоимость пути для связующего дерева. Значения по умолчанию "
+"рассчитывается исходя из скорости канала. Чтобы изменить ранее выбранную "
+"стоимость пути на автоматически присваиваемое значение, установите значение, "
+"равное 0. Минимальное значение равно 1, а максимальное 200000000."
 
 # File: src/www/interfaces_bridge_edit.php, line: 421
 msgid "Path cost"
@@ -14236,6 +14343,9 @@ msgid ""
 "Set the Spanning Tree priority of interface to value. The default is 128. "
 "The minimum is 0 and the maximum is 240. Increments of 16."
 msgstr ""
+"Установите приоритет сетевого моста для связующего дерева. Значение по "
+"умолчанию равно 128. Минимальное значение равно 0, а максимальное 240. "
+"Инкремент равен 16."
 
 #
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 387
@@ -14244,6 +14354,10 @@ msgid ""
 "transmitted before being rate limited. The default is 6. The minimum is 1 "
 "and the maximum is 10."
 msgstr ""
+"Укажите значение счетчика задержки передачи для связующего дерева. Это "
+"количество переданных пакетов, перед тем как скорость будет ограничена. "
+"Значение по умолчанию равно 6. Минимальное значение равно 1, а максимальное "
+"10."
 
 # File: src/www/interfaces_bridge_edit.php, line: 389
 msgid "Hold count"
@@ -14255,6 +14369,8 @@ msgid ""
 "Set the bridge priority for Spanning Tree. The default is 32768. The minimum "
 "is 0 and the maximum is 61440."
 msgstr ""
+"Установите приоритет сетевого моста для связующего дерева. Значение по "
+"умолчанию равно 32768. Минимальное значение равно 0, а максимальное 61440."
 
 # File: src/www/interfaces_bridge_edit.php, line: 379
 # File: src/www/interfaces_bridge_edit.php, line: 400
@@ -14270,6 +14386,10 @@ msgid ""
 "mode. The default is 2 seconds. The minimum is 1 second and the maximum is 2 "
 "seconds."
 msgstr ""
+"Установите интервал времени между широковещательными конфигурационными "
+"сообщениями связующего дерева. Время приветствия можно изменить только в "
+"режиме STP-совместимости. По умолчанию это значение равно 2 секундам. "
+"Минимальное значение равно 1, а максимальное 2."
 
 # File: src/www/interfaces_bridge_edit.php, line: 369
 msgid "Hello time"
@@ -14282,6 +14402,10 @@ msgid ""
 "when Spanning Tree is enabled. The default is 15 seconds. The minimum is 4 "
 "seconds and the maximum is 30 seconds."
 msgstr ""
+"Установите время, которое должно пройти до того, как интерфейс начнет "
+"пересылать пакеты при включенном протоколе связующего дерева (STP). Значение "
+"по умолчанию равно 15 секундам. Минимальное значение равно 4, а максимальное "
+"30."
 
 # File: src/www/interfaces_bridge_edit.php, line: 359
 msgid "Forward time"
@@ -14294,6 +14418,9 @@ msgid ""
 "default is 20 seconds. The minimum is 6 seconds and the maximum is 40 "
 "seconds."
 msgstr ""
+"Установите время, в течение которого конфигурация протокола связующего "
+"дерева (STP) считается действительной. Значение по умолчанию равно "
+"20 секундам. Минимальное значение равно 6, а максимальное 40."
 
 # File: src/www/interfaces_bridge_edit.php, line: 348
 msgid "Valid time"
@@ -14306,6 +14433,9 @@ msgid ""
 "support for the IEEE 802.1D Spanning Tree Protocol (STP). STP is used to "
 "detect and remove loops in a network topology."
 msgstr ""
+"Включить протокол связующего дерева (STP) на интерфейсе. Драйвер If_bridge "
+"(4) поддерживает IEEE 802.1D для STP. STP используется для обнаружения и "
+"удаления петель в топологии сети."
 
 # File: src/www/interfaces_bridge_edit.php, line: 328
 msgid "STP interfaces"
@@ -14461,7 +14591,7 @@ msgstr "добавить выбранный интерфейс"
 #
 # File: /usr/core/src/www/interfaces_assign.php, line: 437
 msgid "New interface:"
-msgstr ""
+msgstr "Новый интерфейс:"
 
 # File: src/www/interfaces_assign.php, line: 424
 # File: src/www/interfaces_bridge.php, line: 158
@@ -15384,11 +15514,13 @@ msgid ""
 "In case the ISP requires a SOLICIT message for authentication, select this "
 "option to prevent indefinite waiting for a router advertisement."
 msgstr ""
+"Если провайдер требует сообщение SOLICIT для аутентификации, выберите этот "
+"параметр для предотвращения бесконечного ожидания объявления маршрутизатора."
 
 #
 # File: /usr/core/src/www/interfaces.php, line: 2467
 msgid "Directly send SOLICIT"
-msgstr ""
+msgstr "Отправлять сообщение SOLICIT"
 
 # File: src/www/interfaces.php, line: 2557
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
@@ -15933,6 +16065,7 @@ msgid ""
 "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx or leave "
 "blank."
 msgstr ""
+"Введите MAC-адрес в формате «xx:xx:xx:xx:xx:xx» или оставьте поле пустым."
 
 #
 # File: /usr/core/src/www/interfaces.php, line: 1745
@@ -15940,6 +16073,8 @@ msgid ""
 "This field can be used to modify (\"spoof\") the MAC address of this "
 "interface. This may be required with some cable connections."
 msgstr ""
+"Используйте это поле для изменения («spoof») MAC-адреса этого интерфейса. "
+"Может потребоваться для некоторых кабельных подключений."
 
 # File: src/www/interfaces.php, line: 1764
 msgid "Insert my local MAC address"
@@ -16559,21 +16694,6 @@ msgstr "CARP"
 msgid "IP Alias"
 msgstr "IP-алиас"
 
-# File: src/www/interfaces.php, line: 867
-# File: src/www/interfaces.php, line: 3038
-# File: src/www/interfaces_wireless.php, line: 119
-# File: src/www/interfaces_wireless_edit.php, line: 71
-# File: src/www/load_balancer_pool.php, line: 125
-# File: src/www/load_balancer_pool_edit.php, line: 63
-# File: src/www/load_balancer_pool_edit.php, line: 198
-# File: src/www/load_balancer_virtual_server_edit.php, line: 63
-# File: src/www/status_lb_pool.php, line: 129
-# File: src/www/vpn_ipsec.php, line: 315
-# File: src/www/vpn_ipsec.php, line: 441
-# File: src/www/vpn_ipsec_phase2.php, line: 670
-msgid "Mode"
-msgstr "Режим:"
-
 # File: src/www/firewall_virtual_ip_edit.php, line: 318
 msgid "Edit Virtual IP"
 msgstr "Редактировать виртуальный IP-адрес"
@@ -16808,11 +16928,6 @@ msgid "To specify a range, use from:to (example 81:85)."
 msgstr ""
 "Чтобы указать диапазон значений, используйте формат «от:до» (например, "
 "81:85)."
-
-#
-# File: /usr/core/src/www/firewall_scrub_edit.php, line: 439
-msgid "Destination port"
-msgstr "Порт назначения"
 
 #
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 269
@@ -19008,17 +19123,6 @@ msgid "A valid external subnet must be specified."
 msgstr "Укажите действительный адрес внешней подсети."
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 168
-# File: src/www/firewall_nat_1to1_edit.php, line: 376
-# File: src/www/firewall_nat_edit.php, line: 203
-# File: src/www/firewall_nat_edit.php, line: 625
-# File: src/www/firewall_nat_npt_edit.php, line: 232
-# File: src/www/firewall_nat_npt_edit.php, line: 270
-# File: src/www/firewall_nat_out_edit.php, line: 492
-# File: src/www/firewall_rules_edit.php, line: 919
-msgid "Source address"
-msgstr "IP-адрес источника"
-
-# File: src/www/firewall_nat_1to1_edit.php, line: 168
 msgid "External subnet"
 msgstr "Внешняя подсеть"
 
@@ -19043,10 +19147,6 @@ msgstr ""
 "будете использовать IP-адрес вашего WAN, никакие службы (IPsec, сервер "
 "OpenVPN и т. д.) в этой системе, использующие это IP-адрес, не будут "
 "работать."
-
-# File: src/www/firewall_nat_1to1.php, line: 201
-msgid "Destination IP"
-msgstr "IP-адрес назначения"
 
 # File: src/www/firewall_nat_1to1.php, line: 200
 # File: src/www/firewall_nat_1to1_edit.php, line: 341
@@ -20315,22 +20415,6 @@ msgstr ""
 msgid "Leave blank if you do not want to filter by port."
 msgstr "Оставьте поле пустым, если не хотите фильтровать по порту."
 
-# File: src/www/diag_packet_capture.php, line: 391
-# File: src/www/diag_testport.php, line: 50
-# File: src/www/diag_testport.php, line: 161
-# File: src/www/firewall_rules.php, line: 266
-# File: src/www/firewall_rules.php, line: 268
-# File: src/www/load_balancer_pool.php, line: 127
-# File: src/www/load_balancer_pool_edit.php, line: 63
-# File: src/www/load_balancer_pool_edit.php, line: 214
-# File: src/www/load_balancer_virtual_server.php, line: 162
-# File: src/www/load_balancer_virtual_server_edit.php, line: 189
-# File: src/www/status_upnp.php, line: 78
-# File: src/www/vpn_openvpn_export.php, line: 736
-# File: src/www/vpn_openvpn_export_shared.php, line: 360
-msgid "Port"
-msgstr "Порт"
-
 # File: src/www/diag_packet_capture.php, line: 386
 # File: src/www/system_authservers.php, line: 566
 # File: src/www/system_authservers.php, line: 567
@@ -20522,7 +20606,7 @@ msgstr "Недопустимый интерфейс."
 #
 # File: /usr/core/src/www/diag_logs_template.inc, line: 78
 msgid "Search for a specific message..."
-msgstr ""
+msgstr "Искать конкретное сообщение…"
 
 #
 # File: /usr/core/src/www/diag_logs_settings.php, line: 527
@@ -21469,39 +21553,6 @@ msgstr "Время разрешения сервером доменных име
 msgid "Address"
 msgstr "Адрес"
 
-# File: lang/dynamic/helpers/models.php, line: 243
-# File: lang/dynamic/helpers/models.php, line: 274
-# File: lang/dynamic/helpers/models.php, line: 292
-# File: src/www/diag_dns.php, line: 94
-# File: src/www/firewall_aliases_edit.php, line: 361
-# File: src/www/firewall_rules_edit.php, line: 234
-# File: src/www/firewall_virtual_ip.php, line: 275
-# File: src/www/firewall_virtual_ip_edit.php, line: 103
-# File: src/www/firewall_virtual_ip_edit.php, line: 325
-# File: src/www/load_balancer_monitor.php, line: 114
-# File: src/www/load_balancer_monitor_edit.php, line: 147
-# File: src/www/load_balancer_monitor_edit.php, line: 316
-# File: src/www/services_dhcp.php, line: 1038
-# File: src/www/services_igmpproxy.php, line: 99
-# File: src/www/services_igmpproxy_edit.php, line: 184
-# File: src/www/services_unbound_host_edit.php, line: 84
-# File: src/www/services_unbound_host_edit.php, line: 273
-# File: src/www/services_unbound_overrides.php, line: 133
-# File: src/www/status_ntpd.php, line: 181
-# File: src/www/system_authservers.php, line: 129
-# File: src/www/system_authservers.php, line: 150
-# File: src/www/system_authservers.php, line: 441
-# File: src/www/system_authservers.php, line: 672
-# File: src/www/system_certmanager.php, line: 784
-# File: src/www/system_certmanager.php, line: 909
-# File: src/www/vpn_ipsec_phase2.php, line: 703
-# File: src/www/vpn_ipsec_phase2.php, line: 758
-# File: src/www/vpn_ipsec_phase2.php, line: 799
-# File: src/www/vpn_openvpn_export.php, line: 729
-# File: src/www/vpn_openvpn_export_shared.php, line: 352
-msgid "Type"
-msgstr "Тип"
-
 # File: src/www/diag_dns.php, line: 90
 msgid "Response"
 msgstr "Ответ"
@@ -21565,7 +21616,7 @@ msgstr "Сбросить настройки по умолчанию"
 #
 # File: /usr/core/src/www/diag_defaults.php, line: 50
 msgid "If you click \"Yes\", the system will:"
-msgstr ""
+msgstr "Если вы нажмете «Да», то система:"
 
 # File: src/www/diag_defaults.php, line: 46
 msgid ""
@@ -22059,7 +22110,7 @@ msgstr "Дополнения к OPNsense"
 # File: /usr/core/src/www/diag_backup.php, line: 83
 #, php-format
 msgid "Restored %s of config file"
-msgstr ""
+msgstr "Восстановлено %s файла конфигурации"
 
 # File: src/www/diag_authentication.php, line: 135
 # File: src/www/diag_smart.php, line: 373
@@ -22301,11 +22352,6 @@ msgstr "Протокол"
 msgid "#"
 msgstr "#"
 
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 146
-# File: src/www/system_gateways_edit.php, line: 675
-msgid "Weight"
-msgstr "Весовой коэффициент"
-
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 145
 msgid "Pipe"
 msgstr "Канал"
@@ -22342,27 +22388,22 @@ msgstr "Ошибка при изменении настроек ограничи
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
-msgstr ""
+msgstr "Запланировано с помощью планировщика задач Cron"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 293
 msgid "Download ACLs"
-msgstr ""
+msgstr "Скачать списки контроля доступа"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 292
 msgid "Download ACLs & Apply"
-msgstr ""
+msgstr "Скачать списка контроля доступа и применить"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 274
 msgid "Edit | Delete"
 msgstr "Редактировать | Удалить"
-
-# File: src/www/services_dhcp.php, line: 1032
-# File: src/www/services_dhcpv6.php, line: 759
-msgid "URL"
-msgstr "URL"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 261
@@ -22375,6 +22416,14 @@ msgid ""
 "under %sForward Proxy -> Access Control List%s.\n"
 "                    "
 msgstr ""
+"\n"
+"                    Добавьте запись в таблицу, чтобы получить удаленный "
+"список контроля доступа для внесения в черный список.%s\n"
+"                    Вы можете включить или отключить использование черного "
+"списка%s\n"
+"                    Активные черные списки будут объединены с настройками в "
+"разделе «%sПрямой прокси-сервер. Список контроля доступа%s».\n"
+"                    "
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
@@ -22451,10 +22500,6 @@ msgstr "Поиск"
 msgid "Info / Enabled"
 msgstr "Информация / включен"
 
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 448
-msgid "Message"
-msgstr "Сообщение"
-
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 447
 msgid "ClassType"
 msgstr "Тип класса"
@@ -22463,31 +22508,10 @@ msgstr "Тип класса"
 msgid "sid"
 msgstr "универсальный идентификатор группы в домене"
 
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 496
-msgid "Alert"
-msgstr "Предупреждение"
-
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 576
 msgid "Drop"
-msgstr ""
-
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 445
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 493
-# File: src/www/diag_confbak.php, line: 132
-# File: src/www/diag_confbak.php, line: 154
-# File: src/www/diag_logs_filter.php, line: 620
-# File: src/www/diag_logs_vpn.inc, line: 108
-# File: src/www/firewall_rules_edit.php, line: 692
-# File: src/www/services_unbound_acls.php, line: 224
-# File: src/www/services_unbound_acls.php, line: 324
-msgid "Action"
-msgstr "Действие"
-
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
-msgid "Classtype"
-msgstr ""
+msgstr "Отбрасывание"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 518
@@ -22518,12 +22542,6 @@ msgstr "Отключить выбранные"
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 409
 msgid "Last updated"
 msgstr "Последнее обновление"
-
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
-msgid "Filename"
-msgstr "Имя файла"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 483
@@ -22560,7 +22578,7 @@ msgstr "Удалить журнал"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 454
 msgid "Changes will be active after apply (rules tab)"
-msgstr ""
+msgstr "Изменения вступят в силу после применения (таблица правил)"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
@@ -22578,13 +22596,6 @@ msgid ""
 msgstr ""
 "Полная дата и\n"
 "                                время"
-
-# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 718
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 492
-# File: src/www/firewall_rules.php, line: 465
-# File: src/www/firewall_rules_edit.php, line: 858
-msgid "Timestamp"
-msgstr "Временная метка"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 712
 msgid "Toggle Timeview"
@@ -22715,9 +22726,21 @@ msgstr "с"
 msgid "COMMAND"
 msgstr "COMMAND"
 
-# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 109
-msgid "WCPU"
-msgstr "WCPU"
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-19 15:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /ru/gui/ru.po\n"
+"X-Pootle-Revision: 0\n"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 108
 msgid "TIME"
@@ -22882,15 +22905,6 @@ msgstr "Разрешение (в секундах)"
 msgid "Collection"
 msgstr "Набор"
 
-# File: src/www/services_dhcp.php, line: 1039
-# File: src/www/services_dhcpv6.php, line: 765
-# File: src/www/services_unbound_overrides.php, line: 134
-# File: src/www/system_advanced_sysctl.php, line: 166
-# File: src/www/system_advanced_sysctl.php, line: 217
-# File: src/www/system_certmanager.php, line: 910
-msgid "Value"
-msgstr "Значение"
-
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 773
 msgid "Attribute"
@@ -22932,34 +22946,6 @@ msgstr "В последний раз был"
 # File: src/www/widgets/widgets/log.widget.php, line: 238
 msgid "Destination"
 msgstr "Получатель"
-
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 494
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 174
-# File: src/www/diag_ipsec_sad.php, line: 56
-# File: src/www/diag_ipsec_spd.php, line: 56
-# File: src/www/diag_logs_filter.php, line: 715
-# File: src/www/diag_logs_filter_dynamic.php, line: 112
-# File: src/www/firewall_nat.php, line: 244
-# File: src/www/firewall_nat_edit.php, line: 581
-# File: src/www/firewall_nat_edit.php, line: 590
-# File: src/www/firewall_nat_edit.php, line: 599
-# File: src/www/firewall_nat_npt_edit.php, line: 218
-# File: src/www/firewall_nat_npt_edit.php, line: 227
-# File: src/www/firewall_nat_out.php, line: 340
-# File: src/www/firewall_nat_out.php, line: 540
-# File: src/www/firewall_nat_out_edit.php, line: 191
-# File: src/www/firewall_nat_out_edit.php, line: 470
-# File: src/www/firewall_rules.php, line: 265
-# File: src/www/firewall_rules_edit.php, line: 235
-# File: src/www/firewall_rules_edit.php, line: 880
-# File: src/www/firewall_rules_edit.php, line: 889
-# File: src/www/firewall_rules_edit.php, line: 938
-# File: src/www/vpn_ipsec_mobile.php, line: 391
-# File: src/www/widgets/widgets/ipsec.widget.php, line: 141
-# File: src/www/widgets/widgets/log.widget.php, line: 237
-msgid "Source"
-msgstr "Отправитель"
 
 # File: src/www/services_dyndns.php, line: 85
 # File: src/www/status_services.php, line: 295
@@ -23138,11 +23124,6 @@ msgid "Sources"
 msgstr "Отправители"
 
 #
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 98
-msgid "Destinations"
-msgstr "Получатели"
-
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 96
 msgid "Flow"
 msgstr "Поток"
@@ -23171,25 +23152,6 @@ msgstr "Обновить"
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 90
 msgid "NOTE: Local IPv6 peers use NDP instead of ARP."
 msgstr "ПРИМЕЧАНИЕ: Локальный IPv6 пиры используют протокол NDP вместо ARP."
-
-# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 83
-# File: src/www/interfaces.php, line: 1951
-# File: src/www/services_dhcp.php, line: 1131
-# File: src/www/services_dhcp_edit.php, line: 392
-# File: src/www/services_dhcpv6.php, line: 837
-# File: src/www/services_dhcpv6_edit.php, line: 214
-# File: src/www/services_dyndns.php, line: 86
-# File: src/www/services_dyndns_edit.php, line: 91
-# File: src/www/services_dyndns_edit.php, line: 320
-# File: src/www/services_rfc2136.php, line: 80
-# File: src/www/services_rfc2136_edit.php, line: 73
-# File: src/www/services_rfc2136_edit.php, line: 165
-# File: src/www/status_dhcp_leases.php, line: 341
-# File: src/www/system_general.php, line: 109
-# File: src/www/system_general.php, line: 324
-# File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 80
-msgid "Hostname"
-msgstr "Имя хоста"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 82
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 82
@@ -23279,31 +23241,13 @@ msgid "Delete"
 msgstr "Удалить"
 
 #
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
-msgid "Command"
-msgstr "Команда"
-
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 130
 msgid "Weekdays"
 msgstr "Дни недели"
 
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
-msgid "Months"
-msgstr "Месяцы"
-
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 337
 msgid "Days"
 msgstr "Д"
-
-# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 339
-msgid "Hours"
-msgstr "Ч"
-
-# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 341
-msgid "Minutes"
-msgstr "Мин"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 112
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 142
@@ -23321,6 +23265,8 @@ msgid ""
 "In order to apply these settings a firmware update must be performed after "
 "save, which can include a reboot of the system."
 msgstr ""
+"Чтобы применить эти настройки, необходимо выполнить обновление программного "
+"обеспечения после сохранения (может потребоваться перезагрузка системы)."
 
 # File: src/www/diag_confbak.php, line: 209
 # File: src/www/diag_logs_settings.php, line: 351
@@ -23464,23 +23410,6 @@ msgstr "Поверить наличие объявлений, чтобы про�
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 198
 msgid "Comment"
 msgstr "Комментарий"
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
-# File: src/www/diag_confbak.php, line: 133
-# File: src/www/diag_confbak.php, line: 155
-# File: src/www/diag_confbak.php, line: 287
-# File: src/www/diag_ipsec.php, line: 93
-msgid "Version"
-msgstr "Версия"
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
-# File: src/www/diag_confbak.php, line: 288
-# File: src/www/diag_system_pftop.php, line: 122
-# File: src/www/diag_system_pftop.php, line: 140
-msgid "Size"
-msgstr "Размер"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 171
 msgid ""
@@ -23710,6 +23639,7 @@ msgstr "Удалите группу ваучеров"
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 52
 msgid "Please setup a voucher server first (%sgoto auth servers%s)"
 msgstr ""
+"Сначала укажите сервер ваучеров (%sперейти к серверам аутентификации%s)"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 269
 # File: src/www/widgets/widgets/picture.widget.php, line: 84
@@ -23734,44 +23664,6 @@ msgstr "Загрузить файл"
 msgid "Apply"
 msgstr "Применить"
 
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 215
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 193
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 196
-# File: src/www/firewall_aliases.php, line: 188
-# File: src/www/firewall_aliases_edit.php, line: 339
-# File: src/www/firewall_aliases_import.php, line: 48
-# File: src/www/firewall_schedule.php, line: 125
-# File: src/www/interfaces_groups.php, line: 109
-# File: src/www/load_balancer_monitor.php, line: 113
-# File: src/www/load_balancer_monitor_edit.php, line: 147
-# File: src/www/load_balancer_monitor_edit.php, line: 304
-# File: src/www/load_balancer_pool.php, line: 124
-# File: src/www/load_balancer_pool_edit.php, line: 63
-# File: src/www/load_balancer_pool_edit.php, line: 192
-# File: src/www/load_balancer_virtual_server.php, line: 159
-# File: src/www/load_balancer_virtual_server_edit.php, line: 63
-# File: src/www/load_balancer_virtual_server_edit.php, line: 68
-# File: src/www/load_balancer_virtual_server_edit.php, line: 163
-# File: src/www/services_igmpproxy.php, line: 98
-# File: src/www/status_gateways.php, line: 52
-# File: src/www/status_lb_pool.php, line: 128
-# File: src/www/status_lb_vs.php, line: 73
-# File: src/www/status_openvpn.php, line: 229
-# File: src/www/status_openvpn.php, line: 267
-# File: src/www/system_camanager.php, line: 708
-# File: src/www/system_certmanager.php, line: 1187
-# File: src/www/system_crlmanager.php, line: 608
-# File: src/www/system_gateways.php, line: 300
-# File: src/www/system_gateways_edit.php, line: 53
-# File: src/www/system_gateways_edit.php, line: 608
-# File: src/www/system_groupmanager.php, line: 411
-# File: src/www/system_usermanager.php, line: 747
-# File: src/www/system_usermanager.php, line: 787
-# File: src/www/widgets/widgets/gateways.widget.php, line: 45
-# File: src/www/widgets/widgets/system_information.widget.php, line: 85
-msgid "Name"
-msgstr "Имя"
-
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 214
 msgid "Fileid"
 msgstr "Идентификатор файла"
@@ -23792,131 +23684,9 @@ msgstr "ID"
 msgid "Commands"
 msgstr "Команды"
 
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 191
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 408
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 119
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 147
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 177
-# File: src/www/firewall_aliases.php, line: 190
-# File: src/www/firewall_aliases_edit.php, line: 352
-# File: src/www/firewall_aliases_edit.php, line: 382
-# File: src/www/firewall_aliases_import.php, line: 179
-# File: src/www/firewall_nat.php, line: 261
-# File: src/www/firewall_nat_1to1.php, line: 202
-# File: src/www/firewall_nat_1to1_edit.php, line: 444
-# File: src/www/firewall_nat_edit.php, line: 895
-# File: src/www/firewall_nat_npt.php, line: 200
-# File: src/www/firewall_nat_npt_edit.php, line: 287
-# File: src/www/firewall_nat_out.php, line: 347
-# File: src/www/firewall_nat_out.php, line: 547
-# File: src/www/firewall_nat_out_edit.php, line: 671
-# File: src/www/firewall_rules.php, line: 271
-# File: src/www/firewall_rules_edit.php, line: 1142
-# File: src/www/firewall_schedule.php, line: 127
-# File: src/www/firewall_schedule_edit.php, line: 815
-# File: src/www/firewall_schedule_edit.php, line: 1013
-# File: src/www/firewall_virtual_ip.php, line: 276
-# File: src/www/firewall_virtual_ip_edit.php, line: 453
-# File: src/www/interfaces.php, line: 1693
-# File: src/www/interfaces_bridge.php, line: 128
-# File: src/www/interfaces_bridge_edit.php, line: 274
-# File: src/www/interfaces_gif.php, line: 121
-# File: src/www/interfaces_gif_edit.php, line: 268
-# File: src/www/interfaces_gre.php, line: 123
-# File: src/www/interfaces_gre_edit.php, line: 256
-# File: src/www/interfaces_groups.php, line: 111
-# File: src/www/interfaces_groups_edit.php, line: 167
-# File: src/www/interfaces_lagg.php, line: 131
-# File: src/www/interfaces_lagg_edit.php, line: 252
-# File: src/www/interfaces_ppps.php, line: 122
-# File: src/www/interfaces_ppps_edit.php, line: 508
-# File: src/www/interfaces_qinq.php, line: 139
-# File: src/www/interfaces_qinq_edit.php, line: 190
-# File: src/www/interfaces_vlan.php, line: 123
-# File: src/www/interfaces_vlan_edit.php, line: 206
-# File: src/www/interfaces_wireless.php, line: 120
-# File: src/www/interfaces_wireless_edit.php, line: 179
-# File: src/www/load_balancer_monitor.php, line: 115
-# File: src/www/load_balancer_monitor_edit.php, line: 147
-# File: src/www/load_balancer_monitor_edit.php, line: 310
-# File: src/www/load_balancer_pool.php, line: 129
-# File: src/www/load_balancer_pool_edit.php, line: 207
-# File: src/www/load_balancer_virtual_server.php, line: 165
-# File: src/www/load_balancer_virtual_server_edit.php, line: 169
-# File: src/www/services_dhcp.php, line: 801
-# File: src/www/services_dhcp.php, line: 1132
-# File: src/www/services_dhcp_edit.php, line: 412
-# File: src/www/services_dhcpv6.php, line: 838
-# File: src/www/services_dhcpv6_edit.php, line: 234
-# File: src/www/services_dnsmasq.php, line: 368
-# File: src/www/services_dnsmasq.php, line: 446
-# File: src/www/services_dnsmasq_domainoverride_edit.php, line: 160
-# File: src/www/services_dnsmasq_edit.php, line: 224
-# File: src/www/services_dnsmasq_edit.php, line: 245
-# File: src/www/services_dyndns.php, line: 88
-# File: src/www/services_dyndns_edit.php, line: 426
-# File: src/www/services_igmpproxy.php, line: 101
-# File: src/www/services_igmpproxy_edit.php, line: 174
-# File: src/www/services_rfc2136.php, line: 82
-# File: src/www/services_rfc2136_edit.php, line: 219
-# File: src/www/services_unbound_acls.php, line: 250
-# File: src/www/services_unbound_acls.php, line: 300
-# File: src/www/services_unbound_acls.php, line: 325
-# File: src/www/services_unbound_domainoverride_edit.php, line: 152
-# File: src/www/services_unbound_host_edit.php, line: 314
-# File: src/www/services_unbound_host_edit.php, line: 335
-# File: src/www/services_unbound_overrides.php, line: 135
-# File: src/www/services_unbound_overrides.php, line: 216
-# File: src/www/services_wol.php, line: 176
-# File: src/www/services_wol_edit.php, line: 159
-# File: src/www/status_dhcp_leases.php, line: 342
-# File: src/www/status_dhcpv6_leases.php, line: 423
-# File: src/www/status_gateway_groups.php, line: 61
-# File: src/www/status_gateways.php, line: 58
-# File: src/www/status_lb_pool.php, line: 132
-# File: src/www/status_lb_vs.php, line: 77
-# File: src/www/status_services.php, line: 296
-# File: src/www/status_upnp.php, line: 82
-# File: src/www/system_advanced_sysctl.php, line: 165
-# File: src/www/system_advanced_sysctl.php, line: 211
-# File: src/www/system_gateway_groups.php, line: 171
-# File: src/www/system_gateway_groups_edit.php, line: 198
-# File: src/www/system_gateway_groups_edit.php, line: 297
-# File: src/www/system_gateways.php, line: 304
-# File: src/www/system_gateways_edit.php, line: 807
-# File: src/www/system_groupmanager.php, line: 333
-# File: src/www/system_groupmanager.php, line: 412
-# File: src/www/system_groupmanager.php, line: 469
-# File: src/www/system_groupmanager_addprivs.php, line: 146
-# File: src/www/system_routes.php, line: 245
-# File: src/www/system_routes_edit.php, line: 303
-# File: src/www/system_usermanager.php, line: 748
-# File: src/www/system_usermanager_addprivs.php, line: 143
-# File: src/www/vpn_ipsec_phase1.php, line: 714
-# File: src/www/vpn_ipsec_phase2.php, line: 690
-# File: src/www/vpn_openvpn_client.php, line: 646
-# File: src/www/vpn_openvpn_client.php, line: 1050
-# File: src/www/vpn_openvpn_csc.php, line: 353
-# File: src/www/vpn_openvpn_csc.php, line: 614
-# File: src/www/vpn_openvpn_server.php, line: 881
-# File: src/www/vpn_openvpn_server.php, line: 1713
-# File: src/www/vpn_pppoe.php, line: 120
-# File: src/www/vpn_pppoe_edit.php, line: 495
-# File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 70
-# File: src/www/widgets/widgets/services_status.widget.php, line: 60
-msgid "Description"
-msgstr "Описание"
-
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 190
 msgid "Zoneid"
 msgstr "Идентификатор зоны"
-
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 189
-# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 410
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 113
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 143
-msgid "Enabled"
-msgstr "Включен"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 181
 msgid "Templates"
@@ -25636,10 +25406,9 @@ msgstr ""
 "Обнаружена потенциальная атак типа «%sDNS rebinding%s». %sTryИспользуйте IP-"
 "адрес вместо имени хоста для доступа к маршрутизатору."
 
-#
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
-msgid "Frontend Name"
-msgstr "Имя фронтенда"
+# File: src/www/vpn_l2tp.php, line: 324
+msgid "Server Address"
+msgstr "Адрес сервера"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 183
 # File: src/www/vpn_pptp_users_edit.php, line: 181
@@ -25708,6 +25477,11 @@ msgstr "PPTP Raw"
 msgid "PPTP Logins"
 msgstr "Имена пользователей для подключения по протоколу PPTP"
 
+# File: lang/dynamic/helpers/models.php, line: 98
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
+msgid "SMART Status"
+msgstr "Статус SMART"
+
 #
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 406
 msgid ""
@@ -25715,6 +25489,10 @@ msgid ""
 msgstr ""
 "Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
 "PPPoE-клиентов."
+
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 39
+msgid "Ident"
+msgstr "Идентификатор"
 
 #
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 392
@@ -25788,6 +25566,14 @@ msgstr ""
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
 msgid "AccPort"
 msgstr "AccPort"
+
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 38
+msgid "Drive"
+msgstr "Диск"
+
+# File: src/www/diag_smart.php, line: 485
+msgid "Back"
+msgstr "Назад"
 
 # File: src/www/vpn_pppoe_edit.php, line: 557
 msgid "RADIUS server Primary"
@@ -25902,6 +25688,14 @@ msgstr "Нет. PPTP-пользователи"
 msgid "Enable PPTP server"
 msgstr "Включить PPTP-сервер"
 
+# File: src/www/diag_smart.php, line: 466
+msgid "Do you really want to abort the test?"
+msgstr "Вы действительно хотите прервать тест?"
+
+# File: src/www/diag_smart.php, line: 441
+msgid "Abort tests"
+msgstr "Прервать тесты"
+
 #
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 204
 msgid "PPTP settings"
@@ -25978,6 +25772,10 @@ msgstr "Ошибка: не удается открыть mpd.conf в if_pptp_con
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 110
 msgid "Configuring PPTP VPN service..."
 msgstr "Настройка службы VPN с помощью PPTP…"
+
+# File: src/www/diag_smart.php, line: 403
+msgid "Self-test"
+msgstr "Самодиагностика"
 
 # File: src/www/vpn_l2tp.php, line: 412
 msgid "primary and secondary DNS servers assigned to L2TP clients"
@@ -26086,10 +25884,6 @@ msgstr ""
 "Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
 "использования в качестве «шлюза»"
 
-# File: src/www/vpn_l2tp.php, line: 324
-msgid "Server Address"
-msgstr "Адрес сервера"
-
 # File: src/www/vpn_l2tp.php, line: 300
 msgid "Enable L2TP server"
 msgstr "Включить L2TP-сервер"
@@ -26167,10 +25961,31 @@ msgstr "Результат проверки файла конфигурации 
 msgid "Your HAProxy config contains no errors."
 msgstr "Файл конфигурации HAProxy не содержит ошибок."
 
+# File: src/www/diag_smart.php, line: 402
+msgid "Error"
+msgstr "Ошибка"
+
+# File: src/www/diag_smart.php, line: 399
+msgid "Log type"
+msgstr "Тип журнала"
+
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 377
 msgid "Frontend ID"
 msgstr "Идентификатор фронтенда"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
+msgid "Frontend Name"
+msgstr "Имя фронтенда"
+
+# File: src/www/diag_smart.php, line: 390
+msgid "View Logs"
+msgstr "Просмотр журналов"
+
+# File: src/www/diag_smart.php, line: 352
+msgid "Conveyance (ATA Disks Only)"
+msgstr "Транспортировка (Только для ATA-дисков)"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
@@ -26249,6 +26064,14 @@ msgstr "Имя скрипта Lua"
 msgid "Error File ID"
 msgstr "Идентификатор файла ошибки"
 
+# File: src/www/diag_smart.php, line: 350
+msgid "Short"
+msgstr "Сокращенный"
+
+# File: src/www/diag_smart.php, line: 337
+msgid "Perform Self-tests"
+msgstr "Выполнить самодиагностику"
+
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 195
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 232
@@ -26263,6 +26086,17 @@ msgstr "Прокси"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 199
 msgid "Last Change"
 msgstr "Последнее изменение"
+
+# File: src/www/diag_smart.php, line: 304
+# File: src/www/diag_smart.php, line: 357
+# File: src/www/diag_smart.php, line: 408
+# File: src/www/diag_smart.php, line: 450
+msgid "Device: /dev/"
+msgstr "Устройство: /dev/"
+
+# File: src/www/diag_smart.php, line: 298
+msgid "Attributes"
+msgstr "Атрибуты"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 202
@@ -26297,6 +26131,14 @@ msgstr "Ограничение"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
 msgid "Session Rate"
 msgstr "Скорость сессии"
+
+# File: src/www/diag_smart.php, line: 297
+msgid "SMART Capabilities"
+msgstr "Функции SMART"
+
+# File: src/www/diag_smart.php, line: 293
+msgid "Info type"
+msgstr "Информация о типе"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 247
@@ -26334,6 +26176,15 @@ msgstr "Redis"
 msgid "Table"
 msgstr "Таблица"
 
+# File: src/www/diag_smart.php, line: 121
+# File: src/www/diag_smart.php, line: 466
+msgid "Abort"
+msgstr "Прервать"
+
+# File: src/www/diag_smart.php, line: 70
+msgid "Warning"
+msgstr "Предупреждение"
+
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 286
 msgid "Used"
@@ -26364,6 +26215,10 @@ msgstr "Ошибка: не удается открыть mpd.secret в if_pppoe_
 msgid "add a new pppoe instance"
 msgstr "добавить новый экземпляр PPPoE"
 
+# File: src/www/diag_smart.php, line: 69
+msgid "FAILED"
+msgstr "НЕУДАЧНО"
+
 # File: src/www/vpn_pppoe.php, line: 144
 msgid ""
 "Do you really want to delete this entry? All elements that still use it will "
@@ -26376,9 +26231,25 @@ msgstr ""
 msgid "The PPPoE entry list has been changed"
 msgstr "Список записей PPPoE изменен"
 
+# File: src/www/diag_smart.php, line: 68
+msgid "PASSED"
+msgstr "УДАЧНО"
+
+# File: src/www/vpn_l2tp.php, line: 399
+msgid "PAP"
+msgstr "PAP"
+
+# File: src/www/diag_logs_poes.php, line: 20
+msgid "PPPoE Raw"
+msgstr "PPPoE Raw"
+
 # File: src/www/vpn_pppoe.php, line: 119
 msgid "Number of users"
 msgstr "Количество пользователей"
+
+# File: src/www/diag_logs_poes.php, line: 19
+msgid "PPPoE Logins"
+msgstr "Имена пользователей для подключения по протоколу PPPoE"
 
 # File: src/www/vpn_pppoe.php, line: 141
 msgid "edit pppoe instance"
@@ -26434,6 +26305,14 @@ msgid "Hint: 24 is 255.255.255.0"
 msgstr ""
 "Подсказка: 24 означает представление маски в десятичной форме (255.255.255.0)"
 
+#
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
+msgid ""
+"Don't forget to add a firewall rule to permit traffic from PPPoE clients."
+msgstr ""
+"Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
+"PPPoE-клиентов."
+
 # File: src/www/vpn_pppoe_edit.php, line: 508
 msgid ""
 "If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
@@ -26474,125 +26353,9 @@ msgstr "Выдача IP-адресов через RADIUS-сервер"
 msgid "User (s)"
 msgstr "Пользователь (-и)"
 
-#
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
-msgid ""
-"Don't forget to add a firewall rule to permit traffic from PPPoE clients."
-msgstr ""
-"Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
-"PPPoE-клиентов."
-
-# File: src/www/diag_logs_poes.php, line: 19
-msgid "PPPoE Logins"
-msgstr "Имена пользователей для подключения по протоколу PPPoE"
-
-# File: src/www/diag_logs_poes.php, line: 20
-msgid "PPPoE Raw"
-msgstr "PPPoE Raw"
-
-# File: src/www/vpn_l2tp.php, line: 399
-msgid "PAP"
-msgstr "PAP"
-
-# File: src/www/diag_smart.php, line: 68
-msgid "PASSED"
-msgstr "УДАЧНО"
-
-# File: src/www/diag_smart.php, line: 69
-msgid "FAILED"
-msgstr "НЕУДАЧНО"
-
-# File: src/www/diag_smart.php, line: 70
-msgid "Warning"
-msgstr "Предупреждение"
-
-# File: src/www/diag_smart.php, line: 121
-# File: src/www/diag_smart.php, line: 466
-msgid "Abort"
-msgstr "Прервать"
-
-# File: src/www/diag_smart.php, line: 293
-msgid "Info type"
-msgstr "Информация о типе"
-
-# File: src/www/diag_smart.php, line: 297
-msgid "SMART Capabilities"
-msgstr "Функции SMART"
-
-# File: src/www/diag_smart.php, line: 298
-msgid "Attributes"
-msgstr "Атрибуты"
-
-# File: src/www/diag_smart.php, line: 304
-# File: src/www/diag_smart.php, line: 357
-# File: src/www/diag_smart.php, line: 408
-# File: src/www/diag_smart.php, line: 450
-msgid "Device: /dev/"
-msgstr "Устройство: /dev/"
-
-# File: src/www/diag_smart.php, line: 337
-msgid "Perform Self-tests"
-msgstr "Выполнить самодиагностику"
-
-# File: src/www/diag_smart.php, line: 346
-msgid "Test type"
-msgstr "Тип теста"
-
-# File: src/www/diag_smart.php, line: 350
-msgid "Short"
-msgstr "Сокращенный"
-
-# File: src/www/diag_smart.php, line: 352
-msgid "Conveyance (ATA Disks Only)"
-msgstr "Транспортировка (Только для ATA-дисков)"
-
-# File: src/www/diag_smart.php, line: 390
-msgid "View Logs"
-msgstr "Просмотр журналов"
-
-# File: src/www/diag_smart.php, line: 399
-msgid "Log type"
-msgstr "Тип журнала"
-
-# File: src/www/diag_smart.php, line: 402
-msgid "Error"
-msgstr "Ошибка"
-
-# File: src/www/diag_smart.php, line: 403
-msgid "Self-test"
-msgstr "Самодиагностика"
-
-# File: src/www/diag_smart.php, line: 441
-msgid "Abort tests"
-msgstr "Прервать тесты"
-
-# File: src/www/diag_smart.php, line: 466
-msgid "Do you really want to abort the test?"
-msgstr "Вы действительно хотите прервать тест?"
-
-# File: src/www/diag_smart.php, line: 485
-msgid "Back"
-msgstr "Назад"
-
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 38
-msgid "Drive"
-msgstr "Диск"
-
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 39
-msgid "Ident"
-msgstr "Идентификатор"
-
-# File: lang/dynamic/helpers/models.php, line: 98
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
-msgid "SMART Status"
-msgstr "Статус SMART"
-
-# File: src/www/services_dhcpv6.php, line: 188
-msgid ""
-"A valid IPv6 address must be specified for the primary/secondary NTP servers."
-msgstr ""
-"Укажите действительный IPv6-адрес для основного/вспомогательного NTP-"
-"серверов."
+# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 109
+msgid "WCPU"
+msgstr "WCPU"
 
 # File: lang/dynamic/helpers/acl.php, line: 160
 msgid "Allow access to 'Interfaces: QinQ: Edit' page"
@@ -27549,6 +27312,94 @@ msgstr "Отправляет разработчикам отчеты об оши
 
 #
 # File: /usr/lang/src/controllers.php, line: 36
+msgid ""
+"\n"
+"                  Create a list of sites which may not be inspected, for "
+"example bank sites.<br/>\n"
+"                  Prefix the domain with a . to accept all subdomains (e.g. ."
+"google.com).\n"
+"                  "
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 40
+msgid ""
+"\n"
+"                  Enable sslbump mode,\n"
+"                  which makes the proxy act as a man in the middle between "
+"the internet and your clients.<br/>\n"
+"                  Be aware of the security implications before enabling this "
+"option.\n"
+"                  <br/><br/>\n"
+"                  Transparent HTTP proxy needs to be enabled and you need "
+"nat rules to reflect your traffic\n"
+"                  for this feature to work.<br/>\n"
+"                  <a href=\"/firewall_nat_edit.php?"
+"template=transparant_proxy&https=1\"> Add a new firewall rule </a>\n"
+"                  "
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 49
+msgid ""
+"\n"
+"                  Enable transparent proxy mode. You will need a firewall "
+"rule to forward traffic from the firewall to the proxy server.\n"
+"                  You may leave the proxy interfaces empty, but remember to "
+"set a valid ACL in that case.\n"
+"                  <br/>\n"
+"                  <a href=\"/firewall_nat_edit.php?template=transparant_proxy"
+"\"> Add a new firewall rule </a>\n"
+"                  "
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 55
+msgid ""
+"\n"
+"                  Select a Certificate Authority to use. To create a CA, go "
+"to <a href=\"/system_camanager.php\">CA Manager</a>.\n"
+"                  "
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 58
+msgid "(FQ-)CoDel ECN"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 59
+msgid "(FQ-)CoDel interval"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 60
+msgid "(FQ-)CoDel target"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 445
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 493
+# File: src/www/diag_confbak.php, line: 132
+# File: src/www/diag_confbak.php, line: 154
+# File: src/www/diag_logs_filter.php, line: 620
+# File: src/www/diag_logs_vpn.inc, line: 108
+# File: src/www/firewall_rules_edit.php, line: 692
+# File: src/www/services_unbound_acls.php, line: 224
+# File: src/www/services_unbound_acls.php, line: 324
+msgid "Action"
+msgstr "Действие"
+
+# File: src/www/diag_logs_filter_summary.php, line: 44
+msgid "Actions"
+msgstr "Действия"
+
+#
+# File: /usr/lang/src/controllers.php, line: 63
+msgid "Actions (ACLs)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 36
 msgid "Add servers to this backend. Use TAB key to complete typing."
 msgstr ""
 "Добавить серверы к этому бэекенду. Используйте клавишу TAB, чтобы закончить "
@@ -27571,6 +27422,35 @@ msgid "Adjust the server's weight relative to other servers."
 msgstr "Настроить весовой коэффициент сервера относительно других серверов."
 
 #
+# File: /usr/lang/src/controllers.php, line: 67
+msgid "Administrator's Email"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 68
+msgid "Advanced SSL options"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 69
+msgid "Advanced settings"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 70
+msgid "Agent port"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 496
+msgid "Alert"
+msgstr "Предупреждение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 72
+msgid "Alert action / sid"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
 "Allow HAProxy to automatically raise log level for non-completely successful "
@@ -27578,6 +27458,79 @@ msgid ""
 msgstr ""
 "Разрешить HAProxy автоматически повышать уровень регистрации данных для не "
 "полностью успешных подключений для отладки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 74
+msgid "Allow interface subnets"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 75
+msgid "Allowed MAC addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 76
+msgid "Allowed SSL ports"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 77
+msgid "Allowed Subnets"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 78
+msgid "Allowed addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 79
+msgid ""
+"Allowed destination SSL ports, you may use ranges (ex. 222-226) and add "
+"comments with colon (ex. 22:ssh).<br/>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 81
+msgid "Allowed destination TCP port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 82
+msgid ""
+"Allowed destination TCP ports, you may use ranges (ex. 222-226) and add "
+"comments with colon (ex. 22:ssh).<br/>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 84
+msgid "Authenticate using"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 85
+msgid "Authentication Prompt"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 86
+msgid "Authentication TTL (hours)"
+msgstr ""
+
+# File: src/www/vpn_ipsec_phase1.php, line: 730
+# File: src/www/vpn_openvpn_client.php, line: 621
+msgid "Authentication method"
+msgstr "Метод аутентификации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 88
+msgid "Authentication processes"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 44
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -27588,6 +27541,117 @@ msgstr ""
 msgid "Avoid authentication for physical addresses in this list"
 msgstr ""
 "Разрешить доступ без аутентификации для физических адресов из этого списка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 91
+msgid "Balancing Algorithm"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 92
+msgid "Banned host IP addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 93
+msgid "Blacklist"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 94
+msgid ""
+"Blacklist destination domains.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> matches on <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> matches on <b>"
+"\\123.gif</b> but not on <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 104
+msgid "Block browser/user-agents"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 105
+msgid "Block specific MIME type reply"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 106
+msgid ""
+"Block specific MIME type reply.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">video/flv</b> -> matches on <b>Flash "
+"Video</b><br/>\n"
+"            <b class=\"text-primary\">application/x-javascript</b> -> "
+"matches on <b>javascripts</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 114
+msgid ""
+"Block user-agents.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">^(.)+Macintosh(.)+Firefox/37\\.0</b> -"
+"> matches on <b>Macintosh version of Firefox revision 37.0</b><br/>\n"
+"            <b class=\"text-primary\">^Mozilla</b> -> matches on <b>all "
+"Mozilla based browsers</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 122
+msgid "Buffer size"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 123
+msgid ""
+"By default HAProxy operates in <b>keep-alive</b> mode with regards to "
+"persistent connections. Option <b>\"http-tunnel\"</b> disables any HTTP "
+"processing past the first request and the first response. Option <b>"
+"\"httpclose\"</b> configures HAProxy to work in HTTP tunnel mode and check "
+"if a \"Connection: close\" header is already set in each direction, and will "
+"add one if missing. Option <b>\"http-server-close\"</b> enables HTTP "
+"connection-close mode on the server side while keeping the ability to "
+"support HTTP keep-alive and pipelining on the client side. With Option <b>"
+"\"forceclose\"</b> HAProxy will actively close the outgoing server channel "
+"as soon as the server has finished to respond and release some resources "
+"earlier."
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 124
+msgid "CA to use"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 125
+msgid "Cache size in Megabytes"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 42
@@ -27601,6 +27665,33 @@ msgstr ""
 "сообщения с уровнем серьезности не ниже указанного."
 
 #
+# File: /usr/lang/src/controllers.php, line: 127
+msgid "Capture local"
+msgstr ""
+
+# File: lang/dynamic/helpers/models.php, line: 42
+# File: src/www/system_camanager.php, line: 711
+# File: src/www/system_certmanager.php, line: 541
+# File: src/www/system_crlmanager.php, line: 296
+# File: src/www/system_crlmanager.php, line: 320
+# File: src/www/system_crlmanager.php, line: 610
+# File: src/www/system_hasync.php, line: 214
+msgid "Certificates"
+msgstr "Сертификаты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 129
+msgid ""
+"Change the buffer size (in bytes). Lower values allow more sessions to "
+"coexist in the same amount of RAM, and higher values allow some applications "
+"with very large cookies to work. The default value is 16384. <br/><div class="
+"\"text-info\"><b>NOTE:</b> It is strongly recommended not to change this "
+"from the default value, as very low values will break some services such as "
+"statistics, and values larger than default size will increase memory usage, "
+"possibly causing the system to run out of memory.</div>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 43
 msgid ""
 "Change the check buffer size (in bytes). Higher values may help find string "
@@ -27612,6 +27703,21 @@ msgstr ""
 "дополнительных ресурсов памяти и ЦП. Значение по умолчанию равно 16384."
 
 #
+# File: /usr/lang/src/controllers.php, line: 131
+msgid "Check Interval"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 132
+msgid "Check interval"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 133
+msgid "Check type"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
 "Choose a TCP port to be used for the local statistics page. The default "
@@ -27619,6 +27725,21 @@ msgid ""
 msgstr ""
 "Выберите порт TCP, который будет использоваться для страницы локальной "
 "статистики. Значение по умолчанию равно 8822."
+
+#
+# File: /usr/lang/src/controllers.php, line: 135
+msgid ""
+"Choose a request pattern to associate a user to a server. See the <a target="
+"\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/configuration-1.6."
+"html#stick on\">HAProxy documentation</a> for a full description.<br/><div "
+"class=\"text-info\"><b>NOTE:</b> Consider not using this feature in multi-"
+"process mode, it can result in random behaviours.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 136
+msgid "Choose action"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 45
@@ -27663,6 +27784,16 @@ msgstr ""
 "Выберите один из 24 стандартных категорий демона syslog. Значение по "
 "умолчанию local0."
 
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
+msgid "Classtype"
+msgstr "Тип класса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 145
+msgid "Client Timeout"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 39
 msgid ""
 "Clients will be disconnected after this amount of inactivity. They may log "
@@ -27694,6 +27825,26 @@ msgstr ""
 "отключена, если используется RAM-диск (по причине размера и согласованности)."
 
 #
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
+msgid "Command"
+msgstr "Команда"
+
+#
+# File: /usr/lang/src/controllers.php, line: 150
+msgid "Compose expression"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 151
+msgid "Concurrent user logins"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 152
+msgid "Conditional parameters"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
 "Configure listen addresses for the statistics page to enable remote access, "
@@ -27713,6 +27864,10 @@ msgstr ""
 "Настройте адреса прослушивания для этого фронтенда, например 127.0.0.1:8080 "
 "or www.example.com:443. Используйте клавишу TAB, чтобы закончить ввод."
 
+# File: src/www/interfaces_ppps_edit.php, line: 761
+msgid "Connection Timeout"
+msgstr "Тайм-аут ожидания подключения"
+
 #
 # File: /usr/lang/src/controllers.php, line: 57
 msgid ""
@@ -27721,6 +27876,21 @@ msgid ""
 msgstr ""
 "Соединения от (источник) или в (назначения) указанные в списке страны, по "
 "умолчанию выбраны оба."
+
+#
+# File: /usr/lang/src/controllers.php, line: 157
+msgid "Content"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 158
+msgid "Cookie length"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 159
+msgid "Cookie name"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 58
@@ -27736,14 +27906,183 @@ msgid "Countries to alert or block using GeoIP."
 msgstr "Предупреждение или блокировка стран с помощью GeoIP."
 
 #
+# File: /usr/lang/src/controllers.php, line: 162
+msgid "Custom HTTP check"
+msgstr ""
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 245
+msgid "Custom options"
+msgstr "Пользовательские настройки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 164
+msgid "Custom template"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 165
+msgid "DB user"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 166
+msgid "Day of the month"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 167
+msgid "Days of the week"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 168
+msgid "Default Backend"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 169
+msgid "Default Options TTL"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 170
+msgid "Default for server"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default option for all server entries."
-msgstr ""
+msgstr "Параметр по умолчанию для всех записей сервера."
 
 #
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default ttl"
 msgstr "TTL по умолчанию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 173
+msgid ""
+"Define the load balancing algorithm to be used in a backend. See the <a "
+"target=\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/"
+"configuration-1.6.html#balance\">HAProxy documentation</a> for a full "
+"description."
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 191
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 408
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 119
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 147
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 177
+# File: src/www/firewall_aliases.php, line: 190
+# File: src/www/firewall_aliases_edit.php, line: 352
+# File: src/www/firewall_aliases_edit.php, line: 382
+# File: src/www/firewall_aliases_import.php, line: 179
+# File: src/www/firewall_nat.php, line: 261
+# File: src/www/firewall_nat_1to1.php, line: 202
+# File: src/www/firewall_nat_1to1_edit.php, line: 444
+# File: src/www/firewall_nat_edit.php, line: 895
+# File: src/www/firewall_nat_npt.php, line: 200
+# File: src/www/firewall_nat_npt_edit.php, line: 287
+# File: src/www/firewall_nat_out.php, line: 347
+# File: src/www/firewall_nat_out.php, line: 547
+# File: src/www/firewall_nat_out_edit.php, line: 671
+# File: src/www/firewall_rules.php, line: 271
+# File: src/www/firewall_rules_edit.php, line: 1142
+# File: src/www/firewall_schedule.php, line: 127
+# File: src/www/firewall_schedule_edit.php, line: 815
+# File: src/www/firewall_schedule_edit.php, line: 1013
+# File: src/www/firewall_virtual_ip.php, line: 276
+# File: src/www/firewall_virtual_ip_edit.php, line: 453
+# File: src/www/interfaces.php, line: 1693
+# File: src/www/interfaces_bridge.php, line: 128
+# File: src/www/interfaces_bridge_edit.php, line: 274
+# File: src/www/interfaces_gif.php, line: 121
+# File: src/www/interfaces_gif_edit.php, line: 268
+# File: src/www/interfaces_gre.php, line: 123
+# File: src/www/interfaces_gre_edit.php, line: 256
+# File: src/www/interfaces_groups.php, line: 111
+# File: src/www/interfaces_groups_edit.php, line: 167
+# File: src/www/interfaces_lagg.php, line: 131
+# File: src/www/interfaces_lagg_edit.php, line: 252
+# File: src/www/interfaces_ppps.php, line: 122
+# File: src/www/interfaces_ppps_edit.php, line: 508
+# File: src/www/interfaces_qinq.php, line: 139
+# File: src/www/interfaces_qinq_edit.php, line: 190
+# File: src/www/interfaces_vlan.php, line: 123
+# File: src/www/interfaces_vlan_edit.php, line: 206
+# File: src/www/interfaces_wireless.php, line: 120
+# File: src/www/interfaces_wireless_edit.php, line: 179
+# File: src/www/load_balancer_monitor.php, line: 115
+# File: src/www/load_balancer_monitor_edit.php, line: 147
+# File: src/www/load_balancer_monitor_edit.php, line: 310
+# File: src/www/load_balancer_pool.php, line: 129
+# File: src/www/load_balancer_pool_edit.php, line: 207
+# File: src/www/load_balancer_virtual_server.php, line: 165
+# File: src/www/load_balancer_virtual_server_edit.php, line: 169
+# File: src/www/services_dhcp.php, line: 801
+# File: src/www/services_dhcp.php, line: 1132
+# File: src/www/services_dhcp_edit.php, line: 412
+# File: src/www/services_dhcpv6.php, line: 838
+# File: src/www/services_dhcpv6_edit.php, line: 234
+# File: src/www/services_dnsmasq.php, line: 368
+# File: src/www/services_dnsmasq.php, line: 446
+# File: src/www/services_dnsmasq_domainoverride_edit.php, line: 160
+# File: src/www/services_dnsmasq_edit.php, line: 224
+# File: src/www/services_dnsmasq_edit.php, line: 245
+# File: src/www/services_dyndns.php, line: 88
+# File: src/www/services_dyndns_edit.php, line: 426
+# File: src/www/services_igmpproxy.php, line: 101
+# File: src/www/services_igmpproxy_edit.php, line: 174
+# File: src/www/services_rfc2136.php, line: 82
+# File: src/www/services_rfc2136_edit.php, line: 219
+# File: src/www/services_unbound_acls.php, line: 250
+# File: src/www/services_unbound_acls.php, line: 300
+# File: src/www/services_unbound_acls.php, line: 325
+# File: src/www/services_unbound_domainoverride_edit.php, line: 152
+# File: src/www/services_unbound_host_edit.php, line: 314
+# File: src/www/services_unbound_host_edit.php, line: 335
+# File: src/www/services_unbound_overrides.php, line: 135
+# File: src/www/services_unbound_overrides.php, line: 216
+# File: src/www/services_wol.php, line: 176
+# File: src/www/services_wol_edit.php, line: 159
+# File: src/www/status_dhcp_leases.php, line: 342
+# File: src/www/status_dhcpv6_leases.php, line: 423
+# File: src/www/status_gateway_groups.php, line: 61
+# File: src/www/status_gateways.php, line: 58
+# File: src/www/status_lb_pool.php, line: 132
+# File: src/www/status_lb_vs.php, line: 77
+# File: src/www/status_services.php, line: 296
+# File: src/www/status_upnp.php, line: 82
+# File: src/www/system_advanced_sysctl.php, line: 165
+# File: src/www/system_advanced_sysctl.php, line: 211
+# File: src/www/system_gateway_groups.php, line: 171
+# File: src/www/system_gateway_groups_edit.php, line: 198
+# File: src/www/system_gateway_groups_edit.php, line: 297
+# File: src/www/system_gateways.php, line: 304
+# File: src/www/system_gateways_edit.php, line: 807
+# File: src/www/system_groupmanager.php, line: 333
+# File: src/www/system_groupmanager.php, line: 412
+# File: src/www/system_groupmanager.php, line: 469
+# File: src/www/system_groupmanager_addprivs.php, line: 146
+# File: src/www/system_routes.php, line: 245
+# File: src/www/system_routes_edit.php, line: 303
+# File: src/www/system_usermanager.php, line: 748
+# File: src/www/system_usermanager_addprivs.php, line: 143
+# File: src/www/vpn_ipsec_phase1.php, line: 714
+# File: src/www/vpn_ipsec_phase2.php, line: 690
+# File: src/www/vpn_openvpn_client.php, line: 646
+# File: src/www/vpn_openvpn_client.php, line: 1050
+# File: src/www/vpn_openvpn_csc.php, line: 353
+# File: src/www/vpn_openvpn_csc.php, line: 614
+# File: src/www/vpn_openvpn_server.php, line: 881
+# File: src/www/vpn_openvpn_server.php, line: 1713
+# File: src/www/vpn_pppoe.php, line: 120
+# File: src/www/vpn_pppoe_edit.php, line: 495
+# File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 70
+# File: src/www/widgets/widgets/services_status.widget.php, line: 60
+msgid "Description"
+msgstr "Описание"
 
 #
 # File: /usr/lang/src/controllers.php, line: 61
@@ -27789,11 +28128,73 @@ msgstr "Описание для идентификации этого канал
 msgid "Description to identify this zone."
 msgstr "Описание для идентификации этой зоны."
 
+# File: src/www/firewall_nat_1to1.php, line: 201
+msgid "Destination IP"
+msgstr "IP-адрес назначения"
+
+#
+# File: /usr/core/src/www/firewall_scrub_edit.php, line: 439
+msgid "Destination port"
+msgstr "Порт назначения"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 98
+msgid "Destinations"
+msgstr "Получатели"
+
+#
+# File: /usr/lang/src/controllers.php, line: 187
+msgid "Detailed Logging"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 188
+msgid "Don't log normal"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 189
+msgid "Don't log null"
+msgstr ""
+
 #
 # File: /usr/lang/src/controllers.php, line: 71
 msgid ""
 "Don't use port on server, use the same port as frontend receive. If check "
 "enable, require port check in server."
+msgstr ""
+"Используйте один и тот же порт, который получает фронтенд, вместо порта на "
+"сервере. Если проверка включена, требуется проверка порта на сервере."
+
+#
+# File: /usr/lang/src/controllers.php, line: 191
+msgid ""
+"Dynamic queue creation by source or destination address.\n"
+"        <li> choose destination here to share the total bandwidth of this "
+"pipe among all connected clients. </li>\n"
+"        <li> choose source to provide all connected clients up to a maximum "
+"of this pipe configured bandwidth  </li>\n"
+"        "
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 195
+msgid "Egress only"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 196
+msgid "Email (from)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 197
+msgid "Email (to)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 198
+msgid "Enable CoDel"
 msgstr ""
 
 #
@@ -27802,18 +28203,63 @@ msgid "Enable CoDel active queue management"
 msgstr "Включить активное управление очередью CoDel"
 
 #
+# File: /usr/lang/src/controllers.php, line: 200
+msgid "Enable DNS v4 first"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 201
+msgid "Enable HAProxy"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Enable HAProxy's statistics page."
 msgstr "Включить страницу статистики HAProxy"
+
+#
+# File: /usr/lang/src/controllers.php, line: 203
+msgid "Enable ICAP"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 204
+msgid "Enable Preview"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 205
+msgid "Enable SSL mode"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Enable SSL offloading"
 msgstr "Включить сброс SSL"
 
+#
+# File: /usr/lang/src/controllers.php, line: 207
+msgid "Enable Transparent HTTP proxy"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 208
+msgid "Enable Transparent mode"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 209
+msgid "Enable access logging"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 66
 msgid "Enable access logging."
 msgstr "Включить ведение журнала запросов клиентов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 211
+msgid "Enable authentication"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 74
@@ -27827,6 +28273,19 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 75
 msgid "Enable intrusion detection system."
 msgstr "Включить систему обнаружения вторжений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 214
+msgid "Enable local cache (requires service restart)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 215
+msgid ""
+"Enable or disable HAProxy running as root.<br/><div class=\"text-info"
+"\"><b>NOTE:</b> Enabling root could be a security issue but it's required by "
+"some feature.</div>"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 76
@@ -27867,6 +28326,15 @@ msgstr ""
 msgid "Enable or disable the HAProxy service."
 msgstr "Включить или отключить службу HAProxy."
 
+#
+# File: /usr/lang/src/controllers.php, line: 223
+msgid ""
+"Enable or disable the local cache.<br/>\n"
+"        Currently only ufs directory cache type is supported.<br/>\n"
+"        <b class=\"text-danger\">Do not enable on embedded systems with SD "
+"or CF cards as this may break your drive.</b>"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 64
 msgid "Enable or disable the proxy service."
 msgstr "Включить или отключить использование прокси-сервера."
@@ -27894,9 +28362,40 @@ msgstr ""
 "VLAN). Требуется для захвата данных на физическом интерфейсе."
 
 #
+# File: /usr/lang/src/controllers.php, line: 230
+msgid ""
+"Enable protection mode (block traffic).<br />Before enabling, please disable "
+"all hardware offloading first <a href=\"/system_advanced_network.php\">in "
+"advanced network</a>."
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 231
+msgid "Enable proxy"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 232
+msgid "Enable remote access"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 233
+msgid ""
+"Enable remote access to HAProxy's statistics page. <b>This may be a security "
+"risk if you do not enable authentication!</b> Note that you need to add "
+"appropiate firewall rules for this to work."
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Enable ruleset"
 msgstr "Включить набор правил"
+
+#
+# File: /usr/lang/src/controllers.php, line: 235
+msgid "Enable store logging"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enable store logging."
@@ -27938,6 +28437,11 @@ msgstr ""
 "Включить для журналирования обновлений состояния проверки работоспособности."
 
 #
+# File: /usr/lang/src/controllers.php, line: 244
+msgid "Enable traffic management."
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 96
 msgid ""
 "Enable transparent ftp proxy mode to forward all requests for destination "
@@ -27945,6 +28449,18 @@ msgid ""
 msgstr ""
 "Включить прозрачный режим FTP-прокси, чтобы без дополнительной настройки "
 "перенаправлять запросы для порта назначения номер 21 на прокси-сервер."
+
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 189
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 410
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 113
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 143
+msgid "Enabled"
+msgstr "Включен"
+
+#
+# File: /usr/lang/src/controllers.php, line: 247
+msgid "Encode Username"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 63
 msgid "Enter a description to explain what this blacklist is intended for."
@@ -28106,7 +28622,7 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Enter the size of the preview which is sent to the ICAP server."
-msgstr ""
+msgstr "Введите размер превью, которое отправляется на ICAP сервер."
 
 # File: lang/dynamic/helpers/controllers.php, line: 73
 msgid "Enter the storage size for the local cache (default is 100)."
@@ -28125,9 +28641,76 @@ msgid "Enter the url where the respmod requests should be sent to."
 msgstr "Введите URL для отправки respmod запросов."
 
 #
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
+# File: /usr/lang/src/models.php, line: 88
+msgid "Error Files"
+msgstr "Файлы ошибки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 274
+msgid "Error code"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 275
+msgid "Error files"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 276
+msgid "Expiration time"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Explicit Congestion Notification"
 msgstr "Явное Уведомление о Перегруженности"
+
+#
+# File: /usr/lang/src/controllers.php, line: 278
+msgid "Expression"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 279
+msgid "FQ-CoDel flows"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 280
+msgid "FQ-CoDel limit"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 281
+msgid "FQ-CoDel quantum"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 282
+msgid "FQDN or IP"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 283
+msgid "FTP proxy interfaces"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 284
+msgid "FTP proxy port"
+msgstr ""
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
+msgid "Filename"
+msgstr "Имя файла"
+
+#
+# File: /usr/lang/src/controllers.php, line: 286
+msgid "Filter syslog level"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 123
@@ -28139,6 +28722,26 @@ msgstr ""
 "время загрузки этого набора правила."
 
 #
+# File: /usr/lang/src/controllers.php, line: 288
+msgid "Find value"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 289
+msgid "Form condition"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 290
+msgid "GeoIP/Country"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 291
+msgid "GeoIP/Direction"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 124
 msgid ""
 "Grant access to HAProxy statistics page. Please provide both user and "
@@ -28148,6 +28751,75 @@ msgstr ""
 "Предоставить доступ к странице статистики HAProxy. Предоставьте имя и пароль "
 "открытым текстом, разделенным «:», например john:secret123 или jdoe:"
 "anonymous. Используйте клавишу TAB, чтобы закончить ввод."
+
+#
+# File: /usr/lang/src/controllers.php, line: 293
+msgid "Group Id"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 294
+msgid "HAProxy processes"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 295
+msgid "HTTP check options"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 296
+msgid "HTTP host"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 297
+msgid "HTTP method"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 298
+msgid "HTTP version"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 299
+msgid "Hard timeout (minutes)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 300
+msgid "Health Checking"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 301
+msgid "Health check"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 302
+msgid "Health check buffer size"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 83
+# File: src/www/interfaces.php, line: 1951
+# File: src/www/services_dhcp.php, line: 1131
+# File: src/www/services_dhcp_edit.php, line: 392
+# File: src/www/services_dhcpv6.php, line: 837
+# File: src/www/services_dhcpv6_edit.php, line: 214
+# File: src/www/services_dyndns.php, line: 86
+# File: src/www/services_dyndns_edit.php, line: 91
+# File: src/www/services_dyndns_edit.php, line: 320
+# File: src/www/services_rfc2136.php, line: 80
+# File: src/www/services_rfc2136_edit.php, line: 73
+# File: src/www/services_rfc2136_edit.php, line: 165
+# File: src/www/status_dhcp_leases.php, line: 341
+# File: src/www/system_general.php, line: 109
+# File: src/www/system_general.php, line: 324
+# File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 80
+msgid "Hostname"
+msgstr "Имя хоста"
 
 # File: lang/dynamic/helpers/controllers.php, line: 43
 msgid ""
@@ -28161,6 +28833,25 @@ msgstr ""
 "интерфейса; в противном случае клиент должен иметь доступ к DNS-серверу для "
 "преобразования имени в IP адрес. При использовании SSL сертификата имя "
 "субъекта сертификата должно совпадать с именем хоста."
+
+# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 339
+msgid "Hours"
+msgstr "Ч"
+
+#
+# File: /usr/lang/src/controllers.php, line: 306
+msgid "ICP port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 307
+msgid "IPS mode"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 308
+msgid "Idle timeout (minutes)"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 42
 msgid ""
@@ -28216,12 +28907,23 @@ msgid ""
 "ICAP server. This can be useful if you want to filter traffic based on "
 "usernames. Note, that authentication is required to use usernames."
 msgstr ""
+"Если этот параметр включен, имя пользователя клиента будет отправлено на "
+"ICAP-сервер. Это параметр может быть полезен, если вы хотите отфильтровать "
+"трафик по именам пользователей. Примечание: требуется аутентификация, чтобы "
+"использовать имена пользователей."
 
 #
 # File: /usr/lang/src/controllers.php, line: 134
 msgid ""
 "If you use previews, only a part of the data is sent to the ICAP server. "
 "Setting this option can improve the performance."
+msgstr ""
+"Если вы используете превью, только часть данных отправляется на ICAP-сервер. "
+"Установка этого параметра может увеличить производительность."
+
+#
+# File: /usr/lang/src/controllers.php, line: 316
+msgid "Ignore hosts in access.log"
 msgstr ""
 
 #
@@ -28233,6 +28935,20 @@ msgstr ""
 "Показывает, куда отправлять журналы. Используются разделенные двоеточием "
 "IPv4 или IPv6-адрес и порт UDP (необязательно), например 127.0.0.1 или "
 "10.0.0.1:514"
+
+#
+# File: /usr/lang/src/controllers.php, line: 318
+msgid "Input Filter"
+msgstr ""
+
+# File: lang/dynamic/helpers/models.php, line: 138
+# File: lang/dynamic/helpers/models.php, line: 364
+# File: src/www/diag_backup.php, line: 138
+# File: src/www/diag_logs_filter_summary.php, line: 45
+# File: src/www/interfaces_assign.php, line: 361
+# File: src/www/services_dnsmasq.php, line: 275
+msgid "Interfaces"
+msgstr "Интерфейсы"
 
 # File: lang/dynamic/helpers/controllers.php, line: 36
 msgid "Internal number used for this zone"
@@ -28246,12 +28962,179 @@ msgstr ""
 "умолчанию."
 
 #
+# File: /usr/lang/src/controllers.php, line: 322
+msgid "Listen Addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 323
+msgid "Local stats TCP port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 324
+msgid "Log Host"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 325
+msgid "Log Status Changes"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 326
+msgid "Log target"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 327
+msgid "Logging Options"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 328
+msgid "Logical operator (for ACLs)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 329
+msgid "Max. Connections"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 330
+msgid "Max. line length"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 331
+msgid "Maximum RAM per LUA process"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 332
+msgid "Maximum SSL DH Size"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 333
+msgid "Maximum connections"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 334
+msgid "Maximum download size (Kb)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 335
+msgid "Maximum object size (MB)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 336
+msgid "Maximum upload size (Kb)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 337
+msgid "Memory Cache size in Megabytes"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 448
+msgid "Message"
+msgstr "Сообщение"
+
+#
 # File: /usr/lang/src/controllers.php, line: 136
 msgid ""
 "Minimum acceptable persistent queue delay (in ms), leave empty for default"
 msgstr ""
 "Минимально допустимая задержка персистентной очереди (в мс), оставьте поле "
 "пустым для значения по умолчанию."
+
+# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 341
+msgid "Minutes"
+msgstr "Мин"
+
+# File: src/www/interfaces.php, line: 867
+# File: src/www/interfaces.php, line: 3038
+# File: src/www/interfaces_wireless.php, line: 119
+# File: src/www/interfaces_wireless_edit.php, line: 71
+# File: src/www/load_balancer_pool.php, line: 125
+# File: src/www/load_balancer_pool_edit.php, line: 63
+# File: src/www/load_balancer_pool_edit.php, line: 198
+# File: src/www/load_balancer_virtual_server_edit.php, line: 63
+# File: src/www/status_lb_pool.php, line: 129
+# File: src/www/vpn_ipsec.php, line: 315
+# File: src/www/vpn_ipsec.php, line: 441
+# File: src/www/vpn_ipsec_phase2.php, line: 670
+msgid "Mode"
+msgstr "Режим:"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
+msgid "Months"
+msgstr "Месяцы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 343
+msgid ""
+"NOTE: Define default parameters for ALL Frontends, Backends and Servers "
+"here. They may still be overriden elsewhere."
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 344
+msgid ""
+"NOTE: Define global parameters for the HAProxy service. They cannot be "
+"overriden."
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 345
+msgid ""
+"NOTE: You need to configure frontends, backends and servers before enabling "
+"HAProxy."
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 215
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 193
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 196
+# File: src/www/firewall_aliases.php, line: 188
+# File: src/www/firewall_aliases_edit.php, line: 339
+# File: src/www/firewall_aliases_import.php, line: 48
+# File: src/www/firewall_schedule.php, line: 125
+# File: src/www/interfaces_groups.php, line: 109
+# File: src/www/load_balancer_monitor.php, line: 113
+# File: src/www/load_balancer_monitor_edit.php, line: 147
+# File: src/www/load_balancer_monitor_edit.php, line: 304
+# File: src/www/load_balancer_pool.php, line: 124
+# File: src/www/load_balancer_pool_edit.php, line: 63
+# File: src/www/load_balancer_pool_edit.php, line: 192
+# File: src/www/load_balancer_virtual_server.php, line: 159
+# File: src/www/load_balancer_virtual_server_edit.php, line: 63
+# File: src/www/load_balancer_virtual_server_edit.php, line: 68
+# File: src/www/load_balancer_virtual_server_edit.php, line: 163
+# File: src/www/services_igmpproxy.php, line: 98
+# File: src/www/status_gateways.php, line: 52
+# File: src/www/status_lb_pool.php, line: 128
+# File: src/www/status_lb_vs.php, line: 73
+# File: src/www/status_openvpn.php, line: 229
+# File: src/www/status_openvpn.php, line: 267
+# File: src/www/system_camanager.php, line: 708
+# File: src/www/system_certmanager.php, line: 1187
+# File: src/www/system_crlmanager.php, line: 608
+# File: src/www/system_gateways.php, line: 300
+# File: src/www/system_gateways_edit.php, line: 53
+# File: src/www/system_gateways_edit.php, line: 608
+# File: src/www/system_groupmanager.php, line: 411
+# File: src/www/system_usermanager.php, line: 747
+# File: src/www/system_usermanager.php, line: 787
+# File: src/www/widgets/widgets/gateways.widget.php, line: 45
+# File: src/www/widgets/widgets/system_information.widget.php, line: 85
+msgid "Name"
+msgstr "Имя"
 
 #
 # File: /usr/lang/src/controllers.php, line: 137
@@ -28289,9 +29172,63 @@ msgid "Name to identify this server."
 msgstr "Имя для идентификации этого сервера."
 
 #
+# File: /usr/lang/src/controllers.php, line: 354
+msgid "Name/Identifier"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 355
+msgid "Negate condition"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 356
+msgid "Non-HTTP check options"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 357
+msgid ""
+"Number of HAProxy processes to start.<br/><div class=\"text-info\"><b>NOTE:</"
+"b> You may experience random issues in multi-process mode. For more "
+"information about the \"nbproc\" option please see the HAProxy Documentation."
+"</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 358
+msgid "Number of first-level subdirectories"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "Number of logs to keep."
 msgstr "Количество записей в журнале."
+
+#
+# File: /usr/lang/src/controllers.php, line: 360
+msgid "Number of second-level subdirectories"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 361
+msgid "Option pass-through"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 362
+msgid "Optional parameters"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 363
+msgid "Overall bandwidth throttling (Kbps)"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 364
+msgid "Parameters"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 145
@@ -28306,6 +29243,47 @@ msgid ""
 msgstr ""
 "Вставьте содержимое вашего файла ошибки. Размер файлов не должен превышать "
 "настроенный размер буфера (обычно 8 или 16 кб)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 367
+msgid "Pattern matcher"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 368
+msgid "Per host bandwidth throttling (Kbps)"
+msgstr ""
+
+# File: src/www/diag_packet_capture.php, line: 391
+# File: src/www/diag_testport.php, line: 50
+# File: src/www/diag_testport.php, line: 161
+# File: src/www/firewall_rules.php, line: 266
+# File: src/www/firewall_rules.php, line: 268
+# File: src/www/load_balancer_pool.php, line: 127
+# File: src/www/load_balancer_pool_edit.php, line: 63
+# File: src/www/load_balancer_pool_edit.php, line: 214
+# File: src/www/load_balancer_virtual_server.php, line: 162
+# File: src/www/load_balancer_virtual_server_edit.php, line: 189
+# File: src/www/status_upnp.php, line: 78
+# File: src/www/vpn_openvpn_export.php, line: 736
+# File: src/www/vpn_openvpn_export_shared.php, line: 360
+msgid "Port"
+msgstr "Порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 370
+msgid "Port to check"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 371
+msgid "Preview Size"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 372
+msgid "Promiscuous mode"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 147
@@ -28325,11 +29303,142 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Provide the TCP communication port to use during check, i.e. 80 or 443."
 msgstr ""
+"Укажите номер последовательного порта TCP для этого сервера, например 80 или "
+"443."
+
+#
+# File: /usr/lang/src/controllers.php, line: 376
+msgid "Proxy interfaces"
+msgstr ""
+
+# File: src/www/vpn_openvpn_client.php, line: 613
+msgid "Proxy port"
+msgstr "Номер порта прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 378
+msgid "Query Backend"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 379
+msgid "Raise Log Level"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 380
+msgid "Reference"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 381
+msgid "Remote listen addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 382
+msgid "Request Modify URL"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 383
+msgid "Request URI"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 384
+msgid "Response Modify URL"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 385
+msgid "Retries"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 386
+msgid "Revision"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
 msgstr "Архивировать журналы предупреждений с указанной периодичностью."
+
+#
+# File: /usr/lang/src/controllers.php, line: 388
+msgid "Rotate log"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 389
+msgid "Run as root"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 390
+msgid "SMTP domain"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 391
+msgid "SMTPHost"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 392
+msgid "SSL"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 393
+msgid "SSL Offloading"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 394
+msgid "SSL Proxy port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 395
+msgid "SSL cache size"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 396
+msgid "SSL cert workers"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 397
+msgid "SSL certificate"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 398
+msgid "SSL no bump sites"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 399
+msgid "SSL/Fingerprint"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 400
+msgid "Save logs"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 401
+msgid "Scheduler type"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 402
+msgid "Select ACLs"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 86
 msgid "Select Authentication method"
@@ -28357,6 +29466,16 @@ msgid ""
 msgstr ""
 "Выберите используемый метод аутентификации или оставьте поле пустым, если "
 "аутентификация не нужна."
+
+#
+# File: /usr/lang/src/controllers.php, line: 408
+msgid ""
+"Select certificates to use for SSL offloading. HAProxy's SNI recognition "
+"will determine the correct certificate automatically. If no SNI is provided "
+"by the client then the first certificate will be presented.<br/>To import "
+"additional certificates, go to <a href=\"/system_certmanager.php"
+"\">Certificate Manager</a>."
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 155
@@ -28443,19 +29562,62 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Select the multi-pattern matcher algorithm to use."
 msgstr ""
+"Выберите используемый алгоритм поиска совпадений множественных шаблонов."
 
 #
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Select type of health check."
 msgstr "Выберите тип проверки работоспособности."
 
+#
+# File: /usr/lang/src/controllers.php, line: 424
+msgid ""
+"Select what to do with URI that contain whitespaces.<br/>\n"
+"            <div class=\"text-info\"><b>NOTE:</b> the current Squid "
+"implementation of encode and chop violates\n"
+"                RFC2616 by not using a 301 redirect after altering the URL.</"
+"div>"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 70
 msgid "Select what to do with X-Forwarded for header."
 msgstr "Выберите, что делать с X-Forwarded-For для заголовка."
 
 #
+# File: /usr/lang/src/controllers.php, line: 428
+msgid "Send Client IP"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 429
+msgid "Send Username"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Send log data to."
+msgstr "Отправить данные журнала."
+
+#
+# File: /usr/lang/src/controllers.php, line: 431
+msgid "Separate Statistics"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 432
+msgid "Server Timeout"
+msgstr ""
+
+# File: lang/dynamic/helpers/models.php, line: 92
+# File: src/www/load_balancer_pool.php, line: 126
+# File: src/www/status_lb_pool.php, line: 130
+# File: src/www/status_lb_vs.php, line: 75
+msgid "Servers"
+msgstr "Серверы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 434
+msgid "Session redistribution"
 msgstr ""
 
 #
@@ -28536,6 +29698,11 @@ msgstr ""
 "бэкенд работают в одном режиме."
 
 #
+# File: /usr/lang/src/controllers.php, line: 446
+msgid "Set value"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
 "Sets the interval (in milliseconds) for running health checks on the server."
@@ -28557,6 +29724,26 @@ msgstr ""
 "доступной памяти."
 
 #
+# File: /usr/lang/src/controllers.php, line: 449
+msgid ""
+"Sets the maximum number of concurrent connections per HAProxy process.<br/"
+"><div class=\"text-info\"><b>NOTE:</b> HAProxy will not be able to allocate "
+"enough memory if you set this value too high. Consider raising the settings "
+"for kern.maxfiles and kern.maxfilesperproc if you need to specify a non-"
+"default value.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 450
+msgid ""
+"Sets the maximum size of the Diffie-Hellman parameters used for generating "
+"the ephemeral/temporary Diffie-Hellman key in case of DHE key exchange "
+"(default is 1024).<br/><div class=\"text-info\"><b>NOTE:</b> Higher values "
+"will increase the CPU load. For more information about the \"tune.ssl."
+"default-dh-param\" option please see the HAProxy Documentation.</div>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 183
 msgid "Sets the operation mode to use for this server."
 msgstr "Устанавливает рабочий режим для этого сервера."
@@ -28565,12 +29752,73 @@ msgstr "Устанавливает рабочий режим для этого �
 # File: /usr/lang/src/controllers.php, line: 189
 msgid ""
 "Sets the source address which will be used when connecting to the server(s)."
-msgstr ""
+msgstr "Устанавливает IP-адрес источника для подключения к серверу (-ам)."
 
 #
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
 "Sets the source address which will be used when connecting to the server."
+msgstr "Устанавливает IP-адрес источника для подключения к серверу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 454
+msgid "Signature Id"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
+# File: src/www/diag_confbak.php, line: 288
+# File: src/www/diag_system_pftop.php, line: 122
+# File: src/www/diag_system_pftop.php, line: 140
+msgid "Size"
+msgstr "Размер"
+
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 494
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 174
+# File: src/www/diag_ipsec_sad.php, line: 56
+# File: src/www/diag_ipsec_spd.php, line: 56
+# File: src/www/diag_logs_filter.php, line: 715
+# File: src/www/diag_logs_filter_dynamic.php, line: 112
+# File: src/www/firewall_nat.php, line: 244
+# File: src/www/firewall_nat_edit.php, line: 581
+# File: src/www/firewall_nat_edit.php, line: 590
+# File: src/www/firewall_nat_edit.php, line: 599
+# File: src/www/firewall_nat_npt_edit.php, line: 218
+# File: src/www/firewall_nat_npt_edit.php, line: 227
+# File: src/www/firewall_nat_out.php, line: 340
+# File: src/www/firewall_nat_out.php, line: 540
+# File: src/www/firewall_nat_out_edit.php, line: 191
+# File: src/www/firewall_nat_out_edit.php, line: 470
+# File: src/www/firewall_rules.php, line: 265
+# File: src/www/firewall_rules_edit.php, line: 235
+# File: src/www/firewall_rules_edit.php, line: 880
+# File: src/www/firewall_rules_edit.php, line: 889
+# File: src/www/firewall_rules_edit.php, line: 938
+# File: src/www/vpn_ipsec_mobile.php, line: 391
+# File: src/www/widgets/widgets/ipsec.widget.php, line: 141
+# File: src/www/widgets/widgets/log.widget.php, line: 237
+msgid "Source"
+msgstr "Отправитель"
+
+# File: src/www/services_dnsmasq_domainoverride_edit.php, line: 153
+msgid "Source IP"
+msgstr "IP-адрес источника"
+
+# File: src/www/firewall_nat_1to1_edit.php, line: 168
+# File: src/www/firewall_nat_1to1_edit.php, line: 376
+# File: src/www/firewall_nat_edit.php, line: 203
+# File: src/www/firewall_nat_edit.php, line: 625
+# File: src/www/firewall_nat_npt_edit.php, line: 232
+# File: src/www/firewall_nat_npt_edit.php, line: 270
+# File: src/www/firewall_nat_out_edit.php, line: 492
+# File: src/www/firewall_rules_edit.php, line: 919
+msgid "Source address"
+msgstr "IP-адрес источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 459
+msgid "Source port"
 msgstr ""
 
 #
@@ -28594,6 +29842,25 @@ msgid "Specify a value to match with the expression."
 msgstr "Укажите значение соответствующее этому выражению."
 
 #
+# File: /usr/lang/src/controllers.php, line: 464
+msgid ""
+"Specify a value to match with the expression. <br/><div class=\"text-info"
+"\"><b>NOTE:</b> It is important to note that the responses will be limited "
+"to a certain size defined by the global \"tune.chksize\" option, which "
+"defaults to 16384 bytes.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 465
+msgid ""
+"Specify additional SSL parameters such as force-sslv3, force-tlsv10, force-"
+"tlsv11, force-tlsv12, no-sslv3, no-tlsv10, no-tlsv11, no-tlsv12, no-tls-"
+"tickets or customize the list of SSL ciphers.<br/>Example: no-sslv3 ciphers "
+"HIGH:!DSS:!aNULL@STRENGTH<br/><div class=\"text-info\"><b>NOTE:</b> The "
+"syntax will not be checked, use at your own risk!</div>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 188
 msgid ""
 "Specify an optional maximum line length. Log lines larger than this value "
@@ -28614,6 +29881,13 @@ msgid "Specify the TCP port used for agent checks."
 msgstr "Укажите порт TCP для проверок агента."
 
 #
+# File: /usr/lang/src/controllers.php, line: 468
+msgid ""
+"Specify the URL parameter to be checked for the value specified below.<br/"
+"><b>Not used for any other expression.</b>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
 "Specify the domain name to present to the server for SMTP/ESMTP health "
@@ -28632,11 +29906,59 @@ msgstr "Укажите используемый алгоритм планиро�
 msgid "Specify the username to be used for database health checks."
 msgstr "Укажите имя пользователя для проверок работоспособности базы данных."
 
+#
+# File: /usr/lang/src/controllers.php, line: 472
+msgid "Spread checks"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 473
+msgid "Stats enabled"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 474
+msgid "Stats users"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 475
+msgid "Stick-table persistence"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 71
 msgid ""
 "Suppress Squid version string info in HTTP headers and HTML error pages."
 msgstr ""
 "Пресекать выдачу версии Squid в HTTP-заголовках и HTML-страницах об ошибках."
+
+#
+# File: /usr/lang/src/controllers.php, line: 477
+msgid "Suppress version string"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 478
+msgid "Syslog facility"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 479
+msgid "Table type"
+msgstr ""
+
+# File: src/www/diag_smart.php, line: 346
+msgid "Test type"
+msgstr "Тип теста"
+
+#
+# File: /usr/lang/src/controllers.php, line: 481
+msgid ""
+"The HTTP status code.<br/><div class=\"text-info\"><b>NOTE:</b> It is "
+"important to understand that errorfiles are NOT meant to rewrite errors "
+"returned by the server, but errors detected and returned by HAProxy. This is "
+"why the list of supported errors is limited to a small set.</div>"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 194
@@ -28722,6 +30044,46 @@ msgstr ""
 "Число процессов аутентификатора, которые могут быть запущены одновременно."
 
 #
+# File: /usr/lang/src/controllers.php, line: 493
+msgid ""
+"These lines will be added to the HAProxy backend configuration.<br/><div "
+"class=\"text-info\"><b>NOTE:</b> The syntax will not be checked, use at your "
+"own risk!</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 494
+msgid ""
+"These lines will be added to the HAProxy frontend configuration.<br/><div "
+"class=\"text-info\"><b>NOTE:</b> The syntax will not be checked, use at your "
+"own risk!</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 495
+msgid ""
+"These lines will be added to the defaults settings of to the HAProxy "
+"configuration file.<br/><div class=\"text-info\"><b>NOTE:</b> The syntax "
+"will not be checked, use at your own risk!</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 496
+msgid ""
+"These lines will be added to the global settings of to the HAProxy "
+"configuration file.<br/><div class=\"text-info\"><b>NOTE:</b> The syntax "
+"will not be checked, use at your own risk!</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 497
+msgid ""
+"These lines will be added to the statistics settings of to the HAProxy "
+"configuration file.<br/><div class=\"text-info\"><b>NOTE:</b> The syntax "
+"will not be checked, use at your own risk!</div>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "This is the email address displayed in error messages to the users."
 msgstr ""
@@ -28735,13 +30097,175 @@ msgstr ""
 "Это имя хоста, которое будет отображаться в сообщениях об ошибке прокси-"
 "сервера."
 
+#
+# File: /usr/lang/src/controllers.php, line: 500
+msgid ""
+"This option reverses the order of preference to make Squid contact dual-"
+"stack websites over IPv4 first.\n"
+"            Squid will still perform both IPv6 and IPv4 DNS lookups before "
+"connecting.\n"
+"            <div class=\"alert alert-warning\"><b class=\"text-danger"
+"\">Warning:</b> This option will restrict the situations under which IPv6\n"
+"                connectivity is used (and tested). Hiding network problems\n"
+"                which would otherwise be detected and warned about.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 505
+msgid ""
+"This specifies for how long (in hours) the proxy server assumes an "
+"externally validated username and password combination is valid (Time To "
+"Live).<br/>\n"
+"            When the TTL expires, the user will be prompted for credentials "
+"again."
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 718
+# File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 492
+# File: src/www/firewall_rules.php, line: 465
+# File: src/www/firewall_rules_edit.php, line: 858
+msgid "Timestamp"
+msgstr "Временная метка"
+
 # File: lang/dynamic/helpers/controllers.php, line: 90
 msgid "Total bandwidth for this pipe"
 msgstr "Полная пропускная способность этого канала"
 
+#
+# File: /usr/lang/src/controllers.php, line: 509
+msgid "Tuning Options"
+msgstr ""
+
+# File: lang/dynamic/helpers/models.php, line: 243
+# File: lang/dynamic/helpers/models.php, line: 274
+# File: lang/dynamic/helpers/models.php, line: 292
+# File: src/www/diag_dns.php, line: 94
+# File: src/www/firewall_aliases_edit.php, line: 361
+# File: src/www/firewall_rules_edit.php, line: 234
+# File: src/www/firewall_virtual_ip.php, line: 275
+# File: src/www/firewall_virtual_ip_edit.php, line: 103
+# File: src/www/firewall_virtual_ip_edit.php, line: 325
+# File: src/www/load_balancer_monitor.php, line: 114
+# File: src/www/load_balancer_monitor_edit.php, line: 147
+# File: src/www/load_balancer_monitor_edit.php, line: 316
+# File: src/www/services_dhcp.php, line: 1038
+# File: src/www/services_igmpproxy.php, line: 99
+# File: src/www/services_igmpproxy_edit.php, line: 184
+# File: src/www/services_unbound_host_edit.php, line: 84
+# File: src/www/services_unbound_host_edit.php, line: 273
+# File: src/www/services_unbound_overrides.php, line: 133
+# File: src/www/status_ntpd.php, line: 181
+# File: src/www/system_authservers.php, line: 129
+# File: src/www/system_authservers.php, line: 150
+# File: src/www/system_authservers.php, line: 441
+# File: src/www/system_authservers.php, line: 672
+# File: src/www/system_certmanager.php, line: 784
+# File: src/www/system_certmanager.php, line: 909
+# File: src/www/vpn_ipsec_phase2.php, line: 703
+# File: src/www/vpn_ipsec_phase2.php, line: 758
+# File: src/www/vpn_ipsec_phase2.php, line: 799
+# File: src/www/vpn_openvpn_export.php, line: 729
+# File: src/www/vpn_openvpn_export_shared.php, line: 352
+msgid "Type"
+msgstr "Тип"
+
+#
+# File: /usr/lang/src/controllers.php, line: 511
+msgid ""
+"Type IP addresses you want to allow access to the proxy server, use a comma "
+"or press Enter for new item. <div class=\"text-info\"><b>TIP: </b>You can "
+"also paste a comma separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 512
+msgid ""
+"Type IP addresses you want to deny access to the proxy server, use a comma "
+"or press Enter for new item. <div class=\"text-info\"><b>TIP: </b>You can "
+"also paste a comma separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 513
+msgid ""
+"Type IPs of alternative DNS servers you like to use. <div class=\"text-info"
+"\"><b>TIP: </b>You can also paste a comma seperated list into this field.</"
+"div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 514
+msgid ""
+"Type subnets you want to allow access to the proxy server, use a comma or "
+"press Enter for new item. <div class=\"text-info\"><b>TIP: </b>You can also "
+"paste a comma separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 515
+msgid ""
+"Type subnets/addresses you want to ignore for the access.log <div class="
+"\"text-info\"><b>TIP: </b>You can also paste a comma separated list into "
+"this field.</div>"
+msgstr ""
+
+# File: src/www/services_dhcp.php, line: 1032
+# File: src/www/services_dhcpv6.php, line: 759
+msgid "URL"
+msgstr "URL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 517
+msgid "URL parameter"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 518
+msgid "Unrestricted IP addresses"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 519
+msgid "Use Frontend port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 520
+msgid "Use Via header"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 521
+msgid "Use alternate DNS-servers"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 522
+msgid "Use backend"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 46
 msgid "Use custom template package for user login"
 msgstr "Использовать пользовательский шаблон страницы входа в систему"
+
+#
+# File: /usr/lang/src/controllers.php, line: 524
+msgid "Use server"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 525
+msgid ""
+"Use this backend if the condition is true.<br/><b>Not used for any other "
+"action.</b>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 526
+msgid ""
+"Use this backend to count usable servers.<br/><b>Not used for any other "
+"expression.</b>"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 209
@@ -28751,9 +30275,49 @@ msgstr ""
 "закодировать."
 
 #
+# File: /usr/lang/src/controllers.php, line: 528
+msgid ""
+"Use this server if the condition is true.<br/><b>Not used for any other "
+"action.</b>"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 210
 msgid "Use this to invert the meaning of the expression."
 msgstr "Используйте этот параметр, чтобы инвертировать смысл выражения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 530
+msgid "Username Header"
+msgstr ""
+
+# File: src/www/services_dhcp.php, line: 1039
+# File: src/www/services_dhcpv6.php, line: 765
+# File: src/www/services_unbound_overrides.php, line: 134
+# File: src/www/system_advanced_sysctl.php, line: 166
+# File: src/www/system_advanced_sysctl.php, line: 217
+# File: src/www/system_certmanager.php, line: 910
+msgid "Value"
+msgstr "Значение"
+
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
+# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
+# File: src/www/diag_confbak.php, line: 133
+# File: src/www/diag_confbak.php, line: 155
+# File: src/www/diag_confbak.php, line: 287
+# File: src/www/diag_ipsec.php, line: 93
+msgid "Version"
+msgstr "Версия"
+
+#
+# File: /usr/lang/src/controllers.php, line: 533
+msgid "Visible Hostname"
+msgstr ""
+
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 146
+# File: src/www/system_gateways_edit.php, line: 675
+msgid "Weight"
+msgstr "Весовой коэффициент"
 
 # File: lang/dynamic/helpers/controllers.php, line: 95
 msgid ""
@@ -28771,9 +30335,80 @@ msgstr ""
 "Если эта функция включена, подсети выбранных интерфейсов будут добавлены в "
 "список с правом доступа."
 
+#
+# File: /usr/lang/src/controllers.php, line: 537
+msgid "Whitelist"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 538
+msgid ""
+"Whitelist destination domains.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> matches on <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> matches on <b>"
+"\\123.gif</b> but not on <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 548
+msgid "Whitespace handling of URI"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 549
+msgid "X-Forwarded for header handling"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 550
+msgid "X-Forwarded-For header"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 551
+msgid "Zone number"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 552
+msgid "bandwidth"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 553
+msgid "bandwidth Metric"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 554
+msgid "categories (if available)"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 94
 msgid "connected pipe for this queue"
 msgstr "подключенный канал для этой очереди"
+
+#
+# File: /usr/lang/src/controllers.php, line: 556
+msgid "description"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 557
+msgid "destination"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 102
 msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
@@ -28785,6 +30420,16 @@ msgstr ""
 "номер порта назначения или общеизвестное имя (imap, imaps, http, https, и "
 "т. д.)"
 
+#
+# File: /usr/lang/src/controllers.php, line: 560
+msgid "direction"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 561
+msgid "dst-port"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 89
 msgid "enable this pipe and it's related queues and rules"
 msgstr "включить этот канал и связанные с ним очереди и правила"
@@ -28794,9 +30439,28 @@ msgid "enable this queue and it's related rules"
 msgstr "включить эту очередь и связанные с ней правила"
 
 #
+# File: /usr/lang/src/controllers.php, line: 564
+msgid "enabled"
+msgstr ""
+
+# File: src/www/status_interfaces.php, line: 76
+msgid "interface"
+msgstr "интерфейс"
+
+#
+# File: /usr/lang/src/controllers.php, line: 566
+msgid "interface 2"
+msgstr ""
+
+#
 # File: /usr/lang/src/controllers.php, line: 218
 msgid "ip address of the mail host"
 msgstr "IP-адрес почтового хоста"
+
+#
+# File: /usr/lang/src/controllers.php, line: 568
+msgid "mask"
+msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "matches incoming or outgoing packets or both (default)"
@@ -28813,6 +30477,21 @@ msgstr ""
 # File: lang/dynamic/helpers/controllers.php, line: 97
 msgid "order in which the rule will be evaluated (lowest first)"
 msgstr "порядок проверки правил в наборе (снизу-вверх)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 572
+msgid "pipe"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 573
+msgid "proto"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 574
+msgid "queue"
+msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 222
@@ -28833,6 +30512,16 @@ msgstr ""
 "выберите используемые категории, оставьте поле пустым, чтобы использовать "
 "все. Категории отображаются после начальной загрузки."
 
+#
+# File: /usr/lang/src/controllers.php, line: 577
+msgid "sequence"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 578
+msgid "source"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 100
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес источника или исходная сеть, например 10.0.0.0/24, 10.0.0.1"
@@ -28843,9 +30532,24 @@ msgstr ""
 "номер исходного порта или общеизвестное имя (imap, imaps, http, https, и т. "
 "д.)"
 
+#
+# File: /usr/lang/src/controllers.php, line: 581
+msgid "src-port"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 582
+msgid "target"
+msgstr ""
+
 # File: lang/dynamic/helpers/controllers.php, line: 105
 msgid "target pipe or queue"
 msgstr "целевой канал или очередь"
+
+#
+# File: /usr/lang/src/controllers.php, line: 584
+msgid "weight"
+msgstr ""
 
 #
 # File: /usr/lang/src/models.php, line: 36
@@ -28877,10 +30581,6 @@ msgstr "Доступ"
 # File: lang/dynamic/helpers/models.php, line: 213
 msgid "Access Lists"
 msgstr "Списки доступа"
-
-# File: src/www/diag_logs_filter_summary.php, line: 44
-msgid "Actions"
-msgstr "Действия"
 
 # File: lang/dynamic/helpers/models.php, line: 304
 # File: lang/dynamic/helpers/models.php, line: 337
@@ -28935,7 +30635,7 @@ msgstr "Дополнительные настройки"
 #
 # File: /usr/lang/src/models.php, line: 46
 msgid "Advertisements"
-msgstr ""
+msgstr "Объявления"
 
 # File: lang/dynamic/helpers/models.php, line: 150
 # File: src/www/diag_backup.php, line: 133
@@ -29022,16 +30722,6 @@ msgstr "Кэш"
 # File: lang/dynamic/helpers/models.php, line: 308
 msgid "Captive Portal"
 msgstr "Captive Portal"
-
-# File: lang/dynamic/helpers/models.php, line: 42
-# File: src/www/system_camanager.php, line: 711
-# File: src/www/system_certmanager.php, line: 541
-# File: src/www/system_crlmanager.php, line: 296
-# File: src/www/system_crlmanager.php, line: 320
-# File: src/www/system_crlmanager.php, line: 610
-# File: src/www/system_hasync.php, line: 214
-msgid "Certificates"
-msgstr "Сертификаты"
 
 # File: lang/dynamic/helpers/models.php, line: 284
 msgid "Client Export"
@@ -29215,12 +30905,6 @@ msgstr ""
 "символы)."
 
 #
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
-# File: /usr/lang/src/models.php, line: 88
-msgid "Error Files"
-msgstr "Файлы ошибки"
-
-#
 # File: /usr/lang/src/models.php, line: 89
 msgid "FTP"
 msgstr "FTP"
@@ -29399,15 +31083,6 @@ msgstr "Импортировать"
 # File: /usr/lang/src/models.php, line: 122
 msgid "Insight"
 msgstr "Анализ"
-
-# File: lang/dynamic/helpers/models.php, line: 138
-# File: lang/dynamic/helpers/models.php, line: 364
-# File: src/www/diag_backup.php, line: 138
-# File: src/www/diag_logs_filter_summary.php, line: 45
-# File: src/www/interfaces_assign.php, line: 361
-# File: src/www/services_dnsmasq.php, line: 275
-msgid "Interfaces"
-msgstr "Интерфейсы"
 
 # File: lang/dynamic/helpers/models.php, line: 332
 # File: src/etc/inc/services.inc, line: 2584
@@ -29721,6 +31396,9 @@ msgid ""
 "Please provide a valid listen address, i.e. 127.0.0.1:8080 or www.example."
 "com:443. Port range as start-end, i.e. 127.0.0.1:1220-1240."
 msgstr ""
+"Укажите действительный адрес для прослушивания, например 127.0.0.1:8080 или "
+"www.example.com:443, и диапазон портов в формате начальный:конечный, "
+"например 127.0.0.1:1220-1240."
 
 #
 # File: /usr/lang/src/models.php, line: 178
@@ -29740,7 +31418,7 @@ msgstr "Выберите действительный сертификат из 
 #
 # File: /usr/lang/src/models.php, line: 182
 msgid "Please select a valid pattern matcher algorithm"
-msgstr ""
+msgstr "Выберите действительный алгоритм поиска совпадений шаблонов."
 
 #
 # File: /usr/lang/src/models.php, line: 181
@@ -29758,6 +31436,9 @@ msgid ""
 "Please specify a valid source address, i.e. 10.0.0.1 or loadbalancer.example."
 "com:50000. Port range as start-end, i.e. 10.0.0.1:50000-60000."
 msgstr ""
+"Укажите действительный адрес источника , например 10.0.0.1 или loadbalancer."
+"example.com:50000, и диапазон портов в формате начальный-конечный, например "
+"10.0.0.1:50000-60000."
 
 #
 # File: /usr/lang/src/models.php, line: 183
@@ -29861,7 +31542,7 @@ msgstr "Переадресация портов"
 #
 # File: /usr/lang/src/models.php, line: 206
 msgid "Power"
-msgstr ""
+msgstr "Включение"
 
 #
 # File: /usr/lang/src/models.php, line: 203
@@ -30018,13 +31699,6 @@ msgstr "Выберите команду из списка."
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 68
 msgid "Server"
 msgstr "Сервер"
-
-# File: lang/dynamic/helpers/models.php, line: 92
-# File: src/www/load_balancer_pool.php, line: 126
-# File: src/www/status_lb_pool.php, line: 130
-# File: src/www/status_lb_vs.php, line: 75
-msgid "Servers"
-msgstr "Серверы"
 
 #
 # File: /usr/lang/src/models.php, line: 234
