@@ -27,7 +27,7 @@ XGETTEXT=	xgettext -L PHP --from-code=UTF-8 -F --strict --debug
 XGETTEXT_PL=	xgettext.pl -P Locale::Maketext::Extract::Plugin::Volt \
 		-u -w -W
 MSGMERGE=	msgmerge -U -N --backup=off
-MSGFMT=		msgfmt --strict
+MSGFMT=		msgfmt
 
 PERL_DIR=	/usr/local/lib/perl5/site_perl
 PERL_NAME=	Locale/Maketext/Extract/Plugin
@@ -44,6 +44,7 @@ LANGDIR?=	/usr/lang
 TEMPLATE=	en_US
 INSTALL=
 MERGE=
+TEST=
 
 PAGER?=		less
 
@@ -52,9 +53,10 @@ all:
 
 .for LANG in ${LANGUAGES}
 ${LANG}DIR=	${LOCALEDIR:S/%%LANG%%/${LANG}/g}
+
 install-${LANG}:
 	@mkdir -p ${DESTDIR}${${LANG}DIR}
-	${MSGFMT} -o ${DESTDIR}${${LANG}DIR}/OPNsense.mo ${LANG}.po
+	${MSGFMT} --strict -o ${DESTDIR}${${LANG}DIR}/OPNsense.mo ${LANG}.po
 
 clean-${LANG}:
 	@rm -f ${DESTDIR}${${LANG}DIR}/OPNsense.mo
@@ -64,9 +66,13 @@ merge-${LANG}:
 	# strip stale translations
 	sed -i '' -e '/^#~.*/d' ${LANG}.po
 
+test-${LANG}:
+	${MSGFMT} -o /dev/null ${LANG}.po
+
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
 MERGE+=		merge-${LANG}
+TEST+=		test-${LANG}
 .endfor
 
 _PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list
@@ -85,6 +91,7 @@ template: ${TEMPLATE}
 install: ${INSTALL}
 clean: ${CLEAN}
 merge: ${MERGE}
+test: ${TEST}
 
 src:
 	@${.CURDIR}/scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
