@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-08 12:09+0000\n"
+"POT-Creation-Date: 2016-08-26 13:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,9 +218,8 @@ msgstr "Interfaces:"
 msgid "Number of lines to display:"
 msgstr "Nombre de lignes à afficher:"
 
-# File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 61
 msgid "Query Time"
-msgstr ""
+msgstr "Temps de requête"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 87
 msgid "Unknown - relayd not running?"
@@ -349,10 +348,12 @@ msgid ""
 "%s1%s -- startup info + connection initiated messages + non-fatal encryption "
 "& net errors."
 msgstr ""
+"%s1%s -- info du démarrage + messages des connexions ouvertes + chiffrement "
+"non fatal & erreurs réseaux."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1683
 msgid "%s0%s -- No output except fatal errors."
-msgstr ""
+msgstr "%s0%s -- Ne rien afficher sauf les erreurs fatales."
 
 # File: src/www/vpn_openvpn_server.php, line: 1928
 msgid ""
@@ -410,6 +411,8 @@ msgid ""
 "Allocate only one IP per client (topology subnet), rather than an isolated "
 "subnet per client (topology net30)."
 msgstr ""
+"Attribuer seulement une IP par client (topology subnet), plutôt que d'isoler "
+"le client dans son sous-réseau (topology net30)."
 
 # File: src/www/vpn_openvpn_server.php, line: 1630
 msgid "Topology"
@@ -662,7 +665,7 @@ msgstr "Liste de Révocation de Certificats du correspondant"
 
 # File: src/www/vpn_openvpn_server.php, line: 916
 msgid "Device Mode"
-msgstr ""
+msgstr "Interface en mode"
 
 # File: src/www/vpn_openvpn_server.php, line: 876
 msgid "Backend for authentication"
@@ -751,7 +754,7 @@ msgstr "Client OSX gratuit"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Viscosity"
-msgstr ""
+msgstr "Viscosity"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Recommended client for Mac OSX"
@@ -767,7 +770,7 @@ msgstr "Client recommandé pour iOS"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "OpenVPN Connect"
-msgstr ""
+msgstr "OpenVPN Connect"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "Android (Google Play)"
@@ -779,7 +782,7 @@ msgstr "Pour les anciennes versions d'Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 958
 msgid "FEAT VPN For Android"
-msgstr ""
+msgstr "FEAT VPN pour Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 957
 msgid "Recommended client for Android"
@@ -798,10 +801,12 @@ msgid ""
 "Binaries for Windows, Source for other platforms. Packaged above in the "
 "Windows Installers"
 msgstr ""
+"Binaires Windows, Source pour les autres plateformes. Packagé directement "
+"dans l'installateur Windows"
 
 # File: src/www/vpn_openvpn_export.php, line: 951
 msgid "Links to OpenVPN clients for various platforms:"
-msgstr ""
+msgstr "Liens vers les clients OpenVPN, plateformes diverses:"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 719
 msgid ""
@@ -836,7 +841,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 651
 msgid "T28"
-msgstr ""
+msgstr "T28"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 650
 msgid "Yealink SIP Handsets"
@@ -890,7 +895,7 @@ msgstr "x86-xp"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 639
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 682
 msgid "Windows Installers (%s-Ix%s)"
-msgstr ""
+msgstr "Installateurs Windows (%s-Ix%s)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 605
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 637
@@ -902,7 +907,7 @@ msgstr "Autres"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 636
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "OpenVPN Connect (iOS/Android)"
-msgstr ""
+msgstr "OpenVPN Connect (iOS/Android)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 603
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 635
@@ -920,7 +925,7 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 632
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 675
 msgid "File Only"
-msgstr ""
+msgstr "Fichier uniquement"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 599
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 631
@@ -938,11 +943,11 @@ msgstr "Configurations Standard"
 # File: src/www/vpn_openvpn_export.php, line: 793
 # File: src/www/vpn_openvpn_export.php.orig, line: 793
 msgid "Client Install Packages"
-msgstr ""
+msgstr "Paquet d'installation client"
 
 # File: src/www/vpn_openvpn_export.php, line: 927
 msgid "EXAMPLE: remote-random"
-msgstr ""
+msgstr "EXEMPLE: remote-random"
 
 # File: src/www/vpn_openvpn_export.php, line: 926
 msgid ""
@@ -993,11 +998,11 @@ msgstr "Choisissez l'authentification proxy le cas échéant."
 # File: src/www/vpn_openvpn_export.php, line: 733
 # File: src/www/vpn_openvpn_export_shared.php, line: 356
 msgid "SOCKS"
-msgstr ""
+msgstr "SOCKS"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 518
 msgid "Use a proxy to communicate with the server."
-msgstr ""
+msgstr "Utiliser un proxy pour communiquer avec le serveur."
 
 # File: src/www/vpn_openvpn_export.php, line: 731
 # File: src/www/vpn_openvpn_export.php.orig, line: 731
@@ -1012,6 +1017,8 @@ msgid ""
 "Use a password to protect the pkcs12 file contents or key in Viscosity "
 "bundle."
 msgstr ""
+"Utiliser un mot de passe pour protéger le contenu du fichier pkcs12 ou une "
+"clé pour le paquetage."
 
 # File: src/www/vpn_openvpn_export.php, line: 716
 # File: src/www/vpn_openvpn_export.php.orig, line: 716
@@ -1093,7 +1100,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
 msgid "Automatic - Use verify-x509-name (OpenVPN 2.3+) where possible"
-msgstr ""
+msgstr "Automatique - Utiliser verify-x509-name (OpenVPN 2.3+) si possible"
 
 # File: src/www/vpn_openvpn_export.php, line: 686
 # File: src/www/vpn_openvpn_export.php.orig, line: 686
@@ -1139,7 +1146,7 @@ msgstr "Adresse IP de l'Interface"
 # File: src/www/vpn_openvpn_export_shared.php, line: 329
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 329
 msgid "Host Name Resolution"
-msgstr ""
+msgstr "Résolution du nom d'hôte"
 
 # File: src/www/vpn_openvpn_export.php, line: 638
 # File: src/www/vpn_openvpn_export.php.orig, line: 638
@@ -1227,7 +1234,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_csc.php, line: 674
 # File: src/www/vpn_openvpn_server.php, line: 1810
 msgid "Node Type"
-msgstr ""
+msgstr "Type de noeud"
 
 # File: src/www/vpn_openvpn_csc.php, line: 667
 # File: src/www/vpn_openvpn_server.php, line: 1803
@@ -1387,7 +1394,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_csc.php, line: 409
 msgid "Connection blocking"
-msgstr ""
+msgstr "Blocage de la connexion"
 
 # File: src/www/vpn_openvpn_csc.php, line: 398
 msgid "Enter the client's X.509 common name here"
@@ -1449,7 +1456,7 @@ msgstr "supprimer le client"
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1114
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 710
 msgid "move selected before this item"
-msgstr ""
+msgstr "déplacer la sélection avant cet élément"
 
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
@@ -6962,7 +6969,7 @@ msgstr ""
 
 # File: src/www/system_advanced_admin.php, line: 414
 msgid "WebGUI Login Autocomplete"
-msgstr ""
+msgstr "Autocomplétion sur la page web d'identification"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 376
 msgid ""
@@ -7039,7 +7046,7 @@ msgstr ""
 
 # File: src/www/status_wireless.php, line: 192
 msgid "Capabilities:"
-msgstr "Fonctions :"
+msgstr "Fonctions:"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "Flags:"
@@ -19387,7 +19394,7 @@ msgstr "Connexion"
 
 # File: /usr/core/src/www/diag_halt.php, line: 50
 msgid "Are you sure you want to power off the system?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir éteindre le système?"
 
 # File: /usr/core/src/www/diag_halt.php, line: 46
 msgid "The system is powering off now."
@@ -19639,7 +19646,7 @@ msgstr ""
 
 # File: /usr/core/src/www/diag_confbak.php, line: 220
 msgid "Current space used:"
-msgstr ""
+msgstr "Espace actuellement utilisé:"
 
 # File: /usr/core/src/www/diag_confbak.php, line: 218
 msgid ""
@@ -19651,6 +19658,8 @@ msgstr ""
 msgid ""
 "Enter the number of older configurations to keep in the local backup cache."
 msgstr ""
+"Entrez le nombre de configurations à conserver dans le cache local des "
+"sauvegardes."
 
 # File: src/www/diag_confbak.php, line: 217
 msgid "Remove Configuration Backup"
@@ -19681,7 +19690,7 @@ msgstr ""
 
 # File: /usr/core/src/www/diag_confbak.php, line: 93
 msgid "Backup count must be greater than zero."
-msgstr ""
+msgstr "Le nombre de sauvegarde doit être supérieur à zéro."
 
 # File: src/www/diag_backup.php, line: 208
 # File: src/www/diag_backup.php, line: 767
@@ -19757,6 +19766,8 @@ msgid ""
 "Open a configuration XML file and click the button below to restore the "
 "configuration."
 msgstr ""
+"Ouvrir un fichier de configuration XML puis cliquez sur le bouton ci-dessous "
+"pour restaurer la configuration."
 
 # File: src/www/diag_backup.php, line: 202
 # File: src/www/diag_backup.php, line: 686
@@ -19796,7 +19807,7 @@ msgstr "Chiffrer ce fichier de configuration"
 
 # File: /usr/core/src/www/diag_backup.php, line: 530
 msgid "Do not backup RRD data."
-msgstr ""
+msgstr "Ne pas sauvegarder les données RRD."
 
 # File: src/www/diag_backup.php, line: 163
 msgid "ALL"
@@ -19973,11 +19984,11 @@ msgstr "DNS dynamique"
 
 # File: /usr/core/src/www/diag_backup.php, line: 120
 msgid "SSL Certificates"
-msgstr ""
+msgstr "Certificats SSL"
 
 # File: /usr/core/src/www/diag_backup.php, line: 119
 msgid "SSL Certificate Authorities"
-msgstr ""
+msgstr "Autorités de Certification SSL"
 
 # File: /usr/core/src/www/diag_backup.php, line: 118
 msgid "Bridge Devices"
@@ -20269,11 +20280,11 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 293
 msgid "Download ACLs"
-msgstr ""
+msgstr "Télécharger les ACLs"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 292
 msgid "Download ACLs & Apply"
-msgstr ""
+msgstr "Télécharger les ACLs & les Appliquer"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 274
 msgid "Edit | Delete"
@@ -20355,7 +20366,7 @@ msgstr "Alerte"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 576
 msgid "Drop"
-msgstr ""
+msgstr "Rejeter"
 
 # File: src/www/diag_confbak.php, line: 211
 # File: src/www/diag_gmirror.php, line: 194
@@ -20401,7 +20412,7 @@ msgstr "Dernière mise à jour"
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
 msgid "Filename"
-msgstr ""
+msgstr "Nom de fichier"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 483
 msgid "Rulesets"
@@ -20423,6 +20434,8 @@ msgstr ""
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Removing this file will cleanup disk space, but cannot be undone."
 msgstr ""
+"La suppression de ce fichier va nettoyer l'espace disque, mais ne peut pas "
+"être annulée."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 435
 msgid "Remove log file "
@@ -20833,7 +20846,7 @@ msgstr ""
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 244
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 696
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 # File: src/www/graph.php, line: 100
 msgid "Out"
@@ -20905,13 +20918,15 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 629
 msgid "Go to netflow configuration"
-msgstr ""
+msgstr "Aller à la configuration de netflow"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 627
 msgid ""
 "Local data collection is not enabled at the moment, please configure netflow "
 "first"
 msgstr ""
+"La collecte de données locale n'est pas activée pour le moment, veuillez "
+"configurer netflow au préalable"
 
 # File: src/www/vpn_openvpn_export.php, line: 938
 # File: src/www/vpn_openvpn_export_shared.php, line: 475
@@ -20925,7 +20940,7 @@ msgstr "Détails"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 619
 msgid "Totals"
-msgstr ""
+msgstr "Totaux"
 
 # File: src/www/diag_smart.php, line: 284
 # File: src/www/diag_smart.php, line: 295
@@ -20942,15 +20957,15 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 99
 msgid "Sources"
-msgstr ""
+msgstr "Sources"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 98
 msgid "Destinations"
-msgstr ""
+msgstr "Destinations"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 96
 msgid "Flow"
-msgstr ""
+msgstr "Flux"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 83
 msgid "Capture"
@@ -21080,11 +21095,11 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 130
 msgid "Weekdays"
-msgstr ""
+msgstr "Jours de la semaine"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
 msgid "Months"
-msgstr ""
+msgstr "Mois"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 338
 msgid "Days"
@@ -21248,7 +21263,7 @@ msgstr "Cliquer pour vérifier les mises à jours."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 394
 msgid "Check for updates"
-msgstr ""
+msgstr "Vérifier les mises à jour"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
@@ -21256,7 +21271,7 @@ msgstr "Mettre à jour maintenant"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
-msgstr ""
+msgstr "Vérifier les mises à jour pour afficher les plugins disponibles."
 
 # File: src/www/services_captiveportal_vouchers.php, line: 405
 # File: src/www/services_captiveportal_vouchers_edit.php, line: 222
@@ -21294,7 +21309,7 @@ msgstr "Mise à jour terminée !"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 106
 msgid "Executing..."
-msgstr ""
+msgstr "Exécution en cours..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 88
 msgid "Upgrading..."
@@ -22167,7 +22182,7 @@ msgstr "%s a été redémarré."
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2967
 msgid "Could not restart service `%s'"
-msgstr ""
+msgstr "Impossible de redémarrer le service `%s'"
 
 # File: src/etc/inc/service-utils.inc, line: 554
 msgid "Could not restart unknown service `%s'"
@@ -22187,7 +22202,7 @@ msgstr "%s a été démarré."
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2896
 msgid "Could not start service `%s'"
-msgstr ""
+msgstr "Impossible de démarrer le service `%s'"
 
 # File: src/etc/inc/service-utils.inc, line: 404
 msgid "Could not start unknown service `%s'"
@@ -22756,11 +22771,11 @@ msgstr "Démarrage du service UPnP"
 
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 487
 msgid "Configuring IPsec VPN..."
-msgstr ""
+msgstr "Configuration VPN IPsec en cours..."
 
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 54
 msgid "NULL (no encryption)"
-msgstr ""
+msgstr "NUL (sans chiffrement)"
 
 # File: src/etc/inc/pfsense-utils.inc, line: 268
 msgid "INIT"
