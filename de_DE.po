@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 15:05+0000\n"
+"POT-Creation-Date: 2016-08-30 06:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1801,6 +1801,9 @@ msgid ""
 "Hint: use 3DES for best compatibility or if you have a hardware crypto "
 "accelerator card. Blowfish is usually the fastest in software encryption"
 msgstr ""
+"Hinweis: Verwenden Sie 3DES für die beste Kompatibilität oder falls Sie eine "
+"Hardware-Kryptografiebeschleunigungskarte haben. Blowfish ist üblicherweise "
+"die schnellste Softwareverschlüsselung"
 
 msgid "Encryption algorithms"
 msgstr "Verschlüsselungsalgorithmen"
@@ -1819,6 +1822,8 @@ msgid ""
 "In case you need NAT/BINAT on this network specify the address to be "
 "translated."
 msgstr ""
+"Falls Sie NAT/BINAT für dieses Netzwerk benötigen, geben Sie die zu "
+"übersetzende Adresse an."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 760
 msgid ""
@@ -2333,9 +2338,9 @@ msgid ""
 "NOTE: With iPhone clients, this does not work when deployed via the iPhone "
 "configuration utility, only by manual entry."
 msgstr ""
-"HInweis: Dies funktioniert bei iPhone-Clients nicht, wenn es mit dem iPhone-"
-"Konfigurationswerkzeug eingerichtet wird, aber wenn es manuell eingetragen "
-"wird schon."
+"Hinweis: Dies funktioniert bei iPhone-Clients nicht, wenn es mit dem iPhone-"
+"Konfigurationswerkzeug eingerichtet wird, aber wenn es hingegen manuell "
+"eingetragen wird, schon."
 
 msgid "Allow clients to save Xauth passwords (Cisco VPN client only)."
 msgstr ""
@@ -2637,11 +2642,11 @@ msgstr "Speichern und Testen"
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 145
 msgid "--No Fallback--"
-msgstr ""
+msgstr "--Keine Alternative--"
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 134
 msgid "Authentication Server (fallback)"
-msgstr ""
+msgstr "Authentifizierungsserver (alternativ)"
 
 msgid "Enter 0 to never expire sessions. NOTE: This is a security risk!"
 msgstr ""
@@ -3466,11 +3471,11 @@ msgid ""
 msgstr ""
 
 msgid "Allow default gateway switching"
-msgstr ""
+msgstr "Erlaube die Änderung des Standardgateways"
 
 # File: src/www/system_advanced_misc.php, line: 310
 msgid "Gateway switching"
-msgstr ""
+msgstr "Änderung des Gateways"
 
 msgid ""
 "By default, if a hostname resolves IPv6 and IPv4 addresses IPv6 will be "
@@ -8341,14 +8346,18 @@ msgid "MX"
 msgstr "MX"
 
 msgid "For he.net tunnelbroker, enter your tunnel ID"
-msgstr ""
+msgstr "Geben Sie für den he.net-Tunnelbroker ihre Tunnel-ID ein"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 298
 msgid "Enter the complete host/domain name. example: myhost.dyndns.org"
 msgstr ""
+"Geben Sie den vollständigen Host- bzw. Domainnamen ein. Z. B.: "
+"myhost.dyndns.org"
 
 msgid "Note: This is almost always the same as the Interface to Monitor."
 msgstr ""
+"Hinweis: Dies ist so gut wie immer die selbe wie die zu überwachende "
+"Schnittstelle."
 
 msgid "Interface to send update from"
 msgstr "Schnittstelle, von der die Aktualisierung gesendet wird"
@@ -8380,6 +8389,8 @@ msgstr "Typ des Dienstes"
 msgid ""
 "You can force an update for an IP address on the edit page for that service."
 msgstr ""
+"Sie können eine Aktualisierung für eine IP-Adresse auf der Seite zum "
+"Bearbeiten dieses Dienstes erzwingen."
 
 # File: /usr/core/src/www/services_dyndns.php, line: 169
 # File: /usr/core/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 78
@@ -8616,6 +8627,9 @@ msgid ""
 "list of names below. This only affects the name given for a reverse lookup "
 "(PTR)."
 msgstr ""
+"Falls diese Option gesetzt ist, werden DHCP-Zuweisungen vor der manuellen "
+"Liste der Namen unten aufgelöst. Dies wirkt sich nur auf die Namen aus, die "
+"umgekehrt aufgelöst werden sollen (PTR)."
 
 msgid "Resolve DHCP mappings first"
 msgstr "Löse DHCP-Zuweisungen zuerst auf"
