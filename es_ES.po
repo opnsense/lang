@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-26 13:27+0000\n"
+"POT-Creation-Date: 2016-09-19 07:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1331,10 +1331,12 @@ msgstr "Servidor #1:"
 # File: src/www/vpn_openvpn_csc.php, line: 470
 msgid "Prevent this client from receiving any server-defined client settings."
 msgstr ""
+"Evitar que este cliente reciba cualquier configuración del cliente definido "
+"por el servidor."
 
 # File: src/www/vpn_openvpn_csc.php, line: 466
 msgid "Server Definitions"
-msgstr ""
+msgstr "Definiciones de servidor"
 
 # File: lang/dynamic/helpers/models.php, line: 280
 # File: src/www/vpn_openvpn_csc.php, line: 463
@@ -1455,7 +1457,7 @@ msgstr "Bloqueo de conexión"
 
 # File: src/www/vpn_openvpn_csc.php, line: 348
 msgid "Enter the client's X.509 common name here"
-msgstr ""
+msgstr "Introduzca los nombres común de los clientes X509 aquí"
 
 # File: src/www/vpn_openvpn_csc.php, line: 344
 msgid "Common name"
@@ -1529,12 +1531,12 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1013
 # File: src/www/vpn_openvpn_server.php, line: 1682
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%sdefault%s-%s4%s -- Rango de uso normal."
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
 msgid "%snone%s -- No output except fatal errors."
-msgstr ""
+msgstr "%snone%s -- Sin salida excepto los errores fatales."
 
 # File: src/www/vpn_openvpn_client.php, line: 1011
 # File: src/www/vpn_openvpn_server.php, line: 1680
@@ -1543,26 +1545,31 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
+"Cada nivel muestra toda la información respecto a los niveles anteriores. "
+"Nivel 3 es recomendable si quieres un buen resumen de lo que está pasando "
+"sin ser inundado por la salida."
 
 # File: src/www/vpn_openvpn_client.php, line: 997
 # File: src/www/vpn_openvpn_server.php, line: 1666
 msgid "Verbosity level"
-msgstr ""
+msgstr "Nivel de Información"
 
 # File: src/www/vpn_openvpn_client.php, line: 992
 msgid "EXAMPLE:"
-msgstr ""
+msgstr "EJEMPLO:"
 
 # File: src/www/vpn_openvpn_client.php, line: 991
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "configuration here, separated by a semicolon"
 msgstr ""
+"Introduzca las opciones adicionales que le gustaría añadir a la "
+"configuración del cliente OpenVPN aquí, separados por un punto y coma"
 
 # File: src/www/vpn_openvpn_client.php, line: 984
 # File: src/www/vpn_openvpn_server.php, line: 1653
 msgid "Advanced configuration"
-msgstr ""
+msgstr "Configuración Avanzada"
 
 # File: src/www/vpn_openvpn_client.php, line: 976
 msgid ""
@@ -1570,16 +1577,22 @@ msgid ""
 "routing table, however note that this option still allows the server to set "
 "the TCP/IP properties of the client's TUN/TAP interface"
 msgstr ""
+"Esta opción impide de manera eficaz el servidor de la adición de rutas de la "
+"tabla de enrutamiento del cliente, sin embargo, tenga en cuenta que esta "
+"opción permite al servidor configurar las propiedades de TCP/IP de la "
+"interfaz TUN/TAP del cliente"
 
 # File: src/www/vpn_openvpn_client.php, line: 972
 msgid "Don't add/remove routes"
-msgstr ""
+msgstr "No agregar/eliminar rutas"
 
 # File: src/www/vpn_openvpn_client.php, line: 967
 msgid ""
 "Don't add or remove routes automatically. Instead pass routes to %s--route-"
 "up%s script using environmental variables"
 msgstr ""
+"No agregar o eliminar rutas de forma automática. En su lugar pasar rutas a %s"
+"--route-up%s script utilizando variables de entorno"
 
 # File: src/www/vpn_openvpn_client.php, line: 963
 msgid "Don't pull routes"
@@ -1588,12 +1601,12 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 958
 # File: src/www/vpn_openvpn_server.php, line: 1445
 msgid "Don't forward IPv6 traffic"
-msgstr ""
+msgstr "No reenviar el tráfico IPv6"
 
 # File: src/www/vpn_openvpn_client.php, line: 954
 # File: src/www/vpn_openvpn_server.php, line: 1440
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Deshabilitar IPv6"
 
 # File: src/www/vpn_openvpn_client.php, line: 949
 # File: src/www/vpn_openvpn_server.php, line: 1412
@@ -26418,7 +26431,7 @@ msgstr ""
 # File: src/www/diag_backup.php, line: 146
 # File: src/www/system_general.php, line: 317
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 # File: lang/dynamic/helpers/models.php, line: 321
 msgid "Template name should be a string between 1 and 255 characters"
@@ -26427,7 +26440,7 @@ msgstr ""
 # File: lang/dynamic/helpers/models.php, line: 133
 # File: src/www/diag_testport.php, line: 129
 msgid "Test Port"
-msgstr ""
+msgstr "Puerto de prueba"
 
 # File: lang/dynamic/helpers/models.php, line: 93
 msgid "Tester"
@@ -26447,15 +26460,15 @@ msgstr ""
 # File: src/www/diag_traceroute.php, line: 105
 # File: src/www/diag_traceroute.php, line: 169
 msgid "Traceroute"
-msgstr ""
+msgstr "Trazado de ruta"
 
 # File: lang/dynamic/helpers/models.php, line: 136
 msgid "Traffic Graph"
-msgstr ""
+msgstr "Gráfico del tráfico "
 
 # File: lang/dynamic/helpers/models.php, line: 367
 msgid "Traffic Shaper"
-msgstr ""
+msgstr "Administrador de Tráfico"
 
 # File: /usr/lang/src/models.php, line: 271
 msgid "TrafficManagement"
@@ -26463,27 +26476,27 @@ msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Trust"
-msgstr ""
+msgstr "Confianza"
 
 # File: lang/dynamic/helpers/models.php, line: 79
 msgid "Tunables"
-msgstr ""
+msgstr "Parámetros optimizables"
 
 # File: lang/dynamic/helpers/models.php, line: 259
 # File: src/www/vpn_openvpn_client.php, line: 850
 # File: src/www/vpn_openvpn_csc.php, line: 377
 # File: src/www/vpn_openvpn_server.php, line: 1206
 msgid "Tunnel Settings"
-msgstr ""
+msgstr "Configuración de túnel"
 
 # File: lang/dynamic/helpers/models.php, line: 253
 msgid "Universal Plug and Play"
-msgstr ""
+msgstr "Universal Plug and Play"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 308
 # File: src/www/widgets/widgets/system_information.widget.php, line: 102
 msgid "Updates"
-msgstr ""
+msgstr "Actualizaciones"
 
 # File: lang/dynamic/helpers/models.php, line: 301
 msgid "User Forum"
@@ -26493,16 +26506,16 @@ msgstr ""
 # File: lang/dynamic/helpers/models.php, line: 273
 # File: lang/dynamic/helpers/models.php, line: 291
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 # File: lang/dynamic/helpers/models.php, line: 118
 # File: src/www/interfaces_vlan.php, line: 88
 msgid "VLAN"
-msgstr ""
+msgstr "VLAN"
 
 # File: lang/dynamic/helpers/models.php, line: 295
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 # File: /usr/lang/src/models.php, line: 281
 msgid ""
@@ -26537,32 +26550,32 @@ msgstr ""
 # File: src/www/diag_smart.php, line: 320
 # File: src/www/diag_smart.php, line: 424
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 # File: lang/dynamic/helpers/models.php, line: 167
 # File: src/www/firewall_nat_edit.php, line: 733
 # File: src/www/system_hasync.php, line: 314
 msgid "Virtual IPs"
-msgstr ""
+msgstr "IP Virtuales"
 
 # File: lang/dynamic/helpers/models.php, line: 232
 msgid "Virtual Server Setup"
-msgstr ""
+msgstr "Configuración del servidor virtual"
 
 # File: lang/dynamic/helpers/models.php, line: 233
 msgid "Virtual Server Status"
-msgstr ""
+msgstr "Estado del Servidor Virtual"
 
 # File: lang/dynamic/helpers/models.php, line: 306
 msgid "Vouchers"
-msgstr ""
+msgstr "Vouchers"
 
 # File: lang/dynamic/helpers/models.php, line: 255
 # File: src/www/diag_backup.php, line: 151
 # File: src/www/services_wol.php, line: 129
 # File: src/www/system_hasync.php, line: 287
 msgid "Wake on LAN"
-msgstr ""
+msgstr "Encender sobre LAN"
 
 # File: lang/dynamic/helpers/models.php, line: 379
 msgid "Weight must be between 1...100"
@@ -26571,7 +26584,7 @@ msgstr ""
 # File: lang/dynamic/helpers/models.php, line: 129
 # File: src/www/interfaces_wireless.php, line: 85
 msgid "Wireless"
-msgstr ""
+msgstr "Inalámbrico"
 
 # File: lang/dynamic/helpers/models.php, line: 83
 msgid "Wizard"
@@ -26588,7 +26601,7 @@ msgstr ""
 # File: lang/dynamic/helpers/models.php, line: 365
 # File: lang/dynamic/helpers/models.php, line: 369
 msgid "menu"
-msgstr ""
+msgstr "menú"
 
 # File: lang/dynamic/helpers/models.php, line: 375
 # File: lang/dynamic/helpers/models.php, line: 381
@@ -26602,11 +26615,11 @@ msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 174
 msgid "pfTables"
-msgstr ""
+msgstr "pfTables"
 
 # File: lang/dynamic/helpers/models.php, line: 172
 msgid "pfTop"
-msgstr ""
+msgstr "pfTop"
 
 # File: /usr/lang/src/models.php, line: 301
 msgid "please specify a valid email address"

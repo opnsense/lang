@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 06:26+0000\n"
+"POT-Creation-Date: 2016-09-19 07:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,12 +348,12 @@ msgid ""
 "%s1%s -- startup info + connection initiated messages + non-fatal encryption "
 "& net errors."
 msgstr ""
-"%s1%s -- info du démarrage + messages des connexions ouvertes + chiffrement "
+"%s1%s -- info du démarrage + messages des connexions initiées + chiffrement "
 "non fatal & erreurs réseaux."
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1683
 msgid "%s0%s -- No output except fatal errors."
-msgstr "%s0%s -- Ne rien afficher sauf les erreurs fatales."
+msgstr "%s0%s -- Pas de sortie exceptée les erreurs fatales."
 
 # File: src/www/vpn_openvpn_server.php, line: 1928
 msgid ""
@@ -861,7 +861,7 @@ msgid ""
 msgstr ""
 "L'installateur Windows \"XP\" fonctionne avec Windows XP et ultérieur. "
 "L'installateur \"win6\" inclut le nouveau pilote tap-windows6 qui fonctionne "
-"uniquement avec les versions Windows Vista et ultérieures."
+"uniquement à partir de Windows Vista et ultérieur."
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 707
 msgid "Configuration archive"
@@ -991,7 +991,7 @@ msgstr "Configurations Standard"
 # File: src/www/vpn_openvpn_export.php, line: 793
 # File: src/www/vpn_openvpn_export.php.orig, line: 793
 msgid "Client Install Packages"
-msgstr "Paquet d'installation client"
+msgstr "Paquets d'installation client"
 
 # File: src/www/vpn_openvpn_export.php, line: 927
 msgid "EXAMPLE: remote-random"
@@ -1196,11 +1196,13 @@ msgstr "Nom d'hôte machine"
 # File: src/www/vpn_openvpn_export.php, line: 656
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
 msgstr ""
+"Noms d'hôtes DNS dynamiques Multi-WAN automatiques (cibles des ports "
+"redirigés)"
 
 # File: src/www/vpn_openvpn_export.php, line: 654
 # File: src/www/vpn_openvpn_export.php.orig, line: 654
 msgid "Automagic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "IPs Multi-WAN automatiques (cibles des ports redirigés)"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
@@ -1911,12 +1913,12 @@ msgstr ""
 # File: src/etc/inc/openvpn.inc, line: 89
 # File: src/etc/inc/openvpn.inc, line: 97
 msgid "Peer to Peer ( Shared Key )"
-msgstr ""
+msgstr "Pair à Pair (Clef Partagée)"
 
 # File: src/etc/inc/openvpn.inc, line: 88
 # File: src/etc/inc/openvpn.inc, line: 96
 msgid "Peer to Peer ( SSL/TLS )"
-msgstr ""
+msgstr "Pair à Pair ( SSL/TLS )"
 
 # File: src/www/vpn_openvpn_client.php, line: 529
 # File: src/www/vpn_openvpn_server.php, line: 857
@@ -2065,11 +2067,11 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_settings.php, line: 231
 msgid "Force IPsec Reload on Failover"
-msgstr ""
+msgstr "Forcer le Rechargement IPsec en cas de basculement"
 
 # File: src/www/vpn_ipsec_settings.php, line: 226
 msgid "IPsec Reload on Failover"
-msgstr ""
+msgstr "Rechargement IPsec en cas de Basculement"
 
 # File: src/www/vpn_ipsec_settings.php, line: 221
 msgid ""
@@ -2111,14 +2113,17 @@ msgid ""
 "protection. This behaviour can be changed by enabling this setting which "
 "will prevent installing these SPDs."
 msgstr ""
+"Par défaut, si IPSec est activée une SPD invalidante est insérée afin de "
+"fournir une protection. Ce comportement peut être modifié en activant ce "
+"paramètre qui empêchera la mise en place de ces SPD."
 
 # File: src/www/vpn_ipsec_settings.php, line: 175
 msgid "Do not install LAN SPD"
-msgstr ""
+msgstr "Ne pas installer LAN SPD"
 
 # File: src/www/vpn_ipsec_settings.php, line: 162
 msgid "LAN security associations"
-msgstr ""
+msgstr "Associations de sécurité LAN"
 
 # File: src/www/vpn_ipsec_settings.php, line: 163
 msgid "IPSec Advanced Settings"
@@ -2130,11 +2135,11 @@ msgstr "Ping automatiquement l'hôte"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 860
 msgid "Set globally in mobile client options"
-msgstr ""
+msgstr "Définir de façon globale dans les options du client mobile"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 835
 msgid "PFS key group"
-msgstr ""
+msgstr "Groupe de clefs PFS"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 821
 msgid "Hash algorithms"
@@ -2170,12 +2175,17 @@ msgid ""
 "In case you need NAT/BINAT on this network specify the address to be "
 "translated."
 msgstr ""
+"Dans le cas où vous auriez besoin de NAT/BINAT sur ce réseau veuillez "
+"spécifier l'adresse à translater."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 760
 msgid ""
 "Enforce the type of NAT by choosing either NAT or BINAT. Leave it to Auto to "
 "let OPNsense automatically choose the best NAT option."
 msgstr ""
+"Imposer le type de NAT en choisissant soit NAT ou BINAT. Laissez sur Auto "
+"afin de permettre à OPNsense de choisir automatiquement la meilleure "
+"technique de NAT."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
 msgid "BINAT"
@@ -2183,7 +2193,7 @@ msgstr "BINAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 746
 msgid "NAT Type"
-msgstr ""
+msgstr "Type de NAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 725
 msgid "NAT/BINAT"
@@ -2208,7 +2218,7 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_phase2.php, line: 545
 msgid "Disable this phase2 entry"
-msgstr ""
+msgstr "Désactiver cette entrée phase2"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 286
 msgid "The P2 lifetime must be an integer."
@@ -2227,22 +2237,29 @@ msgid ""
 "Phase2 with this Local/Remote networks combination is already defined for "
 "this Phase1."
 msgstr ""
+"Cette combinaison réseaux Local/Distant pour la Phase2 est déjà définie pour "
+"cette Phase1."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 227
 msgid "Phase2 with this Local Network is already defined for mobile clients."
 msgstr ""
+"Ce Réseau Local pour la Phase2 est déjà défini pour les clients mobiles."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 205
 msgid ""
 "A valid remote network IPv6 address must be specified or you need to change "
 "Mode to IPv4"
 msgstr ""
+"Une adresse réseau distante IPv6 doit impérativement être spécifiée ou vous "
+"devrez utiliser le Mode IPv4"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 203
 msgid ""
 "A valid remote network IPv4 address must be specified or you need to change "
 "Mode to IPv6"
 msgstr ""
+"Une adresse réseau distante IPv4 doit impérativement être spécifiée ou vous "
+"devrez utiliser le Mode IPv6"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 201
 msgid "A valid remote network IP address must be specified."
@@ -2257,18 +2274,24 @@ msgid ""
 "BINAT requires that the netmask of the local network matches the one of the "
 "NAT/BINAT network."
 msgstr ""
+"BINAT nécessite que le masque réseau du réseau local corresponde à celui du "
+"réseau NAT/BINAT."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 179
 msgid ""
 "A valid NAT local network IPv6 address must be specified or you need to "
 "change Mode to IPv4"
 msgstr ""
+"Une adresse réseau local IPv6 translatée doit impérativement être spécifiée "
+"ou vous devrez utiliser le Mode IPv4"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 177
 msgid ""
 "A valid NAT local network IPv4 address must be specified or you need to "
 "change Mode to IPv6"
 msgstr ""
+"Une adresse réseau local IPv4 translatée doit impérativement être spécifiée "
+"ou vous devrez utiliser le Mode IPv6"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 175
 msgid "A valid NAT local network IP address must be specified."
@@ -2299,12 +2322,16 @@ msgid ""
 "A valid local network IPv6 address must be specified or you need to change "
 "Mode to IPv4"
 msgstr ""
+"Une adresse IPv6 du réseau locale valide doit être spécifiée ou vous devriez "
+"changer le mode en IPv4"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 148
 msgid ""
 "A valid local network IPv4 address must be specified or you need to change "
 "Mode to IPv6"
 msgstr ""
+"Une adresse IPv4 du réseau locale valide doit être spécifiée ou vous devriez "
+"changer le mode en IPv6"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 146
 msgid "A valid local network IP address must be specified."
@@ -2328,7 +2355,7 @@ msgstr "Type de réseau local"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 125
 msgid "A valid ikeid must be specified."
-msgstr ""
+msgstr "Un ikeid valide doit être entré."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1035
 msgid "Number of consecutive failures allowed before disconnect."
@@ -2336,7 +2363,7 @@ msgstr "Nombre d'échecs consécutifs autorisé avant la déconnexion."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1037
 msgid "retries"
-msgstr ""
+msgstr "Nouveaux essais"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1029
 msgid "Delay between requesting peer acknowledgement."
@@ -2356,36 +2383,44 @@ msgid ""
 "UDP packets) if needed, which can help with clients that are behind "
 "restrictive firewalls."
 msgstr ""
+"Utilisez cette option pour activer l'utilisation du NAT-T (c-à-d "
+"l'encapsulation des ESP dans les paquets UDP) si besoin, ceci peut aider "
+"lorsque les clients sont derrière un firewall restrictif."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1012
 msgid "Force"
-msgstr ""
+msgstr "Forcer"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 998
 msgid "NAT Traversal"
-msgstr ""
+msgstr "NAT Traversant"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 994
 msgid ""
 "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, "
 "reauthentication is always done."
 msgstr ""
+"Même s'il s'agit d'un changement de la clef de cryptage de l'IKE_SA le pair "
+"devrait quand même être ré authentifié. Si IKEv1 est utilisé, la ré "
+"authentification est toujours faite."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 986
 msgid "Disable Reauth"
-msgstr ""
+msgstr "Désactiver Réauthentification"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 985
 msgid "Whether a connection should be renegotiated when it is about to expire."
 msgstr ""
+"Même s'il s'agit d'une connexion sur le point d'expirer et devant être "
+"renégocier."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 977
 msgid "Disable Rekey"
-msgstr ""
+msgstr "Désactiver le Renouvellement de Clef"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 941
 msgid "DH key group"
-msgstr ""
+msgstr "Groupe de clef DH"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 921
 msgid "Hash algorithm"
@@ -2406,6 +2441,8 @@ msgid ""
 "Select a certificate authority previously configured in the Certificate "
 "Manager."
 msgstr ""
+"Sélectionnez une autorité de certification ayant été précédemment configurée "
+"dans le Gestionnaire de Certificat."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 864
 msgid "My Certificate Authority"
@@ -2430,6 +2467,8 @@ msgid ""
 "NOTE: This is known as the \"group\" setting on some VPN client "
 "implementations."
 msgstr ""
+"NOTE: Ce paramètre peut également être nommé paramètre de \"groupe\" dans "
+"certaines implémentations VPN clientes."
 
 # File: src/etc/inc/ipsec.inc, line: 49
 msgid "Peer IP address"
@@ -2442,12 +2481,12 @@ msgstr "ID du correspondant"
 # File: src/etc/inc/ipsec.inc, line: 45
 # File: src/etc/inc/ipsec.inc, line: 54
 msgid "KeyID tag"
-msgstr ""
+msgstr "Étiquette KeyID"
 
 # File: src/etc/inc/ipsec.inc, line: 44
 # File: src/etc/inc/ipsec.inc, line: 53
 msgid "ASN.1 distinguished Name"
-msgstr ""
+msgstr "Nom distinct ASN.1"
 
 # File: src/etc/inc/ipsec.inc, line: 40
 msgid "My IP address"
@@ -2469,7 +2508,7 @@ msgstr "Mode de négociation"
 # File: src/www/vpn_ipsec_phase1.php, line: 932
 # File: src/www/vpn_ipsec_phase1.php, line: 963
 msgid "Must match the setting chosen on the remote side."
-msgstr ""
+msgstr "Doit correspondre au paramètre défini du côté distant."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 742
 # File: src/www/vpn_openvpn_client.php, line: 666
@@ -2487,10 +2526,12 @@ msgstr "Entrez l'adresse IP publique ou le nom d'hôte de la passerelle distante
 # File: src/www/vpn_ipsec_phase1.php, line: 695
 msgid "Select the interface for the local endpoint of this phase1 entry."
 msgstr ""
+"Sélectionner l'interface du point de terminaison local pour cette entrée "
+"phase1."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 655
 msgid "Select the Internet Protocol family from this dropdown."
-msgstr ""
+msgstr "Sélectionner le type de Protocole Internet dans cette liste déroulante."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 638
 msgid "Internet Protocol"
@@ -2501,16 +2542,21 @@ msgid ""
 "Select the KeyExchange Protocol version to be used. Usually known as IKEv1 "
 "or IKEv2."
 msgstr ""
+"Sélectionner la version de Protocole KeyExchange à utiliser. Habituellement "
+"dénommé IKEv1 ou IKEv2."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 620
 msgid "Key Exchange version"
-msgstr ""
+msgstr "Version Key Exchange"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 616
 msgid ""
 "Choose the connect behaviour here, when using CARP you might want to "
 "consider the Repond only option here (wait for the other side to connect)."
 msgstr ""
+"Choisissez le comportement lors de la connexion ici, lorsque CARP est "
+"utilisé vous devriez envisager d'utiliser ici l'option Répondre seulement ("
+"attendre que l'autre côté se connecte)."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 613
 msgid "Start immediate"
@@ -2537,7 +2583,7 @@ msgstr ""
 
 # File: src/www/vpn_ipsec_phase1.php, line: 612
 msgid "Disable this phase1 entry"
-msgstr ""
+msgstr "Désactiver cette entrée phase1"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 600
 # File: src/www/vpn_openvpn_client.php, line: 506
@@ -2548,15 +2594,16 @@ msgstr "Information générale"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 345
 msgid "Invalid argument for key exchange protocol version."
-msgstr ""
+msgstr "Argument invalide avec cette version du protocole key exchange."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 347
 msgid "A numeric value must be specified for DPD retries."
 msgstr ""
+"Une valeur numérique doit être définie pour les nouvelles tentatives DPD."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 343
 msgid "A numeric value must be specified for DPD delay."
-msgstr ""
+msgstr "Une valeur numérique doit être définie pour le délai DPD."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 336
 msgid ""
@@ -2585,14 +2632,20 @@ msgstr "Une adresse IP valide doit être spécifiée pour 'ID du correspondant' 
 msgid ""
 "Please enter a user and fully qualified domain name for 'Peer Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer un nom d'utilisateur ainsi qu'un nom de "
+"domaine complet à la rubrique 'Identifiant Pair'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 312
 msgid "Please enter a fully qualified domain name for 'Peer Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer un nom de domaine complet à la rubrique "
+"'Identifiant Pair'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 308
 msgid "Please enter a keyid tag for 'Peer Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer une étiquette keyid à la rubrique "
+"'Identifiant Pair'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 304
 msgid "Please enter an address for 'Peer Identifier'"
@@ -2608,34 +2661,45 @@ msgid ""
 "A valid User FQDN in the form of user@my.domain.com for 'My identifier' must "
 "be specified."
 msgstr ""
+"Un nom d'utilisateur FQDN au format utilisateur@mon.domaine.com doit être "
+"entré à la rubrique 'Mon identifiant'."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 278
 msgid "A valid FQDN for 'My identifier' must be specified."
-msgstr ""
+msgstr "Un FQDN valide doit être entré à la rubrique 'Mon identifiant'."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 273
 msgid "A valid domain name for 'My identifier' must be specified."
 msgstr ""
+"Un nom de domaine valide doit être entré à la rubrique 'Mon identifiant'."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 269
 msgid "A valid IP address for 'My identifier' must be specified."
-msgstr ""
+msgstr "Une adresse IP valide doit être entrée à la rubrique 'Mon identifiant'."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 265
 msgid "Please enter a dynamic domain name for 'My Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer un nom de domaine dynamique à la rubrique "
+"'Mon identifiant'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 261
 msgid "Please enter a user and fully qualified domain name for 'My Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer un nom d'utilisateur ainsi qu'un nom de "
+"domaine complet à la rubrique 'Mon identifiant'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 257
 msgid "Please enter a fully qualified domain name for 'My Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer un nom de domaine complet à la rubrique 'Mon "
+"identifiant'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 253
 msgid "Please enter a keyid tag for 'My Identifier'"
 msgstr ""
+"Veuillez s'il vous plaît entrer une étiquette keyid à la rubrique 'Mon "
+"identifiant'"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 249
 msgid "Please enter an address for 'My Identifier'"
@@ -2646,6 +2710,8 @@ msgid ""
 "Please select an identifier (My Identifier) other then 'any' when selecting "
 "'Any' interface"
 msgstr ""
+"Veuillez s'il vous plaît entrer un identifiant (Mon identifiant) autre que "
+"'n'importe lequel' quand l'interface 'n'importe laquelle' est sélectionnée"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 235
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
@@ -2664,6 +2730,8 @@ msgid ""
 "A valid remote gateway IPv6 address must be specified or you need to change "
 "protocol to IPv4"
 msgstr ""
+"Une adresse IPv6 valide pour la passerelle distante doit être définie ou "
+"vous devrez modifier le protocole et utiliser IPv4"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 209
 msgid ""
@@ -2690,7 +2758,7 @@ msgstr "Passerelle distante"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 182
 msgid "%s can only be used with IKEv2 type VPNs."
-msgstr ""
+msgstr "%s peut seulement être utilisé avec les VPN de type IKEv2."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 701
 msgid "Provide a login banner to clients"
@@ -2741,6 +2809,8 @@ msgid ""
 "NOTE: If left blank, and a default domain is set, it will be used for this "
 "value."
 msgstr ""
+"NOTE: lorsque ce paramètre n'est pas renseigné et qu'un domaine par défaut a "
+"été défini, ce dernier sera utilisé ici."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 571
 msgid ""
@@ -2771,6 +2841,9 @@ msgid ""
 "NOTE: With iPhone clients, this does not work when deployed via the iPhone "
 "configuration utility, only by manual entry."
 msgstr ""
+"NOTE: Avec les clients iPhone, cela ne fonctionnera pas s'ils ont été "
+"configurés avec l'utilitaire de configuration iPhone, utilisez seulement le "
+"paramétrage manuel."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 531
 msgid "Allow clients to save Xauth passwords (Cisco VPN client only)."
@@ -2868,7 +2941,7 @@ msgstr "Un adresse IP valide doit être spécifiée pour 'Serveur DNS #1'"
 
 # File: src/www/vpn_ipsec_mobile.php, line: 161
 msgid "A valid split DNS domain list must be specified."
-msgstr ""
+msgstr "Une liste de domaine split DNS valide doit être définie."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 152
 msgid "A valid value for 'DNS Default Domain' must be specified."
@@ -2878,20 +2951,24 @@ msgstr "Une valeur correcte pour 'Domaine DNS par défaut' doit être spécifié
 msgid ""
 "A valid IP address for 'Virtual Address Pool Network' must be specified."
 msgstr ""
+"Une adresse IP valide pour la rubrique 'Réseau du Groupe d'Adresse "
+"Virtuelle' doit être définie."
 
 # File: src/www/vpn_ipsec_mobile.php, line: 140
 msgid "User Authentication Source"
-msgstr ""
+msgstr "Source d'Authentification Utilisateur"
 
 # File: src/www/vpn_ipsec_mobile.php, line: 140
 msgid "Group Authentication Source"
-msgstr ""
+msgstr "Source d'Authentification du Groupe"
 
 # File: src/www/vpn_ipsec_keys_edit.php, line: 146
 msgid ""
 "This can be either an IP address, fully qualified domain name or an e-mail "
 "address."
 msgstr ""
+"Cela peut être une adresse IP, un nom de domaine complet ou une adresse "
+"email."
 
 # File: src/www/vpn_ipsec_keys_edit.php, line: 104
 msgid "Added"
@@ -2919,6 +2996,8 @@ msgstr ""
 # File: src/www/vpn_ipsec_keys_edit.php, line: 177
 msgid "PSK for any user can be set by using an identifier of any/ANY"
 msgstr ""
+"PSK pour n'importe quel utilisateur peut être défini en utilisant un "
+"identifiant sous la forme n'importe lequel/N'IMPORTE LEQUEL"
 
 # File: src/www/vpn_ipsec_keys.php, line: 167
 msgid "delete key"
@@ -2934,7 +3013,7 @@ msgstr "éditer"
 
 # File: src/www/vpn_ipsec_keys.php, line: 129
 msgid "ANY USER"
-msgstr ""
+msgstr "N'IMPORTE QUEL UTILISATEUR"
 
 # File: src/www/vpn_ipsec_keys.php, line: 112
 # File: src/www/vpn_ipsec_keys_edit.php, line: 67
@@ -3010,11 +3089,11 @@ msgstr "désactiver une phase 2"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 498
 msgid "PFS"
-msgstr ""
+msgstr "PFS"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 497
 msgid "Authenticity Protocols"
-msgstr ""
+msgstr "Protocoles d'Authenticité"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 496
 msgid "Encryption Protocols"
@@ -3051,7 +3130,7 @@ msgstr "déplacer les éléments sélectionnés avant celui-ci"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 430
 msgid "DH Group"
-msgstr ""
+msgstr "Groupe DH"
 
 # File: src/www/vpn_ipsec.php, line: 367
 # File: src/www/vpn_ipsec.php, line: 559
@@ -3129,7 +3208,7 @@ msgstr "Tentative de connexion à"
 
 # File: /usr/core/src/www/system_usermanager_settings_test.php, line: 60
 msgid "Testing LDAP settings... One moment please..."
-msgstr ""
+msgstr "Test des paramètres LDAP en cours... Un instant s'il vous plaît..."
 
 # File: src/www/system_usermanager_settings_test.php, line: 47
 msgid "Could not find settings for %s%s"
@@ -3138,6 +3217,8 @@ msgstr "Impossible de trouver les paramètres pour %s%s"
 # File: src/www/system_usermanager_settings_ldapacpicker.php, line: 77
 msgid "Please select which containers to Authenticate against:"
 msgstr ""
+"Veuillez s'il vous plaît sélectionner les conteneurs à utiliser pour "
+"l'Authentification: "
 
 # File: src/www/system_usermanager_settings.php, line: 169
 msgid "Save and Test"
@@ -3145,11 +3226,11 @@ msgstr "Sauvegarder et Tester"
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 145
 msgid "--No Fallback--"
-msgstr ""
+msgstr "--Pas de Secours--"
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 134
 msgid "Authentication Server (fallback)"
-msgstr ""
+msgstr "Server d'Authentification (secours)"
 
 # File: src/www/system_usermanager_settings.php, line: 138
 msgid "Enter 0 to never expire sessions. NOTE: This is a security risk!"
@@ -3162,20 +3243,24 @@ msgid ""
 "Time in minutes to expire idle management sessions. The default is 4 hours ("
 "240 minutes)."
 msgstr ""
+"Temps en minutes après lequel les sessions de gestion inactives expireront. "
+"4 heures pas défaut (240 minutes)."
 
 # File: src/www/system_usermanager_settings.php, line: 133
 msgid "Session Timeout"
-msgstr "Délai d'inactivité de la session"
+msgstr "Délai d'expiration de la session"
 
 # File: src/www/system_usermanager_settings.php, line: 59
 msgid ""
 "The test was not performed because it is supported only for ldap based "
 "backends."
 msgstr ""
+"Le test n'a pas été effectué car il ne peut être réalisé qu'avec un backend "
+"de type LDAP."
 
 # File: src/www/system_usermanager_settings.php, line: 47
 msgid "Session timeout must be an integer value."
-msgstr "Le délai d'inactivité de la session doit être un entier"
+msgstr "Le délai d'expiration de la session doit être une valeur entière."
 
 # File: src/www/system_usermanager_passwordmg.php, line: 127
 msgid "Confirmation"
@@ -3211,19 +3296,19 @@ msgstr ""
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 227
 msgid "Deselect all (visible)"
-msgstr ""
+msgstr "Tous désélectionnés (visibles) "
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 223
 msgid "Select all (visible)"
-msgstr ""
+msgstr "Tous sélectionnés (visibles)"
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 192
 msgid "search"
-msgstr ""
+msgstr "rechercher"
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 189
 msgid "(filter)"
-msgstr ""
+msgstr "(filtrer)"
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 184
 msgid "Allowed"
@@ -3250,6 +3335,11 @@ msgid ""
 "object. Some system object properties can be modified but they cannot be "
 "deleted."
 msgstr ""
+"Des utilisateurs additionnels peuvent être ajoutés ici. Les permissions "
+"utilisateurs permettant l'accès au webConfigurator peuvent être assignées "
+"directement ou héritées en fonction de l'appartenance aux groupes. Une icône "
+"grise indique un objet système. Certaines propriétés d'un objet système "
+"peuvent être modifiées mais ne peuvent pas être supprimées."
 
 # File: src/www/system_usermanager.php, line: 983
 msgid "import users"
@@ -3300,10 +3390,14 @@ msgstr "Clés autorisées"
 msgid ""
 "When using google authenticator, scan the following qrcode for easy setup:"
 msgstr ""
+"Quand google authenticator est utilisé, scannez le qrcode suivant pour une "
+"configuration simplifiée:"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 852
 msgid "OTP (base32) seed to use when a one time password authenticator is used"
 msgstr ""
+"Graine OTP (base32) à utiliser quand un mot de passe à usage unique "
+"provenant d'authenticator est utilisé"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 850
 msgid "generate new (160bit) secret"
@@ -3311,11 +3405,11 @@ msgstr "générer un nouveau secret (160bit)"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 847
 msgid "OTP seed"
-msgstr ""
+msgstr "Graine OTP"
 
 # File: src/www/system_usermanager.php, line: 896
 msgid "Redirects on save"
-msgstr ""
+msgstr "Redirection lors de la sauvegarde"
 
 # File: src/www/system_usermanager.php, line: 762
 msgid "Click to create a user certificate."
@@ -3326,6 +3420,8 @@ msgid ""
 "manage API keys here for machine to machine interaction using this users "
 "credentials"
 msgstr ""
+"Gérer ici les clefs API pour les interactions machine à machine utilisant "
+"cette identité utilisateur"
 
 # File: src/www/system_usermanager.php, line: 921
 msgid "create API key"
@@ -3369,7 +3465,7 @@ msgstr "Certificats Utilisateur"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 721
 msgid "edit privileges"
-msgstr ""
+msgstr "Editer les privilèges"
 
 # File: src/www/system_usermanager.php, line: 618
 msgid "Inherited From"
@@ -3416,7 +3512,7 @@ msgstr "(confirmation)"
 # File: src/etc/inc/ipsec.inc, line: 43
 # File: src/etc/inc/ipsec.inc, line: 52
 msgid "User distinguished name"
-msgstr ""
+msgstr "Nom distinct utilisateur"
 
 # File: src/www/system_usermanager.php, line: 611
 msgid "Do you really want to delete this API key?"
@@ -3519,6 +3615,7 @@ msgstr "Réseau de destination pour cette route statique"
 # File: src/www/system_routes_edit.php, line: 178
 msgid "This network conflicts with address configured on interface %s."
 msgstr ""
+"Ce réseau rentre en conflit avec l'adresse configurée sur l'interface %s."
 
 # File: src/www/system_routes_edit.php, line: 162
 msgid "A route to these destination networks already exists"
@@ -3531,6 +3628,7 @@ msgstr "Un sous-réseau IPv4 ne peut excéder 32 bits."
 # File: src/www/system_routes_edit.php, line: 93
 msgid "A valid destination network bit count must be specified."
 msgstr ""
+"Un nombre de bit valide pour le réseau de destination doit être spécifié."
 
 # File: src/www/system_routes_edit.php, line: 90
 msgid "A valid IPv4 or IPv6 destination network must be specified."
@@ -3539,7 +3637,7 @@ msgstr ""
 
 # File: src/www/system_routes_edit.php, line: 83
 msgid "Destination network bit count"
-msgstr ""
+msgstr "Nombre de bit du réseau de destination"
 
 # File: src/www/system_routes_edit.php, line: 82
 # File: src/www/system_routes_edit.php, line: 256
@@ -3552,6 +3650,10 @@ msgid ""
 "firewall. Static routes are only used for networks reachable via a different "
 "router, and not reachable via your default gateway."
 msgstr ""
+"Ne pas entrer de route statique pour les réseaux assignés sur n'importe "
+"quelle interface de ce firewall. Les routes statiques sont uniquement "
+"utilisées pour les réseaux accessibles via un routeur différent et non "
+"accessibles via votre passerelle par défaut."
 
 # File: src/www/system_routes.php, line: 321
 msgid "add route"
@@ -3620,18 +3722,24 @@ msgid ""
 "Automatically sync the Captive Portal configuration to the other HA host "
 "when changes are made."
 msgstr ""
+"Synchroniser automatiquement la configuration du Portail Captif avec l'autre "
+"hôte HA quand des modifications sont effectuées."
 
 # File: /usr/core/src/www/system_hasync.php, line: 345
 msgid ""
 "Automatically sync the TrafficShaper configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"Synchroniser automatiquement la configuration du Régulateur de flux avec "
+"l'autre hôte HA quand des modifications sont effectuées."
 
 # File: /usr/core/src/www/system_hasync.php, line: 336
 msgid ""
 "Automatically sync the DNS Resolver configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"Synchroniser automatiquement la configuration du Résolveur DNS avec l'autre "
+"hôte HA quand des modifications sont effectuées."
 
 # File: src/www/system_hasync.php, line: 350
 msgid ""
@@ -3646,6 +3754,8 @@ msgid ""
 "Automatically sync the CARP Virtual IPs to the other HA host when changes "
 "are made."
 msgstr ""
+"Synchroniser automatiquement l'adresse IP Virtuelle du protocole CARP avec "
+"l'autre hôte HA quand des modifications sont effectuées."
 
 # File: src/www/system_hasync.php, line: 332
 msgid ""
@@ -3693,6 +3803,8 @@ msgid ""
 "Using this option implies \"Synchronize Certificates\" as they are required "
 "for OpenVPN."
 msgstr ""
+"L'utilisation de cette option implique \"Synchroniser Certificats\", ces "
+"derniers étant nécessaires pour OpenVPN."
 
 # File: src/www/system_hasync.php, line: 295
 msgid ""
@@ -3736,7 +3848,7 @@ msgstr ""
 
 # File: src/www/system_hasync.php, line: 232
 msgid "Firewall Schedules"
-msgstr ""
+msgstr "Planifications du Firewall"
 
 # File: src/www/system_hasync.php, line: 250
 msgid ""
@@ -3784,6 +3896,8 @@ msgid ""
 "Enter the webConfigurator password of the system entered above for "
 "synchronizing your configuration."
 msgstr ""
+"Indiquez le mot de passe webConfigurator du système renseigné précédemment "
+"pour la synchronisation de votre configuration."
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
@@ -3794,16 +3908,20 @@ msgid ""
 "Do not use the Synchronize Config to IP and username option on backup "
 "cluster members!"
 msgstr ""
+"Ne pas utiliser les options Synchroniser la Configuration vers l'IP et nom "
+"d'utilisateur sur les membres du cluster de secours!"
 
 # File: src/www/system_hasync.php, line: 200
 msgid ""
 "Enter the webConfigurator username of the system entered above for "
 "synchronizing your configuration."
 msgstr ""
+"Indiquez l'identifiant webConfigurator du système renseigné précédemment "
+"pour la synchronisation de votre configuration."
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
-msgstr ""
+msgstr "Identifiant du Système Distant"
 
 # File: src/www/system_hasync.php, line: 190
 # File: src/www/system_hasync.php, line: 213
@@ -3811,36 +3929,45 @@ msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
 "cluster members!"
 msgstr ""
+"Ne pas utiliser les options Synchroniser la Configuration vers l'IP et mot "
+"de passe sur les membres du cluster de secours!"
 
 # File: /usr/core/src/www/system_hasync.php, line: 164
 msgid ""
 "When using XMLRPC sync to a backup machine running on another port/protocol "
 "please input the full url (example: %s)"
 msgstr ""
+"Quand XMLRPC sync est utilisé vers une machine de secours fonctionnant avec "
+"un autre port/protocole merci alors de bien vouloir utiliser l'URL complète "
+"(exemple: %s)"
 
 # File: src/www/system_hasync.php, line: 186
 msgid ""
 "Enter the IP address of the firewall to which the selected configuration "
 "sections should be synchronized."
 msgstr ""
+"Renseignez l'adresse IP du pare-feu vers lequel les éléments de "
+"configuration sélectionnées devront être synchronisées."
 
 # File: src/www/system_hasync.php, line: 183
 msgid "Synchronize Config to IP"
-msgstr ""
+msgstr "Synchroniser la Config vers l'IP"
 
 # File: src/www/system_hasync.php, line: 178
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
-msgstr ""
+msgstr "Paramètres de la Configuration de Synchronisation (XMLRPC Sync)"
 
 # File: /usr/core/src/www/system_hasync.php, line: 149
 msgid ""
 "Setting this option will force pfsync to synchronize its state table to this "
 "IP address. The default is directed multicast."
 msgstr ""
+"L'utilisation de cette option forcera pfsync à synchroniser ses tables "
+"d'état vers cette adresse IP. Par défaut directed multicast est utilisé."
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
-msgstr ""
+msgstr "IP de Synchronisation du Pair"
 
 # File: src/www/system_hasync.php, line: 156
 msgid ""
@@ -3862,12 +3989,16 @@ msgid ""
 "We recommend setting this to a interface other than LAN! A dedicated "
 "interface works the best."
 msgstr ""
+"Nous recommandons qu'une interface autre que LAN soit utilisée ici! Une "
+"interface dédiée fonctionne mieux."
 
 # File: src/www/system_hasync.php, line: 151
 msgid ""
 "If Synchronize States is enabled, it will utilize this interface for "
 "communication."
 msgstr ""
+"Si la Synchronisation des Etats est activée, elle utilisera cette interface "
+"pour communiquer."
 
 # File: src/www/system_hasync.php, line: 123
 msgid "loopback"
@@ -3875,13 +4006,16 @@ msgstr "loopback"
 
 # File: src/www/system_hasync.php, line: 140
 msgid "Synchronize Interface"
-msgstr ""
+msgstr "Interface de Synchronisation"
 
 # File: src/www/system_hasync.php, line: 136
 msgid ""
 "Clicking save will force a configuration sync if it is enabled! (see "
 "Configuration Synchronization Settings below)"
 msgstr ""
+"Cliquer sur sauvegarder forcera la synchronisation de la configuration si "
+"cette dernière est activée! (voir Paramétrage de la Configuration de "
+"Synchronisation ci-dessous)"
 
 # File: src/www/system_hasync.php, line: 132
 msgid ""
@@ -3892,14 +4026,21 @@ msgid ""
 "and imports them into the local state table.%sThis setting should be enabled "
 "on all members of a failover group."
 msgstr ""
+"pfsync transfère les messages d'insertion, de mise à jour et d'effacement "
+"d'état entre les firewalls.%sChaque firewall envoie ces messages en "
+"utilisant le mutlicast sur l'interface désignée, en utilisant le protocole "
+"PFSYNC (%sIP Protocol 240%s).%sIl écoute aussi sur cette interface les "
+"messages similaires en provenance des autres firewalls et les importe dans "
+"sa table d'état local.%sCe paramètre devrait être activé sur tous les "
+"membres du groupe de secours."
 
 # File: src/www/system_hasync.php, line: 127
 msgid "Synchronize States"
-msgstr ""
+msgstr "Synchroniser les Etats"
 
 # File: src/www/system_hasync.php, line: 98
 msgid "State Synchronization"
-msgstr ""
+msgstr "Synchronisation d'Etat"
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 470
 msgid ""
@@ -3908,10 +4049,15 @@ msgid ""
 "icon that appears grey indicates that it is a system defined object. Some "
 "system object properties can be modified but they cannot be deleted."
 msgstr ""
+"Des groupes webConfigurator additionnels peuvent être ajoutés ici. Les "
+"permissions de groupe qui peuvent être assignées ici seront alors héritées "
+"par les utilisateurs membres de ces groupes. Une icône grise indique que "
+"l'objet a été défini par le système. Certaines propriétés d'un objet système "
+"peuvent être modifiées mais ne peuvent pas être supprimées."
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 463
 msgid "add group"
-msgstr ""
+msgstr "ajouter groupe"
 
 # File: src/www/system_groupmanager.php, line: 462
 msgid "Member Count"
@@ -3932,11 +4078,11 @@ msgstr ""
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 286
 msgid "Remove Users"
-msgstr ""
+msgstr "Retirer Utilisateurs"
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 282
 msgid "Add Users"
-msgstr ""
+msgstr "Ajouter Utilisateurs"
 
 # File: src/www/system_usermanager.php, line: 527
 msgid "Member Of"
@@ -3992,6 +4138,11 @@ msgid ""
 "so system can use the local DNS service to perform lookups. Checking this "
 "box omits localhost from the list of DNS servers."
 msgstr ""
+"Par défaut localhost (127.0.0.1) sera utilisé comme premier serveur DNS dans "
+"lequel le DNS Forwarder ou le DNS Resolver est activé et paramétré pour "
+"écouter le Localhost, ainsi le système peut utiliser le service DNS local "
+"pour effectuer des recherches. Cocher cette case permettra de ne plus tenir "
+"compte de localhost dans la liste des serveurs DNS."
 
 # File: src/www/system_general.php, line: 420
 msgid "Do not use the DNS Forwarder as a DNS server for the firewall"
@@ -4003,6 +4154,10 @@ msgid ""
 "be used for its own purposes (including the DNS forwarder). However, they "
 "will not be assigned to DHCP and PPTP VPN clients."
 msgstr ""
+"Si cette option est activée, les serveurs DNS assignés par un serveur DHCP/"
+"PPP sur le WAN seront utilisés pour son propre usage (incluant le DNS "
+"forwarder). Cependant, ils ne seront pas assignés dans le DHCP et les "
+"clients PPTP VPN."
 
 # File: src/www/system_general.php, line: 408
 msgid "Allow DNS server list to be overridden by DHCP/PPP on WAN"
@@ -4046,6 +4201,8 @@ msgid ""
 "If the link where the default gateway resides fails switch the default "
 "gateway to another available one."
 msgstr ""
+"Si la liaison vers la passerelle par défaut est rompue basculer la "
+"passerelle par défaut vers une autre disponible."
 
 # File: src/www/system_advanced_misc.php, line: 365
 msgid "Allow default gateway switching"
@@ -4079,7 +4236,7 @@ msgstr "Réseau"
 
 # File: /usr/core/src/www/system_general.php, line: 372
 msgid "This will change the look and feel of the GUI."
-msgstr ""
+msgstr "Ce paramètre changera l'apparence de l'interface graphique."
 
 # File: src/www/system_general.php, line: 490
 msgid "Theme"
@@ -4141,11 +4298,11 @@ msgstr "Le nom d'hôte ne peut contenir que les caractères a-z, 0-9 et \"-\"."
 
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Turkish"
-msgstr ""
+msgstr "Turc"
 
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Swedish"
-msgstr ""
+msgstr "Suédois"
 
 # File: src/www/system_general.php, line: 41
 msgid "Spanish"
@@ -4153,11 +4310,11 @@ msgstr "Espagnol"
 
 # File: /usr/core/src/www/system_general.php, line: 51
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
 # File: /usr/core/src/www/system_general.php, line: 50
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugais"
 
 # File: src/www/system_general.php, line: 48
 msgid "Mongolian"
@@ -4169,7 +4326,7 @@ msgstr "Japonais"
 
 # File: /usr/core/src/www/system_general.php, line: 47
 msgid "Italian"
-msgstr ""
+msgstr "Italien"
 
 # File: src/www/system_general.php, line: 40
 msgid "German"
@@ -4181,7 +4338,7 @@ msgstr "Français"
 
 # File: /usr/core/src/www/system_general.php, line: 45
 msgid "Dutch"
-msgstr ""
+msgstr "Néerlandais"
 
 # File: src/www/system_general.php, line: 41
 msgid "Chinese (Simplified)"
@@ -4201,12 +4358,25 @@ msgid ""
 "probe interval is 1 second, so 10 probes would have to fail before the "
 "gateway is marked down."
 msgstr ""
+"Le temps d’interruption défini la période temporelle avant que la passerelle "
+"soit considérée comme inaccessible mais l'exactitude de l'état est contrôlée "
+"par la mesure d'une sonde à intervalle régulier. Par exemple, si le temps "
+"d'interruption défini est de 40 secondes et que l'intervalle de mesure de la "
+"sonde est de 30 secondes, une seule mesure devra reporter un échec avant que "
+"la passerelle ne soit considérée comme inaccessible au bout de la 40 eme "
+"seconde. Par défaut, la passerelle est considérée comme inaccessible après "
+"10 secondes et l'intervalle de mesure de la sonde est de 1 seconde, ainsi 10 "
+"mesures devront reporter un échec avant que la passerelle ne soit considérée "
+"comme inaccessible."
 
 # File: src/www/system_gateways_edit.php, line: 912
 msgid ""
 "The probe interval must be less than the down time, otherwise the gateway "
 "will seem to go down then come up again at the next probe."
 msgstr ""
+"L'intervalle de mesure de la sonde doit être inférieur au temps "
+"d'interruption, autrement la passerelle semblera alternativement injoignable "
+"puis joignable entre deux mesures. "
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 811
 msgid ""
@@ -4214,25 +4384,33 @@ msgid ""
 "this, delays longer than the probe interval would be treated as packet loss. "
 "Default is %d."
 msgstr ""
+"Le délai (en quantité d’échantillonnage de la sonde) après lequel la perte "
+"est calculé. Sans ce paramètre, un délai supérieur à l'intervalle de mesure "
+"de la sonde serait perçu comme une perte de paquet. La valeur par défaut est "
+"%d."
 
 # File: src/www/system_gateways_edit.php, line: 899
 msgid "Lost Probe Delay"
-msgstr ""
+msgstr "Délai de Perte de la Sonde"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 799
 msgid ""
 "How many probes should be used to compute average packet loss? Default is %d."
 msgstr ""
+"Combien de mesures de la sonde doivent être utilisées pour calculer la "
+"moyenne des paquets perdus? La valeur pas défaut est de %d."
 
 # File: src/www/system_gateways_edit.php, line: 783
 msgid "Avg Packet Loss Probes Qty"
-msgstr ""
+msgstr "Quantité Moyenne des Paquets Perdus par la Sonde"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 787
 msgid ""
 "How many replies should be used to compute average delay for controlling \""
 "delay\" alarms? Default is %d."
 msgstr ""
+"Combien de réponses doivent être utilisées pour calculer le délai moyen "
+"contrôlant les alarmes \"délai\"? La valeur par défaut est de %d. "
 
 # File: src/www/system_gateways_edit.php, line: 882
 # File: src/www/system_gateways_edit.php, line: 894
@@ -4242,13 +4420,15 @@ msgstr "Utiliser la valeur calculée."
 
 # File: src/www/system_gateways_edit.php, line: 772
 msgid "Avg Delay Replies Qty"
-msgstr ""
+msgstr "Quantité Moyenne du Délai de Réponse"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 776
 msgid ""
 "The number of seconds of failed probes before the alarm will fire. Default "
 "is %d."
 msgstr ""
+"Intervalle temporel de réception des mesures en échec avant que l'alarme ne "
+"soit déclenchée. La valeur par défaut est de %d."
 
 # File: src/www/system_gateways_edit.php, line: 867
 msgid "Down"
@@ -4259,10 +4439,15 @@ msgid ""
 "NOTE: The quality graph is averaged over seconds, not intervals, so as the "
 "probe interval is increased the accuracy of the quality graph is decreased."
 msgstr ""
+"NOTE: Le graphique est obtenu en calculant une moyenne se basant sur les "
+"secondes et non les intervalles, ainsi plus l'intervalle entre les mesures "
+"sera important et plus la précision du graphique sera diminuée."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 766
 msgid "How often that an ICMP probe will be sent in seconds. Default is %d."
 msgstr ""
+"Fréquence en seconde à laquelle une mesure ICMP sera envoyée. La valeur par "
+"défaut est de %d."
 
 # File: src/www/system_gateways_edit.php, line: 856
 msgid "Probe Interval"
@@ -4271,6 +4456,8 @@ msgstr "Intervalle de la sonde"
 # File: /usr/core/src/www/system_gateways_edit.php, line: 757
 msgid "Low and high thresholds for packet loss in %%. Default is %d/%d."
 msgstr ""
+"Seuils minimum et maximum représentant la perte des paquets exprimés en %%. "
+"Les seuils par défaut sont %d/%d."
 
 # File: src/www/system_gateways_edit.php, line: 844
 msgid "Packet Loss thresholds"
@@ -4279,6 +4466,8 @@ msgstr "Seuils de perte de paquets"
 # File: /usr/core/src/www/system_gateways_edit.php, line: 731
 msgid "Low and high thresholds for latency in milliseconds. Default is %d/%d."
 msgstr ""
+"Seuils minimum et maximum de latence exprimés en millisecondes. Les seuils "
+"par défaut sont %d/%d."
 
 # File: src/www/system_gateways_edit.php, line: 837
 # File: src/www/system_gateways_edit.php, line: 849
@@ -4339,11 +4528,11 @@ msgstr "Désactiver la surveillance de la passerelle"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 648
 msgid "This will allow the gateway to exist outside of the interface subnet."
-msgstr ""
+msgstr "Cela permettra à la passerelle de sortir du sous-réseau de l'interface."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 644
 msgid "Far Gateway"
-msgstr ""
+msgstr "Passerelle Etendue"
 
 # File: src/www/system_gateways_edit.php, line: 760
 msgid "This will select the above gateway as the default gateway"
@@ -4398,29 +4587,35 @@ msgstr "Le délai de perte de la sonde doit être une valeur numérique."
 
 # File: src/www/system_gateways_edit.php, line: 403
 msgid "The average packet loss probes qty needs to be positive."
-msgstr ""
+msgstr "La quantité moyenne des paquets sondes perdus doit être positive."
 
 # File: src/www/system_gateways_edit.php, line: 400
 msgid "The average packet loss probes qty needs to be a numeric value."
 msgstr ""
+"La quantité moyenne des paquets sondes perdus doit être une valeur numérique."
 
 # File: src/www/system_gateways_edit.php, line: 393
 msgid "The average delay replies qty needs to be positive."
-msgstr ""
+msgstr "La quantité moyenne de délai des réponses doit être positive."
 
 # File: src/www/system_gateways_edit.php, line: 390
 msgid "The average delay replies qty needs to be a numeric value."
 msgstr ""
+"La quantité moyenne de délai des réponses doit être une valeur numérique."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 290
 msgid ""
 "The down time setting needs to be higher than the default probe interval (%d)"
 msgstr ""
+"Le paramètre du temps inaccessibilité doit être plus grand que l'intervalle "
+"par défaut de la sonde (%d) "
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 286
 msgid ""
 "The probe interval needs to be less than the default down time setting (%d)"
 msgstr ""
+"L'intervalle de mesure de la sonde doit être moins grand que le paramètre du "
+"temps d'inaccessibilité (%d)"
 
 # File: src/www/system_gateways_edit.php, line: 368
 msgid "The probe interval needs to be less than the down time setting."
@@ -4448,12 +4643,16 @@ msgid ""
 "The high Packet Loss threshold needs to be higher than the default low "
 "Packet Loss threshold (%d)"
 msgstr ""
+"La valeur du seuil maximum de paquet perdu doit être plus élevée que la "
+"valeur par défaut du seuil minimum de paquet perdu (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 256
 msgid ""
 "The low Packet Loss threshold needs to be less than the default high Packet "
 "Loss threshold (%d)"
 msgstr ""
+"La valeur du seuil minimum de paquet perdu doit être moins élevée que la "
+"valeur par défaut du seuil maximum de paquet perdu (%d)"
 
 # File: src/www/system_gateways_edit.php, line: 325
 msgid ""
@@ -4468,12 +4667,16 @@ msgid ""
 "The high latency threshold needs to be higher than the default low latency "
 "threshold (%d)"
 msgstr ""
+"La valeur du seuil maximum de latence doit être plus élevée que la valeur "
+"par défaut du seuil minimum de latence (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 242
 msgid ""
 "The low latency threshold needs to be less than the default high latency "
 "threshold (%d)"
 msgstr ""
+"La valeur du seuil minimum de latence doit être plus faible que la valeur "
+"par défaut du seuil maximum de latence (%d)"
 
 # File: src/www/system_gateways_edit.php, line: 302
 msgid ""
@@ -4661,7 +4864,7 @@ msgstr ""
 
 # File: src/www/system_gateway_groups_edit.php, line: 350
 msgid "When to trigger exclusion of a member"
-msgstr ""
+msgstr "Quand l'exclusion d'un membre doit-elle être déclenchée"
 
 # File: src/www/system_gateway_groups_edit.php, line: 50
 msgid "Packet Loss or High Latency"
@@ -4673,21 +4876,24 @@ msgstr "Latence Élevée"
 
 # File: src/www/system_gateway_groups_edit.php, line: 48
 msgid "Packet Loss"
-msgstr ""
+msgstr "Perte de Paquets"
 
 # File: src/www/system_gateway_groups_edit.php, line: 47
 msgid "Member Down"
-msgstr ""
+msgstr "Membre Hors Service"
 
 # File: src/www/system_gateway_groups_edit.php, line: 337
 msgid "Trigger Level"
-msgstr ""
+msgstr "Niveau de Déclenchement"
 
 # File: src/www/system_gateway_groups_edit.php, line: 332
 msgid ""
 "The virtual IP field selects what (virtual) IP should be used when this "
 "group applies to a local Dynamic DNS, IPsec or OpenVPN endpoint"
 msgstr ""
+"Le champ IP virtuel permets de sélectionner quelle IP (virtuelle) devrait "
+"être utilisée quand ce groupe s'applique à un DNS Dynamique local, une "
+"terminaison IPsec ou OpenVPN"
 
 # File: src/www/system_gateway_groups_edit.php, line: 327
 msgid ""
@@ -4697,10 +4903,16 @@ msgid ""
 "in a priority level are exhausted we will use the next available link(s) in "
 "the next priority level."
 msgstr ""
+"La priorité sélectionnée ici définie l'ordre dans lequel le transfert de "
+"secours ou l'équilibrage de charge des liens sera effectué. Des liens "
+"multiples possédant la même priorité se répartiront les connexions jusqu'à "
+"ce que tous les liens correspondant à cette priorité soient utilisés. Si "
+"tous les liens d'un même niveau de priorité sont utilisés le ou les liens du "
+"niveau de priorité suivant seront utilisés à leur tour."
 
 # File: src/www/system_gateway_groups_edit.php, line: 326
 msgid "Link Priority"
-msgstr ""
+msgstr "Priorité de Lien"
 
 # File: src/www/system_gateway_groups_edit.php, line: 305
 msgid "Interface Address"
@@ -4708,15 +4920,15 @@ msgstr "Adresse de l'Interface"
 
 # File: src/www/system_gateway_groups_edit.php, line: 226
 msgid "Tier %d"
-msgstr ""
+msgstr "Niveau %d"
 
 # File: src/www/system_gateway_groups_edit.php, line: 284
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 # File: src/www/system_gateway_groups_edit.php, line: 197
 msgid "Tier"
-msgstr ""
+msgstr "Niveau"
 
 # File: src/www/system_gateway_groups_edit.php, line: 249
 msgid "Gateway Priority"
@@ -4786,7 +4998,7 @@ msgstr "Voulez-vous vraiment supprimer ce groupe de passerelles ?"
 
 # File: src/www/system_gateway_groups.php, line: 131
 msgid "Gateway-group"
-msgstr ""
+msgstr "Groupe de passerelles"
 
 # File: src/www/system_gateway_groups.php, line: 135
 msgid "Add group"
@@ -4807,7 +5019,7 @@ msgstr "Export la CRL"
 
 # File: src/www/system_crlmanager.php, line: 719
 msgid "Unknown (imported)"
-msgstr ""
+msgstr "Inconnu (importé)"
 
 # File: src/www/system_crlmanager.php, line: 646
 msgid "Import CRL for %s"
@@ -4868,7 +5080,7 @@ msgstr "Défaut: 0"
 
 # File: src/www/system_crlmanager.php, line: 407
 msgid "Serial"
-msgstr ""
+msgstr "Série"
 
 # File: src/www/system_crlmanager.php, line: 403
 msgid "Default: 9999"
@@ -4912,7 +5124,7 @@ msgstr ""
 
 # File: src/www/system_crlmanager.php, line: 195
 msgid "Certificate Revocation List data"
-msgstr ""
+msgstr "Données de la Liste de Révocation des Certificats"
 
 # File: src/www/system_crlmanager.php, line: 145
 msgid "Cannot revoke certificates for an imported/external CRL."
@@ -4998,7 +5210,7 @@ msgstr "AC:"
 
 # File: src/www/system_certmanager.php, line: 1186
 msgid "external - signature pending"
-msgstr ""
+msgstr "externe - signature en attente"
 
 # File: src/www/system_certmanager.php, line: 1162
 # File: src/www/system_crlmanager.php, line: 604
@@ -5018,21 +5230,23 @@ msgstr "Insérez ici le certificat reçu de votre autorité de certification."
 
 # File: src/www/system_certmanager.php, line: 1122
 msgid "Final certificate data"
-msgstr ""
+msgstr "Données du certificat Final"
 
 # File: src/www/system_certmanager.php, line: 1118
 msgid ""
 "Copy the certificate signing data from here and forward it to your "
 "certificate authority for signing."
 msgstr ""
+"Copier les données du certificat de signature se trouvant ici et envoyez-les "
+"à votre autorité de certification pour signature."
 
 # File: src/www/system_certmanager.php, line: 1114
 msgid "Signing request data"
-msgstr ""
+msgstr "Données de demande de signature"
 
 # File: src/www/system_certmanager.php, line: 1110
 msgid "Complete Signing Request"
-msgstr ""
+msgstr "Demande de Signature Terminée"
 
 # File: src/www/system_certmanager.php, line: 1111
 msgid "*Revoked"
@@ -5052,7 +5266,7 @@ msgstr "Choisissez un certificat existant"
 
 # File: src/www/system_certmanager.php, line: 906
 msgid "External Signing Request"
-msgstr ""
+msgstr "Demande de Signature Externe"
 
 # File: src/www/system_certmanager.php, line: 923
 # File: src/www/system_certmanager.php, line: 943
@@ -5066,7 +5280,7 @@ msgstr "courriel"
 
 # File: src/www/system_certmanager.php, line: 843
 msgid "Alternative Names"
-msgstr ""
+msgstr "Noms Alternatifs"
 
 # File: src/www/system_certmanager.php, line: 792
 msgid ""
@@ -5098,6 +5312,8 @@ msgid ""
 "No internal Certificate Authorities have been defined. You must %sadd%s an "
 "internal CA before creating an internal certificate."
 msgstr ""
+"Aucune Autorité de Certification interne n'a été définie. Vous devez "
+"%sajouter%s un AC interne avant de créer un certificat interne. "
 
 # File: src/www/system_certmanager.php, line: 700
 msgid "Internal Certificate"
@@ -5157,7 +5373,7 @@ msgstr ""
 
 # File: src/www/system_certmanager.php, line: 246
 msgid "Existing Certificate Choice"
-msgstr ""
+msgstr "Choix du Certificat Existant"
 
 # File: src/www/system_certmanager.php, line: 216
 # File: src/www/system_certmanager.php, line: 721
@@ -5173,10 +5389,12 @@ msgstr "Données de la clé"
 # File: src/www/system_certmanager.php, line: 463
 msgid "The certificate modulus does not match the signing request modulus."
 msgstr ""
+"Le module du certificat ne correspond pas au module de la requête de la "
+"signature."
 
 # File: src/www/system_certmanager.php, line: 443
 msgid "Final Certificate data"
-msgstr ""
+msgstr "Données du Certificat Final"
 
 # File: src/www/system_certmanager.php, line: 54
 msgid "Choose an existing certificate"
@@ -5200,12 +5418,12 @@ msgstr "supprimer ac (autorité de certification)"
 
 # File: src/www/system_camanager.php, line: 737
 msgid "export CA private key"
-msgstr ""
+msgstr "exporter la clef privée de l'AC"
 
 # File: src/www/system_camanager.php, line: 732
 # File: src/www/system_camanager.php, line: 733
 msgid "export CA cert"
-msgstr ""
+msgstr "exporter le certificat de l'AC"
 
 # File: src/www/system_camanager.php, line: 729
 # File: src/www/system_camanager.php, line: 730
@@ -5235,7 +5453,7 @@ msgstr "auto-signé"
 # File: src/www/system_camanager.php, line: 658
 # File: src/www/system_certmanager.php, line: 1161
 msgid "Distinguished Name"
-msgstr ""
+msgstr "Nom Unique"
 
 # File: src/www/system_camanager.php, line: 656
 # File: src/www/system_certmanager.php, line: 1160
@@ -5252,7 +5470,7 @@ msgstr "admin@masociete.com"
 
 # File: src/www/system_camanager.php, line: 602
 msgid "My Company Inc"
-msgstr ""
+msgstr "Mon Entreprise S.A."
 
 # File: src/www/system_camanager.php, line: 596
 # File: src/www/system_certmanager.php, line: 812
@@ -5263,7 +5481,7 @@ msgstr "Organisation (O)"
 # File: src/www/system_camanager.php, line: 592
 # File: src/www/system_certmanager.php, line: 990
 msgid "Leipzig"
-msgstr ""
+msgstr "Leipzig"
 
 # File: src/www/system_camanager.php, line: 586
 # File: src/www/system_certmanager.php, line: 806
@@ -5274,7 +5492,7 @@ msgstr "Lieu (L)"
 # File: src/www/system_camanager.php, line: 582
 # File: src/www/system_certmanager.php, line: 980
 msgid "Sachsen"
-msgstr ""
+msgstr "Saxe"
 
 # File: src/www/system_camanager.php, line: 580
 # File: src/www/system_camanager.php, line: 590
@@ -5282,7 +5500,7 @@ msgstr ""
 # File: src/www/system_camanager.php, line: 610
 # File: src/www/system_camanager.php, line: 620
 msgid "ex:"
-msgstr ""
+msgstr "par ex."
 
 # File: src/www/system_camanager.php, line: 576
 # File: src/www/system_certmanager.php, line: 800
@@ -5302,7 +5520,7 @@ msgstr "Pays (C)"
 # File: src/www/system_certmanager.php, line: 790
 # File: src/www/system_certmanager.php, line: 954
 msgid "Distinguished name"
-msgstr ""
+msgstr "Nom Unique"
 
 # File: src/www/system_camanager.php, line: 545
 # File: src/www/system_certmanager.php, line: 779
@@ -5317,7 +5535,7 @@ msgstr ""
 # File: src/www/system_certmanager.php, line: 763
 # File: src/www/system_certmanager.php, line: 934
 msgid "Digest Algorithm"
-msgstr ""
+msgstr "Algorithme de Hachage"
 
 # File: src/www/system_camanager.php, line: 481
 msgid "Internal Certificate Authority"
@@ -5328,10 +5546,12 @@ msgid ""
 "Enter a decimal number to be used as the serial number for the next "
 "certificate to be created using this CA."
 msgstr ""
+"Entrer un nombre qui sera utilisé comme numéro de série pour le certificat "
+"devant être créé en utilisant cet AC."
 
 # File: src/www/system_camanager.php, line: 465
 msgid "Serial for next certificate"
-msgstr ""
+msgstr "Numéro de série du certificat"
 
 # File: src/www/system_camanager.php, line: 458
 msgid ""
@@ -5391,13 +5611,14 @@ msgstr "ajouter ou importer une AC (Autorité de Certification)"
 # File: src/www/system_certmanager.php, line: 441
 # File: src/www/system_certmanager.php, line: 464
 msgid "openssl library returns:"
-msgstr ""
+msgstr "La librairie openssl renvoie:"
 
 # File: src/www/system_camanager.php, line: 231
 # File: src/www/system_certmanager.php, line: 321
 # File: src/www/system_certmanager.php, line: 328
 msgid "Please select a valid Digest Algorithm."
 msgstr ""
+"Veuillez, s'il vous plaît, sélectionner un Algorithme de Hachage valide."
 
 # File: src/www/system_camanager.php, line: 228
 # File: src/www/system_certmanager.php, line: 318
@@ -5413,60 +5634,61 @@ msgstr "Le champ '%s' contient des caractères invalides."
 # File: src/www/system_camanager.php, line: 319
 # File: src/www/system_certmanager.php, line: 366
 msgid "The field 'Distinguished name Common Name' contains invalid characters."
-msgstr ""
+msgstr "Le champ 'Nom unique Nom Commun' contient des caractères invalides."
 
 # File: src/www/system_camanager.php, line: 315
 # File: src/www/system_certmanager.php, line: 361
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
 msgstr ""
+"Le champ 'Adresse Email du Nom Unique' contient des caractères invalides."
 
 # File: src/www/system_camanager.php, line: 200
 # File: src/www/system_camanager.php, line: 487
 msgid "Signing Certificate Authority"
-msgstr ""
+msgstr "Autorité de Signature du Certificat"
 
 # File: src/www/system_camanager.php, line: 190
 # File: src/www/system_camanager.php, line: 208
 # File: src/www/system_certmanager.php, line: 224
 # File: src/www/system_certmanager.php, line: 241
 msgid "Distinguished name Common Name"
-msgstr ""
+msgstr "Nom Unique Nom Commun"
 
 # File: src/www/system_camanager.php, line: 189
 # File: src/www/system_camanager.php, line: 207
 # File: src/www/system_certmanager.php, line: 223
 # File: src/www/system_certmanager.php, line: 240
 msgid "Distinguished name Email Address"
-msgstr ""
+msgstr "Adresse Email du Nom Unique"
 
 # File: src/www/system_camanager.php, line: 188
 # File: src/www/system_camanager.php, line: 206
 # File: src/www/system_certmanager.php, line: 222
 # File: src/www/system_certmanager.php, line: 239
 msgid "Distinguished name Organization"
-msgstr ""
+msgstr "Organisation du Nom Unique"
 
 # File: src/www/system_camanager.php, line: 187
 # File: src/www/system_camanager.php, line: 205
 # File: src/www/system_certmanager.php, line: 221
 # File: src/www/system_certmanager.php, line: 238
 msgid "Distinguished name City"
-msgstr ""
+msgstr "Ville du Nom Unique"
 
 # File: src/www/system_camanager.php, line: 186
 # File: src/www/system_camanager.php, line: 204
 # File: src/www/system_certmanager.php, line: 220
 # File: src/www/system_certmanager.php, line: 237
 msgid "Distinguished name State or Province"
-msgstr ""
+msgstr "Etat ou Province du Nom Unique"
 
 # File: src/www/system_camanager.php, line: 185
 # File: src/www/system_camanager.php, line: 203
 # File: src/www/system_certmanager.php, line: 219
 # File: src/www/system_certmanager.php, line: 236
 msgid "Distinguished name Country Code"
-msgstr ""
+msgstr "Code Pays du Nom Unique"
 
 # File: src/www/system_camanager.php, line: 184
 # File: src/www/system_camanager.php, line: 202
@@ -5527,52 +5749,63 @@ msgid ""
 "Time in seconds in which this server and the token may differ, default is 10 "
 "seconds. Set higher for a less secure easier match."
 msgstr ""
+"Temps en seconde entre lequel ce serveur et le jeton peuvent différer, 10 "
+"secondes par défaut. Définir une durée plus importante pour une "
+"correspondance plus facile et une sécurité plus faible."
 
 # File: /usr/core/src/www/system_authservers.php, line: 730
 msgid "Grace period"
-msgstr ""
+msgstr "Période de Grâce"
 
 # File: /usr/core/src/www/system_authservers.php, line: 725
 msgid ""
 "The time period in which the token will be valid, default is 30 seconds ("
 "google authenticator)"
 msgstr ""
+"La période temporelle pendant laquelle le jeton sera valide, 30 secondes par "
+"défaut (google authenticator)"
 
 # File: /usr/core/src/www/system_authservers.php, line: 721
 msgid "Time window"
-msgstr ""
+msgstr "Fenêtre Temporelle"
 
 # File: /usr/core/src/www/system_authservers.php, line: 716
 msgid "Token length to use"
-msgstr ""
+msgstr "Longueur du jeton à utiliser"
 
 # File: /usr/core/src/www/system_authservers.php, line: 709
 msgid "Token length"
-msgstr ""
+msgstr "Longueur du jeton"
 
 # File: /usr/core/src/www/system_authservers.php, line: 703
 msgid "Specify alternative password length for generating vouchers"
 msgstr ""
+"Indiquer une longueur alternative des mots de passe pour la génération des "
+"vouchers"
 
 # File: /usr/core/src/www/system_authservers.php, line: 699
 msgid "Password length"
-msgstr ""
+msgstr "Longueur des mots de passe"
 
 # File: /usr/core/src/www/system_authservers.php, line: 694
 msgid "Specify alternative username length for generating vouchers"
 msgstr ""
+"Indiquer une longueur alternative des noms d'utilisateur pour la génération "
+"des vouchers"
 
 # File: /usr/core/src/www/system_authservers.php, line: 690
 msgid "Username length"
-msgstr ""
+msgstr "Longueur des noms d'utilisateur"
 
 # File: /usr/core/src/www/system_authservers.php, line: 685
 msgid "Use simple (less secure) passwords, which are easier to read"
 msgstr ""
+"Utiliser des mots de passe simples (moins sécurisé), qui sont plus facile à "
+"lire"
 
 # File: /usr/core/src/www/system_authservers.php, line: 681
 msgid "Use simple passwords (less secure)"
-msgstr ""
+msgstr "Utiliser des mots de passe simple (moins sécurisé)"
 
 # File: src/www/system_authservers.php, line: 861
 msgid ""
@@ -5580,6 +5813,9 @@ msgid ""
 "increase this timeout to account for how long it will take the user to "
 "receive and enter a token."
 msgstr ""
+"NOTE: Si vous utilisez un système d’authentification interactif à double "
+"facteurs, augmentez la valeur du délai d'expiration afin d'estimer la durée "
+"que cela prendra à un utilisateur de recevoir puis d'entrer un jeton.  "
 
 # File: src/www/system_authservers.php, line: 860
 msgid "If left blank, the default value is 5 seconds."
@@ -5595,7 +5831,7 @@ msgstr ""
 
 # File: src/www/system_authservers.php, line: 856
 msgid "Authentication Timeout"
-msgstr "Délai d'inactivité de l'authentification"
+msgstr "Délai d'expiration de l'authentification"
 
 # File: src/www/system_authservers.php, line: 198
 # File: src/www/system_authservers.php, line: 850
@@ -5608,7 +5844,7 @@ msgstr "Authentification et Comptabilisation"
 
 # File: src/www/system_authservers.php, line: 825
 msgid "Services offered"
-msgstr ""
+msgstr "Services proposés"
 
 # File: src/www/system_authservers.php, line: 752
 msgid "User naming attribute"
@@ -5632,7 +5868,7 @@ msgstr "Modèle Initial"
 
 # File: src/www/system_authservers.php, line: 676
 msgid "Extended Query"
-msgstr ""
+msgstr "Requête Étendue"
 
 # File: src/www/system_authservers.php, line: 667
 msgid ""
@@ -5658,23 +5894,25 @@ msgstr "Base DN:"
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
-msgstr ""
+msgstr "Sous-arborescence Complète"
 
 # File: src/www/system_authservers.php, line: 536
 msgid "One Level"
-msgstr ""
+msgstr "Un Niveau"
 
 # File: src/www/system_authservers.php, line: 623
 msgid "Level:"
-msgstr ""
+msgstr "Niveau:"
 
 # File: src/www/system_authservers.php, line: 619
 msgid "Search scope"
-msgstr ""
+msgstr "Étendue de la recherche"
 
 # File: src/www/system_authservers.php, line: 525
 msgid "Leave empty to use anonymous binds to resolve distinguished names"
 msgstr ""
+"Laisser vide pour permettre l'utilisation de liaisons anonymes afin de "
+"résoudre les noms uniques"
 
 # File: src/www/system_authservers.php, line: 714
 msgid "User DN:"
@@ -5682,7 +5920,7 @@ msgstr "DN de l'utilisateur :"
 
 # File: src/www/system_authservers.php, line: 695
 msgid "Bind credentials"
-msgstr ""
+msgstr "Identités de liaison"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php, line: 756
@@ -5715,11 +5953,11 @@ msgstr "Aucune Autorité de Certification défini."
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 1031
 msgid "Create one under"
-msgstr ""
+msgstr "Créer un sous"
 
 # File: src/www/system_authservers.php, line: 590
 msgid "It must match with the CA in the AD otherwise problems will arise."
-msgstr ""
+msgstr "Il doit correspondre à l'AC de l'AD sinon des problèmes vont survenir."
 
 # File: src/www/system_authservers.php, line: 589
 msgid "This option is used if 'SSL Encrypted' option is choosen."
@@ -5744,6 +5982,8 @@ msgid ""
 "NOTE: When using SSL, this hostname MUST match the Common Name (CN) of the "
 "LDAP server's SSL Certificate."
 msgstr ""
+"NOTE: Quand SSL est utilisé, le nom d'hôte DOIT correspondre au Nom Commun "
+"(CN) du certificat SSL du serveur LDAP."
 
 # File: src/www/system_authservers.php, line: 539
 # File: src/www/system_authservers.php, line: 813
@@ -5754,7 +5994,7 @@ msgstr "Nom d'hôte ou adresse IP"
 # File: /usr/core/src/www/system_usermanager.php, line: 492
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 89
 msgid "Popup blocker detected. Action aborted."
-msgstr ""
+msgstr "Bloqueur de popup détecté. Action annulée."
 
 # File: src/www/system_authservers.php, line: 414
 msgid "Please fill the required values."
@@ -5774,11 +6014,11 @@ msgstr "supprimé"
 
 # File: /usr/core/src/www/system_authservers.php, line: 195
 msgid "A server name must be provided"
-msgstr ""
+msgstr "Un nom de serveur doit être fourni"
 
 # File: src/www/system_authservers.php, line: 218
 msgid "RADIUS Timeout value must be numeric and positive."
-msgstr ""
+msgstr "La valeur du délai d'expiration RADIUS doit être numérique et positive."
 
 # File: src/www/system_authservers.php, line: 214
 msgid "An authentication server with the same name already exists."
@@ -5790,11 +6030,11 @@ msgstr "Le nom d'hôte contient des caractères invalides."
 
 # File: /usr/core/src/www/system_authservers.php, line: 174
 msgid "password length must be a number or empty for default."
-msgstr ""
+msgstr "la longueur du mot de passe doit être un chiffre ou vide à défaut."
 
 # File: /usr/core/src/www/system_authservers.php, line: 171
 msgid "username length must be a number or empty for default."
-msgstr ""
+msgstr "la longueur du nom d'utilisateur doit être un chiffre ou vide à défaut."
 
 # File: src/www/system_authservers.php, line: 203
 # File: src/www/system_authservers.php, line: 819
@@ -5808,23 +6048,23 @@ msgstr "Valeur du port d'authentification"
 
 # File: src/www/system_authservers.php, line: 177
 msgid "Bind Password"
-msgstr ""
+msgstr "Mot de Passe de Liaison"
 
 # File: src/www/system_authservers.php, line: 176
 msgid "Bind user DN"
-msgstr ""
+msgstr "Utilisateur DN de Liaison"
 
 # File: src/www/system_authservers.php, line: 171
 msgid "Authentication container"
-msgstr ""
+msgstr "Conteneur d'authentification"
 
 # File: src/www/system_authservers.php, line: 168
 msgid "User naming Attribute"
-msgstr ""
+msgstr "Attribut de nommage de l'Utilisateur"
 
 # File: src/www/system_authservers.php, line: 167
 msgid "Search level"
-msgstr ""
+msgstr "Niveau de recherche"
 
 # File: src/www/system_authservers.php, line: 166
 # File: src/www/system_authservers.php, line: 600
@@ -5834,12 +6074,12 @@ msgstr "Version du protocole"
 # File: src/www/system_authservers.php, line: 165
 # File: src/www/system_authservers.php, line: 552
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 # File: src/www/system_authservers.php, line: 164
 # File: src/www/system_authservers.php, line: 546
 msgid "Port value"
-msgstr ""
+msgstr "Numéro de port"
 
 # File: src/www/system_authservers.php, line: 161
 # File: src/www/system_authservers.php, line: 184
@@ -5865,7 +6105,7 @@ msgstr "Nom descriptif"
 
 # File: /usr/core/src/www/system_authservers.php, line: 38
 msgid "Local + Timebased One Time Password"
-msgstr ""
+msgstr "Local + Mot de Passe à Usage Unique Temporel (TOTP)"
 
 # File: /usr/core/src/www/system_authservers.php, line: 36
 msgid "Radius"
@@ -5877,33 +6117,35 @@ msgstr "LDAP"
 
 # File: src/www/system_advanced_sysctl.php, line: 216
 msgid "Edit system tunable"
-msgstr ""
+msgstr "Modification des paramètres système ajustables"
 
 # File: src/www/system_advanced_sysctl.php, line: 189
 msgid "Delete Tunable"
-msgstr ""
+msgstr "Effacer Paramètre Ajustable"
 
 # File: src/www/system_advanced_sysctl.php, line: 183
 msgid "Edit Tunable"
-msgstr ""
+msgstr "Modification Paramètre Ajustable"
 
 # File: src/www/system_advanced_sysctl.php, line: 153
 msgid "Tunable Name"
-msgstr ""
+msgstr "Nom du Paramètre Ajustable"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 150
 msgid ""
 "The firewall tunables have changed. You must apply the configuration to take "
 "affect."
 msgstr ""
+"Les paramètres ajustables du firewall ont changé. Vous devez appliquer la "
+"configuration pour que cette dernière prenne effet."
 
 # File: src/www/system_advanced_sysctl.php, line: 221
 msgid "Tunable"
-msgstr ""
+msgstr "Paramètre Ajustable"
 
 # File: src/www/system_advanced_sysctl.php, line: 111
 msgid "Add a new tunable"
-msgstr ""
+msgstr "Ajouter un nouveau paramètre ajustable"
 
 # File: src/www/system_advanced_notifications.php, line: 247
 msgid ""
@@ -5939,11 +6181,12 @@ msgstr ""
 
 # File: src/www/system_advanced_notifications.php, line: 276
 msgid "E-Mail auth password"
-msgstr ""
+msgstr "Mot de passe d'authentification E-Mail"
 
 # File: src/www/system_advanced_notifications.php, line: 306
 msgid "Enter the e-mail address username for SMTP authentication."
 msgstr ""
+"Entrer le nom d'utilisateur de l'adresse e-mail pour l'authentification SMTP."
 
 # File: src/www/system_camanager.php, line: 454
 msgid "(optional)"
@@ -5951,7 +6194,7 @@ msgstr "(facultatif)"
 
 # File: src/www/system_advanced_notifications.php, line: 266
 msgid "E-Mail auth username"
-msgstr ""
+msgstr "Nom d'utilisateur d'authentification E-Mail"
 
 # File: src/www/system_advanced_notifications.php, line: 299
 msgid ""
@@ -6022,7 +6265,7 @@ msgstr "Désactiver les Notifications SMTP"
 
 # File: src/www/system_advanced_notifications.php, line: 252
 msgid "SMTP E-Mail"
-msgstr ""
+msgstr "Messagerie SMTP"
 
 # File: src/www/system_advanced_notifications.php, line: 238
 msgid "Enter the password of the remote growl notification device."
@@ -6031,23 +6274,26 @@ msgstr "Indiquez le mot de passe du dispositif de notification growl distant."
 # File: src/www/system_advanced_notifications.php, line: 231
 msgid ""
 "This is the IP address that you would like to send growl notifications to."
-msgstr ""
+msgstr "Ceci est l'adresse IP à laquelle vous enverrez les notifications growl."
 
 # File: src/www/system_advanced_notifications.php, line: 224
 msgid "Enter a name for the Growl notifications (default: %s growl alert)."
 msgstr ""
+"Entrer un nom pour les notifications Growl (par défaut: %s alerte growl)."
 
 # File: src/www/system_advanced_notifications.php, line: 221
 msgid "Notification Name"
-msgstr ""
+msgstr "Nom des Notifications"
 
 # File: src/www/system_advanced_notifications.php, line: 217
 msgid "Enter the name to register with the Growl server (default: PHP-Growl)."
 msgstr ""
+"Entrer le nom pour l'inscription auprès du serveur Growl (par défaut: PHP-"
+"Growl)."
 
 # File: src/www/system_advanced_notifications.php, line: 214
 msgid "Registration Name"
-msgstr ""
+msgstr "Nom d'Inscription"
 
 # File: src/www/system_advanced_notifications.php, line: 210
 msgid ""
@@ -6074,11 +6320,13 @@ msgstr "Tester SMTP"
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 113
 msgid "This is a test message from %s. It is safe to ignore this message."
 msgstr ""
+"Ceci est un message test envoyé depuis %s. Vous pouvez ignorer ce message "
+"sans crainte."
 
 # File: src/www/system_advanced_notifications.php, line: 151
 # File: src/www/system_advanced_notifications.php, line: 246
 msgid "Test Growl"
-msgstr ""
+msgstr "Tester Growl"
 
 # File: src/www/system_advanced_network.php, line: 251
 # File: src/www/system_advanced_network.php, line: 264
@@ -6104,7 +6352,7 @@ msgstr "Supprimer les messages ARP"
 
 # File: src/www/system_advanced_network.php, line: 281
 msgid "ARP Handling"
-msgstr ""
+msgstr "Prise en charge ARP"
 
 # File: src/www/system_advanced_network.php, line: 280
 msgid ""
@@ -6112,22 +6360,25 @@ msgid ""
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
 msgstr ""
+"Cocher cette option désactivera le filtrage matériel VLAN. Cette fonction de "
+"délestage ne marche pas avec certains pilotes matériels et peut avoir un "
+"impact sur les performances de certaines cartes réseaux."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 152
 msgid "Leave default"
-msgstr ""
+msgstr "Laisser par défaut"
 
 # File: src/www/system_advanced_network.php, line: 279
 msgid "Disable VLAN Hardware Filtering"
-msgstr ""
+msgstr "Désactiver le Filtrage VLAN Matériel"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 146
 msgid "Enable VLAN Hardware Filtering"
-msgstr ""
+msgstr "Activer le Filtrage VLAN Matériel"
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid "VLAN Hardware Filtering"
-msgstr ""
+msgstr "Filtrage VLAN Matériel"
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid ""
@@ -6135,14 +6386,18 @@ msgid ""
 "This offloading is broken in some hardware drivers, and may impact "
 "performance with some specific NICs."
 msgstr ""
+"Cocher cette option déactivera la fonction large receive offloading matériel "
+"(LRO). Cette fonction de délestage ne marche pas avec certains pilotes "
+"matériels et peut avoir un impact sur les performances de certaines cartes "
+"réseaux."
 
 # File: src/www/system_advanced_network.php, line: 273
 msgid "Disable hardware large receive offload"
-msgstr ""
+msgstr "Désactiver large receive offload matériel"
 
 # File: src/www/system_advanced_network.php, line: 265
 msgid "Hardware LRO"
-msgstr ""
+msgstr "LRO Matériel"
 
 # File: src/www/system_advanced_network.php, line: 261
 msgid ""
@@ -6150,14 +6405,18 @@ msgid ""
 "TSO4, TSO6). This offloading is broken in some hardware drivers, and may "
 "impact performance with some specific NICs."
 msgstr ""
+"Cocher cette option déactivera la fonction TCP segmentation offloading "
+"matériel (TSO, TSO4, TSO6). Cette fonction de délestage ne marche pas avec "
+"certains pilotes matériels et peut avoir un impact sur les performances de "
+"certaines cartes réseaux."
 
 # File: src/www/system_advanced_network.php, line: 260
 msgid "Disable hardware TCP segmentation offload"
-msgstr ""
+msgstr "Désactiver TCP segmentation offload matériel"
 
 # File: src/www/system_advanced_network.php, line: 252
 msgid "Hardware TSO"
-msgstr ""
+msgstr "TSO Matériel"
 
 # File: src/www/system_advanced_network.php, line: 248
 msgid ""
@@ -6166,10 +6425,13 @@ msgid ""
 "Rarely, drivers may have problems with checksum offloading and some specific "
 "NICs."
 msgstr ""
+"Cocher cette option déactivera la fonction checksum offloading matériel. La "
+"fonction checksum offloading ne marche pas avec certains pilotes matériels "
+"et peut avoir un impact sur les performances de certaines cartes réseaux."
 
 # File: src/www/system_advanced_network.php, line: 247
 msgid "Disable hardware checksum offload"
-msgstr ""
+msgstr "Désactiver checksum offload matériel"
 
 # File: src/www/system_advanced_network.php, line: 239
 msgid "Hardware CRC"
@@ -6180,14 +6442,17 @@ msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than use the hard disk."
 msgstr ""
+"Utiliser cette fonction si vous souhaiter utiliser le point de montage /tmp "
+"comme disque RAM (memory file system disk) plutôt que d'utiliser le disque "
+"dur."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr ""
+msgstr "Utiliser /tmp comme système de fichiers mémoire"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
-msgstr ""
+msgstr "Disque RAM /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid ""
@@ -6195,6 +6460,10 @@ msgid ""
 "disks) rather than use the hard disk. Setting this will cause the data /var "
 "to be lost on reboot, including log data."
 msgstr ""
+"Utiliser cette fonction si vous souhaiter utiliser les points de montage /"
+"tmp et /var comme disque RAM (memory file system disk) plutôt que d'utiliser "
+"le disque dur. Utiliser cette fonction provoquera la perte des données, "
+"incluant les logs, stockées dans /var lors du redémarrage."
 
 # File: src/www/system_advanced_misc.php, line: 547
 msgid "Use memory file system for /tmp and /var"
@@ -6202,7 +6471,7 @@ msgstr "Utilisez le système de fichiers mémoire pour / tmp et / var"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 400
 msgid "/tmp and /var RAM disks"
-msgstr ""
+msgstr "Disques RAM /tmp et /var"
 
 # File: src/www/system_advanced_misc.php, line: 539
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
@@ -6210,7 +6479,7 @@ msgstr "Paramètres Disque RAM (Redémarrer pour appliquer les modifications)"
 
 # File: src/www/system_advanced_misc.php, line: 401
 msgid "On Battery Power Mode"
-msgstr ""
+msgstr "Mode d'Alimentation Sur Batterie"
 
 # File: src/www/system_advanced_misc.php, line: 398
 # File: src/www/system_advanced_misc.php, line: 418
@@ -6225,16 +6494,16 @@ msgstr "Minimum"
 # File: src/www/system_advanced_misc.php, line: 390
 # File: src/www/system_advanced_misc.php, line: 410
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptive"
 
 # File: src/www/system_advanced_misc.php, line: 386
 # File: src/www/system_advanced_misc.php, line: 406
 msgid "Hiadaptive"
-msgstr ""
+msgstr "Hiadaptive"
 
 # File: src/www/system_advanced_misc.php, line: 381
 msgid "On AC Power Mode"
-msgstr ""
+msgstr "Mode d'Alimentation sur Secteur"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 343
 msgid ""
@@ -6252,6 +6521,22 @@ msgid ""
 "important than power consumption. It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
+"L'utilitaire powerd surveille l'état du système et définit les différentes "
+"options de contrôle de l'alimentation. Il offre quatre modes (maximum, "
+"minimum, adaptive et hiadaptive) qui peuvent être utilisés séparément lors "
+"de l'utilisation sur secteur ou sur batteries. Les modes maximum, minimum, "
+"adaptive et hiadaptive peuvent être abrégés comme suit max, min, adp, hadp. "
+"Le mode Maximum utilisera les valeurs de performance maximales. Le mode "
+"Minimum utilisera les valeurs de performance minimales de sorte à réduire la "
+"consommation énergétique. Le mode Adaptive essaiera de trouver un équilibre "
+"en abaissant les performances quant le système lui paraîtra peu sollicité et "
+"en les augmentant quand le système lui paraîtra très sollicité. Ce mode "
+"offre un bon compromis en permettant un gain de consommation énergétique "
+"accru au prix d'une légère perte de performance. Le mode Hiadaptive est "
+"semblable au mode Adaptive mais oriente le paramétrage du système de sorte à "
+"toujours privilégier les performances plutôt que les économies d'énergie. Il "
+"est ainsi capable d’augmenter la fréquence CPU plus rapidement, de la faire "
+"décroître plus doucement et de conserver une charge deux fois plus faible."
 
 # File: src/www/system_advanced_misc.php, line: 379
 msgid "Use PowerD"
@@ -6266,16 +6551,22 @@ msgid ""
 "This will periodically backup the NetFlow data aggregation so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"Cette option permet de sauvegarder périodiquement les données NetFlow "
+"agrégées de sorte à pouvoir les restaurer automatiquement lors du prochain "
+"démarrage."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 312
 msgid "Periodic NetFlow Backup"
-msgstr ""
+msgstr "Sauvegarde NetFlow Périodique"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 307
 msgid ""
 "This will periodically backup the DHCP leases data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Cette option permet de sauvegarder périodiquement les données relatives aux "
+"baux DHCP de sorte à pouvoir les restaurer automatiquement lors du prochain "
+"démarrage."
 
 # File: src/www/system_advanced_misc.php, line: 607
 msgid "Periodic DHCP Leases Backup"
@@ -6286,6 +6577,8 @@ msgid ""
 "This will periodically backup the RRD data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Cette option permet de sauvegarder périodiquement les données RRD de sorte à "
+"pouvoir les restaurer automatiquement lors du prochain démarrage."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
@@ -6305,7 +6598,7 @@ msgstr "Sauvegarde périodique RRD"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 272
 msgid "Periodic Backups"
-msgstr ""
+msgstr "Sauvegardes Périodiques"
 
 # File: src/www/system_advanced_misc.php, line: 486
 msgid ""
@@ -6313,6 +6606,9 @@ msgid ""
 "option will have no effect. To unload the selected module, set this option "
 "to 'none' and then reboot."
 msgstr ""
+"Si votre système ne comporte pas de puce dédiée à la gestion du contrôle de "
+"température, cette option sera sans effet. Pour décharger le module "
+"sélectionné, réglez cette option sur 'aucun' puis redémarrez."
 
 # File: src/www/system_advanced_misc.php, line: 482
 msgid ""
@@ -6321,6 +6617,11 @@ msgid ""
 "attempt to read the temperature from an ACPI-compliant motherboard sensor "
 "instead, if one is present."
 msgstr ""
+"Si votre système est équipé d'un CPU approprié, sélectionner une sonde "
+"thermique chargera le pilote adéquat afin de pouvoir lire les données de "
+"température. Définir ce paramètre sur 'Aucun' forcera la lecture de la "
+"température depuis la sonde d'une carte mère compatible ACPI si cette "
+"dernière est présente. "
 
 # File: src/www/system_advanced_misc.php, line: 472
 msgid "None/ACPI"
@@ -6340,10 +6641,20 @@ msgid ""
 "acceleration methods e.g. AES-NI. The default is to disable this device as "
 "it is likely not needed on modern systems."
 msgstr ""
+"Les anciens accélérateurs comme 'safe', hifn' ou 'ubsec' ne peuvent "
+"uniquement fournir une accélération en espace mémoire virtuelle utilisateur "
+"à des applicatifs tels que OpenVPN au moyen de l'interface /dev/crypto qui "
+"peut être utilisée par le framework du moteur OpenSSL. Veuillez toutefois "
+"noter que LibreSSL ne supporte pas ce type de périphérique et ne peut "
+"seulement s'appuyer que sur les méthodes d'accélération intégrées telles que "
+"AES-NI. Le paramètre par défaut désactive ce périphérique car son "
+"utilisation n'est par réellement nécessaire avec les systèmes modernes."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 235
 msgid "Enable old userland device for cryptographic acceleration"
 msgstr ""
+"Activer les anciens périphériques dédiés à l'accélération cryptographique et "
+"tournant en espace mémoire virtuelle utilisateur"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 232
 msgid "Use /dev/crypto"
@@ -6369,6 +6680,15 @@ msgid ""
 "128. OpenVPN should be set for AES-128-CBC and have cryptodev enabled for "
 "hardware acceleration."
 msgstr ""
+"Un module d'accélération cryptographique utilisera un composant matériel "
+"dédié afin d'accélérer le traitement de certaines fonctions cryptographiques "
+"sur les systèmes munis de tels puces. N'activez pas cette option si vous "
+"utiliser une carte d'accélération cryptographique Hifn car cette option "
+"prendra le pas sur votre carte et cette dernière ne sera donc pas utilisée. "
+"L'accélération devrait être automatique avec IPsec lorsqu'un algorithme de "
+"chiffrement compatible avec votre puce tel que AES-128, est utilisé. OpenVPN "
+"devrait être utilisé avec l'algorithme AES-128-CBC en conjonction avec le "
+"module cryptodev actif afin de fournir une accélération matérielle."
 
 # File: src/www/system_advanced_misc.php, line: 417
 # File: src/www/system_advanced_misc.php, line: 446
@@ -6389,7 +6709,7 @@ msgstr "Veuillez sélectionner un Accélérateur de Chiffrement valide."
 
 # File: src/www/system_advanced_misc.php, line: 69
 msgid "Intel Core* CPU on-die thermal sensor"
-msgstr ""
+msgstr "Sonde thermique on-die Intel Core* CPU"
 
 # File: src/www/system_advanced_misc.php, line: 70
 msgid "AMD K8, K10 and K11 CPU on-die thermal sensor"
@@ -6397,27 +6717,29 @@ msgstr "Sonde thermique intégrée aux die des CPU AMD K8, K10 et K11"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 49
 msgid "Broadcom and BlueSteel uBsec 5x0x crypto accelerator"
-msgstr ""
+msgstr "Accélérateurs cryptographiques Broadcom et BlueSteel uBsec 5x0x"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 48
 msgid "SafeNet Crypto Accelerator"
-msgstr ""
+msgstr "Accélérateurs cryptographiques SafeNet"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 47
 msgid "Crypto and RNG in VIA C3, C7 and Eden Processors"
 msgstr ""
+"Accélérateur cryptographique et générateur de nombres aléatoire des "
+"processeurs VIA de type C3, C7 et Eden"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 46
 msgid "Hifn 7751/7951/7811/7955/7956 Crypto Accelerator"
-msgstr ""
+msgstr "Accélérateur cryptographique Hifn 7751/7951/7811/7955/7956"
 
 # File: src/www/system_advanced_misc.php, line: 66
 msgid "AMD Geode LX Security Block"
-msgstr ""
+msgstr "Bloc de Sécurité AMD Geode LX"
 
 # File: src/www/system_advanced_misc.php, line: 67
 msgid "AES-NI CPU-based Acceleration"
-msgstr ""
+msgstr "Accélération AES-NI basée sur le CPU"
 
 # File: src/www/system_advanced_firewall.php, line: 478
 msgid ""
@@ -6440,6 +6762,7 @@ msgstr "Vérifier les certificats des alias d'URLs."
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 568
 msgid "Note: Leave this blank for the default (300s)."
 msgstr ""
+"Note: Laissez ce paramètre vide pour utiliser la valeur par défaut (300s)."
 
 # File: src/www/system_advanced_firewall.php, line: 465
 msgid ""
@@ -6460,14 +6783,20 @@ msgid ""
 "When using bridging, you must disable this behavior if the WAN gateway IP is "
 "different from the gateway IP of the hosts behind the bridged interface."
 msgstr ""
+"Dans le cadre d'une configuration Multi-WAN vous souhaitez généralement vous "
+"assurer que le trafic sorte par la même interface que celle par laquelle ce "
+"dernier est entré, c'est pourquoi l'option reply-to est activée par défaut. "
+"Quand le bridging est utilisé, vous devez impérativement désactiver cette "
+"option si l'IP de la passerelle WAN est différente de l'IP de la passerelle "
+"utilisée par les hôtes derrière l'interface bridgée."
 
 # File: src/www/system_advanced_firewall.php, line: 441
 msgid "Disable reply-to on WAN rules"
-msgstr ""
+msgstr "Désactiver l'option reply-to sur les règles WAN"
 
 # File: src/www/system_advanced_firewall.php, line: 444
 msgid "Disable reply-to"
-msgstr ""
+msgstr "Désactiver reply-to"
 
 # File: src/www/system_advanced_firewall.php, line: 431
 msgid "Note: This disables automatically added rules for IPsec, PPTP."
@@ -6490,6 +6819,11 @@ msgid ""
 "will not be checked by the firewall. This may be desirable in some "
 "situations where multiple subnets are connected to the same interface."
 msgstr ""
+"Cette option n'est valide que si vous avec défini une ou plusieurs route "
+"statique. Si cette option est utilisée, le trafic entrant et sortant par la "
+"même interface ne sera pas contrôlé par le firewall. Ceci peut être "
+"souhaitable dans certaines situations comme lorsque plusieurs sous-réseaux "
+"sont connectés à la même interface."
 
 # File: src/www/system_advanced_firewall.php, line: 415
 msgid "Bypass firewall rules for traffic on the same interface"
@@ -6499,7 +6833,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 410
 msgid "Static route filtering"
-msgstr ""
+msgstr "Filtrage de route statique"
 
 # File: src/www/system_advanced_firewall.php, line: 402
 msgid "On your system the default size is:"
@@ -6507,13 +6841,15 @@ msgstr "Sur votre système, la taille par défaut est:"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 519
 msgid "Note: Leave this blank for the default."
-msgstr ""
+msgstr "Note: Laissez vide pour utiliser la valeur par défaut."
 
 # File: src/www/system_advanced_firewall.php, line: 396
 msgid ""
 "Maximum number of table entries for systems such as aliases, sshlockout, "
 "snort, etc, combined."
 msgstr ""
+"Nombre maximum d'entrées de table pour les systèmes tels que les alias, "
+"sshlockout, snort, etc, tous confondus."
 
 # File: src/www/system_advanced_firewall.php, line: 392
 msgid "Firewall Maximum Table Entries"
@@ -6523,18 +6859,21 @@ msgstr "Nombre d'entrées maximum dans la table du pare-feu"
 msgid ""
 "Note: Leave this blank for the default. On your system the default size is:"
 msgstr ""
+"Note: Laissez vide pour utiliser la valeur par défaut. Sur votre système la "
+"taille par défaut est de:"
 
 # File: src/www/system_advanced_firewall.php, line: 386
 msgid "Maximum number of connections to hold in the firewall state table."
 msgstr ""
+"Nombre de connections maximum à retenir dans la table d'état du firewall."
 
 # File: src/www/system_advanced_firewall.php, line: 382
 msgid "Firewall Maximum States"
-msgstr ""
+msgstr "Etats Maximums du Firewall"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
-msgstr ""
+msgstr "Note: Laissez vide pour utiliser la valeur par défaut(0)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 495
 msgid ""
@@ -6543,6 +6882,11 @@ msgid ""
 "define the scale factor, it should not actually be reached (set a lower "
 "state limit, see below)."
 msgstr ""
+"Quand ce nombre d'entrées en table d'état est atteint, toutes celles ayant "
+"atteint le de délai d'expiration passent à zéro, ce qui à pour effet "
+"immédiat de les purger de la table d'état. Cette valeur est utilisée pour "
+"établir le facteur de mise à l'échelle et ne devrait pas réellement être "
+"atteinte (définir une limite d'état inférieur, voir ci-dessous)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
@@ -6550,12 +6894,20 @@ msgid ""
 "begins. All timeout values are scaled linearly with factor (adaptive.end - "
 "number of states) / (adaptive.end - adaptive.start)."
 msgstr ""
+"Quand le nombre d'entrées en table d'état dépasse cette valeur, la mise à "
+"l'échelle adaptative entre en action. Toutes les valeurs ayant atteint le "
+"délai d'expiration sont alors mises à l'échelle linéairement au moyen d'un "
+"facteur (début.adaptatif - nombre d'états) / (fin.adaptatif - "
+"début.adaptatif)."
 
 # File: src/www/system_advanced_firewall.php, line: 369
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
 "entries grows."
 msgstr ""
+"Les délais d'expiration pour les états peuvent être mis à l'échelle de "
+"manière adaptatif au fur et à mesure que le nombre d'entrées en table d'état "
+"s'accroît."
 
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
@@ -6569,7 +6921,7 @@ msgstr "début"
 
 # File: src/www/system_advanced_firewall.php, line: 367
 msgid "Firewall Adaptive Timeouts"
-msgstr ""
+msgstr "Délais d'Expiration Adaptatif du Firewall"
 
 # File: src/www/system_advanced_firewall.php, line: 360
 msgid ""
@@ -6586,6 +6938,8 @@ msgstr "Attention: Cela coupera également le NAT!"
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 459
 msgid "Warning: This will convert into a routing-only platform!"
 msgstr ""
+"Attention: ceci va transformer la plateforme en simple périphérique de "
+"routage!"
 
 # File: src/www/system_advanced_firewall.php, line: 346
 msgid "Disable all packet filtering."
@@ -6600,26 +6954,34 @@ msgid ""
 "Tries to avoid dropping any legitimate idle connections at the expense of "
 "increased memory usage and CPU utilization."
 msgstr ""
+"Va essayer d'éviter le rejet de toutes connexions inactives légitimes au "
+"prix d'une consommation mémoire et CPU accrue."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 442
 msgid ""
 "Expires idle connections quicker. More efficient use of CPU and memory but "
 "can drop legitimate idle connections"
 msgstr ""
+"Va expirer les connexions inactives plus rapidement. Utilisation plus "
+"efficace de la mémoire et du CPU mais peut conduire au rejet de connexions "
+"inactives légitimes"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 438
 msgid ""
 "Used for high latency links, such as satellite links. Expires idle "
 "connections later than default"
 msgstr ""
+"Utilisé pour les liaisons à forte latence, comme les liaisons par satellite. "
+"Expire les connexions inactives plus tardivement que par défaut"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 434
 msgid "As the name says, it is the normal optimization algorithm"
 msgstr ""
+"Comme son nom l'indique, il s'agit de l'algorithme d'optimisation standard"
 
 # File: src/www/system_advanced_firewall.php, line: 337
 msgid "Select the type of state table optimization to use"
-msgstr ""
+msgstr "Sélectionnez le type d'optimisation à utiliser pour la table d'état"
 
 # File: src/www/system_advanced_firewall.php, line: 327
 msgid "conservative"
@@ -6647,6 +7009,9 @@ msgid ""
 "expiration time has come. This option overrides that behavior by not "
 "clearing states for existing connections."
 msgstr ""
+"Par défaut les planifications suppriment les états des connexions existantes "
+"lorsque la date d'expiration est atteinte. Cette option contourne ce "
+"comportement en ne supprimant pas les états des connexions existantes."
 
 # File: src/www/system_advanced_misc.php, line: 503
 msgid "Schedule States"
@@ -6659,10 +7024,15 @@ msgid ""
 "expires. Setting this timeout higher will cause the source/destination "
 "relationship to persist for longer periods of time."
 msgstr ""
+"Régler le délai d'expiration du suivi de source pour les connexions "
+"collantes en secondes. Par défaut, ce délai est de 0, ce qui signifie que le "
+"suivi de source est supprimé aussitôt que l'état expire. Paramétrer cette "
+"valeur avec un nombre plus élevé permettra d’accroître la durée de la "
+"relation source/destination."
 
 # File: src/www/system_advanced_misc.php, line: 335
 msgid "Source tracking timeout"
-msgstr ""
+msgstr "Délai d'expiration du suivi de source"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 380
 msgid ""
@@ -6673,6 +7043,12 @@ msgid ""
 "Further connections from that host will be redirected to the next gateway in "
 "the round-robin."
 msgstr ""
+"Les connexions successives seront redirigées vers les serveurs en suivant "
+"une méthode round-robin de sorte que les connexions en provenance de la même "
+"source seront envoyés vers la même passerelle. Cette 'connexion collante' "
+"existera aussi longtemps que des états faisant référence à cette connexion "
+"existeront. Les connexions supplémentaires en provenance de cet hôte seront "
+"redirigés vers la passerelle suivante en suivant la méthode round-robin."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 372
 msgid "Multi-WAN"
@@ -6684,6 +7060,11 @@ msgid ""
 "down, rule is created and traffic is sent to default gateway.This option "
 "overrides that behavior and the rule is not created when gateway is down"
 msgstr ""
+"Par défaut, lorsqu'une règle a été définie avec une passerelle particulière, "
+"et que cette passerelle est inaccessible, la règle est créée et le trafic "
+"est envoyé à la passerelle par défaut. Cette option permet de contourner ce "
+"comportement et aucune règle n'est créée quand la passerelle est "
+"inaccessible."
 
 # File: src/www/system_advanced_misc.php, line: 527
 msgid "Skip rules when gateway is down"
@@ -6691,31 +7072,36 @@ msgstr "Outrepasser les règles lorsque la passerelle est indisponible"
 
 # File: src/www/system_advanced_misc.php, line: 495
 msgid "Skip rules"
-msgstr ""
+msgstr "Sauter les règles"
 
 # File: src/www/system_advanced_misc.php, line: 523
 msgid ""
 "The monitoring process will flush states for a gateway that goes down if "
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
+"Le processus de surveillance purgera les états pour une passerelle si cette "
+"dernière devient inaccessible. Cocher cette option pour désactiver ce "
+"comportement."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 353
 msgid "Disable State Killing on Gateway Failure"
-msgstr ""
+msgstr "Désactiver l'Interruption d'Etat lors d'une Panne de Passerelle"
 
 # File: src/www/system_advanced_misc.php, line: 485
 msgid "Kill states"
-msgstr ""
+msgstr "Interruption des états"
 
 # File: src/www/system_advanced_misc.php, line: 514
 msgid "Gateway Monitoring"
-msgstr ""
+msgstr "Surveillance de la Passerelle"
 
 # File: src/www/system_advanced_firewall.php, line: 505
 msgid ""
 "The frequency of updating the lists of IP addresses that are reserved (but "
 "not RFC 1918) or not yet assigned by IANA."
 msgstr ""
+"La fréquence de mise à jour des listes contenant les adresses IP réservées ("
+"mais pas en RFC 1918) où pas encore assignées par l'IANA."
 
 # File: src/www/system_advanced_firewall.php, line: 502
 msgid "Daily"
@@ -6735,7 +7121,7 @@ msgstr "Fréquence des mises à jour"
 
 # File: src/www/system_advanced_firewall.php, line: 484
 msgid "Bogon Networks"
-msgstr ""
+msgstr "Réseaux Bogon"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 319
 msgid ""
@@ -6743,22 +7129,29 @@ msgid ""
 "manually creating the outbound NAT rules that direct the reply packets back "
 "through the router."
 msgstr ""
+"Note: Ceci fonctionnera uniquement pour les interfaces assignées. D'autres "
+"interfaces requièrent la création manuelle des règles de NAT sortantes qui "
+"dirigeront les paquets réponses de retour du routeur."
 
 # File: src/www/system_advanced_firewall.php, line: 574
 msgid ""
 "Required for full functionality of the pure NAT mode of NAT Reflection for "
 "port forwards or NAT Reflection for 1:1 NAT."
 msgstr ""
+"Nécessaire pour un support complet du mode pur NAT de la Réflexion NAT pour "
+"les transferts de port ou la Rélexion NAT pour le NAT 1:1."
 
 # File: src/www/system_advanced_firewall.php, line: 572
 msgid ""
 "Automatically create outbound NAT rules which assist inbound NAT rules that "
 "direct traffic back out to the same subnet it originated from."
 msgstr ""
+"Créer automatiquement les règles de NAT sortantes qui aident les règles de "
+"NAT entrantes à renvoyer le trafic sur le même sous-réseau d'origine."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 312
 msgid "Automatic outbound NAT for Reflection"
-msgstr ""
+msgstr "NAT sortant automatique pour la Réflexion."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 305
 msgid ""
@@ -6766,6 +7159,10 @@ msgid ""
 "1 mappings. This functions the same as the pure NAT mode for port forwards. "
 "For more details, refer to the pure NAT mode description above."
 msgstr ""
+"Note: La réflexion pour les correspondances 1:1 est uniquement destinée au "
+"composant entrant des correspondances 1:1. Cela fonctionne de la même "
+"manière que le mode pur NAT pour les transferts de port. Pour plus de "
+"détails, reporter vous à la description du mode pur NAT ci-dessus."
 
 # File: src/www/system_advanced_firewall.php, line: 559
 msgid ""
@@ -6773,22 +7170,28 @@ msgid ""
 "to 1:1 mappings of your external IP addresses from within your internal "
 "networks."
 msgstr ""
+"Activer la création automatique de règles additionnelles de redirection NAT "
+"pour accéder au correspondances 1:1 de vos adresses IP externes depuis "
+"l'intérieur de vos réseaux internes."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 300
 msgid "Reflection for 1:1"
-msgstr ""
+msgstr "Réflexion pour le 1:1"
 
 # File: src/www/system_advanced_firewall.php, line: 550
 msgid "Note: Only applies to Reflection on port forwards in NAT + proxy mode."
 msgstr ""
+"Note: Cela s'applique uniquement à la Réflexion sur les transferts de port "
+"en configuration NAT + mode proxy. "
 
 # File: src/www/system_advanced_firewall.php, line: 548
 msgid "Enter value for Reflection timeout in seconds."
 msgstr ""
+"Entrer une valeur pour le délai d'expiration de la Réflexion en seconde."
 
 # File: src/www/system_advanced_firewall.php, line: 545
 msgid "Reflection Timeout"
-msgstr ""
+msgstr "Délai d'expiration de la Réflexion"
 
 # File: src/www/system_advanced_firewall.php, line: 541
 # File: src/www/system_advanced_firewall.php, line: 563
@@ -6796,6 +7199,8 @@ msgid ""
 "Individual rules may be configured to override this system setting on a per-"
 "rule basis."
 msgstr ""
+"Des règles individuelles pour chaque règles peuvent être configurées afin de "
+"contourner ce paramètre système."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 282
 msgid ""
@@ -6826,7 +7231,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 516
 msgid "Reflection for port forwards"
-msgstr ""
+msgstr "Réflexion pour les transferts de port"
 
 # File: src/www/system_advanced_network.php, line: 196
 msgid ""
@@ -6854,7 +7259,7 @@ msgstr "Options IPv6"
 
 # File: src/www/system_advanced_firewall.php, line: 87
 msgid "The Reflection timeout must be an integer."
-msgstr ""
+msgstr "Le délai d'expiration de la Réflexion doit être un entier."
 
 # File: src/www/system_advanced_firewall.php, line: 81
 msgid "The Firewall Maximum Table Entries value must be an integer."
@@ -8319,9 +8724,9 @@ msgid ""
 "denial of service by slow queries or high query rates. The default value is "
 "200 milliseconds."
 msgstr ""
-"Ce timeout est utilisé quand le serveur est très chargé. Cela le protège "
-"contre les pertes de service par requêtes lentes ou haut niveau de "
-"requêtes.  La valeur par défaut est de 200 millisecondes."
+"Ce délai d'expiration est utilisé quand le serveur est très chargé. Cela le "
+"protège contre les dénis de service par requêtes lentes ou haute fréquence.  "
+"La valeur par défaut est de 200 millisecondes."
 
 # File: src/www/services_unbound_advanced.php, line: 296
 msgid "Jostle Timeout"
