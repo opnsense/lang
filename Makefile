@@ -34,8 +34,19 @@ PERL_NAME=	Locale/Maketext/Extract/Plugin
 
 LOCALEDIR=	/usr/local/share/locale/%%LANG%%/LC_MESSAGES
 
-LANGUAGES=	de_DE es_ES fr_FR it_IT nl_NL ja_JP mn_MN pt_BR ru_RU \
-		sv_SE tr_TR zh_CN
+LANGUAGES+=	cs_CZ
+LANGUAGES+=	de_DE
+LANGUAGES+=	es_ES
+LANGUAGES+=	fr_FR
+LANGUAGES+=	it_IT
+LANGUAGES+=	nl_NL
+LANGUAGES+=	ja_JP
+LANGUAGES+=	mn_MN
+LANGUAGES+=	pt_BR
+LANGUAGES+=	ru_RU
+LANGUAGES+=	sv_SE
+LANGUAGES+=	tr_TR
+LANGUAGES+=	zh_CN
 
 PLUGINSDIR?=	/usr/plugins
 COREDIR?=	/usr/core
