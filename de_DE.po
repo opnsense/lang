@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 07:35+0000\n"
+"POT-Creation-Date: 2016-10-18 20:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,6 +503,11 @@ msgid ""
 "these settings are left blank, DHCP will be passed through to the LAN, and "
 "the interface setting above will be ignored."
 msgstr ""
+"Wenn Sie den Tap-Modus als Multi-Punkt-Server verwenden, könnten Sie "
+"optional einen DHCP-Bereich für die Schnittstelle angeben, mit der die Tap-"
+"Instanz überbrückt ist. Falls diese Einstellungen leer gelassen werden, wird "
+"DHCP an das LAN weitergeleitet und die Schnittstelleneinstellung oben wird "
+"ignoriert."
 
 msgid "Server Bridge DHCP Start"
 msgstr "DHCP-Start der Serverbrücke"
@@ -514,6 +519,12 @@ msgid ""
 "are used by OpenVPN for the bridge. Setting this to 'none' will cause the "
 "Server Bridge DHCP settings below to be ignored."
 msgstr ""
+"Die Schnittstelle, mit der diese Tap-Instanz überbrückt werden soll. Dies "
+"wird nicht automatisch gemacht. Sie müssen diese Schnittstelle zuweisen und "
+"eine Brücke separat erstellen. Diese Einstellung kontrolliert, welche "
+"existierende IP-Adresse und Subnetzmaske von OpenVPN für die Brücke "
+"verwendet werden soll. Durch das Setzen auf 'none' werden die DHCP-"
+"Einstellungen der Serverbrücke unten ignoriert."
 
 msgid "Bridge Interface"
 msgstr "Brücken-Schnittstelle"
@@ -533,6 +544,11 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"Dies ist das virtuelle IPv6-Netzwerk, welches für die private Kommunikation "
+"zwischen Server und Client-Hosts verwendet wird, das als CIDR (z. B. "
+"fe80::/64) angegeben wird. Die erste Adresse wird der virtuellen "
+"Schnittstelle des Servers zugewiesen, die verbleibenden Adressen können "
+"optional den verbindenden Clients zugewiesen werden. (siehe Adresspool)"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1217
 msgid ""
@@ -860,7 +876,7 @@ msgstr "Android"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 634
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 677
 msgid "Inline Configurations"
-msgstr ""
+msgstr "Inline-Konfigurationen"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 600
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 632
@@ -1003,6 +1019,10 @@ msgid ""
 "server CN. Some clients have problems parsing the CN with quotes. Use only "
 "as needed."
 msgstr ""
+"Der Server-CN kann optional bei tls-remote zwischen Anführungszeichen "
+"gesetzt werden. Dies kann helfen, wenn der Server-CN Leerzeichen enthält. "
+"Jedoch haben manche Clients Probleme beim Lesen des CN in Anführungszeichen. "
+"Verwenden Sie diese Option nur bei bedarf."
 
 # File: src/www/vpn_openvpn_export.php, line: 696
 # File: src/www/vpn_openvpn_export.php.orig, line: 696
@@ -1011,6 +1031,9 @@ msgid ""
 "The option has been deprecated by OpenVPN and will be removed in the next "
 "major version."
 msgstr ""
+"Verwenden Sie tls-remote nur, wenn Sie auf einen älteren Client angewiesen "
+"sind, der nicht unter Ihrer Kontrolle steht. Diese Option wurde von OpenVPN "
+"als veraltet markiert und wird mit der nächsten Hauptversion entfernt."
 
 # File: src/www/vpn_openvpn_export.php, line: 695
 # File: src/www/vpn_openvpn_export.php.orig, line: 695
@@ -1020,6 +1043,10 @@ msgid ""
 "Viscosity, Tunnelblick, OpenVPN on iOS and Android and so on should all work "
 "at the default automatic setting."
 msgstr ""
+"Optional den Common Name (CN) des Serverzertifikats überprüfen, wenn sich "
+"ein Client verbindet. Aktuelle Clients, inklusive der neuesten Versionen von "
+"Windows, Viscosity, Tunnelblick, OpenVPN auf iOS und Android und so weiter "
+"sollten alle mit den automatischen Standardeinstellungen funktionieren."
 
 # File: src/www/vpn_openvpn_export.php, line: 692
 # File: src/www/vpn_openvpn_export.php.orig, line: 692
@@ -1029,16 +1056,18 @@ msgstr "Den Servernamen nicht überprüfen"
 # File: src/www/vpn_openvpn_export.php, line: 691
 # File: src/www/vpn_openvpn_export.php.orig, line: 691
 msgid "Use tls-remote and quote the server CN"
-msgstr ""
+msgstr "Verwende tls-remote und zitiere den Server-CN"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "Use tls-remote (deprecated, use only on clients prior to OpenVPN 2.3)"
 msgstr ""
+"Verwende tls-remote (veraltet, nur mit Clients verwenden, die älter als "
+"OpenVPN 2.3 sind)"
 
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
 msgid "Automatic - Use verify-x509-name (OpenVPN 2.3+) where possible"
-msgstr ""
+msgstr "Automatisch - Verwende verify-x509-name (OpenVPN 2.3+) wenn möglich"
 
 # File: src/www/vpn_openvpn_export.php, line: 686
 # File: src/www/vpn_openvpn_export.php.orig, line: 686
@@ -1065,12 +1094,12 @@ msgstr "Installationshostname"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
-msgstr ""
+msgstr "Automatisch dynamische Multi-WAN-Hostnamen (Portweiterleitungsziele)"
 
 # File: src/www/vpn_openvpn_export.php, line: 654
 # File: src/www/vpn_openvpn_export.php.orig, line: 654
 msgid "Automagic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "Automatisch Multi-WAN-IPs (Portweiterleitungsziele)"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
@@ -1169,6 +1198,9 @@ msgid ""
 "to a WINS server), m-node (broadcast then query name server), and h-node ("
 "query name server, then broadcast)."
 msgstr ""
+"Mögliche Optionen b-node (Broadcasts), p-node (Punkt-zu-Punkt-Namensabfragen "
+"an einen WINS-Server), m-node (Broadcast, dann Namensserver abfragen), und h-"
+"node (Namensserver Abfragen, dann Broadcast)"
 
 msgid "Node Type"
 msgstr "Knotentyp"
@@ -1288,7 +1320,7 @@ msgstr ""
 "Netzwerken."
 
 msgid "IPv6 Local Network/s"
-msgstr " Lokale IPv6 Netzwerke"
+msgstr "Lokale IPv6 Netzwerke"
 
 msgid ""
 "NOTE: You do not need to specify networks here if they have already been "
@@ -1343,6 +1375,8 @@ msgid ""
 "Set this option to disable this client-specific override without removing it "
 "from the list"
 msgstr ""
+"Setze diese Option um diese clientspezifische Überschreibung zu "
+"deaktivieren, ohne sie aus der Liste zu löschen"
 
 msgid "add csc"
 msgstr "CSC hinzufügen"
@@ -1389,6 +1423,9 @@ msgid ""
 "write, uppercase is used for TCP/UDP packets and lowercase is used for TUN/"
 "TAP packets."
 msgstr ""
+"%s5%s -- Schreibe R- und W-Buchstaben auf die Konsole für jedes geschriebene "
+"oder gelesene Paket. Großbuchstaben werden für TCP- und UDP-Pakete und "
+"Kleinbuchstaben für TUN- und TAP-Pakete verwendet."
 
 # File: src/www/vpn_openvpn_client.php, line: 1013
 # File: src/www/vpn_openvpn_server.php, line: 1682
@@ -1407,6 +1444,9 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
+"Jede Stufe zeigt jegliche Information der vorhergehenden Stufen an. Stufe 3 "
+"wird empfohlen, falls Sie eine gute Zusammenfassung von Ereignissen "
+"wünschen, ohne in Information zu ersticken."
 
 msgid "Verbosity level"
 msgstr "Ausführlichkeitslevel"
@@ -1473,6 +1513,9 @@ msgid ""
 "input value has to be something between 100 bytes/sec and 100 Mbytes/sec ("
 "entered as bytes per second)"
 msgstr ""
+"Maximaler ausgehende Bandbreite für diesen Tunnel. Lassen Sie es leer wenn "
+"Sie kein Limit wünschen. Die eigegebene Wert muss etwas zwischen 100 Bytes/"
+"Sekunde und 100 MBytes/Sekunde (eigengeben als Bytes pro Sekunde) liegen"
 
 msgid "Limit outgoing bandwidth"
 msgstr "Bandbreitenbeschränkung ausgehend"
@@ -1805,7 +1848,7 @@ msgid "Automatically ping host"
 msgstr "Automatisch Host pingen"
 
 msgid "Set globally in mobile client options"
-msgstr ""
+msgstr "Global in den mobilen Clientoptionen setzen"
 
 msgid "PFS key group"
 msgstr "PFS Schlüsselgruppe"
@@ -1846,6 +1889,8 @@ msgid ""
 "Enforce the type of NAT by choosing either NAT or BINAT. Leave it to Auto to "
 "let OPNsense automatically choose the best NAT option."
 msgstr ""
+"Erzwinge ten NAT-Typ durch die Auswahl von NAT oder BINAT. Lassen Sie es auf "
+"Automatisch, damit OPNsense die beste NAT-Option wählen kann."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
 msgid "BINAT"
@@ -1913,7 +1958,7 @@ msgid "A valid remote network IP address must be specified."
 msgstr "Eine gültige ferne Netzwerk-IP-Adresse muss angegeben werden."
 
 msgid "A valid remote network bit count must be specified."
-msgstr ""
+msgstr "Eine gültige ferne Netzwerkbitanzahl muss angegeben werden."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 299
 msgid ""
@@ -5755,6 +5800,8 @@ msgstr "Reflektion für 1:1"
 
 msgid "Note: Only applies to Reflection on port forwards in NAT + proxy mode."
 msgstr ""
+"Hinweis: Wird nur auf Reflektion auf Portweiterleitungen im NAT + Proxy-"
+"Modus angewandt."
 
 msgid "Enter value for Reflection timeout in seconds."
 msgstr ""
@@ -5779,6 +5826,13 @@ msgid ""
 "limits to the number of ports other than the limits of the protocols. All "
 "protocols available for port forwards are supported."
 msgstr ""
+"Der pure NAT-Modus verwendet eine Menge an NAT-Regeln, um die Pakete an das "
+"Ziel der Portweiterleitung weiterzuleiten. Es skaliert besser, aber es muss "
+"möglich sein, vorherzusagen über welche Schnittstelle und welche Gateway-IP-"
+"Adresse für die Kommunikation mit dem Ziel verwendet wird. Es gibt "
+"unabhängig von den Begrenzungen durch das Netzwerkprotokoll keine interne "
+"Limitierung der Anzahl, wieviele Ports weitergeleitet werden können. Alle "
+"verfügbaren Protokolle für Portweiterleitungen werden unterstützt."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 280
 msgid ""
@@ -9254,15 +9308,21 @@ msgid ""
 "Enter the dynamic DNS domain key secret which will be used to register "
 "client names in the DNS server."
 msgstr ""
+"Geben Sie den dynamischen DNS-Domainschlüssel ein, welcher verwendet wird, "
+"wenn Clientnamen im DNS-Server registriert werden."
 
 msgid ""
 "Enter the dynamic DNS domain key name which will be used to register client "
 "names in the DNS server."
 msgstr ""
+"Geben Sie den dynamischen DNS-Domainschlüsselnamen ein, welcher verwendet "
+"wird, wenn Clientnamen im DNS-Server registriert werden."
 
 msgid ""
 "Enter the primary domain name server IP address for the dynamic domain name."
 msgstr ""
+"Geben Sie die IP-Adresse des primären Domainnamensservers für dynamische "
+"Domainnamen ein."
 
 msgid "Note: Leave blank to disable dynamic DNS registration."
 msgstr "Hinweis: Freilassen zum Deaktivieren der dynamischen DNS-Anmeldung."
@@ -17017,7 +17077,7 @@ msgstr "Entferne Protokolldatei "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 454
 msgid "Changes will be active after apply (rules tab)"
-msgstr ""
+msgstr "Änderungen werden  nach dem Anwenden aktiv (Regeln-Tab)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
@@ -17355,7 +17415,7 @@ msgstr "Details"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 619
 msgid "Totals"
-msgstr ""
+msgstr "Gesamtmenge"
 
 msgid "Info"
 msgstr "Info"
@@ -19509,7 +19569,7 @@ msgstr "Letzte Änderung"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 202
 msgid "Downtime"
-msgstr ""
+msgstr "Ausfallzeit"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
 msgid "Backend/Frontend"
@@ -22421,27 +22481,27 @@ msgstr "Bitte geben Sie einen Wert zwischen 100 und 1000000 an."
 
 # File: /usr/lang/src/models.php, line: 193
 msgid "Please specify a value between 1024 and 1048576."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 1024 und 1048576 an."
 
 # File: /usr/lang/src/models.php, line: 194
 msgid "Please specify a value between 1024 and 16384."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 1024 und 16384 an."
 
 # File: /usr/lang/src/models.php, line: 195
 msgid "Please specify a value between 1024 and 65535."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 1024 und 65535 an."
 
 # File: /usr/lang/src/models.php, line: 196
 msgid "Please specify a value between 250 and 1000000."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 250 und 1000000 an."
 
 # File: /usr/lang/src/models.php, line: 197
 msgid "Please specify a value between 500 and 100000."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 500 und 100000 an."
 
 # File: /usr/lang/src/models.php, line: 198
 msgid "Please specify a value between 64 and 65535."
-msgstr ""
+msgstr "Bitte gebe einen Wert zwischen 64 und 65535 an."
 
 # File: lang/dynamic/helpers/models.php, line: 126
 msgid "Point-to-Point"
