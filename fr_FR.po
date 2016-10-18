@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 07:36+0000\n"
+"POT-Creation-Date: 2016-10-18 20:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -869,7 +869,7 @@ msgstr "Configuration des archives"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 698
 msgid "Other Shared Key OS Client"
-msgstr ""
+msgstr "Autre Clef Partagée par l'OS Client"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 666
 msgid "Authentication Only (No Cert)"
@@ -967,7 +967,7 @@ msgstr "Android"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 634
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 677
 msgid "Inline Configurations"
-msgstr ""
+msgstr "Configurations Inline"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 600
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 632
@@ -1260,6 +1260,8 @@ msgstr ""
 msgid ""
 "You cannot use Microsoft Certificate Storage with an Inline configuration."
 msgstr ""
+"Vous ne pouvez pas utiliser Microsoft Certificate Storage avec une "
+"configuration Inline"
 
 # File: src/www/vpn_openvpn_export.php, line: 139
 # File: src/www/vpn_openvpn_export_shared.php, line: 79
@@ -1296,6 +1298,9 @@ msgid ""
 "IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"Le paramètre NetBIOS Scope ID fournit un service de nommage étendu pour "
+"NetBIOS sur TCP/IP. Le paramètre NetBIOS scope ID isole le trafic NetBIOS "
+"des nœuds possédant uniquement le même identifiant NetBIOS scope ID."
 
 # File: src/www/vpn_openvpn_csc.php, line: 547
 # File: src/www/vpn_openvpn_server.php, line: 1595
@@ -1304,6 +1309,9 @@ msgid ""
 "to a WINS server), m-node (broadcast then query name server), and h-node ("
 "query name server, then broadcast)."
 msgstr ""
+"Options valides: b-node (diffusions), p-node (requête point-à-point de nom "
+"sur un serveur WINS), m-node (diffusion puis requête au serveur de nom), et "
+"h-node (requête au serveur de nom puis diffusion)."
 
 # File: src/www/vpn_openvpn_csc.php, line: 674
 # File: src/www/vpn_openvpn_server.php, line: 1810
@@ -1418,6 +1426,8 @@ msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"NOTE: N'oubliez pas d'ajouter ces sous-réseaux à la liste des Réseaux "
+"Distants IPv4 dans les paramètres du serveur OpenVPN idoine."
 
 # File: src/www/vpn_openvpn_csc.php, line: 472
 msgid ""
@@ -1453,6 +1463,8 @@ msgid ""
 "NOTE: You do not need to specify networks here if they have already been "
 "defined on the main server configuration."
 msgstr ""
+"NOTE: Vous n'avez pas besoin de préciser les réseaux ici s'ils ont déjà été "
+"définis dans la configuration globale du serveur."
 
 # File: src/www/vpn_openvpn_csc.php, line: 452
 msgid ""
@@ -1484,7 +1496,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_csc.php, line: 419
 msgid "Block this client connection based on its common name"
-msgstr ""
+msgstr "Bloquer la connexion de ce client en se basant sur son nom commun (CN)"
 
 # File: src/www/vpn_openvpn_csc.php, line: 409
 msgid "Connection blocking"
@@ -1639,7 +1651,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_client.php, line: 1104
 msgid "Don't pull routes"
-msgstr ""
+msgstr "Ne pas forcer les routes"
 
 # File: src/www/vpn_openvpn_client.php, line: 1095
 # File: src/www/vpn_openvpn_server.php, line: 1577
@@ -1663,7 +1675,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1066
 # File: src/www/vpn_openvpn_server.php, line: 1512
 msgid "Type-of-Service"
-msgstr ""
+msgstr "Type-of-Service"
 
 # File: src/www/vpn_openvpn_client.php, line: 1062
 msgid ""
@@ -1900,6 +1912,8 @@ msgid ""
 "Set this option if you would like to bind to a specific port. Leave this "
 "blank or enter 0 for a random dynamic port."
 msgstr ""
+"Utilisez cette option si vous souhaiter utiliser le transfert vers un port "
+"spécifique. Laissez vide ou sur 0 pour utiliser un port aléatoire dynamique."
 
 # File: src/www/vpn_openvpn_client.php, line: 629
 # File: src/www/vpn_openvpn_server.php, line: 984
@@ -1908,7 +1922,7 @@ msgstr "Port local"
 
 # File: src/www/vpn_openvpn_client.php, line: 567
 msgid "Device mode"
-msgstr ""
+msgstr "Mode du dispositif"
 
 # File: src/etc/inc/openvpn.inc, line: 89
 # File: src/etc/inc/openvpn.inc, line: 97
@@ -2268,6 +2282,7 @@ msgstr "Une adresse IP de réseau distant valide doit être renseignée."
 # File: src/www/vpn_ipsec_phase2.php, line: 197
 msgid "A valid remote network bit count must be specified."
 msgstr ""
+"Un bit count valide pour le réseau distant doit impérativement être spécifié."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 299
 msgid ""
@@ -5349,27 +5364,30 @@ msgstr "Ajouter ou importer un certificat"
 
 # File: src/www/system_certmanager.php, line: 352
 msgid "Unrecognized subjectAltName type."
-msgstr ""
+msgstr "Type subjectAltName inconnu"
 
 # File: src/www/system_certmanager.php, line: 348
 msgid "URI subjectAltName types must be a valid URI"
-msgstr ""
+msgstr "Le type d'URI subjectAltName doit être un type URI valide"
 
 # File: src/www/system_certmanager.php, line: 342
 msgid "The e-mail provided in a subjectAltName contains invalid characters."
 msgstr ""
+"L'email fourni dans le subjectAltName contient des caractères invalides."
 
 # File: src/www/system_certmanager.php, line: 339
 msgid "You must provide an e-mail address for this type of subjectAltName"
-msgstr ""
+msgstr "Vous devez indiquez une adresse email pour ce type de subjectAltName"
 
 # File: src/www/system_certmanager.php, line: 334
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr ""
+msgstr "Les valeurs IP subjectAltName doivent être des Adresses IP valides"
 
 # File: src/www/system_certmanager.php, line: 329
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
 msgstr ""
+"Les valeurs DNS subjectAltName doivent être des nom d'hôtes valides ou des "
+"FQDNs."
 
 # File: src/www/system_certmanager.php, line: 246
 msgid "Existing Certificate Choice"
@@ -7211,6 +7229,13 @@ msgid ""
 "limits to the number of ports other than the limits of the protocols. All "
 "protocols available for port forwards are supported."
 msgstr ""
+"Le mode pure NAT utilise un ensemble de règles NAT pour diriger les paquets "
+"vers la cible du transfert de port. Il permet une meilleure évolutivité, "
+"mais il est impératif de pouvoir déterminer l'IP de l'interface ainsi que "
+"celle de la passerelle utilisée pour la communication avec la cible au "
+"moment où les règles sont chargées. Il n'y a pas de limites inhérentes au "
+"nombre de ports autres que les limites des protocoles. Tous les protocoles "
+"disponibles pour le transfert de port sont supportés."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 280
 msgid ""
@@ -7221,6 +7246,14 @@ msgid ""
 "larger than 500 ports and will not be used for more than 1000 ports total "
 "between all port forwards. Only TCP and UDP protocols are supported."
 msgstr ""
+"Le mode NAT + proxy utilise un programme d'aide pour envoyer les paquets "
+"vers la cible du transfert de port. Ce dernier est particulièrement utile "
+"avec les configurations dans lesquelles l'IP de l'interface et/ou celle de "
+"la passerelle utilisée pour la communication avec la cible ne peut pas être "
+"déterminée avec précision au moment où les règles sont chargées. Les règles "
+"réflexives ne sont pas crées pour les étendues de plus de 500 ports et ne "
+"seront pas utilisées pour plus de 1000 ports au total de l'ensemble des "
+"transferts de ports. Seuls les protocoles TCP et UDP sont supportés."
 
 # File: src/www/system_advanced_firewall.php, line: 535
 msgid ""
@@ -7228,6 +7261,9 @@ msgid ""
 "access to port forwards on your external IP addresses from within your "
 "internal networks."
 msgstr ""
+"Lorsque cette option est activée, cela crée automatiquement des règles de "
+"redirection NAT supplémentaires afin de permettre l'accès aux ports "
+"redirigés sur vos adresses IP externes depuis de vos réseaux internes."
 
 # File: src/www/system_advanced_firewall.php, line: 516
 msgid "Reflection for port forwards"
@@ -7264,10 +7300,14 @@ msgstr "Le délai d'expiration de la Réflexion doit être un entier."
 # File: src/www/system_advanced_firewall.php, line: 81
 msgid "The Firewall Maximum Table Entries value must be an integer."
 msgstr ""
+"La valeur du nombre d'Entrées Maximum de la Table du Firewall doit être un "
+"entier."
 
 # File: src/www/system_advanced_firewall.php, line: 78
 msgid "The Aliases Hostname Resolve Interval value must be an integer."
 msgstr ""
+"La valeur de l'Intervalle de Résolution des Alias des Noms d'Hôtes doit être "
+"un entier."
 
 # File: src/www/system_advanced_firewall.php, line: 75
 msgid "The Firewall Maximum States value must be an integer."
@@ -7276,14 +7316,20 @@ msgstr "La valeur maximale du nombre d'états du pare-feu doit être un entier."
 # File: src/www/system_advanced_firewall.php, line: 72
 msgid "The Firewall Adaptive End value must be an integer."
 msgstr ""
+"La valeur du champ Fin pour le délai d'attente Adaptatif du Firewall doit "
+"être un entier."
 
 # File: src/www/system_advanced_firewall.php, line: 69
 msgid "The Firewall Adaptive Start value must be an integer."
 msgstr ""
+"La valeur du champ Début pour le délai d'attente Adaptatif du Firewall doit "
+"être un entier."
 
 # File: src/www/system_advanced_firewall.php, line: 66
 msgid "The Firewall Adaptive values must be set together."
 msgstr ""
+"Les valeurs des champs pour le délai d'attente Adaptatif du Firewall doivent "
+"être paramétrées simultanément."
 
 # File: src/www/system_advanced_admin.php, line: 631
 msgid "Changes to this option will take effect after a reboot."
@@ -7334,7 +7380,7 @@ msgstr ""
 
 # File: src/www/system_advanced_admin.php, line: 549
 msgid "bps"
-msgstr ""
+msgstr "bps"
 
 # File: src/www/system_advanced_admin.php, line: 580
 msgid "Serial Speed"
@@ -7346,12 +7392,18 @@ msgid ""
 "You can still access the console menu from the internal video card/keyboard. "
 "A null modem serial cable or adapter is required to use the serial console."
 msgstr ""
+"Note: Cela redirigera la sortie de la console ainsi que les messages vers le "
+"port série. Vous pourrez cependant toujours accéder au menu de la console "
+"depuis l'interface clavier/écran interne. Un câble série null modem ou un "
+"adaptateur sera nécessaire pour l'utilisation de la console série."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 504
 msgid ""
 "Enable serial ports with 115200/8/N/1 by default, or another speed "
 "selectable below."
 msgstr ""
+"Activer le port série avec les paramètres par défaut, 115200/8/N/1 ou une "
+"autre vitesse réglable ci-dessous."
 
 # File: src/www/system_advanced_admin.php, line: 570
 msgid "Serial Terminal"
@@ -7374,6 +7426,8 @@ msgid ""
 "When disabled, authorized keys need to be configured for each %sUser%s that "
 "has been granted secure shell access."
 msgstr ""
+"Quand ce paramètre est désactivé, les clefs autorisées doivent être "
+"configurées pour chaque %sUtilisateur%s disposant d'un accès shell sécurisé."
 
 # File: src/www/system_advanced_admin.php, line: 548
 msgid "Permit password login"
@@ -7419,24 +7473,35 @@ msgid ""
 "cases such as using external scripts to interact with this system. More "
 "information on HTTP_REFERER is available from %sWikipedia%s."
 msgstr ""
+"Quand ce paramètre est désactivé, l'accès au webConfigurator est protégé "
+"contre les tentatives de redirection HTTP_REFERER. Cochez cette case pour "
+"désactiver cette protection si vous constatez certains effets indésirables "
+"avec l'accès au webConfigurator dans certains cas d'utilisation particuliers "
+"comme l'usage de script externe afin interagir avec le système. Plus "
+"d'informations sur l'HTTP_REFERER sont disponibles sur %sWikipedia%s."
 
 # File: src/www/system_advanced_admin.php, line: 495
 msgid "Disable HTTP_REFERER enforcement check"
-msgstr ""
+msgstr "Désactiver la vérification de la mise en application de l'HTTP_REFERER"
 
 # File: src/www/system_advanced_admin.php, line: 458
 msgid "HTTP_REFERER enforcement"
-msgstr ""
+msgstr "Mise en application HTTP_REFERER"
 
 # File: src/www/system_advanced_admin.php, line: 485
 msgid ""
 "Here you can specify alternate hostnames by which the router may be queried, "
 "to bypass the DNS Rebinding Attack checks. Separate hostnames with spaces."
 msgstr ""
+"Vous pouvez spécifier ici des noms d'hôtes alternatifs par lesquels le "
+"routeur peut être interrogé, ceci afin de contourner les vérifications "
+"effectuées en prévention des attaques DNS Rebinding. Séparer les noms "
+"d'hôtes par des espaces."
 
 # File: src/www/system_advanced_admin.php, line: 483
 msgid "Alternate Hostnames for DNS Rebinding and HTTP_REFERER Checks"
 msgstr ""
+"Noms d'hôtes alternatifs pour les vérifications DNS Rebinding et HTTP_REFERER"
 
 # File: src/www/system_advanced_admin.php, line: 479
 msgid "Alternate Hostnames"
@@ -7449,20 +7514,27 @@ msgid ""
 "servers. Check this box to disable this protection if it interferes with "
 "webConfigurator access or name resolution in your environment."
 msgstr ""
+"Quand la case n'est pas cochée, votre système est protégé contre les %"
+"sattaques de type DNS Rebinding%s. Ce paramètre bloque les réponses en IP "
+"privées en provenance des serveurs DNS que vous auriez configurés. Cochez "
+"cette case pour désactiver cette protection si cette dernière interfère avec "
+"l'accès à webConfigurator ou la résolution de nom dans votre environnement."
 
 # File: src/www/system_advanced_admin.php, line: 470
 msgid "Disable DNS Rebinding Checks"
-msgstr ""
+msgstr "Désactiver les Vérifications DNS Rebinding"
 
 # File: src/www/system_advanced_admin.php, line: 465
 msgid "DNS Rebind Check"
-msgstr ""
+msgstr "Vérification DNS Rebind"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 418
 msgid ""
 "Hint: the \"Set interface(s) IP address\" option in the console menu resets "
 "this setting as well."
 msgstr ""
+"Précision: l'option \"Définir l'adresse IP de(s) l'interface(s)\" accessible "
+"dans le menu de la console réinitialise également ce paramètre."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 417
 msgid "WAN"
@@ -7490,7 +7562,7 @@ msgstr "Désactiver la règle anti-lockout de l'interface de configuration web"
 
 # File: src/www/system_advanced_admin.php, line: 441
 msgid "Anti-lockout"
-msgstr ""
+msgstr "Anti-fermeture"
 
 # File: src/www/system_advanced_admin.php, line: 435
 msgid ""
@@ -7516,10 +7588,19 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option)."
 msgstr ""
+"Quand ce paramètre est coché, les identifiants d'authentification pour "
+"webConfigurator pourront être sauvegardées par le navigateur. Bien que "
+"pratique, certains standards de sécurité requièrent que cette option soit "
+"décochée. Cochez cette case pour activer le remplissage automatique du "
+"formulaire d'identification afin que les navigateurs vous demandent si les "
+"informations d'authentification doivent être sauvegardées (NOTE: Certains "
+"navigateurs ne respectent pas cette option)."
 
 # File: src/www/system_advanced_admin.php, line: 419
 msgid "Enable webConfigurator login autocomplete"
 msgstr ""
+"Activer le remplissage automatique de la fenêtre d'identification de "
+"webConfigurator"
 
 # File: src/www/system_advanced_admin.php, line: 414
 msgid "WebGUI Login Autocomplete"
@@ -7531,6 +7612,10 @@ msgid ""
 "even on port 80, regardless of the listening port configured. Check this box "
 "to disable this automatically added redirect rule."
 msgstr ""
+"Quand ce paramètre n'est pas coché, l'accès à webConfigurator est toujours "
+"permis même sur le port 80, et peut importe le port d'écoute configuré. "
+"Cochez cette case pour désactiver l'ajout automatique de cette règle de "
+"redirection."
 
 # File: src/www/system_advanced_admin.php, line: 405
 msgid "Disable webConfigurator redirect rule"
@@ -7573,6 +7658,8 @@ msgid ""
 "No Certificates have been defined. You must %sCreate or Import%s a "
 "Certificate before SSL can be enabled."
 msgstr ""
+"Aucun Certificat n'a encore été défini. Vous devez %sCréer ou Importer%s un "
+"certificat avant qu'SSL puisse être activé."
 
 # File: src/www/system_advanced_admin.php, line: 318
 msgid "webConfigurator"
@@ -7597,6 +7684,8 @@ msgid ""
 "E = ESS (infrastructure mode), I = IBSS (ad-hoc mode), P = privacy "
 "(WEP/TKIP/AES), S = Short preamble, s = Short slot time"
 msgstr ""
+"E = ESS (mode infrastructure), I = IBSS (mode ad-hoc), P = privacy "
+"(WEP/TKIP/AES), S = Short preamble, s = Short slot time"
 
 # File: src/www/status_wireless.php, line: 192
 msgid "Capabilities:"
@@ -7604,72 +7693,75 @@ msgstr "Fonctions:"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "Flags:"
-msgstr ""
+msgstr "Indicateurs:"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "A = authorized, E = Extended Rate (802.11g), P = Power save mode"
 msgstr ""
+"A = autorisé, E = Vitesse Etendue (802.11g), P = Mode Economie d'Energie"
 
 # File: src/www/status_wireless.php, line: 190
 msgid "Rescan"
-msgstr ""
+msgstr "Nouveau Balayage"
 
 # File: src/www/status_wireless.php, line: 158
 msgid "ERP"
-msgstr ""
+msgstr "ERP"
 
 # File: src/www/status_wireless.php, line: 156
 msgid "RXSEQ"
-msgstr ""
+msgstr "RXSEQ"
 
 # File: src/www/status_wireless.php, line: 155
 msgid "TXSEQ"
-msgstr ""
+msgstr "TXSEQ"
 
 # File: src/www/status_wireless.php, line: 154
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 # File: src/www/status_wireless.php, line: 150
 msgid "AID"
-msgstr ""
+msgstr "AID"
 
 # File: src/www/status_wireless.php, line: 149
 msgid "ADDR"
-msgstr ""
+msgstr "ADDR"
 
 # File: src/www/status_wireless.php, line: 141
 msgid "Associated or ad-hoc peers"
-msgstr ""
+msgstr "Pairs associés ou ad-hoc"
 
 # File: src/www/status_wireless.php, line: 103
 # File: src/www/status_wireless.php, line: 157
 msgid "CAPS"
-msgstr ""
+msgstr "CAPS"
 
 # File: src/www/status_wireless.php, line: 102
 msgid "INT"
-msgstr ""
+msgstr "INT"
 
 # File: src/www/status_wireless.php, line: 100
 # File: src/www/status_wireless.php, line: 152
 msgid "RATE"
-msgstr ""
+msgstr "RATE"
 
 # File: src/www/status_wireless.php, line: 99
 # File: src/www/status_wireless.php, line: 151
 msgid "CHAN"
-msgstr ""
+msgstr "CHAN"
 
 # File: src/www/status_wireless.php, line: 89
 msgid "Nearby access points or ad-hoc peers"
-msgstr ""
+msgstr "Points d'accès à proximité ou pairs ad-hoc"
 
 # File: src/www/status_wireless.php, line: 74
 msgid ""
 "Rescan has been initiated in the background. Refresh this page in 10 seconds "
 "to see the results."
 msgstr ""
+"Un nouveau balayage a été lancé en arrière-plan. Rafraîchissez cette page "
+"dans 10 secondes pour voir les résultats."
 
 # File: src/www/status_upnp.php, line: 110
 msgid "all currently connected sessions"
@@ -7699,12 +7791,12 @@ msgstr "Octets reçus"
 
 # File: src/www/status_openvpn.php, line: 336
 msgid "Client Instance Statistics"
-msgstr ""
+msgstr "Statistiques de l'Instance Client"
 
 # File: src/www/status_openvpn.php, line: 283
 # File: src/www/status_openvpn.php, line: 346
 msgid "Virtual Addr"
-msgstr ""
+msgstr "Addr Virtuelle"
 
 # File: src/www/status_openvpn.php, line: 284
 # File: src/www/status_openvpn.php, line: 347
@@ -7713,21 +7805,23 @@ msgstr "Hôte Distant"
 
 # File: src/www/status_openvpn.php, line: 273
 msgid "Peer to Peer Server Instance Statistics"
-msgstr ""
+msgstr "Statistiques de l'Instance Serveur Pair à Pair"
 
 # File: src/www/status_openvpn.php, line: 256
 msgid ""
 "An IP address followed by C indicates a host currently connected through the "
 "VPN."
 msgstr ""
+"Un adresse IP suivie par C indique qu'un hôte est actuellement connecté au "
+"travers du VPN."
 
 # File: src/www/status_openvpn.php, line: 234
 msgid "Last Used"
-msgstr ""
+msgstr "Dernier Utilisé"
 
 # File: src/www/status_openvpn.php, line: 233
 msgid "Target Network"
-msgstr ""
+msgstr "Réseau Cible"
 
 # File: src/www/status_openvpn.php, line: 224
 msgid "Routing Table"
@@ -7739,7 +7833,7 @@ msgstr "Afficher/Masquer la table de routage"
 
 # File: src/www/status_openvpn.php, line: 193
 msgid "Kill client connection from"
-msgstr ""
+msgstr "Tuer la connexion client depuis"
 
 # File: src/www/status_openvpn.php, line: 166
 msgid "Bytes Received"
@@ -7773,11 +7867,11 @@ msgstr "Adresse Réelle"
 # File: src/www/system_certmanager.php, line: 1014
 # File: src/www/vpn_openvpn_csc.php, line: 789
 msgid "Common Name"
-msgstr ""
+msgstr "Nom Commun"
 
 # File: src/www/status_openvpn.php, line: 154
 msgid "Client connections"
-msgstr ""
+msgstr "Connexions clients"
 
 # File: src/www/status_openvpn.php, line: 131
 msgid "OpenVPN Status"
@@ -7789,33 +7883,35 @@ msgstr "Satellites"
 
 # File: src/www/status_ntpd.php, line: 243
 msgid "Clock Altitude"
-msgstr ""
+msgstr "Altitude de l'Horloge"
 
 # File: src/www/status_ntpd.php, line: 242
 msgid "Clock Longitude"
-msgstr ""
+msgstr "Longitude de l'Horloge"
 
 # File: src/www/status_ntpd.php, line: 241
 msgid "Clock Latitude"
-msgstr ""
+msgstr "Latitude de l'Horloge"
 
 # File: src/www/status_ntpd.php, line: 196
 msgid "No peers found, %sis the ntp service running%s?"
-msgstr ""
+msgstr "Aucun pair trouvé, %sle service ntp est-il en marche%s?"
 
 # File: src/www/status_ntpd.php, line: 192
 msgid ""
 "Statistics unavailable because ntpq and ntpdc queries are disabled in the %"
 "sNTP service settings%s."
 msgstr ""
+"Les statistiques sont indisponibles car les requêtes ntpq et ntpdc sont "
+"désactivées dans les %sparamètres du service NTP%s."
 
 # File: src/www/status_ntpd.php, line: 184
 msgid "Jitter"
-msgstr ""
+msgstr "Jitter"
 
 # File: src/www/status_ntpd.php, line: 183
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 # File: src/www/status_ntpd.php, line: 182
 msgid "Delay"
@@ -7823,23 +7919,23 @@ msgstr "Délai"
 
 # File: src/www/status_ntpd.php, line: 181
 msgid "Reach"
-msgstr ""
+msgstr "Reach"
 
 # File: src/www/status_ntpd.php, line: 180
 msgid "Poll"
-msgstr ""
+msgstr "Poll"
 
 # File: src/www/status_ntpd.php, line: 179
 msgid "When"
-msgstr ""
+msgstr "When"
 
 # File: src/www/status_ntpd.php, line: 176
 msgid "Ref ID"
-msgstr ""
+msgstr "Ref ID"
 
 # File: /usr/core/src/www/status_ntpd.php, line: 152
 msgid "Network Time Protocol Status"
-msgstr ""
+msgstr "Statut du Protocole de Temps Réseau"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 477
 msgid ""
@@ -7848,18 +7944,23 @@ msgid ""
 "prevent dial-on-demand from making connections to the outside. Don't use "
 "dial-on-demand if you want to make sure that the line is kept disconnected."
 msgstr ""
+"Une connexion à la demande se rétablira d'elle même si un paquet la "
+"déclenche. Pour justifier ce point: une déconnexion manuelle n’empêchera par "
+"la connexion à la demande d'établir des connexions avec l'extérieur. "
+"N'utilisez pas de connexion à la demande si vous souhaitez être certain que "
+"la ligne reste déconnectée."
 
 # File: /usr/core/src/www/status_interfaces.php, line: 459
 msgid "%s rate"
-msgstr ""
+msgstr "%s taux"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 457
 msgid "%s total"
-msgstr ""
+msgstr "%s total"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 454
 msgid "Interrupts per Second"
-msgstr ""
+msgstr "Interruptions par Seconde"
 
 # File: src/www/status_interfaces.php, line: 425
 msgid "Bridge (%s)"
@@ -7971,7 +8072,7 @@ msgstr ""
 
 # File: /usr/core/src/www/status_interfaces.php, line: 198
 msgid "Uptime (historical)"
-msgstr ""
+msgstr "Durée de fonctionnement (historique)"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 140
 msgid "Uptime"
@@ -7994,7 +8095,7 @@ msgstr "Connecter"
 
 # File: src/www/status_interfaces.php, line: 102
 msgid "DHCP6"
-msgstr ""
+msgstr "DHCP6"
 
 # File: src/www/status_interfaces.php, line: 99
 # File: src/www/status_interfaces.php, line: 115
@@ -8016,15 +8117,15 @@ msgstr "Redémarrez tous les services"
 
 # File: /usr/core/src/www/status_habackup.php, line: 290
 msgid "all (*)"
-msgstr ""
+msgstr "tout (*)"
 
 # File: /usr/core/src/www/status_habackup.php, line: 277
 msgid "templates"
-msgstr ""
+msgstr "modèles"
 
 # File: /usr/core/src/www/status_habackup.php, line: 212
 msgid "Backup services"
-msgstr ""
+msgstr "Services de sauvegarde"
 
 # File: /usr/core/src/www/status_habackup.php, line: 192
 msgid "Kernel"
@@ -8032,15 +8133,17 @@ msgstr "Noyau"
 
 # File: /usr/core/src/www/status_habackup.php, line: 187
 msgid "Backup firewall versions"
-msgstr ""
+msgstr "Versions des sauvegardes du firewall"
 
 # File: /usr/core/src/www/status_habackup.php, line: 178
 msgid "The backup firewall is not accessible (check user credentials)."
 msgstr ""
+"Le firewall de secours n'est pas accessible (vérifier les informations "
+"d'authentification utilisateur)."
 
 # File: /usr/core/src/www/status_habackup.php, line: 175
 msgid "The backup firewall is not accessible or not configured."
-msgstr ""
+msgstr "Le firewall de secours n'est pas accessible ou n'est pas configuré."
 
 # File: src/www/status_graph.php, line: 265
 msgid "Bandwidth Out"
@@ -8136,7 +8239,7 @@ msgstr "Hors ligne"
 
 # File: src/www/status_filter_reload.php, line: 75
 msgid "Force Config Sync"
-msgstr ""
+msgstr "Forcer la Sync de la Config"
 
 # File: src/www/status_filter_reload.php, line: 73
 msgid "Reload Filter"
@@ -8148,7 +8251,7 @@ msgstr "Préfixe IPv6"
 
 # File: /usr/core/src/www/status_dhcpv6_leases.php, line: 506
 msgid "Delegated Prefixes"
-msgstr ""
+msgstr "Préfixes Délégués"
 
 # File: src/www/status_dhcp_leases.php, line: 342
 # File: src/www/status_dhcpv6_leases.php, line: 424
@@ -8171,7 +8274,7 @@ msgstr "Nom d'hôte/MAC"
 # File: src/www/status_dhcpv6_leases.php, line: 418
 # File: src/www/status_dhcpv6_leases.php, line: 515
 msgid "IAID"
-msgstr ""
+msgstr "IAID"
 
 # File: src/www/status_dhcp_leases.php, line: 454
 # File: src/www/status_dhcpv6_leases.php, line: 586
@@ -8244,7 +8347,7 @@ msgstr "Choisissez sur quelle interface cet hôte est connecté."
 
 # File: src/www/services_wol_edit.php, line: 126
 msgid "Edit WOL entry"
-msgstr ""
+msgstr "Editer l'entrée WOL"
 
 # File: src/www/services_wol.php, line: 216
 msgid ""
@@ -8253,6 +8356,10 @@ msgid ""
 "support Wake on LAN and has to be configured properly (WOL cable, BIOS "
 "settings)."
 msgstr ""
+"Ce service peut être utiliser afin de réveiller (mettre sous tension) les "
+"ordinateurs en leur envoyant des \"Paquets Magiques\" spéciaux. La carte "
+"réseau de l'ordinateur devant être réveillé doit supporter la fonction Wake "
+"on LAN et doit être correctement paramétrée (câble WOL, paramètres BIOS)."
 
 # File: src/www/services_wol.php, line: 165
 msgid "Or Click the MAC address to wake up an individual device:"
@@ -8284,6 +8391,8 @@ msgid ""
 "Please check the %ssystem log%s, the wol command for %s did not complete "
 "successfully."
 msgstr ""
+"Veuillez vérifier le %sjournal système%s, la commande wol pour %s ne s'est "
+"pas terminée correctement."
 
 # File: src/www/services_wol.php, line: 89
 msgid "Sent magic packet to %s."
@@ -8302,6 +8411,8 @@ msgid ""
 "Please check the %ssystem log%s, the wol command for %s (%s) did not "
 "complete successfully."
 msgstr ""
+"Veuillez vérifier le %sjournal système%s, la commande wol pour %s (%s) ne "
+"s'est pas terminée correctement."
 
 # File: src/www/services_wol.php, line: 55
 msgid "Sent magic packet to %s (%s)."
@@ -8309,19 +8420,19 @@ msgstr "Paquet magic envoyé à %s (%s)."
 
 # File: /usr/core/src/www/services_upnp.php, line: 343
 msgid "Set 4"
-msgstr ""
+msgstr "Ensemble 4"
 
 # File: /usr/core/src/www/services_upnp.php, line: 334
 msgid "Set 3"
-msgstr ""
+msgstr "Ensemble 3"
 
 # File: /usr/core/src/www/services_upnp.php, line: 325
 msgid "Set 2"
-msgstr ""
+msgstr "Ensemble 2"
 
 # File: /usr/core/src/www/services_upnp.php, line: 320
 msgid "Example: allow 1024-65535 192.168.0.0/24 1024-65535"
-msgstr ""
+msgstr "Exemple: allow 1024-65535 192.168.0.0/24 1024-65535"
 
 # File: /usr/core/src/www/services_upnp.php, line: 319
 # File: /usr/core/src/www/services_upnp.php, line: 329
@@ -8331,42 +8442,48 @@ msgid ""
 "Format: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
 "port or range]"
 msgstr ""
+"Format: [allow ou deny] [ext port ou range] [int ipaddr ou ipaddr/cdir] [int "
+"port ou range]"
 
 # File: /usr/core/src/www/services_upnp.php, line: 315
 msgid "Set 1"
-msgstr ""
+msgstr "Ensemble 1"
 
 # File: /usr/core/src/www/services_upnp.php, line: 310
 msgid "User specified permissions"
-msgstr ""
+msgstr "Permissions définies par l'utilisateur"
 
 # File: /usr/core/src/www/services_upnp.php, line: 295
 msgid "By default deny access to UPnP and NAT-PMP?"
-msgstr ""
+msgstr "Par défaut refuser l'accès à UPnP et NAT-PMP?"
 
 # File: /usr/core/src/www/services_upnp.php, line: 291
 msgid "Default deny"
-msgstr ""
+msgstr "Refuser par défaut"
 
 # File: /usr/core/src/www/services_upnp.php, line: 286
 msgid "Use system uptime instead of UPnP and NAT-PMP service uptime?"
 msgstr ""
+"Utiliser la durée de fonctionnement du système à la place de la durée de "
+"fonctionnement des services UPnP et NAT-PMP? "
 
 # File: /usr/core/src/www/services_upnp.php, line: 282
 msgid "Use system time"
-msgstr ""
+msgstr "Utiliser le temps système"
 
 # File: /usr/core/src/www/services_upnp.php, line: 277
 msgid "Log packets handled by UPnP &amp; NAT-PMP rules?"
 msgstr ""
+"Enregistrer dans le journal les paquets pris en charge par les règles UPnP "
+"&amp; NAT-PMP?"
 
 # File: /usr/core/src/www/services_upnp.php, line: 273
 msgid "Log NAT-PMP"
-msgstr ""
+msgstr "Journaliser NAT-PMP"
 
 # File: /usr/core/src/www/services_upnp.php, line: 267
 msgid "Override WAN address"
-msgstr ""
+msgstr "Outrepasser l'adresse WAN"
 
 # File: /usr/core/src/www/services_upnp.php, line: 258
 msgid "Maximum Upload Speed"
@@ -8375,7 +8492,7 @@ msgstr "Vitesse Maximale d’Émission"
 # File: /usr/core/src/www/services_upnp.php, line: 253
 # File: /usr/core/src/www/services_upnp.php, line: 262
 msgid "(Kbits/second)"
-msgstr ""
+msgstr "(Kbits/seconde)"
 
 # File: /usr/core/src/www/services_upnp.php, line: 249
 msgid "Maximum Download Speed"
@@ -8383,7 +8500,7 @@ msgstr "Vitesse Maximale de Réception"
 
 # File: /usr/core/src/www/services_upnp.php, line: 244
 msgid "You can select multiple interfaces here."
-msgstr ""
+msgstr "Vous pouvez sélectionner ici plusieurs interfaces."
 
 # File: /usr/core/src/www/services_upnp.php, line: 233
 msgid "Localhost"
@@ -8411,7 +8528,7 @@ msgstr "Ce protocole est souvent utilisé par les systèmes Apple compatibles."
 
 # File: /usr/core/src/www/services_upnp.php, line: 203
 msgid "Allow NAT-PMP Port Mapping"
-msgstr ""
+msgstr "Autoriser le Port Mapping NAT-PMP"
 
 # File: /usr/core/src/www/services_upnp.php, line: 198
 msgid "This protocol is often used by Microsoft-compatible systems."
@@ -8420,39 +8537,47 @@ msgstr ""
 
 # File: /usr/core/src/www/services_upnp.php, line: 194
 msgid "Allow UPnP Port Mapping"
-msgstr ""
+msgstr "Autoriser le Port Mapping UPnP"
 
 # File: /usr/core/src/www/services_upnp.php, line: 177
 msgid "UPnP and NAT-PMP Settings"
-msgstr ""
+msgstr "Paramètres UPnP et NAT-PMP"
 
 # File: src/www/services_upnp.php, line: 208
 msgid "Modified Universal Plug and Play settings."
-msgstr ""
+msgstr "Paramètres Universal Plug and Play modifiés."
 
 # File: src/www/services_upnp.php, line: 103
 msgid ""
 "You must specify a valid ip address in the 'User specified permissions %s' "
 "field"
 msgstr ""
+"Vous devez spécifier une adresse ip valide dans le champ 'Permissions "
+"définies par l'utilisateur %s'"
 
 # File: src/www/services_upnp.php, line: 100
 msgid ""
 "You must specify a port or port range between 0 and 65535 in the 'User "
 "specified permissions %s' field"
 msgstr ""
+"Vous devez spécifier un port ou une étendue de ports comprise entre 0 et "
+"65535 dans le champ 'Permissions définies par l'utilisateur %s'"
 
 # File: src/www/services_upnp.php, line: 97
 msgid ""
 "You must begin with allow or deny in the 'User specified permissions %s' "
 "field"
 msgstr ""
+"Vous devez commencer par allow ou deny dans le champ 'Permissions définies "
+"par l'utilisateur %s'"
 
 # File: src/www/services_upnp.php, line: 93
 msgid ""
 "You must follow the specified format in the 'User specified permissions %s' "
 "field"
 msgstr ""
+"Vous devez respecter le formatage spécifié dans le champ 'Permissions "
+"définies par l'utilisateur %s'"
 
 # File: src/www/services_upnp.php, line: 85
 msgid ""
@@ -8479,34 +8604,44 @@ msgstr ""
 # File: src/www/services_upnp.php, line: 79
 msgid "You must specify a valid ip address in the 'Override WAN address' field"
 msgstr ""
+"Vous devez spécifier une adresse ip valide dans le champ 'Outrepasser "
+"l'adresse WAN'"
 
 # File: /usr/core/src/www/services_upnp.php, line: 95
 msgid "You must specify at least one internal interface."
-msgstr ""
+msgstr "Vous devez spécifier au moins une interface interne."
 
 # File: src/www/services_upnp.php, line: 76
 msgid "You cannot select the external interface as an internal interface."
 msgstr ""
+"Vous ne pouvez pas utiliser une interface externe à la place d'une interface "
+"interne."
 
 # File: /usr/core/src/www/services_upnp.php, line: 89
 msgid "It is a security risk to specify WAN as an internal interface."
 msgstr ""
+"Définir l'interface WAN comme interface interne constitue un risque de "
+"sécurité."
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
-msgstr ""
+msgstr "Au moins l'un des deux doit être autorisé 'UPnP' ou 'NAT-PMP'"
 
 # File: src/www/services_unbound.php, line: 441
 msgid ""
 "Entries in this area override an entire domain by specifying an "
 "authoritative DNS server to be queried for that domain."
 msgstr ""
+"Les entrées définies ici outrepassent un domaine entier en spécifiant un "
+"serveur DNS faisant autorité devant être interrogé pour ce domaine."
 
 # File: src/www/services_unbound_overrides.php, line: 124
 msgid ""
 "Keep in mind that all resource record types (i.e. A, AAAA, MX, etc. records) "
 "of a specified host below are being overwritten."
 msgstr ""
+"Garder à l'esprit que tous les types d'enregistrement (par ex. A, AAAA, MX, "
+"etc.) d'un hôte spécifié ci-dessous vont être ré écrits."
 
 # File: src/www/services_unbound_host_edit.php, line: 309
 msgid "Host name of MX host"
@@ -8522,7 +8657,7 @@ msgstr "pour des adresses IPv4 ou IPv6"
 
 # File: src/www/services_unbound_host_edit.php, line: 285
 msgid "Type of resource record"
-msgstr ""
+msgstr "Type d'enregistrement"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "MX (Mail server)"
@@ -8534,24 +8669,24 @@ msgstr "A ou AAAA (adresse IPv4 ou IPv6)"
 
 # File: src/www/services_unbound_host_edit.php, line: 198
 msgid "Edit DNS Resolver entry"
-msgstr ""
+msgstr "Modifier l'entrée du Résolveur DNS"
 
 # File: src/www/services_unbound_host_edit.php, line: 122
 msgid "A valid resource record type must be specified."
-msgstr ""
+msgstr "Un type d'enregistrement valide doit être spécifié."
 
 # File: src/www/services_unbound_host_edit.php, line: 118
 msgid "A valid MX host must be specified."
-msgstr ""
+msgstr "Un hôte MX valide doit être spécifié."
 
 # File: src/www/services_unbound_host_edit.php, line: 114
 msgid "A valid MX priority must be specified."
-msgstr ""
+msgstr "Une priorité MX valide doit être spécifiée."
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 298
 msgid "MX Priority"
-msgstr ""
+msgstr "Priorité MX"
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 306
@@ -8584,7 +8719,7 @@ msgstr "Sélectionnez la verbosité des traces."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 343
 msgid "Level"
-msgstr ""
+msgstr "Niveau"
 
 # File: src/www/services_unbound_advanced.php, line: 394
 msgid "Log level verbosity"
@@ -8598,6 +8733,13 @@ msgid ""
 "RRSet and message caches, hopefully flushing away any poison. The default is "
 "disabled, but if enabled a value of 10 million is suggested."
 msgstr ""
+"Si activé, un nombre total de réponses non désirées est gardé en mémoire "
+"pour chaque thread. Quand ce nombre atteint le seuil défini, une action "
+"défensive est mise en place et une alerte est inscrite dans le fichier "
+"journal. L'action défensive consiste à purger les caches messages et RRSet "
+"dans l'espoir que tout poison s'y trouvant sera également purgé. Par défaut, "
+"cette option est désactivée mais si elle doit l'être, une valeur de 10 "
+"million est suggérée."
 
 # File: src/www/services_unbound_advanced.php, line: 381
 msgid "50 million"
@@ -8625,7 +8767,7 @@ msgstr "désactivé"
 
 # File: src/www/services_unbound_advanced.php, line: 378
 msgid "Unwanted Reply Threshold"
-msgstr ""
+msgstr "Seuil de Réponses Non Désirées"
 
 # File: src/www/services_unbound_advanced.php, line: 373
 msgid "Number of hosts for which information is cached. The default is 10,000."
@@ -8662,6 +8804,9 @@ msgid ""
 "Time to live for entries in the host cache. The host cache contains "
 "roundtrip timing and EDNS support information. The default is 15 minutes."
 msgstr ""
+"Temps à vivre pour les entrées présentes dans le cache de l'hôte. Le cache "
+"de l'hôte contient les temps aller-retour ainsi que les informations de "
+"support EDNS. La valeur par défaut est 15 minutes."
 
 # File: src/www/services_unbound_advanced.php, line: 335
 # File: src/www/services_unbound_advanced.php, line: 350
@@ -8701,10 +8846,19 @@ msgid ""
 "owner intended. High values can lead to trouble as the data in the cache "
 "might not match up with the actual data anymore."
 msgstr ""
+"Configurez une valeur Time to live minimum pour RRsets et les messages "
+"présents dans le cache. La valeur par défaut est de 0 seconde. Si une valeur "
+"minimum est définie, les données seront conservées en cache plus longtemps "
+"que ce que le propriétaire du domaine avait prévu, ainsi moins de requêtes "
+"seront effectuées afin de récupérer les données. La valeur 0 permet de "
+"s'assurer que la valeur s'appliquant aux données présentes dans le cache est "
+"telle que définie par le propriétaire du domaine. Des valeurs supérieures "
+"peuvent engendrer certains problèmes car les données présentes dans le cache "
+"pourront ne plus correspondre avec les données réelles."
 
 # File: src/www/services_unbound_advanced.php, line: 324
 msgid "Minimum TTL for RRsets and messages"
-msgstr ""
+msgstr "TTL minimum pour RRsets et les messages"
 
 # File: src/www/services_unbound_advanced.php, line: 319
 msgid ""
@@ -8713,10 +8867,16 @@ msgid ""
 "item is expired. This can be configured to force the resolver to query for "
 "data more often and not trust (very large) TTL values."
 msgstr ""
+"Configurez une valeur Time to live maximum pour RRsets et les messages "
+"présents dans le cache. La valeur par défaut est de 86400 secondes (1 jour). "
+"Quand le TTL interne expire les éléments présents dans le cache expirent "
+"également. Ce paramètre peut être configurer afin de forcer le résolveur à "
+"émettre des requêtes plus souvent et ne pas se fier aux (très grandes) "
+"valeurs TTL."
 
 # File: src/www/services_unbound_advanced.php, line: 315
 msgid "Maximum TTL for RRsets and messages"
-msgstr ""
+msgstr "TTL maximum pour RRsets et les messages"
 
 # File: src/www/services_unbound_advanced.php, line: 310
 msgid ""
@@ -8730,7 +8890,7 @@ msgstr ""
 
 # File: src/www/services_unbound_advanced.php, line: 296
 msgid "Jostle Timeout"
-msgstr ""
+msgstr "Délai Anti-Engorgement"
 
 # File: src/www/services_unbound_advanced.php, line: 291
 msgid ""
@@ -8738,10 +8898,13 @@ msgid ""
 "queries arrive that need to be serviced, and no queries can be jostled, then "
 "these queries are dropped."
 msgstr ""
+"Le nombre de requêtes auquel chaque thread devra répondre simultanément. Si "
+"plus de requêtes devant être adressées arrivent et qu'aucune d'entre elle ne "
+"peut obtenir de réponses, alors ces requêtes seront abandonnées."
 
 # File: src/www/services_unbound_advanced.php, line: 277
 msgid "Number of queries per thread"
-msgstr ""
+msgstr "Nombre de requêtes par thread"
 
 # File: src/www/services_unbound_advanced.php, line: 272
 msgid ""
@@ -8752,6 +8915,14 @@ msgid ""
 "512 value bypasses most MTU path problems, but it can generate an excessive "
 "amount of TCP fallback."
 msgstr ""
+"La taille totale d'octets a annoncer comme taille de la mémoire tampon de "
+"réassemblage EDNS. Cela correspond à la valeur qui est utilisée dans des "
+"datagrammes UDP envoyés à leurs correspondants. La recommandation RFC est de "
+"4096 (ce qui est la valeur par défaut). Si vous rencontrez des problèmes de "
+"fragmentation du réassemblage, généralement la cause de délais d'attente "
+"expirés, une valeur de 1480 devrait corriger ce problème. Une valeur de 512 "
+"permet de contourner la plupart problèmes de MTU mais peut générer une "
+"quantité excessive de renvoi TCP."
 
 # File: src/www/services_unbound_advanced.php, line: 258
 msgid "EDNS Buffer Size"
@@ -8791,14 +8962,18 @@ msgid ""
 "amount. The RRSet cache contains the actual RR data. The default is 4 "
 "megabytes."
 msgstr ""
+"Taille du cache message. Le cache message stocke les rcodes DNS ainsi que "
+"les statuts de validation. Le cache RRSet sera quant à elle automatiquement "
+"doublée par rapport à cette dernière. Le cache RRSet contient les données "
+"réelles RR. La valeur par défaut est de 4 mégaoctets."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 177
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 # File: src/www/services_unbound_advanced.php, line: 201
 msgid "Message Cache Size"
-msgstr ""
+msgstr "Taille du Cache Message"
 
 # File: src/www/services_unbound_advanced.php, line: 197
 msgid ""
@@ -8806,10 +8981,14 @@ msgid ""
 "the zone becomes bogus. If this is disabled and no DNSSEC data is received, "
 "then the zone is made insecure."
 msgstr ""
+"La donnée DNSSEC est requise pour les zones avec autorités de certification. "
+"Si cette donnée est absente, la zone deviendra fausse. Si ce paramètre est "
+"désactivé et qu'aucune donnée DNSSEC n'est reçue, cette zone sera alors mise "
+"en danger."
 
 # File: src/www/services_unbound_advanced.php, line: 194
 msgid "Harden DNSSEC data"
-msgstr ""
+msgstr "Donnée DNSSEC renforcée"
 
 # File: src/www/services_unbound_advanced.php, line: 183
 msgid ""
@@ -8823,7 +9002,7 @@ msgstr ""
 
 # File: src/www/services_unbound_advanced.php, line: 180
 msgid "Prefetch DNS Key Support"
-msgstr ""
+msgstr "Support de Clef DNS pré-extraite"
 
 # File: src/www/services_unbound_advanced.php, line: 176
 msgid ""
@@ -8832,10 +9011,15 @@ msgid ""
 "10% more DNS traffic and load on the server, but frequently requested items "
 "will not expire from the cache."
 msgstr ""
+"Les éléments présents en cache message sont pré-extraits avant leur "
+"expiration de sorte à conserver le cache à jour. Quand elle est activée, "
+"cette option peut provoquer une augmentation de 10% du trafic DNS ainsi que "
+"de la charge du serveur, cependant les éléments fréquemment demandés situés "
+"dans le cache n'expireront pas."
 
 # File: src/www/services_unbound_advanced.php, line: 173
 msgid "Prefetch Support"
-msgstr ""
+msgstr "Support de la Pré-Extraction"
 
 # File: src/www/services_unbound_advanced.php, line: 169
 msgid "If enabled, version.server and version.bind queries are refused."
@@ -8855,24 +9039,26 @@ msgstr "Masquer Identité"
 
 # File: src/www/services_unbound_advanced.php, line: 156
 msgid "Advanced Resolver Options"
-msgstr ""
+msgstr "Options Avancées du Résolveur"
 
 # File: src/www/services_unbound_advanced.php, line: 132
 msgid "The configuration of the DNS Resolver, has been changed"
-msgstr ""
+msgstr "La configuration du résolveur DNS, a été modifiée"
 
 # File: src/www/services_unbound_acls.php, line: 325
 msgid "Access Lists to control access to the DNS Resolver can be defined here."
 msgstr ""
+"Les Listes d'Accès contrôlant l'accès au Résolveur DNS peuvent être définies "
+"ici."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 365
 msgid "allow"
-msgstr ""
+msgstr "autoriser"
 
 # File: src/www/system_camanager.php, line: 655
 # File: src/www/system_crlmanager.php, line: 602
 msgid "Internal"
-msgstr ""
+msgstr "Interne"
 
 # File: src/www/services_unbound_acls.php, line: 308
 msgid "Access List Name"
@@ -8880,7 +9066,7 @@ msgstr "Nom de la Liste d'Accès"
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 330
 msgid "From General settings"
-msgstr ""
+msgstr "Depuis les Réglages généraux"
 
 # File: src/www/firewall_rules_edit.php, line: 1164
 # File: src/www/services_unbound_acls.php, line: 289
@@ -8893,12 +9079,18 @@ msgid ""
 "within the netblock defined below. Used for cache snooping and ideally "
 "should only be configured for your administrative host."
 msgstr ""
+"Autoriser le Snoop: Cette action autorisera les accès récursifs et non "
+"récursifs depuis les hôtes situés a l'intérieur des blocs réseaux définis ci-"
+"dessous. Utilisé pour le cache snooping and devrait idéalement n'être "
+"configuré que pour votre hôte administratif."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 244
 msgid ""
 "Allow: This action allows queries from hosts within the netblock defined "
 "below."
 msgstr ""
+"Autoriser: Cette action autorise les requêtes depuis les hôtes situés à "
+"l'intérieur des blocs réseaux définis ci-dessous."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 243
 msgid ""
@@ -8906,32 +9098,39 @@ msgid ""
 "defined below, but sends a DNS rcode REFUSED error message back to the "
 "client."
 msgstr ""
+"Refuser: Cette action stoppera également les requêtes des hôtes situés a "
+"l'intérieur des blocs réseaux définis ci-dessous, mais renverra un message "
+"d'erreur de type DNS rcode REFUSED au client."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 242
 msgid ""
 "Deny: This action stops queries from hosts within the netblock defined below."
 msgstr ""
+"Nier: Cette action stoppera également les requêtes des hôtes situés a "
+"l'intérieur des blocs réseaux définis ci-dessous."
 
 # File: src/www/services_unbound_acls.php, line: 220
 msgid ""
 "Choose what to do with DNS requests that match the criteria specified below."
 msgstr ""
+"Choisissez le comportement à adopter envers les requêtes DNS qui "
+"correspondent aux critères spécifiés."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 237
 msgid "Allow Snoop"
-msgstr ""
+msgstr "Autoriser le Snoop"
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 234
 msgid "Refuse"
-msgstr ""
+msgstr "Refuser"
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 231
 msgid "Deny"
-msgstr ""
+msgstr "Nier"
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 228
 msgid "Allow"
-msgstr ""
+msgstr "Autoriser"
 
 # File: src/www/services_unbound_acls.php, line: 205
 msgid "Provide an Access List name."
@@ -8958,6 +9157,13 @@ msgid ""
 "obtained via DHCP or PPP on WAN if the &quot;Allow DNS server list to be "
 "overridden by DHCP/PPP on WAN&quot; is checked."
 msgstr ""
+"Si le Résolveur DNS est activé, le service DHCP (si activé) fournira "
+"automatiquement l'adresse IP du LAN en guise de serveur DNS aux clients DHCP "
+"de sorte à ce qu'ils utilisent le Résolveur DNS. Si le Transfert est activé, "
+"le Résolveur DNS utilisera les serveurs DNS définis dans %sSystème: "
+"Configuration générale%s ou ceux obtenus via le DHCP ou PPP par le WAN si "
+"l'option &quot;Autoriser la liste des serveurs DNS à être outrepassée par le "
+"DHCP/PPP du WAN&quot; est cochée."
 
 # File: /usr/core/src/www/services_unbound.php, line: 268
 msgid ""
@@ -8966,6 +9172,11 @@ msgid ""
 "all interfaces are used. Note that setting explicit outgoing interfaces only "
 "works when they are statically configured."
 msgstr ""
+"Utiliser une ou des interfaces réseaux différentes que le Résolveur DNS "
+"pourra utiliser pour envoyer les requêtes aux serveurs faisant autorité et "
+"recevoir leurs réponses. Par défaut toutes les interfaces sont utilisées. "
+"Veuillez noter que définir des interfaces de sortie explicites ne fonctionne "
+"que si ces dernières sont configurées de façon statique."
 
 # File: src/www/services_unbound.php, line: 259
 msgid "Outgoing Network Interfaces"
@@ -8976,6 +9187,8 @@ msgid ""
 "Enter any additional options you would like to add to the DNS Resolver "
 "configuration here."
 msgstr ""
+"Entrez ici les paramètres additionnels que vous souhaiteriez ajouter à la "
+"configuration du Résolveur DNS."
 
 # File: /usr/core/src/www/services_unbound.php, line: 245
 msgid "Custom options"
@@ -8986,10 +9199,13 @@ msgid ""
 "If this option is set, then any descriptions associated with Host entries "
 "and DHCP Static mappings will create a corresponding TXT record."
 msgstr ""
+"Si cette option est activée, alors toutes descriptions associées avec des "
+"entrées Hôtes et correspondances DHCP statiques créeront des enregistrements "
+"TXT correspondants."
 
 # File: src/www/services_unbound.php, line: 322
 msgid "TXT Comment Support"
-msgstr ""
+msgstr "Support des Commentaires TXT"
 
 # File: src/www/services_unbound.php, line: 315
 msgid ""
@@ -8997,10 +9213,14 @@ msgid ""
 "DNS Resolver, so that their name can be resolved. You should also set the "
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
+"Si cette option est activée, alors les correspondances DHCP statiques seront "
+"enregistrées dans le Résolveur DNS, de sorte à ce que leur nom puisse être "
+"résolu. Vous devriez également renseigner la valeur appropriée pour le "
+"domaine dans %sSystème: Configuration générale%s."
 
 # File: src/www/services_unbound.php, line: 314
 msgid "Register DHCP static mappings in the DNS Resolver"
-msgstr ""
+msgstr "Enregistrer les correspondances DHCP statiques dans le Résolveur DNS"
 
 # File: src/www/services_unbound.php, line: 303
 msgid ""
@@ -9009,6 +9229,11 @@ msgid ""
 "their name can be resolved. You should also set the domain in %sSystem: "
 "General setup%s to the proper value."
 msgstr ""
+"Si cette option est activée, alors les machines qui spécifient leur nom "
+"d'hôte lors de leur demande de bail DHCP seront enregistrées dans le "
+"Résolveur DNS, de sorte à ce que leur nom puisse être résolu. Vous devriez "
+"également renseigner la valeur appropriée pour le domaine dans %sSystème: "
+"Configuration générale%s."
 
 # File: src/www/services_unbound.php, line: 302
 msgid "Register DHCP leases in the DNS Resolver"
@@ -9016,7 +9241,7 @@ msgstr "Enregistrer les baux DHCP dans le Résolveur DNS"
 
 # File: src/www/services_unbound.php, line: 295
 msgid "Enable Forwarding Mode"
-msgstr ""
+msgstr "Activer le Mode Redirection"
 
 # File: src/www/services_unbound.php, line: 287
 msgid "Enable DNSSEC Support"
@@ -9033,6 +9258,12 @@ msgid ""
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
+"IPs des interfaces utilisées par le Résolveur DNS pour la réponse aux "
+"requêtes des clients. Si une interface possède à la fois une IP de type IPv4 "
+"et une IP de type IPv6, les deux sont alors utilisées. Les requêtes "
+"effectuées sur les IPs des interfaces qui n'ont pas été sélectionnées ne "
+"seront pas prises en en compte. Le comportement par défaut est de répondre "
+"aux requêtes sur chaque adresse IPv4 et IPv6 disponible."
 
 # File: src/www/services_unbound.php, line: 234
 # File: src/www/system_advanced_network.php, line: 229
@@ -9045,7 +9276,7 @@ msgstr "Activer le service de Résolution DNS"
 
 # File: src/www/services_unbound.php, line: 213
 msgid "General DNS Resolver Options"
-msgstr ""
+msgstr "Options Générales du Résolveur DNS"
 
 # File: src/www/services_unbound.php, line: 191
 msgid "The configuration for the DNS Resolver, has been changed"
@@ -9060,12 +9291,16 @@ msgid ""
 "A single outgoing network interface needs to be selected for the DNS "
 "Resolver to use for outgoing DNS requests."
 msgstr ""
+"Une seule interface réseau de sortie doit être sélectionnée pour le "
+"Résolveur DNS afin de permettre les requêtes DNS sortantes."
 
 # File: src/www/services_unbound.php, line: 92
 msgid ""
 "A single network interface needs to be selected for the DNS Resolver to bind "
 "to."
 msgstr ""
+"Une seule interface réseau doit être sélectionnée pour le Résolveur DNS afin "
+"de permettre le bind."
 
 # File: src/www/services_unbound.php, line: 89
 msgid ""
@@ -9077,11 +9312,11 @@ msgstr ""
 
 # File: src/www/services_snmp.php, line: 460
 msgid "Bind Interface"
-msgstr ""
+msgstr "Interface de Bind à utiliser "
 
 # File: src/www/services_snmp.php, line: 450
 msgid "Interface Binding"
-msgstr ""
+msgstr "Interface de Bind"
 
 # File: src/www/services_snmp.php, line: 435
 msgid "Regex"
@@ -9093,19 +9328,19 @@ msgstr "UCD"
 
 # File: src/www/services_snmp.php, line: 431
 msgid "Host Resources (Requires MibII)"
-msgstr ""
+msgstr "Ressources de l'Hôte (Requiert Mibll)"
 
 # File: src/www/services_snmp.php, line: 429
 msgid "PF"
-msgstr ""
+msgstr "PF"
 
 # File: src/www/services_snmp.php, line: 427
 msgid "Netgraph"
-msgstr ""
+msgstr "Netgraph"
 
 # File: src/www/services_snmp.php, line: 425
 msgid "MibII"
-msgstr ""
+msgstr "Mibll"
 
 # File: src/www/services_snmp.php, line: 423
 msgid "SNMP Modules"
@@ -9113,7 +9348,7 @@ msgstr "Modules SNMP"
 
 # File: src/www/services_snmp.php, line: 412
 msgid "Modules"
-msgstr ""
+msgstr "Modules"
 
 # File: src/www/services_snmp.php, line: 396
 msgid "Enter the SNMP trap string"
@@ -9156,7 +9391,7 @@ msgstr "Emplacement du système"
 
 # File: src/www/services_snmp.php, line: 306
 msgid "Enter the port to accept polling events on (default 161)"
-msgstr ""
+msgstr "Entrer le port devant accepter les événements polling (par défaut 161)"
 
 # File: src/www/services_snmp.php, line: 286
 msgid "SNMP Daemon"
@@ -9182,7 +9417,7 @@ msgstr "Caractère '#' invalide dans le nom du SNMP trap"
 
 # File: src/www/services_snmp.php, line: 88
 msgid "Polling Port"
-msgstr ""
+msgstr "Port de Polling"
 
 # File: src/www/services_snmp.php, line: 84
 msgid "Community"
@@ -9194,7 +9429,7 @@ msgstr "Caractère '#' invalide dans le nom de la communauté en lecture"
 
 # File: /usr/core/src/www/services_snmp.php, line: 76
 msgid "Invalid character (non ascii) in system contact"
-msgstr ""
+msgstr "Caractère invalide (non ascii) présent dans le champ contact système"
 
 # File: src/www/services_snmp.php, line: 80
 msgid "Invalid character '#' in system contact"
@@ -9203,6 +9438,7 @@ msgstr "Caractère '#' invalide dans le contact du système"
 # File: /usr/core/src/www/services_snmp.php, line: 70
 msgid "Invalid character (non ascii) in system location"
 msgstr ""
+"Caractère invalide (non ascii) présent dans le champ emplacement système"
 
 # File: src/www/services_snmp.php, line: 79
 msgid "Invalid character '#' in system location"
@@ -9213,6 +9449,8 @@ msgid ""
 "The maximum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"Laps de temps maximum autorisé entre l'envoi d'annonces routeur multicast "
+"non sollicitées depuis l'interface, en secondes."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 400
 msgid "Maximum Interval"
@@ -9223,6 +9461,8 @@ msgid ""
 "The minimum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"Laps de temps minimum autorisé entre l'envoi d'annonces routeur multicast "
+"non sollicitées depuis l'interface, en secondes."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
@@ -9233,20 +9473,24 @@ msgid ""
 "Enable the periodic sending of router advertisements and responding to "
 "router solicitations."
 msgstr ""
+"Activer l'envoi périodique d'annonces routeur et la réponse aux "
+"sollicitations du routeur."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 382
 msgid "RA Sending"
-msgstr ""
+msgstr "Envoi RA"
 
 # File: src/www/services_router_advertisements.php, line: 353
 msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
 "character as separator"
 msgstr ""
+"Le serveur RA peut optionnellement fournir une liste de recherche de "
+"domaine. Utiliser le caractère point-virgule comme séparateur "
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 367
 msgid "Use the DNS settings of the DHCPv6 server"
-msgstr ""
+msgstr "Utiliser les paramètres DNS du serveur DHCPv6"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 350
 msgid ""
@@ -9256,14 +9500,19 @@ msgid ""
 " Daemon will advertise to the subnet to which the router's interface is "
 "assigned."
 msgstr ""
+"Les sous-réseaux sont exprimés au format CIDR. Sélectionnez le masque CIDR "
+"approprié à chaque entrée. /128 indique un hôte IPv6 unique; /64 indique un "
+"réseau IPv6 normal; etc. Si aucun sous-réseau n'est indiqué ici, le démon "
+"Router Advertisement (RA) effectuera les annonces sur le sous-réseau sur "
+"lequel l'interface du routeur est assigné."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 308
 msgid "Bits"
-msgstr ""
+msgstr "Bits"
 
 # File: src/www/services_router_advertisements.php, line: 284
 msgid "RA Subnet(s)"
-msgstr ""
+msgstr "Sous-réseau(x) RA"
 
 # File: src/www/services_router_advertisements.php, line: 278
 msgid "Select the Interface for the Router Advertisement (RA) Daemon."
@@ -9279,11 +9528,11 @@ msgstr "Sélectionnez la Priorité pour le Service Avertissement Routeur (RA)."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 257
 msgid "Low"
-msgstr ""
+msgstr "Bas"
 
 # File: src/www/services_router_advertisements.php, line: 249
 msgid "Router Priority"
-msgstr ""
+msgstr "Priorité Routeur"
 
 # File: src/www/services_router_advertisements.php, line: 245
 msgid ""
@@ -9300,6 +9549,10 @@ msgid ""
 " DHCPv6 Server, \"Assisted\" for DHCPv6 Server assignment combined with "
 "Stateless Autoconfig"
 msgstr ""
+"Utilisez \"Routeur Seulement\" afin de n'annoncer que ce routeur, \"Non "
+"géré\" pour Router Advertising with Stateless Autoconfig, \"Géré\" pour "
+"l'assignation au travers d'un serveur DHCPv6, \"Assisté\" pour l'assignation "
+"au travers d'un serveur DHCPv6 combiné à Stateless Autoconfig"
 
 # File: src/www/services_router_advertisements.php, line: 243
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
@@ -9309,19 +9562,19 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 242
 msgid "Assisted"
-msgstr ""
+msgstr "Assisté"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 239
 msgid "Managed"
-msgstr ""
+msgstr "Géré"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 236
 msgid "Unmanaged"
-msgstr ""
+msgstr "Non géré"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 233
 msgid "Router Only"
-msgstr ""
+msgstr "Routeur Seulement"
 
 # File: src/www/services_dhcpv6.php, line: 499
 # File: src/www/services_router_advertisements.php, line: 228
@@ -9347,16 +9600,21 @@ msgid ""
 "static IP addresses. Only interfaces configured with a static IP will be "
 "shown."
 msgstr ""
+"Les Annonces Routeur ne peuvent seulement être activées sur les interfaces "
+"configurées avec des adresses IP statiques. Seules les interfaces "
+"configurées avec une adresse IP statique seront listées."
 
 # File: src/www/services_rfc2136_edit.php, line: 228
 msgid "Save &amp; Force Update"
-msgstr ""
+msgstr "Sauvegarder &amp; Forcer la Mise à Jour"
 
 # File: src/www/services_rfc2136_edit.php, line: 214
 msgid ""
 "If the interface IP is private, attempt to fetch and use the public IP "
 "instead."
 msgstr ""
+"Si l'IP de l'interface est privée, essayer de récupérer et utiliser "
+"l'adresse IP publique à la place. "
 
 # File: src/www/services_rfc2136_edit.php, line: 211
 msgid "Use Public IP"
@@ -9381,47 +9639,47 @@ msgstr "Zone"
 
 # File: src/www/services_rfc2136_edit.php, line: 184
 msgid "Key type"
-msgstr ""
+msgstr "Type de Clef"
 
 # File: src/www/services_rfc2136_edit.php, line: 181
 msgid "This must match the setting on the DNS server."
-msgstr ""
+msgstr "Celui-ci doit correspondre au paramètre défini sur le serveur DNS"
 
 # File: src/www/services_rfc2136_edit.php, line: 169
 msgid "Fully qualified hostname of the host to be updated."
-msgstr ""
+msgstr "Fully qualified hostname de l'hôte à mettre à jour."
 
 # File: src/www/services_rfc2136_edit.php, line: 113
 # File: src/www/services_rfc2136_edit.php, line: 142
 msgid "RFC 2136 client"
-msgstr ""
+msgstr "Client RFC 2136"
 
 # File: src/www/services_rfc2136_edit.php, line: 101
 msgid "New/Edited RFC2136 dnsupdate entry was posted."
-msgstr ""
+msgstr "Une entrée nouvelle/modifiée dnsupdate RFC2136 a été inscrite."
 
 # File: src/www/services_rfc2136_edit.php, line: 80
 msgid "The DNS update key name contains invalid characters."
-msgstr ""
+msgstr "Le nom de la clef DNS mise à jour contient des caractères invalides."
 
 # File: src/www/services_rfc2136_edit.php, line: 78
 msgid "The DNS update TTL must be an integer."
-msgstr ""
+msgstr "Le TTL DNS mis à jour doit être un entier."
 
 # File: src/www/services_rfc2136_edit.php, line: 76
 msgid "The DNS update host name contains invalid characters."
-msgstr ""
+msgstr "Le nom d'hôte DNS mis à jour contient des caractères invalides."
 
 # File: src/www/services_rfc2136_edit.php, line: 71
 # File: src/www/services_rfc2136_edit.php, line: 177
 msgid "Key name"
-msgstr ""
+msgstr "Nom de la clef"
 
 # File: src/www/load_balancer_relay_action_edit.php, line: 509
 # File: src/www/services_rfc2136_edit.php, line: 71
 # File: src/www/services_rfc2136_edit.php, line: 192
 msgid "Key"
-msgstr ""
+msgstr "Clef"
 
 # File: src/www/services_rfc2136.php, line: 168
 # File: src/www/vpn_openvpn_client.php, line: 1252
@@ -9442,12 +9700,18 @@ msgid ""
 "under 'Manage your networks'. Used to update the node's IP address whenever "
 "the WAN interface changes its IP address."
 msgstr ""
+"Entrez le nom du réseau configuré dans le %sDashboard Réseau d'OpenDNS%s à "
+"la section 'Gérer vos réseaux'. Utilisé pour mettre à jour l'adresse IP du "
+"nœud à chaque fois que l'interface WAN change d'adresse IP. "
 
 # File: src/www/services_opendns.php, line: 153
 msgid ""
 "Signon Username to log into your OpenDNS dashboard. It is used to "
 "automatically update the IP address of the registered network."
 msgstr ""
+"Nom d'utilisateur Signon utilisé pour l'accès à votre dashboard OpenDNS. Il "
+"est utilisé afin de mettre à jour automatiquement l'adresse IP du réseau "
+"enregistré."
 
 # File: /usr/core/src/www/services_opendns.php, line: 153
 msgid ""
@@ -9455,6 +9719,10 @@ msgid ""
 "General Setup page as well as ignore any DNS servers learned by DHCP/PPP on "
 "WAN and use the DNS servers from %s instead."
 msgstr ""
+"Activer le service OpenDNS modifiera les serveurs DNS configurés via la page "
+"Configuration Générale mais ignorera également tous les serveurs DNS qui "
+"auraient pu être découverts sur le WAN par DHCP/PPP et utilisera les "
+"serveurs DNS d'%s à la place."
 
 # File: src/www/services_opendns.php, line: 133
 msgid "Filter DNS requests using OpenDNS"
@@ -9466,23 +9734,28 @@ msgstr "Configuration d'OpenDNS"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "to reliably supply the time of each PPS pulse."
-msgstr ""
+msgstr "afin de fournir le temps à chaque pulsation PPS de façon fiable."
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "At least 3 additional time sources should be configured under"
 msgstr ""
+"Au moins 3 sources temporelles additionnelles devraient être configurées dans"
 
 # File: src/www/services_ntpd_pps.php, line: 130
 msgid ""
 "A PPS signal only provides a reference to the change of a second, so at "
 "least one other source to number the seconds is required."
 msgstr ""
+"Un signal PPS fournit seulement une référence à la variation d'une seconde, "
+"ainsi au moins une autre source est requise afin de compter les secondes."
 
 # File: src/www/services_ntpd_pps.php, line: 129
 msgid ""
 "A serial GPS may also be used, but the serial GPS driver would usually be "
 "the better option."
 msgstr ""
+"Un GPS série peut également être utilisé, mais généralement le driver du GPS "
+"série est une meilleure option."
 
 # File: src/www/services_ntpd_pps.php, line: 128
 msgid ""
@@ -9490,10 +9763,13 @@ msgid ""
 "signal from DCF77 (DE), JJY (JP), MSF (GB) or WWVB (US) may be used as a PPS "
 "reference for NTP."
 msgstr ""
+"Les appareils équipés d'une sortie Pulsation Par Seconde tels que les radios "
+"qui reçoivent un signal temporel depuis DCF77 (DE), JJY (JP), MSF (GB) ou "
+"WWVB (US) peuvent être utilisés comme référence PPS pour le NTP."
 
 # File: src/www/services_ntpd_pps.php, line: 206
 msgid "This may be used to change the PPS Clock ID"
-msgstr ""
+msgstr "Ce champ peut être utilisé afin de modifier l'ID de l'Horloge PPS."
 
 # File: src/www/services_ntpd_pps.php, line: 196
 msgid ""
@@ -9505,37 +9781,46 @@ msgstr ""
 
 # File: src/www/services_ntpd_pps.php, line: 188
 msgid "Enable kernel PPS clock discipline (default: disabled)."
-msgstr ""
+msgstr "Activer kernel PPS clock discipline (par défaut: désactivé)."
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock and just monitor this source."
 msgstr ""
+"Cela peut être utile si, pour certaines raisons, vous désirez qu'ntpd "
+"préfère l'utilisation d'une horloge différente et ne fasse que surveiller "
+"cette source."
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid "This may be used to change the PPS Clock stratum"
 msgstr ""
+"Ce paramètre peut être utilisé afin de modifier la strate de l'Horloge PPS."
 
 # File: src/www/services_ntpd_pps.php, line: 156
 msgid ""
 "Fudge time is used to specify the PPS signal offset from the actual second "
 "such as the transmission delay between the transmitter and the receiver."
 msgstr ""
+"Le paramètre fudge time est utilisé afin de spécifier la compensation du "
+"signal PPS par rapport à la seconde réelle tel que le délai de transmission "
+"entre le transmetteur et le receveur."
 
 # File: src/www/services_ntpd_pps.php, line: 147
 msgid "Fudge time"
-msgstr ""
+msgstr "Fudge time"
 
 # File: src/www/services_ntpd_pps.php, line: 148
 msgid ""
 "All serial ports are listed, be sure to pick the port with the PPS source "
 "attached."
 msgstr ""
+"Tous les ports séries sont listés, assurez vous de choisir le port sur "
+"lequel la source PPS est reliée."
 
 # File: src/www/services_ntpd_pps.php, line: 123
 msgid "NTP PPS Configuration"
-msgstr ""
+msgstr "Configuration PPS NTP"
 
 # File: src/www/services_ntpd_gps.php, line: 381
 msgid ""
@@ -9543,6 +9828,9 @@ msgid ""
 "ntpd may only use values from the unsynchronized local clock when providing "
 "time to clients."
 msgstr ""
+"afin de minimiser les dérives de l'horloge si les données GPS deviennent "
+"invalides. Par ailleurs ntpd peut n'utiliser que des valeurs provenant de "
+"l'horloge locale non synchronisée lors de la fourniture de temps aux clients."
 
 # File: src/www/services_ntpd_gps.php, line: 381
 # File: src/www/services_ntpd_pps.php, line: 132
@@ -9564,10 +9852,15 @@ msgid ""
 "GPS may also be used as a Pulse Per Second clock reference. NOTE: a USB GPS "
 "may work, but is not recommended due to USB bus timing issues."
 msgstr ""
+"Un GPS connecté via un port série peut être utilisé comme horloge de "
+"référence pour le NTP. Si le GPS supporte également PPS et est correctement "
+"configuré, et connecté, ce GPS peut également être utilisé comme référence "
+"d'horloge Pulsation Par Seconde. NOTE: un GPS USB peut fonctionner mais "
+"n'est pas recommandé en raison des latences provoquées par le bus USB."
 
 # File: src/www/services_ntpd_gps.php, line: 564
 msgid "Calculate NMEA checksum"
-msgstr ""
+msgstr "Calculer la somme de contrôle NMEA"
 
 # File: src/www/services_ntpd_gps.php, line: 563
 msgid "checksum"
@@ -9578,6 +9871,8 @@ msgid ""
 "Enter the text between &quot;$&quot; and &quot;*&quot; of a NMEA command "
 "string:"
 msgstr ""
+"Le texte de la ligne de commande NMEA doit être entré entre les caractères "
+"&quot;$&quot; et &quot;*&quot;:"
 
 # File: src/www/services_ntpd_gps.php, line: 561
 msgid "NMEA checksum calculator"
@@ -9603,7 +9898,7 @@ msgstr "Initialisation GPS"
 
 # File: src/www/services_ntpd_gps.php, line: 549
 msgid "This may be used to change the GPS Clock ID"
-msgstr ""
+msgstr "Ce champ peut être utilisé pour modifier l'ID de l'horloge GPS"
 
 # File: src/www/services_ntpd_gps.php, line: 548
 # File: src/www/services_ntpd_pps.php, line: 205
@@ -9613,7 +9908,7 @@ msgstr "(1 à 4 caractères)"
 # File: src/www/services_ntpd_gps.php, line: 524
 # File: src/www/services_ntpd_pps.php, line: 197
 msgid "Clock ID"
-msgstr ""
+msgstr "ID Horloge"
 
 # File: src/www/services_ntpd_gps.php, line: 539
 msgid ""
@@ -9621,33 +9916,41 @@ msgid ""
 "logged).<br />Note: enabling this will rapidly fill the log, but is useful "
 "for tuning Fudge time 2."
 msgstr ""
+"Consigner dans le journal la fraction de sous-seconde de l'horodatage reçu ("
+"par défaut: Non consigné).<br />Note: activer ce paramètre peut rapidement "
+"remplir le fichier journal, mais cela reste utile afin de procéder au "
+"réglage du Fudge time 2."
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr ""
+msgstr "Masquer la localisation dans l'horodatage (par défaut: non masqué)."
 
 # File: src/www/services_ntpd_gps.php, line: 523
 msgid "Enable kernel PPS clock discipline (default: enabled)."
-msgstr ""
+msgstr "Activer la discipline de l'horloge PPS du noyau (par défaut: activé)."
 
 # File: src/www/services_ntpd_gps.php, line: 515
 # File: src/www/services_ntpd_pps.php, line: 180
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
 msgstr ""
+"Activer le traitement du signal PPS en front descendant (par défaut: front "
+"montant)."
 
 # File: src/www/services_ntpd_gps.php, line: 507
 msgid "Enable PPS signal processing (default: enabled)."
-msgstr ""
+msgstr "Activer le traitement du signal PPS (par défaut: activé)."
 
 # File: src/www/services_ntpd_gps.php, line: 499
 msgid ""
 "NTP should not use this clock, it will be displayed for reference "
 "only(default: disabled)."
 msgstr ""
+"NTP ne devrait pas utiliser cette horloge, elle sera affichée seulement "
+"comme référence(par défaut: désactivé)."
 
 # File: src/www/services_ntpd_gps.php, line: 491
 msgid "NTP should prefer this clock (default: enabled)."
-msgstr ""
+msgstr "NTP devrait préférer cette horloge (par défaut: activé)."
 
 # File: src/www/services_ntpd_gps.php, line: 481
 # File: src/www/services_ntpd_pps.php, line: 170
@@ -9662,10 +9965,13 @@ msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock"
 msgstr ""
+"Ce paramètre peut être utile si, pour certaines raisons, vous vouliez "
+"qu'ntpd préfère l'utilisation d'une horloge différente"
 
 # File: src/www/services_ntpd_gps.php, line: 473
 msgid "This may be used to change the GPS Clock stratum"
 msgstr ""
+"Ce paramètre peut être utilisé afin de modifier la strate de l'Horloge GPS"
 
 # File: src/www/services_ntpd_gps.php, line: 472
 # File: src/www/services_ntpd_pps.php, line: 161
@@ -9678,19 +9984,21 @@ msgstr "Strate"
 
 # File: src/www/services_ntpd_gps.php, line: 467
 msgid "Fudge time 2 is used to specify the GPS time offset"
-msgstr ""
+msgstr "Fudge time 2 est utilisé afin de définir la compensation temporelle GPS"
 
 # File: src/www/services_ntpd_gps.php, line: 442
 msgid "Fudge time 2"
-msgstr ""
+msgstr "Fudge time 2"
 
 # File: src/www/services_ntpd_gps.php, line: 461
 msgid "Fudge time 1 is used to specify the GPS PPS signal offset"
 msgstr ""
+"Fudge time 1 est utilisé afin de définir le compensation temporelle du "
+"signal PPS GPS"
 
 # File: src/www/services_ntpd_gps.php, line: 436
 msgid "Fudge time 1"
-msgstr ""
+msgstr "Fudge time 1"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 msgid ""
@@ -9702,23 +10010,23 @@ msgstr ""
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 378
 msgid "ZDA or ZDG"
-msgstr ""
+msgstr "ZDA ou ZDG"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 377
 msgid "GLL"
-msgstr ""
+msgstr "GLL"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 376
 msgid "GGA"
-msgstr ""
+msgstr "GGA"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 375
 msgid "RMC"
-msgstr ""
+msgstr "RMC"
 
 # File: src/www/services_ntpd_gps.php, line: 423
 msgid "NMEA sentences"
-msgstr ""
+msgstr "Phrases NMEA"
 
 # File: src/www/services_ntpd_gps.php, line: 437
 msgid ""
@@ -9726,6 +10034,9 @@ msgid ""
 "many sentences. It is recommended to configure the GPS to send only one "
 "sentence at a baud rate of 4800 or 9600."
 msgstr ""
+"Note: Un débit en baud supérieur n'est généralement utile que si le GPS "
+"envoie trop de phrases. Il est recommandé de configurer le GPS de façon à ce "
+"que ce dernier n'envoie qu'une seule phrase à un débit de 4800 ou 9600 bauds."
 
 # File: src/www/services_ntpd_gps.php, line: 434
 msgid "Serial port baud rate."
@@ -9748,6 +10059,8 @@ msgid ""
 "The perdefined configurations assume your GPS has already been set to NMEA "
 "mode."
 msgstr ""
+"Les configurations prédéfinies supposent que votre GPS ait déjà été réglé en "
+"mode NMEA."
 
 # File: src/www/services_ntpd_gps.php, line: 400
 msgid "Select Generic if your GPS is not listed."
@@ -9755,7 +10068,7 @@ msgstr "Sélectionnez Générique si votre GPS ne figure pas dans la liste."
 
 # File: src/www/services_ntpd_gps.php, line: 397
 msgid "This option allows you to select a predefined configuration."
-msgstr ""
+msgstr "Cette option vous permet de sélectionner une configuration prédéfinie."
 
 # File: src/www/interfaces.php, line: 2686
 # File: src/www/interfaces_ppps_edit.php, line: 622
@@ -9765,15 +10078,15 @@ msgstr "Personnaliser"
 
 # File: src/www/services_ntpd_gps.php, line: 372
 msgid "SureGPS"
-msgstr ""
+msgstr "SureGPS"
 
 # File: src/www/services_ntpd_gps.php, line: 371
 msgid "U-Blox"
-msgstr ""
+msgstr "U-Blox"
 
 # File: src/www/services_ntpd_gps.php, line: 370
 msgid "SiRF"
-msgstr ""
+msgstr "SiRF"
 
 # File: src/www/services_ntpd_gps.php, line: 368
 msgid "Garmin"
@@ -9785,12 +10098,13 @@ msgstr "Générique"
 
 # File: src/www/services_ntpd_gps.php, line: 374
 msgid "NTP Serial GPS Configuration"
-msgstr ""
+msgstr "Configuration du GPS Série pour le NTP"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 55
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 57
 msgid "Clock stratum must be a number in the range 0..16"
 msgstr ""
+"La strate de l'horloge doit être un nombre compris dans l'intervalle 0..16"
 
 # File: src/www/services_ntpd.php, line: 390
 msgid "select a file to upload:"
@@ -9802,7 +10116,7 @@ msgstr "Ou"
 
 # File: src/www/services_ntpd.php, line: 388
 msgid "Enter Leap second configuration as text:"
-msgstr ""
+msgstr "Entrer la configuration de la seconde intercalaire sous forme de texte:"
 
 # File: src/www/services_ntpd.php, line: 386
 msgid "Normally this is only useful if this server is a stratum 1 time server."
@@ -9815,40 +10129,50 @@ msgid ""
 "A leap second file allows NTP to advertize an upcoming leap second addition "
 "or subtraction."
 msgstr ""
+"Un fichier seconde intercalaire permet au NTP d'annoncer l'addition ou la "
+"soustraction d'une prochaine seconde intercalaire."
 
 # File: src/www/services_ntpd.php, line: 382
 msgid "Show Leap second configuration"
-msgstr ""
+msgstr "Afficher la configuration de la Seconde intercalaire"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Leap seconds"
-msgstr ""
+msgstr "Secondes intercalaires"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Deny mode 6 control message trap service (default: enabled)."
 msgstr ""
+"Ne pas autoriser le service de trappe de message de contrôle en mode 6 (par "
+"défaut: activé)."
 
 # File: src/www/services_ntpd.php, line: 371
 msgid "Deny packets that attempt a peer association (default: enabled)."
 msgstr ""
+"Ne pas autoriser les paquets qui tente d'établir une association de pair ("
+"par défaut: activé)."
 
 # File: src/www/services_ntpd.php, line: 368
 msgid "Disable all except ntpq and ntpdc queries (default: disabled)."
 msgstr ""
+"Tout désactiver à l'exception des requêtes ntpq et ntpdc (par défaut: "
+"désactivé)."
 
 # File: src/www/services_ntpd.php, line: 365
 msgid "Disable ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "Désactiver les requêtes ntpq et ntpdc (par défaut: désactivé)."
 
 # File: src/www/services_ntpd.php, line: 362
 msgid ""
 "Deny state modifications (i.e. run time configuration) by ntpq and ntpdc "
 "(default: enabled)."
 msgstr ""
+"Ne pas autoriser les modifications d'état (c-à-d configuration de "
+"l'exécution) par ntpq et ntpdc (par défaut: activé)."
 
 # File: src/www/services_ntpd.php, line: 359
 msgid "Enable Kiss-o'-death packets (default: enabled)."
-msgstr ""
+msgstr "Activer les paquets Kiss-o'-death (par défaut: activé)."
 
 # File: src/www/services_ntpd.php, line: 356
 msgid "these options control access to NTP from the WAN."
@@ -9865,18 +10189,26 @@ msgstr "Restrictions d'accès"
 # File: src/www/services_ntpd.php, line: 345
 msgid "Enable logging of NTP peer statistics (default: disabled)."
 msgstr ""
+"Activer la journalisation des statistiques de pair NTP (par défaut: "
+"désactivé)."
 
 # File: src/www/services_ntpd.php, line: 342
 msgid "Enable logging of clock discipline statistics (default: disabled)."
 msgstr ""
+"Activer la journalisation des statistiques pour la discipline de l'horloge ("
+"par défaut: désactivé)."
 
 # File: src/www/services_ntpd.php, line: 339
 msgid "Enable logging of reference clock statistics (default: disabled)."
 msgstr ""
+"Activer la journalisation des statistiques de l'horloge de référence (par "
+"défaut: désactivé)."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 324
 msgid "These options will create persistent daily log files in /var/log/ntp."
 msgstr ""
+"Ces options créeront quotidiennement des fichiers journaux persistant dans "
+"/var/log/ntp."
 
 # File: src/www/services_ntpd.php, line: 333
 msgid "Show statistics logging options"
@@ -9905,10 +10237,11 @@ msgstr "Activer la journalisation des messages système (par défaut: désactiv�
 # File: src/www/services_ntpd.php, line: 323
 msgid "Enable logging of peer messages (default: disabled)."
 msgstr ""
+"Activer la journalisation des messages des pairs (par défaut: désactivé)."
 
 # File: src/www/services_ntpd.php, line: 313
 msgid "Syslog logging"
-msgstr ""
+msgstr "Journalisation syslog"
 
 # File: src/www/services_ntpd.php, line: 314
 msgid "Enable rrd graphs of NTP statistics (default: disabled)."
@@ -9925,6 +10258,12 @@ msgid ""
 "and should normally be set to a number high enough to insure that any other "
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
+"Le mode orphelin permet à l'horloge système d'être utilisée lorsque aucune "
+"autre horloge n'est disponible. Le nombre défini ici précise la strate "
+"déclarée lors de l'utilisation du mode orphelin et devrait normalement être "
+"configuré avec un nombre suffisamment élevé afin de s'assurer qu'aucun autre "
+"serveur à disposition des clients ne soit préféré à ce serveur. (par défaut: "
+"12)."
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "(0-15)"
@@ -9932,19 +10271,24 @@ msgstr "(0-15)"
 
 # File: src/www/services_ntpd.php, line: 299
 msgid "Orphan mode"
-msgstr ""
+msgstr "Mode orphelin"
 
 # File: src/www/services_ntpd.php, line: 294
 msgid ""
 "The %snoselect%s option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
+"L'option %sNe pas utiliser%s indique que le service NTP ne devrait pas "
+"utiliser le ce serveur pour le temps, cependant les statistiques pour ce "
+"serveur seront collectées et affichées."
 
 # File: src/www/services_ntpd.php, line: 292
 msgid ""
 "The %sprefer%s option indicates that NTP should favor the use of this server "
 "more than all others."
 msgstr ""
+"L'option %sPréférer%s indique que le service NTP devrait favoriser "
+"l'utilisation de ce serveur d'avantage que n'importe quel autre."
 
 # File: src/www/services_ntpd.php, line: 296
 msgid "For best results three to five servers should be configured here."
@@ -9952,11 +10296,11 @@ msgstr "Pour de meilleurs résultats de 3 à 5 serveurs devraient être configur
 
 # File: /usr/core/src/www/services_ntpd.php, line: 242
 msgid "Do not use"
-msgstr ""
+msgstr "Ne pas utiliser"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 241
 msgid "Prefer"
-msgstr ""
+msgstr "Préférer"
 
 # File: src/www/services_ntpd.php, line: 261
 msgid "Time servers"
@@ -9967,6 +10311,8 @@ msgid ""
 "Selecting all interfaces will explicitly listen on only the interfaces/IPs "
 "specified."
 msgstr ""
+"Sélectionner toutes les interfaces provoquera l'écoute explicite sur les "
+"seules interfaces/IPs spécifiées."
 
 # File: src/www/services_ntpd.php, line: 265
 msgid "Selecting no interfaces will listen on all interfaces with a wildcard."
@@ -9980,7 +10326,7 @@ msgstr "Configuration du serveur NTP"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 72
 msgid "Orphan mode must be a value between 0..15"
-msgstr ""
+msgstr "Le mode orphelin doit être une valeur comprise dans l'intervalle 0..15"
 
 # File: src/www/firewall_aliases_edit.php, line: 461
 # File: src/www/services_igmpproxy_edit.php, line: 224
@@ -9994,6 +10340,9 @@ msgid ""
 "TTL than the threshold value will be ignored. This setting is optional, and "
 "by default the threshold is 1."
 msgstr ""
+"Défini le seuil TTL pour l'interface réseau. Les paquets comportant un TTL "
+"dont la valeur sera plus basse que ce seuil seront ignorés. Ce paramètre est "
+"facultatif, et par défaut le seuil est 1."
 
 # File: src/www/services_igmpproxy_edit.php, line: 206
 msgid "Threshold"
@@ -10005,6 +10354,10 @@ msgid ""
 "destination networks, where multicast clients can join groups and receive "
 "multicast data. One or more downstream interfaces must be configured."
 msgstr ""
+"Les interfaces réseaux descendantes sont les interfaces de distribution pour "
+"les réseaux de destination, où les clients multicast peuvent se joindre à "
+"des groupes et recevoir des données multicast. Une ou plusieurs interfaces "
+"descendantes doivent être configurées."
 
 # File: /usr/core/src/www/services_igmpproxy_edit.php, line: 191
 msgid ""
@@ -10012,10 +10365,13 @@ msgid ""
 "responsible for communicating to available multicast data sources. There can "
 "only be one upstream interface."
 msgstr ""
+"L'interface réseau montante est l'interface de sortie qui est responsable "
+"des communications avec les sources de données multicast disponibles. Il ne "
+"peut y avoir qu'une seule interface montante."
 
 # File: src/www/services_igmpproxy_edit.php, line: 189
 msgid "Downstream Interface"
-msgstr ""
+msgstr "Interface Descendante"
 
 # File: src/www/services_igmpproxy_edit.php, line: 188
 msgid "Upstream Interface"
@@ -10027,7 +10383,7 @@ msgstr "Définir le Proxy IGMP"
 
 # File: src/www/services_igmpproxy_edit.php, line: 65
 msgid "Only one 'upstream' interface can be configured."
-msgstr ""
+msgstr "Seule une interface 'montante' ne peut être configurée."
 
 # File: src/www/services_igmpproxy.php, line: 141
 msgid ""
@@ -10035,14 +10391,18 @@ msgid ""
 "downstream interfaces you would like the proxy to allow. Only one 'upstream' "
 "interface can be configured."
 msgstr ""
+"Veuillez, s'il vous plaît, ajouter les interfaces pour les flux montants et "
+"descendants, ainsi que les sous-réseaux autorisés pour lesquels vous "
+"souhaiteriez autoriser le proxy. Seule une interface 'montante' ne peut être "
+"configurée."
 
 # File: src/www/services_igmpproxy.php, line: 126
 msgid "edit igmpentry"
-msgstr ""
+msgstr "modifier l'entrée igmp"
 
 # File: /usr/core/src/www/services_igmpproxy.php, line: 101
 msgid "The IGMP entry list has been changed."
-msgstr ""
+msgstr "La liste des entrées IGMP a été modifiée."
 
 # File: src/www/services_igmpproxy.php, line: 127
 msgid ""
@@ -10054,7 +10414,7 @@ msgstr ""
 
 # File: src/www/services_igmpproxy.php, line: 69
 msgid "add a new igmpentry"
-msgstr ""
+msgstr "Ajouter une nouvelle entrée igmp"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 406
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 242
@@ -10063,6 +10423,10 @@ msgid ""
 "DNS server list to be overridden by DHCP/PPP on WAN for dynamic DNS updates "
 "to work."
 msgstr ""
+"Vous devez configurer un serveur DNS dans %sSystème: Configuration générale%"
+"s ou permettre à la liste des serveurs DNS d'être outrepassée par le DHCP/"
+"PPP sur le WAN de façon à ce que les mises à jours du DNS dynamique "
+"fonctionnent."
 
 # File: src/www/services_dyndns_edit.php, line: 436
 # File: src/www/services_rfc2136_edit.php, line: 103
@@ -10071,7 +10435,7 @@ msgstr "Sauvegarder & Forcer la mise à jour"
 
 # File: src/www/services_dyndns_edit.php, line: 419
 msgid "Choose TTL for your dns record."
-msgstr ""
+msgstr "Choisissez un TTL pour vos enregistrements dns."
 
 # File: src/www/services_dyndns_edit.php, line: 416
 # File: src/www/services_rfc2136_edit.php, line: 71
@@ -10085,12 +10449,17 @@ msgid ""
 ") and carriage returns (\\r) at the beginning or end of the returned results "
 "are removed before comparison."
 msgstr ""
+"Les tabulations (\\t), nouvelles lignes (\\n"
+") et retours chariots (\\r) au début ou à la fin des résultats renvoyés sont "
+"retirés avant comparaison."
 
 # File: src/www/services_dyndns_edit.php, line: 409
 msgid ""
 "If you need to include multiple possible values, separate them with a |.  If "
 "your provider includes a |, escape it with \\|"
 msgstr ""
+"Si vous devez inclure plusieurs valeurs possibles, séparez les avec un |.  "
+"Si votre fournisseur comporte un |, échappez le avec \\|"
 
 # File: src/www/services_dyndns_edit.php, line: 407
 msgid ""
@@ -10098,6 +10467,9 @@ msgid ""
 "if the update succeeds, leave it blank to disable checking of returned "
 "results."
 msgstr ""
+"La valeur de ce champ doit être identique à celle renvoyée par votre "
+"Fournisseur DNS dynamique si la mise à jour réussie, laissez le champ vide "
+"pour désactiver la vérification des résultats renvoyés."
 
 # File: src/www/services_dyndns_edit.php, line: 403
 msgid "This field is only used by Custom Dynamic DNS Entries."
@@ -10107,36 +10479,42 @@ msgstr ""
 
 # File: src/www/services_dyndns_edit.php, line: 400
 msgid "Result Match"
-msgstr ""
+msgstr "Correspondance du Résultat"
 
 # File: src/www/services_dyndns_edit.php, line: 396
 # File: src/www/services_dyndns_edit.php, line: 407
 msgid ""
 "If you need the new IP to be included in the request, put %IP% in its place."
 msgstr ""
+"Si vous avez besoin que la nouvelle IP soit inclue dans la requête, insérez "
+"%IP% à sa place."
 
 # File: src/www/services_dyndns_edit.php, line: 394
 msgid ""
 "This is the only field required by for Custom Dynamic DNS, and is only used "
 "by Custom Entries."
 msgstr ""
+"Il s'agit du seul champ requis par le DNS Dynamique Personnalisé, et ce "
+"dernier est uniquement utilisé par les Entrées Personnalisées."
 
 # File: src/www/services_dyndns_edit.php, line: 387
 msgid ""
 "Enter Zone ID that you received when you created your domain in Route 53."
 msgstr ""
+"Entrer l'ID de la Zone que vous avez reçu lors de la création de votre "
+"domaine chez Route 53."
 
 # File: src/www/services_dyndns_edit.php, line: 384
 msgid "Zone ID"
-msgstr ""
+msgstr "ID de la Zone"
 
 # File: src/www/services_dyndns_edit.php, line: 379
 msgid "Duck DNS: Leave blank."
-msgstr ""
+msgstr "Avec Duck DNS: Laissez vide."
 
 # File: src/www/services_dyndns_edit.php, line: 378
 msgid "Route 53: Enter your Secret Access Key."
-msgstr ""
+msgstr "Avec Route 53: Entrez votre Clef d'Accès Secrète."
 
 # File: src/www/services_dyndns_edit.php, line: 377
 msgid ""
@@ -10157,21 +10535,23 @@ msgstr ""
 
 # File: src/www/services_dyndns_edit.php, line: 368
 msgid "Duck DNS: Enter your Token."
-msgstr ""
+msgstr "Avec Duck DNS: Entrez votre Jeton."
 
 # File: src/www/services_dyndns_edit.php, line: 367
 msgid "Route 53: Enter your Access Key ID."
-msgstr ""
+msgstr "Avec Route 53: Entrez votre ID de Clef d'Accès."
 
 # File: src/www/services_dyndns_edit.php, line: 366
 msgid ""
 "Username is required for all types except Namecheap, FreeDNS and Custom "
 "Entries."
 msgstr ""
+"Le nom d'utilisateur est requis pour tous les types excepté Namecheap, "
+"FreeDNS et les Entrées Personnalisées."
 
 # File: src/www/services_dyndns_edit.php, line: 359
 msgid "Verify SSL peer"
-msgstr ""
+msgstr "Vérifier le pair SSL"
 
 # File: src/www/services_dyndns_edit.php, line: 357
 msgid "Force IPv4 resolving"
@@ -10183,7 +10563,7 @@ msgstr "Options CURL"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 325
 msgid "Enable verbose logging"
-msgstr ""
+msgstr "Activer la journalisation verbeuse"
 
 # File: src/www/services_dyndns_edit.php, line: 348
 msgid "Verbose logging"
@@ -10191,17 +10571,19 @@ msgstr "Rapport verbeux"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 318
 msgid "Enable Wildcard"
-msgstr ""
+msgstr "Activer Wildcard"
 
 # File: src/www/services_dyndns_edit.php, line: 342
 msgid "Wildcards"
-msgstr ""
+msgstr "Wildcards"
 
 # File: src/www/services_dyndns_edit.php, line: 338
 msgid ""
 "Set this option only if you need a special MX record. Not all services "
 "support this."
 msgstr ""
+"Paramétrez cette option uniquement si vous avez besoin d'un enregistrement "
+"MX spécial. Tous les services ne supportent pas ce paramètre."
 
 # File: src/www/services_dyndns_edit.php, line: 338
 msgid ""
@@ -10217,19 +10599,21 @@ msgstr "MX"
 
 # File: src/www/services_dyndns_edit.php, line: 327
 msgid "For he.net tunnelbroker, enter your tunnel ID"
-msgstr ""
+msgstr "Pour l'agent de tunnel HE.net, entrez votre ID de tunnel."
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 298
 msgid "Enter the complete host/domain name. example: myhost.dyndns.org"
-msgstr ""
+msgstr "Entrer votre nom d'hôte/domaine complet. example: monhôte.dyndns.org"
 
 # File: src/www/services_dyndns_edit.php, line: 315
 msgid "Note: This is almost always the same as the Interface to Monitor."
 msgstr ""
+"Note: La plus part du temps il s'agit de la même interface que celle devant "
+"être surveillée."
 
 # File: src/www/services_dyndns_edit.php, line: 293
 msgid "Interface to send update from"
-msgstr ""
+msgstr "Interface à partir de laquelle envoyer les mises à jour"
 
 # File: src/www/services_dyndns_edit.php, line: 268
 # File: src/www/services_rfc2136_edit.php, line: 153
@@ -10282,7 +10666,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dyndns.php, line: 169
 # File: /usr/core/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 78
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 # File: src/www/services_dyndns.php, line: 92
 # File: src/www/services_rfc2136.php, line: 85
@@ -10322,7 +10706,7 @@ msgstr "Nom de l'hôte, sans le nom de domaine"
 
 # File: src/www/services_dnsmasq_edit.php, line: 198
 msgid "Edit DNS Forwarder entry"
-msgstr ""
+msgstr "Modifier l'entrée DNS Forwarder"
 
 # File: src/www/services_dnsmasq_edit.php, line: 128
 # File: src/www/services_unbound_host_edit.php, line: 127
@@ -10332,13 +10716,15 @@ msgstr "L'hôte/domaine existe déjà."
 # File: src/www/services_dnsmasq_edit.php, line: 117
 # File: src/www/services_unbound_host_edit.php, line: 117
 msgid "A valid domain must be specified in alias list."
-msgstr ""
+msgstr "Un domaine valide doit être spécifié dans la liste d'alias."
 
 # File: src/www/services_dnsmasq_edit.php, line: 114
 # File: src/www/services_unbound_host_edit.php, line: 115
 msgid ""
 "Hostnames in alias list can only contain the characters A-Z, 0-9 and '-'."
 msgstr ""
+"Les noms d'hôtes présents dans la liste d'alias ne peuvent contenir que les "
+"caractères A-Z, 0-9 et '-'."
 
 # File: src/www/services_dnsmasq_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 110
@@ -10355,6 +10741,8 @@ msgstr ""
 msgid ""
 "Source IP address for queries to the DNS server for the override domain."
 msgstr ""
+"Adresse IP source pour les requêtes vers le serveur DNS pour le domaine "
+"outrepassé."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 150
 msgid "Source IP"
@@ -10363,17 +10751,24 @@ msgstr "IP source"
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 174
 msgid "Specify a non standard port number here, leave blank for default"
 msgstr ""
+"Spécifier un numéro de port non standard ici, laissez vide pour utiliser la "
+"valeur par défaut."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 147
 msgid ""
 "Or enter # for an exclusion to pass through this host/subdomain to standard "
 "nameservers instead of a previous override."
 msgstr ""
+"Ou entrer # pour un exclusion afin de passer à travers cet hôte/sous-domaine "
+"vers des serveurs de noms standard au lieu d'utiliser une dérogation "
+"précédente."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 147
 msgid ""
 "Or enter ! for lookups for this host/subdomain to NOT be forwarded anywhere."
 msgstr ""
+"Ou entrer ! afin que les recherches destinés à cet hôte/sous-domaine ne "
+"soient transférées NULLE PART."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 146
 # File: src/www/services_unbound_domainoverride_edit.php, line: 144
@@ -20791,7 +21186,6 @@ msgid "Protocol"
 msgstr "Protocole"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 170
-#, fuzzy
 msgid "#"
 msgstr "#"
 
