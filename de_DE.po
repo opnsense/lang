@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 20:07+0000\n"
+"POT-Creation-Date: 2016-10-24 05:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1513,9 +1513,9 @@ msgid ""
 "input value has to be something between 100 bytes/sec and 100 Mbytes/sec ("
 "entered as bytes per second)"
 msgstr ""
-"Maximaler ausgehende Bandbreite für diesen Tunnel. Lassen Sie es leer wenn "
-"Sie kein Limit wünschen. Die eigegebene Wert muss etwas zwischen 100 Bytes/"
-"Sekunde und 100 MBytes/Sekunde (eigengeben als Bytes pro Sekunde) liegen"
+"Maximale ausgehende Bandbreite für diesen Tunnel. Lassen Sie es leer wenn "
+"Sie kein Limit wünschen. Der eingegebene Wert muss zwischen 100 Bytes/Sekunde "
+"und 100 MBytes/Sekunde liegen (eingegeben als Bytes pro Sekunde)"
 
 msgid "Limit outgoing bandwidth"
 msgstr "Bandbreitenbeschränkung ausgehend"
@@ -1889,7 +1889,7 @@ msgid ""
 "Enforce the type of NAT by choosing either NAT or BINAT. Leave it to Auto to "
 "let OPNsense automatically choose the best NAT option."
 msgstr ""
-"Erzwinge ten NAT-Typ durch die Auswahl von NAT oder BINAT. Lassen Sie es auf "
+"Erzwinge den NAT-Typ durch die Auswahl von NAT oder BINAT. Lassen Sie es auf "
 "Automatisch, damit OPNsense die beste NAT-Option wählen kann."
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
@@ -4677,6 +4677,9 @@ msgid ""
 "Time in seconds in which this server and the token may differ, default is 10 "
 "seconds. Set higher for a less secure easier match."
 msgstr ""
+"Zeit in Sekunden, die der Server und das Token voneinander abweichen dürfen. "
+"Standard ist 10 Sekunden. Setzen Sie es höher für eine wahrscheinlichere "
+"aber unsicherere Übereinstimmung."
 
 # File: /usr/core/src/www/system_authservers.php, line: 730
 msgid "Grace period"
@@ -4758,7 +4761,7 @@ msgid "Services offered"
 msgstr "Angebotene Dienste"
 
 msgid "User naming attribute"
-msgstr ""
+msgstr "Benutzerbenennungsattribut"
 
 # File: src/www/system_authservers.php, line: 581
 msgid "Novell eDirectory"
@@ -4938,7 +4941,7 @@ msgid "Authentication container"
 msgstr "Authentifizierungscontainer"
 
 msgid "User naming Attribute"
-msgstr ""
+msgstr "Benutzerbenennungsattribut"
 
 msgid "Search level"
 msgstr "Suchlevel"
@@ -5178,7 +5181,7 @@ msgstr "Deaktiviere VLAN Hardware Filterung"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 146
 msgid "Enable VLAN Hardware Filtering"
-msgstr ""
+msgstr "Aktiviere VLAN-Hardwarefilterung"
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid "VLAN Hardware Filtering"
@@ -5232,7 +5235,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr ""
+msgstr "Verwende ein Speicherdateisystem für /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
@@ -5271,7 +5274,7 @@ msgid "Hiadaptive"
 msgstr ""
 
 msgid "On AC Power Mode"
-msgstr ""
+msgstr "Im Netzspannungsmodus"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 343
 msgid ""
@@ -5360,6 +5363,10 @@ msgid ""
 "attempt to read the temperature from an ACPI-compliant motherboard sensor "
 "instead, if one is present."
 msgstr ""
+"Falls Sie eine unterstützte CPU haben, wird durch die Auswahl eines "
+"Wärmesensors der passende Treiber zum Lesen der Temperatur geladen. Durch "
+"das Setzen auf 'Keiner' wird versucht, die Temperatur über einen Sensor auf "
+"dem Motherboard, sofern einer vorhanden ist, zu ermitteln."
 
 msgid "None/ACPI"
 msgstr "Keine/ACPI"
@@ -7584,7 +7591,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 400
 msgid "Maximum Interval"
-msgstr "Maximaler Intervall"
+msgstr "Maximales Intervall"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 395
 msgid ""
@@ -7594,7 +7601,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
-msgstr "Minimaler Intervall"
+msgstr "Minimales Interval"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 386
 msgid ""
