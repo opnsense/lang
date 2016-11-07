@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-24 05:31+0000\n"
+"POT-Creation-Date: 2016-11-07 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1514,8 +1514,8 @@ msgid ""
 "entered as bytes per second)"
 msgstr ""
 "Maximale ausgehende Bandbreite für diesen Tunnel. Lassen Sie es leer wenn "
-"Sie kein Limit wünschen. Der eingegebene Wert muss zwischen 100 Bytes/Sekunde "
-"und 100 MBytes/Sekunde liegen (eingegeben als Bytes pro Sekunde)"
+"Sie kein Limit wünschen. Der eingegebene Wert muss zwischen 100 Bytes/"
+"Sekunde und 100 MBytes/Sekunde liegen (eingegeben als Bytes pro Sekunde)"
 
 msgid "Limit outgoing bandwidth"
 msgstr "Bandbreitenbeschränkung ausgehend"
@@ -7601,7 +7601,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
-msgstr "Minimales Interval"
+msgstr "Minimales Intervall"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 386
 msgid ""
@@ -9784,6 +9784,9 @@ msgid ""
 "Redirections are translated to pf(4) rdr-to rules for stateful forwarding to "
 "a target host from a health-checked table on layer 3."
 msgstr ""
+"Weiterleitungen werden auf pf(4) rdr-to-Regeln übersetzt, die für "
+"statusbeibehaltende Weiterleitung an einen Zielhost aus einer "
+"Gesundheitsüberprüften Tabelle auf Layer 3 ermöglichen."
 
 msgid "This option is NOT compatible with the DNS relay protocol."
 msgstr "Die Option ist NICHT mit dem DNS-Relay-Protokoll kompatibel."
@@ -9827,6 +9830,9 @@ msgid ""
 "on. All connections to this IP and port will be forwarded to the pool "
 "cluster."
 msgstr ""
+"Es ist üblicherweise die WAN-IP-Adresse auf der Sie wollen, dass der Server "
+"hört. Alle Verbindungen zu dieser IP und diesem Port werden an den "
+"Clusterpool weitergeleitet."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
 msgid "Add/edit - Virtual Server entry"
@@ -9856,12 +9862,14 @@ msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
 msgstr ""
+"Der virtuelle Servername wird bereits verwendet. Virtuelle Servernamen "
+"müssen einmalig sein."
 
 msgid "Relay Protocol"
 msgstr "Relay-Protokoll"
 
 msgid "Fall Back Pool"
-msgstr ""
+msgstr "Ersatzpool"
 
 msgid "Pool"
 msgstr "Pool"
@@ -9894,6 +9902,8 @@ msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
 msgstr ""
+"Anzahl an Prozessen, die von relayd für das DNS-Protokoll verwendet werden. "
+"Lassen Sie es leer für den Standardwert von 5 Prozessen"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 145
 msgid "Prefork"
@@ -9957,6 +9967,8 @@ msgstr ""
 msgid ""
 "You may also specify a port alias listed in Firewall -&gt; Aliases here."
 msgstr ""
+"Sie können hier auch einen Portalias angeben, der in Firewall -&gt; Aliase "
+"gelistet ist."
 
 msgid "This is the port your servers are listening on."
 msgstr "Das ist der Port, auf dem Ihre Server hören."
@@ -10202,7 +10214,7 @@ msgid ""
 msgstr ""
 
 msgid "First level tag"
-msgstr ""
+msgstr "Erststufige Markierung"
 
 msgid "Only QinQ capable interfaces will be shown."
 msgstr "Nur QinQ fähige Schnittstellen werden angezeigt."
@@ -10214,6 +10226,8 @@ msgid ""
 "A normal VLAN exists with this tag please remove it to use this tag for QinQ "
 "first level."
 msgstr ""
+"Ein normales VLAN mit dieser Markierung existiert bereits. Entfernen Sie es "
+"um diese Markierung um sie für die erste Stufe eines QinQ zu verwenden."
 
 msgid "QinQ level already exists for this interface, edit it!"
 msgstr ""
@@ -10230,7 +10244,7 @@ msgid ""
 msgstr ""
 
 msgid "First level tag cannot be empty."
-msgstr ""
+msgstr "Erststufige Markierung kann nicht leer sein."
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 166
 msgid ""
@@ -10262,6 +10276,8 @@ msgid ""
 "MRRU: Set ONLY for MLPPP connections. MRRU will be auto-negotiated by "
 "default."
 msgstr ""
+"MRRU: NUR für MLPPP-Verbindungen setzen. MRRU wird standardmäßig automatisch "
+"bestimmt."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 790
 msgid "MRU: MRU will be auto-negotiated by default."
@@ -11845,6 +11861,8 @@ msgstr "Schnittstellen Statement"
 msgid ""
 "Send an IPv6 prefix hint to indicate the desired prefix size for delegation"
 msgstr ""
+"Sende einen IPv6-Präfix-Hinweis um um die gewünschte Präfixlänge zur "
+"delegierung anzugeben"
 
 msgid "Send IPv6 prefix hint"
 msgstr "Sende einen IPv6-Präfixhinweis"
@@ -12050,6 +12068,8 @@ msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease. [option [, ...]]"
 msgstr ""
+"Die Werte in diesem Feld sind die DHCP-Optionen, die für den Client bei der "
+"Anfrage eines DHCP-Leases erforderlich sind. [Option [, ...]]"
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
@@ -12146,6 +12166,8 @@ msgid ""
 "If there is a certain upstream DHCP server that should be ignored, place the "
 "IP address or subnet of the DHCP server to be ignored here."
 msgstr ""
+"Falls es einen DHCP-Server gibt, der ignoriert werden soll, geben Sie die IP-"
+"Adresse oder das Subnetz des DHCP-Servers hier ein."
 
 msgid "Reject Leases From"
 msgstr "Verweigere Leases von"
@@ -13309,13 +13331,16 @@ msgstr ""
 
 # File: src/www/firewall_rules_edit.php, line: 1254
 msgid "Match local tag"
-msgstr ""
+msgstr "Prüfe auf die lokale Markierung"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1224
 msgid ""
 "You can mark a packet matching this rule and use this mark to match on other "
 "NAT/filter rules. It is called %sPolicy filtering%s."
 msgstr ""
+"Sie können Pakete, die dieser Regel entsprechen, markieren und diese "
+"Markierung in anderen NAT- oder Filterregeln verwenden. Dies wird %"
+"srichtlinienbasierte Filterung%s genannt."
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"

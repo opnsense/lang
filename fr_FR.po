@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 20:06+0000\n"
+"POT-Creation-Date: 2016-11-07 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8033,15 +8033,15 @@ msgstr "Masque de sous-réseau IPv4"
 
 # File: src/www/status_interfaces.php, line: 235
 msgid "Cell Current Down"
-msgstr ""
+msgstr "Débit Descendant Cellulaire Actuel"
 
 # File: src/www/status_interfaces.php, line: 228
 msgid "Cell Current Up"
-msgstr ""
+msgstr "Débit Montant Cellulaire Actuel"
 
 # File: src/www/status_interfaces.php, line: 221
 msgid "Cell Downstream"
-msgstr ""
+msgstr "Débit Descendant Cellulaire"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 234
 # File: /usr/core/src/www/status_interfaces.php, line: 241
@@ -8052,15 +8052,15 @@ msgstr "%s kbit/s"
 
 # File: src/www/status_interfaces.php, line: 214
 msgid "Cell Upstream"
-msgstr ""
+msgstr "Débit Montant Cellulaire"
 
 # File: src/www/status_interfaces.php, line: 207
 msgid "Cell Service"
-msgstr ""
+msgstr "Service Cellulaire"
 
 # File: src/www/status_interfaces.php, line: 200
 msgid "Cell SIM State"
-msgstr ""
+msgstr "Etat de la SIM Cellulaire"
 
 # File: src/www/status_interfaces.php, line: 193
 msgid "Cell Mode"
@@ -8068,7 +8068,7 @@ msgstr "Mode cellulaire"
 
 # File: src/www/status_interfaces.php, line: 186
 msgid "Cell Signal (RSSI)"
-msgstr ""
+msgstr "Signal Cellulaire (RSSI)"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 198
 msgid "Uptime (historical)"
@@ -10790,12 +10790,12 @@ msgstr "ou"
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 139
 # File: src/www/services_unbound_domainoverride_edit.php, line: 134
 msgid "Domain to override (NOTE: this does not have to be a valid TLD!)"
-msgstr ""
+msgstr "Domaine à contourner (NOTE: un TLD valide n'est pas obligatoire!)"
 
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 143
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 117
 msgid "Edit Domain Override entry"
-msgstr ""
+msgstr "Modifier l'entrée de Contournement du Domaine"
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 84
 msgid "An interface IP address must be specified for the DNS query source."
@@ -10804,13 +10804,15 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 97
 msgid "A valid portnumber must be specified."
-msgstr ""
+msgstr "Un numéro de port valide doit être spécifié."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 81
 msgid ""
 "A valid IP address must be specified, or # for an exclusion or ! to not "
 "forward at all."
 msgstr ""
+"Une adresse IP valide doit être spécifiée ou le symbole # pour une exclusion "
+"ou le symbole ! pour ne pas transférer du tout."
 
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 78
 # File: src/www/services_dnsmasq_edit.php, line: 79
@@ -10822,18 +10824,21 @@ msgstr "Un domaine valide doit être spécifié."
 # File: src/www/services_dnsmasq_domainoverride_edit.php, line: 74
 # File: src/www/services_unbound_domainoverride_edit.php, line: 68
 msgid "A valid domain must be specified after _msdcs."
-msgstr ""
+msgstr "Un domaine valide doit être spécifié après _msdcs."
 
 # File: src/www/services_dnsmasq.php, line: 435
 msgid ""
 "Entries in this area override an entire domain, and subdomains, by "
 "specifying an authoritative DNS server to be queried for that domain."
 msgstr ""
+"Les entrées présentes ici contournent un domaine ou sous-domaine entier, en "
+"spécifiant un serveur DNS faisant autorité et devant être interrogé pour ce "
+"domaine."
 
 # File: src/www/services_dnsmasq.php, line: 432
 # File: src/www/services_unbound.php, line: 437
 msgid "Domain Overrides"
-msgstr ""
+msgstr "Contournements de Domaines"
 
 # File: src/www/services_dnsmasq.php, line: 355
 # File: src/www/services_unbound.php, line: 377
@@ -10852,7 +10857,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 434
 msgid "Alias for"
-msgstr ""
+msgstr "Alias pour"
 
 # File: src/www/services_dnsmasq.php, line: 366
 # File: src/www/services_dnsmasq.php, line: 444
@@ -10876,7 +10881,7 @@ msgstr "Domaine"
 # File: src/www/services_dnsmasq.php, line: 350
 # File: src/www/services_unbound.php, line: 372
 msgid "Host Overrides"
-msgstr ""
+msgstr "Contournements d'Hôtes"
 
 # File: src/www/services_dnsmasq.php, line: 332
 msgid ""
