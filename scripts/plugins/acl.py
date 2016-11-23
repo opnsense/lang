@@ -35,22 +35,11 @@ def recursiveParseForm(xmlNode):
         for tag in recursiveParseForm(childNode):
             yield tag
 
-    if xmlNode.tag == 'description':
+    if xmlNode.tag == 'name':
         yield xmlNode.text
 
 def getTranslations(root):
-    import json
-
-    filename='%s/opnsense/mvc/app/models/OPNsense/Core/ACL_Legacy_Page_Map.json'%root
-
-    try:
-        aclMap = json.loads(open(filename).read())
-    except IOError:
-        aclMap = dict()
-
-    for aclKey in aclMap.keys():
-        if aclMap[aclKey].has_key('descr'):
-           yield aclMap[aclKey]['descr']
+    aclMap = dict()
 
     import os
     import xml.etree.ElementTree as ET
