@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-22 11:51+0000\n"
+"POT-Creation-Date: 2016-11-30 06:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25645,11 +25645,11 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Specify a value to match with the action."
-msgstr ""
+msgstr "Zadejte hodnotu, jejíž výskyt bude tuto akci spouštět."
 
 # File: /usr/lang/src/controllers.php, line: 194
 msgid "Specify a value to match with the expression."
-msgstr ""
+msgstr "Zadejte hodnotu, která bude odpovídat výrazu."
 
 # File: /usr/lang/src/controllers.php, line: 195
 msgid ""
@@ -25658,29 +25658,35 @@ msgid ""
 "differently on log line length. All servers support the default value of "
 "1024, but some servers simply drop larger lines while others do log them."
 msgstr ""
+"Volitelně zadejte jaký nejdelší může být řádek. Delší záznamy událostí budou "
+"před odesláním zkráceny. Důvodem je, že jednotlivé implementace syslog "
+"serverů mají různé limity. Všechny podporují výchozích 1024 znaků, ale mnohé "
+"z nich ty delší prostě zahodí (zatímco jiné je zaznamenají)."
 
 # File: /usr/lang/src/controllers.php, line: 196
 msgid "Specify the TCP port used for agent checks."
-msgstr ""
+msgstr "Zadejte TCP port sloužící ke kontrole agentů."
 
 # File: /usr/lang/src/controllers.php, line: 197
 msgid ""
 "Specify the domain name to present to the server for SMTP/ESMTP health "
 "checks."
 msgstr ""
+"Zadejte doménový název kterým se prezentovat serveru pro kontroly stavu "
+"SMTP/ESMTP."
 
 # File: /usr/lang/src/controllers.php, line: 198
 msgid "Specify the scheduling algorithm to use"
-msgstr ""
+msgstr "Zadejte který plánovací algoritmus použít"
 
 # File: /usr/lang/src/controllers.php, line: 199
 msgid "Specify the username to be used for database health checks."
-msgstr ""
+msgstr "Zadejte uživatelské jméno sloužící pro kontrolu stavu databáze."
 
 # File: /usr/lang/src/controllers.php, line: 200
 msgid ""
 "Suppress Squid version string info in HTTP headers and HTML error pages."
-msgstr ""
+msgstr "V HTTP hlavičkách a HTML chybových stránkách neuvádět verzi Squid."
 
 # File: /usr/lang/src/controllers.php, line: 201
 msgid ""
@@ -25695,11 +25701,15 @@ msgid ""
 "The hard size limit of all queues managed by this instance, leave empty for "
 "defaults"
 msgstr ""
+"Nepřekročitelný limit velikosti všech front spravovaných touto instancí. "
+"Pokud není vyplněno, bude použita výchozí hodnota."
 
 # File: /usr/lang/src/controllers.php, line: 203
 msgid ""
 "The header which should be used to send the username to the ICAP server."
 msgstr ""
+"Hlavička která by měla být použita pro zaslání uživatelského jména na ICAP "
+"server."
 
 # File: /usr/lang/src/controllers.php, line: 204
 msgid ""
