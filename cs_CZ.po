@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-30 06:07+0000\n"
+"POT-Creation-Date: 2016-12-09 07:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5984,14 +5984,17 @@ msgid ""
 "TSO4, TSO6). This offloading is broken in some hardware drivers, and may "
 "impact performance with some specific NICs."
 msgstr ""
+"Zaškrtnutím této předvolby nebude dělení TCP segmentů přenecháváno hardware ("
+"TSO, TSO4, TSO6). V případě některých ovladačů je totiž tato funkce rozbitá "
+"a může tak postihovat výkon některých konkrétních síťových rozhraní."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 124
 msgid "Disable hardware TCP segmentation offload"
-msgstr ""
+msgstr "Nepřenechávat dělení TCP segmentů na hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 121
 msgid "Hardware TSO"
-msgstr ""
+msgstr "Hardwarové TSO"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 116
 msgid ""
@@ -6000,6 +6003,11 @@ msgid ""
 "Rarely, drivers may have problems with checksum offloading and some specific "
 "NICs."
 msgstr ""
+"Zaškrtnutím této předvolby nebude zpracovávání kontrolních součtů "
+"přenecháváno na hardware. V případě některých zařízení, konkrétně některých "
+"rozhraní s čipy od Realtek je tato funkce rozbitá. Méně často, ovladače "
+"zařízení mohou mít problémy s kombinací této funkce a některých konkrétních "
+"zařízení."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 114
 msgid "Disable hardware checksum offload"
@@ -6014,6 +6022,8 @@ msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than use the hard disk."
 msgstr ""
+"Toto nastavte pokud si přejete umístit dočasná data (/tmp) do operační "
+"paměti namísto na trvalejší úložiště (např. pevný disk)."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
@@ -6021,7 +6031,7 @@ msgstr "Používat pro /tmp souborový systém v operační paměti"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
-msgstr ""
+msgstr "/tmp v operační paměti"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid ""
@@ -6029,6 +6039,10 @@ msgid ""
 "disks) rather than use the hard disk. Setting this will cause the data /var "
 "to be lost on reboot, including log data."
 msgstr ""
+"Toto nastavte pokud si přejete umístit dočasná (/tmp) a často se měnící "
+"(/var) data do operační paměti namísto na trvalejší úložiště (např. pevný "
+"disk). Stinnou stránkou je, že data z /var budou při restartu ztracena, "
+"včetně záznamu událostí."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 403
 msgid "Use memory file system for /tmp and /var"
@@ -6040,7 +6054,7 @@ msgstr "/tmp a /var oddíly v operační paměti"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 397
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
-msgstr ""
+msgstr "Nastavení úložiště v operační paměti (změny se projeví až po restartu)"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 378
 msgid "On Battery Power Mode"
@@ -6049,12 +6063,12 @@ msgstr "V režimu napájení z akumulátorů"
 # File: /usr/core/src/www/system_advanced_misc.php, line: 373
 # File: /usr/core/src/www/system_advanced_misc.php, line: 391
 msgid "Maximum"
-msgstr ""
+msgstr "Nejvýše"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 370
 # File: /usr/core/src/www/system_advanced_misc.php, line: 388
 msgid "Minimum"
-msgstr ""
+msgstr "Nejméně"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 367
 # File: /usr/core/src/www/system_advanced_misc.php, line: 385
@@ -6086,10 +6100,23 @@ msgid ""
 "important than power consumption. It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
+"Nástroj powerd sleduje stav systému a dle něj nastavuje nejrůznější "
+"parametry napájení. Nabízí čtyři režimy (nejvyšší, nejnižší, přizpůsobivý a "
+"vysoce přizpůsobivý), které mohou být voleny zvlášť pro napájení z rozvodné "
+"sítě nebo z akumulátorů. Režimy nejvyšší, nejnižší, přizpůsobivý a vysoce "
+"přizpůsobivý mohou být zkracovány na max, min, adapt. a v. adapt. Režim "
+"nejvyšší znamená nejvyšší výkon. Režim nejnižší znamená nejnižší výkon ale "
+"také nejnižší spotřeba energie a zahřívání. Přizpůsobivý režim je snahou o "
+"vyvážení pomocí snížení výkonu když je systém méně vytížený a zvýšení když "
+"je vytížený. Poskytuje dobrý poměr mezi malou ztrátou výkonu, vyvážený "
+"úsporami energie. Vysoce přizpůsobivý režim je podobný tomu přizpůsobivému s "
+"tím, že je více zaměřen na výkon a doby odezvy  než na úsporu energie. "
+"Rychleji zvedá frekvence, pomaleji je snižuje a udržuje poloviční vytížení "
+"procesoru."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 339
 msgid "Use PowerD"
-msgstr ""
+msgstr "Zapnout správu napájení"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 336
 msgid "Power Savings"
@@ -6100,20 +6127,24 @@ msgid ""
 "This will periodically backup the NetFlow data aggregation so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"Toto v pravidelných intervalech zazálohuje spojení dat NetFlow takže je bude "
+"možné při příštím startu systému automaticky obnovit."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 318
 msgid "Periodic NetFlow Backup"
-msgstr ""
+msgstr "Pravidelné zálohování NetFlow"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 313
 msgid ""
 "This will periodically backup the DHCP leases data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Toto v pravidelných intervalech zazálohuje evidenci DHCP zápůjček takže je "
+"bude možné při příštím startu systému automaticky obnovit."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 300
 msgid "Periodic DHCP Leases Backup"
-msgstr ""
+msgstr "Pravidelné zálohování DHCP zápůjček"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 295
 msgid ""
@@ -6147,6 +6178,10 @@ msgid ""
 "option will have no effect. To unload the selected module, set this option "
 "to 'none' and then reboot."
 msgstr ""
+"Pokud čip, odečítající údaje z teplotního čidla tohoto systému není "
+"podporovaný, tato předvolba nebude mít žádný účinek. Pokud chcete vybraný "
+"modul přestat používat, nastavte tuto předvolbu na „žádný“ a stroj "
+"restartujte."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 268
 msgid ""
@@ -6155,10 +6190,14 @@ msgid ""
 "attempt to read the temperature from an ACPI-compliant motherboard sensor "
 "instead, if one is present."
 msgstr ""
+"Pokud je váš procesor podporovaný, výběr teplotního senzoru nahraje "
+"příslušný ovladač pro načítání jeho teploty. Nastavením na „žádný“ bude "
+"vyzkoušeno namísto toho načíst teplotu ze senzoru základní desky "
+"prostřednictvím ACPI standardu, pokud deska takový obsahuje."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 258
 msgid "None/ACPI"
-msgstr ""
+msgstr "Žádný/ACPI"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 252
 msgid "Thermal Sensors"
@@ -6173,10 +6212,18 @@ msgid ""
 "acceleration methods e.g. AES-NI. The default is to disable this device as "
 "it is likely not needed on modern systems."
 msgstr ""
+"Staré hardwarové urychlovače jako „safe“, „hifn“ nebo „ubsec“ mohou "
+"urychlení poskytovat pouze až aplikacím, např. OpenVPN prostřednictvím "
+"rozhraní /dev/crypto, které může být využíván aplikačním rámcem engine "
+"OpenSSL. Poznamenejme, že LibreSSL toto nepodporuje a spoléhá výhradně na "
+"vestavěné způsoby urychlování jako např. instrukce procesoru AES-NI. "
+"Výchozím nastavením je takové vyhrazené zařízení nepoužívat, protože v "
+"moderních systémech to není potřeba."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 241
 msgid "Enable old userland device for cryptographic acceleration"
 msgstr ""
+"Používat pro urychlování šifrování i zařízení se starším způsobem přístupu"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 238
 msgid "Use /dev/crypto"
@@ -7942,16 +7989,20 @@ msgid ""
 "Entries in this area override an entire domain by specifying an "
 "authoritative DNS server to be queried for that domain."
 msgstr ""
+"Položky v této oblasti přebíjejí celou doménu zadáním autoritativního DNS "
+"serveru, který má být pro takovou doménu dotazován."
 
 # File: /usr/core/src/www/services_unbound_overrides.php, line: 210
 msgid ""
 "Keep in mind that all resource record types (i.e. A, AAAA, MX, etc. records) "
 "of a specified host below are being overwritten."
 msgstr ""
+"Pamatujte, že veškeré typy zdrojových záznamů (tj. A, AAAA, MX, atd) "
+"zadaného stroje níže budou přepsány."
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 247
 msgid "Host name of MX host"
-msgstr ""
+msgstr "Název stroje MX stroje"
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 237
 msgid "Priority of MX record"
@@ -7971,61 +8022,63 @@ msgstr "MX (poštovní server)"
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 207
 msgid "A or AAAA (IPv4 or IPv6 address)"
-msgstr ""
+msgstr "A nebo AAAA (IPv4 nebo IPv6 adresa)"
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 176
 msgid "Edit DNS Resolver entry"
-msgstr ""
+msgstr "Upravit položku DNS překladu"
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 105
 msgid "A valid resource record type must be specified."
-msgstr ""
+msgstr "Je třeba zadat platný typ zdrojového záznamu."
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 101
 msgid "A valid MX host must be specified."
-msgstr ""
+msgstr "Je třeba zadat platný MX stroj."
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 97
 msgid "A valid MX priority must be specified."
-msgstr ""
+msgstr "Je třeba zadat platnou MX prioritu."
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 93
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 233
 msgid "MX Priority"
-msgstr ""
+msgstr "MX priorita"
 
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 93
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 243
 msgid "MX Host"
-msgstr ""
+msgstr "MX stroj"
 
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 140
 msgid ""
 "To use a nondefault port for communication, append an '@' with the port "
 "number."
 msgstr ""
+"Pro použití nestandardního portu pro komunikaci, připojte znakem „@“ "
+"(zavináč) jeho číslo."
 
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 78
 msgid "A valid IP address must be specified, for example 192.168.100.10."
-msgstr ""
+msgstr "Je třeba zadat platnou IP adresu, například 192.168.100.10."
 
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 75
 msgid ""
 "A valid IP address and port must be specified, for example "
 "192.168.100.10@5353."
-msgstr ""
+msgstr "Je třeba zadat platnou IP adresu a port, například 192.168.100.10@5353."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 348
 msgid "Select the log verbosity."
-msgstr ""
+msgstr "Vyberte stupeň podrobnosti zaznamenávání událostí."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 342
 msgid "Level"
-msgstr ""
+msgstr "Stupeň"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 336
 msgid "Log level verbosity"
-msgstr ""
+msgstr "Stupeň podrobnosti zaznamenávání"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 331
 msgid ""
@@ -8035,6 +8088,12 @@ msgid ""
 "RRSet and message caches, hopefully flushing away any poison. The default is "
 "disabled, but if enabled a value of 10 million is suggested."
 msgstr ""
+"Pokud je zapnuté, pak je uchovávána informace o celkovém počtu nevyžádaných "
+"odpovědí v každém z vláken. Když dosáhne mezní hodnoty, je podniknuta "
+"obranná akce a do záznamu je vypsáno varování. Tato obranná akce je "
+"vyprázdnění RRS a mezipamětí zpráv, v naději, že se tím podaří zbavit se "
+"otravy. Ve výchozím stavu je vypnuté, ale pokud zapnuto, doporučuje se "
+"hodnota 10 milionu."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 328
 msgid "50 million"
@@ -8058,15 +8117,16 @@ msgstr "5 milionů"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 323
 msgid "disabled"
-msgstr ""
+msgstr "vypnuto"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 320
 msgid "Unwanted Reply Threshold"
-msgstr ""
+msgstr "Mezní počet nevyžádaných odpovědí"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 315
 msgid "Number of hosts for which information is cached. The default is 10,000."
 msgstr ""
+"Počet strojů pro které je údaj uchováván v mezipaměti. Výchozí je 10000."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 312
 msgid "50 000"
@@ -8090,7 +8150,7 @@ msgstr "1000"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 305
 msgid "Number of Hosts to cache"
-msgstr ""
+msgstr "Počet strojů, které uchovávat v mezipaměti"
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 300
 msgid ""
@@ -10187,10 +10247,13 @@ msgid ""
 "for assigning networks to subrouters. The start and end of the range must "
 "end on boundaries of the prefix delegation size."
 msgstr ""
+"Zde je možné určit rozsah předpon pro pověřování DHCP předpon. To umožňuje "
+"přiřazování sítí k podřízeným směrovačům. Je třeba, aby začátek a konec "
+"rozsahu končil na hranicích velikosti pověřené předpony."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 534
 msgid "Prefix Delegation Size"
-msgstr ""
+msgstr "Velikost pověřené předpony"
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 518
 msgid "Prefix Delegation Range"
@@ -10207,7 +10270,7 @@ msgstr "Nebyla nalezena žádná rozhraní, která mají statickou IPv6 adresu."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 203
 msgid "The subnet range cannot overlap with virtual IPv6 address %s."
-msgstr ""
+msgstr "Rozsah podsítě se nemůže překrývat s virtuální IPv6 adresou %s."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 195
 msgid "A valid URL must be specified for the network bootfile."
@@ -10218,12 +10281,14 @@ msgid ""
 "A valid primary domain name server IPv4 address must be specified for the "
 "dynamic domain name."
 msgstr ""
+"V případě dynamického doménového názvu je třeba zadat IPv4 adresu hlavního "
+"DNS serveru."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 156
 # File: /usr/core/src/www/services_router_advertisements.php, line: 100
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary DNS servers."
-msgstr ""
+msgstr "Je třeba zadat platnou IPv6 adresu hlavního/záložního DNS serveru."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 153
 msgid "A valid IPv6 address must be specified for the gateway."
@@ -10238,6 +10303,8 @@ msgid ""
 "The DHCPv6 Server can only be enabled on interfaces configured with static "
 "IP addresses. Only interfaces configured with a static IP will be shown."
 msgstr ""
+"DHCPv6 server je možné zapnout pouze na rozhraní, která mají nastavené pevné "
+"IP adresy. Proto zde jsou zobrazena pouze ta rozhraní, která takovou mají."
 
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 167
 msgid ""
@@ -10287,6 +10354,8 @@ msgid ""
 "DHCP Server is currently enabled. Cannot enable the DHCP Relay service while "
 "the DHCP Server is enabled on any interface."
 msgstr ""
+"DHCP server je v tuto chvíli zapnutý. Nelze zapnout službu DHCP předávání "
+"pokud je na některém rozhraní zapnutý DHCP server."
 
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 63
 msgid "A valid Destination Server IP address must be specified."
@@ -10301,6 +10370,8 @@ msgstr "Cílový server"
 msgid ""
 "Leave blank to disable. Enter a full hostname or IP for the TFTP server."
 msgstr ""
+"Pokud není vyplněné, je vypnuto. Zadejte úplný název stroje nebo IP adresu "
+"TFTP serveru."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 469
 # File: /usr/core/src/www/services_dhcpv6.php, line: 583
@@ -10312,6 +10383,8 @@ msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator "
 msgstr ""
+"DHCP server volitelně může poskytovat vyhledávací seznam domén. Jednotlivé "
+"položky oddělujte čárkou "
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 446
 msgid ""
@@ -10319,14 +10392,16 @@ msgid ""
 "gateway. Specify an alternate gateway here if this is not the correct "
 "gateway for your network."
 msgstr ""
+"Výchozí je použít IP adresu na tomto rozhraní brány firewall jako bránu. "
+"Zadejte sem jinou bránu pokud toto není správná brána do vaší sítě."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 420
 msgid "Create a static ARP table entry for this MAC and IP address pair."
-msgstr ""
+msgstr "Vytvořit statickou položku ARP tabulky pro tuto MAC a IP adresu."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 416
 msgid "ARP Table Static Entry"
-msgstr ""
+msgstr "Statická položka ARP tabulky"
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 400
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 225
@@ -10344,6 +10419,8 @@ msgid ""
 "Name of the file that should be loaded when this host boots off of the "
 "network, overrides setting on main page."
 msgstr ""
+"Název souboru který by měl být nahrán když tento stroj startuje ze sítě, "
+"přebíjí nastavení na hlavní stránce."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 387
 msgid "Netboot Filename"
@@ -10376,7 +10453,7 @@ msgstr "Zadejte MAC adresu ve formátu: xx:xx:xx:xx:xx:xx"
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 352
 msgid "Copy my MAC address"
-msgstr ""
+msgstr "Zkopírovat MAC adresu mého počítače"
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 338
 msgid "Static DHCP Mapping"
@@ -10391,10 +10468,11 @@ msgid ""
 "The IP address must not be within the range configured on a DHCP pool for "
 "this interface."
 msgstr ""
+"IP adresa nemůže být z rozsahu nastaveného pro DHCP fond pro toto rozhraní."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 161
 msgid "The IP address must not be within the DHCP range for this interface."
-msgstr ""
+msgstr "IP adresa nemůže být z DHCP rozsahu pro toto rozhraní."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 151
 msgid "This Hostname, IP, MAC address or Client identifier already exists."
@@ -10403,13 +10481,14 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 139
 msgid "Static ARP is enabled. You must specify an IP address."
-msgstr ""
+msgstr "Je zapnuté statické ARP. Je třeba zadat IP adresu."
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 129
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 98
 msgid ""
 "A valid hostname is specified, but the domain name part should be omitted"
 msgstr ""
+"Je zadaný platný název stroje, ale doménová část názvu by měla být vynechána"
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 124
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 93
@@ -10533,23 +10612,27 @@ msgid ""
 "You will need all three filenames and a boot server configured for UEFI to "
 "work!"
 msgstr ""
+"Aby UEFI fungovalo, je třeba mít zadané všechny tři soubory a nastavený "
+"zaváděcí server!"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1015
 msgid ""
 "Note: You need both a filename and a boot server configured for this to work!"
 msgstr ""
+"Pozn.: aby toto fungovalo, je třeba aby byl zadán jak soubor tak nastavený "
+"zaváděcí server!"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1013
 msgid "Set UEFI 64bit filename"
-msgstr ""
+msgstr "Nastavit soubor pro 64 bitové UEFI"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1011
 msgid "Set UEFI 32bit filename"
-msgstr ""
+msgstr "Nastavit soubor pro 32 bitové UEFI"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1009
 msgid "Set default bios filename"
-msgstr ""
+msgstr "Nastavit výchozí soubor pro BIOS"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1007
 msgid "Set next-server IP"
@@ -10563,17 +10646,19 @@ msgstr "Zapíná zavádění systému ze sítě."
 # File: /usr/core/src/www/services_dhcp.php, line: 1001
 # File: /usr/core/src/www/services_dhcpv6.php, line: 663
 msgid "Show Network booting"
-msgstr ""
+msgstr "Zobrazit zavádění ze sítě"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 998
 # File: /usr/core/src/www/services_dhcpv6.php, line: 660
 msgid "Enable network booting"
-msgstr ""
+msgstr "Zavádět ze sítě"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 993
 msgid ""
 "Leave blank to disable. Enter a full URI for the LDAP server in the form %s"
 msgstr ""
+"Nevyplněné znamená vypnuté. Zadejte úplnou URI adresu LDAP serveru v podobě "
+"%s"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 989
 # File: /usr/core/src/www/services_dhcpv6.php, line: 651
@@ -10589,6 +10674,8 @@ msgstr "URI adresa LDAP adresáře"
 msgid ""
 "Leave blank to disable.  Enter a full hostname or IP for the TFTP server."
 msgstr ""
+"Nevyplněné znamená vypnuté.  Zadejte úplný název stroje nebo IP adresu TFTP "
+"serveru."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 977
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 525
@@ -10617,20 +10704,24 @@ msgid ""
 "Enter a list of partial MAC addresses to deny access, comma separated, no "
 "spaces, such as %s"
 msgstr ""
+"Zadejte seznam částí MAC adres kterým odepřít přístup, oddělovaný čárkou – "
+"bez mezer, jako třeba %s"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 954
 msgid ""
 "Enter a list of partial MAC addresses to allow, comma separated, no spaces, "
 "such as %s"
 msgstr ""
+"Zadejte seznam částí MAC adres kterým povolit přístup, oddělovaný čárkou – "
+"bez mezer, jako třeba %s"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 951
 msgid "Show MAC Address Control"
-msgstr ""
+msgstr "Zobrazit řízení přístupu dle MAC adres"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 948
 msgid "MAC Address Control"
-msgstr ""
+msgstr "Řízení přístupu dle MAC adres"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 942
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 504
@@ -10639,6 +10730,8 @@ msgid ""
 "Enter the dynamic DNS domain key secret which will be used to register "
 "client names in the DNS server."
 msgstr ""
+"Zadejte heslo k nastavování dynamické DNS domény který bude použit pro "
+"registraci názvů klienta na DNS serveru."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 940
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 502
@@ -10647,19 +10740,22 @@ msgid ""
 "Enter the dynamic DNS domain key name which will be used to register client "
 "names in the DNS server."
 msgstr ""
+"Zadejte přihlašovací jméno k nastavování dynamické DNS domény které bude "
+"použito pro registraci názvů klienta na DNS serveru."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 938
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 500
 # File: /usr/core/src/www/services_dhcpv6.php, line: 626
 msgid ""
 "Enter the primary domain name server IP address for the dynamic domain name."
-msgstr ""
+msgstr "Zadejte IP adresu hlavního DNS serveru pro dynamický doménový název."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 936
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 497
 # File: /usr/core/src/www/services_dhcpv6.php, line: 623
 msgid "Note: Leave blank to disable dynamic DNS registration."
 msgstr ""
+"Pozn.: nemá být prováděna registrace do dynamické DNS, ponechte nevyplněné."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 935
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 498
@@ -10668,6 +10764,8 @@ msgid ""
 "Enter the dynamic DNS domain which will be used to register client names in "
 "the DNS server."
 msgstr ""
+"Zadejte doménu dynamické DNS která bude použito pro registraci názvů klienta "
+"na DNS serveru."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 934
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 496
@@ -10687,10 +10785,13 @@ msgid ""
 "box DHCP lease time will be displayed in local time and set to time zone "
 "selected. This will be used for all DHCP interfaces lease time."
 msgstr ""
+"Varování: ve výchozím stavu jsou DHCP zápůjčky zobrazovány v UTC času. "
+"Zaškrtnutím tohoto budou zobrazovány v místním čase (dle nastavení časové "
+"zóny). Toto bude použito pro časy zápůjček na všech rozhraních s DHCP."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 915
 msgid "Change DHCP display lease time from UTC to local time."
-msgstr ""
+msgstr "Změnit zobrazení času DHCP zápůjček z UTC na místní čas."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 912
 # File: /usr/core/src/www/services_dhcpv6.php, line: 603
@@ -10703,15 +10804,18 @@ msgid ""
 "machines listed below will be able to communicate with the firewall on this "
 "NIC."
 msgstr ""
+"Varování: tato předvolby přetrvá i po vypnutí DHCP serveru. Pouze stroje "
+"vypsané níže budou schopné komunikovat s bránou firewall na tomto síťovém "
+"rozhraní."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 905
 msgid "Enable Static ARP entries"
-msgstr ""
+msgstr "Používat statické ARP položky"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 902
 # File: /usr/core/src/www/services_dhcp.php, line: 1155
 msgid "Static ARP"
-msgstr ""
+msgstr "Statické ARP"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 897
 msgid ""
@@ -10720,6 +10824,10 @@ msgid ""
 "DHCPd process is Primary or Secondary. Ensure one machine's advskew<20 (and "
 "the other is >20)."
 msgstr ""
+"Pokud má být vypnuté, ponechte nevyplněné. Zadejte IP adresu rozhraní "
+"stroje. Je třeba, aby stroje používaly CARP. posun propagace rozhraní "
+"určuje, zda je proces služby DHCP hlavní nebo záložní. Zajistí posun "
+"propagace jednoho storje menší než 20 (a druhého větší než 20)."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 893
 msgid "Failover peer IP:"
@@ -10738,12 +10846,14 @@ msgid ""
 "This is the maximum lease time for clients that ask for a specific "
 "expiration time."
 msgstr ""
+"Toto je nejdelší umožněný čas zápůjčky pro klienty, kteří poptávají "
+"konkrétní čas skončení platnosti."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 881
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 479
 # File: /usr/core/src/www/services_dhcpv6.php, line: 593
 msgid "Maximum lease time"
-msgstr ""
+msgstr "Zápůjčka je nejvýše na"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 876
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 474
@@ -10757,6 +10867,8 @@ msgstr "Výchozí je 7200 sekund."
 msgid ""
 "This is used for clients that do not ask for a specific expiration time."
 msgstr ""
+"Toto slouží pro klienty kteří se nedotazují na konkrétní čas skončení "
+"platnosti."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 871
 msgid "Default lease time (seconds)"
@@ -10767,13 +10879,15 @@ msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator."
 msgstr ""
+"DHCP server může volitelně poskytovat seznam domén k vyhledávání. Jednotlivé "
+"položky oddělujte středníkem."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 862
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 460
 # File: /usr/core/src/www/services_dhcpv6.php, line: 574
 # File: /usr/core/src/www/services_router_advertisements.php, line: 371
 msgid "Domain search list"
-msgstr ""
+msgstr "Seznam domén k prohledávání"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 857
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 455
@@ -10782,6 +10896,8 @@ msgid ""
 "The default is to use the domain name of this system as the default domain "
 "name provided by DHCP. You may specify an alternate domain name here."
 msgstr ""
+"Výchozí je použít doménový název tohoto systému jako výchozí název domény, "
+"poskytovaný DHCP. Zde je možné zadat jiný název."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 853
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 451
@@ -10795,6 +10911,9 @@ msgid ""
 "gateway. Specify an alternate gateway here if this is not the correct "
 "gateway for your network. Type \"none\" for no gateway assignment."
 msgstr ""
+"Výchozí je coby bránu použít IP adresu rozhraní brány firewall. Pokud se "
+"nejedná o správnou bránu do vaší sítě, zadejte zde jinou. Pokud bránu "
+"přiřazovat nechcete, zadejte „žádná“."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 839
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 437
@@ -10804,6 +10923,9 @@ msgid ""
 "IP if DNS forwarder is enabled, otherwise the servers configured on the "
 "General page."
 msgstr ""
+"Pozn.: nevyplňujte, pokud mají být využity výchozí systémové DNS servery – "
+"IP adresu tohoto rozhraní pokud je zapnuté předávání DNS dotazů, v opačném "
+"případě serverů nastavených na stránce Obecné."
 
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 361
 # File: /usr/core/src/www/services_dhcp.php, line: 834
@@ -10881,6 +11003,8 @@ msgid ""
 "Editing Pool-Specific Options. To return to the Interface, click its tab "
 "above."
 msgstr ""
+"Úprava předvoleb pro konkrétní fond. Na rozhraní se vrátíte kliknutím na "
+"panel výše."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 713
 msgid "Enable DHCP server on the %s interface"
@@ -10920,17 +11044,20 @@ msgid ""
 "You must disable the DHCP relay on the %s interface before enabling the DHCP "
 "server."
 msgstr ""
+"Aby bylo možné zapnout DHCP server, je třeba vypnout DHCP předávání na "
+"rozhraní %s."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 412
 msgid ""
 "The specified range must not be within the range configured on a DHCP pool "
 "for this interface."
 msgstr ""
+"Zadaný rozsah nespadá pod rozsah nastavený na DHCP fondu pro toto rozhraní."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 402
 msgid ""
 "The specified range must not be within the DHCP range for this interface."
-msgstr ""
+msgstr "Zadaný rozsah nemůže spadat do DHCP rozsahu tohoto rozhraní."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 395
 # File: /usr/core/src/www/services_dhcpv6.php, line: 224
@@ -12586,6 +12713,9 @@ msgid ""
 "seconds is zero, then address cache entries will not be expired. The default "
 "is 240 seconds."
 msgstr ""
+"Nastavit časový limit platnosti položek mezipaměti adres na tento počet "
+"sekund. Pokud je  zadaná nula, platnost bude neomezená. Výchozí je 240 "
+"sekund."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 460
 msgid "Cache entry expire time"
@@ -12596,6 +12726,8 @@ msgid ""
 "Set the size of the bridge address cache to size. The default is .100 "
 "entries."
 msgstr ""
+"Nastavit velikost mezipaměti adres tohoto síťového mostu. Výchozí je 100 "
+"položek."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 451
 msgid "entries"
@@ -12701,11 +12833,11 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 313
 msgid "STP"
-msgstr ""
+msgstr "STP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 310
 msgid "RSTP"
-msgstr ""
+msgstr "RSTP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 301
 msgid "Enable spanning tree options for this bridge."
@@ -12726,7 +12858,7 @@ msgstr "Zobrazit pokročilé předvolby"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 263
 msgid "Interfaces participating in the bridge."
-msgstr ""
+msgstr "Rozhraní která jsou součástí mostu."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 251
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 107
@@ -12743,7 +12875,7 @@ msgstr "Nastavení síťového mostu"
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 135
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 123
 msgid "Error occurred creating interface, please retry."
-msgstr ""
+msgstr "Chyba při vytváření rozhraní – zkuste to prosím znovu."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 149
 msgid ""
@@ -12754,6 +12886,8 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 146
 msgid "Bridging a wireless interface is only possible in hostap mode."
 msgstr ""
+"Přemostění bezdrátového rozhraní je možné pouze tehdy, když je v režimu "
+"přístupového bodu."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 143
 msgid "A member interface passed does not exist in configuration"
@@ -12889,11 +13023,11 @@ msgstr "Toto rozhraní se účastní skupiny. Nejprve je třeba smazat tuto skup
 # File: /usr/core/src/www/interfaces_assign.php, line: 145
 # File: /usr/core/src/www/system_advanced_admin.php, line: 412
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 144
 msgid "lan"
-msgstr ""
+msgstr "lan"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 48
 msgid "vlan %s on %s"
@@ -12905,23 +13039,23 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 3223
 msgid "Secondary 802.1X Authentication Server Shared Secret"
-msgstr ""
+msgstr "Sdílené heslo záložního 802.1X ověřovacího serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3219
 msgid "802.1X Server Shared Secret (2)"
-msgstr ""
+msgstr "Sdílené heslo 802.1X ověřovacího serveru (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3213
 msgid "Secondary 802.1X Authentication Server Port"
-msgstr ""
+msgstr "Port záložního 802.1X ověřovacího serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3209
 msgid "802.1X Server Port (2)"
-msgstr ""
+msgstr "Port 802.1X serveru (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3203
 msgid "Secondary 802.1X Authentication Server IP Address"
-msgstr ""
+msgstr "IP adresa záložního 802.1X ověřovacího serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3199
 msgid "802.1X Server IP Address (2)"
@@ -12929,16 +13063,16 @@ msgstr "IP adresa 802.1X serveru (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3193
 msgid "802.1X Server Shared Secret"
-msgstr ""
+msgstr "Sdílené heslo 802.1X serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3188
 # File: /usr/core/src/www/interfaces.php, line: 3214
 msgid "Leave blank for the default 1812 port."
-msgstr ""
+msgstr "Pokud chcete použít výchozí port 1812, nevyplňujte."
 
 # File: /usr/core/src/www/interfaces.php, line: 3184
 msgid "802.1X Server Port"
-msgstr ""
+msgstr "Port 802.1X serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3179
 # File: /usr/core/src/www/interfaces.php, line: 3204
@@ -12946,6 +13080,8 @@ msgid ""
 "Enter the IP address of the 802.1X Authentication Server.  This is commonly "
 "a Radius server (FreeRadius, Internet Authentication Services, etc.)"
 msgstr ""
+"Zadejte IP adresu 802.1X ověřovacího serveru. To obvykle bývá Radius server ("
+"FreeRadius, Internet Authentication Services, atd.)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3175
 msgid "802.1X Server IP Address"
@@ -12953,7 +13089,7 @@ msgstr "IP adresa 802.1X serveru"
 
 # File: /usr/core/src/www/interfaces.php, line: 3170
 msgid "this option requires checking the \"Enable WPA box\"."
-msgstr ""
+msgstr "tato předvolba vyžaduje, aby bylo zaškrtnuté „Používat WPA“."
 
 # File: /usr/core/src/www/interfaces.php, line: 3170
 msgid "NOTE"
@@ -12965,13 +13101,15 @@ msgstr "Nastavení této předvolby zapne ověřování 802.1x."
 
 # File: /usr/core/src/www/interfaces.php, line: 3165
 msgid "Enable IEEE802.1X Authentication"
-msgstr ""
+msgstr "Ověřovat dle normy IEEE802.1X"
 
 # File: /usr/core/src/www/interfaces.php, line: 3160
 msgid ""
 "Setting this option will force the AP to rekey whenever a client "
 "disassociates."
 msgstr ""
+"Nastavením této předvolby vynutí aby přístupový bod vyměnil klíče pokaždé, "
+"když se klient odpojí."
 
 # File: /usr/core/src/www/interfaces.php, line: 3156
 msgid "Strict Key Regeneration"
@@ -12984,7 +13122,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 3147
 msgid "Master Key Regeneration"
-msgstr ""
+msgstr "Obnova hlavního klíče"
 
 # File: /usr/core/src/www/interfaces.php, line: 3142
 msgid ""
@@ -13010,11 +13148,11 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 3123
 msgid "Note: Shared Key Authentication requires WEP."
-msgstr ""
+msgstr "Pozn.: Ověřování sdíleným klíčem vyžaduje algoritmus WEP."
 
 # File: /usr/core/src/www/interfaces.php, line: 3119
 msgid "Shared Key Authentication"
-msgstr ""
+msgstr "Ověřování sdíleným klíčem"
 
 # File: /usr/core/src/www/interfaces.php, line: 3118
 msgid "Open System Authentication"
@@ -13031,11 +13169,11 @@ msgstr ""
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 193
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 751
 msgid "Pre-Shared Key"
-msgstr ""
+msgstr "Předsdílený klíč"
 
 # File: /usr/core/src/www/interfaces.php, line: 3105
 msgid "WPA Key Management Mode"
-msgstr ""
+msgstr "Režim správy WPA klíče"
 
 # File: /usr/core/src/www/interfaces.php, line: 3100
 # File: /usr/core/src/www/interfaces.php, line: 3110
@@ -13058,7 +13196,7 @@ msgstr "Je třeba, aby heslová fráze byla dlouhá 8 až 63 znaků."
 
 # File: /usr/core/src/www/interfaces.php, line: 3087
 msgid "WPA Pre-Shared Key"
-msgstr ""
+msgstr "WPA předsdílený klíč"
 
 # File: /usr/core/src/www/interfaces.php, line: 3085
 msgid "Enable WPA"
@@ -13115,7 +13253,7 @@ msgstr "(toto může některým klientům působit problémy)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3021
 msgid "Setting this option will force the card to NOT broadcast its SSID"
-msgstr ""
+msgstr "Nastavení této předvolby vynutí, aby rozhraní NEvysílalo své SSID "
 
 # File: /usr/core/src/www/interfaces.php, line: 3017
 msgid "Enable Hide SSID"
@@ -13124,6 +13262,8 @@ msgstr "Nevysílat identifikátor sítě (SSID)"
 # File: /usr/core/src/www/interfaces.php, line: 3012
 msgid "Setting this option will force the card to use WME (wireless QoS)."
 msgstr ""
+"Nastavení této předvolby vynutí aby rozhraní používalo funkci WME ("
+"prioritizace služeb – QoS – na bezdrátové síti)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3008
 msgid "Enable WME"
@@ -13134,12 +13274,16 @@ msgid ""
 "Disabling the internal bridging is useful when traffic is to be processed "
 "with packet filtering."
 msgstr ""
+"Vypnutí vnitřního přemostění je užitečné v případě, když mají být pakety "
+"provozu zpracovávány filtrováním."
 
 # File: /usr/core/src/www/interfaces.php, line: 3001
 msgid ""
 "When operating as an access point, enable this if you want to pass packets "
 "between wireless clients directly."
 msgstr ""
+"Při fungování coby přístupový bod, tuto volbu zapněte v případě, že chcete "
+"umožnit výměnu paketů mezi klienty napřímo."
 
 # File: /usr/core/src/www/interfaces.php, line: 2997
 msgid "Allow intra-BSS communication"
@@ -13291,12 +13435,16 @@ msgid ""
 "Note: Not all channels may be supported by your card.  Auto may override the "
 "wireless standard selected above."
 msgstr ""
+"Pozn.: Vaše rozhraní nemusí podporovat všechny kanály.  Nastavení na "
+"automatiku může přebít volbu bezdrátového standardu, učiněnou výše."
 
 # File: /usr/core/src/www/interfaces.php, line: 2824
 msgid ""
 "Legend: wireless standards - channel # (frequency @ max TX power / TX power "
 "allowed in reg. domain)"
 msgstr ""
+"Vysvětlivky: bezdrátový standard – číslo kanálu (frekvence a nastavení "
+"nejvyššího vysílacího výkonu / nejvyšší vysílací výkon, povolený v dané zemi)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2810
 # File: /usr/core/src/www/interfaces.php, line: 2855
@@ -13348,10 +13496,12 @@ msgid ""
 "Enabling this preserves the common wireless configuration through interface "
 "deletions and reassignments."
 msgstr ""
+"Zapnutí této předvolby způsobí, že společná nastavení bezdrátového rozhraní "
+"přetrvají přes mazání a opětovné přiřazení rozhraní."
 
 # File: /usr/core/src/www/interfaces.php, line: 2749
 msgid "Persist common settings"
-msgstr ""
+msgstr "Zachovat společná nastavení"
 
 # File: /usr/core/src/www/interfaces.php, line: 2744
 msgid ""
@@ -13450,7 +13600,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2611
 msgid "secret"
-msgstr ""
+msgstr "heslo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2609
 msgid "keyid"
@@ -13555,6 +13705,9 @@ msgid ""
 "conditions including when a reply message is received. <br "
 "/>[/[dirname/[.../]]filename[.ext]] "
 msgstr ""
+"Hodnota v tomto řetězci je úplný popis umístění skriptu který vyvolat za "
+"daných podmínek včetně toho, když je obdržena odpověď na zprávu. <br "
+"/>[/[nazev_slozky/[.../]]nazev_souboru[.pripona]] "
 
 # File: /usr/core/src/www/interfaces.php, line: 2534
 msgid "Script"
@@ -13629,7 +13782,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2462
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
-msgstr ""
+msgstr "Žádat pouze o IPv6 předponu, nikoli IPv6 adresu"
 
 # File: /usr/core/src/www/interfaces.php, line: 2458
 msgid "Request only a IPv6 prefix"
@@ -13681,7 +13834,7 @@ msgstr "Statické IPv6 nastavení"
 
 # File: /usr/core/src/www/interfaces.php, line: 2304
 msgid "%sClick here%s for advanced PPTP and L2TP configuration options."
-msgstr ""
+msgstr "Pro pokročilé předvolby pro PPTP a L2TP %klikněte sem%."
 
 # File: /usr/core/src/www/interfaces.php, line: 2302
 msgid ""
@@ -13732,7 +13885,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces.php, line: 2209
 # File: /usr/core/src/www/interfaces.php, line: 2293
 msgid "Idle timeout"
-msgstr ""
+msgstr "Časový limit nečinnosti"
 
 # File: /usr/core/src/www/interfaces.php, line: 2204
 # File: /usr/core/src/www/interfaces.php, line: 2288
@@ -13763,15 +13916,15 @@ msgstr "Nastavení PPPoE"
 
 # File: /usr/core/src/www/interfaces.php, line: 2159
 msgid "%sClick here%s to create a PPP configuration."
-msgstr ""
+msgstr "Nastavení pro PPP vytvoříte kliknutím zde."
 
 # File: /usr/core/src/www/interfaces.php, line: 2157
 msgid "%sClick here%s to edit PPP configuration."
-msgstr ""
+msgstr "PPP nastavení upravíte %kliknutím sem%."
 
 # File: /usr/core/src/www/interfaces.php, line: 2154
 msgid "Advanced PPP"
-msgstr ""
+msgstr "Pokročilé PPP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2128
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 535
@@ -13781,7 +13934,7 @@ msgstr "Název přístupového bodu (APN)"
 # File: /usr/core/src/www/interfaces.php, line: 2105
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 509
 msgid "Select to fill in data for your service provider."
-msgstr ""
+msgstr "Vyberte pro vyplnění údajů pro vašeho poskytovatele služby."
 
 # File: /usr/core/src/www/interfaces.php, line: 2096
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 500
@@ -13909,7 +14062,7 @@ msgstr "Přednastavené:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1985
 msgid "Initial Interval"
-msgstr ""
+msgstr "Počáteční interval"
 
 # File: /usr/core/src/www/interfaces.php, line: 1984
 msgid "Backoff Cutoff"
@@ -13922,12 +14075,12 @@ msgstr ""
 # File: /usr/core/src/www/interfaces.php, line: 1981
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 281
 msgid "Retry"
-msgstr ""
+msgstr "Zkusit znovu"
 
 # File: /usr/core/src/www/interfaces.php, line: 1980
 # File: /usr/core/src/www/load_balancer_setting.php, line: 127
 msgid "Timeout"
-msgstr ""
+msgstr "Časový limit"
 
 # File: /usr/core/src/www/interfaces.php, line: 1978
 msgid "Protocol Timing"
@@ -13970,7 +14123,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces.php, line: 2049
 # File: /usr/core/src/www/interfaces.php, line: 2434
 msgid "Config File Override"
-msgstr ""
+msgstr "Přebití souboru s nastaveními"
 
 # File: /usr/core/src/www/interfaces.php, line: 1916
 # File: /usr/core/src/www/interfaces.php, line: 2426
@@ -13997,6 +14150,8 @@ msgid ""
 "If this interface is an Internet connection, select an existing Gateway from "
 "the list or add a new one using the link above."
 msgstr ""
+"Pokud je toto rozhraní připojení do Internetu, vyberte ze seznamu existující "
+"brány nebo výše uvedeným odkazem přidejte novou."
 
 # File: /usr/core/src/www/interfaces.php, line: 1881
 # File: /usr/core/src/www/interfaces.php, line: 2397
@@ -14087,7 +14242,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 1742
 msgid "Insert my local MAC address"
-msgstr ""
+msgstr "Vložit MAC adresu mého počítače"
 
 # File: /usr/core/src/www/interfaces.php, line: 1732
 # File: /usr/core/src/www/services_dhcp.php, line: 1156
@@ -14186,7 +14341,7 @@ msgstr "Nastavení %s byla změněna."
 
 # File: /usr/core/src/www/interfaces.php, line: 1626
 msgid "Don't forget to adjust the DHCP Server range if needed after applying."
-msgstr ""
+msgstr "Po použití nezapomeňte případně upravit rozsah DHCP serveru."
 
 # File: /usr/core/src/www/interfaces.php, line: 915
 msgid "The length of the passphrase should be between 8 and 63 characters."
@@ -14224,7 +14379,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 803
 msgid "The MTU must be greater than 576 bytes and less than 9000."
-msgstr ""
+msgstr "Je třeba, aby hodnota MTU byla v rozmezí 576 až 9000 bajtů."
 
 # File: /usr/core/src/www/interfaces.php, line: 799
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 136
@@ -14235,11 +14390,11 @@ msgstr "Je třeba zadat platnou MAC adresu."
 
 # File: /usr/core/src/www/interfaces.php, line: 793
 msgid "A valid PPTP remote IP address must be specified."
-msgstr ""
+msgstr "Je třeba zadat platnou PPTP IP adresu protější strany."
 
 # File: /usr/core/src/www/interfaces.php, line: 790
 msgid "A valid PPTP subnet bit count must be specified."
-msgstr ""
+msgstr "Je třeba zadat platný počet bitů PPTP podsítě."
 
 # File: /usr/core/src/www/interfaces.php, line: 787
 msgid "A valid PPTP local IP address must be specified."
@@ -14250,6 +14405,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 138
 msgid "The idle timeout value must be an integer."
 msgstr ""
+"Je třeba, aby hodnota časového limitu nečinnosti bylo celé kladné číslo."
 
 # File: /usr/core/src/www/interfaces.php, line: 780
 msgid "The service name contains invalid characters."
@@ -14266,7 +14422,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 755
 msgid "A valid alias subnet bit count must be specified."
-msgstr ""
+msgstr "Je třeba zadat platný počet bitů alternativní podsítě."
 
 # File: /usr/core/src/www/interfaces.php, line: 752
 msgid "A valid alias IP address must be specified."
@@ -14284,6 +14440,7 @@ msgstr "Tato IPv6 adresa koliduje se statickou trasou."
 # File: /usr/core/src/www/interfaces.php, line: 732
 msgid "This IPv6 address is being used by another interface or VIP."
 msgstr ""
+"Tato IPv6 adresa je používaná jiným rozhraním nebo jako virt. IP adresa."
 
 # File: /usr/core/src/www/interfaces.php, line: 729
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 102
@@ -14297,14 +14454,16 @@ msgstr "Tato IPv4 adresa koliduje se statickou trasou."
 # File: /usr/core/src/www/interfaces.php, line: 713
 msgid "This IPv4 address is the broadcast address and cannot be used"
 msgstr ""
+"Tato IPv4 adresa je adresou všesměrového vysílání a nelze ji proto použít"
 
 # File: /usr/core/src/www/interfaces.php, line: 711
 msgid "This IPv4 address is the network address and cannot be used"
-msgstr ""
+msgstr "Tato IPv4 adresa je adresou sítě a nelze ji proto použít"
 
 # File: /usr/core/src/www/interfaces.php, line: 706
 msgid "This IPv4 address is being used by another interface or VIP."
 msgstr ""
+"Tato IPv4 adresa je používaná jiným rozhraním nebo jako virt. IP adresa."
 
 # File: /usr/core/src/www/interfaces.php, line: 703
 msgid "A valid IPv4 address must be specified."
@@ -14397,7 +14556,7 @@ msgstr "PPPoE heslo"
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 101
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 msgid "Idle timeout value"
-msgstr ""
+msgstr "Hodnota časového limitu nečinnosti"
 
 # File: /usr/core/src/www/interfaces.php, line: 623
 # File: /usr/core/src/www/interfaces.php, line: 633
@@ -14541,6 +14700,9 @@ msgid ""
 "The firewall has globally been disabled and configured rules are currently "
 "not enforced. It can be enabled in the %sFirewall/NAT%s settings."
 msgstr ""
+"Brána firewall byla všeobecně vypnutá a nastavená pravidla proto aktuálně "
+"nejsou vynucovaná. Opětovné zapnutí je možné v nastaveních %Brána firewall / "
+"NAT%s."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 225
 msgid "Apply changes"
@@ -14568,6 +14730,9 @@ msgid ""
 "Otherwise the lowest combination of both values in the cluster determines "
 "the master."
 msgstr ""
+"Jak často o sobě tento stroj bude dávat vědět.  0 (nula) obvykle znamená, že "
+"je hlavní. V ostatních případech nejnižší kombinace obou hodnot v clusteru "
+"určuje hlavního."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 428
 msgid "Skew"
@@ -14584,11 +14749,11 @@ msgstr "Četnost propagace"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 413
 msgid "Enter the VHID group that the machines will share."
-msgstr ""
+msgstr "Zadejte VHID skupinu, kterou stroje budou sdílet."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 403
 msgid "VHID Group"
-msgstr ""
+msgstr "VHID skupina"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 398
 msgid "Enter the VHID group password."
@@ -14630,7 +14795,7 @@ msgstr "Ostatní"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 317
 msgid "carp"
-msgstr ""
+msgstr "carp"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 316
 msgid "IP Alias"
@@ -14661,7 +14826,7 @@ msgstr "Upravit virtuální IP adresu"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 271
 msgid "This is a CIDR block of proxy ARP addresses."
-msgstr ""
+msgstr "Toto je CIDR blok adres ARP proxy."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 264
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 276
@@ -14676,12 +14841,12 @@ msgstr "Zadejte jedinou IP adresu."
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 161
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 164
 msgid "For this type of vip localhost is not allowed."
-msgstr ""
+msgstr "localhost není dovolen pro tento typ virt. ip."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 157
 msgid ""
 "You must specify a CARP password that is shared between the two VHID members."
-msgstr ""
+msgstr "Je třeba zadat CARP heslo které je sdíleno mezi dvěma VHID členy."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 153
 msgid ""
@@ -14777,6 +14942,8 @@ msgid ""
 "This entry cannot be deleted because it is still referenced by a CARP IP "
 "with the description"
 msgstr ""
+"Tuto položku není možné smazat protože je na ní odkazováno z CARP IP s "
+"popisem"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 82
 msgid ""
@@ -14806,7 +14973,7 @@ msgstr "Náhodný-identifikátor"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 545
 msgid "Clears the dont-fragment bit from a matching IP packet."
-msgstr ""
+msgstr "Z IP paketů, které odpovídají pravidlu, odstraní příznak nerozdělovat."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 541
 msgid "Do not fragment"
@@ -14870,7 +15037,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 129
 msgid "Please specify a valid number for min ttl (0-255)."
-msgstr ""
+msgstr "Zadejte platné číslo pro minimální ttl (0-255)."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 124
 msgid "Please specify a valid number for max mss."
@@ -14883,6 +15050,7 @@ msgstr "Nebyla vybrána žádná rozhraní."
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 103
 msgid "%s doesn't appear to be a valid port number, alias or range"
 msgstr ""
+"%s se nejeví být platným číslem portu, alternativním názvem nebo rozsahem"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 319
 # File: /usr/core/src/www/services_dyndns.php, line: 134
@@ -14913,6 +15081,10 @@ msgid ""
 "only applies to packets that are not fragmented after the optional packet "
 "reassembly."
 msgstr ""
+"Nahradí pole IP identifikace paketů náhodnou hodnotou a kompenzuje tak "
+"nedostatek operačních systémů, které používají předvídatelné hodnoty. Tato "
+"předvolba se vztahuje pouze na pakety, které nejsou děleny po volitelném "
+"opětovném složení paketu."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 270
 msgid "IP Random id"
@@ -14925,6 +15097,10 @@ msgid ""
 "will cause the filter to not drop such packets but instead clear the don't "
 "fragment bit."
 msgstr ""
+"Toto umožní komunikaci se stroji, které vytvářejí dělené pakety ale s "
+"nastaveným příznakem nefragmentovat. Chová se tak například linuxová "
+"implementace NFS protokolu. Toto zajistí, že filtr takové pakety nebude "
+"zahazovat ale namísto toho odstraní příznak nefragmentovat."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 258
 msgid "IP Do-Not-Fragment"
@@ -14974,6 +15150,7 @@ msgid ""
 "Select the time range for the day(s) selected on the Month(s) above. A full "
 "day is 0:00-23:59."
 msgstr ""
+"Vyberte časové rozmezí pro dny vybrané z měsíců výše. Celý den je 0:00-23:59."
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 931
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 1005
@@ -15012,7 +15189,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 803
 msgid "This schedule is in use so the name may not be modified!"
-msgstr ""
+msgstr "Tento plán je používán takže jeho název nelze měnit!"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 796
 msgid "Schedule Name"
@@ -15024,15 +15201,15 @@ msgstr "Informace o plánu"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 191
 msgid "The schedule must have at least one time range configured."
-msgstr ""
+msgstr "Je třeba aby plán měl nastavený alespoň jedno časové rozmezí."
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 148
 msgid "Invalid stop time - '%s'"
-msgstr ""
+msgstr "Neplatný čas konce – „%s“"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 144
 msgid "Invalid start time - '%s'"
-msgstr ""
+msgstr "Neplatný čas začátku – „%s“"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 132
 msgid "A Schedule with this name already exists."
@@ -15201,6 +15378,9 @@ msgid ""
 "doing advanced queueing in certain situations.  Please check the "
 "documentation."
 msgstr ""
+"Nepoužívat pro zachování přehledu stavový mechanizmus.  Toto se hodí pouze v "
+"případě, že je prováděno pokročilé řazení do front za určitých situací.  "
+"Více informací naleznete v dokumentaci."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1382
 msgid ""
@@ -15219,11 +15399,13 @@ msgid ""
 "Hint: Select which type of state tracking mechanism you would like to use. "
 "If in doubt, use keep state."
 msgstr ""
+"Rada: Vyberte který typ mechanizmu sledování stavu chcete používat. Pokud "
+"nevíte, použijte zachovat stav."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1369
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1382
 msgid "synproxy state"
-msgstr ""
+msgstr "Stav synproxy"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1366
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1381
@@ -15239,6 +15421,8 @@ msgstr "zachovat stav"
 msgid ""
 "Hint: This prevents states created by this rule to be sync'ed over pfsync."
 msgstr ""
+"Rada: toto zabrání aby stavy, vytvořené tímto pravidlem, byly "
+"synchronizované přes pfsync."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1350
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1359
@@ -15247,7 +15431,7 @@ msgstr "Typ stavu"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1350
 msgid "NO pfsync"
-msgstr ""
+msgstr "Nesynchronizovat s ostatními uzly"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1345
 msgid ""
@@ -15282,6 +15466,7 @@ msgstr ""
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1298
 msgid "Maximum new connections per host / per second(s) (TCP only)"
 msgstr ""
+"Nejvýše nových spojení z jednoho stroje za sekundu (pouze u TCP protokolu)"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1273
 msgid "Max new connections"
@@ -15289,7 +15474,7 @@ msgstr "Nových připojení nejvýše"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1268
 msgid " Maximum state entries per host"
-msgstr ""
+msgstr " Nejvýše stavových položek z jednoho stroje"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1264
 msgid "Max source states"
@@ -15298,6 +15483,8 @@ msgstr "Stavů zdroje nejvýše"
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1259
 msgid " Maximum number of established connections per host (TCP only)"
 msgstr ""
+" Nejvyšší možný počet naráz navázaných spojení z jednoho stroje (pouze u TCP "
+"protokolu)"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1255
 msgid "Max established"
@@ -15375,6 +15562,8 @@ msgid ""
 "Leave as 'default' to use the system routing table. Or choose a gateway to "
 "utilize policy based routing."
 msgstr ""
+"Ponecháním na „výchozí“ bude použita směrovací tabulka systému. Nebo zvolte "
+"bránu a využijte směrování založené na pravidlech."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1166
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 396
@@ -15390,7 +15579,7 @@ msgstr "výchozí"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1158
 msgid "Leave as 'none' to leave the rule enabled all the time."
-msgstr ""
+msgstr "Ponecháním na „žádné“ toto pravidlo zůstane trvale zapnuté."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1126
 msgid ""
@@ -15426,6 +15615,9 @@ msgid ""
 "everything. If you want to do a lot of logging, consider using a %sremote "
 "syslog server%s."
 msgstr ""
+"Rada: místní úložiště brány firewall pro ukládání záznamu událostí je "
+"omezené. Proto nezapínejte zaznamenávání všeho. Pokud chcete zaznamenávat "
+"podrobně, zvažte použití %svzdáleného syslog serveru%s."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1073
 msgid "Log packets that are handled by this rule"
@@ -15433,13 +15625,15 @@ msgstr "Zaznamenávat pakety, které jsou obsluhovány tímto pravidlem"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1069
 msgid "Log"
-msgstr ""
+msgstr "Záznam událostí"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 946
 msgid ""
 "This is usually random and almost never equal to the destination port range ("
 "and should usually be 'any')."
 msgstr ""
+"Toto je obvykle nahodilé a téměř nikdy není shodné s rozsahem cílového portu "
+"(a obvykle by mělo být „libovolné“)."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 945
 msgid "Specify the source port or port range for this rule."
@@ -15449,11 +15643,11 @@ msgstr "Zadejte zdrojový port nebo rozsah portů pro toto pravidlo."
 msgid ""
 "If you selected ICMP for the protocol above, you may specify an ICMP type "
 "here."
-msgstr ""
+msgstr "Pokud jste výše jako protokol vybrali ICMP, můžete zde zadat typ ICMP."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 783
 msgid "ICMP type"
-msgstr ""
+msgstr "Typ ICMP"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 778
 msgid "Hint: in most cases, you should specify TCP here."
@@ -15490,10 +15684,12 @@ msgid ""
 "Set this option if you need to apply this action to traffic that matches "
 "this rule immediately."
 msgstr ""
+"Tuto předvolbu nastavte v případě že je třeba tuto akci neprodleně aplikovat "
+"na provoz který odpovídá tomuto pravidlu."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 667
 msgid "Apply the action immediately on match."
-msgstr ""
+msgstr "V okamžiku shody, okamžitě aplikovat toto pravidlo."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 662
 msgid "Quick"
@@ -15506,6 +15702,10 @@ msgid ""
 "with block the packet is dropped silently. In either case, the original "
 "packet is discarded."
 msgstr ""
+"Rada: rozdíl mezi blokováním a odmítnutím je, že u odmítnutí paket (TCP RST "
+"nebo ICMP port nedostupný u UDP) je vrácen odesilateli, zatímco v případě "
+"blokování je paket zahozen bez udání důvodu. V obou případech je původní "
+"paket zahozen."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 643
 msgid "Choose what to do with packets that match the criteria specified below."
@@ -15549,6 +15749,8 @@ msgstr ""
 msgid ""
 "Maximum state entries per host (advanced option) must be a positive integer"
 msgstr ""
+"Je třeba aby nejvyšší umožněný počet položek stavu pro jednotlivý stroj ("
+"pokročilá předvolba) bylo celé kladné číslo"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 327
 msgid ""
@@ -25302,7 +25504,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 121
 msgid "Enter the storage size for the local cache (default is 100)."
-msgstr ""
+msgstr "Zadejte velikost úložiště pro místní mezipaměť (výchozí je 100)."
 
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Enter the url where the reqmod requests should be sent to."
@@ -25722,6 +25924,8 @@ msgid ""
 "The number of bytes a queue can serve before being moved to the tail of old "
 "queues list (bytes), leave empty for defaults"
 msgstr ""
+"Počet bajtů které fronta může obsloužit než bude přesunuta na konec seznamu "
+"starých front. Pokud není vyplněno, bude použita výchozí hodnota."
 
 # File: /usr/lang/src/controllers.php, line: 206
 msgid ""
@@ -25735,6 +25939,9 @@ msgid ""
 "neighbor caches. Leave blank to disable (default). The standard UDP port for "
 "ICP is 3130."
 msgstr ""
+"Číslo portu na kterém mezipaměť Squid posílá a přijímá ICP dotazy na a ze "
+"sousedních mezipamětí. Pokud není vyplněno (výchozí stav) je tato funkce "
+"vypnutá. Standardní UDP port pro ICP je 3130."
 
 # File: /usr/lang/src/controllers.php, line: 208
 msgid "The port the proxy service will listen to."
@@ -25746,23 +25953,25 @@ msgstr "Port na kterém bude služba ssl proxy očekávat spojení."
 
 # File: /usr/lang/src/controllers.php, line: 210
 msgid "The prompt will be displayed in the authentication request window."
-msgstr ""
+msgstr "Výzva bude zobrazena v okně s požadavkem na ověření."
 
 # File: /usr/lang/src/controllers.php, line: 211
 msgid "The total number of authenticator processes to spawn."
-msgstr ""
+msgstr "Kolik ověřovací procesů vytvořit."
 
 # File: /usr/lang/src/controllers.php, line: 212
 msgid "This is the email address displayed in error messages to the users."
-msgstr ""
+msgstr "Toto je e-mailová adresa zobrazovaná uživatelům v chybových hlášeních."
 
 # File: /usr/lang/src/controllers.php, line: 213
 msgid "This is the hostname to be displayed in proxy server error messages."
 msgstr ""
+"Toto je název stroje, který se bude objevovat v chybových hlášeních proxy "
+"serveru."
 
 # File: /usr/lang/src/controllers.php, line: 214
 msgid "Total bandwidth for this pipe"
-msgstr ""
+msgstr "Celková šíře pásma pro tuto trubku"
 
 # File: /usr/lang/src/controllers.php, line: 215
 msgid "Use custom template package for user login"
@@ -25781,16 +25990,20 @@ msgid ""
 "Weight of this queue (1..100), used to prioritize within a pipe. (1 is low, "
 "100 is high)"
 msgstr ""
+"Váha této fronty (1 až 100), sloužící k určení priority v rámci trubky (1 "
+"znamená nízká, 100 vysoká)."
 
 # File: /usr/lang/src/controllers.php, line: 219
 msgid ""
 "When enabled the subnets of the selected interfaces will be added to the "
 "allow access list."
 msgstr ""
+"Při zapnutí budou podsítě označených rozhraní přidány do seznamu těch, ze "
+"kterých je přístup povolen."
 
 # File: /usr/lang/src/controllers.php, line: 220
 msgid "connected pipe for this queue"
-msgstr ""
+msgstr "připojené potrubí pro tuto frontu"
 
 # File: /usr/lang/src/controllers.php, line: 221
 msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
@@ -25799,14 +26012,15 @@ msgstr "cílová IP adresa nebo síť, příklady: 10.0.0.0/24, 10.0.0.1"
 # File: /usr/lang/src/controllers.php, line: 222
 msgid "destination port number or well known name (imap,imaps, http,https,...)"
 msgstr ""
+"číslo cílového portu nebo dobře známý název (imap, imaps, http, https, atd.)"
 
 # File: /usr/lang/src/controllers.php, line: 223
 msgid "enable this pipe and it's related queues and rules"
-msgstr ""
+msgstr "zapnout tuto trubku a související fronty a pravidla"
 
 # File: /usr/lang/src/controllers.php, line: 224
 msgid "enable this queue and it's related rules"
-msgstr ""
+msgstr "zapnout tuto frontu a související pravidla"
 
 # File: /usr/lang/src/controllers.php, line: 225
 msgid "ip address of the mail host"
@@ -25815,26 +26029,31 @@ msgstr "IP adresa poštovního serveru"
 # File: /usr/lang/src/controllers.php, line: 226
 msgid "matches incoming or outgoing packets or both (default)"
 msgstr ""
+"je porovnáváno vůči příchozím nebo odchozím paketům nebo obojímu (výchozí)"
 
 # File: /usr/lang/src/controllers.php, line: 227
 msgid "number of dynamic queues, leave empty for default"
-msgstr ""
+msgstr "počet dynamických front, pro výchozí hodnotu ponechte nevyplněné"
 
 # File: /usr/lang/src/controllers.php, line: 228
 msgid "order in which the rule will be evaluated (lowest first)"
-msgstr ""
+msgstr "pořadí ve kterém budou pravidla vyhodnocována (nejnižší první)"
 
 # File: /usr/lang/src/controllers.php, line: 229
 msgid ""
 "secondary interface, matches packets traveling to/from interface (1) to/from "
 "interface (2). can be combined with direction."
 msgstr ""
+"druhé rozhraní, porovnává pakety cestující na/z rozhraní 1 na/z rozhraní 2. "
+"Je možné kombinovat se směrem."
 
 # File: /usr/lang/src/controllers.php, line: 230
 msgid ""
 "select categories to use, leave empty for all. Categories are visible after "
 "initial download."
 msgstr ""
+"vyberte kategorie, které použít – pokud všechny, nevyplňujte. Kategorie jsou "
+"viditelné po úvodním stažení."
 
 # File: /usr/lang/src/controllers.php, line: 231
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
@@ -26308,13 +26527,13 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 118
 msgid "ICP port needs to be an integer value between 1 and 65535"
-msgstr ""
+msgstr "Je třeba, aby ICP port bylo celé číslo z rozmezí 1 až 65535"
 
 # File: /usr/core/src/www/diag_backup.php, line: 195
 # File: /usr/core/src/www/services_igmpproxy.php, line: 77
 # File: /usr/lang/src/models.php, line: 119
 msgid "IGMP Proxy"
-msgstr ""
+msgstr "IGMP proxy"
 
 # File: /usr/core/src/etc/inc/filter_log.inc, line: 41
 # File: /usr/core/src/www/system_hasync.php, line: 259
@@ -26326,10 +26545,12 @@ msgstr "IPsec"
 # File: /usr/lang/src/models.php, line: 121
 msgid "Idle timeout must be between 0(no timeout) and 10080 (a week)"
 msgstr ""
+"Je třeba, aby časový limit bylo číslo z rozmezí 0 (žádný časový limit) až "
+"10080 (týden)"
 
 # File: /usr/lang/src/models.php, line: 122
 msgid "Import"
-msgstr ""
+msgstr "Importovat"
 
 # File: /usr/lang/src/models.php, line: 123
 msgid "Insight"
@@ -26353,16 +26574,16 @@ msgstr "Zjišťování průniků"
 # File: /usr/core/src/www/status_interfaces.php, line: 163
 # File: /usr/lang/src/models.php, line: 126
 msgid "L2TP"
-msgstr ""
+msgstr "L2TP"
 
 # File: /usr/core/src/www/interfaces_lagg.php, line: 96
 # File: /usr/lang/src/models.php, line: 127
 msgid "LAGG"
-msgstr ""
+msgstr "LAGG"
 
 # File: /usr/lang/src/models.php, line: 128
 msgid "Lease Status"
-msgstr ""
+msgstr "Stav zápůjčky"
 
 # File: /usr/lang/src/models.php, line: 129
 msgid "Leases"
@@ -26384,19 +26605,19 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 133
 msgid "Log File"
-msgstr ""
+msgstr "Soubor se záznamem událostí"
 
 # File: /usr/lang/src/models.php, line: 134
 msgid "Log Files"
-msgstr ""
+msgstr "Soubory se záznamem událostí"
 
 # File: /usr/lang/src/models.php, line: 135
 msgid "Logging"
-msgstr ""
+msgstr "Záznam událostí"
 
 # File: /usr/lang/src/models.php, line: 136
 msgid "Logging Configuration"
-msgstr ""
+msgstr "Nastavení záznamu událostí"
 
 # File: /usr/lang/src/models.php, line: 137
 msgid "Logout"
@@ -26413,7 +26634,7 @@ msgstr "Lua skripty"
 
 # File: /usr/lang/src/models.php, line: 140
 msgid "Maximum number of zones reached"
-msgstr ""
+msgstr "Dosaženo nejvyššího možného počtu zón"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 410
 # File: /usr/lang/src/models.php, line: 141
@@ -26437,24 +26658,24 @@ msgstr "NAT"
 
 # File: /usr/lang/src/models.php, line: 145
 msgid "NDP Table"
-msgstr ""
+msgstr "NDP tabulka"
 
 # File: /usr/lang/src/models.php, line: 146
 msgid "NPT (IPv6)"
-msgstr ""
+msgstr "NPT (IPv6)"
 
 # File: /usr/lang/src/models.php, line: 147
 msgid "NetFlow"
-msgstr ""
+msgstr "NetFlow"
 
 # File: /usr/core/src/www/diag_backup.php, line: 203
 # File: /usr/lang/src/models.php, line: 148
 msgid "Network Time"
-msgstr ""
+msgstr "Síťový čas"
 
 # File: /usr/lang/src/models.php, line: 149
 msgid "Normal View"
-msgstr ""
+msgstr "Běžný pohled"
 
 # File: /usr/lang/src/models.php, line: 150
 msgid "Normalization"
@@ -26466,11 +26687,11 @@ msgstr "Upozornění"
 
 # File: /usr/lang/src/models.php, line: 152
 msgid "Number of children needs to be an integer value above 0"
-msgstr ""
+msgstr "Je třeba, aby počet potomků bylo celé kladné číslo"
 
 # File: /usr/lang/src/models.php, line: 153
 msgid "One-to-One"
-msgstr ""
+msgstr "Jedna-k-jedné"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/if_openvpn.inc, line: 53
 # File: /usr/core/src/etc/inc/system.inc, line: 1851
@@ -26489,11 +26710,11 @@ msgstr "OpenVPN"
 
 # File: /usr/lang/src/models.php, line: 155
 msgid "Origin should be regular text of max 30 characters"
-msgstr ""
+msgstr "Původ by měl být obyčejný text, dlouhý nejvýše 30 znaků"
 
 # File: /usr/lang/src/models.php, line: 156
 msgid "Origin should be regular text of max 30 characters."
-msgstr ""
+msgstr "Původ by měl být obyčejný text, dlouhý nejvýše 30 znaků."
 
 # File: /usr/lang/src/models.php, line: 157
 msgid "Other Types"
@@ -26507,7 +26728,7 @@ msgstr "Odchozí"
 
 # File: /usr/lang/src/models.php, line: 159
 msgid "Overrides"
-msgstr ""
+msgstr "Přebíjí"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 159
 # File: /usr/core/src/www/widgets/widgets/ipsec.widget.php, line: 87
@@ -26524,7 +26745,7 @@ msgstr "PPPoE"
 
 # File: /usr/lang/src/models.php, line: 162
 msgid "PPS"
-msgstr ""
+msgstr "Paketů/s"
 
 # File: /usr/core/src/www/interfaces.php, line: 1710
 # File: /usr/core/src/www/status_interfaces.php, line: 149
@@ -26534,7 +26755,7 @@ msgstr "PPTP"
 
 # File: /usr/lang/src/models.php, line: 164
 msgid "Packet Capture"
-msgstr ""
+msgstr "Zachytávání paketů"
 
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 82
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 176
@@ -26570,20 +26791,20 @@ msgstr "Heslo"
 # File: /usr/core/src/www/diag_ping.php, line: 154
 # File: /usr/lang/src/models.php, line: 166
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 # File: /usr/lang/src/models.php, line: 167
 msgid "Pipe number must be between 1...65535"
-msgstr ""
+msgstr "Je třeba, aby číslo potrubí bylo z rozmezí 1 až 65535"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 109
 # File: /usr/lang/src/models.php, line: 168
 msgid "Pipes"
-msgstr ""
+msgstr "Potrubí"
 
 # File: /usr/lang/src/models.php, line: 169
 msgid "Plain View"
-msgstr ""
+msgstr "Holý pohled"
 
 # File: /usr/lang/src/models.php, line: 170
 msgid "Please enter a valid email address."
@@ -26619,12 +26840,17 @@ msgid ""
 "Please provide a valid listen address, i.e. 10.0.0.1:8080 or "
 "haproxy.example.com:8999."
 msgstr ""
+"Zadejte platnou adresu na které očekávat spojení, jako např. 10.0.0.1:8080 "
+"nebo haproxy.examplecom:8999."
 
 # File: /usr/lang/src/models.php, line: 178
 msgid ""
 "Please provide a valid listen address, i.e. 127.0.0.1:8080 or "
 "www.example.com:443. Port range as start-end, i.e. 127.0.0.1:1220-1240."
 msgstr ""
+"Zadejte platnou adresu na které očekávat spojení, jako např. 127.0.0.1:8080 "
+"nebo examplecom:443. Rozsah portů jako začátek-konec, jako např. "
+"127.0.0.1:1220-1240."
 
 # File: /usr/lang/src/models.php, line: 179
 msgid "Please provide a valid user and password, i.e. user:secret123."
@@ -26656,6 +26882,9 @@ msgid ""
 "loadbalancer.example.com:50000. Port range as start-end, i.e. "
 "10.0.0.1:50000-60000."
 msgstr ""
+"Zadejte platnou zdrojovou adresu, jako např. 10.0.0.1 nebo "
+"loadbalancer.example.com:50000. Rozsah portů jako začátek-konec, jako např. "
+"10.0.0.1:50000-60000."
 
 # File: /usr/lang/src/models.php, line: 186
 msgid "Please specify a value between 0 and 1024."
@@ -26724,7 +26953,7 @@ msgstr "Zadejte hodnotu z rozmezí 64 až 65535. "
 # File: /usr/core/src/www/interfaces_ppps.php, line: 85
 # File: /usr/lang/src/models.php, line: 202
 msgid "Point-to-Point"
-msgstr ""
+msgstr "Bod-bod"
 
 # File: /usr/lang/src/models.php, line: 203
 msgid "Pool Setup"
@@ -26758,7 +26987,7 @@ msgstr "Proxy server"
 
 # File: /usr/lang/src/models.php, line: 210
 msgid "Proxy port needs to be an integer value between 1 and 65535"
-msgstr ""
+msgstr "Je třeba, aby port proxy bylo celé číslo z rozmezí 1 až 65535"
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 102
 # File: /usr/lang/src/models.php, line: 211
@@ -26767,7 +26996,7 @@ msgstr "QinQ"
 
 # File: /usr/lang/src/models.php, line: 212
 msgid "Queue number must be between 1...65535"
-msgstr ""
+msgstr "Je třeba, aby číslo fronty bylo z rozmezí 1 až 65535"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 110
 # File: /usr/lang/src/models.php, line: 213
@@ -26778,7 +27007,7 @@ msgstr "Fronty"
 # File: /usr/core/src/www/services_rfc2136.php, line: 79
 # File: /usr/lang/src/models.php, line: 214
 msgid "RFC 2136"
-msgstr ""
+msgstr "RFC 2136"
 
 # File: /usr/core/src/www/interfaces.php, line: 1983
 # File: /usr/lang/src/models.php, line: 215
@@ -26787,11 +27016,11 @@ msgstr "Restartovat"
 
 # File: /usr/lang/src/models.php, line: 216
 msgid "Related cron not found"
-msgstr ""
+msgstr "Související naplánovaná úloha (cron) nebyla nalezena"
 
 # File: /usr/lang/src/models.php, line: 217
 msgid "Related cron not found."
-msgstr ""
+msgstr "Je třeba, aby port proxy bylo celé číslo z rozmezí 1 až 65535."
 
 # File: /usr/lang/src/models.php, line: 218
 msgid "Related item not found"
@@ -26799,11 +27028,11 @@ msgstr "Související položka nebyla nalezena"
 
 # File: /usr/lang/src/models.php, line: 219
 msgid "Related pipe not found"
-msgstr ""
+msgstr "Související potrubí nebylo nelezeno"
 
 # File: /usr/lang/src/models.php, line: 220
 msgid "Related pipe or queue not found"
-msgstr ""
+msgstr "Nebylo nalezeno související potrubí nebo fronta"
 
 # File: /usr/lang/src/models.php, line: 221
 msgid "Related template not found"
@@ -26813,7 +27042,7 @@ msgstr "Související šablona nebyla nalezena"
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 298
 # File: /usr/lang/src/models.php, line: 222
 msgid "Relay"
-msgstr ""
+msgstr "Předávání"
 
 # File: /usr/lang/src/models.php, line: 223
 msgid "RemoteACL"
@@ -26821,15 +27050,15 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 224
 msgid "Reporter"
-msgstr ""
+msgstr "Hlásič"
 
 # File: /usr/lang/src/models.php, line: 225
 msgid "Reporting"
-msgstr ""
+msgstr "Hlášení"
 
 # File: /usr/lang/src/models.php, line: 226
 msgid "Revocation"
-msgstr ""
+msgstr "Odvolání platnosti"
 
 # File: /usr/lang/src/models.php, line: 227
 msgid "Routes"
@@ -26850,7 +27079,7 @@ msgstr "Pravidla"
 
 # File: /usr/lang/src/models.php, line: 229
 msgid "SMART"
-msgstr ""
+msgstr "SMART"
 
 # File: /usr/lang/src/models.php, line: 230
 msgid "SNMP"
@@ -26858,12 +27087,12 @@ msgstr "SNMP"
 
 # File: /usr/lang/src/models.php, line: 231
 msgid "SSL Proxy port needs to be an integer value between 1 and 65535"
-msgstr ""
+msgstr "Je třeba, aby port pro SSL Proxy bylo celé číslo z rozmezí 1 až 65535"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 397
 # File: /usr/lang/src/models.php, line: 232
 msgid "Schedules"
-msgstr ""
+msgstr "Plány"
 
 # File: /usr/lang/src/models.php, line: 233
 msgid "Security Association Database"
@@ -26871,7 +27100,7 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 234
 msgid "Security Policy Database"
-msgstr ""
+msgstr "Databáze pravidel zabezpečení"
 
 # File: /usr/lang/src/models.php, line: 235
 msgid "Select a command from the list."
@@ -26938,16 +27167,20 @@ msgid ""
 "Should be a number between 1 and 5 characters followed by either \"d\", \"h\""
 ", \"m\", \"s\" or \"ms\"."
 msgstr ""
+"Mělo by být číslo jeden až pět znaků dlouhé, následované buď „d“, „h“, „m“, "
+"„s“ nebo „ms“."
 
 # File: /usr/lang/src/models.php, line: 243
 msgid ""
 "Should be a number between 1 and 5 characters followed by either \"k\", \"m\""
 " or \"g\"."
 msgstr ""
+"Mělo by být číslo jeden až pět znaků dlouhé, následované buď „k“, „m“ nebo "
+"„g“."
 
 # File: /usr/lang/src/models.php, line: 244
 msgid "Should be a string between 1 and 255 characters."
-msgstr ""
+msgstr "Měl by být řetězec 1 až 255 znaků dlouhý."
 
 # File: /usr/lang/src/models.php, line: 245
 msgid "Sid should be a number."
@@ -26959,7 +27192,7 @@ msgstr "Sokety"
 
 # File: /usr/lang/src/models.php, line: 247
 msgid "Specify a maximum object size. (number of MB's)"
-msgstr ""
+msgstr "Zadejte nejvyšší umožněnou velikost objektu (počet megabajtů)"
 
 # File: /usr/lang/src/models.php, line: 248
 msgid "Specify a positive cache size. (number of MB's)"
@@ -26999,7 +27232,7 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 257
 msgid "States Reset"
-msgstr ""
+msgstr "Reset stavů"
 
 # File: /usr/lang/src/models.php, line: 258
 msgid "States Summary"
@@ -27085,7 +27318,7 @@ msgstr "Toto nevypadá jak platná URL adresa."
 # File: /usr/core/src/www/diag_traceroute.php, line: 169
 # File: /usr/lang/src/models.php, line: 271
 msgid "Traceroute"
-msgstr ""
+msgstr "Traceroute"
 
 # File: /usr/lang/src/models.php, line: 272
 msgid "Traffic Graph"
@@ -27221,6 +27454,7 @@ msgstr "Průvodce"
 # File: /usr/lang/src/models.php, line: 298
 msgid "max size needs to be an integer value between 1 and 65535"
 msgstr ""
+"je třeba, aby nejvyšší umožněná velikost bylo celé číslo z rozmezí 1 až 65535"
 
 # File: /usr/lang/src/models.php, line: 299
 msgid "menu"
