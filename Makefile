@@ -93,9 +93,11 @@ ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
 .for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${LANGDIR}
-	${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot
-	find ${ROOTDIR}/src -print0 | \
-	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
+	if [ -d ${ROOTDIR}/src ]; then \
+		${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot; \
+		find ${ROOTDIR}/src -print0 | \
+		    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot; \
+	fi
 .endfor
 
 template: ${TEMPLATE}
