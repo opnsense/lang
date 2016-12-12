@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-09 07:05+0000\n"
+"POT-Creation-Date: 2016-12-12 16:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1985,6 +1985,11 @@ msgid ""
 "behavior is disabled by default. Check this box to force IPsec to fully "
 "reload on failover."
 msgstr ""
+"Za některých okolností nefunguje použití skupiny brány jako rozhraní pro "
+"IPsec tunel správně a IPsec je třeba v případě převzetí služby při výpadku "
+"výslovně načíst znovu. Protože by toto narušilo veškeré IPsec tunely, je "
+"toto chování ve výchozím stavu vypnuto. Pokud přesto chcete vynucovat aby se "
+"IPsec při převzetí služby při výpadky načítal zcela znovu, zaškrtněte toto."
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 176
 msgid "Force IPsec Reload on Failover"
@@ -1999,10 +2004,12 @@ msgid ""
 "Launches IPSec in debug mode so that more verbose logs will be generated to "
 "aid in troubleshooting."
 msgstr ""
+"Spustí IPSec v ladícím režimu, čímž budou vytvářeny podrobnější záznamy "
+"událostí, které pomohou při hledání příčin problémů."
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 150
 msgid "Start IPSec in debug mode based on sections selected"
-msgstr ""
+msgstr "Spustit IPSec v ladícím režimu v závislosti na vybraných sekcích"
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 147
 msgid "IPsec Debug"
@@ -2048,7 +2055,7 @@ msgstr "Automaticky ověřovat dostupnost stroje (ping)"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 798
 msgid "Set globally in mobile client options"
-msgstr ""
+msgstr "Nastavit globálně v předvolbách mobilního klienta"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 778
 msgid "PFS key group"
@@ -2119,6 +2126,8 @@ msgid ""
 "Set this option to disable this phase2 entry without removing it from the "
 "list"
 msgstr ""
+"Nastavením této předvolby je možné přestat používat tuto položku druhé fáze, "
+"aniž by bylo třeba ji odebírat ze seznamu"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 540
 msgid "Disable this phase2 entry"
@@ -2142,22 +2151,26 @@ msgid ""
 "Phase2 with this Local/Remote networks combination is already defined for "
 "this Phase1."
 msgstr ""
+"Pro tuto fázi jedna je už nastavená fáze dva s takovou kombinací místní / "
+"sítě na protější straně."
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 343
 msgid "Phase2 with this Local Network is already defined for mobile clients."
-msgstr ""
+msgstr "Pro mobilní klienty je už nastavená druhá fáze s takovou místní sítí."
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 320
 msgid ""
 "A valid remote network IPv6 address must be specified or you need to change "
 "Mode to IPv4"
 msgstr ""
+"Je třeba zadat platnou IPv6 adresu sítě nebo je třeba změnit režim na IPv4"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 318
 msgid ""
 "A valid remote network IPv4 address must be specified or you need to change "
 "Mode to IPv6"
 msgstr ""
+"Je třeba zadat platnou IPv4 adresu sítě nebo je třeba změnit režim na IPv6"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 316
 msgid "A valid remote network IP address must be specified."
@@ -2180,12 +2193,16 @@ msgid ""
 "A valid NAT local network IPv6 address must be specified or you need to "
 "change Mode to IPv4"
 msgstr ""
+"Je třeba zadat platnou IPv6 adresu NAT překladu pro místní síť nebo je třeba "
+"změnit režim na IPv4"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 294
 msgid ""
 "A valid NAT local network IPv4 address must be specified or you need to "
 "change Mode to IPv6"
 msgstr ""
+"Je třeba zadat platnou IPv4 adresu NAT překladu pro místní síť nebo je třeba "
+"změnit režim na IPv6"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 292
 msgid "A valid NAT local network IP address must be specified."
@@ -2219,7 +2236,7 @@ msgstr "Je třeba zadat IPv6 adresu místní sítě nebo změnit režim na IPv4"
 msgid ""
 "A valid local network IPv4 address must be specified or you need to change "
 "Mode to IPv6"
-msgstr ""
+msgstr "Je třeba zadat platnou IPv4 adresu nebo je třeba změnit režim na IPv6"
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 262
 msgid "A valid local network IP address must be specified."
@@ -2227,7 +2244,7 @@ msgstr "Je třeba zadat platnou IP adresu místní sítě."
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 258
 msgid "A valid local network bit count must be specified."
-msgstr ""
+msgstr "Je třeba zadat platný počet bitů místní sítě."
 
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 249
 msgid "Remote network type"
@@ -2271,6 +2288,9 @@ msgid ""
 "UDP packets) if needed, which can help with clients that are behind "
 "restrictive firewalls."
 msgstr ""
+"Zapnutím této předvolby v případě potřeby zapněte tzv. NAT-T (tj. "
+"zapouzdřování ESP do UDP paketů). To může pomoci klientům, kteří se "
+"nacházejí za příliš omezujícími branami firewall."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 927
 msgid "Force"
@@ -2278,7 +2298,7 @@ msgstr "Vynutit"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 917
 msgid "NAT Traversal"
-msgstr ""
+msgstr "Překonávání NAT překladu"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 912
 msgid ""
@@ -2292,7 +2312,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 903
 msgid "Whether a connection should be renegotiated when it is about to expire."
-msgstr ""
+msgstr "Zda má být znovu dohodnuto spojení když se blíží konec jeho platnosti."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 899
 msgid "Disable Rekey"
@@ -2329,7 +2349,7 @@ msgstr "Moje certifikační autorita"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 776
 msgid "Select a certificate previously configured in the Certificate Manager."
-msgstr ""
+msgstr "Vybrat certifikát dříve nastavený ve správci certifikátů."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 761
 msgid "My Certificate"
@@ -2373,7 +2393,7 @@ msgstr "Můj identifikátor"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 687
 msgid "Aggressive is more flexible, but less secure."
-msgstr ""
+msgstr "Agresivní je přizpůsobivější, ale méně bezpečný."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 673
 msgid "Negotiation mode"
@@ -2450,6 +2470,8 @@ msgstr "Metoda připojení"
 msgid ""
 "Set this option to disable this phase1 without removing it from the list."
 msgstr ""
+"Pomocí této předvolby je možné přestat tuto fázi jedna používat aniž by bylo "
+"třeba ji odebírat ze seznamu."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 511
 msgid "Disable this phase1 entry"
@@ -2520,13 +2542,15 @@ msgstr "Do sekce „Identifikátor protistrany“ zadejte adresu"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 275
 msgid "A valid Dynamic DNS address for 'My identifier' must be specified."
-msgstr ""
+msgstr "Je třeba zadat platnou adresy dynamické DNS pro „můj identifikátor“."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 271
 msgid ""
 "A valid User FQDN in the form of user@my.domain.com for 'My identifier' must "
 "be specified."
 msgstr ""
+"Do kolonky Identifikátor je třeba zadat platné úplné rozlišené jméno "
+"uživatele v podobě uzivatel@example.com."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 267
 msgid "A valid FQDN for 'My identifier' must be specified."
@@ -2751,7 +2775,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 352
 msgid "Please click Create to define one."
-msgstr ""
+msgstr "Definujte ji kliknutím na Vytvořit."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 352
 msgid "Create Phase1"
@@ -2917,7 +2941,7 @@ msgstr "vypnuto"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 505
 msgid "enable phase 2 entry"
-msgstr ""
+msgstr "zapnout položku druhé fáze"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 505
 msgid "disable phase 2 entry"
@@ -2976,11 +3000,11 @@ msgstr "automaticky"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 355
 msgid "enable phase 1 entry"
-msgstr ""
+msgstr "zapnout položku první fáze"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 355
 msgid "disable phase 1 entry"
-msgstr ""
+msgstr "vypnout položku první fáze"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 337
 msgid "Phase 1 Proposal"
@@ -3072,6 +3096,8 @@ msgid ""
 "Time in minutes to expire idle management sessions. The default is 4 hours ("
 "240 minutes)."
 msgstr ""
+"Čas (v minutách) po jehož uplynutí ukončovat nečinné správní relace. Výchozí "
+"jsou čtyři hodiny (240 minut)."
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 110
 msgid "Session Timeout"
@@ -3279,7 +3305,7 @@ msgstr "exportovat soukromou část klíče"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 695
 msgid "CA"
-msgstr ""
+msgstr "Cert. autorita"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 690
 msgid "User Certificates"
@@ -3332,7 +3358,7 @@ msgstr "(potvrzení)"
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 700
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 728
 msgid "User distinguished name"
-msgstr ""
+msgstr "Rozlišené uživatelské jméno"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 472
 msgid "Do you really want to delete this API key?"
@@ -3448,7 +3474,7 @@ msgstr "Je třeba zadat platnou IPv4 nebo IPv6 cílovou síť."
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 83
 msgid "Destination network bit count"
-msgstr ""
+msgstr "Počet bitů cílové sítě"
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 82
 # File: /usr/core/src/www/system_routes_edit.php, line: 274
@@ -4884,10 +4910,12 @@ msgid ""
 "Copy the certificate signing data from here and forward it to your "
 "certificate authority for signing."
 msgstr ""
+"Zkopírujte odsud údaje pro podpis certifikátu a předejte je své certifikační "
+"autoritě k podpisu."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1155
 msgid "Signing request data"
-msgstr ""
+msgstr "Údaje žádosti o podpis"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1152
 msgid "Complete Signing Request"
@@ -5054,7 +5082,7 @@ msgstr "Importovat existující certifikát"
 
 # File: /usr/core/src/www/system_camanager.php, line: 786
 msgid "delete ca"
-msgstr ""
+msgstr "smazat cert. autoritu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 781
 msgid "export CA private key"
@@ -5062,11 +5090,11 @@ msgstr "exportovat soukromý klíč certifikační autority"
 
 # File: /usr/core/src/www/system_camanager.php, line: 776
 msgid "export CA cert"
-msgstr ""
+msgstr "exportovat certifikát cert. autority"
 
 # File: /usr/core/src/www/system_camanager.php, line: 773
 msgid "edit CA"
-msgstr ""
+msgstr "upravit cert. autoritu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 767
 # File: /usr/core/src/www/system_certmanager.php, line: 1244
@@ -5102,7 +5130,7 @@ msgstr "Vydavatel"
 # File: /usr/core/src/www/system_certmanager.php, line: 899
 # File: /usr/core/src/www/system_certmanager.php, line: 1077
 msgid "internal-ca"
-msgstr ""
+msgstr "vnitřní cert. autorita"
 
 # File: /usr/core/src/www/system_camanager.php, line: 672
 # File: /usr/core/src/www/system_certmanager.php, line: 888
@@ -5184,6 +5212,8 @@ msgstr "Rozlišený název"
 msgid ""
 "NOTE: It is recommended to use an algorithm stronger than SHA1 when possible."
 msgstr ""
+"POZN.: pokud je to možné, je doporučeno použít silnější algoritmus než je "
+"SHA1."
 
 # File: /usr/core/src/www/system_camanager.php, line: 595
 # File: /usr/core/src/www/system_certmanager.php, line: 809
@@ -5200,6 +5230,8 @@ msgid ""
 "Enter a decimal number to be used as the serial number for the next "
 "certificate to be created using this CA."
 msgstr ""
+"Zadejte desítkové číslo, které bude sloužit jako sériové číslo pro příští "
+"certifikát vytvořený touto cert. autoritou."
 
 # File: /usr/core/src/www/system_camanager.php, line: 549
 msgid "Serial for next certificate"
@@ -5211,6 +5243,9 @@ msgid ""
 "most cases, but required if you need to generate a Certificate Revocation "
 "List (CRL)."
 msgstr ""
+"Sem vložte soukromou část klíče výše uvedeného certifikátu. Ve většině "
+"případů to není třeba, ale je vyžadováno v případě, že potřebujete vytvořit "
+"seznam zneplatněných certifikátů (CRL)."
 
 # File: /usr/core/src/www/system_camanager.php, line: 538
 msgid "Certificate Private Key"
@@ -5248,10 +5283,12 @@ msgid ""
 "Do you really want to delete this Certificate Authority and its CRLs, and "
 "unreference any associated certificates?"
 msgstr ""
+"Opravdu chcete smazat tuto certifikační autoritu a seznamy jí vydaných "
+"zneplatněných certifikátů?"
 
 # File: /usr/core/src/www/system_camanager.php, line: 416
 msgid "add or import ca"
-msgstr ""
+msgstr "přidat nebo importovat cert. autoritu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 376
 # File: /usr/core/src/www/system_camanager.php, line: 390
@@ -5538,7 +5575,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_authservers.php, line: 549
 msgid "Bind credentials"
-msgstr ""
+msgstr "Přihlašovací údaje pro spojení"
 
 # File: /usr/core/src/www/system_authservers.php, line: 534
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 756
@@ -5567,6 +5604,8 @@ msgstr "Vytvořit jedno pod"
 # File: /usr/core/src/www/system_authservers.php, line: 530
 msgid "It must match with the CA in the AD otherwise problems will arise."
 msgstr ""
+"Je třeba, aby se shodovalo s cert. autoritou v Active Directory, jinak "
+"nastanou problémy."
 
 # File: /usr/core/src/www/system_authservers.php, line: 529
 msgid "This option is used if 'SSL Encrypted' option is choosen."
@@ -5825,7 +5864,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 243
 msgid "Enable SMTP over SSL/TLS"
-msgstr ""
+msgstr "Používat SMTP přes SSL/TLS"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 240
 msgid "Secure SMTP Connection"
@@ -6073,12 +6112,12 @@ msgstr "Nejméně"
 # File: /usr/core/src/www/system_advanced_misc.php, line: 367
 # File: /usr/core/src/www/system_advanced_misc.php, line: 385
 msgid "Adaptive"
-msgstr ""
+msgstr "Přizpůsobivé"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 364
 # File: /usr/core/src/www/system_advanced_misc.php, line: 382
 msgid "Hiadaptive"
-msgstr ""
+msgstr "Vysoké přizpůsobivé"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 360
 msgid "On AC Power Mode"
@@ -6166,7 +6205,7 @@ msgstr "%s hodin"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 281
 msgid "Periodic RRD Backup"
-msgstr ""
+msgstr "Pravidelná záloha RRD databáze"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 278
 msgid "Periodic Backups"
@@ -6249,15 +6288,23 @@ msgid ""
 "128. OpenVPN should be set for AES-128-CBC and have cryptodev enabled for "
 "hardware acceleration."
 msgstr ""
+"Na strojích, které jsou vybaveny příslušným čipem, ovladač urychlovače "
+"šifrování využije jeho specializované obvody pro urychlení některých "
+"šifrovacích funkcí. Tuto předvolbu nezapínejte v případě, že je osazena "
+"karta pro urychlování šifrování od Hifn, protože by to způsobilo, že by "
+"nebyla využívána. Urychlování by mělo automaticky být použito pro IPsec, "
+"pokud je používán algoritmus, podporovaný přítomným čipem, jako například "
+"AES-128. OpenVPN by mělo být nastavené na AES-128-CBC a zapnuté šifrovací "
+"zařízení, aby urychlování fungovalo."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 212
 # File: /usr/core/src/www/system_advanced_misc.php, line: 255
 msgid "Hardware"
-msgstr ""
+msgstr "Hardware"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 205
 msgid "Cryptographic Hardware Acceleration"
-msgstr ""
+msgstr "Hardwarové urychlování šifrování"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 107
 msgid "Please select a valid Thermal Hardware Sensor."
@@ -6265,7 +6312,7 @@ msgstr "Vyberte platný teplotní senzor hardwaru."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 103
 msgid "Please select a valid Cryptographic Accelerator."
-msgstr ""
+msgstr "Vyberte správný urychlovač šifrování."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 65
 msgid "Intel Core* CPU on-die thermal sensor"
@@ -6277,23 +6324,23 @@ msgstr "Teplotní senzor přímo v jádře procesorů AMD řad K8, K10 a K11"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 48
 msgid "Broadcom and BlueSteel uBsec 5x0x crypto accelerator"
-msgstr ""
+msgstr "Broadcom a BlueSteel uBsec 5x0x crypto accelerator"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 47
 msgid "SafeNet Crypto Accelerator"
-msgstr ""
+msgstr "SafeNet Crypto Accelerator"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 46
 msgid "Crypto and RNG in VIA C3, C7 and Eden Processors"
-msgstr ""
+msgstr "Šifrování a vytváření náhodných čísel v procesorech VIA C3, C7 a Eden"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 45
 msgid "Hifn 7751/7951/7811/7955/7956 Crypto Accelerator"
-msgstr ""
+msgstr "Hifn 7751/7951/7811/7955/7956 Crypto Accelerator"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 44
 msgid "AMD Geode LX Security Block"
-msgstr ""
+msgstr "Zabezpečovací obvody v procesorech AMD řady Geode LX"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 43
 msgid "AES-NI CPU-based Acceleration"
@@ -6304,28 +6351,32 @@ msgid ""
 "Make sure the certificate is valid for all HTTPS addresses on aliases. If "
 "it's not valid or is revoked, do not download it."
 msgstr ""
+"Ověřte, zda je certifikát platný pro i pro všechny alternativní HTTPS "
+"adresy. Pokud není platný nebo jeho platnost byla odvolána, nestahujte si ho."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 576
 msgid "Verify HTTPS certificates when downloading alias URLs"
-msgstr ""
+msgstr "Ověřit HTTPS certifikáty při stahování alternativních URL adres"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 573
 msgid "Check certificate of aliases URLs"
-msgstr ""
+msgstr "Ověřit certifikát alternativních URL adres"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 568
 msgid "Note: Leave this blank for the default (300s)."
-msgstr ""
+msgstr "Pozn.: Pokud chcete použít výchozí hodnotu (300s), nevyplňujte."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 566
 msgid ""
 "Interval, in seconds, that will be used to resolve hostnames configured on "
 "aliases."
 msgstr ""
+"Interval (v sekundách) ve kterém budou překládány názvy strojů nastavená v "
+"alternativních názvech."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 562
 msgid "Aliases Resolve Interval"
-msgstr ""
+msgstr "Interval překládání alternativních názvů"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 556
 msgid ""
@@ -6334,18 +6385,24 @@ msgid ""
 "When using bridging, you must disable this behavior if the WAN gateway IP is "
 "different from the gateway IP of the hosts behind the bridged interface."
 msgstr ""
+"V případě vícenásobného připojení k Internetu je obecně třeba zajistit, aby "
+"provoz odcházel stejným rozhraním, na které dorazil – proto je ve výchozím "
+"stavu automaticky přidáváno „odpovědět skrze:“. Při použití síťového mostu "
+"je třeba toto chování vypnout v případě, že IP adresa brány rozhraní do "
+"Internetu se liší od IP adresy brány strojů, nacházejících se za přemostěným "
+"rozhraním."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 554
 msgid "Disable reply-to on WAN rules"
-msgstr ""
+msgstr "Vypnout pravidla odpovědět skrze na WAN"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 551
 msgid "Disable reply-to"
-msgstr ""
+msgstr "Vypnout odpovědět skrze"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 546
 msgid "Note: This disables automatically added rules for IPsec, PPTP."
-msgstr ""
+msgstr "Pozn.: toto vypne automaticky přidaná pravidla pro IPsec, PPTP."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 544
 msgid "Disable all auto-added VPN rules."
@@ -6353,7 +6410,7 @@ msgstr "Neuplatňovat žádná z automaticky přidaných VPN pravidel."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 541
 msgid "Disable Auto-added VPN rules"
-msgstr ""
+msgstr "Vypnout automaticky přidaná VPN pravidla"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 534
 msgid ""
@@ -6362,10 +6419,15 @@ msgid ""
 "will not be checked by the firewall. This may be desirable in some "
 "situations where multiple subnets are connected to the same interface."
 msgstr ""
+"Tato předvolba se uplatní pouze pokud je určena alespoň jedna statická "
+"trasa. Pokud je zapnuté, provoz, který vstoupí a vystoupí tím stejným "
+"rozhraním nebude kontrolován bránou firewall. To může být potřebné v "
+"některých situacích, kdy je do stejného rozhraní připojeno více podsítí."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 532
 msgid "Bypass firewall rules for traffic on the same interface"
 msgstr ""
+"Obejít pravidla brány firewall v případě provozu na tom stejném rozhraní."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 529
 msgid "Static route filtering"
@@ -6384,27 +6446,32 @@ msgid ""
 "Maximum number of table entries for systems such as aliases, sshlockout, "
 "snort, etc, combined."
 msgstr ""
+"Nejvyšší počet položek tabulky pro systémy jako např. alternativní názvy, "
+"sshzámky, snort, atd. dohromady."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 513
 msgid "Firewall Maximum Table Entries"
-msgstr ""
+msgstr "Nejvýše položek tabulky brány firewall"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 508
 msgid ""
 "Note: Leave this blank for the default. On your system the default size is:"
 msgstr ""
+"Pozn.: Pokud chcete použít výchozí hodnotu, nevyplňujte. Na tomto systému je "
+"výchozí velikost:"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 506
 msgid "Maximum number of connections to hold in the firewall state table."
 msgstr ""
+"Nejvyšší počet spojení, jejichž stavy udržovat v tabulce brány firewall."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 502
 msgid "Firewall Maximum States"
-msgstr ""
+msgstr "Nejvýše stavů brány firewall"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
-msgstr ""
+msgstr "Pozn.: pro výchozí (nula) ponechte nevyplněné."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 495
 msgid ""
@@ -6413,6 +6480,10 @@ msgid ""
 "define the scale factor, it should not actually be reached (set a lower "
 "state limit, see below)."
 msgstr ""
+"Když se počet stavových položek blíží k tomuto číslu, veškeré hodnoty "
+"časových limitů budou nastaveny na nulu, čímž budou veškeré stavové položky "
+"vymazány. Tato hodnota slouží k určení rozsahu, nemělo by jí být běžně "
+"dosahováno (nastavte nižší stavový limt, viz níže)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
@@ -6420,12 +6491,17 @@ msgid ""
 "begins. All timeout values are scaled linearly with factor (adaptive.end - "
 "number of states) / (adaptive.end - adaptive.start)."
 msgstr ""
+"Když počet stavových položek překročí tuto hodnotu, začne se s přizpůsobivým "
+"škálováním. Veškeré časové limity jsou zkráceny o příslušný koeficient ("
+"adaptivní.konec - počet stavů) / (adaptivní.konec - adaptivní.začátek)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 490
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
 "entries grows."
 msgstr ""
+"Časové limity pro stavy je možné přizpůsobivě škálovat jak počty položek "
+"stavové tabulky rostou."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 475
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 494
@@ -6439,13 +6515,15 @@ msgstr "začátek"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 469
 msgid "Firewall Adaptive Timeouts"
-msgstr ""
+msgstr "Přizpůsobivé časové limity brány firewall"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 462
 msgid ""
 "If you only want to disable NAT, and not firewall rules, visit the %"
 "sOutbound NAT%s page."
 msgstr ""
+"Pokud chcete přestat používat pouze NAT překlad ale pravidla brány firewall "
+"zachovat, přejděte na stránku %sOdchozí NAT%s."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 460
 msgid "Warning: This will also turn off NAT!"
@@ -6453,7 +6531,7 @@ msgstr "Varování: Toto také vypne NAT!"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 459
 msgid "Warning: This will convert into a routing-only platform!"
-msgstr ""
+msgstr "Varování: toto změní v pouze směrující platformu!"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 457
 msgid "Disable all packet filtering."
@@ -6468,26 +6546,32 @@ msgid ""
 "Tries to avoid dropping any legitimate idle connections at the expense of "
 "increased memory usage and CPU utilization."
 msgstr ""
+"Snaží se nezahazovat žádná legitimní čekající spojení za cenu zvýšené "
+"spotřeby kapacity operační paměti a vytížení procesoru."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 442
 msgid ""
 "Expires idle connections quicker. More efficient use of CPU and memory but "
 "can drop legitimate idle connections"
 msgstr ""
+"Rychleji ukončit platnost nečinných spojení. Efektivnější využití procesoru "
+"a paměti ale může docházet k zahazování legitimních nečinných spojení"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 438
 msgid ""
 "Used for high latency links, such as satellite links. Expires idle "
 "connections later than default"
 msgstr ""
+"Použito pro linky s dlouhou odezvou, jako jsou například ty přes satelit. "
+"Platnost nečinných relací skončí později než je ve výchozím stavu"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 434
 msgid "As the name says, it is the normal optimization algorithm"
-msgstr ""
+msgstr "Jak název napovídá, jedná se o normální optimalizační algoritmus"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 430
 msgid "Select the type of state table optimization to use"
-msgstr ""
+msgstr "Vyberte typ optimalizace tabulky stavů, který použít"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 426
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 445
@@ -6497,17 +6581,17 @@ msgstr "konzervativní"
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 423
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 441
 msgid "aggressive"
-msgstr ""
+msgstr "agresivní"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 420
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 437
 msgid "high-latency"
-msgstr ""
+msgstr "pomalá odezva"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 417
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 433
 msgid "normal"
-msgstr ""
+msgstr "normální"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 413
 msgid "Firewall Optimization"
@@ -6519,10 +6603,13 @@ msgid ""
 "expiration time has come. This option overrides that behavior by not "
 "clearing states for existing connections."
 msgstr ""
+"Ve výchozím stavu plánovače vyčistí stavy existujících spojení když přijde "
+"čas skončení platnosti. Tato předvolba toto chování přebije nemazáním stavů "
+"existujících spojení."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 400
 msgid "Schedule States"
-msgstr ""
+msgstr "Naplánovat stavy"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 390
 msgid ""
@@ -6577,7 +6664,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 350
 msgid "Kill states"
-msgstr ""
+msgstr "Zničit stavy"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 347
 msgid "Gateway Monitoring"
@@ -8659,15 +8746,15 @@ msgstr ""
 # File: /usr/core/src/www/services_snmp.php, line: 85
 # File: /usr/core/src/www/services_snmp.php, line: 177
 msgid "Polling Port"
-msgstr ""
+msgstr "Dotazovací port"
 
 # File: /usr/core/src/www/services_snmp.php, line: 85
 msgid "Community"
-msgstr ""
+msgstr "Komunita"
 
 # File: /usr/core/src/www/services_snmp.php, line: 80
 msgid "Invalid character '#' in read community string"
-msgstr ""
+msgstr "Neplatný znak „#“ v řetězci čtecí komunity"
 
 # File: /usr/core/src/www/services_snmp.php, line: 76
 msgid "Invalid character (non ascii) in system contact"
@@ -8694,10 +8781,12 @@ msgid ""
 "The maximum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"Nejdelší doba, přijatelná mezi zasláním nesolicitovaného všeměrového "
+"vysílání směrovače propagace z rozhraní, v sekundách."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 398
 msgid "Maximum Interval"
-msgstr ""
+msgstr "Nejdelší interval"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 393
 msgid ""
@@ -8740,7 +8829,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 303
 msgid "Bits"
-msgstr ""
+msgstr "Bitů"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 296
 msgid "RA Subnet(s)"
@@ -8822,6 +8911,8 @@ msgid ""
 "static IP addresses. Only interfaces configured with a static IP will be "
 "shown."
 msgstr ""
+"Propagaci směrovače je možné zapnout pouze na těch rozhraní, na kterých je "
+"nastavená pevná IP adresa."
 
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 234
 msgid "Save &amp; Force Update"
@@ -8882,7 +8973,7 @@ msgstr "Název DNS aktualizačního klíče obsahuje neplatné znaky."
 
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 79
 msgid "The DNS update TTL must be an integer."
-msgstr ""
+msgstr "Je třeba, aby TTL aktualizace DNS bylo celé kladné číslo."
 
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 76
 msgid "The DNS update host name contains invalid characters."
@@ -8905,7 +8996,7 @@ msgstr "Opravdu chcete tohoto klienta smazat?"
 
 # File: /usr/core/src/www/services_opendns.php, line: 219
 msgid "Test/Update"
-msgstr ""
+msgstr "Vyzkoušet/aktualizovat"
 
 # File: /usr/core/src/www/services_opendns.php, line: 197
 msgid "Test result"
@@ -8917,12 +9008,17 @@ msgid ""
 "under 'Manage your networks'. Used to update the node's IP address whenever "
 "the WAN interface changes its IP address."
 msgstr ""
+"Zadejte název sítě tak, jak je nastavený v %sPřehled OpenDNS sítě%s pod „"
+"Spravovat sítě“. Slouží pro aktualizaci IP adresy uzlu kdykoli se změní IP "
+"adresa WAN rozhraní."
 
 # File: /usr/core/src/www/services_opendns.php, line: 166
 msgid ""
 "Signon Username to log into your OpenDNS dashboard. It is used to "
 "automatically update the IP address of the registered network."
 msgstr ""
+"Uživatelské jméno pro přihlášení do přehledu na OpenDNS. Slouží pro "
+"automatickou aktualizaci IP adres tam registrovaných sítí."
 
 # File: /usr/core/src/www/services_opendns.php, line: 152
 msgid ""
@@ -8930,6 +9026,9 @@ msgid ""
 "General Setup page as well as ignore any DNS servers learned by DHCP/PPP on "
 "WAN and use the DNS servers from %s instead."
 msgstr ""
+"Zapnutí služby OpenDNS přebije DNS servery nastavené přes stránky Obecná "
+"nastavení stejně tak jako DNS servery, obdržené přes DHCP/PPP na WAN a "
+"použije namísto toho DNS servery z %s."
 
 # File: /usr/core/src/www/services_opendns.php, line: 149
 msgid "Filter DNS requests using OpenDNS"
@@ -8945,7 +9044,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 202
 msgid "At least 3 additional time sources should be configured under"
-msgstr ""
+msgstr "Přinejmenším 3 další zdroje času by měly být nastaveny pod"
 
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 200
 msgid ""
@@ -10083,11 +10182,11 @@ msgstr "Zapnout přeposílání DNS dotazů"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 227
 msgid "General DNS Forwarder Options"
-msgstr ""
+msgstr "Obecné předvolby předávání DNS dotazů"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 219
 msgid "The DNS forwarder configuration has been changed."
-msgstr ""
+msgstr "Nastavení předávání DNS dotazů byla změněna."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 192
 # File: /usr/core/src/www/services_unbound_overrides.php, line: 123
@@ -10150,7 +10249,7 @@ msgstr "Je třeba zadat platnou IPv6 adresu cílového serveru."
 
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 212
 msgid "Netboot filename"
-msgstr ""
+msgstr "Soubor pro zavedení systému ze sítě"
 
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 197
 msgid ""
@@ -10327,7 +10426,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 156
 msgid "Append circuit ID and agent ID to requests"
-msgstr ""
+msgstr "Připojovat k požadavkům identifikátor obvodu a agenta"
 
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 153
 # File: /usr/core/src/www/services_dhcpv6_relay.php, line: 156
@@ -11298,7 +11397,7 @@ msgstr ""
 
 # File: /usr/core/src/www/reporting_settings.php, line: 43
 msgid "RRD data has been cleared."
-msgstr ""
+msgstr "RRD data byla odstraněna."
 
 # File: /usr/core/src/www/reboot.php, line: 51
 msgid "Are you sure you want to reboot the system?"
@@ -15941,7 +16040,7 @@ msgstr "V pravidlu pro IPv6 generaci není možné přiřazovat IPv4 skupinu bra
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 185
 msgid "You can not assign a gateway to a rule that applies to IPv4 and IPv6"
-msgstr ""
+msgstr "Pravidlu, které se týká IPv4 a IPv6 není možné přiřadit pravidlo"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 739
 msgid ""
@@ -15982,7 +16081,7 @@ msgstr "nechat projít (vypnuto)"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 692
 msgid "log"
-msgstr ""
+msgstr "záznam událostí"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 689
 msgid "reject"
@@ -16159,7 +16258,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 653
 msgid "Static-port:"
-msgstr ""
+msgstr "Statický port:"
 
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 648
 msgid "Enter the source port for the outbound NAT mapping."
@@ -18973,7 +19072,7 @@ msgstr ""
 
 # File: /usr/core/src/www/diag_logs_filter.php, line: 392
 msgid "Failed to add pass rule."
-msgstr ""
+msgstr "Pravidlo umožňující průchod se nepodařilo přidat."
 
 # File: /usr/core/src/www/diag_logs_filter.php, line: 390
 msgid "Successfully added pass rule!"
@@ -19025,7 +19124,7 @@ msgstr "Neplatné rozhraní pro blokovací pravidlo:"
 
 # File: /usr/core/src/www/diag_logs_filter.php, line: 342
 msgid "Tried to block invalid IP:"
-msgstr ""
+msgstr "Pokus o blokování neplatné IP adresy:"
 
 # File: /usr/core/src/www/diag_logs_filter.php, line: 289
 msgid "Easy Rule: Passed from Firewall Log View"
@@ -19099,11 +19198,11 @@ msgstr "Data"
 
 # File: /usr/core/src/www/diag_ipsec_sad.php, line: 61
 msgid "Auth. alg."
-msgstr ""
+msgstr "Ověř. alg."
 
 # File: /usr/core/src/www/diag_ipsec_sad.php, line: 60
 msgid "Enc. alg."
-msgstr ""
+msgstr "Šifr. alg."
 
 # File: /usr/core/src/www/diag_ipsec_sad.php, line: 59
 msgid "SPI"
@@ -19256,7 +19355,7 @@ msgstr "na"
 
 # File: /usr/core/src/www/diag_dump_states.php, line: 163
 msgid "Remove all state entries from"
-msgstr ""
+msgstr "Odebrat veškeré stavové položky z"
 
 # File: /usr/core/src/www/diag_dump_states.php, line: 123
 msgid "Source -> Router -> Destination"
@@ -19705,7 +19804,7 @@ msgstr "Stáhnout si nastavení"
 # File: /usr/core/src/www/diag_backup.php, line: 602
 # File: /usr/core/src/www/diag_backup.php, line: 651
 msgid "confirm:"
-msgstr ""
+msgstr "potvrdit:"
 
 # File: /usr/core/src/www/diag_backup.php, line: 594
 msgid "Encrypt this configuration file."
@@ -19776,7 +19875,7 @@ msgstr ""
 msgid ""
 "The uploaded file does not appear to contain an encrypted OPNsense "
 "configuration."
-msgstr ""
+msgstr "Poskytnutý soubor se nezdá obsahovat zašifrovaná nastavení OPNsense."
 
 # File: /usr/core/src/www/diag_backup.php, line: 311
 msgid "The configuration could not be restored (file upload error)."
@@ -19806,17 +19905,17 @@ msgstr "Bezdrátová zařízení"
 
 # File: /usr/core/src/www/diag_backup.php, line: 217
 msgid "Dashboard Widgets"
-msgstr ""
+msgstr "Podokna přehledu"
 
 # File: /usr/core/src/www/diag_backup.php, line: 216
 msgid "VLAN Devices"
-msgstr ""
+msgstr "VLAN zařízení"
 
 # File: /usr/core/src/www/diag_backup.php, line: 213
 # File: /usr/core/src/www/diag_logs_settings.php, line: 287
 # File: /usr/core/src/www/reporting_settings.php, line: 71
 msgid "Syslog"
-msgstr ""
+msgstr "Syslog"
 
 # File: /usr/core/src/www/diag_backup.php, line: 212
 msgid "System tunables"
@@ -19832,7 +19931,7 @@ msgstr "SNMP Server"
 
 # File: /usr/core/src/www/diag_backup.php, line: 209
 msgid "RRD Data"
-msgstr ""
+msgstr "RRD data"
 
 # File: /usr/core/src/www/diag_backup.php, line: 208
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 318
@@ -20075,7 +20174,7 @@ msgstr "Dočasně nepoužívat CARP"
 
 # File: /usr/core/src/www/carp_status.php, line: 131
 msgid "Enable CARP"
-msgstr ""
+msgstr "Zapnout CARP"
 
 # File: /usr/core/src/www/carp_status.php, line: 122
 msgid "Check link status on all interfaces with configured CARP VIPs."
@@ -20335,7 +20434,7 @@ msgstr "Zpráva"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 590
 msgid "ClassType"
-msgstr ""
+msgstr "TypTřídy"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 587
 msgid "sid"
@@ -20632,7 +20731,7 @@ msgstr "Pozn.:"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 110
 msgid "Name resolution"
-msgstr ""
+msgstr "Překlad názvů"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 94
 msgid "Expire"
@@ -20804,11 +20903,11 @@ msgstr "Služba"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 726
 msgid "(src) Address"
-msgstr ""
+msgstr "(zdroj) adresa"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 725
 msgid "(dst) Port"
-msgstr ""
+msgstr "(cíl) port"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 723
 msgid "Date to"
@@ -20924,7 +21023,7 @@ msgstr "Podrobnosti"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 619
 msgid "Totals"
-msgstr ""
+msgstr "Celkem"
 
 # File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 146
 # File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 151
@@ -21867,7 +21966,7 @@ msgstr "Odpojit označeného klienta?"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 667
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 699
 msgid "none"
-msgstr ""
+msgstr "žádné"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 280
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php.orig, line: 281
@@ -21959,6 +22058,8 @@ msgid ""
 "You may need to reboot the firewall or restart services before the restored "
 "configuration is fully active."
 msgstr ""
+"Aby se obnovená nastavení plně uplatnila, možná bude třeba restartovat "
+"zařízení nebo služby."
 
 # File: /usr/core/src/etc/rc.restore_config_backup, line: 78
 # File: /usr/core/src/www/diag_confbak.php, line: 109
@@ -22115,11 +22216,11 @@ msgstr ""
 
 # File: /usr/core/src/etc/rc.initial.setlanip, line: 298
 msgid "This IP address conflicts with another interface or a VIP"
-msgstr ""
+msgstr "Tato IP adresa koliduje s jiným rozhraní nebo virt. IP adresou"
 
 # File: /usr/core/src/etc/rc.initial.setlanip, line: 290
 msgid "Enter the new %s %s address.  Press <ENTER> for none:"
-msgstr ""
+msgstr "Zadejte novou %s %s adresu.  Pokud žádnou, stiskněte <ENTER>:"
 
 # File: /usr/core/src/etc/rc.initial.setlanip, line: 274
 msgid "Configure %s address %s interface via %s?"
@@ -22816,6 +22917,8 @@ msgid ""
 "it is not possible to authenticate using the specified mechanism because the "
 "SASL library class is not loaded"
 msgstr ""
+"není možné ověřovat pomocí určeného mechanizmu protože není načtená třída "
+"SASL knihovny"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 247
 msgid "could not connect to the host \"%s\": %s"
@@ -22823,11 +22926,11 @@ msgstr "nepodařilo se připojit ke stroji „%s“: %s"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 245
 msgid "-7 setvbuf() call failed"
-msgstr ""
+msgstr "-7 setvbuf() volání funkce se nezdařilo"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 243
 msgid "-6 fdopen() call failed"
-msgstr ""
+msgstr "-6 fdopen() volání funkce se nezdařilo"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 241
 msgid "-5 connection refused or timed out"
@@ -22835,11 +22938,11 @@ msgstr "-5 spojení odmítnuto nebo překročen časový limit"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 239
 msgid "-4 dns lookup on hostname \"%s\" failed"
-msgstr ""
+msgstr "-4 vyhledání názvu stroje „%s“ v dns se nezdařilo"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 237
 msgid "-3 socket could not be created"
-msgstr ""
+msgstr "-3 soket se nepodařilo vytvořit"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 230
 msgid "Connecting to host address \"%s\" port %s..."
@@ -22851,7 +22954,7 @@ msgstr ""
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 224
 msgid "could not resolve host \"%s\""
-msgstr ""
+msgstr "nedaří se přeložit název stroje „%s“"
 
 # File: /usr/core/src/etc/inc/notices.smtp.inc, line: 215
 msgid "establishing SSL connections requires the OpenSSL extension enabled"
@@ -22899,7 +23002,7 @@ msgstr "Nastavování IPsec VPN…"
 
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 54
 msgid "NULL (no encryption)"
-msgstr ""
+msgstr "ŽÁDNÉ (žádné šifrování)"
 
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 5414
 # File: /usr/core/src/www/widgets/widgets/carp_status.widget.php, line: 64
@@ -23069,7 +23172,7 @@ msgstr "Automatické vytváření pravidel pro odchozí provoz"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 1626
 msgid "Creating outbound NAT rules"
-msgstr ""
+msgstr "Vytváření odchozích NAT pravidel"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 1583
 msgid "Creating advanced outbound rule %s"
@@ -23077,7 +23180,7 @@ msgstr "Vytváření pokročilého pravidla %s pro odchozí provoz"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 1415
 msgid "Creating 1:1 rules..."
-msgstr ""
+msgstr "Vytváření pravidel 1:1…"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 1311
 msgid "Auto created rule"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 18:14+0000\n"
+"POT-Creation-Date: 2016-12-12 16:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4980,13 +4980,13 @@ msgstr ""
 # File: src/www/system_certmanager.php, line: 860
 # File: src/www/system_certmanager.php, line: 1038
 msgid "City"
-msgstr ""
+msgstr "Cidade"
 
 # File: src/www/system_camanager.php, line: 638
 # File: src/www/system_certmanager.php, line: 855
 # File: src/www/system_certmanager.php, line: 1033
 msgid "Sachsen"
-msgstr ""
+msgstr "Sachsen"
 
 # File: src/www/system_camanager.php, line: 636
 # File: src/www/system_camanager.php, line: 647
@@ -5004,19 +5004,19 @@ msgstr ""
 # File: src/www/system_certmanager.php, line: 1064
 # File: src/www/system_certmanager.php, line: 1075
 msgid "ex:"
-msgstr ""
+msgstr "ex.:"
 
 # File: src/www/system_camanager.php, line: 632
 # File: src/www/system_certmanager.php, line: 849
 # File: src/www/system_certmanager.php, line: 1027
 msgid "State or Province"
-msgstr ""
+msgstr "Estado ou província"
 
 # File: src/www/system_camanager.php, line: 618
 # File: src/www/system_certmanager.php, line: 835
 # File: src/www/system_certmanager.php, line: 1013
 msgid "Country Code"
-msgstr ""
+msgstr "Código do país"
 
 # File: src/www/system_camanager.php, line: 615
 # File: src/www/system_certmanager.php, line: 832
@@ -5024,7 +5024,7 @@ msgstr ""
 # File: src/www/vpn_ipsec_phase1.php, line: 784
 # File: src/www/vpn_ipsec_phase1.php, line: 812
 msgid "Distinguished name"
-msgstr ""
+msgstr "Nome distinto"
 
 # File: src/www/system_camanager.php, line: 604
 # File: src/www/system_certmanager.php, line: 821
@@ -5032,26 +5032,30 @@ msgstr ""
 msgid ""
 "NOTE: It is recommended to use an algorithm stronger than SHA1 when possible."
 msgstr ""
+"NOTA: É recomendável usar um algoritmo mais forte do que SHA1 quando "
+"possível."
 
 # File: src/www/system_camanager.php, line: 594
 # File: src/www/system_certmanager.php, line: 809
 # File: src/www/system_certmanager.php, line: 993
 msgid "Digest Algorithm"
-msgstr ""
+msgstr "Algoritmo de digest"
 
 # File: src/www/system_camanager.php, line: 562
 msgid "Internal Certificate Authority"
-msgstr ""
+msgstr "Autoridade de certificação interna"
 
 # File: src/www/system_camanager.php, line: 552
 msgid ""
 "Enter a decimal number to be used as the serial number for the next "
 "certificate to be created using this CA."
 msgstr ""
+"Insira um número decimal a ser usado como número de série para o próximo "
+"certificado a ser criado usando esta CA."
 
 # File: src/www/system_camanager.php, line: 548
 msgid "Serial for next certificate"
-msgstr ""
+msgstr "Número de série para o próximo certificado"
 
 # File: src/www/system_camanager.php, line: 543
 msgid ""
@@ -5059,10 +5063,13 @@ msgid ""
 "most cases, but required if you need to generate a Certificate Revocation "
 "List (CRL)."
 msgstr ""
+"Cole a chave privada para o certificado acima. Isso é opcional na maioria "
+"dos casos, mas necessário se você precisar gerar uma lista de revogação de "
+"certificados (CRL)."
 
 # File: src/www/system_camanager.php, line: 537
 msgid "Certificate Private Key"
-msgstr ""
+msgstr "Chave privada do certificado"
 
 # File: src/www/system_camanager.php, line: 531
 # File: src/www/system_certmanager.php, line: 742
@@ -5711,65 +5718,67 @@ msgstr ""
 
 # File: src/www/system_advanced_notifications.php, line: 213
 msgid "Disable SMTP Notifications"
-msgstr ""
+msgstr "Desabilitar notificações por SMTP"
 
 # File: src/www/system_advanced_notifications.php, line: 210
 msgid "SMTP E-Mail"
-msgstr ""
+msgstr "E-mail SMTP"
 
-# File: src/www/system_advanced_notifications.php, line: 205
+# Growl: https://en.wikipedia.org/wiki/Growl_%28software%29
 msgid "Enter the password of the remote growl notification device."
-msgstr ""
+msgstr "Digite a senha para o dispositivo remoto de notificação Growl."
 
 # File: src/www/system_advanced_notifications.php, line: 196
 msgid ""
 "This is the IP address that you would like to send growl notifications to."
-msgstr ""
+msgstr "Esse é o endereço IP o qual você deseja enviar as notificações Growl."
 
 # File: src/www/system_advanced_notifications.php, line: 187
 msgid "Enter a name for the Growl notifications (default: %s growl alert)."
-msgstr ""
+msgstr "Digite um nome para as notificações Growl (padrão: %s growl alert)."
 
 # File: src/www/system_advanced_notifications.php, line: 183
 msgid "Notification Name"
-msgstr ""
+msgstr "Nome da notificação"
 
 # File: src/www/system_advanced_notifications.php, line: 178
 msgid "Enter the name to register with the Growl server (default: PHP-Growl)."
-msgstr ""
+msgstr "Digite o nome para registrar com o servidor Growl (padrão: PHP-Growl)."
 
 # File: src/www/system_advanced_notifications.php, line: 174
 msgid "Registration Name"
-msgstr ""
+msgstr "Nome de registro"
 
 # File: src/www/system_advanced_notifications.php, line: 169
 msgid ""
 "Check this option to disable growl notifications but preserve the settings "
 "below."
 msgstr ""
+"Selecione esta opção para desabilitar as notificações Growl mas preservar as "
+"configurações abaixo."
 
 # File: src/www/system_advanced_notifications.php, line: 165
 msgid "Disable Growl Notifications"
-msgstr ""
+msgstr "Desabilitar notificações Growl"
 
 # File: src/www/system_advanced_notifications.php, line: 158
 msgid "Growl"
-msgstr ""
+msgstr "Growl"
 
 # File: src/www/system_advanced_notifications.php, line: 110
 # File: src/www/system_advanced_notifications.php, line: 317
 msgid "Test SMTP"
-msgstr ""
+msgstr "Testar SMTP"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 108
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 113
 msgid "This is a test message from %s. It is safe to ignore this message."
-msgstr ""
+msgstr "Essa é uma mensagem de teste de %s. É seguro ignorar esta mensagem."
 
 # File: src/www/system_advanced_notifications.php, line: 102
 # File: src/www/system_advanced_notifications.php, line: 316
 msgid "Test Growl"
-msgstr ""
+msgstr "Testar o Growl"
 
 # File: src/www/system_advanced_network.php, line: 246
 # File: src/www/system_advanced_network.php, line: 259
@@ -5779,20 +5788,24 @@ msgid ""
 "This will take effect after you reboot the machine or re-configure each "
 "interface."
 msgstr ""
+"Isso vai entrar em vigor quando você reiniciar a máquina ou reconfigurar "
+"cada interface."
 
 # File: src/www/system_advanced_network.php, line: 295
 msgid ""
 "This option will suppress ARP log messages when multiple interfaces reside "
 "on the same broadcast domain"
 msgstr ""
+"Esta opção suprime as mensagens dos eventos de ARP quando múltiplas "
+"interfaces residem no mesmo domínio de broadcast"
 
 # File: src/www/system_advanced_network.php, line: 293
 msgid "Suppress ARP messages"
-msgstr ""
+msgstr "Suprimir mensagens ARP"
 
 # File: src/www/system_advanced_network.php, line: 290
 msgid "ARP Handling"
-msgstr ""
+msgstr "Manuseio de ARP"
 
 # File: src/www/system_advanced_network.php, line: 282
 msgid ""
@@ -5800,22 +5813,25 @@ msgid ""
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
 msgstr ""
+"A seleção desta opção desativará a filtragem de hardware da VLAN. Este "
+"descarregamento está quebrado em alguns drivers de hardware e pode afetar o "
+"desempenho com algumas NICs específicas."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 152
 msgid "Leave default"
-msgstr ""
+msgstr "Deixar padrão"
 
 # File: src/www/system_advanced_network.php, line: 280
 msgid "Disable VLAN Hardware Filtering"
-msgstr ""
+msgstr "Desabilitar filtro de VLAN por hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 146
 msgid "Enable VLAN Hardware Filtering"
-msgstr ""
+msgstr "Habilitar filtro de VLAN por hardware"
 
 # File: src/www/system_advanced_network.php, line: 277
 msgid "VLAN Hardware Filtering"
-msgstr ""
+msgstr "Filtro de VLAN por hardware"
 
 # File: src/www/system_advanced_network.php, line: 269
 msgid ""
@@ -5823,14 +5839,17 @@ msgid ""
 "This offloading is broken in some hardware drivers, and may impact "
 "performance with some specific NICs."
 msgstr ""
+"A verificação desta opção desabilitará o Large Receive Offloading (LRO). "
+"Este descarregamento está quebrado em alguns drivers de hardware e pode "
+"afetar o desempenho com algumas NICs específicas."
 
 # File: src/www/system_advanced_network.php, line: 267
 msgid "Disable hardware large receive offload"
-msgstr ""
+msgstr "Desabilitar Large Receive Offload (LRO) por hardware"
 
 # File: src/www/system_advanced_network.php, line: 264
 msgid "Hardware LRO"
-msgstr ""
+msgstr "LRO por hardware"
 
 # File: src/www/system_advanced_network.php, line: 256
 msgid ""
@@ -5838,14 +5857,17 @@ msgid ""
 "TSO4, TSO6). This offloading is broken in some hardware drivers, and may "
 "impact performance with some specific NICs."
 msgstr ""
+"Selecionando esta opção o TCP Segmentation Offloading por hardware (TSO, "
+"TSO4, TSO6) será desabilitado. Este recurso está quebrado em alguns drivers "
+"de hardware e pode afetar o desempenho com algumas NICs específicas."
 
 # File: src/www/system_advanced_network.php, line: 254
 msgid "Disable hardware TCP segmentation offload"
-msgstr ""
+msgstr "Desabilitar TCP Segmentation Offload (TSO) por hardware"
 
 # File: src/www/system_advanced_network.php, line: 251
 msgid "Hardware TSO"
-msgstr ""
+msgstr "TSO por hardware"
 
 # File: src/www/system_advanced_network.php, line: 243
 msgid ""
@@ -5854,28 +5876,34 @@ msgid ""
 "Rarely, drivers may have problems with checksum offloading and some specific "
 "NICs."
 msgstr ""
+"Selecionando esta opção o TCP checksum offloading por hardware será "
+"desabilitado. Este recurso está quebrado em alguns tipos de hardware, "
+"particularmente em placas Realtek. Raramente, os drivers podem ter problemas "
+"com este recurso e algumas NICs específicas."
 
 # File: src/www/system_advanced_network.php, line: 241
 msgid "Disable hardware checksum offload"
-msgstr ""
+msgstr "Desabilitar TCP checksum offload por hardware"
 
 # File: src/www/system_advanced_network.php, line: 238
 msgid "Hardware CRC"
-msgstr ""
+msgstr "CRC por hardware"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 416
 msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than use the hard disk."
 msgstr ""
+"Configure isso se você deseja utilizar /tmp como um RAMdisk (sistema de "
+"arquivos na memória RAM) em vez de utilizar o disco rígido."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr ""
+msgstr "Utilizar sistema de arquivos na memória RAM para /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
-msgstr ""
+msgstr "RAMdisk /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid ""
@@ -5883,46 +5911,50 @@ msgid ""
 "disks) rather than use the hard disk. Setting this will cause the data /var "
 "to be lost on reboot, including log data."
 msgstr ""
+"Configure isso se você deseja utilizar /tmp e /var como um RAMdisks (sistema "
+"de arquivos na memória RAM) em vez de utilizar o disco rígido. Esta "
+"configuração causará a perda de todos os dados em /var quando o sistema for "
+"reiniciado, incluindo dados de eventos."
 
 # File: src/www/system_advanced_misc.php, line: 514
 msgid "Use memory file system for /tmp and /var"
-msgstr ""
+msgstr "Utilizar sistema de arquivos na memória RAM para /tmp e /var"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 400
 msgid "/tmp and /var RAM disks"
-msgstr ""
+msgstr "RAMdisks /tmp e /var"
 
 # File: src/www/system_advanced_misc.php, line: 507
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
-msgstr ""
+msgstr "Configurações do RAMdisk (reiniciar para aplicar as alterações)"
 
 # File: src/www/system_advanced_misc.php, line: 356
 msgid "On Battery Power Mode"
-msgstr ""
+msgstr "No modo de energia da bateria"
 
 # File: src/www/system_advanced_misc.php, line: 373
 # File: src/www/system_advanced_misc.php, line: 389
 msgid "Maximum"
-msgstr ""
+msgstr "Máximo"
 
 # File: src/www/system_advanced_misc.php, line: 370
 # File: src/www/system_advanced_misc.php, line: 386
 msgid "Minimum"
-msgstr ""
+msgstr "Mínimo"
 
 # File: src/www/system_advanced_misc.php, line: 367
 # File: src/www/system_advanced_misc.php, line: 383
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptativo"
 
 # File: src/www/system_advanced_misc.php, line: 364
 # File: src/www/system_advanced_misc.php, line: 380
 msgid "Hiadaptive"
-msgstr ""
+msgstr "Agressivo"
 
 # File: src/www/system_advanced_misc.php, line: 355
 msgid "On AC Power Mode"
-msgstr ""
+msgstr "Em modo de alimentação AC"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 343
 msgid ""
@@ -5940,60 +5972,80 @@ msgid ""
 "important than power consumption. It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
+"O utilitário powerd monitora o estado do sistema e configura o controle de "
+"energia correspondente. Oferece quatro modos (máximo, mínimo, adaptativo e "
+"agressivo) que podem ser selecionados indivualmente tanto quanto em modo de "
+"energia AC quanto baterias. Os modos máximo, mínimo, adaptativo e agreesivo "
+"podem ser abreviados como max, min, adp, hadp. O modo máximo escolhe os "
+"valores mais altos para performance. O modo mínimo escolhe os valores mais "
+"baixos para obter maior economia de energia. O modo adaptativo tenta "
+"encontrar um equilíbrio degradando a performance quando o sistema aparenta "
+"estar ocioso e a aumenta quando o sistema está ocupado. Oferece um bom "
+"equilíbrio entre uma pequena perda de desempenho para uma economia de "
+"energia muito maior. O modo agressivo é parecido com o modo adaptativo, mas "
+"afinado para sistemas onde a performance e a interatividade são mais "
+"importantes do que o consumo de energia. Ele aumenta a frequência mais "
+"rápido, cai mais lentamente e mantém a carga da CPU duas vezes menor."
 
 # File: src/www/system_advanced_misc.php, line: 348
 msgid "Use PowerD"
-msgstr ""
+msgstr "Utilizar o PowerD"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 330
 msgid "Power Savings"
-msgstr ""
+msgstr "Economia de energia"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 325
 msgid ""
 "This will periodically backup the NetFlow data aggregation so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"Isso fará backup periodicamente da agregação de dados NetFlow para que possa "
+"ser restaurado automaticamente na próxima inicialização."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 312
 msgid "Periodic NetFlow Backup"
-msgstr ""
+msgstr "Backup periódico do NetFlow"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 307
 msgid ""
 "This will periodically backup the DHCP leases data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Isso fará backup periodicamente dos dados de concessões DHCP para que possa "
+"ser restaurado automaticamente na próxima inicialização."
 
 # File: src/www/system_advanced_misc.php, line: 542
 msgid "Periodic DHCP Leases Backup"
-msgstr ""
+msgstr "Backup periódico das concessões DHCP"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 289
 msgid ""
 "This will periodically backup the RRD data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Isso fará backup periodicamente dos dados RRD para que possa ser restaurado "
+"automaticamente na próxima inicialização."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
 # File: /usr/core/src/www/system_advanced_misc.php, line: 319
 msgid "1 hour"
-msgstr ""
+msgstr "1 hora"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
 # File: /usr/core/src/www/system_advanced_misc.php, line: 319
 msgid "%s hours"
-msgstr ""
+msgstr "%s horas"
 
 # File: src/www/system_advanced_misc.php, line: 521
 msgid "Periodic RRD Backup"
-msgstr ""
+msgstr "Backup periódico de RRD"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 272
 msgid "Periodic Backups"
-msgstr ""
+msgstr "Backups periódicos"
 
 # File: src/www/system_advanced_misc.php, line: 463
 msgid ""
@@ -6001,6 +6053,9 @@ msgid ""
 "option will have no effect. To unload the selected module, set this option "
 "to 'none' and then reboot."
 msgstr ""
+"Se você não possui um sensor de temperatura não suportado em seu sistema, "
+"esta opção não terá efeito. Para descarregar o módulo selecionado, configure "
+"esta opção para 'nenhum' e reinicie o sistema."
 
 # File: src/www/system_advanced_misc.php, line: 459
 msgid ""
@@ -6009,14 +6064,18 @@ msgid ""
 "attempt to read the temperature from an ACPI-compliant motherboard sensor "
 "instead, if one is present."
 msgstr ""
+"Se você tiver uma CPU suportada, selecionando um sensor de temperatura "
+"carregará o driver apropriado para ler sua temperatura. Configurando isso "
+"para 'nenhum' o sistema tentará ler a temperatura de um sensor térmico da "
+"placa mãe compatível com ACPI, se houver um presente."
 
 # File: src/www/system_advanced_misc.php, line: 449
 msgid "None/ACPI"
-msgstr ""
+msgstr "Nenhum/ACPI"
 
 # File: src/www/system_advanced_misc.php, line: 443
 msgid "Thermal Sensors"
-msgstr ""
+msgstr "Sensores térmicos"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 237
 msgid ""
@@ -6208,7 +6267,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
-msgstr ""
+msgstr "Nota: Deixe este campo em branco para o padrão (0)."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 495
 msgid ""
@@ -9045,50 +9104,54 @@ msgstr ""
 
 # File: src/www/services_ntpd_gps.php, line: 368
 msgid "Garmin"
-msgstr ""
+msgstr "Garmin"
 
 # File: src/www/services_ntpd_gps.php, line: 366
 msgid "Generic"
-msgstr ""
+msgstr "Genérico"
 
 # File: src/www/services_ntpd_gps.php, line: 351
 msgid "NTP Serial GPS Configuration"
-msgstr ""
+msgstr "Configuração NTP serial GPS"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 55
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 57
 msgid "Clock stratum must be a number in the range 0..16"
-msgstr ""
+msgstr "O estrato do relógio deve ser um número na faixa de 0..16"
 
 # File: src/www/services_ntpd.php, line: 384
 msgid "select a file to upload:"
-msgstr ""
+msgstr "selecione um arquivo para enviar:"
 
 # File: src/www/services_ntpd.php, line: 384
 msgid "Or"
-msgstr ""
+msgstr "Ou"
 
 # File: src/www/services_ntpd.php, line: 382
 msgid "Enter Leap second configuration as text:"
-msgstr ""
+msgstr "Digite a configuração de saldo de segundo (leap second) como texto:"
 
 # File: src/www/services_ntpd.php, line: 380
 msgid "Normally this is only useful if this server is a stratum 1 time server."
 msgstr ""
+"Normalmente isso só é útil se este servidor for um servidor de tempo stratum "
+"1."
 
 # File: src/www/services_ntpd.php, line: 379
 msgid ""
 "A leap second file allows NTP to advertize an upcoming leap second addition "
 "or subtraction."
 msgstr ""
+"Um arquivo de salto de segundo (leap second) permite que o NTP anuncie uma "
+"adicão de salto de segundo ou subtração."
 
 # File: src/www/services_ntpd.php, line: 376
 msgid "Show Leap second configuration"
-msgstr ""
+msgstr "Exibir configuração de salto de segundo (leap second)"
 
 # File: src/www/services_ntpd.php, line: 373
 msgid "Leap seconds"
-msgstr ""
+msgstr "Segundos de salto (leap seconds)"
 
 # File: src/www/services_ntpd.php, line: 368
 msgid "Deny mode 6 control message trap service (default: enabled)."
@@ -11112,36 +11175,37 @@ msgstr ""
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 80
 msgid "You cannot use spaces or slashes in the 'name' field."
-msgstr ""
+msgstr "Você não pode utilizar espaços ou barras no campo 'nome'."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 81
 msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
 msgstr ""
+" Este nome de servidor virtual já foi utilizado. Nomes de servidores "
+"virtuais precisam ser únicos."
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 68
 # File: src/www/load_balancer_virtual_server_edit.php, line: 257
 msgid "Relay Protocol"
-msgstr ""
+msgstr "Protocolo de retransmissão"
 
-# File: src/www/load_balancer_virtual_server.php, line: 164
-# File: src/www/load_balancer_virtual_server_edit.php, line: 223
+# "Pool" and "fall back" are common IT terms that shoud be kept in English.
 msgid "Fall Back Pool"
-msgstr ""
+msgstr "Pool de fall back"
 
 # File: src/www/load_balancer_virtual_server.php, line: 163
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 69
 msgid "Pool"
-msgstr ""
+msgstr "Pool"
 
 # File: src/www/load_balancer_virtual_server.php, line: 145
 msgid "The virtual server configuration has been changed"
-msgstr ""
+msgstr "A configuração do servidor virtual foi alterada"
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 125
 msgid "Load Balancer: Virtual Server Setup"
-msgstr ""
+msgstr "Balanceador de carga: configuração do servidor virtual"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 159
 msgid ""
@@ -11152,56 +11216,68 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
+"Conexões sucessivas serão redirecionadas para os servidores na forma de "
+"rodízio com conexões vindas da mesma origem sendo enviadas para o mesmo "
+"servidor web. Esta 'conexão pegajosa' vai existir enquanto existirem estados "
+"que se referem à esta conexão. Quando os estados expirarem, a 'conexão "
+"pegajosa' também irá expirar. Novas conexões vindas daquele host serão "
+"redirecionadas para o próximo servidor web no rodízio."
 
 # File: src/www/system_advanced_misc.php, line: 324
 msgid "Use sticky connections"
-msgstr ""
+msgstr "Utilizar conexões pegajosas"
 
 # File: src/www/system_advanced_misc.php, line: 321
 msgid "Sticky connections"
-msgstr ""
+msgstr "Conexões pegajosas"
 
 # File: src/www/load_balancer_setting.php, line: 139
 msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
 msgstr ""
+"Número de processos utilizados pelo relayd para o protoclo de DNS. Deixe em "
+"branco para utilizar o valor padrão de 5 processos"
 
-# File: /usr/core/src/www/load_balancer_setting.php, line: 145
+# "Prefork" is a common IT term that should be kept in English.
 msgid "Prefork"
-msgstr ""
+msgstr "Prefork"
 
 # File: src/www/load_balancer_setting.php, line: 131
 msgid ""
 "Set the interval in seconds at which the member of a pool will be checked. "
 "Leave blank to use the default interval of 10 seconds"
 msgstr ""
+"Definir o intervalo em segundos em que o membro de um pool será verificado. "
+"Deixe em branco para usar o intervalo padrão de 10 segundos"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 136
 msgid "Interval"
-msgstr ""
+msgstr "Intervalo"
 
 # File: src/www/load_balancer_setting.php, line: 123
 msgid ""
 "Set the global timeout in milliseconds for checks. Leave blank to use the "
 "default value of 1000 ms "
 msgstr ""
+"Defina o tempo limite global em milissegundos para verificações. Deixe em "
+"branco para usar o valor padrão de 1000 ms"
 
 # File: src/www/load_balancer_setting.php, line: 116
 msgid "Global settings"
-msgstr ""
+msgstr "Configurações globais"
 
 # File: src/www/load_balancer_setting.php, line: 69
 msgid "Prefork value must be between 1 and 32"
-msgstr ""
+msgstr "O valor do prefork precisa estar entre 1 e 32"
 
 # File: src/www/load_balancer_setting.php, line: 66
 msgid "Prefork must be a numeric value"
-msgstr ""
+msgstr "O valor do prefork precisa ser numérico"
 
 # File: src/www/load_balancer_setting.php, line: 61
 msgid "Interval must be a numeric value"
-msgstr ""
+msgstr "O valor do intervalo precisa ser numérico"
 
 # File: src/www/load_balancer_setting.php, line: 57
 msgid "Timeout must be a numeric value"
@@ -11704,7 +11780,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 925
 # File: src/www/vpn_openvpn_server.php, line: 1387
 msgid "Compression"
-msgstr ""
+msgstr "Compressão"
 
 # File: src/www/interfaces_ppps_edit.php, line: 802
 msgid ""
@@ -17322,34 +17398,40 @@ msgid ""
 "function for UDP since there is no way to reliably determine if a UDP port "
 "accepts connections in this manner."
 msgstr ""
+"Esta página permite que você faça um teste de conexão simples TCP para "
+"determinar se um host está disponível e recebendo conexões em uma porta "
+"específica. Este teste não funciona para UDP já que não há uma maneira "
+"confiável de determinar se uma porta UDP aceita conexões desta maneira."
 
 # File: src/www/diag_testport.php, line: 69
 msgid "You cannot connect to an IPv6 address using IPv4."
-msgstr ""
+msgstr "Você não pode conectar a um endereço IPv6 utilizando IPv4."
 
 # File: src/www/diag_testport.php, line: 66
 msgid "You cannot connect to an IPv4 address using IPv6."
-msgstr ""
+msgstr "Você não pode conectar a um endereço IPv4 utilizando IPv6."
 
 # File: src/www/diag_testport.php, line: 62
 msgid "Please enter a valid source port number, or leave the field blank."
 msgstr ""
+"Por favor digite uma porta de origem com um número válido, ou deixe o campo "
+"em branco."
 
 # File: src/www/diag_testport.php, line: 58
 msgid "Please enter a valid port number."
-msgstr ""
+msgstr "Por favor digite um número válido de porta."
 
 # File: src/www/diag_testport.php, line: 54
 msgid "Please enter a valid IP or hostname."
-msgstr ""
+msgstr "Por favor digite um endereço IP válido ou um nome de host."
 
 # File: src/www/diag_tables.php, line: 184
 msgid "delete this entry"
-msgstr ""
+msgstr "excluir esta entrada"
 
 # File: src/www/diag_tables.php, line: 176
 msgid "No entries exist in this table."
-msgstr ""
+msgstr "Não existem entradas nesta tabela."
 
 # File: src/www/diag_tables.php, line: 171
 # File: src/www/interfaces_ppps_edit.php, line: 606
@@ -17362,54 +17444,54 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 734
 # File: src/www/vpn_openvpn_export_shared.php, line: 358
 msgid "IP Address"
-msgstr ""
+msgstr "Endereço IP"
 
-# File: src/www/diag_tables.php, line: 163
+# "Bogons" is a common IT term that should be kept in English.
 msgid "Update bogons"
-msgstr ""
+msgstr "Atualizar bogons"
 
 # File: src/www/diag_tables.php, line: 161
 msgid "Flush"
-msgstr ""
+msgstr "Limpar"
 
 # File: src/www/diag_tables.php, line: 127
 msgid "Do you really want to flush this table?"
-msgstr ""
+msgstr "Deseja realmente limpar esta tabela?"
 
 # File: src/www/diag_tables.php, line: 126
 msgid "Tables"
-msgstr ""
+msgstr "Tabelas"
 
 # File: src/www/diag_tables.php, line: 53
 msgid "The bogons database has been updated."
-msgstr ""
+msgstr "O banco de dados de bogons foi atualizado."
 
 # File: src/www/diag_tables.php, line: 51
 msgid "The bogons database has NOT been updated."
-msgstr ""
+msgstr "O banco de dados de bogons NÃO foi atualizado."
 
 # File: src/www/diag_system_pftop.php, line: 164
 msgid "Gathering pfTOP activity, please wait..."
-msgstr ""
+msgstr "Coletando atividade do pfTOP, por favor aguarde..."
 
 # File: src/www/diag_routes.php, line: 175
 # File: src/www/diag_system_pftop.php, line: 154
 msgid "all"
-msgstr ""
+msgstr "todos(as)"
 
 # File: src/www/diag_dump_states_sources.php, line: 134
 # File: src/www/diag_system_pftop.php, line: 139
 # File: src/www/status_interfaces.php, line: 365
 msgid "Rate"
-msgstr ""
+msgstr "Taxa"
 
 # File: src/www/diag_system_pftop.php, line: 138
 msgid "Packet"
-msgstr ""
+msgstr "Pacote"
 
 # File: src/www/diag_system_pftop.php, line: 137
 msgid "Peak"
-msgstr ""
+msgstr "Pico"
 
 # File: lang/dynamic/helpers/models.php, line: 141
 # File: src/www/diag_system_pftop.php, line: 136
@@ -17425,23 +17507,23 @@ msgstr ""
 # File: src/www/vpn_ipsec_phase2.php, line: 768
 # File: src/www/vpn_openvpn_client.php, line: 757
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 # File: src/www/diag_system_pftop.php, line: 135
 msgid "Expiry"
-msgstr ""
+msgstr "Expiração"
 
 # File: src/www/diag_system_pftop.php, line: 133
 msgid "Destination Address"
-msgstr ""
+msgstr "Endereço de destino"
 
 # File: src/www/diag_system_pftop.php, line: 131
 msgid "Age"
-msgstr ""
+msgstr "Idade"
 
 # File: src/www/diag_system_pftop.php, line: 123
 msgid "Speed"
-msgstr ""
+msgstr "Velocidade"
 
 # File: src/www/diag_smart.php, line: 351
 # File: src/www/diag_system_pftop.php, line: 120
@@ -17450,48 +17532,48 @@ msgstr ""
 
 # File: src/www/diag_system_pftop.php, line: 119
 msgid "Label"
-msgstr ""
+msgstr "Rótulo"
 
 # File: src/www/diag_system_pftop.php, line: 111
 msgid "Number of States:"
-msgstr ""
+msgstr "Número de estados:"
 
 # File: src/www/diag_system_pftop.php, line: 110
 msgid "Sort type:"
-msgstr ""
+msgstr "Tipo de ordenação:"
 
 # File: src/www/diag_system_pftop.php, line: 109
 msgid "View type:"
-msgstr ""
+msgstr "Tipo de visulização:"
 
 # File: src/www/diag_states_summary.php, line: 163
 msgid "By IP Pair"
-msgstr ""
+msgstr "Por pares de IP"
 
 # File: src/www/diag_states_summary.php, line: 162
 msgid "Total per IP"
-msgstr ""
+msgstr "Total por IP"
 
 # File: src/www/diag_states_summary.php, line: 161
 msgid "By Destination IP"
-msgstr ""
+msgstr "Por IP de destino"
 
 # File: src/www/diag_states_summary.php, line: 160
 msgid "By Source IP"
-msgstr ""
+msgstr "Por IP de origem"
 
 # File: src/www/diag_states_summary.php, line: 124
 msgid "Dst Ports"
-msgstr ""
+msgstr "Portas de destino"
 
 # File: src/www/diag_states_summary.php, line: 123
 msgid "Src Ports"
-msgstr ""
+msgstr "Portas de origem"
 
 # File: src/www/diag_states_summary.php, line: 120
 # File: src/www/diag_states_summary.php, line: 122
 msgid "States"
-msgstr ""
+msgstr "Estados"
 
 # File: src/www/diag_sockets.php, line: 135
 msgid ""
@@ -18471,51 +18553,51 @@ msgstr ""
 
 # File: src/www/diag_logs_filter.php, line: 365
 msgid "Tried to pass invalid destination port:"
-msgstr ""
+msgstr "Tentou passar uma porta de destino inválida:"
 
 # File: src/www/diag_logs_filter.php, line: 362
 msgid "Missing destination port:"
-msgstr ""
+msgstr "Porta de destino faltando:"
 
 # File: src/www/diag_logs_filter.php, line: 358
 msgid "Tried to pass invalid destination IP:"
-msgstr ""
+msgstr "Tentou passar o IP de destino inválido:"
 
 # File: src/www/diag_logs_filter.php, line: 355
 msgid "Tried to pass invalid source IP:"
-msgstr ""
+msgstr "Tentou passar um IP de origem inválido:"
 
-# File: src/www/diag_logs_filter.php, line: 352
+# "pass" will be kept in English, since it's a pf common word.
 msgid "Invalid protocol for pass rule:"
-msgstr ""
+msgstr "Protocolo inválido para a regra pass:"
 
 # File: src/www/diag_logs_filter.php, line: 349
 msgid "Invalid interface for pass rule:"
-msgstr ""
+msgstr "Interface inválida para a regra pass:"
 
-# File: src/www/diag_logs_filter.php, line: 338
+# All pf common words (pass, block, etc.) should be kept in English.
 msgid "Unknown block error."
-msgstr ""
+msgstr "Erro desconhecido de block."
 
 # File: src/www/diag_logs_filter.php, line: 336
 msgid "Tried to block but had no host IP or interface"
-msgstr ""
+msgstr "Tentou fazer block mas não tinha endereço IP ou interface"
 
 # File: src/www/diag_logs_filter.php, line: 333
 msgid "Failed to create block rule, alias, or add host."
-msgstr ""
+msgstr "Falhou para criar a regra de block, apelido ou adicionar host."
 
 # File: src/www/diag_logs_filter.php, line: 331
 msgid "Host added successfully"
-msgstr ""
+msgstr "Host adicionado com sucesso"
 
 # File: src/www/diag_logs_filter.php, line: 328
 msgid "Invalid interface for block rule:"
-msgstr ""
+msgstr "Interface inválida para regra de block:"
 
 # File: src/www/diag_logs_filter.php, line: 324
 msgid "Tried to block invalid IP:"
-msgstr ""
+msgstr "Tentou bloquear um IP inválido:"
 
 # File: src/www/diag_logs_filter.php, line: 274
 msgid "Easy Rule: Passed from Firewall Log View"
@@ -18523,88 +18605,88 @@ msgstr ""
 
 # File: src/www/diag_logs_filter.php, line: 199
 msgid "Hosts blocked from Firewall Log view"
-msgstr ""
+msgstr "Hosts bloqueados da visualização de eventos do firewall"
 
 # File: src/www/diag_logs_filter.php, line: 194
 # File: src/www/diag_logs_filter.php, line: 202
 msgid "Entry added"
-msgstr ""
+msgstr "Entrada adicionada"
 
 # File: src/www/diag_logs_filter.php, line: 123
 msgid "Easy Rule: Blocked from Firewall Log View"
-msgstr ""
+msgstr "Regra fácil: bloqueados da visualização de eventos do firewall"
 
 # File: src/www/guiconfig.inc, line: 432
 # File: src/www/guiconfig.inc, line: 461
 msgid "File %s yielded no results."
-msgstr ""
+msgstr "O arquivo %s não produziu resultados."
 
 # File: src/www/guiconfig.inc, line: 426
 # File: src/www/guiconfig.inc, line: 455
 msgid "File %s doesn't exist."
-msgstr ""
+msgstr "O arquivo %s não existe."
 
 # File: src/www/guiconfig.inc, line: 424
 # File: src/www/guiconfig.inc, line: 453
 msgid "File %s is a directory."
-msgstr ""
+msgstr "O arquivo %s é um diretório."
 
 # File: src/www/diag_limiter_info.php, line: 90
 msgid "Gathering Limiter information, please wait..."
-msgstr ""
+msgstr "Coletando informações do limitador, por favor, aguarde..."
 
 # File: src/www/diag_limiter_info.php, line: 35
 msgid "We could not find any limiters on this system."
-msgstr ""
+msgstr "Nós não conseguimos encontrar nenhum limitador no sistema."
 
 # File: src/www/diag_ipsec_spd.php, line: 85
 msgid "No IPsec security policies."
-msgstr ""
+msgstr "Sem políticas de segurança IPsec."
 
 # File: src/www/diag_ipsec_spd.php, line: 79
 msgid "outgoing (as seen by firewall)"
-msgstr ""
+msgstr "saída (como visto pelo firewall)"
 
 # File: src/www/diag_ipsec_spd.php, line: 77
 msgid "incoming (as seen by firewall)"
-msgstr ""
+msgstr "entrada (como visto pelo firewall)"
 
 # File: src/www/diag_ipsec_spd.php, line: 60
 msgid "Tunnel endpoints"
-msgstr ""
+msgstr "Pontos de extremidade do túnel"
 
 # File: src/www/diag_ipsec_spd.php, line: 58
 # File: src/www/firewall_rules_edit.php, line: 790
 msgid "Direction"
-msgstr ""
+msgstr "Direção"
 
 # File: src/www/diag_ipsec_sad.php, line: 78
 msgid "No IPsec security associations."
-msgstr ""
+msgstr "Sem associações de segurança IPsec."
 
 # File: src/www/diag_ipsec_sad.php, line: 62
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 # File: src/www/diag_ipsec_sad.php, line: 61
 msgid "Auth. alg."
-msgstr ""
+msgstr "Algoritmo de autenticação"
 
 # File: src/www/diag_ipsec_sad.php, line: 60
 msgid "Enc. alg."
-msgstr ""
+msgstr "Algoritmo de encriptação"
 
 # File: src/www/diag_ipsec_sad.php, line: 59
 msgid "SPI"
-msgstr ""
+msgstr "SPI"
 
 # File: src/www/diag_ipsec_leases.php, line: 112
 msgid "No IPsec pools."
-msgstr ""
+msgstr "Sem pools IPsec."
 
 # File: src/www/diag_ipsec_leases.php, line: 93
 msgid "No leases from this pool yet."
-msgstr ""
+msgstr "Sem concessões para este pool ainda."
 
 # File: src/www/diag_ipsec_leases.php, line: 67
 # File: src/www/diag_ping.php, line: 50
@@ -18623,27 +18705,27 @@ msgstr ""
 # File: src/www/services_unbound_host_edit.php, line: 333
 # File: src/www/services_unbound_overrides.php, line: 131
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 # File: /usr/core/src/www/diag_ipsec_leases.php, line: 61
 msgid "Online:"
-msgstr ""
+msgstr "Online:"
 
 # File: /usr/core/src/www/diag_ipsec_leases.php, line: 60
 msgid "Usage:"
-msgstr ""
+msgstr "Uso:"
 
 # File: /usr/core/src/www/diag_ipsec_leases.php, line: 59
 msgid "Pool:"
-msgstr ""
+msgstr "Pool:"
 
 # File: src/www/diag_ipsec.php, line: 176
 msgid "Bytes out"
-msgstr ""
+msgstr "Bytes de saída"
 
 # File: src/www/diag_ipsec.php, line: 175
 msgid "Bytes in"
-msgstr ""
+msgstr "Bytes de entrada"
 
 # File: src/www/diag_ipsec.php, line: 174
 # File: src/www/diag_logs_filter.php, line: 635
@@ -18654,87 +18736,87 @@ msgstr ""
 # File: src/www/firewall_schedule_edit.php, line: 923
 # File: src/www/widgets/widgets/log.widget.php, line: 235
 msgid "Time"
-msgstr ""
+msgstr "Tempo"
 
 # File: src/www/diag_ipsec.php, line: 164
 # File: src/www/firewall_rules.php, line: 433
 # File: src/www/firewall_rules.php, line: 677
 msgid "out"
-msgstr ""
+msgstr "saída"
 
 # File: src/www/diag_ipsec.php, line: 163
 # File: src/www/firewall_rules.php, line: 430
 # File: src/www/firewall_rules.php, line: 655
 msgid "in"
-msgstr ""
+msgstr "entrada"
 
 # File: src/www/diag_ipsec.php, line: 152
 msgid "Stats"
-msgstr ""
+msgstr "Estatísticas"
 
 # File: src/www/diag_ipsec.php, line: 150
 msgid "Remote subnets"
-msgstr ""
+msgstr "Subredes remotas"
 
 # File: src/www/diag_ipsec.php, line: 149
 msgid "SPI(s)"
-msgstr ""
+msgstr "SPI(s)"
 
 # File: src/www/diag_ipsec.php, line: 148
 msgid "Local subnets"
-msgstr ""
+msgstr "Subredes locais"
 
 # File: /usr/core/src/www/diag_ipsec.php, line: 141
 # File: /usr/core/src/www/status_interfaces.php, line: 89
 msgid "collapse/expand all"
-msgstr ""
+msgstr "recolher/expandir todos"
 
 # File: src/www/diag_ipsec.php, line: 99
 msgid "Remote Auth"
-msgstr ""
+msgstr "Autenticação remota"
 
 # File: src/www/diag_ipsec.php, line: 98
 msgid "Local Auth"
-msgstr ""
+msgstr "Autenticação local"
 
 # File: src/www/diag_ipsec.php, line: 97
 msgid "Remote IP"
-msgstr ""
+msgstr "Endereço IP remoto"
 
 # File: src/www/diag_ipsec.php, line: 96
 msgid "Remote ID"
-msgstr ""
+msgstr "ID remoto"
 
 # File: src/www/diag_ipsec.php, line: 95
 # File: src/www/interfaces_ppps_edit.php, line: 594
 # File: src/www/vpn_pppoe.php, line: 118
 msgid "Local IP"
-msgstr ""
+msgstr "Endereço IP local"
 
 # File: src/www/diag_ipsec.php, line: 94
 msgid "Local ID"
-msgstr ""
+msgstr "ID local"
 
 # File: src/www/diag_ipsec.php, line: 92
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 140
 msgid "Connection"
-msgstr ""
+msgstr "Conexão"
 
 # File: /usr/core/src/www/diag_halt.php, line: 50
 msgid "Are you sure you want to power off the system?"
-msgstr ""
+msgstr "Deseja desligar o sistema?"
 
 # File: /usr/core/src/www/diag_halt.php, line: 46
 msgid "The system is powering off now."
-msgstr ""
+msgstr "O sistema está desligando agora."
 
 # File: src/www/diag_dump_states.php, line: 246
 msgid "States matching current filter"
-msgstr ""
+msgstr "Estados correspondendo ao filtro atual"
 
 # File: src/www/diag_dump_states.php, line: 236
 msgid "No states were found."
-msgstr ""
+msgstr "Nenhum estado foi encontrado."
 
 # File: src/www/diag_confbak.php, line: 227
 # File: src/www/diag_dump_states.php, line: 223
@@ -18743,15 +18825,15 @@ msgstr ""
 # File: src/www/services_dhcpv6.php, line: 583
 # File: src/www/services_dhcpv6.php, line: 590
 msgid "to"
-msgstr ""
+msgstr "para"
 
 # File: src/www/diag_dump_states.php, line: 223
 msgid "Remove all state entries from"
-msgstr ""
+msgstr "Remover todas as entradas de estado de"
 
 # File: src/www/diag_dump_states.php, line: 171
 msgid "Source -> Router -> Destination"
-msgstr ""
+msgstr "Origem -> Roteador -> Destino"
 
 # File: src/www/diag_dump_states.php, line: 151
 msgid "Int"
@@ -18784,29 +18866,31 @@ msgstr ""
 
 # File: src/www/diag_dns.php, line: 139
 msgid "IP Info @ DNS Stuff"
-msgstr ""
+msgstr "Informações do IP via DNS Stuff"
 
 # File: src/www/diag_dns.php, line: 138
 msgid "IP WHOIS @ DNS Stuff"
-msgstr ""
+msgstr "WHOIS do IP via DNS Stuff"
 
 # File: src/www/diag_dns.php, line: 137
 msgid ""
 "NOTE: The following links are to external services, so their reliability "
 "cannot be guaranteed."
 msgstr ""
+"NOTA: Os links a seguir são para serviços externos, portanto, sua "
+"confiabilidade não pode ser garantida."
 
 # File: src/www/diag_dns.php, line: 132
 msgid "More Information:"
-msgstr ""
+msgstr "Mais informação:"
 
 # File: src/www/diag_dns.php, line: 114
 msgid "Query time"
-msgstr ""
+msgstr "Tempo da consulta"
 
 # File: src/www/diag_dns.php, line: 109
 msgid "Resolution time per server"
-msgstr ""
+msgstr "Tempo de resolução por servidor"
 
 # File: src/www/diag_dns.php, line: 95
 # File: src/www/firewall_nat.php, line: 255
@@ -18818,7 +18902,7 @@ msgstr ""
 # File: src/www/vpn_ipsec_phase2.php, line: 803
 # File: src/www/vpn_ipsec_phase2.php, line: 812
 msgid "Address"
-msgstr ""
+msgstr "Endereço"
 
 # File: lang/dynamic/helpers/models.php, line: 243
 # File: lang/dynamic/helpers/models.php, line: 274
@@ -18851,101 +18935,106 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 729
 # File: src/www/vpn_openvpn_export_shared.php, line: 352
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 # File: src/www/diag_dns.php, line: 90
 msgid "Response"
-msgstr ""
+msgstr "Resposta"
 
 # File: src/www/diag_dns.php, line: 82
 # File: src/www/system_authservers.php, line: 130
 # File: src/www/system_authservers.php, line: 151
 msgid "Hostname or IP"
-msgstr ""
+msgstr "Nome do host ou IP"
 
 # File: src/www/diag_dns.php, line: 76
 msgid "Resolve DNS hostname or IP"
-msgstr ""
+msgstr "Resolver o DNS do nome do host ou endereço IP"
 
 # File: src/www/diag_dns.php, line: 47
 msgid "No response"
-msgstr ""
+msgstr "Sem resposta"
 
 # File: src/www/diag_dns.php, line: 39
 msgid "Host must be a valid hostname or IP address."
-msgstr ""
+msgstr "O host precisa ser um nome de host ou endereço IP válido."
 
 # File: src/www/diag_defaults.php, line: 60
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "Tem certeza que deseja continuar?"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 58
 msgid "Admin password will be reset to: %s"
-msgstr ""
+msgstr "A senha de administração será redefinida para: %s"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 57
 msgid "Admin username will be reset to: %s"
-msgstr ""
+msgstr "O nome de usuário administrativo será redefinido para: %s"
 
 # File: src/www/diag_defaults.php, line: 56
 msgid ""
 "WAN interface will be set to obtain an address automatically from a DHCP "
 "server"
 msgstr ""
+"A interface WAN será configurada para obter um endereço IP automaticamente "
+"de um servidor DHCP"
 
 # File: src/www/diag_defaults.php, line: 55
 msgid "Reboot after changes are installed"
-msgstr ""
+msgstr "Reiniciar depois que as alterações forem instaladas"
 
 # File: src/www/diag_defaults.php, line: 54
 msgid "System will be configured as a DHCP server on the default LAN interface"
 msgstr ""
+"O sistema vai ser configurado como um servidor DHCP na interface LAN padrão"
 
 # File: src/www/diag_defaults.php, line: 53
 msgid "LAN IP address will be reset to 192.168.1.1"
-msgstr ""
+msgstr "O endereço IP da LAN será redefinido para 192.168.1.1"
 
 # File: src/www/diag_defaults.php, line: 52
 msgid "Reset to factory defaults"
-msgstr ""
+msgstr "Redefinir para os padrões de fábrica"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 50
 msgid "If you click \"Yes\", the system will:"
-msgstr ""
+msgstr "Se você clicar em \"sim\", o sistema irá:"
 
 # File: src/www/diag_defaults.php, line: 46
 msgid ""
 "The system has been reset to factory defaults and is now rebooting. This may "
 "take a few minutes, depending on your hardware."
 msgstr ""
+"O sistema foi redefinido para as configurações de fábrica e está reiniciando "
+"agora. Isso poderá demorar alguns minutos, dependendo do seu hardware."
 
 # File: src/www/diag_confbak.php, line: 326
 msgid "Download this backup"
-msgstr ""
+msgstr "Baixar este backup"
 
 # File: src/www/diag_confbak.php, line: 323
 msgid "Remove this backup"
-msgstr ""
+msgstr "Remover este backup"
 
 # File: src/www/diag_confbak.php, line: 320
 msgid "Revert to this configuration"
-msgstr ""
+msgstr "Reverter para esta configuração"
 
 # File: src/www/diag_confbak.php, line: 303
 msgid "Current"
-msgstr ""
+msgstr "Atual"
 
 # File: src/www/diag_confbak.php, line: 289
 msgid "Configuration Change"
-msgstr ""
+msgstr "Alteração de configuração"
 
 # File: src/www/diag_confbak.php, line: 286
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 # File: src/www/diag_confbak.php, line: 285
 msgid "Diff"
-msgstr ""
+msgstr "Diferença"
 
 # File: src/www/diag_confbak.php, line: 277
 msgid ""
@@ -18954,33 +19043,41 @@ msgid ""
 "options and select the newer configuration in the right column, then press "
 "the button."
 msgstr ""
+"Para ver as diferenças entre uma configuração mais antiga e uma configuração "
+"mais recente, selecione a configuração mais antiga usando as opções da "
+"coluna à esquerda, selecione a configuração mais recente na coluna da "
+"direita e, em seguida, pressione o botão."
 
 # File: src/www/diag_confbak.php, line: 273
 msgid "View differences"
-msgstr ""
+msgstr "Visualizar diferenças"
 
 # File: /usr/core/src/www/diag_confbak.php, line: 233
 msgid "Configuration diff from %s to %s"
-msgstr ""
+msgstr "Difereças de configuração de %s para %s"
 
 # File: /usr/core/src/www/diag_confbak.php, line: 220
 msgid "Current space used:"
-msgstr ""
+msgstr "Espaço atualmente em uso:"
 
 # File: /usr/core/src/www/diag_confbak.php, line: 218
 msgid ""
 "Be aware of how much space is consumed by backups before adjusting this "
 "value."
 msgstr ""
+"Tenha em mente de quanto espaço é consumido pelos backups antes de ajustar "
+"este valor."
 
 # File: /usr/core/src/www/diag_confbak.php, line: 211
 msgid ""
 "Enter the number of older configurations to keep in the local backup cache."
 msgstr ""
+"Digite o número de configurações antigas para manter no cache de backup "
+"local."
 
 # File: src/www/diag_confbak.php, line: 155
 msgid "Remove Configuration Backup"
-msgstr ""
+msgstr "Remover backup de configuração"
 
 # File: src/www/diag_confbak.php, line: 135
 # File: src/www/diag_confbak.php, line: 157
@@ -19039,64 +19136,64 @@ msgstr ""
 # File: src/www/vpn_openvpn_csc.php, line: 221
 # File: src/www/vpn_openvpn_server.php, line: 428
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 # File: src/www/diag_confbak.php, line: 133
 msgid "Restore from Configuration Backup"
-msgstr ""
+msgstr "Restaurar configuração do backup"
 
 # File: src/www/diag_confbak.php, line: 109
 msgid "Unable to delete the selected configuration."
-msgstr ""
+msgstr "Impossível excluir a configuração selecionada."
 
 # File: src/www/diag_confbak.php, line: 107
 msgid "Deleted backup with timestamp %s and description \"%s\"."
-msgstr ""
+msgstr "Configuração com o carimbo de data %s e descrição \"%s\" excluída."
 
 # File: src/www/diag_confbak.php, line: 90
 msgid "Changed backup revision count."
-msgstr ""
+msgstr "Contador de revisão de backup alterado."
 
 # File: /usr/core/src/www/diag_confbak.php, line: 93
 msgid "Backup count must be greater than zero."
-msgstr ""
+msgstr "O contador de backup precisa ser maior que zero."
 
 # File: src/www/diag_backup.php, line: 669
 msgid "Setup/Test Google Drive"
-msgstr ""
+msgstr "Configurar/Testar Google Drive"
 
 # File: src/www/diag_backup.php, line: 662
 msgid "Confirm :"
-msgstr ""
+msgstr "Confirmar :"
 
 # File: src/www/diag_backup.php, line: 656
 msgid "Password :"
-msgstr ""
+msgstr "Senha :"
 
 # File: src/www/diag_backup.php, line: 653
 msgid "Password protect your data"
-msgstr ""
+msgstr "Senha para proteger seus dados"
 
 # File: src/www/diag_backup.php, line: 647
 # File: src/www/diag_confbak.php, line: 198
 msgid "Backup Count"
-msgstr ""
+msgstr "Contador do backup"
 
 # File: src/www/diag_backup.php, line: 641
 msgid "Folder ID"
-msgstr ""
+msgstr "ID do diretório"
 
 # File: src/www/diag_backup.php, line: 635
 msgid "P12 key"
-msgstr ""
+msgstr "Chave P12"
 
 # File: src/www/diag_backup.php, line: 635
 msgid "(replace)"
-msgstr ""
+msgstr "(substituir)"
 
 # File: src/www/diag_backup.php, line: 635
 msgid "(not loaded)"
-msgstr ""
+msgstr "(não carregado)"
 
 # File: src/www/diag_backup.php, line: 629
 # File: src/www/diag_smart.php, line: 223
@@ -19104,7 +19201,7 @@ msgstr ""
 # File: src/www/system_certmanager.php, line: 882
 # File: src/www/system_certmanager.php, line: 1060
 msgid "Email Address"
-msgstr ""
+msgstr "Endereço de e-mail"
 
 # File: src/www/diag_backup.php, line: 623
 # File: src/www/diag_routes.php, line: 166
@@ -19123,106 +19220,111 @@ msgstr ""
 # File: src/www/vpn_ipsec_mobile.php, line: 376
 # File: src/www/vpn_ipsec_phase1.php, line: 1005
 msgid "Enable"
-msgstr ""
+msgstr "Habilitar"
 
 # File: src/www/diag_backup.php, line: 610
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 # File: src/www/diag_backup.php, line: 598
 msgid "The firewall will reboot after restoring the configuration."
-msgstr ""
+msgstr "O firewall irá reiniciar após restaurar a configuração."
 
 # File: /usr/core/src/www/diag_backup.php, line: 603
 msgid ""
 "Open a configuration XML file and click the button below to restore the "
 "configuration."
 msgstr ""
+"Abra um arquivo XML de configuração e clique no botão abaixo para restaurar "
+"a configuração."
 
 # File: src/www/diag_backup.php, line: 596
 msgid "Restore configuration"
-msgstr ""
+msgstr "Restaurar configuração"
 
 # File: src/www/diag_backup.php, line: 582
 msgid "Configuration file is encrypted."
-msgstr ""
+msgstr "O arquivo de configuração está encriptado."
 
 # File: src/www/diag_backup.php, line: 567
 msgid "Restore area:"
-msgstr ""
+msgstr "Área para restauração:"
 
 # File: src/www/diag_backup.php, line: 557
 msgid "Restore"
-msgstr ""
+msgstr "Restaurar"
 
 # File: src/www/diag_backup.php, line: 512
 msgid "Click this button to download the system configuration in XML format."
 msgstr ""
+"Clique neste botão para baixar a configuração do sistema no formato XML."
 
 # File: src/www/diag_backup.php, line: 545
 msgid "Download configuration"
-msgstr ""
+msgstr "Baixar configuração"
 
 # File: src/www/diag_backup.php, line: 539
 # File: src/www/diag_backup.php, line: 590
 msgid "confirm:"
-msgstr ""
+msgstr "confirmar:"
 
 # File: src/www/diag_backup.php, line: 529
 msgid "Encrypt this configuration file."
-msgstr ""
+msgstr "Encriptar este arquivo de configuração."
 
 # File: /usr/core/src/www/diag_backup.php, line: 530
 msgid "Do not backup RRD data."
-msgstr ""
+msgstr "Não fazer backup dos dados RRD."
 
 # File: src/www/diag_backup.php, line: 515
 # File: src/www/diag_backup.php, line: 569
 # File: src/www/widgets/widgets/log.widget.php, line: 196
 msgid "ALL"
-msgstr ""
+msgstr "TODOS"
 
 # File: src/www/diag_backup.php, line: 513
 msgid "Backup area:"
-msgstr ""
+msgstr "Área de backup:"
 
 # File: src/www/diag_backup.php, line: 504
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 # File: src/www/diag_backup.php, line: 494
 msgid "The firewall is now rebooting."
-msgstr ""
+msgstr "O firewall está reiniciando agora."
 
 # File: src/www/diag_backup.php, line: 494
 msgid "The firewall configuration has been changed."
-msgstr ""
+msgstr "A configuração do firewall foi alterada."
 
 # File: /usr/core/src/www/diag_backup.php, line: 442
 msgid "Backup successful, current file list:"
-msgstr ""
+msgstr "Backup concluído com sucesso, lista atual de arquivos:"
 
 # File: src/www/diag_backup.php, line: 436
 msgid "Google Drive communication failure"
-msgstr ""
+msgstr "Falha na comunicação com o Google Drive"
 
 # File: /usr/core/src/www/diag_backup.php, line: 426
 msgid "Google Drive backup settings have been saved."
-msgstr ""
+msgstr "As configurações para backup via Google Drive foram salvas."
 
 # File: src/www/diag_backup.php, line: 392
 msgid "The configuration could not be restored."
-msgstr ""
+msgstr "A configuração não pode ser restaurada."
 
 # File: src/www/diag_backup.php, line: 388
 msgid "The m0n0wall configuration has been restored and upgraded to OPNsense."
-msgstr ""
+msgstr "A configuração do m0n0wall foi restaurada e atualizada para o OPNsense."
 
 # File: src/www/diag_backup.php, line: 277
 msgid ""
 "The configuration area has been restored.  You may need to reboot the "
 "firewall."
 msgstr ""
+"A área de configuração foi restaurada.  Talvez seja necessário reiniciar o "
+"firewall."
 
 # File: src/www/diag_backup.php, line: 256
 # File: src/www/diag_backup.php, line: 268
@@ -19230,97 +19332,100 @@ msgid ""
 "You have selected to restore an area but we could not locate the correct xml "
 "tag."
 msgstr ""
+"Você selecionou para restaurar uma área, mas não conseguimos localizar a tag "
+"XML correta."
 
 # File: src/www/diag_backup.php, line: 249
 msgid ""
 "The uploaded file does not appear to contain an encrypted OPNsense "
 "configuration."
 msgstr ""
+"O arquivo enviado não parece conter uma configuração encriptada do OPNsense."
 
 # File: src/www/diag_backup.php, line: 244
 msgid "The configuration could not be restored (file upload error)."
-msgstr ""
+msgstr "A configuração não pôde ser restaurada (erro de upload de arquivo)."
 
 # File: src/www/diag_backup.php, line: 240
 # File: src/www/diag_backup.php, line: 241
 msgid "Warning, could not read file %s"
-msgstr ""
+msgstr "Atenção, não foi possível ler o arquivo %s"
 
 # File: src/www/diag_backup.php, line: 232
 msgid "You must supply and confirm the password for decryption."
-msgstr ""
+msgstr "Você precisa fornecer e confirmar a senha para a descriptografia."
 
 # File: src/www/diag_backup.php, line: 181
 # File: src/www/diag_backup.php, line: 234
 # File: src/www/diag_backup.php, line: 412
 msgid "The supplied 'Password' and 'Confirm' field values must match."
-msgstr ""
+msgstr "Os valores dos campos 'senha' e 'confirmar' devem corresponder."
 
 # File: src/www/diag_backup.php, line: 179
 msgid "You must supply and confirm the password for encryption."
-msgstr ""
+msgstr "Você precisa fornecer e confirmar a senha para a descriptografia."
 
 # File: /usr/core/src/www/diag_backup.php, line: 154
 msgid "Wireless Devices"
-msgstr ""
+msgstr "Dispositivos sem fio"
 
 # File: /usr/core/src/www/diag_backup.php, line: 153
 msgid "Dashboard Widgets"
-msgstr ""
+msgstr "Painel de widgets"
 
 # File: /usr/core/src/www/diag_backup.php, line: 152
 msgid "VLAN Devices"
-msgstr ""
+msgstr "Dispositivos VLAN"
 
 # File: src/www/diag_backup.php, line: 145
 # File: src/www/diag_logs_settings.php, line: 277
 # File: src/www/diag_logs_settings.php, line: 298
 msgid "Syslog"
-msgstr ""
+msgstr "Syslog"
 
 # File: src/www/diag_backup.php, line: 148
 msgid "System tunables"
-msgstr ""
+msgstr "Parâmetros ajustáveis do sistema"
 
 # File: src/www/diag_backup.php, line: 147
 msgid "Static routes"
-msgstr ""
+msgstr "Rotas estáticas"
 
 # File: src/www/diag_backup.php, line: 149
 msgid "SNMP Server"
-msgstr ""
+msgstr "Servidor SNMP"
 
 # File: src/www/diag_backup.php, line: 143
 msgid "RRD Data"
-msgstr ""
+msgstr "Dados RRD"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 330
 msgid "Proxy ARP"
-msgstr ""
+msgstr "Proxy de ARP"
 
 # File: src/www/diag_backup.php, line: 142
 msgid "PPTP Server"
-msgstr ""
+msgstr "Servidor PPTP"
 
 # File: /usr/core/src/www/diag_backup.php, line: 142
 msgid "Point-to-Point Devices"
-msgstr ""
+msgstr "Dispositivos Ponto-a-Ponto"
 
 # File: /usr/core/src/www/diag_backup.php, line: 140
 msgid "DNS Filter"
-msgstr ""
+msgstr "Filtro de DNS"
 
 # File: /usr/core/src/www/diag_backup.php, line: 138
 msgid "System Notifications"
-msgstr ""
+msgstr "Notificações do sistema"
 
 # File: src/www/system_advanced_firewall.php, line: 504
 msgid "Network Address Translation"
-msgstr ""
+msgstr "NAT (Network Address Translation)"
 
 # File: /usr/core/src/www/diag_backup.php, line: 135
 msgid "LAGG Devices"
-msgstr ""
+msgstr "Dispositivos LAGG"
 
 # File: src/www/diag_backup.php, line: 139
 # File: src/www/vpn_ipsec.php, line: 201
@@ -19328,16 +19433,16 @@ msgstr ""
 # File: src/www/vpn_ipsec.php, line: 246
 # File: src/www/vpn_ipsec.php, line: 265
 msgid "IPSEC"
-msgstr ""
+msgstr "IPsec"
 
 # File: /usr/core/src/www/diag_backup.php, line: 130
 msgid "GIF Devices"
-msgstr ""
+msgstr "Dispositivos GIF"
 
 # File: src/www/diag_backup.php, line: 137
 # File: src/www/system_hasync.php, line: 223
 msgid "Firewall Rules"
-msgstr ""
+msgstr "Regras de firewall"
 
 # File: src/www/services_dhcp.php, line: 922
 # File: src/www/services_dhcp_edit.php, line: 482
@@ -19346,33 +19451,33 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 650
 # File: src/www/vpn_openvpn_export.php, line: 660
 msgid "Dynamic DNS"
-msgstr ""
+msgstr "DNS dinâmico"
 
 # File: /usr/core/src/www/diag_backup.php, line: 120
 msgid "SSL Certificates"
-msgstr ""
+msgstr "Certificados SSL"
 
 # File: /usr/core/src/www/diag_backup.php, line: 119
 msgid "SSL Certificate Authorities"
-msgstr ""
+msgstr "Autoridades de certificação SSL"
 
 # File: /usr/core/src/www/diag_backup.php, line: 118
 msgid "Bridge Devices"
-msgstr ""
+msgstr "Dispositivos de ponte"
 
 # File: /usr/core/src/www/diag_backup.php, line: 116
 msgid "OPNsense Additions"
-msgstr ""
+msgstr "Adições do OPNsense"
 
 # File: /usr/core/src/www/diag_backup.php, line: 83
 msgid "Restored %s of config file"
-msgstr ""
+msgstr "Restaurado %s do arquivo de configuração"
 
 # File: src/www/diag_authentication.php, line: 135
 # File: src/www/diag_smart.php, line: 373
 # File: src/www/diag_testport.php, line: 201
 msgid "Test"
-msgstr ""
+msgstr "Teste"
 
 # File: src/www/diag_authentication.php, line: 126
 # File: src/www/interfaces.php, line: 2134
@@ -19404,25 +19509,25 @@ msgstr ""
 # File: src/www/vpn_pptp_users_edit.php, line: 76
 # File: src/www/vpn_pptp_users_edit.php, line: 161
 msgid "Username"
-msgstr ""
+msgstr "Nome de usuário"
 
 # File: src/www/diag_authentication.php, line: 111
 # File: src/www/system_authservers.php, line: 259
 # File: src/www/system_usermanager_settings.php, line: 113
 msgid "Authentication Server"
-msgstr ""
+msgstr "Servidor de autenticação"
 
 # File: src/www/diag_authentication.php, line: 77
 msgid "Authentication failed."
-msgstr ""
+msgstr "Autenticação falhou."
 
 # File: src/www/diag_authentication.php, line: 73
 msgid "This user is a member of these groups"
-msgstr ""
+msgstr "Esse usuário é membro destes grupos"
 
 # File: src/www/diag_authentication.php, line: 71
 msgid "authenticated successfully."
-msgstr ""
+msgstr "autenticado com sucesso."
 
 # File: src/www/diag_authentication.php, line: 71
 # File: src/www/diag_ipsec_leases.php, line: 66
@@ -19434,33 +19539,35 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 788
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 176
 msgid "User"
-msgstr ""
+msgstr "Usuário"
 
 # File: src/www/diag_authentication.php, line: 66
 msgid "A username and password must be specified."
-msgstr ""
+msgstr "Um nome de usuário e senha precisam ser especificados."
 
 # File: src/www/diag_authentication.php, line: 62
 msgid "is not a valid authentication server"
-msgstr ""
+msgstr "não é um servidor de autenticação válido"
 
 # File: src/www/crash_reporter.php, line: 192
 msgid "Report an issue"
-msgstr ""
+msgstr "Reportar um problema"
 
 # File: src/www/crash_reporter.php, line: 181
 msgid ""
 "Please double-check the following contents to ensure you are comfortable "
 "submitting the following information."
 msgstr ""
+"Verifique novamente o conteúdo a seguir para garantir que você esteja "
+"confortável enviando as seguintes informações."
 
 # File: src/www/crash_reporter.php, line: 180
 msgid "A short problem description or steps to reproduce."
-msgstr ""
+msgstr "Uma descrição curta do problema e os passos para reproduzí-lo."
 
 # File: src/www/crash_reporter.php, line: 179
 msgid "your@email.com"
-msgstr ""
+msgstr "voce@email.com"
 
 # File: src/www/crash_reporter.php, line: 177
 msgid ""
@@ -19468,53 +19575,56 @@ msgid ""
 "description. Please note that providing your contact information greatly "
 "improves the chances of bugs being fixed."
 msgstr ""
+"Você pode nos ajudar adicionando suas informações de contato e uma descrição "
+"do problema. Note que o fornecimento das suas informações de contato melhora "
+"consideravelmente as probabilidades de erros serem corrigidos."
 
 # File: src/www/crash_reporter.php, line: 176
 msgid "Would you like to submit this crash report to the developers?"
-msgstr ""
+msgstr "Gostaria de enviar este relatório de falha para os desenvolvedores?"
 
 # File: src/www/crash_reporter.php, line: 175
 msgid "Unfortunately we have detected at least one programming bug."
-msgstr ""
+msgstr "Infelizmente, detectamos pelo menos um bug de programação."
 
 # File: src/www/crash_reporter.php, line: 174
 msgid "Submit this report"
-msgstr ""
+msgstr "Enviar este relatório"
 
 # File: src/www/crash_reporter.php, line: 173
 msgid "Dismiss this report"
-msgstr ""
+msgstr "Ignorar este relatório"
 
 # File: src/www/crash_reporter.php, line: 155
 msgid "Please consider submitting a crash report if the error persists."
-msgstr ""
+msgstr "Por favor considere enviar um relatório de falha se o erro persistir."
 
 # File: src/www/crash_reporter.php, line: 153
 msgid "Thank you for submitting this crash report."
-msgstr ""
+msgstr "Obrigado por ter enviado este relatório de falha."
 
 # File: src/www/crash_reporter.php, line: 150
 msgid "Luckily we have not detected a programming bug."
-msgstr ""
+msgstr "Felizmente nós não detectamos um bug de programação."
 
 # File: src/www/carp_status.php, line: 183
 msgid "pfSync nodes"
-msgstr ""
+msgstr "Nós de pfSync"
 
 # File: src/www/carp_status.php, line: 147
 msgid "Could not locate any defined CARP interfaces."
-msgstr ""
+msgstr "Não foi possível localizar qualquer interface CARP definida."
 
 # File: src/www/carp_status.php, line: 139
 # File: src/www/firewall_virtual_ip.php, line: 223
 # File: src/www/system_gateway_groups_edit.php, line: 197
 # File: src/www/system_gateway_groups_edit.php, line: 277
 msgid "Virtual IP"
-msgstr ""
+msgstr "IP virtual"
 
 # File: src/www/carp_status.php, line: 138
 msgid "CARP Interface"
-msgstr ""
+msgstr "Interface CARP"
 
 # File: src/www/carp_status.php, line: 130
 msgid "Leave Persistent CARP Maintenance Mode"
@@ -19530,7 +19640,7 @@ msgstr ""
 
 # File: src/www/carp_status.php, line: 129
 msgid "Enable CARP"
-msgstr ""
+msgstr "Habilitar CARP"
 
 # File: src/www/carp_status.php, line: 120
 msgid "Check link status on all interfaces with configured CARP VIPs."
@@ -19543,7 +19653,7 @@ msgstr ""
 
 # File: src/www/carp_status.php, line: 77
 msgid "CARP has been enabled."
-msgstr ""
+msgstr "O CARP foi habilitado."
 
 # File: src/www/carp_status.php, line: 75
 msgid ""
@@ -19553,20 +19663,20 @@ msgstr ""
 
 # File: src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt, line: 61
 msgid "Clear All"
-msgstr ""
+msgstr "Limpar tudo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 520
 msgid "Processing request..."
-msgstr ""
+msgstr "Processando solicitação..."
 
 # File: src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 73
 # File: src/opnsense/mvc/app/views/layout_partials/base_form.volt, line: 63
 msgid "advanced mode"
-msgstr ""
+msgstr "modo avançado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 176
 msgid "Target"
-msgstr ""
+msgstr "Alvo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 173
 # File: src/www/diag_ipsec_sad.php, line: 58
@@ -19592,46 +19702,45 @@ msgstr ""
 # File: src/www/vpn_openvpn_client.php, line: 1048
 # File: src/www/vpn_openvpn_server.php, line: 792
 msgid "Protocol"
-msgstr ""
+msgstr "Protocolo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 170
-#, fuzzy
 msgid "#"
 msgstr "#"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 146
 # File: src/www/system_gateways_edit.php, line: 675
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 145
 msgid "Pipe"
-msgstr ""
+msgstr "Pipe"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 118
 msgid "Mask"
-msgstr ""
+msgstr "Máscara"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 117
 msgid "Burst"
-msgstr ""
+msgstr "Burst"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 116
 msgid "Metric"
-msgstr ""
+msgstr "Métrica"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 115
 # File: src/www/interfaces_ppps_edit.php, line: 874
 # File: src/www/interfaces_ppps_edit.php, line: 900
 msgid "Bandwidth"
-msgstr ""
+msgstr "Largura de banda"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 114
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 144
 # File: src/www/services_dhcp.php, line: 1037
 # File: src/www/services_dhcpv6.php, line: 764
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
 msgid "Error reconfiguring trafficshaper"
@@ -19639,24 +19748,24 @@ msgstr "Erro reconfigurando o modulador de tráfego"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
-msgstr ""
+msgstr "Agendar com o cron"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 293
 msgid "Download ACLs"
-msgstr ""
+msgstr "Baixar ACLs"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 292
 msgid "Download ACLs & Apply"
-msgstr ""
+msgstr "Baixar ACLs e aplicar"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 274
 msgid "Edit | Delete"
-msgstr ""
+msgstr "Editar | Excluir"
 
 # File: src/www/services_dhcp.php, line: 1032
 # File: src/www/services_dhcpv6.php, line: 759
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 261
 msgid ""
@@ -19671,7 +19780,7 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
-msgstr ""
+msgstr "Blacklist remota"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 219
 # File: src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 75
@@ -19723,43 +19832,43 @@ msgstr ""
 # File: src/www/vpn_openvpn_export_shared.php, line: 304
 # File: src/www/vpn_openvpn_server.php, line: 726
 msgid "full help"
-msgstr ""
+msgstr "ajuda completa"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 217
 msgid "Remote Access Control Lists"
-msgstr ""
+msgstr "Listas de controle de acesso (ACLs) remotas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 482
 msgid "Query"
-msgstr ""
+msgstr "Consulta"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 481
 msgid "Search"
-msgstr ""
+msgstr "Pesquisa"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 540
 msgid "Info / Enabled"
-msgstr ""
+msgstr "Informações / Habilitado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 448
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 447
 msgid "ClassType"
-msgstr ""
+msgstr "ClassType"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 444
 msgid "sid"
-msgstr ""
+msgstr "SID"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 496
 msgid "Alert"
-msgstr ""
+msgstr "Alerta"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 576
 msgid "Drop"
-msgstr ""
+msgstr "Drop"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 445
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 493
@@ -19771,144 +19880,151 @@ msgstr ""
 # File: src/www/services_unbound_acls.php, line: 224
 # File: src/www/services_unbound_acls.php, line: 324
 msgid "Action"
-msgstr ""
+msgstr "Ação"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
 msgid "Classtype"
-msgstr ""
+msgstr "ClassType"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 518
 msgid ""
 "Please use \"Download & Update Rules\" to fetch your initial ruleset, "
 "automatic updating can be scheduled after the first download."
 msgstr ""
+"Por favor, use \"Baixar e atualizar regras\" para buscar seu conjunto de "
+"regras inicial, a atualização automática pode ser agendada após o primeiro "
+"download."
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 507
 msgid "Download & Update Rules"
-msgstr ""
+msgstr "Baixar e atualizar regras"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 504
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 549
 msgid "Enable selected"
-msgstr ""
+msgstr "Habilitar selecionado"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 503
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 548
 msgid "Disable selected"
-msgstr ""
+msgstr "Desabilitar selecionado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 409
 msgid "Last updated"
-msgstr ""
+msgstr "Última atualização"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
 msgid "Filename"
-msgstr ""
+msgstr "Nome do arquivo"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 483
 msgid "Rulesets"
-msgstr ""
+msgstr "Conjunto de regras"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 385
 # File: src/www/firewall_rules.php, line: 270
 # File: src/www/firewall_rules_edit.php, line: 1198
 msgid "Schedule"
-msgstr ""
+msgstr "Agendamentos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 384
 msgid "Alerts"
-msgstr ""
+msgstr "Alertas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 466
 msgid "User defined"
-msgstr ""
+msgstr "Definido pelo usuário"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Removing this file will cleanup disk space, but cannot be undone."
 msgstr ""
+"A remoção desse arquivo limpará o espaço em disco, mas não poderá ser "
+"desfeita."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 435
 msgid "Remove log file "
-msgstr ""
+msgstr "Remover arquivo de eventos "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 454
 msgid "Changes will be active after apply (rules tab)"
-msgstr ""
+msgstr "As alterações serão ativadas após a aplicação (guia de regras)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
-msgstr ""
+msgstr "não instalado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 728
 msgid "Download as CSV"
-msgstr ""
+msgstr "Baixar como CSV"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 722
 msgid ""
 "Full Date &\n"
 "                                Time"
 msgstr ""
+"Data completa &\n"
+"                                Horário"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 718
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 492
 # File: src/www/firewall_rules.php, line: 465
 # File: src/www/firewall_rules_edit.php, line: 858
 msgid "Timestamp"
-msgstr ""
+msgstr "Carimbo de data/hora"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 712
 msgid "Toggle Timeview"
-msgstr ""
+msgstr "Alternar visualização de tempo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 706
 msgid "Current View - Details"
-msgstr ""
+msgstr "Visualização atual - Detalhes"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 680
 msgid "Current View - Overview"
-msgstr ""
+msgstr "Visutalização atual - Visão geral"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 664
 msgid "averages"
-msgstr ""
+msgstr "médias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 664
 msgid "Current detail is showing"
-msgstr ""
+msgstr "O detalhe atual está mostrando"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 659
 msgid "Please wait while loading data..."
-msgstr ""
+msgstr "Por favor aguarde enquanto os dados são carregados..."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 631
 msgid "Show Tables"
-msgstr ""
+msgstr "Mostrar tabelas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 625
 # File: src/www/diag_packet_capture.php, line: 426
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 621
 # File: src/www/diag_packet_capture.php, line: 425
 msgid "Medium"
-msgstr ""
+msgstr "Média"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 617
 # File: src/www/interfaces.php, line: 2845
 msgid "Standard"
-msgstr ""
+msgstr "Padrão"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 611
 msgid "Resolution"
-msgstr ""
+msgstr "Resolução"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 605
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 640
 # File: src/www/interfaces.php, line: 2931
 msgid "On"
-msgstr ""
+msgstr "Ligado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 602
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 637
@@ -19917,46 +20033,46 @@ msgstr ""
 # File: src/www/vpn_pppoe_edit.php, line: 404
 # File: src/www/vpn_pptp.php, line: 336
 msgid "Off"
-msgstr ""
+msgstr "Desligado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 596
 msgid "Inverse"
-msgstr ""
+msgstr "Inverso"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 587
 msgid "Zoom level"
-msgstr ""
+msgstr "Nível de zoom"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 577
 msgid "Options"
-msgstr ""
+msgstr "Opções"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 370
 msgid "timestamp"
-msgstr ""
+msgstr "Carimbo de data/hora"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 368
 msgid "full date & time"
-msgstr ""
+msgstr "data completa e horário"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 335
 msgid "Year(s)"
-msgstr ""
+msgstr "Ano(s)"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 313
 msgid "minutes"
-msgstr ""
+msgstr "minutos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 309
 msgid "hours"
-msgstr ""
+msgstr "horas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 305
 # File: src/www/system_camanager.php, line: 609
 # File: src/www/system_certmanager.php, line: 826
 # File: src/www/system_crlmanager.php, line: 434
 msgid "days"
-msgstr ""
+msgstr "dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 298
 # File: src/www/graph.php, line: 108
@@ -19980,51 +20096,51 @@ msgstr ""
 # File: src/www/vpn_ipsec_phase1.php, line: 1027
 # File: src/www/vpn_ipsec_phase2.php, line: 930
 msgid "seconds"
-msgstr ""
+msgstr "segundos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 110
 msgid "COMMAND"
-msgstr ""
+msgstr "COMANDO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 109
 msgid "WCPU"
-msgstr ""
+msgstr "WCPU"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 108
 msgid "TIME"
-msgstr ""
+msgstr "TEMPO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 107
 msgid "C"
-msgstr ""
+msgstr "C"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 106
 msgid "STATE"
-msgstr ""
+msgstr "ESTADO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 105
 msgid "RES"
-msgstr ""
+msgstr "RES"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 104
 msgid "SIZE"
-msgstr ""
+msgstr "TAMANHO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 103
 msgid "NICE"
-msgstr ""
+msgstr "NICE"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 102
 msgid "PRI"
-msgstr ""
+msgstr "PRI"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 101
 msgid "USERNAME"
-msgstr ""
+msgstr "NOM. USUÁRIO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 100
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 # File: src/www/diag_backup.php, line: 598
 # File: src/www/diag_logs_settings.php, line: 358
@@ -20070,38 +20186,38 @@ msgstr ""
 # File: src/www/vpn_l2tp.php, line: 469
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 148
 msgid "Note:"
-msgstr ""
+msgstr "Nota:"
 
 # File: src/www/diag_routes.php, line: 165
 msgid "Name resolution"
-msgstr ""
+msgstr "Resolução de nome"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 94
 msgid "Expire"
-msgstr ""
+msgstr "Expira"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 msgid "Netif (name)"
-msgstr ""
+msgstr "Netif (nome)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 msgid "Netif"
-msgstr ""
+msgstr "Netif"
 
 # File: src/www/interfaces.php, line: 1776
 # File: src/www/interfaces_ppps_edit.php, line: 880
 # File: src/www/interfaces_ppps_edit.php, line: 901
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 90
 msgid "Use"
-msgstr ""
+msgstr "Uso"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 # File: src/www/services_ntpd_pps.php, line: 160
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 # File: src/www/firewall_rules.php, line: 269
 # File: src/www/firewall_rules_edit.php, line: 1221
@@ -20118,7 +20234,7 @@ msgstr ""
 # File: src/www/system_routes_edit.php, line: 85
 # File: src/www/system_routes_edit.php, line: 275
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 # File: src/www/diag_dump_states.php, line: 161
 # File: src/www/diag_logs_filter.php, line: 717
@@ -20127,23 +20243,23 @@ msgstr ""
 # File: src/www/firewall_nat.php, line: 254
 # File: src/www/firewall_rules.php, line: 264
 msgid "Proto"
-msgstr ""
+msgstr "Protocolo"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 799
 msgid "To date"
-msgstr ""
+msgstr "Para data"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 793
 msgid "From date"
-msgstr ""
+msgstr "Da data"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 786
 msgid "Resolution (seconds)"
-msgstr ""
+msgstr "Resolução (segundos)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 779
 msgid "Collection"
-msgstr ""
+msgstr "Coleção"
 
 # File: src/www/services_dhcp.php, line: 1039
 # File: src/www/services_dhcpv6.php, line: 765
@@ -20152,19 +20268,19 @@ msgstr ""
 # File: src/www/system_advanced_sysctl.php, line: 217
 # File: src/www/system_certmanager.php, line: 910
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 773
 msgid "Attribute"
-msgstr ""
+msgstr "Atributo"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
 msgid "Total (selection)"
-msgstr ""
+msgstr "Total (seleção)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 754
 msgid "Last seen"
-msgstr ""
+msgstr "Visto pela última vez"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 175
@@ -20191,7 +20307,7 @@ msgstr ""
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 142
 # File: src/www/widgets/widgets/log.widget.php, line: 238
 msgid "Destination"
-msgstr ""
+msgstr "Destino"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 494
@@ -20219,167 +20335,169 @@ msgstr ""
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 141
 # File: src/www/widgets/widgets/log.widget.php, line: 237
 msgid "Source"
-msgstr ""
+msgstr "Origem"
 
 # File: src/www/services_dyndns.php, line: 85
 # File: src/www/status_services.php, line: 295
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 79
 # File: src/www/widgets/widgets/services_status.widget.php, line: 59
 msgid "Service"
-msgstr ""
+msgstr "Serviço"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 726
 msgid "(src) Address"
-msgstr ""
+msgstr "(src) Endereço de origem"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 725
 msgid "(dst) Port"
-msgstr ""
+msgstr "(dst) Porta de destino"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 723
 msgid "Date to"
-msgstr ""
+msgstr "Data para"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 722
 msgid "Date from"
-msgstr ""
+msgstr "Data de"
 
 # File: src/www/diag_system_pftop.php, line: 132
 msgid "Bytes"
-msgstr ""
+msgstr "Bytes"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 701
 msgid "Packets"
-msgstr ""
+msgstr "Pacotes"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 244
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 696
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 # File: src/www/graph.php, line: 100
 msgid "Out"
-msgstr ""
+msgstr "Saída"
 
 # File: src/www/graph.php, line: 99
 msgid "In"
-msgstr ""
+msgstr "Entrada"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 686
 msgid "click on pie for details"
-msgstr ""
+msgstr "clique na torta para detalhes"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 666
 msgid "Top usage ports / sources (bytes)"
-msgstr ""
+msgstr "Principais portas de uso / fontes (bytes)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 659
 msgid "OUT"
-msgstr ""
+msgstr "SAÍDA"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 655
 msgid "IN"
-msgstr ""
+msgstr "ENTRADA"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 651
 msgid "Interface totals (bits/sec)"
-msgstr ""
+msgstr "Totais de interface (bits / seg)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 644
 msgid "Last year, 24 hour average"
-msgstr ""
+msgstr "Último ano, média de 24 horas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 643
 msgid "182 days, 24 hour average"
-msgstr ""
+msgstr "182 dias, média de 24 horas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 642
 msgid "90 days, 24 hour average"
-msgstr ""
+msgstr "90 dias, média de 24 horas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 641
 msgid "60 days, 24 hour average"
-msgstr ""
+msgstr "60 dias, média de 24 horas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 640
 msgid "30 days, 24 hour average"
-msgstr ""
+msgstr "30 dias, média de 24 horas"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 639
 msgid "14 days, 1 hour average"
-msgstr ""
+msgstr "14 dias, média de 1 hora"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 638
 msgid "7 days, 1 hour average"
-msgstr ""
+msgstr "7 dias, média de 1 hora"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 637
 msgid "Last 24 hours, 5 minute average"
-msgstr ""
+msgstr "Últimas 24 horas, média de 5 minutos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 636
 msgid "Last 8 hours, 5 minute average"
-msgstr ""
+msgstr "Últimas 8 horas, média de 5 minutos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 635
 msgid "Last 2 hours, 30 second average"
-msgstr ""
+msgstr "Últimas 2 horas, média de 30 segundos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 629
 msgid "Go to netflow configuration"
-msgstr ""
+msgstr "Ir para a configuração do NetFlow"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 627
 msgid ""
 "Local data collection is not enabled at the moment, please configure netflow "
 "first"
 msgstr ""
+"A coleta de dados local não está ativada no momento, configure primeiro o "
+"NetFlow"
 
 # File: src/www/vpn_openvpn_export.php, line: 790
 # File: src/www/vpn_openvpn_export_shared.php, line: 388
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 # File: lang/dynamic/helpers/models.php, line: 135
 # File: lang/dynamic/helpers/models.php, line: 173
 # File: lang/dynamic/helpers/models.php, line: 193
 # File: lang/dynamic/helpers/models.php, line: 201
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 619
 msgid "Totals"
-msgstr ""
+msgstr "Totais"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 497
 # File: src/www/diag_smart.php, line: 284
 # File: src/www/diag_smart.php, line: 295
 msgid "Info"
-msgstr ""
+msgstr "Informações"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 463
 msgid "(other)"
-msgstr ""
+msgstr "(outro)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 100
 msgid "Pkts"
-msgstr ""
+msgstr "Pacotes"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 99
 msgid "Sources"
-msgstr ""
+msgstr "Origens"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 98
 msgid "Destinations"
-msgstr ""
+msgstr "Destinos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 96
 msgid "Flow"
-msgstr ""
+msgstr "Fluxo"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 83
 msgid "Capture"
-msgstr ""
+msgstr "Capturar"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 78
 # File: src/www/diag_logs_filter.php, line: 654
@@ -20389,17 +20507,17 @@ msgstr ""
 # File: src/www/diag_traceroute.php, line: 121
 # File: src/www/system_gateways_edit.php, line: 599
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 100
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 94
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 128
 msgid "Refresh"
-msgstr ""
+msgstr "Atualizar"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 90
 msgid "NOTE: Local IPv6 peers use NDP instead of ARP."
-msgstr ""
+msgstr "NOTA: Peers locais IPv6 utilizam NDP ao invés de ARP."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 83
 # File: src/www/interfaces.php, line: 1951
@@ -20418,12 +20536,12 @@ msgstr ""
 # File: src/www/system_general.php, line: 324
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 80
 msgid "Hostname"
-msgstr ""
+msgstr "Nome do host"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 82
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 82
 msgid "Interface name"
-msgstr ""
+msgstr "Nome da interface"
 
 # File: lang/dynamic/helpers/models.php, line: 153
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 81
@@ -20477,17 +20595,17 @@ msgstr ""
 # File: src/www/vpn_pppoe_edit.php, line: 417
 # File: src/www/widgets/widgets/wake_on_lan.widget.php, line: 46
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 80
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 80
 msgid "Manufacturer"
-msgstr ""
+msgstr "Fabricante"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 79
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 79
 msgid "MAC"
-msgstr ""
+msgstr "Endereço físico"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 78
 # File: src/www/diag_states_summary.php, line: 119
@@ -20501,51 +20619,53 @@ msgstr ""
 # File: src/www/vpn_pppoe_edit.php, line: 597
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 177
 msgid "IP"
-msgstr ""
+msgstr "Endereço IP"
 
 # File: src/www/services_dhcpv6.php, line: 784
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 130
 msgid "Weekdays"
-msgstr ""
+msgstr "Dias da semana"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
 msgid "Months"
-msgstr ""
+msgstr "Meses"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 337
 msgid "Days"
-msgstr ""
+msgstr "Dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 339
 msgid "Hours"
-msgstr ""
+msgstr "Horas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 341
 msgid "Minutes"
-msgstr ""
+msgstr "Minutos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 112
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 142
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 171
 msgid "Origin"
-msgstr ""
+msgstr "Origem"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 116
 msgid "Jobs"
-msgstr ""
+msgstr "Trabalhos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 451
 msgid ""
 "In order to apply these settings a firmware update must be performed after "
 "save, which can include a reboot of the system."
 msgstr ""
+"Para aplicar essas configurações, uma atualização de firmware deve ser "
+"realizada após salvar, o que pode incluir uma reinicialização do sistema."
 
 # File: src/www/diag_confbak.php, line: 209
 # File: src/www/diag_logs_settings.php, line: 351
@@ -20645,48 +20765,48 @@ msgstr ""
 # File: src/www/widgets/widgets/system_log.widget.php, line: 65
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 265
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 # File: src/www/system_general.php, line: 515
 msgid "Firmware Flavour"
-msgstr ""
+msgstr "Tipo do firmware"
 
 # File: src/www/system_general.php, line: 496
 msgid "Firmware Mirror"
-msgstr ""
+msgstr "Mirror do firmware"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 309
 msgid "Progress"
-msgstr ""
+msgstr "Progresso"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 307
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 306
 msgid "Packages"
-msgstr ""
+msgstr "Pacotes"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 300
 msgid "Click to check for updates."
-msgstr ""
+msgstr "Clique para verificar por atualizações."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 394
 msgid "Check for updates"
-msgstr ""
+msgstr "Verificar por atualizações"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 298
 msgid "Upgrade now"
-msgstr ""
+msgstr "Atualizar agora"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
-msgstr ""
+msgstr "Verifique por atualizações para visualizar os plugins disponíveis."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 195
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 198
 msgid "Comment"
-msgstr ""
+msgstr "Comentário"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
@@ -20695,7 +20815,7 @@ msgstr ""
 # File: src/www/diag_confbak.php, line: 287
 # File: src/www/diag_ipsec.php, line: 93
 msgid "Version"
-msgstr ""
+msgstr "Versão"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 194
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 197
@@ -20703,129 +20823,131 @@ msgstr ""
 # File: src/www/diag_system_pftop.php, line: 122
 # File: src/www/diag_system_pftop.php, line: 140
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 171
 msgid ""
 "The upgrade has finished and your device is being rebooted at the moment, "
 "please wait..."
 msgstr ""
+"A atualização terminou e seu dispositivo está sendo reiniciado no momento, "
+"por favor, aguarde..."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 166
 msgid "Your device is rebooting"
-msgstr ""
+msgstr "Seu dispositivo está reiniciando"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 160
 msgid "Upgrade done!"
-msgstr ""
+msgstr "Atualização concluída!"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 106
 msgid "Executing..."
-msgstr ""
+msgstr "Executando..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 88
 msgid "Upgrading..."
-msgstr ""
+msgstr "Atualizando..."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 67
 msgid "REINSTALL"
-msgstr ""
+msgstr "REINSTALAR"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 64
 msgid "NEW"
-msgstr ""
+msgstr "NOVO"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 58
 msgid "New Version"
-msgstr ""
+msgstr "Nova versão"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 58
 msgid "Current Version"
-msgstr ""
+msgstr "Versão atual"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 57
 msgid "Package Name"
-msgstr ""
+msgstr "Nome do pacote"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 39
 # File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 67
 msgid "Checking... (may take up to 30 seconds)"
-msgstr ""
+msgstr "Verificando... (pode levar até 30 segundos)"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 324
 # File: src/www/system_usermanager_import_ldap.php, line: 144
 # File: src/www/system_usermanager_settings_ldapacpicker.php, line: 84
 # File: src/www/system_usermanager_settings_test.php, line: 80
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 323
 msgid "Generate"
-msgstr ""
+msgstr "Gerar"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 300
 msgid "2 weeks"
-msgstr ""
+msgstr "2 semanas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 299
 msgid "1 week"
-msgstr ""
+msgstr "1 semana"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 298
 msgid "6 days"
-msgstr ""
+msgstr "6 dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 297
 msgid "5 days"
-msgstr ""
+msgstr "5 dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 296
 msgid "4 days"
-msgstr ""
+msgstr "4 dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 295
 msgid "3 days"
-msgstr ""
+msgstr "3 dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 294
 msgid "2 days"
-msgstr ""
+msgstr "2 dias"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 293
 msgid "1 day"
-msgstr ""
+msgstr "1 dia"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 292
 msgid "8 hours"
-msgstr ""
+msgstr "8 horas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 291
 msgid "4 hours"
-msgstr ""
+msgstr "4 horas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 284
 msgid "Groupname"
-msgstr ""
+msgstr "Nome do grupo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 283
 msgid "Number of vouchers"
-msgstr ""
+msgstr "Número de vouchers"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 282
 msgid "Validity"
-msgstr ""
+msgstr "Validade"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 276
 msgid "Generate vouchers"
-msgstr ""
+msgstr "Gerar vouchers"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 256
 msgid "Create vouchers"
-msgstr ""
+msgstr "Criar vouchers"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 293
 msgid "Drop expired vouchers"
-msgstr ""
+msgstr "Eliminar vouchers expirados"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 242
 # File: src/www/diag_dump_states.php, line: 181
@@ -20833,27 +20955,27 @@ msgstr ""
 # File: src/www/diag_system_pftop.php, line: 124
 # File: src/www/status_dhcpv6_leases.php, line: 527
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 241
 msgid "Valid to"
-msgstr ""
+msgstr "Valido até"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 240
 msgid "Valid from"
-msgstr ""
+msgstr "Válido de"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 239
 msgid "Voucher"
-msgstr ""
+msgstr "Voucher"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 229
 msgid "All expired vouchers within this group will be deleted"
-msgstr ""
+msgstr "Todos os vouchers vencidos dentro deste grupo serão excluídos"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 228
 msgid "Remove expired vouchers"
-msgstr ""
+msgstr "Remover vouchers expirados"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 143
 # File: src/www/diag_confbak.php, line: 139
@@ -20913,42 +21035,42 @@ msgstr ""
 # File: src/www/vpn_openvpn_csc.php, line: 225
 # File: src/www/vpn_openvpn_server.php, line: 432
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 140
 msgid "All vouchers within this group will be deleted"
-msgstr ""
+msgstr "Todos os vouchers dentro deste grupo serão excluídos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 139
 msgid "Remove voucher group"
-msgstr ""
+msgstr "Remover grupo de voucher"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 52
 msgid "Please setup a voucher server first (%sgoto auth servers%s)"
-msgstr ""
+msgstr "Por favor configure um voucher primeiro (%sgoto auth servers%s)"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 269
 # File: src/www/widgets/widgets/picture.widget.php, line: 84
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 261
 msgid "File input"
-msgstr ""
+msgstr "Arquivo de entrada"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 257
 msgid "Template name"
-msgstr ""
+msgstr "Nome do modelo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 251
 msgid "Upload file"
-msgstr ""
+msgstr "Enviar arquivo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 236
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 506
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 197
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 215
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 193
@@ -20986,11 +21108,11 @@ msgstr ""
 # File: src/www/widgets/widgets/gateways.widget.php, line: 45
 # File: src/www/widgets/widgets/system_information.widget.php, line: 85
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 214
 msgid "Fileid"
-msgstr ""
+msgstr "ID do arquivo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 193
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 217
@@ -20998,7 +21120,7 @@ msgstr ""
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 149
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 179
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 192
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 216
@@ -21006,7 +21128,7 @@ msgstr ""
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 148
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 178
 msgid "Commands"
-msgstr ""
+msgstr "Comandos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 191
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 408
@@ -21121,58 +21243,58 @@ msgstr ""
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 70
 # File: src/www/widgets/widgets/services_status.widget.php, line: 60
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 190
 msgid "Zoneid"
-msgstr ""
+msgstr "ID da zona"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 189
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 410
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 113
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 143
 msgid "Enabled"
-msgstr ""
+msgstr "Habilitado"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 181
 msgid "Templates"
-msgstr ""
+msgstr "Modelos"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 180
 msgid "Zones"
-msgstr ""
+msgstr "Zonas"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 167
 msgid "Error uploading template"
-msgstr ""
+msgstr "Erro enviando modelo"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 130
 msgid "Error reconfiguring captiveportal"
-msgstr ""
+msgstr "Erro reconfigurando o Captive Portal"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 135
 msgid "connected since"
-msgstr ""
+msgstr "conectado desde"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 134
 msgid "ipAddress"
-msgstr ""
+msgstr "ipAddress"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 133
 msgid "macAddress"
-msgstr ""
+msgstr "macAddress"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 132
 msgid "userName"
-msgstr ""
+msgstr "userName"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 131
 msgid "Session"
-msgstr ""
+msgstr "Sessão"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 98
 msgid "Disconnect selected client?"
-msgstr ""
+msgstr "Desconectar o cliente selecionado?"
 
 # File: lang/dynamic/helpers/models.php, line: 48
 # File: src/www/firewall_rules_edit.php, line: 1175
@@ -21188,92 +21310,100 @@ msgstr ""
 # File: src/www/vpn_openvpn_export.php, line: 741
 # File: src/www/vpn_openvpn_export_shared.php, line: 364
 msgid "none"
-msgstr ""
+msgstr "nenhum"
 
 # File: src/etc/inc/config.lib.inc, line: 74
 msgid "No valid config.xml found, attempting to restore factory config."
 msgstr ""
+"Não foi encontrado um config.xml válido, tentando restaurar configurações de "
+"fábrica."
 
 # File: src/etc/inc/config.lib.inc, line: 70
 msgid "No valid config.xml found, attempting last known config restore."
 msgstr ""
+"Não foi encontrado um config.xml válido, tentando restaurar a última "
+"configuração conhecida."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 97
 msgid "Current status is unknown."
-msgstr ""
+msgstr "O status atual é desconhecido."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 92
 msgid "This update requires a reboot."
-msgstr ""
+msgstr "Esta atualização precisa de uma reinicialização."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 83
 msgid "There are %s updates available, total download size is %s."
-msgstr ""
+msgstr "Há %s atualizações disponíveis, e o tamanho total para baixar é %s."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 77
 msgid "There is %s update available, total download size is %s."
-msgstr ""
+msgstr "Há %s atualização disponível, e o tamanho total para baixar é %s."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 68
 msgid ""
 "There is a mandatory update for the package manager available. Please "
 "install and fetch updates again."
 msgstr ""
+"Há uma atualização mandatória disponível para o gerenciador de pacotes. Por "
+"favor instale e pegue as atualizações novamente."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 60
 msgid "There are no updates available."
-msgstr ""
+msgstr "Não há atualizações disponíveis."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 57
 msgid "Repository problem."
-msgstr ""
+msgstr "Problema com repositório."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 54
 msgid "Connection error."
-msgstr ""
+msgstr "Erro de conexão."
 
 # File: src/etc/rc.restore_config_backup, line: 102
 msgid "quit"
-msgstr ""
+msgstr "sair"
 
 # File: src/etc/rc.restore_config_backup, line: 97
 msgid "Please select an option to continue"
-msgstr ""
+msgstr "Por favor selecione uma opção para continuar"
 
 # File: src/etc/rc.restore_config_backup, line: 95
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 # File: src/etc/rc.restore_config_backup, line: 94
 msgid "Restore Backup"
-msgstr ""
+msgstr "Restaurar backup"
 
 # File: src/etc/rc.restore_config_backup, line: 93
 msgid "List Backups"
-msgstr ""
+msgstr "Listar backups"
 
 # File: src/etc/rc.restore_config_backup, line: 92
 msgid "Restore Backup from Configuration History"
-msgstr ""
+msgstr "Restaurar backup do histórico de configuração"
 
 # File: src/etc/rc.restore_config_backup, line: 85
 msgid "Restore canceled due to invalid input."
-msgstr ""
+msgstr "Restauração cancelada devido a entrada inválida."
 
 # File: src/etc/rc.restore_config_backup, line: 82
 msgid "Restore canceled."
-msgstr ""
+msgstr "Restauração cancelada."
 
 # File: src/etc/rc.restore_config_backup, line: 79
 # File: src/www/diag_confbak.php, line: 97
 msgid "Unable to revert to the selected configuration."
-msgstr ""
+msgstr "Não foi possível reverter para a configuração selecionada."
 
 # File: src/etc/rc.restore_config_backup, line: 77
 msgid ""
 "You may need to reboot the firewall or restart services before the restored "
 "configuration is fully active."
 msgstr ""
+"Talvez seja necessário reiniciar o firewall ou reiniciar os serviços antes "
+"que a configuração restaurada esteja totalmente ativa."
 
 # File: src/etc/rc.restore_config_backup, line: 76
 # File: src/www/diag_confbak.php, line: 95
@@ -21282,19 +21412,19 @@ msgstr ""
 
 # File: src/etc/rc.restore_config_backup, line: 72
 msgid "Y"
-msgstr ""
+msgstr "S"
 
 # File: src/etc/rc.restore_config_backup, line: 70
 msgid "Y/N?"
-msgstr ""
+msgstr "S/N?"
 
 # File: src/etc/rc.restore_config_backup, line: 66
 msgid "Is this the backup you wish to restore?"
-msgstr ""
+msgstr "Este é o backup que você deseja restaurar?"
 
 # File: src/etc/rc.restore_config_backup, line: 58
 msgid "That is not a valid backup number.\n"
-msgstr ""
+msgstr "Esse não é um número de backup válido.\n"
 
 # File: src/etc/rc.restore_config_backup, line: 52
 msgid "Which configuration would you like to restore?"
@@ -21307,13 +21437,13 @@ msgstr ""
 
 # File: src/etc/rc.restore_config_backup, line: 20
 msgid "Unknown Page"
-msgstr ""
+msgstr "Página desconhecida"
 
 # File: src/etc/rc.restore_config_backup, line: 15
 # File: src/www/widgets/widgets/gateways.widget.php, line: 123
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 63
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 # File: src/etc/rc.restore_config_backup, line: 13
 # File: src/etc/rc.restore_config_backup, line: 76
@@ -21337,96 +21467,104 @@ msgstr ""
 
 # File: src/etc/rc.initial.setlanip, line: 572
 msgid "Press <ENTER> to continue."
-msgstr ""
+msgstr "Pressione <ENTER> para continuar."
 
 # File: src/etc/rc.initial.setlanip, line: 544
 msgid ""
 "You can now access the webConfigurator by opening the following URL in your "
 "web browser:"
 msgstr ""
+"Você pode acessar o webConfigurator agora acessando a seguinte URL no seu "
+"navegador:"
 
 # File: src/etc/rc.initial.setlanip, line: 529
 # File: src/etc/rc.initial.setlanip, line: 535
 msgid "The IPv6 %s address has been set to %s"
-msgstr ""
+msgstr "O endereço IPv6 %s foi configurado para %s"
 
 # File: src/etc/rc.initial.setlanip, line: 514
 # File: src/etc/rc.initial.setlanip, line: 520
 msgid "The IPv4 %s address has been set to %s"
-msgstr ""
+msgstr "O endereço IPv4 foi configurado para %s"
 
 # File: src/etc/rc.initial.setlanip, line: 498
 msgid "%s IP configuration from console menu"
-msgstr ""
+msgstr "Configuração IP para %s pelo menu do console"
 
 # File: src/etc/rc.initial.setlanip, line: 463
 msgid "Note: the anti-lockout rule on %s has been re-enabled."
-msgstr ""
+msgstr "Nota: a regra antibloqueio em %s foi rehabilitada."
 
 # File: src/etc/rc.initial.setlanip, line: 456
 msgid "Do you want to revert to HTTP as the webConfigurator protocol?"
-msgstr ""
+msgstr "Deseja reverter para HTTP como sendo o protocolo do webConfigurator?"
 
 # File: src/etc/rc.initial.setlanip, line: 444
 msgid "Disabling %s DHCPD..."
-msgstr ""
+msgstr "Desabilitando DHCPD em %s..."
 
 # File: src/etc/rc.initial.setlanip, line: 433
 msgid "The end address of the DHCP range must be >= the start address"
 msgstr ""
+"O final do intervalo do DHCP precisa ser maior ou igual que o endereço "
+"inicial"
 
 # File: src/etc/rc.initial.setlanip, line: 420
 msgid "Enter the end address of the %s client address range:"
 msgstr ""
+"Digite o endereço final para o intervalo de endereços dos clientes em %s:"
 
 # File: src/etc/rc.initial.setlanip, line: 415
 # File: src/etc/rc.initial.setlanip, line: 429
 msgid "This IP address must be in the interface's subnet"
-msgstr ""
+msgstr "O endereço IP precisa estar na subrede da interface"
 
 # File: src/etc/rc.initial.setlanip, line: 406
 msgid "Enter the start address of the %s client address range:"
 msgstr ""
+"Digite o endereço de início para o intervalo de endereços dos clientes em %s:"
 
 # File: src/etc/rc.initial.setlanip, line: 359
 msgid "not in subnet!"
-msgstr ""
+msgstr "não está na subrede!"
 
 # File: src/etc/rc.initial.setlanip, line: 357
 msgid "not an %s IP address!"
-msgstr ""
+msgstr "não é um endereço IP de %s!"
 
 # File: src/etc/rc.initial.setlanip, line: 351
 msgid "For a LAN, press <ENTER> for none:"
-msgstr ""
+msgstr "Para uma LAN, pressione <ENTER> para nenhum:"
 
 # File: src/etc/rc.initial.setlanip, line: 350
 msgid "For a WAN, enter the new %s %s upstream gateway address."
-msgstr ""
+msgstr "Para uma WAN, digite o novo endereço do gateway para %s %s."
 
 # File: src/etc/rc.initial.setlanip, line: 337
 msgid "You cannot set broadcast address to an interface"
-msgstr ""
+msgstr "Você não pode configurar um endereço de broadcast para uma interface"
 
 # File: src/etc/rc.initial.setlanip, line: 333
 msgid "You cannot set network address to an interface"
-msgstr ""
+msgstr "Você não pode configurar um endereço de rede para a interface"
 
 # File: src/etc/rc.initial.setlanip, line: 322
 msgid "Enter the new %s %s subnet bit count (1 to %s):"
-msgstr ""
+msgstr "Digite novo bit de contagem para a subrede (1 para %s) de %s %s:"
 
 # File: /usr/core/src/etc/rc.initial.setlanip, line: 305
 msgid "Subnet masks are entered as bit counts (like CIDR notation)."
 msgstr ""
+"As máscaras da subrede são digitadas como bits de contagem (igual a notação "
+"CIDR)."
 
 # File: src/etc/rc.initial.setlanip, line: 298
 msgid "This IP address conflicts with another interface or a VIP"
-msgstr ""
+msgstr "O endereço IP conflita com outra interface ou um VIP"
 
 # File: src/etc/rc.initial.setlanip, line: 290
 msgid "Enter the new %s %s address.  Press <ENTER> for none:"
-msgstr ""
+msgstr "Digite o novo endereço de %s %s.  Pressione <ENTER> para nenhum:"
 
 # File: src/etc/rc.initial.setlanip, line: 274
 msgid "Configure %s address %s interface via %s?"
@@ -21434,99 +21572,108 @@ msgstr ""
 
 # File: src/etc/rc.initial.setlanip, line: 118
 msgid "Do you want to enable the %s server on %s?"
-msgstr ""
+msgstr "Deseja habilitar o servidor %s em %s?"
 
 # File: src/etc/rc.initial.password, line: 80
 msgid "Please change the password as soon as you log in!"
-msgstr ""
+msgstr "Por favor altere a senha assim que fizer login!"
 
 # File: src/etc/rc.initial.password, line: 78
 msgid "The password has been reset."
-msgstr ""
+msgstr "A senha foi redefinida."
 
 # File: src/etc/rc.initial.password, line: 75
 msgid "password changed from console menu"
-msgstr ""
+msgstr "senha alterada pelo menu do console"
 
 # File: src/etc/rc.initial.password, line: 49
 msgid "Do you want to set it back to Local Database [y|n]? "
-msgstr ""
+msgstr "Deseja configurá-lo novamente para banco de dados local [s | n]? "
 
 # File: src/etc/rc.initial.password, line: 47
 msgid "The User manager authentication server is set to \"%s\"."
 msgstr ""
+"O servidor de autenticação do gerenciador de usuários foi configurado para \""
+"%s\"."
 
 # File: src/etc/rc.initial.password, line: 41
 msgid "Do you want to proceed [y|n]? "
-msgstr ""
+msgstr "Deseja proceder? [s|n]? "
 
 # File: src/etc/rc.initial.password, line: 36
 msgid "The %s password will be reset to the factory default of `%s'."
-msgstr ""
+msgstr "A senha de %s será redefinida para o padrão de fábrica, que é `%s'."
 
 # File: src/etc/rc.bootup, line: 172
 msgid "Default interfaces not found -- Running interface assignment option."
 msgstr ""
+"Interfaces padrão não encontradas -- Executando a opção de atribuição de "
+"interface."
 
 # File: src/etc/inc/xmlrpc/legacy.inc, line: 234
 # File: src/etc/inc/xmlrpc/legacy.inc, line: 298
 msgid "Merged in config (%s sections) from XMLRPC client."
-msgstr ""
+msgstr "Mesclado na configuração (seções %s) do cliente XMLRPC."
 
 # File: src/etc/inc/xmlparse.inc, line: 83
 # File: src/www/interfaces.php, line: 85
 msgid "XML error: %s at line %d cannot occur more than once"
-msgstr ""
+msgstr "Erro de XML: %s na linha %d não pode ocorrer mais de uma vez"
 
 # File: src/etc/inc/util.inc, line: 92
 msgid "WARNING: You must give a name as parameter to lock() function."
 msgstr ""
+"ATENÇÃO: Você precisa fornecer um nome como parâmetro para a função lock()."
 
 # File: src/etc/inc/upgrade_config.inc, line: 1877
 msgid "Auto added OpenVPN rule from config upgrade."
 msgstr ""
+"Regra OpenVPN adicionada automaticamente a partir da atualização de "
+"configuração."
 
 # File: src/etc/inc/upgrade_config.inc, line: 1503
 msgid "Converted bridged %s"
-msgstr ""
+msgstr "% convertido em ponte"
 
 # File: src/etc/inc/upgrade_config.inc, line: 1351
 msgid "All Users"
-msgstr ""
+msgstr "Todos os usuários"
 
 # File: src/etc/inc/upgrade_config.inc, line: 1299
 msgid "Upgraded Dyndns %s"
-msgstr ""
+msgstr "DynDNS %s atualizado"
 
 # File: src/etc/inc/upgrade_config.inc, line: 1072
 msgid "phase2 for %s"
-msgstr ""
+msgstr "fase 2 para %s"
 
 # File: src/etc/inc/upgrade_config.inc, line: 917
 msgid "Sitedown pool for VS: %s"
-msgstr ""
+msgstr "Pool sitedown para VS: %s"
 
 # File: src/etc/inc/upgrade_config.inc, line: 820
 msgid "Upgraded static route for %s"
-msgstr ""
+msgstr "Rota estática atualizada para %s"
 
 # File: src/etc/inc/upgrade_config.inc, line: 752
 msgid "Interface %s Dynamic Gateway"
-msgstr ""
+msgstr "Interface %s é um gateway dinâmico"
 
 # File: src/etc/inc/upgrade_config.inc, line: 749
 msgid "Interface %s Static Gateway"
-msgstr ""
+msgstr "Interface %s é um gateway estático"
 
 # File: src/etc/inc/upgrade_config.inc, line: 633
 msgid ""
 "This user is associated with the UNIX root user (you should associate this "
 "privilege only with one single user)."
 msgstr ""
+"Esse usuário é associado ao usuário UNIX root (você deve associar este "
+"privilégio somente com um único usuário)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 627
 msgid "Indicates whether this user is able to login for example via SSH."
-msgstr ""
+msgstr "Indica se este usuário pode fazer login, por exemplo, via SSH."
 
 # File: src/etc/inc/upgrade_config.inc, line: 624
 msgid ""
@@ -21534,775 +21681,821 @@ msgid ""
 "accessed a particular page (the lock will be freed if the user leaves or "
 "saves the page form)."
 msgstr ""
+"Indica se este usuário irá bloquear páginas HTML individuais depois de ter "
+"acessado uma determinada página (o bloqueio será liberado se o usuário sair "
+"ou salva o formulário de página)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 621
 msgid ""
 "Indicates whether this user will lock access to the webConfigurator for "
 "other users."
 msgstr ""
+"Indica se este usuário bloqueará o acesso ao webConfigurator para outros "
+"usuários."
 
 # File: src/etc/inc/upgrade_config.inc, line: 602
 msgid "System Administrators"
-msgstr ""
+msgstr "Administradores do sistema"
 
 # File: src/etc/inc/upgrade_config.inc, line: 582
 msgid "Permit IPsec traffic."
-msgstr ""
+msgstr "Permitir tráfego IPsec."
 
 # File: src/etc/inc/upgrade_config.inc, line: 458
 msgid "CARP vhid %s"
-msgstr ""
+msgstr "CARP vhid %s"
 
 # File: src/etc/inc/upgrade_config.inc, line: 311
 msgid ""
 "%sWarning: traffic shaper rule removed (destination network '%s' does not "
 "exist anymore)."
 msgstr ""
+"%sAtenção: regra do modulador de tráfego removida (a rede de destino '%s' "
+"não existe mais)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 298
 msgid ""
 "%sWarning: traffic shaper rule removed (source network '%s' does not exist "
 "anymore)."
 msgstr ""
+"%sAtenção: regra do modulador de tráfego removida (a rede de origem '%s' não "
+"existe mais)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 286
 msgid ""
 "%sWarning: traffic shaper rule removed (interface '%s' does not exist "
 "anymore)."
 msgstr ""
+"%sAtenção: regra do modulador de tráfego removida (a interface '%s' não "
+"existe mais)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 266
 msgid ""
 "%sWarning: filter rule removed (destination network '%s' does not exist "
 "anymore)."
 msgstr ""
+"%Atenção: regra do filtro removida (a rede de destino '%s' não existe mais)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 253
 msgid ""
 "%sWarning: filter rule removed (source network '%s' does not exist anymore)."
 msgstr ""
+"%sAtenção: regra de filtro removida (a rede de origem '%s' não existe mais)."
 
 # File: src/etc/inc/upgrade_config.inc, line: 241
 msgid "%sWarning: filter rule removed (interface '%s' does not exist anymore)."
-msgstr ""
+msgstr "%sAtenção: regra de filtro removida (a interface '%s' não existe mais)."
 
 # File: src/etc/inc/system.inc, line: 1343
 msgid "Setting timezone..."
-msgstr ""
+msgstr "Configurando fuso horário..."
 
 # File: src/etc/inc/system.inc, line: 1266
 msgid "ssl configuration"
-msgstr ""
+msgstr "configuração SSL"
 
 # File: src/etc/inc/system.inc, line: 971
 msgid "Importing HTTPS certificate"
-msgstr ""
+msgstr "Importando certificado HTTPS"
 
 # File: src/etc/inc/system.inc, line: 956
 msgid "webConfigurator default"
-msgstr ""
+msgstr "Padrão do webConfigurator"
 
 # File: src/etc/inc/system.inc, line: 885
 msgid "Error: cannot open syslog.conf in system_syslogd_start().%s"
-msgstr ""
+msgstr "Erro: não foi possível abrir o syslog.conf em system_syslogd_start().%s"
 
 # File: src/etc/inc/system.inc, line: 775
 msgid "Starting syslog..."
-msgstr ""
+msgstr "Iniciando o syslog..."
 
 # File: src/www/status_services.php, line: 270
 msgid "%s has been restarted."
-msgstr ""
+msgstr "%s foi reiniciado."
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2967
 msgid "Could not restart service `%s'"
-msgstr ""
+msgstr "Não foi possível reiniciar o serviço `%s'"
 
 # File: src/www/status_services.php, line: 267
 msgid "Could not restart unknown service `%s'"
-msgstr ""
+msgstr "Não foi possível reiniciar o serviço desconhecido `%s'"
 
 # File: src/www/status_services.php, line: 201
 msgid "%s has been stopped."
-msgstr ""
+msgstr "%s foi interrompido."
 
 # File: src/www/status_services.php, line: 198
 msgid "Could not stop unknown service `%s'"
-msgstr ""
+msgstr "Não foi possível parar o serviço desconhecido `%s'"
 
 # File: src/www/status_services.php, line: 132
 msgid "%s has been started."
-msgstr ""
+msgstr "%s foi iniciado."
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2896
 msgid "Could not start service `%s'"
-msgstr ""
+msgstr "Não foi possível iniciar o serviço `%s'"
 
 # File: src/www/status_services.php, line: 129
 msgid "Could not start unknown service `%s'"
-msgstr ""
+msgstr "Não foi possível iniciar o serviço desconhecido `%s'"
 
 # File: src/etc/inc/services.inc, line: 2676
 msgid "Start %sService"
-msgstr ""
+msgstr "Iniciar serviço %s"
 
 # File: src/etc/inc/services.inc, line: 2665
 msgid "Stop %sService"
-msgstr ""
+msgstr "Parar serviço %s"
 
 # File: src/etc/inc/services.inc, line: 2656
 msgid "Restart %sService"
-msgstr ""
+msgstr "Reiniciar serviço %s"
 
 # File: src/etc/inc/services.inc, line: 2637
 msgid "Stopped"
-msgstr ""
+msgstr "Parado"
 
 # File: src/etc/inc/services.inc, line: 2635
 # File: src/etc/inc/services.inc, line: 2638
 msgid "%s Service is"
-msgstr ""
+msgstr "O serviço %s está"
 
 # File: src/etc/inc/services.inc, line: 2634
 msgid "Running"
-msgstr ""
+msgstr "Rodando"
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2677
 msgid "System Configuration Daemon"
-msgstr ""
+msgstr "Daemon da configuração do sistema"
 
 # File: src/etc/inc/services.inc, line: 2581
 msgid "Proxy server"
-msgstr ""
+msgstr "Servidor proxy"
 
 # File: src/etc/inc/services.inc, line: 2576
 msgid "Server load balancing daemon"
-msgstr ""
+msgstr "Daemon de balanceamento de carga do servidor"
 
 # File: src/etc/inc/services.inc, line: 2553
 msgid "Secure Shell Daemon"
-msgstr ""
+msgstr "Daemon de SSH"
 
 # File: src/etc/inc/services.inc, line: 2539
 msgid "UPnP Service"
-msgstr ""
+msgstr "Serviço UPnP"
 
 # File: src/etc/inc/services.inc, line: 2532
 msgid "IGMP proxy"
-msgstr ""
+msgstr "Proxy IGMP"
 
 # File: src/etc/inc/services.inc, line: 2525
 msgid "SNMP Service"
-msgstr ""
+msgstr "Serviço SNMP"
 
 # File: src/etc/inc/services.inc, line: 2518
 msgid "Gateway Monitoring Daemon"
-msgstr ""
+msgstr "Daemon de monitoramento de gateway"
 
 # File: src/www/diag_backup.php, line: 136
 # File: src/www/services_dhcpv6.php, line: 500
 # File: src/www/services_dhcpv6.php, line: 520
 # File: src/www/services_router_advertisements.php, line: 223
 msgid "DHCPv6 Server"
-msgstr ""
+msgstr "Servidor DHCPv6"
 
 # File: src/www/diag_backup.php, line: 135
 msgid "DHCP Server"
-msgstr ""
+msgstr "Servidor DHCP"
 
 # File: src/etc/inc/services.inc, line: 2503
 msgid "DHCPv6 Relay"
-msgstr ""
+msgstr "Retransmissor DHCPv6"
 
 # File: src/etc/inc/services.inc, line: 2496
 msgid "DHCP Relay"
-msgstr ""
+msgstr "Retransmissor DHCP"
 
 # File: src/etc/inc/services.inc, line: 2482
 msgid "NTP clock sync"
-msgstr ""
+msgstr "Sincronização de data/hora via NTP"
 
 # File: src/etc/inc/services.inc, line: 2476
 msgid "Unbound DNS Resolver"
-msgstr ""
+msgstr "Resolvedor de DNS Unbound"
 
-# File: src/etc/inc/services.inc, line: 2462
+# https://en.wikipedia.org/wiki/Radvd
 msgid "Router Advertisement Daemon"
-msgstr ""
+msgstr "Router Advertisement Daemon (radvd)"
 
 # File: /usr/core/src/etc/inc/services.inc, line: 2368
 msgid "Removed obsolete cron jobs"
-msgstr ""
+msgstr "Remover trabalhos obsoletos do cron"
 
 # File: src/etc/inc/services.inc, line: 2270
 msgid "Dynamic DNS updated IPv6 Address (AAAA) for %s on %s (%s) to %s"
 msgstr ""
+"Endereço IPv6 (AAAA) atualizado para %s no (%s) para %s (%s) no DNS dinâmico"
 
 # File: src/etc/inc/services.inc, line: 2255
 msgid "Dynamic DNS updated IP Address (A) for %s on %s (%s) to %s"
-msgstr ""
+msgstr "Endereço IP (A) atualizado para %s no %s (%s) para %s no DNS dinâmico"
 
 # File: src/etc/inc/services.inc, line: 1986
 msgid "Error: cannot open snmpd.conf in services_snmpd_configure().%s"
 msgstr ""
+"Erro: não foi possível abrir snmpd.conf em services_snmpd_configure().%s"
 
 # File: src/etc/inc/services.inc, line: 1981
 msgid "Starting SNMP daemon... "
-msgstr ""
+msgstr "Iniciando o daemon SNMP..."
 
 # File: src/etc/inc/services.inc, line: 1948
 msgid "Starting DNS Resolver..."
-msgstr ""
+msgstr "Iniciando o resolvedor de DNS..."
 
 # File: src/etc/inc/services.inc, line: 1806
 msgid "Starting DNS forwarder..."
-msgstr ""
+msgstr "Iniciando o encaminhador de DNS..."
 
 # File: src/etc/inc/services.inc, line: 1739
 msgid "Starting dynamic DNS clients..."
-msgstr ""
+msgstr "Iniciando os clientes de DNS dinâmico..."
 
 # File: src/etc/inc/services.inc, line: 1567
 msgid "Starting DHCPv6 relay service..."
-msgstr ""
+msgstr "Iniciando o serviço de retransmissão DHCPv6..."
 
 # File: src/etc/inc/services.inc, line: 1450
 msgid "Starting DHCP relay service..."
-msgstr ""
+msgstr "Iniciando o serviço de retransmissão DHCP..."
 
 # File: src/etc/inc/services.inc, line: 929
 msgid "Error: cannot open dhcpd.conf in services_dhcpdv4_configure().%s"
 msgstr ""
+"Erro: não foi possível abrir dhcpd.conf em services_dhcpdv4_configure().%s"
 
 # File: src/etc/inc/services.inc, line: 447
 msgid "Starting DHCP service..."
-msgstr ""
+msgstr "Iniciando o serviço DHCP..."
 
 # File: src/etc/inc/rrd.inc, line: 86
 msgid "Generating RRD graphs..."
-msgstr ""
+msgstr "Gerando gráficos RRD..."
 
 # File: src/etc/inc/services.inc, line: 2546
 msgid "IPsec VPN"
-msgstr ""
+msgstr "VPN IPsec"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 635
 # File: src/etc/inc/openvpn_wizard.inc, line: 652
 msgid "OpenVPN %s wizard"
-msgstr ""
+msgstr "Assistente do OpenVPN %s"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 433
 msgid "You must specify a 'Tunnel network'."
-msgstr ""
+msgstr "Você precisa especificar uma 'rede de túnel'."
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 430
 # File: src/www/vpn_openvpn_server.php, line: 278
 msgid "The field 'Concurrent connections' must be numeric."
-msgstr ""
+msgstr "O campo 'conexões concorrentes' precisa ser numérico."
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 427
 # File: src/www/vpn_openvpn_csc.php, line: 156
 # File: src/www/vpn_openvpn_server.php, line: 267
 msgid "The field 'WINS Server #2' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor WINS #2' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 425
 # File: src/www/vpn_openvpn_csc.php, line: 153
 # File: src/www/vpn_openvpn_server.php, line: 264
 msgid "The field 'WINS Server #1' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor WINS #1' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 422
 # File: src/www/vpn_openvpn_csc.php, line: 140
 # File: src/www/vpn_openvpn_server.php, line: 253
 msgid "The field 'NTP Server #2' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor NTP #2' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 420
 # File: src/www/vpn_openvpn_csc.php, line: 137
 # File: src/www/vpn_openvpn_server.php, line: 250
 msgid "The field 'NTP Server #1' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor NTP #1' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 417
 # File: src/www/vpn_openvpn_csc.php, line: 131
 # File: src/www/vpn_openvpn_server.php, line: 246
 msgid "The field 'DNS Server #4' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor de DNS #4' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 415
 # File: src/www/vpn_openvpn_csc.php, line: 128
 # File: src/www/vpn_openvpn_server.php, line: 243
 msgid "The field 'DNS Server #3' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor de DNS #3' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 413
 # File: src/www/vpn_openvpn_csc.php, line: 125
 # File: src/www/vpn_openvpn_server.php, line: 240
 msgid "The field 'DNS Server #2' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor de DNS #2' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 411
 # File: src/www/vpn_openvpn_csc.php, line: 122
 # File: src/www/vpn_openvpn_server.php, line: 237
 msgid "The field 'DNS Server #1' must contain a valid IP address"
-msgstr ""
+msgstr "O campo 'servidor de DNS #1' precisa conter um endereço IP válido"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 408
 msgid "The field 'TLS Authentication Key' does not appear to be valid."
-msgstr ""
+msgstr "O campo 'chave de autenticação TLS' não parece ser válido."
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 403
 msgid "The specified 'Local port' is in use. Please select another value."
 msgstr ""
+"A 'porta local' especificada está em uso. Por favor, selecione outro valor."
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 218
 # File: src/etc/inc/openvpn_wizard.inc, line: 317
 msgid "Please do not use special characters in Certificate field names."
 msgstr ""
+"Por favor, não use caracteres especiais em nomes de campos de certificado."
 
 # File: src/etc/inc/openvpn.inc, line: 250
 msgid ""
 "The field '%s' must contain only valid %s CIDR range(s) separated by commas."
 msgstr ""
+"O campo '%s' precisa conter somente faixa(s) válida(s) de CIDR %s, "
+"separado(s) por vírgula(s)."
 
 # File: src/etc/inc/openvpn.inc, line: 238
 msgid "The field '%s' must contain a single valid %s CIDR range."
-msgstr ""
+msgstr "O campo '%s' precisa conter um valor único como faixa CIDR %s."
 
 # File: src/etc/inc/openvpn.inc, line: 226
 msgid "The field '%s' must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "O campo '%s' precisa conter uma porta válida, variando de 0 a 65535."
 
 # File: src/etc/inc/openvpn.inc, line: 182
 msgid "None (No Authentication)"
-msgstr ""
+msgstr "Nenhum (sem autenticação)"
 
 # File: src/etc/inc/openvpn.inc, line: 168
 msgid "None (No Encryption)"
-msgstr ""
+msgstr "Nenhum (sem criptografia)"
 
 # File: src/etc/inc/openvpn.inc, line: 66
 msgid "Enabled without Adaptive Compression"
-msgstr ""
+msgstr "Habilitado sem compressão adaptativa"
 
 # File: src/etc/inc/openvpn.inc, line: 65
 msgid "Enabled with Adaptive Compression"
-msgstr ""
+msgstr "Habilitado com compressão adaptativa"
 
 # File: src/etc/inc/openvpn.inc, line: 64
 msgid "Disabled - No Compression"
-msgstr ""
+msgstr "Desabilitado - sem compressão"
 
 # File: src/etc/inc/openvpn.inc, line: 63
 msgid "No Preference"
-msgstr ""
+msgstr "Sem preferência"
 
 # File: src/etc/inc/openvpn.inc, line: 45
 msgid "11"
-msgstr ""
+msgstr "11"
 
 # File: src/etc/inc/openvpn.inc, line: 44
 msgid "10"
-msgstr ""
+msgstr "10"
 
 # File: src/etc/inc/openvpn.inc, line: 43
 msgid "9"
-msgstr ""
+msgstr "9"
 
 # File: src/etc/inc/openvpn.inc, line: 42
 msgid "8"
-msgstr ""
+msgstr "8"
 
 # File: src/etc/inc/openvpn.inc, line: 41
 msgid "7"
-msgstr ""
+msgstr "7"
 
 # File: src/etc/inc/openvpn.inc, line: 40
 msgid "6"
-msgstr ""
+msgstr "6"
 
 # File: src/etc/inc/openvpn.inc, line: 39
 msgid "5"
-msgstr ""
+msgstr "5"
 
 # File: src/etc/inc/openvpn.inc, line: 38
 msgid "4"
-msgstr ""
+msgstr "4"
 
 # File: src/etc/inc/openvpn.inc, line: 37
 msgid "3 (recommended)"
-msgstr ""
+msgstr "3 (recomendado)"
 
 # File: src/etc/inc/openvpn.inc, line: 36
 msgid "2"
-msgstr ""
+msgstr "2"
 
 # File: src/etc/inc/openvpn.inc, line: 35
 msgid "1 (default)"
-msgstr ""
+msgstr "1 (padrão)"
 
 # File: src/etc/inc/openvpn.inc, line: 34
 msgid "0 (none)"
-msgstr ""
+msgstr "0 (nenhum)"
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 502
 msgid "Could not create a config to export."
-msgstr ""
+msgstr "Não foi possível criar a configuração para exportar."
 
 # File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 482
 msgid "Could not validate OpenVPN config."
-msgstr ""
+msgstr "Não foi possível validar a configuração do OpenVPN."
 
 # File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 476
 msgid "Could not find matching OpenVPN architecture."
-msgstr ""
+msgstr "Não foi possível encontrar a arquitetura OpenVPN correspondente."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 209
 # File: src/etc/inc/openvpn-client-export.inc, line: 754
 msgid "This server uses UDP protocol and cannot communicate with HTTP proxy."
 msgstr ""
+"Este servidor utiliza o protocolo UDP e não consegue se comunicar com o "
+"proxy HTTP."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 123
 # File: src/etc/inc/openvpn-client-export.inc, line: 132
 msgid "Could not find client certificate."
-msgstr ""
+msgstr "Não foi possível encontrar o certificado do cliente."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 111
 msgid "Could not find user settings."
-msgstr ""
+msgstr "Não foi possível encontrar as configurações do usuário."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 100
 msgid "Could not locate the CA reference for the server certificate."
 msgstr ""
+"Não foi possível encontrar o CA referente para este certificado de servidor."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 96
 msgid "Could not locate server certificate."
-msgstr ""
+msgstr "Não foi possível encontrar o certificado do servidor."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 88
 # File: src/etc/inc/openvpn-client-export.inc, line: 690
 msgid "You cannot export for disabled servers."
-msgstr ""
+msgstr "Você não pode fazer exportação para servidores desabilitados."
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 84
 # File: src/etc/inc/openvpn-client-export.inc, line: 686
 msgid "Could not locate server configuration."
-msgstr ""
+msgstr "Não foi possível encontrar a configuração do servidor."
 
 # File: src/etc/inc/notices.smtp.inc, line: 801
 msgid "it was not previously established a SMTP connection"
-msgstr ""
+msgstr "não foi previamente estabelecido como uma conexão SMTP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 754
 # File: src/etc/inc/notices.smtp.inc, line: 765
 msgid "connection is not in the sending data state"
-msgstr ""
+msgstr "a conexão não está no estado de envio de dados"
 
 # File: src/etc/inc/notices.smtp.inc, line: 724
 msgid "connection is not in the start sending data state"
-msgstr ""
+msgstr "a conexão não está no estado de envio de dados (início)"
 
 # File: src/etc/inc/notices.smtp.inc, line: 695
 msgid "connection is not in the recipient setting state"
-msgstr ""
+msgstr "a conexão não está no estado de destinatário"
 
 # File: src/etc/inc/notices.smtp.inc, line: 683
 msgid "connection is already established and the recipient is already set"
-msgstr ""
+msgstr "a conexão já está estabelecida e o destinatário já está configurado"
 
 # File: src/etc/inc/notices.smtp.inc, line: 678
 msgid ""
 "it is not possible to deliver directly to recipients of different domains"
 msgstr ""
+"não é possível entregar diretamente aos destinatários de domínios diferentes"
 
 # File: src/etc/inc/notices.smtp.inc, line: 659
 msgid "it was not specified a valid direct recipient"
-msgstr ""
+msgstr "não foi especificado um destinatário direto válido"
 
 # File: src/etc/inc/notices.smtp.inc, line: 637
 msgid "connection is not in the initial state"
-msgstr ""
+msgstr "a conexão não está no estado inicial"
 
 # File: src/etc/inc/notices.smtp.inc, line: 629
 msgid ""
 "direct delivery connection is already established and sender is already set"
 msgstr ""
+"a conexão de entrega direta já está estabelecida e o remetente já está "
+"definido"
 
 # File: src/etc/inc/notices.smtp.inc, line: 532
 msgid ""
 "it is not supported any of the authentication mechanisms required by the "
 "server"
 msgstr ""
+"não é suportado nenhum dos mecanismos de autenticação requeridos pelo "
+"servidor"
 
 # File: src/etc/inc/notices.smtp.inc, line: 468
 msgid "server does not require authentication"
-msgstr ""
+msgstr "o servidor não requer autenticação"
 
 # File: src/etc/inc/notices.smtp.inc, line: 454
 msgid "Connected to SMTP server \"%s\"."
-msgstr ""
+msgstr "Conectado ao servidor SMTP \"%s\"."
 
 # File: src/etc/inc/notices.smtp.inc, line: 442
 msgid "Resolving SMTP server domain \"%s\"..."
-msgstr ""
+msgstr "Resolvendo o domínio do servidor SMTP \"%s\"..."
 
 # File: src/etc/inc/notices.smtp.inc, line: 436
 msgid "could not determine the SMTP to connect"
-msgstr ""
+msgstr "não foi possível determinar o SMTP para conectar"
 
 # File: src/etc/inc/notices.smtp.inc, line: 427
 msgid "POP3 authentication password was not accepted:"
-msgstr ""
+msgstr "A senha da autenticação do POP3 não foi aceita:"
 
 # File: src/etc/inc/notices.smtp.inc, line: 419
 msgid "POP3 authentication user was not accepted:"
-msgstr ""
+msgstr "O usuário da autenticação POP3 não foi aceito:"
 
 # File: src/etc/inc/notices.smtp.inc, line: 411
 msgid "POP3 authentication server greeting was not found"
-msgstr ""
+msgstr "As boas vindas de autenticação do servidor POP3 não foram encontradas"
 
 # File: src/etc/inc/notices.smtp.inc, line: 404
 msgid "Resolving POP3 authentication host \"%s\"..."
-msgstr ""
+msgstr "Resolvendo o host de autenticação POP3 \"%s\"..."
 
 # File: src/etc/inc/notices.smtp.inc, line: 400
 msgid "it was not specified the POP3 authentication password"
-msgstr ""
+msgstr "a senha de autenticação POP3 não foi especificada"
 
 # File: src/etc/inc/notices.smtp.inc, line: 394
 msgid "it was not specified the POP3 authentication user"
-msgstr ""
+msgstr "o usuário da autenticação POP3 não foi especificado"
 
 # File: src/etc/inc/notices.smtp.inc, line: 356
 msgid "connection is already established"
-msgstr ""
+msgstr "a conexão já está estabelecida"
 
 # File: src/etc/inc/notices.smtp.inc, line: 342
 msgid "Could not process the SASL authentication step:"
-msgstr ""
+msgstr "Não foi possível processar o passo da autenticação SASL:"
 
 # File: src/etc/inc/notices.smtp.inc, line: 322
 msgid "Could not send the authentication step message"
-msgstr ""
+msgstr "Não foi possível enviar a mensagem do passo de autenticação"
 
 # File: src/etc/inc/notices.smtp.inc, line: 307
 # File: src/etc/inc/notices.smtp.inc, line: 337
 msgid "Authentication error:"
-msgstr ""
+msgstr "Erro de autenticação:"
 
 # File: src/etc/inc/notices.smtp.inc, line: 292
 msgid "Could not send the AUTH command"
-msgstr ""
+msgstr "Não foi possível enviar o comando AUTH"
 
 # File: src/etc/inc/notices.smtp.inc, line: 285
 msgid "Could not start the SASL authentication client:"
-msgstr ""
+msgstr "Não foi possível iniciar o cliente de autenticação SASL:"
 
 # File: src/etc/inc/notices.smtp.inc, line: 280
 msgid "Authentication mechanism %s may not be used: %s"
-msgstr ""
+msgstr "O mecanismo de autenticação %s não pode ser utilizado: %s"
 
 # File: src/etc/inc/notices.smtp.inc, line: 256
 msgid ""
 "it is not possible to authenticate using the specified mechanism because the "
 "SASL library class is not loaded"
 msgstr ""
+"não foi possível autenticar-se utilizando o mecanismo especificado porque a "
+"classe da biblioteca SASL não foi carregada"
 
 # File: src/etc/inc/notices.smtp.inc, line: 247
 msgid "could not connect to the host \"%s\": %s"
-msgstr ""
+msgstr "não foi possível conectar ao host \"%s\": %s"
 
 # File: src/etc/inc/notices.smtp.inc, line: 245
 msgid "-7 setvbuf() call failed"
-msgstr ""
+msgstr "-7 A chamada setvbuf() falhou"
 
 # File: src/etc/inc/notices.smtp.inc, line: 243
 msgid "-6 fdopen() call failed"
-msgstr ""
+msgstr "-6 A chamada fdopen() falhou"
 
 # File: src/etc/inc/notices.smtp.inc, line: 241
 msgid "-5 connection refused or timed out"
-msgstr ""
+msgstr "-5 conexão recusada ou tempo limite atingido"
 
 # File: src/etc/inc/notices.smtp.inc, line: 239
 msgid "-4 dns lookup on hostname \"%s\" failed"
-msgstr ""
+msgstr "-4 Falha na resolução de DNS para o nome de host \"%s\""
 
 # File: src/etc/inc/notices.smtp.inc, line: 237
 msgid "-3 socket could not be created"
-msgstr ""
+msgstr "-3 o socket não pode ser criado"
 
 # File: src/etc/inc/notices.smtp.inc, line: 230
 msgid "Connecting to host address \"%s\" port %s..."
-msgstr ""
+msgstr "Conectando ao host com endereço \"%s\", porta %s..."
 
 # File: src/etc/inc/notices.smtp.inc, line: 228
 msgid "domain \"%s\" resolved to an address excluded to be valid"
-msgstr ""
+msgstr "o domínio \"%s\" resolveu em um endereço excluído para ser válido"
 
 # File: src/etc/inc/notices.smtp.inc, line: 224
 msgid "could not resolve host \"%s\""
-msgstr ""
+msgstr "não foi possível resolver o host \"%s\""
 
 # File: src/etc/inc/notices.smtp.inc, line: 215
 msgid "establishing SSL connections requires the OpenSSL extension enabled"
 msgstr ""
+"estabelecer pedidos de conexão SSL requer que a extensão OpenSSL esteja "
+"habilitada"
 
 # File: src/etc/inc/notices.smtp.inc, line: 212
 msgid "establishing SSL connections requires at least PHP version 4.3.0"
-msgstr ""
+msgstr "estabelecer conexões SSL requer pelo menos a versão 4.3.0 do PHP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 140
 msgid "it was not possible to send data to the SMTP server"
-msgstr ""
+msgstr "não foi possível enviar dados para o servidor SMTP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 126
 msgid "it was not possible to send a line to the SMTP server"
-msgstr ""
+msgstr "não foi possível enviar uma linha para o servidor SMTP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 104
 msgid "it was not possible to read line from the SMTP server"
-msgstr ""
+msgstr "não foi possível ler uma linha do servidor SMTP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 98
 msgid "reached the end of data while reading from the SMTP server connection"
 msgstr ""
+"atingiu o fim dos dados durante a leitura vinda da conexão com o servidor "
+"SMTP"
 
 # File: src/etc/inc/notices.smtp.inc, line: 86
 msgid ": the server disconnected"
-msgstr ""
+msgstr ": o servidor desconectou"
 
 # File: src/etc/inc/notices.smtp.inc, line: 83
 msgid ": data access time out"
-msgstr ""
+msgstr ": tempo limite de acesso aos dados"
 
 # File: /usr/core/src/etc/inc/notices.inc, line: 331
 msgid "%s (%s) - Notification"
-msgstr ""
+msgstr "%s (%s) - Notificação"
 
 # File: src/etc/inc/services.inc, line: 2379
 msgid "Starting UPnP service... "
-msgstr ""
+msgstr "Iniciando o serviço UPnP... "
 
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 487
 msgid "Configuring IPsec VPN..."
-msgstr ""
+msgstr "Configurando a VPN IPsec..."
 
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 54
 msgid "NULL (no encryption)"
-msgstr ""
+msgstr "NULO (sem criptografia)"
 
 # File: src/etc/inc/pfsense-utils.inc, line: 162
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 71
 msgid "INIT"
-msgstr ""
+msgstr "INIT"
 
 # File: src/etc/inc/pfsense-utils.inc, line: 160
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 69
 msgid "BACKUP"
-msgstr ""
+msgstr "BACKUP"
 
 # File: src/etc/inc/pfsense-utils.inc, line: 158
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 67
 msgid "MASTER"
-msgstr ""
+msgstr "MASTER"
 
 # File: src/etc/inc/interfaces.inc, line: 5625
 msgid "No history data found!"
-msgstr ""
+msgstr "Não foi encontrado histórico de dados!"
 
 # File: src/etc/inc/interfaces.inc, line: 5477
 msgid "forwarding"
-msgstr ""
+msgstr "encaminhamento"
 
 # File: src/etc/inc/interfaces.inc, line: 5474
 msgid "learning"
-msgstr ""
+msgstr "aprendendo"
 
 # File: src/etc/inc/interfaces.inc, line: 5471
 msgid "check for ethernet loops"
-msgstr ""
+msgstr "verificar por loops ethernet"
 
 # File: src/etc/inc/interfaces.inc, line: 5471
 msgid "blocking"
-msgstr ""
+msgstr "bloqueio"
 
 # File: src/etc/inc/interfaces.inc, line: 5357
 msgid "device not present! Is the modem attached to the system?"
-msgstr ""
+msgstr "dispositivo não está presente! O modem está conectado no sistema?"
 
 # File: src/etc/inc/interfaces.inc, line: 3976
 msgid ""
 "Error: cannot open dhclient_%s.conf in interface_dhcp_configure() for "
 "writing.%s"
 msgstr ""
+"Erro: não foi possível abrir dhclient_%s.conf em interface_dhcp_configure() "
+"para gravação.%s"
 
 # File: src/etc/inc/interfaces.inc, line: 3122
 msgid ""
 "The INVALID MAC address (ff:ff:ff:ff:ff:ff) on interface %s has been "
 "automatically replaced with %s"
 msgstr ""
+"O endereço físico INVÁLIDO (ff:ff:ff:ff:ff:ff) na interface %s foi "
+"substituído automaticamente por %s"
 
 # File: src/etc/inc/interfaces.inc, line: 3116
 msgid "Generating new MAC address."
-msgstr ""
+msgstr "Gerando novo endereço físico."
 
 # File: src/etc/inc/interfaces.inc, line: 2274
 msgid ""
 "Sorry but we could not find a required assigned ip address on the interface "
 "for the virtual IPv6 address %s."
 msgstr ""
+"Desculpe, mas nós não conseguimos encontrar um endereço IP requerido "
+"atribuído na interface para o enderço IP virtual IPv6 %s."
 
 # File: src/etc/inc/interfaces.inc, line: 2267
 msgid ""
 "Sorry but we could not find a required assigned ip address on the interface "
 "for the virtual IP address %s."
 msgstr ""
+"Desculpe, mas não conseguimos encontrar um endereço IP requerido atribuído "
+"na interface com o endereço IP virtual %s."
 
 # File: src/etc/inc/interfaces.inc, line: 2259
 msgid ""
 "Interface specified for the virtual IP address %s does not exist. Skipping "
 "this VIP."
 msgstr ""
+"A interface especificada para o endereço IP virtual %s não existe. Pulando "
+"este VIP."
 
 # File: src/etc/inc/interfaces.inc, line: 2023
 msgid "Configuring CARP settings..."
-msgstr ""
+msgstr "Configurando os parâmetros do CARP..."
 
 # File: src/etc/inc/interfaces.inc, line: 1098
 # File: src/etc/inc/interfaces.inc, line: 1126
 # File: src/etc/inc/interfaces.inc, line: 1147
 # File: src/etc/inc/interfaces.inc, line: 1162
 msgid "Configuring %s interface..."
-msgstr ""
+msgstr "Configurando a interface %s..."
 
 # File: src/etc/inc/interfaces.inc, line: 747
 msgid "Configuring LAGG interfaces..."
-msgstr ""
+msgstr "Configurando as interfaces LAGG..."
 
 # File: src/etc/inc/interfaces.inc, line: 454
 msgid "Creating wireless clone interfaces..."
-msgstr ""
+msgstr "Criando os clones das interfaces sem fio..."
 
 # File: src/etc/inc/interfaces.inc, line: 390
 msgid "Configuring QinQ interfaces..."
-msgstr ""
+msgstr "Configurando as interfaces QinQ..."
 
 # File: src/etc/inc/interfaces.inc, line: 229
 msgid "Configuring VLAN interfaces..."
-msgstr ""
+msgstr "Configurando interfaces VLAN..."
 
 # File: src/etc/inc/interfaces.inc, line: 211
 msgid "Configuring loopback interface..."
-msgstr ""
+msgstr "Configurando a interface loopback..."
 
 # File: src/etc/inc/gwlb.inc, line: 879
 msgid ""
 "Gateways status could not be determined, considering all as up/active. "
 "(Group: %s)"
 msgstr ""
+"Os status dos gateways não puderam ser determinados, considerando que todos "
+"estão online/ativoc. (Grupo: %s)"
 
 # File: src/etc/inc/gwlb.inc, line: 858
 msgid "MONITOR: %s has high latency, removing from routing group %s"
