@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-18 23:20+0000\n"
+"POT-Creation-Date: 2017-01-03 21:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1068,10 +1068,11 @@ msgstr "Installationshostname"
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1237
 msgid "Automatic Multi-WAN dynamic DNS Hostnames (port forward targets)"
 msgstr ""
+"Automatische dynamische multi-WAN DNS-Hostnamen (Portweiterleitungsziele)"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1236
 msgid "Automatic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "Automatische multi-WAN-IPs (Portweiterleitungsziele)"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
@@ -1198,6 +1199,10 @@ msgid ""
 "IP. The NetBIOS Scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS Scope ID."
 msgstr ""
+"Eine NetBIOS-Scope-IP stellt einen erweiterten Benennungsdienst für NetBIOS "
+"über TCP/IP zur Verfügung. Die NetBIOS-Scope-ID isoliert NetBIOS-"
+"Datenverkehr auf einem einzelnen Netzwerk auf die Knoten mit der gleichen "
+"NetBIOS-Scope-ID."
 
 # File: src/www/vpn_openvpn_csc.php, line: 547
 # File: src/www/vpn_openvpn_server.php, line: 1595
@@ -1594,6 +1599,11 @@ msgid ""
 "network address is assumed to be the server address and the second network "
 "address will be assigned to the client virtual interface"
 msgstr ""
+"Dies ist das durch die Verwendung von CIDR (z. B. fe80::/64) ausgedrückte "
+"virtuelle IPv6-Netzwerk, dass für private Kommunikation zwischen Client und "
+"Server verwendet wird. Die erste Netzwerkadresse wird als Serveradresse "
+"verwendet und die zweite Netzwerkadresse wird der virtuellen "
+"Clientschnittstelle zugewiesen"
 
 msgid "IPv6 Tunnel Network"
 msgstr "IPv6 Tunnelnetzwerk"
@@ -1606,6 +1616,11 @@ msgid ""
 "network address is assumed to be the server address and the second network "
 "address will be assigned to the client virtual interface"
 msgstr ""
+"Dies ist das durch die Verwendung von CIDR (z. B. 10.0.8.0/24) ausgedrückte "
+"virtuelle IPv4-Netzwerk, dass für private Kommunikation zwischen Client und "
+"Server verwendet wird. Die erste Netzwerkadresse wird als Serveradresse "
+"verwendet und die zweite Netzwerkadresse wird der virtuellen "
+"Clientschnittstelle zugewiesen"
 
 msgid "IPv4 Tunnel Network"
 msgstr "IPv4 Tunnelnetzwerk"
@@ -1872,6 +1887,9 @@ msgid ""
 "protection. This behaviour can be changed by enabling this setting which "
 "will prevent installing these SPDs."
 msgstr ""
+"Wenn IPsec aktiviert ist, werden standardmäßig negierte SPD zum Schutz "
+"eingefügt. Dieses Verhalten kann durch die Aktivierung dieser Einstellung "
+"geändert werden, wodurch unterbunden wird, diese SPDs zu installieren."
 
 msgid "Do not install LAN SPD"
 msgstr "Installieren sie nicht LAN SPD"
@@ -1882,7 +1900,7 @@ msgstr "LAN-Sicherheitszuweisungen"
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 115
 msgid "IPsec Advanced Settings"
-msgstr "IPsec Erweiterte Einstellungen"
+msgstr "Erweiterte IPsec Einstellungen"
 
 msgid "Automatically ping host"
 msgstr "Automatisch Host pingen"
@@ -2029,6 +2047,8 @@ msgid ""
 "You cannot configure a network type address for NAT while only an address "
 "type is selected for local source."
 msgstr ""
+"Sie können keine Netzwerkadresse für NAT verwenden, während eine einzelne "
+"Adresse für die lokale Quelle ausgewählt ist."
 
 msgid "A valid NAT local network bit count must be specified."
 msgstr "Eine gültige lokale NAT-Netzwerkbitanzahl muss angegeben werden."
@@ -2094,6 +2114,9 @@ msgid ""
 "UDP packets) if needed, which can help with clients that are behind "
 "restrictive firewalls."
 msgstr ""
+"Setzen Sie diese Option, um die Verwendung von NAT-T (Kapselung von ESP in "
+"UDP-Paketen) bei Bedarf zu aktivieren. Dies kann bei Clients hinter "
+"restriktiven Firewalls helfen."
 
 msgid "Force"
 msgstr "Erzwingen"
@@ -2117,6 +2140,8 @@ msgid ""
 "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, "
 "reauthentication is always done."
 msgstr ""
+"Ob eine Schlüsselerneuerung einer IKE-SA auch den Peer neu authentifizieren "
+"soll. Erneute Authentifizierung wird bei IKEv1 immer durchgeführt."
 
 msgid "Disable Reauth"
 msgstr "Reauth deaktivieren"
@@ -2240,6 +2265,9 @@ msgid ""
 "Choose the connect behaviour here, when using CARP you might want to "
 "consider the 'Respond only' option here (wait for the other side to connect)."
 msgstr ""
+"Wählen Sie das Verbindungsverhalten hier aus. Wenn Sie CARP verwenden, "
+"könnten Sie die \"nur Antworten\"-Option hier von Interesse sein (auf die "
+"andere Seite auf Verbindungen warten)."
 
 # File: src/www/vpn_ipsec_phase1.php, line: 613
 msgid "Start immediate"
@@ -2365,6 +2393,8 @@ msgid ""
 "Please select an identifier (My Identifier) other then 'any' when selecting "
 "'Any' interface"
 msgstr ""
+"Bitte wählen Sie einen anderen Identifizierer (Mein Identifizierer) als \""
+"jeglicher\" aus, wenn Sie \"jegliche\" Schnittstelle verwenden."
 
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
 msgstr ""
@@ -2447,6 +2477,8 @@ msgid ""
 "Provide a list of split DNS domain names to clients. Enter a comma separated "
 "list."
 msgstr ""
+"Geben Sie eine Liste von Split-DNS-Domainnamen an die Clients weiter. Geben "
+"Sie eine kommagetrennte Liste ein."
 
 msgid "Split DNS"
 msgstr "Split DNS"
@@ -3066,7 +3098,7 @@ msgstr "Der API Schlüssel \"%s\" wurde erfolgreich entfernt."
 
 # File: /usr/core/src/www/system_usermanager.php, line: 185
 msgid "The certificate association \"%s\" was successfully removed."
-msgstr ""
+msgstr "Die Zertifikatszuordnung \"%s\" wurde erfolgreich entfernt."
 
 # File: /usr/core/src/www/system_usermanager.php, line: 175
 msgid "The user \"%s\" was successfully removed."
@@ -3431,6 +3463,8 @@ msgid ""
 "You must have an IP assigned to the interface on any participating sync "
 "nodes."
 msgstr ""
+"Sie müssen der Schnittstelle eine IP zuweisen, damit es an der "
+"Knotensynchronisierung teilnehmen kann."
 
 # File: src/www/system_hasync.php, line: 155
 msgid ""
@@ -3624,6 +3658,8 @@ msgid ""
 "If the link where the default gateway resides fails switch the default "
 "gateway to another available one."
 msgstr ""
+"Wechsle falls die Verbindung ausfällt, über die der Standardgateway erreicht "
+"wird, ausfällt, auf einen anderen verfügbaren."
 
 msgid "Allow default gateway switching"
 msgstr "Erlaube die Änderung des Standardgateways"
@@ -4654,7 +4690,7 @@ msgstr "Zertifikat hinzufügen oder importieren"
 # File: src/www/system_certmanager.php, line: 441
 # File: src/www/system_certmanager.php, line: 464
 msgid "openssl library returns:"
-msgstr ""
+msgstr "OpenSSL-Bibliothek gibt folgendes zurück:"
 
 msgid "Please select a valid Digest Algorithm."
 msgstr "Bitte wählen Sie einen gültigen Prüfsummenalgorithmus aus."
@@ -4670,28 +4706,28 @@ msgstr "Das Feld '%s' enthält ungültige Zeichen."
 # File: src/www/system_camanager.php, line: 319
 # File: src/www/system_certmanager.php, line: 366
 msgid "The field 'Distinguished name Common Name' contains invalid characters."
-msgstr ""
+msgstr "Das Feld 'Distinguished Name Common Name' enthält ungültige Zeichen."
 
 # File: src/www/system_camanager.php, line: 315
 # File: src/www/system_certmanager.php, line: 361
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
-msgstr ""
+msgstr "Das Feld 'Distinguished Name E-Mail-Adresse' enthält ungültige Zeichen."
 
 msgid "Signing Certificate Authority"
 msgstr "Signiere Zertifizierungsstelle"
 
 msgid "Distinguished name Common Name"
-msgstr ""
+msgstr "Distinguished name Common Name"
 
 msgid "Distinguished name Email Address"
-msgstr ""
+msgstr "Distinguished Name E-Mail-Adresse"
 
 msgid "Distinguished name Organization"
-msgstr ""
+msgstr "Distinguished Name Organisation"
 
 msgid "Distinguished name City"
-msgstr ""
+msgstr "Distinguished Name Stadt"
 
 msgid "Distinguished name State or Province"
 msgstr ""
@@ -5071,7 +5107,7 @@ msgid ""
 msgstr ""
 
 msgid "Disable SMTP Notifications"
-msgstr "SMPT Benachrichtigungen deaktivieren"
+msgstr "SMTP Benachrichtigungen deaktivieren"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 210
 msgid "SMTP Email"
@@ -5175,7 +5211,7 @@ msgid ""
 msgstr ""
 
 msgid "Disable hardware large receive offload"
-msgstr ""
+msgstr "Deaktiviere die hardwareseitige Entlastung für großen Datenempfang"
 
 # File: src/www/system_advanced_network.php, line: 265
 msgid "Hardware LRO"
@@ -5213,6 +5249,8 @@ msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than using the hard disk."
 msgstr ""
+"Setzen Sie dies, falls sie /tmp als RAM-Festplatte "
+"(Arbeitsspeicherdateisystem) anstelle der Festplatte verwenden möchten."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
@@ -5228,6 +5266,10 @@ msgid ""
 "rather than using the hard disk. Setting this will cause the data /var to be "
 "lost on reboot, including log data."
 msgstr ""
+"Setzen Sie dies, falls sie /var als RAM-Festplatte "
+"(Arbeitsspeicherdateisystem) anstelle der Festplatte verwenden möchten. Sies "
+"führt dazu, dass die Daten auf /var beim Neustart inklusive der "
+"Protokolldateien verloren gehen."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 433
 msgid "Use memory file system for /var"
@@ -5248,7 +5290,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid "On Normal Power Mode"
-msgstr ""
+msgstr "Im normalen Energiemodus"
 
 msgid "On Battery Power Mode"
 msgstr "Im Batterie-Modus"
@@ -5711,6 +5753,10 @@ msgid ""
 "down, rule is created and traffic is sent to default gateway.This option "
 "overrides that behavior and the rule is not created when gateway is down"
 msgstr ""
+"Standardmäßig wird, wenn eine Route einen spezifischen Gateway gesetzt hat "
+"und der Gateway nicht erreichbar ist, der Standardgateway verwendet. Diese "
+"Option überschreibt dieses Verhalten und die Regel wird nicht erstellt, wenn "
+"der Gateway nicht erreichbar ist."
 
 msgid "Skip rules when gateway is down"
 msgstr "Regeln überspringen wenn das Gateway inaktiv ist"
@@ -5723,6 +5769,9 @@ msgid ""
 "The monitoring process will flush states for a gateway that goes down if "
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
+"Der Überwachungsprozess wird alle Status für einen Gateway entfernen, wenn "
+"dieser unerreichbar wird, falls diese Box nicht angehakt ist. Haken Sie "
+"diese Box an, um dieses Verhalten zu unterbinden."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 353
 msgid "Disable State Killing on Gateway Failure"
@@ -5930,6 +5979,8 @@ msgid ""
 "Select the primary console. This preferred console will show boot script "
 "output."
 msgstr ""
+"Wählen Sie die primäre Konsole aus. Die bevorzugte Konsole wird die "
+"Skriptausgeben anzeigen."
 
 msgid "Primary Console"
 msgstr "Primäre Konsole"
@@ -6252,7 +6303,7 @@ msgid "Remote Host"
 msgstr "Ferner Host"
 
 msgid "Peer to Peer Server Instance Statistics"
-msgstr ""
+msgstr "Peer-zu-Peer-Serverinstanzstatistiken"
 
 msgid ""
 "An IP address followed by C indicates a host currently connected through the "
@@ -6784,7 +6835,7 @@ msgstr "Protokolliere NAT-PMP"
 
 # File: /usr/core/src/www/services_upnp.php, line: 267
 msgid "Override WAN address"
-msgstr ""
+msgstr "Überschreibe WAN-Adresse"
 
 # File: /usr/core/src/www/services_upnp.php, line: 258
 msgid "Maximum Upload Speed"
@@ -6946,7 +6997,7 @@ msgstr "für IPv4- und IPv6-Adressen"
 
 # File: src/www/services_unbound_host_edit.php, line: 285
 msgid "Type of resource record"
-msgstr ""
+msgstr "Typ des Resourceneintrags"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "MX (Mail server)"
@@ -6961,7 +7012,7 @@ msgstr "DNS Resolvereintrag bearbeiten"
 
 # File: src/www/services_unbound_host_edit.php, line: 122
 msgid "A valid resource record type must be specified."
-msgstr ""
+msgstr "Ein gültiger Typ des Resourceneintrags muss angegeben werden."
 
 # File: src/www/services_unbound_host_edit.php, line: 118
 msgid "A valid MX host must be specified."
@@ -7262,6 +7313,9 @@ msgid ""
 "defined below, but sends a DNS rcode REFUSED error message back to the "
 "client."
 msgstr ""
+"Verweigern: Diese aktion stoppt ebenfalls die Abfragen von Hosts im unten "
+"definierten Netzblock, aber sendet eine DNS-rcode-REFUSED-Fehlermeldung "
+"zurück an den Client."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 242
 msgid ""
@@ -7566,6 +7620,8 @@ msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
 "character as separator"
 msgstr ""
+"Der RA-Server kann optional eine Domainsuchliste zur Verfügung stellen. "
+"Verwenden Sie den Strichpunkt als Trennzeichen"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 367
 msgid "Use the DNS settings of the DHCPv6 server"
@@ -7604,6 +7660,7 @@ msgstr ""
 
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
 msgstr ""
+"Wählen Sie den Arbeitsmodus für den Router Advertisement (RA) Daemon aus."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 242
 msgid "Assisted"
@@ -7793,7 +7850,7 @@ msgstr ""
 
 # File: src/www/services_ntpd_pps.php, line: 147
 msgid "Fudge time"
-msgstr ""
+msgstr "Fudge-Zeit"
 
 msgid ""
 "All serial ports are listed, be sure to pick the port with the PPS source "
@@ -7922,18 +7979,18 @@ msgid "Stratum"
 msgstr "Stratum"
 
 msgid "Fudge time 2 is used to specify the GPS time offset"
-msgstr ""
+msgstr "Fudge-Zeit 2 wird verwendet, um den GPS-Zeitunterschied anzugeben"
 
 # File: src/www/services_ntpd_gps.php, line: 442
 msgid "Fudge time 2"
-msgstr ""
+msgstr "Fudge-Zeit 2"
 
 msgid "Fudge time 1 is used to specify the GPS PPS signal offset"
 msgstr ""
 
 # File: src/www/services_ntpd_gps.php, line: 436
 msgid "Fudge time 1"
-msgstr ""
+msgstr "Fudge-Zeit 1"
 
 msgid ""
 "By default NTP will listen for all supported NMEA sentences. Here one or "
@@ -8026,7 +8083,7 @@ msgstr "serielle NTP-GPS-Konfiguration"
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 55
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 57
 msgid "Clock stratum must be a number in the range 0..16"
-msgstr ""
+msgstr "Uhrenstratum muss eine Nummer im Bereich 0..16 sein"
 
 msgid "select a file to upload:"
 msgstr "Wählen Sie eine Datei aus:"
@@ -8100,6 +8157,7 @@ msgstr ""
 # File: /usr/core/src/www/services_ntpd.php, line: 324
 msgid "These options will create persistent daily log files in /var/log/ntp."
 msgstr ""
+"Diese Optionen werden tägliche Protokolldateien in /var/log/ntp erstellen."
 
 msgid "Show statistics logging options"
 msgstr "Zeige Statistik-Protokollierungs Einstellungen"
@@ -8716,7 +8774,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dnsmasq.php, line: 261
 # File: /usr/core/src/www/services_unbound.php, line: 223
 msgid "DHCP Domain Override"
-msgstr ""
+msgstr "DHCP-Domainüberschreibung"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 254
 msgid ""
@@ -19983,7 +20041,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "(FQ-)CoDel target"
-msgstr ""
+msgstr "(FQ-)CoDel-Ziel"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid "(optional) user credentials."
@@ -20048,7 +20106,7 @@ msgstr "E-Mail-Adresse des Administrators"
 
 # File: /usr/lang/src/controllers.php, line: 58
 msgid "Advanced Bind Options"
-msgstr ""
+msgstr "Erweiterte Bindeoptionen"
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Advanced SSL options"
@@ -20084,7 +20142,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Allow interface subnets"
-msgstr ""
+msgstr "Erlaube Schnittstellensubnetze"
 
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Allowed MAC addresses"
@@ -20135,7 +20193,7 @@ msgstr "Umgehe für physikalische Adressen in dieser Liste die Authentifizierung
 
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Balancing Algorithm"
-msgstr ""
+msgstr "Verteilungsalgorithmus"
 
 # File: /usr/lang/src/controllers.php, line: 80
 msgid "Banned host IP addresses"
@@ -20143,11 +20201,11 @@ msgstr "Gebannte Host-IP-Adressen"
 
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Blacklist"
-msgstr ""
+msgstr "Schwarze Liste"
 
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Block browser/user-agents"
-msgstr ""
+msgstr "Blockiere Browser/user-agents"
 
 # File: /usr/lang/src/controllers.php, line: 83
 msgid "Block specific MIME type reply"
@@ -20159,11 +20217,11 @@ msgstr "Kurze Beschreibung von diesem FTP-Proxy"
 
 # File: /usr/lang/src/controllers.php, line: 85
 msgid "Buffer size"
-msgstr ""
+msgstr "Puffergröße"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
-msgstr ""
+msgstr "zu verwendende CA"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Cache size in Megabytes"
@@ -20261,7 +20319,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 104
 msgid "Cipher"
-msgstr ""
+msgstr "Chiffre"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
 msgid "Classtype"
@@ -20503,7 +20561,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 158
 msgid "Egress only"
-msgstr ""
+msgstr "nur Egress"
 
 # File: /usr/lang/src/controllers.php, line: 159
 msgid "Email (from)"
@@ -20523,7 +20581,7 @@ msgstr "Aktiviere die CoDel aktive Warteschlangenverwaltung"
 
 # File: /usr/lang/src/controllers.php, line: 163
 msgid "Enable DNS v4 first"
-msgstr ""
+msgstr "Aktiviere DNSv4 zuerst"
 
 # File: /usr/lang/src/controllers.php, line: 164
 msgid "Enable HAProxy"
@@ -20674,6 +20732,9 @@ msgid ""
 "Enable syslog, sends alerts (in fast log format) and messages to syslog. "
 "This won't change the alert logging used by the product itself."
 msgstr ""
+"Aktiviere Syslog, sendet alarme (im schnellen Protokollformat) und "
+"Nachrichten an Syslog. Dadurch wird die Alarmprotokollierung durch das "
+"Produkt selbst nicht verändert."
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Enable this Lua script."
@@ -20932,15 +20993,15 @@ msgstr "Externe Adresse"
 
 # File: /usr/lang/src/controllers.php, line: 241
 msgid "FQ-CoDel flows"
-msgstr ""
+msgstr "FQ-CoDel-Datenflüsse"
 
 # File: /usr/lang/src/controllers.php, line: 242
 msgid "FQ-CoDel limit"
-msgstr ""
+msgstr "FQ-CoDel-Limit"
 
 # File: /usr/lang/src/controllers.php, line: 243
 msgid "FQ-CoDel quantum"
-msgstr ""
+msgstr "FQ-CoDel-Quantum"
 
 # File: /usr/lang/src/controllers.php, line: 244
 msgid "FQDN or IP"
@@ -21020,7 +21081,7 @@ msgstr "Gruppen-ID"
 
 # File: /usr/lang/src/controllers.php, line: 259
 msgid "HAProxy processes"
-msgstr ""
+msgstr "HAProxy-Prozesse"
 
 # File: /usr/lang/src/controllers.php, line: 260
 msgid "HTTP check options"
@@ -21173,7 +21234,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 285
 msgid "Input Filter"
-msgstr ""
+msgstr "Eingabefilter"
 
 msgid "Interfaces"
 msgstr "Schnittstellen"
@@ -21188,11 +21249,11 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "Listen Addresses"
-msgstr ""
+msgstr "Hörende Adressen"
 
 # File: /usr/lang/src/controllers.php, line: 290
 msgid "Listen address"
-msgstr ""
+msgstr "Hörende Adresse"
 
 # File: /usr/lang/src/controllers.php, line: 291
 msgid "Listen port"
@@ -21275,7 +21336,7 @@ msgstr "Maximale Upload-Größe (kB)"
 
 # File: /usr/lang/src/controllers.php, line: 309
 msgid "Memory Cache size in Megabytes"
-msgstr ""
+msgstr "Speicherzwischenspeichergröße in Megabyte"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 msgid "Message"
@@ -21308,12 +21369,16 @@ msgid ""
 "NOTE: Define global parameters for the HAProxy service. They cannot be "
 "overriden."
 msgstr ""
+"HINWEIS: Definiere globale Parameter für den HAProxy-Dienst. Diese können "
+"nicht überschrieben werden."
 
 # File: /usr/lang/src/controllers.php, line: 317
 msgid ""
 "NOTE: You need to configure frontends, backends and servers before enabling "
 "HAProxy."
 msgstr ""
+"HINWEIS: Sie müssen Frontends, Backends und Server konfigurieren, bevor Sie "
+"den HAProxy aktivieren."
 
 msgid "Name"
 msgstr "Name"
