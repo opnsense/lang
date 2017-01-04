@@ -38,6 +38,8 @@ def recursiveParseForm(xmlNode):
     if xmlNode.tag in ['help', 'label']:
         yield xmlNode.text
 
+    if xmlNode.tag in ['tab', 'subtab']:
+        yield xmlNode.attrib['description']
 
 def getTranslations(root):
     import os
