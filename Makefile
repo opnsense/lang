@@ -87,7 +87,7 @@ MERGE+=		merge-${LANG}
 TEST+=		test-${LANG}
 .endfor
 
-_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list
+_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list | awk '{ print $$1 }'
 PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 
 ${TEMPLATE}:
