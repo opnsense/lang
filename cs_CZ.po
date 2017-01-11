@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-03 21:09+0000\n"
+"POT-Creation-Date: 2017-01-11 17:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2330,10 +2330,12 @@ msgid ""
 "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, "
 "reauthentication is always done."
 msgstr ""
+"Zda má opětovné opatření IKE_SA klíčem také znovu ověřit protějšek. V IKEv1 "
+"je opětovné ověření provedeno vždy."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 908
 msgid "Disable Reauth"
-msgstr ""
+msgstr "Vypnout opětovné ověřování"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 903
 msgid "Whether a connection should be renegotiated when it is about to expire."
@@ -2341,7 +2343,7 @@ msgstr "Zda má být znovu dohodnuto spojení když se blíží konec jeho platn
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 899
 msgid "Disable Rekey"
-msgstr ""
+msgstr "Neopatřovat znovu klíčem"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 856
 msgid "DH key group"
@@ -2401,12 +2403,12 @@ msgstr "Identifikátor protějšku"
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 702
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 730
 msgid "KeyID tag"
-msgstr ""
+msgstr "Značka identifikátoru klíče"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 701
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 729
 msgid "ASN.1 distinguished Name"
-msgstr ""
+msgstr "ASN.1 rozlišený název"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 697
 msgid "My IP address"
@@ -2467,6 +2469,8 @@ msgid ""
 "Choose the connect behaviour here, when using CARP you might want to "
 "consider the 'Respond only' option here (wait for the other side to connect)."
 msgstr ""
+"Zde zvolte chování spojení. Při použití CARP zde uvažujte o použití "
+"předvolby „Pouze odpovědět“ (čekat až se připojí protější strana)."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 525
 msgid "Start immediate"
@@ -3197,7 +3201,7 @@ msgstr "hledat"
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 189
 msgid "(filter)"
-msgstr ""
+msgstr "(filtr)"
 
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 184
 msgid "Allowed"
@@ -3873,7 +3877,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_hasync.php, line: 123
 msgid "loopback"
-msgstr ""
+msgstr "místní smyčka"
 
 # File: /usr/core/src/www/system_hasync.php, line: 118
 msgid "Synchronize Interface"
@@ -4190,6 +4194,9 @@ msgid ""
 "this, delays longer than the probe interval would be treated as packet loss. "
 "Default is %d."
 msgstr ""
+"Prodleva (v počtu vzorků testu) po které bude vypočítávána ztráta. Bez "
+"tohoto, prodlevy delší než interval testu by byly považovány za ztrátu "
+"paketů. Výchozí je %d."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 804
 msgid "Lost Probe Delay"
@@ -4236,10 +4243,12 @@ msgid ""
 "NOTE: The quality graph is averaged over seconds, not intervals, so as the "
 "probe interval is increased the accuracy of the quality graph is decreased."
 msgstr ""
+"POZN.: graf kvality je zprůměrován na sekundy, nikoli intervaly – takže při "
+"prodloužení intervalu testu se přesnost grafu zhorší."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 766
 msgid "How often that an ICMP probe will be sent in seconds. Default is %d."
-msgstr ""
+msgstr "Jak často (v sekundách) má být zkoušeno pomocí ICPM. Výchozí je %d."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 762
 msgid "Probe Interval"
@@ -4247,7 +4256,7 @@ msgstr "Jak často zjišťovat"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 757
 msgid "Low and high thresholds for packet loss in %%. Default is %d/%d."
-msgstr ""
+msgstr "Hranice nízké a vysoké ztrátovosti paketů v %%. Výchozí je %d/%d."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 736
 msgid "Packet Loss thresholds"
@@ -4255,7 +4264,7 @@ msgstr "Práh ztráty paketů"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 731
 msgid "Low and high thresholds for latency in milliseconds. Default is %d/%d."
-msgstr ""
+msgstr "Hranice nízké a vysoké doby prodlevy v milisekundách. Výchozí je %d/%d."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 716
 # File: /usr/core/src/www/system_gateways_edit.php, line: 742
@@ -4273,7 +4282,7 @@ msgstr "Prahy prodlevy"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 705
 msgid "Weight for this gateway when used in a Gateway Group."
-msgstr ""
+msgstr "Váha této brány když je použitá ve skupině bran."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 686
 msgid " - Show advanced option"
@@ -4294,18 +4303,21 @@ msgid ""
 "used for the quality RRD graphs as well as the load balancer entries. Use "
 "this if the gateway does not respond to ICMP echo requests (pings)"
 msgstr ""
+"Sem zadejte alternativní adresu, ze které bude dohlíženo na toto spojení. "
+"Sloužít pro RRD grafy kvality a položky rozdělování zátěže. Tuto funkci "
+"použijte v případě, že brána neodpovídá na ICMP echo požadavky (ping)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 666
 msgid "Alternative monitor IP"
-msgstr ""
+msgstr "Alternativní dohledová IP"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 657
 msgid "This will consider this gateway as always being up"
-msgstr ""
+msgstr "Tímto bude tato brána vždy považována za dostupnou"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 653
 msgid "Disable Gateway Monitoring"
-msgstr ""
+msgstr "Nedohlížet na bránu"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 648
 msgid "This will allow the gateway to exist outside of the interface subnet."
@@ -4343,6 +4355,8 @@ msgstr "Vyberte pro které rozhraní tato brána platí."
 msgid ""
 "Set this option to disable this gateway without removing it from the list."
 msgstr ""
+"Zapnutím této předvolby tuto bránu přestanete používat, aniž by bylo třeba "
+"jí odebrat ze seznamu."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 578
 msgid "Disable this gateway"
@@ -4354,11 +4368,11 @@ msgstr "Upravit bránu"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 314
 msgid "The lost probe delay needs to be positive."
-msgstr ""
+msgstr "Je třeba, aby prodleva neúspěšného testu byla celé číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 312
 msgid "The lost probe delay needs to be a numeric value."
-msgstr ""
+msgstr "Je třeba, aby prodleva neúspěšného testu bylo číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 306
 msgid "The average packet loss probes qty needs to be positive."
@@ -4400,11 +4414,11 @@ msgstr ""
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 268
 msgid "The probe interval needs to be positive."
-msgstr ""
+msgstr "Je třeba, aby interval testu bylo kladné číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 266
 msgid "The probe interval needs to be a numeric value."
-msgstr ""
+msgstr "Je třeba, aby interval testu bylo číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 260
 msgid ""
@@ -4429,17 +4443,22 @@ msgid ""
 "The high latency threshold needs to be higher than the default low latency "
 "threshold (%d)"
 msgstr ""
+"Je třeba, aby horní hranice doby prodlevy byla vyšší než její výchozí spodní "
+"hranice (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 242
 msgid ""
 "The low latency threshold needs to be less than the default high latency "
 "threshold (%d)"
 msgstr ""
+"Je třeba, aby spodní hranice doby prodlevy byla nižší než její výchozí horní "
+"hranice (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 238
 msgid ""
 "The high latency threshold needs to be higher than the low latency threshold"
 msgstr ""
+"Je třeba, aby horní hranice doby prodlevy byla vyšší než její spodní hranice"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 230
 msgid "The high Packet Loss threshold needs to be 100 or less."
@@ -4467,25 +4486,25 @@ msgstr "Je třeba, aby spodní hranice ztrátovosti paketů byla číselná hodn
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 210
 msgid "The high latency threshold needs to be positive."
-msgstr ""
+msgstr "Je třeba, aby horní hranice doby odezvy bylo kladné číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 208
 msgid "The high latency threshold needs to be a numeric value."
-msgstr ""
+msgstr "Je třeba, aby horní hranice doby prodlevy bylo číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 202
 msgid "The low latency threshold needs to be positive."
-msgstr ""
+msgstr "Je třeba, aby spodní hranice doby prodlevy bylo kladné číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 200
 msgid "The low latency threshold needs to be a numeric value."
-msgstr ""
+msgstr "Je třeba, aby spodní hranice doby prodlevy bylo číslo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 190
 msgid ""
 "The monitor IP address \"%s\" is already in use. You must choose a different "
 "monitor IP."
-msgstr ""
+msgstr "IP adresa „%s“ monitoru je už používaná. Je třeba zvolit jinou."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 184
 msgid "The gateway IP address \"%s\" already exists."
@@ -4501,13 +4520,15 @@ msgstr "Dodatečně měnit název brány není možné."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 146
 msgid "A valid monitor IP address must be specified."
-msgstr ""
+msgstr "Je třeba zadat platnou IP adresu monitoru."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 141
 msgid ""
 "Dynamic gateway values cannot be specified for interfaces with a static IPv6 "
 "configuration."
 msgstr ""
+"Není možné zadávat údaje pro dynamickou bránu na rozhraní, které má pevná "
+"IPv6 nastavení. "
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 136
 msgid ""
@@ -4521,19 +4542,23 @@ msgid ""
 "Cannot add IPv6 Gateway Address because no IPv6 address could be found on "
 "the interface."
 msgstr ""
+"Adresu IPv6 brány není možné přidat protože na rozhraní nebyla nalezena "
+"žádná IPv6 adresa."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 97
 # File: /usr/core/src/www/system_gateways_edit.php, line: 128
 msgid ""
 "The gateway address %1$s does not lie within one of the chosen interface's "
 "subnets."
-msgstr ""
+msgstr "Adresa brány %1$s nespadá do podsítě žádného ze zvolených rozhraní."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 75
 msgid ""
 "Cannot add IPv4 Gateway Address because no IPv4 address could be found on "
 "the interface."
 msgstr ""
+"Nelze přidat adresu IPv4 brány protože na rozhraní nebyla nalezena žádná "
+"IPv4 adresa."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 67
 msgid "A valid gateway IP address must be specified."
@@ -4576,7 +4601,7 @@ msgstr "Brána je neaktivní, protože chybí rozhraní"
 # File: /usr/core/src/www/system_gateways.php, line: 306
 # File: /usr/core/src/www/system_gateways_edit.php, line: 662
 msgid "Monitor IP"
-msgstr ""
+msgstr "IP adresa dohledu"
 
 # File: /usr/core/src/www/system_gateways.php, line: 290
 msgid "The gateway configuration has been changed."
@@ -4602,11 +4627,11 @@ msgstr "Bránu „%s“ není možné smazat protože je používaná statickou 
 # File: /usr/core/src/www/system_gateways.php, line: 57
 msgid ""
 "Gateway '%s' cannot be deleted because it is in use on Gateway Group '%s'"
-msgstr ""
+msgstr "Bránu „%s“ není možné smazat, protože je používaná ve skupině bran „%s“"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 295
 msgid "When to trigger exclusion of a member"
-msgstr ""
+msgstr "Kdy člena vyloučit"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 292
 msgid "Packet Loss or High Latency"
@@ -4622,7 +4647,7 @@ msgstr "Ztráta paketů"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 289
 msgid "Member Down"
-msgstr ""
+msgstr "Člen není dostupný"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 286
 msgid "Trigger Level"
@@ -4669,13 +4694,15 @@ msgstr "Priorita brány"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 118
 msgid "No gateway(s) have been selected to be used in this group"
-msgstr ""
+msgstr "Nebyly vybrány žádné brány pro použití v této skupině"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 113
 msgid ""
 "A gateway group cannot have the same name with a gateway \"%s\" please "
 "choose another name."
 msgstr ""
+"Skupinu bran není možné nazvat stejně jako některou z bran („%s“) – zvolte "
+"jiný název."
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 96
 msgid "A gateway group with this name \"%s\" already exists."
@@ -4711,6 +4738,8 @@ msgid ""
 "The gateway configuration has been changed.%sYou must apply the changes in "
 "order for them to take effect."
 msgstr ""
+"Změnili jste nastavení brány.%sAby se projevily, je třeba provedené změny "
+"použít."
 
 # File: /usr/core/src/www/system_gateway_groups.php, line: 133
 msgid "Do you really want to delete this gateway group?"
@@ -4718,7 +4747,7 @@ msgstr "Opravdu chcete tuto skupinu bran smazat?"
 
 # File: /usr/core/src/www/system_gateway_groups.php, line: 132
 msgid "Gateway-group"
-msgstr ""
+msgstr "Skupina-bran"
 
 # File: /usr/core/src/www/system_gateway_groups.php, line: 120
 msgid "Add group"
@@ -4771,7 +4800,7 @@ msgstr "Odstranit tento certifikát z CRL seznamu"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 526
 msgid "No Certificates Found for this CRL."
-msgstr ""
+msgstr "V tomto seznamu zneplatněných nebyly nalezeny žádné certifikáty."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 517
 msgid "Revoked At"
@@ -4788,7 +4817,7 @@ msgstr "Název certifikátu"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 512
 msgid "Currently Revoked Certificates for CRL"
-msgstr ""
+msgstr "Certifikáty které jsou v tomto seznamu aktuálně zneplatněny"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 474
 msgid "Edit Imported Certificate Revocation List"
@@ -4813,12 +4842,12 @@ msgstr "Vnitřní seznam zneplatněných certifikátů"
 # File: /usr/core/src/www/system_crlmanager.php, line: 420
 # File: /usr/core/src/www/system_crlmanager.php, line: 487
 msgid "Paste a Certificate Revocation List in X.509 CRL format here."
-msgstr ""
+msgstr "Sem vložte seznam zneplatněných certifikátů ve formátu X.509 CRL."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 416
 # File: /usr/core/src/www/system_crlmanager.php, line: 483
 msgid "CRL data"
-msgstr ""
+msgstr "Data seznamu zneplatněných certifikátů"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 411
 msgid "Existing Certificate Revocation List"
@@ -4847,10 +4876,14 @@ msgstr "Data seznamu certifikátů jejichž platnost byla odvolána"
 # File: /usr/core/src/www/system_crlmanager.php, line: 210
 msgid "Cannot revoke certificates for an imported/external CRL."
 msgstr ""
+"Do importovaných/externích seznamů zneplatněných nelze přidávat další "
+"certifikáty."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 207
 msgid "CA mismatch between the Certificate and CRL. Unable to Revoke."
 msgstr ""
+"Neshoda v cert. autoritách certifikátu a seznamu zneplatněných. Nelze "
+"zneplatnit."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 203
 msgid "Both the Certificate and CRL must be specified."
@@ -4858,7 +4891,7 @@ msgstr "Je třeba zadat jak certifikát, tak seznam zneplatněných certifikát�
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 188
 msgid "Failed to delete certificate %s from CRL %s"
-msgstr ""
+msgstr "Certifikát %s se nepodařilo vymazat ze seznamu zneplatněných %s"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 154
 msgid "Certificate Revocation List %s is in use and cannot be deleted"
@@ -4868,7 +4901,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1300
 msgid "update csr"
-msgstr ""
+msgstr "aktualizovat požadavek na podepsání certifikátu"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1294
 msgid "delete cert"
@@ -4877,6 +4910,8 @@ msgstr "smazat cert."
 # File: /usr/core/src/www/system_certmanager.php, line: 1288
 msgid "export ca+user cert+user key in .p12 format"
 msgstr ""
+"exportovat cert. autoritu, uživatelský certifikát a uživatelský klíč ve "
+"formátu .p12"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1284
 msgid "export user key"
@@ -4884,7 +4919,7 @@ msgstr "exportovat klíč uživatele"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1280
 msgid "export user cert"
-msgstr ""
+msgstr "exportovat uživatelský certifikát"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1276
 msgid "show certificate info"
@@ -4921,7 +4956,7 @@ msgstr "Cert. autorita:"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1214
 msgid "external - signature pending"
-msgstr ""
+msgstr "vnější – čeká na podpis"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1190
 # File: /usr/core/src/www/system_crlmanager.php, line: 612
@@ -4938,7 +4973,7 @@ msgstr "Sem vložte certifikát obdržený od certifikační autority."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1163
 msgid "Final certificate data"
-msgstr ""
+msgstr "Data výsledného certifikátu"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1159
 msgid ""
@@ -4954,7 +4989,7 @@ msgstr "Údaje žádosti o podpis"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1152
 msgid "Complete Signing Request"
-msgstr ""
+msgstr "Úplný požadavek na podepsání"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1111
 msgid "*Revoked"
@@ -4982,7 +5017,7 @@ msgstr "Organizační jednotka"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 975
 msgid "External Signing Request"
-msgstr ""
+msgstr "Požadavek na podepsání, pocházející z vnějšku"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 923
 # File: /usr/core/src/www/system_certmanager.php, line: 943
@@ -5003,6 +5038,8 @@ msgid ""
 "Choose the type of certificate to generate here, the type defines it's "
 "constraints"
 msgstr ""
+"Zde vyberte typ certifikátu, který vytvořit – tím jsou zároveň vymezeny "
+"oblasti jeho použití"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 789
 # File: /usr/core/src/www/system_crlmanager.php, line: 238
@@ -5028,6 +5065,9 @@ msgid ""
 "No internal Certificate Authorities have been defined. You must %sadd%s an "
 "internal CA before creating an internal certificate."
 msgstr ""
+"Na tomto systému nyní není k dispozici vnitřní cert. autorita. Nejprve je "
+"tedy třeba takovou %spřidat%s a až pak bude možné vytvářet vnitřní "
+"certifikáty."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 761
 msgid "Internal Certificate"
@@ -5064,27 +5104,29 @@ msgstr "přidat nebo importovat certifikát"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 369
 msgid "Unrecognized subjectAltName type."
-msgstr ""
+msgstr "Nerozpoznaný typ subjectAltName."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 365
 msgid "URI subjectAltName types must be a valid URI"
-msgstr ""
+msgstr "Je třeba, aby typy subjectAltName byly platné URI adresy"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 366
 msgid "The email provided in a subjectAltName contains invalid characters."
-msgstr ""
+msgstr "E-mailová adresa zadaná v subjectAltName obsahuje neplatné znaky."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 363
 msgid "You must provide an email address for this type of subjectAltName"
-msgstr ""
+msgstr "Pro tento typ subjectAltName je třeba zadat e-mailovou adresu"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 352
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr ""
+msgstr "Je třeba, aby hodnoty subjectAltName byly platnými IP adresami"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 347
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
 msgstr ""
+"Je třeba, aby DNS hodnoty subjectAltName byly platné názvy strojů nebo úplné "
+"doménové názvy"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 329
 msgid "Existing Certificate Choice"
@@ -5105,7 +5147,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_certmanager.php, line: 261
 msgid "Final Certificate data"
-msgstr ""
+msgstr "Data výsledného certifikátu"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 112
 msgid "Choose an existing certificate"
@@ -5366,7 +5408,7 @@ msgstr ""
 # File: /usr/core/src/www/system_certmanager.php, line: 378
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
-msgstr ""
+msgstr "Kolonka „E-mailová adresa rozlišeného názvu“ obsahuje neplatné znaky."
 
 # File: /usr/core/src/www/system_camanager.php, line: 300
 # File: /usr/core/src/www/system_camanager.php, line: 568
@@ -5378,42 +5420,42 @@ msgstr "Podepisující certifikační autorita"
 # File: /usr/core/src/www/system_certmanager.php, line: 313
 # File: /usr/core/src/www/system_certmanager.php, line: 326
 msgid "Distinguished name Common Name"
-msgstr ""
+msgstr "Běžně používaný název rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 290
 # File: /usr/core/src/www/system_camanager.php, line: 307
 # File: /usr/core/src/www/system_certmanager.php, line: 312
 # File: /usr/core/src/www/system_certmanager.php, line: 325
 msgid "Distinguished name Email Address"
-msgstr ""
+msgstr "E-mailová adresa rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 289
 # File: /usr/core/src/www/system_camanager.php, line: 306
 # File: /usr/core/src/www/system_certmanager.php, line: 311
 # File: /usr/core/src/www/system_certmanager.php, line: 324
 msgid "Distinguished name Organization"
-msgstr ""
+msgstr "Organizace rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 288
 # File: /usr/core/src/www/system_camanager.php, line: 305
 # File: /usr/core/src/www/system_certmanager.php, line: 310
 # File: /usr/core/src/www/system_certmanager.php, line: 323
 msgid "Distinguished name City"
-msgstr ""
+msgstr "Město rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 287
 # File: /usr/core/src/www/system_camanager.php, line: 304
 # File: /usr/core/src/www/system_certmanager.php, line: 309
 # File: /usr/core/src/www/system_certmanager.php, line: 322
 msgid "Distinguished name State or Province"
-msgstr ""
+msgstr "Stát nebo provincie rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 286
 # File: /usr/core/src/www/system_camanager.php, line: 303
 # File: /usr/core/src/www/system_certmanager.php, line: 308
 # File: /usr/core/src/www/system_certmanager.php, line: 321
 msgid "Distinguished name Country Code"
-msgstr ""
+msgstr "Zkratka země rozlišeného názvu"
 
 # File: /usr/core/src/www/system_camanager.php, line: 285
 # File: /usr/core/src/www/system_camanager.php, line: 302
@@ -5454,7 +5496,7 @@ msgstr "Data certifikátu"
 
 # File: /usr/core/src/www/system_authservers.php, line: 788
 msgid "Additional authentication servers can be added here."
-msgstr ""
+msgstr "Sem je možné přidat další ověřovací servery."
 
 # File: /usr/core/src/www/system_authservers.php, line: 776
 msgid "delete this server"
@@ -5471,6 +5513,8 @@ msgid ""
 "increase this timeout to account for how long it will take the user to "
 "receive and enter a token."
 msgstr ""
+"POZN.: V případě, že používáte dvouúrovňové ověřování, zvyšte tento časový "
+"limit účtu na tak dlouhou, kolik bude uživateli trvat přijmout a zadat token."
 
 # File: /usr/core/src/www/system_authservers.php, line: 668
 msgid "If left blank, the default value is 5 seconds."
@@ -5481,18 +5525,19 @@ msgid ""
 "This value controls how long, in seconds, that the RADIUS server may take to "
 "respond to an authentication request."
 msgstr ""
+"Tato hodnota určuje jak dlouho (v sekundách) čekat na odpověď RADIUS serveru."
 
 # File: /usr/core/src/www/system_authservers.php, line: 663
 msgid "Authentication Timeout"
-msgstr ""
+msgstr "Časový limit ověření"
 
 # File: /usr/core/src/www/system_authservers.php, line: 657
 msgid "Accounting port value"
-msgstr ""
+msgstr "Port pro evidování"
 
 # File: /usr/core/src/www/system_authservers.php, line: 642
 msgid "Authentication and Accounting"
-msgstr ""
+msgstr "Ověřování a evidování"
 
 # File: /usr/core/src/www/system_authservers.php, line: 638
 msgid "Services offered"
@@ -5503,6 +5548,8 @@ msgid ""
 "Typically \"cn\" (OpenLDAP, Novell eDirectory), \"sAMAccountName\" ("
 "Microsoft AD)"
 msgstr ""
+"Typicky „cn“ (OpenLDAP, Novell eDirectory) nebo „sAMAccountName“ (Microsoft "
+"Active Directory)"
 
 # File: /usr/core/src/www/system_authservers.php, line: 619
 msgid "User naming attribute"
@@ -5533,6 +5580,8 @@ msgid ""
 "Semicolon-separated list of distinguished names optionally containing DC= "
 "components."
 msgstr ""
+"Středníkem oddělovaný seznam rozlišených názvů, volitelně obsahující část "
+"DC=."
 
 # File: /usr/core/src/www/system_authservers.php, line: 585
 msgid "Select"
@@ -5540,11 +5589,11 @@ msgstr "Vybrat"
 
 # File: /usr/core/src/www/system_authservers.php, line: 581
 msgid "Authentication containers"
-msgstr ""
+msgstr "Ověřovací kontejnery"
 
 # File: /usr/core/src/www/system_authservers.php, line: 562
 msgid "Base DN"
-msgstr ""
+msgstr "Základ rozlišeného názvu"
 
 # File: /usr/core/src/www/system_authservers.php, line: 570
 msgid "Entire Subtree"
@@ -5564,7 +5613,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_authservers.php, line: 551
 msgid "User DN:"
-msgstr ""
+msgstr "Rozlišený název uživatele:"
 
 # File: /usr/core/src/www/system_authservers.php, line: 549
 msgid "Bind credentials"
@@ -5603,6 +5652,7 @@ msgstr ""
 # File: /usr/core/src/www/system_authservers.php, line: 529
 msgid "This option is used if 'SSL Encrypted' option is choosen."
 msgstr ""
+"Tato předvolba je použita v případě, že je zároveň zvoleno „Šifrováno SSL“."
 
 # File: /usr/core/src/www/system_authservers.php, line: 516
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 738
@@ -5623,6 +5673,8 @@ msgid ""
 "NOTE: When using SSL, this hostname MUST match the Common Name (CN) of the "
 "LDAP server's SSL Certificate."
 msgstr ""
+"POZN: Při použití SSL, je nutné, aby se tento název stroje shodoval s běžně "
+"používaným názvem (CN) SSL certifikátu LDAP serveru."
 
 # File: /usr/core/src/www/system_authservers.php, line: 488
 # File: /usr/core/src/www/system_authservers.php, line: 626
@@ -5654,6 +5706,8 @@ msgstr "Je třeba zadat název serveru"
 # File: /usr/core/src/www/system_authservers.php, line: 192
 msgid "RADIUS Timeout value must be numeric and positive."
 msgstr ""
+"Je třeba, aby hodnota časového limitu pro RADIUS bylo číslo a ještě k tomu "
+"kladné."
 
 # File: /usr/core/src/www/system_authservers.php, line: 188
 msgid "An authentication server with the same name already exists."
@@ -5672,7 +5726,7 @@ msgstr "Sdílené heslo"
 # File: /usr/core/src/www/system_authservers.php, line: 162
 # File: /usr/core/src/www/system_authservers.php, line: 651
 msgid "Authentication port value"
-msgstr ""
+msgstr "Port pro ověřování"
 
 # File: /usr/core/src/www/system_authservers.php, line: 149
 msgid "Bind Password"
@@ -5680,11 +5734,11 @@ msgstr "Spojovací heslo"
 
 # File: /usr/core/src/www/system_authservers.php, line: 148
 msgid "Bind user DN"
-msgstr ""
+msgstr "Rozlišený název uživatele, kterým spojovat"
 
 # File: /usr/core/src/www/system_authservers.php, line: 143
 msgid "Authentication container"
-msgstr ""
+msgstr "Ověřovací kontejner"
 
 # File: /usr/core/src/www/system_authservers.php, line: 142
 msgid "User naming Attribute"
@@ -5692,7 +5746,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_authservers.php, line: 141
 msgid "Search level"
-msgstr ""
+msgstr "Úroveň hledání"
 
 # File: /usr/core/src/www/system_authservers.php, line: 140
 # File: /usr/core/src/www/system_authservers.php, line: 540
@@ -5702,12 +5756,12 @@ msgstr "Verze protokolu"
 # File: /usr/core/src/www/system_authservers.php, line: 139
 # File: /usr/core/src/www/system_authservers.php, line: 503
 msgid "Transport"
-msgstr ""
+msgstr "Přenos"
 
 # File: /usr/core/src/www/system_authservers.php, line: 138
 # File: /usr/core/src/www/system_authservers.php, line: 497
 msgid "Port value"
-msgstr ""
+msgstr "Port"
 
 # File: /usr/core/src/www/system_authservers.php, line: 135
 # File: /usr/core/src/www/system_authservers.php, line: 154
@@ -5731,25 +5785,27 @@ msgstr "Popisný název"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 200
 msgid "Edit system tunable"
-msgstr ""
+msgstr "Upravit vyladění systému"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 185
 msgid "Delete Tunable"
-msgstr ""
+msgstr "Smazat vyladitelnou položku"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 183
 msgid "Edit Tunable"
-msgstr ""
+msgstr "Upravit vyladitelnou položku"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 164
 msgid "Tunable Name"
-msgstr ""
+msgstr "Název vyladitelné položky"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 150
 msgid ""
 "The firewall tunables have changed. You must apply the configuration to take "
 "affect."
 msgstr ""
+"Vyladitelné položky brány firewall se změnily. Aby se projevily, je třeba "
+"změny v nastavení použít."
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 119
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 205
@@ -5758,13 +5814,15 @@ msgstr "Vyladitelné"
 
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 104
 msgid "Add a new tunable"
-msgstr ""
+msgstr "Přidat novou vyladitelnou položku"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 319
 msgid ""
 "NOTE: A test notification will be sent even if the service is marked as "
 "disabled."
 msgstr ""
+"POZN.: Zkušební upozornění bude odeslány i v případě, že je služba označena "
+"jako vypnutá."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 300
 msgid "When this is checked, startup and shutdown sounds will no longer play."
@@ -5786,15 +5844,15 @@ msgstr "Systémové zvuky"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 282
 msgid "Enter the email address password for SMTP authentication."
-msgstr ""
+msgstr "K e-mailové adrese zadejte heslo pro SMTP ověřování."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 277
 msgid "Email auth password"
-msgstr ""
+msgstr "E-mailové ověřovací heslo"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 272
 msgid "Enter the email address username for SMTP authentication."
-msgstr ""
+msgstr "K e-mailové adrese zadejte přihlašovací jméno pro SMTP ověřování."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 271
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 281
@@ -5804,12 +5862,12 @@ msgstr "(volitelné)"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 267
 msgid "Email auth username"
-msgstr ""
+msgstr "Uživatelské jméno pro e-mailové ověření"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 262
 msgid ""
 "Enter the email address that you would like email notifications sent to."
-msgstr ""
+msgstr "Zadejte adresu elektronické pošty na kterou chcete dostávat upozornění."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 258
 msgid "Recipient address"
@@ -5819,6 +5877,8 @@ msgstr "Adresa příjemce"
 msgid ""
 "This is the email address that will appear as the email notification sender."
 msgstr ""
+"Toto je adresa elektronické pošty, která bude vystupovat jako odesilatel "
+"zprávy."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 249
 msgid "Sender address"
@@ -5826,7 +5886,7 @@ msgstr "Adresa odesilatele"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 245
 msgid "Enable STARTTLS"
-msgstr ""
+msgstr "Šifrovat pomocí STARTTLS"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 243
 msgid "Enable SMTP over SSL/TLS"
@@ -5834,27 +5894,31 @@ msgstr "Používat SMTP přes SSL/TLS"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 240
 msgid "Secure SMTP Connection"
-msgstr ""
+msgstr "Zabezpečené SMTP spojení"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 235
 msgid ""
 "This is the port of the SMTP Email server, typically 25, 587 (submission) or "
 "465 (smtps)"
 msgstr ""
+"Toto je port SMTP serveru elektronické pošty, typicky 25, 587 (odesílání) "
+"nebo 465 (zabezpečené smtps)"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 231
 msgid "SMTP Port of Email server"
-msgstr ""
+msgstr "SMTP port serveru elektronické pošty"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 226
 msgid ""
 "This is the FQDN or IP address of the SMTP Email server to which "
 "notifications will be sent."
 msgstr ""
+"Toto je úplný doménový název nebo IP adresa SMTP serveru elektronické pošty "
+"na který budou posílána upozornění."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 222
 msgid "Email server"
-msgstr ""
+msgstr "Server elektronické pošty"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 217
 msgid ""
@@ -5862,27 +5926,30 @@ msgid ""
 "below. Some other mechanisms, such as packages, may need these settings in "
 "place to function."
 msgstr ""
+"Zapnutí této předvolby vypne posílání upozornění elektronickou poštou, ale "
+"níže uvedená nastavení zůstanou zachovaná. I tak totiž mohou být potřebné, "
+"například pro to, aby fungovalo některé další programové vybavení."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 213
 msgid "Disable SMTP Notifications"
-msgstr ""
+msgstr "Přestat posílat upozornění"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 210
 msgid "SMTP Email"
-msgstr ""
+msgstr "Adresa elektronické pošty"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 205
 msgid "Enter the password of the remote growl notification device."
-msgstr ""
+msgstr "Zadejte heslo pro přístup ke growl zařízení pro posílání upozornění."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 196
 msgid ""
 "This is the IP address that you would like to send growl notifications to."
-msgstr ""
+msgstr "Toto je IP adresa na kterou chcete posílat growl upozornění."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 187
 msgid "Enter a name for the Growl notifications (default: %s growl alert)."
-msgstr ""
+msgstr "Zadejte název Growl upozorňování (výchozí: %s growl alert)."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 183
 msgid "Notification Name"
@@ -5890,25 +5957,27 @@ msgstr "Název upozornění"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 178
 msgid "Enter the name to register with the Growl server (default: PHP-Growl)."
-msgstr ""
+msgstr "Zadejte název který registrovat s Growl serverem (výchozí: PHP-Growl)."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 174
 msgid "Registration Name"
-msgstr ""
+msgstr "Registrační název"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 169
 msgid ""
 "Check this option to disable growl notifications but preserve the settings "
 "below."
 msgstr ""
+"Pomocí této předvolby je možné vypnout growl oznamování ale zachovat níže "
+"uvedená nastavení."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 165
 msgid "Disable Growl Notifications"
-msgstr ""
+msgstr "Neposílat Growl upozorňování"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 158
 msgid "Growl"
-msgstr ""
+msgstr "Growl"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 110
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 317
@@ -5918,24 +5987,27 @@ msgstr "Vyzkoušet SMTP"
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 108
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 113
 msgid "This is a test message from %s. It is safe to ignore this message."
-msgstr ""
+msgstr "Toto je zkušební zpráva z %s. Bez obav na ní neberte zřetel."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 102
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 316
 msgid "Test Growl"
-msgstr ""
+msgstr "Vyzkoušet funkčnost Growl"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 175
 msgid ""
 "This will take effect after you reboot the machine or re-configure each "
 "interface."
 msgstr ""
+"Toto se projeví po restartu stroje nebo přenastavení každého z rozhraní."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 165
 msgid ""
 "This option will suppress ARP log messages when multiple interfaces reside "
 "on the same broadcast domain"
 msgstr ""
+"Tato předvolba potlačí zaznamenávání ARP zpráv v situaci, kdy se vícero "
+"rozhraní nachází ve stejné doméně všesměrového vysílání"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 163
 msgid "Suppress ARP messages"
@@ -5951,6 +6023,9 @@ msgid ""
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
 msgstr ""
+"Použití této předvolby vypne filtrování VLAN na úrovni hardware. To je v "
+"případě některých ovladačů zařízení rozbité a může zhoršovat výkon u "
+"některých konkrétních síťových rozhraní."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 151
 msgid "Leave default"
@@ -5974,14 +6049,17 @@ msgid ""
 "This offloading is broken in some hardware drivers, and may impact "
 "performance with some specific NICs."
 msgstr ""
+"Použití této předvolby vypne nakládání s objemným příjmem (LRO) na úrovni "
+"hardware. To je v případě některých ovladačů zařízení rozbité a může "
+"zhoršovat výkon u některých konkrétních síťových rozhraní."
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 134
 msgid "Disable hardware large receive offload"
-msgstr ""
+msgstr "Nenechávat obsluhu objemného příjmu na hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 131
 msgid "Hardware LRO"
-msgstr ""
+msgstr "Hardwarové LRO"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 126
 msgid ""
@@ -6027,6 +6105,8 @@ msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than using the hard disk."
 msgstr ""
+"Toto nastavte pokud si přejete aby se /tmp nacházelo v operační paměti "
+"namísto na trvalém datovém úložišti."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
@@ -6042,14 +6122,17 @@ msgid ""
 "rather than using the hard disk. Setting this will cause the data /var to be "
 "lost on reboot, including log data."
 msgstr ""
+"Toto nastavte pokud si přejete, aby se /var nacházelo v operační paměti "
+"namísto na trvalém datovém úložišti. Tím ale bude obsah /var ztracen při "
+"restartu, včetně záznamů událostí."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 433
 msgid "Use memory file system for /var"
-msgstr ""
+msgstr "Umístit /var do operační paměti"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 430
 msgid "/var RAM disk"
-msgstr ""
+msgstr "/var v operační paměti"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 397
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
@@ -6060,10 +6143,12 @@ msgid ""
 "If the powerd utility can not determine the power state it uses \"normal\" "
 "for control."
 msgstr ""
+"V případě, že nástroj powerd nezjistí stav napájení, bude pro ovládání "
+"použito „běžné“."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid "On Normal Power Mode"
-msgstr ""
+msgstr "V běžném režimu napájení"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 378
 msgid "On Battery Power Mode"
@@ -6160,6 +6245,8 @@ msgid ""
 "This will periodically backup the RRD data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"Toto pravidelně zazálohuje RRD data takže je bude možné při dalším startu "
+"systému automaticky obnovit."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 288
 # File: /usr/core/src/www/system_advanced_misc.php, line: 307
@@ -6419,7 +6506,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 492
 msgid "Firewall Maximum Fragments"
-msgstr ""
+msgstr "Nejvýše fragmentů na bráně firewall"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 508
 msgid ""
@@ -8983,6 +9070,9 @@ msgid ""
 "ntpd may only use values from the unsynchronized local clock when providing "
 "time to clients."
 msgstr ""
+"pro snížení posunu hodin v případě, že GPS data nejsou vždy platná. V "
+"opačném případě může ntpd používat pouze hodnoty z nesynchronizovaných "
+"vestavěných hodin když poskytuje čas klientům."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 524
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 202
@@ -8994,6 +9084,8 @@ msgid ""
 "For the best results, NTP should have at least three sources of time. So it "
 "is best to configure at least 2 servers under"
 msgstr ""
+"Pro nejlepší výsledky, NTP by mělo mít alespoň tři zdroje času. Takže "
+"nejlépe je nastavit alespoň dva servery v"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 522
 msgid ""
@@ -9002,6 +9094,11 @@ msgid ""
 "GPS may also be used as a Pulse Per Second clock reference. NOTE: a USB GPS "
 "may work, but is not recommended due to USB bus timing issues."
 msgstr ""
+"GPS zařízení připojené přes sériový port může být použito jako referenční "
+"hodiny pro NTP. Pokud toto zařízení podporuje také PPS a je správně "
+"nastavené a připojené, pak může být použito také jako referenční hodiny pro "
+"pulzy a sekundu. POZN.: USB GPS mohou fungovat také, ale není to doporučeno "
+"kvůli problémům s časováním na USB sběrnici."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 508
 msgid "Calculate NMEA checksum"
@@ -9027,6 +9124,8 @@ msgid ""
 "Please read and understand your GPS documentation before making any changes "
 "here."
 msgstr ""
+"Pozn.: zde zadané příkazy budou během inicializace poslány GPS zařízení. Než "
+"zde budete provádět změny, nastudujte si dokumentaci ke svému zařízení."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 500
 msgid "Show GPS Initialization commands"
@@ -9063,22 +9162,26 @@ msgstr "Zakrývat v časovém razítku umístění (výchozí: nezakrývat)."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 464
 msgid "Enable kernel PPS clock discipline (default: enabled)."
-msgstr ""
+msgstr "Zapnout disciplínu PPS hodin jádra systému (výchozí: zapnuto)."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 456
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 153
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
 msgstr ""
+"Zapnout zpracovávání signálu „pulzy za sekundu“ na sestupné hraně signálu "
+"(výchozí: náběhová hrana)."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 448
 msgid "Enable PPS signal processing (default: enabled)."
-msgstr ""
+msgstr "Zapnout zpracovávání signálu „pulzy za sekundu“ (výchozí: zapnuto)."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 441
 msgid ""
 "NTP should not use this clock, it will be displayed for reference only "
 "(default: disabled)."
 msgstr ""
+"NTP by tyto hodiny nemělo používat, budou zobrazeny pouze pro referenci "
+"(výchozí: vypnuto)."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 432
 msgid "NTP should prefer this clock (default: enabled)."
@@ -9120,11 +9223,11 @@ msgstr ""
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 400
 msgid "Fudge time 2"
-msgstr ""
+msgstr "Fudge čas 2"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 396
 msgid "Fudge time 1 is used to specify the GPS PPS signal offset"
-msgstr ""
+msgstr "Fudge čas 1 slouží k určení posunu signálu „pulzů za sekundu“ z GPS"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 392
 msgid "Fudge time 1"
@@ -9135,10 +9238,12 @@ msgid ""
 "By default NTP will listen for all supported NMEA sentences. Here one or "
 "more sentences to listen for may be specified."
 msgstr ""
+"Ve výchozím stavu bude NTP naslouchat všem podporovaným NMEA větám. Zde je "
+"možné určit jednu nebo více vět, kterým naslouchat."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 384
 msgid "ZDA or ZDG"
-msgstr ""
+msgstr "ZDA nebo ZDG"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 383
 msgid "GLL"
@@ -9162,6 +9267,9 @@ msgid ""
 "many sentences. It is recommended to configure the GPS to send only one "
 "sentence at a baud rate of 4800 or 9600."
 msgstr ""
+"Pozn.: Vyšší baudová rychlost je obecně užitečná pouze pokud GPS zařízení "
+"posílá příliš mnoho vět. Je doporučeno nastavit GPS tak, aby odesílalo pouze "
+"jednu  větu na baudové rychlosti 4800 nebo 9600."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 358
 msgid "Serial port baud rate."
@@ -9184,6 +9292,8 @@ msgid ""
 "The perdefined configurations assume your GPS has already been set to NMEA "
 "mode."
 msgstr ""
+"Předpřipravená nastavení předpokládají, že váš GPS přijímač je už nastavený "
+"na NMEA režim."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 332
 msgid "Select Generic if your GPS is not listed."
@@ -9191,7 +9301,7 @@ msgstr "Pokud zde váš GPS přijímač není uveden, použijte Obecný."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 330
 msgid "This option allows you to select a predefined configuration."
-msgstr ""
+msgstr "Tato předvolba umožňuje vybrat předpřipravené nastavení."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 326
 msgid "SureGPS"
@@ -9220,7 +9330,7 @@ msgstr "Nastavení sériové GPS pro NTP"
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 55
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 57
 msgid "Clock stratum must be a number in the range 0..16"
-msgstr ""
+msgstr "Je třeba, aby stratum hodin bylo číslo z rozsahu 0 až 16"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 381
 msgid "select a file to upload:"
@@ -9237,6 +9347,7 @@ msgstr "Zadejte nastavení přestupné sekundy jako text:"
 # File: /usr/core/src/www/services_ntpd.php, line: 377
 msgid "Normally this is only useful if this server is a stratum 1 time server."
 msgstr ""
+"Běžně je toto k něčemu pouze když se jedná o časový server úrovně stratum 1."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 376
 msgid ""
@@ -14226,6 +14337,9 @@ msgid ""
 "when requesting a DHCP lease. Some ISPs may require this (for client "
 "identification)."
 msgstr ""
+"Hodnota z této kolonky je odeslána jako identifikátor DHCP klienta a název "
+"stroje při požadavku o DHCP zápůjčku. Někteří poskytovatelé připojení toto "
+"mohou vyžadovat (pro identifikaci klienta)."
 
 # File: /usr/core/src/www/interfaces.php, line: 1934
 # File: /usr/core/src/www/interfaces.php, line: 2444
@@ -14233,6 +14347,8 @@ msgid ""
 "The configuration file override mode may point to a fully customised file on "
 "the system instead."
 msgstr ""
+"Režim přebití souboru s nastaveními může odkazovat na zcela přizpůsobený "
+"alternativní soubor s nastaveními."
 
 # File: /usr/core/src/www/interfaces.php, line: 1933
 # File: /usr/core/src/www/interfaces.php, line: 2443
@@ -14240,6 +14356,8 @@ msgid ""
 "The advanced mode does not provide any default values, you will need to fill "
 "out any values you would like to use."
 msgstr ""
+"Pokročilý režim nenabízí žádné výchozí hodnoty – vše co byste rádi použili "
+"je třeba vyplnit."
 
 # File: /usr/core/src/www/interfaces.php, line: 1932
 # File: /usr/core/src/www/interfaces.php, line: 2442
@@ -14247,6 +14365,8 @@ msgid ""
 "The basic mode auto-configures DHCP using default values and optional user "
 "input."
 msgstr ""
+"Základní režim automaticky nastaví DHCP s použitím výchozích hodnot a "
+"volitelného vstupu od uživatele."
 
 # File: /usr/core/src/www/interfaces.php, line: 1924
 # File: /usr/core/src/www/interfaces.php, line: 2049
@@ -14277,6 +14397,7 @@ msgstr "Brány je možné spravovat %szde%s."
 # File: /usr/core/src/www/interfaces.php, line: 2366
 msgid "On local LANs the upstream gateway should be \"none\"."
 msgstr ""
+"V případě místních sítí by nadřazená brána měla být nastavená na „žádná“."
 
 # File: /usr/core/src/www/interfaces.php, line: 1890
 # File: /usr/core/src/www/interfaces.php, line: 2365
@@ -14320,7 +14441,7 @@ msgstr "Přidat novou."
 
 # File: /usr/core/src/www/interfaces.php, line: 1836
 msgid "IPv4 Upstream Gateway"
-msgstr ""
+msgstr "IPv4 nadřazená brána"
 
 # File: /usr/core/src/www/interfaces.php, line: 1809
 msgid "Static IPv4 configuration"
@@ -14333,6 +14454,10 @@ msgid ""
 "speed) unless the port this interface connects to has its speed and duplex "
 "forced."
 msgstr ""
+"Zde je možné výslovně nastavit rychlost a duplexní režim pro toto rozhraní. "
+"VAROVÁNÍ: Je NEZBYTNÉ ponechat toto na automatický výběr (automaticky "
+"dohodnout rychlost) pokud protějšek tohoto rozhraní nemá svou rychlost a "
+"duplex vynucený."
 
 # File: /usr/core/src/www/interfaces.php, line: 1783
 msgid "Default (no preference, typically autoselect)"
