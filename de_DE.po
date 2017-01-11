@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-03 21:11+0000\n"
+"POT-Creation-Date: 2017-01-11 17:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9583,7 +9583,7 @@ msgid ""
 msgstr ""
 
 msgid "Signed 8-bit integer type must be a number in the range -128 to 127."
-msgstr ""
+msgstr "Vorzeichenbehaftete 8-Bit-Ganzzahl muss im Bereich -128 bis 127 liegen."
 
 msgid ""
 "Unsigned 32-bit integer type must be a number in the range 0 to 4294967295."
@@ -9610,6 +9610,9 @@ msgid ""
 "octets specified in hexadecimal, separated by colons, like "
 "01:23:45:67:89:ab:cd:ef"
 msgstr ""
+"Zeichenkettendaten müssen wie \"hier\" in Anführungszeichen stehen oder "
+"müssen als Serie von durch Doppelpukt getrennten hexadezimalen Oktetten wie "
+"01:23:45:67:89:ab:cd:ef angegeben werden"
 
 msgid "Text type cannot include quotation marks."
 msgstr "Text-Typ kann keine Fragezeichen beinhalten."
@@ -9736,7 +9739,7 @@ msgstr "Es werden nur Schnittstellen mit einer statischen IP angezeigt."
 
 # File: /usr/core/src/www/reporting_settings.php, line: 202
 msgid "flush report"
-msgstr ""
+msgstr "Meldung verwerfen"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 194
 msgid "Reports"
@@ -9780,6 +9783,8 @@ msgid ""
 "Do you really want to reset the netflow data? This will erase all Insight "
 "graph data."
 msgstr ""
+"Wollen sie die Netflow-Daten wirklich zurücksetzen? Dadurch werden alle "
+"Insight-Graphendaten gelöscht."
 
 # File: /usr/core/src/www/reporting_settings.php, line: 102
 msgid "Netflow/Insight"
@@ -10143,7 +10148,7 @@ msgstr "Der Pfad zum Monitor muss angegeben werden."
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 142
 msgid "HTTP(S) codes must be from RFC 2616."
-msgstr ""
+msgstr "HTTP(S)-Codes müssen aus dem RFC 2616 stammen."
 
 msgid "The hostname can only contain the characters A-Z, 0-9 and '-'."
 msgstr "Der Hostname darf nur folgende Zeichen enthalten: A-Z, 0-9 und '-'."
@@ -10377,6 +10382,8 @@ msgstr ""
 
 msgid "Disable protocomp (compression) (auto-negotiated by default)."
 msgstr ""
+"Deaktiviere protocomp (Komprimierung) (wird standardmäßig automatisch "
+"bestimmt)."
 
 msgid "ProtoComp"
 msgstr "ProtoComp"
@@ -10390,6 +10397,8 @@ msgstr ""
 
 msgid "Disable acfcomp (compression) (auto-negotiated by default)."
 msgstr ""
+"Deaktiviere acfcomp (Komprimierung) (wird standardmäßig automatisch "
+"bestimmt)."
 
 msgid "ACFComp"
 msgstr "ACFComp"
@@ -12106,6 +12115,8 @@ msgid ""
 "The value in this field is the full absolute path to a DHCP client "
 "configuration file."
 msgstr ""
+"Der Wert in diesem Feld ist der vollständige absolute Pfad zu einer DHCP-"
+"Client-Konfigurationsdatei."
 
 # File: src/www/interfaces.php, line: 2704
 msgid "Configuration File Override"
@@ -12484,6 +12495,8 @@ msgstr "Die Länge des Passworts muss zwischen 8 und 63 Zeichen lang sein."
 msgid ""
 "Invalid WEP key size. Sizes should be 40 (64) bit keys or 104 (128) bit."
 msgstr ""
+"Ungültige WEP-Schlüssellänge. Die Schlüssel sollten 40 (64) Bit oder 104 "
+"(128) Bit lang sein."
 
 # File: /usr/core/src/www/interfaces.php, line: 880
 msgid ""
@@ -12760,19 +12773,23 @@ msgstr "Die Änderungen wurden erfolgreich angewandt."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 270
 msgid "SSH remote login is disabled."
-msgstr ""
+msgstr "Ferner SSH-Login ist deaktiviert."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 269
 msgid ""
 "SSH remote login is enabled for the users \"root\" and \"installer\" using "
 "the same password."
 msgstr ""
+"Ferner SSH-Login ist für die Benutzer \"root\" und \"installer\" unter "
+"Verwendung des selben Passworts aktiviert."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 268
 msgid ""
 "You are currently running in LiveCD mode. A reboot will reset the "
 "configuration."
 msgstr ""
+"Das System läuft derzeit im LiveCD-Modus. Durch einen Neustart wird die "
+"Konfiguration zurückgesetzt."
 
 # File: src/www/guiconfig.inc, line: 259
 msgid ""
@@ -13329,7 +13346,7 @@ msgstr "Fr"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1381
 msgid "Source and more information can be found %shere%s."
-msgstr ""
+msgstr "Quelle und mehr Information kann %shier%s gefunden werden."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1379
 msgid ""
@@ -14465,7 +14482,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 843
 msgid "Single host"
-msgstr ""
+msgstr "Einzelner Host"
 
 msgid ""
 "Specify the port or port range for the destination of the packet for this "
@@ -17940,7 +17957,7 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 446
 msgid "Password length must be a number or empty for default."
-msgstr ""
+msgstr "Passwortlänge muss eine Zahl oder leer für den Standardwert sein."
 
 # File: /usr/core/src/www/system_authservers.php, line: 703
 msgid "Specify alternative password length for generating vouchers"
@@ -17953,7 +17970,7 @@ msgstr "Passwortlänge"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 434
 msgid "Username length must be a number or empty for default."
-msgstr ""
+msgstr "Benutzernamenlänge muss eine Zahl oder leer für den Standardwert sein."
 
 # File: /usr/core/src/www/system_authservers.php, line: 694
 msgid "Specify alternative username length for generating vouchers"
@@ -18043,15 +18060,15 @@ msgstr "Netzwerkeinsicht"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 64
 msgid "System Routing Table"
-msgstr ""
+msgstr "Systemroutingtabelle"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 55
 msgid "Interfaces NDP Table"
-msgstr ""
+msgstr "Schnittstellen NDP-Tabelle"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 46
 msgid "Interfaces ARP Table"
-msgstr ""
+msgstr "Schnittstellen ARP-Tabelle"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/ActivityController.php, line: 43
 msgid "System Activity"
@@ -18065,6 +18082,8 @@ msgstr "Cron-Einstellungen"
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 146
 msgid "Firmware status check was aborted internally. Please try again."
 msgstr ""
+"Die Firmwarestatusprüfung wurde intern abgebrochen. Bitte versuchen Sie es "
+"erneut."
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 125
 msgid "update"
@@ -20004,11 +20023,11 @@ msgstr "Warnung: dies trennt alle laufenden L2TP-Sitzungen!"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/SSOProxyAD/IndexController.php, line: 35
 msgid "SSO Proxy Active Directory"
-msgstr ""
+msgstr "SSO Proxy Active Directory"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
 msgid "SSO Proxy AD"
-msgstr ""
+msgstr "SSO Proxy AD"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
 msgid "Join Domain"
@@ -20037,7 +20056,7 @@ msgstr "(FQ-)CoDel-ECN"
 
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "(FQ-)CoDel interval"
-msgstr ""
+msgstr "(FQ-)CoDel-Intervall"
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "(FQ-)CoDel target"
@@ -20361,7 +20380,7 @@ msgstr "Befehl"
 
 # File: /usr/lang/src/controllers.php, line: 111
 msgid "Compose expression"
-msgstr ""
+msgstr "Ausdruck erstellen"
 
 # File: /usr/lang/src/controllers.php, line: 112
 msgid "Concurrent user logins"
@@ -20369,7 +20388,7 @@ msgstr "Gleichzeitige Benutzeranmeldungen"
 
 # File: /usr/lang/src/controllers.php, line: 113
 msgid "Conditional parameters"
-msgstr ""
+msgstr "Bedingte Parameter"
 
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
@@ -20717,7 +20736,7 @@ msgstr "Regelwerk aktivieren"
 
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Enable store logging"
-msgstr ""
+msgstr "Aktiviere Speicherprotokollierung"
 
 # File: lang/dynamic/helpers/controllers.php, line: 40
 msgid "Enable store logging."
@@ -20854,7 +20873,7 @@ msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 72
 msgid "Enter the cache memory size to use."
-msgstr "Geben die zu verwendende Größe des Cache Speichers an."
+msgstr "Geben Sie die zu verwendende Größe des Cache Speichers an."
 
 # File: lang/dynamic/helpers/controllers.php, line: 88
 msgid ""
@@ -21363,6 +21382,9 @@ msgid ""
 "NOTE: Define default parameters for ALL Frontends, Backends and Servers "
 "here. They may still be overriden elsewhere."
 msgstr ""
+"HINWEIS: Definieren Sie hier die Standardparameter für ALLE Frontends, "
+"Backends und Server. Diese können ggf. an anderer Stelle überschrieben "
+"werden."
 
 # File: /usr/lang/src/controllers.php, line: 316
 msgid ""
@@ -21464,7 +21486,7 @@ msgstr "Optionale Parameter"
 
 # File: /usr/lang/src/controllers.php, line: 338
 msgid "Overall bandwidth throttling (kbps)"
-msgstr ""
+msgstr "Gestamtbandbreitenbegrenzung (kbps)"
 
 # File: /usr/lang/src/controllers.php, line: 339
 msgid "Parameters"
@@ -21479,14 +21501,17 @@ msgid ""
 "Paste the content of your errorfile here. The files should not exceed the "
 "configured buffer size, which generally is 8 or 16 kB."
 msgstr ""
+"Fügen Sie den Inhalt Ihrer Fehlerdatei hier ein. Diese Dateien sollten die "
+"konfigurierte Puffergröße nicht überschreiten, welche üblicherweise 8 oder "
+"16 kB beträgt."
 
 # File: /usr/lang/src/controllers.php, line: 342
 msgid "Pattern matcher"
-msgstr ""
+msgstr "Musterprüfer"
 
 # File: /usr/lang/src/controllers.php, line: 343
 msgid "Per host bandwidth throttling (kbps)"
-msgstr ""
+msgstr "Bandbreitenbeschränkung pro Host (kbps)"
 
 msgid "Port"
 msgstr "Port"
@@ -21500,6 +21525,8 @@ msgid ""
 "Port where the proxy will listen for redirected connections. The default is "
 "port 8021."
 msgstr ""
+"Port, auf dem der Proxy auf umgeleitete Verbindungen wartet. Der "
+"Standardport ist 8021."
 
 # File: /usr/lang/src/controllers.php, line: 347
 msgid "Preview Size"
@@ -21640,11 +21667,11 @@ msgstr "SSL-Clientzertifikat"
 
 # File: /usr/lang/src/controllers.php, line: 379
 msgid "SSL Domain/IP only"
-msgstr ""
+msgstr "Nur SSL-Domain/IP"
 
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "SSL Offloading"
-msgstr ""
+msgstr "SSL-Entlastung"
 
 # File: /usr/lang/src/controllers.php, line: 381
 msgid "SSL Proxy port"
@@ -22039,7 +22066,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 459
 msgid "Suppress version string"
-msgstr ""
+msgstr "Versionszeichenkette unterdrücken"
 
 # File: /usr/lang/src/controllers.php, line: 460
 msgid "Syslog facility"
@@ -22209,7 +22236,7 @@ msgstr "Unbeschränkte IP-Adressen"
 
 # File: /usr/lang/src/controllers.php, line: 494
 msgid "Use Frontend port"
-msgstr ""
+msgstr "Den Frontend-Port verwenden"
 
 # File: /usr/lang/src/controllers.php, line: 495
 msgid "Use Via header"
@@ -22289,7 +22316,7 @@ msgstr "Ausnahmeliste"
 
 # File: /usr/lang/src/controllers.php, line: 512
 msgid "Whitespace handling of URI"
-msgstr ""
+msgstr "Leerzeichenbehandlung von URI"
 
 # File: /usr/lang/src/controllers.php, line: 513
 msgid "X-Forwarded for header handling"
@@ -22405,7 +22432,7 @@ msgstr "Passwort (optional)"
 
 # File: /usr/lang/src/controllers.php, line: 541
 msgid "pipe"
-msgstr ""
+msgstr "Pipe"
 
 # File: /usr/lang/src/controllers.php, line: 542
 msgid "proto"
@@ -22455,7 +22482,7 @@ msgstr "Quellport"
 
 # File: /usr/lang/src/controllers.php, line: 552
 msgid "ssl ignore cert"
-msgstr ""
+msgstr "SSL-Zertifikat ignorieren"
 
 # File: /usr/lang/src/controllers.php, line: 553
 msgid "target"
@@ -22524,7 +22551,7 @@ msgstr "Zuweisungen"
 
 # File: /usr/lang/src/models.php, line: 49
 msgid "Auth"
-msgstr ""
+msgstr "Authentifizierung"
 
 # File: lang/dynamic/helpers/models.php, line: 41
 msgid "Authorities"
@@ -23263,7 +23290,7 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 214
 msgid "Related item not found"
-msgstr ""
+msgstr "Zugehöriger Artikel nicht gefunden"
 
 # File: lang/dynamic/helpers/models.php, line: 234
 msgid "Related pipe not found"
