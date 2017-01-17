@@ -1,5 +1,5 @@
 """
-    Copyright (c) 2015 Deciso B.V.
+    Copyright (c) 2017 Smart-Soft
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
@@ -28,7 +28,7 @@
     package : translate
     function: collect controller translatable text
 """
-__author__ = 'Ad Schellevis'
+__author__ = 'Alexander Shursha'
 
 def recursiveParseWizard(xmlNode):
     for childNode in xmlNode:
