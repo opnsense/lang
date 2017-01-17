@@ -2,14 +2,15 @@
 # Copyright (C) OPNsense project.
 # This file is distributed under the same BSD license as the OPNsense project.
 # Chie Taguchi, Kiyo Takami, and Isaac (.ike) Levy, 2013-2017.
+# https://github.com/dotike/opnsense.core.ja_JP.UTF8
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-03 21:13+0000\n"
+"POT-Creation-Date: 2017-01-17 08:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
-"Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +85,7 @@ msgid "MBUF Usage"
 msgstr "MBUF 使用量"
 
 msgid "State table size"
-msgstr "ステータステーブルサイズ"
+msgstr "ステートテーブルサイズ"
 
 msgid "Last config change"
 msgstr "最新構成変更"
@@ -3109,7 +3110,7 @@ msgstr "同期設定の構成 ( XMLRPC 同期 )"
 msgid ""
 "Setting this option will force pfsync to synchronize its state table to this "
 "IP address. The default is directed multicast."
-msgstr "このオプション設定は、pfsync のステータステーブルをこの IP アドレスに同期するよう強制します。デフォルトはマルチキャストです。"
+msgstr "このオプション設定は、pfsync のステートテーブルをこの IP アドレスに同期するよう強制します。デフォルトはマルチキャストです。"
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
@@ -3136,7 +3137,7 @@ msgstr "LAN 以外のインタフェースにこれを設定することを推�
 msgid ""
 "If Synchronize States is enabled, it will utilize this interface for "
 "communication."
-msgstr "ステータスの同期が有効な場合は、通信にこのインタフェースを使用するようになります。"
+msgstr "ステートの同期が有効な場合は、通信にこのインタフェースを使用するようになります。"
 
 # File: src/www/system_hasync.php, line: 123
 msgid "loopback"
@@ -3161,18 +3162,18 @@ msgid ""
 "and imports them into the local state table.%sThis setting should be enabled "
 "on all members of a failover group."
 msgstr ""
-"pfsync はステータス挿入、更新、削除のメッセージをファイアウォール間で転送します。%sそれぞれのファイアウォールは、PFSYNC プロトコル (%"
+"pfsync はステート挿入、更新、削除のメッセージをファイアウォール間で転送します。%sそれぞれのファイアウォールは、PFSYNC プロトコル (%"
 "sIP プロトコル 240%s) を使用して、それらのメッセージを指定したインタフェースにマルチキャスト経由で外向きに送信します。%sまた、その他のファイ"
-"アウォールからの同様のメッセージをインタフェースでリスンし、ローカルステータステーブルにそれらをインポートします。%sこの設定はフェイルオーバグループの全"
-"てのメンバで有効にしなければいけません。"
+"アウォールからの同様のメッセージをインタフェースでリスンし、ローカルステートテーブルにそれらをインポートします。%sこの設定はフェイルオーバグループの全て"
+"のメンバで有効にしなければいけません。"
 
 # File: src/www/system_hasync.php, line: 127
 msgid "Synchronize States"
-msgstr "ステータスを同期"
+msgstr "ステートを同期"
 
 # File: src/www/system_hasync.php, line: 98
 msgid "State Synchronization"
-msgstr "同期のステータス"
+msgstr "ステート同期"
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 470
 msgid ""
@@ -5164,10 +5165,10 @@ msgid ""
 msgstr "注意: 空白にするとデフォルトになります。あなたのシステムのデフォルトサイズ: "
 
 msgid "Maximum number of connections to hold in the firewall state table."
-msgstr "ファイアウォールステータステーブルに保持する接続の最大数。"
+msgstr "ファイアウォールステートテーブルに保持する接続の最大数。"
 
 msgid "Firewall Maximum States"
-msgstr "ファイアウォールステータスの最大値"
+msgstr "ファイアウォールステートの最大値"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
@@ -5180,9 +5181,9 @@ msgid ""
 "define the scale factor, it should not actually be reached (set a lower "
 "state limit, see below)."
 msgstr ""
-"このステータスエントリ数に達すると、全てのタイムアウト値は 0 "
-"になり、全てのステータスエントリを効果的に即時除去します。この値はスケール係数の定義として使用されるもので、実質的に到達されない値にすべきです( "
-"下限ステータスを設定してください。下記を参照 )。"
+"このステートエントリ数に達すると、全てのタイムアウト値は 0 "
+"になり、全てのステートエントリを効果的に即時除去します。この値はスケール係数の定義として使用されるもので、実質的に到達されない値にすべきです( "
+"下限ステートを設定してください。下記を参照 )。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
@@ -5190,13 +5191,13 @@ msgid ""
 "begins. All timeout values are scaled linearly with factor (adaptive.end - "
 "number of states) / (adaptive.end - adaptive.start)."
 msgstr ""
-"ステータスエントリの数がこの値を超過すると、適応スケーリングが開始されます。全てのタイムアウト値は ( adaptive.end - ステータス数 ) /"
-" ( adaptive.end - adaptive.start ) 係数で直線的に拡大縮小されます。"
+"ステートエントリの数がこの値を超過すると、適応スケーリングが開始されます。全てのタイムアウト値は ( adaptive.end - ステート数 ) / ("
+" adaptive.end - adaptive.start ) 係数で直線的に拡大縮小されます。"
 
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
 "entries grows."
-msgstr "ステータスタイムアウトは、ステータステーブルエントリの増加数に応じて拡大縮小させることができます。"
+msgstr "ステートタイムアウトは、ステートテーブルエントリの増加数に応じて拡大縮小させることができます。"
 
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
@@ -5254,7 +5255,7 @@ msgid "As the name says, it is the normal optimization algorithm"
 msgstr "名前の通り、一般的な最適化アルゴリズムです"
 
 msgid "Select the type of state table optimization to use"
-msgstr "ステータステーブルの最適化に使用するタイプを選択してください"
+msgstr "ステートテーブルの最適化に使用するタイプを選択してください"
 
 msgid "conservative"
 msgstr "コンサバティブ"
@@ -5277,11 +5278,11 @@ msgid ""
 "expiration time has come. This option overrides that behavior by not "
 "clearing states for existing connections."
 msgstr ""
-"デフォルトでは、有効期間が切れた時点で、スケジュールは既存の接続ステータスを消去します。このオプションはその振る舞いを上書きするため、既存の接続ステータス"
-"は消去されません。"
+"デフォルトでは、スケジュールは有効期間が切れた時点で既存の接続ステートを消去します。このオプションはその振る舞いを上書きするため、既存の接続ステートは消去"
+"されません。"
 
 msgid "Schedule States"
-msgstr "スケジュールステータス"
+msgstr "ステートのスケジュール"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 390
 msgid ""
@@ -5291,7 +5292,7 @@ msgid ""
 "relationship to persist for longer periods of time."
 msgstr ""
 "スティッキー接続の送信元追跡タイムアウトを秒単位で設定します。デフォルトは 0 "
-"で、送信元追跡はステータスの有効期限が切れると削除されます。このタイムアウトを高く設定すると、送信元 / 送信先の関係はより長期間持続するようになります。"
+"で、送信元追跡はステートの有効期限が切れると削除されます。このタイムアウトを高く設定すると、送信元 / 送信先の関係はより長期間持続するようになります。"
 
 # File: src/www/system_advanced_misc.php, line: 335
 msgid "Source tracking timeout"
@@ -5306,9 +5307,9 @@ msgid ""
 "Further connections from that host will be redirected to the next gateway in "
 "the round-robin."
 msgstr ""
-"連続した接続は、同じ送信元が同じゲートウェイに送信している接続を、ラウンドロビン方式でサーバにリダイレクトします。このような「スティッキー接続」は、この接"
-"続を参照するステータスと同じ期間存在します。ステータスの有効期限が切れると、スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、ラウンド"
-"ロビンで次のゲートウェイにリダイレクトされます。"
+"連続した接続は、同じ送信元が同じゲートウェイに送信している接続をラウンドロビン方式でサーバにリダイレクトします。このような「スティッキー接続」は、この接続"
+"を参照するステートと同じ期間存在します。ステートの有効期限が切れると、スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、ラウンドロビン"
+"で次のゲートウェイにリダイレクトされます。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 372
 msgid "Multi-WAN"
@@ -5323,7 +5324,7 @@ msgstr ""
 "ェイに送信されます。このオプションはその振る舞いを上書きし、ゲートウェイがダウンしていても、ルールは新規作成されません。"
 
 msgid "Skip rules when gateway is down"
-msgstr "ゲートウェイのダウン時は、ルールをスキップ"
+msgstr "ゲートウェイのダウン時はルールをスキップ"
 
 # File: src/www/system_advanced_misc.php, line: 495
 msgid "Skip rules"
@@ -5333,16 +5334,16 @@ msgid ""
 "The monitoring process will flush states for a gateway that goes down if "
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
-"このボックスがチェックされていない場合、ゲートウェイがダウンする時に監視プロセスはステータスをフラッシュします。このボックスをチェックすると、この振る舞い"
-"を無効にします。"
+"このボックスがチェックされていない場合、ゲートウェイがダウンする時に監視プロセスはステートをフラッシュします。このボックスをチェックするとこの振る舞いを無"
+"効にします。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 353
 msgid "Disable State Killing on Gateway Failure"
-msgstr "ゲートウェイ障害でステータスのキルを無効"
+msgstr "ゲートウェイ障害でステートのキルを無効"
 
 # File: src/www/system_advanced_misc.php, line: 485
 msgid "Kill states"
-msgstr "ステータスをキル"
+msgstr "ステートをキル"
 
 msgid "Gateway Monitoring"
 msgstr "ゲートウェイ監視"
@@ -5469,7 +5470,7 @@ msgid "The Firewall Maximum Frags value must be an integer."
 msgstr "ファイアウォールフラグの最大値は整数です。"
 
 msgid "The Firewall Maximum States value must be an integer."
-msgstr "ファイアウォールステータスの最大値は整数です。"
+msgstr "ファイアウォールステートの最大値は整数です。"
 
 msgid "The Firewall Adaptive End value must be an integer."
 msgstr "ファイアウォール適応終了値は整数です。"
@@ -6038,7 +6039,7 @@ msgid "Cell Service"
 msgstr "セルサービス"
 
 msgid "Cell SIM State"
-msgstr "セル SIM ステータス"
+msgstr "セル SIM ステート"
 
 msgid "Cell Mode"
 msgstr "セルモード"
@@ -6226,13 +6227,13 @@ msgid "End"
 msgstr "終了"
 
 msgid "Peer State"
-msgstr "ピアステータス"
+msgstr "ピアステート"
 
 msgid "Since"
 msgstr "期限開始"
 
 msgid "My State"
-msgstr "自分のステータス"
+msgstr "自分のステート"
 
 msgid "Failover Group"
 msgstr "フェイルオーバグループ"
@@ -7150,8 +7151,8 @@ msgid ""
 " DHCPv6 Server, \"Assisted\" for DHCPv6 Server assignment combined with "
 "Stateless Autoconfig"
 msgstr ""
-"「ルータのみ」を使用すると、ルータ広告のみを行います。「非管理」はステートレスな自動構成のルータ広告、「管理」は DHCPv6 "
-"サーバ経由の割当て、「支援」はステートレスな自動構成と DHCPv6 サーバ割当てを組み合わせたものです。"
+"「ルータのみ」を使用するとこのルータの広告のみを行います。「非管理」はステートレスな自動構成のルータ広告、「管理」は DHCPv6 "
+"サーバ経由の割当て、「支援」は DHCPv6 サーバ割当てにステートレスな自動構成を組み合わせます。"
 
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
 msgstr "ルータ広告 (RA) デーモンの動作モードを選択してください。"
@@ -7643,7 +7644,7 @@ msgstr "ntpq 及び ntpdc クエリを無効 ( デフォルト: 無効 )。"
 msgid ""
 "Deny state modifications (i.e. run time configuration) by ntpq and ntpdc "
 "(default: enabled)."
-msgstr "ntpq 及び ntpdc による状態変更 ( ランタイム構成 ) を拒否 ( デフォルト: 有効 )。"
+msgstr "ntpq 及び ntpdc によるステート変更 ( ランタイム構成 ) を拒否します ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 359
 msgid "Enable Kiss-o'-death packets (default: enabled)."
@@ -9151,7 +9152,7 @@ msgstr "静的 IP で構成されたインタフェースのみが表示され�
 
 # File: /usr/core/src/www/reporting_settings.php, line: 202
 msgid "flush report"
-msgstr "レポートの初期化"
+msgstr "レポートの書き込み"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 194
 msgid "Reports"
@@ -9332,8 +9333,8 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
-"連続した接続は、同じ送信元が同じ Web サーバに送信している接続を、ラウンドロビン方式でサーバにリダイレクトします。このような「スティッキー接続」は、こ"
-"の接続を参照するステータスと同じ期間存在します。ステータスの有効期限が切れると、スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、"
+"連続した接続は、同じ送信元が同じ Web サーバに送信している接続をラウンドロビン方式でサーバにリダイレクトします。このような「スティッキー接続」は、この"
+"接続を参照するステートと同じ期間存在します。ステートの有効期限が切れると、スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、"
 "ラウンドロビンで次の Web サーバにリダイレクトされます。"
 
 msgid "Use sticky connections"
@@ -12219,7 +12220,7 @@ msgstr "本当にこのエントリを削除しますか？"
 msgid ""
 "This entry cannot be deleted because it is still referenced by a CARP IP "
 "with the description %s."
-msgstr ""
+msgstr "このエントリは削除できません。説明 %s で CARP IP に参照されています。"
 
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
@@ -12497,7 +12498,7 @@ msgstr "新規スケジュールを追加"
 
 # File: /usr/core/src/www/firewall_schedule.php, line: 63
 msgid "Cannot delete Schedule. Currently in use by %s"
-msgstr ""
+msgstr "スケジュールを削除できません。現在 %s で使用されています"
 
 msgid "September"
 msgstr "9 月"
@@ -12558,7 +12559,7 @@ msgstr "金"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1381
 msgid "Source and more information can be found %shere%s."
-msgstr ""
+msgstr "ソースコードと詳しい情報は%sこちら%sにあります。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1379
 msgid ""
@@ -12566,6 +12567,8 @@ msgid ""
 "you're doing advanced queueing in certain situations. Please check the "
 "documentation."
 msgstr ""
+"%sなし%s: "
+"記録目的でステート機能を使用しないでください。この機能が有用なのは、特定の状況で高度なキュー操作を行うような場合だけです。ドキュメントを確認してください。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 msgid ""
@@ -12573,25 +12576,29 @@ msgid ""
 "from spoofed TCP SYN floods. This option includes the functionality of keep "
 "state and modulate state combined."
 msgstr ""
+"%sSYN proxy state%s 着信する TCP 接続にプロキシを使用し、IP スプーフィング SYN flood "
+"攻撃からサーバを防御する支援をします。このオプションには keep state と modulate state を組み合わせた機能を含んでいます。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1377
 msgid ""
 "%sSloppy state%s works like keep state, but it does not check sequence "
 "numbers. Use it when the firewall does not see all packets."
 msgstr ""
+"%ssloppy state%s keep state "
+"と同様の動作をしますが、シーケンス番号をチェックしません。ファイアウォールが全てのパケットを参照しない場合に使用してください。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1376
 msgid "%sKeep state%s is used for stateful connection tracking."
-msgstr ""
+msgstr "%skeep state%s ステートフル接続の追跡に使用されます。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 msgid ""
 "Hint: Select which type of state tracking mechanism you would like to use. "
 "If in doubt, use keep state."
-msgstr "ヒント: 使用したいステータス追跡メカニズムのタイプを選択してください。迷った場合は keep state を使用してください。"
+msgstr "ヒント: 使用したいステート追跡機能のタイプを選択してください。迷った場合は keep state を使用してください。"
 
 msgid "synproxy state"
-msgstr "synproxy state"
+msgstr "SYN proxy state"
 
 msgid "sloppy state"
 msgstr "sloppy state"
@@ -12602,10 +12609,10 @@ msgstr "keep state"
 # File: src/www/firewall_rules_edit.php, line: 1315
 msgid ""
 "Hint: This prevents states created by this rule to be sync'ed over pfsync."
-msgstr "ヒント: この設定は、pfsync でこのルールが同期されることにより、ステータスが作成されないようにします。"
+msgstr "ヒント: この設定は pfsync でこのルールが同期されることによってステートが作成されないようにします。"
 
 msgid "State Type"
-msgstr "ステータスタイプ"
+msgstr "ステートタイプ"
 
 # File: src/www/firewall_rules_edit.php, line: 1376
 msgid "NO pfsync"
@@ -12631,11 +12638,11 @@ msgid "TCP flags"
 msgstr "TCP フラグ"
 
 msgid "State Timeout in seconds (TCP only)"
-msgstr "数秒でステータスタイムアウトします ( TCP のみ )"
+msgstr "数秒でステートタイムアウトします ( TCP のみ )"
 
 # File: src/www/firewall_rules_edit.php, line: 1329
 msgid "State timeout"
-msgstr "ステータスタイムアウト"
+msgstr "ステートタイムアウト"
 
 msgid "Maximum new connections per host / per second(s) (TCP only)"
 msgstr "ホスト / 秒単位の新規接続の最大数 ( TCP のみ )"
@@ -12645,11 +12652,11 @@ msgid "Max new connections"
 msgstr "最大新規接続"
 
 msgid " Maximum state entries per host"
-msgstr "ホスト毎の最大ステータスエントリ"
+msgstr "ホスト毎の最大ステートエントリ"
 
 # File: src/www/firewall_rules_edit.php, line: 1290
 msgid "Max source states"
-msgstr "最大送信元ステータス"
+msgstr "最大送信元ステート"
 
 msgid " Maximum number of established connections per host (TCP only)"
 msgstr "ホスト毎の接続確立の最大数 ( TCP のみ )"
@@ -12667,11 +12674,11 @@ msgstr "最大送信元ノード"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1242
 msgid "Maximum state entries this rule can create"
-msgstr "このルールが作成可能な最大ステータスエントリ"
+msgstr "このルールが作成可能な最大ステートエントリ"
 
 # File: src/www/firewall_rules_edit.php, line: 1263
 msgid "Max states"
-msgstr "最大ステータス"
+msgstr "最大ステート"
 
 msgid "You can match packet on a mark placed before on another rule."
 msgstr "他のルールの前に、設定したマークでパケットを一致させることができます。"
@@ -12774,7 +12781,7 @@ msgstr "ICMP タイプ"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 779
 msgid "Hint: in most cases, you should specify TCP here."
-msgstr "ヒント: ほとんどの場合、TCP を指定すべきです。"
+msgstr "ヒント: 通常は TCP を指定するといいでしょう。"
 
 msgid "Choose on which interface packets must come in to match this rule."
 msgstr "このルールに一致するパケットが入ってくるインタフェースを選択してください"
@@ -12841,7 +12848,7 @@ msgid ""
 msgstr "ホスト毎の最大新規接続と間隔 ( 秒単位 ) は両方とも指定してください"
 
 msgid "State timeout (advanced option) must be a positive integer"
-msgstr "ステータスタイムアウトは正の整数です ( 詳細オプション )"
+msgstr "ステートタイムアウトは正の整数です。( 詳細オプション )"
 
 msgid ""
 "Maximum new connections per host / per second(s) (advanced option) must be a "
@@ -12851,7 +12858,7 @@ msgstr "ホスト / 秒単位の新規接続の最大数は正の整数です ( 
 # File: src/www/firewall_rules_edit.php, line: 519
 msgid ""
 "Maximum state entries per host (advanced option) must be a positive integer"
-msgstr "ホスト毎の最大ステータスエントリは正の整数です ( 詳細オプション )"
+msgstr "ホスト毎の最大ステートエントリは正の整数です。( 詳細オプション )"
 
 msgid ""
 "Maximum number of established connections per host (advanced option) must be "
@@ -12864,100 +12871,100 @@ msgid ""
 msgstr "固有の送信元ホストの最大数は正の整数です ( 詳細オプション )"
 
 msgid "Maximum state entries (advanced option) must be a positive integer"
-msgstr "最大ステータスエントリは正の整数です ( 詳細オプション )"
+msgstr "最大ステートエントリは正の整数です。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 506
 msgid ""
 "You cannot specify the state timeout (advanced option) if statetype is none."
-msgstr "ステータスタイプがなしの場合は、ステータスタイムアウトを指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、ステートタイムアウトを指定できません。 ( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 504
 msgid ""
 "You cannot specify the maximum new connections per host / per second(s) ("
 "advanced option) if statetype is none."
-msgstr "ステータスタイプがなしの場合は、ホスト / 秒単位の新規接続の最大数を指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、ホスト / 秒単位の新規接続の最大数を指定できません。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 502
 msgid ""
 "You cannot specify the maximum state entries per host (advanced option) if "
 "statetype is none."
-msgstr "ステータスタイプがなしの場合は、ホスト毎の最大ステータスエントリを指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、ホスト毎の最大ステートエントリを指定できません。( 詳細オプション )"
 
 msgid ""
 "You cannot specify the maximum number of established connections per host ("
 "advanced option) if statetype is none."
-msgstr "ステータスタイプがなしの場合は、ホスト毎に接続確立する最大数を指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、ホスト毎に接続確立する最大数を指定できません。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 498
 msgid ""
 "You cannot specify the maximum number of unique source hosts (advanced "
 "option) if statetype is none."
-msgstr "ステータスタイプがなしの場合は、固有な送信元ホストの最大数を指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、固有な送信元ホストの最大数を指定できません。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 496
 msgid ""
 "You cannot specify the maximum state entries (advanced option) if statetype "
 "is none."
-msgstr "ステータスタイプがなしの場合は、最大ステータスエントリを指定できません ( 詳細オプション )。"
+msgstr "ステートタイプがなしの場合は、最大ステートエントリを指定できません。( 詳細オプション )"
 
 msgid ""
 "You can only specify the state timeout (advanced option) for Pass type rules."
-msgstr "許可タイプルールに対して、ステータスタイムアウトのみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、ステートタイムアウトのみが指定可能です。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 489
 msgid ""
 "You can only specify the maximum new connections per host / per second(s) ("
 "advanced option) for Pass type rules."
-msgstr "許可タイプルールに対して、ホスト / 秒単位の新規接続の最大数のみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、ホスト / 秒単位の新規接続の最大数のみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the maximum state entries per host (advanced option) "
 "for Pass type rules."
-msgstr "許可タイプルールに対して、ホスト毎の最大ステータスエントリのみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、ホスト毎の最大ステートエントリのみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the maximum number of established connections per host ("
 "advanced option) for Pass type rules."
-msgstr "許可タイプルールに対して、ホスト毎に接続確立する最大数のみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、ホスト毎に接続確立する最大数のみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the maximum number of unique source hosts (advanced "
 "option) for Pass type rules."
-msgstr "許可タイプルールに対して、固有な送信元ホストの最大数のみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、固有な送信元ホストの最大数のみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the maximum state entries (advanced option) for Pass "
 "type rules."
-msgstr "許可タイプルールに対して、最大ステータスエントリのみ、指定可能です ( 詳細オプション )。"
+msgstr "許可タイプルールには、最大ステータスエントリのみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the state timeout (advanced option) for TCP protocol."
-msgstr "TCP プロトコルに対して、ステータスタイムアウトのみ、指定可能です ( 詳細オプション )。"
+msgstr "TCP プロトコルには、ステートタイムアウトのみが指定可能です。( 詳細オプション )"
 
 # File: src/www/firewall_rules_edit.php, line: 474
 msgid ""
 "You can only specify the maximum new connections per host / per second(s) ("
 "advanced option) for TCP protocol."
-msgstr "TCP プロトコルに対して、ホスト / 秒単位の新規接続の最大数のみ、指定可能です ( 詳細オプション )。"
+msgstr "TCP プロトコルには、ホスト / 秒単位の新規接続の最大数のみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can only specify the maximum number of established connections per host ("
 "advanced option) for TCP protocol."
-msgstr "TCP プロトコルに対して、ホスト毎に接続確立する最大数のみ、指定可能です ( 詳細オプション )。"
+msgstr "TCP プロトコルには、ホスト毎に接続確立する最大数のみが指定可能です。( 詳細オプション )"
 
 msgid ""
 "You can not use gateways in Floating rules without choosing a direction."
-msgstr "方向が選択されていないフローティングルールでは、ゲートウェイを使用できません"
+msgstr "方向が選択されていないフローティングルールでは、ゲートウェイを使用できません。"
 
 # File: src/www/firewall_rules_edit.php, line: 462
 msgid "Invalid OS detection selection. Please select a valid OS."
 msgstr "検出する OS の選択が無効です。有効な OS を選択してください。"
 
 msgid "OS detection is only valid with protocol tcp."
-msgstr "OS 検出は TCP プロトコルでのみ有効です"
+msgstr "OS 検出は TCP プロトコルでのみ有効です。"
 
 msgid "You can not use a IPv4 or IPv6 address in combined IPv4 + IPv6 rules."
-msgstr "IPv4 と IPv6 を組み合わせたルールに、IPv4 または IPv6 アドレスを使用できません"
+msgstr "IPv4 と IPv6 を組み合わせたルールに、IPv4 または IPv6 アドレスを使用できません。"
 
 # File: src/www/firewall_rules_edit.php, line: 315
 msgid "Invalid subnet mask on IPv4 destination"
@@ -12990,13 +12997,13 @@ msgid ""
 msgstr "送信元ポートにエイリアスを選択している場合は、from と to フィールドは同じにしてください"
 
 msgid "%s is only valid if the gateway is set to 'default'."
-msgstr "ゲートウェイが「デフォルト」に設定されている場合、%s のみ有効です"
+msgstr "ゲートウェイが「デフォルト」に設定されている場合は %s のみ有効です。"
 
 msgid "%s is only valid with protocol tcp."
 msgstr "%s は TCP プロトコルでのみ有効です"
 
 msgid "You can not assign a ICMP type to a rule that applies to IPv4 and IPv6"
-msgstr "IPv4 及び IPv6 へ適用するルールに、ICMP タイプを割り当てできません"
+msgstr "IPv4 及び IPv6 へ適用するルールに ICMP タイプを割り当てできません"
 
 msgid "You can not assign the IPv6 Gateway to a IPv4 Filter rule"
 msgstr "IPv4 フィルタルールに IPv6 ゲートウェイを割当てられません"
@@ -13011,7 +13018,7 @@ msgid "You can not assign a IPv4 gateway group on IPv6 Address Family rule"
 msgstr "IPv6 アドレスファミリルールに IPv4 ゲートウェイグループを割当てられません"
 
 msgid "You can not assign a gateway to a rule that applies to IPv4 and IPv6"
-msgstr "IPv4 及び IPv6 へ適用するルールに、ゲートウェイを割り当てできません"
+msgstr "IPv4 及び IPv6 へ適用するルールにゲートウェイを割り当てできません"
 
 msgid ""
 "Floating rules are evaluated on a first-match basis (i.e. the action of the "
@@ -13069,7 +13076,7 @@ msgstr "カテゴリを選択"
 msgid ""
 "No interfaces rules are currently defined. All incoming connections on this "
 "interface will be blocked until you add a pass rule."
-msgstr ""
+msgstr "現在インタフェースにルールが定義されていません。このインタフェースへの全ての着信接続は許可ルールを追加するまで全て拒否されます。"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 626
 msgid ""
@@ -13077,6 +13084,8 @@ msgid ""
 "single interface and can therefore be used to span policies over multiple "
 "networks at the same time."
 msgstr ""
+"現在フローティングルールが定義されていません。フローティングルールは単一のインタフェースに適用されるものではないため、同時に複数のネットワークに渡って適用"
+"されるポリシーとして使用可能です。"
 
 # File: src/www/firewall_rules.php, line: 569
 # File: src/www/firewall_schedule.php, line: 235
@@ -13329,7 +13338,7 @@ msgid "This Firewall (self)"
 msgstr "このファイアウォール ( 本機 )"
 
 msgid "Hint: in most cases, you won't use this option."
-msgstr "ヒント: 通常は、このオプションは使用しません。"
+msgstr "ヒント: 通常はこのオプションは使用しません。"
 
 msgid ""
 "Enabling this option will disable NAT for traffic matching this rule and "
@@ -13560,7 +13569,7 @@ msgstr "ポートにマッピングするサーバの内部 IP アドレスを�
 
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 843
 msgid "Single host"
-msgstr ""
+msgstr "単一ホスト"
 
 msgid ""
 "Specify the port or port range for the destination of the packet for this "
@@ -13615,7 +13624,7 @@ msgid "here."
 msgstr " "
 
 msgid "Hint: in most cases, you should specify"
-msgstr "ヒント: 通常は、次を指定してください: "
+msgstr "ヒント: 通常は次を指定してください: "
 
 msgid "Choose which IP protocol this rule should match."
 msgstr "このルールに一致するプロトコルを選択してください。"
@@ -13627,7 +13636,7 @@ msgid "TCP/IP Version"
 msgstr "TCP/IP バージョン"
 
 msgid "Hint: in most cases, you'll want to use WAN here."
-msgstr "ヒント: 通常は、ここで使用するのは WAN です。"
+msgstr "ヒント: 通常はここで使用するのは WAN です。"
 
 msgid "Choose which interface this rule applies to."
 msgstr "このルールを適用するインタフェースを選択してください。"
@@ -13635,7 +13644,7 @@ msgstr "このルールを適用するインタフェースを選択してくだ
 msgid ""
 "Hint: this option is rarely needed, don't use this unless you know what "
 "you're doing."
-msgstr "ヒント: このオプションが必要になることはめったにありません。何をしているのかよくわからないなら、使用しないでください"
+msgstr "ヒント: このオプションが必要になることはめったにありません。何をしているのかよくわからない場合は使用しないでください。"
 
 msgid ""
 "Enabling this option will disable redirection for traffic matching this rule."
@@ -13768,7 +13777,7 @@ msgid "External subnet IP"
 msgstr "外部サブネット IP"
 
 msgid "Hint: in most cases, you'll want to use WAN here"
-msgstr "ヒント: 通常はここで WAN を使用します。"
+msgstr "ヒント: 通常はここで使用するのは WAN です"
 
 msgid "Choose which interface this rule applies to"
 msgstr "このルールを適用するインタフェースを選択してください。"
@@ -14007,10 +14016,12 @@ msgid ""
 "saving the lists will be downloaded and scheduled for automatic updates when "
 "a frequency is provided."
 msgstr ""
+"IP、ポート、サブネットの多くが含まれる URL "
+"を入力してください。保存されたリストはダウンロードされて、設定されている頻度で自動更新がスケジュールされます。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 518
 msgid "URLs"
-msgstr ""
+msgstr "URL"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 486
 msgid ""
@@ -14044,6 +14055,9 @@ msgid ""
 "used IPv6 network, etc. Hostnames (FQDNs) may also be specified, using /32 "
 "for IPv4 and /128 for IPv6."
 msgstr ""
+"ネットワークは CIDR 形式で指定します。エントリ毎に関連する CIDR サフィックスを選択してください。/32 で IPv4 ホスト単体を指定、/"
+"128 で IPv6 ホスト単体を指定、/24 で 255.255.255.0 を指定、/64 で通常の IPv6 ネットワークを指定等です。IPv4 "
+"で /32、IPv6 で /128 を指定する場合はホスト名 ( FQDN ) でも指定できます。"
 
 msgid "Networks"
 msgstr "ネットワーク"
@@ -14342,7 +14356,7 @@ msgid "Label"
 msgstr "ラベル"
 
 msgid "Number of States:"
-msgstr "ステータス数: "
+msgstr "ステート数: "
 
 msgid "Sort type:"
 msgstr "ソートタイプ: "
@@ -14369,7 +14383,7 @@ msgid "Src Ports"
 msgstr "送信元ポート"
 
 msgid "States"
-msgstr "ステータス"
+msgstr "ステート"
 
 # File: src/www/diag_sockets.php, line: 136
 msgid ""
@@ -14452,7 +14466,7 @@ msgid "Show all socket connections"
 msgstr "全てのソケット接続を表示"
 
 msgid "This does not clear active connection states, only source tracking."
-msgstr "これはアクティブ接続ステータスを消去しません。送信元追跡のみを行います。"
+msgstr "これはアクティブ接続ステートを消去しません。送信元追跡のみを行います。"
 
 msgid ""
 "Resetting the source tracking table will remove all source/destination "
@@ -14470,12 +14484,12 @@ msgid ""
 "Note: If you reset the firewall state table, the browser session may appear "
 "to be hung after clicking \"Reset\". Simply refresh the page to continue."
 msgstr ""
-"注意: ファイアウォールステータステーブルをリセットすると、「リセット」をクリックした後にブラウザセッションはハングアップしたようにみえます。続行するには"
-"、ページを単純に再読み込みしてください。"
+"注意: ファイアウォールステートテーブルをリセットすると、「リセット」をクリックした後にブラウザセッションはハングアップしたようにみえます。続行するには、"
+"ページを単純に再読み込みしてください。"
 
 msgid ""
 "The firewall will normally leave the state tables intact when changing rules."
-msgstr "ルールの変更時に、ファイアウォールは通常ステータステーブルには何の変更も加えません。"
+msgstr "ルールを変更しても、ファイアウォールは通常ステートテーブルには何も変更を行いません。"
 
 msgid ""
 "Resetting the state tables will remove all entries from the corresponding "
@@ -14484,18 +14498,18 @@ msgid ""
 "the firewall and/or NAT rules, especially if there are IP protocol mappings ("
 "e.g. for PPTP or IPv6) with open connections."
 msgstr ""
-"ステータステーブルをリセットすると、対応するテーブルから全てのエントリが削除されます。要は、全ての開いている接続は切断され、再接続する必要があるということ"
-"です。ファイアウォール及び NAT もしくはそのどちらかのルールに実質的な変更を行った後、特に、開いている接続に対する IP プロトコルマッピング ( "
-"例えば、PPTP や IPv6 に対して )が含まれている場合に、必要になります。"
+"ステートテーブルをリセットすると、対応するテーブルから全てのエントリが削除されます。つまり、全ての開いている接続は切断され、再接続が必要となります。"
+"これはファイアウォール及び NAT もしくはそのどちらかのルールに実質的な変更を行った後、特に開いている接続に対する IP プロトコルマッピング ( "
+"例としては PPTP や IPv6 に対して )が含まれている場合に必要になります。"
 
 msgid "Firewall state table"
-msgstr "ファイアウォールステータステーブル"
+msgstr "ファイアウォールステートテーブル"
 
 msgid "The source tracking table has been flushed successfully."
-msgstr "送信元追跡テーブルは正常に書き込みされました"
+msgstr "送信元追跡テーブルは正常に書き込みされました。"
 
 msgid "The state table has been flushed successfully."
-msgstr "ステータステーブルは正常に書き込みされました"
+msgstr "ステートテーブルは正常に書き込みされました。"
 
 msgid "Ping output"
 msgstr "ping 出力"
@@ -15356,16 +15370,16 @@ msgid "The system is powering off now."
 msgstr "現在システムは電源をオフにしています。"
 
 msgid "States matching current filter"
-msgstr "現在のフィルタに一致するステータス"
+msgstr "現在のフィルタに一致するステート"
 
 msgid "No states were found."
-msgstr "ステータスはありません"
+msgstr "ステートは見つかりませんでした。"
 
 msgid "to"
 msgstr "to"
 
 msgid "Remove all state entries from"
-msgstr "全ステータスエントリを削除: "
+msgstr "全ステートエントリを削除: "
 
 msgid "Source -> Router -> Destination"
 msgstr "発信元 -> ルータ -> 発信先"
@@ -15380,7 +15394,7 @@ msgid "Filter expression:"
 msgstr "フィルタ式: "
 
 msgid "Current total state count"
-msgstr "現在の合計ステータス数"
+msgstr "現在の合計ステート数"
 
 msgid "invalid input"
 msgstr "無効な入力です"
@@ -15591,7 +15605,7 @@ msgstr "暗号化された構成ファイル"
 
 # File: /usr/core/src/www/diag_backup.php, line: 577
 msgid "Reboot after a successful restore."
-msgstr ""
+msgstr "リストアの正常終了後に再起動します。"
 
 msgid "ALL"
 msgstr "全て"
@@ -15641,14 +15655,14 @@ msgstr "構成はリストアできませんでした。"
 
 # File: /usr/core/src/www/diag_backup.php, line: 411
 msgid "The configuration has been restored."
-msgstr ""
+msgstr "構成はリストアされました。"
 
 msgid "The m0n0wall configuration has been restored and upgraded to OPNsense."
 msgstr "m0n0wall 構成はリストアされ、OPNsense にアップグレードされました。"
 
 # File: /usr/core/src/www/diag_backup.php, line: 297
 msgid "The configuration area has been restored."
-msgstr ""
+msgstr "構成領域はリストアされました。"
 
 msgid ""
 "You have selected to restore an area but we could not locate the correct xml "
@@ -15876,11 +15890,11 @@ msgstr "CARP は有効になりました"
 msgid ""
 "All virtual IPs have been disabled. Please note that disabling does not "
 "survive a reboot."
-msgstr ""
+msgstr "全ての仮想 IP は無効になりました。この無効化は再起動後は継続しませんのでご注意ください。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 62
 msgid "An API exception occured"
-msgstr ""
+msgstr "API 例外が発生しました"
 
 # File: src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt, line: 61
 msgid "Clear All"
@@ -15892,7 +15906,7 @@ msgstr "リクエストを処理しています..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 117
 msgid "Save changes"
-msgstr ""
+msgstr "変更を保存"
 
 # File: src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 73
 # File: src/opnsense/mvc/app/views/layout_partials/base_form.volt, line: 63
@@ -15940,6 +15954,8 @@ msgid ""
 "Are you sure you want to flush and reload all? this might have impact on "
 "other services using the same technology underneath (such as Captive portal)"
 msgstr ""
+"本当に全てを書き込みしてリロードしますか？同じテクノロジーの下で ( キャプティブポータル等 ) "
+"使用しているその他のサービスにも影響を与える可能性があります。"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
 msgid "Error reconfiguring trafficshaper"
@@ -16499,7 +16515,7 @@ msgstr "保存"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 666
 msgid "Subscription"
-msgstr ""
+msgstr "サブスクリプション"
 
 # File: src/www/system_general.php, line: 584
 msgid "Firmware Flavour"
@@ -16519,7 +16535,7 @@ msgstr "更新を確認"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 606
 msgid "Audit now"
-msgstr ""
+msgstr "今すぐ監査"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
@@ -16527,15 +16543,15 @@ msgstr "今すぐアップグレード"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 424
 msgid "Click to view full changelog history."
-msgstr ""
+msgstr "クリックして変更ログ履歴を全て表示します。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 418
 msgid "Check for updates to view changelog history."
-msgstr ""
+msgstr "変更ログ履歴を表示して更新を確認します。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 404
 msgid "installed"
-msgstr ""
+msgstr "インストール済"
 
 msgid "Date"
 msgstr "日付"
@@ -16546,11 +16562,11 @@ msgstr "利用可能なプラグインを表示するために更新を確認し
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 365
 msgid "orphaned"
-msgstr ""
+msgstr "他参照なし (orphaned)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 355
 msgid "No packages were found on your system. Please call for help."
-msgstr ""
+msgstr "あなたのシステムにはパッケージが見つかりませんでした。救援要請してください。"
 
 msgid "Comment"
 msgstr "コメント"
@@ -16567,15 +16583,15 @@ msgstr "デバイスを再起動しています"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 270
 msgid "Upgrade done."
-msgstr ""
+msgstr "アップグレードが終了しました。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 268
 msgid "Done."
-msgstr ""
+msgstr "終了しました。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 266
 msgid "Audit done."
-msgstr ""
+msgstr "監査が終了しました。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 106
 msgid "Executing..."
@@ -16583,15 +16599,15 @@ msgstr "実行しています..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 155
 msgid "License details"
-msgstr ""
+msgstr "ライセンスの詳細"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 149
 msgid "Sorry, the package does not have an associated license file."
-msgstr ""
+msgstr "申し訳ありませんが、そのパッケージに関連するライセンスファイルがありません。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 133
 msgid "Auditing..."
-msgstr ""
+msgstr "監査しています..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 88
 msgid "Upgrading..."
@@ -16599,7 +16615,7 @@ msgstr "アップグレードしています..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 77
 msgid "Required Action"
-msgstr ""
+msgstr "必要なアクション"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 58
 msgid "New Version"
@@ -16629,7 +16645,7 @@ msgstr "カスタム"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 416
 msgid "Custom (minutes)"
-msgstr ""
+msgstr "カスタム ( 分 )"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 300
 msgid "2 weeks"
@@ -16697,10 +16713,10 @@ msgstr "有効期限の切れたバウチャーを落とす"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 361
 msgid "Expire selected vouchers"
-msgstr ""
+msgstr "選択したバウチャーを有効期限切れにする"
 
 msgid "State"
-msgstr "ステータス"
+msgstr "ステート"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 241
 msgid "Valid to"
@@ -16712,7 +16728,7 @@ msgstr "有効期間の開始"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 269
 msgid "Expire all selected vouchers?"
-msgstr ""
+msgstr "選択したバウチャーを全て有効期限切れにしますか？"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 229
 msgid "All expired vouchers within this group will be deleted"
@@ -16724,7 +16740,7 @@ msgstr "有効期限の切れたバウチャーを削除"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 186
 msgid "The validity and the quantity of vouchers must be integers."
-msgstr ""
+msgstr "バウチャーの有効性と数量は整数です。"
 
 msgid "Yes"
 msgstr "はい"
@@ -16834,7 +16850,7 @@ msgstr "有効な config.xml が見つかりません。確認できる最新設
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 446
 msgid "Password length must be a number or empty for default."
-msgstr ""
+msgstr "パスワードの長さは数字です。デフォルトにするには空白にしてください。"
 
 # File: /usr/core/src/www/system_authservers.php, line: 703
 msgid "Specify alternative password length for generating vouchers"
@@ -16846,7 +16862,7 @@ msgstr "パスワードの長さ"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 434
 msgid "Username length must be a number or empty for default."
-msgstr ""
+msgstr "ユーザ名の長さは数字です。デフォルトにするには空白にしてください。"
 
 # File: /usr/core/src/www/system_authservers.php, line: 694
 msgid "Specify alternative username length for generating vouchers"
@@ -16869,7 +16885,7 @@ msgstr "バウチャー"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 224
 msgid "Please enter a valid grace period in seconds"
-msgstr ""
+msgstr "有効な猶予期間を秒単位で入力してください。"
 
 # File: /usr/core/src/www/system_authservers.php, line: 734
 msgid ""
@@ -16885,7 +16901,7 @@ msgstr "猶予期間"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 211
 msgid "Please enter a valid time window in seconds"
-msgstr ""
+msgstr "有効な時間枠を秒単位で入力してください。"
 
 # File: /usr/core/src/www/system_authservers.php, line: 725
 msgid ""
@@ -16899,7 +16915,7 @@ msgstr "時間枠"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 198
 msgid "Only token lengths of 6 or 8 characters are supported"
-msgstr ""
+msgstr "トークンの長さは 6 もしくは 8 文字のみがサポートされています。"
 
 # File: /usr/core/src/www/system_authservers.php, line: 716
 msgid "Token length to use"
@@ -16923,44 +16939,44 @@ msgstr "LDAP"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/SystemhealthController.php, line: 43
 msgid "System Health"
-msgstr ""
+msgstr "システムヘルス"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/NetworkinsightController.php, line: 43
 msgid "Network Insight"
-msgstr ""
+msgstr "ネットワーク分析"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 64
 msgid "System Routing Table"
-msgstr ""
+msgstr "システムルーティングテーブル"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 55
 msgid "Interfaces NDP Table"
-msgstr ""
+msgstr "インタフェース NDP テーブル"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 46
 msgid "Interfaces ARP Table"
-msgstr ""
+msgstr "インタフェース ARP テーブル"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/ActivityController.php, line: 43
 msgid "System Activity"
-msgstr ""
+msgstr "システム稼働状況"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/IndexController.php, line: 45
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/ItemController.php, line: 46
 msgid "Cron Settings"
-msgstr ""
+msgstr "Cron 設定"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 146
 msgid "Firmware status check was aborted internally. Please try again."
-msgstr ""
+msgstr "ファームウェアステータスチェックは内部で中止されました。もう一度試してください。"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 125
 msgid "update"
-msgstr ""
+msgstr "更新"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 117
 msgid "reinstall"
-msgstr ""
+msgstr "再インストール"
 
 # File: /usr/core/src/www/services_dyndns.php, line: 169
 # File: /usr/core/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 78
@@ -16969,7 +16985,7 @@ msgstr "N/A"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 110
 msgid "new"
-msgstr ""
+msgstr "新"
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 84
 msgid "This update requires a reboot."
@@ -16985,15 +17001,15 @@ msgstr "%s 更新が利用可能です。合計ダウンロードサイズは %s
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 68
 msgid "There is a mandatory update for the package manager available."
-msgstr ""
+msgstr "パッケージ管理の必須更新が利用可能です。"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 60
 msgid "There are no updates available on the selected mirror."
-msgstr ""
+msgstr "選択したミラーには利用可能な更新はありません。"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 57
 msgid "Could not find the repository on the selected mirror."
-msgstr ""
+msgstr "選択したミラーにはリポジトリが見つかりませんでした。"
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 54
 msgid "Connection error."
@@ -17001,11 +17017,11 @@ msgstr "接続エラー。"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/CaptivePortal/VoucherController.php, line: 41
 msgid "Captive Portal Vouchers"
-msgstr ""
+msgstr "キャプティブポータルバウチャー"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/CaptivePortal/SessionController.php, line: 41
 msgid "Captive Portal Sessions"
-msgstr ""
+msgstr "キャプティブポータルセッション"
 
 # File: src/etc/rc.restore_config_backup, line: 103
 msgid "quit"
@@ -17278,11 +17294,11 @@ msgstr "%s警告: フィルタルールが削除されました ( インタフ�
 
 # File: /usr/core/src/etc/inc/system.inc, line: 1690
 msgid "Mute Console"
-msgstr ""
+msgstr "コンソールをミュート"
 
 # File: /usr/core/src/etc/inc/system.inc, line: 1689
 msgid "EFI Console"
-msgstr ""
+msgstr "EFI コンソール"
 
 # File: src/www/system_advanced_admin.php, line: 560
 msgid "Serial Console"
@@ -17338,7 +17354,7 @@ msgstr "中国語 ( 簡体字 )"
 
 # File: /usr/core/src/etc/inc/system.inc, line: 240
 msgid "Czech"
-msgstr ""
+msgstr "チェコ語"
 
 msgid "English"
 msgstr "英語"
@@ -17434,19 +17450,19 @@ msgstr "サーバ負荷分散デーモン"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/pf.inc, line: 37
 msgid "Packet Filter"
-msgstr ""
+msgstr "パケットフィルタ"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/ntpd.inc, line: 48
 msgid "Network Time Daemon"
-msgstr ""
+msgstr "ネットワークタイムデーモン"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/netflow.inc, line: 45
 msgid "NetFlow Capture"
-msgstr ""
+msgstr "NetFlow キャプチャ"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/miniupnpd.inc, line: 56
 msgid "Univeral Plug and Play"
-msgstr ""
+msgstr "ユニバーサルプラグアンドプレイ"
 
 msgid "IPsec VPN"
 msgstr "IPSec VPN"
@@ -17456,7 +17472,7 @@ msgstr "SNMP サービス"
 
 # File: /usr/core/src/etc/inc/plugins.inc, line: 198
 msgid "Synchronize %s settings to backup"
-msgstr ""
+msgstr "%s 設定を同期してバックアップ"
 
 msgid "OpenVPN %s wizard"
 msgstr "OpenVPN %s ウィザード"
@@ -17588,13 +17604,13 @@ msgid "it was not previously established a SMTP connection"
 msgstr "前回確立した SMTP 接続ではありません"
 
 msgid "connection is not in the sending data state"
-msgstr "接続ステータスは、データ送信中ではありません"
+msgstr "接続はデータ送信ステートではありません"
 
 msgid "connection is not in the start sending data state"
-msgstr "接続ステータスは、データ送信開始ではありません"
+msgstr "接続はデータ送信開始ステートではありません"
 
 msgid "connection is not in the recipient setting state"
-msgstr "接続ステータスは、受信者設定ではありません"
+msgstr "接続は受信者設定ステートではありません"
 
 msgid "connection is already established and the recipient is already set"
 msgstr "接続は確立しており、受信者も設定されています"
@@ -17607,7 +17623,7 @@ msgid "it was not specified a valid direct recipient"
 msgstr "有効な直接受信者に指定されていません"
 
 msgid "connection is not in the initial state"
-msgstr "接続は初期状態ではありません"
+msgstr "接続は初期ステートではありません"
 
 msgid ""
 "direct delivery connection is already established and sender is already set"
@@ -17868,7 +17884,7 @@ msgid "Done"
 msgstr "完了"
 
 msgid "Processing down interface states"
-msgstr "インタフェースステータスをダウンにしています"
+msgstr "インタフェースステートをダウンにしています"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 320
 # File: /usr/core/src/etc/inc/filter.inc, line: 321
@@ -17890,7 +17906,7 @@ msgstr "ログ情報の設定"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 441
 msgid "Filter is disabled. Not loading rules."
-msgstr ""
+msgstr "フィルタは無効になっています。ルールはロードされません。"
 
 msgid "Loading filter rules"
 msgstr "フィルタルールの読み込み"
@@ -18033,15 +18049,15 @@ msgstr "RADIUS 共有秘密鍵"
 
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 73
 msgid "Error reconfiguring Tinc"
-msgstr ""
+msgstr "Tinc 再構成エラー"
 
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/controllers/OPNsense/Tinc/IndexController.php, line: 41
 msgid "Tinc VPN"
-msgstr ""
+msgstr "Tinc VPN"
 
 # File: /usr/plugins/security/tinc/src/etc/inc/plugins.inc.d/tinc.inc, line: 70
 msgid "Tinc VPN Server"
-msgstr ""
+msgstr "Tinc VPN サーバ"
 
 msgid "Number of L2TP users"
 msgstr "L2TP ユーザ数"
@@ -18588,27 +18604,27 @@ msgstr "HAProxy ロードバランサ"
 # File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
 msgid "FTP Proxy Server"
-msgstr ""
+msgstr "FTP プロキシサーバ"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 83
 msgid "FTP Proxies"
-msgstr ""
+msgstr "FTP プロキシ"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
-msgstr ""
+msgstr "リスンアドレス"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
-msgstr ""
+msgstr "リバースアドレス"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 96
 msgid "Reverse Port"
-msgstr ""
+msgstr "リバースポート"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 97
 msgid "Maximum Sessions"
-msgstr ""
+msgstr "最大セッション"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
 msgid "Health Check ID"
@@ -18732,19 +18748,19 @@ msgstr "警告: 現在の L2TP セッションは、全て終了します！"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/SSOProxyAD/IndexController.php, line: 35
 msgid "SSO Proxy Active Directory"
-msgstr ""
+msgstr "SSO プロキシアクティブディレクトリ"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
 msgid "SSO Proxy AD"
-msgstr ""
+msgstr "SSO プロキシ AD"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
 msgid "Join Domain"
-msgstr ""
+msgstr "ドメインに参加"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 82
 msgid "Update Domain"
-msgstr ""
+msgstr "ドメインを更新"
 
 msgid "Info"
 msgstr "情報"
@@ -18758,22 +18774,27 @@ msgid ""
 "             It is best to use only those ciphers which support CBC mode\n"
 "      "
 msgstr ""
+" 対称暗号化アルゴリズムは UDP パケットの暗号化に使用されていました。\n"
+"             LibreSSL や OpenSSL でサポートされているいずれの暗号も認証されます。\n"
+"             また「なし」を指定している場合は、パケットの暗号化は行われません。\n"
+"             CBC モードをサポートしている暗号のみを使用するのがお勧めです。\n"
+"      "
 
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "(FQ-)CoDel ECN"
-msgstr ""
+msgstr "(FQ-)CoDel ECN"
 
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "(FQ-)CoDel interval"
-msgstr ""
+msgstr "(FQ-)CoDel interval"
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "(FQ-)CoDel target"
-msgstr ""
+msgstr "(FQ-)CoDel target"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid "(optional) user credentials."
-msgstr ""
+msgstr "( オプション ) ユーザ資格情報"
 
 msgid "Action"
 msgstr "動作"
@@ -18783,27 +18804,27 @@ msgstr "動作"
 
 # File: /usr/lang/src/controllers.php, line: 47
 msgid "Actions (ACLs)"
-msgstr ""
+msgstr "動作 (ACL)"
 
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "Active Directory Domain Controller"
-msgstr ""
+msgstr "アクティブディレクトリドメインコントローラ"
 
 # File: /usr/lang/src/controllers.php, line: 49
 msgid "Active Directory Domain Name"
-msgstr ""
+msgstr "アクティブディレクトリドメイン名"
 
 # File: /usr/lang/src/controllers.php, line: 50
 msgid "Active Directory Domain Password"
-msgstr ""
+msgstr "アクティブディレクトリドメインパスワード"
 
 # File: /usr/lang/src/controllers.php, line: 51
 msgid "Active Directory Domain User"
-msgstr ""
+msgstr "アクティブディレクトリドメインユーザ"
 
 # File: /usr/lang/src/controllers.php, line: 52
 msgid "Active Directory Domain Version"
-msgstr ""
+msgstr "アクティブディレクトリドメインバージョン"
 
 # File: /usr/lang/src/controllers.php, line: 36
 msgid "Add servers to this backend. Use TAB key to complete typing."
@@ -18822,7 +18843,7 @@ msgstr ""
 msgid ""
 "Address where the proxy will listen for redirected control connections. The "
 "default is 127.0.0.1."
-msgstr ""
+msgstr "プロキシがリダイレクトされた制御接続をリスンするアドレスです。デフォルトは 127.0.0.1 です。"
 
 # File: /usr/lang/src/controllers.php, line: 38
 msgid "Adjust the server's weight relative to other servers."
@@ -18830,15 +18851,15 @@ msgstr "他のサーバとの関係でサーバの重みを調整します。"
 
 # File: /usr/lang/src/controllers.php, line: 57
 msgid "Administrator's Email"
-msgstr ""
+msgstr "管理者のメール"
 
 # File: /usr/lang/src/controllers.php, line: 58
 msgid "Advanced Bind Options"
-msgstr ""
+msgstr "詳細 Bind オプション"
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Advanced SSL options"
-msgstr ""
+msgstr "詳細 SSL オプション"
 
 # File: src/www/interfaces_bridge_edit.php, line: 452
 msgid "Advanced options"
@@ -18846,11 +18867,11 @@ msgstr "詳細オプション"
 
 # File: /usr/lang/src/controllers.php, line: 61
 msgid "Advanced settings"
-msgstr ""
+msgstr "詳細設定"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Agent port"
-msgstr ""
+msgstr "エージェントポート"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 msgid "Alert"
@@ -18858,7 +18879,7 @@ msgstr "アラート"
 
 # File: /usr/lang/src/controllers.php, line: 64
 msgid "Alert action / sid"
-msgstr ""
+msgstr "アラート動作 / sid"
 
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
@@ -18868,46 +18889,46 @@ msgstr "HAProxy に完全ではない正常な接続に対して自動的にロ�
 
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Allow interface subnets"
-msgstr ""
+msgstr "インタフェースサブネットを許可"
 
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Allowed MAC addresses"
-msgstr ""
+msgstr "許可済 MAC アドレス"
 
 # File: /usr/lang/src/controllers.php, line: 68
 msgid "Allowed SSL ports"
-msgstr ""
+msgstr "許可済 SSL ポート"
 
 # File: /usr/lang/src/controllers.php, line: 69
 msgid "Allowed Subnets"
-msgstr ""
+msgstr "許可済サブネット"
 
 # File: /usr/lang/src/controllers.php, line: 70
 msgid "Allowed addresses"
-msgstr ""
+msgstr "許可済アドレス"
 
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Allowed destination TCP port"
-msgstr ""
+msgstr "許可済送信先 TCP ポート"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Authenticate using"
-msgstr ""
+msgstr "使用している認証"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Authentication Prompt"
-msgstr ""
+msgstr "認証プロンプト"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid "Authentication TTL (hours)"
-msgstr ""
+msgstr "認証 TTL ( 時間 )"
 
 msgid "Authentication method"
 msgstr "認証方法"
 
 # File: /usr/lang/src/controllers.php, line: 76
 msgid "Authentication processes"
-msgstr ""
+msgstr "認証プロセス"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -18919,39 +18940,39 @@ msgstr "このリストの物理アドレスの認証を除外"
 
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Balancing Algorithm"
-msgstr ""
+msgstr "分散アルゴリズム"
 
 # File: /usr/lang/src/controllers.php, line: 80
 msgid "Banned host IP addresses"
-msgstr ""
+msgstr "アクセス禁止済ホスト IP アドレス"
 
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Blacklist"
-msgstr ""
+msgstr "ブラックリスト"
 
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Block browser/user-agents"
-msgstr ""
+msgstr "ブラウザ / ユーザエージェントを拒否"
 
 # File: /usr/lang/src/controllers.php, line: 83
 msgid "Block specific MIME type reply"
-msgstr ""
+msgstr "特定の MIME タイプの応答を拒否"
 
 # File: /usr/lang/src/controllers.php, line: 84
 msgid "Briefly description of this ftp proxy"
-msgstr ""
+msgstr "この FTP プロキシの簡単な説明"
 
 # File: /usr/lang/src/controllers.php, line: 85
 msgid "Buffer size"
-msgstr ""
+msgstr "バッファサイズ"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
-msgstr ""
+msgstr "使用する CA"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Cache size in Megabytes"
-msgstr ""
+msgstr "キャッシュサイズ ( MB 単位 )"
 
 # File: /usr/lang/src/controllers.php, line: 42
 msgid ""
@@ -18964,7 +18985,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Capture local"
-msgstr ""
+msgstr "ローカルをキャプチャ"
 
 msgid "Certificates"
 msgstr "証明書"
@@ -18980,15 +19001,15 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Check Interval"
-msgstr ""
+msgstr "確認間隔"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Check interval"
-msgstr ""
+msgstr "確認間隔"
 
 # File: /usr/lang/src/controllers.php, line: 94
 msgid "Check type"
-msgstr ""
+msgstr "確認タイプ"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
@@ -18998,7 +19019,7 @@ msgstr "ローカル統計ページで使用する TCP ポートを選択して�
 
 # File: /usr/lang/src/controllers.php, line: 96
 msgid "Choose action"
-msgstr ""
+msgstr "アクションを選択"
 
 # File: /usr/lang/src/controllers.php, line: 45
 msgid "Choose actions to be included in this backend."
@@ -19033,7 +19054,7 @@ msgstr "24 標準 syslog 機能の 1 つを選択してください。デフォ�
 
 # File: /usr/lang/src/controllers.php, line: 104
 msgid "Cipher"
-msgstr ""
+msgstr "暗号"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
 msgid "Classtype"
@@ -19041,7 +19062,7 @@ msgstr "Classtype"
 
 # File: /usr/lang/src/controllers.php, line: 106
 msgid "Client Timeout"
-msgstr ""
+msgstr "クライアントタイムアウト"
 
 # File: lang/dynamic/helpers/controllers.php, line: 39
 msgid ""
@@ -19063,6 +19084,8 @@ msgid ""
 "Collect NetFlow data on this firewall for use with Insight. Note that the "
 "local cache only holds the latest 100 MB of data."
 msgstr ""
+"このファイアウォールで分析に使用する NetFlow データを収集します。ローカルキャッシュには最新 100MB "
+"のデータのみが保持されますので注意してください。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
 msgid "Command"
@@ -19070,15 +19093,15 @@ msgstr "コマンド"
 
 # File: /usr/lang/src/controllers.php, line: 111
 msgid "Compose expression"
-msgstr ""
+msgstr "式を構成"
 
 # File: /usr/lang/src/controllers.php, line: 112
 msgid "Concurrent user logins"
-msgstr ""
+msgstr "同時ユーザログイン"
 
 # File: /usr/lang/src/controllers.php, line: 113
 msgid "Conditional parameters"
-msgstr ""
+msgstr "条件パラメータ"
 
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
@@ -19099,11 +19122,11 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 116
 msgid "Connect To"
-msgstr ""
+msgstr "次に接続: "
 
 # File: /usr/lang/src/controllers.php, line: 117
 msgid "Connect to this host"
-msgstr ""
+msgstr "このホストに接続"
 
 msgid "Connection Timeout"
 msgstr "接続タイムアウト"
@@ -19116,15 +19139,15 @@ msgstr "リストされた国の ( 送信元 ) から来る、もしくは ( 送
 
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Content"
-msgstr ""
+msgstr "内容"
 
 # File: /usr/lang/src/controllers.php, line: 121
 msgid "Cookie length"
-msgstr ""
+msgstr "Cookie の長さ"
 
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Cookie name"
-msgstr ""
+msgstr "Cookie 名"
 
 # File: /usr/lang/src/controllers.php, line: 58
 msgid ""
@@ -19137,7 +19160,7 @@ msgstr "GeoIP を使用して警告もしくは拒否する国。"
 
 # File: /usr/lang/src/controllers.php, line: 125
 msgid "Custom HTTP check"
-msgstr ""
+msgstr "カスタム HTTP チェック"
 
 # File: /usr/core/src/www/services_unbound.php, line: 245
 msgid "Custom options"
@@ -19145,49 +19168,51 @@ msgstr "カスタムオプション"
 
 # File: /usr/lang/src/controllers.php, line: 127
 msgid "Custom template"
-msgstr ""
+msgstr "カスタムテンプレート"
 
 # File: /usr/lang/src/controllers.php, line: 128
 msgid "DB user"
-msgstr ""
+msgstr "DB ユーザ"
 
 # File: /usr/lang/src/controllers.php, line: 129
 msgid "Day of the month"
-msgstr ""
+msgstr "月の日付"
 
 # File: /usr/lang/src/controllers.php, line: 130
 msgid "Days of the week"
-msgstr ""
+msgstr "週の日数"
 
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Debug"
-msgstr ""
+msgstr "デバッグ"
 
 # File: /usr/lang/src/controllers.php, line: 132
 msgid "Debug level"
-msgstr ""
+msgstr "デバッグレベル"
 
 # File: /usr/lang/src/controllers.php, line: 133
 msgid ""
 "Debug level, ranging from 0 to 7.  Higher is more verbose. The default is 5. "
 "(These levels correspond to the syslog(3) levels.)"
 msgstr ""
+"デバッグレベルの範囲は 0 - 7 です。高いほうがより詳細です。デフォルトは 5 です。( このレベルは syslog(3) "
+"のレベルに対応しています。)"
 
 # File: /usr/lang/src/controllers.php, line: 134
 msgid "Default Backend"
-msgstr ""
+msgstr "デフォルトバックエンド"
 
 # File: /usr/lang/src/controllers.php, line: 135
 msgid "Default Options TTL"
-msgstr ""
+msgstr "デフォルトオプション TTL"
 
 # File: /usr/lang/src/controllers.php, line: 136
 msgid "Default certificate"
-msgstr ""
+msgstr "デフォルト証明書"
 
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Default for server"
-msgstr ""
+msgstr "サーバのデフォルト"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default option for all server entries."
@@ -19250,19 +19275,19 @@ msgstr "送信先"
 
 # File: /usr/lang/src/controllers.php, line: 153
 msgid "Detailed Logging"
-msgstr ""
+msgstr "詳細なログ"
 
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "Do not filter content, only domains and addresses"
-msgstr ""
+msgstr "内容をフィルタしないでください。ドメインとアドレスのみにしてください。"
 
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "Don't log normal"
-msgstr ""
+msgstr "正常なログは記録しない"
 
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Don't log null"
-msgstr ""
+msgstr "空のログは記録しない"
 
 # File: /usr/lang/src/controllers.php, line: 71
 msgid ""
@@ -19274,19 +19299,19 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 158
 msgid "Egress only"
-msgstr ""
+msgstr "Egress Only"
 
 # File: /usr/lang/src/controllers.php, line: 159
 msgid "Email (from)"
-msgstr ""
+msgstr "メール ( 差出人 )"
 
 # File: /usr/lang/src/controllers.php, line: 160
 msgid "Email (to)"
-msgstr ""
+msgstr "メール ( 宛先 )"
 
 # File: /usr/lang/src/controllers.php, line: 161
 msgid "Enable CoDel"
-msgstr ""
+msgstr "CoDel を有効"
 
 # File: /usr/lang/src/controllers.php, line: 70
 msgid "Enable CoDel active queue management"
@@ -19294,11 +19319,11 @@ msgstr "CoDel アクティブキュー管理を有効"
 
 # File: /usr/lang/src/controllers.php, line: 163
 msgid "Enable DNS v4 first"
-msgstr ""
+msgstr "DNS v4 優先を有効"
 
 # File: /usr/lang/src/controllers.php, line: 164
 msgid "Enable HAProxy"
-msgstr ""
+msgstr "HAProxy を有効"
 
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Enable HAProxy's statistics page."
@@ -19306,15 +19331,15 @@ msgstr "HAProxy 統計ページを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 166
 msgid "Enable ICAP"
-msgstr ""
+msgstr "ICAP を有効"
 
 # File: /usr/lang/src/controllers.php, line: 167
 msgid "Enable Preview"
-msgstr ""
+msgstr "プレビューを有効"
 
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Enable SSL mode"
-msgstr ""
+msgstr "SSL モードを有効"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Enable SSL offloading"
@@ -19322,22 +19347,22 @@ msgstr "SSL オフロードを有効"
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Enable Transparent HTTP proxy"
-msgstr ""
+msgstr "透過 HTTP プロキシを有効"
 
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Enable Transparent mode"
-msgstr ""
+msgstr "透過モードを有効"
 
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "Enable access logging"
-msgstr ""
+msgstr "アクセスログを有効"
 
 msgid "Enable access logging."
-msgstr "アクセスログを有効"
+msgstr "アクセスログを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Enable authentication"
-msgstr ""
+msgstr "認証を有効"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid ""
@@ -19350,7 +19375,7 @@ msgstr "侵入検知システムを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 177
 msgid "Enable local cache (requires service restart)"
-msgstr ""
+msgstr "ローカルキャッシュを有効 ( サービスの再起動が必要です )"
 
 # File: /usr/lang/src/controllers.php, line: 76
 msgid "Enable or disable SSL communication with this server."
@@ -19386,7 +19411,7 @@ msgstr "プロキシサービスを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 186
 msgid "Enable or disable this ftp proxy."
-msgstr ""
+msgstr "この FTP プロキシを有効もしくは無効にします。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 48
 msgid "Enable or disable traffic management."
@@ -19407,11 +19432,11 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 190
 msgid "Enable proxy"
-msgstr ""
+msgstr "プロキシを有効"
 
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "Enable remote access"
-msgstr ""
+msgstr "リモートアクセスを有効"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Enable ruleset"
@@ -19419,20 +19444,22 @@ msgstr "ルールセットを有効"
 
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Enable store logging"
-msgstr ""
+msgstr "ログの保管を有効"
 
 msgid "Enable store logging."
 msgstr "ログの保管を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 195
 msgid "Enable syslog"
-msgstr ""
+msgstr "syslog を有効"
 
 # File: /usr/lang/src/controllers.php, line: 196
 msgid ""
 "Enable syslog, sends alerts (in fast log format) and messages to syslog. "
 "This won't change the alert logging used by the product itself."
 msgstr ""
+"syslog を有効にすると、アラート ( ファストログ形式 ) とメッセージを syslog "
+"に送信します。これはプロダクト自身が使用しているアラートログは変更しません。"
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Enable this Lua script."
@@ -19456,7 +19483,7 @@ msgstr "このフロントエンドを有効"
 
 # File: /usr/lang/src/controllers.php, line: 202
 msgid "Enable this network"
-msgstr ""
+msgstr "このネットワークを有効"
 
 # File: lang/dynamic/helpers/controllers.php, line: 95
 msgid "Enable this zone"
@@ -19468,7 +19495,7 @@ msgstr "ヘルスチェックステータス更新のログを有効にします
 
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "Enable traffic management."
-msgstr ""
+msgstr "トラフィック管理を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 96
 msgid ""
@@ -19483,7 +19510,7 @@ msgstr "有効"
 
 # File: /usr/lang/src/controllers.php, line: 208
 msgid "Encode Username"
-msgstr ""
+msgstr "ユーザ名をエンコード"
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enter a description to explain what this blacklist is intended for."
@@ -19626,15 +19653,15 @@ msgstr "エラーファイル"
 
 # File: /usr/lang/src/controllers.php, line: 235
 msgid "Error code"
-msgstr ""
+msgstr "エラーコード"
 
 # File: /usr/lang/src/controllers.php, line: 236
 msgid "Error files"
-msgstr ""
+msgstr "エラーファイル"
 
 # File: /usr/lang/src/controllers.php, line: 237
 msgid "Expiration time"
-msgstr ""
+msgstr "有効期間"
 
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Explicit Congestion Notification"
@@ -19642,35 +19669,35 @@ msgstr "明示的輻輳通知"
 
 # File: /usr/lang/src/controllers.php, line: 239
 msgid "Expression"
-msgstr ""
+msgstr "式"
 
 # File: /usr/lang/src/controllers.php, line: 240
 msgid "Ext. Address"
-msgstr ""
+msgstr "拡張アドレス"
 
 # File: /usr/lang/src/controllers.php, line: 241
 msgid "FQ-CoDel flows"
-msgstr ""
+msgstr "FQ-CoDel flows"
 
 # File: /usr/lang/src/controllers.php, line: 242
 msgid "FQ-CoDel limit"
-msgstr ""
+msgstr "FQ-CoDel limit"
 
 # File: /usr/lang/src/controllers.php, line: 243
 msgid "FQ-CoDel quantum"
-msgstr ""
+msgstr "FQ-CoDel quantum"
 
 # File: /usr/lang/src/controllers.php, line: 244
 msgid "FQDN or IP"
-msgstr ""
+msgstr "FQDN もしくは IP"
 
 # File: /usr/lang/src/controllers.php, line: 245
 msgid "FTP proxy interfaces"
-msgstr ""
+msgstr "FTP プロキシインタフェース"
 
 # File: /usr/lang/src/controllers.php, line: 246
 msgid "FTP proxy port"
-msgstr ""
+msgstr "FTP プロキシポート"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
@@ -19679,7 +19706,7 @@ msgstr "ファイル名"
 
 # File: /usr/lang/src/controllers.php, line: 248
 msgid "Filter syslog level"
-msgstr ""
+msgstr "syslog レベルでフィルタ"
 
 # File: /usr/lang/src/controllers.php, line: 123
 msgid ""
@@ -19689,7 +19716,7 @@ msgstr "このルールセットのダウンロード時に使用するフィル
 
 # File: /usr/lang/src/controllers.php, line: 250
 msgid "Find value"
-msgstr ""
+msgstr "値を探す"
 
 # File: /usr/lang/src/controllers.php, line: 251
 msgid ""
@@ -19698,26 +19725,29 @@ msgid ""
 "to (before it was redirected). Use this option to proxy for a server behind "
 "NAT, or to forward all connections to another proxy."
 msgstr ""
+"サーバアドレスを修正します。リバースモードとしても知られています。プロキシは通常、クライアントが接続しようとするサーバ ( にリダイレクトされる前に ) "
+"それを無視して同じサーバに接続します。このオプションを使用すると、NAT "
+"の背後にあるサーバに対してプロキシしたり、全ての接続を他のプロキシに転送することができます。"
 
 # File: /usr/lang/src/controllers.php, line: 252
 msgid "Form condition"
-msgstr ""
+msgstr "フォームの条件"
 
 # File: /usr/lang/src/controllers.php, line: 253
 msgid "Forward HTTP traffic to transparent proxy"
-msgstr ""
+msgstr "HTTP トラフィックを透過プロキシに転送"
 
 # File: /usr/lang/src/controllers.php, line: 254
 msgid "Forward HTTPS traffic to transparent proxy"
-msgstr ""
+msgstr "HTTPS トラフィックを透過プロキシに転送"
 
 # File: /usr/lang/src/controllers.php, line: 255
 msgid "GeoIP/Country"
-msgstr ""
+msgstr "GeoIP / 国"
 
 # File: /usr/lang/src/controllers.php, line: 256
 msgid "GeoIP/Direction"
-msgstr ""
+msgstr "GeoIP / 方向"
 
 # File: /usr/lang/src/controllers.php, line: 124
 msgid ""
@@ -19730,43 +19760,43 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 258
 msgid "Group Id"
-msgstr ""
+msgstr "グループ ID"
 
 # File: /usr/lang/src/controllers.php, line: 259
 msgid "HAProxy processes"
-msgstr ""
+msgstr "HAProxy プロセス"
 
 # File: /usr/lang/src/controllers.php, line: 260
 msgid "HTTP check options"
-msgstr ""
+msgstr "HTTP チェックオプション"
 
 # File: /usr/lang/src/controllers.php, line: 261
 msgid "HTTP host"
-msgstr ""
+msgstr "HTTP ホスト"
 
 # File: /usr/lang/src/controllers.php, line: 262
 msgid "HTTP method"
-msgstr ""
+msgstr "HTTP メソッド"
 
 # File: /usr/lang/src/controllers.php, line: 263
 msgid "HTTP version"
-msgstr ""
+msgstr "HTTP バージョン"
 
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Hard timeout (minutes)"
-msgstr ""
+msgstr "ハードタイムアウト ( 分 )"
 
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Health Checking"
-msgstr ""
+msgstr "ヘルスチェック中"
 
 # File: /usr/lang/src/controllers.php, line: 266
 msgid "Health check"
-msgstr ""
+msgstr "ヘルスチェック"
 
 # File: /usr/lang/src/controllers.php, line: 267
 msgid "Health check buffer size"
-msgstr ""
+msgstr "ヘルスチェックバッファサイズ"
 
 msgid "Hostname"
 msgstr "ホスト名"
@@ -19787,24 +19817,24 @@ msgstr "時間"
 
 # File: /usr/lang/src/controllers.php, line: 271
 msgid "ICP port"
-msgstr ""
+msgstr "ICP ポート"
 
 # File: /usr/lang/src/controllers.php, line: 272
 msgid "IPS mode"
-msgstr ""
+msgstr "IPS モード"
 
 msgid "Idle timeout"
 msgstr "アイドルタイムアウト"
 
 # File: /usr/lang/src/controllers.php, line: 274
 msgid "Idle timeout (minutes)"
-msgstr ""
+msgstr "アイドルタイムアウト ( 分 )"
 
 # File: lang/dynamic/helpers/controllers.php, line: 102
 msgid ""
 "If provided, all traffic will be transmitted over an HTTPS connection to "
 "protect against eavesdroppers."
-msgstr "その場合、全てのトラフィックは、盗聴を防ぐために HTTPS 接続で送信されます。"
+msgstr "その場合、全てのトラフィックは盗聴を防ぐために HTTPS 接続で送信されます。"
 
 # File: /usr/lang/src/controllers.php, line: 127
 msgid ""
@@ -19854,11 +19884,11 @@ msgstr "プレビューを使用するとデータの一部のみが ICAP サー
 
 # File: /usr/lang/src/controllers.php, line: 282
 msgid "Ignore SSL certificate validation (for self-signed certificates)"
-msgstr ""
+msgstr "SSL 証明書検証を無視 ( 自己署名証明書に対して )"
 
 # File: /usr/lang/src/controllers.php, line: 283
 msgid "Ignore hosts in access.log"
-msgstr ""
+msgstr "access.log のホストを無視"
 
 # File: /usr/lang/src/controllers.php, line: 133
 msgid ""
@@ -19870,7 +19900,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 285
 msgid "Input Filter"
-msgstr ""
+msgstr "フィルタを入力"
 
 msgid "Interfaces"
 msgstr "インタフェース"
@@ -19885,39 +19915,39 @@ msgstr "パケットを落とす前の間隔 ( ms 単位 )、空白はデフォ�
 
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "Listen Addresses"
-msgstr ""
+msgstr "リスンアドレス"
 
 # File: /usr/lang/src/controllers.php, line: 290
 msgid "Listen address"
-msgstr ""
+msgstr "リスンアドレス"
 
 # File: /usr/lang/src/controllers.php, line: 291
 msgid "Listen port"
-msgstr ""
+msgstr "リスンポート"
 
 # File: /usr/lang/src/controllers.php, line: 292
 msgid "Local stats TCP port"
-msgstr ""
+msgstr "ローカルステータス TCP ポート"
 
 # File: /usr/lang/src/controllers.php, line: 293
 msgid "Log Host"
-msgstr ""
+msgstr "ログ収集ホスト"
 
 # File: /usr/lang/src/controllers.php, line: 294
 msgid "Log Status Changes"
-msgstr ""
+msgstr "ログステータス変更"
 
 # File: /usr/lang/src/controllers.php, line: 295
 msgid "Log connections"
-msgstr ""
+msgstr "ログ接続"
 
 # File: /usr/lang/src/controllers.php, line: 296
 msgid "Log target"
-msgstr ""
+msgstr "ログ対象"
 
 # File: /usr/lang/src/controllers.php, line: 297
 msgid "Logging Options"
-msgstr ""
+msgstr "ロギングオプション"
 
 # File: /usr/lang/src/controllers.php, line: 298
 msgid "Logical operator (for ACLs)"
@@ -21947,14 +21977,14 @@ msgstr "ダウンロードに対して、ホスト単位で許可する帯域幅
 
 # File: lang/dynamic/helpers/models.php, line: 170
 msgid "States Dump"
-msgstr "ステータスダンプ"
+msgstr "ステートダンプ"
 
 # File: lang/dynamic/helpers/models.php, line: 171
 msgid "States Reset"
-msgstr "ステータスリセット"
+msgstr "ステートリセット"
 
 msgid "States Summary"
-msgstr "ステータス概要"
+msgstr "ステート概要"
 
 # File: /usr/lang/src/models.php, line: 256
 msgid "Statistics"
