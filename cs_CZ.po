@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 17:43+0000\n"
+"POT-Creation-Date: 2017-01-17 08:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8581,6 +8581,11 @@ msgid ""
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
+"IP adresy rozhraní na kterých bude DNS překlad odpovídat na dotazy od "
+"klientů. Pokud má rozhraní jak IPv4 tak IPv6 adresy, budou použity obě. "
+"Dotazy na ostatní adresy rozhraní, které nejsou níže vybrané, budou "
+"zahazovány. Výchozím chováním je odpovídat na dotazy na všech dostupných "
+"IPv4 a IPv6 adresách."
 
 # File: /usr/core/src/www/services_unbound.php, line: 170
 # File: /usr/core/src/www/system_advanced_network.php, line: 108
@@ -8589,17 +8594,17 @@ msgstr "Síťová rozhraní"
 
 # File: /usr/core/src/www/services_unbound.php, line: 157
 msgid "Enable DNS Resolver"
-msgstr ""
+msgstr "Zapnout DNS překlad"
 
 # File: /usr/core/src/www/services_unbound.php, line: 147
 msgid "General DNS Resolver Options"
-msgstr ""
+msgstr "Obecné předvolby DNS překladu"
 
 # File: /usr/core/src/www/services_unbound.php, line: 138
 # File: /usr/core/src/www/services_unbound_acls.php, line: 195
 # File: /usr/core/src/www/services_unbound_overrides.php, line: 148
 msgid "The configuration for the DNS Resolver, has been changed"
-msgstr ""
+msgstr "Nastavení DNS překladu byla změněna"
 
 # File: /usr/core/src/www/services_unbound.php, line: 79
 msgid "You must specify a valid port number."
@@ -8610,26 +8615,30 @@ msgid ""
 "A single outgoing network interface needs to be selected for the DNS "
 "Resolver to use for outgoing DNS requests."
 msgstr ""
+"Je třeba vybrat jedno odchozí síťové rozhraní pro DNS překlad pro odchozí "
+"DNS požadavky."
 
 # File: /usr/core/src/www/services_unbound.php, line: 73
 msgid ""
 "A single network interface needs to be selected for the DNS Resolver to bind "
 "to."
-msgstr ""
+msgstr "Je třeba vybrat jediné síťové rozhraní na které navázat DNS překlad."
 
 # File: /usr/core/src/www/services_unbound.php, line: 70
 msgid ""
 "The DNS Forwarder is still active. Disable it before enabling the DNS "
 "Resolver."
 msgstr ""
+"Pořád ještě je aktivní DNS přeposílání. Nejprve je třeba ho vypnout a pak až "
+"zapnout DNS překlad."
 
 # File: /usr/core/src/www/services_snmp.php, line: 328
 msgid "Bind Interface"
-msgstr ""
+msgstr "Spojovací rozhraní"
 
 # File: /usr/core/src/www/services_snmp.php, line: 323
 msgid "Interface Binding"
-msgstr ""
+msgstr "Navázání rozhraní"
 
 # File: /usr/core/src/www/services_snmp.php, line: 307
 msgid "Regex"
@@ -8637,15 +8646,15 @@ msgstr "Regulární výraz"
 
 # File: /usr/core/src/www/services_snmp.php, line: 301
 msgid "UCD"
-msgstr ""
+msgstr "UCD"
 
 # File: /usr/core/src/www/services_snmp.php, line: 295
 msgid "Host Resources (Requires MibII)"
-msgstr ""
+msgstr "Zdroje stroje (vyžaduje MibII)"
 
 # File: /usr/core/src/www/services_snmp.php, line: 289
 msgid "PF"
-msgstr ""
+msgstr "PF"
 
 # File: /usr/core/src/www/services_snmp.php, line: 283
 msgid "Netgraph"
@@ -8665,7 +8674,7 @@ msgstr "Moduly"
 
 # File: /usr/core/src/www/services_snmp.php, line: 246
 msgid "Enter the SNMP trap string"
-msgstr ""
+msgstr "Zadejte řetězec SNMP trap"
 
 # File: /usr/core/src/www/services_snmp.php, line: 241
 msgid "Enter the port to send the traps to (default 162)"
@@ -9354,6 +9363,8 @@ msgid ""
 "A leap second file allows NTP to advertize an upcoming leap second addition "
 "or subtraction."
 msgstr ""
+"Soubor s určením přestupných sekund umožní NTP propagovat nadcházející "
+"přidání nebo odebrání přestupné sekundy."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 373
 msgid "Show Leap second configuration"
@@ -9365,19 +9376,20 @@ msgstr "Přestupné sekundy"
 
 # File: /usr/core/src/www/services_ntpd.php, line: 365
 msgid "Deny mode 6 control message trap service (default: enabled)."
-msgstr ""
+msgstr "Odepřít režim 6 zachytávání řídící zprávy (výchozí: zapnuto)."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 362
 msgid "Deny packets that attempt a peer association (default: enabled)."
 msgstr ""
+"Odepřít pakety které se pokouší o přiřazení protějšku (výchozí: zapnuto)."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 359
 msgid "Disable all except ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "Vypnout vše kromě ntpq a ntpdc dotazů (výchozí: vypnuto)."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 356
 msgid "Disable ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "Neumožňovat ntpq a ntpdc dotazy (výchozí: umožňovat)."
 
 # File: /usr/core/src/www/services_ntpd.php, line: 353
 msgid ""
@@ -13102,11 +13114,11 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 123
 msgid "Hello time for STP needs to be an integer between 1 and 2."
-msgstr ""
+msgstr "Je třeba, aby uvítací čas pro STP bylo buď číslo 1 nebo 2."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 120
 msgid "Forward Delay needs to be an integer between 4 and 30."
-msgstr ""
+msgstr "Je třeba, aby prodleva přeposlání byla celé číslo z rozmezí 4 až 30."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 117
 msgid "Timeout needs to be an integer."
@@ -13114,11 +13126,11 @@ msgstr "Je třeba, aby časový limit prodlevy bylo celé kladné číslo."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 114
 msgid "Maxaddr needs to be an integer."
-msgstr ""
+msgstr "Je třeba aby maxaddr bylo celé kladné číslo."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 111
 msgid "Maxage needs to be an integer between 6 and 40."
-msgstr ""
+msgstr "Je třeba, aby maxage bylo celé číslo z rozmezí 6 až 40."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 106
 msgid "Member Interfaces"
@@ -13180,6 +13192,7 @@ msgid ""
 "You cannot set port %s to interface %s because this interface is a member of "
 "%s."
 msgstr ""
+"Nelze nastavit port %s na rozhraní %s protože toto rozhraní je členem %s."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 245
 msgid "Port %s was assigned to %d interfaces:"
@@ -13224,7 +13237,7 @@ msgstr "vlan %s na %s"
 
 # File: /usr/core/src/www/interfaces.php, line: 3228
 msgid "802.1X Roaming Preauth"
-msgstr ""
+msgstr "802.1X roaming předověření"
 
 # File: /usr/core/src/www/interfaces.php, line: 3223
 msgid "Secondary 802.1X Authentication Server Shared Secret"
@@ -13269,6 +13282,8 @@ msgid ""
 "Enter the IP address of the 802.1X Authentication Server. This is commonly a "
 "Radius server (FreeRadius, Internet Authentication Services, etc.)"
 msgstr ""
+"Zadejte IP adresu 802.1X ověřovacího serveru. Obvykle toto bývá Radius "
+"server (FreeRadius, Internet Authentication Services, atd.)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3175
 msgid "802.1X Server IP Address"
@@ -13280,7 +13295,7 @@ msgstr "tato předvolba vyžaduje, aby bylo zaškrtnuté „Používat WPA“."
 
 # File: /usr/core/src/www/interfaces.php, line: 3170
 msgid "NOTE"
-msgstr ""
+msgstr "POZN."
 
 # File: /usr/core/src/www/interfaces.php, line: 3169
 msgid "Setting this option will enable 802.1x authentication."
@@ -13300,12 +13315,13 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 3156
 msgid "Strict Key Regeneration"
-msgstr ""
+msgstr "Striktní regenerace klíče"
 
 # File: /usr/core/src/www/interfaces.php, line: 3151
 msgid ""
 "Allowed values are 1-9999 but should not be shorter than Key Rotation time."
 msgstr ""
+"Možné hodnoty jsou 1 až 9999, ale nemělo by být kratší než čas rotace klíče."
 
 # File: /usr/core/src/www/interfaces.php, line: 3147
 msgid "Master Key Regeneration"
@@ -13316,6 +13332,8 @@ msgid ""
 "Allowed values are 1-9999 but should not be longer than Master Key "
 "Regeneration time."
 msgstr ""
+"Možné hodnoty jsou 1 až 9999, ale nemělo by být delší než čas regenerace "
+"hlavního klíče."
 
 # File: /usr/core/src/www/interfaces.php, line: 3138
 msgid "Key Rotation"
@@ -13331,7 +13349,7 @@ msgstr "AES (doporučeno)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3128
 msgid "WPA Pairwise"
-msgstr ""
+msgstr "WPA párové"
 
 # File: /usr/core/src/www/interfaces.php, line: 3123
 msgid "Note: Shared Key Authentication requires WEP."
@@ -13343,11 +13361,11 @@ msgstr "Ověřování sdíleným klíčem"
 
 # File: /usr/core/src/www/interfaces.php, line: 3118
 msgid "Open System Authentication"
-msgstr ""
+msgstr "Ověření otevřeného systému"
 
 # File: /usr/core/src/www/interfaces.php, line: 3109
 msgid "Extensible Authentication Protocol"
-msgstr ""
+msgstr "Rozšiřitelný ověřovací protokol"
 
 # File: /usr/core/src/www/interfaces.php, line: 3108
 # File: /usr/core/src/www/vpn_ipsec_keys.php, line: 125
@@ -13399,12 +13417,16 @@ msgid ""
 "104 (128) bit keys may be entered as 13 ASCII characters or 26 hex digits "
 "preceded by '0x'."
 msgstr ""
+"104 (128) bitové klíče je možné zadávat jako 13 ASCII znaků nebo 26 "
+"osmičkových, předeslaných „0x“"
 
 # File: /usr/core/src/www/interfaces.php, line: 3076
 msgid ""
 "40 (64) bit keys may be entered as 5 ASCII characters or 10 hex digits "
 "preceded by '0x'."
 msgstr ""
+"40 (64) bitové klíče je možné zadávat jako 5 ASCII znaků nebo 10 "
+"osmičkových, předeslaných „0x“"
 
 # File: /usr/core/src/www/interfaces.php, line: 3066
 msgid "Key 4:"
@@ -13424,7 +13446,7 @@ msgstr "Klíč 1:"
 
 # File: /usr/core/src/www/interfaces.php, line: 3036
 msgid "TX key"
-msgstr ""
+msgstr "Vysílací klíč"
 
 # File: /usr/core/src/www/interfaces.php, line: 3031
 msgid "Enable WEP"
@@ -13439,6 +13461,8 @@ msgid ""
 "Setting this option will force the card to NOT broadcast its SSID (this "
 "might create problems for some clients)."
 msgstr ""
+"Nastavení této předvolby vynutí aby rozhraní NEVYSÍLALO svůj SSID "
+"identifikátor (což může některým klientům způsobovat problémy)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3017
 msgid "Enable Hide SSID"
@@ -13472,13 +13496,15 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2997
 msgid "Allow intra-BSS communication"
-msgstr ""
+msgstr "Umožnit komunikaci mezi klienty"
 
 # File: /usr/core/src/www/interfaces.php, line: 2990
 msgid ""
 "When operating as an access point in 802.11g mode, allow only 11g-capable "
 "stations to associate (11b-only stations are not permitted to associate)."
 msgstr ""
+"Při provozování coby přístupového bodu v režimu 802.11g, umožnit připojení "
+"pouze klientům, kteří umí 11g (11b klientům nebude připojení umožněno)."
 
 # File: /usr/core/src/www/interfaces.php, line: 2986
 msgid "802.11g only"
@@ -13490,6 +13516,9 @@ msgid ""
 "selected wireless standard to associate (stations not capable are not "
 "permitted to associate)."
 msgstr ""
+"Při provozování coby přístupového bodu, umožnit připojení pouze klientům, "
+"kteří umí zvolený bezdrátový standard (klientům, kteří ho neovládají nebude "
+"připojení umožněno)."
 
 # File: /usr/core/src/www/interfaces.php, line: 2976
 msgid "802.11n"
@@ -13518,15 +13547,15 @@ msgstr "Přístupový bod"
 
 # File: /usr/core/src/www/interfaces.php, line: 2944
 msgid "Ad-hoc (IBSS)"
-msgstr ""
+msgstr "Přímé propojení (IBSS)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2941
 msgid "Infrastructure (BSS)"
-msgstr ""
+msgstr "Propojení přes přístupový bod (BSS)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2935
 msgid "Network-specific wireless configuration"
-msgstr ""
+msgstr "Nastavení bezdrátu pro danou síť"
 
 # File: /usr/core/src/www/interfaces.php, line: 2937
 msgid ""
@@ -13535,6 +13564,10 @@ msgid ""
 "codes may not be allowed by some cards. These settings may not be able to "
 "add additional channels that are not already supported."
 msgstr ""
+"Při změně nastavení norem budou veškeré bezdrátové sítě na tomto rozhraní "
+"budou dočasně odpojeny. Některé normy nebo zkratky zemí nemusí být "
+"podporované na všech kartách. Tato nastavení nemusí být schopná přidat další "
+"kanály, které už nejsou podporovány."
 
 # File: /usr/core/src/www/interfaces.php, line: 2935
 msgid ""
@@ -13542,6 +13575,9 @@ msgid ""
 "transmit power allowed on those channels. Using the correct settings to "
 "comply with local regulatory requirements is recommended."
 msgstr ""
+"Tato nastavení mohou ovlivnit dostupnost kanálů a nejvyšší vysílací výkon. "
+"Je doporučeno použít správná nastavení aby byl zajištěn soulad s místními "
+"nařízeními."
 
 # File: /usr/core/src/www/interfaces.php, line: 2924
 msgid "Anywhere"
@@ -13563,11 +13599,11 @@ msgstr "Umístění"
 msgid ""
 "Note: Any country setting other than \"Default\" will override the "
 "regulatory domain setting"
-msgstr ""
+msgstr "Pozn.: Všechna nastavení jiné než „Výchozí“ přebijí nastavení dle normy"
 
 # File: /usr/core/src/www/interfaces.php, line: 2903
 msgid "Country (listed with country code and regulatory domain)"
-msgstr ""
+msgstr "Země (uvedené se zkratkou země a oblastí norem)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2899
 msgid ""
@@ -13575,14 +13611,17 @@ msgid ""
 "the regulatory domain to one in this list for the changes to other "
 "regulatory settings to work."
 msgstr ""
+"Pozn.: některá rozhraní mají výchozí hodnoty takové, že nejsou rozpoznány a "
+"vyžadují změnu oblasti normy na některou ze seznamu aby změny na jinou "
+"oblast normy vůbec fungovalo."
 
 # File: /usr/core/src/www/interfaces.php, line: 2887
 msgid "Regulatory domain"
-msgstr ""
+msgstr "Oblast normy"
 
 # File: /usr/core/src/www/interfaces.php, line: 2885
 msgid "Regulatory settings"
-msgstr ""
+msgstr "Nastavení normy"
 
 # File: /usr/core/src/www/interfaces.php, line: 2878
 msgid ""
@@ -13609,7 +13648,7 @@ msgstr "Vysílací anténa"
 
 # File: /usr/core/src/www/interfaces.php, line: 2840
 msgid "Diversity"
-msgstr ""
+msgstr "Diverzita"
 
 # File: /usr/core/src/www/interfaces.php, line: 2833
 msgid "Antenna settings"
@@ -13620,6 +13659,8 @@ msgid ""
 "Not all channels may be supported by your card. Auto may override the "
 "wireless standard selected above."
 msgstr ""
+"Ne všechny kanály jsou podporované vaším síťovým rozhraním. Nastavení na "
+"automatiku může přebít výše vybraný bezdrátový standard."
 
 # File: /usr/core/src/www/interfaces.php, line: 2824
 msgid ""
@@ -13647,6 +13688,9 @@ msgid ""
 "will use the setting closest to the specified value. Not all adapters "
 "support changing the transmit power setting."
 msgstr ""
+"Typicky je k dispozici jen několik skokových nastavení vysílacího výkonu a "
+"ovladač použije to, které je nejblíže nastavené hodnotě. Ne všechna rozhraní "
+"podporuj změnu vysílacího výkonu. "
 
 # File: /usr/core/src/www/interfaces.php, line: 2792
 msgid "Transmit power"
@@ -13657,18 +13701,20 @@ msgid ""
 "For IEEE 802.11g, use the specified technique for protecting OFDM frames in "
 "a mixed 11b/11g network."
 msgstr ""
+"Pro IEEE 802.11g použít zadané technologie ochrany OFDM rámců ve smíšené 11b/"
+"11g síti."
 
 # File: /usr/core/src/www/interfaces.php, line: 2779
 msgid "Protection mode RTS and CTS"
-msgstr ""
+msgstr "Ochranný režim RTS a CTS"
 
 # File: /usr/core/src/www/interfaces.php, line: 2778
 msgid "Protection mode CTS to self"
-msgstr ""
+msgstr "Ochranný režim CTS na sebe"
 
 # File: /usr/core/src/www/interfaces.php, line: 2777
 msgid "Protection mode off"
-msgstr ""
+msgstr "Ochranný režim vypnutý"
 
 # File: /usr/core/src/www/interfaces.php, line: 2774
 msgid "Protection Mode"
@@ -13693,7 +13739,7 @@ msgstr "Společná nastavení pro bezdrátové sítě – budou použita na vše
 
 # File: /usr/core/src/www/interfaces.php, line: 2727
 msgid "Enter a hexadecimal value between %x and %x here, default value is 0."
-msgstr ""
+msgstr "Sem zadejte osmičkovou hodnotu z rozmezí %x a %x – výchozí je 0 (nula)."
 
 # File: /usr/core/src/www/interfaces.php, line: 2725
 msgid ""
@@ -13727,6 +13773,9 @@ msgid ""
 "the ISP. A value of 0 means we embed the entire IPv4 address in the 6RD "
 "prefix."
 msgstr ""
+"Hodnota v této kolonce je délka 6RD IPv4 předpony. Obyčejně bývá určená "
+"poskytovatelem připojení. Hodnota 0 (nula) znamená zapouzdřit celou IPv4 "
+"adresu do 6RD předpony."
 
 # File: /usr/core/src/www/interfaces.php, line: 2667
 # File: /usr/core/src/www/services_dhcpv6.php, line: 485
@@ -13742,7 +13791,7 @@ msgstr "bity"
 
 # File: /usr/core/src/www/interfaces.php, line: 2661
 msgid "6RD IPv4 Prefix length"
-msgstr ""
+msgstr "Délka 6RD IPv4 předpony"
 
 # File: /usr/core/src/www/interfaces.php, line: 2656
 msgid ""
@@ -13773,7 +13822,7 @@ msgstr "6RD rychlé nasazování"
 
 # File: /usr/core/src/www/interfaces.php, line: 2613
 msgid "expire"
-msgstr ""
+msgstr "skončení platnosti"
 
 # File: /usr/core/src/www/interfaces.php, line: 2611
 msgid "secret"
@@ -13793,7 +13842,7 @@ msgstr "nazevklice"
 
 # File: /usr/core/src/www/interfaces.php, line: 2602
 msgid "Keyinfo"
-msgstr ""
+msgstr "Informace o klíči"
 
 # File: /usr/core/src/www/interfaces.php, line: 2597
 msgid "rdm"
@@ -13836,7 +13885,7 @@ msgstr "Předpona rozhraní"
 
 # File: /usr/core/src/www/interfaces.php, line: 2569
 msgid "ipv6-prefix"
-msgstr ""
+msgstr "ipv6-předpona"
 
 # File: /usr/core/src/www/interfaces.php, line: 2568
 msgid "Prefix"
@@ -13907,6 +13956,14 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent."
 msgstr ""
+"V této kolonce jsou DHCP předvolby, které jsou odesílány v žádosti o DHCP "
+"zápůjčku. [předvolba deklarace [, ...]] <br />Dosazování hodnot: {interface} "
+"(rozhraní), {hostname} (název stroje), {mac_addr_asciiCD} (mac adresa v "
+"ASCII vyjádření), {mac_addr_hexCD} (mac adresa v osmičkovém vyjádření)<br />"
+"Kde C je U (velká) nebo L (malá) písmena, a D je „ :-.“ oddělovač (mezera, "
+"dvojtečka, spojovník nebo tečka) (pokud žádný, pak vynechat). <br />Některé "
+"DHCP služby mohou vyžadovat, aby některé předvolby byly přítomné a některé "
+"zase ne."
 
 # File: /usr/core/src/www/interfaces.php, line: 2521
 msgid "Source: FreeBSD man page"
@@ -14472,6 +14529,9 @@ msgid ""
 "If you enter a value in this field, then MSS clamping for TCP connections to "
 "the value entered above minus 40 (TCP/IP header size) will be in effect."
 msgstr ""
+"Pokud do této kolonky zadáte nějakou hodnotu, pak bude mít účinku MSS "
+"clamping pro TCP spojení k výše zadané hodnotě mínus 40 (velikost TCP/IP "
+"záhlaví)."
 
 # File: /usr/core/src/www/interfaces.php, line: 1767
 msgid "MSS"
@@ -14482,6 +14542,8 @@ msgid ""
 "If you leave this field blank, the adapter's default MTU will be used. This "
 "is typically 1500 bytes but can vary in some circumstances."
 msgstr ""
+"Pokud není vyplněno, je použito výchozí MTU rozhraní. To obvykle bývá 1500 "
+"bajtů ale za určitých okolností může být jiné."
 
 # File: /usr/core/src/www/interfaces.php, line: 1757
 msgid "calculated ppp mtu :"
@@ -14498,6 +14560,8 @@ msgid ""
 "This field can be used to modify (\"spoof\") the MAC address of this "
 "interface. This may be required with some cable connections."
 msgstr ""
+"Tuto kolonku lze použít pro úpravu („podvržení“) MAC adresy tohoto rozhraní. "
+"To může být třeba v případě některých kabelových přípojek."
 
 # File: /usr/core/src/www/interfaces.php, line: 1742
 msgid "Insert my local MAC address"
@@ -14525,15 +14589,15 @@ msgstr "Statická IPv6 adresa"
 
 # File: /usr/core/src/www/interfaces.php, line: 1723
 msgid "SLAAC"
-msgstr ""
+msgstr "SLAAC"
 
 # File: /usr/core/src/www/interfaces.php, line: 1723
 msgid "6to4 Tunnel"
-msgstr ""
+msgstr "Tunel 6to4"
 
 # File: /usr/core/src/www/interfaces.php, line: 1723
 msgid "6rd Tunnel"
-msgstr ""
+msgstr "Tunel 6rd"
 
 # File: /usr/core/src/www/interfaces.php, line: 1719
 msgid "IPv6 Configuration Type"
@@ -14566,12 +14630,17 @@ msgid ""
 "and obviously should not appear as the source address in any packets you "
 "receive."
 msgstr ""
+"Nastrčené jsou předpony, které by se nikdy neměly objevit ve směrovací "
+"tabulce Internetu a tím ani jako zdrojová adresa v žádném z paketů, který "
+"obdržíte."
 
 # File: /usr/core/src/www/interfaces.php, line: 1696
 msgid ""
 "When set, this option blocks traffic from IP addresses that are reserved ("
 "but not RFC 1918) or not yet assigned by IANA."
 msgstr ""
+"Pokud je nastavená, tato předvolba bude blokovat provoz z IP adres, které "
+"jsou vyhrazené (ale ne RFC 1918) nebo ještě nepřiřazené organizací IANA."
 
 # File: /usr/core/src/www/interfaces.php, line: 1684
 msgid ""
