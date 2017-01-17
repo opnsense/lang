@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 17:51+0000\n"
+"POT-Creation-Date: 2017-01-15 08:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3398,6 +3398,8 @@ msgid ""
 "Enter the webConfigurator password of the system entered above for "
 "synchronizing your configuration."
 msgstr ""
+"Geben Sie das Webkonfiguratorpasswort des oben angegebenen Systems für die "
+"Synchronisation Ihrer Konfiguration ein."
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
@@ -3408,12 +3410,16 @@ msgid ""
 "Do not use the Synchronize Config to IP and username option on backup "
 "cluster members!"
 msgstr ""
+"Verwenden Sie die die synchronisiere Konfiguration zu IP und Benutzername "
+"nicht auf Sicherungsclustermitgliedern!"
 
 # File: src/www/system_hasync.php, line: 200
 msgid ""
 "Enter the webConfigurator username of the system entered above for "
 "synchronizing your configuration."
 msgstr ""
+"Geben Sie den Webkonfiguratorbenutzernamen des oben angegebenen Systems für "
+"die Synchronisation Ihrer Konfiguration ein."
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
@@ -3425,6 +3431,8 @@ msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
 "cluster members!"
 msgstr ""
+"Verwenden Sie die die synchronisiere Konfiguration zu IP und Passwort nicht "
+"auf Sicherungsclustermitgliedern!"
 
 # File: /usr/core/src/www/system_hasync.php, line: 164
 msgid ""
@@ -3974,6 +3982,8 @@ msgid ""
 "The low latency threshold needs to be less than the default high latency "
 "threshold (%d)"
 msgstr ""
+"Der untere Latenzgrenzwert muss kleiner als der obere "
+"Standardlatenzgrenzwert (%d) sein"
 
 msgid ""
 "The high latency threshold needs to be higher than the low latency threshold"
@@ -5039,13 +5049,15 @@ msgstr ""
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 272
 msgid "Enter the email address username for SMTP authentication."
 msgstr ""
+"Geben Sie den Benutzernamen der E-Mail-Adresse für die SMTP-"
+"Authentifizierung ein."
 
 msgid "(optional)"
 msgstr "(optional)"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 267
 msgid "Email auth username"
-msgstr ""
+msgstr "E-Mail Authentifizierungsbenutzername"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 262
 msgid ""
@@ -5085,6 +5097,8 @@ msgid ""
 "This is the port of the SMTP Email server, typically 25, 587 (submission) or "
 "465 (smtps)"
 msgstr ""
+"Dies ist der Port des SMTP-E-Mail-Servers. Typischerweise 25, 587 "
+"(Submission) oder 465 (SMTPS)"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 231
 msgid "SMTP Port of Email server"
@@ -5277,7 +5291,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 430
 msgid "/var RAM disk"
-msgstr ""
+msgstr "/var Arbeitsspeicherfestplatte"
 
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
 msgstr "RAM-Disks Einstellungen (Neustart um die Änderungen vorzunehmen)"
@@ -6976,12 +6990,16 @@ msgid ""
 "Entries in this area override an entire domain by specifying an "
 "authoritative DNS server to be queried for that domain."
 msgstr ""
+"Einträge in diesem Bereich überschreiben eine ganze Domain durch die Angabe "
+"eines authoritativen DNS-Servers, der für diese Domain abgefragt werden kann."
 
 # File: src/www/services_unbound_overrides.php, line: 124
 msgid ""
 "Keep in mind that all resource record types (i.e. A, AAAA, MX, etc. records) "
 "of a specified host below are being overwritten."
 msgstr ""
+"Bedenken Sie, dass alle Resourceneinträge (z. B. A, AAAA, MX etc.) eines "
+"angegebenen Hosts überschrieben werden."
 
 # File: src/www/services_unbound_host_edit.php, line: 309
 msgid "Host name of MX host"
@@ -8242,6 +8260,8 @@ msgid ""
 "Selecting all interfaces will explicitly listen on only the interfaces/IPs "
 "specified."
 msgstr ""
+"Durch die Auswahl aller Schnittstellen wird explizit nur auf den angegebenen "
+"Schnittstellen/IPs gehört."
 
 msgid "Selecting no interfaces will listen on all interfaces with a wildcard."
 msgstr ""
@@ -8345,6 +8365,9 @@ msgid ""
 ") and carriage returns (\\r) at the beginning or end of the returned results "
 "are removed before comparison."
 msgstr ""
+"Tablulatoren (\\t), Zeilenumbrüche (\\n"
+") und Wagenvorschübe (\\r) am Beginn oder Ende der zurückgegebenen "
+"Ergebnisse werden vor dem Vergleich entfernt."
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 370
 msgid ""
@@ -8557,22 +8580,31 @@ msgstr ""
 msgid ""
 "Source IP address for queries to the DNS server for the override domain."
 msgstr ""
+"Quell-IP-Adresse für Abfragen an den DNS-Server um die Domain zu "
+"überschreiben."
 
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 174
 msgid "Specify a non standard port number here, leave blank for default"
 msgstr ""
+"Geben Sie hier eine nicht-Standardportportnummer hier an, lassen Sie es leer "
+"für den Standardwert"
 
 msgid ""
 "Or enter # for an exclusion to pass through this host/subdomain to standard "
 "nameservers instead of a previous override."
 msgstr ""
+"Oder geben Sie # für eine Ausnahme an, bei der dieser Host bzw. diese "
+"Subdomain an Standardnamensserver anstelle der vorherigen Überschreibung "
+"verwendet wird."
 
 msgid ""
 "Or enter ! for lookups for this host/subdomain to NOT be forwarded anywhere."
 msgstr ""
+"Oder geben Sie ! für Abfragen für diesen Host / diese Subdomain ein, damit "
+"diese NICHT weitergeleitet werden."
 
 msgid "IP address of the authoritative DNS server for this domain"
-msgstr ""
+msgstr "IP-Adresse des authoritativen DNS-Servers für diese Domain"
 
 msgid "test"
 msgstr "testen"
@@ -8586,7 +8618,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 143
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 117
 msgid "Edit Domain Override entry"
-msgstr ""
+msgstr "Domainüberschreibungseintrag bearbeiten"
 
 msgid "An interface IP address must be specified for the DNS query source."
 msgstr ""
@@ -8615,7 +8647,7 @@ msgid ""
 msgstr ""
 
 msgid "Domain Overrides"
-msgstr ""
+msgstr "Domainüberschreibung"
 
 msgid "Use these for changing DNS results or for adding custom DNS records."
 msgstr ""
@@ -8623,6 +8655,8 @@ msgstr ""
 msgid ""
 "Entries in this section override individual results from the forwarders."
 msgstr ""
+"Einträge in dieser Sektion überschreiben individuelle Ergebnisse des "
+"Forwarders."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 434
 msgid "Alias for"
@@ -8715,6 +8749,10 @@ msgid ""
 "servers. If the name is not known from /etc/hosts or DHCP then a \"not "
 "found\" answer is returned."
 msgstr ""
+"Falls diese Option gesetzt ist, wird der DNS Forwarder (dnsmasq) A- oder "
+"AAAA-Abfragen nicht für Namen ohne Punkte oder Domainteile an übergeordnete "
+"Namensserver weiterleiten. Falls der Name nicht in der Datei /etc/hosts oder "
+"im DHCP bekannt ist, wird eine \"nicht gefunden\"-Antwort zurückgegeben."
 
 msgid "Require domain"
 msgstr "Domain verlangen"
@@ -8879,7 +8917,7 @@ msgstr ""
 
 # File: src/www/services_dhcpv6_edit.php, line: 201
 msgid "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
-msgstr ""
+msgstr "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
 
 msgid "Enter a DUID Identifier in the following format: "
 msgstr "Gebe eine DUID Bezeichnung im folgenden Format ein: "
@@ -8985,6 +9023,8 @@ msgid ""
 "A valid primary domain name server IPv4 address must be specified for the "
 "dynamic domain name."
 msgstr ""
+"Ein gültige primäre Domainnamensserver-IPv4-Adresse muss für den dynamischen "
+"Domainnamen angegeben werden."
 
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary DNS servers."
@@ -10443,9 +10483,14 @@ msgid ""
 "like time stamping or SACK, which modify TCP options between sequential "
 "packets."
 msgstr ""
+"Diese Option aktiviert Van Jacobsons TCP-Kopfzeilenkomprimierung, welche ein "
+"paar Bytes pro TCP-Datenpaket spart. Sie werden die Option so gut wie immer "
+"wollen. Diese Komprimierung ist ineffektiv bei TCP-Verbindungen mit aktiven "
+"modernen Erweiterungen wie Zeitstempeln oder SACK, welche die TCP Optionen "
+"zwischen sequenziellen Paketen verändern."
 
 msgid "Disable vjcomp(compression) (auto-negotiated by default)."
-msgstr ""
+msgstr "Deaktiviere vjcomp(Komprimierung) (standardmäßig automatisch bestimmt)."
 
 msgid "Compression"
 msgstr "Komprimierung"
@@ -19877,11 +19922,11 @@ msgstr "FTP-Proxy-Server"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 83
 msgid "FTP Proxies"
-msgstr ""
+msgstr "FTP-Proxys"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
-msgstr ""
+msgstr "Hörende Adresse"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
@@ -19974,6 +20019,8 @@ msgid ""
 "If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
 "DNS will go to all clients"
 msgstr ""
+"Falls eigegeben, werden Sie an alle PPPoE-Clients weitergegeben, andernfalls "
+"wird der LAN-DNS und ein WAN-DNS an die Clients weitergereicht"
 
 msgid "Sends accounting packets to the RADIUS server"
 msgstr "Sendet Verrechnungspakete an den RADIUS-Server"
@@ -20114,6 +20161,8 @@ msgid ""
 "Address where the proxy will listen for redirected control connections. The "
 "default is 127.0.0.1."
 msgstr ""
+"Adresse, bei der der Proxy auf umgeleitetete Kontrollverbindungen hört. Der "
+"Standard ist 127.0.0.1."
 
 # File: /usr/lang/src/controllers.php, line: 38
 msgid "Adjust the server's weight relative to other servers."
@@ -20141,7 +20190,7 @@ msgstr "Erweiterte Einstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Agent port"
-msgstr ""
+msgstr "Agentenport"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 msgid "Alert"
