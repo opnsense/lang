@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 17:45+0000\n"
+"POT-Creation-Date: 2017-01-17 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11859,34 +11859,42 @@ msgid ""
 "Signed 32-bit integer type must be a number in the range -2147483648 to "
 "2147483647."
 msgstr ""
+"O numero inteiro de 32-bit assinado deverá estar dentro da gama  -2147483648 "
+"to 2147483647."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 363
 msgid ""
 "Signed 16-bit integer type must be a number in the range -32768 to 32767."
 msgstr ""
+"O numero inteiro de 16-bit assinado deverá estar dentro da gama -32768 to "
+"32767"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 361
 msgid "Signed 8-bit integer type must be a number in the range -128 to 127."
 msgstr ""
+"O numero inteiro de 8-bit assinado deverá estar dentro da gama -128 to 127."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 359
 msgid ""
 "Unsigned 32-bit integer type must be a number in the range 0 to 4294967295."
 msgstr ""
-"O numero inteiro de 32-bit assinado deverá estar dentro da gama  0 to "
+"O numero inteiro de 32-bit não assinado deverá estar dentro da gama  0 to "
 "4294967295"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 357
 msgid "Unsigned 16-bit integer type must be a number in the range 0 to 65535."
 msgstr ""
+"O numero inteiro de 16-bit não assinado deverá estar dentro da gama 0 to "
+"65535."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 355
 msgid "Unsigned 8-bit integer type must be a number in the range 0 to 255."
 msgstr ""
+"O numero inteiro de 8-bit não assinado deverá estar dentro da gama 0 to 255."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 353
 msgid "Boolean type must be true, false, on, or off."
-msgstr ""
+msgstr "Tipo Booleano deve ser verdadeiro, falso, ligado e desligado"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 351
 msgid ""
@@ -11894,79 +11902,95 @@ msgid ""
 "octets specified in hexadecimal, separated by colons, like "
 "01:23:45:67:89:ab:cd:ef"
 msgstr ""
+"O tipo de string deve ser colocado entre aspas como \"isto\" ou deve ser uma "
+"série de octetos especificados em hexadecimal, separados por dois-pontos, "
+"tal como 01:23:45:67:89:ab:cd:ef"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 349
 msgid "Text type cannot include quotation marks."
-msgstr ""
+msgstr "O tipo de texto não pode incluir aspas."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 343
 msgid ""
 "Cannot enable static ARP when you have static map entries without IP "
 "addresses. Ensure all static maps have IP addresses and try again."
 msgstr ""
+"Não é possível ativar o ARP quando tem entradas estáticas de map sem "
+"endereços IP. Certifique-se que todos os mapas estáticos têm endereços "
+"estáticos IP e volte a tentar."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 325
 msgid "The subnet range cannot overlap with virtual IP address %s."
-msgstr ""
+msgstr "A gama de subnet não pode sobrepor-se com o endereço IP virtual%s."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 317
 msgid "You cannot use the broadcast address in the ending subnet range."
-msgstr ""
+msgstr "Não pode usar o endereço broadcast numa gama de subnet final"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 314
 msgid "You cannot use the network address in the starting subnet range."
-msgstr ""
+msgstr "Não pode usar o endereço broadcast numa gama de subnet inicial."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 310
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 235
 msgid "A valid IP address must be specified for the network boot server."
 msgstr ""
+"Um endereço IP válido deve ser especificado para o servidor de boot de rede."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 307
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 232
 msgid "A valid IP address or hostname must be specified for the TFTP server."
 msgstr ""
+"Um endereço IP válido ou hostname deve ser especificado para o servidor TFTP."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 304
 # File: /usr/core/src/www/services_dhcpv6.php, line: 182
 msgid "A valid domain name must be specified for the DNS domain."
-msgstr ""
+msgstr "Um nome de domínio válido deve ser especificado para o domínio DNS."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 301
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 229
 msgid ""
 "A valid IP address must be specified for the primary/secondary NTP servers."
 msgstr ""
+"Um endereço IP válido deve ser especificado para o servidpr NTP "
+"primário/secundário."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 297
 msgid ""
 "If you specify a mac deny list, it must contain only valid partial MAC "
 "addresses."
 msgstr ""
+"Se especificar uma lista de mac não permitidos, deve conter apenas endereços "
+"MAC parciais válidos"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 294
 msgid ""
 "If you specify a mac allow list, it must contain only valid partial MAC "
 "addresses."
 msgstr ""
+"Se especificar uma lista de mac permitidos, deve conter apenas endereços MAC "
+"parciais válidos"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 286
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 222
 # File: /usr/core/src/www/services_dhcpv6.php, line: 172
 # File: /usr/core/src/www/services_router_advertisements.php, line: 92
 msgid "A valid domain search list must be specified."
-msgstr ""
+msgstr "Uma lista de pesquisa de domínios deve se especificada."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 280
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 216
 # File: /usr/core/src/www/services_dhcpv6.php, line: 166
 msgid "You must specify both a valid domain key and key name."
 msgstr ""
+"Deve especificar conjuntamente uma ma chave de domínio válida e um nome de "
+"chave."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 275
 # File: /usr/core/src/www/services_dhcpv6.php, line: 162
 msgid "You must specify a Base64-encoded domain key."
-msgstr ""
+msgstr "Deve especificar uma chave de domínio Base64-encoded"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 272
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 212
@@ -11974,12 +11998,16 @@ msgid ""
 "A valid primary domain name server IP address must be specified for the "
 "dynamic domain name."
 msgstr ""
+"Um endereço IP de um nome de servidor de domínio primário válido deve ser "
+"especificado para um nome de domínio dinâmico."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 269
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 209
 # File: /usr/core/src/www/services_dhcpv6.php, line: 156
 msgid "A valid domain name must be specified for the dynamic DNS registration."
 msgstr ""
+"Um nome de domínio válido deve ser especificado para o registo de DNS "
+"dinâmico."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 266
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 206
@@ -11988,35 +12016,42 @@ msgid ""
 "The maximum lease time must be at least 60 seconds and higher than the "
 "default lease time."
 msgstr ""
+"O tempo máximo de lease deve ser pelo menos de 60 segundos e superior ao "
+"tempo por defeito do lease."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 262
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 203
 # File: /usr/core/src/www/services_dhcpv6.php, line: 150
 msgid "The default lease time must be at least 60 seconds."
-msgstr ""
+msgstr "O tempo pré-definido de lease deve ser pelo menos de 60 segundos"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 258
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 199
 msgid ""
 "A valid IP address must be specified for the primary/secondary DNS servers."
 msgstr ""
+"Um endereço IP válido deve ser especificado para o servidor DNS "
+"primário/secundário."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 254
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 195
 msgid ""
 "The gateway address %s does not lie within the chosen interface's subnet."
 msgstr ""
+"O endereço %s da gateway não está dentro do interface da subnet escolhida."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 248
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 188
 msgid ""
 "A valid IP address must be specified for the primary/secondary WINS servers."
 msgstr ""
+"Um endereço IP válido deve ser especificado para o servidors WINS "
+"primário/secundário"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 245
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 184
 msgid "A valid IP address must be specified for the gateway."
-msgstr ""
+msgstr "Um endereço IP válido deve ser especificado para a gateway."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 239
 # File: /usr/core/src/www/services_dhcp.php, line: 242
@@ -12024,129 +12059,149 @@ msgstr ""
 # File: /usr/core/src/www/services_dhcpv6.php, line: 137
 # File: /usr/core/src/www/services_dhcpv6.php, line: 140
 msgid "A valid range must be specified."
-msgstr ""
+msgstr "Uma gama válida deve ser especificada"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 234
 # File: /usr/core/src/www/services_dhcpv6.php, line: 127
 msgid "Range end"
-msgstr ""
+msgstr "Fim da gama"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 234
 # File: /usr/core/src/www/services_dhcpv6.php, line: 127
 msgid "Range begin"
-msgstr ""
+msgstr "Início da gama"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 130
 msgid ""
 "The DHCP Server can only be enabled on interfaces configured with static IP "
 "addresses."
 msgstr ""
+"O servidor DHCP só pode ser ativado nos interfaces configurados com um "
+"endereços IP estáticos."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 130
 msgid "Only interfaces configured with a static IP will be shown."
 msgstr ""
+"Apenas interfaces configurados com endereço IP estático serão apresentados."
 
 # File: /usr/core/src/www/reporting_settings.php, line: 178
 msgid ""
 "Graphs will not be allowed to be recreated within a 1 minute interval, "
 "please take this into account after changing the style."
 msgstr ""
+"Gráficos não serão permitidos para serem recriados dentro de um intervalo de "
+"1 minuto. Deve levar isto em conta após alterar o estilo. "
 
 # File: /usr/core/src/www/reporting_settings.php, line: 172
 msgid "Reset RRD Data"
-msgstr ""
+msgstr "Reset RRD Data"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 165
 msgid "Enables the RRD graphing backend."
-msgstr ""
+msgstr "Ativar o RRD graphing backend."
 
 # File: /usr/core/src/www/reporting_settings.php, line: 162
 msgid "Round-Robin-Database"
-msgstr ""
+msgstr "Round-Robin-Database"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 159
 msgid "Reporting Database Options"
-msgstr ""
+msgstr "Reporte da Opções da Base de dados"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 83
 msgid ""
 "Do you really want to reset the RRD graphs? This will erase all graph data."
 msgstr ""
+"Tem a certeza que pretende efetuar reset aos gráficos RRD? Esta ação irá "
+"apagar todos os dados dos gráficos."
 
 # File: /usr/core/src/www/reporting_settings.php, line: 44
 msgid "RRD data has been cleared."
-msgstr ""
+msgstr "Os dados RRD foram apagados."
 
 # File: /usr/core/src/www/reboot.php, line: 51
 msgid "Are you sure you want to reboot the system?"
-msgstr ""
+msgstr "Tem a certeza que pretende reinicializar o sistema?"
 
 # File: /usr/core/src/www/diag_backup.php, line: 419
 # File: /usr/core/src/www/reboot.php, line: 47
 msgid "The system is rebooting now. This may take one minute."
-msgstr ""
+msgstr "O sistema está agora a reinicializar. Isto deverá levar um minuto."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 330
 msgid ""
 "Don't forget to add a firewall rule for the virtual server/pool after you're "
 "finished setting it up."
 msgstr ""
+"Não se esqueça de adicionar uma regra de firewall para o server/pool virtual "
+"após terminar a configuração."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 319
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 311
 # File: /usr/core/src/www/system_certmanager.php, line: 929
 # File: /usr/core/src/www/system_certmanager.php, line: 949
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 299
 msgid ""
 "Relays allow application layer load balancing, TLS acceleration, and general "
 "purpose TCP proxying on layer 7."
 msgstr ""
+"Os Relays permitem balanceamento de carga da camada de aplicação, aceleração "
+"de TLS e uso geral proxying TCP na camada 7."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 297
 msgid ""
 "Redirections are translated to pf(4) rdr-to rules for stateful forwarding to "
 "a target host from a health-checked table on layer 3."
 msgstr ""
+"Redirecionamentos são traduzidos para regras pf(4) rdr-to de encaminhamentos "
+"dinâmicos para um host de destino a partir de uma tabela com verificação de "
+"integridade na camada 3."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 280
 msgid "This option is NOT compatible with the DNS relay protocol."
-msgstr ""
+msgstr "Esta opção NÃO é compatível com o protocolo DNS relay."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 279
 msgid ""
 "The server pool to which clients will be redirected if *ALL* servers in the "
 "Virtual Server Pool are offline."
 msgstr ""
+"Pool de servidores para os quais os clientes serão redirecionados se os "
+"servidores * ALL * na pool de servidores virtuais estiverem offline."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 239
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 260
 msgid "Please add a pool on the Pools tab to use this feature."
-msgstr ""
+msgstr "Adicione por favor uma pool na tab das Pools para usar esse recurso."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 235
 msgid "Virtual Server Pool"
-msgstr ""
+msgstr "Pool virtual de servidores"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 229
 msgid "If left blank, listening ports from the pool will be used."
-msgstr ""
+msgstr "Se deixar em branco, as portas de escuta da pool serão usadas."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 228
 msgid ""
 "This is the port that the clients will connect to. All connections to this "
 "port will be forwarded to the pool cluster."
 msgstr ""
+"Esta é a porta para a qual os clientes se ligarão. Todas as ligações a esta "
+"porta serão encaminhadas para a pool cluster."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 219
 msgid ""
 "You may also specify a host alias listed in Firewall -&gt; Aliases here."
 msgstr ""
+" Também pode especificar um alias de host listado no Firewall -&gt; Aliases "
+"aqui."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 218
 msgid ""
@@ -12154,60 +12209,68 @@ msgid ""
 "on. All connections to this IP and port will be forwarded to the pool "
 "cluster."
 msgstr ""
+"Normalmente este é o endereço IP da WAN que gostaria que o servidor "
+"escutasse. Todas as ligações para este IP e porta serão reencaminhas par a  "
+"pool cluster."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
 msgid "Add/edit - Virtual Server entry"
-msgstr ""
+msgstr "Adicionar/editar - Entrada se servidor virtual"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 100
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
 msgstr ""
+"Não pode selecionar uma Fall Back Pool enquanto usar o protocolo DNS relay."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 96
 msgid "%s is a subnet containing more than 64 IP addresses."
-msgstr ""
+msgstr "%s é uma subnet que contém mais de 64  endereços de IP."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 94
 msgid "%s is not a valid IP address, IPv4 subnet, or alias."
-msgstr ""
+msgstr "%s não é um endereço de IP válido, subnet IPv4 ou alias."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 90
 msgid ""
 "The port must be an integer between 1 and 65535, a port alias, or left blank."
 msgstr ""
+"A porta deve ser um valor inteiro entre 1 e 65535, um porta alias, ou deixe "
+"em branco."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 86
 msgid "You cannot use spaces or slashes in the 'name' field."
-msgstr ""
+msgstr "Não é possível usar espaços ou barras no campo 'nome'."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 81
 msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
 msgstr ""
+"O nome de servidor virtual já foi utilizado. Os nomes de servidor devem ser "
+"exclusivos."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 73
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 304
 msgid "Relay Protocol"
-msgstr ""
+msgstr "Protocolo Relay"
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 126
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 256
 msgid "Fall Back Pool"
-msgstr ""
+msgstr "Fall Back Pool"
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 125
 # File: /usr/core/src/www/widgets/widgets/load_balancer_status.widget.php, line: 64
 msgid "Pool"
-msgstr ""
+msgstr "Pool"
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 112
 msgid "The virtual server configuration has been changed"
-msgstr ""
+msgstr "A configuração do servidor virtual foi alterada."
 
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 87
 msgid "Load Balancer: Virtual Server Setup"
-msgstr ""
+msgstr "Balanceador de carga: Configuração do Servidor Virtual"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 158
 msgid ""
@@ -12218,166 +12281,189 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
+"Coneções sucessivas irão ser redirecionadas para os servidores de uma forma "
+"round-robin com ligações da mesma fonte a serem enviadas para o mesmo "
+"servidor web. Esta ligação sticky irá existir desde que existam estados que "
+"se refiram a esta ligação. Quando os estados expirarem, também a ligação "
+"sticky expira. Ligações adicionais desse host irão ser redirecionadas para o "
+"próximo servidor web na round-robin.   "
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 156
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 357
 msgid "Use sticky connections"
-msgstr ""
+msgstr "Utilize Ligações sticky"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 153
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 354
 msgid "Sticky connections"
-msgstr ""
+msgstr "Ligações sticky"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 148
 msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
 msgstr ""
+"Numero de processos usados pelo relayd para o protocolo dns. Deixe em branco "
+"para usar os valores pré-definidos de 5 processos."
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 144
 msgid "Prefork"
-msgstr ""
+msgstr "Prefork"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 139
 msgid ""
 "Set the interval in seconds at which the member of a pool will be checked. "
 "Leave blank to use the default interval of 10 seconds"
 msgstr ""
+"Defina o intervalo em segundos em que o membro de uma pool será verificado. "
+"Deixe em branco  para usar o intervalo  pré-definido de 10 segundos"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 135
 msgid "Interval"
-msgstr ""
+msgstr "Intervalo"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 130
 msgid ""
 "Set the global timeout in milliseconds for checks. Leave blank to use the "
 "default value of 1000 ms "
 msgstr ""
+"Defina o tempo limite global em milissegundos para verificações. Deixe em "
+"branco para usar o valor pré-definido de 1000 ms"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 118
 msgid "Global settings"
-msgstr ""
+msgstr "Definições Globais"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 74
 msgid "Prefork value must be between 1 and 32"
-msgstr ""
+msgstr "Valor Prefork deverá estar entre 1 e 32"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 72
 msgid "Prefork must be a numeric value"
-msgstr ""
+msgstr "Prefork deverá ser um valor numérico"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 67
 msgid "Interval must be a numeric value"
-msgstr ""
+msgstr "O intervalo deverá ser um valor numérico."
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 63
 msgid "Timeout must be a numeric value"
-msgstr ""
+msgstr "Tempo limite tem de ser um valor numérico"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 329
 msgid "Enabled (default)"
-msgstr ""
+msgstr "Ativado (por defeito)"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 327
 msgid "Pool Disabled"
-msgstr ""
+msgstr "Pool desativada"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 319
 msgid "Current Pool Members"
-msgstr ""
+msgstr "Pool de membros currente"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 312
 msgid "Add to pool"
-msgstr ""
+msgstr "Adicionar à pool"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 308
 msgid "Server IP Address"
-msgstr ""
+msgstr "Endereço IP do servidor"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 289
 msgid "Add item to pool"
-msgstr ""
+msgstr "Adicionar item à pool"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 284
 msgid ""
 "Optionally specify how many times to retry checking a server before "
 "declaring it down."
 msgstr ""
+"Opcionalmente, especifique quantas vezes deve voltar a tentar verificar um "
+"servidor antes de declará-lo em baixo."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 275
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 230
 msgid ""
 "You may also specify a port alias listed in Firewall -&gt; Aliases here."
 msgstr ""
+"Pode também especificar um alias da porta listado no firewall -&gt; Aliases "
+"aqui."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 274
 msgid "This is the port your servers are listening on."
-msgstr ""
+msgstr "Esta é a porta onde os seus servidores estão à escuta."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 258
 msgid "Manual Failover"
-msgstr ""
+msgstr "Falha manual"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 255
 msgid "Load Balance"
-msgstr ""
+msgstr "Balanceamento da carga"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 237
 msgid "Add/edit - Pool entry"
-msgstr ""
+msgstr "Adicionar/editar - Entradas da Pool"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 123
 msgid "Invalid monitor chosen."
-msgstr ""
+msgstr "Monitor escolhido é inválido"
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 114
 msgid ""
 "%s is a subnet containing more than 64 IP addresses (in \"disabled\" list)."
 msgstr ""
+"%s é uma subnet que contém mais de 64 endereços IP (na lista \"disabled\")."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 112
 msgid "%s is not a valid IP address or IPv4 subnet (in \"disabled\" list)."
 msgstr ""
+"%s não é um endereço IP válido ou uma subnet IPv4 (na lista \"disabled\")."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 105
 msgid ""
 "%s is a subnet containing more than 64 IP addresses (in \"enabled\" list)."
 msgstr ""
+"%s é uma subnet que contém mais de 64 endereços IP (na lista \"enabled\")."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 103
 msgid "%s is not a valid IP address or IPv4 subnet (in \"enabled\" list)."
 msgstr ""
+"%s não é um endereço IP válido ou uma subnet IPv4 (na lista \"enabled\")."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 97
 msgid "The retry value must be an integer between 1 and 65535."
-msgstr ""
+msgstr "O valor de retry deve ser um número inteiro entre 1 e 65535."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 92
 msgid "The port must be an integer between 1 and 65535, or a port alias."
-msgstr ""
+msgstr "A porta deve ser um número inteiro entre 1 e 65535 ou uma porta alias."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 88
 msgid "Sorry, an alias is already named %s."
-msgstr ""
+msgstr "Desculpe, um alias já está nomeado %s."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 84
 msgid "The name '%s' is a reserved word and cannot be used."
-msgstr ""
+msgstr "O nome '%s' é uma palavra reservada e não pode ser ussada."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 75
 msgid "This pool name has already been used. Pool names must be unique."
-msgstr ""
+msgstr "O nome da pool já foi usado. Nomes de Pool têm de ser únicos."
 
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 68
 msgid "Server List"
-msgstr ""
+msgstr "Servidor de listas"
 
 # File: /usr/core/src/www/load_balancer_pool.php, line: 184
 msgid ""
 "This feature is intended for server load balancing, not multi-WAN. For load "
 "balancing or failover for multiple WANs, use %sGateway Groups%s."
 msgstr ""
+"Esta funcionalidade destina-se a balanceamento de carga do servidor, não "
+"multi-WAN.  Para balanceamento de carga ou falha para várias WANs, use%"
+"sGateway Groups%s."
 
 # File: /usr/core/src/www/load_balancer_pool.php, line: 147
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 68
@@ -12385,7 +12471,7 @@ msgstr ""
 # File: /usr/core/src/www/status_gateways.php, line: 56
 # File: /usr/core/src/www/status_lb_pool.php, line: 102
 msgid "Monitor"
-msgstr ""
+msgstr "Monitor"
 
 # File: /usr/core/src/www/load_balancer_pool.php, line: 134
 # File: /usr/core/src/www/status_lb_pool.php, line: 90
@@ -12394,62 +12480,66 @@ msgid ""
 "The load balancer configuration has been changed%sYou must apply the changes "
 "in order for them to take effect."
 msgstr ""
+"A configuração do balanceador de carga foi alterada% Deve aplicar as "
+"alterações para que elas entrem em vigor."
 
 # File: /usr/core/src/www/load_balancer_pool.php, line: 49
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
 "virtual server."
 msgstr ""
+"Esta entrada não pode ser apagada, porque ainda está referenciada por pelo "
+"menos um servidor virtual.  "
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 304
 msgid "HTTP Code"
-msgstr ""
+msgstr "HTTP Code"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 300
 msgid "Hostname for Host: header if needed."
-msgstr ""
+msgstr "Hostname para Host: Cabeçalho, se necessário."
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 291
 msgid "Path"
-msgstr ""
+msgstr "Caminho"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 281
 msgid "Expect string"
-msgstr ""
+msgstr "Expect string"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 275
 msgid "Send string"
-msgstr ""
+msgstr "Enviar string"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 229
 msgid "Edit Monitor entry"
-msgstr ""
+msgstr "Editar entrada de Monitor"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 190
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 264
 msgid "Send/Expect"
-msgstr ""
+msgstr "Enviar/Esperar"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 190
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 261
 # File: /usr/core/src/www/system_advanced_admin.php, line: 331
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 190
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 258
 # File: /usr/core/src/www/system_advanced_admin.php, line: 328
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1322
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 145
 msgid "The path to monitor must be set."
-msgstr ""
+msgstr "O caminho para o monitor tem de ser definido."
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 142
 msgid "HTTP(s) codes must be from RFC2616."
-msgstr ""
+msgstr "HTTP(s) codes deve ser de RFC2616."
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 139
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 127
@@ -12457,55 +12547,63 @@ msgstr ""
 # File: /usr/core/src/www/services_dnsmasq_edit.php, line: 84
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 73
 msgid "The hostname can only contain the characters A-Z, 0-9 and '-'."
-msgstr ""
+msgstr "O hostname pode apenas conter carateres de A-Z, 0-9 e '-'."
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 130
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 80
 msgid "You cannot use spaces in the 'name' field."
-msgstr ""
+msgstr "Não pode usar espaços no campo 'name'"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 125
 msgid "This monitor name has already been used.  Monitor names must be unique."
 msgstr ""
+"Este nome de monitor já foi usado. Os nomes dos monitores devem ser únicos."
 
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 127
 # File: /usr/core/src/www/load_balancer_setting.php, line: 109
 msgid "The load balancer configuration has been changed"
-msgstr ""
+msgstr "A configuração do balanceador de carga foi alterada"
 
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 92
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 109
 # File: /usr/core/src/www/load_balancer_pool.php, line: 99
 # File: /usr/core/src/www/load_balancer_pool.php, line: 116
 msgid "Load Balancer: Monitors"
-msgstr ""
+msgstr "Balanceador de carga: Monitors"
 
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 49
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
 "pool."
 msgstr ""
+"Esta entrada não pode ser apagada, porque se encontra referenciada por pelo "
+"menos uma pool."
 
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 148
 msgid "Wireless clone configuration"
-msgstr ""
+msgstr "Configuração clonada wireless"
 
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 108
 msgid ""
 "Error creating interface with mode %s. The %s interface may not support "
 "creating more clones with the selected mode."
 msgstr ""
+"Erro ao criar o interface com o modo %s. O  %s O interface pode não suportar "
+"a criação de mais clones no modo selecionado."
 
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 103
 msgid ""
 "Use the configuration page for the assigned interface to change the mode."
 msgstr ""
+"Utilize a pagina de configuração do interface atribuído para alterar o modo."
 
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 101
 msgid ""
 "This wireless clone cannot be modified because it is still assigned as an "
 "interface."
 msgstr ""
+"Este clone wireless não pode ser modificado, porque ainda se encontra "
+"atribuído com interface."
 
 # File: /usr/core/src/www/interfaces_wireless.php, line: 146
 msgid ""
@@ -12514,48 +12612,56 @@ msgid ""
 "support this, with limitations on the number that can be created in each "
 "mode."
 msgstr ""
+"Aqui pode configurar clones de interfaces sem fios, que podem ser designadas "
+"como interfaces independentes separados. Apenas disponível em chipsets sem "
+"fios que suportem isto, com limitações no número que pode ser criado em cada "
+"modo."
 
 # File: /usr/core/src/www/interfaces_wireless.php, line: 86
 msgid "Do you really want to delete this wireless clone?"
-msgstr ""
+msgstr "Tem a certeza que pretende eliminar este clone sem fios?"
 
 # File: /usr/core/src/www/interfaces_wireless.php, line: 55
 msgid ""
 "This wireless clone cannot be deleted because it is assigned as an interface."
 msgstr ""
+"O clone sem fios não pode ser apagado porque se encontra atribuído como "
+"interface."
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 199
 msgid "802.1Q VLAN tag (between 1 and 4094)"
-msgstr ""
+msgstr "802.1Q VLAN tag (entre 1 e 4094)"
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 190
 msgid "Only VLAN capable interfaces will be shown."
-msgstr ""
+msgstr "Apenas as interfaces compatíveis com VLAN serão apresentadas."
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 157
 msgid "Interface VLAN Edit"
-msgstr ""
+msgstr "Interface VLAN Editar"
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 94
 msgid "A QinQ VLAN exists with this tag please remove it to use this tag with."
-msgstr ""
+msgstr "VLAN QinQ existe com esta tag, remova-a para usar esta tag com."
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 87
 msgid "A VLAN with the tag %s is already defined on this interface."
-msgstr ""
+msgstr "VLAN com a tag %s já se encontra definida neste interface."
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 78
 msgid ""
 "Interface is assigned and you cannot change the VLAN tag while assigned."
 msgstr ""
+"Interface está atribuída e não é possível alterar a tag de VLAN enquanto "
+"atribuída."
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 73
 msgid "Interface supplied as parent is invalid"
-msgstr ""
+msgstr "A interface fornecida como parent é inválida"
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 69
 msgid "The VLAN tag must be an integer between 1 and 4094."
-msgstr ""
+msgstr "A tag da VLAN deve ser um numero inteiro entre 1 e 4094."
 
 # File: /usr/core/src/www/interfaces_vlan.php, line: 152
 msgid ""
@@ -12563,64 +12669,77 @@ msgid ""
 "not explicitly support it, VLAN tagging will still work, but the reduced MTU "
 "may cause problems."
 msgstr ""
+"Nem todos os drivers/NICs suportam marcação 802.1Q VLAN adequadamente. Em "
+"placas que não o suportam explicitamente, a marcação VLAN irá funcionar na "
+"mesma, mas o MTU reduzido poderá causar problemas."
 
 # File: /usr/core/src/www/interfaces_vlan.php, line: 125
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 64
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 195
 msgid "VLAN tag"
-msgstr ""
+msgstr "VLAN tag"
 
 # File: /usr/core/src/www/interfaces_vlan.php, line: 92
 msgid "Do you really want to delete this VLAN?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar esta VLAN?"
 
 # File: /usr/core/src/www/interfaces_vlan.php, line: 57
 msgid ""
 "This VLAN cannot be deleted because it is still being used as an interface."
 msgstr ""
+"Esta VLAN não pode ser eliminada porque ainda se encontra a ser usada como "
+"interface."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 184
 msgid ""
 "This is the first level VLAN tag. On top of this are stacked the member "
 "VLANs defined below."
 msgstr ""
+"Esta é a tag VLAN de primeiro nível. Em cima disto são empilhadas as VLANs "
+"de membros definidas abaixo."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 180
 msgid "First level tag"
-msgstr ""
+msgstr "Tag de primeiro nível"
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 175
 msgid "Only QinQ capable interfaces will be shown."
-msgstr ""
+msgstr "Somente interfaces compativeis QinQ serão apresentadas."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 143
 msgid "Interface QinQ Edit"
-msgstr ""
+msgstr "Editar QinQ interface"
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 77
 msgid ""
 "A normal VLAN exists with this tag please remove it to use this tag for QinQ "
 "first level."
 msgstr ""
+"Uma VLAN normal existe com esta tag. Por favor remava-a para usar esta tag "
+"no primeiro nível do QinQ."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 71
 msgid "QinQ level already exists for this interface, edit it!"
-msgstr ""
+msgstr "Nível QinQ já existe para esta interface. Editar"
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 65
 msgid ""
 "You are editing an existing entry and modifying the interface is not allowed."
 msgstr ""
+"Está a editar uma entrada existente e a alteração do interface não é "
+"permitida."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 62
 msgid ""
 "You are editing an existing entry and modifying the first level tag is not "
 "allowed."
 msgstr ""
+"Está a editar uma entrada existente e modificar a tag de primeiro nível não "
+"é permitido."
 
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 59
 msgid "First level tag cannot be empty."
-msgstr ""
+msgstr "A tag de primeiro nível não pode estar vazia."
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 166
 msgid ""
@@ -12628,87 +12747,99 @@ msgid ""
 "not explicitly support it, QinQ tagging will still work, but the reduced MTU "
 "may cause problems."
 msgstr ""
+"Nem todos os drivers/NICs suportam marcação 802.1Q QinQ adequadamente. Em "
+"placas que não o suportam explicitamente, a marcação QinQ irá funcionar na "
+"mesma, mas o MTU reduzido poderá causar problemas."
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 138
 msgid "QinQ members"
-msgstr ""
+msgstr "Membros QinQ"
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 137
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 103
 msgid "Do you really want to delete this QinQ?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este QinQ?"
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 59
 msgid "QinQ interface does not exist"
-msgstr ""
+msgstr "interface QinQ não existe"
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 57
 msgid ""
 "This QinQ cannot be deleted because it is still being used as an interface."
 msgstr ""
+"QinQ não pode ser apagado porque ainda se encontra a ser usado como interface"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 791
 msgid ""
 "MRRU: Set ONLY for MLPPP connections. MRRU will be auto-negotiated by "
 "default."
 msgstr ""
+"MRRU: configure apenas para ligações MLPPP. MIRRU por defeito será auto-"
+"negociável."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 790
 msgid "MRU: MRU will be auto-negotiated by default."
-msgstr ""
+msgstr "MRU: MRU por defeito será auto-negociável."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 789
 msgid "MTU: MTU will default to 1492."
-msgstr ""
+msgstr "MTU: MTU será pré-definido para 1492."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 788
 msgid ""
 "Bandwidth: Set ONLY for MLPPP connections and ONLY when links have different "
 "bandwidths."
 msgstr ""
+"Bandwidth: Configure SOMENTE para ligações  MLPPP e SOMENTE quando os ooinks "
+"têm diferentes largura de banda."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 780
 msgid "MRRU"
-msgstr ""
+msgstr "MIRRU"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 774
 msgid "MRU"
-msgstr ""
+msgstr "MRU"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 758
 msgid "Link Parameters"
-msgstr ""
+msgstr "Parâmetros do Link "
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 747
 msgid ""
 "Protocol field compression. This option saves one byte per frame for most "
 "frames."
 msgstr ""
+"Compressão de campos do Protocolo. Esta opção guarda um byte por frame para "
+"a maioria das frames."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 745
 msgid "Disable protocomp (compression) (auto-negotiated by default)."
-msgstr ""
+msgstr "Desativar protocolo ( compressão) (auto-negociável por defeito)"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 742
 msgid "ProtoComp"
-msgstr ""
+msgstr "ProtoComp"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 737
 msgid ""
 "Address and control field compression. This option only applies to "
 "asynchronous link types. It saves two bytes per frame."
 msgstr ""
+"Endereço e compressão do campo de controle. Esta opção apenas se aplica a "
+"tipos de links com ligação assíncrona. Guarda dois bytes por frame."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 735
 msgid "Disable acfcomp (compression) (auto-negotiated by default)."
-msgstr ""
+msgstr "Desativa acfcomp (compressão) (auto-negociação por defeito)"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 732
 msgid "ACFComp"
-msgstr ""
+msgstr "ACFComp"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 726
 msgid ""
@@ -12717,14 +12848,18 @@ msgid ""
 "frame. It is not necessary to disable this for connections that are not "
 "multi-link."
 msgstr ""
+"Esta opção apenas tem significado se PPP multi-link for negociado. Isto "
+"proscreve cabeçalhos de fragmentos de multi-link mais curtos, guardando dois "
+"bytes em cada frame. Não é necessário desativar esta opção para ligações que "
+"não são multi-link."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 724
 msgid "Disable shortseq (auto-negotiated by default)."
-msgstr ""
+msgstr "Desativa ashortseq (auto-negociação por defeito)"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 721
 msgid "ShortSeq"
-msgstr ""
+msgstr "ShortSeq"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 712
 msgid ""
@@ -12740,14 +12875,25 @@ msgid ""
 "discover that it must reduce the fragment size or drop the IP Don't Fragment "
 "option from its outgoing data."
 msgstr ""
+"Esta opção faz com que o mpd ajuste segmentos TCP SYN a serem recebidos e "
+"enviados para que o tamanho máximo de segmento não seja maior que a "
+"quantidade permitida pela interface MTU. Isto é necessário em vários setups "
+"para evitar problemas causados por routers que desconectam mensagens de "
+"datagrama ICMP demasiado grandes. Sem estas mensagens, a máquina originadora "
+"envia dados, eles passam pelo roteador que depois atinge a maquina que tem "
+"um MTU que não é grande suficiente para os dados. Porque a opção Não "
+"desfragmentar o IP está definida, esta maquina enviam uma mensagem de "
+"Datagrama ICMP muito grande de volta para o originador e nunca poderá "
+"descobrir que tem de reduzir o tamanho da fragmentação ou desativar a opção "
+"de Não Fragmentar o IP dos seus dados que estão a ser enviados."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 710
 msgid "Disable tcpmssfix (enabled by default)."
-msgstr ""
+msgstr "Desativar tcpmssfix (ativado por defeito)."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 707
 msgid "TCPmssFix"
-msgstr ""
+msgstr "TCPmssFix"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 700
 msgid ""
@@ -12757,16 +12903,20 @@ msgid ""
 "like time stamping or SACK, which modify TCP options between sequential "
 "packets."
 msgstr ""
+"Esta opção activa a compressão do cabeçalho TCP Van JAcobson, que guarda "
+"alguns bytes  por pacote de dados TCP. Opção quase sempre pretendida. Esta "
+"compressão ineficaz para ligações TCP com extensão actuais ativadas tal como "
+"stamping or SACK,, que modificam opções TCP  entre pacotes sequenciais."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 698
 msgid "Disable vjcomp(compression) (auto-negotiated by default)."
-msgstr ""
+msgstr "Desativar vjcomp (compactação) (auto-negociação por-defeito)."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 695
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 954
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1224
 msgid "Compression"
-msgstr ""
+msgstr "Compressão."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 690
 msgid ""
@@ -12774,20 +12924,25 @@ msgid ""
 "goes back into dial-on-demand mode. Otherwise, the interface is brought down "
 "and all associated routes removed."
 msgstr ""
+"Quando tempo limite inativo ocorre, se a opção dial-on-demand estiver "
+"ativada, o mpd voltará ao mode de dial-on-demand. Caso contrário o interface "
+"é desativado e todas as rotas associadas são removidas."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 689
 msgid ""
 "If no incoming or outgoing packets are transmitted for the entered number of "
 "seconds the connection is brought down."
 msgstr ""
+"Se não forem transmitidos pacotes de entrada ou de saída durante o número de "
+"segundos introduzidos, a ligação é interrompida."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 688
 msgid "(seconds) Default is 0, which disables the timeout feature."
-msgstr ""
+msgstr "(segundos) Por defeito é 0, que desativa o tempo limite."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 684
 msgid "Idle Timeout"
-msgstr ""
+msgstr "Tempo esgotado de inatividade."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 678
 msgid ""
@@ -12796,39 +12951,47 @@ msgid ""
 "but the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"Esta opção faz com que o interface opere em modo dial-on-demand. NÃO ative "
+"se pretender que o seu link esteja sempre em cima. O interface é "
+"configurado, mas a ligação atual do link é atrasada até que o tráfego da "
+"saída seja detetado."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 676
 msgid "Enable Dial-on-Demand mode"
-msgstr ""
+msgstr "Ativar o modo Dial-on-Demand"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 673
 msgid "Dial On Demand"
-msgstr ""
+msgstr "Dial On Demand"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 663
 msgid ""
 "This option causes cumulative uptime to be recorded and displayed on the "
 "Status Interfaces page."
 msgstr ""
+"Esta opção faz com que o tempo acumolado de atividade seja registado e "
+"exibido na página Interfaces de estado."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 661
 msgid "Enable persistent logging of connection uptime."
-msgstr ""
+msgstr "Ativar entradas permanentes das ligações uptime."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 658
 msgid "Uptime Logging"
-msgstr ""
+msgstr "Tempo de atividade das entradas de login"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 653
 msgid ""
 "Note: Enter timeout in seconds for connection to be established (sec.) "
 "Default is 45 sec."
 msgstr ""
+"Nota: Introduza o tempo limite em segundos para que a ligação seja "
+"estabelecidas (segundos). Por defeito 45 segundos."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 649
 # File: /usr/lang/src/controllers.php, line: 118
 msgid "Connection Timeout"
-msgstr ""
+msgstr "Tempo limite da ligaçao"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 643
 msgid ""
@@ -12836,37 +12999,44 @@ msgid ""
 "string at the beginning of the command. Many modern USB 3G modems don't need "
 "an initialization string."
 msgstr ""
+"Introduza aqui a string de inicialização do modem. NÃO inclua a string \"AT\""
+" no ínicio do comando. Muitos modems USB 3G atuais, não necessitam da string "
+"de inicialização."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 639
 msgid "Init String"
-msgstr ""
+msgstr "String de inicialização"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 634
 msgid ""
 "Note: Time to wait for SIM to discover network after PIN is sent to SIM "
 "(seconds)."
 msgstr ""
+"Nota: Tempo de espera do SIM  para encontrar rede após o envio do PIN para o "
+"SIM (segundos)."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 630
 msgid "SIM PIN wait"
-msgstr ""
+msgstr "Espera do PIN o SIM"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 624
 msgid "SIM PIN"
-msgstr ""
+msgstr "PIN do SIM"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 619
 msgid ""
 "Note: Defaults to 1 if you set APN above. Ignored if you set no APN above."
 msgstr ""
+"Note: Pré-definada para 1 se definir a APN acima. Ignorado se definir para a "
+"APN abaixo para nenhuma."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 615
 msgid "APN number (optional)"
-msgstr ""
+msgstr "Numero APN (opcional)"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 578
 msgid "IP Address OR Hostname"
-msgstr ""
+msgstr "Endereço IP ou Hostname"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 546
 msgid ""
@@ -12874,74 +13044,82 @@ msgid ""
 "configured if this field is empty. Check the \"Configure NULL\" box to "
 "configure a blank Service name."
 msgstr ""
+"Dica: Este Normalmente este campo pode ser deixado em branco. O nome do "
+"serviço não será configurado se este campo ficar por preencher. Marque a "
+"opção \"Configure NULL\" para configurar o nome do serviço em branco."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 544
 msgid "Configure a NULL Service name"
-msgstr ""
+msgstr "Configure o nome do Serviço NULL"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 530
 msgid "Note: Typically *99# for GSM networks and #777 for CDMA networks"
-msgstr ""
+msgstr "Nota: Tipicamente *99# para redes GSMe #777 para redes CDMA"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 475
 msgid ""
 "You may enter a description here for your reference. Description will appear "
 "in the \"Interfaces Assign\" select lists."
 msgstr ""
+"Deve introduzir uma descrição aqui para sua referência. As descrições irão "
+"aparecer nas listas selecionadas do \"Interface atribuído\"."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 466
 msgid "Select at least two interfaces for Multilink (MLPPP) connections."
-msgstr ""
+msgstr "Selecione pelo menos dois interfaces para ligações (MLPPP) Multilink"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 438
 msgid "Link interface(s)"
-msgstr ""
+msgstr "Link Interface(S)"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 425
 msgid "Link Type"
-msgstr ""
+msgstr "Tipo de Link"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 415
 msgid "PPPs configuration"
-msgstr ""
+msgstr "Configuração PPPS"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 156
 msgid "The MRU for %s must be greater than 576 bytes."
-msgstr ""
+msgstr "O MRU para %s deve ser maior do que 576 bytes."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 153
 msgid "The MTU for %s must be greater than 576 bytes."
-msgstr ""
+msgstr "O MTU para %s deve ser maior do que 576 bytes."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 149
 msgid "The bandwidth value for %s must be an integer."
-msgstr ""
+msgstr "O valor da largura de banda para %s deve ser um inteiro."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 146
 msgid "A valid gateway IP address OR hostname must be specified for %s."
 msgstr ""
+"Um endereço IP de gateway válida ou hostname deve ser especificada para %s"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 143
 msgid "A valid local IP address must be specified for %s."
-msgstr ""
+msgstr "Um endereço IP local válido deve ser especificado para %s."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 135
 msgid "Do not specify both a Service name and a NULL Service name."
-msgstr ""
+msgstr "Não especifique um nome de Serviço e o nome de Serviço NULL."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 132
 msgid "The Service name contains invalid characters."
-msgstr ""
+msgstr "O nome de Serviço contém carateres inválidos."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 129
 msgid ""
 "Multilink connections (MLPPP) using the PPP link type is not currently "
 "supported. Please select only one Link Interface."
 msgstr ""
+"Ligações Multilink (MLPPP) que usam o tipo de link PPP não são atualmente "
+"suportadas. Por favor selecione apenas um link do interface."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 120
 msgid "Please choose a Link Type."
-msgstr ""
+msgstr "Por favor selecione um tipo de Link."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 115
@@ -12949,7 +13127,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dhcpv6.php, line: 465
 # File: /usr/lang/src/controllers.php, line: 457
 msgid "Subnet"
-msgstr ""
+msgstr "Subnet"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 95
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 101
@@ -12957,37 +13135,43 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 115
 msgid "Link Interface(s)"
-msgstr ""
+msgstr "Link Interface(s)"
 
 # File: /usr/core/src/www/interfaces_ppps.php, line: 119
 msgid "Interface(s)/Port(s)"
-msgstr ""
+msgstr "Interface(s)/Porta(s)"
 
 # File: /usr/core/src/www/interfaces_ppps.php, line: 86
 msgid "Do you really want to delete this PPP interface?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este interface PPP?"
 
 # File: /usr/core/src/www/interfaces_ppps.php, line: 58
 msgid ""
 "This point-to-point link cannot be deleted because it is still being used as "
 "an interface."
 msgstr ""
+"Este link ponto-a-ponto não pode ser apagado porque ainda se econtra ser "
+"utilizado como interface."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 261
 msgid ""
 "This protocol is intended to do nothing: It disables any traffic without "
 "disabling the lagg interface itself."
 msgstr ""
+"Este protocolo destina~se a não fazer nada. Desativa qualquer tráfego sem "
+"desativar a própria interface do lagg."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 257
 msgid ""
 "Distributes outgoing traffic using a round-robin scheduler through all "
 "active ports and accepts incoming traffic from any active port."
 msgstr ""
+"Distribui tráfego de saída usando um agendamento roud-robin através de todas "
+"as portas ativas e aceita o tráfego de entrada de qualquer porta ativa."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 256
 msgid "roundrobin"
-msgstr ""
+msgstr "roundrobin"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 249
 msgid ""
@@ -12998,10 +13182,16 @@ msgid ""
 "and destination address, and, if available, the VLAN tag, and the IP source "
 "and destination address."
 msgstr ""
+"Estabelece o balanceamento do tráfego de saída entre as portas ativas com "
+"base em informações de cabeçalho de protocolo hash e aceita o tráfego de "
+"entrada de qualquer porta ativa. Esta é uma configuração estática e não "
+"negocia a agregação com o par ou exchange frames para monitorizar o link. O "
+"hash inclui a origem Ethernet, o endereço de destino e, se disponível, a "
+"VLAN tag e a origem IP e o endereço de destino."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 248
 msgid "loadbalance"
-msgstr ""
+msgstr "Balanceamento de carga"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 238
 msgid ""
@@ -13014,20 +13204,30 @@ msgid ""
 "in physical connectivity, Link Aggregation will quickly converge to a new "
 "configuration."
 msgstr ""
+"Suporta o protocolo de controle (LACP) de agregação de link IEE 802.3ad e "
+"Protolocol Marker. LACP irá negociar um conjunto de links agregáveis com o "
+"par em um ou mais grupos agregados do link. Cada LAG é composto por portas "
+"com a mesma velocidade, definidas para operações full-duplex. O tráfego será "
+"balanceado través das portas do LAG com a maior velocidade total. Na maioria "
+"dos casos haverá apenas uma LAG que contenha todas as portas. No caso das "
+"mudanças na ligação física a agregação do link irá rapidamente convergir "
+"para uma nova configuração.    "
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 237
 msgid "lacp"
-msgstr ""
+msgstr "lacp"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 233
 msgid ""
 "Supports Cisco EtherChannel. This is a static setup and does not negotiate "
 "aggregation with the peer or exchange frames to monitor the link."
 msgstr ""
+"Suporte Cisco EtherChannel. Este é uma configuração estática e não negoceia "
+"agregação com o par ou exchange frames para monitorizar o link"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 232
 msgid "fec"
-msgstr ""
+msgstr "fec"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 228
 msgid ""
@@ -13036,70 +13236,78 @@ msgid ""
 "is the master port; any interfaces added after that are used as failover "
 "devices."
 msgstr ""
+"Envia e recebe tráfego apenas através da porta principal. Se a porta "
+"principal ficar indisponível, a próxima porta ativa é usada. o primeiro "
+"interface adicionado é o da porta principal; qualquer interface adicionado "
+"depois deste será usado como dispositivo de falha."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 227
 msgid "failover"
-msgstr ""
+msgstr "falha"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 214
 msgid "Lag proto"
-msgstr ""
+msgstr "Protocolo Lag"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 209
 msgid "Choose the members that will be used for the link aggregation"
-msgstr ""
+msgstr "Escolha os membros que serão usados para a agregação do link"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 187
 msgid "LAGG configuration"
-msgstr ""
+msgstr "Configuração LAGG"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 120
 msgid "Protocol supplied is invalid"
-msgstr ""
+msgstr "Protocolo fornecido é inválido"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 114
 msgid "Interface '%s' supplied as member does not exist"
-msgstr ""
+msgstr "Interface '%s' fornecido como membro não existe"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 107
 msgid "Lagg protocol"
-msgstr ""
+msgstr "Protocolo Lagg"
 
 # File: /usr/core/src/www/interfaces_lagg.php, line: 159
 msgid ""
 "LAGG allows for link aggregation, bonding and fault tolerance. Only "
 "unassigned interfaces can be added to LAGG."
 msgstr ""
+"LAGG permite a agregação de links, ligações e tolerância a falhas. Apenas "
+"interfaces não ligados pode ser adicionados ao LAGG."
 
 # File: /usr/core/src/www/interfaces_lagg.php, line: 97
 msgid "Do you really want to delete this LAGG interface?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este interface LAGG?"
 
 # File: /usr/core/src/www/interfaces_lagg.php, line: 66
 msgid "This LAGG interface cannot be deleted because it is still being used."
-msgstr ""
+msgstr "O interface LAGG não pode ser eliminado porque ainda esta a ser usado."
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 195
 msgid ""
 "Rules for WAN type interfaces in groups do not contain the reply-to "
 "mechanism upon which Multi-WAN typically relies."
 msgstr ""
+"Regras para interfaces tipo WAN em grupos não contém mecanismos de resposta "
+"sobre a qual a Multi-WAN normalmente se baseia."
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 194
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 239
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 260
 # File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 151
 msgid "NOTE:"
-msgstr ""
+msgstr "NOTA:"
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 182
 # File: /usr/core/src/www/interfaces_qinq_edit.php, line: 198
 msgid "Member (s)"
-msgstr ""
+msgstr "Membro (s)"
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 167
 msgid "No numbers or spaces are allowed. Only characters in a-zA-Z"
-msgstr ""
+msgstr "Nem números ou espaços são permitidos. Apenas caracteres de a-zA-Z "
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 163
 # File: /usr/core/src/www/status_gateway_groups.php, line: 63
@@ -13107,25 +13315,27 @@ msgstr ""
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 188
 # File: /usr/core/src/www/system_groupmanager.php, line: 86
 msgid "Group Name"
-msgstr ""
+msgstr "Nome de Grupo"
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 153
 msgid "Interface Groups Edit"
-msgstr ""
+msgstr "Editar grupos de Interfaces"
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 73
 msgid ""
 "The specified group name is already used by an interface. Please choose "
 "another name."
 msgstr ""
+"O nome de grupo especificado já está a ser usado por um interface. Por favor "
+"escolha outro nome."
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 68
 msgid "Only letters A-Z are allowed as the group name."
-msgstr ""
+msgstr "Apenas letras A-Z são permitidas com nome de grupo."
 
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 63
 msgid "Group name already exists!"
-msgstr ""
+msgstr "Nome de grupo já existe!"
 
 # File: /usr/core/src/www/interfaces_groups.php, line: 146
 msgid ""
@@ -13133,33 +13343,40 @@ msgid ""
 "without duplicating the rules. If you remove members from an interface "
 "group, the group rules no longer apply to that interface."
 msgstr ""
+"Os grupos de interfaces permitem criar regras que se aplicam a múltiplas "
+"interfaces sem que as mesmas se dupliquem. Se remover membros de um grupo de "
+"interface, as regras do grupo não serão mais aplicadas a essa interface."
 
 # File: /usr/core/src/www/interfaces_groups.php, line: 139
 msgid "delete ifgroupentry"
-msgstr ""
+msgstr "Eliminar ifgroupentry"
 
 # File: /usr/core/src/www/interfaces_ppps.php, line: 142
 # File: /usr/core/src/www/interfaces_qinq.php, line: 153
 # File: /usr/core/src/www/interfaces_wireless.php, line: 134
 # File: /usr/core/src/www/system_groupmanager.php, line: 392
 msgid "edit group"
-msgstr ""
+msgstr "Editar grupo"
 
 # File: /usr/core/src/www/interfaces_groups.php, line: 78
 msgid ""
 "Do you really want to delete this group? All elements that still use it will "
 "become invalid (e.g. filter rules)!"
 msgstr ""
+"tem a certeza que pretende eliminar este grupo? Todos os elementos que ainda "
+"a utilizam tornar-se-ão inválidos (e.g. regras de filtro)!"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 249
 msgid ""
 "Check this box for WCCP encapsulation version 2, or leave unchecked for "
 "version 1."
 msgstr ""
+"Marque esta opção para versão 2 de WCCP encapsulation, ou deixe por marcar "
+"para a versão 1."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 245
 msgid "WCCP version"
-msgstr ""
+msgstr "versão WCCP"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 237
 msgid ""
@@ -13168,134 +13385,150 @@ msgid ""
 "a route to the decapsulating host that does not run over the tunnel, as this "
 "would be a loop."
 msgstr ""
+"Para um  funcionamento correto, o dispositivo GRE necessita de uma rota para "
+"o destino que é menos especificado que aquele sobre o túnel. (Basicamente, "
+"terá de haver uma rota para o host decapsulating que não corre sobre o "
+"túnel.)"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 233
 msgid "Route search type"
-msgstr ""
+msgstr "Tipo de pesquisa de rota"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 228
 msgid "Specify which encapsulation method the tunnel should use."
-msgstr ""
+msgstr "Especifique que método de encapsulamento o túnel poderá usar."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 224
 msgid "Mobile tunnel"
-msgstr ""
+msgstr "Túnel móvel"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 219
 msgid ""
 "Remote GRE address endpoint. The subnet part is used for the determining the "
 "network that is tunneled."
 msgstr ""
+"Endpoint de endereço GRE remoto. A parte da sub-rede é usada para determinar "
+"a rede que tem túnel estabelecido."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 198
 msgid "GRE tunnel remote address"
-msgstr ""
+msgstr "Endereço remoto do túnel GRE"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 193
 msgid "Local GRE tunnel endpoint"
-msgstr ""
+msgstr "Endpoint do túnel local GRE"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 189
 msgid "GRE tunnel local address"
-msgstr ""
+msgstr "Endereço local do túnel GRE"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 184
 msgid "Peer address where encapsulated GRE packets will be sent."
-msgstr ""
+msgstr "Par de endereço onde os pacotes GRE encapsulados serão enviados."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 180
 msgid "GRE remote address"
-msgstr ""
+msgstr "endereço remoto GRE"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 175
 msgid ""
 "The interface here serves as the local address to be used for the GRE tunnel."
 msgstr ""
+"Aqui, a interface serve como o endereço local a ser usado para o túnel GRE."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 142
 msgid "GRE configuration"
-msgstr ""
+msgstr "configuração GRE"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 83
 msgid "A GRE tunnel with the network %s is already defined."
-msgstr ""
+msgstr "Um túnel GRE com rede %s já está definido."
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 70
 msgid "Remote tunnel network"
-msgstr ""
+msgstr "Túnel de rede remoto"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 70
 msgid "Remote tunnel address"
-msgstr ""
+msgstr "endereço do túnel remoto"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 70
 msgid "Local tunnel address"
-msgstr ""
+msgstr "endereço do túnel local"
 
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 70
 msgid "Local address"
-msgstr ""
+msgstr "Endereço local"
 
 # File: /usr/core/src/www/interfaces_gre.php, line: 87
 msgid "Do you really want to delete this GRE tunnel?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este túnel GRE?"
 
 # File: /usr/core/src/www/interfaces_gre.php, line: 56
 msgid ""
 "This GRE tunnel cannot be deleted because it is still being used as an "
 "interface."
 msgstr ""
+"Este túnel GRE não pode ser eliminado porque ainda está a ser usado como "
+"interface."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 260
 msgid ""
 "Note that the ECN friendly behavior violates RFC2893. This should be used in "
 "mutual agreement with the peer."
 msgstr ""
+"Note que o procedimento amigável ECN viola a RFC2893. Isto deverá ser usado "
+"em mutuo acordo com o par."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 256
 msgid "ECN friendly behavior"
-msgstr ""
+msgstr "Procedimento amigável ECN"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 251
 msgid ""
 "Specify if route caching can be enabled. Be careful with these settings on "
 "dynamic networks."
 msgstr ""
+"Especifique se a cache da rota pode ser ativada. Tenha cuidado como essas "
+"configurações nas redes dinâmicas."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 247
 msgid "Route caching"
-msgstr ""
+msgstr "Cache de rotas"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 242
 msgid ""
 "Remote gif address endpoint. The subnet part is used for determining the "
 "network that is tunnelled."
 msgstr ""
+"Endpoint de endereço gif remoto. A parte da subnet é usada para determinar a "
+"rede que tem túnel estabelecido."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 221
 msgid "GIF tunnel remote address "
-msgstr ""
+msgstr "Endereço remoto do túnel GIF"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 216
 msgid "Local gif tunnel endpoint"
-msgstr ""
+msgstr "Endpoint de endereço gif local"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 212
 msgid "GIF tunnel local address"
-msgstr ""
+msgstr "endereço local do túnel GIF"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 207
 msgid "Peer address where encapsulated gif packets will be sent. "
-msgstr ""
+msgstr "Endereço do par onde os pacotes gif encapsulados serão enviados."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 203
 msgid "GIF remote address"
-msgstr ""
+msgstr "Endereço remoto GIF"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 198
 msgid ""
 "The interface here serves as the local address to be used for the gif tunnel."
 msgstr ""
+"Aqui a interface serve como endereço local a ser usado para o túnel gif."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 177
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 70
@@ -13307,21 +13540,23 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 71
 # File: /usr/core/src/www/interfaces_wireless_edit.php, line: 158
 msgid "Parent interface"
-msgstr ""
+msgstr "Interface parente"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 167
 msgid "GIF configuration"
-msgstr ""
+msgstr "Configuração GIF"
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 101
 msgid "A gif with the network %s is already defined."
-msgstr ""
+msgstr "A gif com a rede %s já está definida."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 92
 msgid ""
 "The alias IP address family has to match the family of the remote peer "
 "address."
 msgstr ""
+"A família de endereço IP de alias tem de corresponder a família do endereço "
+"do ponto remoto."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 85
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 75
