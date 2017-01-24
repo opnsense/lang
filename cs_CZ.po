@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 08:08+0000\n"
+"POT-Creation-Date: 2017-01-24 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9971,7 +9971,7 @@ msgstr ""
 # File: /usr/core/src/www/services_unbound_overrides.php, line: 208
 msgid ""
 "Entries in this section override individual results from the forwarders."
-msgstr ""
+msgstr "Položky v této sekci přepíší jednotlivé výsledky od přeposílačů."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 435
 msgid "Alias for"
@@ -9998,7 +9998,7 @@ msgstr "Doména"
 # File: /usr/core/src/www/services_dnsmasq.php, line: 403
 # File: /usr/core/src/www/services_unbound_overrides.php, line: 158
 msgid "Host Overrides"
-msgstr ""
+msgstr "Přebití strojů"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 379
 msgid ""
@@ -10017,6 +10017,8 @@ msgid ""
 "Enter any additional options you would like to add to the dnsmasq "
 "configuration here, separated by a space or newline"
 msgstr ""
+"Sem zadejte jakékoli předvolby, které chcete přidat do nastavení dnsmasq, "
+"oddělované mezerou nebo na zvlášť řádcích"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 362
 # File: /usr/core/src/www/services_unbound.php, line: 240
@@ -10028,6 +10030,8 @@ msgid ""
 "NOTE: This option does NOT work with IPv6. If set, dnsmasq will not bind to "
 "IPv6 addresses."
 msgstr ""
+"POZN.: Tato předvolba NEfunguje s IPv6. Pokud je nastaveno, dnsmaq se "
+"nenaváže na IPv6 adresy."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 352
 msgid ""
@@ -10035,10 +10039,13 @@ msgid ""
 "containing the IP addresses selected above, rather than binding to all "
 "interfaces and discarding queries to other addresses."
 msgstr ""
+"Když je tato předvolba nastavená, DNS přeposílání se naváže pouze na "
+"rozhraní obsahující výše vybranou IP adresy, namísto navázání na veškerá "
+"rozhraní a zahazující dotazy na ostatní adresy."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 350
 msgid "Strict Interface Binding"
-msgstr ""
+msgstr "Striktní navázání na rozhraní"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 343
 msgid ""
@@ -10047,6 +10054,11 @@ msgid ""
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
+"IP adresy rozhraní na kterých DNS přeposílání odpovídá na dotazy od klientů. "
+"Pokud rozhraní má jak IPv4, tak IPv6 adresy, jsou použity obě. Dotazy na IP "
+"adresy jiných rozhraních, které nejsou vybrány níže, jsou zahazovány. "
+"Výchozím chováním je odpovídat na dotazy na všech IPv4 a IPv6 adresách, "
+"které má systém k dispozici."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 323
 # File: /usr/core/src/www/services_unbound.php, line: 165
@@ -10054,6 +10066,9 @@ msgid ""
 "The port used for responding to DNS queries. It should normally be left "
 "blank unless another service needs to bind to TCP/UDP port 53."
 msgstr ""
+"Port, prostřednictvím kterého jsou zodpovídány DNS dotazy. Běžně by toto "
+"mělo zůstat nevyplněné dokud není potřeba navázat na TCP/UDP port 53 jinou "
+"službu."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 319
 # File: /usr/core/src/www/services_unbound.php, line: 161
@@ -10072,7 +10087,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 306
 msgid "Do not forward private reverse lookups"
-msgstr ""
+msgstr "Nepřeposílat obrácená hledání z názvů na místní síti"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 296
 msgid ""
@@ -10081,6 +10096,10 @@ msgid ""
 "servers. If the name is not known from /etc/hosts or DHCP then a \"not "
 "found\" answer is returned."
 msgstr ""
+"Když je tato předvolba nastavená, DNS přeposílání (dnsmasq) nebude předávat "
+"A nebo AAAA dotazy na holé názvy, bez teček nebo doménových částí, "
+"nadřazeným serverům. Když název není znám z /etc/hosts nebo DHCP, pak je "
+"vrácena odpověď „nenalezeno“."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 294
 msgid "Require domain"
@@ -10285,7 +10304,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 184
 msgid "Enter a DUID Identifier in the following format: "
-msgstr ""
+msgstr "Zadejte DUID identifikátor v následujícím formátu: "
 
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 173
 msgid "Static DHCPv6 Mapping"
@@ -10374,7 +10393,7 @@ msgstr "Velikost pověřené předpony"
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 518
 msgid "Prefix Delegation Range"
-msgstr ""
+msgstr "Rozsah delegace předpony"
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 473
 msgid "Enable DHCPv6 server on %s interface"
@@ -10528,7 +10547,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 396
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 221
 msgid "Root Path"
-msgstr ""
+msgstr "Popis umístění kořene"
 
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 391
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 216
@@ -10648,6 +10667,8 @@ msgid ""
 "The DNS servers entered in %sSystem: General setup%s (or the %sDNS forwarder%"
 "s, if enabled), will be assigned to clients by the DHCP server."
 msgstr ""
+"DNS servery zadané v %sSystém: Obecná nastavení%s (nebo %sDNS přeposílání%s, "
+"v případě, že je zapnuté), budou přiřazené klientům DHCP serverem."
 
 # File: /usr/core/src/www/services_dhcp.php, line: 1090
 # File: /usr/core/src/www/services_dhcpv6.php, line: 742
@@ -14945,6 +14966,9 @@ msgid ""
 "static IPv6 configuration. Please disable the DHCPv6 Server service on this "
 "interface first, then change the interface configuration."
 msgstr ""
+"Na tomto rozhraní je v provozu DHCPv6 server a to vyžaduje, aby mělo IPv6 "
+"nastaveno staticky. Pokud chcete změnit nastavení rozhraní, je třeba nejprve "
+"zde DHCPv6 server vypnout."
 
 # File: /usr/core/src/www/interfaces.php, line: 590
 msgid ""
@@ -14952,6 +14976,9 @@ msgid ""
 "static IP configuration. Please disable the DHCP Server service on this "
 "interface first, then change the interface configuration."
 msgstr ""
+"Na tomto rozhraní je v provozu DHCP server a to vyžaduje, aby mělo IP "
+"nastaveno staticky. Pokud chcete změnit nastavení rozhraní, je třeba nejprve "
+"zde DHCP server vypnout."
 
 # File: /usr/core/src/www/interfaces.php, line: 584
 msgid "An interface with the specified description already exists."
@@ -14967,7 +14994,7 @@ msgstr "Nastavení jsou už používána!"
 
 # File: /usr/core/src/www/index.php, line: 382
 msgid "Save to load widget"
-msgstr ""
+msgstr "Uložit a načíst tak podokno"
 
 # File: /usr/core/src/www/index.php, line: 128
 msgid "To bypass the wizard, click on the logo in the upper left corner."
@@ -15022,6 +15049,8 @@ msgid ""
 "You can also <a href=\"status_filter_reload.php\">monitor</a> the filter "
 "reload progress."
 msgstr ""
+"Postup opětovného načítání filtru je možné sledovat na<a href=\""
+"status_filter_reload.php\">této stránce</a>."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 281
 msgid "The changes have been applied successfully."
@@ -15036,6 +15065,8 @@ msgid ""
 "SSH remote login is enabled for the users \"root\" and \"installer\" using "
 "the same password."
 msgstr ""
+"Přihlašování ze sítě je umožněno uživatelům „root“ (správce systému) a "
+"„installer“ (instalátor), k účtům obojích stejným heslem."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 268
 msgid ""
@@ -15076,7 +15107,7 @@ msgstr "Čekejte…"
 
 # File: /usr/core/src/www/foot.inc, line: 28
 msgid "Available Widgets"
-msgstr ""
+msgstr "Podokna k dispozici"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 438
 msgid ""
@@ -15084,6 +15115,8 @@ msgid ""
 "Otherwise the lowest combination of both values in the cluster determines "
 "the master."
 msgstr ""
+"Jak často se bude tento stroj propagovat. 0 (nula) obvykle znamená hlavní. "
+"Jinak nejnižší kombinace obou hodnot v clusteru určuje, který je hlavní."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 428
 msgid "Skew"
@@ -15119,6 +15152,8 @@ msgid ""
 "Disable expansion of this entry into IPs on NAT lists (e.g. 192.168.1.0/24 "
 "expands to 256 entries."
 msgstr ""
+"Vypnout rozvoj této položky na IP adresy v NAT seznamu (např. 129.168.1.0/24 "
+"obsahuje 265 položek."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 386
 msgid "Expansion"
@@ -15138,6 +15173,9 @@ msgid ""
 "on the firewall, such as IPsec, OpenVPN, etc. Use a CARP or IP Alias type "
 "address for these cases."
 msgstr ""
+"Proxy ARP a ostatní typy virtuálních IP adres nemohou být navázané na nic, "
+"co je spuštěné na bráně firewall, jako například IPsec, OpenVPN, atd. V "
+"takových případech použijte CARP nebo alternativní IP adresy."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 319
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 458
@@ -15322,7 +15360,7 @@ msgstr "Vynutí minimální dobu životnosti pro odpovídající IP pakety."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 532
 msgid "Min ttl"
-msgstr ""
+msgstr "TTL nejméně"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 518
 msgid "reliability"
@@ -15342,15 +15380,15 @@ msgstr "Neměnit"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 505
 msgid "TOS"
-msgstr ""
+msgstr "TOS"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
-msgstr ""
+msgstr "Vynucuje nejvyšší MSS pro odpovídající TCP pakety."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 496
 msgid "Max mss"
-msgstr ""
+msgstr "MSS nejvýše"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 493
 msgid "Normalizations"
@@ -15366,7 +15404,7 @@ msgstr "Vyberte rozhraní…"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 250
 msgid "Edit Firewall scrub rule"
-msgstr ""
+msgstr "Upravit scrub pravidlo brány firewall"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 129
 msgid "Please specify a valid number for min ttl (0-255)."
@@ -15445,10 +15483,13 @@ msgid ""
 "disabled when you check this. Detailed settings specified below will still "
 "be used."
 msgstr ""
+"Vypne veškerá scrubing pravidla výchozího rozhraní. Zaškrtnutí tohoto také "
+"vypne zastropování MSS. Níže uvedená podrobná nastavení budou ale pořád "
+"použita."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 247
 msgid "Disable interface scrub"
-msgstr ""
+msgstr "Neprovádět scrub rozhraní"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 238
 msgid "General settings"
@@ -15500,6 +15541,8 @@ msgid ""
 "Click individual date to select that date only. Click the appropriate "
 "weekday Header to select all occurrences of that weekday."
 msgstr ""
+"Kliknutím na jednotlivé datum vyberte pouze to konkrétní. Kliknutím na "
+"příslušný den v týdnu v hlavičce vyberete všechny výskyty tohoto dne."
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 868
 msgid "Thu"
@@ -15576,6 +15619,8 @@ msgstr "Plán nemůže být nazván „LAN“."
 msgid ""
 "Schedules act as placeholders for time ranges to be used in Firewall Rules."
 msgstr ""
+"Plány slouží jako výplň pro časové rozsahy které použít v pravidlech brány "
+"firewall."
 
 # File: /usr/core/src/www/firewall_schedule.php, line: 240
 msgid "clone schedule"
@@ -19831,7 +19876,7 @@ msgstr "DNS vyhledávání"
 
 # File: /usr/core/src/www/diag_dns.php, line: 139
 msgid "IP Info @ DNS Stuff"
-msgstr ""
+msgstr "Informace o IP a DNS záležitosti"
 
 # File: /usr/core/src/www/diag_dns.php, line: 138
 msgid "IP WHOIS @ DNS Stuff"
@@ -19855,7 +19900,7 @@ msgstr "Doba dotazu"
 
 # File: /usr/core/src/www/diag_dns.php, line: 109
 msgid "Resolution time per server"
-msgstr ""
+msgstr "Doba překladu na jednotlivých serverech"
 
 # File: /usr/core/src/www/diag_dns.php, line: 95
 # File: /usr/core/src/www/firewall_nat.php, line: 257
@@ -20336,7 +20381,7 @@ msgstr "RRD data"
 # File: /usr/core/src/www/diag_backup.php, line: 208
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 318
 msgid "Proxy ARP"
-msgstr ""
+msgstr "Proxy ARP"
 
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 46
 # File: /usr/core/src/www/diag_backup.php, line: 207
@@ -20349,7 +20394,7 @@ msgstr "Zařízení bod-bod"
 
 # File: /usr/core/src/www/diag_backup.php, line: 204
 msgid "DNS Filter"
-msgstr ""
+msgstr "DNS filtr"
 
 # File: /usr/core/src/www/diag_backup.php, line: 202
 msgid "System Notifications"
@@ -20485,6 +20530,8 @@ msgid ""
 "Please double-check the following contents to ensure you are comfortable "
 "submitting the following information."
 msgstr ""
+"Dobře si zkontrolujte následující obsah a ujistěte se, že nemáte problém "
+"poskytnout následující informace."
 
 # File: /usr/core/src/www/crash_reporter.php, line: 201
 msgid "A short problem description or steps to reproduce."
@@ -20500,6 +20547,8 @@ msgid ""
 "description. Please note that providing your contact information greatly "
 "improves the chances of bugs being fixed."
 msgstr ""
+"Ještě lépe můžete pomoci doplněním kontaktních údajů a hlavně popisu "
+"problému. Bude tak více pravděpodobné, že chyby se podaří opravit."
 
 # File: /usr/core/src/www/crash_reporter.php, line: 197
 msgid "Would you like to submit this crash report to the developers?"
@@ -20933,7 +20982,7 @@ msgstr "průměry"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 664
 msgid "Current detail is showing"
-msgstr ""
+msgstr "Zobrazeny stávající podrobnosti"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 659
 msgid "Please wait while loading data..."
@@ -21393,7 +21442,7 @@ msgstr "Obnovit"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 90
 msgid "NOTE: Local IPv6 peers use NDP instead of ARP."
-msgstr ""
+msgstr "POZN.: Místní IPv6 protějšky používají NDP namísto ARP."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 82
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 82
@@ -22172,7 +22221,7 @@ msgstr "Kupon"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 224
 msgid "Please enter a valid grace period in seconds"
-msgstr ""
+msgstr "Zadejte platnou grace periodu v sekundách"
 
 # File: /usr/core/src/www/system_authservers.php, line: 728
 msgid ""
@@ -22184,7 +22233,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_authservers.php, line: 724
 msgid "Grace period"
-msgstr ""
+msgstr "Grace perioda"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 211
 msgid "Please enter a valid time window in seconds"
@@ -22700,35 +22749,35 @@ msgstr "Grafická konzole"
 
 # File: /usr/core/src/www/system_general.php, line: 54
 msgid "Turkish"
-msgstr ""
+msgstr "Turečtina"
 
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Swedish"
-msgstr ""
+msgstr "Švédština"
 
 # File: /usr/core/src/www/system_general.php, line: 52
 msgid "Spanish"
-msgstr ""
+msgstr "Španělština"
 
 # File: /usr/core/src/www/system_general.php, line: 51
 msgid "Russian"
-msgstr ""
+msgstr "Ruština"
 
 # File: /usr/core/src/www/system_general.php, line: 50
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalština"
 
 # File: /usr/core/src/www/system_general.php, line: 49
 msgid "Mongolian"
-msgstr ""
+msgstr "Mongolština"
 
 # File: /usr/core/src/www/system_general.php, line: 48
 msgid "Japanese"
-msgstr ""
+msgstr "Japonština"
 
 # File: /usr/core/src/www/system_general.php, line: 47
 msgid "Italian"
-msgstr ""
+msgstr "Italština"
 
 # File: /usr/core/src/www/system_general.php, line: 46
 msgid "German"
@@ -22736,15 +22785,15 @@ msgstr "Deutsch (němčina)"
 
 # File: /usr/core/src/www/system_general.php, line: 45
 msgid "French"
-msgstr ""
+msgstr "Francouzština"
 
 # File: /usr/core/src/www/system_general.php, line: 44
 msgid "Dutch"
-msgstr ""
+msgstr "Holandština"
 
 # File: /usr/core/src/www/system_general.php, line: 43
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Čínština (zjednodušená)"
 
 # File: /usr/core/src/etc/inc/system.inc, line: 240
 msgid "Czech"
