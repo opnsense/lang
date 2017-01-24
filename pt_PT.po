@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 08:15+0000\n"
+"POT-Creation-Date: 2017-01-24 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13562,12 +13562,15 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_gre_edit.php, line: 75
 msgid "The tunnel local and tunnel remote fields must have valid IP addresses."
 msgstr ""
+"O túnel local e os campos do túnel remoto deve ter um endereço IP válido."
 
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 80
 msgid ""
 "Parent interface,Local address, Remote tunnel address, Remote tunnel "
 "network, Local tunnel address"
 msgstr ""
+"Interface parente, endereço local, endereço do túnel remoto, túnel de rede "
+"remoto, endereço do túnel local"
 
 # File: /usr/core/src/www/interfaces_gif.php, line: 148
 msgid ""
@@ -13576,38 +13579,47 @@ msgid ""
 "Tunnelbroker dynamic DNS entry%s to keep your tunnel functional when your IP "
 "changes."
 msgstr ""
+"Se está a usar um túnel GIF para ligara um Hurricane Electric (he.net) "
+"Tunnel Broker numa WAN com um endereço IP dinâmico, precisa de adicionar %"
+"sHE.net entrada%s DNS dinâmica Tunnelbroker para manter o túnel funcional "
+"quando o IP muda. "
 
 # File: /usr/core/src/www/interfaces_gif.php, line: 133
 # File: /usr/core/src/www/interfaces_gre.php, line: 135
 # File: /usr/core/src/www/interfaces_lagg.php, line: 146
 # File: /usr/core/src/www/interfaces_vlan.php, line: 139
 msgid "edit interface"
-msgstr ""
+msgstr "Editar interface"
 
 # File: /usr/core/src/www/interfaces_gif.php, line: 119
 # File: /usr/core/src/www/interfaces_gre.php, line: 121
 msgid "Tunnel to..."
-msgstr ""
+msgstr "Túnel para..."
 
 # File: /usr/core/src/www/interfaces_gif.php, line: 85
 msgid "Do you really want to delete this gif tunnel?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este túnel gif?"
 
 # File: /usr/core/src/www/interfaces_gif.php, line: 55
 msgid ""
 "This gif TUNNEL cannot be deleted because it is still being used as an "
 "interface."
 msgstr ""
+"Este TÚNEL gif não pode ser eliminada, porque ainda está a ser usado com "
+"interface."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 605
 msgid ""
 "Mark an interface as a \"private\" interface. A private interface does not "
 "forward any traffic to any other port that is also a private interface."
 msgstr ""
+"Marque um interface como interface \"privado\". Um interface privado não "
+"encaminha qualquer tráfego para qualquer porta que seja também uma interface "
+"privada. "
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 593
 msgid "Private ports"
-msgstr ""
+msgstr "Portos privados"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 585
 msgid ""
@@ -13616,15 +13628,21 @@ msgid ""
 "are never aged out of the cache or replaced, even if the address is seen on "
 "a different interface."
 msgstr ""
+"Marque um interface como interface \"sticky\". As entradas de endereço "
+"adquiridas dinamicamente são tratadas como estáticas uma vez inseridas na "
+"cache. As entradas fixas nunca são antigas fora do cache ou substituídas, "
+"mesmo se o endereço é visto em uma interface diferente."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 573
 msgid "Sticky ports"
-msgstr ""
+msgstr "Portas Sticky"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 568
 msgid ""
 "The interfaces selected here will be removed from default autoedge status."
 msgstr ""
+"O interface aqui selecionado será removido do so status de autoedge "
+"pré-definido."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 564
 msgid ""
@@ -13632,10 +13650,13 @@ msgid ""
 "full duplex link status. This is the default for interfaces added to the "
 "bridge."
 msgstr ""
+"Detectar automaticamente o status ponto-a-ponto no interface verificando o "
+"estado do link full duplex. Este é o pré-definido para as interfaces "
+"adicionadas à bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 552
 msgid "Auto PTP ports"
-msgstr ""
+msgstr "Portas Auto PTP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 545
 msgid ""
@@ -13643,24 +13664,29 @@ msgid ""
 "transitions to forwarding and should be enabled on a direct link to another "
 "RSTP-capable switch."
 msgstr ""
+"Defina o interface como link ponto-a-ponto. Isto é necessário para "
+"transições consecutivas para encaminhamento e deve ser ativado num link "
+"direto  para outro switch compatível com RSTP."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 533
 msgid "PTP ports"
-msgstr ""
+msgstr "Portas PTP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 528
 msgid "This will disable the autoedge status of interfaces."
-msgstr ""
+msgstr "Esta opção desativará o status do autoedge dos interfaces."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 525
 msgid ""
 "Allow interface to automatically detect edge status. This is the default for "
 "all interfaces added to a bridge."
 msgstr ""
+"Permite que o interface automaticamente detecte status edge.  Este é o valor "
+"pré-definido para todas as interfaces adicionadas a uma bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 513
 msgid "Auto Edge ports"
-msgstr ""
+msgstr "Portas Auto Edge"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 506
 msgid ""
@@ -13668,14 +13694,16 @@ msgid ""
 "stations and cannot create bridging loops in the network; this allows it to "
 "transition straight to forwarding."
 msgstr ""
+"Configure o interface como porta edge. Uma porta edge liga-se diretamente as "
+"estações finais e e não pode criar loops de bridging na rede."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 494
 msgid "Edge ports"
-msgstr ""
+msgstr "Portas Edge"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 489
 msgid "The span interface cannot be part of the bridge member interfaces."
-msgstr ""
+msgstr "O interface span não pode fazer parte dos interfaces membros da bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 483
 msgid ""
@@ -13684,10 +13712,14 @@ msgid ""
 "useful for snooping a bridged network passively on another host connected to "
 "one of the span ports of the bridge."
 msgstr ""
+"Adicione o interface chamada por interface como uma porta span na bridge. "
+"Portas Span transmitem um copia de todas as frames recebidas pela bridge. "
+"Isto é mais útil para espiar uma rede em bridge passivamente  noutro host "
+"ligado a uma das portas da extensão da bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 470
 msgid "Span port"
-msgstr ""
+msgstr "Span port"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 463
 msgid ""
@@ -13695,29 +13727,33 @@ msgid ""
 "seconds is zero, then address cache entries will not be expired. The default "
 "is 240 seconds."
 msgstr ""
+"Defina o tempo limite de entrada de cache do endereço para este numero de "
+"segundos. Se os segundos forem zero, então a entrada da cache do endereço "
+"não irá expirar. O tempo pré definido é de 240 segundos."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 459
 msgid "Cache entry expire time"
-msgstr ""
+msgstr "Tempo de expiração da entrada de cache"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 454
 msgid ""
 "Set the size of the bridge address cache to size. The default is .100 "
 "entries."
 msgstr ""
+"Defina o tamanho do cache de endereço da bridge. Por defeito é 100 entries."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 450
 msgid "entries"
-msgstr ""
+msgstr "Entradas"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 450
 msgid "Cache size"
-msgstr ""
+msgstr "Tamanho da cache"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 445
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Advanced options"
-msgstr ""
+msgstr "Opções avançadas"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 429
 msgid ""
@@ -13726,16 +13762,22 @@ msgid ""
 "back to automatic, set the cost to 0. The minimum is 1 and the maximum is "
 "200000000."
 msgstr ""
+"Defina o custo do caminho da arvore Spanning do interface para valor. O "
+"valor pré-definido é calculado pela velocidade do link. Para mudar o custo "
+"do caminho previamente selecionado, para automático, defina o custo par 0. O "
+"minimo é 1 e o maximo é 200000000."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 414
 msgid "Path cost"
-msgstr ""
+msgstr "Path cost"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 408
 msgid ""
 "Set the Spanning Tree priority of interface to value. The default is 128. "
 "The minimum is 0 and the maximum is 240. Increments of 16."
 msgstr ""
+"defina a prioridade da arvore de Spanning do interface para valor.  O valor "
+"pré-definido é  128. O mínimo 0 e valor máximo é 240, incremento de 16."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 386
 msgid ""
@@ -13743,22 +13785,27 @@ msgid ""
 "transmitted before being rate limited. The default is 6. The minimum is 1 "
 "and the maximum is 10."
 msgstr ""
+"Definia a contagem de espera de transmissão para Spanning Tree. Este é o "
+"numero de pacotes transmitidos antes da taxa ser limitada. O valor pré-"
+"definido é 6. O mínimo 1 e valor máximo é 10."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 382
 msgid "Hold count"
-msgstr ""
+msgstr "Contagem de espera"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 376
 msgid ""
 "Set the bridge priority for Spanning Tree. The default is 32768. The minimum "
 "is 0 and the maximum is 61440."
 msgstr ""
+"Defina a prioridade da bridge para a árvore de Spanning. O valor pré-"
+"definido é 32768. O mínimo 0 e valor máximo é 61440."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 372
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 393
 # File: /usr/core/src/www/system_gateway_groups.php, line: 172
 msgid "Priority"
-msgstr ""
+msgstr "Prioridade"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 366
 msgid ""
@@ -13767,10 +13814,14 @@ msgid ""
 "mode. The default is 2 seconds. The minimum is 1 second and the maximum is 2 "
 "seconds."
 msgstr ""
+"Defina o tempo entre o broadcasting das mensagens de configuração do "
+"protocolo da Spanning Tree. O hello time só pode ser alterado quando se "
+"opera no modo herdado STP. O valor pré-definido é 2 segundos. O mínimo é 1 "
+"segundo e valor máximo é de 2 segundos."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 362
 msgid "Hello time"
-msgstr ""
+msgstr "Hello time"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 356
 msgid ""
@@ -13778,10 +13829,13 @@ msgid ""
 "when Spanning Tree is enabled. The default is 15 seconds. The minimum is 4 "
 "seconds and the maximum is 30 seconds."
 msgstr ""
+"Defina o tempo que deve passar antes um interface começar a encaminhar "
+"pacotes quando o Sapnning Tree está activado. O tempo por defeito são 15 "
+"segundos. O tempo mínimo são 3 segundos e o tempo máximo são 30 segundos,"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 352
 msgid "Forward time"
-msgstr ""
+msgstr "Tempo de encaminhamento"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 345
 msgid ""
@@ -13789,10 +13843,13 @@ msgid ""
 "default is 20 seconds. The minimum is 6 seconds and the maximum is 40 "
 "seconds."
 msgstr ""
+"Defina o tempo que a configuração do protocolo Spanning Tree é válida. O "
+"tempo por defeito são 20 segundos. O tempo mínimo são 6 segundos e o tempo "
+"máximo são 40 segundos,"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 341
 msgid "Valid time"
-msgstr ""
+msgstr "Tempo válido"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 333
 msgid ""
@@ -13800,52 +13857,55 @@ msgid ""
 "support for the IEEE 802.1D Spanning Tree Protocol (STP). STP is used to "
 "detect and remove loops in a network topology."
 msgstr ""
+"Activa o protocolo Spanning Tree no interface. O dispositivo if_bridge(4) "
+"tem suporte para o protocolo Spanning Tree (STP) IEEE 802.1D. STP é usado "
+"para detetar e remover loops numa topologia de rede."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 321
 msgid "STP interfaces"
-msgstr ""
+msgstr "interfaces STP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 316
 msgid "Protocol used for spanning tree."
-msgstr ""
+msgstr "Protocolo usado para spanning tree."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 312
 msgid "STP"
-msgstr ""
+msgstr "STP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 309
 msgid "RSTP"
-msgstr ""
+msgstr "RSTP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 300
 msgid "Enable spanning tree options for this bridge."
-msgstr ""
+msgstr "Activas opções spanning tree para esta bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 291
 msgid "Spanning Tree Protocol"
-msgstr ""
+msgstr "Protocolo Spanning Tree"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 291
 msgid "RSTP/STP"
-msgstr ""
+msgstr "RSTP/STP"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 278
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 597
 msgid "Show advanced options"
-msgstr ""
+msgstr "Mostra as opções avançadas"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 262
 msgid "Interfaces participating in the bridge."
-msgstr ""
+msgstr "Interfaces envolidos na bridge."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 250
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 107
 msgid "Member interfaces"
-msgstr ""
+msgstr "Interfaces membros"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 240
 msgid "Bridge configuration"
-msgstr ""
+msgstr "Configuração de Bridge"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 195
 # File: /usr/core/src/www/interfaces_gif_edit.php, line: 127
@@ -13853,90 +13913,98 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 136
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 122
 msgid "Error occurred creating interface, please retry."
-msgstr ""
+msgstr "Ocorreu um erro ao criar o interface,Por favor tente novamente."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 148
 msgid ""
 "Span interface cannot be part of the bridge. Remove the span interface from "
 "bridge members to continue."
 msgstr ""
+"Interface Span não pode fazer parte da bridge. Remova o interface Span dos "
+"membros da bridge para continuar."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 145
 msgid "Bridging a wireless interface is only possible in hostap mode."
-msgstr ""
+msgstr "Um interface wireless em bridge só é possível no modo hostap."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 142
 msgid "A member interface passed does not exist in configuration"
-msgstr ""
+msgstr "Um interface de membro transmitida não existe na configuração"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 135
 msgid ""
 "%s interface path cost for STP needs to be an integer between 1 and "
 "200000000."
 msgstr ""
+"O custo do caminho do interface %s para STP tem de ser um número inteiro "
+"entre 1  e 200000000."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 132
 msgid "%s interface priority for STP needs to be an integer between 0 and 240."
 msgstr ""
+"A prioridade do interface %s para STP tem de ser um número inteiro entre 0 e "
+"240."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 128
 msgid "Transmit Hold Count for STP needs to be an integer between 1 and 10."
 msgstr ""
+"A contagem da transmissão Hold para STP tem de ser um número inteiro entre 1 "
+"e 10."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 125
 msgid "Priority for STP needs to be an integer between 0 and 61440."
-msgstr ""
+msgstr "Prioridade para STP tem de ser um número inteiro entre 0 e 61440."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 122
 msgid "Hello time for STP needs to be an integer between 1 and 2."
-msgstr ""
+msgstr "Hello time para STP tem de ser um número inteiro entre 2 e 2."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 119
 msgid "Forward Delay needs to be an integer between 4 and 30."
-msgstr ""
+msgstr "Forword Delay tem de ser um número inteiro entre 4 e 30."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 116
 msgid "Timeout needs to be an integer."
-msgstr ""
+msgstr "Tempo limite tem de ser um número inteiro."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 113
 msgid "Maxaddr needs to be an integer."
-msgstr ""
+msgstr "Maxaddr tem de ser um número inteiro."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 110
 msgid "Maxage needs to be an integer between 6 and 40."
-msgstr ""
+msgstr "Maxage tem de ser um número inteiro entre  6 e 40."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 105
 msgid "Member Interfaces"
-msgstr ""
+msgstr "Interfaces membros"
 
 # File: /usr/core/src/www/interfaces_bridge.php, line: 154
 msgid "edit bridge"
-msgstr ""
+msgstr "Editar bridge"
 
 # File: /usr/core/src/www/interfaces_bridge.php, line: 126
 # File: /usr/core/src/www/interfaces_groups.php, line: 109
 # File: /usr/core/src/www/interfaces_lagg.php, line: 130
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 322
 msgid "Members"
-msgstr ""
+msgstr "Membros"
 
 # File: /usr/core/src/www/interfaces_bridge.php, line: 92
 msgid "Do you really want to delete this bridge?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar esta bridge?"
 
 # File: /usr/core/src/www/interfaces_bridge.php, line: 58
 msgid "This bridge cannot be deleted because it is assigned as an interface."
-msgstr ""
+msgstr "A bridge não pode ser apagada porque esta atribuída a um interface."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 434
 msgid "add selected interface"
-msgstr ""
+msgstr "adicionar o interface selecionado"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 423
 msgid "New interface:"
-msgstr ""
+msgstr "Novo interface:"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 414
 # File: /usr/core/src/www/interfaces_bridge.php, line: 157
@@ -13948,104 +14016,113 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_vlan.php, line: 142
 # File: /usr/core/src/www/interfaces_wireless.php, line: 136
 msgid "delete interface"
-msgstr ""
+msgstr "Apagar interface"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 391
 msgid "Network port"
-msgstr ""
+msgstr "Porta de Rede"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 354
 msgid "Do you really want to delete this interface?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar este interface?"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 257
 msgid "VLAN parent interface %s does not exist."
-msgstr ""
+msgstr "Interface %s parent VLAN não existe."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 246
 msgid ""
 "You cannot set port %s to interface %s because this interface is a member of "
 "%s."
 msgstr ""
+"Não pode definir a porta %s para o interface %s porque este interface é "
+"membro de %s."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 232
 msgid "Port %s was assigned to %d interfaces:"
-msgstr ""
+msgstr "Porta %s foi atribuida aos interface %d:"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 170
 msgid ""
 "The interface is part of a gif tunnel. Please delete the tunnel to continue"
 msgstr ""
+"O interface é parte de um túnel gif. Por favor elimine o túnel para "
+"continuar."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 168
 msgid ""
 "The interface is part of a gre tunnel. Please delete the tunnel to continue"
 msgstr ""
+"O interface é parte de um túnel gre. Por favor elimine o túnel para "
+"continuar."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 166
 msgid ""
 "The interface is part of a bridge. Please remove it from the bridge to "
 "continue"
 msgstr ""
+"O interface é parte de uma bridge. Por favor elimine-o da bridge para "
+"continuar."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 164
 msgid ""
 "The interface is part of a group. Please remove it from the group to continue"
 msgstr ""
+"O interface é parte de um grupo. Por favor elimine-o do grupo para continuar."
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 134
 # File: /usr/core/src/www/system_advanced_admin.php, line: 420
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 133
 msgid "lan"
-msgstr ""
+msgstr "lan"
 
 # File: /usr/core/src/www/interfaces_assign.php, line: 47
 msgid "vlan %s on %s"
-msgstr ""
+msgstr "vlan %s sobre %s"
 
 # File: /usr/core/src/www/interfaces.php, line: 3233
 msgid "802.1X Roaming Preauth"
-msgstr ""
+msgstr "802.1X Roaming Preauth"
 
 # File: /usr/core/src/www/interfaces.php, line: 3228
 msgid "Secondary 802.1X Authentication Server Shared Secret"
-msgstr ""
+msgstr "Autenticação do servidor Shared Secret 802.1X secundário"
 
 # File: /usr/core/src/www/interfaces.php, line: 3224
 msgid "802.1X Server Shared Secret (2)"
-msgstr ""
+msgstr "802.1X Server Shared Secret (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3218
 msgid "Secondary 802.1X Authentication Server Port"
-msgstr ""
+msgstr "Porta do servidor de Autenticação 802.1X secundário"
 
 # File: /usr/core/src/www/interfaces.php, line: 3214
 msgid "802.1X Server Port (2)"
-msgstr ""
+msgstr "Porta do servidor 802.1X (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3208
 msgid "Secondary 802.1X Authentication Server IP Address"
-msgstr ""
+msgstr "Endereço IP do servidor de autenticação Secondary 802.1X"
 
 # File: /usr/core/src/www/interfaces.php, line: 3204
 msgid "802.1X Server IP Address (2)"
-msgstr ""
+msgstr "Endereço IP do Servidor  802.1X (2)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3198
 msgid "802.1X Server Shared Secret"
-msgstr ""
+msgstr "802.1X Server Shared Secret"
 
 # File: /usr/core/src/www/interfaces.php, line: 3193
 # File: /usr/core/src/www/interfaces.php, line: 3219
 msgid "Leave blank for the default 1812 port."
-msgstr ""
+msgstr "Deixe em branco para a porta pré definida 1812."
 
 # File: /usr/core/src/www/interfaces.php, line: 3189
 msgid "802.1X Server Port"
-msgstr ""
+msgstr "Porta do servidor 802.1X"
 
 # File: /usr/core/src/www/interfaces.php, line: 3179
 # File: /usr/core/src/www/interfaces.php, line: 3204
@@ -14053,83 +14130,91 @@ msgid ""
 "Enter the IP address of the 802.1X Authentication Server.  This is commonly "
 "a Radius server (FreeRadius, Internet Authentication Services, etc.)"
 msgstr ""
+"Introduza o endereço IP do servidor de autenticação 802.1X. Normalmente é um "
+"servidor de Radius.(FreeRadius, Internet Authentication Services, etc.)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3180
 msgid "802.1X Server IP Address"
-msgstr ""
+msgstr "Endereço IP do Servidor 802.1X"
 
 # File: /usr/core/src/www/interfaces.php, line: 3175
 msgid "this option requires checking the \"Enable WPA box\"."
-msgstr ""
+msgstr "esta opção requer verificação do \"Enable WPA box\"."
 
 # File: /usr/core/src/www/interfaces.php, line: 3175
 msgid "NOTE"
-msgstr ""
+msgstr "NOTA"
 
 # File: /usr/core/src/www/interfaces.php, line: 3174
 msgid "Setting this option will enable 802.1x authentication."
-msgstr ""
+msgstr "A configuração desta opção irá ativar a autenticação 802.1x."
 
 # File: /usr/core/src/www/interfaces.php, line: 3170
 msgid "Enable IEEE802.1X Authentication"
-msgstr ""
+msgstr "Ativa a autenticação IEEE802.1X"
 
 # File: /usr/core/src/www/interfaces.php, line: 3165
 msgid ""
 "Setting this option will force the AP to rekey whenever a client "
 "disassociates."
 msgstr ""
+"A configuração desta opção irá forçar o AP para rekey sempre que um cliente "
+"se desassocia."
 
 # File: /usr/core/src/www/interfaces.php, line: 3161
 msgid "Strict Key Regeneration"
-msgstr ""
+msgstr "Regeneração da chave Restrita"
 
 # File: /usr/core/src/www/interfaces.php, line: 3156
 msgid ""
 "Allowed values are 1-9999 but should not be shorter than Key Rotation time."
 msgstr ""
+"Os valores permitidos são 1-9999, mas não devem ser mais curtos do que o "
+"tempo de rotação da chave."
 
 # File: /usr/core/src/www/interfaces.php, line: 3152
 msgid "Master Key Regeneration"
-msgstr ""
+msgstr "Regeneração da chave Master"
 
 # File: /usr/core/src/www/interfaces.php, line: 3147
 msgid ""
 "Allowed values are 1-9999 but should not be longer than Master Key "
 "Regeneration time."
 msgstr ""
+"Os valores permitidos são 1-9999, mas não devem ser mais compridos do que o "
+"tempo de regeneração da chave Master."
 
 # File: /usr/core/src/www/interfaces.php, line: 3143
 msgid "Key Rotation"
-msgstr ""
+msgstr "Rotação da chave"
 
 # File: /usr/core/src/www/interfaces.php, line: 3138
 msgid "TKIP"
-msgstr ""
+msgstr "TKIP"
 
 # File: /usr/core/src/www/interfaces.php, line: 3137
 msgid "AES (recommended)"
-msgstr ""
+msgstr "AES (recomendado)"
 
 # File: /usr/core/src/www/interfaces.php, line: 3133
 msgid "WPA Pairwise"
-msgstr ""
+msgstr "WPA Pairwise"
 
 # File: /usr/core/src/www/interfaces.php, line: 3128
 msgid "Note: Shared Key Authentication requires WEP."
-msgstr ""
+msgstr "Nota: A autenticação de chave partilhada requer WEP."
 
 # File: /usr/core/src/www/interfaces.php, line: 3124
 msgid "Shared Key Authentication"
-msgstr ""
+msgstr "Autenticação de chave partilhada."
 
 # File: /usr/core/src/www/interfaces.php, line: 3123
 msgid "Open System Authentication"
-msgstr ""
+msgstr "Autenticação de Sistema aberto"
 
 # File: /usr/core/src/www/interfaces.php, line: 3114
 msgid "Extensible Authentication Protocol"
-msgstr ""
+msgstr "Protocolo de autenticação extensível"
 
 # File: /usr/core/src/www/interfaces.php, line: 3113
 # File: /usr/core/src/www/vpn_ipsec_keys.php, line: 124
@@ -14138,129 +14223,141 @@ msgstr ""
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 193
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 760
 msgid "Pre-Shared Key"
-msgstr ""
+msgstr "Chave Pré-partilhada"
 
 # File: /usr/core/src/www/interfaces.php, line: 3110
 msgid "WPA Key Management Mode"
-msgstr ""
+msgstr "Modo de gestão da chave WEP"
 
 # File: /usr/core/src/www/interfaces.php, line: 3105
 # File: /usr/core/src/www/interfaces.php, line: 3115
 # File: /usr/core/src/www/interfaces.php, line: 3125
 # File: /usr/core/src/www/interfaces.php, line: 3136
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 # File: /usr/core/src/www/interfaces.php, line: 3104
 msgid "WPA2"
-msgstr ""
+msgstr "WPA2"
 
 # File: /usr/core/src/www/interfaces.php, line: 3100
 msgid "WPA Mode"
-msgstr ""
+msgstr "Modo WPA"
 
 # File: /usr/core/src/www/interfaces.php, line: 3095
 msgid "Passphrase must be from 8 to 63 characters."
-msgstr ""
+msgstr "Passphrase deve ter de 8 a 63 carateres."
 
 # File: /usr/core/src/www/interfaces.php, line: 3092
 msgid "WPA Pre-Shared Key"
-msgstr ""
+msgstr "Chave pré-partilhada WPA"
 
 # File: /usr/core/src/www/interfaces.php, line: 3090
 msgid "Enable WPA"
-msgstr ""
+msgstr "Ativar WPA"
 
 # File: /usr/core/src/www/interfaces.php, line: 3087
 # File: /usr/core/src/www/interfaces.php, line: 3103
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 # File: /usr/core/src/www/interfaces.php, line: 3082
 msgid ""
 "104 (128) bit keys may be entered as 13 ASCII characters or 26 hex digits "
 "preceded by '0x'."
 msgstr ""
+"Chaves 104 (128) bits podem ser inseridas como caracteres 13 ASCII ou 26 "
+"dígitos hex precedidos de  '0x'."
 
 # File: /usr/core/src/www/interfaces.php, line: 3081
 msgid ""
 "40 (64) bit keys may be entered as 5 ASCII characters or 10 hex digits "
 "preceded by '0x'."
 msgstr ""
+"Chaves 40 (64) bits podem ser inseridas como caracteres 5 ASCII ou 10 "
+"dígitos hex precedidos de '0x'."
 
 # File: /usr/core/src/www/interfaces.php, line: 3071
 msgid "Key 4:"
-msgstr ""
+msgstr "Chave 4:"
 
 # File: /usr/core/src/www/interfaces.php, line: 3062
 msgid "Key 3:"
-msgstr ""
+msgstr "Chave 3:"
 
 # File: /usr/core/src/www/interfaces.php, line: 3053
 msgid "Key 2:"
-msgstr ""
+msgstr "Chave 2:"
 
 # File: /usr/core/src/www/interfaces.php, line: 3044
 msgid "Key 1:"
-msgstr ""
+msgstr "Chave 1:"
 
 # File: /usr/core/src/www/interfaces.php, line: 3041
 msgid "TX key"
-msgstr ""
+msgstr "Chave TX"
 
 # File: /usr/core/src/www/interfaces.php, line: 3036
 msgid "Enable WEP"
-msgstr ""
+msgstr "Ativa WEP"
 
 # File: /usr/core/src/www/interfaces.php, line: 3033
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 # File: /usr/core/src/www/interfaces.php, line: 3023
 msgid "(this might create problems for some clients)."
-msgstr ""
+msgstr "Pode criar problemas para alguns clientes)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3021
 msgid "Setting this option will force the card to NOT broadcast its SSID"
-msgstr ""
+msgstr "Configurando esta opção irá forçar a placa para NOT broadcast its SSID"
 
 # File: /usr/core/src/www/interfaces.php, line: 3024
 msgid "Enable Hide SSID"
-msgstr ""
+msgstr "Ativa a ocultação do SSID"
 
 # File: /usr/core/src/www/interfaces.php, line: 3019
 msgid "Setting this option will force the card to use WME (wireless QoS)."
 msgstr ""
+"Ao configurar esta opção irá forçar a placa para usar WME (wireless QoS)."
 
 # File: /usr/core/src/www/interfaces.php, line: 3015
 msgid "Enable WME"
-msgstr ""
+msgstr "Ativa WME"
 
 # File: /usr/core/src/www/interfaces.php, line: 3010
 msgid ""
 "Disabling the internal bridging is useful when traffic is to be processed "
 "with packet filtering."
 msgstr ""
+"A desativação da bridging interna é útil quando o tráfego deve ser "
+"processado com filtragem de pacotes."
 
 # File: /usr/core/src/www/interfaces.php, line: 3008
 msgid ""
 "When operating as an access point, enable this if you want to pass packets "
 "between wireless clients directly."
 msgstr ""
+"Ao ser usado como um ponto de acesso, ative se desejar passar pacotes entre "
+"clientes wireless diretamente."
 
 # File: /usr/core/src/www/interfaces.php, line: 3004
 msgid "Allow intra-BSS communication"
-msgstr ""
+msgstr "Permite comunicações intra-BSS"
 
 # File: /usr/core/src/www/interfaces.php, line: 2997
 msgid ""
 "When operating as an access point in 802.11g mode, allow only 11g-capable "
 "stations to associate (11b-only stations are not permitted to associate)."
 msgstr ""
+"Ao ser usado como ponto de acesso no modo 802.11g, permite associar apenas "
+"estações com capacidade 11g (as estações 11b-only não são permitidas para "
+"associar)."
 
 # File: /usr/core/src/www/interfaces.php, line: 2993
 msgid "802.11g only"
-msgstr ""
+msgstr "802.11g apenas"
 
 # File: /usr/core/src/www/interfaces.php, line: 2986
 msgid ""
@@ -14268,40 +14365,46 @@ msgid ""
 "selected wireless standard to associate (stations not capable are not "
 "permitted to associate)."
 msgstr ""
+"Ao ser usado como ponto de acesso, Permitir que apenas as estações capazes "
+"da seleção do standard wireless se associem. (as estações não capazes não "
+"são permitidas para associar)."
 
 # File: /usr/core/src/www/interfaces.php, line: 2983
 msgid "802.11n"
-msgstr ""
+msgstr "802.11n"
 
 # File: /usr/core/src/www/interfaces.php, line: 2980
 msgid "802.11g"
-msgstr ""
+msgstr "802.11g"
 
 # File: /usr/core/src/www/interfaces.php, line: 2974
 msgid "Minimum standard"
-msgstr ""
+msgstr "Standard mínimo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2967
 msgid ""
 "Note: Only required in Access Point mode. If left blank in Ad-hoc or "
 "Infrastructure mode, this interface will connect to any available SSID"
 msgstr ""
+"Nota: Apenas necessário no modo de Ponto de Acesso. Se deixar em branco no "
+"modo Ad-hoc ou Infra-estrutura, esta interface será ligada a qualquer SSID "
+"disponível"
 
 # File: /usr/core/src/www/interfaces.php, line: 2956
 msgid "Access Point"
-msgstr ""
+msgstr "Ponto de acesso"
 
 # File: /usr/core/src/www/interfaces.php, line: 2951
 msgid "Ad-hoc (IBSS)"
-msgstr ""
+msgstr "Ad-hoc (IBSS)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2948
 msgid "Infrastructure (BSS)"
-msgstr ""
+msgstr "Infraestrutura (BSS)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2942
 msgid "Network-specific wireless configuration"
-msgstr ""
+msgstr "Configurações wireless especificas de rede"
 
 # File: /usr/core/src/www/interfaces.php, line: 2930
 msgid ""
@@ -14310,6 +14413,11 @@ msgid ""
 "country codes may not be allowed by some cards. These settings may not be "
 "able to add additional channels that are not already supported."
 msgstr ""
+"Nota: Todas as redes wireless neste interface serão temporariamente "
+"reduzidas quando alterar as configurações regulatórias. Alguns domínios "
+"regulamentares ou códigos de países não podem ser permitidos por algumas "
+"placas. Essas definições poderão não ser capazes de adicionar canais "
+"adicionais que ainda não são suportados."
 
 # File: /usr/core/src/www/interfaces.php, line: 2928
 msgid ""
@@ -14317,32 +14425,38 @@ msgid ""
 "transmit power allowed on those channels.  Using the correct settings to "
 "comply with local regulatory requirements is recommended."
 msgstr ""
+"Essas configurações podem afetar quais os canais estão disponíveis e a "
+"máxima potência de transmissão permitida nesses canais. É recomendável "
+"utilizar as definições corretas para cumprir com os requisitos "
+"regulamentares locais."
 
 # File: /usr/core/src/www/interfaces.php, line: 2931
 msgid "Anywhere"
-msgstr ""
+msgstr "Qualquer lugar"
 
 # File: /usr/core/src/www/interfaces.php, line: 2930
 msgid "Outdoor"
-msgstr ""
+msgstr "Exterior"
 
 # File: /usr/core/src/www/interfaces.php, line: 2929
 msgid "Indoor"
-msgstr ""
+msgstr "Interior"
 
 # File: /usr/core/src/www/interfaces.php, line: 2926
 msgid "Location"
-msgstr ""
+msgstr "Localização"
 
 # File: /usr/core/src/www/interfaces.php, line: 2923
 msgid ""
 "Note: Any country setting other than \"Default\" will override the "
 "regulatory domain setting"
 msgstr ""
+"Nota: Qualquer definição de país diferente do valor \"pré-definido\" "
+"substituirá a configuração de domínio regulador"
 
 # File: /usr/core/src/www/interfaces.php, line: 2910
 msgid "Country (listed with country code and regulatory domain)"
-msgstr ""
+msgstr "País (lista com código de país e domínio regulatóro)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2906
 msgid ""
@@ -14350,69 +14464,77 @@ msgid ""
 "the regulatory domain to one in this list for the changes to other "
 "regulatory settings to work."
 msgstr ""
+"Nota: Algumas placas tem um valor por defeito que não é reconhecido e "
+"requerem alteração do domínio regulador de uma nesta lista para as "
+"alterações a outras definições de regulamentação para trabalho."
 
 # File: /usr/core/src/www/interfaces.php, line: 2894
 msgid "Regulatory domain"
-msgstr ""
+msgstr "Domínio tregulamentar"
 
 # File: /usr/core/src/www/interfaces.php, line: 2892
 msgid "Regulatory settings"
-msgstr ""
+msgstr "Configurações Regulamentares"
 
 # File: /usr/core/src/www/interfaces.php, line: 2885
 msgid ""
 "Note: The antenna numbers do not always match up with the labels on the card."
 msgstr ""
+"Nota: O número de antenas nem sempre coincidem com as etiquetas da placa."
 
 # File: /usr/core/src/www/interfaces.php, line: 2872
 msgid "Receive antenna"
-msgstr ""
+msgstr "Antena recetora"
 
 # File: /usr/core/src/www/interfaces.php, line: 2864
 # File: /usr/core/src/www/interfaces.php, line: 2877
 msgid "#2"
-msgstr ""
+msgstr "#2"
 
 # File: /usr/core/src/www/interfaces.php, line: 2863
 # File: /usr/core/src/www/interfaces.php, line: 2876
 msgid "#1"
-msgstr ""
+msgstr "#1"
 
 # File: /usr/core/src/www/interfaces.php, line: 2859
 msgid "Transmit antenna"
-msgstr ""
+msgstr "Antena de transmissão "
 
 # File: /usr/core/src/www/interfaces.php, line: 2847
 msgid "Diversity"
-msgstr ""
+msgstr "Diversidade"
 
 # File: /usr/core/src/www/interfaces.php, line: 2840
 msgid "Antenna settings"
-msgstr ""
+msgstr "Configurações da Antena"
 
 # File: /usr/core/src/www/interfaces.php, line: 2826
 msgid ""
 "Note: Not all channels may be supported by your card.  Auto may override the "
 "wireless standard selected above."
 msgstr ""
+"Nota: Nem todos os canais podem ser suportados pelo seu cartão.  Auto pode "
+"substituir o standard wireless selecionado acima."
 
 # File: /usr/core/src/www/interfaces.php, line: 2831
 msgid ""
 "Legend: wireless standards - channel # (frequency @ max TX power / TX power "
 "allowed in reg. domain)"
 msgstr ""
+"Legenda: standards wireless - Canal # (frequency @ max TX power / TX power "
+"allowed in reg. domain)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2817
 # File: /usr/core/src/www/interfaces.php, line: 2862
 # File: /usr/core/src/www/interfaces.php, line: 2875
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 619
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 # File: /usr/core/src/www/interfaces.php, line: 2814
 # File: /usr/core/src/www/status_interfaces.php, line: 362
 msgid "Channel"
-msgstr ""
+msgstr "Canal"
 
 # File: /usr/core/src/www/interfaces.php, line: 2802
 msgid ""
@@ -14420,73 +14542,88 @@ msgid ""
 "driver will use the setting closest to the specified value.  Not all "
 "adapters support changing the transmit power setting."
 msgstr ""
+"Nota: Normalmente apenas algumas configurações de energia estão disponíveis "
+"e o controlador usará a configuração mais próxima do valor especificado. Nem "
+"todos os adaptadores  suportam  a alteração da configuração de potência de "
+"transmissão."
 
 # File: /usr/core/src/www/interfaces.php, line: 2798
 msgid "Transmit power"
-msgstr ""
+msgstr "Potência de transmissão"
 
 # File: /usr/core/src/www/interfaces.php, line: 2788
 msgid ""
 "For IEEE 802.11g, use the specified technique for protecting OFDM frames in "
 "a mixed 11b/11g network."
 msgstr ""
+"Para IEEE 802.11g, utilize a técnica especificada para protecção de frames "
+"OFDM numa rede mista 11b/11g."
 
 # File: /usr/core/src/www/interfaces.php, line: 2785
 msgid "Protection mode RTS and CTS"
-msgstr ""
+msgstr "Modo de proteção RTS e CTS"
 
 # File: /usr/core/src/www/interfaces.php, line: 2784
 msgid "Protection mode CTS to self"
-msgstr ""
+msgstr "Modo de proteção CTS e self"
 
 # File: /usr/core/src/www/interfaces.php, line: 2783
 msgid "Protection mode off"
-msgstr ""
+msgstr "Modo de proteção desligado"
 
 # File: /usr/core/src/www/interfaces.php, line: 2780
 msgid "Protection Mode"
-msgstr ""
+msgstr "Modo de proteção"
 
 # File: /usr/core/src/www/interfaces.php, line: 2759
 msgid ""
 "Enabling this preserves the common wireless configuration through interface "
 "deletions and reassignments."
 msgstr ""
+"Ativar esta opção assegura a configuração wireless frequente por meio de "
+"exclusões e reatribuições de interfaces."
 
 # File: /usr/core/src/www/interfaces.php, line: 2755
 msgid "Persist common settings"
-msgstr ""
+msgstr "Preservar configurações frequentas. "
 
 # File: /usr/core/src/www/interfaces.php, line: 2750
 msgid ""
 "Common wireless configuration - Settings apply to all wireless networks on"
 msgstr ""
+"Configuração wireless frequentes - As configurações aplicam-se a todas as "
+"redes wireless ligadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2733
 msgid "Enter a hexadecimal value between %x and %x here, default value is 0."
 msgstr ""
+"Introduza aqui um valor hexadecimal entre %x e %x , por defeito o valor é 0."
 
 # File: /usr/core/src/www/interfaces.php, line: 2731
 msgid ""
 "The value in this field is the (Delegated) IPv6 prefix id. This determines "
 "the configurable network ID based on the dynamic IPv6 connection"
 msgstr ""
+"O valor neste campo é do id do prefixo IPv6 (Delegado). Isto determina o ID "
+"da rede configurável com base na ligação dinâmica IPv6. "
 
 # File: /usr/core/src/www/interfaces.php, line: 2722
 msgid "IPv6 Prefix ID"
-msgstr ""
+msgstr "ID do prefixo IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2717
 msgid "This selects the dynamic IPv6 WAN interface to track for configuration"
 msgstr ""
+"Esta opção seleciona o interface WAN IPv6 dinâmico para controlar a "
+"configuração."
 
 # File: /usr/core/src/www/interfaces.php, line: 2697
 msgid "IPv6 Interface"
-msgstr ""
+msgstr "Interface IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2694
 msgid "Track IPv6 Interface"
-msgstr ""
+msgstr "Rastrea interface IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2680
 msgid ""
@@ -14494,6 +14631,9 @@ msgid ""
 "the ISP. A value of 0 means we embed the entire IPv4 address in the 6RD "
 "prefix."
 msgstr ""
+"O valor neste campo é o comprimento do prefixo 6RD IPv4. Normalmente é "
+"especificado pelo ISP. O valor de 0 significa que que integramos a "
+"totalidade do endereço IPv4 no prefixo 6RD."
 
 # File: /usr/core/src/www/interfaces.php, line: 2673
 # File: /usr/core/src/www/services_dhcpv6.php, line: 473
@@ -14505,34 +14645,37 @@ msgstr ""
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 743
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 903
 msgid "bits"
-msgstr ""
+msgstr "bits"
 
 # File: /usr/core/src/www/interfaces.php, line: 2667
 msgid "6RD IPv4 Prefix length"
-msgstr ""
+msgstr "Comprimento do prefixo 6RD do IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 2662
 msgid ""
 "The value in this field is 6RD IPv4 gateway address assigned by your ISP"
 msgstr ""
+"O valor neste campo é o endereço da gateway IPv4 6RD atribuido pelo seu ISP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2658
 msgid "6RD Border Relay"
-msgstr ""
+msgstr "6RD Border Relay"
 
 # File: /usr/core/src/www/interfaces.php, line: 2653
 msgid ""
 "The value in this field is the 6RD IPv6 prefix assigned by your ISP. e.g. "
 "'2001:db8::/32'"
 msgstr ""
+"O Valor neste campo é o prefixo 6RD do IPv6 atribuído pelo seu ISP. e.g. "
+"'2001:db8::/32'"
 
 # File: /usr/core/src/www/interfaces.php, line: 2649
 msgid "6RD prefix"
-msgstr ""
+msgstr "Prefixo 6RD"
 
 # File: /usr/core/src/www/interfaces.php, line: 2644
 msgid "6RD Rapid Deployment"
-msgstr ""
+msgstr "6RD Rapid Deployment"
 
 # File: /usr/core/src/www/interfaces.php, line: 2622
 msgid ""
@@ -14543,116 +14686,123 @@ msgid ""
 "colon, hyphen, or period) (omitted for none).%sSome ISPs may require certain "
 "options be or not be sent."
 msgstr ""
+"O valor neste campo é o caminho total absoluto para um ficheiro de "
+"configuração do cliente DHCP. [/[dirname/[.../]]filename[.ext]] %s "
+"Substituição de valores no ficheiro de configuração:  {interface}, {hostname}"
+", {mac_addr_asciiCD}, {mac_addr_hexCD} %s onde C é U(pper) or L(ower) Case, "
+"e D é \" :-.\" Delimimitador (espaço, dois pontos, hífen ou período) ("
+"omitido para nenhum).%s Alguns ISPs podem exigir que certas opções sejam ou "
+"não enviadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2057
 # File: /usr/core/src/www/interfaces.php, line: 2626
 msgid "Configuration File Override"
-msgstr ""
+msgstr "Substituição do ficheiro de configuração"
 
 # File: /usr/core/src/www/interfaces.php, line: 2621
 msgid "expire"
-msgstr ""
+msgstr "expira"
 
 # File: /usr/core/src/www/interfaces.php, line: 2619
 msgid "secret"
-msgstr ""
+msgstr "secret"
 
 # File: /usr/core/src/www/interfaces.php, line: 2617
 msgid "keyid"
-msgstr ""
+msgstr "keyid"
 
 # File: /usr/core/src/www/interfaces.php, line: 2614
 msgid "realm"
-msgstr ""
+msgstr "realm"
 
 # File: /usr/core/src/www/interfaces.php, line: 2612
 msgid "keyname"
-msgstr ""
+msgstr "nome da chave"
 
 # File: /usr/core/src/www/interfaces.php, line: 2610
 msgid "Keyinfo"
-msgstr ""
+msgstr "informação da chave"
 
 # File: /usr/core/src/www/interfaces.php, line: 2605
 msgid "rdm"
-msgstr ""
+msgstr "rdm"
 
 # File: /usr/core/src/www/interfaces.php, line: 2603
 msgid "algorithm"
-msgstr ""
+msgstr "algoritmo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2601
 msgid "protocol"
-msgstr ""
+msgstr "protocolo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2599
 msgid "authname"
-msgstr ""
+msgstr "authname"
 
 # File: /usr/core/src/www/interfaces.php, line: 2597
 # File: /usr/core/src/www/interfaces.php, line: 3120
 # File: /usr/core/src/www/system_authservers.php, line: 634
 # File: /usr/core/src/www/vpn_ipsec.php, line: 336
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticação"
 
 # File: /usr/core/src/www/interfaces.php, line: 2592
 msgid "sla-len"
-msgstr ""
+msgstr "sla-len"
 
 # File: /usr/core/src/www/interfaces.php, line: 2590
 msgid "sla-id"
-msgstr ""
+msgstr "sla-id"
 
 # File: /usr/core/src/www/interfaces.php, line: 2589
 msgid "Prefix Interface "
-msgstr ""
+msgstr "Interface do prefixo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2587
 msgid "Prefix Interface"
-msgstr ""
+msgstr "Interface do prefixo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2577
 msgid "ipv6-prefix"
-msgstr ""
+msgstr "prefixo ipv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2576
 msgid "Prefix"
-msgstr ""
+msgstr "Prefixo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2572
 msgid "id-assoc pd"
-msgstr ""
+msgstr "id-assoc pd"
 
 # File: /usr/core/src/www/interfaces.php, line: 2570
 msgid "Prefix Delegation"
-msgstr ""
+msgstr "Delegação do prefixo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2565
 # File: /usr/core/src/www/interfaces.php, line: 2581
 msgid "vltime"
-msgstr ""
+msgstr "vltime"
 
 # File: /usr/core/src/www/interfaces.php, line: 2563
 # File: /usr/core/src/www/interfaces.php, line: 2579
 msgid "pltime"
-msgstr ""
+msgstr "pltime"
 
 # File: /usr/core/src/www/interfaces.php, line: 2561
 msgid "ipv6-address"
-msgstr ""
+msgstr "endereço ipv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2556
 msgid "id-assoc na"
-msgstr ""
+msgstr "id-assoc na"
 
 # File: /usr/core/src/www/interfaces.php, line: 2554
 msgid "Non-Temporary Address Allocation"
-msgstr ""
+msgstr "Atribuição de endereço não temporário"
 
 # File: /usr/core/src/www/interfaces.php, line: 2551
 msgid "Identity Association"
-msgstr ""
+msgstr "Associação de Identidade"
 
 # File: /usr/core/src/www/interfaces.php, line: 2537
 msgid ""
@@ -14660,10 +14810,13 @@ msgid ""
 "conditions including when a reply message is received. <br "
 "/>[/[dirname/[.../]]filename[.ext]] "
 msgstr ""
+"O valor neste campo é o caminho absoluto para um script invocado em "
+"determinadas condições, incluindo quando uma mensagem de resposta é "
+"recebida. <br />[/[dirname/[.../]]filename[.ext]]"
 
 # File: /usr/core/src/www/interfaces.php, line: 2543
 msgid "Script"
-msgstr ""
+msgstr "Script"
 
 # File: /usr/core/src/www/interfaces.php, line: 2538
 msgid ""
@@ -14671,6 +14824,9 @@ msgid ""
 "a DHCP lease.  [option [, ...]] <br />Some DHCP services may require certain "
 "options be or not be requested. "
 msgstr ""
+"O valor neste campo são opções do pedido DHCP a serem enviados quando "
+"solicitado um lease do DHCP. <br /> Alguns serviços DHCP podem requerer que "
+"determinadas opções sejam ou não solicitadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2519
 msgid ""
@@ -14681,10 +14837,16 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent. "
 msgstr ""
+"O valor neste campo são opções de envio DHCP a serem enviadas ao solicitar "
+"um lease DHCP. [option declaration [, ...]] <br /> Substituição de valores: "
+"{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br /> onde C "
+"é U(pper) or L(ower) Case, e D é \" :-.\" Delimitador (space, colon, hyphen, "
+"or period) (omitted for none). <br />Alguns serviços DHCP podem exigir que "
+"determinadas opções sejam ou não enviadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2512
 msgid "source: FreeBSD man page"
-msgstr ""
+msgstr "Fonte: FreeBSD man page"
 
 # File: /usr/core/src/www/interfaces.php, line: 2507
 msgid ""
@@ -14694,137 +14856,155 @@ msgid ""
 "does not need stateful configuration parameters such as IPv6 addresses or  "
 "prefixes."
 msgstr ""
+"Esta instrução especifica dhcp6c para trocar somente parâmetros de "
+"configuração informativas com servidores. Uma lista de endereços de "
+"servidores DNS é um exemplo desses parâmetros. Essa instrução é útil quando "
+"o cliente não precisa de parâmetros de configuração com status, tal como "
+"endereços IPv6 ou prefixos."
 
 # File: /usr/core/src/www/interfaces.php, line: 2514
 msgid "Information Only"
-msgstr ""
+msgstr "Apenas informação"
 
 # File: /usr/core/src/www/interfaces.php, line: 2511
 msgid "Interface Statement"
-msgstr ""
+msgstr "Interface Statement"
 
 # File: /usr/core/src/www/interfaces.php, line: 2506
 msgid ""
 "Send an IPv6 prefix hint to indicate the desired prefix size for delegation"
 msgstr ""
+"Envie uma sugestão de prefixo IPv6 para indicar o tamanho do prefixo "
+"desejado para delegação."
 
 # File: /usr/core/src/www/interfaces.php, line: 2502
 msgid "Send IPv6 prefix hint"
-msgstr ""
+msgstr "Enviar sugestão de prefixo IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2497
 msgid ""
 "The value in this field is the delegated prefix length provided by the "
 "DHCPv6 server. Normally specified by the ISP."
 msgstr ""
+"O valor neste campo é o comprimento de prefixo delegado, fornecido pelo "
+"servidor DHCPv6. Normalmente especificado pelo ISP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2485
 msgid "DHCPv6 Prefix Delegation size"
-msgstr ""
+msgstr "Tamanho da delegação do prefixo DHCPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2480
 msgid ""
 "In case the ISP requires a SOLICIT message for authentication, select this "
 "option to prevent indefinite waiting for a router advertisement."
 msgstr ""
+"Caso o ISP exija uma mensagem SOLICIT para autenticação, selecione esta "
+"opção para evitar a espera indefinida de um anúncio ao router."
 
 # File: /usr/core/src/www/interfaces.php, line: 2476
 msgid "Directly send SOLICIT"
-msgstr ""
+msgstr "Enviar diretamente SOLICIT"
 
 # File: /usr/core/src/www/interfaces.php, line: 2471
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
-msgstr ""
+msgstr "Apenas solicite um prefixo IPv6, não solicite um endereço IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2467
 msgid "Request only a IPv6 prefix"
-msgstr ""
+msgstr "Solicite apenas a prefixo IPv6."
 
 # File: /usr/core/src/www/interfaces.php, line: 2462
 msgid "Request a IPv6 prefix/information through the IPv4 connectivity link"
-msgstr ""
+msgstr "Pedir um prefixo IPv6/informações através do link de conectividade IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 2458
 msgid "Use IPv4 connectivity"
-msgstr ""
+msgstr "Usar conectividade IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 2453
 msgid "Enable debug mode for DHCPv6 client"
-msgstr ""
+msgstr "Ativar o modo debug para cliente DHCPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2449
 msgid "Enable debug"
-msgstr ""
+msgstr "Ativar debug"
 
 # File: /usr/core/src/www/interfaces.php, line: 2420
 msgid "DHCPv6 client configuration"
-msgstr ""
+msgstr "Configuração do cliente DHCPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 2391
 msgid "Gateway IPv6:"
-msgstr ""
+msgstr "Gateway IPv6:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2387
 msgid "Gateway Name IPv6:"
-msgstr ""
+msgstr "Nome da Gateway IPv6:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2383
 msgid "Default v6 gateway:"
-msgstr ""
+msgstr "Gataway V6 pré-sefinida:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2378
 msgid "Add new v6 gateway:"
-msgstr ""
+msgstr "Adicionar nova gateway V6:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2350
 msgid "IPv6 Upstream Gateway"
-msgstr ""
+msgstr "IPv6 Upstream Gateway"
 
 # File: /usr/core/src/www/interfaces.php, line: 2322
 msgid "Static IPv6 configuration"
-msgstr ""
+msgstr "Configuração IPv6 estática"
 
 # File: /usr/core/src/www/interfaces.php, line: 2308
 msgid "%sClick here%s for advanced PPTP and L2TP configuration options."
 msgstr ""
+"%sClique aqui%s para opções avançadas PPTP e opções de configuração L2TP."
 
 # File: /usr/core/src/www/interfaces.php, line: 2306
 msgid ""
 "%sClick here%s for additional PPTP and L2TP configuration options. Save "
 "first if you made changes."
 msgstr ""
+"%sClique aqui%s para PPTP adicional e  opções de configuração L2TP. Guarde "
+"primeiro se efetuou alterações. "
 
 # File: /usr/core/src/www/interfaces.php, line: 2281
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 115
 msgid "Remote IP address"
-msgstr ""
+msgstr "Endereço IP Remoto"
 
 # File: /usr/core/src/www/interfaces.php, line: 2260
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 115
 msgid "Local IP address"
-msgstr ""
+msgstr "Endereço Local IP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2243
 msgid "PPTP/L2TP configuration"
-msgstr ""
+msgstr "Configuração PPTP/L2TP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2229
 msgid ""
 "%sClick here%s for advanced PPPoE configuration options and MLPPP "
 "configuration."
 msgstr ""
+"%sClique aqui%s para opções de configurações avançadas PPPoE e configurações "
+"MLPPP."
 
 # File: /usr/core/src/www/interfaces.php, line: 2225
 msgid ""
 "%sClick here%s for additional PPPoE configuration options. Save first if you "
 "made changes."
 msgstr ""
+"%sClique aqui%s para opções de configurações adicionais PPPoE. Guarde "
+"primeiro se fez alterações."
 
 # File: /usr/core/src/www/interfaces.php, line: 2222
 msgid "Advanced and MLPPP"
-msgstr ""
+msgstr "Avançado e MLPPP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2217
 # File: /usr/core/src/www/interfaces.php, line: 2299
@@ -14833,12 +15013,15 @@ msgid ""
 "of seconds, the connection is brought down. An idle timeout of zero disables "
 "this feature."
 msgstr ""
+"Se nenhum pacote de saída qualificado for transmitido para o numero "
+"especificado em segundos a ligação será desativada. Um tempo limite de "
+"inatividade de zero desativa este recurso."
 
 # File: /usr/core/src/www/interfaces.php, line: 2213
 # File: /usr/core/src/www/interfaces.php, line: 2297
 # File: /usr/lang/src/controllers.php, line: 273
 msgid "Idle timeout"
-msgstr ""
+msgstr "Tempo limite de inatividade"
 
 # File: /usr/core/src/www/interfaces.php, line: 2208
 # File: /usr/core/src/www/interfaces.php, line: 2292
@@ -14848,70 +15031,74 @@ msgid ""
 "but the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"Esta opção faz com que a interface opere no modo dial-on-demand, permitindo "
+"que tenha uma ligação 'virtual em tempo integral'. A interface é "
+"configurada, mas a ligação real do link é atrasada até que o tráfego de "
+"saída qualificado seja detectado."
 
 # File: /usr/core/src/www/interfaces.php, line: 2206
 # File: /usr/core/src/www/interfaces.php, line: 2290
 msgid "Enable Dial-On-Demand mode"
-msgstr ""
+msgstr "Ativar o modo Dial-On-Demand"
 
 # File: /usr/core/src/www/interfaces.php, line: 2198
 msgid "Hint: this field can usually be left empty"
-msgstr ""
+msgstr "Sugestão: Este campo geralmente pode ser deixado em branco"
 
 # File: /usr/core/src/www/interfaces.php, line: 2194
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 541
 msgid "Service name"
-msgstr ""
+msgstr "Nome do Serviço"
 
 # File: /usr/core/src/www/interfaces.php, line: 2177
 msgid "PPPoE configuration"
-msgstr ""
+msgstr "Configuração PPPoE"
 
 # File: /usr/core/src/www/interfaces.php, line: 2163
 msgid "%sClick here%s to create a PPP configuration."
-msgstr ""
+msgstr "%sClique aqui%s para criar uma configuração PPP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2161
 msgid "%sClick here%s to edit PPP configuration."
-msgstr ""
+msgstr "%sClique aqui%s para editar uma configuração PPP "
 
 # File: /usr/core/src/www/interfaces.php, line: 2158
 msgid "Advanced PPP"
-msgstr ""
+msgstr "PPP avançado"
 
 # File: /usr/core/src/www/interfaces.php, line: 2132
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 535
 msgid "Access Point Name (APN)"
-msgstr ""
+msgstr "(APN) Nome do ponto de acesso"
 
 # File: /usr/core/src/www/interfaces.php, line: 2109
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 509
 msgid "Select to fill in data for your service provider."
-msgstr ""
+msgstr "Selecione para preencher os dados do seu provedor de serviços."
 
 # File: /usr/core/src/www/interfaces.php, line: 2100
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 500
 msgid "Plan:"
-msgstr ""
+msgstr "Plano"
 
 # File: /usr/core/src/www/interfaces.php, line: 2092
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 492
 msgid "Provider:"
-msgstr ""
+msgstr "Provedor:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2084
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 484
 msgid "Country:"
-msgstr ""
+msgstr "País:"
 
 # File: /usr/core/src/www/interfaces.php, line: 2080
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 480
 msgid "Service Provider"
-msgstr ""
+msgstr "Provedor de Serviço"
 
 # File: /usr/core/src/www/interfaces.php, line: 2075
 msgid "PPP configuration"
-msgstr ""
+msgstr "Configuração PPP"
 
 # File: /usr/core/src/www/interfaces.php, line: 2053
 msgid ""
@@ -14922,11 +15109,18 @@ msgid ""
 "Delimiter (space, colon, hyphen, or period) (omitted for none). <br />Some "
 "ISPs may require certain options be or not be sent."
 msgstr ""
+"O valor neste campo é o caminho completo absoluto para um ficheiro de "
+"configuração do cliente DHCP [/[dirname/[.../]]filename[.ext]] <br /> "
+"Substituições do valor no ficheiro de configuração: {interface}, {hostname}, "
+"{mac_addr_asciiCD}, {mac_addr_hexCD} <br />Onde C é U(pper) or L(ower) Case, "
+"and D is \" :-.\" Delimitador (space, colon, hyphen, or period) (omitted for "
+"none). <br /> Alguns ISPs podem exigir que certas opções sejam ou não "
+"enviadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2044
 # File: /usr/core/src/www/interfaces.php, line: 2057
 msgid "FreeBSD manual"
-msgstr ""
+msgstr "Manual FreeBSD"
 
 # File: /usr/core/src/www/interfaces.php, line: 2051
 msgid ""
@@ -14934,20 +15128,25 @@ msgid ""
 "lease. [modifier option declaration [, ...]] <br />modifiers: (default, "
 "supersede, prepend, append)"
 msgstr ""
+"Os valores neste campo são modificadores da opção DHCP aplicados ao lease "
+"DHCP obtido.  [modifier option declaration [, ...]]  <br /> modificadores: ("
+"default, supersede, prepend, append)"
 
 # File: /usr/core/src/www/interfaces.php, line: 2047
 msgid "Option Modifiers"
-msgstr ""
+msgstr "Opção dos Modificadores "
 
 # File: /usr/core/src/www/interfaces.php, line: 2042
 msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease. [option [, ...]]"
 msgstr ""
+"Os valores neste campo são opções exigidas do DHCP  pelo cliente quando "
+"solicitando um lease DHCP. [Opção [, ...]]"
 
 # File: /usr/core/src/www/interfaces.php, line: 2039
 msgid "Require Options"
-msgstr ""
+msgstr "Opções Requeridas"
 
 # File: /usr/core/src/www/interfaces.php, line: 2035
 msgid ""
@@ -14955,11 +15154,14 @@ msgid ""
 "DHCP lease. [option [, ...]] <br />Some ISPs may require certain options be "
 "or not be requested."
 msgstr ""
+"Os valores neste campo são opções 55 do DHCP para ser enviadas ao solicitar "
+"um lease DHCP.  [option [, ...]] <br /> Alguns ISPs podem exigir que certas "
+"opções sejam ou não solicitadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2032
 # File: /usr/core/src/www/interfaces.php, line: 2535
 msgid "Request Options"
-msgstr ""
+msgstr "Opções requeridas"
 
 # File: /usr/core/src/www/interfaces.php, line: 2026
 msgid ""
@@ -14970,100 +15172,116 @@ msgid ""
 "omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent."
 msgstr ""
+"Os valores neste campo são opções DHCP a serem enviadas ao solicitar um "
+"lease DHC  [option declaration [, ...]] <br /> Substituições do "
+"valor:{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"Onde C é U(pper) or L(ower) Case, and D is \" :-.\" Delimitador (space, "
+"colon, hyphen, or period) (omitted for none). <br /> Alguns ISPs podem "
+"exigir que certas opções sejam ou não enviadas."
 
 # File: /usr/core/src/www/interfaces.php, line: 2023
 # File: /usr/core/src/www/interfaces.php, line: 2525
 msgid "Send Options"
-msgstr ""
+msgstr "Opções de envio"
 
 # File: /usr/core/src/www/interfaces.php, line: 2020
 msgid ""
 "More detailed information about lease requirements and requests can be found "
 "in the %sFreeBSD Manual%s."
 msgstr ""
+"Informações mais detalhadas sobre os requisitos e solicitações de locação "
+"podem ser encontrados no %sFreeBSD Manual%s."
 
 # File: /usr/core/src/www/interfaces.php, line: 2017
 msgid "Lease Requirements"
-msgstr ""
+msgstr "Requisitos do lease"
 
 # File: /usr/core/src/www/interfaces.php, line: 2012
 msgid ""
 "The values in these fields are DHCP %sprotocol timings%s used when "
 "requesting a lease."
 msgstr ""
+"Os valores nesses campos são DHCP%sprotocol timings%s usados ao solicitar um "
+"lease."
 
 # File: /usr/core/src/www/interfaces.php, line: 2008
 msgid "Saved Cfg"
-msgstr ""
+msgstr "Guardar Cfg"
 
 # File: /usr/core/src/www/interfaces.php, line: 2005
 msgid "OPNsense Default"
-msgstr ""
+msgstr "OPNsense Default"
 
 # File: /usr/core/src/www/interfaces.php, line: 2002
 # File: /usr/core/src/www/status_upnp.php, line: 102
 msgid "Clear"
-msgstr ""
+msgstr "Apagar"
 
 # File: /usr/core/src/www/interfaces.php, line: 1999
 msgid "FreeBSD Default"
-msgstr ""
+msgstr "Padrão do FreeBSD"
 
 # File: /usr/core/src/www/interfaces.php, line: 1996
 msgid "Presets:"
-msgstr ""
+msgstr "Presets:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1994
 msgid "Initial Interval"
-msgstr ""
+msgstr "Intervalo Iniciais"
 
 # File: /usr/core/src/www/interfaces.php, line: 1993
 msgid "Backoff Cutoff"
-msgstr ""
+msgstr "Backoff Cutoff"
 
 # File: /usr/core/src/www/interfaces.php, line: 1991
 msgid "Select Timeout"
-msgstr ""
+msgstr "Tempo limite de seleção"
 
 # File: /usr/core/src/www/interfaces.php, line: 1990
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 280
 msgid "Retry"
-msgstr ""
+msgstr "Retry"
 
 # File: /usr/core/src/www/interfaces.php, line: 1989
 # File: /usr/core/src/www/load_balancer_setting.php, line: 126
 msgid "Timeout"
-msgstr ""
+msgstr "Tempo limite"
 
 # File: /usr/core/src/www/interfaces.php, line: 1987
 msgid "Protocol Timing"
-msgstr ""
+msgstr "Timing Protocolo "
 
 # File: /usr/core/src/www/interfaces.php, line: 1982
 msgid ""
 "This is useful for rejecting leases from cable modems that offer private IPs "
 "when they lose upstream sync."
 msgstr ""
+"Útil para rejeitar leases de modems por cabo que oferecem IPs privados "
+"quando perdem a sincronização upstream."
 
 # File: /usr/core/src/www/interfaces.php, line: 1981
 msgid ""
 "If there is a certain upstream DHCP server that should be ignored, place the "
 "IP address or subnet of the DHCP server to be ignored here."
 msgstr ""
+"Se houver um determinado servidor DHCP upstream que deva ser ignorado, "
+"coloque aqui o endereço IP ou sub-rede do servidor DHCP para ser ignorado."
 
 # File: /usr/core/src/www/interfaces.php, line: 1977
 msgid "Reject Leases From"
-msgstr ""
+msgstr "Rejeitar leases de "
 
 # File: /usr/core/src/www/interfaces.php, line: 1971
 msgid ""
 "The value in this field is used as a fixed alias IPv4 address by the DHCP "
 "client."
 msgstr ""
+"O valor neste campo é usado como um alias fixo de endereço IPv4 pelo cliente "
+"DHCP."
 
 # File: /usr/core/src/www/interfaces.php, line: 1950
 msgid "Alias IPv4 address"
-msgstr ""
+msgstr "Endereço IPv4 Alias"
 
 # File: /usr/core/src/www/interfaces.php, line: 1943
 msgid ""
@@ -15071,30 +15289,33 @@ msgid ""
 "when requesting a DHCP lease. Some ISPs may require this (for client "
 "identification)."
 msgstr ""
+"O valor neste campo é enviado como o identificador do cliente DHCP e ao "
+"hostname quando solicita uma concessão DHCP. Alguns ISPs podem exigir isso ("
+"para identificação do cliente)"
 
 # File: /usr/core/src/www/interfaces.php, line: 1928
 # File: /usr/core/src/www/interfaces.php, line: 2438
 msgid "Config File Override"
-msgstr ""
+msgstr "Substituição de ficheiros de configuração"
 
 # File: /usr/core/src/www/interfaces.php, line: 1920
 # File: /usr/core/src/www/interfaces.php, line: 2430
 msgid "Basic"
-msgstr ""
+msgstr "Basic"
 
 # File: /usr/core/src/www/interfaces.php, line: 1910
 msgid "DHCP client configuration"
-msgstr ""
+msgstr "Configuração do cliente DHCP"
 
 # File: /usr/core/src/www/interfaces.php, line: 1896
 # File: /usr/core/src/www/interfaces.php, line: 2371
 msgid "You can manage Gateways %shere%s."
-msgstr ""
+msgstr "Pode gerir as Gateways %saqui%s."
 
 # File: /usr/core/src/www/interfaces.php, line: 1895
 # File: /usr/core/src/www/interfaces.php, line: 2370
 msgid "On local LANs the upstream gateway should be \"none\"."
-msgstr ""
+msgstr "Nas LANs locais a gateway de upstream deverá ser \"nenhuma\"."
 
 # File: /usr/core/src/www/interfaces.php, line: 1894
 # File: /usr/core/src/www/interfaces.php, line: 2369
@@ -15102,45 +15323,47 @@ msgid ""
 "If this interface is an Internet connection, select an existing Gateway from "
 "the list or add a new one using the link above."
 msgstr ""
+"Se o interface é uma ligação á Internet, selecione uma gateway existente da "
+"lista ou adicione uma nova usando o link acima."
 
 # File: /usr/core/src/www/interfaces.php, line: 1885
 # File: /usr/core/src/www/interfaces.php, line: 2401
 msgid "Save Gateway"
-msgstr ""
+msgstr "Guardar Gateway"
 
 # File: /usr/core/src/www/interfaces.php, line: 1878
 # File: /usr/core/src/www/interfaces.php, line: 2395
 msgid "Description:"
-msgstr ""
+msgstr "Descrição:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1874
 msgid "Gateway IPv4:"
-msgstr ""
+msgstr "Gateway IPv4:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1870
 msgid "Gateway Name:"
-msgstr ""
+msgstr "Nome da Gateway:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1866
 msgid "Default gateway:"
-msgstr ""
+msgstr "Default gateway:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1863
 msgid "Add new gateway"
-msgstr ""
+msgstr "Adicionar uma nova gateway"
 
 # File: /usr/core/src/www/interfaces.php, line: 1857
 # File: /usr/core/src/www/interfaces.php, line: 2367
 msgid "Add a new one."
-msgstr ""
+msgstr "Adicionar uma nova."
 
 # File: /usr/core/src/www/interfaces.php, line: 1840
 msgid "IPv4 Upstream Gateway"
-msgstr ""
+msgstr "IPv4 Upstream Gateway"
 
 # File: /usr/core/src/www/interfaces.php, line: 1813
 msgid "Static IPv4 configuration"
-msgstr ""
+msgstr "Configuração estática IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 1797
 msgid ""
@@ -15149,50 +15372,63 @@ msgid ""
 "speed) unless the port this interface connects to has its speed and duplex "
 "forced."
 msgstr ""
+"Pode definir aqui explicitamente o modo de velocidade e duplex para esta "
+"interface. AVISO: DEVE deixar este conjunto para autoselect (negociar "
+"automaticamente a velocidade) a menos que a porta a que esta interface se "
+"liga tenha a sua velocidade e duplex forçada."
 
 # File: /usr/core/src/www/interfaces.php, line: 1787
 msgid "Default (no preference, typically autoselect)"
-msgstr ""
+msgstr "Pré-definido (Sem preferências, tipicamente autoselect)"
 
 # File: /usr/core/src/www/interfaces.php, line: 1784
 msgid "Speed and duplex"
-msgstr ""
+msgstr "Velocidade e duplex"
 
 # File: /usr/core/src/www/interfaces.php, line: 1775
 msgid ""
 "If you enter a value in this field, then MSS clamping for TCP connections to "
 "the value entered above minus 40 (TCP/IP header size) will be in effect."
 msgstr ""
+"Se introduzir um valor neste campo, então o MSS clamping para ligações TCP "
+"para o valor inserido acima menos 40 (tamnho do cabeçalho TCP/IP) entrar em "
+"vigor."
 
 # File: /usr/core/src/www/interfaces.php, line: 1771
 msgid "MSS"
-msgstr ""
+msgstr "MSS"
 
 # File: /usr/core/src/www/interfaces.php, line: 1765
 msgid ""
 "If you leave this field blank, the adapter's default MTU will be used. This "
 "is typically 1500 bytes but can vary in some circumstances."
 msgstr ""
+"Se deixar este campo em branco, o adaptador pré-definido MTU será usado. "
+"Geralmente são 1500 bytes mas pode variar em algumas circunstâncias."
 
 # File: /usr/core/src/www/interfaces.php, line: 1761
 msgid "calculated ppp mtu :"
-msgstr ""
+msgstr "ppp mtu calculado:"
 
 # File: /usr/core/src/www/interfaces.php, line: 1751
 msgid ""
 "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx or leave "
 "blank."
 msgstr ""
+"Introduza o endereço MAC no seguinte formato:  xx:xx:xx:xx:xx:xx ou deixe em "
+"branco."
 
 # File: /usr/core/src/www/interfaces.php, line: 1749
 msgid ""
 "This field can be used to modify (\"spoof\") the MAC address of this "
 "interface. This may be required with some cable connections."
 msgstr ""
+"O campo pode ser usado para modificar(\"spoof\")o endereço MAC do interface. "
+"Pode ser necessário com algumas ligações de cabo."
 
 # File: /usr/core/src/www/interfaces.php, line: 1746
 msgid "Insert my local MAC address"
-msgstr ""
+msgstr "Insira o meu endereço MAC local"
 
 # File: /usr/core/src/www/interfaces.php, line: 1736
 # File: /usr/core/src/www/services_dhcp.php, line: 1140
@@ -15204,50 +15440,52 @@ msgstr ""
 # File: /usr/core/src/www/status_dhcp_leases.php, line: 361
 # File: /usr/core/src/www/status_interfaces.php, line: 259
 msgid "MAC address"
-msgstr ""
+msgstr "Endereço MAC"
 
 # File: /usr/core/src/www/interfaces.php, line: 1727
 msgid "Track Interface"
-msgstr ""
+msgstr "Rastrear interface"
 
 # File: /usr/core/src/www/interfaces.php, line: 1727
 msgid "Static IPv6"
-msgstr ""
+msgstr "IPv6 estático"
 
 # File: /usr/core/src/www/interfaces.php, line: 1727
 msgid "SLAAC"
-msgstr ""
+msgstr "SLAAC"
 
 # File: /usr/core/src/www/interfaces.php, line: 1727
 msgid "6to4 Tunnel"
-msgstr ""
+msgstr "6to4 Tunnel"
 
 # File: /usr/core/src/www/interfaces.php, line: 1727
 msgid "6rd Tunnel"
-msgstr ""
+msgstr "6rd Tunnel"
 
 # File: /usr/core/src/www/interfaces.php, line: 1723
 msgid "IPv6 Configuration Type"
-msgstr ""
+msgstr "Tipo de configuração IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 1714
 msgid "Static IPv4"
-msgstr ""
+msgstr "IPv4 estático"
 
 # File: /usr/core/src/www/interfaces.php, line: 1714
 # File: /usr/core/src/www/status_interfaces.php, line: 176
 msgid "PPP"
-msgstr ""
+msgstr "PPP"
 
 # File: /usr/core/src/www/interfaces.php, line: 1710
 msgid "IPv4 Configuration Type"
-msgstr ""
+msgstr "Tipo de configuração IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 1705
 msgid ""
 "Note: The update frequency can be changed under System->Advanced Firewall/"
 "NAT settings."
 msgstr ""
+"Note: A frequência de atualização pode ser alterada em Sistema-> Firewall "
+"Avançado/ configurações do NAT."
 
 # File: /usr/core/src/www/interfaces.php, line: 1702
 msgid ""
@@ -15255,12 +15493,17 @@ msgid ""
 "and obviously should not appear as the source address in any packets you "
 "receive."
 msgstr ""
+"Bogons são prefixos que nunca devem aparecer na tabela de roteamento da "
+"Internet e, obviamente não devem aparecer como o endereço de origem em "
+"qualquer pacote que recebe."
 
 # File: /usr/core/src/www/interfaces.php, line: 1700
 msgid ""
 "When set, this option blocks traffic from IP addresses that are reserved ("
 "but not RFC 1918) or not yet assigned by IANA."
 msgstr ""
+"Quando definida esta opção, bloqueia o tráfego de endereços IP reservados ("
+"mas não RFC 1918) ou ainda não atribuídos pela IANA."
 
 # File: /usr/core/src/www/interfaces.php, line: 1688
 msgid ""
@@ -15269,171 +15512,186 @@ msgid ""
 "loopback addresses (127/8). This option should only be set for WAN type "
 "interfaces that use public IP address space."
 msgstr ""
+"Quando definida esta opção, bloqueia o tráfego de endereços IP reservados "
+"que são reservados para redes privadas como por RFC 1918 (10/8, 172.16/12, "
+"192.168/16) bem como endereços de loopback (127/8). Esta opção só deve ser "
+"definida para interfaces de tipo WAN, que usam espaço de endereço IP publico."
 
 # File: /usr/core/src/www/interfaces.php, line: 1679
 msgid "Enter a description (name) for the interface here."
-msgstr ""
+msgstr "Introduza aqui a descrição (nome) para o interface."
 
 # File: /usr/core/src/www/interfaces.php, line: 1656
 msgid "Enable Interface"
-msgstr ""
+msgstr "Ativar interface"
 
 # File: /usr/core/src/www/interfaces.php, line: 1643
 # File: /usr/core/src/www/interfaces.php, line: 1670
 msgid "General configuration"
-msgstr ""
+msgstr "Configuração geral"
 
 # File: /usr/core/src/www/interfaces.php, line: 1630
 msgid "The %s configuration has been changed."
-msgstr ""
+msgstr "A configuração %s  foi alterada."
 
 # File: /usr/core/src/www/interfaces.php, line: 1630
 msgid "Don't forget to adjust the DHCP Server range if needed after applying."
 msgstr ""
+"Se for necessário não esqueça de ajustar a gama do servidor de DHCP após "
+"aplicar."
 
 # File: /usr/core/src/www/interfaces.php, line: 924
 msgid "The length of the passphrase should be between 8 and 63 characters."
-msgstr ""
+msgstr "O comprimento da passphrase deve ser entre 8 e 63 caracteres."
 
 # File: /usr/core/src/www/interfaces.php, line: 907
 msgid ""
 "Invalid WEP key size.   Sizes should be 40 (64) bit keys or 104 (128) bit."
 msgstr ""
+"Tamanho da chave WEP inválida. Os tamanho devem ser 40 (64) chaves de bit ou "
+"104 (128) bits."
 
 # File: /usr/core/src/www/interfaces.php, line: 871
 msgid ""
 "Unable to change mode to %s.  You may already have the maximum number of "
 "wireless clones supported in this mode."
 msgstr ""
+"Não é possível alterar o modo para %s. Poderá já ter o número máximo de "
+"clones sem fios suportados neste modo."
 
 # File: /usr/core/src/www/interfaces.php, line: 856
 # File: /usr/core/src/www/interfaces.php, line: 2963
 # File: /usr/core/src/www/status_interfaces.php, line: 369
 # File: /usr/core/src/www/status_wireless.php, line: 97
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 # File: /usr/core/src/www/interfaces.php, line: 846
 msgid "The MSS must be greater than 576 bytes."
-msgstr ""
+msgstr "MSS deve ser maior do que 576 bytes."
 
 # File: /usr/core/src/www/interfaces.php, line: 840
 msgid "Interface %s (VLAN) has MTU set to a bigger value"
-msgstr ""
+msgstr "Interface %s (VLAN) tem MTU definido para um valor maior"
 
 # File: /usr/core/src/www/interfaces.php, line: 822
 msgid "MTU of a vlan should not be bigger than parent interface."
-msgstr ""
+msgstr "MTU de um vlan não deve ser maior do que a interface parent."
 
 # File: /usr/core/src/www/interfaces.php, line: 812
 msgid "The MTU must be greater than 576 bytes and less than 9000."
-msgstr ""
+msgstr "MTU deve ser maior do que  576 bytes e menor que 9000."
 
 # File: /usr/core/src/www/interfaces.php, line: 808
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 136
 # File: /usr/core/src/www/services_wol.php, line: 70
 # File: /usr/core/src/www/services_wol_edit.php, line: 75
 msgid "A valid MAC address must be specified."
-msgstr ""
+msgstr "Um endereço MAC válido deverá ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 802
 msgid "A valid PPTP remote IP address must be specified."
-msgstr ""
+msgstr "Um endereço IP remoto PPTP válido deve ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 799
 msgid "A valid PPTP subnet bit count must be specified."
-msgstr ""
+msgstr "Um contador de bits de sub-rede PPTP válida deve ser especificada."
 
 # File: /usr/core/src/www/interfaces.php, line: 796
 msgid "A valid PPTP local IP address must be specified."
-msgstr ""
+msgstr "Um endereço IP local PPTP válido deve ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 792
 # File: /usr/core/src/www/interfaces.php, line: 805
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 138
 msgid "The idle timeout value must be an integer."
-msgstr ""
+msgstr "O valor do tempo limite de inatividade tem de ser um inteiro."
 
 # File: /usr/core/src/www/interfaces.php, line: 789
 msgid "The service name contains invalid characters."
-msgstr ""
+msgstr "O nome do serviço contem caracteres inválidos. "
 
 # File: /usr/core/src/www/interfaces.php, line: 785
 # File: /usr/core/src/www/system_routes_edit.php, line: 97
 msgid "A valid gateway must be specified."
-msgstr ""
+msgstr "Uma gateway válida deve ser especificada."
 
 # File: /usr/core/src/www/interfaces.php, line: 767
 msgid "A valid alias IP address must be specified to reject DHCP Leases from."
 msgstr ""
+"Um endereço IP de alias válido deve ser especificado para rejeitar lease do "
+"DHCP de."
 
 # File: /usr/core/src/www/interfaces.php, line: 764
 msgid "A valid alias subnet bit count must be specified."
-msgstr ""
+msgstr "Um contador de bits de uma subnet alias deve ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 761
 msgid "A valid alias IP address must be specified."
-msgstr ""
+msgstr "Um endereço IP de alias válido deve ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 755
 # File: /usr/core/src/www/interfaces.php, line: 758
 msgid "A valid subnet bit count must be specified."
-msgstr ""
+msgstr "Uma mascara de rede válida terá de ser identificada."
 
 # File: /usr/core/src/www/interfaces.php, line: 747
 msgid "This IPv6 address conflicts with a Static Route."
-msgstr ""
+msgstr "Endereço IPv6 está em conflito com uma rota estática."
 
 # File: /usr/core/src/www/interfaces.php, line: 741
 msgid "This IPv6 address is being used by another interface or VIP."
-msgstr ""
+msgstr "Este endereço IPv6 está a ser usado por  outro interface ou VIP."
 
 # File: /usr/core/src/www/interfaces.php, line: 738
 # File: /usr/core/src/www/services_dhcpv6_edit.php, line: 101
 msgid "A valid IPv6 address must be specified."
-msgstr ""
+msgstr "Um endereço válido IPv6 terá de ser especificado."
 
 # File: /usr/core/src/www/interfaces.php, line: 729
 msgid "This IPv4 address conflicts with a Static Route."
-msgstr ""
+msgstr "Este endereço IPv4 está em conflito com uma rota estática."
 
 # File: /usr/core/src/www/interfaces.php, line: 722
 msgid "This IPv4 address is the broadcast address and cannot be used"
-msgstr ""
+msgstr "Este endereço IPv4 é o endereço de broadcast e não pode ser usado"
 
 # File: /usr/core/src/www/interfaces.php, line: 720
 msgid "This IPv4 address is the network address and cannot be used"
-msgstr ""
+msgstr "Este endereço IPv4 é o endereço de rede e não pode ser usado"
 
 # File: /usr/core/src/www/interfaces.php, line: 715
 msgid "This IPv4 address is being used by another interface or VIP."
-msgstr ""
+msgstr "Este endereço IPv4 já está a ser usado por outra interface VIP."
 
 # File: /usr/core/src/www/interfaces.php, line: 712
 msgid "A valid IPv4 address must be specified."
-msgstr ""
+msgstr "Um endereço válido IPv4 terá de ser especificado"
 
 # File: /usr/core/src/www/interfaces.php, line: 701
 msgid "You specified an IPv6 prefix ID that is out of range."
-msgstr ""
+msgstr "Especificou um prefixo IPv6 ID que está fora da gama."
 
 # File: /usr/core/src/www/interfaces.php, line: 695
 msgid "You must enter a valid hexadecimal number for the IPv6 prefix ID."
 msgstr ""
+"Tem de introduzir um número hexadecimal válido para a ID do prefixo IPv6."
 
 # File: /usr/core/src/www/interfaces.php, line: 688
 msgid "You can only have one interface configured as 6to4."
-msgstr ""
+msgstr " Só pode ter uma interface configurada como 6para4."
 
 # File: /usr/core/src/www/interfaces.php, line: 679
 msgid "You can only have one interface configured in 6rd with same prefix."
-msgstr ""
+msgstr "Só pode ter uma interface configurada em 6º com o mesmo prefixo."
 
 # File: /usr/core/src/www/interfaces.php, line: 670
 msgid ""
 "This interface is referenced by IPv6 VIPs. Please delete those before "
 "setting the interface to 'none' configuration."
 msgstr ""
+"Esta interface é referenciada por IPv6 VIPs. Por favor exclua as "
+"configurações antes de definir a interface como 'nenhuma' configuração."
 
 # File: /usr/core/src/www/interfaces.php, line: 658
 # File: /usr/core/src/www/interfaces.php, line: 2327
@@ -15442,57 +15700,57 @@ msgstr ""
 # File: /usr/core/src/www/status_dhcpv6_leases.php, line: 431
 # File: /usr/core/src/www/status_interfaces.php, line: 303
 msgid "IPv6 address"
-msgstr ""
+msgstr "Endereço IPv6"
 
 # File: /usr/core/src/www/interfaces.php, line: 647
 # File: /usr/core/src/www/interfaces.php, line: 650
 msgid "L2TP username"
-msgstr ""
+msgstr "Utilizador L2TP"
 
 # File: /usr/core/src/www/interfaces.php, line: 647
 # File: /usr/core/src/www/interfaces.php, line: 650
 msgid "L2TP remote IP address"
-msgstr ""
+msgstr "Endereço IP remoto L2TP"
 
 # File: /usr/core/src/www/interfaces.php, line: 647
 # File: /usr/core/src/www/interfaces.php, line: 650
 msgid "L2TP password"
-msgstr ""
+msgstr "Password L2TP"
 
 # File: /usr/core/src/www/interfaces.php, line: 637
 # File: /usr/core/src/www/interfaces.php, line: 640
 msgid "PPTP username"
-msgstr ""
+msgstr "Utilizador PPTP"
 
 # File: /usr/core/src/www/interfaces.php, line: 637
 # File: /usr/core/src/www/interfaces.php, line: 640
 msgid "PPTP subnet"
-msgstr ""
+msgstr "Subrede PPTP"
 
 # File: /usr/core/src/www/interfaces.php, line: 637
 # File: /usr/core/src/www/interfaces.php, line: 640
 msgid "PPTP remote IP address"
-msgstr ""
+msgstr "Endereço IP remoto PPTP"
 
 # File: /usr/core/src/www/interfaces.php, line: 637
 # File: /usr/core/src/www/interfaces.php, line: 640
 msgid "PPTP password"
-msgstr ""
+msgstr "Password PPTP"
 
 # File: /usr/core/src/www/interfaces.php, line: 637
 # File: /usr/core/src/www/interfaces.php, line: 640
 msgid "PPTP local IP address"
-msgstr ""
+msgstr "Endereço IP local PPTP"
 
 # File: /usr/core/src/www/interfaces.php, line: 627
 # File: /usr/core/src/www/interfaces.php, line: 630
 msgid "PPPoE username"
-msgstr ""
+msgstr "Utilizador PPPoE"
 
 # File: /usr/core/src/www/interfaces.php, line: 627
 # File: /usr/core/src/www/interfaces.php, line: 630
 msgid "PPPoE password"
-msgstr ""
+msgstr "Password PPPoE"
 
 # File: /usr/core/src/www/interfaces.php, line: 627
 # File: /usr/core/src/www/interfaces.php, line: 637
@@ -15500,7 +15758,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 101
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 msgid "Idle timeout value"
-msgstr ""
+msgstr "Valor do tempo limite de inatividade"
 
 # File: /usr/core/src/www/interfaces.php, line: 627
 # File: /usr/core/src/www/interfaces.php, line: 637
@@ -15510,40 +15768,42 @@ msgstr ""
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 101
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 112
 msgid "Dial on demand"
-msgstr ""
+msgstr "Dial on demand"
 
 # File: /usr/core/src/www/interfaces.php, line: 621
 # File: /usr/core/src/www/interfaces.php, line: 2126
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 95
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 526
 msgid "Phone Number"
-msgstr ""
+msgstr "Numero do telefone"
 
 # File: /usr/core/src/www/interfaces.php, line: 621
 # File: /usr/core/src/www/interfaces.php, line: 2138
 msgid "Modem Port"
-msgstr ""
+msgstr "Porta do Modem"
 
 # File: /usr/core/src/www/interfaces.php, line: 613
 msgid "You have to reassign the interface to be able to configure as %s."
-msgstr ""
+msgstr "Tem de reatribuir o interface para poder configurar como%s"
 
 # File: /usr/core/src/www/interfaces.php, line: 607
 msgid ""
 "This interface is referenced by IPv4 VIPs. Please delete those before "
 "setting the interface to 'none' configuration."
 msgstr ""
+"Este interface é referenciado pelo  IPv4 VIPs. Por favor elimine os "
+"parâmetros antes de configurar a interface para a configuração 'none'."
 
 # File: /usr/core/src/www/interfaces.php, line: 600
 # File: /usr/core/src/www/interfaces.php, line: 658
 msgid "Subnet bit count"
-msgstr ""
+msgstr "Subnet bit count"
 
 # File: /usr/core/src/www/interfaces.php, line: 600
 # File: /usr/core/src/www/interfaces.php, line: 1818
 # File: /usr/core/src/www/status_interfaces.php, line: 275
 msgid "IPv4 address"
-msgstr ""
+msgstr "endereço IPv4"
 
 # File: /usr/core/src/www/interfaces.php, line: 594
 msgid ""
@@ -15551,6 +15811,8 @@ msgid ""
 "static IPv6 configuration. Please disable the DHCPv6 Server service on this "
 "interface first, then change the interface configuration."
 msgstr ""
+"O servidor DHCPv6 está ativo neste interface e pode ser usado apenas com uma "
+"configuração estática IPv6."
 
 # File: /usr/core/src/www/interfaces.php, line: 591
 msgid ""
@@ -15558,108 +15820,118 @@ msgid ""
 "static IP configuration. Please disable the DHCP Server service on this "
 "interface first, then change the interface configuration."
 msgstr ""
+"O servidor DHCP está ativo neste interface e pode ser usado apenas com uma "
+"configuração estática IP. Por favor desative primeiro o serviço de  DHCP "
+"Server  neste interface e de seguida altere a configuração do interface."
 
 # File: /usr/core/src/www/interfaces.php, line: 585
 msgid "An interface with the specified description already exists."
-msgstr ""
+msgstr "Um interface com uma descrição especificada já existe."
 
 # File: /usr/core/src/www/interfaces.php, line: 578
 msgid "Sorry, an alias with the name %s already exists."
-msgstr ""
+msgstr "Desculpe, um alias com  o nome %s já existe."
 
 # File: /usr/core/src/www/interfaces.php, line: 511
 msgid "You have already applied your settings!"
-msgstr ""
+msgstr "Já aplicou suas configurações!"
 
 # File: /usr/core/src/www/index.php, line: 384
 msgid "Save to load widget"
-msgstr ""
+msgstr "Guardar para carregar widget"
 
 # File: /usr/core/src/www/index.php, line: 129
 msgid "To bypass the wizard, click on the logo in the upper left corner."
 msgstr ""
+"Para ignorar o assistente, clique no logotipo no canto superior esquerdo."
 
 # File: /usr/core/src/www/index.php, line: 128
 msgid ""
 "Embedded platform users: Please be patient, the wizard takes a little longer "
 "to run than the normal GUI."
 msgstr ""
+"Utilizadores da plataforma incorporada: Por favor, seja paciente, o "
+"assistente demora um pouco mais para executar do que a GUI normal"
 
 # File: /usr/core/src/www/index.php, line: 127
 msgid "One moment while we start the initial setup wizard."
-msgstr ""
+msgstr "Um momento enquanto iniciamos o assistente de configuração inicial."
 
 # File: /usr/core/src/www/index.php, line: 126
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Bem-vindo ao %s!"
 
 # File: /usr/core/src/www/index.php, line: 113
 msgid "Starting initial configuration!"
-msgstr ""
+msgstr "Iniciando a configuração inicial!"
 
 # File: /usr/core/src/www/index.php, line: 85
 msgid "Widget configuration has been changed."
-msgstr ""
+msgstr "Configuração do widget foi alterada."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 606
 msgid "unread notices"
-msgstr ""
+msgstr "Avisos não lidos"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 604
 msgid "unread notice"
-msgstr ""
+msgstr "Aviso não lido"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 591
 msgid "Acknowledge All Notices"
-msgstr ""
+msgstr "Reconhecer todos os Avisos"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 537
 msgid "A problem was detected. Click %shere%s for more information."
-msgstr ""
+msgstr "Um problema foi detetado. Clique %saqui%s para mais informação."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 493
 msgid "Currently viewing: "
-msgstr ""
+msgstr "Visualização atual:"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 300
 msgid "net"
-msgstr ""
+msgstr "net"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 288
 msgid ""
 "You can also <a href=\"status_filter_reload.php\">monitor</a> the filter "
 "reload progress."
 msgstr ""
+"Pode também <a href=\"status_filter_reload.php\">monitorizar</a> o processo "
+"de recarga do filtro."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 281
 msgid "The changes have been applied successfully."
-msgstr ""
+msgstr "As alterações foram aplicadas com sucesso."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 255
 msgid ""
 "The firewall has globally been disabled and configured rules are currently "
 "not enforced. It can be enabled in the %sFirewall/NAT%s settings."
 msgstr ""
+"A firewall foi globalmente desativada e as regras configuradas atualmente "
+"não são aplicadas. Pode ser ativado nas configurações %Firewall%s."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 216
 msgid "Apply changes"
-msgstr ""
+msgstr "Aplicar alterações"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 183
 msgid "The following input errors were detected:"
-msgstr ""
+msgstr "Os seguintes erros de entrada foram detetados:"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 172
 msgid "The field %s is required."
-msgstr ""
+msgstr "O campo %s é obrigatório."
 
 # File: /usr/core/src/www/guiconfig.inc, line: 166
 msgid "The field %s contains invalid characters."
-msgstr ""
+msgstr "O campo %s contém caracteres inválidos.  "
 
 # File: /usr/core/src/www/foot.inc, line: 28
 msgid "Available Widgets"
-msgstr ""
+msgstr "Widgets disponíveis"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 439
 msgid ""
@@ -15667,53 +15939,58 @@ msgid ""
 "Otherwise the lowest combination of both values in the cluster determines "
 "the master."
 msgstr ""
+"A frequência com que esta máquina irá comunicar. 0 geralmente significa "
+"master. Caso contrário, a combinação mais baixa de ambos os valores na "
+"cluster determina o master."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 427
 msgid "Skew"
-msgstr ""
+msgstr "Skew"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 419
 # File: /usr/core/src/www/status_habackup.php, line: 196
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 417
 msgid "Advertising Frequency"
-msgstr ""
+msgstr "Frequência da comunicação"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 412
 msgid "Enter the VHID group that the machines will share."
-msgstr ""
+msgstr "Introduza o grupo VHID que as máquinas irão partilhar."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 402
 msgid "VHID Group"
-msgstr ""
+msgstr "Grupo VHID"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 397
 msgid "Enter the VHID group password."
-msgstr ""
+msgstr "Introduza a password do grupo VHID."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 393
 msgid "Virtual IP Password"
-msgstr ""
+msgstr "Password do IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 389
 msgid ""
 "Disable expansion of this entry into IPs on NAT lists (e.g. 192.168.1.0/24 "
 "expands to 256 entries."
 msgstr ""
+"Desativar expansão desta entrada nos IPs em listas de NAT (e.g. 192.168.1.0/"
+"24 expandidos até 256 entradas)."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 385
 msgid "Expansion"
-msgstr ""
+msgstr "Expansão."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 350
 msgid "Single address"
-msgstr ""
+msgstr "Endereço único"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 342
 msgid "IP Address(es)"
-msgstr ""
+msgstr "Endereço(s) IP"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 321
 msgid ""
@@ -15721,19 +15998,22 @@ msgid ""
 "on the firewall, such as IPsec, OpenVPN, etc. Use a CARP or IP Alias type "
 "address for these cases."
 msgstr ""
+"Proxy ARP e outros tipos IPs virtuais não podem ser vinculados por qualquer "
+"coisa a correr no firewall, tal como IPsec, OpenVPN, etc Use um CARP ou um "
+"tipo de endereço IP Alias para esses casos."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 318
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1257
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 316
 msgid "carp"
-msgstr ""
+msgstr "carp"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 315
 msgid "IP Alias"
-msgstr ""
+msgstr "IP Alias"
 
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 188
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 280
@@ -15753,110 +16033,118 @@ msgstr ""
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 546
 # File: /usr/lang/src/controllers.php, line: 313
 msgid "Mode"
-msgstr ""
+msgstr "Modo"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 305
 msgid "Edit Virtual IP"
-msgstr ""
+msgstr "Editar IP Virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 270
 msgid "This is a CIDR block of proxy ARP addresses."
-msgstr ""
+msgstr "Este é um bloco CIDR de endereços proxy ARP."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 263
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 275
 msgid ""
 "This must be the network's subnet mask. It does not specify a CIDR range."
 msgstr ""
+"Esta deve ser a máscara de subnet da rede. Não é especificado um intervalo "
+"CIDR."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 254
 msgid "Please provide a single IP address."
-msgstr ""
+msgstr "Por favor forneça um único endereço IP."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 161
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 164
 msgid "For this type of vip localhost is not allowed."
-msgstr ""
+msgstr "Para este tipo de vip, localhost não é permitido."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 157
 msgid ""
 "You must specify a CARP password that is shared between the two VHID members."
 msgstr ""
+"Deve especificar uma password CARP que é partilhada entre os dois membros "
+"VHID."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 153
 msgid ""
 "VHID %s is already in use on interface %s. Pick a unique number on this "
 "interface."
 msgstr ""
+"VHID %s já está em uso no interface  %s. Escolha um número exclusivo neste "
+"interface."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 142
 msgid "You cannot use the broadcast address for this VIP"
-msgstr ""
+msgstr "Não pode usar o endereço broadcast para este VIP"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 140
 msgid "You cannot use the network address for this VIP"
-msgstr ""
+msgstr "Não pode usar o endereçode rede para este VIP"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 126
 msgid ""
 "The interface chosen for the VIP has no IPv4 or IPv6 address configured so "
 "it cannot be used as a parent for the VIP."
 msgstr ""
+"O interface escolhido para o VIP não tem endereço IPv4 ou IPv6  configurad, "
+"por isso não pode ser usado como parente par o VIP."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 118
 msgid "This IP address is being used by another interface or VIP."
-msgstr ""
+msgstr "Este endereço IP está a ser usado por outro interface ou VIP."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 111
 # File: /usr/core/src/www/services_dhcp_edit.php, line: 133
 # File: /usr/core/src/www/services_dnsmasq_edit.php, line: 91
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 87
 msgid "A valid IP address must be specified."
-msgstr ""
+msgstr "Deverá especificar um endereço IP válido."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 106
 msgid "Virtual IP mode may not be changed for an existing entry."
-msgstr ""
+msgstr "O modo IP virtual não pode ser alterado para uma entrada existente."
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 349
 msgid "delete selected virtual IPs"
-msgstr ""
+msgstr "Eliminar IPs virtuais selecionados"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 346
 msgid "add new virtual IP"
-msgstr ""
+msgstr "Adicionar novo IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 343
 msgid "move selected virtual IPs to end"
-msgstr ""
+msgstr "Mova IPs virtuais selecionados para o fim"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 329
 msgid "clone virtual IP"
-msgstr ""
+msgstr "Clonar IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 326
 msgid "delete virtual IP"
-msgstr ""
+msgstr "Eliminar IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 323
 msgid "edit virtual IP"
-msgstr ""
+msgstr "Editar IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 320
 msgid "move selected virtual IPs before this entry"
-msgstr ""
+msgstr "Mover IPs virtuais selecionados para antes desta entrada"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 284
 msgid "Virtual IP address"
-msgstr ""
+msgstr "Endereço IP virtual"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 273
 msgid "The VIP configuration has been changed."
-msgstr ""
+msgstr "A configuração VIP foi alterada."
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 236
 msgid "Do you really want to delete the selected Virtual IPs?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar os IPs Virtuais selecionados?"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 216
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 93
@@ -15866,25 +16154,31 @@ msgstr ""
 # File: /usr/core/src/www/services_wol.php, line: 108
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 120
 msgid "Do you really want to delete this entry?"
-msgstr ""
+msgstr "Tem a certeza que pretende apagar esta entrada?"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 110
 msgid ""
 "This entry cannot be deleted because it is still referenced by a CARP IP "
 "with the description"
 msgstr ""
+"Esta entrada não pode sr apagada, porque ainda está referenciado por um IP "
+"CARP com a descrição"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 82
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
 "Gateway."
 msgstr ""
+"Esta entrada não pode sr apagada, porque ainda está referenciado por pelo "
+"menos uma Gateway"
 
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 48
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
 "NAT mapping."
 msgstr ""
+"Esta entrada não pode sr apagada, porque ainda está referenciado por pelo "
+"menos um mapeamento NAT."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 610
 msgid ""
@@ -15892,93 +16186,96 @@ msgid ""
 "predictable values generated by many hosts. This option only applies to "
 "packets that are not fragmented after the optional fragment reassembly."
 msgstr ""
+"Substitui o campo de identificação IP por valores aleatórios para compensar "
+"os valores previsíveis gerados por muitos hosts. Esta opção só se aplica a "
+"pacotes que não são fragmentados após a remontagem opcional de fragmento."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 606
 msgid "Random-id"
-msgstr ""
+msgstr "Random-id"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 601
 msgid "Clears the dont-fragment bit from a matching IP packet."
-msgstr ""
+msgstr "Apaga o bit non-fragment de um pacote IP correspondente."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 597
 msgid "Do not fragment"
-msgstr ""
+msgstr "Não fragmentar"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 592
 msgid "Enforces a minimum TTL for matching IP packets."
-msgstr ""
+msgstr "Aplica um TTL mínimo para correspondência de pacotes IP."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 588
 msgid "Min ttl"
-msgstr ""
+msgstr "Min ttl"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 574
 msgid "reliability"
-msgstr ""
+msgstr "Comfiabilidade"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 571
 msgid "throughput"
-msgstr ""
+msgstr "Taxa de transferência"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 568
 msgid "lowdelay"
-msgstr ""
+msgstr "lowdelay"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 565
 msgid "Do not change"
-msgstr ""
+msgstr "Não alterar"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 561
 msgid "TOS"
-msgstr ""
+msgstr "TOS"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 556
 msgid "Enforces a maximum MSS for matching TCP packets."
-msgstr ""
+msgstr "Aplica um MMS máximo para correspondência de pacotes TCP."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 552
 msgid "Max mss"
-msgstr ""
+msgstr "Max mss"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 549
 msgid "Normalizations"
-msgstr ""
+msgstr "Normalizações "
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 434
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 527
 msgid "To specify a range, use from:to (example 81:85)."
-msgstr ""
+msgstr "Para especificar um intervalo, use de: para (exemplo 81:85)."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 495
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Destination port"
-msgstr ""
+msgstr "Porta de destino"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 285
 msgid "Select interfaces..."
-msgstr ""
+msgstr "Selecione os interfaces..."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 266
 msgid "Edit Firewall scrub rule"
-msgstr ""
+msgstr "Editar regra scrub do Firewall"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 133
 msgid "Please specify a valid number for min ttl (0-255)."
-msgstr ""
+msgstr "Por favor especifique um numero válido para o ttl mínimo (0-255)."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 128
 msgid "Please specify a valid number for max mss."
-msgstr ""
+msgstr "Por favor especifique um numero válido para o máximo  mss."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 124
 msgid "No interface(s) selected."
-msgstr ""
+msgstr "Nenhum interface(s) selecionado."
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 104
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 107
 msgid "%s doesn't appear to be a valid port number, alias or range"
-msgstr ""
+msgstr "%s não aparente ser um numero de porta válido, alias ou gama"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 314
 # File: /usr/core/src/www/services_dyndns.php, line: 134
@@ -15987,7 +16284,7 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 713
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1598
 msgid "enable"
-msgstr ""
+msgstr "ativo"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 314
 # File: /usr/core/src/www/services_dyndns.php, line: 134
@@ -15996,11 +16293,11 @@ msgstr ""
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 713
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1598
 msgid "disable"
-msgstr ""
+msgstr "desativo"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 293
 msgid "Detailed settings"
-msgstr ""
+msgstr "Configurações detalhadas"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 269
 msgid ""
@@ -16009,10 +16306,14 @@ msgid ""
 "only applies to packets that are not fragmented after the optional packet "
 "reassembly."
 msgstr ""
+"Substitui o campo de identificação IP dos pacotes, por valores aleatórios "
+"para compensar os sistemas operativos que usam valores previsíveis. Esta "
+"opção apenas se aplica aos pacotes que são fragmentados após a remontagem "
+"opcional do pacote."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 265
 msgid "IP Random id"
-msgstr ""
+msgstr "IP Random id"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 257
 msgid ""
@@ -16021,10 +16322,14 @@ msgid ""
 "will cause the filter to not drop such packets but instead clear the don't "
 "fragment bit."
 msgstr ""
+"Permite comunicações com hosts que geram pacotes fragmentados com o conjunto "
+"de bits não fragmentado (DF). Linux NFS é conhecido por fazer isso. Esta "
+"ação fará com que o filtro não deixe cair tais pacotes, mas em vez disso "
+"limpa o bit não fragmentado."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 253
 msgid "IP Do-Not-Fragment"
-msgstr ""
+msgstr "IP Do-Not-Fragment"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 246
 msgid ""
@@ -16032,89 +16337,97 @@ msgid ""
 "disabled when you check this. Detailed settings specified below will still "
 "be used."
 msgstr ""
+"Desativar todas as regras de limpeza de interface padrão, o bloqueio de mss "
+"também será desativado quando esta açaõ for verificada. As definições "
+"detalhadas especificadas abaixo continuarão a ser utilizadas"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 242
 msgid "Disable interface scrub"
-msgstr ""
+msgstr "Desativar o interface scrub"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 233
 msgid "General settings"
-msgstr ""
+msgstr "Configurações Gerais"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 1003
 msgid "Day(s)"
-msgstr ""
+msgstr "Dia(s)"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 998
 msgid "Configured Ranges"
-msgstr ""
+msgstr "Intervalos configurados"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 995
 msgid "Schedule repeat"
-msgstr ""
+msgstr "Programar repetição"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 991
 msgid "Clear Selection"
-msgstr ""
+msgstr "Apagar seleção"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 990
 msgid "Add Time"
-msgstr ""
+msgstr "Adicionar hora"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 979
 msgid "Time Range Description"
-msgstr ""
+msgstr "Descrição do intervalo de tempo"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 974
 msgid ""
 "Select the time range for the day(s) selected on the Month(s) above. A full "
 "day is 0:00-23:59."
 msgstr ""
+"Selecione o intervalo de tempo para o(s) dia(s) selecionado(s) no(s) mês(s) "
+"acima. Um dia completo é  0:00-23:59."
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 931
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 1005
 msgid "Stop Time"
-msgstr ""
+msgstr "hora de paragem"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 930
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 1004
 msgid "Start Time"
-msgstr ""
+msgstr "Hora de início"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 921
 msgid ""
 "Click individual date to select that date only. Click the appropriate "
 "weekday Header to select all occurrences of that weekday."
 msgstr ""
+"Clique em data individual para selecionar apenas essa data. Clique no "
+"cabeçalho do dia útil adequado para selecionar todas as ocorrências desse "
+"dia da semana."
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 868
 msgid "Thu"
-msgstr ""
+msgstr "Quinta"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 866
 msgid "Tue"
-msgstr ""
+msgstr "Terça"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 825
 msgid "Month"
-msgstr ""
+msgstr "Segunda"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 809
 msgid ""
 "The name of the alias may only consist of the characters a-z, A-Z and 0-9"
-msgstr ""
+msgstr "Só pode fazer parte do nome do alias  os caracteres a-z, A-Z and 0-9"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 803
 msgid "This schedule is in use so the name may not be modified!"
-msgstr ""
+msgstr "Esta programação está em uso para que o nome não possa ser modificado!"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 796
 msgid "Schedule Name"
-msgstr ""
+msgstr "Nome da tarefa agendada"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 789
 msgid "Schedule information"
-msgstr ""
+msgstr "Informações da tarefa agendada"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 191
 msgid "The schedule must have at least one time range configured."
