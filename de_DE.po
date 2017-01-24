@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-15 08:44+0000\n"
+"POT-Creation-Date: 2017-01-24 15:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3803,6 +3803,9 @@ msgid ""
 "NOTE: The quality graph is averaged over seconds, not intervals, so as the "
 "probe interval is increased the accuracy of the quality graph is decreased."
 msgstr ""
+"HINWEIS: Der Qualitätsgraph ist der Durchschnitt über Sekunden, keine "
+"Intervalle, sodass wenn der Probe-Intervall ansteigt, die Genauigkeit des "
+"Qualitätsgraphen sinkt."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 766
 msgid "How often that an ICMP probe will be sent in seconds. Default is %d."
@@ -5839,6 +5842,10 @@ msgid ""
 "Automatically create outbound NAT rules which assist inbound NAT rules that "
 "direct traffic back out to the same subnet it originated from."
 msgstr ""
+"Erstelle automatisch ausgehende NAT-Regeln, welche Ihren eingehenden NAT-"
+"Regeln helfen, indem diese dafür sorgen, dass der Datenverkehr die Firewall "
+"über das selbe Subnetz verlässt, über das sie ursprünglich auch angekommen "
+"sind."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 312
 msgid "Automatic outbound NAT for Reflection"
@@ -6095,7 +6102,7 @@ msgid "Disable DNS Rebinding Checks"
 msgstr "Deaktiviere DNS-Rebinding-Prüfungen"
 
 msgid "DNS Rebind Check"
-msgstr ""
+msgstr "DNS-Rebind-Prüfung"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 418
 msgid ""
@@ -7230,6 +7237,10 @@ msgid ""
 "amount. The RRSet cache contains the actual RR data. The default is 4 "
 "megabytes."
 msgstr ""
+"Größe des Nachrichtenzwischenspeichers. Der Nachrichtenzwischenspeicher "
+"enthält DNS-rcodes und Prüfergebnisse. Der RRSet-Zwischenspeicher wird "
+"automatisch auf das Doppelte dieser Anzahl gesetzt. Die Standardgröße ist 4 "
+"Megabyte."
 
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 185
 msgid "%s MB"
@@ -10785,6 +10796,9 @@ msgid ""
 "Rules for WAN type interfaces in groups do not contain the reply-to "
 "mechanism upon which Multi-WAN typically relies."
 msgstr ""
+"Regeln für Schnittstellen des WAN-Typs in Schnittstellengruppen enthalten "
+"den Antwort-an-Mechanismus nicht, auf den sich Multi-WAN üblicherweise "
+"verlässt."
 
 msgid "NOTE:"
 msgstr "Hinweis:"
@@ -10865,6 +10879,10 @@ msgid ""
 "a route to the decapsulating host that does not run over the tunnel, as this "
 "would be a loop."
 msgstr ""
+"Für die korrekte Funktionsweise benötigt das GRE-Gerät eine Route zum Ziel, "
+"welche weniger spezifisch ist, als die, über den Tunnel. (Es muss eine Route "
+"zum entpackenden Host geben, die nicht über den Tunnel läuft, da dies eine "
+"Schleife bedeuten würde."
 
 msgid "Route search type"
 msgstr "Routensuchtyp"
@@ -11013,6 +11031,8 @@ msgid ""
 "Parent interface,Local address, Remote tunnel address, Remote tunnel "
 "network, Local tunnel address"
 msgstr ""
+"Übergeordnete Schnittstelle, Lokale Adresse, Ferne Tunneladresse, Fernes "
+"Tunnelnetzwerk, Lokale Tunneladresse"
 
 # File: src/www/interfaces_gif.php, line: 158
 msgid ""
@@ -11072,6 +11092,8 @@ msgstr ""
 msgid ""
 "The interfaces selected here will be removed from default autoedge status."
 msgstr ""
+"Die hier ausgewählten Schnittstellen werden vom standardmäßigen "
+"automatischen Randstatus entfernt."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 565
 msgid ""
@@ -11682,6 +11704,8 @@ msgid ""
 "Note: Any country setting other than \"Default\" will override the "
 "regulatory domain setting"
 msgstr ""
+"Hinweis: Jede Ländereinstellung, welche nicht \"Standard\" ist, wird die "
+"Einstellung regulative Domäne überschreiben"
 
 msgid "Country (listed with country code and regulatory domain)"
 msgstr "Land (gelistet mit Ländercode und regulativer domain)"
@@ -11693,10 +11717,10 @@ msgid ""
 msgstr ""
 
 msgid "Regulatory domain"
-msgstr ""
+msgstr "Regulative Domäne"
 
 msgid "Regulatory settings"
-msgstr ""
+msgstr "Regulative Einstellungen"
 
 msgid ""
 "Note: The antenna numbers do not always match up with the labels on the card."
@@ -11865,7 +11889,7 @@ msgstr "Schlüsselinfo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2587
 msgid "rdm"
-msgstr ""
+msgstr "RDM"
 
 # File: /usr/core/src/www/interfaces.php, line: 2585
 msgid "algorithm"
@@ -11884,11 +11908,11 @@ msgstr "Authentifizierung"
 
 # File: /usr/core/src/www/interfaces.php, line: 2574
 msgid "sla-len"
-msgstr ""
+msgstr "SLA-LEN"
 
 # File: /usr/core/src/www/interfaces.php, line: 2572
 msgid "sla-id"
-msgstr ""
+msgstr "SLA-ID"
 
 msgid "Prefix Interface "
 msgstr "Schnittstellen Präfix"
@@ -11905,7 +11929,7 @@ msgid "Prefix"
 msgstr "Präfix"
 
 msgid "id-assoc pd"
-msgstr ""
+msgstr "ID-ASSOC PD"
 
 msgid "Prefix Delegation"
 msgstr "Präfixdelegation"
@@ -11913,32 +11937,35 @@ msgstr "Präfixdelegation"
 # File: /usr/core/src/www/interfaces.php, line: 2547
 # File: /usr/core/src/www/interfaces.php, line: 2563
 msgid "vltime"
-msgstr ""
+msgstr "VL-Zeit"
 
 # File: /usr/core/src/www/interfaces.php, line: 2545
 # File: /usr/core/src/www/interfaces.php, line: 2561
 msgid "pltime"
-msgstr ""
+msgstr "PL-Zeit"
 
 # File: /usr/core/src/www/interfaces.php, line: 2543
 msgid "ipv6-address"
 msgstr "IPv6-Adresse"
 
 msgid "id-assoc na"
-msgstr ""
+msgstr "ID-ASSOC NA"
 
 msgid "Non-Temporary Address Allocation"
 msgstr "Nicht-temporäre Adresszuweisung"
 
 # File: src/www/interfaces.php, line: 2629
 msgid "Identity Association"
-msgstr ""
+msgstr "Identitätszuweisung"
 
 # File: /usr/core/src/www/interfaces.php, line: 2546
 msgid ""
 "The value in this field is the absolute path to a script invoked on certain "
 "conditions including when a reply message is received."
 msgstr ""
+"Der Wert in diesem Feld ist der absolute Pfad zu einem Skript, welches "
+"gestartet wird, wenn bestimmte Bedingungen, inklusive wenn eine "
+"Antwortnachricht erhalten wird, erfüllt sind."
 
 msgid "Script"
 msgstr "Skript"
@@ -11961,7 +11988,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 2521
 msgid "Source: FreeBSD man page"
-msgstr ""
+msgstr "Quelle: FreeBSD man-Seite"
 
 # File: /usr/core/src/www/interfaces.php, line: 2516
 msgid ""
@@ -11970,6 +11997,11 @@ msgid ""
 "such parameters. This statement is useful when the client does not need "
 "stateful configuration parameters such as IPv6 addresses or prefixes."
 msgstr ""
+"Dieses Statement gibt an, ob dhcp6c nur informative Einstellungsparameter "
+"mit den Servern austauscht. Ein Beispiel für einen solchen Parameter ist "
+"eine Liste von DNS-Serveradressen. Dieses Statement ist nützlich, wenn der "
+"Client keine statusabhängigen Einstellungsparameter wie IPv6-Adressen und -"
+"Präfixe benötigt."
 
 msgid "Information Only"
 msgstr "Nur Information"
@@ -12003,6 +12035,9 @@ msgid ""
 "In case the ISP requires a SOLICIT message for authentication, select this "
 "option to prevent indefinite waiting for a router advertisement."
 msgstr ""
+"Für den Fall, dass ein ISP eine SOLICIT-Nachricht zur Authentifizierung "
+"verlangt, wählen Sie diese Option, um zu verhindern, dass ewig auf ein "
+"Router Advertisement gewartet wird."
 
 # File: /usr/core/src/www/interfaces.php, line: 2467
 msgid "Directly send SOLICIT"
@@ -12047,7 +12082,7 @@ msgid "Add new v6 gateway:"
 msgstr "Neues v6 Gateway hinzufügen"
 
 msgid "IPv6 Upstream Gateway"
-msgstr ""
+msgstr "IPv6 Upstream-Gateway"
 
 msgid "Static IPv6 configuration"
 msgstr "Statische IPv6 Konfiguration"
@@ -12109,6 +12144,10 @@ msgid ""
 "but the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"Durch diese Option wird die Schnittstelle im Wählen-bei-Bedarf-Modus "
+"versetzt, welcher Ihnen erlaubt, eine Schnittstelle \"virtuell in Vollzeit\" "
+"aktiv zu halten. Die Schnittstelle ist konfiguriert, aber die Verbindung "
+"wird hinausgezögert, bis ausgehender Datenverkehr erkannt wird."
 
 msgid "Enable Dial-On-Demand mode"
 msgstr "Aktiviere Dial-On-Demand"
@@ -12276,6 +12315,9 @@ msgid ""
 "This is useful for rejecting leases from cable modems that offer private IPs "
 "when they lose upstream sync."
 msgstr ""
+"Dies ist für das Ablehnen von Leases von Kabelmodems nützlich, welche "
+"private IP-Adressen verteilen, wenn diese die Upstream-Synchronisation "
+"verlieren."
 
 msgid ""
 "If there is a certain upstream DHCP server that should be ignored, place the "
@@ -16726,7 +16768,7 @@ msgstr "Konfigurationsdatei ist verschlüsselt."
 
 # File: /usr/core/src/www/diag_backup.php, line: 577
 msgid "Reboot after a successful restore."
-msgstr ""
+msgstr "Nach einer erfolgreichen Wiederherstellung neu starten."
 
 msgid "ALL"
 msgstr "ALLE"
@@ -17032,6 +17074,8 @@ msgid ""
 "All virtual IPs have been disabled. Please note that disabling does not "
 "survive a reboot."
 msgstr ""
+"Alle virtuellen IPs wurden deaktiviert. Bitte bedenken Sie, dass die "
+"Deaktivierung keinen Neustart überlebt."
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 62
 msgid "An API exception occured"
@@ -17551,6 +17595,8 @@ msgid ""
 "Local data collection is not enabled at the moment, please configure netflow "
 "first"
 msgstr ""
+"Die lokale Datensammlung ist im Moment nicht aktiv. Bitte konfigurieren Sie "
+"Netflow zuerst"
 
 # File: src/www/vpn_openvpn_export.php, line: 938
 # File: src/www/vpn_openvpn_export_shared.php, line: 475
@@ -17678,7 +17724,7 @@ msgstr "Auf Aktualisierungen prüfen"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 606
 msgid "Audit now"
-msgstr ""
+msgstr "Jetzt auditieren"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
@@ -18173,7 +18219,7 @@ msgstr ""
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 57
 msgid "Could not find the repository on the selected mirror."
-msgstr ""
+msgstr "Konnte das Repository auf dem ausgewählten Spiegelserver nicht finden."
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 54
 msgid "Connection error."
@@ -18657,7 +18703,7 @@ msgstr "SNMP Dienst"
 
 # File: /usr/core/src/etc/inc/plugins.inc, line: 198
 msgid "Synchronize %s settings to backup"
-msgstr ""
+msgstr "Synchronisiere die %s-Einstellungen auf das Backup"
 
 msgid "OpenVPN %s wizard"
 msgstr "OpenVPN %s Assistent"
@@ -19170,7 +19216,7 @@ msgstr "Richte Protokollinformationen ein"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 441
 msgid "Filter is disabled. Not loading rules."
-msgstr ""
+msgstr "Filter ist deaktiviert. Regeln werden nicht geladen."
 
 msgid "Loading filter rules"
 msgstr "Lade Filterregeln"
@@ -19330,7 +19376,7 @@ msgstr "Gemeinsames RADIUS-Geheimnis"
 
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 73
 msgid "Error reconfiguring Tinc"
-msgstr ""
+msgstr "Fehler bei der Neukonfiguration von Tinc"
 
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/controllers/OPNsense/Tinc/IndexController.php, line: 41
 msgid "Tinc VPN"
@@ -19887,7 +19933,7 @@ msgstr "HAProxy-Konfigurationstestergebnisse"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 246
 msgid "HAProxy config contains minor errors"
-msgstr ""
+msgstr "HAProxy-Konfiguration enthält kleine Fehler"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 177
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 206
