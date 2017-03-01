@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-18 12:35+0000\n"
+"POT-Creation-Date: 2017-03-01 06:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,6 +172,13 @@ msgid ""
 "have a firewall rule in place that allows you in, or you will lock yourself "
 "out!)"
 msgstr ""
+"Wenn dies abgehakt ist, wird der Zugang zur Webkonfigurationsoberfläche auf "
+"der %s-Schnittstelle unabhängig vom benutzerdefinierten Firewallregwerk "
+"erlaubt. Durch das anhaken dieser Box wird diese automatisch hinzugefügte "
+"Regel deaktiviert und damit der Zugang zur Webkonfigurationsoberfläche über "
+"benutzerdefinierte Firewallregeln geregelt (stellen Sie sicher, dass Sie "
+"eine Firewallregel haben, die Ihnen Zugang erlaubt, da Sie sich ansonsten "
+"selbst aussperren!)"
 
 msgid "Disable webConfigurator anti-lockout rule"
 msgstr "WebKonfigurator Anti-Aussperr-Regel deaktivieren"
@@ -196,6 +203,12 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option)."
 msgstr ""
+"Wenn dies angehakt is, können Zugangsdaten für die "
+"Webkonfigurationsoberfläche im Browser gespeichert werden. Auch wenn es "
+"gängig ist, verlangen manche Standards, dass dies deaktiviert ist. Haken Sie "
+"diese Box an, um automatische Vervollständigung im Anmeldeformular zu "
+"erlauben, sodass Browser fragen, ob die Zugangsdaten gespeichert werden "
+"sollen (HINWEIS: Manche Browser ignorieren diese Option)."
 
 msgid "Enable webConfigurator login autocomplete"
 msgstr "Webkonfigurator Login Autovervollständigung aktivieren"
@@ -234,6 +247,9 @@ msgid ""
 "ntpd may only use values from the unsynchronized local clock when providing "
 "time to clients."
 msgstr ""
+"um die Uhrenabweichung zu minimieren, wenn die GPS-Daten für eine gewisse "
+"Zeit nicht gültig sind. Ansonsten könnte ntpd nur die Werte von der nicht "
+"synchronisierten lokalen Uhr den Clients zur Verfügung stellen."
 
 msgid "Services > NTP"
 msgstr "Dienste > NTP"
@@ -242,11 +258,15 @@ msgid ""
 "For the best results, NTP should have at least three sources of time. So it "
 "is best to configure at least 2 servers under"
 msgstr ""
+"Für die besten Ergebnisse sollte NTP mindestens drei Zeitquellen haben. "
+"Konfigurieren Sie daher mindestens zwei Server unter"
 
 msgid ""
 "Enter the text between &quot;$&quot; and &quot;*&quot; of a NMEA command "
 "string:"
 msgstr ""
+"Geben Sie den Text zwischen &quot;$&quot; und &quot;*&quot; der NMEA-"
+"Kommandozeichenkette ein:"
 
 msgid "This may be used to change the GPS Clock ID"
 msgstr "Dies kann genutzt werden, um die GPS-Uhren-ID zu ändern"
@@ -2906,7 +2926,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 535
 msgid "Clone phase2"
-msgstr ""
+msgstr "Klone Phase 2"
 
 msgid "General information"
 msgstr "Allgemeine Information"
@@ -3504,6 +3524,10 @@ msgid ""
 "object. Some system object properties can be modified but they cannot be "
 "deleted."
 msgstr ""
+"Zusätzliche Benutzer können hier hinzugefügt werden. Benutzerberechtigungen "
+"für die Weboberfläche oder andere Subsysteme können direkt zugewiesen oder "
+"über Gruppenmitgliedschaften geerbt werden. Manche Systemeigenschaften "
+"können geändert, aber nicht gelöscht werden."
 
 # File: src/www/system_usermanager.php, line: 983
 msgid "import users"
@@ -3931,6 +3955,8 @@ msgid ""
 "Enter the web GUI password of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
+"Geben Sie das GUI-Passwort des oben eingegebenen Systems für die "
+"Synchronisation ein."
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
@@ -3949,6 +3975,8 @@ msgid ""
 "Enter the web GUI username of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
+"Geben Sie den GUI-Benutzernamen des oben eingegebenen Systems für die "
+"Synchronisation ein."
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
@@ -4228,7 +4256,7 @@ msgstr "Design"
 
 # File: /usr/core/src/www/system_general.php, line: 322
 msgid "Choose a language for the web GUI."
-msgstr ""
+msgstr "Wählen Sie eine Sprache für die Weboberfläche aus."
 
 msgid "Select the location closest to you"
 msgstr "Wählen Sie den nächstgelegenen Standort"
@@ -5509,7 +5537,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 277
 msgid "Email auth password"
-msgstr ""
+msgstr "E-Mailauthentifizierungspasswort"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 272
 msgid "Enter the email address username for SMTP authentication."
@@ -5574,6 +5602,8 @@ msgid ""
 "This is the FQDN or IP address of the SMTP Email server to which "
 "notifications will be sent."
 msgstr ""
+"Dies ist der FQDN oder die IP-Adresse des SMTP-E-Mail-Servers an den die "
+"Benachrichtigungen gesendet werden."
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 222
 msgid "Email server"
@@ -5752,7 +5782,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 433
 msgid "Use memory file system for /var"
-msgstr ""
+msgstr "Verwende Speicherdateisystem für /var"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 430
 msgid "/var RAM disk"
@@ -5766,6 +5796,8 @@ msgid ""
 "If the powerd utility can not determine the power state it uses \"normal\" "
 "for control."
 msgstr ""
+"Falls das powerd-Werkzeug den Betriebsstatus nicht feststellen kann, "
+"verwendet es \"normal\" zur Steuerung."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid "On Normal Power Mode"
@@ -5805,6 +5837,21 @@ msgid ""
 "important than power consumption. It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
+"Das powerd-Werkzeug überwacht den Systemstatus und setzt entsprechende "
+"Energiesteuerungsoptionen. Es stellt vier Modi zur Verfügung (maximum, "
+"minimum, adaptive und hiadaptive) die individuell ausgewählt werden können, "
+"während das System über das Stromnetz oder über Batterien versorgt wird. Die "
+"Modi maximum, minimum, adaptive und hiadaptive können mit max, min adp und "
+"hadp abgekürzt werden. Maximum wählt die Werte für die höchste Performance. "
+"Der Minimum-Modus wählt die niedrigsten Performance-Werte aus, um möglichst "
+"viel Energie zu sparen. Der Adaptive-Modus versucht, die beste Banlance zu "
+"finden, indem die Performance zurückgeschraubt wird, wenn sich das System im "
+"Leerlauf befindet und erhöht, wenn das System aktiv ist. Es stellt eine gute "
+"Balance zwischen gerigen Performance-Einbußen und hohen Energieeinsparungen "
+"dar. Der hiadaptive-Modus ist wie der adaptive-Modus, aber für Systeme "
+"angepasst, bei denen die Performance und interaktivität wichtiger sind, als "
+"der Energieverbrauch. Es erhöht die Frequenz schneller, verringert schneller "
+"und hält halb so viel CPU-Last."
 
 msgid "Use PowerD"
 msgstr "Benutze PowerD"
@@ -5818,6 +5865,8 @@ msgid ""
 "This will periodically backup the NetFlow data aggregation so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"Dies wird die NetFlow-Datenzusammenfassung regelmäßig sichern, sodass sie "
+"automatisch beim nächsten Boot wiederhergestellt werden können."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 312
 msgid "Periodic NetFlow Backup"
@@ -7506,9 +7555,12 @@ msgid ""
 "signer%s is encountered. This helps lower the latency of requests but does "
 "utilize a little more CPU."
 msgstr ""
+"DNSKEYs werden im Überprüfungsprozess früher abgerufen, wenn ein %"
+"sDelegation signer%s erkannt wird. Dies reduziert die Latenz von Abfragen, "
+"aber erhöht die CPU-Auslastung ein wening."
 
 msgid "Prefetch DNS Key Support"
-msgstr ""
+msgstr "Unterstützung des Vorab-Abrufs von DNS-Schlüsseln"
 
 msgid ""
 "Message cache elements are prefetched before they expire to help keep the "
@@ -7518,7 +7570,7 @@ msgid ""
 msgstr ""
 
 msgid "Prefetch Support"
-msgstr ""
+msgstr "Unterstützung des Vorab-Abrufs"
 
 msgid "If enabled, version.server and version.bind queries are refused."
 msgstr ""
@@ -7702,6 +7754,8 @@ msgstr "Registriere DHCP-Leases im DNS-Resolver"
 # File: /usr/core/src/www/services_unbound.php, line: 206
 msgid "The configured system nameservers will be used to forward queries to."
 msgstr ""
+"An konfigurierten Systemnamensserver des Systems werden die Abfragen "
+"weitergeleitet."
 
 msgid "Enable Forwarding Mode"
 msgstr "Weiterleitungs-Modus aktivieren"
@@ -8057,6 +8111,8 @@ msgstr "Prüfsumme"
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 509
 msgid "Enter the text between \"$\" and \"*\" of a NMEA command string:"
 msgstr ""
+"Geben Sie den Text zwischen \"$\" und \"*\" einer NMEA-Kommandozeichenkette "
+"ein:"
 
 msgid "NMEA checksum calculator"
 msgstr "NMEA-Prüfsummenrechner"
@@ -8215,6 +8271,8 @@ msgid ""
 "The predefined configurations assume your GPS has already been set to NMEA "
 "mode."
 msgstr ""
+"Die vordefinierten Konfigurationen nehmen an, das Ihr GPS bereits in den "
+"NMEA-Modus versetzt wurde."
 
 # File: src/www/services_ntpd_gps.php, line: 400
 msgid "Select Generic if your GPS is not listed."
@@ -8282,6 +8340,7 @@ msgstr "Schaltsekunden"
 
 msgid "Deny mode 6 control message trap service (default: enabled)."
 msgstr ""
+"Verweigere Modus 6 Steuerungsnachrichten-Trap-Dienst (Standard: aktiviert)"
 
 msgid "Deny packets that attempt a peer association (default: enabled)."
 msgstr ""
@@ -10480,7 +10539,7 @@ msgid "failover"
 msgstr "Failover"
 
 msgid "Lag proto"
-msgstr ""
+msgstr "Lag-Protokoll"
 
 msgid "Choose the members that will be used for the link aggregation"
 msgstr ""
@@ -10503,6 +10562,8 @@ msgid ""
 "LAGG allows for link aggregation, bonding and fault tolerance. Only "
 "unassigned interfaces can be added to LAGG."
 msgstr ""
+"LAGG erlaubt Verbindungsaggregation, Bonding und Fehlertoleranz. Nur nicht "
+"zugewiesene Schnittstellen können zu einem LAGG hinzugefügt werden."
 
 msgid "Do you really want to delete this LAGG interface?"
 msgstr "Wollen Sie diese LAGG Schnittstelle wirklich löschen?"
@@ -10716,7 +10777,7 @@ msgid "GIF tunnel local address"
 msgstr "Lokale GIF-Tunneladresse"
 
 msgid "Peer address where encapsulated gif packets will be sent. "
-msgstr ""
+msgstr "Peer-Adresse, an die die gekapselten GIF-Pakete gesendet werden. "
 
 # File: src/www/interfaces_gif_edit.php, line: 205
 msgid "GIF remote address"
@@ -10856,6 +10917,9 @@ msgid ""
 "stations and cannot create bridging loops in the network; this allows it to "
 "transition straight to forwarding."
 msgstr ""
+"Setzt die Schnittstelle als Randport. Randports sind direkt mit den "
+"Endpunkten verbunden und können keine Bückenkreise im Netzwerk verursachen. "
+"Dies erlaubt es, direkt zur Weiterleitung zu wechseln."
 
 msgid "Edge ports"
 msgstr "Randports"
@@ -10889,6 +10953,8 @@ msgid ""
 "Set the size of the bridge address cache to size. The default is .100 "
 "entries."
 msgstr ""
+"Setze die Größe des Zwischenspeichers für die Adressen der Brücke. Der "
+"Standardwert sind 100 Einträge."
 
 msgid "entries"
 msgstr "Einträge"
@@ -10921,7 +10987,7 @@ msgid ""
 msgstr ""
 
 msgid "Hold count"
-msgstr ""
+msgstr "Haltedauer"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 377
 msgid ""
@@ -11191,6 +11257,9 @@ msgid ""
 "Enter the IP address of the 802.1X Authentication Server. This is commonly a "
 "Radius server (FreeRadius, Internet Authentication Services, etc.)"
 msgstr ""
+"Geben Sie die IP-Adresse den 802.1X-Authentifizierungsservers ein. Dies ist "
+"üblicherweise ein Radius-Server (FreeRadius, Internet Authentication "
+"Services etc.)"
 
 # File: src/www/interfaces.php, line: 3275
 msgid "802.1X Server IP Address"
@@ -11290,6 +11359,8 @@ msgid ""
 "104 (128) bit keys may be entered as 13 ASCII characters or 26 hex digits "
 "preceded by '0x'."
 msgstr ""
+"104 (128) Bit-Schlüssel können als 13 ASCII-Zeichen oder als 26 "
+"Hexadezimalzahlen mit vorangestelltem '0x' eingegeben werden."
 
 msgid ""
 "40 (64) bit keys may be entered as 5 ASCII characters or 10 hex digits "
@@ -11324,6 +11395,8 @@ msgid ""
 "Setting this option will force the card to NOT broadcast its SSID (this "
 "might create problems for some clients)."
 msgstr ""
+"Durch das Setzen dieser Option wird die Netzwerkkarte dazu gezwungen, die "
+"SSID nicht zu senden (dies könnte mit manchen Clients zu Problemen führen)."
 
 msgid "Enable Hide SSID"
 msgstr "SSID verstecken"
@@ -11340,11 +11413,15 @@ msgid ""
 "Disabling the internal bridging is useful when traffic is to be processed "
 "with packet filtering."
 msgstr ""
+"Die Deaktivierung der internen Weiterleitung ist sinnvoll, wenn der "
+"Datenverkehr mittels Paketfilterung verarbeitet werden soll."
 
 msgid ""
 "When operating as an access point, enable this if you want to pass packets "
 "between wireless clients directly."
 msgstr ""
+"Aktivieren Sie dies, wenn Sie Pakete zwischen direkt zwischen den Clients "
+"vermitteln möchten, sofern die Netzwerkkarte im Access Point-Modus arbeitet."
 
 msgid "Allow intra-BSS communication"
 msgstr "Erlaube Intra-BSS Kommunikation"
@@ -15296,7 +15373,7 @@ msgid "Count must be between 1 and %s"
 msgstr "Anzahl muss zwischen 1 und %s sein"
 
 msgid "Gathering PF information, please wait..."
-msgstr "Sammle PF Informationen, bitte warten..."
+msgstr "Sammle PF-Informationen, bitte warten..."
 
 # File: src/www/diag_packet_capture.php, line: 479
 msgid "Capture output"
@@ -19694,7 +19771,7 @@ msgid "RADIUS server address"
 msgstr "RADIUS-Server Adresse"
 
 msgid "RADIUS shared secret"
-msgstr ""
+msgstr "Gemeinsames RADIUS-Geheimnis"
 
 msgid "A valid server address must be specified."
 msgstr "Eine gültige Server-Adresse muss angegeben werden."
@@ -19820,7 +19897,7 @@ msgid "standard port 1812 and 1813 accounting"
 msgstr "Standardport 1812 und 1813 Verrechnung"
 
 msgid "RADIUS primary shared secret"
-msgstr ""
+msgstr "Gemeinsames primäres RADIUS-Geheimnis"
 
 msgid ""
 "Enter the shared secret that will be used to authenticate to the RADIUS "
@@ -19830,7 +19907,7 @@ msgstr ""
 "Server benutzt wird"
 
 msgid "RADIUS server Secondary"
-msgstr ""
+msgstr "Sekundärer RADIUS-Server"
 
 msgid ""
 "Enter the IP address, authentication port and accounting port (optional) of "
@@ -19840,7 +19917,7 @@ msgstr ""
 "(optional) des Backup-RADIUS-Servers ein."
 
 msgid "RADIUS secondary shared secret"
-msgstr ""
+msgstr "Gemeinsames sekundäres RADIUS-Geheimnis"
 
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 387
 msgid "Security"
@@ -20171,7 +20248,7 @@ msgid "View Logs"
 msgstr "Protokolle anzeigen"
 
 msgid "Int. Port"
-msgstr ""
+msgstr "Int. Port"
 
 msgid "Conveyance (ATA Disks Only)"
 msgstr "Conveyance (nur ATA Geräte)"
@@ -20338,19 +20415,19 @@ msgstr "(Optional) Benutzeranmeldeinformationen"
 
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "API URL"
-msgstr ""
+msgstr "API-URL"
 
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "AWS ID"
-msgstr ""
+msgstr "AWS-ID"
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "AWS Secret"
-msgstr ""
+msgstr "AWS-Geheimnis"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid "Access Control List"
-msgstr ""
+msgstr "Zugangskontrollliste"
 
 msgid "Action"
 msgstr "Aktion"
@@ -20473,15 +20550,15 @@ msgstr "Erlaubter Ziel-TCP-Port"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Alt Names"
-msgstr ""
+msgstr "Alternative Namen"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Application Key"
-msgstr ""
+msgstr "Anwendungsschlüssel"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid "Application Secret"
-msgstr ""
+msgstr "Anwendungsgeheimnis"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Authenticate using"
@@ -20493,7 +20570,7 @@ msgstr "Authentifizierungsaufforderung"
 
 # File: /usr/lang/src/controllers.php, line: 77
 msgid "Authentication Settings"
-msgstr ""
+msgstr "Authentifizierungseinstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid "Authentication TTL (hours)"
@@ -20564,7 +20641,7 @@ msgstr "CF-Schlüssel"
 
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Cache directory location"
-msgstr ""
+msgstr "Ort des Zwischenspeichers"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Cache size in Megabytes"
@@ -20659,6 +20736,9 @@ msgid ""
 "Choose how to test. By using IF it tests if the condition evaluates to true. "
 "If you use UNLESS, the sense of the test is reversed."
 msgstr ""
+"Wählen Sie aus, wie getestet wird. Falls sie IF auswählen, wird getestet, ob "
+"die Bedingung erfüllt ist. Falls Sie UNLESS auswählen, wird der Sinn des "
+"Tests negiert."
 
 # File: /usr/lang/src/controllers.php, line: 51
 msgid ""
@@ -20704,6 +20784,9 @@ msgid ""
 "Collect NetFlow data on this firewall for use with Insight. Note that the "
 "local cache only holds the latest 100 MB of data."
 msgstr ""
+"Sammle NetFlow-Daten auf dieser Firewall für die Nutzung mit Einblick. Seien "
+"Sie sich bewusst, dass der lokale Zwischenspeicher nur die letzten 100 MB "
+"enthält."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
 msgid "Command"
@@ -21353,6 +21436,8 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Enter the cache memory size to use or zero to disable completely."
 msgstr ""
+"Geben Sie die zu verwendende Zwischenspeichergröße an oder null zur "
+"vollständigen Deaktivierung"
 
 # File: lang/dynamic/helpers/controllers.php, line: 88
 msgid ""
@@ -21461,10 +21546,12 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 279
 msgid "Enter the url where the REQMOD requests should be sent to."
 msgstr ""
+"Geben Sie die URL ein, welche die REQMOD-Anfragen gesendet werden sollen."
 
 # File: /usr/lang/src/controllers.php, line: 280
 msgid "Enter the url where the RESPMOD requests should be sent to."
 msgstr ""
+"Geben Sie die URL ein, welche die RESPMOD-Anfragen gesendet werden sollen."
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
 # File: /usr/lang/src/models.php, line: 88
@@ -21497,7 +21584,7 @@ msgstr "Externe Adresse"
 
 # File: /usr/lang/src/controllers.php, line: 288
 msgid "Ext. Port"
-msgstr ""
+msgstr "Externer Port"
 
 # File: /usr/lang/src/controllers.php, line: 241
 msgid "FQ-CoDel flows"
@@ -21517,7 +21604,7 @@ msgstr "FQDN oder IP"
 
 # File: /usr/lang/src/controllers.php, line: 293
 msgid "FTP Proxy Settings"
-msgstr ""
+msgstr "FTP-Proxy-Einstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 245
 msgid "FTP proxy interfaces"
@@ -21534,7 +21621,7 @@ msgstr "Dateiname"
 
 # File: /usr/lang/src/controllers.php, line: 248
 msgid "Filter syslog level"
-msgstr ""
+msgstr "Filter-Systemprotokollstufe"
 
 # File: /usr/lang/src/controllers.php, line: 123
 msgid ""
@@ -21570,15 +21657,15 @@ msgstr "Leite HTTPS-Datenverkehr an den transparenten Proxy weiter"
 
 # File: /usr/lang/src/controllers.php, line: 304
 msgid "Forward Proxy"
-msgstr ""
+msgstr "Weiterleitungsproxy"
 
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "General Forward Settings"
-msgstr ""
+msgstr "Allgemeine Weiterleitungseinstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 306
 msgid "General Proxy Settings"
-msgstr ""
+msgstr "Allgemeine Proxyeinstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 255
 msgid "GeoIP/Country"
@@ -21645,7 +21732,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Health Checking"
-msgstr ""
+msgstr "Gesundheitsüberprüfung"
 
 # File: /usr/lang/src/controllers.php, line: 266
 msgid "Health check"
@@ -21866,11 +21953,11 @@ msgstr "Logischer Operator (für ACLs)"
 
 # File: /usr/lang/src/controllers.php, line: 366
 msgid "Match pattern"
-msgstr ""
+msgstr "Mustervergleich"
 
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Match response"
-msgstr ""
+msgstr "Trefferantwort"
 
 # File: /usr/lang/src/controllers.php, line: 299
 msgid "Max sessions"
@@ -21993,7 +22080,7 @@ msgstr "Name, um dieses Backend zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 393
 msgid "Name to identify this certificate."
-msgstr ""
+msgstr "Name, um dieses Zertifikat zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 141
 msgid "Name to identify this error file."
@@ -22009,7 +22096,7 @@ msgstr "Name, um diesen Server zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Name to identify this validation."
-msgstr ""
+msgstr "Name, um diese Überprüfung zu identifizieren."
 
 # File: /usr/lang/src/controllers.php, line: 326
 msgid "Name used for this network"
@@ -22056,7 +22143,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Optional e-mail address for this account."
-msgstr ""
+msgstr "Optionale E-Mail-Adresse für dieses Konto."
 
 # File: /usr/lang/src/controllers.php, line: 337
 msgid "Optional parameters"
@@ -22064,7 +22151,7 @@ msgstr "Optionale Parameter"
 
 # File: /usr/lang/src/controllers.php, line: 410
 msgid "Other check options"
-msgstr ""
+msgstr "Andere Prüfungsoptionen"
 
 # File: /usr/lang/src/controllers.php, line: 338
 msgid "Overall bandwidth throttling (kbps)"
@@ -22100,7 +22187,7 @@ msgstr "Bandbreitenbeschränkung pro Host (kbps)"
 
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "PingTimeout"
-msgstr ""
+msgstr "Ping-Gültigkeitsdauer"
 
 msgid "Port"
 msgstr "Port"
@@ -22151,7 +22238,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 429
 msgid "Provider"
-msgstr ""
+msgstr "Provider"
 
 # File: /usr/lang/src/controllers.php, line: 354
 msgid "Proxy interfaces"
@@ -22192,7 +22279,7 @@ msgstr "Ferne hörende Adressen"
 
 # File: /usr/lang/src/controllers.php, line: 439
 msgid "Renewal Interval"
-msgstr ""
+msgstr "Erneuerungsintervall"
 
 # File: /usr/lang/src/controllers.php, line: 363
 msgid "Request Modify URL"
@@ -22296,7 +22383,7 @@ msgstr "SSL-Zertifikat"
 
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "SSL no bump sites"
-msgstr ""
+msgstr "Nicht abzufangende SSL-Seiten"
 
 # File: /usr/lang/src/controllers.php, line: 388
 msgid "SSL/Fingerprint"
@@ -22315,7 +22402,7 @@ msgstr "Geheimnis"
 
 # File: /usr/lang/src/controllers.php, line: 469
 msgid "Secret Key"
-msgstr ""
+msgstr "Gemeinsamer Schlüssel"
 
 # File: /usr/lang/src/controllers.php, line: 391
 msgid "Select ACLs"
@@ -22367,6 +22454,8 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Select how to look for a specific pattern in the response."
 msgstr ""
+"Wählen Sie aus, wie nach einem spezifischen Muster in der Antwort gesucht "
+"wird."
 
 # File: lang/dynamic/helpers/controllers.php, line: 64
 # File: lang/dynamic/helpers/controllers.php, line: 85
@@ -22422,7 +22511,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "Select the certificate authority for this account."
-msgstr ""
+msgstr "Wählen Sie die Zertifizierungsstelle für dieses Konto aus."
 
 # File: lang/dynamic/helpers/controllers.php, line: 91
 msgid "Select the command that needs to be executed at given time frame."
@@ -22439,7 +22528,7 @@ msgstr "Geben Sie den Typ der Gesundheitsüberprüfung ein."
 
 # File: /usr/lang/src/controllers.php, line: 493
 msgid "Select what to do with X-Forwarded-For header."
-msgstr ""
+msgstr "Wählen Sie aus, wie mit der X-Forwarded-For-Kopfzeile verfahren wird."
 
 # File: /usr/lang/src/controllers.php, line: 413
 msgid "Send Client IP"
@@ -22451,7 +22540,7 @@ msgstr "Benutzername senden"
 
 # File: /usr/lang/src/controllers.php, line: 496
 msgid "Send data"
-msgstr ""
+msgstr "Sende Daten"
 
 # File: /usr/lang/src/controllers.php, line: 415
 msgid "Send log data to the selected target."
@@ -22463,11 +22552,11 @@ msgstr "Separate Statistiken"
 
 # File: /usr/lang/src/controllers.php, line: 499
 msgid "Server (FQDN)"
-msgstr ""
+msgstr "Server (FQDN)"
 
 # File: /usr/lang/src/controllers.php, line: 500
 msgid "Server ID"
-msgstr ""
+msgstr "Server-ID"
 
 # File: /usr/lang/src/controllers.php, line: 417
 msgid "Server Timeout"
@@ -22482,7 +22571,7 @@ msgstr "Diensteinstellungen"
 
 # File: /usr/lang/src/controllers.php, line: 419
 msgid "Session redistribution"
-msgstr ""
+msgstr "Sitzungsweiterverteilung"
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Set action to perform here, only used when in IPS mode."
@@ -22500,15 +22589,15 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 507
 msgid "Set the CA account to use for this certificate."
-msgstr ""
+msgstr "Setze dass CA-Konto, das für dieses Zertifikat verwendet wird."
 
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Set the Let's Encrypt validation method for this certificate."
-msgstr ""
+msgstr "Setze die Let's Encrypt Überprüfungsmethode für dieses Zertifikat."
 
 # File: /usr/lang/src/controllers.php, line: 509
 msgid "Set the Let's Encrypt validation method."
-msgstr ""
+msgstr "Setze die Let's Encrypt Überprüfungsmethode."
 
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Set the default backend to use for this frontend."
@@ -22652,6 +22741,8 @@ msgstr "Quellport"
 # File: /usr/lang/src/controllers.php, line: 535
 msgid "Specifies the days to renew the cert. The max value is 60 days."
 msgstr ""
+"Geben Sie die Anzahl der Tage an, um das Zertifikat zu erneuern. Der "
+"maximale Wert ist 60 Tage."
 
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Specify HTTP host to use for health check. Requires HTTP/1.1."
@@ -22682,7 +22773,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 541
 msgid "Specify the Server ID of your PowerDNS server, i.e. localhost."
-msgstr ""
+msgstr "Geben Sie die Server-ID Ihres PowerDNS-Server an, z. B. localhost"
 
 # File: /usr/lang/src/controllers.php, line: 189
 msgid "Specify the TCP port used for agent checks."
@@ -22693,6 +22784,8 @@ msgstr ""
 msgid ""
 "Specify the URL for your PowerDNS server, i.e. http://ns.example.com:8081."
 msgstr ""
+"Geben Sie die URL Ihres PowerDNS-Servers an, z. B. "
+"http://ns.example.com:8081."
 
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
@@ -22851,12 +22944,16 @@ msgid ""
 "The proxy will use this as the source address for the control connection to "
 "a server."
 msgstr ""
+"Der Proxy wird diese als Quelladresse für die Steuerungsverbindung zum "
+"Server verwenden."
 
 # File: /usr/lang/src/controllers.php, line: 576
 msgid ""
 "The time in seconds to wait for all the TXT records to take effect DNS API "
 "mode. Default 120 seconds."
 msgstr ""
+"Die Zeit in Sekunden, die gewartet wird, bis die TXT-Datensätze für den DNS-"
+"API-Modus übernommen werden. Der Standardwert ist 120 Sekunden."
 
 # File: lang/dynamic/helpers/controllers.php, line: 63
 msgid "The total number of authenticator processes to spawn."
@@ -22874,6 +22971,13 @@ msgid ""
 "The default is 'no preference' to only use per-server configurations and not "
 "enforce a global default for all servers."
 msgstr ""
+"Dies erzwingt ein spezielles Verhalten für die SSL-Überprüfung auf Servern, "
+"bei der die Einstellungen pro Server ignoriert werden. Falls es auf "
+"'Überprüfung erzwingen' gesetzt ist, werden die Serverzertifikate überprüft. "
+"Falls es auf 'Überprüfung deaktivieren' gesetzt ist, werden "
+"Serverzertifikate nicht überprüft. Der Standardwert ist 'keine Bevorzugung' "
+"um die Konfiguration pro Server zu verwenden und keinen globalen "
+"Standardwert zu erzwingen."
 
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "This is the email address displayed in error messages to the users."
@@ -22897,6 +23001,8 @@ msgstr "Externer Port dieser Maschine zur Verwendung"
 msgid ""
 "This machines internal address to use and network mask for the whole network"
 msgstr ""
+"Die interne Adresse dieser Maschine und die Netzwerkmaske des ganzen "
+"Netzwerks"
 
 # File: /usr/lang/src/controllers.php, line: 484
 msgid "This machines part of the network"
@@ -22987,7 +23093,7 @@ msgstr "Benutzername-Kopfzeile"
 
 # File: /usr/lang/src/controllers.php, line: 607
 msgid "Validation Method"
-msgstr ""
+msgstr "Überprüfungsmethode"
 
 msgid "Value"
 msgstr "Wert"
@@ -23033,6 +23139,11 @@ msgid ""
 "allows you to change the local port of this webserver in case it interferes "
 "with another local services. Defaults to port 43580."
 msgstr ""
+"Wenn Sie HTTP-01 als Überprüfungsmethode auswählen, wird ein lokaler "
+"Webserver verwendet, um die ACME-Challenge-Daten den Let's Encrypt-Servern "
+"zur Verfügung zu stellen. Dies erlaubt Ihnen, den Standardport dieses "
+"Webservers zu ändern, falls dies Probleme mit anderen lokalen Diensten "
+"verursacht. Der Standardport ist 43580."
 
 # File: /usr/lang/src/controllers.php, line: 511
 msgid "Whitelist"
@@ -23837,18 +23948,25 @@ msgstr "Bitte geben Sie gültige Ziele ein (z. B. 192.168.0.1:2055)."
 # File: /usr/lang/src/models.php, line: 189
 msgid "Please provide a valid FQDN, i.e. www.example.com or mail.example.com."
 msgstr ""
+"Bitte geben Sie einen gültigen FQDN wie www.example.com oder "
+"mail.example.com ein."
 
 # File: /usr/lang/src/models.php, line: 176
 msgid ""
 "Please provide a valid listen address, i.e. 10.0.0.1:8080 or "
 "haproxy.example.com:8999."
 msgstr ""
+"Bitte geben Sie eine gültige hörende Adresse wie 10.0.0.1:8080 oder "
+"haproxy.example.com:8999 ein."
 
 # File: /usr/lang/src/models.php, line: 178
 msgid ""
 "Please provide a valid listen address, i.e. 127.0.0.1:8080 or "
 "www.example.com:443. Port range as start-end, i.e. 127.0.0.1:1220-1240."
 msgstr ""
+"Bitte geben Sie eine gültige hörende Adresse wie 127.0.0.1:8080 oder "
+"www.example.com:443 ein. Portbereiche als Start-Ende; zum Beispiel "
+"127.0.0.1:1220-1240."
 
 # File: /usr/lang/src/models.php, line: 178
 msgid "Please provide a valid user and password, i.e. user:secret123."
@@ -24443,19 +24561,19 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 37
 msgid "1024 bit"
-msgstr ""
+msgstr "1024 Bit"
 
 # File: /usr/lang/src/wizards.php, line: 38
 msgid "2048 bit"
-msgstr ""
+msgstr "2048 Bit"
 
 # File: /usr/lang/src/wizards.php, line: 39
 msgid "4096 bit"
-msgstr ""
+msgstr "4096 Bit"
 
 # File: /usr/lang/src/wizards.php, line: 40
 msgid "512 bit"
-msgstr ""
+msgstr "512 Bit"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1445
@@ -24500,6 +24618,8 @@ msgid ""
 "Add a rule to allow all traffic from connected clients to pass across the "
 "VPN tunnel."
 msgstr ""
+"Fügen Sie eine Regel hinzu, um jeglichen Datenverkehr von Clients durch den "
+"Tunnel zu erlauben."
 
 # File: /usr/lang/src/wizards.php, line: 47
 msgid ""
@@ -24509,46 +24629,48 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 48
 msgid "Add new CA"
-msgstr ""
+msgstr "Eine neue CA hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 49
 msgid "Add new Certificate"
-msgstr ""
+msgstr "Ein neues Zertifikat hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 50
 msgid "Add new LDAP server"
-msgstr ""
+msgstr "Einen neuen LDAP-Server hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 51
 msgid "Add new RADIUS server"
-msgstr ""
+msgstr "Einen neuen RADIUS-Server hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 52
 msgid "Add new Server"
-msgstr ""
+msgstr "Einen neuen Server hinzufügen"
 
 msgid "Address Pool"
 msgstr "Adresspool"
 
 # File: /usr/lang/src/wizards.php, line: 54
 msgid "Address of the LDAP server."
-msgstr ""
+msgstr "Adresse des LDAP-Servers."
 
 # File: /usr/lang/src/wizards.php, line: 55
 msgid "Address of the RADIUS server."
-msgstr ""
+msgstr "Adresse des RADIUS-Servers."
 
 # File: /usr/lang/src/wizards.php, line: 56
 msgid "Admin Password"
-msgstr ""
+msgstr "Administratorpasswort"
 
 # File: /usr/lang/src/wizards.php, line: 57
 msgid "Admin Password AGAIN"
-msgstr ""
+msgstr "Administratorpasswort ERNEUT"
 
 # File: /usr/lang/src/wizards.php, line: 59
 msgid "Allow DNS servers to be overridden by DHCP/PPP on WAN"
 msgstr ""
+"Erlaube, dass die DNS-Server durch DHCP/PPP auf der WAN-Schnittstelle "
+"überschrieben werden"
 
 # File: /usr/lang/src/wizards.php, line: 60
 msgid "Allow communication between clients connected to this server."
@@ -24569,15 +24691,16 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 64
 msgid "Authentication Port"
-msgstr ""
+msgstr "Authentifizierungsport"
 
 # File: /usr/lang/src/wizards.php, line: 65
 msgid "Automatically generate a shared TLS authentication key."
 msgstr ""
+"Automatisch einen gemeinsamen TLS-Authentifizierungsschlüssel generieren."
 
 # File: /usr/lang/src/wizards.php, line: 66
 msgid "Block RFC1918 Private Networks"
-msgstr ""
+msgstr "Private RFC1918-Netzwerke blockieren"
 
 msgid "Block bogon networks"
 msgstr "Blockiere Bogon-Netze"
@@ -24587,11 +24710,11 @@ msgstr "Zertifikat"
 
 # File: /usr/lang/src/wizards.php, line: 70
 msgid "Choose a Certificate Authority (CA)"
-msgstr ""
+msgstr "Eine Zertifizierungsstelle (CA) auswählen"
 
 # File: /usr/lang/src/wizards.php, line: 71
 msgid "Choose a Server Certificate"
-msgstr ""
+msgstr "Ein Serverzertifikat auswählen"
 
 msgid "City"
 msgstr "Stadt"
@@ -24616,30 +24739,30 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 78
 msgid "Configuration Complete!"
-msgstr ""
+msgstr "Konfiguration vollständig!"
 
 # File: /usr/lang/src/wizards.php, line: 79
 msgid "Configure LAN Interface"
-msgstr ""
+msgstr "Konfiguriere LAN-Schnittstelle"
 
 # File: /usr/lang/src/wizards.php, line: 80
 msgid "Configure WAN Interface"
-msgstr ""
+msgstr "Konfiguriere WAN-Schnittstelle"
 
 msgid "Country Code"
 msgstr "Ländercode"
 
 # File: /usr/lang/src/wizards.php, line: 82
 msgid "Create a New Certificate Authority (CA) Certificate"
-msgstr ""
+msgstr "Erstelle eine neues Zertifizierungsstellenzertifikat (CA)"
 
 # File: /usr/lang/src/wizards.php, line: 83
 msgid "Create a New Server Certificate"
-msgstr ""
+msgstr "Erstelle ein neues Serverzertifikat"
 
 # File: /usr/lang/src/wizards.php, line: 84
 msgid "Create new Certificate"
-msgstr ""
+msgstr "Erstelle ein neues Zertifikat"
 
 msgid "Cryptographic Settings"
 msgstr "Kryptografische Einstellungen"
@@ -24649,7 +24772,7 @@ msgstr "DH Parameterlänge"
 
 # File: /usr/lang/src/wizards.php, line: 88
 msgid "DHCP Hostname"
-msgstr ""
+msgstr "DHCP-Hostname"
 
 msgid "DHCP client configuration"
 msgstr "DHCP Client Konfiguration"
@@ -24659,19 +24782,19 @@ msgstr "DNS Standard Domain"
 
 # File: /usr/lang/src/wizards.php, line: 91
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNS-Server 1"
 
 # File: /usr/lang/src/wizards.php, line: 92
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNS-Server 2"
 
 # File: /usr/lang/src/wizards.php, line: 93
 msgid "DNS Server 3"
-msgstr ""
+msgstr "DNS-Server 3"
 
 # File: /usr/lang/src/wizards.php, line: 94
 msgid "DNS Server 4"
-msgstr ""
+msgstr "DNS-Server 4"
 
 # File: /usr/lang/src/wizards.php, line: 95
 msgid "DNS server to provide for connecting client systems."
@@ -24703,11 +24826,11 @@ msgstr "Dynamische IP"
 
 # File: /usr/lang/src/wizards.php, line: 104
 msgid "EXAMPLE: mydomain.com"
-msgstr ""
+msgstr "BEISPIEL: meinedomain.com"
 
 # File: /usr/lang/src/wizards.php, line: 105
 msgid "EXAMPLE: myserver"
-msgstr ""
+msgstr "BEISPIEL: meinserver"
 
 # File: /usr/lang/src/wizards.php, line: 106
 msgid "Email"
@@ -24725,7 +24848,7 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 109
 msgid "Encryption Algorithm"
-msgstr ""
+msgstr "Verschlüsselungsalgorithmus"
 
 # File: /usr/lang/src/wizards.php, line: 110
 msgid ""
@@ -24736,7 +24859,7 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 111
 msgid "Enter the hostname (FQDN) of the time server."
-msgstr ""
+msgstr "Geben Sie den Hostnamen (FQDN) des Zeitservers ein."
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
@@ -24744,11 +24867,11 @@ msgstr "Kompletter Unterbaum"
 
 # File: /usr/lang/src/wizards.php, line: 113
 msgid "Finish"
-msgstr ""
+msgstr "Fertigstellen"
 
 # File: /usr/lang/src/wizards.php, line: 114
 msgid "Firewall Rule"
-msgstr ""
+msgstr "Firewallregel"
 
 # File: /usr/lang/src/wizards.php, line: 115
 msgid "Firewall Rule Configuration"
@@ -24778,18 +24901,18 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 120
 msgid "General Information"
-msgstr ""
+msgstr "Allgemeine Information"
 
 # File: /usr/lang/src/wizards.php, line: 121
 msgid "General OpenVPN Server Information"
-msgstr ""
+msgstr "Allgemeine OpenVPN-Serverinformation"
 
 msgid "General configuration"
 msgstr "Allgemeine Konfiguration"
 
 # File: /usr/lang/src/wizards.php, line: 123
 msgid "Generate TLS Key"
-msgstr ""
+msgstr "Generiere einen TLS-Schlüssel"
 
 # File: /usr/lang/src/wizards.php, line: 124
 msgid "Group Naming Attribute"
@@ -24845,7 +24968,7 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 137
 msgid "Invalid Hostname"
-msgstr ""
+msgstr "Ungültiger Hostname"
 
 msgid "Key length"
 msgstr "Schlüssellänge"
@@ -24864,11 +24987,11 @@ msgstr "LDAP"
 
 # File: /usr/lang/src/wizards.php, line: 142
 msgid "LDAP Authentication Server List"
-msgstr ""
+msgstr "LDAP Authentifizierungsserverliste"
 
 # File: /usr/lang/src/wizards.php, line: 143
 msgid "LDAP Authentication Server Parameters"
-msgstr ""
+msgstr "LDAP Authentifizierungsserverparameter"
 
 # File: /usr/lang/src/wizards.php, line: 144
 msgid "LDAP Bind Password"
@@ -24876,16 +24999,18 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 145
 msgid "LDAP Bind User DN"
-msgstr ""
+msgstr "LDAP-Bind-User-DN"
 
 # File: /usr/lang/src/wizards.php, line: 146
 msgid ""
 "LDAP Server port, leave blank for the default (389 for TCP, 636 for SSL)."
 msgstr ""
+"LDAP-Serverport, lassen Sie es leer für den Standardport (389 für TCP, 636 "
+"für SSL)."
 
 # File: /usr/lang/src/wizards.php, line: 147
 msgid "LDAP servers"
-msgstr ""
+msgstr "LDAP-Server"
 
 msgid "Language"
 msgstr "Sprache"
@@ -24902,11 +25027,11 @@ msgstr "Lokales Netzwerk"
 
 # File: /usr/lang/src/wizards.php, line: 152
 msgid "Local Port"
-msgstr ""
+msgstr "Lokaler Port"
 
 # File: /usr/lang/src/wizards.php, line: 153
 msgid "Local User Access"
-msgstr ""
+msgstr "Lokaler Benutzerzugang"
 
 # File: /usr/lang/src/wizards.php, line: 154
 msgid ""
@@ -24916,11 +25041,11 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 155
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC-Adresse"
 
 # File: /usr/lang/src/wizards.php, line: 156
 msgid "MAC Address field is invalid"
-msgstr ""
+msgstr "MAC-Adressfeld ist ungültig"
 
 msgid "MSS"
 msgstr "MSS"
@@ -24934,11 +25059,11 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 160
 msgid "NTP Server"
-msgstr ""
+msgstr "NTP-Server"
 
 # File: /usr/lang/src/wizards.php, line: 161
 msgid "NTP Server 2"
-msgstr ""
+msgstr "NTP-Server 2"
 
 # File: /usr/lang/src/wizards.php, line: 163
 msgid "NetBIOS Node Type"
@@ -24957,11 +25082,11 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 167
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 # File: /usr/lang/src/wizards.php, line: 168
 msgid "OPNsense Setup Wizard"
-msgstr ""
+msgstr "OPNsense Einrichtungsassistent"
 
 # File: /usr/lang/src/wizards.php, line: 169
 msgid "On this screen we will configure the Local Area Network information."
@@ -24970,6 +25095,7 @@ msgstr ""
 # File: /usr/lang/src/wizards.php, line: 170
 msgid "On this screen we will configure the Wide Area Network information."
 msgstr ""
+"In dieser Ansicht werden wir die Wide Area Network-Information konfigurieren."
 
 # File: /usr/lang/src/wizards.php, line: 171
 msgid ""
@@ -24991,66 +25117,66 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 175
 msgid "OpenVPN Wizard: Add Certificate Authority"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Eine Zertifizierungsstelle hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 176
 msgid "OpenVPN Wizard: Add LDAP Server"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Einen LDAP-Server hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 177
 msgid "OpenVPN Wizard: Add RADIUS Server"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Einen RADIUS-Server hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 178
 msgid "OpenVPN Wizard: Add a Server Certificate"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Ein Serverzertifikat hinzufügen"
 
 # File: /usr/lang/src/wizards.php, line: 179
 msgid "OpenVPN Wizard: Authentication Type Selection"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Authentifizierungstypauswahl"
 
 # File: /usr/lang/src/wizards.php, line: 180
 msgid "OpenVPN Wizard: Certificate Authority Selection"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Zertifizierungsstellenauswahl"
 
 # File: /usr/lang/src/wizards.php, line: 181
 msgid "OpenVPN Wizard: Finished!"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Abgeschlossen!"
 
 # File: /usr/lang/src/wizards.php, line: 182
 msgid "OpenVPN Wizard: Firewall Rule Configuration"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Firewallregelkonfiguration"
 
 # File: /usr/lang/src/wizards.php, line: 183
 msgid "OpenVPN Wizard: LDAP Server Selection"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: LDAP-Serverauswahl"
 
 # File: /usr/lang/src/wizards.php, line: 184
 msgid "OpenVPN Wizard: RADIUS Server Selection"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: RADIUS-Serverauswahl"
 
 # File: /usr/lang/src/wizards.php, line: 185
 msgid "OpenVPN Wizard: Server Certificate Selection"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Serverzertifikatauswahl"
 
 # File: /usr/lang/src/wizards.php, line: 186
 msgid "OpenVPN Wizard: Server Setup"
-msgstr ""
+msgstr "OpenVPN Einrichtungsassistent: Servereinrichtung"
 
 # File: /usr/lang/src/wizards.php, line: 187
 msgid "OpenVPN rule"
-msgstr ""
+msgstr "OpenVPN-Regel"
 
 msgid "Organization"
 msgstr "Organisation"
 
 # File: /usr/lang/src/wizards.php, line: 189
 msgid "Organization name, often the Company or Group name."
-msgstr ""
+msgstr "Organisationsname, oft der Firmen- oder Gruppenname."
 
 # File: /usr/lang/src/wizards.php, line: 190
 msgid "Override DNS"
-msgstr ""
+msgstr "DNS überschreiben"
 
 # File: /usr/lang/src/wizards.php, line: 192
 msgid "PPPoE Dial on demand"
@@ -25154,11 +25280,11 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 219
 msgid "RADIUS servers"
-msgstr ""
+msgstr "RADIUS-Server"
 
 # File: /usr/lang/src/wizards.php, line: 220
 msgid "RFC1918 Networks"
-msgstr ""
+msgstr "RFC1918-Netzwerke"
 
 # File: /usr/core/src/www/system_authservers.php, line: 36
 msgid "Radius"
@@ -25169,15 +25295,15 @@ msgstr "Weiterleitungs Gateway"
 
 # File: /usr/lang/src/wizards.php, line: 223
 msgid "Reload"
-msgstr ""
+msgstr "Neu laden"
 
 # File: /usr/lang/src/wizards.php, line: 224
 msgid "Reload configuration"
-msgstr ""
+msgstr "Konfiguration neu laden"
 
 # File: /usr/lang/src/wizards.php, line: 225
 msgid "Reload in progress"
-msgstr ""
+msgstr "Neu laden in Bearbeitung"
 
 # File: src/www/system_authservers.php, line: 479
 msgid "SSL - Encrypted"
@@ -25193,23 +25319,23 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 229
 msgid "Secondary DNS Server"
-msgstr ""
+msgstr "Sekundärer DNS-Server"
 
 # File: /usr/lang/src/wizards.php, line: 230
 msgid "Secondary DNS Server field is invalid"
-msgstr ""
+msgstr "Das Feld Sekundärer DNS-Server ist ungültig"
 
 # File: /usr/lang/src/wizards.php, line: 231
 msgid "Select an Authentication Backend Type"
-msgstr ""
+msgstr "Wählen Sie einen Authentifizierungs-Backend-Typ aus"
 
 # File: /usr/lang/src/wizards.php, line: 232
 msgid "SelectedType"
-msgstr ""
+msgstr "Ausgewählter Typ"
 
 # File: /usr/lang/src/wizards.php, line: 233
 msgid "Set Admin WebGUI Password"
-msgstr ""
+msgstr "Setzen des Admin-Passworts der Weboberfläche"
 
 # File: /usr/lang/src/wizards.php, line: 234
 msgid ""
@@ -25238,11 +25364,11 @@ msgstr "Staat oder Provinz"
 
 # File: /usr/lang/src/wizards.php, line: 239
 msgid "Static"
-msgstr ""
+msgstr "Statisch"
 
 # File: /usr/lang/src/wizards.php, line: 240
 msgid "Static IP Configuration"
-msgstr ""
+msgstr "Statische IP-Konfiguration"
 
 msgid "TCP"
 msgstr "TCP"
@@ -25256,7 +25382,7 @@ msgstr "TLS Authentifikation"
 
 # File: /usr/lang/src/wizards.php, line: 245
 msgid "TLS Shared Key"
-msgstr ""
+msgstr "Gemeinsamer TLS-Schlüssel"
 
 # File: /usr/lang/src/wizards.php, line: 246
 msgid ""
@@ -25307,23 +25433,23 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 252
 msgid "Time Server Information"
-msgstr ""
+msgstr "Zeitserverinformation"
 
 # File: /usr/lang/src/wizards.php, line: 253
 msgid "Time server hostname"
-msgstr ""
+msgstr "Zeitserverhostname"
 
 # File: /usr/lang/src/wizards.php, line: 254
 msgid "Timezone"
-msgstr ""
+msgstr "Zeitzone"
 
 # File: /usr/lang/src/wizards.php, line: 255
 msgid "Traffic from clients through VPN"
-msgstr ""
+msgstr "Datenverkehr von Clients durch das VPN"
 
 # File: /usr/lang/src/wizards.php, line: 256
 msgid "Traffic from clients to server"
-msgstr ""
+msgstr "Datenverkehr von Clients an den Server"
 
 msgid "Transport"
 msgstr "Transport"
@@ -25369,15 +25495,15 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 268
 msgid "User Naming Attribute"
-msgstr ""
+msgstr "Benutzerbenennungsattribut"
 
 # File: /usr/lang/src/wizards.php, line: 269
 msgid "WINS Server 1"
-msgstr ""
+msgstr "WINS-Server 1"
 
 # File: /usr/lang/src/wizards.php, line: 270
 msgid "WINS Server 2"
-msgstr ""
+msgstr "WINS-Server 2"
 
 # File: /usr/lang/src/wizards.php, line: 271
 msgid ""
@@ -25397,47 +25523,47 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 273
 msgid "Wizard completed."
-msgstr ""
+msgstr "Assistent abgeschlossen."
 
 # File: /usr/lang/src/wizards.php, line: 274
 msgid "Your configuration is now complete."
-msgstr ""
+msgstr "Ihre Konfiguration ist nun vollständig."
 
 # File: /usr/lang/src/wizards.php, line: 275
 msgid "addrpool"
-msgstr ""
+msgstr "Adresspool"
 
 # File: /usr/lang/src/wizards.php, line: 276
 msgid "authscope"
-msgstr ""
+msgstr "Authentifizierungsscope"
 
 # File: /usr/lang/src/wizards.php, line: 277
 msgid "authserv"
-msgstr ""
+msgstr "Authentifizierungsserver"
 
 # File: /usr/lang/src/wizards.php, line: 278
 msgid "authtype"
-msgstr ""
+msgstr "Authentifizierungstyp"
 
 # File: /usr/lang/src/wizards.php, line: 279
 msgid "basedn"
-msgstr ""
+msgstr "Basis-DN"
 
 # File: /usr/lang/src/wizards.php, line: 280
 msgid "certca"
-msgstr ""
+msgstr "Zertifikatszertifizierungsstelle"
 
 # File: /usr/lang/src/wizards.php, line: 281
 msgid "certname"
-msgstr ""
+msgstr "Zertifikatsname"
 
 # File: /usr/lang/src/wizards.php, line: 282
 msgid "city"
-msgstr ""
+msgstr "Stadt"
 
 # File: /usr/lang/src/wizards.php, line: 283
 msgid "compression"
-msgstr ""
+msgstr "Komprimierung"
 
 # File: /usr/lang/src/wizards.php, line: 284
 msgid "concurrentcon"
@@ -25445,11 +25571,11 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 285
 msgid "country"
-msgstr ""
+msgstr "Land"
 
 # File: /usr/lang/src/wizards.php, line: 286
 msgid "crypto"
-msgstr ""
+msgstr "Kryptografie"
 
 # File: /usr/lang/src/wizards.php, line: 287
 msgid "defaultdomain"
@@ -25457,7 +25583,7 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 288
 msgid "descr"
-msgstr ""
+msgstr "Beschreibung"
 
 # File: /usr/lang/src/wizards.php, line: 290
 msgid "dhparameters"
@@ -25469,23 +25595,23 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 292
 msgid "dnserver2"
-msgstr ""
+msgstr "DNS-Server 2"
 
 # File: /usr/lang/src/wizards.php, line: 293
 msgid "dnserver3"
-msgstr ""
+msgstr "DNS-Server 3"
 
 # File: /usr/lang/src/wizards.php, line: 294
 msgid "dnserver4"
-msgstr ""
+msgstr "DNS-Server 4"
 
 # File: /usr/lang/src/wizards.php, line: 295
 msgid "dnsserver1"
-msgstr ""
+msgstr "DNS-Server 1"
 
 # File: /usr/lang/src/wizards.php, line: 296
 msgid "dummy"
-msgstr ""
+msgstr "Dummy"
 
 # File: /usr/lang/src/wizards.php, line: 297
 msgid "duplicate_cn"
@@ -25518,23 +25644,23 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "ip"
-msgstr ""
+msgstr "IP"
 
 # File: /usr/lang/src/wizards.php, line: 306
 msgid "keylength"
-msgstr ""
+msgstr "Schlüssellänge"
 
 # File: /usr/lang/src/wizards.php, line: 307
 msgid "lifetime"
-msgstr ""
+msgstr "Lebensdauer"
 
 # File: /usr/lang/src/wizards.php, line: 308
 msgid "localnet"
-msgstr ""
+msgstr "lokales Netzwerk"
 
 # File: /usr/lang/src/wizards.php, line: 309
 msgid "localport"
-msgstr ""
+msgstr "lokaler Port"
 
 # File: /usr/lang/src/wizards.php, line: 310
 msgid "memberattr"
@@ -25602,7 +25728,7 @@ msgstr "Geheimnis"
 
 # File: /usr/lang/src/wizards.php, line: 327
 msgid "state"
-msgstr ""
+msgstr "Status"
 
 # File: /usr/lang/src/wizards.php, line: 328
 msgid "tlssharedkey"
@@ -25610,15 +25736,15 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 329
 msgid "tos"
-msgstr ""
+msgstr "TOS"
 
 # File: /usr/lang/src/wizards.php, line: 330
 msgid "transport"
-msgstr ""
+msgstr "Transport"
 
 # File: /usr/lang/src/wizards.php, line: 331
 msgid "tunnelnet"
-msgstr ""
+msgstr "Tunnelnetzwerk"
 
 # File: /usr/lang/src/wizards.php, line: 332
 msgid "userdn"
@@ -25626,8 +25752,8 @@ msgstr ""
 
 # File: /usr/lang/src/wizards.php, line: 333
 msgid "winsserver1"
-msgstr ""
+msgstr "WINS-Server 1"
 
 # File: /usr/lang/src/wizards.php, line: 334
 msgid "winsserver2"
-msgstr ""
+msgstr "WINS-Server 2"
