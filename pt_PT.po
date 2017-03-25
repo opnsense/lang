@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-01 19:12+0000\n"
+"POT-Creation-Date: 2017-03-25 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5567,7 +5567,7 @@ msgstr "Algoritmo de encriptação"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 813
 msgid "Phase 1 proposal (Algorithms)"
-msgstr "Proposta Fase 1 (Algoritmos)"
+msgstr "Algoritmo de encriptação"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 808
 msgid ""
@@ -5592,7 +5592,9 @@ msgstr "O meu Certificado"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 765
 msgid "Input your Pre-Shared Key string."
-msgstr "Introduzir a sua chave Pré partilhada."
+msgstr ""
+"NOTA: Isto è conhecido como a definiçao de \"grupo\" em algumas "
+"implementaçoes de clientes VPN"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 752
 msgid ""
@@ -5736,13 +5738,14 @@ msgstr "Um valor numérico deverá de ser especificado para o desfasamento DPD."
 msgid ""
 "A valid User FQDN in the form of user@my.domain.com for 'Peer identifier' "
 "must be specified."
-msgstr "Um valor numérico deverá de ser especificado para o desfasamento DPD."
+msgstr ""
+"Um utilizador FDQN válido no formulário de user@my.domain.com 'Peer "
+"identifier' deverá de ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 302
 msgid "A valid FQDN for 'Peer identifier' must be specified."
 msgstr ""
-"Um utilizador FDQN válido no formulário de user@my.domain.com  'Peer "
-"identifier' deverá de ser especificado."
+"Um utilizador FDQN válido em 'Peer identifier' deverá de ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 298
 msgid "A valid domain name for 'Peer identifier' must be specified."
@@ -5756,7 +5759,9 @@ msgstr "Um endereço IP válido em 'Peer identifier' deverá ser especificado."
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 292
 msgid ""
 "Please enter a user and fully qualified domain name for 'Peer Identifier'"
-msgstr "Um endereço IP válido em 'Peer identifier' deverá ser especificado."
+msgstr ""
+"Por favor introduzir um utilizador e um nome de domínio totalmente "
+"qualificado em 'Peer Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 289
 msgid "Please enter a fully qualified domain name for 'Peer Identifier'"
@@ -5766,9 +5771,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 286
 msgid "Please enter a keyid tag for 'Peer Identifier'"
-msgstr ""
-"Por favor introduzir um utilizador e um nome de domínio totalmente "
-"qualificado em 'Peer Identifier'"
+msgstr "Por favor introduza uma tag Keyid em 'Peer Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 283
 msgid "Please enter an address for 'Peer Identifier'"
@@ -5776,25 +5779,25 @@ msgstr "Por favor introduza uma tag Keyid em 'Peer Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 276
 msgid "A valid Dynamic DNS address for 'My identifier' must be specified."
-msgstr "Por favor introduza uma tag Keyid em 'Peer Identifier'"
+msgstr ""
+"Um endereço dinâmico válido de DNS em 'My identifier' deverá ser "
+"especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 272
 msgid ""
 "A valid User FQDN in the form of user@my.domain.com for 'My identifier' must "
 "be specified."
 msgstr ""
-"Um endereço dinâmico válido de DNS em 'My identifier' deverá ser "
-"especificado. "
-
-# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 268
-msgid "A valid FQDN for 'My identifier' must be specified."
-msgstr ""
 "Um utilizador FQDN valido no formulário de user@my.domain.com em 'My "
 "identifier' deverá ser especificado."
 
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 268
+msgid "A valid FQDN for 'My identifier' must be specified."
+msgstr "Um FQDN válido em 'My identifier' deverá ser especificado."
+
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 266
 msgid "A valid domain name for 'My identifier' must be specified."
-msgstr "Um FQDN válido em 'My identifier' deverá ser especificado."
+msgstr "Um nome de domínio válido em 'My identifier' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 264
 msgid "A valid IP address for 'My identifier' must be specified."
@@ -5802,11 +5805,13 @@ msgstr "Um FQDN válido em 'My identifier' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 262
 msgid "Please enter a dynamic domain name for 'My Identifier'"
-msgstr "Um FQDN válido em 'My identifier' deverá ser especificado."
+msgstr "Por favor introduza um nome dinâmico de domínio em 'My Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 260
 msgid "Please enter a user and fully qualified domain name for 'My Identifier'"
-msgstr "Um endereço IP válido em 'My identifier' deverá ser especificado."
+msgstr ""
+"Por favor introduza um nome de domínio totalmente qualificado em 'My "
+"Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 258
 msgid "Please enter a fully qualified domain name for 'My Identifier'"
@@ -5814,9 +5819,7 @@ msgstr "Por favor introduza um nome dinâmico de domínio em 'My Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 256
 msgid "Please enter a keyid tag for 'My Identifier'"
-msgstr ""
-"Por favor introduza um nome de domínio totalmente qualificado em 'My "
-"Identifier'"
+msgstr "Por favor introduza a tag Keyid em 'My Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 252
 msgid ""
@@ -5828,13 +5831,11 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 244
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
-msgstr ""
-"Por favor introduza um nome de domínio totalmente qualificado em 'My "
-"Identifier'"
+msgstr "Existe uma fase 2 a usar IPv4. Não pode usar IPv6."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 254
 msgid "Please enter an address for 'My Identifier'"
-msgstr "Por favor introduza a tag Keyid em 'My Identifier'"
+msgstr "Por favor introduza um endereço em 'My Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 240
 msgid "There is a Phase 2 using IPv6, you cannot use IPv4."
@@ -5842,45 +5843,48 @@ msgstr "Por favor introduza um endereço em 'My Identifier'"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 229
 msgid "The remote gateway \"%s\" is already used by phase1 \"%s\"."
-msgstr ""
-"Por favor selecione um identificador (Meu identificador) diferente de 'any' "
-"quand a interface 'Any' é selecionada."
+msgstr "A gateway remota \"%s\" já está a usar phase1 \"%s\"."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 220
 msgid ""
 "A valid remote gateway IPv6 address must be specified or you need to change "
 "protocol to IPv4"
-msgstr "A gateway remota \"%s\" já está a usar  phase1 \"%s\"."
+msgstr ""
+"Um endereço IPv6 de gateway remota válida deverá ser especificado ou "
+"necessita de alterar o protocolo para IPv4"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 218
 msgid ""
 "A valid remote gateway IPv4 address must be specified or you need to change "
 "protocol to IPv6"
-msgstr "A gateway remota \"%s\" já está a usar  phase1 \"%s\"."
+msgstr ""
+"Um endereço IPv4 da gateway remota válida deverá ser especificado ou precisa "
+"de alterar o protocolo para IPv6 "
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 216
 msgid "A valid remote gateway address or host name must be specified."
-msgstr "A gateway remota \"%s\" já está a usar  phase1 \"%s\"."
+msgstr ""
+"Um endereço válido da gateway remota ou nome de host deve ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 211
 msgid "The P1 lifetime must be an integer."
-msgstr "Um endereço válido da gateway remota deverá ser especificado. "
+msgstr "O tempo de vida do P1 deve ser um valor inteiro."
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 205
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 630
 msgid "Remote gateway"
-msgstr "A vigência do P1 deve ser um inteiro"
+msgstr "Gateway remota"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 182
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 338
 msgid "%s can only be used with IKEv2 type VPNs."
-msgstr "Gateway remota"
+msgstr "%s só pode ser usada com o tipo de VPNs IKEv2."
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 404
 # File: /usr/core/src/www/vpn_ipsec.php, line: 536
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 739
 msgid "auto"
-msgstr "%s só pode ser usada com o tipo de VPNs IKEv2."
+msgstr "auto"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 529
 msgid "Provide a login banner to clients"
@@ -5894,13 +5898,13 @@ msgstr "Banner de Login"
 msgid ""
 "Provide the Phase2 PFS group to clients ( overrides all mobile phase2 "
 "settings )"
-msgstr "Banner de Login"
-
-# File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 503
-msgid "Phase2 PFS Group"
 msgstr ""
 "Fornecer o grupo PFS Phase2 aos clientes (sobrepõe todas as defenições de "
 "phase 2 móveis)"
+
+# File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 503
+msgid "Phase2 PFS Group"
+msgstr "Grupo PFS Phase2"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 498
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 663
@@ -5924,7 +5928,7 @@ msgstr "Fornece uma lista de servidores DNS aos clientes"
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 579
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1348
 msgid "DNS Servers"
-msgstr "Fornece uma lista de servidores DNS aos clientes"
+msgstr "Servidores DNS"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 464
 msgid ""
@@ -5939,69 +5943,67 @@ msgid ""
 "Provide a list of split DNS domain names to clients. Enter a comma separated "
 "list."
 msgstr ""
-"NOTA: Se deixar em branco e o domínio por defeito está definido, ele será "
-"usado com este valor."
+"Fornece uma lista de domínios split DNS aos clientes. Introduza uma lista "
+"separada por virgulas."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 458
 msgid "Split DNS"
-msgstr ""
-"Fornece uma lista de domínios split DNS aos clientes. Introduza uma lista "
-"separada por virgulas."
+msgstr "Split DNS"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 453
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 574
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1342
 msgid "Provide a default domain name to clients"
-msgstr "Split DNS"
+msgstr "Fornece um nome de domínio predefinido aos clientes"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 443
 msgid ""
 "NOTE: With iPhone clients, this does not work when deployed via the iPhone "
 "configuration utility, only by manual entry."
-msgstr "Fornece um nome de domínio predefinido aos clientes"
+msgstr ""
+"NOTA: Com clientes iPhone, isto não funciona quando distribuir através do "
+"utilitário de configuração do iPhone. Apenas por entrada manual."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 442
 msgid "Allow clients to save Xauth passwords (Cisco VPN client only)."
 msgstr ""
-"NOTA: Com clientes iPhone, isto não funciona quando dsitribuida através do "
-"utilitário de configuração do iPhone. Apenas por entrada manual."
+"Permite que os clientes guardem Xauth passwords (Cisco VPN clientes apenas)."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 438
 msgid "Save Xauth Password"
-msgstr ""
-"Permite que os clientes guardem  Xauth passwords (Cisco VPN clientes apenas)."
+msgstr "Guarda Xauth Password"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 433
 msgid "Provide a list of accessible networks to clients"
-msgstr "Guarda Xauth Password"
+msgstr "Fornece uma lista de redes disponíveis para os clientes"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 429
 msgid "Network List"
-msgstr "Fornece uma lista de redes disponíveis para os clientes"
+msgstr "Lista de redes"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 412
 msgid "Provide a virtual IP address to clients"
-msgstr "Lista de redes"
+msgstr "Fornece um endereço virtual IP aos clientes"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 409
 msgid "Virtual Address Pool"
-msgstr "Fornece um endereço virtual IP aos clientes"
+msgstr "Pool de endereços Virtuaisl"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 406
 msgid "Client Configuration (mode-cfg)"
-msgstr "Pool de endereços Virtuaisl"
+msgstr "Configuração cliente (mode-cfg)"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 401
 msgid "system"
-msgstr "Configuração cliente (mode-cfg)"
+msgstr "Sistema"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 396
 msgid "Group Authentication"
-msgstr "sistema"
+msgstr "Autenticação de Grupo"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 382
 msgid "User Authentication"
-msgstr "Autenticação de Grupo"
+msgstr "Autenticação de utilizador"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 378
 msgid "Extended Authentication (Xauth)"
@@ -6009,39 +6011,39 @@ msgstr "Autenticação de utilizador"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 373
 msgid "Enable IPsec Mobile Client Support"
-msgstr "Autenticação estendida (Xauth)"
+msgstr "Activa o suporte ao cliente móvel IPsec"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 362
 msgid "IKE Extensions"
-msgstr "Activa o suporte ao cliente móvel IPsec"
+msgstr "Extensões IKE"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 350
 msgid ""
 "Support for IPsec Mobile clients is enabled but a Phase1 definition was not "
 "found"
-msgstr "Extensões IKE"
-
-# File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 350
-msgid "Please click Create to define one."
 msgstr ""
 "Suporte para clientes móveis IPsec está activo, mas a definição da Phase1 "
 "não foi encontrada"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 350
-msgid "Create Phase1"
+msgid "Please click Create to define one."
 msgstr "Por favor clique em criar para definir um."
+
+# File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 350
+msgid "Create Phase1"
+msgstr "Criar Phase1"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 144
 msgid "A valid IP address for 'WINS Server #2' must be specified."
-msgstr "Criar Phase1"
+msgstr "Um endereço IP válido para 'WINS Server #2' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 141
 msgid "A valid IP address for 'WINS Server #1' must be specified."
-msgstr "Um endereço IP válido para 'WINS Server #2' deverá ser especificado."
+msgstr "Um endereço IP válido para 'WINS Server #1' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 137
 msgid "A valid IP address for 'DNS Server #4' must be specified."
-msgstr "Um endereço IP válido para 'WINS Server #2' deverá ser especificado."
+msgstr "Um endereço IP válido para 'DNS Server #4' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 134
 msgid "A valid IP address for 'DNS Server #3' must be specified."
@@ -6057,23 +6059,22 @@ msgstr "Um endereço IP válido para 'DNS Server #1' deverá ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 121
 msgid "A valid split DNS domain list must be specified."
-msgstr "Um endereço IP válido para 'DNS Server #1' deverá ser especificado."
+msgstr "Uma lista válida de divisão de domínios DNS deverá ser especificada."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 114
 msgid "A valid value for 'DNS Default Domain' must be specified."
-msgstr "Uma lisa válida de divisão de domínios DNS deverá ser especificada."
+msgstr "Um valor válido para 'DNS Default Domain' deve ser especificado."
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 110
 msgid ""
 "A valid IP address for 'Virtual Address Pool Network' must be specified."
 msgstr ""
-"Um valor válido para o 'Domínio pré definido de DNS' deverá ser especificado."
+"Um endereço de IP válido para uma 'pool de rede de endereços virtuais' "
+"deverá ser especificado"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 106
 msgid "User Authentication Source"
-msgstr ""
-"Um endereço de IP válido para uma 'pool de rede de endereços virtuais' "
-"deverá ser especificado."
+msgstr "Origem da autenticação do grupo"
 
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 106
 msgid "Group Authentication Source"
@@ -6082,7 +6083,7 @@ msgstr "Origem da autenticação do grupo"
 # File: /usr/core/src/www/vpn_ipsec_keys.php, line: 113
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 321
 msgid "The IPsec tunnel configuration has been changed"
-msgstr "Origem da autenticação do grupo"
+msgstr "A configuração do túnel IPsec foi alterada"
 
 # File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 164
 msgid "EAP"
@@ -6150,7 +6151,7 @@ msgstr "Identificador"
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 705
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 735
 msgid "User distinguished name"
-msgstr "A configuração do túnel IPsec foi alterada"
+msgstr "Nome distinto de utilizador"
 
 # File: /usr/core/src/www/vpn_ipsec_keys.php, line: 84
 msgid "Do you really want to delete this Pre-Shared Key?"
@@ -6405,14 +6406,14 @@ msgstr "Password alterada com sucesso"
 
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 56
 msgid "Sorry, you cannot change the password for a non-local user."
-msgstr "Password alterada com sucesso"
+msgstr "Desculpe, não pode alterar a password para um utilizador não local."
 
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 94
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp_users_edit.php, line: 98
 # File: /usr/core/src/www/system_usermanager.php, line: 236
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 44
 msgid "The passwords do not match."
-msgstr "Desculpe, não pode alterar a password para um utilizador não local."
+msgstr "A palavra pass não corresponde"
 
 # File: /usr/core/src/www/system_usermanager_import_ldap.php, line: 153
 msgid "Please select users to import:"
@@ -6699,7 +6700,7 @@ msgstr "Não pode destivar-se."
 # File: /usr/core/src/www/vpn_ipsec_keys.php, line: 113
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 321
 msgid "You must apply the changes in order for them to take effect."
-msgstr "Guardar"
+msgstr "Você deve aplicar as alterações para que elas entrem em vigor."
 
 # File: /usr/core/src/www/system_usermanager.php, line: 232
 msgid "The username is longer than 16 characters."
@@ -6751,32 +6752,32 @@ msgstr "Rede de destino para esta rota estatica"
 # File: /usr/core/src/www/system_routes_edit.php, line: 172
 # File: /usr/core/src/www/system_routes_edit.php, line: 178
 msgid "This network conflicts with address configured on interface %s."
-msgstr "Rede de destino para esta rota estatica"
+msgstr "Esta rede está em conflito com o endereço configurado no interface %s."
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 162
 msgid "A route to these destination networks already exists"
-msgstr "Esta rede está em conflito com o endereço configurado no interface %s."
+msgstr "Já existe uma rota para essa redes de destino"
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 113
 msgid "A IPv4 subnet can not be over 32 bits."
-msgstr "Já existe uma rota para essa redes de destino"
+msgstr "Uma sub-rede IPv4 não pode ter mais de 32 bits."
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 93
 msgid "A valid destination network bit count must be specified."
-msgstr "Já existe uma rota para essa redes de destino"
+msgstr "Uma contagem de bits de rede de destino válida deve ser especificada."
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 90
 msgid "A valid IPv4 or IPv6 destination network must be specified."
-msgstr "Uma destinação de bit de rede válida tem de ser especificada."
+msgstr "Uma rede de destino IPv4 ou IPv6 válida deve ser especificada."
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 83
 msgid "Destination network bit count"
-msgstr "Uma rede de destino IPv4 ou IPv6 válida deve ser especificada."
+msgstr "Numero de bits de rede de destino"
 
 # File: /usr/core/src/www/system_routes_edit.php, line: 82
 # File: /usr/core/src/www/system_routes_edit.php, line: 274
 msgid "Destination network"
-msgstr "Numero de bits de rede de destino"
+msgstr "Rede de destino"
 
 # File: /usr/core/src/www/system_routes.php, line: 325
 msgid ""
@@ -6784,7 +6785,7 @@ msgid ""
 "firewall. Static routes are only used for networks reachable via a different "
 "router, and not reachable via your default gateway."
 msgstr ""
-"Não introduza rotas estáticas para redes assosciadas a qualquer interface "
+"Não introduza rotas estáticas para redes associadas a qualquer interface "
 "desta firewall. Rotas estáticas são apenas usadas para redes alcançáveis via "
 "uma rota diferente, e não são alcançáveis via a gateway pré-definida."
 
@@ -6807,23 +6808,23 @@ msgstr "clonar rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 280
 msgid "delete route"
-msgstr "clonar rota"
+msgstr "apagar rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 276
 msgid "edit route"
-msgstr "apagar rota"
+msgstr "editar rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 272
 msgid "move selected routes before this route"
-msgstr "editar rota"
+msgstr "mover rotas selecionadas antes desta rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 255
 msgid "enable route"
-msgstr "mover rotas selecionadas antes desta rota"
+msgstr "ativar rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 255
 msgid "disable route"
-msgstr "mover rotas selecionadas antes desta rota"
+msgstr "desativar rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 226
 msgid ""
@@ -6835,9 +6836,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_routes.php, line: 181
 msgid "Do you really want to delete the selected routes?"
-msgstr ""
-"A configuração da rota estática foi alterada.%s Deverá aplicar as alterações "
-"para que as mesmas tenham efeito."
+msgstr "Tema a certeza que retende apagar a rota selecionada?"
 
 # File: /usr/core/src/www/system_routes.php, line: 159
 msgid "Do you really want to delete this route?"
@@ -6846,11 +6845,11 @@ msgstr "Tem a certeza que quer apagar esta rota?"
 # File: /usr/core/src/www/system_routes.php, line: 158
 # File: /usr/core/src/www/system_routes.php, line: 180
 msgid "Route"
-msgstr "Tem a certeza que quer apagar esta rota?"
+msgstr "Rota"
 
 # File: /usr/core/src/www/system_routes.php, line: 142
 msgid "Add route"
-msgstr "Rota"
+msgstr "Adicionar Rota"
 
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users.php, line: 77
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe.php, line: 97
@@ -7330,10 +7329,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_general.php, line: 380
 msgid "Use gateway"
-msgstr ""
-"Introduza o endereço IP a ser usado pelo sistema para a resolução do DNS. "
-"Estes também serão usados para o serviço de DHCP. DNS forwarder e para "
-"clientes PPTP VPN."
+msgstr "Utilizar Gateway"
 
 # File: /usr/core/src/www/system_general.php, line: 379
 msgid "DNS Server"
@@ -7377,7 +7373,7 @@ msgstr "Rede"
 
 # File: /usr/core/src/www/system_general.php, line: 342
 msgid "This will change the look and feel of the GUI."
-msgstr "Isso alterará a aparência da GUI"
+msgstr "Isso irá alterar a aparência da GUI"
 
 # File: /usr/core/src/www/system_general.php, line: 328
 msgid "Theme"
@@ -7426,7 +7422,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_general.php, line: 91
 msgid "The hostname may only contain the characters a-z, 0-9 and '-'."
-msgstr "O hostname só pode conter os caracteres a-z, 0-9 and '-'."
+msgstr "O nome de host só pode conter os caracteres a-z, 0-9 e '-'."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 820
 msgid ""
@@ -7557,15 +7553,15 @@ msgstr "De"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 710
 msgid "Latency thresholds"
-msgstr "De"
+msgstr "Limiares de latência"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 705
 msgid "Weight for this gateway when used in a Gateway Group."
-msgstr "Limiares de latência"
+msgstr "Peso para esta gateway quando usada num Grupo de Gateway."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 686
 msgid " - Show advanced option"
-msgstr "Peso para esta gateway quando usada num Grupo de Gateway."
+msgstr "Mostrar opções avançadas"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 679
 msgid "This will force this gateway to be considered Down"
@@ -7574,104 +7570,106 @@ msgstr "Isto vai forçar a gateway a ser considerada em baixo"
 # File: /usr/core/src/www/system_gateways_edit.php, line: 674
 # File: /usr/core/src/www/system_gateways_edit.php, line: 678
 msgid "Mark Gateway as Down"
-msgstr "Isto vai forçar a gateway a ser considerada em baixo"
+msgstr "Marcar a gateway como em baixo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 667
 msgid ""
 "Enter an alternative address here to be used to monitor the link. This is "
 "used for the quality RRD graphs as well as the load balancer entries. Use "
 "this if the gateway does not respond to ICMP echo requests (pings)"
-msgstr "Marcar a gateway como em baixo."
-
-# File: /usr/core/src/www/system_gateways_edit.php, line: 666
-msgid "Alternative monitor IP"
 msgstr ""
 "Introduzir um endereço alternativo aqui para ser usado para monitorizar o "
 "link. Isto é usado para os gráficos de qualidade RRD assim como para o "
 "balançar de carregamento de entradas. Usar isto se a gateway não responder "
 "aos pedidos de eco de ICMP (pings)"
 
+# File: /usr/core/src/www/system_gateways_edit.php, line: 666
+msgid "Alternative monitor IP"
+msgstr "Monitor IP alteranativo"
+
 # File: /usr/core/src/www/system_gateways_edit.php, line: 657
 msgid "This will consider this gateway as always being up"
-msgstr "Monitor IP alternativo"
+msgstr "sto vai considerar esta gateway como estando sempre funcional"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 653
 msgid "Disable Gateway Monitoring"
-msgstr "Isto vai considerar esta gateway como estando sempre funcional"
+msgstr "Desativar o monitoramento da gateway"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 648
 msgid "This will allow the gateway to exist outside of the interface subnet."
-msgstr "Desativar o monitoramento da gateway"
+msgstr "Isto vai permitir que a gateway exista fora da sub-rede de interface."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 644
 msgid "Far Gateway"
-msgstr "Isto vai permitir que  a gateway exista fora da sub-rede de interface."
+msgstr "Gateway longínqua"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 639
 msgid "This will select the above gateway as the default gateway"
-msgstr "Gateway longínqua"
+msgstr "Isto vai selecionar a gateway acima como a gateway pré definida."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 635
 msgid "Default Gateway"
-msgstr "Isto vai selecionar a gateway acima como a gateway pré definida."
+msgstr "Gateway pré definida."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 630
 msgid "Gateway IP address"
-msgstr "Isto vai selecionar a gateway acima como a gateway pré definida."
+msgstr "Endereço IP da gateway"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 621
 msgid "Gateway name"
-msgstr "Endereço IP da gateway"
+msgstr "Nome da Gateway"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 612
 msgid "Choose the Internet Protocol this gateway uses."
-msgstr "Nome da Gateway"
+msgstr "Escolher o Protocolo de internet que esta gateway usa."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 596
 msgid "Choose which interface this gateway applies to."
-msgstr "Escolher o Protocolo de internet que esta gateway usa."
+msgstr "Escolher a qual interface esta gateway se aplica."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 579
 msgid ""
 "Set this option to disable this gateway without removing it from the list."
-msgstr "Escolher a qual interface esta gateway se aplica."
+msgstr "Defina esta opção para desativar esse gateway sem removê-lo da lista."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 578
 msgid "Disable this gateway"
-msgstr "Escolher a qual interface esta gateway se aplica."
+msgstr "Desabilitar esta Gateway"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 567
 msgid "Edit gateway"
-msgstr "Desabilitar esta Gateway"
+msgstr "Editar Gateway"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 314
 msgid "The lost probe delay needs to be positive."
-msgstr "Editar Gateway"
+msgstr "O delay de sonda perdida tem de ser positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 312
 msgid "The lost probe delay needs to be a numeric value."
-msgstr "O delay de  sonda perdida tem de ser positivo"
+msgstr "O delay de sonda perdida tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 306
 msgid "The average packet loss probes qty needs to be positive."
-msgstr "O delay de sonda perdida tem de ser um valor numérico."
+msgstr "A sonda de perda de pacotes média qty tem de ser positiva."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 304
 msgid "The average packet loss probes qty needs to be a numeric value."
-msgstr "A sonda de perda de pacotes média qty tem de ser positiva."
+msgstr "A sonda de perda de pacotes média qty tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 298
 msgid "The average delay replies qty needs to be positive."
-msgstr "A sonda de perda de pacotes média qty tem de ser um valor numérico."
+msgstr "O tempo médio de resposta qty precisa ser positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 296
 msgid "The average delay replies qty needs to be a numeric value."
-msgstr "O desfasamento médio de resposta qty tem de ser positivo."
+msgstr "A média de atraso qty respostas deve ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 290
 msgid ""
 "The down time setting needs to be higher than the default probe interval (%d)"
-msgstr "O desfasamento médio de resposta qty tem de ser um valor numérico."
+msgstr ""
+"A definição de tempo em baixo tem de ser maior que a predefinição de "
+"intervalo de sonda (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 286
 msgid ""
@@ -7683,31 +7681,31 @@ msgstr ""
 # File: /usr/core/src/www/system_gateways_edit.php, line: 282
 msgid "The probe interval needs to be less than the down time setting."
 msgstr ""
-"O intervalo de sonda tem de ser menor que a predefinição da definição de "
-"tempo em baixo (%d)"
+"O intervalo de sonda tem de ser menor que a definição de tempo em baixo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 276
 msgid "The down time setting needs to be positive."
-msgstr ""
-"O intervalo de sonda tem de ser menor que a definição de tempo em baixo."
+msgstr "A definição de tempo em baixo tem de ser positiva."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 274
 msgid "The down time setting needs to be a numeric value."
-msgstr "A definição de tempo em baixo tem de ser positiva."
+msgstr "A definição de tempo em baixo tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 268
 msgid "The probe interval needs to be positive."
-msgstr "A definição de tempo em baixo tem de ser um valor numérico."
+msgstr "O intervalo de sonda tem de ser positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 266
 msgid "The probe interval needs to be a numeric value."
-msgstr "O intervalo de sonda tem de ser positivo."
+msgstr "O intervalo de sonda tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 260
 msgid ""
 "The high Packet Loss threshold needs to be higher than the default low "
 "Packet Loss threshold (%d)"
-msgstr "O intervalo de sonda  tem de ser um valor numérico."
+msgstr ""
+"O mínimo do limiar de perda de pacotes tem de ser menor que a predefinição "
+"de limiar de perda de pacotes máxima (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 256
 msgid ""
@@ -7722,16 +7720,16 @@ msgid ""
 "The high Packet Loss threshold needs to be higher than the low Packet Loss "
 "threshold"
 msgstr ""
-"O mínimo do limiar de perda de pacotes tem de ser menor que a predefinição "
-"de limiar de perda de pacotes máxima (%d)"
+"O alto limite de perda de pacotes deve ser maior do que o limite de perda de "
+"pacotes baixo"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 246
 msgid ""
 "The high latency threshold needs to be higher than the default low latency "
 "threshold (%d)"
 msgstr ""
-"O máximo do limiar de perda de pacotes tem de ser maior que a predefinição "
-"de limiar de perda de pacotes mínima (%d)"
+"O limite de latência alto necessita de ser maior que o limite de latência "
+"baixa pré definido (%d)"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 242
 msgid ""
@@ -7745,26 +7743,24 @@ msgstr ""
 msgid ""
 "The high latency threshold needs to be higher than the low latency threshold"
 msgstr ""
-"O limar de latência mínima tem de ser menor que a predefinição de limiar de "
-"latência máxima (%d)"
+"O limite de latência alto necessita de ser maior que o limite de latência "
+"baixa"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 230
 msgid "The high Packet Loss threshold needs to be 100 or less."
-msgstr ""
-"O limar de latência máxima tem de ser maior que o de limiar de latência "
-"mínima"
+msgstr "O limar máximo de perda de pacotes tem de ser 100 ou menos."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 228
 msgid "The high Packet Loss threshold needs to be positive."
-msgstr "O limar máximo de perda de pacotes tem de ser 100 ou menos."
+msgstr "O limar máximo de perda de pacotes tem de ser de positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 226
 msgid "The high Packet Loss threshold needs to be a numeric value."
-msgstr "O limar máximo de perda de pacotes tem de positivo."
+msgstr "O limar máximo de perda de pacotes tem de ser de positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 220
 msgid "The low Packet Loss threshold needs to be less than 100."
-msgstr "O limar máximo de perda de pacotes tem de positivo."
+msgstr "O limar mínimo de perda de pacotes tem de ser menor que 100."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 218
 msgid "The low Packet Loss threshold needs to be positive."
@@ -7772,35 +7768,35 @@ msgstr "O limar mínimo de perda de pacotes tem de ser menor que 100."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 216
 msgid "The low Packet Loss threshold needs to be a numeric value."
-msgstr "O limar mínimo de perda de pacotes tem de ser positivo."
+msgstr "O limar mínimo de perda de pacotes tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 210
 msgid "The high latency threshold needs to be positive."
-msgstr "O limar mínimo de perda de pacotes tem de ser um valor numérico."
+msgstr "O limar máximo de latência tem de ser positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 208
 msgid "The high latency threshold needs to be a numeric value."
-msgstr "O limar máximo de latência tem de ser positivo."
+msgstr "O limar máximo de latência tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 202
 msgid "The low latency threshold needs to be positive."
-msgstr "O limar máximo de latência tem de ser um valor numérico."
+msgstr "O limar mínimo de latência tem de ser positivo."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 200
 msgid "The low latency threshold needs to be a numeric value."
-msgstr "O limar mínimo de latência tem de ser positivo."
+msgstr "O limar mínimo de latência tem de ser um valor numérico."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 190
 msgid ""
 "The monitor IP address \"%s\" is already in use. You must choose a different "
 "monitor IP."
-msgstr "O limar mínimo de latência tem de ser um valor numérico."
-
-# File: /usr/core/src/www/system_gateways_edit.php, line: 184
-msgid "The gateway IP address \"%s\" already exists."
 msgstr ""
 "O endereço IP do monitor \"%s\" está em uso. Deverá escolher um endereço IP "
 "diferente."
+
+# File: /usr/core/src/www/system_gateways_edit.php, line: 184
+msgid "The gateway IP address \"%s\" already exists."
+msgstr "O endereço IP da gateway \"%s\" já existe."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 178
 msgid "The gateway name \"%s\" already exists."
@@ -7808,17 +7804,19 @@ msgstr "O endereço IP da gateway \"%s\" já existe."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 172
 msgid "Changing name on a gateway is not allowed."
-msgstr "O neme da gateway \"%s\" já existe."
+msgstr "Alterar o nome da gateway não é permitido."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 146
 msgid "A valid monitor IP address must be specified."
-msgstr "Alterar o nome da gateway não é permitido."
+msgstr "O endereço IP válido do monitor deverá ser especificado."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 141
 msgid ""
 "Dynamic gateway values cannot be specified for interfaces with a static IPv6 "
 "configuration."
-msgstr "O endereço IP válido do monitor deverá ser especificado."
+msgstr ""
+"OS valores dinâmicos da gateway não podem ser especificados para o interface "
+"com configuração estática de IPv6."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 136
 msgid ""
@@ -7826,15 +7824,15 @@ msgid ""
 "configuration."
 msgstr ""
 "OS valores dinâmicos da gateway não podem ser especificados para o interface "
-"com configuração estática de IPv6."
+"com configuração estática de IPv4.."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 106
 msgid ""
 "Cannot add IPv6 Gateway Address because no IPv6 address could be found on "
 "the interface."
 msgstr ""
-"OS valores dinâmicos da gateway não podem ser especificados para o interface "
-"com configuração estática de IPv4."
+"Não pode ser adicionado um endereço IPv6 à Gateway porque não pode ser "
+"encontrado endereço IPv6 no interface."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 97
 # File: /usr/core/src/www/system_gateways_edit.php, line: 128
@@ -7842,8 +7840,8 @@ msgid ""
 "The gateway address %1$s does not lie within one of the chosen interface's "
 "subnets."
 msgstr ""
-"Não pode ser adicionado um endereço IPv6 à Gateway porque não pode ser "
-"encontrado endereço IPv6 no interface."
+"O endereço de gateway% 1$s não está dentro de uma das sub-redes da interface "
+"escolhida."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 75
 msgid ""
@@ -7855,18 +7853,16 @@ msgstr ""
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 67
 msgid "A valid gateway IP address must be specified."
-msgstr ""
-"Não é possível adicionar um endereço IPv4 na gateway, porque não foi "
-"encontrado nenhum endereço IPv4 na interface."
+msgstr "Um endereço IP de gateway válido deve ser especificado."
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 58
 msgid "A valid gateway name must be specified."
-msgstr "Um endereço IP de gateway válido deve ser especificado."
+msgstr "Um nome de gateway válido deve ser especificado."
 
 # File: /usr/core/src/www/system_gateways.php, line: 305
 # File: /usr/core/src/www/system_gateways_edit.php, line: 662
 msgid "Monitor IP"
-msgstr "Um nome de gateway válido deve ser especificado."
+msgstr "Monitor IP"
 
 # File: /usr/core/src/www/system_gateways.php, line: 385
 msgid "delete selected items"
@@ -7935,7 +7931,9 @@ msgstr ""
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 295
 msgid "When to trigger exclusion of a member"
-msgstr "Quando desencadear a exclusão de um membro"
+msgstr ""
+"A Gateway '%s' não pode ser apagada porque está a ser usada no grupo de "
+"Gateway '%s'"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 292
 msgid "Packet Loss or High Latency"
@@ -7986,7 +7984,7 @@ msgstr "Link prioritário"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 246
 msgid "Interface Address"
-msgstr "Link prioritário"
+msgstr "Endereço da interface"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 228
 msgid "Tier %d"
@@ -8043,7 +8041,7 @@ msgstr "Não é permitido alterar o nome num grupo da gateway."
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 395
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 610
 msgid "Disabled"
-msgstr "O nome da gateway não deverá conter caracteres inválidos."
+msgstr "Desativado"
 
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 78
 msgid "A valid gateway group name must be specified."
@@ -8104,74 +8102,74 @@ msgstr "Exportar CRL"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 651
 msgid "Unknown (imported)"
-msgstr "Exportar CRL"
+msgstr "(importação) desconhecida"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 635
 msgid "Import CRL for %s"
-msgstr "(importação) desconhecida"
+msgstr "Importar CRL para %s"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 630
 msgid "Add or Import CRL for %s"
-msgstr "Importar CRL para %s"
+msgstr "Adicionar ou importar CRL para %s"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 576
 msgid "Reason"
-msgstr "Adicionar ou importar CRL para %s"
+msgstr "Motivo"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 562
 msgid "Choose a Certificate to Revoke"
-msgstr "Motivo"
+msgstr "Escolha um certificado para revogar"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 558
 msgid "Revoke a Certificate"
-msgstr "Escolha um certificado para revogar"
+msgstr "Revogar um Certificado"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 553
 msgid "No Certificates Found for this CA."
-msgstr "Revogar um certificado"
+msgstr "Não foram encontrados certificados para este CA."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 537
 msgid "Delete this certificate from the CRL"
-msgstr "Não foram encontrados certificados para este CA."
+msgstr "Apagar este certificado desta CRL."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 526
 msgid "No Certificates Found for this CRL."
-msgstr "Não foram encontrados certificados para este CA."
+msgstr "Não foram encontrados certificados para esta CRL"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 517
 msgid "Revoked At"
-msgstr "Não foram encontrados certificados para esta CRL"
+msgstr "Revogado Em"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 516
 msgid "Revocation Reason"
-msgstr "Não foram encontrados certificados para esta CRL"
+msgstr "Motivo da revogação"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 512
 msgid "Currently Revoked Certificates for CRL"
-msgstr "Motivo da revogação"
+msgstr "Certificados actualmente revogados para CRL"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 190
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 258
 # File: /usr/core/src/www/system_advanced_admin.php, line: 328
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1322
 msgid "HTTP"
-msgstr "Motivo da revogação"
+msgstr "HTTP"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 474
 msgid "Edit Imported Certificate Revocation List"
-msgstr "Certificados actualmente revogados para CRL"
+msgstr "Editar a lista de importação de certificados revogados"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 448
 msgid "Default: 0"
-msgstr "Editar a lista de importação de certificados revogados"
+msgstr "Pré-definido: 0"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 444
 msgid "Serial"
-msgstr "Pré-definido: 0"
+msgstr "Série"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 439
 msgid "Default: 9999"
-msgstr "Série"
+msgstr "Pré-definido: 9999"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 430
 msgid "Internal Certificate Revocation List"
@@ -8180,16 +8178,16 @@ msgstr "Lista interna de certificados revogados"
 # File: /usr/core/src/www/system_crlmanager.php, line: 420
 # File: /usr/core/src/www/system_crlmanager.php, line: 487
 msgid "Paste a Certificate Revocation List in X.509 CRL format here."
-msgstr "Lista interna de certificados revogados"
+msgstr "Coloque aqui a lista de certificados revogados no formato X.509 CRL."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 416
 # File: /usr/core/src/www/system_crlmanager.php, line: 483
 msgid "CRL data"
-msgstr "Coloque aqui a lista de certificados revogados no formato X.509 CRL."
+msgstr "Dados CRL."
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 411
 msgid "Existing Certificate Revocation List"
-msgstr "Dados CRL"
+msgstr "Lista existente de Certificados Revogados"
 
 # File: /usr/core/src/www/system_crlmanager.php, line: 380
 msgid "Import an existing Certificate Revocation List"
@@ -8243,7 +8241,7 @@ msgstr "apagar cert"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1308
 msgid "export ca+user cert+user key in .p12 format"
-msgstr "exportar chave ca+utilizador e cert+utilizador  no formato .p12"
+msgstr "exportar chave ca+utilizador e cert+utilizador no formato .p12"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1304
 msgid "export user key"
@@ -8255,15 +8253,15 @@ msgstr "Exportar certificado do utilizador"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1296
 msgid "show certificate info"
-msgstr "Exportar certificado do utilizador"
+msgstr "mostrar informação do certificado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1292
 msgid "IPsec Tunnel"
-msgstr "mostrar informação do certificado"
+msgstr "Túnel IPsec"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1288
 msgid "OpenVPN Client"
-msgstr "Túnel IPsec"
+msgstr "Cliente OpenVPN"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1284
 msgid "OpenVPN Server"
@@ -8271,24 +8269,24 @@ msgstr "Cliente OpenVPN"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1280
 msgid "User Cert"
-msgstr "Servidor OpenVPN"
+msgstr "Certificado do utilzador"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1272
 # File: /usr/core/src/www/system_usermanager.php, line: 724
 msgid "Revoked"
-msgstr "Certificado do utuilzador"
+msgstr "Revogado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1250
 msgid "Server:"
-msgstr "Revogado"
+msgstr "Servidor"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1249
 msgid "CA:"
-msgstr "Servidor"
+msgstr "CA:"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1234
 msgid "external - signature pending"
-msgstr "CA:"
+msgstr "Externo - Assinatura pendente"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1210
 # File: /usr/core/src/www/system_crlmanager.php, line: 612
@@ -8301,43 +8299,43 @@ msgstr "Em utilização"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1187
 msgid "Paste the certificate received from your certificate authority here."
-msgstr "Actualizar"
+msgstr "Cole aqui o certificado recebido do seu certificado de autoridade."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1183
 msgid "Final certificate data"
-msgstr "Cole aqui o certificado recebido do seu certificado de autoridade. "
+msgstr "Dados do certificado final"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1179
 msgid ""
 "Copy the certificate signing data from here and forward it to your "
 "certificate authority for signing."
-msgstr "Dados do certificado final"
-
-# File: /usr/core/src/www/system_certmanager.php, line: 1175
-msgid "Signing request data"
 msgstr ""
 "Copie os dados de assinatura do certificado daqui e envie-os para á "
 "autoridade de certificação para assinatura."
 
+# File: /usr/core/src/www/system_certmanager.php, line: 1175
+msgid "Signing request data"
+msgstr "Assinatura dos dados solicitados"
+
 # File: /usr/core/src/www/system_certmanager.php, line: 1172
 msgid "Complete Signing Request"
-msgstr "Assinatura dos dados solicitados"
+msgstr "Completar a assinatura do pedido"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1131
 msgid "*Revoked"
-msgstr "Completar a assinatura do pedido"
+msgstr "*Revogado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1130
 msgid "*In Use"
-msgstr "*Revogado"
+msgstr "*Em Uso"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1112
 msgid "Existing Certificates"
-msgstr "*Em uso"
+msgstr "*Certificados Existentes"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1107
 msgid "Choose an Existing Certificate"
-msgstr "Certificados existemtes"
+msgstr "Escolha um Certificados existente"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1075
 msgid "IT department"
@@ -8402,19 +8400,19 @@ msgstr "Cole aqui a chave privada no formato X.509 PEM."
 
 # File: /usr/core/src/www/system_certmanager.php, line: 756
 msgid "Private key data"
-msgstr "Cole aqui a chave privada no formato X.509 PEM."
+msgstr "Chave privada de dados"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 742
 msgid "Import Certificate"
-msgstr "Chave privada de dados"
+msgstr "Importar certificado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 551
 msgid "Do you really want to delete this Certificate?"
-msgstr "Importar certificado"
+msgstr "Tem a certeza que pretende apagar este certificado?"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 520
 msgid "add or import certificate"
-msgstr "Tem a certeza que pretende apagar este certificado?"
+msgstr "Adicionar ou importar certificado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 375
 msgid "Unrecognized subjectAltName type."
@@ -8448,29 +8446,29 @@ msgstr "Escolha de certificado existente"
 # File: /usr/core/src/www/system_certmanager.php, line: 311
 # File: /usr/core/src/www/system_certmanager.php, line: 775
 msgid "Certificate authority"
-msgstr "Escolha de certificado existente"
+msgstr "Autoridade de certificação"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 301
 msgid "Key data"
-msgstr "Autoridade de certificação"
+msgstr "Data da chave"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 275
 msgid "The certificate modulus does not match the signing request modulus."
-msgstr "Data da chave"
-
-# File: /usr/core/src/www/system_certmanager.php, line: 267
-msgid "Final Certificate data"
 msgstr ""
 "Os módulos do certificado não correspondem ao módulo de solicitação de "
 "assinatura."
 
+# File: /usr/core/src/www/system_certmanager.php, line: 267
+msgid "Final Certificate data"
+msgstr "Data da certificação final"
+
 # File: /usr/core/src/www/system_certmanager.php, line: 112
 msgid "Choose an existing certificate"
-msgstr "Data da certificação final"
+msgstr "Escolher um certificado existente"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 87
 msgid "Create a Certificate Signing Request"
-msgstr "Escolher um certificado existente"
+msgstr "Criar uma solicitação de assinatura de certificado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 86
 msgid "Create an internal Certificate"
@@ -8478,12 +8476,12 @@ msgstr "Criar uma solicitação de assinatura de certificado"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 85
 msgid "Import an existing Certificate"
-msgstr "Criar um certificado interno"
+msgstr "Importar um certificado existente"
 
 # File: /usr/core/src/www/system_camanager.php, line: 765
 # File: /usr/core/src/www/system_certmanager.php, line: 1264
 msgid "Valid Until"
-msgstr "Criar um certificado interno"
+msgstr "Válido até"
 
 # File: /usr/core/src/www/system_camanager.php, line: 784
 msgid "delete ca"
@@ -8504,12 +8502,12 @@ msgstr "Editar CA"
 # File: /usr/core/src/www/system_camanager.php, line: 760
 # File: /usr/core/src/www/system_certmanager.php, line: 1259
 msgid "Valid From"
-msgstr "Válido até"
+msgstr "Válido apartir de"
 
 # File: /usr/core/src/www/system_camanager.php, line: 725
 # File: /usr/core/src/www/system_certmanager.php, line: 1228
 msgid "external"
-msgstr "Válido de "
+msgstr "externo"
 
 # File: /usr/core/src/www/system_camanager.php, line: 723
 # File: /usr/core/src/www/system_certmanager.php, line: 1226
@@ -8519,13 +8517,13 @@ msgstr "auto-assinatura"
 # File: /usr/core/src/www/system_camanager.php, line: 709
 # File: /usr/core/src/www/system_certmanager.php, line: 1208
 msgid "Issuer"
-msgstr "auto-assinatura"
+msgstr "Emissor"
 
 # File: /usr/core/src/www/system_camanager.php, line: 681
 # File: /usr/core/src/www/system_certmanager.php, line: 908
 # File: /usr/core/src/www/system_certmanager.php, line: 1097
 msgid "internal-ca"
-msgstr "auto-assinatura"
+msgstr "ca-interno"
 
 # File: /usr/core/src/www/system_camanager.php, line: 711
 # File: /usr/core/src/www/system_certmanager.php, line: 1209
@@ -8536,25 +8534,25 @@ msgstr "Nome único "
 # File: /usr/core/src/www/system_certmanager.php, line: 897
 # File: /usr/core/src/www/system_certmanager.php, line: 1086
 msgid "admin@mycompany.com"
-msgstr "ca-interno"
+msgstr "admin@mycompany.com"
 
 # File: /usr/core/src/www/system_camanager.php, line: 659
 # File: /usr/core/src/www/system_certmanager.php, line: 886
 # File: /usr/core/src/www/system_certmanager.php, line: 1064
 msgid "My Company Inc"
-msgstr "admin@mycompany.com"
+msgstr "Minha Company lda"
 
 # File: /usr/core/src/www/system_camanager.php, line: 648
 # File: /usr/core/src/www/system_certmanager.php, line: 875
 # File: /usr/core/src/www/system_certmanager.php, line: 1053
 msgid "Leipzig"
-msgstr "My Company Inc"
+msgstr "Leipzig"
 
 # File: /usr/core/src/www/system_camanager.php, line: 637
 # File: /usr/core/src/www/system_certmanager.php, line: 864
 # File: /usr/core/src/www/system_certmanager.php, line: 1042
 msgid "Sachsen"
-msgstr "Leipzig"
+msgstr "Sachsen"
 
 # File: /usr/core/src/www/system_camanager.php, line: 635
 # File: /usr/core/src/www/system_camanager.php, line: 646
@@ -8573,7 +8571,7 @@ msgstr "Leipzig"
 # File: /usr/core/src/www/system_certmanager.php, line: 1084
 # File: /usr/core/src/www/system_certmanager.php, line: 1095
 msgid "ex:"
-msgstr "Sachsen"
+msgstr "por exemplo:"
 
 # File: /usr/core/src/www/system_camanager.php, line: 614
 # File: /usr/core/src/www/system_certmanager.php, line: 841
@@ -8604,7 +8602,7 @@ msgstr "Nome distinto"
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 733
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 819
 msgid "IP address"
-msgstr "Nome distinto"
+msgstr "Endereço IP"
 
 # File: /usr/core/src/www/system_camanager.php, line: 603
 # File: /usr/core/src/www/system_certmanager.php, line: 830
@@ -8716,13 +8714,13 @@ msgstr "O campo '%s' contém caracteres inválidos. "
 # File: /usr/core/src/www/system_camanager.php, line: 321
 # File: /usr/core/src/www/system_certmanager.php, line: 389
 msgid "The field 'Distinguished name Common Name' contains invalid characters."
-msgstr "O campo '%s' contém caracteres inválidos. "
+msgstr "O campo 'Nome distinto Nome Comum' contém caracteres inválidos."
 
 # File: /usr/core/src/www/system_camanager.php, line: 317
 # File: /usr/core/src/www/system_certmanager.php, line: 384
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
-msgstr "O campo 'Nome distinto Nome Comum' contém caracteres inválidos."
+msgstr "O campo 'Nome distinto endereço de Mail' contém caracteres inválidos."
 
 # File: /usr/core/src/www/system_camanager.php, line: 300
 # File: /usr/core/src/www/system_camanager.php, line: 566
@@ -8741,7 +8739,7 @@ msgstr "Nome distinto Nome Comum"
 # File: /usr/core/src/www/system_certmanager.php, line: 318
 # File: /usr/core/src/www/system_certmanager.php, line: 331
 msgid "Distinguished name Email Address"
-msgstr "Nome distinto Nome Comum"
+msgstr "Nome distinto endereço de email"
 
 # File: /usr/core/src/www/system_camanager.php, line: 289
 # File: /usr/core/src/www/system_camanager.php, line: 306
@@ -8769,12 +8767,12 @@ msgstr "Nome distinto da Cidade"
 # File: /usr/core/src/www/system_certmanager.php, line: 314
 # File: /usr/core/src/www/system_certmanager.php, line: 327
 msgid "Distinguished name Country Code"
-msgstr "Nome Distinto do Estado ou Provincia"
+msgstr "Nome Distinto do código de País"
 
 # File: /usr/core/src/www/system_camanager.php, line: 271
 # File: /usr/core/src/www/system_certmanager.php, line: 303
 msgid "This certificate does not appear to be valid."
-msgstr "Nome Distinto do Código do País"
+msgstr "O certificado não aparenta ser válido."
 
 # File: /usr/core/src/www/system_camanager.php, line: 274
 msgid "Encrypted private keys are not yet supported."
@@ -8785,12 +8783,12 @@ msgstr "Chaves privadas encriptadas ainda não são suportadas."
 # File: /usr/core/src/www/system_certmanager.php, line: 300
 # File: /usr/core/src/www/system_certmanager.php, line: 747
 msgid "Certificate data"
-msgstr "O certificado não aparenta ser válido."
+msgstr "Data do Certificado"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 337
 # File: /usr/core/src/www/system_certmanager.php, line: 1276
 msgid "Web GUI"
-msgstr "Data do Certificado"
+msgstr "Web GUI"
 
 # File: /usr/core/src/www/system_authservers.php, line: 768
 msgid "Additional authentication servers can be added here."
@@ -8873,7 +8871,7 @@ msgid ""
 "components."
 msgstr ""
 "Lista de nomes distinguidos separados por semi-vírgulas contendo "
-"opcionalmente componentes DC=."
+"opcionalmente DC= componentes."
 
 # File: /usr/core/src/www/system_authservers.php, line: 572
 msgid "Select"
@@ -9248,44 +9246,42 @@ msgid ""
 "This option will suppress ARP log messages when multiple interfaces reside "
 "on the same broadcast domain"
 msgstr ""
-"Isso vai entrar em vigor quando você reiniciar a máquina ou reconfigurar "
-"cada interface."
-
-# File: /usr/core/src/www/system_advanced_network.php, line: 167
-msgid "Suppress ARP messages"
-msgstr ""
 "Esta opção suprime as mensagens dos eventos de ARP quando múltiplas "
 "interfaces residem no mesmo domínio de broadcast"
 
+# File: /usr/core/src/www/system_advanced_network.php, line: 167
+msgid "Suppress ARP messages"
+msgstr "Suprimir mensagens ARP"
+
 # File: /usr/core/src/www/system_advanced_network.php, line: 164
 msgid "ARP Handling"
-msgstr "Suprimir mensagens ARP"
+msgstr "Manuseamento ARP"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 159
 msgid ""
 "Checking this option will disable VLAN hardware filtering. This offloading "
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
-msgstr "Manuseamento ARP"
-
-# File: /usr/core/src/www/system_advanced_network.php, line: 155
-msgid "Leave default"
 msgstr ""
 "Ao marcar esta opção desativará o filtro de hardware da VLAN. Este "
 "descarregamento está quebrado em alguns drivers de hardware e pode afetar o "
 "desempenho com algumas NICs específicas."
 
+# File: /usr/core/src/www/system_advanced_network.php, line: 155
+msgid "Leave default"
+msgstr "Deixar pré-definido"
+
 # File: /usr/core/src/www/system_advanced_network.php, line: 152
 msgid "Disable VLAN Hardware Filtering"
-msgstr "Deixar pré-definido"
+msgstr "Desativar o filtro de VLAN por hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 149
 msgid "Enable VLAN Hardware Filtering"
-msgstr "Desativar o filtro de VLAN por hardware"
+msgstr "Ativar o filtro de VLAN por hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 145
 msgid "VLAN Hardware Filtering"
-msgstr "Ativar o filtro de VLAN por hardware"
+msgstr "Filtro de VLAN por hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 140
 msgid ""
@@ -9317,14 +9313,11 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 128
 msgid "Disable hardware TCP segmentation offload"
-msgstr ""
-"Ao marcar esta opção o TCP Segmentation Offloading por hardware (TSO, TSO4, "
-"TSO6) será desativada. Este recurso está quebrado em alguns drivers de "
-"hardware e pode afetar o desempenho com algumas NICs específicas.\""
+msgstr "Desabilitar TCP Segmentation Offload (TSO) por hardware"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 125
 msgid "Hardware TSO"
-msgstr "Desabilitar TCP Segmentation Offload (TSO) por hardware"
+msgstr "Hardware TSO"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 120
 msgid ""
@@ -9332,7 +9325,10 @@ msgid ""
 "offloading is broken in some hardware, particularly some Realtek cards. "
 "Rarely, drivers may have problems with checksum offloading and some specific "
 "NICs."
-msgstr "Hardware TSO"
+msgstr ""
+"Ao marcar esta opção o TCP Segmentation Offloading por hardware (TSO, TSO4, "
+"TSO6) será desativada. Este recurso está quebrado em alguns drivers de "
+"hardware e pode afetar o desempenho com algumas NICs específicas.\""
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 118
 msgid "Disable hardware checksum offload"
@@ -9533,10 +9529,10 @@ msgid ""
 "attempt to read the temperature from an ACPI-compliant motherboard sensor "
 "instead, if one is present."
 msgstr ""
-"Se você tiver um CPU suportado, ao selecionar um sensor de temperatura "
-"carregará o driver apropriado para ler a temperatura. Configurando esta "
-"opção para 'nenhum' o sistema tentará ler a temperatura de um sensor térmico "
-"da placa mãe compatível com ACPI, se houver um presente."
+"Se tiver um CPU suportado, ao selecionar um sensor de temperatura carregará "
+"o driver apropriado para ler a temperatura. Ao configurar esta opção para "
+"'nenhum' o sistema tentará ler a temperatura de um sensor térmico da placa "
+"mãe compatível com ACPI, se houver um presente."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 266
 msgid "None/ACPI"
@@ -9558,7 +9554,7 @@ msgid ""
 msgstr ""
 "Aceleradores de hardware antigo tal como  'safe', 'hifn' ou 'ubsec' pode "
 "apenas fornecer aceleração do utilizador e.g. OpenVPN atravês da interface  "
-"/dev/crypto que possa ser acessada através da framework do montor OpenSSL. "
+"/dev/crypto que possa ser acessada através da framework do monitor OpenSSL. "
 "Note que a LibreSSL não te, suporte para estes dispositivos e em alternativa "
 "depende unicamente de métodos de aceleração incorporados e.g. AES-NI. Por "
 "defeito está desativado este dispositivo pois provavelmente não é necessário "
@@ -9829,7 +9825,7 @@ msgstr ""
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 439
 msgid "Warning: This will also turn off NAT!"
-msgstr "Atenção: Essa opção também desativará o NAT!"
+msgstr "Atenção: Essa opção também desligará o NAT!"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 438
 msgid "Warning: This will convert into a routing-only platform!"
@@ -9837,7 +9833,7 @@ msgstr "Atenção: Isso irá converter numa plataforma somente de roteamento."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 436
 msgid "Disable all packet filtering."
-msgstr "desativar todos os pacotes de filtragem."
+msgstr "Desativar todos os pacotes de filtragem."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 433
 msgid "Disable Firewall"
@@ -10129,7 +10125,7 @@ msgid ""
 "blocks traffic."
 msgstr ""
 "NOTA: Isto não desativa qualquer funcionalidade IPv6 na firewall, apenas "
-"bloqueia o trafego."
+"bloqueia o tráfego."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 249
 msgid ""
@@ -10241,7 +10237,7 @@ msgid ""
 "menu."
 msgstr ""
 "Todas as consolas exibem as mensagens de inicialização do SO, as mensagens "
-"do consola e o menu da consola"
+"do consola e o menu da consola."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 533
 msgid ""
@@ -10279,13 +10275,13 @@ msgstr "Porta SSH"
 msgid ""
 "When disabled, authorized keys need to be configured for each %sUser%s that "
 "has been granted secure shell access."
-msgstr "Porta SSH"
-
-# File: /usr/core/src/www/system_advanced_admin.php, line: 489
-msgid "Permit password login"
 msgstr ""
 "Quando desativado, as chaves de autorização necessitam de ser configuradas "
 "para cada %sUser%s que tenha concedido acesso seguro à shell."
+
+# File: /usr/core/src/www/system_advanced_admin.php, line: 489
+msgid "Permit password login"
+msgstr "Permitir password login"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 486
 msgid "Authentication Method"
@@ -10295,21 +10291,21 @@ msgstr "Permitir password login"
 msgid ""
 "Root login is generally discouraged. It is advised to log in via another "
 "user and switch to root afterwards."
-msgstr "Método de autenticação"
-
-# File: /usr/core/src/www/system_advanced_admin.php, line: 476
-msgid "Permit root user login"
 msgstr ""
 "Login de root é geralmente desaconselhável. É aconselhável iniciar sessão "
 "através de outro utilizador e mudar para root a seguir."
 
+# File: /usr/core/src/www/system_advanced_admin.php, line: 476
+msgid "Permit root user login"
+msgstr "Permitir o login do utilizador root."
+
 # File: /usr/core/src/www/system_advanced_admin.php, line: 473
 msgid "Root Login"
-msgstr "Permitir o login do utilizador root"
+msgstr "Login de Root"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 469
 msgid "Enable Secure Shell"
-msgstr "Login de root"
+msgstr "Ativa Shell Segura"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 466
 msgid "Secure Shell Server"
@@ -10734,7 +10730,7 @@ msgstr "Endereço Real"
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 713
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1598
 msgid "enable"
-msgstr "bits"
+msgstr "activo"
 
 # File: /usr/core/src/www/interfaces.php, line: 2673
 # File: /usr/core/src/www/services_dhcpv6.php, line: 473
@@ -10853,7 +10849,7 @@ msgstr "Colisões"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 416
 msgid "In/out errors"
-msgstr "erros entrada/saída"
+msgstr "Erros entrada/saída"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 408
 msgid "In/out packets (block)"
@@ -10861,11 +10857,11 @@ msgstr "pacotes entrada/saída (bloqueados)"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 402
 msgid "In/out packets (pass)"
-msgstr "pacotes entrada/saída (autorizados)"
+msgstr "Pacotes entrada/saída (autorizados)"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 396
 msgid "In/out packets"
-msgstr "pacotes entrada/saída"
+msgstr "Pacotes entrada/saída"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 390
 # File: /usr/core/src/www/status_wireless.php, line: 101

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-01 19:08+0000\n"
+"POT-Creation-Date: 2017-03-25 08:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -811,7 +811,7 @@ msgstr "状态表大小"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 170
 msgid "Last config change"
-msgstr "上一个配置更改"
+msgstr "上一次配置更改"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 152
 msgid "Current date/time"
@@ -819,7 +819,7 @@ msgstr "当前日期/时间"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 223
 msgid "Load average"
-msgstr "负载平衡"
+msgstr "平均负载"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 229
 msgid "CPU usage"
@@ -2817,7 +2817,7 @@ msgstr "选择以前在证书管理器中配置的证书颁发机构。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 771
 msgid "My Certificate Authority"
-msgstr "我的证书权威"
+msgstr "我的证书颁发机构"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 861
 msgid "Select a certificate previously configured in the Certificate Manager."
@@ -3778,7 +3778,7 @@ msgstr "到期数据"
 
 # File: src/www/system_usermanager.php, line: 494
 msgid "User's full name, for your own information only"
-msgstr "用户的全名，仅供您自己的信息"
+msgstr "用户的全名，供您自己识别用"
 
 # File: src/www/system_usermanager.php, line: 490
 # File: src/www/system_usermanager.php, line: 858
@@ -3814,7 +3814,7 @@ msgstr "（证书不会被删除）"
 
 # File: src/www/system_usermanager.php, line: 240
 msgid "Invalid internal Certificate Authority"
-msgstr "无效的内部证书权威"
+msgstr "无效的内部证书颁发机构"
 
 # File: src/www/system_usermanager.php, line: 233
 msgid "Invalid expiration date format; use MM/DD/YYYY instead."
@@ -4236,7 +4236,7 @@ msgstr "组成员身份"
 
 # File: src/www/system_groupmanager.php, line: 284
 msgid "Group description, for your own information only"
-msgstr "组描述，仅供您自己的信息"
+msgstr "组描述，供您自己识别用"
 
 # File: src/www/system_groupmanager.php, line: 274
 # File: src/www/system_groupmanager.php, line: 435
@@ -5319,7 +5319,7 @@ msgstr "现有证书选择"
 # File: src/www/system_usermanager.php, line: 177
 # File: src/www/system_usermanager.php, line: 755
 msgid "Certificate authority"
-msgstr "证书权威"
+msgstr "证书颁发机构"
 
 # File: src/www/system_certmanager.php, line: 193
 msgid "Key data"
@@ -5448,7 +5448,7 @@ msgstr "摘要算法"
 
 # File: src/www/system_camanager.php, line: 443
 msgid "Internal Certificate Authority"
-msgstr "内部证书权威"
+msgstr "内部证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 431
 msgid ""
@@ -5478,19 +5478,19 @@ msgstr "在此处粘贴X.509 PEM格式的证书。"
 
 # File: src/www/system_camanager.php, line: 404
 msgid "Existing Certificate Authority"
-msgstr "现有的证书权威"
+msgstr "现有的证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 36
 msgid "Create an intermediate Certificate Authority"
-msgstr "生成一个中间证书权威"
+msgstr "生成一个中间证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 35
 msgid "Create an internal Certificate Authority"
-msgstr "生成一个内部证书权威"
+msgstr "生成一个内部证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 34
 msgid "Import an existing Certificate Authority"
-msgstr "导入一个已存在的证书权威"
+msgstr "导入一个已存在的证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 383
 # File: src/www/system_certmanager.php, line: 587
@@ -5546,7 +5546,7 @@ msgstr "字段“可分辨名称电子邮件地址”包含无效字符。"
 # File: src/www/system_camanager.php, line: 187
 # File: src/www/system_camanager.php, line: 449
 msgid "Signing Certificate Authority"
-msgstr "签署证书权威"
+msgstr "签署证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 179
 # File: src/www/system_camanager.php, line: 195
@@ -5680,7 +5680,7 @@ msgstr "扩展查询"
 msgid ""
 "Semicolon-separated list of distinguished names optionally containing DC= "
 "components."
-msgstr "可选包含DC =组件的可分辨名称的分号分隔列表。"
+msgstr "可选的包含DC=组件的可分辨名称的以分号分隔的列表。"
 
 # File: src/www/interfaces_ppps_edit.php, line: 383
 # File: src/www/system_authservers.php, line: 607
@@ -5709,7 +5709,7 @@ msgstr "用户DN："
 
 # File: src/www/system_authservers.php, line: 640
 msgid "Bind credentials"
-msgstr "Bind证书"
+msgstr "绑定证书"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php, line: 756
@@ -5729,7 +5729,7 @@ msgstr "系统：证书"
 # File: src/www/vpn_openvpn_server.php, line: 958
 # File: src/www/vpn_openvpn_server.php.orig, line: 958
 msgid "No Certificate Authorities defined."
-msgstr "没有定义证书权限。"
+msgstr "未定义证书权限。"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php, line: 756
@@ -5756,7 +5756,7 @@ msgstr "如果选择了“SSL加密”选项，则使用此选项。"
 # File: src/www/vpn_openvpn_client.php, line: 750
 # File: src/www/vpn_openvpn_server.php, line: 950
 msgid "Peer Certificate Authority"
-msgstr "对端证书权威"
+msgstr "对等证书颁发机构"
 
 # File: src/www/system_authservers.php, line: 509
 msgid ""
@@ -10387,7 +10387,7 @@ msgstr "这用于不要求特定到期时间的客户端。"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 869
 msgid "Default lease time (seconds)"
-msgstr "默认租用时间（秒）"
+msgstr "默认租用时间(秒)"
 
 # File: /usr/core/src/www/services_dhcp.php, line: 864
 msgid ""
@@ -10459,7 +10459,7 @@ msgstr "池结束"
 
 # File: src/www/services_dhcp.php, line: 813
 msgid "Pool Start"
-msgstr "池启动"
+msgstr "池开始"
 
 # File: src/www/services_dhcp.php, line: 808
 msgid "Additional Pools"
@@ -10783,7 +10783,7 @@ msgstr "重置Netflow数据"
 
 # File: src/www/status_rrd_graph_settings.php, line: 193
 msgid "Reset RRD Data"
-msgstr "RRD数据重设"
+msgstr "重置RRD数据"
 
 # File: src/www/status_rrd_graph_settings.php, line: 140
 msgid "Enables the RRD graphing backend."
@@ -23149,7 +23149,7 @@ msgstr "捕获本地"
 # File: src/www/vpn_openvpn_client.php, line: 250
 # File: src/www/vpn_openvpn_server.php, line: 325
 msgid "Certificate Authority"
-msgstr "证书权威"
+msgstr "证书颁发机构"
 
 # File: src/www/system_camanager.php, line: 601
 # File: src/www/system_certificates_tabs.inc, line: 6
@@ -25171,7 +25171,7 @@ msgstr "选择要使用的接口。 启用IPS时，仅在此处使用物理接�
 # File: /usr/lang/src/controllers.php, line: 164
 msgid ""
 "Select interfaces used for WAN traffic to avoid counting NAT traffic twice."
-msgstr "选择用于WAN流量的接口，以避免计数NAT流量两次。"
+msgstr "选择用于WAN流量的接口，以避免重复计算NAT流量。"
 
 # File: /usr/lang/src/controllers.php, line: 165
 msgid ""
@@ -26152,7 +26152,7 @@ msgstr "授权"
 
 # File: lang/dynamic/helpers/models.php, line: 41
 msgid "Authorities"
-msgstr "证书权威"
+msgstr "认证"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 345
 # File: /usr/lang/src/models.php, line: 51
