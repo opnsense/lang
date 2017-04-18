@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 08:16+0000\n"
+"POT-Creation-Date: 2017-04-18 20:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9235,6 +9235,8 @@ msgid ""
 "All serial ports are listed, be sure to pick the port with the PPS source "
 "attached."
 msgstr ""
+"Toto jsou všechny sériové porty tohoto stroje – vyberte ten, ke kterému je "
+"připojený zdroj PPS."
 
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 94
 msgid "NTP PPS Configuration"
@@ -9248,6 +9250,11 @@ msgid ""
 "may only use values from the unsynchronized local clock when providing time "
 "to clients."
 msgstr ""
+"NTP bude fungovat nejlépe s alespoň třemi zdroji času. Proto je nejlepší "
+"nastavit v %sSlužby:Čas na síti%s alespoň dva servery a zmenšit tak časový "
+"posun v případě chvilkových neplatností GPS dat. V opačném případě proces "
+"služby ntpd bude poskytovat časový údaj ostatním strojům pouze ze svých "
+"nesynchronizovaných vestavěných hodin."
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 522
 msgid ""
@@ -11929,6 +11936,8 @@ msgid ""
 "This option causes cumulative uptime to be recorded and displayed on the "
 "Status Interfaces page."
 msgstr ""
+"Touto předvolbou bude zaznamenáván součet času, po který stroj je zapnutý a "
+"hodnota zobrazována na stránce Stav rozhraní."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 661
 msgid "Enable persistent logging of connection uptime."
@@ -11950,6 +11959,9 @@ msgid ""
 "string at the beginning of the command. Many modern USB 3G modems don't need "
 "an initialization string."
 msgstr ""
+"Pozn: Sem zadejte inicializační řetězec pro modem. Příkazy NEuvozujte "
+"řetězcem „AT“. Mnohé USB 3/4G modemy ani žádný inicializační řetězec "
+"nepotřebují."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 639
 msgid "Init String"
@@ -11965,7 +11977,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 630
 msgid "SIM PIN wait"
-msgstr ""
+msgstr "Čekání na SIM PIN"
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 624
 msgid "SIM PIN"
@@ -14451,7 +14463,7 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces.php, line: 679
 msgid "You can only have one interface configured as 6to4."
-msgstr ""
+msgstr "Jako 6to4 je možné mít nastavené pouze jedno rozhraní."
 
 # File: /usr/core/src/www/interfaces.php, line: 670
 msgid "You can only have one interface configured in 6rd with same prefix."
@@ -14665,7 +14677,7 @@ msgstr "Aktuálně zobrazeno: "
 
 # File: /usr/core/src/www/guiconfig.inc, line: 300
 msgid "net"
-msgstr ""
+msgstr "síť"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 288
 msgid ""
@@ -22044,6 +22056,8 @@ msgid ""
 "Automatically synchronize the %s configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"Při všech změnách, automaticky synchronizovat nastavení %s na ostatní uzly "
+"clusteru."
 
 # File: /usr/core/src/etc/inc/openvpn_wizard.inc, line: 695
 # File: /usr/core/src/etc/inc/openvpn_wizard.inc, line: 713
@@ -22606,7 +22620,7 @@ msgstr ""
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 585
 msgid "Reloading filterdns daemon"
-msgstr ""
+msgstr "Opětovné načítání nastavení procesu služby filterdns"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 512
 # File: /usr/core/src/etc/inc/filter.inc, line: 513
@@ -22814,7 +22828,7 @@ msgstr "Pro vícero domén (SAN)"
 
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
-msgstr ""
+msgstr "Klient služby Let's Encrypt"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 413
 msgid "Backend Name"
@@ -22890,7 +22904,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_wol.php, line: 87
 msgid "Sent magic packet to %s."
-msgstr ""
+msgstr "Poslat probouzecí paket na %s."
 
 # File: /usr/core/src/www/services_wol.php, line: 78
 msgid "A valid ip could not be found!"
@@ -22910,7 +22924,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_wol.php, line: 61
 msgid "Sent magic packet to %s (%s)."
-msgstr ""
+msgstr "Poslat probouzecí paket na %s (%s)."
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
 msgid "Error File ID"
@@ -22940,6 +22954,9 @@ msgid ""
 "Relays allow application layer load balancing, TLS acceleration, and general "
 "purpose TCP proxying on layer 7."
 msgstr ""
+"Předávání umožňuje rozdělování zátěže na úrovni aplikační vrstvy, "
+"urychlování TLS šifrování a obecné TCP proxy na 7. vrstvě OSI síťového "
+"modelu."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 297
 msgid ""
@@ -23026,6 +23043,8 @@ msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
 msgstr ""
+"Tento název virtuálního serveru je už používán. Je třeba, aby názvy "
+"virtuálních serverů byly jedinečné. "
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 73
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 304
@@ -23264,7 +23283,7 @@ msgstr "Odeslat řetězec"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 229
 msgid "Edit Monitor entry"
-msgstr ""
+msgstr "Přidat monitorovací položku"
 
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 190
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 264
@@ -23287,6 +23306,8 @@ msgstr "V kolonce Název není možné použít mezeru"
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 125
 msgid "This monitor name has already been used. Monitor names must be unique."
 msgstr ""
+"Tento název monitoru je už používán. Je třeba, aby názvy monitorů byly "
+"jedinečné."
 
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 128
 # File: /usr/core/src/www/load_balancer_setting.php, line: 110

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 09:06+0000\n"
+"POT-Creation-Date: 2017-04-18 20:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -276,6 +276,10 @@ msgid ""
 "logged).<br />Note: enabling this will rapidly fill the log, but is useful "
 "for tuning Fudge time 2."
 msgstr ""
+"Protokolliert die Sekundenbruchteile des Empfangszeitstempels (Standard: "
+"wird nicht protokolliert).<br/>Hinweis: Das Aktivieren wird das Protokoll "
+"schnell füllen, aber kann nützlich sein für die Abstimmung des Parameters "
+"Fudge-Zeit 2."
 
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
@@ -688,6 +692,12 @@ msgid ""
 "             It is best to use only those ciphers which support CBC mode\n"
 "      "
 msgstr ""
+" Der symmetrische Verschlüsselungsalgorithmus, der verwendet wird, um die "
+"UDP-Pakete zu verschlüsseln.             Jeder Verschlüsselungsalgorithmus, "
+"der von LibreSSL oder OpenSSL unterstützt wird, wird erkannt.             "
+"Zusätzlich kann durch die Angabe von \"none\" die Paketverschlüsselung "
+"deaktiviert werden.             Am besten wird ein "
+"verschlüsselungsalgorithmus gewählt, der den CBC-Modus unterstützt      "
 
 # File: lang/dynamic/helpers/controllers.php, line: 72
 msgid "Enter the cache memory size to use."
@@ -6266,6 +6276,8 @@ msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
 "entries grows."
 msgstr ""
+"Die Gültigkeitsdauer von Status kann adaptiv skaliert werden wenn die Anzahl "
+"an Statustabelleneinträgen steigt."
 
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
@@ -6358,6 +6370,9 @@ msgid ""
 "expiration time has come. This option overrides that behavior by not "
 "clearing states for existing connections."
 msgstr ""
+"Standardmäßig löschen Zeitpläne die Status existierender Verbindungen wenn "
+"die Ablaufzeit erreicht wurden. Diese Option überschreibt dieses Verhalten "
+"indem die Status existierender Verbindungen nicht gelöscht werden."
 
 msgid "Schedule States"
 msgstr "Zeitplanstatus"
@@ -6502,12 +6517,19 @@ msgid ""
 "1 mappings. This functions the same as the pure NAT mode for port forwards. "
 "For more details, refer to the pure NAT mode description above."
 msgstr ""
+"Hinweis: Reflektion bei 1:1-Zuweisungen gilt nur für die eingehende "
+"Komponente der 1:1-Zuweisung. Dies funktioniert gleich wie der pure NAT-"
+"Modus für Portweiterleitungen. Seien Sie für mehr Details auf die NAT-Modus-"
+"Beschreibung oben verwiesen."
 
 msgid ""
 "Enables the automatic creation of additional NAT redirect rules for access "
 "to 1:1 mappings of your external IP addresses from within your internal "
 "networks."
 msgstr ""
+"Aktiviert die automatische Erstellung von zusätzlichen NAT-"
+"Weiterleitungsregeln für den Zugang zu 1:1-Zuweisungen Ihrer externen IP-"
+"Adressen innerhalb Ihrer internen Netzwerke."
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 300
 msgid "Reflection for 1:1"
@@ -6584,13 +6606,13 @@ msgid "The Firewall Maximum States value must be an integer."
 msgstr "Die maximalen Firewallstatus müssen eine Zahl sein."
 
 msgid "The Firewall Adaptive End value must be an integer."
-msgstr ""
+msgstr "Der adaptive Firewall-Endwert muss eine Zahl sein."
 
 msgid "The Firewall Adaptive Start value must be an integer."
-msgstr ""
+msgstr "Der adaptive Firewall-Startwert muss eine Zahl sein."
 
 msgid "The Firewall Adaptive values must be set together."
-msgstr ""
+msgstr "Die adaptiven Firewallwerte müssen gemeinsam gesetzt werden."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 621
 msgid "No password"
@@ -6689,6 +6711,8 @@ msgid ""
 "When disabled, authorized keys need to be configured for each %sUser%s that "
 "has been granted secure shell access."
 msgstr ""
+"Falls dies deaktiviert ist, müssen authorisierte Schlüssel für jeden "
+"%sBenutzer%s konfiguriert werden, der die Berechtigung Shell-Zugang hat."
 
 # File: src/www/system_advanced_admin.php, line: 548
 msgid "Permit password login"
@@ -6764,6 +6788,11 @@ msgid ""
 "servers. Check this box to disable this protection if it interferes with web "
 "GUI access or name resolution in your environment."
 msgstr ""
+"Wenn dies nicht angehakt ist, wird Ihr System gegen %sDNS-Rebinding-Attacken%"
+"s geschützt. Dies blockiert private IP-Antworten von ihren konfigurierten "
+"DNS-Servern. Haken Sie diese Box an, um diesen Schutz zu deaktivieren falls "
+"es zu Problemen mit dem Weboberflächenzugang oder Namensauflösung in Ihrer "
+"Umgebung kommt."
 
 msgid "Disable DNS Rebinding Checks"
 msgstr "Deaktiviere DNS-Rebinding-Prüfungen"
@@ -6830,6 +6859,12 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option)."
 msgstr ""
+"Wenn dies angehakt ist, können Zugangsdaten für die Weboberfläche im Browser "
+"gespeichert werden. Obwohl es gängig ist, erfordern manche Standards, dass "
+"dies deaktiviert ist. Haken Sie diese Option an, damit automatische "
+"Vervollständigung im Anmendeformular aktiviert wird und Browser fragen, ob "
+"die Zugangsdaten gespeichert werden sollen (HINWEIS: Manche Browser "
+"ignorieren diese Option)."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 427
 msgid "Enable web GUI login autocomplete"
@@ -6845,6 +6880,9 @@ msgid ""
 "port 80, regardless of the listening port configured. Check this box to "
 "disable this automatically added redirect rule."
 msgstr ""
+"Wenn dies abgehakt ist, wird der Zugang zur Weboberfläche unabhängig vom "
+"konfigurierten hörenden Port immer über Port 80 erlaubt. Haken Sie diese Box "
+"an, um diese automatisch hinzugefügte Regel zu deaktivieren."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 414
 msgid "Disable web GUI redirect rule"
@@ -6859,6 +6897,9 @@ msgid ""
 "default (80 for HTTP, 443 for HTTPS). Changes will take effect immediately "
 "after save."
 msgstr ""
+"Geben Sie oben eine benztzerdefinierte Portnummer für die Weboberfläche ein, "
+"falls Sie die Standardports (80 für HTTP, 443 für HTTPS) überschreiben "
+"möchten. Die Änderungen werden sofort nach dem Speichern übernommen."
 
 msgid "TCP port"
 msgstr "TCP Port"
@@ -6868,14 +6909,18 @@ msgid ""
 "Limit SSL cipher selection in case the system defaults are undesired. Note "
 "that restrictive use may lead to an inaccessible web GUI."
 msgstr ""
+"Beschränke die Auswahl der verfügbaren Verschlüsselungsalgorithmen falls die "
+"Standardwerte nicht passen. Seien Sie darauf hingewiesen, dass eine "
+"restriktive Einstellung dazu führen kann, dass die Weboberfläche nicht "
+"erreichbar ist."
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 384
 msgid "System defaults"
-msgstr ""
+msgstr "Systemstandardwerte"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 382
 msgid "SSL Ciphers"
-msgstr ""
+msgstr "SSL-Verschlüsselungsalgorithmen"
 
 # File: src/www/system_advanced_admin.php, line: 379
 msgid ""
@@ -7104,7 +7149,7 @@ msgid "Reach"
 msgstr "Erreichen"
 
 msgid "Poll"
-msgstr ""
+msgstr "Abfrage"
 
 msgid "When"
 msgstr "Wann"
@@ -7566,6 +7611,9 @@ msgid ""
 "Time to live for entries in the host cache. The host cache contains "
 "roundtrip timing and EDNS support information. The default is 15 minutes."
 msgstr ""
+"Lebensdauer von Einträgen im Hostzwischenspeicher. Der Hostzwischenspeicher "
+"enthält die Umlaufzeitinformation und Information zum EDNS-Unterstützung. "
+"Der Standardwert ist 15 Minuten."
 
 # File: src/www/services_unbound_advanced.php, line: 335
 # File: src/www/services_unbound_advanced.php, line: 350
@@ -7603,6 +7651,14 @@ msgid ""
 "owner intended. High values can lead to trouble as the data in the cache "
 "might not match up with the actual data anymore."
 msgstr ""
+"Konfigurieren Sie die minimale Lebensdauer für RR-Sets und Nachrichten im "
+"Zwischenspeicher. Der Standardwert ist 0 Sekunden. Falls der minimale Wert "
+"zum Zug kommt, werden die Daten länger zwischengespeichert als es der "
+"Domainbetreiber vorsieht und daher weniger Abfragen gesendet. Wer Wert 0 "
+"stellt sicher, dass die Daten Zwischenspeicher so sind, wie sie der "
+"Domaininhaber vorgesehen hat. Hohe Werte können zu Problemen führen, da die "
+"Daten im Zwischenspeicher nicht notwendigerweise mit den aktuellen Daten "
+"übereinstimmen."
 
 msgid "Minimum TTL for RRsets and messages"
 msgstr "Minimale TTL für RR-Datensätze und Nachrichten"
@@ -7613,6 +7669,12 @@ msgid ""
 "item is expired. This can be configured to force the resolver to query for "
 "data more often and not trust (very large) TTL values."
 msgstr ""
+"Konfigurieren Sie eine maximale Lebensdauer von RR-Sets und Nachrichten im "
+"Zwischenspeicher. Der Standardwert ist 86400 Sekunden (1 Tag). Wenn die "
+"interne Lebensdauer abgelaufen ist, werden die zwischengespeicherten Daten "
+"ungültig. Dies kann konfiguriert werden, damit der Resolver dazu gezwungen "
+"wird, die Daten öfter abzufragen und einer (sehr hohen) Lebensdauer nicht zu "
+"vertrauen."
 
 msgid "Maximum TTL for RRsets and messages"
 msgstr "Maximale TTL für RR-Datensätze und Nachrichten"
@@ -7657,6 +7719,9 @@ msgid ""
 "is 10. If 0 is selected then no TCP queries, to authoritative servers, are "
 "done."
 msgstr ""
+"Die Anzahl an ausgehenden TCP-Puffern, die pro Thread angefordert werden. "
+"Der Standardwert ist 10. Falls 0 ausgewählt wird, werden keine TCP-Anfragen "
+"an authoritative Server gesendet."
 
 msgid "Outgoing TCP Buffers"
 msgstr "Ausgehende TCP-Puffer"
@@ -7684,6 +7749,9 @@ msgid ""
 "the zone becomes bogus. If this is disabled and no DNSSEC data is received, "
 "then the zone is made insecure."
 msgstr ""
+"DNSSEC-Daten sind für vertrauensverankerte Zonen erforderlich. Falls diese "
+"Daten fehlen, wird die Zone fehlerhaft. Falls dies deaktiviert ist und keine "
+"DNSSEC-Daten empfangen werden, wird die Zone als unsicher markiert."
 
 msgid "Harden DNSSEC data"
 msgstr "Härte DNSSEC-Daten"
@@ -7706,6 +7774,11 @@ msgid ""
 "10% more DNS traffic and load on the server, but frequently requested items "
 "will not expire from the cache."
 msgstr ""
+"Nachrichtenzwischenspeicherelemente werden abgerufen bevor sie ablaufen, "
+"damit der Zwischenspeicher aktuell gehalten wird. Wenn diese Option "
+"aktiviert ist, kann das dazu führen, dass der DNS-Datenverkehr um circa 10% "
+"ansteigt, jedoch werden häufig angefragte Einträge nie im Zwischenspeicher "
+"ablaufen."
 
 msgid "Prefetch Support"
 msgstr "Unterstützung des Vorab-Abrufs"
@@ -7763,6 +7836,9 @@ msgid ""
 "within the netblock defined below. Used for cache snooping and ideally "
 "should only be configured for your administrative host."
 msgstr ""
+"Erlaube Snoop: Diese Aktion erlaubt rekursiven und nicht rekursiven Zugang "
+"von Hosts im unten definierten Netzwerkblock. Die Verwendung von Cache-"
+"Snooping wird idealerweise nur vom Administratoren-PC erlaubt."
 
 # File: /usr/core/src/www/services_unbound_acls.php, line: 244
 msgid ""
@@ -7831,6 +7907,12 @@ msgid ""
 "obtained via DHCP or PPP on WAN if the &quot;Allow DNS server list to be "
 "overridden by DHCP/PPP on WAN&quot; is checked."
 msgstr ""
+"Wenn der DNS-Resolver aktiviert ist, wird der DHCP-Service (falls aktiviert) "
+"automatisch die LAN IP-Adresse als DNS-Server für DHCP-Clients übergeben, "
+"damit dieser automatisch verwendet wird. Wenn Weiterleitung aktiviert ist, "
+"wird der DNS-Resolver die DNS Server unter %sSystem: Einstellungen: "
+"Allgemein%s oder die via DHCP oder PPP auf WAN erhaltenen Server verwenden, "
+"je nach Konfiguration."
 
 # File: /usr/core/src/www/services_unbound.php, line: 268
 msgid ""
@@ -7839,6 +7921,11 @@ msgid ""
 "all interfaces are used. Note that setting explicit outgoing interfaces only "
 "works when they are statically configured."
 msgstr ""
+"Verwende (eine) andere Schnittstelle(n), die der DNS-Resolver verwenden "
+"wird, um authoritiative Server abzufragen und um deren Antworten zu "
+"empfangen. Standardmäßig werden alle Schnittstellen verwendet. Seien Sie "
+"darauf hingewiesen, dass das explizite Setzen der ausgehenden Schnittstellen "
+"nur dann funktioniert, wenn diese statisch konfiguriert wurden."
 
 msgid "Outgoing Network Interfaces"
 msgstr "Ausgehende Netzwerkschnittstellen"
@@ -7961,6 +8048,8 @@ msgid ""
 "The maximum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"Die maximale Zeit zwischen dem Senden eines unsolicited multicast Router "
+"advertisements von der Schnittstelle in sekunden."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 400
 msgid "Maximum Interval"
@@ -7971,6 +8060,8 @@ msgid ""
 "The minimum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"Die minimale Zeitdauer, die zwischen dem Versand von unsolicited multicast "
+"router advertisements von der Schnittstelle in Sekunden."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
@@ -7981,10 +8072,12 @@ msgid ""
 "Enable the periodic sending of router advertisements and responding to "
 "router solicitations."
 msgstr ""
+"Aktiviere das periodische Versenden von Router-Advertisements und beantworte "
+"Router-Solicitations."
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 382
 msgid "RA Sending"
-msgstr ""
+msgstr "RA-Versand"
 
 msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
@@ -8027,6 +8120,11 @@ msgid ""
 " DHCPv6 Server, \"Assisted\" for DHCPv6 Server assignment combined with "
 "Stateless Autoconfig"
 msgstr ""
+"Verwenden Sie \"Nur Router\" um den Router bekannt zu machen, \"Unverwaltet\""
+" für die Bekanntmachung mit statusloser automatischer Konfiguration, \""
+"Verwaltet\" für eine Zuweidung durch (einen) DHCPv6-Server, oder \""
+"Assistiert\" für eine DHCPv6-Server-Zuweisung kombiniert mit statusloser "
+"automatischer Konfiguration"
 
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
 msgstr ""
@@ -8065,6 +8163,9 @@ msgid ""
 "static IP addresses. Only interfaces configured with a static IP will be "
 "shown."
 msgstr ""
+"Router Ankündigungen können nur auf einer Schnittstelle mit statischer IP "
+"Adresse aktiviert werden. Es werden nur Schnittstellen mit einer statischen "
+"IP angezeigt."
 
 msgid "Save &amp; Force Update"
 msgstr "Speichern &amp; Aktualisierung erzwingen"
@@ -8143,6 +8244,8 @@ msgid ""
 "Signon Username to log into your OpenDNS dashboard. It is used to "
 "automatically update the IP address of the registered network."
 msgstr ""
+"Anmeldebenutzername für Ihr OpenDNS-Dashboard. Es wird verwendet, um die IP-"
+"Adresse des registrierten Netzwerks automatisch zu aktualisieren."
 
 # File: /usr/core/src/www/services_opendns.php, line: 153
 msgid ""
@@ -8263,6 +8366,12 @@ msgid ""
 "GPS may also be used as a Pulse Per Second clock reference. NOTE: a USB GPS "
 "may work, but is not recommended due to USB bus timing issues."
 msgstr ""
+"Ein GPS, das über einen seriellen Port verbunden ist, kann als Referenzuhr "
+"für NTP verwendet werden. Falls das GPS auch PPS unterstützt und dieses "
+"ordentlich konfiguriert und verbunden wurde, kann dieses auch als \"Pulse "
+"pro Sekunde\"-Uhrenreferenz verwendet werden. Hinweis: Ein USB-GPS kann "
+"funktionieren, aber es wird davon abgeraten da USB Bus-"
+"Übertragungsverzögerungsprobleme hat."
 
 msgid "Calculate NMEA checksum"
 msgstr "Berechne NMEA Prüfsumme"
@@ -8322,6 +8431,8 @@ msgstr ""
 msgid ""
 "Log the sub-second fraction of the received time stamp (default: Not logged)."
 msgstr ""
+"Protokolliere Sekundenbruchteile des empfangenen Zeitstempels (Standard: "
+"Nicht protokollieren)."
 
 msgid "Obscure location in timestamp (default: unobscured)."
 msgstr "Ort im Zeitstempel unkenntlich machen (Standard: nicht unkenntlich)."
@@ -8331,6 +8442,8 @@ msgstr "Aktiviere Kerlen PPS-Uhrendisziplin (Standard: aktiviert)."
 
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
 msgstr ""
+"Aktiviere die Verarbeitung von fallenden Flanke des PPS-Signals (Standard: "
+"Steigende Flanke)"
 
 msgid "Enable PPS signal processing (default: enabled)."
 msgstr "Aktivieren PPS Signalverarbeitung (Standard: aktiviert)."
@@ -8357,6 +8470,9 @@ msgid ""
 "This may be used to change the GPS Clock stratum (default: 0). This may be "
 "useful if, for some reason, you want ntpd to prefer a different clock"
 msgstr ""
+"Dies kann verwendet werden, um das Statum der GPS-Uhr festzulegen (Standard: "
+"0). Dies könnte nützlich sein, falls Sie wollen, dass ntpd eine andere Uhr "
+"bevorzugt"
 
 msgid "(0-16)"
 msgstr "(0-16)"
@@ -8529,7 +8645,7 @@ msgstr ""
 "ntpdc (Standard: deaktiviert)."
 
 msgid "Enable Kiss-o'-death packets (default: enabled)."
-msgstr ""
+msgstr "Aktiviere Kiss-o'-death-Pakete (Standard: Aktiviert)."
 
 msgid "these options control access to NTP from the WAN."
 msgstr "Diese Einstellung steuert den Zugriff von WAN auf NTP."
@@ -8548,6 +8664,8 @@ msgstr ""
 
 msgid "Enable logging of clock discipline statistics (default: disabled)."
 msgstr ""
+"Aktiviere die Protokollierung der Uhrendisziplinstatistiken (Standard: "
+"deaktiviert)."
 
 msgid "Enable logging of reference clock statistics (default: disabled)."
 msgstr ""
@@ -8602,6 +8720,11 @@ msgid ""
 "and should normally be set to a number high enough to insure that any other "
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
+"Der Orphan-Modus erlaubt es, die Systemuhr zu verwenden, wenn keine anderen "
+"Uhren verfügbar sind. Die Nummer hier gibt das Stratum, das durch den Orphan-"
+"Modus gemeldet wird, an und sollte auf eine Nummer gesetzt werden, damit "
+"sichergestellt ist, dass Clients, die über andere Server verfügen, diese "
+"gegenüber diesem Server bevorzugen. (Standard: 12)."
 
 msgid "(0-15)"
 msgstr "(0-15)"
@@ -8615,6 +8738,9 @@ msgid ""
 "The %snoselect%s option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
+"Die %skeine Auswahl%s-Option gibt an, dass NTP den Server nicht für die "
+"Zeit, aber für Statistiken, die für diesen Server gesammelt und angezeigt "
+"werden, verwendet wird."
 
 # File: src/www/services_ntpd.php, line: 292
 msgid ""
@@ -8695,6 +8821,8 @@ msgid ""
 "If you need to include multiple possible values, separate them with a |. If "
 "your provider includes a |, escape it with \\|"
 msgstr ""
+"Falls Sie mehrere mögliche Werte benötigen, trennen Sie diese mit einem |. "
+"Falls Ihr Provider ein | enthält, Escapen Sie es mit \\|"
 
 # File: src/www/services_dyndns_edit.php, line: 407
 msgid ""
@@ -8702,6 +8830,9 @@ msgid ""
 "if the update succeeds, leave it blank to disable checking of returned "
 "results."
 msgstr ""
+"Dieses Feld sollte identisch mit dem Wert sein, den Ihr dynamischer DNS-"
+"Provider zurückgibt, wenn die Aktualisierung erfolgreich war. Lassen Sie es "
+"leer, wenn Sie die Prüfung der Ergebnisse deaktivieren wollen."
 
 msgid "This field is only used by Custom Dynamic DNS Entries."
 msgstr ""
@@ -8709,7 +8840,7 @@ msgstr ""
 "verwendet."
 
 msgid "Result Match"
-msgstr ""
+msgstr "Ergebnisvergleich"
 
 msgid ""
 "If you need the new IP to be included in the request, put %IP% in its place."
@@ -8934,7 +9065,7 @@ msgid "or"
 msgstr "oder"
 
 msgid "Domain to override (NOTE: this does not have to be a valid TLD!)"
-msgstr ""
+msgstr "Domain, zur Überschreibung (HINWEIS: Dies muss keine gültige TLD sein!)"
 
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 143
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 117
@@ -8966,6 +9097,9 @@ msgid ""
 "Entries in this area override an entire domain, and subdomains, by "
 "specifying an authoritative DNS server to be queried for that domain."
 msgstr ""
+"Einträge in diesem Bereich überschreiben eine vollständige Domain und "
+"Subdomains durch die Angabe eines authoritativen DNS-Servers, der für die "
+"Domain abgefragt wird."
 
 msgid "Domain Overrides"
 msgstr "Domainüberschreibung"
@@ -9046,6 +9180,12 @@ msgid ""
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
+"Schnittstellen-IP-Adressen, die vom DNS-Forwarder für Antworten an die "
+"Clients verwendet werden; Falls eine Schnittstelle sowohl über eine IPv4- "
+"als auch eine IPv6-Adresse verfügt, werden beide verwendet. Anfragen an "
+"Schnittstellen, die hier nicht angegeben wurden, werden verworfen. Das "
+"Standardverhalten ist, dass Anfragen auf jeder Schnittstelle auf jeder IPv4 "
+"und jeder IPv6-Adresse beantwortet werden."
 
 msgid ""
 "The port used for responding to DNS queries. It should normally be left "
@@ -9067,6 +9207,12 @@ msgid ""
 "name is not known from /etc/hosts, DHCP or a specific domain override then a "
 "\"not found\" answer is immediately returned."
 msgstr ""
+"Falls diese Option gesetzt wurde, wird der DNS-Forwarder (dnsmasq) keine DNS-"
+"Auflösungen (PTR) für private Adressen (RFC 1918) an die nächsten Server "
+"weiterleiten.Jegliche Einträge in den Domainüberschreibungen für die "
+"Weiterleitung privater \"n.n.n.in-addr.arpa\"-Namen werden weiterhin "
+"weitergeleitet. Falls die IP nicht aus der /etc/hosts oder DHCP aufgelöst "
+"werden kann, wird die Antwort \"nicht gefunden\" sofort zurückgegeben."
 
 msgid "Do not forward private reverse lookups"
 msgstr "Private reverse lookups nicht weiterleiten"
@@ -9122,6 +9268,10 @@ msgid ""
 "DNS forwarder, so that their name can be resolved. You should also set the "
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
+"Falls diese Option gesetzt ist, werden die statischen DHCP-Zuweisungen im "
+"DNS-Forwarder registriert, sodass deren Name aufgelöst werden kann. Sie "
+"sollten die Domain unter %sSystem: Allgemeine Einstellungen%s auf einen "
+"passenden Wert setzen."
 
 msgid "Register DHCP static mappings in DNS forwarder"
 msgstr "Registriere statische DHCP-Zuweisungen im DNS-Weiterleitungsdienst"
@@ -9137,6 +9287,11 @@ msgid ""
 "same domain. If this is undesired, static DHCP lease registration is able to "
 "provide coherent mappings."
 msgstr ""
+"Der Domainname, der verwendet wird, um den DHCP-Hostnamen zu registrieren. "
+"Falls das Feld leer gelassen wird, wird der Systemdomainname verwendet. "
+"Seien Sie darauf hingewiesen, dass alle DHCP-Leases der selben Domain "
+"zugewiesen werden. Falls dies nicht gewünscht ist, können DHCP-Leases dazu "
+"verwendet werden, passende Zuweisungen zu erstellen."
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 261
 # File: /usr/core/src/www/services_unbound.php, line: 223
@@ -9206,6 +9361,8 @@ msgid ""
 "If this is checked, the DHCPv6 relay will append the circuit ID (interface "
 "number) and the agent ID to the DHCPv6 request."
 msgstr ""
+"Falls dies angehakt ist, wird das DHCPv6-Relay die Kreis-ID "
+"(Schnittstellennummer) und die Agenten-ID an die DHCPv6-Anfrage anhängen."
 
 msgid "Interfaces without an IPv6 address will not be shown."
 msgstr "Schnittstellen ohne eine IPv6 Adresse werden nicht angezeigt."
@@ -9310,6 +9467,9 @@ msgid ""
 "DNS forwarder is enabled, otherwise the servers configured on the General "
 "page."
 msgstr ""
+"Frei lassen um die Standard-DNS-Server des Systems zu benutzen - diese "
+"Interface IP wenn ein DNS Service eingeschaltet ist oder sonst die gewählten "
+"Server aus den Grundeinstellungen."
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 549
 msgid ""
@@ -9317,6 +9477,10 @@ msgid ""
 "for assigning networks to subrouters. The start and end of the range must "
 "end on boundaries of the prefix delegation size."
 msgstr ""
+"Sie können einen Präfixbereich für die DHCP-Präfixdelegation hier "
+"definieren. Dies erlaubt die Zuweisung von Netzwerken an weitere Router. Der "
+"Start und das Ende des Bereichs müssen an der Begrenzung der des "
+"Präfixdelegation enden."
 
 msgid "Prefix Delegation Size"
 msgstr "Präfixdelegierungsgröße"
@@ -9372,6 +9536,9 @@ msgid ""
 "The DHCPv6 Server can only be enabled on interfaces configured with static "
 "IP addresses. Only interfaces configured with a static IP will be shown."
 msgstr ""
+"Der DHCPv6-Server kann nur auf Schnittstellen konfiguriert werden, denen "
+"statische IP-Adressen zugewiesen wurden. Es werden nur Schnittstellen mit "
+"statisch konfigurierten IP-Adressen angezeigt."
 
 msgid ""
 "This is the IP address of the server to which DHCP requests are relayed. You "
@@ -9567,6 +9734,9 @@ msgid ""
 "include in the DHCP lease information. For a list of available options "
 "please visit this %sURL%s."
 msgstr ""
+"Geben Sie die DHCP-Optionsnummer und den Wert für jeden Eintrag ein, den Sie "
+"in den DHCP-Lease-Informationen hinzufügen wollen. Für eine Liste "
+"verfügbarer Optionen besuchen Sie %sURL%s."
 
 msgid "IP address or host"
 msgstr "IP-Adresse oder Host"
@@ -9698,6 +9868,8 @@ msgid ""
 "Enter a list of partial MAC addresses to allow, comma separated, no spaces, "
 "such as %s"
 msgstr ""
+"Geben Sie eine Liste von partiellen MAC-Adressen wie \"%s\" ein, die durch "
+"Beistrich getrennt sind."
 
 msgid "Show MAC Address Control"
 msgstr "Zeige MAC-Addresskontrolle an"
@@ -9781,6 +9953,10 @@ msgid ""
 "DHCPd process is Primary or Secondary. Ensure one machine's advskew<20 (and "
 "the other is >20)."
 msgstr ""
+"Leer lassen zum Deaktivieren. Geben Sie die IP-Adresse der anderen Maschine "
+"an. Die Maschinen müssen CARP benutzen. Der Parameter advskew bestimmt ob "
+"der DHCP-Prozess der primäre oder sekundäre Prozess ist. Vergewissern sie "
+"sich, dass eine Maschine < 20 und die andere > 20 setzt."
 
 msgid "Failover peer IP:"
 msgstr "Failover Peer IP:"
@@ -9847,6 +10023,9 @@ msgid ""
 "IP if DNS forwarder is enabled, otherwise the servers configured on the "
 "General page."
 msgstr ""
+"Hinweis: leer lassen um den Standard DNS Server des Systems zu verwenden - "
+"entweder die IP der Schnittstelle wenn ein DNS Dienst eingeschaltet ist, "
+"sonst die Server aus den allgemeinen Systemeinstellungen."
 
 msgid "DNS servers"
 msgstr "DNS-Server"
@@ -10078,6 +10257,8 @@ msgid ""
 "A valid primary domain name server IP address must be specified for the "
 "dynamic domain name."
 msgstr ""
+"Eine gültige primäre IP-Adresse eines Domainnamensservers für den "
+"dynamischen Domainnamen muss angegeben werden."
 
 msgid "A valid domain name must be specified for the dynamic DNS registration."
 msgstr ""
@@ -10244,6 +10425,10 @@ msgid ""
 "support this, with limitations on the number that can be created in each "
 "mode."
 msgstr ""
+"Hier können Sie Kopien der Drahtlos-Schnittstellen konfigurieren, die danach "
+"als unabhängige Schnittstellen zugewiesen werden können. Dies ist nur "
+"verfügbar für unterstützte Drahtlos-Geräten, mit eventuell weiteren "
+"Einschränkungen in der Anzahl der Kopien pro Betriebsmodus."
 
 msgid "Do you really want to delete this wireless clone?"
 msgstr "Wollen Sie diesen Wireless-Klon wirklich löschen?"
@@ -10357,6 +10542,9 @@ msgid ""
 "not explicitly support it, QinQ tagging will still work, but the reduced MTU "
 "may cause problems."
 msgstr ""
+"Nicht alle Treiber/Netzwerkkarten unterstützen 802.1Q QinQ-Markierungen "
+"ordentlich. Auf Karten, die es nicht explizit unterstützen, wird QinQ "
+"weiterhin funktionieren, aber die reduzierte MTU kann Probleme verursachen."
 
 msgid "QinQ members"
 msgstr "QinQ Mitglieder"
@@ -10397,6 +10585,8 @@ msgid ""
 "Bandwidth: Set ONLY for MLPPP connections and ONLY when links have different "
 "bandwidths."
 msgstr ""
+"Bandbreite: Nur für MLPPP-Verbindungen setzen und NUR wenn die Verbindungen "
+"unterschiedliche Bandbreiten haben."
 
 msgid "MRRU"
 msgstr "MRRU"
@@ -10443,6 +10633,10 @@ msgid ""
 "frame. It is not necessary to disable this for connections that are not "
 "multi-link."
 msgstr ""
+"Diese Option ist nur von Bedeutung wenn Mehrkanal-Punkt-zu-Punkt "
+"ausgehandelt wurde. Es verbietet kürzere Mehrkanal-Fragment-Header, genauer "
+"zwei Bytes für jedes Frame. Es ist nicht notwendig dies zu deaktivieren für "
+"Nicht-Mehrkanal-Verbindungen."
 
 msgid "Disable shortseq (auto-negotiated by default)."
 msgstr "Deaktiviere Kurzsequenz (wird standardmäßig automatisch bestimmt)."
@@ -10502,6 +10696,10 @@ msgid ""
 "goes back into dial-on-demand mode. Otherwise, the interface is brought down "
 "and all associated routes removed."
 msgstr ""
+"Wenn Wählen-bei-Bedarf aktiviert ist wird MPD bei "
+"Inaktivitätszeitüberschreitung wieder in den Wählen-bei-Bedarf Modus "
+"gesetzt. Andernfalls wird die Schnittstelle geschlossen und alle "
+"zugeordneten Routen entfernt."
 
 msgid ""
 "If no incoming or outgoing packets are transmitted for the entered number of "
@@ -10537,6 +10735,8 @@ msgid ""
 "This option causes cumulative uptime to be recorded and displayed on the "
 "Status Interfaces page."
 msgstr ""
+"Diese Option zeichnet die Gesamtverbindungszeit auf und gibt diese auf der "
+"Schnittstellen-Status-Seite aus."
 
 msgid "Enable persistent logging of connection uptime."
 msgstr "Persistente Protokollierung der Verbindungsverfügbarkeit aktivieren."
@@ -10594,6 +10794,9 @@ msgid ""
 "configured if this field is empty. Check the \"Configure NULL\" box to "
 "configure a blank Service name."
 msgstr ""
+"Hinweis: dieses Feld ist normalerweise leer. Der Dienstname wird nicht "
+"konfiguriert wenn dieses Feld leer ist. Benutzen Sie die Option NULL-"
+"Dienstnamen, um einen leeren Dienstnamen zu konfigurieren."
 
 msgid "Configure a NULL Service name"
 msgstr "Einen NULL Dienstnamen konfigurieren"
@@ -10679,11 +10882,11 @@ msgstr ""
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 282
 msgid "Enable lacp fast-timeout on the interface."
-msgstr ""
+msgstr "Aktiviere die kurze LACP Zeitbeschränkung auf der Schnittstelle."
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 278
 msgid "Fast timeout"
-msgstr ""
+msgstr "Kurze Zeitbeschränkung"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 245
 msgid ""
@@ -10698,6 +10901,9 @@ msgid ""
 "Distributes outgoing traffic using a round-robin scheduler through all "
 "active ports and accepts incoming traffic from any active port."
 msgstr ""
+"Verteilt den ausgehenden Verkehr mittels Round-Robin-Zeitplaner auf alle "
+"aktiven Anschlüsse und akzeptiert eingehenden Verkehr auf jedem aktiven "
+"Anschluss."
 
 msgid "roundrobin"
 msgstr "Roundrobin"
@@ -10711,6 +10917,12 @@ msgid ""
 "and destination address, and, if available, the VLAN tag, and the IP source "
 "and destination address."
 msgstr ""
+"Gleicht ausgehenden Verkehr über die aktiven Anschlüsse auf Basis von "
+"Protokoll-Header-Hash aus und akzeptiert eingehenden Verkehr auf jedem "
+"aktiven Anschluss. Dies ist ein statischer Aufbau der keine Aggregation mit "
+"dem Peer aushandelt oder Frames austauscht um die Verbindung zu überwachen. "
+"Der Hash schließt die Ethernet Quell- und Zieladresse mit ein sowie der "
+"gegebenenfalls vorhandene VLAN-Tag und die IP Quell- und Zieladresse."
 
 msgid "loadbalance"
 msgstr "Last verteilen"
@@ -10726,6 +10938,16 @@ msgid ""
 "in physical connectivity, Link Aggregation will quickly converge to a new "
 "configuration."
 msgstr ""
+"Unterstützt das IEEE 802.3ad Link Aggregation Control Protocol (LACP) und "
+"das Marker Protocol. LACP wird eine Menge an aggregierbaren Verbindungen mit "
+"dem Peer zu einer oder mehreren Verbindungsaggregierten Gruppen "
+"zusammenschließen. Jeder LAG setzt sich aus Ports mit der selben "
+"Geschwindigkeit zusammen, die im Full-Duplex-Modus operieren. Der "
+"Datenverkehr wird über die Ports im LAG mit der größten "
+"Gesamtgeschwindigkeit übertragen. In den meisten Fällen gibt es nur ein LAG "
+"welches alle Ports beinhaltet. Falls Änderungen in der physischen "
+"Konnektivität auftreten, wird die Verbindungszusammenfassung schnell auf "
+"eine neue Konfiguration konvergieren."
 
 msgid "lacp"
 msgstr "LACP"
@@ -10735,6 +10957,9 @@ msgid ""
 "Supports Cisco EtherChannel. This is a static setup and does not negotiate "
 "aggregation with the peer or exchange frames to monitor the link."
 msgstr ""
+"Unterstützt Cisco EtherChannel. Dies ist eine statische Konfiguration und "
+"bestimmt die Zusammenfassung nicht mit dem Peer oder tauscht Frames zur "
+"Überwachung der Verbindung aus."
 
 msgid "fec"
 msgstr "fec"
@@ -10746,6 +10971,10 @@ msgid ""
 "is the master port; any interfaces added after that are used as failover "
 "devices."
 msgstr ""
+"Versendet und empfängt Verkehr nur über den Master-Anschluss. Wenn der "
+"Master-Anschluss nicht verfügbar ist wird der nächste aktive Anschluss "
+"verwendet. Die erste hinzugefügte Schnittstelle ist der Master-Anschluss; "
+"alle anderen Schnittstellen dienen als Ausfallsicherung."
 
 msgid "failover"
 msgstr "Failover"
@@ -11078,9 +11307,13 @@ msgid ""
 "are never aged out of the cache or replaced, even if the address is seen on "
 "a different interface."
 msgstr ""
+"Markiere eine Schnittstelle als \"unbeweglich\". Dynamisch erlernte "
+"Adresseinträge werden als statisch behandelt sobald diese im "
+"Zwischenspeicher sind. Unbewegliche Einträge werden nie entfernt oder "
+"ersetzt, sogar wenn die Adresse auf einer anderen Schnittstelle gesehen wird."
 
 msgid "Sticky ports"
-msgstr ""
+msgstr "Unbewegliche Anschlüsse"
 
 msgid ""
 "The interfaces selected here will be removed from default autoedge status."
@@ -11094,6 +11327,9 @@ msgid ""
 "full duplex link status. This is the default for interfaces added to the "
 "bridge."
 msgstr ""
+"Automatische Erkennung des Punkt-zu-Punkt-Status auf der Schnittstelle über "
+"die Kontrolle des Full-Duplex Anschluss-Modus. Dies ist der Standard für "
+"Schnittstellen, die der Brücke zugeordnet werden."
 
 msgid "Auto PTP ports"
 msgstr "Automatische PTP-Ports"
@@ -11104,6 +11340,9 @@ msgid ""
 "transitions to forwarding and should be enabled on a direct link to another "
 "RSTP-capable switch."
 msgstr ""
+"Konfiguriert die Schnittstelle als Punkt-zu-Punkt-Verbindung. Dies ist "
+"erforderlich, um sofortiges Weiterleiten zu ermöglichen und sollte auf "
+"Verbindungen zu einem anderen RSTP-fähigen Switch aktiviert werden."
 
 msgid "PTP ports"
 msgstr "PTP-Ports"
@@ -11138,6 +11377,8 @@ msgstr "Randports"
 
 msgid "The span interface cannot be part of the bridge member interfaces."
 msgstr ""
+"Die verbindende Schnittstelle darf nicht teil der Brücken-Mitglieder-"
+"Schnittstellen sein."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 484
 msgid ""
@@ -11146,9 +11387,13 @@ msgid ""
 "useful for snooping a bridged network passively on another host connected to "
 "one of the span ports of the bridge."
 msgstr ""
+"Fügen Sie den Schnittstelle als einen Span-Port auf der Brücke hinzu. Span-"
+"Ports übersenden eine Kopie jedes empfangenen Frames der Brücke. Dies ist "
+"nützlich für das passive Abhören eines Brückennetzwerkes auf einem anderen "
+"Host verbunden mit einem Span-Port der Brücke."
 
 msgid "Span port"
-msgstr ""
+msgstr "Verbindender Anschluss"
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 464
 msgid ""
@@ -11156,6 +11401,9 @@ msgid ""
 "seconds is zero, then address cache entries will not be expired. The default "
 "is 240 seconds."
 msgstr ""
+"Setzt die Zeitbeschränkung der Adress-Zwischenspeicher-Einträge auf diese "
+"Zahl in Sekunden. Wenn dies 0 ist, dann werden Adress-Zwischenspeicher-"
+"Einträge nicht gelöscht. Der Standard ist 240 Sekunden."
 
 msgid "Cache entry expire time"
 msgstr "Ablaufzeit für den Cache-Eintrag"
@@ -11181,6 +11429,10 @@ msgid ""
 "back to automatic, set the cost to 0. The minimum is 1 and the maximum is "
 "200000000."
 msgstr ""
+"Setzen Sie die Spanning-Tree Pfadkosten der Schnittstelle auf einen Wert. "
+"Der Standardwert ist berechnet aus der Verbindungsgeschwindigkeit. Der Wert "
+"0 setzt einen vorherigen Wert zurück auf den automatischen Wert. Der "
+"Minimalwert ist 1 und der Maximalwert ist 200000000."
 
 msgid "Path cost"
 msgstr "Pfadkosten"
@@ -11190,6 +11442,8 @@ msgid ""
 "Set the Spanning Tree priority of interface to value. The default is 128. "
 "The minimum is 0 and the maximum is 240. Increments of 16."
 msgstr ""
+"Setzt die Spanning Tree Priorität der Schnittstelle. Der Standard ist 128. "
+"Das Minimum ist 0 und das Maximum ist 240."
 
 # File: /usr/core/src/www/interfaces_bridge_edit.php, line: 387
 msgid ""
@@ -11197,6 +11451,9 @@ msgid ""
 "transmitted before being rate limited. The default is 6. The minimum is 1 "
 "and the maximum is 10."
 msgstr ""
+"Setzt die Haltedauer für den Spanning Tree. Dies ist die Anzahl an Paketen "
+"die übertragen werden, bevor das Übertragungslimit zum Tragen kommt. Der "
+"Standardwert ist 6. Das Minimum ist 1 und das Maximum ist 10."
 
 msgid "Hold count"
 msgstr "Haltedauer"
@@ -11206,6 +11463,8 @@ msgid ""
 "Set the bridge priority for Spanning Tree. The default is 32768. The minimum "
 "is 0 and the maximum is 61440."
 msgstr ""
+"Setzt die Priorität für den Spanning Tree. Der Standardwert ist 32768. Das "
+"Minimum ist 0 und das Maximum ist 61440."
 
 msgid "Priority"
 msgstr "Priorität"
@@ -11217,6 +11476,10 @@ msgid ""
 "mode. The default is 2 seconds. The minimum is 1 second and the maximum is 2 "
 "seconds."
 msgstr ""
+"Setzt die Zeit zwischen dem Versand von Spanning Tree "
+"Protokollkonfigurationsnachrichten. Die Hello Time kann nur geändert werden, "
+"wenn im legacy STP-Modus operiert wird. Der Standard ist zwei Sekunden. Das "
+"Minimum ist eine Sekunde und das Maximum zwei Sekunden."
 
 msgid "Hello time"
 msgstr "Hello time"
@@ -11227,6 +11490,9 @@ msgid ""
 "when Spanning Tree is enabled. The default is 15 seconds. The minimum is 4 "
 "seconds and the maximum is 30 seconds."
 msgstr ""
+"Setze die Zeit die vergehen muss, bevor eine Schnittstelle damit beginnt, "
+"Pakete weiterzuleiten, wenn Spanning Tree aktiviert ist. Der Standard ist 15 "
+"Sekunden. Das Minimum ist 4 Sekunden und das Maximum ist 30 Sekunden."
 
 msgid "Forward time"
 msgstr "Weiterleitungszeit"
@@ -11237,6 +11503,9 @@ msgid ""
 "default is 20 seconds. The minimum is 6 seconds and the maximum is 40 "
 "seconds."
 msgstr ""
+"Setzen Sie eine Zeit, für die die Spanning Tree Protocol Konfiguration "
+"gültig ist. Der Standardwert ist 20 Sekunden. Die Mindestgültigkeit ist 6, "
+"die Maximalgültigkeit 40 Sekunden."
 
 msgid "Valid time"
 msgstr "Gültige Zeit"
@@ -11323,7 +11592,7 @@ msgstr ""
 "%s Schnittstellenpriorität für STP muss eine Zahl zwischen 0 und 240 sein."
 
 msgid "Transmit Hold Count for STP needs to be an integer between 1 and 10."
-msgstr ""
+msgstr "Sendehaltedauer für STP muss zwischen 1 und 10 liegen."
 
 msgid "Priority for STP needs to be an integer between 0 and 61440."
 msgstr "Die Priorität für STP muss eine Zahl zwischen 0 und 61440 sein."
@@ -11341,7 +11610,7 @@ msgid "Maxaddr needs to be an integer."
 msgstr "Maxaddr muss eine Zahl sein."
 
 msgid "Maxage needs to be an integer between 6 and 40."
-msgstr ""
+msgstr "Maximales Alter muss eine Zahl zwischen 6 und 40 sein."
 
 msgid "Member Interfaces"
 msgstr "Mitglieder Schnittstellen"
@@ -11429,10 +11698,10 @@ msgstr "Vlan %s auf %s "
 
 # File: src/www/interfaces.php, line: 3328
 msgid "802.1X Roaming Preauth"
-msgstr ""
+msgstr "802.1X Roaming-Präauthentifizierung"
 
 msgid "Secondary 802.1X Authentication Server Shared Secret"
-msgstr ""
+msgstr "Sekundäres gemeinsames 802.1X-Authentifizierungservergeheimnis"
 
 # File: src/www/interfaces.php, line: 3319
 msgid "802.1X Server Shared Secret (2)"
@@ -11642,6 +11911,9 @@ msgid ""
 "When operating as an access point in 802.11g mode, allow only 11g-capable "
 "stations to associate (11b-only stations are not permitted to associate)."
 msgstr ""
+"Erlaube die Assiziierung nur von 11g-fähigen Geräten, wenn es im Access-"
+"Point 802.11g-Modus betieben wird (nur 11b-fähige Stations wird die "
+"Assoziierung nicht erlaubt)."
 
 msgid "802.11g only"
 msgstr "802.11g alleine"
@@ -11651,6 +11923,9 @@ msgid ""
 "selected wireless standard to associate (stations not capable are not "
 "permitted to associate)."
 msgstr ""
+"Erlaube die Assiziierung nur von Geräten, die den ausgewählten Standard "
+"unterstützen, wenn es im Access-Point-Modus betieben wird (nur Stations, die "
+"den jeweiligen Standard erfüllen, wird die Assoziierung erlaubt)."
 
 msgid "802.11n"
 msgstr "802.11n"
@@ -11689,6 +11964,11 @@ msgid ""
 "codes may not be allowed by some cards. These settings may not be able to "
 "add additional channels that are not already supported."
 msgstr ""
+"Alle drahtlosen Netzwerke auf dieser Schnittstelle werden temporär "
+"deaktiviert wenn die regulativen Einstellungen geändert werden. Manche "
+"regulativen Domains oder Ländercodes könnten durch manche Netzwerkkarten "
+"nicht unterstützt werden. Diese Einstellungen können ggf. keine zusätzlichen "
+"Kanäle hinzufügen, die nicht bereits unterstützt werden."
 
 # File: /usr/core/src/www/interfaces.php, line: 2935
 msgid ""
@@ -11696,6 +11976,10 @@ msgid ""
 "transmit power allowed on those channels. Using the correct settings to "
 "comply with local regulatory requirements is recommended."
 msgstr ""
+"Diese Einstellungen können beeinflussen welche Kanäle verfügbar sind und wie "
+"hoch die maximale erlaube Sendeleistung dieser Kanäle ist. Die Benutzung von "
+"korrekten Einstellungen zum Befolgen von lokalen behördlichen Vorschriften "
+"wird empfohlen."
 
 msgid "Anywhere"
 msgstr "Irgendwo"
@@ -11724,6 +12008,9 @@ msgid ""
 "the regulatory domain to one in this list for the changes to other "
 "regulatory settings to work."
 msgstr ""
+"Hinweis: einige Karten haben Standardeinstellungen die unüblich sind und "
+"benötigen daher die Anpassung der behördlichen Domäne zu einer aus dieser "
+"Liste damit Änderungen an anderen behördlichen Einstellungen funktionieren."
 
 msgid "Regulatory domain"
 msgstr "Regulative Domäne"
@@ -11750,7 +12037,7 @@ msgid "Transmit antenna"
 msgstr "Sendeantenne"
 
 msgid "Diversity"
-msgstr ""
+msgstr "Vielfalt"
 
 msgid "Antenna settings"
 msgstr "Antenneneinstellungen"
@@ -11782,6 +12069,10 @@ msgid ""
 "will use the setting closest to the specified value. Not all adapters "
 "support changing the transmit power setting."
 msgstr ""
+"Meistens sind nur einige wenige Leistungseinstellungen verfügbar und der "
+"Treiber wird die Einstellung verwenden, die nahe des eingestellten Wertes "
+"liegt. Nicht alle Geräte unterstützen die Konfigurierbarkeit der "
+"Sendeleistung."
 
 msgid "Transmit power"
 msgstr "Sendeleistung"
@@ -11831,12 +12122,16 @@ msgid ""
 "The value in this field is the (Delegated) IPv6 prefix id. This determines "
 "the configurable network ID based on the dynamic IPv6 connection"
 msgstr ""
+"Der Wert in diesem Feld ist die (delegierte) IPv6-Präfix-ID. Diese bestimmt "
+"die konfigurierbare Netzwerk-ID basierend auf der dynamischen IPv6-Verbindung"
 
 msgid "IPv6 Prefix ID"
 msgstr "IPv6 Präfix ID"
 
 msgid "This selects the dynamic IPv6 WAN interface to track for configuration"
 msgstr ""
+"Dies selektiert die dynamische IPv6-WAN-Schnittstelle die für die "
+"Konfiguration verfolgt wird"
 
 msgid "IPv6 Interface"
 msgstr "IPv6 Schnittstelle"
@@ -11849,6 +12144,9 @@ msgid ""
 "the ISP. A value of 0 means we embed the entire IPv4 address in the 6RD "
 "prefix."
 msgstr ""
+"Der Wert in diesem Feld ist die 6RD-IPv4-Präfixlänge. Wird normalerweise von "
+"Ihrem ISP angegeben. Ein Wert von 0 bedeutet, dass die vollständige IPv4-"
+"Adresse in den 6RD-Präfix eingebunden wird."
 
 msgid "bits"
 msgstr "Bits"
@@ -11888,7 +12186,7 @@ msgstr "Schlüssel-Id"
 
 # File: /usr/core/src/www/interfaces.php, line: 2596
 msgid "realm"
-msgstr ""
+msgstr "Bereich"
 
 # File: /usr/core/src/www/interfaces.php, line: 2594
 msgid "keyname"
@@ -11986,6 +12284,9 @@ msgid ""
 "a DHCP lease.  [option [, ...]] <br />Some DHCP services may require certain "
 "options be or not be requested. "
 msgstr ""
+"Die Werte in diesem Feld sind DHCP-Anfrage-Optionen zum Versenden wenn ein "
+"DHCP-Lease verlangt wird.  [option [, ...]] <br />Einige DHCP-Dienste "
+"benötigen bestimmte Optionen. "
 
 # File: /usr/core/src/www/interfaces.php, line: 2528
 msgid ""
@@ -11996,6 +12297,12 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent."
 msgstr ""
+"Die Werte in diesem Feld sind DHCP-Sende-Optionen zum Versenden wenn ein "
+"DHCP-Lease verlangt wird.  [option [, ...]] <br />Wert-Ersetzungen: "
+"{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br/>Hierbei "
+"ist C das \"D\" für Großbuchstaben, \"L\" für Kleinbuchstaben, und D ist "
+"eines der Trennzeichen \":-.\" (Doppelpunkt, Minus oder Punkt), leer wenn "
+"nicht benötigt.<br />Einige DHCP-Dienste benötigen bestimmte Optionen."
 
 # File: /usr/core/src/www/interfaces.php, line: 2521
 msgid "Source: FreeBSD man page"
@@ -12208,6 +12515,9 @@ msgid ""
 "lease. [modifier option declaration [, ...]] <br />modifiers: (default, "
 "supersede, prepend, append)"
 msgstr ""
+"Die Werte in diesem Feld sind DHCP Optionen zum Anwenden auf erhaltene DHCP-"
+"Leases. [modifikator option deklaration [, ...]] <br />Modifikatoren: "
+"default, supersede, prepend, append"
 
 # File: src/www/interfaces.php, line: 2062
 msgid "Option Modifiers"
@@ -12231,6 +12541,9 @@ msgid ""
 "DHCP lease. [option [, ...]] <br />Some ISPs may require certain options be "
 "or not be requested."
 msgstr ""
+"Die Werte in diesem Feld sind für DHCP Option 55 zum Versenden wenn ein DHCP-"
+"Lease verlangt wird. [option [, ...]] <br />Einige DHCP-Dienste benötigen "
+"bestimmte Optionen."
 
 msgid "Request Options"
 msgstr "Abfrageoptionen"
@@ -12244,6 +12557,12 @@ msgid ""
 "omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent."
 msgstr ""
+"Die Werte in diesem Feld sind DHCP Optionen zum Versenden wenn ein DHCP-"
+"Lease verlangt wird. [option deklaration [, ...]] <br />Wert-Ersetzungen: "
+"{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />Hierbei "
+"ist C das \"D\" für Großbuchstaben, \"L\" für Kleinbuchstaben, und D ist "
+"eines der Trennzeichen \":-.\" (Doppelpunkt, Minus oder Punkt), leer wenn "
+"nicht benötigt.<br />Einige ISPs benötigen bestimmte Optionen."
 
 msgid "Send Options"
 msgstr "Sendeoptionen"
@@ -12293,7 +12612,7 @@ msgstr "Initialer Intervall"
 
 # File: src/www/interfaces.php, line: 2007
 msgid "Backoff Cutoff"
-msgstr ""
+msgstr "Rücktrittsabschaltung"
 
 # File: src/www/interfaces.php, line: 2005
 msgid "Select Timeout"
@@ -12448,6 +12767,9 @@ msgid ""
 "If you enter a value in this field, then MSS clamping for TCP connections to "
 "the value entered above minus 40 (TCP/IP header size) will be in effect."
 msgstr ""
+"Falls Sie einen Wert in dieses Feld eingeben, dann wird MSS-Clamping für TCP-"
+"Verbindungen auf den oben angegebenen Wert abzüglich 40 Bytes für den TCP/IP-"
+"Header angewendet."
 
 msgid ""
 "If you leave this field blank, the adapter's default MTU will be used. This "
@@ -12900,6 +13222,9 @@ msgid ""
 "Otherwise the lowest combination of both values in the cluster determines "
 "the master."
 msgstr ""
+"Die Frequenz in der diese Maschine sich ankündigt. 0 bedeutet normalerweise "
+"Master. Sonst bestimmt die minimale Kombination beider Werte im Cluster den "
+"Master."
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 441
 msgid "Skew"
@@ -12910,7 +13235,7 @@ msgid "Base"
 msgstr "Basis"
 
 msgid "Advertising Frequency"
-msgstr ""
+msgstr "Advertising-Frequenz"
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 429
 msgid "Enter the VHID group that the machines will share."
@@ -13238,6 +13563,9 @@ msgid ""
 "disabled when you check this. Detailed settings specified below will still "
 "be used."
 msgstr ""
+"Deaktiviere alle Standardmäßigen Scrubing-Regeln. MSS-Clamping wird, wenn "
+"Sie dies anhaken auch deaktiviert. Die detaillierten Einstellungen unten "
+"werden nach wie vor verwendet."
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 247
 msgid "Disable interface scrub"
@@ -13435,6 +13763,9 @@ msgid ""
 "you're doing advanced queueing in certain situations. Please check the "
 "documentation."
 msgstr ""
+"%sKeiner%s: Verwende keine Verbindungsverfolgungsmechanismen. Dies ist nur "
+"dann Nützlich, falls Sie erweiterte Reihungen in manchen Situationen "
+"benötigen. Bitte lesen Sie diesbezüglich die Dokumentation."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 msgid ""
@@ -13442,16 +13773,24 @@ msgid ""
 "from spoofed TCP SYN floods. This option includes the functionality of keep "
 "state and modulate state combined."
 msgstr ""
+"%sSynproxy-Status%s vermittelt eingehende TCP-Verbindungen um die Server vor "
+"gefälschten TCP-SYN-Fluten zu schützen. Diese Option enthält die "
+"Funktionalität von \"Status behalten\" und \"Status modulieren\" in "
+"Kombination."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1377
 msgid ""
 "%sSloppy state%s works like keep state, but it does not check sequence "
 "numbers. Use it when the firewall does not see all packets."
 msgstr ""
+"%sSloppy-Status%s funktioniert wie Status behalten, prüft aber die "
+"Sequenznummern nicht. Verwenden Sie diese Option, wenn die Firewall nicht "
+"alle Pakete sieht."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1376
 msgid "%sKeep state%s is used for stateful connection tracking."
 msgstr ""
+"%sStatus behalten%s wird für statusbehaftete Verbindungsverfolgung verwendet."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 msgid ""
@@ -13742,11 +14081,15 @@ msgid ""
 "If you specify TCP flags that should be set you should specify out of which "
 "flags as well."
 msgstr ""
+"Falls Sie angeben, welche TCP-Markierungen gesetzt sein müssen, sollten Sie "
+"ebenfalls angeben, welche nicht gesetzt sein sollten."
 
 msgid ""
 "Both maximum new connections per host and the interval (per second(s)) must "
 "be specified"
 msgstr ""
+"Sowohl die maximale Anzahl neuer Verbindungen pro Maschine als auch das "
+"Intervall (pro Sekunde) muss angegeben werden"
 
 msgid "State timeout (advanced option) must be a positive integer"
 msgstr "Statusgültigkeitsdauer (erweiterte Option) muss eine positive Zahl sein"
@@ -14047,6 +14390,9 @@ msgid ""
 "No interfaces rules are currently defined. All incoming connections on this "
 "interface will be blocked until you add a pass rule."
 msgstr ""
+"Es sind derzeit keine Schnittstellen-Regeln definiert. Alle eingehenden "
+"Verbindungen auf diesem Interface werden geblockt bis eine Pass-Regel "
+"hinzugefügt wird."
 
 # File: /usr/core/src/www/firewall_rules.php, line: 626
 msgid ""
@@ -14054,6 +14400,9 @@ msgid ""
 "single interface and can therefore be used to span policies over multiple "
 "networks at the same time."
 msgstr ""
+"Zur Zeit sind keine fließenden Regeln definiert. Fließende Regeln sind nicht "
+"an eine einzelne Schnittstelle gebunden und können daher verwendet werden, "
+"um Regeln über mehrere Netzwerke zur selben Zeit zu definieren."
 
 # File: src/www/firewall_rules.php, line: 569
 # File: src/www/firewall_schedule.php, line: 235
@@ -14063,12 +14412,12 @@ msgstr "Zeitplan bearbeiten"
 # File: /usr/core/src/www/firewall_rules.php, line: 489
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 805
 msgid "Address Mask Reply (Deprecated)"
-msgstr ""
+msgstr "Adressmaskenantwort (Veraltet)"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 488
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 804
 msgid "Address Mask Request (Deprecated)"
-msgstr ""
+msgstr "Adressmaskenanfrage (Veraltet)"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 487
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 803
@@ -14098,12 +14447,12 @@ msgstr "Zeit überschritten"
 # File: /usr/core/src/www/firewall_rules.php, line: 481
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 797
 msgid "Router Solicitation"
-msgstr ""
+msgstr "Router-Solicitation"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 480
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 796
 msgid "Router Advertisement"
-msgstr ""
+msgstr "Router-Advertisement"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 479
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 795
@@ -14116,7 +14465,7 @@ msgstr "Weiterleiten"
 # File: /usr/core/src/www/firewall_rules.php, line: 477
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 793
 msgid "Source Quench (Deprecated)"
-msgstr ""
+msgstr "Source Quench (Veraltet)"
 
 # File: /usr/core/src/www/firewall_rules.php, line: 476
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 792
@@ -14462,6 +14811,9 @@ msgid ""
 "The prefix size specified for the internal IPv6 prefix will be applied to "
 "the external prefix."
 msgstr ""
+"Geben Sie den internen (LAN) ULA-IPv6-Präfix für die "
+"Netzwerkpräfixübersetzung ein. Die Präfixlänge für den internen IPv6-Präfix "
+"wird für den externen Präfix angewendet."
 
 msgid "Address:"
 msgstr "Adresse:"
@@ -14598,6 +14950,8 @@ msgid ""
 "When using the TCP or UDP protocols, specify the source port or port range "
 "for this rule"
 msgstr ""
+"Geben Sie den Quellportbereich für diese Regel an, wenn ein TCP- oder UDP-"
+"Protokoll verwendet wird"
 
 msgid "any"
 msgstr "jeglich"
@@ -15062,6 +15416,10 @@ msgid ""
 "saving the lists will be downloaded and scheduled for automatic updates when "
 "a frequency is provided."
 msgstr ""
+"Geben Sie eine URL ein, die eine große Anzahl an IP-Adressen, Ports oder "
+"Subnetzen enthält. Nach dem Speichern werden die Listen heruntergeladen und "
+"automatische Aktualisierungen geplant, sofern eine Aktualisierungshäufigkeit "
+"angegeben wurde."
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 518
 msgid "URLs"
@@ -15086,6 +15444,10 @@ msgid ""
 "periodically re-resolved and updated. If multiple IPs are returned by a DNS "
 "query, all are used."
 msgstr ""
+"Geben Sie so viele Hosts ein wie Sie wollen. Host können über deren IP-"
+"Adresse oder vollqualifizierten Domainnamen (FQDN) angegeben werden. FQDN-"
+"Hostnamen werden periodisch neu aufgelöst und aktualisiert. Falls mehere IP-"
+"Adressen zurückgegeben werden, werden alle benutzt."
 
 # File: src/www/firewall_aliases_edit.php, line: 442
 msgid "Hosts"
@@ -15099,6 +15461,12 @@ msgid ""
 "used IPv6 network, etc. Hostnames (FQDNs) may also be specified, using /32 "
 "for IPv4 and /128 for IPv6."
 msgstr ""
+"Netzwerke werden im CIDR-Format angegeben. Wählen Sie den CIDR-Suffix aus, "
+"der für jeden Eintrag verwendet wird. /32 gibt einen einzelnen IPv4-Host an, "
+"/128 gibt einen einzelnen IPv6-Host an, /24 in IPv4 entspricht "
+"255.255.255.0, /64 gibt ein üblicherweise verwendetes IPv6-Netzwerk an etc. "
+"Hostnamen (FQDNs) können ebenfalls angegeben werden, wobei /32 für IPv4 und /"
+"128 für IPv6 verwendet wird."
 
 msgid "Networks"
 msgstr "Netzwerke"
@@ -17135,6 +17503,9 @@ msgid ""
 "Are you sure you want to flush and reload all? this might have impact on "
 "other services using the same technology underneath (such as Captive portal)"
 msgstr ""
+"Sind Sie sicher, dass Sie alles leeren und neu laden wollen? Dies könnte "
+"andere Dienste beeinflussen, die die selbe Technologie verweden (z. B. das "
+"Captive Portal)."
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
 msgid "Error reconfiguring trafficshaper"
@@ -17166,6 +17537,12 @@ msgid ""
 "under %sForward Proxy -> Access Control List%s.\n"
 "                    "
 msgstr ""
+"\n"
+"Fügen Sie einen Eintrag zu dieser Liste hinzu, um eine ferne "
+"Zugriffskontrollliste zum Blockieren herunterzuladen.%s\n"
+"Sie können die schwarze Liste aktivieren oder deaktivieren.%s\n"
+"Die aktiven schwarzen Listen werden mit den Einträgen unter %sForward Proxy "
+"-> Zugangskontrolllisten%s verbunden.\n"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
@@ -17747,7 +18124,7 @@ msgstr "Prüfen Sie auf Aktualisierungen um die verfügbaren Plugins anzuzeigen.
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 365
 msgid "orphaned"
-msgstr ""
+msgstr "verwaist"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 355
 msgid "No packages were found on your system. Please call for help."
@@ -18386,6 +18763,8 @@ msgid ""
 "Automatically synchronize the %s configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"Synchronisieren die %s-Konfiguration automatisch mit dem anderen HA-Host "
+"wenn Änderungen gemacht werden."
 
 msgid "OpenVPN %s wizard"
 msgstr "OpenVPN %s Assistent"
@@ -18880,7 +19259,7 @@ msgstr "Schnittstellenstatus verarbeiten"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 608
 msgid "Flushing schedule state"
-msgstr ""
+msgstr "Leere den Zeitplanstatus"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 585
 msgid "Reloading filterdns daemon"
@@ -19191,6 +19570,8 @@ msgid ""
 "Relays allow application layer load balancing, TLS acceleration, and general "
 "purpose TCP proxying on layer 7."
 msgstr ""
+"Relays erlauben Lastverteilung auf Anwendungsschicht, TLS-Beschleunigung und "
+"allgemeine TCP-Vermittlung auf Layer 7."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 297
 msgid ""
@@ -19305,6 +19686,13 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
+"Aufeinanderfolgende Verbindungen werden im Round-Robin-Verfahren an die "
+"Server weitergeleitet, wobei Verbindungen von der gleichen Quelle an den "
+"gleichen Webserver gesendet werden. Die 'klebrige Verbindung' wird so lange "
+"existieren, wie ein Status besteht, der sich auf diese Verbindung bezieht. "
+"Sobald die Status ablaufen, gilt dies ebenfalls für die klebrige Verbindung. "
+"Weitere Verbindungen von diesem Host werden zum nächsten Server im round-"
+"Robin weitergeleitet."
 
 msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
@@ -19668,6 +20056,9 @@ msgid ""
 "responsible for communicating to available multicast data sources. There can "
 "only be one upstream interface."
 msgstr ""
+"Die Upstream-Netzwerkschnittstelle ist die ausgehende Schnittstelle, die für "
+"die Kommunikation mit verfügbaren Multicast-Datenquellen zuständig ist. Es "
+"kann nur eine Upstream-Schnittstelle geben."
 
 msgid "Downstream Interface"
 msgstr "Downstream-Schnittstelle"
@@ -19716,11 +20107,11 @@ msgstr "Maximale Sitzungen"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 96
 msgid "Reverse Port"
-msgstr ""
+msgstr "Reverse-Port"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
-msgstr ""
+msgstr "Reverse-Adresse"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
@@ -19737,7 +20128,7 @@ msgstr "HAProxy Lastverteiler"
 
 # File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 81
 msgid "HAProxy Load Balancer"
-msgstr ""
+msgstr "HAProxy-Lastverteiler"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 168
 msgid ""
@@ -19820,7 +20211,7 @@ msgstr "Ausfallzeit"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
 msgid "Backend/Frontend"
-msgstr ""
+msgstr "Backend/Frontend"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 235
 msgid "Queue"
@@ -19861,7 +20252,7 @@ msgstr "Verbindung"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
 msgid "Warnings Retr"
-msgstr ""
+msgstr "Wiederholungswarnungen"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 253
 msgid "Redis"
@@ -19927,6 +20318,8 @@ msgid ""
 "Specify optional secret shared between peers. Required on some "
 "devices/setups."
 msgstr ""
+"Spezifiziert optionales gemeinsames Geheimwort zwischen Peers. Dies wird von "
+"manchen Geräten / Aufbauten benötigt."
 
 msgid "Authentication Type"
 msgstr "Authentifizierungstyp"
@@ -20063,7 +20456,7 @@ msgid "Remote address range"
 msgstr "Entfernter Adressbereich"
 
 msgid "Specify the starting address for the client IP address subnet."
-msgstr ""
+msgstr "Spezifiziert die Startadresse für das Client IP Teilnetz."
 
 msgid "PPTP DNS Servers"
 msgstr "PPTP DNS Server"
@@ -20176,6 +20569,10 @@ msgid ""
 "forced on PPTP connections (i.e. unencrypted connections will not be "
 "accepted)."
 msgstr ""
+"Wenn gesetzt, wird nur 128-Bit-Verschlüsselung akzeptiert. Ansonsten werden "
+"40-Bit- und 56-Bit-Verschlüsselungen ebenfalls akzeptiert. Seien Sie darauf "
+"hingewiesen, dass Verschlüsselung auf PPTP-Verbindungen erzwungen werden ("
+"unverschlüsselte Verbindungen werden abgewiesen)."
 
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 406
 msgid ""
@@ -20425,7 +20822,7 @@ msgstr "Protokolliere NAT-PMP"
 
 # File: /usr/core/src/www/services_upnp.php, line: 277
 msgid "Log packets handled by UPnP &amp; NAT-PMP rules?"
-msgstr ""
+msgstr "Protokolliere Pakete die von UPnP und NAT-PMP Regeln gehandhabt werden?"
 
 # File: /usr/core/src/www/services_upnp.php, line: 282
 msgid "Use system time"
@@ -20434,6 +20831,7 @@ msgstr "Systemzeit verwenden"
 # File: /usr/core/src/www/services_upnp.php, line: 286
 msgid "Use system uptime instead of UPnP and NAT-PMP service uptime?"
 msgstr ""
+"Nutze die Betriebszeit des Systems anstatt des UPnP und NAT-PMP Dienstes?"
 
 # File: /usr/core/src/www/services_upnp.php, line: 291
 msgid "Default deny"
@@ -20526,7 +20924,7 @@ msgid "Community"
 msgstr "Community"
 
 msgid "Polling Port"
-msgstr ""
+msgstr "Port für regelmäßige Abfragen"
 
 msgid "Invalid character '#' in SNMP trap string"
 msgstr "Ungültiges Zeichen '#' im SNMP-Trap-String"
@@ -20608,7 +21006,7 @@ msgid "Regex"
 msgstr "Regulärer Ausdruck"
 
 msgid "Interface Binding"
-msgstr "Schnittstellen Zuordnung"
+msgstr "Schnittstellenzuordnung"
 
 msgid "Bind Interface"
 msgstr "Zugeordnete Schnittstelle"
@@ -20716,6 +21114,8 @@ msgid ""
 "between 2 and 5 seems to show good results. The default value is 0 "
 "(disabled)."
 msgstr ""
+"Füge Zufälligkeit in das Prüfintervall zwischen 0 und +/- 50% ein. Ein Wert "
+"zwischen 2 und 5 kann gute Ergebnisse erzielen. Der Standardwert ist 0 (aus)."
 
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
@@ -20905,7 +21305,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Capture local"
-msgstr "Aufzeichnung lokal"
+msgstr "lokale Aufzeichnung"
 
 msgid "Certificate Authority"
 msgstr "Zertifizierungsstelle"
@@ -20919,6 +21319,9 @@ msgid ""
 "or regex patterns in very large pages, though doing so may imply more memory "
 "and CPU usage. The default value is 16384."
 msgstr ""
+"Ändere die Überprüfungspuffergröße (in Bytes). Höhere Werte können helfen, "
+"die Werte in großen Seiten zu finden, aber dies kann Auswirkungen auf die "
+"Speicher- und CPU-Auslastung haben. Der Standardwert ist 16384."
 
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Check Interval"
@@ -20926,7 +21329,7 @@ msgstr "Überprüfungsintervall"
 
 # File: /usr/lang/src/controllers.php, line: 103
 msgid "Check Timeout"
-msgstr ""
+msgstr "Überprüfungsgültigkeitsdauer"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Check interval"
@@ -21002,7 +21405,7 @@ msgstr "Klassentyp"
 
 # File: /usr/lang/src/controllers.php, line: 106
 msgid "Client Timeout"
-msgstr ""
+msgstr "Clientgültigkeitsdauer"
 
 # File: lang/dynamic/helpers/controllers.php, line: 39
 msgid ""
@@ -21055,12 +21458,18 @@ msgid ""
 "i.e. 10.0.0.1:8080 or haproxy.example.com:8999. Use TAB key to complete "
 "typing a listen address."
 msgstr ""
+"Konfiguriere die hörenden Adressen für die Statistikenseite um fernen Zugang "
+"zu aktivieren. Verwenden Sie die Tabulator-Taste um die hörende Adresse zu "
+"vervollständigen. Beispiele: 10.0.0.1:8080 oder haproxy.example.com:8999."
 
 # File: /usr/lang/src/controllers.php, line: 56
 msgid ""
 "Configure listen addresses for this frontend, i.e. 127.0.0.1:8080 or "
 "www.example.com:443. Use TAB key to complete typing a listen address."
 msgstr ""
+"Konfiguriere die hörende Adresse wie zum Beispiel 127.0.0.1:8080 oder "
+"www.example.com:443 für dieses Frontend.Verwenden Sie die Tabulatortaste um "
+"die hörende Adresse zu vervollständigen."
 
 # File: /usr/lang/src/controllers.php, line: 116
 msgid "Connect To"
@@ -21078,6 +21487,8 @@ msgid ""
 "Connections coming from (src) or going to (dst) listed countries, default "
 "selects both."
 msgstr ""
+"Verbindungen die aus (Quelle) kommen oder in ein Land (Ziel) gehen; Standard "
+"wählt beide aus."
 
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Consumer Key"
@@ -21099,6 +21510,8 @@ msgstr "Name des Cookies"
 msgid ""
 "Cookie name to use for stick table (if appropiate table type is selected)."
 msgstr ""
+"Cookie-Name der für die Stick-Tabelle verwendet wird(, falls eine "
+"entsprechende Tabelle ausgewählt wurde)."
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Countries to alert or block using GeoIP."
@@ -21328,6 +21741,9 @@ msgid ""
 "Don't use port on server, use the same port as frontend receive. If check "
 "enable, require port check in server."
 msgstr ""
+"Verwende den Serverport nicht, sondern stattdessen den selben Port, auf dem "
+"das Frontend empfängt. Falls Sie \"aktivieren\" anhaken, sollten Sie die "
+"Portüberprüfung im Server aktivieren."
 
 # File: /usr/lang/src/controllers.php, line: 192
 msgid "Down Interval"
@@ -21475,6 +21891,8 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Enable or disable session redistribution in case of connection failure."
 msgstr ""
+"Aktiviere oder deaktiviere die Sitzungsverteilung im Falle von "
+"Verbindungsfehlern."
 
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Enable or disable the HAProxy service."
@@ -21486,6 +21904,10 @@ msgid ""
 "supported. Do not enable on embedded systems with SD or CF cards without the "
 "/var MFS option as this will wear down your drive."
 msgstr ""
+"Den lokalen Zwischenspeicher aktivieren oder deaktivieren. Nur der UFS-"
+"Verzeichniszwischenspeichertyp wird unterstützt. Aktivieren Sie es "
+"keinesfalls auf eingebettenten Systemen mit SD- oder CF-Karten ohne der /var "
+"MFS-Option, da dies Ihre Speicherkarte abnützt."
 
 # File: lang/dynamic/helpers/controllers.php, line: 35
 msgid "Enable or disable the proxy service."
@@ -21512,6 +21934,8 @@ msgid ""
 "Enable promiscuous mode, for certain setups (like IPS with vlans), this is "
 "required to actually capture data on the physical interface."
 msgstr ""
+"Aktiviere den promiscuous-Modus. Dies ist für manche Fälle wie IPS mit VLANS "
+"eforderlich, um auf Daten auf der physischen Schnittstelle zuzugreifen."
 
 # File: /usr/lang/src/controllers.php, line: 190
 msgid "Enable proxy"
@@ -21640,6 +22064,11 @@ msgid ""
 "last created, refreshed or matched. The maximum duration is slightly above "
 "24 days."
 msgstr ""
+"Geben Sie eine Zahl gefolgt von einem unterstützten Suffix wie \"d\" (Tage), "
+"\"h\" (Stunden), \"m\" (Minuten), \"s\" (Sekunden) oder \"ms\" "
+"(Millisekunden) ein. Dies konfiguriert die maximale Lebensdauer eines "
+"Eintrags seit der Erstellung, Aktualisierung oder Verwendung in der "
+"klebrigen Tabelle. Die Maximale Dauer ist etwas über 24 Tage."
 
 # File: /usr/lang/src/controllers.php, line: 101
 msgid ""
@@ -21707,6 +22136,8 @@ msgid ""
 "Enter the directory location for thee local cache (default is "
 "/var/squid/cache)."
 msgstr ""
+"Geben Sie den Verzeichnisort für den lokalen Zwischenspeicher an (Standard "
+"ist /var/squid/cache)."
 
 # File: lang/dynamic/helpers/controllers.php, line: 87
 msgid ""
@@ -21817,7 +22248,7 @@ msgstr "Ablaufzeit"
 
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Explicit Congestion Notification"
-msgstr ""
+msgstr "Erweiterte Überlastkontrolle (ECN)"
 
 # File: /usr/lang/src/controllers.php, line: 239
 msgid "Expression"
@@ -21887,6 +22318,11 @@ msgid ""
 "to (before it was redirected). Use this option to proxy for a server behind "
 "NAT, or to forward all connections to another proxy."
 msgstr ""
+"Fixierte Serveradresse; auch bekannt als Reverse-Modus. Der Proxy wird sich "
+"immer mit dem selben Server verbinden, egal welchen Server der Client vor "
+"der Umleitung ansprechen wollte. Verwenden Sie diese Option, um für einem "
+"Server hinter einem NAT zu vermitteln oder um alle Verbindungen zu einem "
+"anderen Proxy weiterzuleiten."
 
 # File: /usr/lang/src/controllers.php, line: 252
 msgid "Form condition"
@@ -21973,7 +22409,7 @@ msgstr "HTTP-01/OPNsense"
 
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Hard timeout (minutes)"
-msgstr ""
+msgstr "Harte Gültigkeitsdauer (Minuten)"
 
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Health Checking"
@@ -21985,7 +22421,7 @@ msgstr "Gesundheitsüberprüfung"
 
 # File: /usr/lang/src/controllers.php, line: 267
 msgid "Health check buffer size"
-msgstr ""
+msgstr "Gesundheitsüberprüfungspuffergröße"
 
 msgid "Hostname"
 msgstr "Hostname"
@@ -22136,6 +22572,8 @@ msgstr "Interne Nummer, die für diese Zone verwendet wird"
 # File: /usr/lang/src/controllers.php, line: 135
 msgid "Interval before dropping packets (in ms), leave empty for default"
 msgstr ""
+"Intervall, bevor Pakete verworfen werden (in ms); lassen Sie es für den "
+"Standardwert leer"
 
 msgid "Key"
 msgstr "Schlüssel"
@@ -22263,6 +22701,8 @@ msgstr "Nachricht"
 msgid ""
 "Minimum acceptable persistent queue delay (in ms), leave empty for default"
 msgstr ""
+"Minimale akzeptable persistente Warteschlangenverzögerung (in ms); leer "
+"lassen für den Standardwert"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 342
 msgid "Minutes"
@@ -22381,10 +22821,14 @@ msgid ""
 "not set this too low, because the control connection is usually idle when "
 "large data transfers are taking place."
 msgstr ""
+"Anzahl der Sekunden die die Kontrollverbindung inaktiv sein kann bevor der "
+"Proxy sich trennt. Das Maximum ist 86400 Sekunden, gleichzeitig der "
+"Standard. Nicht zu gering setzen, da die Kontrollverbindung  normalerweise "
+"inaktiv ist wenn große Datenübertragungen stattfinden."
 
 # File: /usr/lang/src/controllers.php, line: 336
 msgid "Option pass-through"
-msgstr ""
+msgstr "Optionsweiterleitung"
 
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Optional e-mail address for this account."
@@ -22544,11 +22988,11 @@ msgstr "Wiederholungen"
 
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Reverse address"
-msgstr ""
+msgstr "Reverse-Adresse"
 
 # File: /usr/lang/src/controllers.php, line: 368
 msgid "Reverse port"
-msgstr ""
+msgstr "Reverse-Port"
 
 # File: /usr/lang/src/controllers.php, line: 369
 msgid "Revision"
@@ -22686,6 +23130,8 @@ msgid ""
 "Select destinations to send NetFlow data to (ip address:port, eg "
 "192.168.0.1:2550)."
 msgstr ""
+"Wählen Sie die Ziele aus, an welche die NetFlow-Daten gesendet werden (IP "
+"Adresse:Port, zum Beispiel 192.168.0.1:2550)."
 
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Select health check expression."
@@ -22747,6 +23193,8 @@ msgstr ""
 msgid ""
 "Select interval (in milliseconds) between two consecutive health checks."
 msgstr ""
+"Wählen Sie den Intervall (in Millisekunden) zwischen zwei "
+"aufeinanderfolgenden Gesundheitsüberprüfungen aus."
 
 # File: /usr/lang/src/controllers.php, line: 166
 msgid "Select one ore more ACLs to be used as condition for this action."
@@ -22854,6 +23302,9 @@ msgid ""
 "milliseconds. Optionally the unit may be specified as either \"d\", \"h\", \""
 "m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"Bestimmt die maximale Inaktivitätszeit am Client. Der Standard sind "
+"Millisekunden. Optional kann die Einheit spezifiziert werden als \"d\", \"h\""
+", \"m\", \"s\", \"ms\" oder \"us\"."
 
 # File: /usr/lang/src/controllers.php, line: 424
 msgid ""
@@ -22861,6 +23312,9 @@ msgid ""
 "milliseconds. Optionally the unit may be specified as either \"d\", \"h\", \""
 "m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"Stellen Sie die maximale Inaktivitätszeit auf der Serverseite ein. "
+"Voreinstellung auf Millisekunden. Optional kann das Gerät entweder als \"d\""
+", \"h\", \"m\", \"s\", \"ms\" oder \"uns\" angegeben werden."
 
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Set the maximum number of concurrent connections for this frontend."
@@ -22879,6 +23333,9 @@ msgid ""
 "succeed. Defaults to milliseconds. Optionally the unit may be specified as "
 "either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"Bestimmt die maximale Wartezeit für einen Verbindungsaufbau am Server. Der "
+"Standard ist Millisekunden. Optional kann die Einheit bestimmt werden als \""
+"d\", \"h\", \"m\", \"s\", \"ms\" oder \"us\"."
 
 # File: /usr/lang/src/controllers.php, line: 177
 msgid ""
@@ -22917,6 +23374,9 @@ msgid ""
 "Defaults to milliseconds. Optionally the unit may be specified as either \""
 "d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"Bestimmt eine zusätzliche Lesezeitüberschreitung um Gesundheitsprüfungen auf "
+"dem Server zu erzwingen. Der Standard sind Millisekunden. Optional kann die "
+"Einheit bestimmt werden als \"d\", \"h\", \"m\", \"s\", \"ms\" oder \"us\"."
 
 # File: /usr/lang/src/controllers.php, line: 522
 msgid ""
@@ -22924,6 +23384,9 @@ msgid ""
 "when the server state is DOWN. If it is not set HAProxy uses the check "
 "interval."
 msgstr ""
+"Bestimmt das Intervall (in Millisekunden) zum Durchführen von "
+"Gesundheitsprüfungen auf dem Server, wenn der Server als \"DOWN\" markiert "
+"ist. Wenn nicht gesetzt verwendet HAProxy das Prüfintervall."
 
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
@@ -22939,6 +23402,11 @@ msgid ""
 "ensure that a bug in a script will not result in the system running out of "
 "memory."
 msgstr ""
+"Setzt die maximale Menge an Arbeitsspeicher in Megabyte, die pro Prozess für "
+"Lua verwendet werden darf. Standardmäßig ist dies null. Dies bedeutet, dass "
+"der Speicher nicht begrenzt wird. Es ist wichtig, eine Begrenzung zu "
+"setzten, damit ein Bug in einem Skript nicht dazu führen kann, dass der "
+"gesamte Speicher des Systems verbraucht wird."
 
 # File: /usr/lang/src/controllers.php, line: 183
 msgid "Sets the operation mode to use for this server."
@@ -22967,7 +23435,7 @@ msgstr "Größe"
 
 # File: /usr/lang/src/controllers.php, line: 530
 msgid "Sleep Time"
-msgstr ""
+msgstr "Schlafzeit"
 
 msgid "Source"
 msgstr "Quelle"
@@ -23015,6 +23483,12 @@ msgid ""
 "value of 1024 characters, but some servers simply drop larger lines while "
 "others do log them."
 msgstr ""
+"Geben Sie optional die maximale Zeichenanzahl an. Längere Protokollzeilen "
+"werden abgeschnitten, bevor sie versendet werden. Die Begründung ist, dass "
+"sich Systemprotokollserver im Bezug auf die Zeichenlänge unterschiedlich "
+"verhalten. Alle Server unterstützen die Standardlänge von 1024 Zeichen, aber "
+"manche Server verwerfen längere Zeilen während andere Server sie "
+"Protokollieren."
 
 # File: /usr/lang/src/controllers.php, line: 541
 msgid "Specify the Server ID of your PowerDNS server, i.e. localhost."
@@ -23046,6 +23520,9 @@ msgid ""
 "to binary, then the pattern must be passed as a serie of hexadecimal digits "
 "in an even number."
 msgstr ""
+"Geben Sie ein Muster an, nach dem im Antwortpuffer gesucht wird. Falls das "
+"Suchkriterium auf binär gesetzt wird, muss das Muster in Form einer Serie "
+"von Hexadezimalzahlen in einer geraden Anzahl angegeben werden."
 
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "Specify the scheduling algorithm to use"
@@ -23059,7 +23536,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 453
 msgid "Spread checks"
-msgstr ""
+msgstr "Überprüfungen versenden"
 
 # File: /usr/lang/src/models.php, line: 257
 msgid "Statistics Configuration"
@@ -23075,7 +23552,7 @@ msgstr "Statistiken Benutzer"
 
 # File: /usr/lang/src/controllers.php, line: 456
 msgid "Stick-table persistence"
-msgstr ""
+msgstr "Persistenz klebriger Tabellen"
 
 msgid "Subnet"
 msgstr "Subnetz"
@@ -23137,6 +23614,8 @@ msgid ""
 "The maximum number of characters that will be stored in the stick table (if "
 "appropiate table type is selected)."
 msgstr ""
+"Die maximale Zeichenanzahl die in der klebrigen Tabelle gespeichert werden, "
+"so ein passender Tabellentyp ausgewählt wurde."
 
 # File: /usr/lang/src/controllers.php, line: 469
 msgid "The network for this host"
@@ -23147,12 +23626,17 @@ msgid ""
 "The number of bytes a queue can serve before being moved to the tail of old "
 "queues list (bytes), leave empty for defaults"
 msgstr ""
+"Die Anzahl der Bytes, die eine Warteschlange verwenden kann, bevor sie ans "
+"Ende der alten Warteschlangenliste (Bytes) verschoben wird, leer lassen für "
+"die Standardwerte"
 
 # File: /usr/lang/src/controllers.php, line: 199
 msgid ""
 "The number of flow queues that are created and managed, leave empty for "
 "defaults"
 msgstr ""
+"Die Anzahl an Flow-Warteschlangen, die erstellt und verwaltet werden. Lassen "
+"Sie es leer für die Standardwerte"
 
 # File: /usr/lang/src/controllers.php, line: 568
 msgid ""
@@ -23162,6 +23646,10 @@ msgid ""
 "is terminated, and the others will be notified of this.\n"
 "        "
 msgstr ""
+"Die Anzahl der Sekunden zum Warten auf eine Antwort auf Pings oder um Meta-"
+"Verbindungen das Blockieren zu erlauben.          Wenn das andere Ende nicht "
+"während dieser Zeit antwortet wird die Verbindung getrennt und die anderen "
+"werden darüber informiert.        "
 
 # File: lang/dynamic/helpers/controllers.php, line: 36
 msgid ""
@@ -23529,6 +24017,9 @@ msgid ""
 "secondary interface, matches packets traveling to/from interface (1) to/from "
 "interface (2). can be combined with direction."
 msgstr ""
+"Sekundäre Schnittstelle, etspricht Paketen, die von/zu der Schnittstelle (1) "
+"an/von Schnittstelle (2) weitergeleitet werden. Kann mit der Richtung "
+"kombiniert werden."
 
 # File: /usr/lang/src/controllers.php, line: 223
 msgid ""
@@ -23624,7 +24115,7 @@ msgstr "Erweiterte Einstellungen"
 
 # File: /usr/lang/src/models.php, line: 46
 msgid "Advertisements"
-msgstr ""
+msgstr "Advertisements"
 
 msgid "Aliases"
 msgstr "Aliase"
@@ -23885,6 +24376,8 @@ msgstr "HAProxy"
 msgid ""
 "Hard timeout, in minutes, must be between 0 (no timeout) and 10080 (a week)"
 msgstr ""
+"Harte Zeitbegrenzung in Minuten; Muss zwischen 0 (keine Begrenzung) und "
+"10080 (eine Woche) liegen."
 
 msgid "Health"
 msgstr "Gesundheit"
@@ -23930,7 +24423,7 @@ msgstr "IPsec"
 
 # File: /usr/lang/src/models.php, line: 125
 msgid "Idle timeout needs to be an integer value between 1 and 86400"
-msgstr ""
+msgstr "Die Leerlaufgültigkeitsdauer muss eine Zahl zwischen 1 und 86400 sein"
 
 # File: /usr/lang/src/models.php, line: 126
 msgid ""
@@ -24029,7 +24522,7 @@ msgstr "Abmelden"
 
 # File: /usr/lang/src/models.php, line: 137
 msgid "Lookup"
-msgstr ""
+msgstr "Lookup"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 350
 # File: /usr/lang/src/models.php, line: 138
@@ -24262,6 +24755,9 @@ msgid ""
 "loadbalancer.example.com:50000. Port range as start-end, i.e. "
 "10.0.0.1:50000-60000."
 msgstr ""
+"Bitte geben Sie eine gültige Quelladresse an, d.h. 10.0.0.1 oder "
+"loadbalancer.example.com:50000. Port-Bereich als Start-Ende, d.h. "
+"10.0.0.1:50000-60000."
 
 # File: /usr/lang/src/models.php, line: 183
 msgid "Please specify a value between 0 and 1024."
@@ -24424,7 +24920,7 @@ msgstr "Berichterstattung"
 
 # File: /usr/lang/src/models.php, line: 237
 msgid "Reverse address must be a valid IPv4 address"
-msgstr ""
+msgstr "Die Reverse-Adresse muss eine gültige IPv4-Adresse sein"
 
 # File: /usr/lang/src/models.php, line: 238
 msgid "Reverse port needs to be an integer value between 1 and 65535"
@@ -24592,7 +25088,7 @@ msgstr "Statusübersicht"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 162
 # File: /usr/lang/src/models.php, line: 260
 msgid "Stick Tables"
-msgstr ""
+msgstr "Klebrige Tabellen"
 
 msgid "Summary View"
 msgstr "Zusammengefasste Ansicht"
@@ -24766,7 +25262,7 @@ msgstr "Assistent"
 
 # File: /usr/lang/src/models.php, line: 317
 msgid "debug level needs to be between 0 (default) and 5 (highest)"
-msgstr ""
+msgstr "Fehlersuchstufe muss zwischen 0 (Standard) und 5 (höchste Stufe) liegen"
 
 # File: /usr/lang/src/models.php, line: 295
 msgid "max size needs to be an integer value between 1 and 65535"
@@ -24855,6 +25351,10 @@ msgid ""
 "clients, which allows them to browse Windows shares. This is typically an "
 "Active Directory Domain Controller, designated WINS server, or Samba server."
 msgstr ""
+"Stellt einen Windows Internet Name Service (WINS) Server für verbindende "
+"Clients bereit, welcher es erlaubt Windows Freigaben anzuzeigen. Dies ist "
+"typischerweise ein Active Directory Domain Controller, designierter WINS "
+"Server oder Samba Server"
 
 # File: /usr/lang/src/wizards.php, line: 43
 msgid ""
@@ -24862,18 +25362,26 @@ msgid ""
 "you like, but is often used to distinguish the purpose of the service (e.g. "
 "\"Remote Technical Staff\")."
 msgstr ""
+"Ein Name für diese OpenVPN-Instanz zu Ihrer Referenz. Er kann auf alles "
+"gesetzt werden, was Sie wollen aber es wird oft genutzt, um den Zweck des "
+"Dienstes (z. B. \"Technische Außenstellen\") anzugeben."
 
 # File: /usr/lang/src/wizards.php, line: 44
 msgid ""
 "A name for your reference, to identify this certificate. This is also known "
 "as the certificate's \"Common Name.\""
 msgstr ""
+"Ein Name zu Ihrer Referenz, zum Beispiel um das Zertifikat zu "
+"identifizieren. Dies ist auch bekannt als der \"Common Name\" des "
+"Zertifikats."
 
 # File: /usr/lang/src/wizards.php, line: 45
 msgid ""
 "A name for your reference, to identify this certificate. This is the same as "
 "common-name field for other Certificates."
 msgstr ""
+"Ein Name zu Ihrer Referenz, um dieses Zertifikat zu identifizieren. Dies ist "
+"das Gleiche wie das Common-Name-Feld für andere Zertifikate."
 
 # File: /usr/lang/src/wizards.php, line: 46
 msgid ""
@@ -24888,6 +25396,8 @@ msgid ""
 "Add a rule to permit traffic from clients on the Internet to the OpenVPN "
 "server process."
 msgstr ""
+"Fügen Sie eine Regel hinzu, um Datenverkehr von Clients im Internet zum "
+"OpenVPN-Serverprozess zu erlauben."
 
 # File: /usr/lang/src/wizards.php, line: 48
 msgid "Add new CA"
@@ -24937,19 +25447,23 @@ msgstr ""
 # File: /usr/lang/src/wizards.php, line: 60
 msgid "Allow communication between clients connected to this server."
 msgstr ""
+"Erlaube die Kommunikation zwischen den Clients, die mit diesem Server "
+"verbunden sind."
 
 # File: /usr/lang/src/wizards.php, line: 61
 msgid ""
 "Allow connected clients to retain their connections if their IP address "
 "changes."
 msgstr ""
+"Erlaube verbundenen Clients, die Verbindung beizubehalten, wenn deren IP-"
+"Adresse sich ändert."
 
 msgid "Auth Digest Algorithm"
 msgstr "Authentifizierungs-Digestalgorithmus"
 
 # File: /usr/lang/src/wizards.php, line: 63
 msgid "Authentication Containers"
-msgstr ""
+msgstr "Authentifizierungscontainer"
 
 # File: /usr/lang/src/wizards.php, line: 64
 msgid "Authentication Port"
@@ -24988,6 +25502,8 @@ msgstr "Stadt oder Ortsname (z. B. Middelharnis, Leipzig, Louisville)."
 # File: /usr/lang/src/wizards.php, line: 74
 msgid "Click 'Reload' to reload OPNsense with new changes."
 msgstr ""
+"Klicken Sie auf 'Neu laden' um OPNsense mit den neuen Änderungen neu zu "
+"laden."
 
 msgid "Client Settings"
 msgstr "Client Einstellungen"
@@ -25160,6 +25676,8 @@ msgstr ""
 # File: /usr/lang/src/wizards.php, line: 117
 msgid "Force all client generated traffic through the tunnel."
 msgstr ""
+"Erzwinge, dass sämtlicher vom Client generierter Datenberkehr durch den "
+"Tunnel geleitet wird."
 
 # File: /usr/lang/src/wizards.php, line: 118
 msgid ""
@@ -25213,6 +25731,8 @@ msgid ""
 "If a user DN was supplied above, this password will also be used when "
 "performing a bind operation."
 msgstr ""
+"Falls ein Benutzer-DN oben angegeben wurde, wird dieses Passwort verwendet, "
+"um eine Bindungsoperation durchzuführen."
 
 # File: /usr/lang/src/wizards.php, line: 132
 msgid "If left blank, an anonymous bind will be done."
@@ -25235,10 +25755,15 @@ msgid ""
 "for all other connection types will be assumed. This should match the above "
 "MTU value in most all cases."
 msgstr ""
+"Wenn ein Wert in diesem Feld eingegeben ist, dann ist MSS-Beschränken für "
+"TCP-Verbindungen für den Wert minus 40 (TCP/IP Header-Größe) aktiviert. Wenn "
+"dieses Feld leer ist wird eine MSS von 1492 Byte für PPPoE und 15000 Byte "
+"für alle anderen Verbindungstypen angenommen. Dies sollte mit dem MTU Wert "
+"darüber in den meisten Fällen übereinstimmen."
 
 # File: /usr/lang/src/wizards.php, line: 135
 msgid "Inter-Client Communication"
-msgstr ""
+msgstr "Kommunikation zwischen den Clients"
 
 # File: /usr/lang/src/wizards.php, line: 137
 msgid "Invalid Hostname"
@@ -25269,7 +25794,7 @@ msgstr "LDAP Authentifizierungsserverparameter"
 
 # File: /usr/lang/src/wizards.php, line: 144
 msgid "LDAP Bind Password"
-msgstr ""
+msgstr "LDAP-Bindungspasswort"
 
 # File: /usr/lang/src/wizards.php, line: 145
 msgid "LDAP Bind User DN"
@@ -25333,7 +25858,7 @@ msgstr "MTU"
 
 # File: /usr/lang/src/wizards.php, line: 159
 msgid "Member Naming Attribute"
-msgstr ""
+msgstr "Mitgliedbenennungsattribut"
 
 # File: /usr/lang/src/wizards.php, line: 160
 msgid "NTP Server"
@@ -25384,10 +25909,14 @@ msgid ""
 "On this screen we will set the admin password, which is used to access the "
 "WebGUI and also SSH services if you wish to enable them."
 msgstr ""
+"Auf diesem Bildschirm werden wir das Administratorpasswort setzen, welches "
+"verwendet wird, um sich an der Weboberfläche und, sofern Sie den Dienst "
+"aktivieren wollen, an SSH anzumelden"
 
 # File: /usr/lang/src/wizards.php, line: 172
 msgid "On this screen you will set the general OPNsense parameters."
 msgstr ""
+"Auf diesem Bildschirm werden sie allgemeine OPNsense-Parameter konfigurieren."
 
 # File: src/www/system_authservers.php, line: 536
 msgid "One Level"
@@ -25534,6 +26063,8 @@ msgid ""
 "Port used by the RADIUS server for accepting Authentication requests, "
 "typically 1812."
 msgstr ""
+"Port, der vom RADIUS-Server verwendet wird, um Authentifizierungsanfragen "
+"anzunehmen. Es ist üblicherweise der Port 1812."
 
 # File: /usr/lang/src/wizards.php, line: 212
 msgid "Primary DNS Server"
@@ -25597,11 +26128,11 @@ msgstr "SSL - Verschlüsselt"
 
 # File: /usr/lang/src/wizards.php, line: 227
 msgid "Search Scope Base DN"
-msgstr ""
+msgstr "Suchumfang-Basis-DN"
 
 # File: /usr/lang/src/wizards.php, line: 228
 msgid "Search Scope Level"
-msgstr ""
+msgstr "Suchumfang-Ebene"
 
 # File: /usr/lang/src/wizards.php, line: 229
 msgid "Secondary DNS Server"
@@ -25629,12 +26160,17 @@ msgid ""
 "1492 bytes for PPPoE and 1500 bytes for all other connection types will be "
 "assumed."
 msgstr ""
+"Setzen Sie die MTU der WAN-Schnittstelle. Wenn Sie dieses Feld leer lassen, "
+"wird eine MTU von 1492 Bytes für PPPoE und 1500 Bytes für alle anderen "
+"Verbindungstypen vorgenommen."
 
 # File: /usr/lang/src/wizards.php, line: 235
 msgid ""
 "Set the TOS IP header value of tunnel packets to match the encapsulated "
 "packet value."
 msgstr ""
+"Setze die TOS-IP-Kopfzeile von Tunnelpaketen auf den Wert, den das "
+"gekapselte Paket hat."
 
 msgid "Shared Secret"
 msgstr "Gemeinsames Geheimnis"
@@ -25644,6 +26180,8 @@ msgid ""
 "Specify the maximum number of clients allowed to concurrently connect to "
 "this server."
 msgstr ""
+"Geben Sie die maximale Anzahl an Clients an, die gleichzeitig mit diesem "
+"Server verbunden sein dürfen."
 
 msgid "State or Province"
 msgstr "Staat oder Provinz"
@@ -25706,6 +26244,11 @@ msgid ""
 "interface. The remaining network addresses can optionally be assigned to "
 "connecting clients. (see Address Pool)"
 msgstr ""
+"Dies ist das virtuelle IPv4 Netzwerk für die private Kommunikation zwischen "
+"diesem Server und Clients, dargestellt als CIDR-Notation (z.B. 10.0.8.0/24). "
+"Die erste Netzwerkadresse wird als virtuelle Schnittstelle des Servers "
+"verwendet. Die verbleibenden Netzwerkadressen können optional für "
+"verbindende Clients vergeben werden. (siehe Adressvorrat)"
 
 # File: /usr/lang/src/wizards.php, line: 250
 msgid ""
@@ -25714,6 +26257,10 @@ msgid ""
 "a route to the local network through this tunnel on the remote machine. This "
 "is generally set to your LAN network."
 msgstr ""
+"Dies ist das Netzwerk, das vom entfernten Endpunkt aus zugänglich ist, "
+"ausgedrückt als CIDR-Bereich. Sie können diese leer lassen, wenn Sie keine "
+"Route zum lokalen Netzwerk über diesen Tunnel auf dem Remote-Rechner "
+"hinzufügen möchten. Dies ist in der Regel auf Ihr LAN-Netzwerk eingestellt."
 
 # File: /usr/lang/src/wizards.php, line: 251
 msgid ""
@@ -25722,6 +26269,10 @@ msgid ""
 "the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"Durch diese Option operiert die Schnittstelle im \"Einwählen bei Bedarf\"-"
+"Modus, was Ihnen erlaubt, virtuell eine permanent verfügbare Verbindung zu "
+"haben. Die Schnittstelle ist konfiguriert aber der Verbindungsaufbau wird "
+"verzögert, bis entsprechender Datenverkehr erkannt wird."
 
 # File: /usr/lang/src/wizards.php, line: 252
 msgid "Time Server Information"
@@ -25787,7 +26338,7 @@ msgstr "UDP"
 
 # File: /usr/lang/src/wizards.php, line: 267
 msgid "Upstream Gateway"
-msgstr ""
+msgstr "Upstream Gateway"
 
 # File: /usr/lang/src/wizards.php, line: 268
 msgid "User Naming Attribute"
@@ -25821,6 +26372,11 @@ msgid ""
 "loopback addresses (127/8). You should generally leave this option turned "
 "on, unless your WAN network lies in such a private address space, too."
 msgstr ""
+"Wenn diese Option gesetzt ist, blockiert diese Option den Datenverkehr aus "
+"IP-Adressen, die für private Netzwerke nach RFC 1918 (10/8, 172.16 / 12, "
+"192.168 / 16)  reserviert sind, sowie Loopback-Adressen (127/8). Sie sollten "
+"diese Option in der Regel aktiviert lassen, es sei denn, Ihr WAN-Netzwerk "
+"liegt auch in einem solchen privaten Adressraum."
 
 # File: /usr/lang/src/wizards.php, line: 273
 msgid "Wizard completed."
@@ -25929,7 +26485,7 @@ msgstr "Email"
 
 # File: /usr/lang/src/wizards.php, line: 300
 msgid "engine"
-msgstr ""
+msgstr "engine"
 
 # File: /usr/lang/src/wizards.php, line: 301
 msgid "generatetlskey"
@@ -26005,7 +26561,7 @@ msgstr "OVPN-Regel"
 
 # File: /usr/lang/src/wizards.php, line: 321
 msgid "passdn"
-msgstr ""
+msgstr "DN weiterleiten"
 
 # File: /usr/lang/src/wizards.php, line: 322
 msgid "port"
@@ -26013,11 +26569,11 @@ msgstr "Port"
 
 # File: /usr/lang/src/wizards.php, line: 323
 msgid "pptplocalsubnet"
-msgstr ""
+msgstr "pptplocalsubnet"
 
 # File: /usr/lang/src/wizards.php, line: 324
 msgid "redirectgw"
-msgstr ""
+msgstr "redirectgw"
 
 # File: /usr/lang/src/wizards.php, line: 325
 msgid "scope"

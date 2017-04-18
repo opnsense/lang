@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 08:14+0000\n"
+"POT-Creation-Date: 2017-04-18 20:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,37 +33,37 @@ msgstr ""
 msgid ""
 "Automatically sync the Captive Portal configuration to the other HA host "
 "when changes are made."
-msgstr "当进行更改时，自动将强制门户配置同步到其他HA主机。"
+msgstr "改动发生后，自动将强制门户配置同步到其他HA主机。"
 
 # File: /usr/core/src/www/system_hasync.php, line: 345
 msgid ""
 "Automatically sync the TrafficShaper configuration to the other HA host when "
 "changes are made."
-msgstr "在进行更改时，将TrafficShaper（流量整形器）配置自动同步到其他HA主机。"
+msgstr "改动发生后，将流量控制配置自动同步到其他HA主机。"
 
 # File: /usr/core/src/www/system_hasync.php, line: 336
 msgid ""
 "Automatically sync the DNS Resolver configuration to the other HA host when "
 "changes are made."
-msgstr "当进行更改时，自动将DNS解析器配置同步到其他HA主机。"
+msgstr "改动发生后，自动将DNS解析器配置同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 350
 msgid ""
 "Automatically sync the DNS Forwarder configuration to the other HA host when "
 "changes are made."
-msgstr "当进行更改时，自动将DNS转发器配置同步到其他HA主机。"
+msgstr "改动发生后，自动将DNS转发器配置同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 332
 msgid ""
 "Automatically sync the Load Balancer configuration to the other HA host when "
 "changes are made."
-msgstr "在进行更改时，将负载平衡器配置自动同步到其他HA主机。"
+msgstr "改动发生后，将负载平衡器配置自动同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 314
 msgid ""
 "Automatically sync the WoL configuration to the other HA host when changes "
 "are made."
-msgstr "当更改时，自动同步WoL配置到其它HA主机"
+msgstr "改动发生后，自动同步WoL配置到其它HA主机"
 
 # File: src/www/system_hasync.php, line: 296
 msgid ""
@@ -75,13 +75,13 @@ msgstr "使用此选项意味着“同步证书”，因为OpenVPN需要它们�
 msgid ""
 "Automatically sync the OpenVPN configuration to the other HA host when "
 "changes are made."
-msgstr "当进行更改时，将OpenVPN配置自动同步到其他HA主机。"
+msgstr "改动发生后，将OpenVPN配置自动同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 286
 msgid ""
 "Automatically sync the IPsec configuration to the other HA host when changes "
 "are made."
-msgstr "在进行更改时，将IPsec配置自动同步到其他HA主机。"
+msgstr "改动发生后，将IPsec配置自动同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 211
 msgid ""
@@ -132,7 +132,7 @@ msgid ""
 "servers. Check this box to disable this protection if it interferes with "
 "webConfigurator access or name resolution in your environment."
 msgstr ""
-"当未选中此项时，系统会受到%sDNS重绑定攻击%s的保护。 这会阻止来自您配置的DNS服务器的私人IP响应。 "
+"当未选中此项时，系统会受到%sDNS重绑定攻击%s的保护。 这会阻止来自您配置的DNS服务器的私有IP响应。 "
 "选中此框以禁用此保护，如果它干扰webConfigurator访问或您的环境中的名称解析。"
 
 # File: src/www/system_advanced_admin.php, line: 428
@@ -536,19 +536,19 @@ msgstr "CARP vhid %s"
 msgid ""
 "%sWarning: traffic shaper rule removed (destination network '%s' does not "
 "exist anymore)."
-msgstr "%s警告：流整形规则已删除（目标网络'%s'不再存在）"
+msgstr "%s警告：流量控制规则已删除（目标网络'%s'不再存在）"
 
 # File: src/etc/inc/upgrade_config.inc, line: 164
 msgid ""
 "%sWarning: traffic shaper rule removed (source network '%s' does not exist "
 "anymore)."
-msgstr "%s警告：流整形规则已删除（来源网络'%s'不再存在）"
+msgstr "%s警告：流量控制规则已删除（来源网络'%s'不再存在）"
 
 # File: src/etc/inc/upgrade_config.inc, line: 152
 msgid ""
 "%sWarning: traffic shaper rule removed (interface '%s' does not exist "
 "anymore)."
-msgstr "%s警告：流整形规则已删除（接口'%s'不再存在）"
+msgstr "%s警告：流量控制规则已删除（接口'%s'不再存在）"
 
 # File: src/etc/inc/upgrade_config.inc, line: 132
 msgid ""
@@ -3990,13 +3990,13 @@ msgstr "添加路由"
 msgid ""
 "Automatically sync the CARP Virtual IPs to the other HA host when changes "
 "are made."
-msgstr "当进行更改时，将CARP虚拟IP自动同步到其他HA主机。"
+msgstr "改动发生后，将CARP虚拟IP自动同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 323
 msgid ""
 "Automatically sync the Static Route configuration to the other HA host when "
 "changes are made."
-msgstr "在进行更改时，将静态路由配置自动同步到其他HA主机。"
+msgstr "改动发生后，将静态路由配置自动同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 296
 msgid "Static Routes"
@@ -4006,7 +4006,7 @@ msgstr "静态路由"
 msgid ""
 "Automatically sync the DHCP Server settings over to the other HA host when "
 "changes are made. This only applies to DHCP for IPv4."
-msgstr "在进行更改时，将DHCP服务器设置自动同步到其他HA主机。 这仅适用于IPv4的DHCP。"
+msgstr "改动发生后，将DHCP服务器设置自动同步到其他HA主机。 这仅适用于IPv4的DHCP。"
 
 # File: src/www/system_hasync.php, line: 278
 msgid "DHCPD"
@@ -4016,41 +4016,41 @@ msgstr "DHCPD"
 msgid ""
 "Automatically sync the NAT rules over to the other HA host when changes are "
 "made."
-msgstr "当进行更改时，自动将NAT规则同步到其他HA主机。"
+msgstr "改动发生后，自动将NAT规则同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 268
 msgid ""
 "Automatically sync the aliases over to the other HA host when changes are "
 "made."
-msgstr "当进行更改时，自动将别名同步到其他HA主机。"
+msgstr "改动发生后，自动将别名同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 259
 msgid ""
 "Automatically sync the firewall schedules to the other HA host when changes "
 "are made."
-msgstr "当进行更改时，自动将防火墙计划表同步到其他HA主机。"
+msgstr "改动发生后，自动将防火墙日程表同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 232
 msgid "Firewall Schedules"
-msgstr "防火墙时间表"
+msgstr "防火墙日程表"
 
 # File: src/www/system_hasync.php, line: 250
 msgid ""
 "Automatically sync the firewall rules to the other HA host when changes are "
 "made."
-msgstr "当进行更改时，自动将防火墙规则同步到其他HA主机。"
+msgstr "改动发生后，自动将防火墙规则同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 241
 msgid ""
 "Automatically sync the Certificate Authorities, Certificates, and "
 "Certificate Revocation Lists over to the other HA host when changes are made."
-msgstr "在进行更改时，自动将证书颁发机构，证书和证书吊销列表同步到其他HA主机。"
+msgstr "改动发生后，自动将证书颁发机构，证书和证书吊销列表同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 232
 msgid ""
 "Automatically sync the authentication servers (e.g. LDAP, RADIUS) over to "
 "the other HA host when changes are made."
-msgstr "在进行更改时，自动将身份验证服务器（例如LDAP，RADIUS）同步到其他HA主机。"
+msgstr "改动发生后，自动将身份验证服务器（例如LDAP，RADIUS）同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 205
 msgid "Auth Servers"
@@ -4060,7 +4060,7 @@ msgstr "认证服务器"
 msgid ""
 "Automatically sync the users and groups over to the other HA host when "
 "changes are made."
-msgstr "在进行更改时，自动将用户和组同步到其他HA主机。"
+msgstr "改动发生后，自动将用户和组同步到其他HA主机。"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Users and Groups"
@@ -5272,7 +5272,7 @@ msgstr "在此处粘贴X.509 PEM格式的私钥。"
 
 # File: src/www/system_certmanager.php, line: 631
 msgid "Private key data"
-msgstr "私人密钥数据"
+msgstr "私有密钥数据"
 
 # File: src/www/system_certmanager.php, line: 617
 msgid "Import Certificate"
@@ -5469,7 +5469,7 @@ msgstr "在此处粘贴上述证书的私钥。 在大多数情况下，这是�
 
 # File: src/www/system_camanager.php, line: 418
 msgid "Certificate Private Key"
-msgstr "证书私人密钥"
+msgstr "证书私有密钥"
 
 # File: src/www/system_camanager.php, line: 414
 # File: src/www/system_certmanager.php, line: 627
@@ -6603,7 +6603,7 @@ msgstr "默认情况下，当到期时，日程表清除现有连接的状态。
 
 # File: src/www/system_advanced_misc.php, line: 442
 msgid "Schedule States"
-msgstr "计划表状态"
+msgstr "日程表状态"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 390
 msgid ""
@@ -9063,7 +9063,7 @@ msgid ""
 "You must configure a DNS server in %sSystem: General setup%s or allow the "
 "DNS server list to be overridden by DHCP/PPP on WAN for dynamic DNS updates "
 "to work."
-msgstr "您必须在%系统：通用设置%s中配置DNS服务器，或者允许DNS服务器列表在WAN上被DHCP / PPP覆盖，以便动态DNS更新可以工作。"
+msgstr "你必须在%s系统：常规设置%s中配置DNS服务器，或者允许DNS服务器列表在WAN上被DHCP/PPP覆盖，以便动态DNS更新可以工作。"
 
 # File: src/www/services_dyndns_edit.php, line: 436
 # File: src/www/services_rfc2136_edit.php, line: 103
@@ -9528,7 +9528,7 @@ msgid ""
 "\"not found\" answer is immediately returned."
 msgstr ""
 "如果设置此选项，DNS转发器（dnsmasq）将不会将专用地址（RFC 1918）的反向DNS查找（PTR）转发到上游名称服务器。 "
-"“域覆盖”部分中将私人“n.n.n.in-addr.arpa”名称转发到特定服务器的任何条目仍将转发。 "
+"“域覆盖”部分中将私有“n.n.n.in-addr.arpa”名称转发到特定服务器的任何条目仍将转发。 "
 "如果从/etc/hosts，DHCP或特定域覆盖未知名称的IP地址，则立即返回“未找到”答案。"
 
 # File: src/www/services_dnsmasq.php, line: 259
@@ -14177,7 +14177,7 @@ msgstr "已配置范围"
 
 # File: src/www/firewall_schedule_edit.php, line: 1005
 msgid "Schedule repeat"
-msgstr "计划调度重复"
+msgstr "日程表重复"
 
 # File: src/www/firewall_schedule_edit.php, line: 993
 msgid "Clear Selection"
@@ -14236,11 +14236,11 @@ msgstr "此日程表正在使用中，因此名称不能被修改！"
 
 # File: src/www/firewall_schedule_edit.php, line: 788
 msgid "Schedule Name"
-msgstr "计划名字"
+msgstr "日程表名字"
 
 # File: src/www/firewall_schedule_edit.php, line: 777
 msgid "Schedule information"
-msgstr "计划信息"
+msgstr "日程表信息"
 
 # File: src/www/firewall_schedule_edit.php, line: 161
 msgid "The schedule must have at least one time range configured."
@@ -14256,7 +14256,7 @@ msgstr "无效开始时间 - '%s'"
 
 # File: src/www/firewall_schedule_edit.php, line: 96
 msgid "A Schedule with this name already exists."
-msgstr "一个同名%s的计划已存在"
+msgstr "一个同名的日程表已存在"
 
 # File: src/www/firewall_schedule_edit.php, line: 87
 msgid "The schedule name may only consist of the characters a-z, A-Z, 0-9"
@@ -14268,7 +14268,7 @@ msgstr "保留字用于日程表名称。"
 
 # File: src/www/firewall_schedule_edit.php, line: 80
 msgid "Schedule name cannot be blank."
-msgstr "计划名不能是空白的"
+msgstr "日程表名称不能是空白。"
 
 # File: src/www/firewall_schedule_edit.php, line: 78
 msgid "Schedule may not be named WAN."
@@ -14289,11 +14289,11 @@ msgstr "克隆日程表"
 
 # File: src/www/firewall_schedule.php, line: 238
 msgid "delete schedule"
-msgstr "删除日程计划"
+msgstr "删除日程表"
 
 # File: src/www/firewall_schedule.php, line: 121
 msgid "Schedule is currently active"
-msgstr "计划是当前活动"
+msgstr "日程表当前已激活"
 
 # File: src/www/firewall_schedule.php, line: 106
 msgid "Time Range(s)"
@@ -14301,7 +14301,7 @@ msgstr "时间范围（秒）"
 
 # File: src/www/firewall_schedule.php, line: 227
 msgid "Do you really want to delete this schedule?"
-msgstr "真要删除该计划吗？"
+msgstr "真要删除该日程表吗？"
 
 # File: src/www/firewall_schedule.php, line: 79
 msgid "Add a new schedule"
@@ -14309,7 +14309,7 @@ msgstr "添加新日程表"
 
 # File: /usr/core/src/www/firewall_schedule.php, line: 63
 msgid "Cannot delete Schedule. Currently in use by %s"
-msgstr "无法删除日程表。 目前由%s使用"
+msgstr "无法删除日程表。 目前被%s使用"
 
 # File: src/www/firewall_rules.php, line: 596
 # File: src/www/firewall_schedule.php, line: 31
@@ -16357,7 +16357,7 @@ msgid ""
 "Enter an URL containing a large number of IPs, ports or subnets. After "
 "saving the lists will be downloaded and scheduled for automatic updates when "
 "a frequency is provided."
-msgstr "输入包含大量IP，端口或子网的URL。 保存后，将会下载列表并安排在提供频率时自动更新。"
+msgstr "输入包含大量IP，端口或子网的URL。 保存后，将会下载列表并根据提供的频率自动更新。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 518
 msgid "URLs"
@@ -18217,7 +18217,7 @@ msgstr "重设为默认初始状态"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 50
 msgid "If you click \"Yes\", the system will:"
-msgstr "如果单击“Yes”，系统将："
+msgstr "如果单击“是”，系统将："
 
 # File: src/www/diag_defaults.php, line: 49
 msgid ""
@@ -18861,11 +18861,11 @@ msgstr "您确定要刷新并重新载入全部吗？ 这可能会影响使用�
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
 msgid "Error reconfiguring trafficshaper"
-msgstr "重新配置流量整形器时出错"
+msgstr "重新配置流量控制时出错"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
-msgstr "计划任务"
+msgstr "计划任务日程表"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 293
 msgid "Download ACLs"
@@ -18980,7 +18980,7 @@ msgstr "规则集"
 # File: src/www/firewall_rules.php, line: 406
 # File: src/www/firewall_rules_edit.php, line: 1432
 msgid "Schedule"
-msgstr "计划任务"
+msgstr "日程表"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 383
 msgid "Alerts"
@@ -19726,7 +19726,7 @@ msgstr "检测升级"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 606
 msgid "Audit now"
-msgstr "现在审计"
+msgstr "现在审查"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
@@ -19786,7 +19786,7 @@ msgstr "完成"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 266
 msgid "Audit done."
-msgstr "审计完成"
+msgstr "审查完成。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 106
 msgid "Executing..."
@@ -19802,7 +19802,7 @@ msgstr "抱歉，程序包没有关联的许可证文件。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 133
 msgid "Auditing..."
-msgstr "审计..."
+msgstr "审查中..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 88
 msgid "Upgrading..."
@@ -20171,7 +20171,7 @@ msgstr "系统活动"
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/IndexController.php, line: 45
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/ItemController.php, line: 46
 msgid "Cron Settings"
-msgstr "Cron设置"
+msgstr "计划任务设置"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 146
 msgid "Firmware status check was aborted internally. Please try again."
@@ -20261,7 +20261,7 @@ msgstr "VGA控制台"
 
 # File: /usr/core/src/www/system_general.php, line: 51
 msgid "Russian"
-msgstr "俄罗斯语"
+msgstr "俄文"
 
 # File: /usr/core/src/etc/inc/system.inc, line: 247
 msgid "Portuguese (Portugal)"
@@ -20422,7 +20422,7 @@ msgstr "IPsec VPN"
 msgid ""
 "Automatically synchronize the %s configuration to the other HA host when "
 "changes are made."
-msgstr "在进行更改时，将%s配置自动同步到其他HA主机。"
+msgstr "改动发生后，将%s配置自动同步到其他HA主机。"
 
 # File: src/www/wizards/openvpn_wizard.inc, line: 625
 # File: src/www/wizards/openvpn_wizard.inc, line: 642
@@ -20947,7 +20947,7 @@ msgstr "正在处理关闭的网络接口状态"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 608
 msgid "Flushing schedule state"
-msgstr "Flushing时间表状态"
+msgstr "刷新时间表状态"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 585
 msgid "Reloading filterdns daemon"
@@ -26234,7 +26234,7 @@ msgstr "证书过期时间必须是大于0的整数"
 
 # File: /usr/lang/src/models.php, line: 67
 msgid "Cron"
-msgstr "Cron"
+msgstr "计划任务"
 
 # File: src/www/diag_logs_dhcp.php, line: 46
 # File: src/www/diag_logs_tabs.inc, line: 31
@@ -26386,7 +26386,7 @@ msgstr "过滤"
 
 # File: lang/dynamic/helpers/models.php, line: 138
 msgid "Filter Reload"
-msgstr "重新加载筛选器"
+msgstr "过滤器重新加载"
 
 # File: src/www/diag_logs_filter.php, line: 108
 # File: src/www/diag_logs_tabs.inc, line: 30
@@ -27111,11 +27111,11 @@ msgstr "重启"
 
 # File: lang/dynamic/helpers/models.php, line: 211
 msgid "Related cron not found"
-msgstr "关联的cron没有找到"
+msgstr "关联的计划任务没有找到"
 
 # File: /usr/lang/src/models.php, line: 213
 msgid "Related cron not found."
-msgstr "找不到相关cron。"
+msgstr "关联的计划任务没有找到。"
 
 # File: /usr/lang/src/models.php, line: 214
 msgid "Related item not found"
@@ -27188,7 +27188,7 @@ msgstr "SSL代理端口必须是介于1和65535之间的整数值"
 # File: src/www/firewall_schedule_edit.php, line: 48
 # File: src/www/system_advanced_misc.php, line: 439
 msgid "Schedules"
-msgstr "任务计划"
+msgstr "日程表"
 
 # File: lang/dynamic/helpers/models.php, line: 239
 # File: src/www/diag_ipsec_sad.php, line: 36
@@ -28437,7 +28437,7 @@ msgstr "网络时间协议服务器，用于连接客户端系统。"
 
 # File: /usr/lang/src/wizards.php, line: 167
 msgid "Next"
-msgstr "下一个"
+msgstr "下一步"
 
 # File: /usr/lang/src/wizards.php, line: 168
 msgid "OPNsense Setup Wizard"
@@ -28804,7 +28804,7 @@ msgid ""
 "interface. The remaining network addresses can optionally be assigned to "
 "connecting clients. (see Address Pool)"
 msgstr ""
-"这是用于此服务器和客户端主机之间的私人通信的IPv4虚拟网络，使用CIDR表示法表示（例如10.0.8.0/24）。 "
+"这是用于此服务器和客户端主机之间的私有通信的IPv4虚拟网络，使用CIDR表示法表示（例如10.0.8.0/24）。 "
 "第一个网络地址将被分配给服务器虚拟接口。 其余的网络地址可以可选地分配给连接的客户端。 （见地址池）"
 
 # File: /usr/lang/src/wizards.php, line: 250
