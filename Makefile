@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2016 Franco Fichtner <franco@opnsense.org>
+# Copyright (c) 2015-2017 Franco Fichtner <franco@opnsense.org>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -93,7 +93,8 @@ ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
 .for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${LANGDIR}
-	if [ -d ${ROOTDIR}/src ]; then \
+	@if [ -d ${ROOTDIR}/src ]; then \
+		echo ">>> Scanning ${ROOTDIR}"; \
 		${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot; \
 		find ${ROOTDIR}/src -print0 | \
 		    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot; \
