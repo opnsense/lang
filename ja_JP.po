@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:57+0000\n"
+"POT-Creation-Date: 2017-05-04 19:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23830,6 +23830,9 @@ msgid ""
 "should never appear in the Internet routing table, and obviously should not "
 "appear as the source address in any packets you receive."
 msgstr ""
+"このオプションが設定されると、予約されている IP アドレス ( RFC 1918 以外 )、もしくは IANA が未割当ての IP "
+"アドレスからのトラフィックを拒否します。Bogon はインターネットルーティングテーブルに表示させてはいけないプレフィックスです。当然のことながら、受信す"
+"るどのようなパケットの送信元アドレスとしても表示させてはいけません。"
 
 # File: /usr/lang/src/wizards.php, line: 272
 msgid ""
@@ -23838,106 +23841,110 @@ msgid ""
 "loopback addresses (127/8). You should generally leave this option turned "
 "on, unless your WAN network lies in such a private address space, too."
 msgstr ""
+"このオプションが設定されると、プライベートネットワークとして RFC 1918 で予約されている IP アドレス ( "
+"10/8、172.16/12、192.168/16 )、及びループバックアドレス ( 127/8 ) "
+"からのトラフィックを拒否します。通常このオプションはオンにしておくべきです。さもなくば、あなたの WAN "
+"ネットワークもそのようなプライベートアドレス空間に存在することになります。"
 
 # File: /usr/lang/src/wizards.php, line: 273
 msgid "Wizard completed."
-msgstr ""
+msgstr "ウィザードは完了しました。"
 
 # File: /usr/lang/src/wizards.php, line: 274
 msgid "Your configuration is now complete."
-msgstr ""
+msgstr "あなたの構成は今完了しました。"
 
 # File: /usr/lang/src/wizards.php, line: 275
 msgid "addrpool"
-msgstr ""
+msgstr "アドレスプール"
 
 # File: /usr/lang/src/wizards.php, line: 276
 msgid "authscope"
-msgstr ""
+msgstr "認証スコープ"
 
 # File: /usr/lang/src/wizards.php, line: 277
 msgid "authserv"
-msgstr ""
+msgstr "認証サーバ"
 
 # File: /usr/lang/src/wizards.php, line: 278
 msgid "authtype"
-msgstr ""
+msgstr "認証タイプ"
 
 # File: /usr/lang/src/wizards.php, line: 279
 msgid "basedn"
-msgstr ""
+msgstr "ベース DN"
 
 # File: /usr/lang/src/wizards.php, line: 280
 msgid "certca"
-msgstr ""
+msgstr "証明書認証局"
 
 # File: /usr/lang/src/wizards.php, line: 281
 msgid "certname"
-msgstr ""
+msgstr "証明書名"
 
 # File: /usr/lang/src/wizards.php, line: 282
 msgid "city"
-msgstr ""
+msgstr "市"
 
 # File: /usr/lang/src/wizards.php, line: 283
 msgid "compression"
-msgstr ""
+msgstr "圧縮"
 
 # File: /usr/lang/src/wizards.php, line: 284
 msgid "concurrentcon"
-msgstr ""
+msgstr "同時接続"
 
 # File: /usr/lang/src/wizards.php, line: 285
 msgid "country"
-msgstr ""
+msgstr "国"
 
 # File: /usr/lang/src/wizards.php, line: 286
 msgid "crypto"
-msgstr ""
+msgstr "暗号"
 
 # File: /usr/lang/src/wizards.php, line: 287
 msgid "defaultdomain"
-msgstr ""
+msgstr "デフォルトドメイン"
 
 # File: /usr/lang/src/wizards.php, line: 288
 msgid "descr"
-msgstr ""
+msgstr "説明"
 
 # File: /usr/lang/src/wizards.php, line: 290
 msgid "dhparameters"
-msgstr ""
+msgstr "DH パラメータ"
 
 # File: /usr/lang/src/wizards.php, line: 291
 msgid "digest"
-msgstr ""
+msgstr "ダイジェスト"
 
 # File: /usr/lang/src/wizards.php, line: 292
 msgid "dnserver2"
-msgstr ""
+msgstr "DNS サーバ 2"
 
 # File: /usr/lang/src/wizards.php, line: 293
 msgid "dnserver3"
-msgstr ""
+msgstr "DNS サーバ 3"
 
 # File: /usr/lang/src/wizards.php, line: 294
 msgid "dnserver4"
-msgstr ""
+msgstr "DNS サーバ 4"
 
 # File: /usr/lang/src/wizards.php, line: 295
 msgid "dnsserver1"
-msgstr ""
+msgstr "DNS サーバ 1"
 
 # File: /usr/lang/src/wizards.php, line: 296
 msgid "dummy"
-msgstr ""
+msgstr "ダミー"
 
 # File: /usr/lang/src/wizards.php, line: 297
 msgid "duplicate_cn"
-msgstr ""
+msgstr "重複コモンネーム"
 
 # File: /usr/lang/src/wizards.php, line: 298
 msgid "dynip"
-msgstr ""
+msgstr "動的 IP"
 
 # File: src/www/system_certmanager.php, line: 922
 # File: src/www/system_certmanager.php, line: 942
@@ -23946,103 +23953,103 @@ msgstr "email"
 
 # File: /usr/lang/src/wizards.php, line: 300
 msgid "engine"
-msgstr ""
+msgstr "エンジン"
 
 # File: /usr/lang/src/wizards.php, line: 301
 msgid "generatetlskey"
-msgstr ""
+msgstr "TLS 鍵生成"
 
 # File: /usr/lang/src/wizards.php, line: 302
 msgid "groupattr"
-msgstr ""
+msgstr "グループ属性"
 
 # File: /usr/lang/src/wizards.php, line: 303
 msgid "interclient"
-msgstr ""
+msgstr "クライアント間"
 
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "ip"
-msgstr ""
+msgstr "IP"
 
 # File: /usr/lang/src/wizards.php, line: 306
 msgid "keylength"
-msgstr ""
+msgstr "鍵長"
 
 # File: /usr/lang/src/wizards.php, line: 307
 msgid "lifetime"
-msgstr ""
+msgstr "有効期限"
 
 # File: /usr/lang/src/wizards.php, line: 308
 msgid "localnet"
-msgstr ""
+msgstr "ローカルネットワーク"
 
 # File: /usr/lang/src/wizards.php, line: 309
 msgid "localport"
-msgstr ""
+msgstr "ローカルポート"
 
 # File: /usr/lang/src/wizards.php, line: 310
 msgid "memberattr"
-msgstr ""
+msgstr "メンバ属性"
 
 # File: /usr/lang/src/wizards.php, line: 311
 msgid "name"
-msgstr ""
+msgstr "名前"
 
 # File: /usr/lang/src/wizards.php, line: 312
 msgid "nameattr"
-msgstr ""
+msgstr "名前属性"
 
 # File: /usr/lang/src/wizards.php, line: 313
 msgid "nbtenable"
-msgstr ""
+msgstr "NBT を有効"
 
 # File: /usr/lang/src/wizards.php, line: 314
 msgid "nbtscope"
-msgstr ""
+msgstr "NBT スコープ"
 
 # File: /usr/lang/src/wizards.php, line: 315
 msgid "nbttype"
-msgstr ""
+msgstr "NBT タイプ"
 
 # File: /usr/lang/src/wizards.php, line: 316
 msgid "ntpserver1"
-msgstr ""
+msgstr "NTP サーバ 1"
 
 # File: /usr/lang/src/wizards.php, line: 317
 msgid "ntpserver2"
-msgstr ""
+msgstr "NTP サーバ 2"
 
 # File: /usr/lang/src/wizards.php, line: 318
 msgid "organization"
-msgstr ""
+msgstr "組織"
 
 # File: /usr/lang/src/wizards.php, line: 319
 msgid "ovpnallow"
-msgstr ""
+msgstr "OpenVPN を許可"
 
 # File: /usr/lang/src/wizards.php, line: 320
 msgid "ovpnrule"
-msgstr ""
+msgstr "OpenVPN ルール"
 
 # File: /usr/lang/src/wizards.php, line: 321
 msgid "passdn"
-msgstr ""
+msgstr "許可する DN"
 
 # File: /usr/lang/src/wizards.php, line: 322
 msgid "port"
-msgstr ""
+msgstr "ポート"
 
 # File: /usr/lang/src/wizards.php, line: 323
 msgid "pptplocalsubnet"
-msgstr ""
+msgstr "PPTP ローカルサブネット"
 
 # File: /usr/lang/src/wizards.php, line: 324
 msgid "redirectgw"
-msgstr ""
+msgstr "リダイレクトゲートウェイ"
 
 # File: /usr/lang/src/wizards.php, line: 325
 msgid "scope"
-msgstr ""
+msgstr "スコープ"
 
 # File: /usr/core/src/www/interfaces.php, line: 2601
 msgid "secret"
@@ -24050,32 +24057,32 @@ msgstr "秘密鍵"
 
 # File: /usr/lang/src/wizards.php, line: 327
 msgid "state"
-msgstr ""
+msgstr "ステート"
 
 # File: /usr/lang/src/wizards.php, line: 328
 msgid "tlssharedkey"
-msgstr ""
+msgstr "TLS 共有鍵"
 
 # File: /usr/lang/src/wizards.php, line: 329
 msgid "tos"
-msgstr ""
+msgstr "TOS"
 
 # File: /usr/lang/src/wizards.php, line: 330
 msgid "transport"
-msgstr ""
+msgstr "配送"
 
 # File: /usr/lang/src/wizards.php, line: 331
 msgid "tunnelnet"
-msgstr ""
+msgstr "トンネルネットワーク"
 
 # File: /usr/lang/src/wizards.php, line: 332
 msgid "userdn"
-msgstr ""
+msgstr "ユーザ DN"
 
 # File: /usr/lang/src/wizards.php, line: 333
 msgid "winsserver1"
-msgstr ""
+msgstr "WINS サーバ 1"
 
 # File: /usr/lang/src/wizards.php, line: 334
 msgid "winsserver2"
-msgstr ""
+msgstr "WINS サーバ 2"
