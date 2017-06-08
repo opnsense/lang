@@ -51,6 +51,6 @@ def getTranslations(root):
                 filename = '%s/%s'%(rootdir,name)
                 tree = ET.parse(filename)
                 rootObj = tree.getroot()
-                if rootObj.tag == 'opnsensewizard':
+                if rootObj.tag == 'wizard':
                     for tag in recursiveParseWizard(rootObj):
                         yield tag
