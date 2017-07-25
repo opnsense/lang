@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 04:43+0000\n"
+"POT-Creation-Date: 2017-07-25 04:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14717,6 +14717,11 @@ msgid ""
 "interface, the queueing priority will be written as the priority code point "
 "in the 802.1Q VLAN header."
 msgstr ""
+"Setzte die Priorität von Paketen die dieser Regel entsprechen. Falls beide "
+"Prioritäten hier gesetzt werden, werden Pakete mit TOS zur kurzen "
+"Verzögerung ohne Nutzdaten zu letzterem zugewiesen. Falls die Pakete über "
+"eine VLAN-Schnittstelle übertragen werden, wird die Priorität in das Feld \""
+"priority code point\" der 802.1Q-VLAN-Kopfzeile gesetzt."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1295
 msgid "Use main priority"
@@ -14732,7 +14737,7 @@ msgstr "Geringe Verzögerung/TCP ACK"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1281
 msgid "Main"
-msgstr ""
+msgstr "Main"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1277
 msgid "Set priority"
@@ -14924,6 +14929,8 @@ msgid ""
 "Set priority for low latency and acknowledgements must be an integer between "
 "0 and 7."
 msgstr ""
+"Die zu setzende Priorität für niedrige Latenz und Bestätigungen muss eine "
+"Zahl zwischen 0 und 7 sein."
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 394
 msgid "Set priority must be an integer between 0 and 7."
@@ -21885,7 +21892,7 @@ msgstr "Nächster Hop: Self"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 58
 msgid "Default Originate"
-msgstr ""
+msgstr "Standardursprung"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 59
 msgid "Prefix List inbound"
@@ -25388,6 +25395,8 @@ msgid ""
 "Route-map name to match and set your patterns, it will be enabled via the "
 "neigbor configuration."
 msgstr ""
+"Routenplanname, auf den geprüft wird und Ihre Muster gesetzt werden. Er wird "
+"über die Nachbarkonfiguration aktiviert."
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 43
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 395
@@ -25640,6 +25649,8 @@ msgid ""
 "Select the network to advertise, you have to set a Null route via System -> "
 "Routes"
 msgstr ""
+"Wählen Sie das Netztwerk aus, das sie bekannt machen wollen. Sie müllen eine "
+"Nullroute unter System -> Routen konfigurieren."
 
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Select type of health check."
@@ -26580,6 +26591,10 @@ msgid ""
 "still process these bigger packets, but processing it will lower the "
 "performance."
 msgstr ""
+"Sie können mit dieser Option die Größe der Pakete Ihres Netzwerks bestimmen. "
+"Es kann sein, dass manchmal größere Pakete verarbeit werden müssen. Die "
+"Engine kann dennoch größere Pakete verarbeiten, aber die Leistung ist "
+"schlechter."
 
 # File: /usr/lang/src/controllers.php, line: 514
 msgid "X-Forwarded-For header"
@@ -27789,7 +27804,7 @@ msgstr "Relay"
 
 # File: /usr/lang/src/models.php, line: 273
 msgid "Reminder needs to be an integer value between 0 and 86400"
-msgstr ""
+msgstr "Erinnerung muss eine Zahl zwischen 0 und 86400 sein"
 
 # File: /usr/lang/src/models.php, line: 219
 msgid "RemoteACL"
