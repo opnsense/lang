@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 04:44+0000\n"
+"POT-Creation-Date: 2017-07-25 04:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9646,11 +9646,10 @@ msgstr ""
 msgid "Failover peer IP:"
 msgstr "フェールオーバピア IP: "
 
-# File: /usr/core/src/www/services_dhcp.php, line: 866
 msgid ""
 "This option specifies the MTU to use on this interface. The minimum legal "
 "value for the MTU is 68."
-msgstr ""
+msgstr "このインタフェースで使用する MTU を指定するオプションです。MTU の最小規定値は 68 です。"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 304
 # File: /usr/core/src/www/services_dhcp.php, line: 862
@@ -10096,7 +10095,7 @@ msgid "The VLAN priority must be an integer between 0 and 7."
 msgstr "VLAN 優先度は 0 - 7 の整数です。"
 
 msgid "The VLAN tag must be an integer between 1 and 4094."
-msgstr "VLAN タグは 1 - 4094 の整数です"
+msgstr "VLAN タグは 1 - 4094 の整数です。"
 
 msgid "VLAN tag"
 msgstr "VLAN タグ"
@@ -12449,7 +12448,7 @@ msgstr "%s にようこそ！"
 
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Finished initial configuration!"
-msgstr ""
+msgstr "初期構成は終了しました！"
 
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Starting initial configuration!"
@@ -12700,7 +12699,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 623
 msgid "Random ID"
-msgstr ""
+msgstr "ランダム ID"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 545
 msgid "Clears the dont-fragment bit from a matching IP packet."
@@ -12716,11 +12715,11 @@ msgstr "一致している IP パケットに最小 TTL を強制します。"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 605
 msgid "Minimum TTL"
-msgstr ""
+msgstr "最小 TTL"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 591
 msgid "TOS / DSCP"
-msgstr ""
+msgstr "TOS / DSCP"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
@@ -12764,27 +12763,27 @@ msgstr "%s は有効なポート番号、エイリアス、範囲ではないよ
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 518
 msgid "reliability"
-msgstr "信頼性"
+msgstr "reliability"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 515
 msgid "throughput"
-msgstr "スループット"
+msgstr "throughput"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 43
 msgid "netcontrol"
-msgstr ""
+msgstr "netcontrol"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 41
 msgid "inetcontrol"
-msgstr ""
+msgstr "inetcontrol"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 40
 msgid "critical"
-msgstr ""
+msgstr "critical"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 512
 msgid "lowdelay"
-msgstr "低遅延"
+msgstr "lowdelay"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 509
 msgid "Do not change"
@@ -12911,17 +12910,17 @@ msgstr "この名前のスケジュールは既に存在しています"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 130
 msgid "The schedule name cannot be the internally reserved keyword \"%s\"."
-msgstr ""
+msgstr "スケジュール名には内部予約語である「%s」を使用できません。"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 128
 msgid ""
 "The schedule name must be less than 32 characters long and may only consist "
 "of the following characters: %s"
-msgstr ""
+msgstr "スケジュール名は長さが 32 文字未満で次の文字のみが使用できます: %s"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 123
 msgid "Schedule may not use a blank name."
-msgstr ""
+msgstr "スケジュール名を空白にして使用することはできません。"
 
 msgid "Schedule may not be named WAN."
 msgstr "スケジュール名に WAN は使用できません"
@@ -13060,7 +13059,7 @@ msgstr "SYN proxy state"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1473
 msgid "modulate state"
-msgstr ""
+msgstr "modulate state"
 
 msgid "sloppy state"
 msgstr "sloppy state"
@@ -13144,15 +13143,15 @@ msgstr "最大ステート"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1318
 msgid "Match on the priority of packets."
-msgstr ""
+msgstr "パケットの優先度で一致します。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1312
 msgid "Any priority"
-msgstr ""
+msgstr "任意の優先度"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1309
 msgid "Match priority"
-msgstr ""
+msgstr "優先度に一致"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1304
 msgid ""
@@ -13162,26 +13161,29 @@ msgid ""
 "interface, the queueing priority will be written as the priority code point "
 "in the 802.1Q VLAN header."
 msgstr ""
+"このルールに一致するパケットの優先度を設定します。両方の優先度がここで設定された場合、「lowdelay」の TOS のパケット、もしくは "
+"データのないペイロードの TCP ACK が後者に割り当てられます。パケットが VLAN インタフェースから送信された場合は、キューの優先度は "
+"802.1Q VLAN ヘッダにプライオリティコードポイントとして書き込まれます。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1295
 msgid "Use main priority"
-msgstr ""
+msgstr "メイン優先度を使用"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1287
 msgid "Keep current priority"
-msgstr ""
+msgstr "現在の優先度を維持"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1282
 msgid "Low Delay/TCP ACK"
-msgstr ""
+msgstr "Low Delay / TCP ACK"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1281
 msgid "Main"
-msgstr ""
+msgstr "メイン"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1277
 msgid "Set priority"
-msgstr ""
+msgstr "優先度を設定"
 
 msgid "This will disable auto generated reply-to for this rule."
 msgstr "このルールに対する reply-to の自動生成を無効にします。"
@@ -13328,23 +13330,23 @@ msgstr "ファイアウォールルールの編集"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 406
 msgid "Priority match must be an integer between 0 and 7."
-msgstr ""
+msgstr "優先度一致は 0 - 7 の整数です。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 402
 msgid ""
 "Set priority for low latency and acknowledgements requires a set priority "
 "for normal packets."
-msgstr ""
+msgstr "低遅延及び受信確認優先度の設定は、通常パケットに対する優先度を設定する必要があります。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 398
 msgid ""
 "Set priority for low latency and acknowledgements must be an integer between "
 "0 and 7."
-msgstr ""
+msgstr "低遅延及び受信確認優先度の設定は 0 - 7 の整数です。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 394
 msgid "Set priority must be an integer between 0 and 7."
-msgstr ""
+msgstr "優先度設定は 0 - 7 の整数です。"
 
 msgid ""
 "If you specify TCP flags that should be set you should specify out of which "
@@ -14004,7 +14006,7 @@ msgstr "ローカルタグと一致"
 msgid ""
 "You can mark a packet matching this rule and use this mark to match on other "
 "NAT/filter rules."
-msgstr ""
+msgstr "このルールに一致しているパケットをマークし、他の NAT / フィルタルールでの一致にこのマークを使用することができます。"
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"
@@ -14222,7 +14224,7 @@ msgstr "%s は有効な開始送信元ポートではありません。ポート
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 165
 msgid ""
 "\"%s\" is not a valid redirect target IP address, network or host alias."
-msgstr ""
+msgstr "%s は有効なリダイレクトターゲット IP アドレス、ネットワーク、ホストエイリアスではありません。"
 
 msgid "Redirect target IP"
 msgstr "リダイレクトターゲット IP"
@@ -14610,21 +14612,13 @@ msgstr "同じ名前のエイリアスが既に存在します"
 msgid "Update Frequency should be a number"
 msgstr "更新頻度は数字です"
 
-# File: /usr/core/src/www/firewall_aliases_edit.php, line: 172
-# File: /usr/core/src/www/firewall_aliases_import.php, line: 56
-# File: /usr/core/src/www/system_gateway_groups_edit.php, line: 84
-# File: /usr/core/src/www/system_gateways_edit.php, line: 65
 msgid "The name cannot be the internally reserved keyword \"%s\"."
-msgstr ""
+msgstr "名前には内部予約語である「%s」を使用できません。"
 
-# File: /usr/core/src/www/firewall_aliases_edit.php, line: 170
-# File: /usr/core/src/www/firewall_aliases_import.php, line: 54
-# File: /usr/core/src/www/system_gateway_groups_edit.php, line: 82
-# File: /usr/core/src/www/system_gateways_edit.php, line: 63
 msgid ""
 "The name must be less than 32 characters long and may only consist of the "
 "following characters: %s"
-msgstr ""
+msgstr "名前は長さが 32 文字未満で次の文字のみが使用できます: %s"
 
 msgid "An interface description with this name already exists."
 msgstr "この名前のインタフェースの説明は、既に存在しています。"
@@ -14632,17 +14626,16 @@ msgstr "この名前のインタフェースの説明は、既に存在してい
 msgid "Cannot use a reserved keyword as alias name %s"
 msgstr "エイリアス名 %s として予約語を使用できません"
 
-# File: /usr/core/src/www/firewall_aliases_edit.php, line: 137
 msgid "Entry \"%s\" is not a valid country code."
-msgstr ""
+msgstr "エントリ %s は有効な国コードではありません。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 133
 msgid "Entry \"%s\" is not a valid port number."
-msgstr ""
+msgstr "エントリ %s は有効なポート番号ではありません。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 128
 msgid "Entry \"%s\" is not a valid hostname or IP address."
-msgstr ""
+msgstr "エントリ %s は有効なホスト名もしくは IP アドレスではありません。"
 
 msgid "Entry added %s"
 msgstr "%s にエントリを追加しました"
@@ -15280,14 +15273,14 @@ msgid "Gateway Monitor events"
 msgstr "ゲートウェイ監視イベント"
 
 msgid "VPN (PPTP, IPsec, OpenVPN) events"
-msgstr "VPN ( PPTP 、IPsec、OpenVPN ) イベント"
+msgstr "VPN ( PPTP、IPsec、OpenVPN ) イベント"
 
 msgid "Portal Auth events"
 msgstr "ポータル認証イベント"
 
 # File: /usr/core/src/www/diag_logs_settings.php, line: 513
 msgid "DNS (Unbound, Dnsmasq, Bind) events"
-msgstr ""
+msgstr "DNS ( Unbound、Dnsmasq、Bind ) イベント"
 
 msgid "DHCP service events"
 msgstr "DHCP サービスイベント"
@@ -15955,7 +15948,7 @@ msgstr "続行してもよろしいですか？"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 57
 msgid "Admin user name and password will be reset"
-msgstr ""
+msgstr "管理者ユーザ名及びパスワードはリセットされます"
 
 msgid ""
 "WAN interface will be set to obtain an address automatically from a DHCP "
@@ -16296,11 +16289,11 @@ msgstr "有効な認証サーバではありません"
 msgid ""
 "CSRF check failed. Your form session may have expired, or you may not have "
 "cookies enabled."
-msgstr ""
+msgstr "CSRF チェックに失敗しました。フォームセッションの有効期限が切れたか、Cookie が有効になっていない可能性があります。"
 
 # File: /usr/core/src/www/csrf.inc, line: 121
 msgid "CSRF check failed"
-msgstr ""
+msgstr "CSRF チェックに失敗しました"
 
 # File: src/www/crash_reporter.php, line: 170
 msgid "Report an issue"
@@ -16402,7 +16395,7 @@ msgstr "全ての仮想 IP は無効になりました。この無効化は再�
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 195
 msgid "Toggle navigation"
-msgstr ""
+msgstr "ナビゲーションを切り替え"
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 62
 msgid "An API exception occured"
@@ -16427,15 +16420,15 @@ msgstr "詳細モード"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 240
 msgid "Edit rule"
-msgstr ""
+msgstr "ルールを編集"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 239
 msgid "Edit queue"
-msgstr ""
+msgstr "キューを編集"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 238
 msgid "Edit pipe"
-msgstr ""
+msgstr "パイプを編集"
 
 msgid "Reset"
 msgstr "リセット"
@@ -16488,7 +16481,7 @@ msgstr "トラフィックシェーパの再構成にエラーが発生しまし
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 320
 msgid "Edit Blacklist"
-msgstr ""
+msgstr "ブラックリストを編集"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
@@ -16510,9 +16503,8 @@ msgstr "編集 | 削除"
 msgid ""
 "Note: after changing categories, please remember to download the ACL again "
 "to apply your new settings"
-msgstr ""
+msgstr "注意: カテゴリを変更した場合は新しい設定に適用する ACL をもう一度ダウンロードするのを忘れないで下さい。"
 
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 275
 msgid ""
 "\n"
 "                      Add an item to the table to fetch a remote acl for "
@@ -16522,6 +16514,12 @@ msgid ""
 "under %sForward Proxy -> Access Control List%s.\n"
 "                      "
 msgstr ""
+"\n"
+"                      ブラックリストに登録するリモート ACL を取得して、テーブルに項目を追加します。%s\n"
+"                      ブラックリストにするリストは有効無効を選択できます。%s\n"
+"                      アクティブなブラックリストは%sプロキシ転送 -> アクセスコントロールリスト%sの下の設定とマージされます。"
+"\n"
+"                      "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
@@ -16556,24 +16554,24 @@ msgstr "リモートアクセスコントロールリスト"
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 106
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 126
 msgid "Error fetching remote acls"
-msgstr ""
+msgstr "リモート ACL 取得エラー"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 86
 msgid "Error reconfiguring proxy"
-msgstr ""
+msgstr "プロキシ再構成エラー"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 757
 msgid "Ruleset details"
-msgstr ""
+msgstr "ルールセット詳細"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 756
 msgid "Alert details"
-msgstr ""
+msgstr "アラート詳細"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 755
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 758
 msgid "Rule details"
-msgstr ""
+msgstr "ルール詳細"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 482
 msgid "Query"
@@ -16659,7 +16657,7 @@ msgstr "変更は適用後にアクティブになります ( ルールタブ )"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 361
 msgid "Error reconfiguring IDS"
-msgstr ""
+msgstr "IDS 再構成エラー"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
