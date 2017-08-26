@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-25 04:13+0000\n"
+"POT-Creation-Date: 2017-08-26 16:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7052,8 +7052,8 @@ msgid ""
 "expires. Setting this timeout higher will cause the source/destination "
 "relationship to persist for longer periods of time."
 msgstr ""
-"Setze die Quellenverfolgungsgültigkeitsdauer für klebrige Verbindugen in "
-"Sekuden. Standardmäßig ist dies 0, sodass Quellenverfolgung entfernt wird, "
+"Setze die Quellenverfolgungsgültigkeitsdauer für fixierte Verbindungen in "
+"Sekunden. Standardmäßig ist dies 0, sodass Quellenverfolgung entfernt wird, "
 "sobald der Status ungültig wird. Das Setzen dieser Gültigkeitsdauer auf "
 "einen höheren Wert führt dazu, dass die Quell- und Zielbeziehung für eine "
 "längere Dauer persistiert wird."
@@ -7073,18 +7073,18 @@ msgid ""
 msgstr ""
 "Aufeinander folgende Verbindungen werden an die Server in einem Round-Robin-"
 "Verfahren weitergeleitet, wobei Verbindungen von der gleichen Quelle an das "
-"gleiche Gateway weitergeleitet werden. Diese 'klebrige Verbindung' wird so "
+"gleiche Gateway weitergeleitet werden. Diese 'fixierten Verbindung' wird so "
 "lange existieren, wie Status sich auf diese Verbindung beziehen. Sobald die "
-"Status ungültig werden, werden die klebrigen Verbindungen ebenfalls "
+"Status ungültig werden, werden die fixierten Verbindungen ebenfalls "
 "ungültig. Weitere Verbindungen dieses Hosts werden an den nächsten Host im "
 "sinne des Round-Robin-Verfahrens weitergeleitet."
 
 msgid "Use sticky connections"
-msgstr "Klebrige Verbindungen verwenden"
+msgstr "Fixierte Verbindungen verwenden"
 
 # File: src/www/system_advanced_misc.php, line: 321
 msgid "Sticky connections"
-msgstr "Klebrige Verbindungen"
+msgstr "Fixierte Verbindungen"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 372
 msgid "Multi-WAN"
@@ -16789,7 +16789,7 @@ msgid ""
 "will be cleared for all clients."
 msgstr ""
 "Durch das Zurücksetzen der Quellverfolgungstabelle gehen sämtliche Quell-/"
-"Zielverbindungen verloren. Das heißt, dass alle \"klebrigen\" Quell-/"
+"Zielverbindungen verloren. Das heißt, dass alle fixierten Quell-/"
 "Zielverbindungen für alle Clients zurückgesetzt werden."
 
 msgid "Firewall Source Tracking"
@@ -19017,7 +19017,7 @@ msgstr "Speichern"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 671
 msgid "Provide subscription key."
-msgstr "Stellen Sie einen Abonnementschlüssel zur verfügung."
+msgstr "Stellen Sie einen Abonnementschlüssel zur Verfügung."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 666
 msgid "Subscription"
@@ -19455,7 +19455,7 @@ msgstr "Systemgesundheit"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/NetworkinsightController.php, line: 43
 msgid "Network Insight"
-msgstr "Netzwerkeinsicht"
+msgstr "Netzwerkeinblick"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/InterfaceController.php, line: 64
 msgid "System Routing Table"
@@ -20866,9 +20866,9 @@ msgid ""
 msgstr ""
 "Aufeinanderfolgende Verbindungen werden im Round-Robin-Verfahren an die "
 "Server weitergeleitet, wobei Verbindungen von der gleichen Quelle an den "
-"gleichen Webserver gesendet werden. Die 'klebrige Verbindung' wird so lange "
+"gleichen Webserver gesendet werden. Die 'fixierte Verbindung' wird so lange "
 "existieren, wie ein Status besteht, der sich auf diese Verbindung bezieht. "
-"Sobald die Status ablaufen, gilt dies ebenfalls für die klebrige Verbindung. "
+"Sobald die Status ablaufen, gilt dies ebenfalls für die fixierte Verbindung. "
 "Weitere Verbindungen von diesem Host werden zum nächsten Server im round-"
 "Robin weitergeleitet."
 
@@ -24060,7 +24060,7 @@ msgstr ""
 "\"h\" (Stunden), \"m\" (Minuten), \"s\" (Sekunden) oder \"ms\" "
 "(Millisekunden) ein. Dies konfiguriert die maximale Lebensdauer eines "
 "Eintrags seit der Erstellung, Aktualisierung oder Verwendung in der "
-"klebrigen Tabelle. Die Maximale Dauer ist etwas über 24 Tage."
+"fixierten Tabelle. Die Maximale Dauer ist etwas über 24 Tage."
 
 # File: /usr/lang/src/controllers.php, line: 101
 msgid ""
@@ -26034,7 +26034,7 @@ msgstr "Statistiken Benutzer"
 
 # File: /usr/lang/src/controllers.php, line: 456
 msgid "Stick-table persistence"
-msgstr "Persistenz klebriger Tabellen"
+msgstr "Persistenz fixierter Tabellen"
 
 msgid "Stop"
 msgstr "Stopp"
@@ -26142,7 +26142,7 @@ msgid ""
 "The maximum number of characters that will be stored in the stick table (if "
 "appropiate table type is selected)."
 msgstr ""
-"Die maximale Zeichenanzahl die in der klebrigen Tabelle gespeichert werden, "
+"Die maximale Zeichenanzahl die in der fixierte Tabelle gespeichert werden, "
 "so ein passender Tabellentyp ausgewählt wurde."
 
 # File: /usr/lang/src/controllers.php, line: 710
@@ -28051,7 +28051,7 @@ msgstr "Statusübersicht"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 162
 # File: /usr/lang/src/models.php, line: 260
 msgid "Stick Tables"
-msgstr "Klebrige Tabellen"
+msgstr "Fixierte Tabellen"
 
 msgid "Summary View"
 msgstr "Zusammengefasste Ansicht"
@@ -28360,8 +28360,8 @@ msgid ""
 "A reload is now in progress. The wizard will redirect you to the dashboard "
 "once the reload is completed."
 msgstr ""
-"Ein Neustart wird durchgeführt. Der Assistent wird Sie zur Dashboard-Seite "
-"weiterleiten, sobald der Neustart durchgeführt wurde."
+"Die Einstellungen werden jetzt neu geladen. Der Assistent wird Sie zur "
+"Dashboard-Seite weiterleiten sobald dies ausgeführt wurde."
 
 # File: /usr/lang/src/wizards.php, line: 47
 msgid "Add Certificate Authority"

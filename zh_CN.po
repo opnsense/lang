@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 04:38+0000\n"
+"POT-Creation-Date: 2017-08-26 16:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13786,6 +13786,9 @@ msgid ""
 "L(ower) Case, and D is \" :-.\" Delimiter (space, colon, hyphen, or period) ("
 "omitted for none)."
 msgstr ""
+"此字段中的值是请求DHCP租用时要发送的DHCP选项。 [选项声明[, ...]] <br "
+"/>值替换：{interface}，{hostname}，{mac_addr_asciiCD}，{mac_addr_hexCD} <br "
+"/>其中C是U（大写）或L（小写） 而D是“ :-.”分隔符（空格，冒号，连字符或句号）（省略）。"
 
 # File: src/www/interfaces.php, line: 2232
 msgid "Send Options"
@@ -14424,17 +14427,17 @@ msgstr "Save to load窗口小部件"
 
 # File: /usr/core/src/www/index.php, line: 143
 msgid "Click to %scontinue to the dashboard%s."
-msgstr ""
+msgstr "点击%s继续到仪表盘%s。"
 
 # File: /usr/core/src/www/index.php, line: 140
 msgid ""
 "Please consider donating to the project to help us with our overhead costs. "
 "See %sour website%s to donate or purchase available %s support services."
-msgstr ""
+msgstr "请考虑捐款给项目，以帮助我们管理费用。 请参阅%s我们的网站%s捐赠或购买可用的%s支持服务。"
 
 # File: /usr/core/src/www/index.php, line: 138
 msgid "Congratulations! %s is now configured."
-msgstr ""
+msgstr "恭喜！ 现在配置了%s。"
 
 # File: /usr/core/src/www/index.php, line: 134
 msgid "To bypass the wizard, click on the logo in the upper left corner."
@@ -14450,7 +14453,7 @@ msgstr "欢迎来到%s!"
 
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Finished initial configuration!"
-msgstr ""
+msgstr "完成初始配置！"
 
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Starting initial configuration!"
@@ -14747,7 +14750,7 @@ msgstr "用随机值替换IP标识字段，以补偿许多主机生成的可预�
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 623
 msgid "Random ID"
-msgstr ""
+msgstr "随机ID"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 545
 msgid "Clears the dont-fragment bit from a matching IP packet."
@@ -14763,11 +14766,11 @@ msgstr "对匹配的IP数据包执行最小TTL。"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 605
 msgid "Minimum TTL"
-msgstr ""
+msgstr "最小TTL"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 591
 msgid "TOS / DSCP"
-msgstr ""
+msgstr "TOS / DSCP"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
@@ -14819,15 +14822,15 @@ msgstr "吞吐量"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 43
 msgid "netcontrol"
-msgstr ""
+msgstr "netcontrol"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 41
 msgid "inetcontrol"
-msgstr ""
+msgstr "inetcontrol"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 40
 msgid "critical"
-msgstr ""
+msgstr "危急"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 512
 msgid "lowdelay"
@@ -14973,17 +14976,17 @@ msgstr "一个同名的日程表已存在"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 130
 msgid "The schedule name cannot be the internally reserved keyword \"%s\"."
-msgstr ""
+msgstr "日程名称不能是内部保留关键字“%s”。"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 128
 msgid ""
 "The schedule name must be less than 32 characters long and may only consist "
 "of the following characters: %s"
-msgstr ""
+msgstr "计划名称的长度必须小于32个字符，并且只能包含以下字符：%s"
 
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 123
 msgid "Schedule may not use a blank name."
-msgstr ""
+msgstr "时间表不可以使用空白名称。"
 
 # File: src/www/firewall_schedule_edit.php, line: 78
 msgid "Schedule may not be named WAN."
@@ -15187,7 +15190,7 @@ msgstr "synproxy 状态"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1473
 msgid "modulate state"
-msgstr ""
+msgstr "调节状态"
 
 # File: src/www/firewall_rules_edit.php, line: 1348
 # File: src/www/firewall_rules_edit.php, line: 1357
@@ -15284,15 +15287,15 @@ msgstr "最大状态"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1318
 msgid "Match on the priority of packets."
-msgstr ""
+msgstr "匹配报文的优先级。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1312
 msgid "Any priority"
-msgstr ""
+msgstr "任意优先级"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1309
 msgid "Match priority"
-msgstr ""
+msgstr "匹配优先级"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1304
 msgid ""
@@ -15302,10 +15305,12 @@ msgid ""
 "interface, the queueing priority will be written as the priority code point "
 "in the 802.1Q VLAN header."
 msgstr ""
+"设置匹配该规则的报文的优先级。 如果在这里设置了两个优先级，则将分配具有“低延迟”TOS或没有数据有效载荷的TCP ACK的分组。 "
+"如果报文在VLAN接口上传输，队列优先级将作为802.1Q VLAN报头中的优先级码点写入。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1295
 msgid "Use main priority"
-msgstr ""
+msgstr "使用主要优先级"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1287
 msgid "Keep current priority"
