@@ -34,6 +34,7 @@
  *
  */
 echo gettext('(leave empty for none)');
+echo gettext('(leave empty to keep current one)');
 echo gettext('1024 bit');
 echo gettext('2048 bit');
 echo gettext('4096 bit');
