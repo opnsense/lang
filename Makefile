@@ -78,6 +78,8 @@ merge-${LANG}:
 
 test-${LANG}:
 	${MSGFMT} -o /dev/null ${LANG}.po
+	# XXX pretty this up
+	@echo $$(grep -c ^msgid ${LANG}.po) / $$(grep -c ^msgstr ${LANG}.po)
 
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
