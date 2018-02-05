@@ -35,7 +35,7 @@ def recursiveParseForm(xmlNode):
         for tag in recursiveParseForm(childNode):
             yield tag
 
-    if xmlNode.tag in ['help', 'label']:
+    if xmlNode.tag in ['help', 'label', 'hint']:
         yield xmlNode.text
 
     if xmlNode.tag in ['tab', 'subtab']:
