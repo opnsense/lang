@@ -104,7 +104,7 @@ ${TEMPLATE}:
 		    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot; \
 	fi
 .endfor
-	xgettext -L Shell --from-code=UTF-8 -F --strict --debug --keyword --keyword=GETTEXT -o ${.CURDIR}/${TEMPLATE}.pot ${COREDIR}/src/sbin/opnsense-shell
+	xgettext -j -L Shell --from-code=UTF-8 -F --strict --debug --keyword --keyword=GETTEXT -o ${.CURDIR}/${TEMPLATE}.pot ${COREDIR}/src/sbin/opnsense-shell
 
 template: ${TEMPLATE}
 install: ${INSTALL}
