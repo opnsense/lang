@@ -1510,7 +1510,7 @@ msgstr "Authentifizierung von TLS Paketen aktivieren"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 792
 #: 
 msgid "Renegotiate data channel key after n seconds (default=3600). Set to 0 to disable."
-msgstr ""
+msgstr "Bestimme einen neuen Datenkanalschlüssel nach n Sekunden (Standard = 3600). Setzten Sie den Wert 0 um die Funktion zu deaktivieren."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 788
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1573
@@ -1569,7 +1569,7 @@ msgstr "Permanent versuchen, den Servernamen aufzulösen. Nützlich, wenn mit ei
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 719
 #: 
 msgid "Infinitely resolve remote server"
-msgstr ""
+msgstr "Unbegrenzt den fernen Server auflösen"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 716
 #: 
@@ -1600,7 +1600,7 @@ msgstr "Gerätemodus"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 713
 #: 
 msgid "Select the protocol family to be used. Note that using both families with UDP/TCP does not work with an explicit interface as OpenVPN does not support listening to more than one specified IP address. In this case IPv4 is currently assumed."
-msgstr ""
+msgstr "Wählen Sie die zu verwendende Protokollfamilie aus. Bedenken Sie, dass die Verwendung beider Familien mit UDP/TCP nicht mit einer expliziten Schnittstelle wie OpenVPN funktioniert, da OpenVPN nur auf einer IP-Adresse hören kann. In diesem Fall wird aktuell IPv4 angenommen."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 575
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 643
@@ -1756,7 +1756,7 @@ msgstr "IPsec Debug"
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 196
 #: 
 msgid "By default, IPsec installs routes when a tunnel becomes active. Select this option to prevent automatically adding routes to the system routing table. See charon.install_routes"
-msgstr ""
+msgstr "Standardmäßig installiert IPsec Routen, wenn ein Tunnel aktiv wird. Wählen Sie diese Option aus, wenn Sie verhindern wollen, dass Routen zur Systemroutingtabelle hinzugefügt werden. Siehe charon.install_routes"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 194
 #: 
@@ -1776,7 +1776,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 176
 #: 
 msgid "Passthrough networks"
-msgstr ""
+msgstr "Durchgeleitete Netzwerke"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 169
 #: 
@@ -2965,7 +2965,7 @@ msgstr "Setzt die Mindestpasswortlänge"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 189
 #: 
 msgid "Password duration settings, the interval in days in which passwords stay valid. When reached, the user will be forced to change his or her password before continuing."
-msgstr ""
+msgstr "Passwortgültigkeitszeitraumseinstellugen; Der Intervall in Tagen, an welchen die Passwörter gültig bleiben. Wenn diese Begrenzung erreicht wird, wird der Benutzer gezwungen, sein Passwort zu ändern bevor er fortfahren kann."
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 183
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 184
@@ -2984,7 +2984,7 @@ msgstr "Dauer"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 173
 #: 
 msgid "Harden security on local accounts, for methods other then local these will usually be configured on the respective provider (e.g. ldap/radius/..). "
-msgstr ""
+msgstr "Härte die Sicherheit lokaler Konten. Für Methoden, die nicht \"lokal\" sind, wird dies im jeweiligen Provider (z. B. LDAP, RADIUS) zur Verfügung gestellt. "
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 171
 #: 
@@ -3306,12 +3306,12 @@ msgstr "Anmeldeshell"
 #. File: /usr/core/src/www/system_usermanager.php, line: 642
 #: 
 msgid "User comment, for your own information only"
-msgstr ""
+msgstr "Benutzerkommentar; nur zu Ihrer Information"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 633
 #: 
 msgid "User's e-mail address, for your own information only"
-msgstr ""
+msgstr "E-Mail-Adresse des Benutzers nur zu Ihrer Information"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 624
 #: 
@@ -3362,7 +3362,7 @@ msgstr "Wollen Sie diesen Benutzer wirklich löschen?"
 #. File: /usr/core/src/www/system_usermanager.php, line: 426
 #: 
 msgid "Do you really want to remove this certificate association?"
-msgstr "Wollen Sie wirklich, diesesn Zertifikats-Verbund entfernen ?"
+msgstr "Wollen Sie diesen Zertifikats-Verbund wirklich entfernen?"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 426
 #: 
@@ -3655,7 +3655,7 @@ msgstr "Statussynchronisation"
 #. File: /usr/core/src/www/system_hasync.php, line: 85
 #: 
 msgid "The synchronize peer IP must be an IPv4 address or left empty."
-msgstr ""
+msgstr "Die Synchronisationspeer-IP muss eine IPv4-Adresse oder leer sein."
 
 #. File: /usr/core/src/www/system_groupmanager.php, line: 421
 #: 
@@ -5536,7 +5536,7 @@ msgstr "Systemoptimierung bearbeiten"
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 190
 #: 
 msgid "Tunables are composed of runtime settings for sysctl.conf which take effect immediately after apply and boot settings for loader.conf which require a reboot."
-msgstr ""
+msgstr "Optimierungen aus Laufzeiteinstellungen für sysctl.conf werden direkt nach dem übernehmen angewendet und Booteinstellungen für die loader.conf benötigen einen Neustart."
 
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 181
 #: 
@@ -5572,7 +5572,7 @@ msgstr "Eine neue Optimierung hinzufügen"
 #. File: /usr/core/src/www/system_advanced_notifications.php, line: 318
 #: 
 msgid "A test notification will be sent even if the service is marked as disabled."
-msgstr ""
+msgstr "Eine Testnachricht wird auch dann gesendet, wenn der Dienst als deaktiviert markiert wurde."
 
 #. File: /usr/core/src/www/system_advanced_notifications.php, line: 303
 #: 
@@ -5760,7 +5760,7 @@ msgstr "Geben Sie die existierende DUID hier an"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 276
 #: 
 msgid "This field can be used to enter an explicit DUID for use by IPv6 DHCP clients."
-msgstr ""
+msgstr "Dieses Feld kann genutzt werden um explizit eine DUID zur Verwendung durch IPv6-Clients anzugeben."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 272
 #: 
@@ -5785,7 +5785,7 @@ msgstr "ARP Handhabung"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 257
 #: 
 msgid "Set usage of VLAN hardware filtering. This hardware acceleration may be broken in a particular device driver, or may impact performance."
-msgstr ""
+msgstr "Setzt die Verwendung von Hardware-VLAN-Filterung. Diese Hardwarebeschleunigung könnte bei manchen Gerätetreibern defekt sein oder die Performance beeinträchtigen."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 253
 #: 
@@ -6221,7 +6221,7 @@ msgstr "Auf Ihrem Sytem ist die Standardgröße:"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 597
 #: 
 msgid "Maximum number of table entries for systems such as aliases, sshlockout, bogons, etc, combined."
-msgstr ""
+msgstr "Maximale Anzahl an Tabelleneinträgen für Systeme wie Alias, sshlockout, bogons etc. in Kombination."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 593
 #: 
@@ -6426,7 +6426,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 419
 #: 
 msgid "Disable automatic rules which force local services to use the assigned interface gateway."
-msgstr ""
+msgstr "Deaktiviere automatische Regeln, die lokale Dienste dazu zwingen, den zugewiesenen Gateway zu benutzen."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 416
 #: 
@@ -6436,7 +6436,7 @@ msgstr "Deaktiviere erzwungenen Gateway"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 408
 #: 
 msgid "Using policy routing in the packet filter rules causes packets to skip processing for the traffic shaper and captive portal tasks. Using this option enables the sharing of such forwarding decisions between all components to accomodate complex setups."
-msgstr ""
+msgstr "Die Verwendung von richtlinienbasiertem Routing im Paketfilter verursacht, dass die Verarbeitung der Datenverkehrsregulierung und Captive-Portal-Vorgänge umgangen wird. Die Verwendung dieser Option erlaubt die gemeinsame Verwendung von Weiterleitungsentscheidungen um in komplexeren Umgebungen zwischen allen Komponenten zu vermitteln."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 406
 #: 
@@ -6779,7 +6779,7 @@ msgstr "Root Login"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 598
 #: 
 msgid "Select the allowed groups for remote login. The \"wheel\" group is always set for recovery purposes and an additional local group can be selected at will. Do not yield remote access to non-adminstrators as every user can access system files using SSH or SFTP."
-msgstr ""
+msgstr "Wählen Sie die Gruppen aus, die sich aus der ferne anmelden können. Die \"wheel\"-Gruppe wird aus Wiederherstellungsgründen immer erlaubt und eine zusätzliche lokale Gruppe kann bei Bedarf angegeben werden. Erlauben sie keinen fernen Zugang an nicht administrative Benutzer, da jeder Benutzer auf das Dateisystem über SSH oder SFTP zugreifen kann."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 587
 #: 
@@ -6831,7 +6831,7 @@ msgstr "Alle (empfohlen)"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 538
 #: 
 msgid "Enable access logging on the webinterface for debugging and analysis purposes."
-msgstr ""
+msgstr "Aktiviere die Zugangsprotokollierung auf der Weboberfläche zur Fehlersuche und zu Analysezwecken."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 536
 #: 
@@ -6851,7 +6851,7 @@ msgstr "Überträgt weniger Daten an den Client auf Kosten der Verarbeitungsleis
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 527
 #: 
 msgid "Enable compression of HTTP pages and dynamic content."
-msgstr ""
+msgstr "Aktiviere die Komprimierung von HTTP-Seiten und dynamischem Inhalt."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 510
 #: 
@@ -6961,7 +6961,7 @@ msgstr "HTTPS"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 337
 #: 
 msgid "If the page does not reload go here:"
-msgstr ""
+msgstr "Falls die Seite nicht neu lädt, öffnen sie diese Seite:"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 335
 #: 
@@ -7275,17 +7275,17 @@ msgstr "Netzwerkzeitprotokollstatus"
 #. File: /usr/core/src/www/status_ntpd.php, line: 64
 #: 
 msgid "Outlier"
-msgstr ""
+msgstr "Ausreißer"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 61
 #: 
 msgid "False Ticker"
-msgstr ""
+msgstr "Unrichtige Uhr"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 58
 #: 
 msgid "Excess Peer"
-msgstr ""
+msgstr "Excess Peer"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 55
 #: 
@@ -7295,7 +7295,7 @@ msgstr "Ausgewählt"
 #. File: /usr/core/src/www/status_ntpd.php, line: 52
 #: 
 msgid "PPS Peer"
-msgstr ""
+msgstr "PPS-Peer"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 49
 #: 
@@ -7305,12 +7305,12 @@ msgstr "Kandidat"
 #. File: /usr/core/src/www/status_ntpd.php, line: 46
 #: 
 msgid "Active Peer"
-msgstr ""
+msgstr "Aktiver Peer"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 43
 #: 
 msgid "Unreach/Pending"
-msgstr ""
+msgstr "Unerreichbar/Ausstehend"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 311
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 311
@@ -7642,12 +7642,12 @@ msgstr "Gesamt Eingehend"
 #. File: /usr/core/src/www/status_graph.php, line: 337
 #: 
 msgid "Bw Out Avg"
-msgstr ""
+msgstr "Durchschnittlicher Bw ausgehend"
 
 #. File: /usr/core/src/www/status_graph.php, line: 334
 #: 
 msgid "Bw In Avg"
-msgstr ""
+msgstr "Durchschnittlicher Bw eingehend"
 
 #. File: /usr/core/src/www/status_graph.php, line: 331
 #: 
@@ -7662,7 +7662,7 @@ msgstr "Bw eingehend"
 #. File: /usr/core/src/www/status_graph.php, line: 309
 #: 
 msgid "Top"
-msgstr ""
+msgstr "Oben"
 
 #. File: /usr/core/src/www/status_graph.php, line: 308
 #: 
@@ -7832,7 +7832,7 @@ msgstr "A oder AAAA (IPv4- oder IPv6-Adresse)"
 #. File: /usr/core/src/www/services_unbound_host_edit.php, line: 183
 #: 
 msgid "Name of the host, without domain part. Use \"*\" to create a wildcard entry."
-msgstr ""
+msgstr "Name des Hosts ohne den Domainanteil. Verwenden Sie \"*\" für einen Wildcard-Eintrag."
 
 #. File: /usr/core/src/www/services_unbound_host_edit.php, line: 172
 #: 
@@ -8315,7 +8315,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 205
 #: 
 msgid "Local Zone Type"
-msgstr ""
+msgstr "Localer Zonentyp"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 200
 #: 
@@ -8348,7 +8348,7 @@ msgstr "Die Konfiguration für den DNS-Resolver wurde geändert"
 #. File: /usr/core/src/www/services_unbound.php, line: 86
 #: 
 msgid "Local zone type \"%s\" is not known."
-msgstr ""
+msgstr "Der lokale Zonentyp \"%s\" ist nicht bekannt."
 
 #. File: /usr/core/src/www/services_unbound.php, line: 83
 #: 
@@ -8471,7 +8471,7 @@ msgstr "Wählen Sie den Arbeitsmodus für den Router Advertisement (RA) Daemon a
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 232
 #: 
 msgid "Stateless"
-msgstr ""
+msgstr "Statuslos"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 229
 #: 
@@ -8621,7 +8621,7 @@ msgstr "Ein GPS, das über einen seriellen Port verbunden ist, kann als Referenz
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 #: 
 msgid "Please click the \"Calculate\" to get a result."
-msgstr ""
+msgstr "Bitte klicken Sie auf \"Berechnen\", um ein Ergebnis zu bekommen."
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 #: 
@@ -8636,7 +8636,7 @@ msgstr "Berechne"
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 507
 #: 
 msgid "Enter the text between \"$\" and \"*\" of a NMEA command string."
-msgstr ""
+msgstr "Geben Sie den Text zwischen \"$\" und \"*\" einer NMEA-Befehlszeichenkette ein."
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 506
 #: 
@@ -12683,7 +12683,7 @@ msgstr "Schnittstellen Statement"
 #. File: /usr/core/src/www/interfaces.php, line: 2570
 #: 
 msgid "Certain ISPs may require that DHCPv6 requests are sent with a specific VLAN priority."
-msgstr ""
+msgstr "Manche ISPs verlangen, das DHCPv6-Anfragen mit einer spezifischen VLAN-Priorität gesendet werden."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2559
 #: 
@@ -12713,7 +12713,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces.php, line: 2532
 #: 
 msgid "Prevent release"
-msgstr ""
+msgstr "Freigabe verhindern"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2527
 #: 
@@ -12743,7 +12743,7 @@ msgstr "Der Wert in diesem Feld ist die delegierte Präfixlänge, die durch den 
 #. File: /usr/core/src/www/interfaces.php, line: 2478
 #: 
 msgid "Prefix delegation size"
-msgstr ""
+msgstr "Präfixdelegationsgröße"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2473
 #: 
@@ -12788,7 +12788,7 @@ msgstr "IPv6 Upstream-Gateway"
 #. File: /usr/core/src/www/interfaces.php, line: 2365
 #: 
 msgid "Use the IPv4 connectivity link."
-msgstr ""
+msgstr "IPv4-Verbindung verwenden."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2361
 #. File: /usr/core/src/www/interfaces.php, line: 2550
@@ -12861,13 +12861,13 @@ msgstr "Aktiviere Dial-On-Demand"
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 553
 #: 
 msgid "This field can usually be left empty unless specified by the provider."
-msgstr ""
+msgstr "Dieses Feld kann in der Regel leer gelassen werden, es sei denn, es wird vom Anbieter angegeben."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2207
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 549
 #: 
 msgid "Host-Uniq"
-msgstr ""
+msgstr "Einmalig pro Host"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2202
 #: 
@@ -13205,12 +13205,12 @@ msgstr "Falls Sie diese Feld frei lassen, wird der Standard MTU Wert vom Adapter
 #. File: /usr/core/src/www/interfaces.php, line: 1768
 #: 
 msgid "Calculated PPP MTU"
-msgstr ""
+msgstr "Berechnetze PPP-MTU"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1757
 #: 
 msgid "Insert my currently connected MAC address (use with care)"
-msgstr ""
+msgstr "Meine aktuell verbundene MAC-Adresse einfügen (mit Vorsicht zu genießen)"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1748
 #: 
@@ -13286,12 +13286,12 @@ msgstr "Geben Sie hier eine Beschreibung (Name) für die Schnittstelle ein."
 #. File: /usr/core/src/www/interfaces.php, line: 1666
 #: 
 msgid "Prevent interface removal"
-msgstr ""
+msgstr "Verhindere die Schnittstellenentferung"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1663
 #: 
 msgid "Lock"
-msgstr ""
+msgstr "Sperre"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1659
 #: 
@@ -13778,7 +13778,7 @@ msgstr "Geben Sie die VHID-Gruppe an, welche die Maschinen teilen werden."
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 431
 #: 
 msgid "Select an unassigned VHID"
-msgstr ""
+msgstr "Wählen Sie eine nicht zugewiesene VHID aus"
 
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 420
 #: 
@@ -13808,7 +13808,7 @@ msgstr "Expansion"
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 398
 #: 
 msgid "For some interface types a gateway is required to configure an IP Alias (ppp/pppoe/tun), leave this field empty for all other interface types."
-msgstr ""
+msgstr "Für einige Schnittstellentypen wird ein Gateway benötigt, um einen IP-Alias (ppp/pppoe/tun) zu konfigurieren, lassen Sie dieses Feld für alle anderen Schnittstellentypen leer."
 
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 359
 #: 
@@ -13866,7 +13866,7 @@ msgstr "Bitte geben Sie eine einzelne IP-Adresse an."
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 161
 #: 
 msgid "VHID %s must be defined on interface %s as a CARP VIP first."
-msgstr ""
+msgstr "VHID %s muss zuerst auf der Schnittstelle %s als CARP VIP definiert werden."
 
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 149
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 152
@@ -13877,7 +13877,7 @@ msgstr "Für diesen VIP-Typ ist localhost nicht erlaubt."
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 146
 #: 
 msgid "A VHID must be selected for this CARP VIP."
-msgstr ""
+msgstr "Eine VHID muss für diese CARP-VIP ausgewählt werden."
 
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 143
 #: 
@@ -15265,7 +15265,7 @@ msgstr "Kategorie auswählen"
 #. File: /usr/core/src/www/firewall_scrub.php, line: 40
 #: 
 msgid "The settings have been applied and the rules are now reloading in the background."
-msgstr ""
+msgstr "Die Einstellungen wurden übernommen und die Regeln werden nun im Hintergrund neu geladen."
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 697
 #: 
@@ -15389,7 +15389,7 @@ msgstr "Ein gültiges Ziel muss angegeben werden."
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 175
 #: 
 msgid "Negating source address of \"any\" is invalid."
-msgstr ""
+msgstr "Die Negation von \"jeglicher\" Quelladresse ist ungültig."
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 169
 #: 
@@ -15598,7 +15598,7 @@ msgstr "Interner IPv6 Präfix"
 #. File: /usr/core/src/www/firewall_nat_npt_edit.php, line: 147
 #: 
 msgid "Edit NAT NPTv6 entry"
-msgstr ""
+msgstr "NAT NPTv6-Eintrag bearbeiten"
 
 #. File: /usr/core/src/www/firewall_nat_npt_edit.php, line: 90
 #: 
@@ -16142,17 +16142,17 @@ msgstr "Umkehren"
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 302
 #: 
 msgid "This is the address or network the traffic will translate to/from."
-msgstr ""
+msgstr "Dies ist die Adresse oder das Netzwerk, in das bzw. aus dem der Datenverkehr übersetzt wird."
 
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 301
 #: 
 msgid "The subnet mask from the internal address below will be applied to this IP address, when none is provided."
-msgstr ""
+msgstr "Die Subnetzmaske der unteren internen Adresse wird angewendet, falls keine angegeben wurde."
 
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 300
 #: 
 msgid "Enter the external subnet's starting address for the 1:1 mapping or network."
-msgstr ""
+msgstr "Geben Sie die Startadresse des externen Subnetzes für das 1:1-Mapping oder Netzwerk ein."
 
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 296
 #: 
@@ -16162,7 +16162,7 @@ msgstr "Externes Netzwerk"
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 291
 #: 
 msgid "A BINAT rule specifies a bidirectional mapping between an external and internal network and can be used from both ends, nat only applies in one direction."
-msgstr ""
+msgstr "Eine BINAT-Regel gibt eine bidirektionales Mapping zwischen einem externen und einem internen Netzwerk an und kann von beiden Seiten aus verwendet werden. Nat funktioniert nur in eine Richtung."
 
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 289
 #: 
@@ -16381,7 +16381,7 @@ msgstr "Alias (zur Betrachtung/Bearbeitung klicken)"
 #. File: /usr/core/src/www/firewall_nat.php, line: 477
 #: 
 msgid "Linked rule"
-msgstr ""
+msgstr "Verknüpfte Regel"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 473
 #: 
@@ -16596,12 +16596,12 @@ msgstr "%s ist keine IP-Adresse. Bitte korrigieren Sie den Fehler um fortzufahre
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 696
 #: 
 msgid "toggle all"
-msgstr ""
+msgstr "Alle umschalten"
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 645
 #: 
 msgid "Alias Expiration. (days + hours)"
-msgstr ""
+msgstr "Aliasablauf. (Tage + Stunden)"
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 630
 #: 
@@ -16611,7 +16611,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 623
 #: 
 msgid "Select contries to be resolved to IPs. IPv4 and IPv6 can be mixed."
-msgstr ""
+msgstr "Wählen Sie die Länder aus, die in IPs aufgelöst werden sollen. IPv4 und IPv6 können gemischt werden."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 616
 #: 
@@ -16662,7 +16662,7 @@ msgstr "GeoIP"
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 556
 #: 
 msgid "The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and _\". Aliases can be nested using this name."
-msgstr ""
+msgstr "Der name des Alias darf nur aus den Zeichen a-z, A-Z, 0-9 und _ bestehen. Alias können unter Verwendung des Namens verschachtelt werden."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 541
 #: 
@@ -16688,7 +16688,7 @@ msgstr "Ein Alias mit diesem Namen existiert bereits."
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 267
 #: 
 msgid "Expiration should be a number"
-msgstr ""
+msgstr "Ablauf muss eine Zahl sein"
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 262
 #. File: /usr/core/src/www/firewall_aliases_import.php, line: 51
@@ -16721,7 +16721,7 @@ msgstr "Es ist nicht möglich, ein reserviertes Wort als Aliasnamen zu benutzen 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 226
 #: 
 msgid "Entry \"%s\" is not a valid network or IP address."
-msgstr ""
+msgstr "Der Eintrag \"%s\" ist weder ein gültiges Netzwerk noch eine gültige IP-Adresse."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 221
 #: 
@@ -16741,12 +16741,12 @@ msgstr "Eintrag \"%s\" ist kein(e) gültige(r) Hostname oder IP-Adresse."
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 210
 #: 
 msgid "Entry \"%s\" seems to contain a list of addresses, please use a network type alias to define ranges."
-msgstr ""
+msgstr "Der Eintrag \"%s\" scheint eine Liste an Adressen zu beinhalten. Bitte nutzen Sie einen Alias des Typs \"Netzwerk\" um einen Bereich zu definieren."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 195
 #: 
 msgid "At least one alias entry must be supplied."
-msgstr ""
+msgstr "Mindestens ein Alias muss angegeben werden."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 183
 #: 
@@ -17659,12 +17659,12 @@ msgstr "Portal Authentifizierungs Ereignisse"
 #. File: /usr/core/src/www/diag_logs_settings.php, line: 516
 #: 
 msgid "Mail service events"
-msgstr ""
+msgstr "Maildienstvorkommnisse"
 
 #. File: /usr/core/src/www/diag_logs_settings.php, line: 514
 #: 
 msgid "DNS service events"
-msgstr ""
+msgstr "DNS-Dienstereignisse"
 
 #. File: /usr/core/src/www/diag_logs_settings.php, line: 512
 #: 
@@ -18143,7 +18143,7 @@ msgstr "Byte eingehend"
 #. File: /usr/core/src/www/diag_ipsec.php, line: 213
 #: 
 msgid "Routed"
-msgstr ""
+msgstr "Geroutet"
 
 #. File: /usr/core/src/www/diag_ipsec.php, line: 194
 #: 
@@ -18346,7 +18346,7 @@ msgstr "Sind Sie sicher, dass Sie fortfahren möchten?"
 #. File: /usr/core/src/www/diag_defaults.php, line: 73
 #: 
 msgid "Shut down after changes are complete"
-msgstr ""
+msgstr "Herunterfahren, nachdem die Änderungen vollständig sind"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 72
 #: 
@@ -18381,13 +18381,13 @@ msgstr "Falls Sie auf \"Ja\" klicken, wird das System:"
 #. File: /usr/core/src/www/diag_defaults.php, line: 52
 #: 
 msgid "The system has been reset to factory defaults and is shutting down."
-msgstr ""
+msgstr "Das System wurde auf Werkseinstellungen zurückgesetzt und fährt herunter."
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 48
 #. File: /usr/core/src/www/diag_halt.php, line: 47
 #: 
 msgid "Your device is powering off"
-msgstr ""
+msgstr "Ihr Gerät fährt herunter"
 
 #. File: /usr/core/src/www/diag_confbak.php, line: 324
 #: 
@@ -18505,7 +18505,7 @@ msgstr "Die Sicherungsanzahl muss größer als null sein."
 #. File: /usr/core/src/www/diag_backup.php, line: 468
 #: 
 msgid "Setup/Test %s"
-msgstr ""
+msgstr "Einrichten/Testen %s"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 418
 #: 
@@ -18577,7 +18577,7 @@ msgstr "Sicherung erfolgreich, aktuelle Dateiliste:"
 #. File: /usr/core/src/www/diag_backup.php, line: 286
 #: 
 msgid "communication failure"
-msgstr ""
+msgstr "Kommunikationsfehler"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 255
 #: 
@@ -18761,7 +18761,7 @@ msgstr "Authentifizierung fehlgeschlagen."
 #. File: /usr/core/src/www/diag_authentication.php, line: 69
 #: 
 msgid "Attributes received from server"
-msgstr ""
+msgstr "Attribute, die vom Server empfangen wurden"
 
 #. File: /usr/core/src/www/diag_authentication.php, line: 64
 #: 
@@ -18841,7 +18841,7 @@ msgstr "Ziehen Sie bitte in Betracht, einen Fehlerbericht zu senden, falls der F
 #. File: /usr/core/src/www/crash_reporter.php, line: 198
 #: 
 msgid "This crash report contains no actual crash information. If you want to submit a problem please fill out your e-mail and description below."
-msgstr ""
+msgstr "Dieser Absturzbericht enthält keine aktuellen Absturzinformationen. Wenn Sie ein Problem melden möchten, tragen Sie bitte Ihre E-Mail Adresse ein und füllen die Beschreibung aus."
 
 #. File: /usr/core/src/www/crash_reporter.php, line: 196
 #: 
@@ -18935,7 +18935,7 @@ msgstr "Navigation umschalten"
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 183
 #: 
 msgid "No results found!"
-msgstr ""
+msgstr "Keine Ergebnisse gefunden!"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 182
 #: 
@@ -19138,12 +19138,12 @@ msgstr "Geben Sie keine statischen Routen für Netzwerke an, die an einer Schnit
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routes/index.volt, line: 42
 #: 
 msgid "Error reconfiguring routes"
-msgstr ""
+msgstr "Fehler bei der Neukonfiguration der Routen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 267
 #: 
 msgid "Edit blacklist"
-msgstr ""
+msgstr "Schwarze Liste bearbeiten"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 258
 #: 
@@ -19301,7 +19301,7 @@ msgstr "Alarmeinstellungen"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 37
 #: 
 msgid "Import System Notification"
-msgstr ""
+msgstr "Systembenachrichtigung importieren"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 880
 #: 
@@ -19322,7 +19322,7 @@ msgstr "Abfrage"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 838
 #: 
 msgid "Delete Alert Log"
-msgstr ""
+msgstr "Alarmprotokoll löschen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 779
 #: 
@@ -19421,7 +19421,7 @@ msgstr "Fehler bei der Neukonfiguration des IDS"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 473
 #: 
 msgid "Alert info"
-msgstr ""
+msgstr "Alarminformation"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 134
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 167
@@ -19442,17 +19442,17 @@ msgstr "Änderungen werden  nach dem Anwenden aktiv (Regeln-Tab)"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 #: 
 msgid "Configured action"
-msgstr ""
+msgstr "Konfigurierte Aktion"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 399
 #: 
 msgid "tls notafter"
-msgstr ""
+msgstr "TLS nicht nach"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 398
 #: 
 msgid "tls notbefore"
-msgstr ""
+msgstr "TLS nicht befor"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 397
 #: 
@@ -19462,17 +19462,17 @@ msgstr "TLS Version"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 396
 #: 
 msgid "tls serial"
-msgstr ""
+msgstr "TLS serial"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 395
 #: 
 msgid "tls fingerprint"
-msgstr ""
+msgstr "TLS Fingerabdruck"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 394
 #: 
 msgid "tls session resumed"
-msgstr ""
+msgstr "TLS-Sitzung wiederaufgenommen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 393
 #: 
@@ -20837,7 +20837,7 @@ msgstr "Entferne abgelaufene Voucher"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 187
 #: 
 msgid "The validity, expiry time and the quantity of vouchers must be integers."
-msgstr ""
+msgstr "Die Gültigkeit, die Verfallszeit und die Anzahl der Vouchers müssen ganze Zahlen sein."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 141
 #: 
@@ -21227,7 +21227,7 @@ msgstr "Sichere Kopie"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 76
 #: 
 msgid "Set the remote directory to backup the config file to."
-msgstr ""
+msgstr "Setzt das ferne Verzeichnis, in das die Konfigurationsdatei gesichert wird."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 75
 #: 
@@ -21237,7 +21237,7 @@ msgstr "Fernes Verzeichnis"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 70
 #: 
 msgid "Set the remote username."
-msgstr ""
+msgstr "Setzt den fernen Benutzernamen"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 69
 #: 
@@ -21272,7 +21272,7 @@ msgstr "Das Anwendungspasswort wurde für Sie generiert"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 67
 #: 
 msgid "The name you use for logging into your Nextcloud account"
-msgstr ""
+msgstr "Der Name, den Sie verwenden, um sich in Ihr Nextcloud-Konto anzumelden"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 66
 #: 
@@ -21282,7 +21282,8 @@ msgstr "Benutzername"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 60
 #: 
 msgid "The Base URL to Nextcloud. For example: https://cloud.example.com"
-msgstr ""
+msgstr "Die Basis-URL zur Nextcloud. Zum Beispiel:\n"
+"https://cloud.example.com"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 142
 #. File: /usr/core/src/www/diag_backup.php, line: 146
@@ -21310,12 +21311,12 @@ msgstr "Anzahl an Sicherungen"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 85
 #: 
 msgid "Normally the config xml will be written as config-stamp.xml, with this option set the filename will use the systems host and domain name."
-msgstr ""
+msgstr "Normalerweise wird die Konfiguration als config-Zeitstempel.xml geschrieben. Mit dieser Option enthält der Dateiname zusätzlich den Hostnamen des Systems und den Domain-Namen."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 84
 #: 
 msgid "Prefix hostname to backupfile"
-msgstr ""
+msgstr "Die Backupdatei mit dem Hostnamen präfixen"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 78
 #: 
@@ -21325,7 +21326,7 @@ msgstr "Ordner ID"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 67
 #: 
 msgid "You need a private key in p12 format to use Google Drive, instructions on how to aquire one can be found here %s "
-msgstr ""
+msgstr "Sie benötigen einen privaten Schlüssel im p12-Format um Google Drive zu benutzen. Anleitungen, wie Sie einen Bekommen, finden Sie hier %s "
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 65
 #: 
@@ -21394,7 +21395,7 @@ msgstr "Voucher"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 246
 #: 
 msgid "Require the password in front of the token instead of behind it."
-msgstr ""
+msgstr "Verlange, dass das Passwort vor dem Token statt danach angegeben wird."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 245
 #: 
@@ -21459,7 +21460,7 @@ msgstr "Der Benutzername kann nicht Teil des Passworts sein"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 98
 #: 
 msgid "Password should contain at least 3 of the 4 different character groups (lowercase, uppercase, number, special)"
-msgstr ""
+msgstr "Das Passwort sollte mindestens 3 der 4 verschiedenen Zeichengruppen beinhalten (Klein- und Großbuchstaben, Ziffern sowie Sonderzeichen)"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 94
 #: 
@@ -21474,12 +21475,12 @@ msgstr "Das Passwort muss mindestens %d Zeichen lang sein"
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 80
 #: 
 msgid "This item has been created by another service, command and parameter may not be changed. (was: %s)"
-msgstr ""
+msgstr "Dieses Element wurde von einem anderen Dienst erstellt, Befehl und Parameter dürfen nicht geändert werden. (war: %s)"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 75
 #: 
 msgid "This item has been created by another service, command and parameter may not be changed."
-msgstr ""
+msgstr "Dieses Element wurde von einem anderen Dienst erstellt, Befehl und Parameter dürfen nicht geändert werden."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/IndexController.php, line: 44
 #: 
@@ -21802,12 +21803,12 @@ msgstr "Der angegebene 'lokale Port' ist in Benutzung. Bitte wählen Sie einen a
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 343
 #: 
 msgid "Please enter a different name for the Certicicate. A Certificate with that name/common name already exists."
-msgstr ""
+msgstr "Bitte geben Sie einen anderen Namen für dieses Zertifikat an. Ein Zertifikat mit diesem Namen / Allgemeinen Namen existiert."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 336
 #: 
 msgid "Please enter all information for the new certificate."
-msgstr ""
+msgstr "Bitte geben Sie sämtliche Information für das Zertifikat ein."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 243
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 347
@@ -21818,7 +21819,8 @@ msgstr "Bitte geben Sie einen zwei Zeichen ISO-Ländercode ein"
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 239
 #: 
 msgid "Please enter a different name for the Certicicate Authority. A Certificate Authority with that name already exists."
-msgstr ""
+msgstr "Bitte geben Sie einem anderen Namen für die Zertifizierungstelle ein.\n"
+"Eine CA mit diesem Namen existiert bereits."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 236
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 340
@@ -21829,19 +21831,19 @@ msgstr "Bitte benutzen Sie keine speziellen Zeichen im Zertifikatsnamesfeld."
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 232
 #: 
 msgid "Please enter all information for the new Certificate Authority."
-msgstr ""
+msgstr "Bitte geben Sie alle Informationen für die neue Zertifizierungstelle ein."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 120
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 184
 #: 
 msgid "Please enter a valid IP address or hostname for the authentication server."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige IP-Adresse oder einen gültigen Hostnamen für den Authentifizierungsserver ein."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 116
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 180
 #: 
 msgid "Please choose a different name because an authentication server with this name already exists."
-msgstr ""
+msgstr "Bitte geben Sie einen anderen Namen ein, da bereits ein Authentifzierungsserver mit diesem Namen bereits existiert."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 113
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 177
@@ -22489,7 +22491,7 @@ msgstr "Sie müssen mindestens eine interne Schnittstelle angeben."
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 190
 #: 
 msgid "Test Kerberos login"
-msgstr ""
+msgstr "Kerberos Anmeldung testen"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 186
 #: 
@@ -22519,12 +22521,12 @@ msgstr "Dump anzeigen"
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 85
 #: 
 msgid "Proxy reconfigured"
-msgstr ""
+msgstr "Proxy neu konfiguriert"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 266
 #: 
 msgid "LDAP server is not set in Web Proxy - Authentication Settings"
-msgstr ""
+msgstr "LDAP-Server ist nicht in Web Proxy eingestellt - Authentifizierungseinstellungen"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 260
 #: 
@@ -22545,7 +22547,7 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 249
 #: 
 msgid "File %s does not exists."
-msgstr ""
+msgstr "Die Datei %s existiert nicht."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 213
 #: 
@@ -22560,7 +22562,7 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 206
 #: 
 msgid "Unknown LDAP server FQDN."
-msgstr ""
+msgstr "Unbekannter LDAP-Server-FQDN"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 194
 #: 
@@ -22575,12 +22577,12 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 187
 #: 
 msgid "Unknown LDAP server IP."
-msgstr ""
+msgstr "Unbekannte LDAP-Server-IP"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 177
 #: 
 msgid "Hostname doesn't resolved to IP."
-msgstr ""
+msgstr "Der Hostname konnte nicht auf eine IP aufgelöst werden."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 174
 #: 
@@ -22595,7 +22597,7 @@ msgstr "DNS-Server nicht gefunden"
 #. File: /usr/plugins/www/web-proxy-sso/src/etc/inc/plugins.inc.d/proxy_sso.inc, line: 27
 #: 
 msgid "Kerberos authentication module"
-msgstr ""
+msgstr "Kerberos-Authentifizierungsmodul"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 470
 #: 
@@ -22899,12 +22901,12 @@ msgstr "ClamAV Daemon"
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
 #: 
 msgid "Peers"
-msgstr ""
+msgstr "Peers"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 123
 #: 
 msgid "Edit Zerotier Network"
-msgstr ""
+msgstr "Zerotier-Netzwerk bearbeiten"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 102
 #: 
@@ -22914,7 +22916,7 @@ msgstr "Netzwerk-ID"
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 #: 
 msgid "Unable to obtain Zerotier information for network"
-msgstr ""
+msgstr "Zerotier-Informationen für das Netzwerk können nicht abgerufen werden."
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 #: 
@@ -22924,7 +22926,7 @@ msgstr "Ist das Netzwerk aktiviert?"
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 81
 #: 
 msgid "Information on network"
-msgstr ""
+msgstr "Information über das Netzwerk"
 
 #. File: /usr/plugins/net/upnp/src/www/status_upnp.php, line: 103
 #: 
@@ -23148,12 +23150,12 @@ msgstr "Der Hostname enthält ungültige Zeichen. "
 #. File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 50
 #: 
 msgid "shadowsockslocal daemon"
-msgstr ""
+msgstr "shadowsockslocal-Dienst"
 
 #. File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 37
 #: 
 msgid "shadowsocks daemon"
-msgstr ""
+msgstr "shadowsocks-Dienst"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 384
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 389
@@ -24430,17 +24432,17 @@ msgstr "Backend-Pool bearbeiten"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 832
 #: 
 msgid "Edit Public Service"
-msgstr ""
+msgstr "Öffentlichen Dienst bearbeiten"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 802
 #: 
 msgid "Error Message Name"
-msgstr ""
+msgstr "Fehlermeldungsname"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 801
 #: 
 msgid "Error Message ID"
-msgstr ""
+msgstr "Fehlermeldungs-ID"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 768
 #: 
@@ -24450,17 +24452,17 @@ msgstr "Lua-Skriptname"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 733
 #: 
 msgid "Condition Name"
-msgstr ""
+msgstr "Bedingungsname"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 732
 #: 
 msgid "Condition ID"
-msgstr ""
+msgstr "Bedingungs-ID"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 699
 #: 
 msgid "Rule Name"
-msgstr ""
+msgstr "Regelname"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 698
 #: 
@@ -24517,7 +24519,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 502
 #: 
 msgid "Remember to add firewall rules for all configured Public Services."
-msgstr ""
+msgstr "Denken Sie daran, Firewall-Regeln für alle konfigurierten öffentlichen Dienste hinzuzufügen."
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 500
 #: 
@@ -24554,7 +24556,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 472
 #: 
 msgid "Lastly, enable HAProxy using the %sService Settings%s."
-msgstr ""
+msgstr "Im letzten Schritt aktivieren sie HAProxy under der Verwendung der %sDiensteinstellungen%s"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
 #: 
@@ -24569,7 +24571,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 465
 #: 
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "Schnellstartanleitung"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 417
 #: 
@@ -24584,13 +24586,13 @@ msgstr "Öffentliche Dienste"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 402
 #: 
 msgid "Backend Pools"
-msgstr ""
+msgstr "Backend-Pools"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 397
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 496
 #: 
 msgid "Virtual Services"
-msgstr ""
+msgstr "Virtuelle Dienste"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 246
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 275
@@ -24817,12 +24819,12 @@ msgstr "Tablulatoren (\\t), Zeilenumbrüche (\\n) und Wagenvorschübe (\\r) am B
 #. File: /usr/plugins/net-mgmt/collectd/src/etc/inc/plugins.inc.d/collectd.inc, line: 37
 #: 
 msgid "collectd daemon"
-msgstr ""
+msgstr "collectd-Daemon"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 70
 #: 
 msgid "Local Host"
-msgstr ""
+msgstr "Lokaler Host"
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 110
 #: 
@@ -25016,7 +25018,7 @@ msgstr "Redis DB"
 #. File: /usr/plugins/benchmarks/iperf/src/etc/inc/plugins.inc.d/iperf.inc, line: 40
 #: 
 msgid "iperf Performance Test"
-msgstr ""
+msgstr "iperf Performancetest"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 47
 #: 
@@ -25041,22 +25043,22 @@ msgstr "Host System"
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 81
 #: 
 msgid "Remote Total"
-msgstr ""
+msgstr "Gesamt (fern)"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 82
 #: 
 msgid "Remote User"
-msgstr ""
+msgstr "Ferner Benutzer"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 83
 #: 
 msgid "Remote System"
-msgstr ""
+msgstr "Fernes System"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 86
 #: 
 msgid "Performance Data"
-msgstr ""
+msgstr "Leistungsdaten"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 93
 #: 
@@ -25071,7 +25073,7 @@ msgstr "Instanz erstellen"
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 78
 #: 
 msgid "Host Total"
-msgstr ""
+msgstr "Host Gesamt"
 
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns.php, line: 127
 #. File: /usr/plugins/dns/dyndns/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 94
@@ -25079,7 +25081,7 @@ msgstr ""
 #. File: /usr/plugins/dns/rfc2136/src/www/widgets/widgets/rfc2136.widget.php, line: 101
 #: 
 msgid "Cached IP"
-msgstr "Zwischengespeicherte IP"
+msgstr "Dyn IP"
 
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 72
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 193
@@ -25208,12 +25210,12 @@ msgstr "Schneller Spamfilter-Daemon"
 #. File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 94
 #: 
 msgid "No ClamAV plugin found, please install via %sSystem > Firmware > Plugins%s. If the plugin is not installed and enabled, mails cannot be scanned for malware."
-msgstr ""
+msgstr "Kein ClamAV-Erweiterung gefunden. Bitte Installieren Sie es unter %sSystem > Firmware > Erweiterungen%s. Falls die Erweiterung nicht installiert und aktiviert ist, können Mails nicht auf Schadprogramme geprüft werden."
 
 #. File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 98
 #: 
 msgid "The Redis plugin is configured to use but it is not installed. Please install it via %sSystem > Firmware > Plugins%s."
-msgstr ""
+msgstr "Die Redis-Erweiterung ist zur Verwendung konfiguriert aber nicht installiert. Bitte Installieren Sie diese unter %sSystem > Firmware > Erweiterungen%s."
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 65
 #: 
@@ -25254,7 +25256,7 @@ msgstr "Client für dynamisches DNS"
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 63
 #: 
 msgid "Error reconfiguring FreeRADIUS"
-msgstr ""
+msgstr "Fehler bei der Neukonfiguraton von FreeRADIUS"
 
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 90
 #: 
@@ -25264,7 +25266,7 @@ msgstr "Gemeinsames Geheimnis"
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 91
 #: 
 msgid "IP Address or Network"
-msgstr ""
+msgstr "IP-Adresse oder Netzwerk"
 
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 115
 #: 
@@ -25716,7 +25718,7 @@ msgstr "Hier können Sie dem Benutzer eine bestimmte IP-Adresse zuweisen."
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 510
 #: 
 msgid "Rules and Checks"
-msgstr ""
+msgstr "Regeln und Prüfungen"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 132
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 139
@@ -25759,7 +25761,7 @@ msgstr "Backend-Hosts"
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 209
 #: 
 msgid "Table Checks"
-msgstr ""
+msgstr "Tabellenprüfungen"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 212
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 137
@@ -25775,7 +25777,7 @@ msgstr "Der Status konnte nicht abgefragt werden. Läut Relayd?"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 416
 #: 
 msgid "Health Monitors"
-msgstr ""
+msgstr "Gesundheitsüberwachungen"
 
 #. File: /usr/plugins/net/siproxd/src/etc/inc/plugins.inc.d/siproxd.inc, line: 37
 #: 
@@ -26060,7 +26062,7 @@ msgstr "HAProxy-Konfigurationstestergebnisse"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 411
 #: 
 msgid "Rules & Checks"
-msgstr ""
+msgstr "Regeln & Prüfungen"
 
 #. File: /usr/plugins/security/tinc/src/etc/inc/plugins.inc.d/tinc.inc, line: 70
 #: 
@@ -26092,7 +26094,7 @@ msgstr "Host bearbeiten"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 486
 #: 
 msgid "%sPort:%s The TCP or UDP port that should be used. If unset, the same port the client connected to will be used."
-msgstr ""
+msgstr "%sPort:%s Der TCP- oder UDP-Port, der verwendet werden soll. Wenn nicht gesetzt, wird der gleiche Port verwendet, mit dem der Client verbunden ist."
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 513
 #: 
@@ -26117,7 +26119,7 @@ msgstr "Netzwerk-USV-Überwachung"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 595
 #: 
 msgid "Backend Pool Name"
-msgstr ""
+msgstr "Backendpoolname"
 
 #. File: /usr/plugins/www/c-icap/src/etc/inc/plugins.inc.d/cicap.inc, line: 38
 #: 
@@ -26142,7 +26144,7 @@ msgstr "Zonen-ID"
 #. File: /usr/plugins/www/web-proxy-useracl/src/etc/inc/plugins.inc.d/proxy_useracl.inc, line: 59
 #: 
 msgid "Group & User Squid ACL"
-msgstr ""
+msgstr "Gruppe- & Bentzer-Squid ACL"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 292
 #: 
@@ -26172,7 +26174,7 @@ msgstr "Der %s %s existiert nicht"
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/index.volt, line: 155
 #: 
 msgid "Edit user/group white and black lists"
-msgstr ""
+msgstr "Schwarze und weiße Benutzer- und Gruppenlisten bearbeiten"
 
 #. File: /usr/lang/src/controllers.php, line: 30
 #: 
@@ -26197,22 +26199,22 @@ msgstr "(Optional) Benutzeranmeldeinformationen"
 #. File: /usr/lang/src/controllers.php, line: 34
 #: 
 msgid "0: Log everything, Positive Value: Log events that take longer than specified, Negative Value: Log nothing."
-msgstr ""
+msgstr "0: Alles protokollieren, Positiver Wert: Ereignisse protokollieren, die länger dauern als angegeben, negativer Wert: Nichts protokollieren."
 
 #. File: /usr/lang/src/controllers.php, line: 35
 #: 
 msgid "A JSON document containing configuration options that apply to the local node"
-msgstr ""
+msgstr "Ein JSON-Dokument mit Konfigurationsoptionen, die für den lokalen Knoten gelten."
 
 #. File: /usr/lang/src/controllers.php, line: 36
 #: 
 msgid "A bridge is a private relay. It is not visible in the public directory. Uncheck this if you want to become a public relay."
-msgstr ""
+msgstr "Eine Brücke ist eine private Weiterleitung. Sie ist nicht im öffentlichen Verzeichnis sichtbar. Wählen Sie diese Option ab, um eine öffentliche Weiterleitung anzubieten."
 
 #. File: /usr/lang/src/controllers.php, line: 37
 #: 
 msgid "A name for this server. Used when displaying information about this server (logs, info service, etc)."
-msgstr ""
+msgstr "Ein Name für diesen Server. Wird verwendet, um Informationen über diesen Server (Protokolle, Informationsdienste etc.) anzuzeigen."
 
 #. File: /usr/lang/src/controllers.php, line: 38
 #: 
@@ -26384,7 +26386,7 @@ msgstr "Füge Zufälligkeit in das Prüfintervall zwischen 0 und +/- 50% ein. Ei
 #. File: /usr/lang/src/controllers.php, line: 66
 #: 
 msgid "Additional exceptions for TLD rules."
-msgstr ""
+msgstr "Zusätzliche Ausnahmen für TLD-Regeln"
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 85
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 85
@@ -26432,7 +26434,7 @@ msgstr "E-Mail-Adresse des Administrators"
 #. File: /usr/lang/src/controllers.php, line: 72
 #: 
 msgid "Advanced SSL settings"
-msgstr ""
+msgstr "Erweiterte SSL-Einstellungen"
 
 #. File: /usr/lang/src/controllers.php, line: 73
 #: 
@@ -26493,7 +26495,7 @@ msgstr "Erlaube nur TLS"
 #. File: /usr/lang/src/controllers.php, line: 84
 #: 
 msgid "Allow Username Mismatch"
-msgstr ""
+msgstr "Erlaube abweichende Benutzernamen"
 
 #. File: /usr/lang/src/controllers.php, line: 85
 #: 
@@ -26548,7 +26550,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 95
 #: 
 msgid "An optional custom reason text for the HTTP status code. If empty the default reason for the specified code will be used."
-msgstr ""
+msgstr "Ein optionaler benutzerdefinierter Grundtext für den HTTP-Statuscode. Wenn leer, wird der Standardgrund für den angegebenen Code verwendet."
 
 #. File: /usr/lang/src/controllers.php, line: 96
 #: 
@@ -26610,7 +26612,7 @@ msgstr "Nur Authentifizierung"
 #. File: /usr/lang/src/controllers.php, line: 105
 #: 
 msgid "Auth Realm"
-msgstr ""
+msgstr "Authentifizierungsbereich"
 
 #. File: /usr/lang/src/controllers.php, line: 106
 #: 
@@ -26736,17 +26738,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 129
 #: 
 msgid "Backup Table"
-msgstr ""
+msgstr "Sicherungstabelle"
 
 #. File: /usr/lang/src/controllers.php, line: 130
 #: 
 msgid "Backup Table Check"
-msgstr ""
+msgstr "Sicherungstabellenprüfung"
 
 #. File: /usr/lang/src/controllers.php, line: 131
 #: 
 msgid "Backup Table Scheduler"
-msgstr ""
+msgstr "Sicherungstabellenplaner"
 
 #. File: /usr/lang/src/controllers.php, line: 132
 #: 
@@ -26761,7 +26763,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 134
 #: 
 msgid "Bandwith Rate"
-msgstr ""
+msgstr "Bandbreitenrate"
 
 #. File: /usr/lang/src/controllers.php, line: 135
 #: 
@@ -26777,17 +26779,17 @@ msgstr "Basis DN"
 #. File: /usr/lang/src/controllers.php, line: 137
 #: 
 msgid "Bayes Learning"
-msgstr ""
+msgstr "Bayesiches Lernen"
 
 #. File: /usr/lang/src/controllers.php, line: 138
 #: 
 msgid "Begin of the port range or the port used by this ACL."
-msgstr ""
+msgstr "Beginn des Portbereichs oder des von dieser ACL verwendeten Ports."
 
 #. File: /usr/lang/src/controllers.php, line: 139
 #: 
 msgid "Beginning of the port range RTP may use."
-msgstr ""
+msgstr "Beginn des Portbereichs, den RTP verwenden kann."
 
 #. File: /usr/core/src/www/system_authservers.php, line: 145
 #. File: /usr/lang/src/controllers.php, line: 140
@@ -26798,7 +26800,7 @@ msgstr "Bind Passwort"
 #. File: /usr/lang/src/controllers.php, line: 141
 #: 
 msgid "Bind User"
-msgstr ""
+msgstr "Bindungsnutzer"
 
 #. File: /usr/lang/src/controllers.php, line: 142
 #: 
@@ -26813,12 +26815,12 @@ msgstr "Bindungsoptionen"
 #. File: /usr/lang/src/controllers.php, line: 144
 #: 
 msgid "Black or White list"
-msgstr ""
+msgstr "Schwarze- oder weiße Liste"
 
 #. File: /usr/lang/src/controllers.php, line: 145
 #: 
 msgid "Black/White"
-msgstr ""
+msgstr "Schwarz/Weiß"
 
 #. File: /usr/lang/src/controllers.php, line: 146
 #: 
@@ -26920,7 +26922,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 165
 #: 
 msgid "CA Common-Name"
-msgstr ""
+msgstr "CA Allgemeiner Name"
 
 #. File: /usr/lang/src/controllers.php, line: 166
 #: 
@@ -27035,12 +27037,12 @@ msgstr "Überprüfungsgültigkeitsdauer"
 #. File: /usr/lang/src/controllers.php, line: 185
 #: 
 msgid "Check if the username should be sent to the ICAP server."
-msgstr ""
+msgstr "Wählen Sie aus, ob der Benutzername an den ICAP-Server gesendet werden soll."
 
 #. File: /usr/lang/src/controllers.php, line: 186
 #: 
 msgid "Check if you want to encode the username using base64."
-msgstr ""
+msgstr "Wählen Sie aus, ob der Benutzername Base64 kodiert gesendet werden soll."
 
 #. File: /usr/lang/src/controllers.php, line: 187
 #: 
@@ -27050,7 +27052,7 @@ msgstr "Überprüfungsintervall"
 #. File: /usr/lang/src/controllers.php, line: 188
 #: 
 msgid "Check this to enable authentication against your Smarthost."
-msgstr ""
+msgstr "Wählen Sie dies aus, um sich gegenüber dem Smarthost zu authentifzieren."
 
 #. File: /usr/lang/src/controllers.php, line: 189
 #: 
@@ -27095,12 +27097,12 @@ msgstr "Wählen Sie einen logischen Operator."
 #. File: /usr/lang/src/controllers.php, line: 197
 #: 
 msgid "Choose a persistence type."
-msgstr ""
+msgstr "Wählen Sie einen Persistenztyp aus."
 
 #. File: /usr/lang/src/controllers.php, line: 198
 #: 
 msgid "Choose a secure value. It is recommended that you generate this password."
-msgstr ""
+msgstr "Wählen Sie einen sicheren Wert aus. Es wird empfohlen, dass Sie dieses Passwort generieren."
 
 #. File: /usr/lang/src/controllers.php, line: 199
 #: 
@@ -27120,7 +27122,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 202
 #: 
 msgid "Choose error messages."
-msgstr ""
+msgstr "Wähle Fehlernachrichten."
 
 #. File: /usr/lang/src/controllers.php, line: 203
 #: 
@@ -27185,7 +27187,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 215
 #: 
 msgid "Choose the interface on which the port should be opened."
-msgstr ""
+msgstr "Wählen Sie die Schnittstelle, auf der der Port geöffnet werden soll."
 
 #. File: /usr/lang/src/controllers.php, line: 216
 #: 
@@ -27215,7 +27217,7 @@ msgstr "Chiffre"
 #. File: /usr/lang/src/controllers.php, line: 221
 #: 
 msgid "Cipher List"
-msgstr ""
+msgstr "Verschlsselungsalgorithmenliste"
 
 #. File: /usr/lang/src/controllers.php, line: 222
 #: 
@@ -27266,7 +27268,7 @@ msgstr "Cloudflare"
 #. File: /usr/lang/src/controllers.php, line: 231
 #: 
 msgid "Collect CPU Time"
-msgstr ""
+msgstr "Sammle CPU-Zeit"
 
 #. File: /usr/lang/src/controllers.php, line: 232
 #: 
@@ -27309,7 +27311,7 @@ msgstr "Common Name"
 #. File: /usr/lang/src/controllers.php, line: 238
 #: 
 msgid "Common Name (CN) for this certificate."
-msgstr ""
+msgstr "Algemeiner Name (CN) für dieses Zertifikat"
 
 #. File: /usr/lang/src/controllers.php, line: 239
 #: 
@@ -27500,7 +27502,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 273
 #: 
 msgid "DNS IP resolution for hostname."
-msgstr ""
+msgstr "DNS IP-Auflösung für den Hostnamen."
 
 #. File: /usr/core/src/www/system_general.php, line: 351
 #. File: /usr/lang/src/controllers.php, line: 274
@@ -27542,7 +27544,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 281
 #: 
 msgid "DSCP value to set for SIP packets."
-msgstr ""
+msgstr "DSCP-Wert, der in SIP-Paketen gesetzt wird."
 
 #. File: /usr/lang/src/controllers.php, line: 282
 #: 
@@ -27627,7 +27629,7 @@ msgstr "Dekodiere Maildateien"
 #. File: /usr/lang/src/controllers.php, line: 297
 #: 
 msgid "Default Backend Pool"
-msgstr ""
+msgstr "Standard-Backend-Pool"
 
 #. File: /usr/lang/src/controllers.php, line: 298
 #: 
@@ -28018,12 +28020,12 @@ msgstr "Festplatten IO"
 #. File: /usr/lang/src/controllers.php, line: 342
 #: 
 msgid "Disk Ignore FS"
-msgstr ""
+msgstr "Festplatte Ingoriere FS"
 
 #. File: /usr/lang/src/controllers.php, line: 343
 #: 
 msgid "Disk Mount Points"
-msgstr ""
+msgstr "Festplatteneinhängepunkte"
 
 #. File: /usr/lang/src/controllers.php, line: 344
 #: 
@@ -28422,17 +28424,17 @@ msgstr "Aktiviere STUN-Erweiterung"
 #. File: /usr/lang/src/controllers.php, line: 415
 #: 
 msgid "Enable ShadowSocks Local"
-msgstr ""
+msgstr " ShadowSocks lokal aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 416
 #: 
 msgid "Enable ShadowSocks Server"
-msgstr ""
+msgstr "ShadowSocks Server aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 417
 #: 
 msgid "Enable Single Sign-On"
-msgstr ""
+msgstr "Aktiviere Single Sign-On"
 
 #. File: /usr/lang/src/controllers.php, line: 418
 #: 
@@ -28447,17 +28449,17 @@ msgstr "Aktiviere Systemprotokoll"
 #. File: /usr/lang/src/controllers.php, line: 420
 #: 
 msgid "Enable Syslog logging."
-msgstr ""
+msgstr "Aktiviere Systemprotokollprotokollierung."
 
 #. File: /usr/lang/src/controllers.php, line: 421
 #: 
 msgid "Enable TCP port"
-msgstr ""
+msgstr "TCP-Port aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 422
 #: 
 msgid "Enable Telegraf Agent"
-msgstr ""
+msgstr "Telegrafagent aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 423
 #: 
@@ -28467,7 +28469,7 @@ msgstr "Transparenten HTTP-Proxy aktivieren"
 #. File: /usr/lang/src/controllers.php, line: 424
 #: 
 msgid "Enable Transparent Proxy"
-msgstr ""
+msgstr "Transparenten Proxy aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 425
 #: 
@@ -28477,12 +28479,12 @@ msgstr "Transparenten Modus aktivieren"
 #. File: /usr/lang/src/controllers.php, line: 426
 #: 
 msgid "Enable VLAN assignment"
-msgstr ""
+msgstr "VLAN-Zuweisung aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 427
 #: 
 msgid "Enable WISPr attributes"
-msgstr ""
+msgstr "WISPr-Attribute aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 428
 #: 
@@ -28547,7 +28549,7 @@ msgstr "Aktiviere clamd-Dienst"
 #. File: /usr/lang/src/controllers.php, line: 440
 #: 
 msgid "Enable contextswitch plugin"
-msgstr ""
+msgstr "Kontextwechselplugin aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 441
 #: 
@@ -28557,12 +28559,12 @@ msgstr "Aktiviere CPU-Plugin"
 #. File: /usr/lang/src/controllers.php, line: 442
 #: 
 msgid "Enable defaulttarget logging"
-msgstr ""
+msgstr "Standardzielprotokollierung aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 443
 #: 
 msgid "Enable defaulttarget plugin"
-msgstr ""
+msgstr "Standardzielplugin aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 444
 #: 
@@ -28572,7 +28574,7 @@ msgstr "Aktiviere df-Plugin"
 #. File: /usr/lang/src/controllers.php, line: 445
 #: 
 msgid "Enable encryption for authentication against network collector (optional)."
-msgstr ""
+msgstr "Aktiviere Verschlüsselung zur Authentifizierung gegen den Netzwerk-Collector (optional)."
 
 #. File: /usr/lang/src/controllers.php, line: 446
 #: 
@@ -28582,7 +28584,7 @@ msgstr "Aktiviere Verschlüsselung."
 #. File: /usr/lang/src/controllers.php, line: 447
 #: 
 msgid "Enable fbox_anoncall_networks plugin"
-msgstr ""
+msgstr "Aktiviere das fbox_anoncall_networks-Plugin"
 
 #. File: /usr/lang/src/controllers.php, line: 448
 #: 
@@ -28612,7 +28614,7 @@ msgstr "Aktiviere Graphite-Plugin"
 #. File: /usr/lang/src/controllers.php, line: 453
 #: 
 msgid "Enable if all present and future subdomains will be HTTPS."
-msgstr ""
+msgstr "Aktivieren wenn alle vorhanden sind und zukünftige Unterdomains HTTPS sein werden."
 
 #. File: /usr/lang/src/controllers.php, line: 454
 #: 
@@ -28662,7 +28664,7 @@ msgstr "Aktiviere die Protokollierung von ausgeführten Shell-Kommandos als Warn
 #. File: /usr/lang/src/controllers.php, line: 463
 #: 
 msgid "Enable memory plugin"
-msgstr ""
+msgstr "Aktiviere memory-Plugin"
 
 #. File: /usr/lang/src/controllers.php, line: 464
 #: 
@@ -28672,7 +28674,7 @@ msgstr "Aktiviere Monit"
 #. File: /usr/lang/src/controllers.php, line: 465
 #: 
 msgid "Enable network plugin"
-msgstr ""
+msgstr "Netzwerkerweiterung aktivieren"
 
 #. File: /usr/lang/src/controllers.php, line: 466
 #: 
@@ -28682,7 +28684,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 467
 #: 
 msgid "Enable or disable Relayd."
-msgstr ""
+msgstr "Aktivieren oder Deaktivieren von Relayd."
 
 #. File: /usr/lang/src/controllers.php, line: 468
 #: 
@@ -28742,22 +28744,22 @@ msgstr "Den HAProxy-Dienst aktivieren oder deaktivieren."
 #. File: /usr/lang/src/controllers.php, line: 479
 #: 
 msgid "Enable or disable the Redis service."
-msgstr ""
+msgstr "Aktiviere oder deaktiviere den Redis-Dienst."
 
 #. File: /usr/lang/src/controllers.php, line: 480
 #: 
 msgid "Enable or disable the STUN plugin."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren des STUN-Plugin."
 
 #. File: /usr/lang/src/controllers.php, line: 481
 #: 
 msgid "Enable or disable the caching of Windows updates. This makes sense if you don't have a WSUS server. If you can setup a WSUS server, this solution should be preferred."
-msgstr ""
+msgstr "Aktiviere oder deaktiviere das Zwischenspeichern von Windows-Updates. Das macht dann Sinn, wenn Sie keinen WSUS-Server haben. Falls Sie einen WSUS-Server aufsetzten können, sollten Sie diese Option bevorzugen."
 
 #. File: /usr/lang/src/controllers.php, line: 482
 #: 
 msgid "Enable or disable the caching of packages for linux distributions. This makes sense if you have multiple servers in your network and do not host your own package mirror. This will reduce internet traffic usage but increase disk access."
-msgstr ""
+msgstr "Aktiviere oder deaktiviere das Zwischenspeichern von Paketen von Linux-Distributionen. Das mach dann Sinn, wenn Sie mehrere Server in Ihrem Netzwerk haben und keinen eigenen Paketspiegel hosten. Dies reduziert zwar den Internetdatenverkehr, erhöht aber die Festplattennutzung."
 
 #. File: /usr/lang/src/controllers.php, line: 483
 #: 
@@ -28767,7 +28769,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 484
 #: 
 msgid "Enable or disable the fix_DTAG_networks plugin."
-msgstr ""
+msgstr "Aktiviere oder Deaktiviere die fix_DTAG_networks Erweiterung"
 
 #. File: /usr/lang/src/controllers.php, line: 485
 #: 
@@ -28797,7 +28799,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 490
 #: 
 msgid "Enable or disable the squid SNMP Agent."
-msgstr ""
+msgstr "Aktiviere oder Deaktiviere den Squid SNMP-Agenten."
 
 #. File: /usr/lang/src/controllers.php, line: 491
 #: 
@@ -28817,12 +28819,12 @@ msgstr "Aktiviere oder deaktiviere ausführliche Protokollierung. Jede Protokoll
 #. File: /usr/lang/src/controllers.php, line: 494
 #: 
 msgid "Enable peers"
-msgstr ""
+msgstr "Aktiviere Peers"
 
 #. File: /usr/lang/src/controllers.php, line: 495
 #: 
 msgid "Enable processes plugin"
-msgstr ""
+msgstr "Aktiviere das processes-Plugin"
 
 #. File: /usr/lang/src/controllers.php, line: 496
 #: 
@@ -28862,7 +28864,7 @@ msgstr "Aktiviere den siproxd-Dienst"
 #. File: /usr/lang/src/controllers.php, line: 503
 #: 
 msgid "Enable sticky counters"
-msgstr ""
+msgstr "Aktiviere klebrige Zähler"
 
 #. File: /usr/lang/src/controllers.php, line: 504
 #: 
@@ -28877,7 +28879,7 @@ msgstr "Protokollierung von Speichervorgängen aktivieren."
 #. File: /usr/lang/src/controllers.php, line: 506
 #: 
 msgid "Enable the CPU collector."
-msgstr ""
+msgstr "Aktiviere den CPU-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 507
 #: 
@@ -28887,67 +28889,67 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 508
 #: 
 msgid "Enable the EXEC collector."
-msgstr ""
+msgstr "Aktiviere den EXEC-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 509
 #: 
 msgid "Enable the FILESYSTEM collector."
-msgstr ""
+msgstr "Aktiviere den DATEISYSTEM-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 510
 #: 
 msgid "Enable the INTERRUPTS collector."
-msgstr ""
+msgstr "Aktiviere den UNTERBRECHUNGS-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 511
 #: 
 msgid "Enable the LOADAVG collector."
-msgstr ""
+msgstr "Aktiviere den AUSLASTUNGS-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 512
 #: 
 msgid "Enable the MEMINFO collector."
-msgstr ""
+msgstr "Aktiviere den SPEICHERINFORMATIONS-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 513
 #: 
 msgid "Enable the NETDEV collector."
-msgstr ""
+msgstr "Aktiviere den NETDEV-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 514
 #: 
 msgid "Enable the NTP collector."
-msgstr ""
+msgstr "Aktiviere den NTP-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 515
 #: 
 msgid "Enable the Netclient driver."
-msgstr ""
+msgstr "Aktiviere den Netclient-Treiber"
 
 #. File: /usr/lang/src/controllers.php, line: 516
 #: 
 msgid "Enable the TIME collector."
-msgstr ""
+msgstr "Aktiviere den ZEIT-Datensammler"
 
 #. File: /usr/lang/src/controllers.php, line: 517
 #: 
 msgid "Enable the USBHID driver."
-msgstr ""
+msgstr "Aktiviere den UDBHID-Treiber"
 
 #. File: /usr/lang/src/controllers.php, line: 518
 #: 
 msgid "Enable the logging of authentication requests, including MAC addresses."
-msgstr ""
+msgstr "Aktiviere die Protokollierung von Authentifizierungsanfragen, inklusive MAC-Adressen."
 
 #. File: /usr/lang/src/controllers.php, line: 519
 #: 
 msgid "Enable the repeater."
-msgstr ""
+msgstr "Den Repeater aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 520
 #: 
 msgid "Enable this Backend Pool"
-msgstr ""
+msgstr "Aktiviere diesen Backend-Pool"
 
 #. File: /usr/lang/src/controllers.php, line: 521
 #: 
@@ -28962,7 +28964,7 @@ msgstr "Aktiviere diesen Onion-Dienst."
 #. File: /usr/lang/src/controllers.php, line: 523
 #: 
 msgid "Enable this Public Service."
-msgstr ""
+msgstr "Aktiviere diesen öffentlichen Dienst."
 
 #. File: /usr/lang/src/controllers.php, line: 524
 #: 
@@ -28997,7 +28999,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 530
 #: 
 msgid "Enable this if you want to enable the spam trap."
-msgstr ""
+msgstr "Aktivieren Sie dies, falls Sie die Spam-Falle aktivieren wollen."
 
 #. File: /usr/lang/src/controllers.php, line: 531
 #: 
@@ -29052,7 +29054,7 @@ msgstr "Aktiviere den transparenten FTP-Proxy-Modus um jeglichen Datenverkehr f�
 #. File: /usr/lang/src/controllers.php, line: 541
 #: 
 msgid "Enable uptime plugin"
-msgstr ""
+msgstr "Aktiviere Uptime-Erweiterung"
 
 #. File: /usr/lang/src/controllers.php, line: 542
 #: 
@@ -29062,7 +29064,7 @@ msgstr "Aktiviere Benutzererweiterung"
 #. File: /usr/lang/src/controllers.php, line: 543
 #: 
 msgid "Enable verbose logging."
-msgstr ""
+msgstr "Aktiviere ausführliche Protokollierung"
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 84
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 84
@@ -29145,7 +29147,7 @@ msgstr "Endport"
 #. File: /usr/lang/src/controllers.php, line: 548
 #: 
 msgid "Ending of the port range RTP may use."
-msgstr ""
+msgstr "Ende des Portbereichs, den RTP verwenden kann."
 
 #. File: /usr/lang/src/controllers.php, line: 549
 #: 
@@ -29162,12 +29164,12 @@ msgstr "Lokale Gruppe erzwingen"
 #. File: /usr/lang/src/controllers.php, line: 551
 #: 
 msgid "Enter FQDN here. Finish with TAB."
-msgstr ""
+msgstr "Geben Sie den FQDN hier ein. Bestätigen Sie mit TAB."
 
 #. File: /usr/lang/src/controllers.php, line: 552
 #: 
 msgid "Enter IP addresses here. Finish each with TAB."
-msgstr ""
+msgstr "Geben Sie hier IP-Adressen ein. Bestätigen Sie mit TAB."
 
 #. File: /usr/lang/src/controllers.php, line: 553
 #: 
@@ -29183,7 +29185,7 @@ msgstr "Geben Sie eine MAC-Adresse im Format xx:xx:xx:xx:xx:xx ein."
 #. File: /usr/lang/src/controllers.php, line: 555
 #: 
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx."
-msgstr ""
+msgstr "Geben Sie eine MAC-Adresse in folgendem Format ein: xx:xx:xx:xx:xx:xx."
 
 #. File: /usr/lang/src/controllers.php, line: 556
 #: 
@@ -29198,7 +29200,7 @@ msgstr "Geben Sie eine Beschreibung ein, die erklärt, wozu der Job gedacht ist.
 #. File: /usr/lang/src/controllers.php, line: 558
 #: 
 msgid "Enter a directory name for the Onion service. It may consist of lowercase and uppercase characters."
-msgstr ""
+msgstr "Geben Sie einen Verzeichnisnamen für den Onion-Dienst ein. Er kann aus Klein- und Großbuchstaben bestehen."
 
 #. File: /usr/lang/src/controllers.php, line: 559
 #: 
@@ -29208,7 +29210,7 @@ msgstr "Geben Sie einen Dateinamen an, der zum Speichern der Blacklist verwendet
 #. File: /usr/lang/src/controllers.php, line: 560
 #: 
 msgid "Enter a name of user/group. Group name is case sensitive."
-msgstr ""
+msgstr "Geben Sie einen Namen für den Benutzer/Gruppe ein. Beim Gruppennamen wird zwischen Groß- und Kleinschreibung unterschieden."
 
 #. File: /usr/lang/src/controllers.php, line: 561
 #: 
@@ -29228,17 +29230,17 @@ msgstr "Geben Sie eine Zahl gefolgt von einem unterstützten Suffix (\"k\", \"m\
 #. File: /usr/lang/src/controllers.php, line: 564
 #: 
 msgid "Enter a valid TCP port."
-msgstr ""
+msgstr "Geben Sie einen gültigen TCP-Port ein."
 
 #. File: /usr/lang/src/controllers.php, line: 565
 #: 
 msgid "Enter address:port here. Finish with TAB."
-msgstr ""
+msgstr "Geben Sie hier die Adresse:port ein. Mit TAB abschließen."
 
 #. File: /usr/lang/src/controllers.php, line: 566
 #: 
 msgid "Enter an end port if you want to use a port range."
-msgstr ""
+msgstr "Geben Sie einen End-Port ein, wenn Sie einen Port-Bereich verwenden möchten."
 
 #. File: /usr/lang/src/controllers.php, line: 567
 #: 
@@ -29248,12 +29250,12 @@ msgstr "Geben Sie eine URL ein, von der die Blacklist abgerufen werden soll."
 #. File: /usr/lang/src/controllers.php, line: 568
 #: 
 msgid "Enter either the IP address or FQDN of your Infoblox appliance."
-msgstr ""
+msgstr "Geben Sie entweder die IP-Adresse oder den FQDN Ihrer Infoblox-Appliance ein."
 
 #. File: /usr/lang/src/controllers.php, line: 569
 #: 
 msgid "Enter how long SPF entries are valid in days, default is 1 day."
-msgstr ""
+msgstr "Geben Sie an, für wie viele Tagen SPF-Einträge gültig sind; Standard ist ein Tag."
 
 #. File: /usr/lang/src/controllers.php, line: 570
 #: 
@@ -29268,7 +29270,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 572
 #: 
 msgid "Enter server address."
-msgstr ""
+msgstr "Geben Sie die Serveradresse ein."
 
 #. File: /usr/lang/src/controllers.php, line: 573
 #: 
@@ -29303,7 +29305,7 @@ msgstr "Geben Sie die Wochentage ein in Form einer kommagetrennten Liste, * (jed
 #. File: /usr/lang/src/controllers.php, line: 579
 #: 
 msgid "Enter the default ttl."
-msgstr ""
+msgstr "Geben Sie die Standard-TTL ein."
 
 #. File: /usr/lang/src/controllers.php, line: 580
 #: 
@@ -29343,7 +29345,7 @@ msgstr "Geben Sie die Monate ein in Form einer kommagetrennten Liste, * (jeden) 
 #. File: /usr/lang/src/controllers.php, line: 587
 #: 
 msgid "Enter the name of the header."
-msgstr ""
+msgstr "Geben Sie den Namen der Kopfzeile ein."
 
 #. File: /usr/lang/src/controllers.php, line: 588
 #: 
@@ -29476,7 +29478,7 @@ msgstr "Ausgang aktivieren"
 #. File: /usr/lang/src/controllers.php, line: 613
 #: 
 msgid "Expect Pattern"
-msgstr ""
+msgstr "Erwartetes Muster"
 
 #. File: /usr/lang/src/controllers.php, line: 614
 #: 
@@ -29536,7 +29538,7 @@ msgstr "FQ-CoDel-Quantum"
 #. File: /usr/lang/src/controllers.php, line: 625
 #: 
 msgid "FQDN lookup"
-msgstr ""
+msgstr "FQDN-Auflösung"
 
 #. File: /usr/lang/src/controllers.php, line: 626
 #: 
@@ -29561,12 +29563,12 @@ msgstr "FTP-Proxy-Port"
 #. File: /usr/lang/src/controllers.php, line: 630
 #: 
 msgid "Fascist Firewall Ports"
-msgstr ""
+msgstr "Faschistenfirewallports"
 
 #. File: /usr/lang/src/controllers.php, line: 631
 #: 
 msgid "Fascist Mode"
-msgstr ""
+msgstr "Faschistenmodus"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 716
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 235
@@ -29578,7 +29580,7 @@ msgstr "Dateiname"
 #. File: /usr/lang/src/controllers.php, line: 633
 #: 
 msgid "Files larger than this limit won't be scanned."
-msgstr ""
+msgstr "Dateien, die größer als diese Begrenzung sind, werden nicht geprüft."
 
 #. File: /usr/lang/src/controllers.php, line: 634
 #: 
@@ -29618,22 +29620,22 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 641
 #: 
 msgid "Follow directory symlinks"
-msgstr ""
+msgstr "Folge symbolischen Verzeichnisverknüpfungen"
 
 #. File: /usr/lang/src/controllers.php, line: 642
 #: 
 msgid "Follow regular file symlinks"
-msgstr ""
+msgstr "Folge symbolischen Links auf reguläre Dateien"
 
 #. File: /usr/lang/src/controllers.php, line: 643
 #: 
 msgid "For example recipients without a domain or only a hostname."
-msgstr ""
+msgstr "Zum Beispiel Empfänger ohne Domain oder nur ein Hostname."
 
 #. File: /usr/lang/src/controllers.php, line: 644
 #: 
 msgid "For example senders without a domain or only a hostname."
-msgstr ""
+msgstr "Zum Beispiel Absender ohne eine Domain oder nur ein Hostname."
 
 #. File: /usr/lang/src/controllers.php, line: 645
 #: 
@@ -29643,7 +29645,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 646
 #: 
 msgid "Force Reject"
-msgstr ""
+msgstr "Erzwinge Ablehnung"
 
 #. File: /usr/lang/src/controllers.php, line: 647
 #: 
@@ -29678,12 +29680,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 653
 #: 
 msgid "Freshclam database mirror"
-msgstr ""
+msgstr "Freshclam-Datenbank-Spiegel"
 
 #. File: /usr/lang/src/controllers.php, line: 654
 #: 
 msgid "Freshclam log verbose"
-msgstr ""
+msgstr "Ausführliche Freshclam-Protokollierung"
 
 #. File: /usr/lang/src/controllers.php, line: 655
 #: 
@@ -29693,7 +29695,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 656
 #: 
 msgid "Fuzzy Learning"
-msgstr ""
+msgstr "Fuzzy-Lernen"
 
 #. File: /usr/lang/src/controllers.php, line: 657
 #: 
@@ -29723,7 +29725,7 @@ msgstr "Gateway"
 #. File: /usr/lang/src/controllers.php, line: 659
 #: 
 msgid "General Anti Malware Settings"
-msgstr ""
+msgstr "Allgemeine Anti-Malware-Einstellungen"
 
 #. File: /usr/lang/src/controllers.php, line: 660
 #: 
@@ -29771,12 +29773,12 @@ msgstr "GeoIP/Richtung"
 #. File: /usr/lang/src/controllers.php, line: 668
 #: 
 msgid "Get the number of processes and group them by status."
-msgstr ""
+msgstr "Ermitteln Sie die Anzahl der Prozesse und gruppieren Sie sie nach Status."
 
 #. File: /usr/lang/src/controllers.php, line: 669
 #: 
 msgid "Give a URL where to retrieve the Phishtank feed."
-msgstr ""
+msgstr "Geben Sie eine URL an, von wo sie den Phishtank-Feed beziehen möchten."
 
 #. File: /usr/lang/src/controllers.php, line: 670
 #: 
@@ -29791,12 +29793,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 672
 #: 
 msgid "Global Check Interval"
-msgstr ""
+msgstr "Globales Prüfintervall"
 
 #. File: /usr/lang/src/controllers.php, line: 673
 #: 
 msgid "Global Check Timeout"
-msgstr ""
+msgstr "Globale Prüfzeitüberschreitung"
 
 #. File: /usr/lang/src/controllers.php, line: 674
 #. File: /usr/lang/src/models.php, line: 228
@@ -29827,37 +29829,37 @@ msgstr "Erlaube den Zugriff zur HAProxy-Statistikseite. Bitte stellen Sie sowohl
 #. File: /usr/lang/src/controllers.php, line: 679
 #: 
 msgid "Graphite Postfix"
-msgstr ""
+msgstr "Graphite-Postfix"
 
 #. File: /usr/lang/src/controllers.php, line: 680
 #: 
 msgid "Graphite Prefix"
-msgstr ""
+msgstr "Graphite-Präfix"
 
 #. File: /usr/lang/src/controllers.php, line: 681
 #: 
 msgid "Graphite Server"
-msgstr ""
+msgstr "Graphite Server"
 
 #. File: /usr/lang/src/controllers.php, line: 682
 #: 
 msgid "Graphite Template"
-msgstr ""
+msgstr "Graphite Vorlage"
 
 #. File: /usr/lang/src/controllers.php, line: 683
 #: 
 msgid "Graphite collector host"
-msgstr ""
+msgstr "Graphite-Sammelhost"
 
 #. File: /usr/lang/src/controllers.php, line: 684
 #: 
 msgid "Graphite collector node name"
-msgstr ""
+msgstr "Graphite-Sammelknotenname"
 
 #. File: /usr/lang/src/controllers.php, line: 685
 #: 
 msgid "Graphite collector port"
-msgstr ""
+msgstr "Graphite-Sammlerport"
 
 #. File: /usr/lang/src/controllers.php, line: 686
 #: 
@@ -29872,7 +29874,7 @@ msgstr "Graylog-Server"
 #. File: /usr/lang/src/controllers.php, line: 688
 #: 
 msgid "Group Filter"
-msgstr ""
+msgstr "Gruppenfilter"
 
 #. File: /usr/lang/src/controllers.php, line: 689
 #: 
@@ -29882,12 +29884,12 @@ msgstr "Gruppen-ID"
 #. File: /usr/lang/src/controllers.php, line: 690
 #: 
 msgid "Group or User ACL"
-msgstr ""
+msgstr "Gruppen- oder Benutzer-ACL"
 
 #. File: /usr/lang/src/controllers.php, line: 691
 #: 
 msgid "Group/User"
-msgstr ""
+msgstr "Gruppe/Benutzer"
 
 #. File: /usr/lang/src/controllers.php, line: 692
 #. File: /usr/lang/src/models.php, line: 233
@@ -29908,7 +29910,7 @@ msgstr "HAProxy-Integration"
 #. File: /usr/lang/src/controllers.php, line: 695
 #: 
 msgid "HAProxy function"
-msgstr ""
+msgstr "HAProxy-Funktion"
 
 #. File: /usr/lang/src/controllers.php, line: 696
 #: 
@@ -29918,7 +29920,7 @@ msgstr "HAProxy-Prozesse"
 #. File: /usr/lang/src/controllers.php, line: 697
 #: 
 msgid "HAProxy will use this backend pool if the condition evaluates to true."
-msgstr ""
+msgstr "HAProxy wird diesen Backend-Pool verwenden, wenn die Bedinung auf wahr ausgewertet wird."
 
 #. File: /usr/lang/src/controllers.php, line: 698
 #: 
@@ -29928,17 +29930,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 699
 #: 
 msgid "HSTS includeSubDomains"
-msgstr ""
+msgstr "HSTS Inklusive Subdomains"
 
 #. File: /usr/lang/src/controllers.php, line: 700
 #: 
 msgid "HSTS max-age"
-msgstr ""
+msgstr "HSTS Maximales Alter"
 
 #. File: /usr/lang/src/controllers.php, line: 701
 #: 
 msgid "HSTS preload"
-msgstr ""
+msgstr "HSTS Vorladen"
 
 #. File: /usr/lang/src/controllers.php, line: 702
 #: 
@@ -29953,7 +29955,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 704
 #: 
 msgid "HTTP Reason Text"
-msgstr ""
+msgstr "HTTP-Begründungstext"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 464
 #. File: /usr/lang/src/controllers.php, line: 705
@@ -29964,7 +29966,7 @@ msgstr "HTTP-Umleitung"
 #. File: /usr/lang/src/controllers.php, line: 706
 #: 
 msgid "HTTP Request Timeout"
-msgstr ""
+msgstr "HTTP-Anfrage-Timeout"
 
 #. File: /usr/lang/src/controllers.php, line: 707
 #: 
@@ -29974,7 +29976,7 @@ msgstr "HTTP-Dienst"
 #. File: /usr/lang/src/controllers.php, line: 708
 #: 
 msgid "HTTP Status Code"
-msgstr ""
+msgstr "HTTP-Statuscode"
 
 #. File: /usr/lang/src/controllers.php, line: 709
 #: 
@@ -29985,13 +29987,13 @@ msgstr "HTTP-Prüfoptionen"
 #. File: /usr/lang/src/models.php, line: 240
 #: 
 msgid "HTTP error count"
-msgstr ""
+msgstr "Anzahl der HTTP-Fehler"
 
 #. File: /usr/lang/src/controllers.php, line: 711
 #. File: /usr/lang/src/models.php, line: 241
 #: 
 msgid "HTTP error rate"
-msgstr ""
+msgstr "HTTP-Fehlerrate"
 
 #. File: /usr/lang/src/controllers.php, line: 712
 #: 
@@ -30088,7 +30090,7 @@ msgstr "HTTP-Version"
 #. File: /usr/lang/src/controllers.php, line: 730
 #: 
 msgid "HTTP(S) settings"
-msgstr ""
+msgstr "HTTP(S)-Einstellungen"
 
 #. File: /usr/lang/src/controllers.php, line: 731
 #. File: /usr/lang/src/models.php, line: 244
@@ -30104,7 +30106,7 @@ msgstr "Harte Gültigkeitsdauer (Minuten)"
 #. File: /usr/lang/src/controllers.php, line: 733
 #: 
 msgid "Header Content"
-msgstr ""
+msgstr "Kopfzeileninhalt"
 
 #. File: /usr/lang/src/controllers.php, line: 734
 #: 
@@ -30129,12 +30131,12 @@ msgstr "Hello-Intervall"
 #. File: /usr/lang/src/controllers.php, line: 738
 #: 
 msgid "Here you can set the FQDN of your STUN server."
-msgstr ""
+msgstr "Sie können hier den FQDN des STUN-Servers eingeben."
 
 #. File: /usr/lang/src/controllers.php, line: 739
 #: 
 msgid "Here you can set the port of your STUN server."
-msgstr ""
+msgstr "Sie können hier den Port des STUN-Servers eingeben."
 
 #. File: /usr/lang/src/controllers.php, line: 740
 #: 
@@ -30159,7 +30161,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 744
 #: 
 msgid "Home networks"
-msgstr ""
+msgstr "Heimnetzwerke"
 
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 205
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 137
@@ -30184,7 +30186,7 @@ msgstr "Host"
 #. File: /usr/lang/src/controllers.php, line: 746
 #: 
 msgid "Host Contains"
-msgstr ""
+msgstr "Host enthält"
 
 #. File: /usr/core/src/www/status_graph.php, line: 361
 #. File: /usr/core/src/www/system_authservers.php, line: 771
@@ -30196,27 +30198,27 @@ msgstr "Hostname"
 #. File: /usr/lang/src/controllers.php, line: 748
 #: 
 msgid "Host Prefix"
-msgstr ""
+msgstr "Hostpräfix"
 
 #. File: /usr/lang/src/controllers.php, line: 749
 #: 
 msgid "Host Regex"
-msgstr ""
+msgstr "Host regulärer Ausdruck"
 
 #. File: /usr/lang/src/controllers.php, line: 750
 #: 
 msgid "Host String"
-msgstr ""
+msgstr "Hostzeichenkette"
 
 #. File: /usr/lang/src/controllers.php, line: 751
 #: 
 msgid "Host Suffix"
-msgstr ""
+msgstr "Hostsuffix"
 
 #. File: /usr/lang/src/controllers.php, line: 752
 #: 
 msgid "Host outbound"
-msgstr ""
+msgstr "Ausgehender Host"
 
 #. File: /usr/lang/src/controllers.php, line: 753
 #: 
@@ -30276,7 +30278,7 @@ msgstr "Hosts"
 #. File: /usr/lang/src/controllers.php, line: 759
 #: 
 msgid "Hosts to allow SIP"
-msgstr ""
+msgstr "Hosts, denen SIP erlaubt ist"
 
 #. File: /usr/lang/src/controllers.php, line: 760
 #: 
@@ -30300,7 +30302,7 @@ msgstr "Wie oft die Liste an aktiven Überprüfungen in Sekunden aktualisiert wi
 #. File: /usr/lang/src/models.php, line: 264
 #: 
 msgid "Hurricane Electric"
-msgstr ""
+msgstr "Hurricane Electric"
 
 #. File: /usr/lang/src/controllers.php, line: 764
 #: 
@@ -30400,7 +30402,7 @@ msgstr "IP-Adresse"
 #. File: /usr/lang/src/controllers.php, line: 768
 #: 
 msgid "IP Address or Network with CIDR"
-msgstr ""
+msgstr "IP-Adresse oder Netzwerk mit CIDR"
 
 #. File: /usr/lang/src/controllers.php, line: 769
 #: 
@@ -30415,22 +30417,22 @@ msgstr "Automatiche IP-Erkennung"
 #. File: /usr/lang/src/controllers.php, line: 771
 #: 
 msgid "IP TTL"
-msgstr ""
+msgstr "IP-TTL"
 
 #. File: /usr/lang/src/controllers.php, line: 772
 #: 
 msgid "IP Version"
-msgstr ""
+msgstr "IP-Version"
 
 #. File: /usr/lang/src/controllers.php, line: 773
 #: 
 msgid "IP address or hostname of Zabbix server."
-msgstr ""
+msgstr "IP-Adresse oder Hostname des Zabbix-Servers."
 
 #. File: /usr/lang/src/controllers.php, line: 774
 #: 
 msgid "IP address or hostname of the remote ShadowSocks server."
-msgstr ""
+msgstr "IP-Adresse oder Hostname des fernen ShadowSocks-Servers."
 
 #. File: /usr/lang/src/controllers.php, line: 775
 #: 
@@ -30455,12 +30457,12 @@ msgstr "IPS-Konfiguration"
 #. File: /usr/lang/src/controllers.php, line: 779
 #: 
 msgid "IPv4 Mask"
-msgstr ""
+msgstr "IPv4-Maske"
 
 #. File: /usr/lang/src/controllers.php, line: 780
 #: 
 msgid "IPv6 Exit"
-msgstr ""
+msgstr "IPv6-Ausgang"
 
 #. File: /usr/lang/src/controllers.php, line: 781
 #: 
@@ -30470,12 +30472,12 @@ msgstr "IPv6-Host"
 #. File: /usr/lang/src/controllers.php, line: 782
 #: 
 msgid "IPv6 Mask"
-msgstr ""
+msgstr "IPv6-Maske"
 
 #. File: /usr/lang/src/controllers.php, line: 783
 #: 
 msgid "IPv6 Source"
-msgstr ""
+msgstr "IPv6-Quelle"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2226
 #. File: /usr/core/src/www/interfaces.php, line: 2310
@@ -30492,7 +30494,7 @@ msgstr "Leerlaufzeitlimit (Minuten)"
 #. File: /usr/lang/src/controllers.php, line: 786
 #: 
 msgid "If an attached file has a suffix in this list, the mail will be rejected via a hard reject, which means that the server will be immeadiately informed about the policy violation."
-msgstr ""
+msgstr "Falls eine angehängte Datei einen Suffix in dieser Liste enthält, wird die Mail mittels einer hard rejects zurückgewiesen. Dies Bedeutet, dass der Server sofort über die Richtlinienverletzung informiert wird."
 
 #. File: /usr/lang/src/controllers.php, line: 787
 #: 
@@ -30552,7 +30554,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 798
 #: 
 msgid "If this amount of memory is reached, Tor will close circuits until 10% of this limit are free again."
-msgstr ""
+msgstr "Falls diese Menge an Speicher erreicht wird, wird Tor Kreise schließen, bis  10% dieser Begrenzung wieder frei sind."
 
 #. File: /usr/lang/src/controllers.php, line: 799
 #: 
@@ -30567,7 +30569,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 801
 #: 
 msgid "If this checkbox is enabled, a header containing the findings of the scan is added."
-msgstr ""
+msgstr "Falls diese Checkbox aktiviert ist, wird eine Kopfzeile mit dem Scanergebnis hinzugefügt."
 
 #. File: /usr/lang/src/controllers.php, line: 802
 #: 
@@ -30577,7 +30579,7 @@ msgstr "Falls diese Option gewählt wird, können sich Benutzer auf mehreren Ger
 #. File: /usr/lang/src/controllers.php, line: 803
 #: 
 msgid "If true, collect raw CPU time metrics."
-msgstr ""
+msgstr "Falls Ja, werden rohe CPU-Zeitstatistiken gesammelt."
 
 #. File: /usr/lang/src/controllers.php, line: 804
 #: 
@@ -30632,12 +30634,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 814
 #: 
 msgid "Inbound interface"
-msgstr ""
+msgstr "Eingehende Schnittstelle"
 
 #. File: /usr/lang/src/controllers.php, line: 815
 #: 
 msgid "Incoming bytes rate"
-msgstr ""
+msgstr "Eingehende Byterate"
 
 #. File: /usr/lang/src/controllers.php, line: 816
 #: 
@@ -30647,7 +30649,7 @@ msgstr "Gibt an, wohin die Protokolle gesendet werden. Angabe in Form einer IPv4
 #. File: /usr/lang/src/controllers.php, line: 817
 #: 
 msgid "Influx URL"
-msgstr ""
+msgstr "Influx-URL"
 
 #. File: /usr/lang/src/controllers.php, line: 818
 #: 
@@ -30767,7 +30769,7 @@ msgstr "Interne Nummer, die für diese Zone verwendet wird"
 #. File: /usr/lang/src/controllers.php, line: 825
 #: 
 msgid "Interrupts Statistics"
-msgstr ""
+msgstr "Unterbrechungsstatistiken"
 
 #. File: /usr/lang/src/controllers.php, line: 826
 #: 
@@ -30792,7 +30794,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 830
 #: 
 msgid "Kerberos Account Name Of This Host In AD"
-msgstr ""
+msgstr "Kerberoskontoname dieses Hosts im AD"
 
 #. File: /usr/lang/src/controllers.php, line: 831
 #: 
@@ -30802,7 +30804,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 832
 #: 
 msgid "Kerberos configuration"
-msgstr ""
+msgstr "Kerberoskonfiguration"
 
 #. File: /usr/lang/src/controllers.php, line: 833
 #: 
@@ -30819,7 +30821,7 @@ msgstr "Schlüssel"
 #. File: /usr/lang/src/controllers.php, line: 835
 #: 
 msgid "Key Table creation"
-msgstr ""
+msgstr "Schlüsseltabellenerzeugung"
 
 #. File: /usr/lang/src/controllers.php, line: 836
 #: 
@@ -30834,7 +30836,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 838
 #: 
 msgid "LDAP Server"
-msgstr ""
+msgstr "LDAP-Server"
 
 #. File: /usr/lang/src/controllers.php, line: 839
 #: 
@@ -30844,7 +30846,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 840
 #: 
 msgid "LDAP Server configuration"
-msgstr ""
+msgstr "LDAP-Serverkonfiguration"
 
 #. File: /usr/lang/src/controllers.php, line: 841
 #: 
@@ -30854,12 +30856,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 842
 #: 
 msgid "LDAP server DNS reverse lookup"
-msgstr ""
+msgstr "LDAP-Server und DNS-Rückwärtsauflösung"
 
 #. File: /usr/lang/src/controllers.php, line: 843
 #: 
 msgid "LDAP server ping check."
-msgstr ""
+msgstr "LDAP Serverping-Prüfung"
 
 #. File: /usr/lang/src/controllers.php, line: 844
 #: 
@@ -30884,7 +30886,7 @@ msgstr "Let's Encrypt-Umgebung"
 #. File: /usr/lang/src/controllers.php, line: 848
 #: 
 msgid "Lifetime of Redis cache - 1 day by default."
-msgstr ""
+msgstr "Lebensdauer des Redis-Zwischenspeichers - Standardmäßig 1."
 
 #. File: /usr/lang/src/controllers.php, line: 849
 #: 
@@ -31058,7 +31060,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 881
 #: 
 msgid "Log Authentication Request"
-msgstr ""
+msgstr "Protokolliere Authentifzierungsanfrage"
 
 #. File: /usr/lang/src/controllers.php, line: 882
 #. File: /usr/lang/src/models.php, line: 321
@@ -31079,7 +31081,7 @@ msgstr "Host protokollieren"
 #. File: /usr/lang/src/controllers.php, line: 885
 #: 
 msgid "Log Level"
-msgstr ""
+msgstr "Protokollierungsstufe"
 
 #. File: /usr/lang/src/controllers.php, line: 886
 #: 
@@ -31119,12 +31121,12 @@ msgstr "Ziel protokollieren"
 #. File: /usr/lang/src/controllers.php, line: 893
 #: 
 msgid "Log to File or Syslog"
-msgstr ""
+msgstr "Protokolliere in Datei oder Systemprotokoll"
 
 #. File: /usr/lang/src/controllers.php, line: 894
 #: 
 msgid "Logfile level"
-msgstr ""
+msgstr "Protokolldateistufe"
 
 #. File: /usr/lang/src/controllers.php, line: 895
 #. File: /usr/lang/src/models.php, line: 324
@@ -31140,27 +31142,27 @@ msgstr "Optionen protokollieren"
 #. File: /usr/lang/src/controllers.php, line: 897
 #: 
 msgid "Logical operator for conditions"
-msgstr ""
+msgstr "Logischer Operator für Bedingungen"
 
 #. File: /usr/lang/src/controllers.php, line: 898
 #: 
 msgid "Logs password if it is correct."
-msgstr ""
+msgstr "Protokolliere Passwort falls es ungültig ist."
 
 #. File: /usr/lang/src/controllers.php, line: 899
 #: 
 msgid "Logs password if it is rejected."
-msgstr ""
+msgstr "Protokolliere abgewiesene Passwörter"
 
 #. File: /usr/lang/src/controllers.php, line: 900
 #: 
 msgid "Lua function"
-msgstr ""
+msgstr "Lua-Funktion"
 
 #. File: /usr/lang/src/controllers.php, line: 901
 #: 
 msgid "Lua service"
-msgstr ""
+msgstr "Lua-Dienst"
 
 #. File: /usr/lang/src/controllers.php, line: 902
 #: 
@@ -31216,7 +31218,7 @@ msgstr "Mailformat"
 #. File: /usr/lang/src/controllers.php, line: 911
 #: 
 msgid "Mails from IPs entered here will not be scanned."
-msgstr ""
+msgstr "Mails von diesen IPs werden nicht geprüft."
 
 #. File: /usr/lang/src/controllers.php, line: 912
 #: 
@@ -31271,7 +31273,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 922
 #: 
 msgid "Max Daily Session"
-msgstr ""
+msgstr "Maximale tägliche Sitzung"
 
 #. File: /usr/lang/src/controllers.php, line: 923
 #: 
@@ -31311,17 +31313,17 @@ msgstr "Maximale Rekursion"
 #. File: /usr/lang/src/controllers.php, line: 930
 #: 
 msgid "Max requests per child"
-msgstr ""
+msgstr "Maximale Anfragen pro Kind"
 
 #. File: /usr/lang/src/controllers.php, line: 931
 #: 
 msgid "Max scan size"
-msgstr ""
+msgstr "Maximale Scangröße"
 
 #. File: /usr/lang/src/controllers.php, line: 932
 #: 
 msgid "Max servers"
-msgstr ""
+msgstr "Maximale Server"
 
 #. File: /usr/lang/src/controllers.php, line: 933
 #: 
@@ -31341,7 +31343,7 @@ msgstr "Max. Verbindungen"
 #. File: /usr/lang/src/controllers.php, line: 936
 #: 
 msgid "Max. data length"
-msgstr ""
+msgstr "Max. Datenlänge"
 
 #. File: /usr/lang/src/controllers.php, line: 937
 #: 
@@ -31356,12 +31358,12 @@ msgstr "Maximale Zeilen pro Sekunde"
 #. File: /usr/lang/src/controllers.php, line: 939
 #: 
 msgid "Maximum Clients"
-msgstr ""
+msgstr "Maximale Clients"
 
 #. File: /usr/lang/src/controllers.php, line: 940
 #: 
 msgid "Maximum Data Length"
-msgstr ""
+msgstr "Maximale Datenlänge"
 
 #. File: /usr/lang/src/controllers.php, line: 941
 #: 
@@ -31376,12 +31378,12 @@ msgstr "Maximaler Speicher"
 #. File: /usr/lang/src/controllers.php, line: 943
 #: 
 msgid "Maximum Memory In Queues (MB)"
-msgstr ""
+msgstr "Maximaler Speicher in Warteschlangen (MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 944
 #: 
 msgid "Maximum Memory Policy"
-msgstr ""
+msgstr "Maximale Speicherrichtlinie"
 
 #. File: /usr/lang/src/controllers.php, line: 945
 #: 
@@ -31396,7 +31398,7 @@ msgstr "Maximaler RAM pro LUA-Prozess"
 #. File: /usr/lang/src/controllers.php, line: 947
 #: 
 msgid "Maximum Recipients"
-msgstr ""
+msgstr "Maximale Empfänger"
 
 #. File: /usr/lang/src/controllers.php, line: 948
 #: 
@@ -31446,7 +31448,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 957
 #: 
 msgid "Maximum number of threads running"
-msgstr ""
+msgstr "Maximale Anzahl an laufenden Threads"
 
 #. File: /usr/lang/src/controllers.php, line: 958
 #: 
@@ -31500,12 +31502,12 @@ msgstr "Nachricht"
 #. File: /usr/lang/src/controllers.php, line: 967
 #: 
 msgid "Message Digest"
-msgstr ""
+msgstr "Nachrichtenprüfsumme"
 
 #. File: /usr/lang/src/controllers.php, line: 968
 #: 
 msgid "Message Size Limit"
-msgstr ""
+msgstr "Nachrichtengrößenbegrenzung"
 
 #. File: /usr/lang/src/controllers.php, line: 969
 #: 
@@ -31579,7 +31581,7 @@ msgstr "Monate"
 #. File: /usr/lang/src/controllers.php, line: 980
 #: 
 msgid "Multimap Settings"
-msgstr ""
+msgstr "Multimap-Einstellungen"
 
 #. File: /usr/lang/src/controllers.php, line: 981
 #: 
@@ -31589,7 +31591,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 982
 #: 
 msgid "MySQL check"
-msgstr ""
+msgstr "MySQL-Überprüfung"
 
 #. File: /usr/lang/src/controllers.php, line: 983
 #: 
@@ -31694,7 +31696,7 @@ msgstr "Name, um dieses Lua-Skript zu identifizieren."
 #. File: /usr/lang/src/controllers.php, line: 993
 #: 
 msgid "Name to identify this Public Service."
-msgstr ""
+msgstr "Name, um diesen öffentlichen Dienst zu identifizieren."
 
 #. File: /usr/lang/src/controllers.php, line: 994
 #: 
@@ -31704,12 +31706,12 @@ msgstr "Name, um dieses Konto zu identifizieren."
 #. File: /usr/lang/src/controllers.php, line: 995
 #: 
 msgid "Name to identify this condition."
-msgstr ""
+msgstr "Name, um diese Bedingung zu identifizieren."
 
 #. File: /usr/lang/src/controllers.php, line: 996
 #: 
 msgid "Name to identify this error message."
-msgstr ""
+msgstr "Name, um diese Fehlermeldung zu identifizieren."
 
 #. File: /usr/lang/src/controllers.php, line: 997
 #: 
@@ -31719,7 +31721,7 @@ msgstr "Name, um diese Neustart-Aktion zu identifizieren."
 #. File: /usr/lang/src/controllers.php, line: 998
 #: 
 msgid "Name to identify this rule."
-msgstr ""
+msgstr "Name um diese Regel zu identifizieren."
 
 #. File: /usr/lang/src/controllers.php, line: 999
 #: 
@@ -31814,7 +31816,7 @@ msgstr "Netzwerk-ID"
 #. File: /usr/lang/src/controllers.php, line: 1010
 #: 
 msgid "Network Interface Statistics"
-msgstr ""
+msgstr "Netzwerkschnittstellenstatistiken"
 
 #. File: /usr/lang/src/controllers.php, line: 1011
 #: 
@@ -32051,7 +32053,7 @@ msgstr "OVH"
 #. File: /usr/lang/src/controllers.php, line: 1052
 #: 
 msgid "Omit Hostname"
-msgstr ""
+msgstr "Hostname überspringen"
 
 #. File: /usr/lang/src/controllers.php, line: 1053
 #: 
@@ -32068,12 +32070,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1055
 #: 
 msgid "Onion Service"
-msgstr ""
+msgstr "Onion-Dienst"
 
 #. File: /usr/lang/src/controllers.php, line: 1056
 #: 
 msgid "Only Scan Attachments"
-msgstr ""
+msgstr "Nur Anhänge prüfen"
 
 #. File: /usr/lang/src/controllers.php, line: 1057
 #: 
@@ -32088,22 +32090,22 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1059
 #: 
 msgid "Open ports by the fascist firewall."
-msgstr ""
+msgstr "Durch die Faschistenfirewall nutzbare Ports"
 
 #. File: /usr/lang/src/controllers.php, line: 1060
 #: 
 msgid "Openphish Map"
-msgstr ""
+msgstr "Openphish-Map"
 
 #. File: /usr/lang/src/controllers.php, line: 1061
 #: 
 msgid "Openphish Premium offers more services, please only activate if you have a current license."
-msgstr ""
+msgstr "Openphish Prämium stellt mehrere Dienste zur Verfügung. Bitte aktivieren Sie diese Option nur, wenn Sie eine aktuelle Lizenz haben."
 
 #. File: /usr/lang/src/controllers.php, line: 1062
 #: 
 msgid "Openphish is a service where phishing URLs get collected and asked by rspamd."
-msgstr ""
+msgstr "Openphish ist ein Dienst, bei dem Phishing-URLs gesammelt und von rspamd heruntergeladen."
 
 #. File: /usr/lang/src/controllers.php, line: 1063
 #: 
@@ -32189,7 +32191,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1079
 #: 
 msgid "Pass on error"
-msgstr ""
+msgstr "Im Fehlerfall fortfahren"
 
 #. File: /usr/lang/src/controllers.php, line: 1080
 #: 
@@ -32264,7 +32266,7 @@ msgstr "Pfad"
 #. File: /usr/lang/src/controllers.php, line: 1088
 #: 
 msgid "Path Contains"
-msgstr ""
+msgstr "Pfad Enthält"
 
 #. File: /usr/lang/src/controllers.php, line: 1089
 #: 
@@ -32274,17 +32276,17 @@ msgstr "Pfad entspricht"
 #. File: /usr/lang/src/controllers.php, line: 1090
 #: 
 msgid "Path Prefix"
-msgstr ""
+msgstr "Pfadpräfix"
 
 #. File: /usr/lang/src/controllers.php, line: 1091
 #: 
 msgid "Path Regex"
-msgstr ""
+msgstr "Pfad Regulärer Ausdruck"
 
 #. File: /usr/lang/src/controllers.php, line: 1092
 #: 
 msgid "Path Suffix"
-msgstr ""
+msgstr "Pfadsuffix"
 
 #. File: /usr/lang/src/controllers.php, line: 1093
 #: 
@@ -32294,17 +32296,17 @@ msgstr "Musterprüfer"
 #. File: /usr/lang/src/controllers.php, line: 1094
 #: 
 msgid "Peer 1"
-msgstr ""
+msgstr "Peer 1"
 
 #. File: /usr/lang/src/controllers.php, line: 1095
 #: 
 msgid "Peer 2"
-msgstr ""
+msgstr "Peer 2"
 
 #. File: /usr/lang/src/controllers.php, line: 1096
 #: 
 msgid "Peer name (FQDN)"
-msgstr ""
+msgstr "Peername (FQDN)"
 
 #. File: /usr/lang/src/controllers.php, line: 1097
 #: 
@@ -32320,37 +32322,37 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1099
 #: 
 msgid "Per IP Limit: Mail Count"
-msgstr ""
+msgstr "Pro IP Begrenzung: Mailanzahl"
 
 #. File: /usr/lang/src/controllers.php, line: 1100
 #: 
 msgid "Per IP Limit: Time"
-msgstr ""
+msgstr "Pro IP Begrenzung: Zeit"
 
 #. File: /usr/lang/src/controllers.php, line: 1101
 #: 
 msgid "Per IP Limit: Time Unit"
-msgstr ""
+msgstr "Pro IP Begrenzung: Zeiteinheit"
 
 #. File: /usr/lang/src/controllers.php, line: 1102
 #: 
 msgid "Per IP and From Limit: Mail Count"
-msgstr ""
+msgstr "Pro IP- und Absenderbegrenzung: Mailanzahl"
 
 #. File: /usr/lang/src/controllers.php, line: 1103
 #: 
 msgid "Per IP and From Limit: Time"
-msgstr ""
+msgstr "Pro IP- und Absenderbegrenzung: Zeit"
 
 #. File: /usr/lang/src/controllers.php, line: 1104
 #: 
 msgid "Per IP and From Limit: Time Unit"
-msgstr ""
+msgstr "Pro IP- und Absenderbegrenzung: Zeiteinheit"
 
 #. File: /usr/lang/src/controllers.php, line: 1105
 #: 
 msgid "Per Recipient Limit: Mail Count"
-msgstr ""
+msgstr "Pro Empfänger Begrenzung: Mailanzahl"
 
 #. File: /usr/lang/src/controllers.php, line: 1106
 #: 
@@ -32524,7 +32526,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1135
 #: 
 msgid "PostgreSQL user"
-msgstr ""
+msgstr "PostgreSQL-Benutzer"
 
 #. File: /usr/lang/src/controllers.php, line: 1136
 #: 
@@ -32833,17 +32835,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1189
 #: 
 msgid "Reject Non FQDN Recipient"
-msgstr ""
+msgstr "Nicht-FQDN-Empfänger abweisen"
 
 #. File: /usr/lang/src/controllers.php, line: 1190
 #: 
 msgid "Reject Non FQDN Sender"
-msgstr ""
+msgstr "Nicht-FQDN-Absender abweisen"
 
 #. File: /usr/lang/src/controllers.php, line: 1191
 #: 
 msgid "Reject Private IPs"
-msgstr ""
+msgstr "Private IPs abweisen"
 
 #. File: /usr/lang/src/controllers.php, line: 1192
 #: 
@@ -32895,7 +32897,7 @@ msgstr "Ferne hörende Adressen"
 #. File: /usr/lang/src/controllers.php, line: 1201
 #: 
 msgid "Remote ports in VIA-Header"
-msgstr ""
+msgstr "Ferne Ports in der VIA-Kopfzeile"
 
 #. File: /usr/lang/src/controllers.php, line: 1202
 #: 
@@ -32940,7 +32942,7 @@ msgstr "Erfordert, dass die ganze Schlüsseldatei in einem Format ist, das mit n
 #. File: /usr/lang/src/controllers.php, line: 1210
 #: 
 msgid "Response Code"
-msgstr ""
+msgstr "Antwort-Code"
 
 #. File: /usr/lang/src/controllers.php, line: 1211
 #: 
@@ -33027,12 +33029,12 @@ msgstr "Schreibe den Quellport im aktiven Modus auf 20 um, um antike Clients, di
 #. File: /usr/lang/src/controllers.php, line: 1227
 #: 
 msgid "Root CA"
-msgstr ""
+msgstr "Root-CA"
 
 #. File: /usr/lang/src/controllers.php, line: 1228
 #: 
 msgid "Root Certificate"
-msgstr ""
+msgstr "Wurzelzertifikat"
 
 #. File: /usr/lang/src/controllers.php, line: 1229
 #: 
@@ -33337,27 +33339,27 @@ msgstr "Scanne PDF-Dateien"
 #. File: /usr/lang/src/controllers.php, line: 1285
 #: 
 msgid "Scan SWF"
-msgstr ""
+msgstr "SWF prüfen"
 
 #. File: /usr/lang/src/controllers.php, line: 1286
 #: 
 msgid "Scan XMLDOCS"
-msgstr ""
+msgstr "XMLDOCS prüfen"
 
 #. File: /usr/lang/src/controllers.php, line: 1287
 #: 
 msgid "Scan archives"
-msgstr ""
+msgstr "Archive Prüfen"
 
 #. File: /usr/lang/src/controllers.php, line: 1288
 #: 
 msgid "Scan executable and linking format"
-msgstr ""
+msgstr "Ausführbare und gelinkte Formate prüfen"
 
 #. File: /usr/lang/src/controllers.php, line: 1289
 #: 
 msgid "Scan for filetypes"
-msgstr ""
+msgstr "Prüfe auf Dateitypen"
 
 #. File: /usr/lang/src/controllers.php, line: 1290
 #: 
@@ -33428,7 +33430,7 @@ msgstr "Wählen Sie die zu verwendende NetFlow-Version aus."
 #. File: /usr/lang/src/controllers.php, line: 1303
 #: 
 msgid "Select Rules"
-msgstr ""
+msgstr "Regeln auswählen"
 
 #. File: /usr/lang/src/controllers.php, line: 1304
 #: 
@@ -33453,12 +33455,12 @@ msgstr "Wählen Sie die Authentifizierungsmethoden aus, die verwendet werden sol
 #. File: /usr/lang/src/controllers.php, line: 1308
 #: 
 msgid "Select condition type."
-msgstr ""
+msgstr "Bedingungstyp auswählen"
 
 #. File: /usr/lang/src/controllers.php, line: 1309
 #: 
 msgid "Select conditions"
-msgstr ""
+msgstr "Bedingungen Auswählen"
 
 #. File: /usr/lang/src/controllers.php, line: 1310
 #: 
@@ -33653,7 +33655,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1348
 #: 
 msgid "Send the client IP address to the ICAP server."
-msgstr ""
+msgstr "Sende die Client-IP an den ICAP-Server"
 
 #. File: /usr/lang/src/controllers.php, line: 1349
 #: 
@@ -33726,7 +33728,7 @@ msgstr "Server-ID"
 #. File: /usr/lang/src/controllers.php, line: 1357
 #: 
 msgid "Server Password"
-msgstr ""
+msgstr "Serverpasswort"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 631
 #. File: /usr/lang/src/controllers.php, line: 1358
@@ -33742,7 +33744,7 @@ msgstr "Zeitüberscheitung Server"
 #. File: /usr/lang/src/controllers.php, line: 1360
 #: 
 msgid "Server Type"
-msgstr ""
+msgstr "Servertyp"
 
 #. File: /usr/lang/src/controllers.php, line: 1361
 #: 
@@ -33752,7 +33754,7 @@ msgstr "Serveradministrator"
 #. File: /usr/lang/src/controllers.php, line: 1362
 #: 
 msgid "Servername"
-msgstr ""
+msgstr "Servername"
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 399
 #. File: /usr/lang/src/controllers.php, line: 1363
@@ -33764,7 +33766,7 @@ msgstr "Server"
 #. File: /usr/lang/src/controllers.php, line: 1364
 #: 
 msgid "Service Mode"
-msgstr ""
+msgstr "Dienstmodus"
 
 #. File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 278
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 270
@@ -33784,7 +33786,7 @@ msgstr "Sitzungs-Zeitlimit"
 #. File: /usr/lang/src/models.php, line: 562
 #: 
 msgid "Session count"
-msgstr ""
+msgstr "Sitzungsanzahl"
 
 #. File: /usr/lang/src/controllers.php, line: 1368
 #: 
@@ -34121,7 +34123,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1434
 #: 
 msgid "Set the protocol to use."
-msgstr ""
+msgstr "Wählen Sie das zu verwendende Protokoll aus."
 
 #. File: /usr/lang/src/controllers.php, line: 1435
 #: 
@@ -34252,7 +34254,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1459
 #: 
 msgid "Sign Local"
-msgstr ""
+msgstr "Lokal signieren"
 
 #. File: /usr/lang/src/controllers.php, line: 1460
 #: 
@@ -34293,12 +34295,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1466
 #: 
 msgid "Skip Authenticated"
-msgstr ""
+msgstr "Authentifizierte überspringen"
 
 #. File: /usr/lang/src/controllers.php, line: 1467
 #: 
 msgid "Skip Local"
-msgstr ""
+msgstr "Lokale überspringen"
 
 #. File: /usr/lang/src/controllers.php, line: 1468
 #: 
@@ -34313,12 +34315,12 @@ msgstr "Schlafzeit"
 #. File: /usr/lang/src/controllers.php, line: 1470
 #: 
 msgid "Slow Transactions"
-msgstr ""
+msgstr "Langsame Transaktionen"
 
 #. File: /usr/lang/src/controllers.php, line: 1471
 #: 
 msgid "Smart Host"
-msgstr ""
+msgstr "Intelligenter Host"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 241
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 791
@@ -34392,12 +34394,12 @@ msgstr "Quellport"
 #. File: /usr/lang/src/controllers.php, line: 1477
 #: 
 msgid "Spam Protection"
-msgstr ""
+msgstr "Spamschutz"
 
 #. File: /usr/lang/src/controllers.php, line: 1478
 #: 
 msgid "Spam Trap"
-msgstr ""
+msgstr "Spamfalle"
 
 #. File: /usr/lang/src/controllers.php, line: 1479
 #: 
@@ -34517,7 +34519,7 @@ msgstr "Geben Sie den Benutzernamen an, der verwendet wird, um die Datenbank zu 
 #. File: /usr/lang/src/controllers.php, line: 1502
 #: 
 msgid "Specify the value for the URL parameter."
-msgstr ""
+msgstr "Geben Sie den Wert für den URL-Parameter ein."
 
 #. File: /usr/lang/src/controllers.php, line: 1503
 #: 
@@ -34585,7 +34587,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1514
 #: 
 msgid "Start Trappers"
-msgstr ""
+msgstr "Trapper starten"
 
 #. File: /usr/lang/src/controllers.php, line: 1515
 #: 
@@ -34595,7 +34597,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1516
 #: 
 msgid "Start servers"
-msgstr ""
+msgstr "Server Starten"
 
 #. File: /usr/lang/src/controllers.php, line: 1517
 #: 
@@ -34669,7 +34671,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1530
 #: 
 msgid "Subdir matches"
-msgstr ""
+msgstr "Unterverzeichnis entspricht"
 
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 116
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 106
@@ -34689,7 +34691,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1533
 #: 
 msgid "Subnetmask"
-msgstr ""
+msgstr "Subnetzmaske"
 
 #. File: /usr/lang/src/controllers.php, line: 1534
 #: 
@@ -34704,7 +34706,7 @@ msgstr "Versionszeichenkette unterdrücken"
 #. File: /usr/lang/src/controllers.php, line: 1536
 #: 
 msgid "Swap"
-msgstr ""
+msgstr "Auslagerungsspeicher"
 
 #. File: /usr/lang/src/controllers.php, line: 1537
 #: 
@@ -34806,7 +34808,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1555
 #: 
 msgid "Target Port"
-msgstr ""
+msgstr "Zielport"
 
 #. File: /usr/lang/src/controllers.php, line: 1556
 #: 
@@ -34912,7 +34914,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1576
 #: 
 msgid "The MX Check module checks if the domain in a messages SMTP FROM addresses (or the domain in HELO in case SMTP FROM is empty) has at least one connectable MX. If a connectable MX is found this information is cached in Redis."
-msgstr ""
+msgstr "Das MX-Prüfungsmodul prüft, ob die Domain, die in der Absenderadresse (oder der Domain im HELO falls SMTP FROM leer ist) zumindest einen verbindungsfähigen MX hat. Falls ein MX gefunden wird, wird die Information in Redis zwischengespeichert."
 
 #. File: /usr/lang/src/controllers.php, line: 1577
 #: 
@@ -34947,7 +34949,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1583
 #: 
 msgid "The Target host. Be careful when using localhost as some services may bypass ACLs when connecting from \"127.0.0.1\" or \"::1\"."
-msgstr ""
+msgstr "Der Zielhost. Seien Sie vorsichtig, wenn Sie localhost verwenden, da manche Dienste ACLs umgehen, wenn sie eine Verbindung über \"127.0.0.1\" or \"::1\" aufbauen."
 
 #. File: /usr/lang/src/controllers.php, line: 1584
 #: 
@@ -35022,7 +35024,7 @@ msgstr "Die E-Mail-Adresse an welche die Alarme gesendet werden."
 #. File: /usr/lang/src/controllers.php, line: 1598
 #: 
 msgid "The external FQDN of this host."
-msgstr ""
+msgstr "Der externe FQDN dieses Hosts."
 
 #. File: /usr/lang/src/controllers.php, line: 1599
 #: 
@@ -35082,7 +35084,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1610
 #: 
 msgid "The limit of the length of data to hash."
-msgstr ""
+msgstr "Die Begrenzung der Länge der Daten, die gehasht werden sollen."
 
 #. File: /usr/lang/src/controllers.php, line: 1611
 #: 
@@ -35554,7 +35556,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1708
 #: 
 msgid "This will activate the Cisco Discovery Protocol."
-msgstr ""
+msgstr "Dies wird das Cisco Discovery Protocol aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1709
 #: 
@@ -35574,12 +35576,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1712
 #: 
 msgid "This will activate the FreeRADIUS service."
-msgstr ""
+msgstr "Dies wird den FreeRADIUS-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1713
 #: 
 msgid "This will activate the LLDPD service."
-msgstr ""
+msgstr "Dies wird den LLDPD-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1714
 #: 
@@ -35594,7 +35596,7 @@ msgstr "Dies wird den OSPFv3-Dienst aktivieren, falls Routingprotokolle in \"All
 #. File: /usr/lang/src/controllers.php, line: 1716
 #: 
 msgid "This will activate the Postfix daemon."
-msgstr ""
+msgstr "Dies wird den Postfix-Daemon aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1717
 #: 
@@ -35604,7 +35606,7 @@ msgstr "Dies wird den RIP-Dienst aktivieren, falls Routingprotokolle in \"Allgem
 #. File: /usr/lang/src/controllers.php, line: 1718
 #: 
 msgid "This will activate the SONMP Protocol by Nortel."
-msgstr ""
+msgstr "Dies wird den SONMP-Protokoll von Nortel aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1719
 #: 
@@ -35619,12 +35621,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1721
 #: 
 msgid "This will activate the Zabbix Proxy service."
-msgstr ""
+msgstr "Dies wird den Zabbix-Proxy-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1722
 #: 
 msgid "This will activate the Zerotier service"
-msgstr ""
+msgstr "Dies wird den Zerotier-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1723
 #: 
@@ -35634,17 +35636,17 @@ msgstr "Dies wird den BGP-Dienst aktivieren."
 #. File: /usr/lang/src/controllers.php, line: 1724
 #: 
 msgid "This will activate the c-icap service."
-msgstr ""
+msgstr "Dies wird den c-icap-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1725
 #: 
 msgid "This will activate the clamd service."
-msgstr ""
+msgstr "Dies wird den clamd-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1726
 #: 
 msgid "This will activate the freshclam service."
-msgstr ""
+msgstr "Dies wird den freshclam-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1727
 #: 
@@ -35659,7 +35661,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1729
 #: 
 msgid "This will activate the onion router."
-msgstr ""
+msgstr "Dies wird den Onion Router aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1730
 #: 
@@ -35669,12 +35671,12 @@ msgstr "Dies wird den Routingdienst aktivieren."
 #. File: /usr/lang/src/controllers.php, line: 1731
 #: 
 msgid "This will activate the siproxd service."
-msgstr ""
+msgstr "Dies wird den siproxd-Dienst aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1732
 #: 
 msgid "This will activate the telegraf agent."
-msgstr ""
+msgstr "Dies wird den Telegraf-Agenten aktivieren."
 
 #. File: /usr/lang/src/controllers.php, line: 1733
 #: 
@@ -35820,7 +35822,7 @@ msgstr "Token"
 #. File: /usr/lang/src/controllers.php, line: 1761
 #: 
 msgid "Total CPU"
-msgstr ""
+msgstr "Gesamt CPU"
 
 #. File: /usr/lang/src/controllers.php, line: 1762
 #: 
@@ -35840,17 +35842,17 @@ msgstr "Datenverkehrsverwaltungseinstellungen"
 #. File: /usr/lang/src/controllers.php, line: 1765
 #: 
 msgid "Transparent DNS Port"
-msgstr ""
+msgstr "Transparenter DNS-Port"
 
 #. File: /usr/lang/src/controllers.php, line: 1766
 #: 
 msgid "Transparent IP Pool"
-msgstr ""
+msgstr "Transparenter IP-Pool"
 
 #. File: /usr/lang/src/controllers.php, line: 1767
 #: 
 msgid "Transparent Port"
-msgstr ""
+msgstr "Transparenter Port"
 
 #. File: /usr/lang/src/controllers.php, line: 1768
 #: 
@@ -35865,17 +35867,17 @@ msgstr "Transparenter Proxy (HTTPS)"
 #. File: /usr/lang/src/controllers.php, line: 1770
 #: 
 msgid "Transport Type"
-msgstr ""
+msgstr "Transporttyp"
 
 #. File: /usr/lang/src/controllers.php, line: 1771
 #: 
 msgid "Trusted Networks"
-msgstr ""
+msgstr "Vertrauenswürdige Netzwerke"
 
 #. File: /usr/lang/src/controllers.php, line: 1772
 #: 
 msgid "Trusted Only"
-msgstr ""
+msgstr "Nur Vertrauenswürdige"
 
 #. File: /usr/lang/src/controllers.php, line: 1773
 #: 
@@ -36009,7 +36011,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1789
 #: 
 msgid "UPS Type"
-msgstr ""
+msgstr "USV-Typ"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 59
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 236
@@ -36030,7 +36032,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1792
 #: 
 msgid "USBHID-Driver"
-msgstr ""
+msgstr "USBHID-Treiber"
 
 #. File: /usr/lang/src/controllers.php, line: 1793
 #: 
@@ -36050,12 +36052,12 @@ msgstr "Aktualisierungsquellschnittstelle"
 #. File: /usr/lang/src/controllers.php, line: 1796
 #: 
 msgid "Usable Servers"
-msgstr ""
+msgstr "Nutzbare Server"
 
 #. File: /usr/lang/src/controllers.php, line: 1797
 #: 
 msgid "Use Domain"
-msgstr ""
+msgstr "Domain verwenden"
 
 #. File: /usr/lang/src/controllers.php, line: 1798
 #: 
@@ -36085,7 +36087,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1803
 #: 
 msgid "Use c-icap with local squid"
-msgstr ""
+msgstr "c-icap mit dem localen squid verwenden"
 
 #. File: /usr/lang/src/controllers.php, line: 1804
 #: 
@@ -36148,27 +36150,27 @@ msgstr "Benutzer"
 #. File: /usr/lang/src/controllers.php, line: 1813
 #: 
 msgid "User Filter"
-msgstr ""
+msgstr "Benutzerfilter"
 
 #. File: /usr/lang/src/controllers.php, line: 1814
 #: 
 msgid "User Limit: Mail Count"
-msgstr ""
+msgstr "Benutzerfilter: Mailanzahl"
 
 #. File: /usr/lang/src/controllers.php, line: 1815
 #: 
 msgid "User Limit: Time"
-msgstr ""
+msgstr "Benutzerfilter: Zeit"
 
 #. File: /usr/lang/src/controllers.php, line: 1816
 #: 
 msgid "User Limit: Time Unit"
-msgstr ""
+msgstr "Benutzerfilter: Zeiteinheit"
 
 #. File: /usr/lang/src/controllers.php, line: 1817
 #: 
 msgid "Useragent string"
-msgstr ""
+msgstr "Benutzeragentzeichenkette"
 
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 92
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 322
@@ -36213,7 +36215,7 @@ msgstr "Benutzername-Kopfzeile"
 #. File: /usr/lang/src/controllers.php, line: 1820
 #: 
 msgid "Username to bind to LDAP, same format as in Base DN."
-msgstr ""
+msgstr "Benutzername zum Binden an LDAP, das gleiche Format wie in Base DN."
 
 #. File: /usr/lang/src/controllers.php, line: 1821
 #: 
@@ -36224,22 +36226,22 @@ msgstr "Üblicherweise der FQDN. Erforderlich für aktive Überprüfungen und mu
 #. File: /usr/lang/src/controllers.php, line: 1822
 #: 
 msgid "VLAN ID"
-msgstr ""
+msgstr "VLAN ID"
 
 #. File: /usr/lang/src/controllers.php, line: 1823
 #: 
 msgid "VLAN ID the user receives, e.g. for 802.1X. Leave empty if you don't know what it is."
-msgstr ""
+msgstr "VLAN-ID, die der Benutzer erhält, z.B. für 802.1X. Lassen Sie es leer, wenn Sie nicht wissen, was es ist."
 
 #. File: /usr/lang/src/controllers.php, line: 1824
 #: 
 msgid "VPN Server"
-msgstr ""
+msgstr "VPN Server"
 
 #. File: /usr/lang/src/controllers.php, line: 1825
 #: 
 msgid "Validate Certificates"
-msgstr ""
+msgstr "Zertifikate validieren"
 
 #. File: /usr/lang/src/controllers.php, line: 1826
 #: 
@@ -36329,7 +36331,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1840
 #: 
 msgid "Waiting for a new job will timeout after this time in seconds."
-msgstr ""
+msgstr "Das Warten auf einen neuen Job wird nach dieser Zeit in Sekunden beendet."
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 54
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 203
@@ -36454,7 +36456,7 @@ msgstr "X-Forwarded-For-Kopfzeilenbehandlung"
 #. File: /usr/lang/src/controllers.php, line: 1864
 #: 
 msgid "Yandex"
-msgstr ""
+msgstr "Yandex"
 
 #. File: /usr/lang/src/controllers.php, line: 1865
 #: 
@@ -36545,7 +36547,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1877
 #: 
 msgid "bytecode"
-msgstr ""
+msgstr "Bytecode"
 
 #. File: /usr/lang/src/controllers.php, line: 1878
 #: 
@@ -36555,7 +36557,7 @@ msgstr "Kategorien (falls vorhanden)"
 #. File: /usr/lang/src/controllers.php, line: 1879
 #: 
 msgid "choose a valid IPv4/v6 address"
-msgstr ""
+msgstr "Wählen Sie eine gültige IPv4/v6-Adresse aus."
 
 #. File: /usr/lang/src/controllers.php, line: 1880
 #: 
@@ -36570,7 +36572,7 @@ msgstr "cyon"
 #. File: /usr/lang/src/controllers.php, line: 1882
 #: 
 msgid "daily"
-msgstr ""
+msgstr "täglich"
 
 #. File: /usr/lang/src/controllers.php, line: 1883
 #: 
@@ -36679,7 +36681,7 @@ msgstr "Lexikon"
 #. File: /usr/lang/src/controllers.php, line: 1903
 #: 
 msgid "local.conf settings"
-msgstr ""
+msgstr "local.conf Einstellungen"
 
 #. File: /usr/lang/src/controllers.php, line: 1904
 #: 
@@ -36827,52 +36829,52 @@ msgstr "Keines"
 #. File: /usr/lang/src/models.php, line: 31
 #: 
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #. File: /usr/lang/src/models.php, line: 32
 #: 
 msgid "400"
-msgstr ""
+msgstr "400"
 
 #. File: /usr/lang/src/models.php, line: 33
 #: 
 msgid "403"
-msgstr ""
+msgstr "403"
 
 #. File: /usr/lang/src/models.php, line: 34
 #: 
 msgid "405"
-msgstr ""
+msgstr "405"
 
 #. File: /usr/lang/src/models.php, line: 35
 #: 
 msgid "408"
-msgstr ""
+msgstr "408"
 
 #. File: /usr/lang/src/models.php, line: 36
 #: 
 msgid "429"
-msgstr ""
+msgstr "429"
 
 #. File: /usr/lang/src/models.php, line: 37
 #: 
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #. File: /usr/lang/src/models.php, line: 38
 #: 
 msgid "502"
-msgstr ""
+msgstr "502"
 
 #. File: /usr/lang/src/models.php, line: 39
 #: 
 msgid "503"
-msgstr ""
+msgstr "503"
 
 #. File: /usr/lang/src/models.php, line: 40
 #: 
 msgid "504"
-msgstr ""
+msgstr "504"
 
 #. File: /usr/lang/src/models.php, line: 41
 #: 
@@ -36882,47 +36884,47 @@ msgstr "Ein SSL-Fingerabdruck sollte ein 59 Zeichen langer Hexadezimalwert sein.
 #. File: /usr/lang/src/models.php, line: 42
 #: 
 msgid "A password for a Nextcloud server must be set."
-msgstr ""
+msgstr "Ein Passwort für einen Nextcloud-Server muss gesetzt werden."
 
 #. File: /usr/lang/src/models.php, line: 43
 #: 
 msgid "A valid IPv4 mask must be between 1 and 32 bits."
-msgstr ""
+msgstr "Eine gültige IPv4-Maske muss zwischen 1 und 32 Bit liegen."
 
 #. File: /usr/lang/src/models.php, line: 44
 #: 
 msgid "A valid IPv6 mask must be between 1 and 128 bits. 64 bits are recommended as this is the recommended subnet size in IPv6."
-msgstr ""
+msgstr "Eine gültige IPv6-Maske muss zwischen 1 und 128 Bit liegen. 64 Bit werden empfohlen, da dies die empfohlene Subnetzgröße in IPv6 ist."
 
 #. File: /usr/lang/src/models.php, line: 45
 #: 
 msgid "A valid Port number must be specified."
-msgstr ""
+msgstr "Es muss eine gültige Portnummer angegeben werden."
 
 #. File: /usr/lang/src/models.php, line: 46
 #: 
 msgid "A valid cache expiration must be set."
-msgstr ""
+msgstr "Ein gültiger Cache-Verfall muss gesetzt sein."
 
 #. File: /usr/lang/src/models.php, line: 47
 #: 
 msgid "A valid cache size in kilobytes must be set."
-msgstr ""
+msgstr "Es muss eine gültige Cache-Größe in Kilobyte eingestellt werden."
 
 #. File: /usr/lang/src/models.php, line: 48
 #: 
 msgid "A valid cache size must be set."
-msgstr ""
+msgstr "Es muss eine gültige Cache-Größe eingestellt sein."
 
 #. File: /usr/lang/src/models.php, line: 49
 #: 
 msgid "A valid expiration time must be set."
-msgstr ""
+msgstr "Es muss eine gültige Verfallszeit eingestellt werden."
 
 #. File: /usr/lang/src/models.php, line: 50
 #: 
 msgid "A valid maximum size in bytes must be set."
-msgstr ""
+msgstr "Es muss eine gültige maximale Größe in Bytes eingestellt werden."
 
 #. File: /usr/lang/src/models.php, line: 51
 #: 
@@ -36942,57 +36944,57 @@ msgstr "ACLs"
 #. File: /usr/lang/src/models.php, line: 54
 #: 
 msgid "AES-128-CFB"
-msgstr ""
+msgstr "AES-128-CFB"
 
 #. File: /usr/lang/src/models.php, line: 55
 #: 
 msgid "AES-128-CTR"
-msgstr ""
+msgstr "AES-128-CTR"
 
 #. File: /usr/lang/src/models.php, line: 56
 #: 
 msgid "AES-128-GCM"
-msgstr ""
+msgstr "AES-128-GCM"
 
 #. File: /usr/lang/src/models.php, line: 57
 #: 
 msgid "AES-192-CFB"
-msgstr ""
+msgstr "AES-192-CFB"
 
 #. File: /usr/lang/src/models.php, line: 58
 #: 
 msgid "AES-192-CTR"
-msgstr ""
+msgstr "AES-192-CTR"
 
 #. File: /usr/lang/src/models.php, line: 59
 #: 
 msgid "AES-192-GCM"
-msgstr ""
+msgstr "AES-192-GCM"
 
 #. File: /usr/lang/src/models.php, line: 60
 #: 
 msgid "AES-256-CFB"
-msgstr ""
+msgstr "AES-256-CFB"
 
 #. File: /usr/lang/src/models.php, line: 61
 #: 
 msgid "AES-256-CTR"
-msgstr ""
+msgstr "AES-256-CTR"
 
 #. File: /usr/lang/src/models.php, line: 62
 #: 
 msgid "AES-256-GCM"
-msgstr ""
+msgstr "AES-256-GCM"
 
 #. File: /usr/lang/src/models.php, line: 63
 #: 
 msgid "AND [default]"
-msgstr ""
+msgstr "UND [Standard]"
 
 #. File: /usr/lang/src/models.php, line: 64
 #: 
 msgid "ARP Scan"
-msgstr ""
+msgstr "ARP Scan"
 
 #. File: /usr/lang/src/models.php, line: 65
 #: 
@@ -37007,7 +37009,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 67
 #: 
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 #. File: /usr/core/src/www/diag_logs_proxy.php, line: 14
 #. File: /usr/lang/src/models.php, line: 68
@@ -37035,7 +37037,7 @@ msgstr "Aktionen"
 #. File: /usr/lang/src/models.php, line: 72
 #: 
 msgid "Activity"
-msgstr ""
+msgstr "Aktivität"
 
 #. File: /usr/lang/src/models.php, line: 73
 #: 
@@ -37115,7 +37117,7 @@ msgstr "Erweiterte Einstellungen"
 #. File: /usr/lang/src/models.php, line: 80
 #: 
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #. File: /usr/lang/src/models.php, line: 81
 #: 
@@ -37191,7 +37193,7 @@ msgstr "Alle"
 #. File: /usr/lang/src/models.php, line: 86
 #: 
 msgid "Allow whitespaces"
-msgstr ""
+msgstr "Leerzeichen zulassen"
 
 #. File: /usr/lang/src/models.php, line: 87
 #: 
@@ -37201,17 +37203,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 88
 #: 
 msgid "An Onion service must be set."
-msgstr ""
+msgstr "Ein Onion-Dienst muss gesetzt werden."
 
 #. File: /usr/lang/src/models.php, line: 89
 #: 
 msgid "An URL for the Nextcloud server must be set."
-msgstr ""
+msgstr "Eine URL für für den Nextcloud-Server muss gesetzt werden."
 
 #. File: /usr/lang/src/models.php, line: 90
 #: 
 msgid "An user for the Nextcloud server must be set."
-msgstr ""
+msgstr "Ein Benutzer für den Nextcloud-Server muss gesetzt werden."
 
 #. File: /usr/lang/src/models.php, line: 91
 #: 
@@ -37221,7 +37223,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 92
 #: 
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. File: /usr/lang/src/models.php, line: 93
 #: 
@@ -37369,7 +37371,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 122
 #: 
 msgid "ClamAV"
-msgstr ""
+msgstr "ClamAV"
 
 #. File: /usr/lang/src/models.php, line: 123
 #: 
@@ -37436,7 +37438,7 @@ msgstr "Verbindungsstatus"
 #. File: /usr/lang/src/models.php, line: 135
 #: 
 msgid "Connection count"
-msgstr ""
+msgstr "Anzahl der Verbindungen"
 
 #. File: /usr/lang/src/models.php, line: 137
 #: 
@@ -37457,7 +37459,7 @@ msgstr "Die Halbwertszeit (TTL) für Zugangsdaten muss eine Ganzzahl größer al
 #. File: /usr/lang/src/models.php, line: 140
 #: 
 msgid "Critical"
-msgstr ""
+msgstr "Kritisch"
 
 #. File: /usr/lang/src/models.php, line: 141
 #: 
@@ -37467,7 +37469,7 @@ msgstr "Cron"
 #. File: /usr/lang/src/models.php, line: 142
 #: 
 msgid "Current connections"
-msgstr ""
+msgstr "Aktuelle Verbindungen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 476
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 326
@@ -37489,7 +37491,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 146
 #: 
 msgid "DELETE"
-msgstr ""
+msgstr "LÖSCHEN"
 
 #. File: /usr/lang/src/models.php, line: 147
 #: 
@@ -37575,7 +37577,7 @@ msgstr "Ablehnen"
 #. File: /usr/lang/src/models.php, line: 164
 #: 
 msgid "Deny request"
-msgstr ""
+msgstr "Abfrage ablehnen"
 
 #. File: /usr/lang/src/models.php, line: 165
 #: 
@@ -37610,7 +37612,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 172
 #: 
 msgid "Directory"
-msgstr ""
+msgstr "Verzeichnis"
 
 #. File: /usr/lang/src/models.php, line: 173
 #: 
@@ -37690,12 +37692,12 @@ msgstr "EAP"
 #. File: /usr/lang/src/models.php, line: 187
 #: 
 msgid "ESMTP"
-msgstr ""
+msgstr "ESMTP"
 
 #. File: /usr/lang/src/models.php, line: 188
 #: 
 msgid "Emergencies"
-msgstr ""
+msgstr "Notfälle"
 
 #. File: /usr/lang/src/models.php, line: 189
 #: 
@@ -37725,7 +37727,7 @@ msgstr "Geben Sie gülitge Parameter für das gewählte Kommando ein (Verbotene 
 #. File: /usr/lang/src/models.php, line: 194
 #: 
 msgid "Envelope"
-msgstr ""
+msgstr "Umschlag"
 
 #. File: /usr/lang/src/models.php, line: 195
 #: 
@@ -37735,7 +37737,7 @@ msgstr "Fehlerdateien"
 #. File: /usr/lang/src/models.php, line: 196
 #: 
 msgid "Errors"
-msgstr ""
+msgstr "Fehler"
 
 #. File: /usr/lang/src/models.php, line: 197
 #: 
@@ -37745,22 +37747,22 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 198
 #: 
 msgid "Executables"
-msgstr ""
+msgstr "Ausführbare Dateien"
 
 #. File: /usr/lang/src/models.php, line: 199
 #: 
 msgid "Execute"
-msgstr ""
+msgstr "Ausführen"
 
 #. File: /usr/lang/src/models.php, line: 200
 #: 
 msgid "Expected return code must be a number."
-msgstr ""
+msgstr "Erwarteter Rückgabecode muss eine Zahl sein."
 
 #. File: /usr/lang/src/models.php, line: 201
 #: 
 msgid "FIFO"
-msgstr ""
+msgstr "FIFO"
 
 #. File: /usr/lang/src/models.php, line: 202
 #: 
@@ -37785,17 +37787,17 @@ msgstr "Funktionalitäten"
 #. File: /usr/lang/src/models.php, line: 206
 #: 
 msgid "Fifo"
-msgstr ""
+msgstr "Fifo"
 
 #. File: /usr/lang/src/models.php, line: 207
 #: 
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #. File: /usr/lang/src/models.php, line: 208
 #: 
 msgid "File (Extended)"
-msgstr ""
+msgstr "Datei (Erweitert)"
 
 #. File: /usr/lang/src/models.php, line: 209
 #: 
@@ -37815,7 +37817,7 @@ msgstr "Dateiname sollte eindeutig sein"
 #. File: /usr/lang/src/models.php, line: 212
 #: 
 msgid "Filesystem"
-msgstr ""
+msgstr "Dateisystem"
 
 #. File: /usr/lang/src/models.php, line: 213
 #: 
@@ -37944,7 +37946,7 @@ msgstr "Gruppen"
 #. File: /usr/lang/src/models.php, line: 232
 #: 
 msgid "Groups and Users"
-msgstr ""
+msgstr "Gruppen und Benutzer"
 
 #. File: /usr/lang/src/models.php, line: 234
 #: 
@@ -37954,7 +37956,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 235
 #: 
 msgid "HEAD"
-msgstr ""
+msgstr "HEAD"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 396
 #. File: /usr/core/src/www/vpn_openvpn_export.php, line: 1383
@@ -37966,7 +37968,7 @@ msgstr "HTTP"
 #. File: /usr/lang/src/models.php, line: 237
 #: 
 msgid "HTTP (Layer 7) [default]"
-msgstr ""
+msgstr "HTTP (Layer 7) [Standard]"
 
 #. File: /usr/lang/src/models.php, line: 238
 #: 
@@ -37976,17 +37978,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 239
 #: 
 msgid "HTTP [default]"
-msgstr ""
+msgstr "HTTP [Standard]"
 
 #. File: /usr/lang/src/models.php, line: 245
 #: 
 msgid "HTTP/1.0 [default]"
-msgstr ""
+msgstr "HTTP/1.0 [Standard]"
 
 #. File: /usr/lang/src/models.php, line: 246
 #: 
 msgid "HTTP/1.1"
-msgstr ""
+msgstr "HTTP/1.1"
 
 #. File: /usr/lang/src/models.php, line: 247
 #: 
@@ -37997,12 +37999,12 @@ msgstr "Harte Zeitbegrenzung in Minuten; Muss zwischen 0 (keine Begrenzung) und 
 #. File: /usr/lang/src/models.php, line: 248
 #: 
 msgid "Hash"
-msgstr ""
+msgstr "Hash"
 
 #. File: /usr/lang/src/models.php, line: 249
 #: 
 msgid "Header"
-msgstr ""
+msgstr "Kopfzeile"
 
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 154
 #. File: /usr/lang/src/models.php, line: 250
@@ -38044,12 +38046,12 @@ msgstr "Verlauf"
 #. File: /usr/lang/src/models.php, line: 257
 #: 
 msgid "Host contains"
-msgstr ""
+msgstr "Host enthält"
 
 #. File: /usr/lang/src/models.php, line: 258
 #: 
 msgid "Host ends with"
-msgstr ""
+msgstr "Host endet mit"
 
 #. File: /usr/lang/src/models.php, line: 259
 #: 
@@ -38059,7 +38061,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 260
 #: 
 msgid "Host not found"
-msgstr ""
+msgstr "Host nicht gefunden"
 
 #. File: /usr/lang/src/models.php, line: 261
 #: 
@@ -38074,7 +38076,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 265
 #: 
 msgid "Hyperscan"
-msgstr ""
+msgstr "Hyperscan"
 
 #. File: /usr/lang/src/models.php, line: 266
 #: 
@@ -38172,7 +38174,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 280
 #: 
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #. File: /usr/lang/src/models.php, line: 281
 #: 
@@ -38209,17 +38211,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 288
 #: 
 msgid "JPEG pictures"
-msgstr ""
+msgstr "JPEG-Bilder"
 
 #. File: /usr/lang/src/models.php, line: 289
 #: 
 msgid "KISTLite"
-msgstr ""
+msgstr "KISTLite"
 
 #. File: /usr/lang/src/models.php, line: 290
 #: 
 msgid "KISTLite,Vanilla"
-msgstr ""
+msgstr "KISTLite,Vanilla"
 
 #. File: /usr/lang/src/models.php, line: 291
 #: 
@@ -38249,52 +38251,52 @@ msgstr "LDAP"
 #. File: /usr/lang/src/models.php, line: 295
 #: 
 msgid "LDAPS"
-msgstr ""
+msgstr "LDAPS"
 
 #. File: /usr/lang/src/models.php, line: 296
 #: 
 msgid "LLDPd"
-msgstr ""
+msgstr "LLDPd"
 
 #. File: /usr/lang/src/models.php, line: 297
 #: 
 msgid "LOCAL0"
-msgstr ""
+msgstr "LOCAL0"
 
 #. File: /usr/lang/src/models.php, line: 298
 #: 
 msgid "LOCAL1"
-msgstr ""
+msgstr "LOCAL1"
 
 #. File: /usr/lang/src/models.php, line: 299
 #: 
 msgid "LOCAL2"
-msgstr ""
+msgstr "LOCAL2"
 
 #. File: /usr/lang/src/models.php, line: 300
 #: 
 msgid "LOCAL3"
-msgstr ""
+msgstr "LOCAL3"
 
 #. File: /usr/lang/src/models.php, line: 301
 #: 
 msgid "LOCAL4"
-msgstr ""
+msgstr "LOCAL4"
 
 #. File: /usr/lang/src/models.php, line: 302
 #: 
 msgid "LOCAL5"
-msgstr ""
+msgstr "LOCAL5"
 
 #. File: /usr/lang/src/models.php, line: 303
 #: 
 msgid "LOCAL6"
-msgstr ""
+msgstr "LOCAL6"
 
 #. File: /usr/lang/src/models.php, line: 304
 #: 
 msgid "LOCAL7"
-msgstr ""
+msgstr "LOCAL7"
 
 #. File: /usr/lang/src/models.php, line: 305
 #: 
@@ -38324,7 +38326,7 @@ msgstr "Let's Encrypt"
 #. File: /usr/lang/src/models.php, line: 310
 #: 
 msgid "Let's Encrypt CA"
-msgstr ""
+msgstr "Let's Encrypt CA"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 784
 #. File: /usr/lang/src/models.php, line: 311
@@ -38350,7 +38352,7 @@ msgstr "Hörender-Port muss ein Integer-Wert zwischen 1 und 65535 sein"
 #. File: /usr/lang/src/models.php, line: 315
 #: 
 msgid "Live View"
-msgstr ""
+msgstr "Liveansicht"
 
 #. File: /usr/lang/src/models.php, line: 316
 #: 
@@ -38371,7 +38373,7 @@ msgstr "Lokal"
 #. File: /usr/lang/src/models.php, line: 319
 #: 
 msgid "Local Monit Port needs to be an integer value between 0 and 65535"
-msgstr ""
+msgstr "Local Monit Port muss ein ganzzahliger Wert zwischen 0 und 65535 sein."
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 678
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1123
@@ -38414,7 +38416,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 329
 #: 
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #. File: /usr/plugins/net/mdns-repeater/src/etc/inc/plugins.inc.d/mdnsrepeater.inc, line: 57
 #. File: /usr/lang/src/models.php, line: 330
@@ -38425,7 +38427,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 331
 #: 
 msgid "MSCHAPv2"
-msgstr ""
+msgstr "MSCHAPv2"
 
 #. File: /usr/lang/src/models.php, line: 332
 #: 
@@ -38445,7 +38447,7 @@ msgstr "Maximale Anzahl an Zonen erreicht"
 #. File: /usr/lang/src/models.php, line: 335
 #: 
 msgid "Mbit/s"
-msgstr ""
+msgstr "Mbit/s"
 
 #. File: /usr/lang/src/models.php, line: 336
 #: 
@@ -38455,12 +38457,12 @@ msgstr "Nachrichtenformat sollte eine Zeichenkette zwischen einem und 255 Zeiche
 #. File: /usr/lang/src/models.php, line: 337
 #: 
 msgid "Microsoft office files"
-msgstr ""
+msgstr "Microsoft Office-Dateien"
 
 #. File: /usr/lang/src/models.php, line: 338
 #: 
 msgid "Minimum number of usable servers in backend"
-msgstr ""
+msgstr "Minimale Anzahl nutzbarer Server im Backend"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 450
 #. File: /usr/lang/src/models.php, line: 340
@@ -38481,7 +38483,7 @@ msgstr "Monit"
 #. File: /usr/lang/src/models.php, line: 343
 #: 
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 246
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 285
@@ -38494,7 +38496,7 @@ msgstr "NAT"
 #. File: /usr/lang/src/models.php, line: 345
 #: 
 msgid "NBMA network"
-msgstr ""
+msgstr "NBMA-Netzwerk"
 
 #. File: /usr/lang/src/models.php, line: 346
 #: 
@@ -38506,7 +38508,7 @@ msgstr "NDP Tabelle"
 #. File: /usr/lang/src/models.php, line: 347
 #: 
 msgid "NPTv6"
-msgstr ""
+msgstr "NPTv6"
 
 #. File: /usr/lang/src/models.php, line: 348
 #: 
@@ -38548,7 +38550,7 @@ msgstr "Normalisierung"
 #. File: /usr/lang/src/models.php, line: 356
 #: 
 msgid "Notice"
-msgstr ""
+msgstr "Hinweis"
 
 #. File: /usr/lang/src/models.php, line: 357
 #: 
@@ -38563,12 +38565,12 @@ msgstr "Die Anzahl von Kindprozessen muss eine Ganzzahl größer als 0 sein"
 #. File: /usr/lang/src/models.php, line: 359
 #: 
 msgid "Number of processes must be greater than 0"
-msgstr ""
+msgstr "Anzahl der Prozesse muss größer als 0 sein"
 
 #. File: /usr/lang/src/models.php, line: 360
 #: 
 msgid "Nut"
-msgstr ""
+msgstr "Nut"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 87
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 92
@@ -38595,7 +38597,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 364
 #: 
 msgid "OR"
-msgstr ""
+msgstr "ODER"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
@@ -38682,7 +38684,7 @@ msgstr "Ausgehend"
 #. File: /usr/lang/src/models.php, line: 378
 #: 
 msgid "Output"
-msgstr ""
+msgstr "Ausgabe"
 
 #. File: /usr/lang/src/models.php, line: 379
 #: 
@@ -38710,12 +38712,12 @@ msgstr "Überblick"
 #. File: /usr/lang/src/models.php, line: 382
 #: 
 msgid "PEAP"
-msgstr ""
+msgstr "PEAP"
 
 #. File: /usr/lang/src/models.php, line: 383
 #: 
 msgid "POST"
-msgstr ""
+msgstr "POST"
 
 #. File: /usr/plugins/net/pppoe/src/www/vpn_pppoe.php, line: 90
 #. File: /usr/core/src/www/interfaces.php, line: 1722
@@ -38742,7 +38744,7 @@ msgstr "PPTP"
 #. File: /usr/lang/src/models.php, line: 387
 #: 
 msgid "PUT"
-msgstr ""
+msgstr "PUT"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 750
 #. File: /usr/lang/src/models.php, line: 388
@@ -38768,7 +38770,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 393
 #: 
 msgid "Path ends with"
-msgstr ""
+msgstr "Pfad endet mit"
 
 #. File: /usr/lang/src/models.php, line: 394
 #: 
@@ -38783,7 +38785,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 396
 #: 
 msgid "Path starts with"
-msgstr ""
+msgstr "Pfad beginnt mit"
 
 #. File: /usr/lang/src/models.php, line: 398
 #: 
@@ -38814,7 +38816,7 @@ msgstr "Originalansicht"
 #. File: /usr/lang/src/models.php, line: 404
 #: 
 msgid "Please choose a value between 1 and 3000"
-msgstr ""
+msgstr "Bitte wählen Sie einen Wert zwischen 1 und 3000"
 
 #. File: /usr/lang/src/models.php, line: 405
 #: 
@@ -38854,37 +38856,37 @@ msgstr "Bitte geben Sie gültige Ziele ein (z. B. 192.168.0.1:2055)."
 #. File: /usr/lang/src/models.php, line: 412
 #: 
 msgid "Please provide IP or hostname (no spaces allowed)."
-msgstr ""
+msgstr "Bitte geben Sie IP oder Hostname an (keine Leerzeichen erlaubt)."
 
 #. File: /usr/lang/src/models.php, line: 413
 #: 
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Bitte geben Sie einen Hostnamen an."
 
 #. File: /usr/lang/src/models.php, line: 414
 #: 
 msgid "Please provide a remote directory."
-msgstr ""
+msgstr "Bitte geben Sie ein Remote-Verzeichnis an."
 
 #. File: /usr/lang/src/models.php, line: 415
 #: 
 msgid "Please provide a username."
-msgstr ""
+msgstr "Bitte geben Sie einen Benutzernamen an."
 
 #. File: /usr/lang/src/models.php, line: 416
 #: 
 msgid "Please provide a valid FQDN, i.e. www.example.com or mail.example.com (max 255 characters)."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen FQDN an, z.B. www.example.com oder mail.example.com (max. 255 Zeichen)."
 
 #. File: /usr/lang/src/models.php, line: 417
 #: 
 msgid "Please provide a valid IPv4 address."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige IPv4-Adresse an."
 
 #. File: /usr/lang/src/models.php, line: 418
 #: 
 msgid "Please provide a valid hostname or IP address."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Hostnamen oder eine gültige IP-Adresse an."
 
 #. File: /usr/lang/src/models.php, line: 419
 #: 
@@ -38899,17 +38901,17 @@ msgstr "Bitte geben Sie eine gültige hörende Adresse wie 127.0.0.1:8080 oder w
 #. File: /usr/lang/src/models.php, line: 421
 #: 
 msgid "Please provide a valid port number between 1 and 65535."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige Portnummer zwischen 1 und 65535 an."
 
 #. File: /usr/lang/src/models.php, line: 422
 #: 
 msgid "Please provide a valid port number between 1 and 65535. Port 22 is the default."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige Portnummer zwischen 1 und 65535 an. Port 22 ist der Standard."
 
 #. File: /usr/lang/src/models.php, line: 423
 #: 
 msgid "Please provide a valid port number between 1 and 65535. Port 9100 is the default."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige Portnummer zwischen 1 und 65535 an. Port 9100 ist der Standard."
 
 #. File: /usr/lang/src/models.php, line: 424
 #: 
@@ -38919,12 +38921,12 @@ msgstr "Bitte geben Sie einen gültigen Benutzer und ein gültiges Passwort ein,
 #. File: /usr/lang/src/models.php, line: 425
 #: 
 msgid "Please provide a valid username. Allowed characters are a-z0-9._- and it has to be 1-32 characters long."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Benutzernamen an. Erlaubte Zeichen sind a-z0-9._- und er muss 1-32 Zeichen lang sein."
 
 #. File: /usr/lang/src/models.php, line: 426
 #: 
 msgid "Please provide one or more valid FQDNs, i.e. www.example.com or mail.example.com. Field length is limited to 65535 characters."
-msgstr ""
+msgstr "Bitte geben Sie einen oder mehrere gültige FQDNs an, z.B. www.example.com oder mail.example.com. Die Feldlänge ist auf 65535 Zeichen begrenzt."
 
 #. File: /usr/lang/src/models.php, line: 427
 #: 
@@ -39004,7 +39006,7 @@ msgstr "Bitte geben Sie einen Wert zwischen 0 und 50 an."
 #. File: /usr/lang/src/models.php, line: 442
 #: 
 msgid "Please specify a value between 0 and 500000."
-msgstr ""
+msgstr "Bitte geben Sie einen Wert zwischen 0 und 500000 an."
 
 #. File: /usr/lang/src/models.php, line: 443
 #: 
@@ -39019,7 +39021,7 @@ msgstr "Bitte geben Sie einen Wert zwischen 1 und 10000 an."
 #. File: /usr/lang/src/models.php, line: 445
 #: 
 msgid "Please specify a value between 1 and 1000000000."
-msgstr ""
+msgstr "Bitte geben Sie einen Wert zwischen 1 und 100000000000 an."
 
 #. File: /usr/lang/src/models.php, line: 446
 #: 
@@ -39029,7 +39031,7 @@ msgstr "Bitte geben Sie einen Wert zwischen 1 und 128 an."
 #. File: /usr/lang/src/models.php, line: 447
 #: 
 msgid "Please specify a value between 1 and 16384."
-msgstr ""
+msgstr "Bitte geben Sie einen Wert zwischen 1 und 16384 an."
 
 #. File: /usr/lang/src/models.php, line: 448
 #: 
@@ -39044,7 +39046,7 @@ msgstr "Bitte geben Sie einen Wert zwischen 1 und 65535 an."
 #. File: /usr/lang/src/models.php, line: 450
 #: 
 msgid "Please specify a value between 100 and 999."
-msgstr ""
+msgstr "Bitte geben Sie einen Wert zwischen 100 und 999 an."
 
 #. File: /usr/lang/src/models.php, line: 451
 #: 
@@ -39154,7 +39156,7 @@ msgstr "Priorität muss zwischen 0 und 4294967295 liegen."
 #. File: /usr/lang/src/models.php, line: 471
 #: 
 msgid "Process"
-msgstr ""
+msgstr "Prozess"
 
 #. File: /usr/lang/src/models.php, line: 472
 #: 
@@ -39557,7 +39559,7 @@ msgstr "Der SSL-Proxy-Port muss eine Zahl zwischen 1 und 65535 sein"
 #. File: /usr/lang/src/models.php, line: 551
 #: 
 msgid "SSL/TLS connection established"
-msgstr ""
+msgstr "SSL/TLS-Verbindung aufgebaut"
 
 #. File: /usr/lang/src/models.php, line: 552
 #: 
@@ -39687,12 +39689,12 @@ msgstr "Sollte eine Zeichenkette mit einer Länge zwischen einem und 255 Zeichen
 #. File: /usr/lang/src/models.php, line: 580
 #: 
 msgid "Should be a string between 1 and 255 characters. Allowed characters are letters and numbers as well as underscore, minus, dot and the dollar sign."
-msgstr ""
+msgstr "Sollte eine Zeichenkette zwischen 1 und 255 Zeichen sein. Erlaubte Zeichen sind Buchstaben und Zahlen sowie Unterstrich, Minus, Punkt und das Dollarzeichen."
 
 #. File: /usr/lang/src/models.php, line: 581
 #: 
 msgid "Should be a string between 1 and 32 characters."
-msgstr ""
+msgstr "Sollte eine Zeichenkette zwischen 1 und 32 Zeichen sein."
 
 #. File: /usr/lang/src/models.php, line: 582
 #: 
@@ -39844,7 +39846,7 @@ msgstr "Die Quelladresse muss eine gültige IPv4-Adresse sein"
 #. File: /usr/lang/src/models.php, line: 612
 #: 
 msgid "Source-IP Hash [default]"
-msgstr ""
+msgstr "Quell-IP Hash [Standard]"
 
 #. File: /usr/lang/src/models.php, line: 613
 #: 
@@ -39874,12 +39876,12 @@ msgstr "Geben Sie eine positive Zahl von Unterverzeichnissen in zweiter Ebene an
 #. File: /usr/lang/src/models.php, line: 618
 #: 
 msgid "Specify a valid gateway from the list matching the networks ip protocol."
-msgstr ""
+msgstr "Geben Sie ein gültiges Gateway aus der Liste an, das dem IP-Protokoll des Netzwerks entspricht."
 
 #. File: /usr/lang/src/models.php, line: 619
 #: 
 msgid "Specify a valid network matching the gateways ip protocol."
-msgstr ""
+msgstr "Geben Sie ein gültiges Netzwerk an, das dem IP-Protokoll des Gateways entspricht."
 
 #. File: /usr/lang/src/models.php, line: 620
 #: 
@@ -40019,7 +40021,7 @@ msgstr "Systemprotokoll"
 #. File: /usr/lang/src/models.php, line: 646
 #: 
 msgid "System or Plugin Command (select below)"
-msgstr ""
+msgstr "System- oder Plugin-Befehl (unten auswählen)"
 
 #. File: /usr/core/src/www/diag_packet_capture.php, line: 364
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 588
@@ -40048,7 +40050,7 @@ msgstr "TTLS"
 #. File: /usr/lang/src/models.php, line: 651
 #: 
 msgid "Table check not found"
-msgstr ""
+msgstr "Tabellenprüfung nicht gefunden"
 
 #. File: /usr/lang/src/models.php, line: 652
 #: 
@@ -40078,22 +40080,22 @@ msgstr "Textdateien"
 #. File: /usr/lang/src/models.php, line: 657
 #: 
 msgid "The Backup Directory can only consist of alphanumeric characters."
-msgstr ""
+msgstr "Das Backup-Verzeichnis kann nur aus alphanumerischen Zeichen bestehen."
 
 #. File: /usr/lang/src/models.php, line: 658
 #: 
 msgid "The IP TTL must be greater than 0"
-msgstr ""
+msgstr "Die IP-TTL muss größer als 0 sein."
 
 #. File: /usr/lang/src/models.php, line: 659
 #: 
 msgid "The authorized clients should only consist of alphanumeric characters, dashes, underscores and plus sign."
-msgstr ""
+msgstr "Die autorisierten Clients sollten nur aus alphanumerischen Zeichen, Bindestrichen, Unterstrichen und Pluszeichen bestehen."
 
 #. File: /usr/lang/src/models.php, line: 660
 #: 
 msgid "The count value must be a positive number."
-msgstr ""
+msgstr "Der Zählwert muss eine positive Zahl sein."
 
 #. File: /usr/lang/src/models.php, line: 661
 #: 
@@ -40108,17 +40110,17 @@ msgstr "Der Name darf nur alphanumerische Zeichen enthalten."
 #. File: /usr/lang/src/models.php, line: 663
 #: 
 msgid "The name should only consist of alphanumeric characters, dashes and underscores."
-msgstr ""
+msgstr "Der Name sollte nur aus alphanumerischen Zeichen, Bindestrichen und Unterstrichen bestehen."
 
 #. File: /usr/lang/src/models.php, line: 664
 #: 
 msgid "The number of retries must be greater than 0"
-msgstr ""
+msgstr "Die Anzahl der Wiederholungsversuche muss größer als 0 sein."
 
 #. File: /usr/lang/src/models.php, line: 665
 #: 
 msgid "The route priority must be greater than 0"
-msgstr ""
+msgstr "Die Priorität der Route muss größer als 0 sein."
 
 #. File: /usr/lang/src/models.php, line: 666
 #: 
@@ -40128,12 +40130,12 @@ msgstr "Die Zeit muss eine positive Ganzzahl sein."
 #. File: /usr/lang/src/models.php, line: 667
 #: 
 msgid "The timeout must be a number between 1 and 2147483647."
-msgstr ""
+msgstr "Der Timeout muss eine Zahl zwischen 1 und 2147483647 sein."
 
 #. File: /usr/lang/src/models.php, line: 668
 #: 
 msgid "The timeout must be greater than 0"
-msgstr ""
+msgstr "Der Timeout muss größer als 0 sein."
 
 #. File: /usr/lang/src/models.php, line: 669
 #: 
@@ -40677,7 +40679,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 772
 #: 
 msgid "files"
-msgstr ""
+msgstr "Dateien"
 
 #. File: /usr/lang/src/models.php, line: 773
 #: 
@@ -41308,7 +41310,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 893
 #: 
 msgid "user"
-msgstr ""
+msgstr "Benutzer"
 
 #. File: /usr/lang/src/models.php, line: 894
 #: 
@@ -41343,7 +41345,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 900
 #: 
 msgid "warning"
-msgstr ""
+msgstr "Warnung"
 
 #. File: /usr/lang/src/models.php, line: 901
 #: 
@@ -41358,7 +41360,7 @@ msgstr "(leer lassen für keinen)"
 #. File: /usr/lang/src/wizards.php, line: 31
 #: 
 msgid "(leave empty to keep current one)"
-msgstr ""
+msgstr "(leer lassen, um den aktuellen zu behalten)"
 
 #. File: /usr/lang/src/wizards.php, line: 32
 #: 
@@ -41400,7 +41402,7 @@ msgstr "Ein Name für diese OpenVPN-Instanz zu Ihrer Referenz. Er kann auf alles
 #. File: /usr/lang/src/wizards.php, line: 39
 #: 
 msgid "A name for your reference, to identify this certificate. This is also known as the certificate's \"Common Name\"."
-msgstr ""
+msgstr "Ein Name für Ihre Referenz, um dieses Zertifikat zu identifizieren. Dies wird auch als \"Common Name\" des Zertifikats bezeichnet."
 
 #. File: /usr/lang/src/wizards.php, line: 40
 #: 
@@ -41588,7 +41590,7 @@ msgstr "Stadt oder Ortsname (z. B. Middelharnis, Leipzig, Louisville)."
 #. File: /usr/lang/src/wizards.php, line: 77
 #: 
 msgid "Click 'Reload' to apply the changes."
-msgstr ""
+msgstr "Klicken Sie auf \"Neu laden\", um die Änderungen zu übernehmen."
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 550
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1322
@@ -41811,7 +41813,7 @@ msgstr ""
 #. File: /usr/lang/src/wizards.php, line: 111
 #: 
 msgid "Enable Resolver"
-msgstr ""
+msgstr "Resolver aktivieren"
 
 #. File: /usr/lang/src/wizards.php, line: 112
 #: 
@@ -42002,7 +42004,7 @@ msgstr "Falls keine qualifizierten ausgehenden Pakete in der in Sekunden angegeb
 #. File: /usr/lang/src/wizards.php, line: 146
 #: 
 msgid "If you are unsure, leave this set to \"Local User Access\"."
-msgstr ""
+msgstr "Wenn Sie unsicher sind, lassen Sie diese Einstellung auf \"Lokale-Benutzer-Zugriff\" stehen."
 
 #. File: /usr/lang/src/wizards.php, line: 147
 #: 
@@ -42115,7 +42117,7 @@ msgstr "Lokaler Benutzerzugang"
 #. File: /usr/lang/src/wizards.php, line: 168
 #: 
 msgid "Local port upon which OpenVPN will listen for connections. The default port is 1194. Leave this blank to auto-select an unused port."
-msgstr ""
+msgstr "Lokaler Port, auf dem OpenVPN auf Verbindungen wartet. Der Standard-Port ist 1194. Lassen Sie dieses Feld leer, um einen unbenutzten Port automatisch auszuwählen."
 
 #. File: /usr/lang/src/wizards.php, line: 169
 #: 
@@ -42324,7 +42326,7 @@ msgstr "Feld \"Primärer DNS-Server\" ist ungültig"
 #. File: /usr/lang/src/wizards.php, line: 212
 #: 
 msgid "Protocol to use for OpenVPN connections. If you are unsure, leave this set to UDP."
-msgstr ""
+msgstr "Protokoll für OpenVPN-Verbindungen. Wenn Sie unsicher sind, lassen Sie diese Einstellung auf UDP."
 
 #. File: /usr/lang/src/wizards.php, line: 213
 #: 
@@ -42534,7 +42536,7 @@ msgstr ""
 #. File: /usr/lang/src/wizards.php, line: 252
 #: 
 msgid "The interface where OpenVPN will listen for incoming connections."
-msgstr ""
+msgstr "Die Schnittstelle, über die OpenVPN auf eingehende Verbindungen wartet."
 
 #. File: /usr/lang/src/wizards.php, line: 253
 #: 
@@ -42549,7 +42551,7 @@ msgstr ""
 #. File: /usr/lang/src/wizards.php, line: 255
 #: 
 msgid "The protocol used by your LDAP server. It can either be standard TCP or SSL encrypted."
-msgstr ""
+msgstr "Das von Ihrem LDAP-Server verwendete Protokoll. Es kann entweder Standard-TCP oder SSL-verschlüsselt sein."
 
 #. File: /usr/core/src/www/interfaces.php, line: 1986
 #. File: /usr/lang/src/wizards.php, line: 256
