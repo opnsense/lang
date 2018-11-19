@@ -2984,7 +2984,7 @@ msgstr "Validade"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 173
 #: 
 msgid "Harden security on local accounts, for methods other then local these will usually be configured on the respective provider (e.g. ldap/radius/..). "
-msgstr ""
+msgstr "Aumentar segurança em contas locais, para métros de autenticação não locais será configurado de acordo com o respectivo serviço (e.x. ldap/radius/..)"
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 171
 #: 
@@ -3560,7 +3560,7 @@ msgstr "Nome de usuário do sistema remoto"
 #. File: /usr/core/src/www/system_hasync.php, line: 211
 #: 
 msgid "For setting up the backup machine leave this field empty, and do not forget to allow incoming connections on the specified interface for synchronization."
-msgstr ""
+msgstr "Para configurar uma máquina de backup deixe este campo vazio, não se esqueça de permitir conexões de entrada na interface especificada para a sincronização."
 
 #. File: /usr/core/src/www/system_hasync.php, line: 210
 #: 
@@ -3625,12 +3625,12 @@ msgstr "Interface para sincronismo"
 #. File: /usr/core/src/www/system_hasync.php, line: 153
 #: 
 msgid "When this device is configured as CARP master it will try to switch to master when powering up, this option will keep this one slave if there already is a master on the network"
-msgstr ""
+msgstr "Caso esteja configurado como CARP master, ao ligar ele irá tentar assumir como master, esta opção irá manter este equipamento como slave caso já tenha um master na rede."
 
 #. File: /usr/core/src/www/system_hasync.php, line: 149
 #: 
 msgid "Disable preempt"
-msgstr ""
+msgstr "Desabilitar antecipação"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 144
 #: 
@@ -3655,7 +3655,7 @@ msgstr "Sincronização de estados"
 #. File: /usr/core/src/www/system_hasync.php, line: 85
 #: 
 msgid "The synchronize peer IP must be an IPv4 address or left empty."
-msgstr ""
+msgstr "O nó IP de sincronismo deverá se IPv4 ou ser deixado vazio."
 
 #. File: /usr/core/src/www/system_groupmanager.php, line: 421
 #: 
@@ -5536,7 +5536,7 @@ msgstr "Editar item ajustável do sistema"
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 190
 #: 
 msgid "Tunables are composed of runtime settings for sysctl.conf which take effect immediately after apply and boot settings for loader.conf which require a reboot."
-msgstr ""
+msgstr "Tunables são configurações do sysctl.conf que tem efeito imediato assim que aplicadas, as configurações do loader.conf são para o boot, portanto requerem um reboot."
 
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 181
 #: 
@@ -5760,7 +5760,7 @@ msgstr "Insira um DUID existente aqui"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 276
 #: 
 msgid "This field can be used to enter an explicit DUID for use by IPv6 DHCP clients."
-msgstr ""
+msgstr "Este campo deve ser usado para especificar um DUID para ser usado pelos clientes DHCP IPv6."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 272
 #: 
@@ -5785,7 +5785,7 @@ msgstr "Manuseio de ARP"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 257
 #: 
 msgid "Set usage of VLAN hardware filtering. This hardware acceleration may be broken in a particular device driver, or may impact performance."
-msgstr ""
+msgstr "Configurar filtro de hardware para VLAN. Esta aceleração por hardware pode causar problemas em drivers específicos."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 253
 #: 
@@ -5855,7 +5855,7 @@ msgstr "CRC por hardware"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 131
 #: 
 msgid "A valid DUID must be specified."
-msgstr ""
+msgstr "Um DUID válido deve ser especificado."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 506
 #: 
@@ -5890,17 +5890,17 @@ msgstr "RAM-disk /var"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 486
 #: 
 msgid "Add a 2 GB swap file to the system"
-msgstr ""
+msgstr "Adiciona uma arquivo de swap de 2 GB ao sistema"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 483
 #: 
 msgid "Swap file"
-msgstr ""
+msgstr "Arquivo de swap"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 480
 #: 
 msgid "Disk / Memory Settings (reboot to apply changes)"
-msgstr ""
+msgstr "Configurações de Disco / Memória (requer um reboot para aplicar)"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 471
 #: 
@@ -5968,12 +5968,12 @@ msgstr "Economia de energia"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 383
 #: 
 msgid "This will periodically backup the captive portal session data so it can be restored automatically on the next boot."
-msgstr ""
+msgstr "Backup periódico dos dados de sessão do captive portal para serem restaurados após o próximo boot."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 370
 #: 
 msgid "Periodic Captive Portal Backup"
-msgstr ""
+msgstr "Backup periódico do Captive Portal"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 365
 #: 
@@ -6171,7 +6171,7 @@ msgstr "WAN"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 636
 #: 
 msgid "When this is unchecked, access to the web GUI or SSH on the %s interface is always permitted, regardless of the user-defined firewall rule set. Check this box to disable the automatically added rule, so access is controlled only by the user-defined firewall rules. Ensure you have a firewall rule in place that allows you in, or you will lock yourself out."
-msgstr ""
+msgstr "Quando desmarcado, o acesso para a web GUI ou SSH na interface %s será sempre permitida, a menos que seja definida uma regra de firewall. Marque esta opção para desabilitar a regra de firewall adicionada automaticamente, dessa forma o controle de acesso será feito apenas pelas regras definidas pelo usuário. Garanta que uma regra para acesso ao firewall esteja sempre permitida, senão você irá se autobloquear. "
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 634
 #: 
@@ -6324,28 +6324,28 @@ msgstr "Desabilitar firewall"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 520
 #: 
 msgid "Uses the currently loaded ruleset as a feedback profile to tailor the ordering of quick rules to actual network traffic."
-msgstr ""
+msgstr "Usa o conjunto de regras atualmente carregado como um perfil de feedback para adaptar a ordem das regras rápidas ao tráfego de rede atual."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 516
 #: 
 msgid "(default) Basic ruleset optimization does four things to improve the performance of ruleset evaluations: remove duplicate rules; remove rules that are a subset of another rule; combine multiple rules into a table when advantageous; re-order the rules to improve evaluation performance"
-msgstr ""
+msgstr "(padrão) A otimização básica de regras faz quatro coisas para melhorar o desempenho do processamento do conjunto de regras: remover regras duplicadas; remover regras que são um subconjunto de outra regra; combinar várias regras em uma tabela quando vantajoso; reordenar as regras para melhorar o desempenho de processamento "
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 512
 #: 
 msgid "Disable the ruleset optimizer."
-msgstr ""
+msgstr "Desabilitar otimizador de regras."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 508
 #: 
 msgid "Select the type of rules optimization to use"
-msgstr ""
+msgstr "Selecione o tipo de otimização para usar."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 504
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 519
 #: 
 msgid "profile"
-msgstr ""
+msgstr "perfil"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 501
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 515
@@ -6358,7 +6358,7 @@ msgstr "básico"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 494
 #: 
 msgid "Firewall Rules Optimization"
-msgstr ""
+msgstr "Otimização de regras de Firewall"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 487
 #: 
@@ -6826,22 +6826,22 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 638
 #: 
 msgid "All (recommended)"
-msgstr ""
+msgstr "Tudo (recomendado)"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 538
 #: 
 msgid "Enable access logging on the webinterface for debugging and analysis purposes."
-msgstr ""
+msgstr "Habilta o log de acessos da interface web para debug e análise detalhada."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 536
 #: 
 msgid "Enable access log"
-msgstr ""
+msgstr "Habilita access log"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 533
 #: 
 msgid "Access log"
-msgstr ""
+msgstr "Access log"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 528
 #: 
@@ -6851,12 +6851,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 527
 #: 
 msgid "Enable compression of HTTP pages and dynamic content."
-msgstr ""
+msgstr "Habilita compressão de páginas HTTP e de conteúdo dinâmico."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 510
 #: 
 msgid "HTTP Compression"
-msgstr ""
+msgstr "Compressão HTTP"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 504
 #: 
@@ -6901,7 +6901,7 @@ msgstr "Desativar o registro de eventos de logins bem-sucedidos da interface gr�
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 477
 #: 
 msgid "Login Messages"
-msgstr ""
+msgstr "Mensagem de Login"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 469
 #: 
@@ -6961,22 +6961,22 @@ msgstr "HTTPS"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 337
 #: 
 msgid "If the page does not reload go here:"
-msgstr ""
+msgstr "Se a página não recarregar vá para:"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 335
 #: 
 msgid "The web GUI is reloading at the moment, please wait..."
-msgstr ""
+msgstr "A web GUI está recarregando, por favor aguarde..."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 313
 #: 
 msgid "Use the default"
-msgstr ""
+msgstr "Usar o padrão"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 312
 #: 
 msgid "I know what I am doing"
-msgstr ""
+msgstr "Eu sei o que estou fazendo"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 307
 #: 
@@ -6986,12 +6986,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 306
 #: 
 msgid "Warning!"
-msgstr ""
+msgstr "Aviso!"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 90
 #: 
 msgid "You must specify a valid SSH port number."
-msgstr ""
+msgstr "Você deve especificar uma porta válida para o SSH."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 84
 #: 
@@ -7001,12 +7001,12 @@ msgstr "O nome de host alternativo %s não é um válido."
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 77
 #: 
 msgid "You must specify a valid web GUI protocol."
-msgstr ""
+msgstr "Você deve especificar um protocolo válido para a web GUI."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 73
 #: 
 msgid "You must specify a valid web GUI port number."
-msgstr ""
+msgstr "Você deve especificar uma porta válida para a web GUI."
 
 #. File: /usr/core/src/www/status_wireless.php, line: 163
 #: 
@@ -7290,27 +7290,27 @@ msgstr ""
 #. File: /usr/core/src/www/status_ntpd.php, line: 55
 #: 
 msgid "Selected"
-msgstr ""
+msgstr "Selecionado"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 52
 #: 
 msgid "PPS Peer"
-msgstr ""
+msgstr "Nó PPS"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 49
 #: 
 msgid "Candidate"
-msgstr ""
+msgstr "Candidato"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 46
 #: 
 msgid "Active Peer"
-msgstr ""
+msgstr "Nó ativo"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 43
 #: 
 msgid "Unreach/Pending"
-msgstr ""
+msgstr "Fora de alcance/Pendente"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 311
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 311
@@ -7329,12 +7329,12 @@ msgstr "Usando dial-on-demand trará a conexão novamente se qualquer pacote aci
 #. File: /usr/core/src/www/status_interfaces.php, line: 454
 #: 
 msgid "rate"
-msgstr ""
+msgstr "taxa"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 453
 #: 
 msgid "total"
-msgstr ""
+msgstr "total"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 452
 #: 
@@ -7610,17 +7610,17 @@ msgstr ""
 #. File: /usr/core/src/www/status_graph.php, line: 383
 #: 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #. File: /usr/core/src/www/status_graph.php, line: 380
 #: 
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #. File: /usr/core/src/www/status_graph.php, line: 377
 #: 
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #. File: /usr/core/src/www/status_graph.php, line: 364
 #: 
@@ -7631,13 +7631,13 @@ msgstr "FQDN"
 #. File: /usr/core/src/www/status_graph.php, line: 407
 #: 
 msgid "Total Out"
-msgstr ""
+msgstr "Total de saída"
 
 #. File: /usr/core/src/www/status_graph.php, line: 340
 #. File: /usr/core/src/www/status_graph.php, line: 406
 #: 
 msgid "Total In"
-msgstr ""
+msgstr "Total de entrada"
 
 #. File: /usr/core/src/www/status_graph.php, line: 337
 #: 
@@ -8260,12 +8260,12 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 277
 #: 
 msgid "Register IPv6 link-local addresses in the DNS Resolver"
-msgstr ""
+msgstr "Registrar endereços locais de IPv6 no DNS Resolver"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 274
 #: 
 msgid "DHCP IPv6 Link-local"
-msgstr ""
+msgstr "DHCP IPv6 Link-local"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 266
 #: 
@@ -8280,7 +8280,7 @@ msgstr "Registrar mapeamentos estáticos do DHCP com o resolvedor de DNS"
 #. File: /usr/core/src/www/services_unbound.php, line: 261
 #: 
 msgid "DHCP Static Mappings"
-msgstr ""
+msgstr "Mapeamento estático DHCP"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 242
 #: 
@@ -8315,7 +8315,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 205
 #: 
 msgid "Local Zone Type"
-msgstr ""
+msgstr "Tipo de Zona Local"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 200
 #: 
@@ -8419,18 +8419,18 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 688
 #: 
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 304
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 195
 #: 
 msgid "Length"
-msgstr ""
+msgstr "Tamanho"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 297
 #: 
 msgid "Advertise Routes"
-msgstr ""
+msgstr "Anunciar rotas"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 284
 #: 
@@ -8471,7 +8471,7 @@ msgstr "Selecione o modo de operação para o daemon de anúncio de roteador (RA
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 232
 #: 
 msgid "Stateless"
-msgstr ""
+msgstr "Stateless"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 229
 #: 
@@ -8626,12 +8626,12 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 #: 
 msgid "Checksum:"
-msgstr ""
+msgstr "Checksum:"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 513
 #: 
 msgid "Calculate"
-msgstr ""
+msgstr "Calcular"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 507
 #: 
