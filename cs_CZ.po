@@ -121,7 +121,7 @@ msgstr "Verze"
 #. File: /usr/core/src/www/widgets/widgets/services_status.widget.php, line: 52
 #: 
 msgid "Comma separated list of services to NOT display in the widget"
-msgstr "Čárkou oddělovaný seznam služeb, které NEzobrazovat v panelu"
+msgstr "Čárkou oddělovaný seznam služeb, které NEzobrazovat v podokně"
 
 #. File: /usr/core/src/www/widgets/widgets/rss.widget.php, line: 119
 #: 
@@ -141,7 +141,7 @@ msgstr "Zobrazit položek:"
 #. File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 156
 #: 
 msgid "No OpenVPN instance defined or enabled."
-msgstr ""
+msgstr "Není definována nebo zapnuta žádná instance OpenVPN"
 
 #. File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 150
 #: 
@@ -219,7 +219,7 @@ msgstr "Interval aktualizace:"
 #. File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
 #: 
 msgid "log entires"
-msgstr ""
+msgstr "položky záznamu událostí"
 
 #. File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
 #: 
@@ -337,7 +337,7 @@ msgstr "Čip"
 #. File: /usr/core/src/www/widgets/api/plugins/system.inc, line: 58
 #: 
 msgid "Current: %s MHz, Max: %s MHz"
-msgstr "Stávající: %s MHz, Nejvýše: %s MHz"
+msgstr "Právě teď: %s MHz, Nejvýše: %s MHz"
 
 #. File: /usr/core/src/www/widgets/api/plugins/gateway.inc, line: 53
 #: 
@@ -1377,7 +1377,7 @@ msgstr "Stupeň podrobnosti"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1542
 #: 
 msgid "Enter any additional options you would like to add to the configuration file here."
-msgstr ""
+msgstr "Sem zadejte všechny další volby které chcete přidat do souboru s nastaveními."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1108
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1535
@@ -1510,7 +1510,7 @@ msgstr "Ověřovat TLS pakety"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 792
 #: 
 msgid "Renegotiate data channel key after n seconds (default=3600). Set to 0 to disable."
-msgstr ""
+msgstr "Znovu dohodnout klíč datového kanálu po n sekundách (výchozí=3600). Vypíná se nastavením na 0 (nula)."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 788
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1573
@@ -1579,17 +1579,17 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 712
 #: 
 msgid "Select remote server at random"
-msgstr ""
+msgstr "Vzdálený server vybrat náhodně"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 670
 #: 
 msgid "Host or address"
-msgstr ""
+msgstr "Název stroje nebo IP adresa"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 664
 #: 
 msgid "Remote server"
-msgstr ""
+msgstr "Server na druhé straně"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 609
 #: 
@@ -1693,7 +1693,7 @@ msgstr "Interval opětovného dohodnutí by měl být platný počet sekund."
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 234
 #: 
 msgid "At least one remote server must be specified."
-msgstr ""
+msgstr "Je třeba určit alespoň jeden vzdálený server."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 224
 #: 
@@ -1761,7 +1761,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 194
 #: 
 msgid "Do not automatically install routes"
-msgstr ""
+msgstr "Neinstalovat trasy automaticky"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 191
 #: 
@@ -2945,7 +2945,7 @@ msgstr "Uložit a vyzkoušet"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 215
 #: 
 msgid "Require passwords to meet complexity rules"
-msgstr ""
+msgstr "Vyžadovat aby hesla splňovala požadavky na komplexitu"
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 213
 #: 
@@ -3061,7 +3061,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 51
 #: 
 msgid "Your password has expired, please provide a new one"
-msgstr ""
+msgstr "Platnost vašeho hesla skončila, nastavte si nové"
 
 #. File: /usr/core/src/www/system_usermanager_import_ldap.php, line: 153
 #: 
@@ -3311,7 +3311,7 @@ msgstr "Uživatelský komentář, slouží pouze pro vaši vlastní informaci"
 #. File: /usr/core/src/www/system_usermanager.php, line: 633
 #: 
 msgid "User's e-mail address, for your own information only"
-msgstr ""
+msgstr "E-mailová adresa uživatele, pouze pro vaši vlastní informaci"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 624
 #: 
@@ -5900,7 +5900,7 @@ msgstr "Swap soubor"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 480
 #: 
 msgid "Disk / Memory Settings (reboot to apply changes)"
-msgstr ""
+msgstr "Nastavení úložiště / operační paměti (pro uplatnění změn je třeba restartovat)"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 471
 #: 
@@ -6784,7 +6784,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 587
 #: 
 msgid "Login Group"
-msgstr ""
+msgstr "Přihlašovací skupina"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 583
 #: 
@@ -6837,12 +6837,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 536
 #: 
 msgid "Enable access log"
-msgstr ""
+msgstr "Zaznamenávat přístupy"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 533
 #: 
 msgid "Access log"
-msgstr ""
+msgstr "Záznam o přístupech"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 528
 #: 
@@ -6902,7 +6902,7 @@ msgstr "Nezaznamenávat úspěšná přihlášení do webového správního rozh
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 477
 #: 
 msgid "Login Messages"
-msgstr ""
+msgstr "Zprávy při přihlášení"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 469
 #: 
@@ -6962,12 +6962,12 @@ msgstr "HTTPS"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 337
 #: 
 msgid "If the page does not reload go here:"
-msgstr ""
+msgstr "Pokud se stránka sama znovu nenačte, přejděte sem:"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 335
 #: 
 msgid "The web GUI is reloading at the moment, please wait..."
-msgstr ""
+msgstr "Webové uživatelské rozhraní se znovu načítá, čekejte…"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 313
 #: 
@@ -6992,7 +6992,7 @@ msgstr "Varování!"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 90
 #: 
 msgid "You must specify a valid SSH port number."
-msgstr ""
+msgstr "Je třeba určit platné číslo portu SSH."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 84
 #: 
@@ -7002,12 +7002,12 @@ msgstr "Alternativní název stroje %s není platný."
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 77
 #: 
 msgid "You must specify a valid web GUI protocol."
-msgstr ""
+msgstr "Je třeba zadat platný protokol webového uživatelského rozhraní."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 73
 #: 
 msgid "You must specify a valid web GUI port number."
-msgstr ""
+msgstr "Je třeba zadat platné číslo portu webového uživatelského rozhraní."
 
 #. File: /usr/core/src/www/status_wireless.php, line: 163
 #: 
@@ -7291,7 +7291,7 @@ msgstr ""
 #. File: /usr/core/src/www/status_ntpd.php, line: 55
 #: 
 msgid "Selected"
-msgstr ""
+msgstr "Zvoleno"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 52
 #: 
@@ -7301,12 +7301,12 @@ msgstr ""
 #. File: /usr/core/src/www/status_ntpd.php, line: 49
 #: 
 msgid "Candidate"
-msgstr ""
+msgstr "Kandidát"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 46
 #: 
 msgid "Active Peer"
-msgstr ""
+msgstr "Aktivní protějšek"
 
 #. File: /usr/core/src/www/status_ntpd.php, line: 43
 #: 
@@ -7606,22 +7606,22 @@ msgstr "IP adresa stroje"
 #. File: /usr/core/src/www/status_graph.php, line: 386
 #: 
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #. File: /usr/core/src/www/status_graph.php, line: 383
 #: 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #. File: /usr/core/src/www/status_graph.php, line: 380
 #: 
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #. File: /usr/core/src/www/status_graph.php, line: 377
 #: 
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #. File: /usr/core/src/www/status_graph.php, line: 364
 #: 
@@ -7632,13 +7632,13 @@ msgstr "Úplný doménový název"
 #. File: /usr/core/src/www/status_graph.php, line: 407
 #: 
 msgid "Total Out"
-msgstr ""
+msgstr "Celkem odchozí"
 
 #. File: /usr/core/src/www/status_graph.php, line: 340
 #. File: /usr/core/src/www/status_graph.php, line: 406
 #: 
 msgid "Total In"
-msgstr ""
+msgstr "Celkem příchozí"
 
 #. File: /usr/core/src/www/status_graph.php, line: 337
 #: 
@@ -8316,7 +8316,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 205
 #: 
 msgid "Local Zone Type"
-msgstr ""
+msgstr "Typ místní zóny"
 
 #. File: /usr/core/src/www/services_unbound.php, line: 200
 #: 
@@ -8349,7 +8349,7 @@ msgstr "Nastavení DNS překladu byla změněna"
 #. File: /usr/core/src/www/services_unbound.php, line: 86
 #: 
 msgid "Local zone type \"%s\" is not known."
-msgstr ""
+msgstr "Typ lokální zóny „%s“ není znám."
 
 #. File: /usr/core/src/www/services_unbound.php, line: 83
 #: 
@@ -8472,7 +8472,7 @@ msgstr "Vyberte režim fungování procesu služby propagace směrovače (RA)."
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 232
 #: 
 msgid "Stateless"
-msgstr ""
+msgstr "Bezstavové"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 229
 #: 
@@ -8622,17 +8622,17 @@ msgstr "GPS zařízení připojené přes sériový port může být použito ja
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 #: 
 msgid "Please click the \"Calculate\" to get a result."
-msgstr ""
+msgstr "Pro obdržení výsledku klikněte na „Spočítat“."
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 #: 
 msgid "Checksum:"
-msgstr ""
+msgstr "Kontrolní součet:"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 513
 #: 
 msgid "Calculate"
-msgstr ""
+msgstr "Spočítat"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 507
 #: 
@@ -10661,7 +10661,7 @@ msgstr "Opravdu chcete tento systém restartovat?"
 #. File: /usr/core/src/www/reboot.php, line: 52
 #: 
 msgid "The system is rebooting now, please wait..."
-msgstr ""
+msgstr "Systém se nyní restartuje, čekejte…"
 
 #. File: /usr/core/src/www/interfaces_wireless_edit.php, line: 142
 #: 
@@ -11874,7 +11874,7 @@ msgstr "Nové rozhraní:"
 #. File: /usr/core/src/www/interfaces_assign.php, line: 422
 #: 
 msgid "Delete interface"
-msgstr ""
+msgstr "Smazat rozhraní"
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 397
 #: 
@@ -12548,7 +12548,7 @@ msgstr "rdm"
 #. File: /usr/core/src/www/interfaces.php, line: 2665
 #: 
 msgid "Algorithm"
-msgstr ""
+msgstr "Algoritmus"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2663
 #: 
@@ -12591,7 +12591,7 @@ msgstr "Předpona rozhraní"
 #. File: /usr/core/src/www/interfaces.php, line: 2639
 #: 
 msgid "IPv6-Prefix"
-msgstr ""
+msgstr "IPv6 předpona"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2638
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 303
@@ -12624,7 +12624,7 @@ msgstr "Upřednostňovaná životnost"
 #. File: /usr/core/src/www/interfaces.php, line: 2623
 #: 
 msgid "IPv6-address"
-msgstr ""
+msgstr "IPv6 adresa"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2618
 #: 
@@ -13206,12 +13206,12 @@ msgstr "Pokud není vyplněno, je použito výchozí MTU rozhraní. To obvykle b
 #. File: /usr/core/src/www/interfaces.php, line: 1768
 #: 
 msgid "Calculated PPP MTU"
-msgstr ""
+msgstr "Spočítané PPP MTU"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1757
 #: 
 msgid "Insert my currently connected MAC address (use with care)"
-msgstr ""
+msgstr "Vložit mou nyní připojenou MAC adresu (použijte s rozmyslem)"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1748
 #: 
@@ -13287,7 +13287,7 @@ msgstr "Sem zadejte popis (název) rozhraní."
 #. File: /usr/core/src/www/interfaces.php, line: 1666
 #: 
 msgid "Prevent interface removal"
-msgstr ""
+msgstr "Zabránit odebrání rozhraní"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1663
 #: 
@@ -15323,7 +15323,7 @@ msgstr "Překlad/cíl"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 558
 #: 
 msgid "Destination invert"
-msgstr ""
+msgstr "Převrácení cíle"
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 553
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 635
@@ -15345,7 +15345,7 @@ msgstr "Tato brána firewall"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 475
 #: 
 msgid "Source invert"
-msgstr ""
+msgstr "Převrácení zdroje"
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 417
 #: 
@@ -15599,7 +15599,7 @@ msgstr "Vnitřní IPv6 předpona"
 #. File: /usr/core/src/www/firewall_nat_npt_edit.php, line: 147
 #: 
 msgid "Edit NAT NPTv6 entry"
-msgstr ""
+msgstr "Upravit NAT NPTv6 položku"
 
 #. File: /usr/core/src/www/firewall_nat_npt_edit.php, line: 90
 #: 
@@ -16439,7 +16439,7 @@ msgstr "Smazat pravidlo"
 #. File: /usr/core/src/www/firewall_nat.php, line: 417
 #: 
 msgid "Move selected rules before this rule"
-msgstr ""
+msgstr "Přesunout vyznačená pravidla před toto pravidlo"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 333
 #. File: /usr/core/src/www/firewall_nat.php, line: 347
@@ -18578,7 +18578,7 @@ msgstr "Záloha proběhla úspěšně, aktuální seznam souborů:"
 #. File: /usr/core/src/www/diag_backup.php, line: 286
 #: 
 msgid "communication failure"
-msgstr ""
+msgstr "nezdar v komunikaci"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 255
 #: 
@@ -19139,12 +19139,12 @@ msgstr "Nezadávat statické trasy pro sítě přiřazené jakémukoli z rozhran
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routes/index.volt, line: 42
 #: 
 msgid "Error reconfiguring routes"
-msgstr ""
+msgstr "Chyba při přenastavování tras"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 267
 #: 
 msgid "Edit blacklist"
-msgstr ""
+msgstr "Upravit seznam vyloučených"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 258
 #: 
@@ -19443,7 +19443,7 @@ msgstr "Změny vstoupí v platnost kliknutím na použít (karta pravidla)"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 #: 
 msgid "Configured action"
-msgstr ""
+msgstr "Nastavená akce"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 399
 #: 
@@ -19458,7 +19458,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 397
 #: 
 msgid "tls version"
-msgstr ""
+msgstr "verze tls"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 396
 #: 
@@ -19468,7 +19468,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 395
 #: 
 msgid "tls fingerprint"
-msgstr ""
+msgstr "tls otisk"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 394
 #: 
@@ -19478,12 +19478,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 393
 #: 
 msgid "tls issuer"
-msgstr ""
+msgstr "tls vydavatel"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 392
 #: 
 msgid "tls subject"
-msgstr ""
+msgstr "tls subjekt"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 391
 #: 
@@ -19498,12 +19498,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 389
 #: 
 msgid "http url"
-msgstr ""
+msgstr "https url"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 388
 #: 
 msgid "http hostname"
-msgstr ""
+msgstr "http název stroje"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 386
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 604
@@ -19896,7 +19896,7 @@ msgstr "podrobnosti zobrazíte kliknutím na výseč grafu"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 710
 #: 
 msgid "Reverse lookup"
-msgstr ""
+msgstr "Zpětný překlad"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 700
 #: 
@@ -20068,12 +20068,12 @@ msgstr "Čas"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 217
 #: 
 msgid "Auto refresh"
-msgstr ""
+msgstr "Automatické obnovování"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 121
 #: 
 msgid "Detailed rule info"
-msgstr ""
+msgstr "Podrobné informace o pravidlu"
 
 #. File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 169
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 181
@@ -20150,12 +20150,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 75
 #: 
 msgid "Flush ARP Table"
-msgstr ""
+msgstr "Vyprázdnit ARP tabulku"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 158
 #: 
 msgid "Edit job"
-msgstr ""
+msgstr "Upravit úlohu"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 225
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 248
@@ -20221,7 +20221,7 @@ msgstr "Úlohy"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/not_found.volt, line: 8
 #: 
 msgid "Go back to previous page"
-msgstr ""
+msgstr "Vrátit se na předchozí stránku"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 854
 #: 
@@ -20371,12 +20371,12 @@ msgstr "Předplatné"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 830
 #: 
 msgid "Select the release type. Use with care."
-msgstr ""
+msgstr "Vybrat typ vydání. Použijte s rozmyslem."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 825
 #: 
 msgid "Release Type"
-msgstr ""
+msgstr "Typ vydání"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 819
 #: 
@@ -20408,17 +20408,17 @@ msgstr "Komentář"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 740
 #: 
 msgid "The next major release is:"
-msgstr ""
+msgstr "Příští hlavní vydání je:"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 739
 #: 
 msgid "This software release has reached its designated end of life."
-msgstr ""
+msgstr "Toto vydání už není podporované."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 737
 #: 
 msgid "Unlock this upgrade"
-msgstr ""
+msgstr "Odemknout tento přechod na novější verzi"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 736
 #: 
@@ -20444,17 +20444,17 @@ msgstr "Prověřit nyní"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 722
 #: 
 msgid "Update now"
-msgstr ""
+msgstr "Aktualizovat nyní"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 560
 #: 
 msgid "Unlock"
-msgstr ""
+msgstr "Odemknout"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 556
 #: 
 msgid "Upgrade instructions"
-msgstr ""
+msgstr "Pokyny k přechodu na novější verzi"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 489
 #: 
@@ -20515,7 +20515,7 @@ msgstr "Přechod na novější verzi je dokončen."
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 325
 #: 
 msgid "Action done."
-msgstr ""
+msgstr "Akce dokončena."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 323
 #: 
@@ -20530,12 +20530,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 262
 #: 
 msgid "The firewall will reboot directly after this firmware update."
-msgstr ""
+msgstr "Brána firewall se restartuje hned po aktualizaci firmware."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 247
 #: 
 msgid "Executing, please wait..."
-msgstr ""
+msgstr "Spouštění, čekejte…"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 260
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 107
@@ -20551,12 +20551,12 @@ msgstr "Zrušit"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 269
 #: 
 msgid "Reboot required"
-msgstr ""
+msgstr "Je třeba restartovat"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 213
 #: 
 msgid "The firewall will reboot directly after this set reinstall."
-msgstr ""
+msgstr "Brána firewall se restartuje přímo po reinstalaci této sady."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 180
 #: 
@@ -20571,17 +20571,17 @@ msgstr "Je nám líto, ale k tomuto balíčku není k dispozici související so
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 166
 #: 
 msgid "Plugin details"
-msgstr ""
+msgstr "Podrobnosti o zásuvném modulu"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 162
 #: 
 msgid "Sorry, plugin details are currently not available."
-msgstr ""
+msgstr "Omlouváme se, podrobnosti o zásuvném modulu nyní nejsou k dispozici."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 145
 #: 
 msgid "Auditing, please wait..."
-msgstr ""
+msgstr "Audituje se, čekejte…"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 122
 #: 
@@ -20611,7 +20611,7 @@ msgstr "Název balíčku"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 39
 #: 
 msgid "Checking, please wait..."
-msgstr ""
+msgstr "Kontroluje se, čekejte…"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 492
 #: 
@@ -20879,7 +20879,7 @@ msgstr "Nahrát soubor"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 244
 #: 
 msgid "Edit zone"
-msgstr ""
+msgstr "Upravit zónu"
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 105
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 105
@@ -21223,37 +21223,37 @@ msgstr "Nebyl nalezen platný config.xml, pokus o obnovení posledního známéh
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 92
 #: 
 msgid "Secure Copy"
-msgstr ""
+msgstr "Zabezpečené kopírování"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 76
 #: 
 msgid "Set the remote directory to backup the config file to."
-msgstr ""
+msgstr "Nastavit vzdálenou složku do které zálohovat soubor s nastaveními."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 75
 #: 
 msgid "Remote Directory"
-msgstr ""
+msgstr "Vzdálená složka"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 70
 #: 
 msgid "Set the remote username."
-msgstr ""
+msgstr "Nastavit uživatelské jméno na protějšku"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 69
 #: 
 msgid "Remote Username"
-msgstr ""
+msgstr "Uživatelské jméno na protějšku"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 64
 #: 
 msgid "Set the remote port."
-msgstr ""
+msgstr "Nastavit port na protějšku."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 58
 #: 
 msgid "Set the remote hostname."
-msgstr ""
+msgstr "Nastavit název protějšího stroje"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 97
 #: 
@@ -21268,12 +21268,12 @@ msgstr "Název složky"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 74
 #: 
 msgid "The app password which has been generated for you"
-msgstr ""
+msgstr "Aplikační heslo, které vám bylo vytvořeno"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 67
 #: 
 msgid "The name you use for logging into your Nextcloud account"
-msgstr ""
+msgstr "Jméno, které používáte pro přihlašování se ke svému Netxcloud"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 66
 #: 
@@ -21283,7 +21283,7 @@ msgstr "Uživatelské jméno"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 60
 #: 
 msgid "The Base URL to Nextcloud. For example: https://cloud.example.com"
-msgstr ""
+msgstr "Základ URL adresy Nextcloud. Například: https://cloud.example.com"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 142
 #. File: /usr/core/src/www/diag_backup.php, line: 146
@@ -21336,7 +21336,7 @@ msgstr "P12 klíč"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 59
 #: 
 msgid "Client-ID in the Google cloud console"
-msgstr ""
+msgstr "Identifikátor klienta v konzoli Google cloud"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 58
 #. File: /usr/core/src/www/system_camanager.php, line: 656
@@ -21400,7 +21400,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 245
 #: 
 msgid "Reverse token order"
-msgstr ""
+msgstr "Obrácené pořadí tokenu"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 239
 #: 
@@ -21455,7 +21455,7 @@ msgstr "Místní + na čase založené jednorázové heslo"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 101
 #: 
 msgid "The username may not be a part of the password"
-msgstr ""
+msgstr "Uživatelské jméno nelze použít také jako část hesla"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 98
 #: 
@@ -21465,22 +21465,22 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 94
 #: 
 msgid "Current password equals new password"
-msgstr ""
+msgstr "Je třeba zadat skutečně nové heslo, ne znovu použít to stávající"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 82
 #: 
 msgid "Password must have at least %d characters"
-msgstr ""
+msgstr "Je třeba, aby heslo bylo přinejmenším %d znaků dlouhé"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 80
 #: 
 msgid "This item has been created by another service, command and parameter may not be changed. (was: %s)"
-msgstr ""
+msgstr "Tato položka byla vytvořena jinou službou, příkaz a parametr by neměly být měněny. (bylo: %s)"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 75
 #: 
 msgid "This item has been created by another service, command and parameter may not be changed."
-msgstr ""
+msgstr "Tato položka byla vytvořena jinou službou, příkaz a parametry by neměly být měněny."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/IndexController.php, line: 44
 #: 
@@ -21569,7 +21569,7 @@ msgstr "neaplikovatelné"
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 81
 #: 
 msgid "The release type requires an update."
-msgstr ""
+msgstr "Typ vydání vyžaduje aktualizaci."
 
 #. File: /usr/core/src/etc/rc.openvpn, line: 66
 #: 
@@ -21803,18 +21803,18 @@ msgstr "Zadaný „Místní port“ je už používán. Zvolte jinou hodnotu."
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 343
 #: 
 msgid "Please enter a different name for the Certicicate. A Certificate with that name/common name already exists."
-msgstr ""
+msgstr "Zadejte jiný název pro certifikát. Tento je už použitý v jiném."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 336
 #: 
 msgid "Please enter all information for the new certificate."
-msgstr ""
+msgstr "Zadejte všechny informace pro nový certifikát."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 243
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 347
 #: 
 msgid "Please enter only a two-letter ISO country code"
-msgstr ""
+msgstr "Zadejte pouze dvoupísmenný kód země dle ISO normy"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 239
 #: 
@@ -21830,13 +21830,13 @@ msgstr "V kolonce Certifikát nepoužívejte zvláštní znaky."
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 232
 #: 
 msgid "Please enter all information for the new Certificate Authority."
-msgstr ""
+msgstr "Zadejte všechny údaje pro novou certifikační autoritu."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 120
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 184
 #: 
 msgid "Please enter a valid IP address or hostname for the authentication server."
-msgstr ""
+msgstr "Zadejte platnou IP adresu nebo název stroje ověřovacího serveru."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 116
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 180
@@ -21848,7 +21848,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 177
 #: 
 msgid "Please enter all information for authentication server."
-msgstr ""
+msgstr "Zadejte veškeré údaje pro ověřovací server."
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 106
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 171
@@ -22490,37 +22490,37 @@ msgstr "Je třeba zadat alespoň jedno vnitřní rozhraní."
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 190
 #: 
 msgid "Test Kerberos login"
-msgstr ""
+msgstr "Vyzkoušet kerberos přihlášení"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 186
 #: 
 msgid "Show Key Table"
-msgstr ""
+msgstr "Zobrazit tabulku klíčů"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 185
 #: 
 msgid "Delete Key Table"
-msgstr ""
+msgstr "Smazat tabulku klíčů"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 184
 #: 
 msgid "Create Key Table"
-msgstr ""
+msgstr "Vytvořit tabulku klíčů"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 164
 #: 
 msgid "Kerberos Authentication"
-msgstr ""
+msgstr "Kerberos ověřování"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 148
 #: 
 msgid "Show dump"
-msgstr ""
+msgstr "Zobrazit výpis"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 85
 #: 
 msgid "Proxy reconfigured"
-msgstr ""
+msgstr "Proxy přenastaveno"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 266
 #: 
@@ -22530,12 +22530,12 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 260
 #: 
 msgid "Do not set localhost as DNS server."
-msgstr ""
+msgstr "Jako DNS server nenastavujte localhost."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 257
 #: 
 msgid "LDAP server is not in DNS servers list."
-msgstr ""
+msgstr "LDAP server se nenachází na seznamu DNS serverů."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 238
 #: 
@@ -22561,7 +22561,7 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 206
 #: 
 msgid "Unknown LDAP server FQDN."
-msgstr ""
+msgstr "Neznámý FQDN název LDAP serveru"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 194
 #: 
@@ -22576,27 +22576,27 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 187
 #: 
 msgid "Unknown LDAP server IP."
-msgstr ""
+msgstr "Neznámá IP adresa LDAP serveru."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 177
 #: 
 msgid "Hostname doesn't resolved to IP."
-msgstr ""
+msgstr "Název stroje se nedaří přeložit na IP adresu."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 174
 #: 
 msgid "Hostname doesn't resolved to host IP."
-msgstr ""
+msgstr "Název stroje nepřeložen na IP adresu stroje."
 
 #. File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 153
 #: 
 msgid "DNS server not found"
-msgstr ""
+msgstr "DNS server nenalezen"
 
 #. File: /usr/plugins/www/web-proxy-sso/src/etc/inc/plugins.inc.d/proxy_sso.inc, line: 27
 #: 
 msgid "Kerberos authentication module"
-msgstr ""
+msgstr "Kerberos ověřovací modul"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 470
 #: 
@@ -22724,17 +22724,17 @@ msgstr ""
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 67
 #: 
 msgid "Onion Service Name"
-msgstr ""
+msgstr "Název Onion služby"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 59
 #: 
 msgid "Onion Service Names"
-msgstr ""
+msgstr "Názvy Onion služeb"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 296
 #: 
 msgid "Edit Hidden Service Credentials"
-msgstr ""
+msgstr "Upravit přihlašovací údaje skryté služby"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 295
 #: 
@@ -22775,7 +22775,7 @@ msgstr ""
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 284
 #: 
 msgid "Reload Service"
-msgstr ""
+msgstr "Znovunačíst službu"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 138
 #: 
@@ -22815,7 +22815,7 @@ msgstr ""
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 102
 #: 
 msgid "Destination Host"
-msgstr ""
+msgstr "Cílový stroj"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 101
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 113
@@ -22831,17 +22831,17 @@ msgstr ""
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 99
 #: 
 msgid "Stream ID"
-msgstr ""
+msgstr "Identifikátor proudu"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 91
 #: 
 msgid "Circuits"
-msgstr ""
+msgstr "Okruhy"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 90
 #: 
 msgid "Streams"
-msgstr ""
+msgstr "Proudy"
 
 #. File: /usr/plugins/security/tor/src/etc/inc/plugins.inc.d/tor.inc, line: 53
 #: 
@@ -22865,17 +22865,17 @@ msgstr "Vaše nastavení pro HAProxy obsahuje drobné chyby"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 454
 #: 
 msgid "Introduction"
-msgstr ""
+msgstr "Úvod"
 
 #. File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 14
 #: 
 msgid "Freshclam"
-msgstr ""
+msgstr "Freshclam"
 
 #. File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 13
 #: 
 msgid "Clamd"
-msgstr ""
+msgstr "Clamd"
 
 #. File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 32
 #: 
@@ -22890,17 +22890,17 @@ msgstr ""
 #. File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 52
 #: 
 msgid "freshclam daemon"
-msgstr ""
+msgstr "proces služby freshclam"
 
 #. File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 38
 #: 
 msgid "ClamAV Daemon"
-msgstr ""
+msgstr "Proces služby ClamAV"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
 #: 
 msgid "Peers"
-msgstr ""
+msgstr "Protějšky"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 123
 #: 
@@ -22910,7 +22910,7 @@ msgstr ""
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 102
 #: 
 msgid "Network Id"
-msgstr ""
+msgstr "Identifikátor sítě"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 #: 
@@ -22920,7 +22920,7 @@ msgstr ""
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 #: 
 msgid "Is the network enabled?"
-msgstr ""
+msgstr "Je síť zapnutá?"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 81
 #: 
@@ -24396,7 +24396,7 @@ msgstr "Statistiky nebylo možné získat. Je HAProxy spuštěné?"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 839
 #: 
 msgid "Edit Error Message"
-msgstr ""
+msgstr "Upravit chybové hlášení"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 838
 #: 
@@ -24436,12 +24436,12 @@ msgstr "Upravit veřejnou službu"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 802
 #: 
 msgid "Error Message Name"
-msgstr ""
+msgstr "Název chybového hlášení"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 801
 #: 
 msgid "Error Message ID"
-msgstr ""
+msgstr "Upravit identif. zprávy"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 768
 #: 
@@ -24570,7 +24570,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 465
 #: 
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "Stručná uživatelská příručka"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 417
 #: 
@@ -24818,7 +24818,7 @@ msgstr "Znaky tabelátory (\\t), nový řádek (\\n) a návrat vozíku (\\r) na 
 #. File: /usr/plugins/net-mgmt/collectd/src/etc/inc/plugins.inc.d/collectd.inc, line: 37
 #: 
 msgid "collectd daemon"
-msgstr ""
+msgstr "proces služby collectd"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 70
 #: 
@@ -24843,7 +24843,7 @@ msgstr ""
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/general.volt, line: 31
 #: 
 msgid "Antispam"
-msgstr ""
+msgstr "Antispam"
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 110
 #: 
@@ -25012,22 +25012,22 @@ msgstr "Aktualizovat URL adresu"
 #. File: /usr/plugins/databases/redis/src/etc/inc/plugins.inc.d/redis.inc, line: 45
 #: 
 msgid "Redis DB"
-msgstr ""
+msgstr "Redis databáze"
 
 #. File: /usr/plugins/benchmarks/iperf/src/etc/inc/plugins.inc.d/iperf.inc, line: 40
 #: 
 msgid "iperf Performance Test"
-msgstr ""
+msgstr "iperf test výkonu"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 47
 #: 
 msgid "%sResult %s%s"
-msgstr ""
+msgstr "%sVýsledek %s%s"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 73
 #: 
 msgid "Remote Port"
-msgstr ""
+msgstr "Port na protějšku"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 79
 #: 
@@ -25037,7 +25037,7 @@ msgstr ""
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 80
 #: 
 msgid "Host System"
-msgstr ""
+msgstr "Hostitelský systém"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 81
 #: 
@@ -25047,22 +25047,22 @@ msgstr ""
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 82
 #: 
 msgid "Remote User"
-msgstr ""
+msgstr "Vzdálený uživatel"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 83
 #: 
 msgid "Remote System"
-msgstr ""
+msgstr "Vzdálený systém"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 86
 #: 
 msgid "Performance Data"
-msgstr ""
+msgstr "Data o výkonnosti"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 93
 #: 
 msgid "Bits Per Second"
-msgstr ""
+msgstr "Bitů za sekundu"
 
 #. File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 134
 #: 
@@ -25723,13 +25723,13 @@ msgstr "Pravidla a kontroly"
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 139
 #: 
 msgid "Scheduler \"%s\" not supported for redirects."
-msgstr ""
+msgstr "Plánovač „%s“ není pro přesměrování podporován"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 147
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 153
 #: 
 msgid "Scheduler \"%s\" not supported for relays."
-msgstr ""
+msgstr "Plánovač „%s“ není pro předávání podporován"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 163
 #: 
@@ -25760,7 +25760,7 @@ msgstr ""
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 209
 #: 
 msgid "Table Checks"
-msgstr ""
+msgstr "Kontroly tabulek"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 212
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 137
@@ -25781,17 +25781,17 @@ msgstr ""
 #. File: /usr/plugins/net/siproxd/src/etc/inc/plugins.inc.d/siproxd.inc, line: 37
 #: 
 msgid "Siproxd Daemon"
-msgstr ""
+msgstr "Proces služby siproxd"
 
 #. File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 34
 #: 
 msgid "Outbound Domains"
-msgstr ""
+msgstr "Odchozí domény"
 
 #. File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 35
 #: 
 msgid "Current registrations"
-msgstr ""
+msgstr "Stávající registrace"
 
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 141
 #. File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 156
@@ -25869,7 +25869,7 @@ msgstr "Stav DHCP zápůjček"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 767
 #: 
 msgid "Lua Script ID"
-msgstr ""
+msgstr "Identifikátor Lua skriptu"
 
 #. File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 61
 #: 
@@ -25923,7 +25923,7 @@ msgstr "vnitřní chyba"
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 344
 #: 
 msgid "Confirmation Required"
-msgstr ""
+msgstr "Je třeba potvrdit"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 323
 #: 
@@ -25933,7 +25933,7 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 345
 #: 
 msgid "Revoke selected certificate?"
-msgstr ""
+msgstr "Odvolat platnost označeného certifikátu?"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 394
 #: 
@@ -26061,7 +26061,7 @@ msgstr "výsledek kontroly nastavení pro HAProxy"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 411
 #: 
 msgid "Rules & Checks"
-msgstr ""
+msgstr "Pravidla a kontroly"
 
 #. File: /usr/plugins/security/tinc/src/etc/inc/plugins.inc.d/tinc.inc, line: 70
 #: 
@@ -26133,7 +26133,7 @@ msgstr ""
 #. File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/views/OPNsense/CICAP/general.volt, line: 34
 #: 
 msgid "Antivirus"
-msgstr ""
+msgstr "Antivir"
 
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 345
 #: 
@@ -26148,7 +26148,7 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 292
 #: 
 msgid "No authentication method selected"
-msgstr ""
+msgstr "Není vybrána žádná metoda ověřování"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 298
 #: 
@@ -26163,12 +26163,12 @@ msgstr ""
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 314
 #: 
 msgid "Error connecting to LDAP server"
-msgstr ""
+msgstr "Chyba při připojování k LDAP serveru"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 339
 #: 
 msgid "The %s %s does not exist"
-msgstr ""
+msgstr "%s %s neexistuje"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/index.volt, line: 155
 #: 
@@ -26223,12 +26223,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 39
 #: 
 msgid "AD admin login"
-msgstr ""
+msgstr "Uživatelské jméno správce AD"
 
 #. File: /usr/lang/src/controllers.php, line: 40
 #: 
 msgid "AD admin password"
-msgstr ""
+msgstr "Heslo správce AD"
 
 #. File: /usr/lang/src/controllers.php, line: 41
 #: 
@@ -26293,12 +26293,12 @@ msgstr "Dle typu služby umístění může být soubor nebo složka."
 #. File: /usr/lang/src/controllers.php, line: 53
 #: 
 msgid "Act as a relay."
-msgstr ""
+msgstr "Působit jako relay."
 
 #. File: /usr/lang/src/controllers.php, line: 54
 #: 
 msgid "Act as an exit."
-msgstr ""
+msgstr "Působit jako exit."
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 86
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 86
@@ -26433,7 +26433,7 @@ msgstr "E-mail správce"
 #. File: /usr/lang/src/controllers.php, line: 72
 #: 
 msgid "Advanced SSL settings"
-msgstr ""
+msgstr "Pokročilá nastavení SSL"
 
 #. File: /usr/lang/src/controllers.php, line: 73
 #: 
@@ -26459,7 +26459,7 @@ msgstr "Port agenta"
 #. File: /usr/lang/src/controllers.php, line: 77
 #: 
 msgid "Allow 204 responses"
-msgstr ""
+msgstr "Umožnit odpovědi 204"
 
 #. File: /usr/lang/src/controllers.php, line: 78
 #: 
@@ -26489,7 +26489,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 83
 #: 
 msgid "Allow TLS Only"
-msgstr ""
+msgstr "Umožnit pouze TLS"
 
 #. File: /usr/lang/src/controllers.php, line: 84
 #: 
@@ -26596,7 +26596,7 @@ msgstr "Oblast ve stylu zástupné masky jako 0.0.0.0 a ne desítková 0"
 #. File: /usr/lang/src/controllers.php, line: 102
 #: 
 msgid "At least two interfaces must be selected."
-msgstr ""
+msgstr "Je třeba vybrat alespoň dvě rozhraní"
 
 #. File: /usr/lang/src/controllers.php, line: 103
 #: 
@@ -26677,12 +26677,12 @@ msgstr "Proces ověřování"
 #. File: /usr/lang/src/controllers.php, line: 117
 #: 
 msgid "Authorization type"
-msgstr ""
+msgstr "Typ pověření"
 
 #. File: /usr/lang/src/controllers.php, line: 118
 #: 
 msgid "Authorized clients"
-msgstr ""
+msgstr "Oprávnění klienti"
 
 #. File: /usr/lang/src/controllers.php, line: 119
 #: 
@@ -26722,12 +26722,12 @@ msgstr "BGP soused"
 #. File: /usr/lang/src/controllers.php, line: 126
 #: 
 msgid "Backend"
-msgstr ""
+msgstr "Podpůrná vrstva"
 
 #. File: /usr/lang/src/controllers.php, line: 127
 #: 
 msgid "Backup Check Interval"
-msgstr ""
+msgstr "Interval kontroly zálohy"
 
 #. File: /usr/lang/src/controllers.php, line: 128
 #: 
@@ -26737,17 +26737,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 129
 #: 
 msgid "Backup Table"
-msgstr ""
+msgstr "Záložní tabulka"
 
 #. File: /usr/lang/src/controllers.php, line: 130
 #: 
 msgid "Backup Table Check"
-msgstr ""
+msgstr "Kontrola záložní tabulky"
 
 #. File: /usr/lang/src/controllers.php, line: 131
 #: 
 msgid "Backup Table Scheduler"
-msgstr ""
+msgstr "Plánovač záložní tabulky"
 
 #. File: /usr/lang/src/controllers.php, line: 132
 #: 
@@ -26757,7 +26757,7 @@ msgstr "Algoritmus vyvažování"
 #. File: /usr/lang/src/controllers.php, line: 133
 #: 
 msgid "Bandwith Burst"
-msgstr ""
+msgstr "Dávka přenosového pásma"
 
 #. File: /usr/lang/src/controllers.php, line: 134
 #: 
@@ -26834,7 +26834,7 @@ msgstr "Blokovat dle prohlížeče (user-agent)"
 #. File: /usr/lang/src/controllers.php, line: 148
 #: 
 msgid "Block encrypted archive"
-msgstr ""
+msgstr "Blokovat šifrované archivy"
 
 #. File: /usr/lang/src/controllers.php, line: 149
 #: 
@@ -26956,7 +26956,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 172
 #: 
 msgid "Cache Expiration"
-msgstr ""
+msgstr "Skončení platnosti mezipaměti"
 
 #. File: /usr/lang/src/controllers.php, line: 173
 #: 
@@ -27086,17 +27086,17 @@ msgstr "Zvolte TCP port který použít pro stránku s místními statistikami. 
 #. File: /usr/lang/src/controllers.php, line: 195
 #: 
 msgid "Choose a load balancing algorithm."
-msgstr ""
+msgstr "Zvolte algoritmus rozkládání zátěže."
 
 #. File: /usr/lang/src/controllers.php, line: 196
 #: 
 msgid "Choose a logical operator."
-msgstr ""
+msgstr "Zvolte logický operátor."
 
 #. File: /usr/lang/src/controllers.php, line: 197
 #: 
 msgid "Choose a persistence type."
-msgstr ""
+msgstr "Zvolte typ perzistence"
 
 #. File: /usr/lang/src/controllers.php, line: 198
 #: 
@@ -27121,7 +27121,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 202
 #: 
 msgid "Choose error messages."
-msgstr ""
+msgstr "Zvolte chybové zprávy."
 
 #. File: /usr/lang/src/controllers.php, line: 203
 #: 
@@ -27181,12 +27181,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 214
 #: 
 msgid "Choose the cipher to use for encryption."
-msgstr ""
+msgstr "Zvolte jakým algoritmem šifrovat."
 
 #. File: /usr/lang/src/controllers.php, line: 215
 #: 
 msgid "Choose the interface on which the port should be opened."
-msgstr ""
+msgstr "Zvolte rozhraní na kterém má být port otevřen."
 
 #. File: /usr/lang/src/controllers.php, line: 216
 #: 
@@ -27216,17 +27216,17 @@ msgstr "Šifra"
 #. File: /usr/lang/src/controllers.php, line: 221
 #: 
 msgid "Cipher List"
-msgstr ""
+msgstr "Seznam šifer"
 
 #. File: /usr/lang/src/controllers.php, line: 222
 #: 
 msgid "ClamAV engine version"
-msgstr ""
+msgstr "Verze ClamAV engine"
 
 #. File: /usr/lang/src/controllers.php, line: 223
 #: 
 msgid "ClamAV will scan within archives and compressed files."
-msgstr ""
+msgstr "ClamAV bude skenovat v archivech a komprimovaných souborech."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 757
 #. File: /usr/lang/src/controllers.php, line: 224
@@ -27315,7 +27315,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 239
 #: 
 msgid "Comparison"
-msgstr ""
+msgstr "Porovnání"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1241
 #. File: /usr/lang/src/controllers.php, line: 240
@@ -27338,7 +27338,7 @@ msgstr "Podmínka"
 #. File: /usr/lang/src/controllers.php, line: 243
 #: 
 msgid "Condition type"
-msgstr ""
+msgstr "Typ podmínky"
 
 #. File: /usr/lang/src/controllers.php, line: 244
 #: 
@@ -27370,7 +27370,7 @@ msgstr "Časový limit spojení"
 #. File: /usr/lang/src/models.php, line: 136
 #: 
 msgid "Connection rate"
-msgstr ""
+msgstr "Rychlost spojení"
 
 #. File: /usr/lang/src/controllers.php, line: 250
 #: 
@@ -27385,7 +27385,7 @@ msgstr "Spojení pocházejí od (src) nebo jdoucí na (dst) zemí, uvedených na
 #. File: /usr/lang/src/controllers.php, line: 252
 #: 
 msgid "Connections count"
-msgstr ""
+msgstr "Počet spojení"
 
 #. File: /usr/lang/src/controllers.php, line: 253
 #: 
@@ -27405,7 +27405,7 @@ msgstr "Obsah"
 #. File: /usr/lang/src/controllers.php, line: 256
 #: 
 msgid "Control Port"
-msgstr ""
+msgstr "Řídící port"
 
 #. File: /usr/lang/src/controllers.php, line: 257
 #: 
@@ -27450,7 +27450,7 @@ msgstr "Země které hlásit nebo blokovat na základě GeoIP."
 #. File: /usr/lang/src/controllers.php, line: 263
 #: 
 msgid "Create a logfile"
-msgstr ""
+msgstr "Vytvořit soubor se záznamem"
 
 #. File: /usr/lang/src/controllers.php, line: 264
 #: 
@@ -27491,7 +27491,7 @@ msgstr "Zákazník"
 #. File: /usr/lang/src/controllers.php, line: 271
 #: 
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #. File: /usr/lang/src/controllers.php, line: 272
 #: 
@@ -27553,12 +27553,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 283
 #: 
 msgid "Data received"
-msgstr ""
+msgstr "Obdrženo dat"
 
 #. File: /usr/lang/src/controllers.php, line: 284
 #: 
 msgid "Data sent"
-msgstr ""
+msgstr "Odesláno dat"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 466
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 367
@@ -27678,7 +27678,7 @@ msgstr "Výchozí volba pro veškeré serverové položky."
 #. File: /usr/lang/src/controllers.php, line: 307
 #: 
 msgid "Default target account"
-msgstr ""
+msgstr "Výchozí cílový účet"
 
 #. File: /usr/lang/src/controllers.php, line: 308
 #: 
@@ -27974,7 +27974,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 337
 #: 
 msgid "Disable Weak Ciphers And Algorithms"
-msgstr ""
+msgstr "Nepoužívat slabé šifry a algoritmy"
 
 #. File: /usr/lang/src/controllers.php, line: 338
 #: 
@@ -28024,7 +28024,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 343
 #: 
 msgid "Disk Mount Points"
-msgstr ""
+msgstr "Přípojné body disku"
 
 #. File: /usr/lang/src/controllers.php, line: 344
 #: 
@@ -28044,7 +28044,7 @@ msgstr "Na doménu útočící"
 #. File: /usr/lang/src/controllers.php, line: 347
 #: 
 msgid "Domainname"
-msgstr ""
+msgstr "Název domény"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/index.volt, line: 127
 #. File: /usr/lang/src/controllers.php, line: 348
@@ -28178,7 +28178,7 @@ msgstr "Zapnout aktivní kontroly"
 #. File: /usr/lang/src/controllers.php, line: 366
 #: 
 msgid "Enable Advanced settings"
-msgstr ""
+msgstr "Zapnout pokročilá nastavení"
 
 #. File: /usr/lang/src/controllers.php, line: 367
 #: 
@@ -28193,7 +28193,7 @@ msgstr "Zapnout automatické nastavení"
 #. File: /usr/lang/src/controllers.php, line: 369
 #: 
 msgid "Enable CDP"
-msgstr ""
+msgstr "Zapnout CDP"
 
 #. File: /usr/lang/src/controllers.php, line: 370
 #: 
@@ -28203,7 +28203,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 371
 #: 
 msgid "Enable ClamAV"
-msgstr ""
+msgstr "Zapnout ClamAV"
 
 #. File: /usr/lang/src/controllers.php, line: 372
 #: 
@@ -28243,7 +28243,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 379
 #: 
 msgid "Enable Graphite Output"
-msgstr ""
+msgstr "Zapnout Graphite výstup"
 
 #. File: /usr/lang/src/controllers.php, line: 380
 #: 
@@ -28303,7 +28303,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 391
 #: 
 msgid "Enable LDAP"
-msgstr ""
+msgstr "Používat LDAP"
 
 #. File: /usr/lang/src/controllers.php, line: 392
 #: 
@@ -28368,12 +28368,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 404
 #: 
 msgid "Enable Redis"
-msgstr ""
+msgstr "Zapnout Redis"
 
 #. File: /usr/lang/src/controllers.php, line: 405
 #: 
 msgid "Enable Redis Plugin"
-msgstr ""
+msgstr "Zapnout zásuvný modul Redis"
 
 #. File: /usr/lang/src/controllers.php, line: 406
 #: 
@@ -28453,7 +28453,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 421
 #: 
 msgid "Enable TCP port"
-msgstr ""
+msgstr "Zapnout TCP port"
 
 #. File: /usr/lang/src/controllers.php, line: 422
 #: 
@@ -28468,7 +28468,7 @@ msgstr "Zapnout transparentní HTTP proxy"
 #. File: /usr/lang/src/controllers.php, line: 424
 #: 
 msgid "Enable Transparent Proxy"
-msgstr ""
+msgstr "Zapnout transparentní proxy"
 
 #. File: /usr/lang/src/controllers.php, line: 425
 #: 
@@ -28513,7 +28513,7 @@ msgstr "Zapnout aktivní kontroly."
 #. File: /usr/lang/src/controllers.php, line: 433
 #: 
 msgid "Enable advanced SSL settings."
-msgstr ""
+msgstr "Pokročilá nastavení SSL"
 
 #. File: /usr/lang/src/controllers.php, line: 434
 #: 
@@ -28568,7 +28568,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 444
 #: 
 msgid "Enable df plugin"
-msgstr ""
+msgstr "Zapnout zásuvný modul df"
 
 #. File: /usr/lang/src/controllers.php, line: 445
 #: 
@@ -28608,7 +28608,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 452
 #: 
 msgid "Enable graphite plugin"
-msgstr ""
+msgstr "Zapnout zásuvný modul graphite"
 
 #. File: /usr/lang/src/controllers.php, line: 453
 #: 
@@ -28623,7 +28623,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 455
 #: 
 msgid "Enable if you want to use previews."
-msgstr ""
+msgstr "Zapněte pokud chcete používat náhledy"
 
 #. File: /usr/lang/src/controllers.php, line: 456
 #: 
@@ -28633,7 +28633,7 @@ msgstr "Vkládat hlavičky X-Forwarded-For do požadavků odesílaných serverů
 #. File: /usr/lang/src/controllers.php, line: 457
 #: 
 msgid "Enable interface plugin"
-msgstr ""
+msgstr "Zapnout modul rozhraní"
 
 #. File: /usr/lang/src/controllers.php, line: 458
 #: 
@@ -28648,7 +28648,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 460
 #: 
 msgid "Enable local cache"
-msgstr ""
+msgstr "Používat místní mezipaměť"
 
 #. File: /usr/lang/src/controllers.php, line: 461
 #: 
@@ -28673,7 +28673,7 @@ msgstr "Zapnout monit"
 #. File: /usr/lang/src/controllers.php, line: 465
 #: 
 msgid "Enable network plugin"
-msgstr ""
+msgstr "Zapnout zásuvný modul síť"
 
 #. File: /usr/lang/src/controllers.php, line: 466
 #: 
@@ -28683,7 +28683,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 467
 #: 
 msgid "Enable or disable Relayd."
-msgstr ""
+msgstr "Zapnout nebo vypnout Relayd."
 
 #. File: /usr/lang/src/controllers.php, line: 468
 #: 
@@ -28743,7 +28743,7 @@ msgstr "Zapnout nebo vypnout službu HAProxy."
 #. File: /usr/lang/src/controllers.php, line: 479
 #: 
 msgid "Enable or disable the Redis service."
-msgstr ""
+msgstr "Zapnout nebo vypnout službu Redis."
 
 #. File: /usr/lang/src/controllers.php, line: 480
 #: 
@@ -28783,7 +28783,7 @@ msgstr "Vypnout či zapnout používání místní mezipaměti. Je podporován p
 #. File: /usr/lang/src/controllers.php, line: 487
 #: 
 msgid "Enable or disable the nut service."
-msgstr ""
+msgstr "Vypnout nebo zapnout službu nut."
 
 #. File: /usr/lang/src/controllers.php, line: 488
 #: 
@@ -28843,7 +28843,7 @@ msgstr "Zapnout vzdálený přístup"
 #. File: /usr/lang/src/controllers.php, line: 499
 #: 
 msgid "Enable rspamd"
-msgstr ""
+msgstr "Zapnout rspamd"
 
 #. File: /usr/lang/src/controllers.php, line: 500
 #: 
@@ -29063,7 +29063,7 @@ msgstr "Zapnout zásuvný modul uživatelů"
 #. File: /usr/lang/src/controllers.php, line: 543
 #: 
 msgid "Enable verbose logging."
-msgstr ""
+msgstr "Zaznamenávat události podrobněji."
 
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 84
 #. File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 84
@@ -29163,12 +29163,12 @@ msgstr "Vynutit místní skupinu"
 #. File: /usr/lang/src/controllers.php, line: 551
 #: 
 msgid "Enter FQDN here. Finish with TAB."
-msgstr ""
+msgstr "Sem zadejte FQDN. Zakončete tabulátorem"
 
 #. File: /usr/lang/src/controllers.php, line: 552
 #: 
 msgid "Enter IP addresses here. Finish each with TAB."
-msgstr ""
+msgstr "IP adresy zadávejte sem. Za každou přidejte TAB."
 
 #. File: /usr/lang/src/controllers.php, line: 553
 #: 
@@ -29184,7 +29184,7 @@ msgstr "Zadejte MAC adresu ve formátu: xx:xx:xx:xx:xx:xx"
 #. File: /usr/lang/src/controllers.php, line: 555
 #: 
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx."
-msgstr ""
+msgstr "Zadejte MAC adresu v následujícím formátu: xx:xx:xx:xx:xx:xx."
 
 #. File: /usr/lang/src/controllers.php, line: 556
 #: 
@@ -29209,12 +29209,12 @@ msgstr "Zadejte název souboru ve kterém tento seznam vyloučených bude ulože
 #. File: /usr/lang/src/controllers.php, line: 560
 #: 
 msgid "Enter a name of user/group. Group name is case sensitive."
-msgstr ""
+msgstr "Zadejte jméno uživatele / název skupiny. V názvu skupiny jsou rozlišována velká a malá písmena."
 
 #. File: /usr/lang/src/controllers.php, line: 561
 #: 
 msgid "Enter a network which will be used as an IP Pool to map onion Hosts."
-msgstr ""
+msgstr "Zadejte síť která bude sloužit jako fond IP adres na které mapovat onion hostitele."
 
 #. File: /usr/lang/src/controllers.php, line: 562
 #: 
@@ -29234,12 +29234,12 @@ msgstr "Zadejte platný TCP port."
 #. File: /usr/lang/src/controllers.php, line: 565
 #: 
 msgid "Enter address:port here. Finish with TAB."
-msgstr ""
+msgstr "Sem zadejte adresu:port. Zakončete tabulátorem"
 
 #. File: /usr/lang/src/controllers.php, line: 566
 #: 
 msgid "Enter an end port if you want to use a port range."
-msgstr ""
+msgstr "Pokud chcete zadat rozsah portů, zadejte koncový port."
 
 #. File: /usr/lang/src/controllers.php, line: 567
 #: 
@@ -29274,7 +29274,7 @@ msgstr "Zadejte adresu serveru."
 #. File: /usr/lang/src/controllers.php, line: 573
 #: 
 msgid "Enter the URL of the ICAP Server"
-msgstr ""
+msgstr "Zadejte URL adresu ICAP serveru"
 
 #. File: /usr/lang/src/controllers.php, line: 574
 #: 
@@ -29304,7 +29304,7 @@ msgstr "Zadejte dny v týdnu ve kterých bude úloha spouštěna, může být t�
 #. File: /usr/lang/src/controllers.php, line: 579
 #: 
 msgid "Enter the default ttl."
-msgstr ""
+msgstr "Zadejte výchozí ttl."
 
 #. File: /usr/lang/src/controllers.php, line: 580
 #: 
@@ -29364,12 +29364,12 @@ msgstr "Zadejte počet vláken procesu zpracovávání ssl certifikátů (sslcrt
 #. File: /usr/lang/src/controllers.php, line: 591
 #: 
 msgid "Enter the port of your target server."
-msgstr ""
+msgstr "Zadejte port cílového serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 592
 #: 
 msgid "Enter the size of the SPF cache in kilobytes. Default is 2k."
-msgstr ""
+msgstr "Zadejte velikost SPF mezipaměti (v kilobajtech). Výchozí je 2K."
 
 #. File: /usr/lang/src/controllers.php, line: 593
 #: 
@@ -29379,7 +29379,7 @@ msgstr "Zadejte velikost náhledu který je posílán na ICAP server."
 #. File: /usr/lang/src/controllers.php, line: 594
 #: 
 msgid "Enter the size of the preview."
-msgstr ""
+msgstr "Zadejte velikost náhledu."
 
 #. File: /usr/lang/src/controllers.php, line: 595
 #: 
@@ -29399,12 +29399,12 @@ msgstr "Zadejte url na kterou posílat RESPMOD požadavky."
 #. File: /usr/lang/src/controllers.php, line: 598
 #: 
 msgid "Enter this computer account name to register in AD for kerberos access. Default is hostname with suffix '-K'."
-msgstr ""
+msgstr "Zadejte název účtu počítače pro registraci v AD pro kerberos přístup. Výchozí je název stroje s příponou „-K“"
 
 #. File: /usr/lang/src/controllers.php, line: 599
 #: 
 msgid "Enter user:password here. Finish with TAB."
-msgstr ""
+msgstr "Sem zadejte uzivatel:heslo. Zakončete tabulátorem"
 
 #. File: /usr/lang/src/controllers.php, line: 600
 #: 
@@ -29447,7 +29447,7 @@ msgstr "Výjimky"
 #. File: /usr/lang/src/controllers.php, line: 607
 #: 
 msgid "Exclusion List"
-msgstr ""
+msgstr "Seznam výjimek"
 
 #. File: /usr/lang/src/controllers.php, line: 608
 #: 
@@ -29457,7 +29457,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 609
 #: 
 msgid "Execute function"
-msgstr ""
+msgstr "Vykonat funkci"
 
 #. File: /usr/lang/src/controllers.php, line: 610
 #: 
@@ -29467,7 +29467,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 611
 #: 
 msgid "Execution Statistics"
-msgstr ""
+msgstr "Statistiky vykonávání"
 
 #. File: /usr/lang/src/controllers.php, line: 612
 #: 
@@ -29584,7 +29584,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 634
 #: 
 msgid "Filesystem Statistics"
-msgstr ""
+msgstr "Statistiky souborového systému"
 
 #. File: /usr/lang/src/controllers.php, line: 635
 #: 
@@ -29619,7 +29619,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 641
 #: 
 msgid "Follow directory symlinks"
-msgstr ""
+msgstr "Následovat symbolické odkazy na složky"
 
 #. File: /usr/lang/src/controllers.php, line: 642
 #: 
@@ -29734,7 +29734,7 @@ msgstr "Obecná nastavení pro přeposílání"
 #. File: /usr/lang/src/controllers.php, line: 661
 #: 
 msgid "General Nut Settings"
-msgstr ""
+msgstr "Obecná nastavení Nut"
 
 #. File: /usr/lang/src/controllers.php, line: 662
 #: 
@@ -29744,12 +29744,12 @@ msgstr "Obecná nastavení proxy"
 #. File: /usr/lang/src/controllers.php, line: 663
 #: 
 msgid "General Redis Settings"
-msgstr ""
+msgstr "Obecná nastavení Redis"
 
 #. File: /usr/lang/src/controllers.php, line: 664
 #: 
 msgid "General Rspamd Settings"
-msgstr ""
+msgstr "Obecná nastavení Rspamd"
 
 #. File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 207
 #. File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 276
@@ -29772,7 +29772,7 @@ msgstr "GoeIP/Směř"
 #. File: /usr/lang/src/controllers.php, line: 668
 #: 
 msgid "Get the number of processes and group them by status."
-msgstr ""
+msgstr "Získat počet procesů a seskupit je dle stavu."
 
 #. File: /usr/lang/src/controllers.php, line: 669
 #: 
@@ -29787,7 +29787,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 671
 #: 
 msgid "Given name, last name, or anything you need to describe."
-msgstr ""
+msgstr "Jméno, příjmení nebo cokoli je potřeba popsat."
 
 #. File: /usr/lang/src/controllers.php, line: 672
 #: 
@@ -29838,12 +29838,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 681
 #: 
 msgid "Graphite Server"
-msgstr ""
+msgstr "Graphite server"
 
 #. File: /usr/lang/src/controllers.php, line: 682
 #: 
 msgid "Graphite Template"
-msgstr ""
+msgstr "Graphite šablona"
 
 #. File: /usr/lang/src/controllers.php, line: 683
 #: 
@@ -29853,12 +29853,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 684
 #: 
 msgid "Graphite collector node name"
-msgstr ""
+msgstr "Název uzlu s Graphite sběračem"
 
 #. File: /usr/lang/src/controllers.php, line: 685
 #: 
 msgid "Graphite collector port"
-msgstr ""
+msgstr "Port Graphite sběrače"
 
 #. File: /usr/lang/src/controllers.php, line: 686
 #: 
@@ -29868,7 +29868,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 687
 #: 
 msgid "Graylog Server"
-msgstr ""
+msgstr "Graylog server"
 
 #. File: /usr/lang/src/controllers.php, line: 688
 #: 
@@ -29888,7 +29888,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 691
 #: 
 msgid "Group/User"
-msgstr ""
+msgstr "Skupina/uživatel"
 
 #. File: /usr/lang/src/controllers.php, line: 692
 #. File: /usr/lang/src/models.php, line: 233
@@ -29909,7 +29909,7 @@ msgstr "Začlenění HAProxy"
 #. File: /usr/lang/src/controllers.php, line: 695
 #: 
 msgid "HAProxy function"
-msgstr ""
+msgstr "HAProxy funkce"
 
 #. File: /usr/lang/src/controllers.php, line: 696
 #: 
@@ -29944,7 +29944,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 702
 #: 
 msgid "HTTP Header"
-msgstr ""
+msgstr "HTTP hlavička"
 
 #. File: /usr/lang/src/controllers.php, line: 703
 #: 
@@ -29960,7 +29960,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 705
 #: 
 msgid "HTTP Redirect"
-msgstr ""
+msgstr "HTTP přesměrování"
 
 #. File: /usr/lang/src/controllers.php, line: 706
 #: 
@@ -29975,7 +29975,7 @@ msgstr "Služba HTTP"
 #. File: /usr/lang/src/controllers.php, line: 708
 #: 
 msgid "HTTP Status Code"
-msgstr ""
+msgstr "HTTP stavový kód"
 
 #. File: /usr/lang/src/controllers.php, line: 709
 #: 
@@ -29986,13 +29986,13 @@ msgstr "Předvolby kontroly HTTP"
 #. File: /usr/lang/src/models.php, line: 240
 #: 
 msgid "HTTP error count"
-msgstr ""
+msgstr "Počet HTTP chyb"
 
 #. File: /usr/lang/src/controllers.php, line: 711
 #. File: /usr/lang/src/models.php, line: 241
 #: 
 msgid "HTTP error rate"
-msgstr ""
+msgstr "Četnost HTTP chyb"
 
 #. File: /usr/lang/src/controllers.php, line: 712
 #: 
@@ -30068,13 +30068,13 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 242
 #: 
 msgid "HTTP request count"
-msgstr ""
+msgstr "Počet HTTP požadavků"
 
 #. File: /usr/lang/src/controllers.php, line: 727
 #. File: /usr/lang/src/models.php, line: 243
 #: 
 msgid "HTTP request rate"
-msgstr ""
+msgstr "Četnost HTTP požadavků"
 
 #. File: /usr/lang/src/controllers.php, line: 728
 #: 
@@ -30089,7 +30089,7 @@ msgstr "Verze HTTP"
 #. File: /usr/lang/src/controllers.php, line: 730
 #: 
 msgid "HTTP(S) settings"
-msgstr ""
+msgstr "Nastavení HTTP(S)"
 
 #. File: /usr/lang/src/controllers.php, line: 731
 #. File: /usr/lang/src/models.php, line: 244
@@ -30105,7 +30105,7 @@ msgstr "Nepřekročitelný časový limit (minuty)"
 #. File: /usr/lang/src/controllers.php, line: 733
 #: 
 msgid "Header Content"
-msgstr ""
+msgstr "Obsah hlavičky"
 
 #. File: /usr/lang/src/controllers.php, line: 734
 #: 
@@ -30150,7 +30150,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 742
 #: 
 msgid "History Cache Size"
-msgstr ""
+msgstr "Velikost mezipaměti historie"
 
 #. File: /usr/lang/src/controllers.php, line: 743
 #: 
@@ -30301,7 +30301,7 @@ msgstr "Jak často obnovovat seznam aktivních kontrol (v sekundách)."
 #. File: /usr/lang/src/models.php, line: 264
 #: 
 msgid "Hurricane Electric"
-msgstr ""
+msgstr "Hurricane Electric"
 
 #. File: /usr/lang/src/controllers.php, line: 764
 #: 
@@ -30426,7 +30426,7 @@ msgstr "Generace IP"
 #. File: /usr/lang/src/controllers.php, line: 773
 #: 
 msgid "IP address or hostname of Zabbix server."
-msgstr ""
+msgstr "IP adresa nebo název Zabbix serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 774
 #: 
@@ -30436,7 +30436,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 775
 #: 
 msgid "IP address or hostname of the server."
-msgstr ""
+msgstr "IP adresa nebo název serveru"
 
 #. File: /usr/lang/src/controllers.php, line: 776
 #: 
@@ -30456,7 +30456,7 @@ msgstr "IPSConfig"
 #. File: /usr/lang/src/controllers.php, line: 779
 #: 
 msgid "IPv4 Mask"
-msgstr ""
+msgstr "IPv4 maska"
 
 #. File: /usr/lang/src/controllers.php, line: 780
 #: 
@@ -30528,7 +30528,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 793
 #: 
 msgid "If set, the mail will be rejected."
-msgstr ""
+msgstr "Pokud je nastaveno, e-mail bude odmítnut"
 
 #. File: /usr/lang/src/controllers.php, line: 794
 #: 
@@ -30588,7 +30588,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 805
 #: 
 msgid "If you check this, a log file will be written to disk."
-msgstr ""
+msgstr "Pokud toto zaškrtnete, bude soubor se záznamem událostí zapsán nad disk."
 
 #. File: /usr/lang/src/controllers.php, line: 806
 #: 
@@ -30633,7 +30633,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 814
 #: 
 msgid "Inbound interface"
-msgstr ""
+msgstr "Příchozí rozhraní"
 
 #. File: /usr/lang/src/controllers.php, line: 815
 #: 
@@ -30735,7 +30735,7 @@ msgstr "Rozhraní"
 #. File: /usr/lang/src/controllers.php, line: 821
 #: 
 msgid "Interface Configuration"
-msgstr ""
+msgstr "Nastavení rozhraní"
 
 #. File: /usr/lang/src/controllers.php, line: 822
 #: 
@@ -30768,7 +30768,7 @@ msgstr "Vnitřní číslo použité pro tuto zónu"
 #. File: /usr/lang/src/controllers.php, line: 825
 #: 
 msgid "Interrupts Statistics"
-msgstr ""
+msgstr "Statistiky přerušení"
 
 #. File: /usr/lang/src/controllers.php, line: 826
 #: 
@@ -30840,12 +30840,12 @@ msgstr "LDAP server"
 #. File: /usr/lang/src/controllers.php, line: 839
 #: 
 msgid "LDAP Server accessible"
-msgstr ""
+msgstr "LDAP server přístupný"
 
 #. File: /usr/lang/src/controllers.php, line: 840
 #: 
 msgid "LDAP Server configuration"
-msgstr ""
+msgstr "Nastavení LDAP serveru"
 
 #. File: /usr/lang/src/controllers.php, line: 841
 #: 
@@ -30885,12 +30885,12 @@ msgstr "Let's Encrypt prostředí"
 #. File: /usr/lang/src/controllers.php, line: 848
 #: 
 msgid "Lifetime of Redis cache - 1 day by default."
-msgstr ""
+msgstr "Životnost Redis mezipaměti – ve výchozím stavu jeden den."
 
 #. File: /usr/lang/src/controllers.php, line: 849
 #: 
 msgid "Limits"
-msgstr ""
+msgstr "Limity"
 
 #. File: /usr/lang/src/controllers.php, line: 850
 #: 
@@ -30991,7 +30991,7 @@ msgstr "Adresa na které očekávat spojení"
 #. File: /usr/lang/src/controllers.php, line: 868
 #: 
 msgid "Listen address (IP)"
-msgstr ""
+msgstr "IP adresa, na které očekávat spojení"
 
 #. File: /usr/lang/src/controllers.php, line: 869
 #: 
@@ -31011,7 +31011,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 872
 #: 
 msgid "Local Address"
-msgstr ""
+msgstr "Místní adresa"
 
 #. File: /usr/lang/src/controllers.php, line: 873
 #: 
@@ -31022,7 +31022,7 @@ msgstr "Nastavení mezipaměti na tomto stroji"
 #. File: /usr/lang/src/controllers.php, line: 874
 #: 
 msgid "Local Description"
-msgstr ""
+msgstr "Místní popis"
 
 #. File: /usr/lang/src/controllers.php, line: 875
 #: 
@@ -31151,17 +31151,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 899
 #: 
 msgid "Logs password if it is rejected."
-msgstr ""
+msgstr "Zaznamenávat heslo pokud je odmítnuto."
 
 #. File: /usr/lang/src/controllers.php, line: 900
 #: 
 msgid "Lua function"
-msgstr ""
+msgstr "Lua funkce"
 
 #. File: /usr/lang/src/controllers.php, line: 901
 #: 
 msgid "Lua service"
-msgstr ""
+msgstr "Lua služba"
 
 #. File: /usr/lang/src/controllers.php, line: 902
 #: 
@@ -31272,7 +31272,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 922
 #: 
 msgid "Max Daily Session"
-msgstr ""
+msgstr "Max. sezení denně"
 
 #. File: /usr/lang/src/controllers.php, line: 923
 #: 
@@ -31302,7 +31302,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 928
 #: 
 msgid "Max object size"
-msgstr ""
+msgstr "Max. velikost objektu"
 
 #. File: /usr/lang/src/controllers.php, line: 929
 #: 
@@ -31322,7 +31322,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 932
 #: 
 msgid "Max servers"
-msgstr ""
+msgstr "Max. serverů"
 
 #. File: /usr/lang/src/controllers.php, line: 933
 #: 
@@ -31367,7 +31367,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 941
 #: 
 msgid "Maximum Length"
-msgstr ""
+msgstr "Maximální délka"
 
 #. File: /usr/lang/src/controllers.php, line: 942
 #: 
@@ -31487,7 +31487,7 @@ msgstr "Velikost mezipaměti v megabajtech"
 #. File: /usr/lang/src/controllers.php, line: 965
 #: 
 msgid "Memory Statistics"
-msgstr ""
+msgstr "Statistiky ohledně operační paměti"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/log.volt, line: 8
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/log.volt, line: 8
@@ -31585,7 +31585,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 981
 #: 
 msgid "MySQL 4.1+"
-msgstr ""
+msgstr "MySQL 4.1 a novější"
 
 #. File: /usr/lang/src/controllers.php, line: 982
 #: 
@@ -31595,7 +31595,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 983
 #: 
 msgid "MySQL user"
-msgstr ""
+msgstr "MySQL uživatel"
 
 #. File: /usr/lang/src/controllers.php, line: 984
 #: 
@@ -31705,7 +31705,7 @@ msgstr "Název identifikující tento účet."
 #. File: /usr/lang/src/controllers.php, line: 995
 #: 
 msgid "Name to identify this condition."
-msgstr ""
+msgstr "Název identifikující tuto podmínku."
 
 #. File: /usr/lang/src/controllers.php, line: 996
 #: 
@@ -31720,7 +31720,7 @@ msgstr "Název identifikující tuto restartovací akci."
 #. File: /usr/lang/src/controllers.php, line: 998
 #: 
 msgid "Name to identify this rule."
-msgstr ""
+msgstr "Název identifikující toto pravidlo."
 
 #. File: /usr/lang/src/controllers.php, line: 999
 #: 
@@ -31920,7 +31920,7 @@ msgstr "Sítě"
 #. File: /usr/lang/src/controllers.php, line: 1027
 #: 
 msgid "Networks to interpret as local"
-msgstr ""
+msgstr "Sítě které si vykládat jako místní"
 
 #. File: /usr/lang/src/controllers.php, line: 1028
 #: 
@@ -32074,7 +32074,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1056
 #: 
 msgid "Only Scan Attachments"
-msgstr ""
+msgstr "Skenovat pouze přílohy"
 
 #. File: /usr/lang/src/controllers.php, line: 1057
 #: 
@@ -32238,12 +32238,12 @@ msgstr "Heslo"
 #. File: /usr/lang/src/controllers.php, line: 1083
 #: 
 msgid "Password for the bind user."
-msgstr ""
+msgstr "Heslo bind uživatele."
 
 #. File: /usr/lang/src/controllers.php, line: 1084
 #: 
 msgid "Password to authenticate against the server."
-msgstr ""
+msgstr "Heslo pro ověření se vůči serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 1085
 #: 
@@ -32265,12 +32265,12 @@ msgstr "Umístění"
 #. File: /usr/lang/src/controllers.php, line: 1088
 #: 
 msgid "Path Contains"
-msgstr ""
+msgstr "Popis umístění obsahuje"
 
 #. File: /usr/lang/src/controllers.php, line: 1089
 #: 
 msgid "Path Matches"
-msgstr ""
+msgstr "Popis umístění se shoduje s"
 
 #. File: /usr/lang/src/controllers.php, line: 1090
 #: 
@@ -32285,7 +32285,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1092
 #: 
 msgid "Path Suffix"
-msgstr ""
+msgstr "Předpona popisu umístění"
 
 #. File: /usr/lang/src/controllers.php, line: 1093
 #: 
@@ -32295,17 +32295,17 @@ msgstr "Hledání shod s vzorem"
 #. File: /usr/lang/src/controllers.php, line: 1094
 #: 
 msgid "Peer 1"
-msgstr ""
+msgstr "Protějšek 1"
 
 #. File: /usr/lang/src/controllers.php, line: 1095
 #: 
 msgid "Peer 2"
-msgstr ""
+msgstr "Protějšek 2"
 
 #. File: /usr/lang/src/controllers.php, line: 1096
 #: 
 msgid "Peer name (FQDN)"
-msgstr ""
+msgstr "Název protějšku (FQDN)"
 
 #. File: /usr/lang/src/controllers.php, line: 1097
 #: 
@@ -32381,7 +32381,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1111
 #: 
 msgid "Performance and Monitoring"
-msgstr ""
+msgstr "Výkon a dohledování"
 
 #. File: /usr/lang/src/controllers.php, line: 1112
 #: 
@@ -32500,12 +32500,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1130
 #: 
 msgid "Port of the remote server."
-msgstr ""
+msgstr "Port na vzdáleném serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 1131
 #: 
 msgid "Port of the server."
-msgstr ""
+msgstr "Port serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 1132
 #: 
@@ -32525,7 +32525,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1135
 #: 
 msgid "PostgreSQL user"
-msgstr ""
+msgstr "PostgreSQL uživatel"
 
 #. File: /usr/lang/src/controllers.php, line: 1136
 #: 
@@ -32599,7 +32599,7 @@ msgstr "Soukromá část klíče pro tento stroj na síti (pokud není vyplněno
 #. File: /usr/lang/src/controllers.php, line: 1148
 #: 
 msgid "Processes"
-msgstr ""
+msgstr "Procesy"
 
 #. File: /usr/lang/src/controllers.php, line: 1149
 #: 
@@ -32645,7 +32645,7 @@ msgstr "Protokol"
 #. File: /usr/lang/src/controllers.php, line: 1152
 #: 
 msgid "Protocol Type"
-msgstr ""
+msgstr "Typ protokolu"
 
 #. File: /usr/lang/src/controllers.php, line: 1153
 #: 
@@ -32819,7 +32819,7 @@ msgstr "Regulární výraz"
 #. File: /usr/lang/src/controllers.php, line: 1186
 #: 
 msgid "Regular expressions are allowed."
-msgstr ""
+msgstr "Regulární výrazy je možné používat."
 
 #. File: /usr/lang/src/controllers.php, line: 1187
 #: 
@@ -32941,7 +32941,7 @@ msgstr "Vyžaduje celý soubor s klíčem ve formátu, který je kompatibilní s
 #. File: /usr/lang/src/controllers.php, line: 1210
 #: 
 msgid "Response Code"
-msgstr ""
+msgstr "Kód odpovědi"
 
 #. File: /usr/lang/src/controllers.php, line: 1211
 #: 
@@ -33058,7 +33058,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1233
 #: 
 msgid "Route Priority"
-msgstr ""
+msgstr "Priorita trasy"
 
 #. File: /usr/lang/src/controllers.php, line: 1234
 #: 
@@ -33116,7 +33116,7 @@ msgstr "IPv4 adresa jako identifikátor směrovače"
 #. File: /usr/lang/src/controllers.php, line: 1243
 #: 
 msgid "Rule priority"
-msgstr ""
+msgstr "Priorita pravidla"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 418
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 671
@@ -33182,37 +33182,37 @@ msgstr "SMTP stroj"
 #. File: /usr/lang/src/controllers.php, line: 1254
 #: 
 msgid "SNI Contains"
-msgstr ""
+msgstr "SNI obsahuje"
 
 #. File: /usr/lang/src/controllers.php, line: 1255
 #: 
 msgid "SNI Matches"
-msgstr ""
+msgstr "SNI se shoduje"
 
 #. File: /usr/lang/src/controllers.php, line: 1256
 #: 
 msgid "SNI Prefix"
-msgstr ""
+msgstr "SNI předpona"
 
 #. File: /usr/lang/src/controllers.php, line: 1257
 #: 
 msgid "SNI Suffix"
-msgstr ""
+msgstr "SNI přípona"
 
 #. File: /usr/lang/src/controllers.php, line: 1258
 #: 
 msgid "SNMP Agent Settings"
-msgstr ""
+msgstr "Nastavení SNMP agenta"
 
 #. File: /usr/lang/src/controllers.php, line: 1259
 #: 
 msgid "SNMP password"
-msgstr ""
+msgstr "SNMP heslo"
 
 #. File: /usr/lang/src/controllers.php, line: 1260
 #: 
 msgid "SNMP port"
-msgstr ""
+msgstr "Port SNMP"
 
 #. File: /usr/lang/src/controllers.php, line: 1261
 #: 
@@ -33233,7 +33233,7 @@ msgstr "SSL klientský certifikát"
 #. File: /usr/lang/src/controllers.php, line: 1264
 #: 
 msgid "SSL Error ID"
-msgstr ""
+msgstr "Identifikátor SSL chyby"
 
 #. File: /usr/lang/src/controllers.php, line: 1265
 #: 
@@ -33273,7 +33273,7 @@ msgstr "SSL certifikát"
 #. File: /usr/lang/src/controllers.php, line: 1272
 #: 
 msgid "SSL default settings"
-msgstr ""
+msgstr "Výchozí nastavení SSL"
 
 #. File: /usr/lang/src/controllers.php, line: 1273
 #: 
@@ -33303,7 +33303,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1278
 #: 
 msgid "STUN server"
-msgstr ""
+msgstr "STUN server"
 
 #. File: /usr/lang/src/controllers.php, line: 1279
 #: 
@@ -33318,42 +33318,42 @@ msgstr "Uložit záznamy událostí"
 #. File: /usr/lang/src/controllers.php, line: 1281
 #: 
 msgid "Scan HTML"
-msgstr ""
+msgstr "Skenovat HTML"
 
 #. File: /usr/lang/src/controllers.php, line: 1282
 #: 
 msgid "Scan HWP3"
-msgstr ""
+msgstr "Skenovat HWP3"
 
 #. File: /usr/lang/src/controllers.php, line: 1283
 #: 
 msgid "Scan OLE2"
-msgstr ""
+msgstr "Skenovat OLE2"
 
 #. File: /usr/lang/src/controllers.php, line: 1284
 #: 
 msgid "Scan PDF files"
-msgstr ""
+msgstr "Skenovat PDF soubory"
 
 #. File: /usr/lang/src/controllers.php, line: 1285
 #: 
 msgid "Scan SWF"
-msgstr ""
+msgstr "Skenovat SWF"
 
 #. File: /usr/lang/src/controllers.php, line: 1286
 #: 
 msgid "Scan XMLDOCS"
-msgstr ""
+msgstr "Skenovat XMLDOC dokumenty"
 
 #. File: /usr/lang/src/controllers.php, line: 1287
 #: 
 msgid "Scan archives"
-msgstr ""
+msgstr "Skenovat archivy"
 
 #. File: /usr/lang/src/controllers.php, line: 1288
 #: 
 msgid "Scan executable and linking format"
-msgstr ""
+msgstr "Skenovat spustitelné"
 
 #. File: /usr/lang/src/controllers.php, line: 1289
 #: 
@@ -33394,7 +33394,7 @@ msgstr "Zabezpečené spojení"
 #. File: /usr/lang/src/controllers.php, line: 1296
 #: 
 msgid "Security Settings"
-msgstr ""
+msgstr "Nastavení zabezpečení"
 
 #. File: /usr/lang/src/controllers.php, line: 1297
 #: 
@@ -33454,12 +33454,12 @@ msgstr "Vyberte metodu ověřování. Pokud ověřování není třeba, ponechte
 #. File: /usr/lang/src/controllers.php, line: 1308
 #: 
 msgid "Select condition type."
-msgstr ""
+msgstr "Vyberte typ podmínky."
 
 #. File: /usr/lang/src/controllers.php, line: 1309
 #: 
 msgid "Select conditions"
-msgstr ""
+msgstr "Vybrat podmínky"
 
 #. File: /usr/lang/src/controllers.php, line: 1310
 #: 
@@ -33659,7 +33659,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1349
 #: 
 msgid "Sender Address"
-msgstr ""
+msgstr "Adresa odesilatele"
 
 #. File: /usr/lang/src/controllers.php, line: 1350
 #: 
@@ -33727,7 +33727,7 @@ msgstr "Identifikátor serveru"
 #. File: /usr/lang/src/controllers.php, line: 1357
 #: 
 msgid "Server Password"
-msgstr ""
+msgstr "Heslo serveru"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 631
 #. File: /usr/lang/src/controllers.php, line: 1358
@@ -33743,17 +33743,17 @@ msgstr "Časový limit serveru"
 #. File: /usr/lang/src/controllers.php, line: 1360
 #: 
 msgid "Server Type"
-msgstr ""
+msgstr "Typ serveru"
 
 #. File: /usr/lang/src/controllers.php, line: 1361
 #: 
 msgid "Server admin"
-msgstr ""
+msgstr "Správce serveru"
 
 #. File: /usr/lang/src/controllers.php, line: 1362
 #: 
 msgid "Servername"
-msgstr ""
+msgstr "Název serveru"
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 399
 #. File: /usr/lang/src/controllers.php, line: 1363
@@ -33765,7 +33765,7 @@ msgstr "Servery"
 #. File: /usr/lang/src/controllers.php, line: 1364
 #: 
 msgid "Service Mode"
-msgstr ""
+msgstr "Režim služby"
 
 #. File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 278
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 270
@@ -33962,7 +33962,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1402
 #: 
 msgid "Set the hostname for this system."
-msgstr ""
+msgstr "Nastavit název tohoto stroje."
 
 #. File: /usr/lang/src/controllers.php, line: 1403
 #: 
@@ -34082,7 +34082,7 @@ msgstr "Nastavit počet opakovaných pokusů, které provést ze strany serveru 
 #. File: /usr/lang/src/controllers.php, line: 1426
 #: 
 msgid "Set the password for authentication."
-msgstr ""
+msgstr "Nastavit heslo pro ověření totožnosti."
 
 #. File: /usr/lang/src/controllers.php, line: 1427
 #: 
@@ -34122,7 +34122,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1434
 #: 
 msgid "Set the protocol to use."
-msgstr ""
+msgstr "Nastavit který protokol používat."
 
 #. File: /usr/lang/src/controllers.php, line: 1435
 #: 
@@ -34147,7 +34147,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1439
 #: 
 msgid "Set the sender address to match."
-msgstr ""
+msgstr "Nastavit se kterou adresou odesilatele hledat shodu."
 
 #. File: /usr/lang/src/controllers.php, line: 1440
 #: 
@@ -34177,7 +34177,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1445
 #: 
 msgid "Set the username for authentication."
-msgstr ""
+msgstr "Nastavit uživatelské jméno pro ověření totožnosti."
 
 #. File: /usr/lang/src/controllers.php, line: 1446
 #: 
@@ -34248,7 +34248,7 @@ msgstr "Nastavení"
 #. File: /usr/lang/src/controllers.php, line: 1458
 #: 
 msgid "Show introduction pages"
-msgstr ""
+msgstr "Zobrazit úvodní stránky"
 
 #. File: /usr/lang/src/controllers.php, line: 1459
 #: 
@@ -34314,7 +34314,7 @@ msgstr "Doba spánku"
 #. File: /usr/lang/src/controllers.php, line: 1470
 #: 
 msgid "Slow Transactions"
-msgstr ""
+msgstr "Pomalé transakce"
 
 #. File: /usr/lang/src/controllers.php, line: 1471
 #: 
@@ -34596,7 +34596,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1516
 #: 
 msgid "Start servers"
-msgstr ""
+msgstr "Spustit servery"
 
 #. File: /usr/lang/src/controllers.php, line: 1517
 #: 
@@ -34606,7 +34606,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1518
 #: 
 msgid "State File"
-msgstr ""
+msgstr "Stavový soubor"
 
 #. File: /usr/lang/src/controllers.php, line: 1519
 #: 
@@ -34690,7 +34690,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1533
 #: 
 msgid "Subnetmask"
-msgstr ""
+msgstr "Maska podsítě"
 
 #. File: /usr/lang/src/controllers.php, line: 1534
 #: 
@@ -34748,22 +34748,22 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1544
 #: 
 msgid "System Hostname"
-msgstr ""
+msgstr "Název systému"
 
 #. File: /usr/lang/src/controllers.php, line: 1545
 #: 
 msgid "System Origin"
-msgstr ""
+msgstr "Původ systému"
 
 #. File: /usr/lang/src/controllers.php, line: 1546
 #: 
 msgid "TCP Listen Port"
-msgstr ""
+msgstr "TCP port, na kterém očekávat spojení"
 
 #. File: /usr/lang/src/controllers.php, line: 1547
 #: 
 msgid "TCP Port"
-msgstr ""
+msgstr "TCP port"
 
 #. File: /usr/lang/src/controllers.php, line: 1548
 #: 
@@ -34801,13 +34801,13 @@ msgstr "Typ tabulky"
 #. File: /usr/lang/src/controllers.php, line: 1554
 #: 
 msgid "Target Host"
-msgstr ""
+msgstr "Cílový stroj"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 232
 #. File: /usr/lang/src/controllers.php, line: 1555
 #: 
 msgid "Target Port"
-msgstr ""
+msgstr "Cílový port"
 
 #. File: /usr/lang/src/controllers.php, line: 1556
 #: 
@@ -34923,7 +34923,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1578
 #: 
 msgid "The Network plugin can send values to other instances"
-msgstr ""
+msgstr "Zásuvný modul Síť může posílat hodnoty ostatním instancím"
 
 #. File: /usr/lang/src/controllers.php, line: 1579
 #: 
@@ -35103,7 +35103,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1614
 #: 
 msgid "The maximum allowed number of server processes."
-msgstr ""
+msgstr "Nejvyšší umožněný počet procesů serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 1615
 #: 
@@ -35212,12 +35212,12 @@ msgstr "Kolik sekund čekat na odpověď z ping nebo umožnit meta spojení pro 
 #. File: /usr/lang/src/controllers.php, line: 1637
 #: 
 msgid "The number of threads per child process."
-msgstr ""
+msgstr "Počet vláken v jednotlivých podřízených procesech."
 
 #. File: /usr/lang/src/controllers.php, line: 1638
 #: 
 msgid "The password for access to SNMP agent"
-msgstr ""
+msgstr "Heslo pro přístup k SNMP agentovi"
 
 #. File: /usr/lang/src/controllers.php, line: 1639
 #: 
@@ -35232,7 +35232,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1641
 #: 
 msgid "The password to use for SMTP authentication."
-msgstr ""
+msgstr "Heslo pro SMTP ověřování"
 
 #. File: /usr/lang/src/controllers.php, line: 1642
 #: 
@@ -35302,7 +35302,7 @@ msgstr "Spouštěcí skript služby."
 #. File: /usr/lang/src/controllers.php, line: 1655
 #: 
 msgid "The state file of the Monit process."
-msgstr ""
+msgstr "Stavový soubor procesu Monit."
 
 #. File: /usr/lang/src/controllers.php, line: 1656
 #: 
@@ -35360,7 +35360,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1669
 #: 
 msgid "The user name for this connection."
-msgstr ""
+msgstr "Uživatelské jméno pro toto připojení."
 
 #. File: /usr/lang/src/controllers.php, line: 1670
 #: 
@@ -35370,7 +35370,7 @@ msgstr "Uživatelské jméno pro ověření."
 #. File: /usr/lang/src/controllers.php, line: 1671
 #: 
 msgid "The username to use for SMTP authentication."
-msgstr ""
+msgstr "Uživatelské jméno pro SMTP ověření."
 
 #. File: /usr/lang/src/controllers.php, line: 1672
 #: 
@@ -35500,7 +35500,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1697
 #: 
 msgid "This option enables scanning of HWP3 files."
-msgstr ""
+msgstr "Toto zapne skenování HWP3 souborů."
 
 #. File: /usr/lang/src/controllers.php, line: 1698
 #: 
@@ -35510,12 +35510,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1699
 #: 
 msgid "This option enables scanning within PDF files."
-msgstr ""
+msgstr "Toto zapne skenování PDF souborů."
 
 #. File: /usr/lang/src/controllers.php, line: 1700
 #: 
 msgid "This option enables scanning within SWF files."
-msgstr ""
+msgstr "Toto zapne skenování SWF souborů."
 
 #. File: /usr/lang/src/controllers.php, line: 1701
 #: 
@@ -35555,12 +35555,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1708
 #: 
 msgid "This will activate the Cisco Discovery Protocol."
-msgstr ""
+msgstr "Toto aktivuje Cisco Discovery protokol."
 
 #. File: /usr/lang/src/controllers.php, line: 1709
 #: 
 msgid "This will activate the Collectd service."
-msgstr ""
+msgstr "Toto zapne službu Collectd."
 
 #. File: /usr/lang/src/controllers.php, line: 1710
 #: 
@@ -35575,12 +35575,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1712
 #: 
 msgid "This will activate the FreeRADIUS service."
-msgstr ""
+msgstr "Toto aktivuje službu FreeRADIUS."
 
 #. File: /usr/lang/src/controllers.php, line: 1713
 #: 
 msgid "This will activate the LLDPD service."
-msgstr ""
+msgstr "Toto zapne službu LLDPD."
 
 #. File: /usr/lang/src/controllers.php, line: 1714
 #: 
@@ -35595,7 +35595,7 @@ msgstr "Pokud jsou v „Obecné“ zapnuty směrovací protokoly, toto zapne slu
 #. File: /usr/lang/src/controllers.php, line: 1716
 #: 
 msgid "This will activate the Postfix daemon."
-msgstr ""
+msgstr "Toto aktivuje proces služby Postfix."
 
 #. File: /usr/lang/src/controllers.php, line: 1717
 #: 
@@ -35730,7 +35730,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1743
 #: 
 msgid "This will enable or disable the domain account."
-msgstr ""
+msgstr "Toto zpřístupní nebo znepřístupní doménový účet."
 
 #. File: /usr/lang/src/controllers.php, line: 1744
 #: 
@@ -35775,7 +35775,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1752
 #: 
 msgid "Threads per child"
-msgstr ""
+msgstr "Vláken na podřízený proces"
 
 #. File: /usr/lang/src/controllers.php, line: 1753
 #: 
@@ -35831,7 +35831,7 @@ msgstr "Celková šíře pásma pro tuto trubku"
 #. File: /usr/lang/src/controllers.php, line: 1763
 #: 
 msgid "Total number of signatures"
-msgstr ""
+msgstr "Celkový počet signatur"
 
 #. File: /usr/lang/src/controllers.php, line: 1764
 #: 
@@ -35841,7 +35841,7 @@ msgstr "Nastavení správy provozu"
 #. File: /usr/lang/src/controllers.php, line: 1765
 #: 
 msgid "Transparent DNS Port"
-msgstr ""
+msgstr "Port transparentní DnS"
 
 #. File: /usr/lang/src/controllers.php, line: 1766
 #: 
@@ -35851,7 +35851,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1767
 #: 
 msgid "Transparent Port"
-msgstr ""
+msgstr "Transparentní port"
 
 #. File: /usr/lang/src/controllers.php, line: 1768
 #: 
@@ -35866,7 +35866,7 @@ msgstr "Transparentní proxy (HTTPS)"
 #. File: /usr/lang/src/controllers.php, line: 1770
 #: 
 msgid "Transport Type"
-msgstr ""
+msgstr "Typ přenosu"
 
 #. File: /usr/lang/src/controllers.php, line: 1771
 #: 
@@ -35876,12 +35876,12 @@ msgstr "Sítě ze kterých je umožněn přístup"
 #. File: /usr/lang/src/controllers.php, line: 1772
 #: 
 msgid "Trusted Only"
-msgstr ""
+msgstr "Pouze důvěryhodné"
 
 #. File: /usr/lang/src/controllers.php, line: 1773
 #: 
 msgid "Try Fallback"
-msgstr ""
+msgstr "Vyzkoušet náhradu"
 
 #. File: /usr/lang/src/controllers.php, line: 1774
 #: 
@@ -35960,27 +35960,27 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1779
 #: 
 msgid "Type IP addresses (ex. 192.168.1.100)"
-msgstr ""
+msgstr "Zadejte adresu (např. 192.168.1.100)"
 
 #. File: /usr/lang/src/controllers.php, line: 1780
 #: 
 msgid "Type IP addresses, followed by Enter or comma."
-msgstr ""
+msgstr "Zadejte IP adresy, následované Enter nebo čárkou."
 
 #. File: /usr/lang/src/controllers.php, line: 1781
 #: 
 msgid "Type certificate name or choose from list."
-msgstr ""
+msgstr "Zadejte název certifikátu nebo zvolte ze seznamu."
 
 #. File: /usr/lang/src/controllers.php, line: 1782
 #: 
 msgid "Type or select a route source."
-msgstr ""
+msgstr "Zadejte nebo vyberte zdroj trasy."
 
 #. File: /usr/lang/src/controllers.php, line: 1783
 #: 
 msgid "Type or select destinations."
-msgstr ""
+msgstr "Zadejte nebo vyberte cíle."
 
 #. File: /usr/lang/src/controllers.php, line: 1784
 #: 
@@ -35990,17 +35990,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1785
 #: 
 msgid "Type or select interface."
-msgstr ""
+msgstr "Zadejte nebo vyberte rozhraní."
 
 #. File: /usr/lang/src/controllers.php, line: 1786
 #: 
 msgid "Type port number or range."
-msgstr ""
+msgstr "Zadejte číslo nebo rozsah portů."
 
 #. File: /usr/lang/src/controllers.php, line: 1787
 #: 
 msgid "Type server name or choose from list."
-msgstr ""
+msgstr "Zadejte název serveru nebo ho vyberte ze seznamu."
 
 #. File: /usr/lang/src/controllers.php, line: 1788
 #: 
@@ -36031,7 +36031,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1792
 #: 
 msgid "USBHID-Driver"
-msgstr ""
+msgstr "Ovladač USB HID"
 
 #. File: /usr/lang/src/controllers.php, line: 1793
 #: 
@@ -36056,7 +36056,7 @@ msgstr "Použitelné servery"
 #. File: /usr/lang/src/controllers.php, line: 1797
 #: 
 msgid "Use Domain"
-msgstr ""
+msgstr "Použít doménu"
 
 #. File: /usr/lang/src/controllers.php, line: 1798
 #: 
@@ -36096,7 +36096,7 @@ msgstr "Použít vlastní šablonu balíčku pro přihlášení uživatele"
 #. File: /usr/lang/src/controllers.php, line: 1805
 #: 
 msgid "Use eSLD"
-msgstr ""
+msgstr "Použít eSLD"
 
 #. File: /usr/lang/src/controllers.php, line: 1806
 #: 
@@ -36106,7 +36106,7 @@ msgstr "Použít server"
 #. File: /usr/lang/src/controllers.php, line: 1807
 #: 
 msgid "Use the following format: username:password"
-msgstr ""
+msgstr "Použijte následující formát: uzivatelske_jmeno:heslo"
 
 #. File: /usr/lang/src/controllers.php, line: 1808
 #: 
@@ -36126,7 +36126,7 @@ msgstr "Toto použijte pro převrácení významu výrazu."
 #. File: /usr/lang/src/controllers.php, line: 1811
 #: 
 msgid "Used to enforce or disable certain SSL options."
-msgstr ""
+msgstr "Slouží pro vynucení nebo vypnutí určitých voleb SSL."
 
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 206
 #. File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_log.inc, line: 93
@@ -36225,7 +36225,7 @@ msgstr "Obvykle FQDN. Potřebné pro aktivní kontroly a je třeba, aby bylo sho
 #. File: /usr/lang/src/controllers.php, line: 1822
 #: 
 msgid "VLAN ID"
-msgstr ""
+msgstr "Identifikátor VLAN"
 
 #. File: /usr/lang/src/controllers.php, line: 1823
 #: 
@@ -36385,7 +36385,7 @@ msgstr "Zda jsou umožněny vzdálené příkazy ze Zabbix serveru."
 #. File: /usr/lang/src/controllers.php, line: 1850
 #: 
 msgid "Whether to report Per-CPU stats or not."
-msgstr ""
+msgstr "Zda hlásit statistiky pro jednotlivá jádra či ne."
 
 #. File: /usr/lang/src/controllers.php, line: 1851
 #: 
@@ -36455,7 +36455,7 @@ msgstr "Zacházení s hlavičkou X-Forwarded-For"
 #. File: /usr/lang/src/controllers.php, line: 1864
 #: 
 msgid "Yandex"
-msgstr ""
+msgstr "Yandex"
 
 #. File: /usr/lang/src/controllers.php, line: 1865
 #: 
@@ -36828,52 +36828,52 @@ msgstr "Žádné"
 #. File: /usr/lang/src/models.php, line: 31
 #: 
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #. File: /usr/lang/src/models.php, line: 32
 #: 
 msgid "400"
-msgstr ""
+msgstr "400"
 
 #. File: /usr/lang/src/models.php, line: 33
 #: 
 msgid "403"
-msgstr ""
+msgstr "403"
 
 #. File: /usr/lang/src/models.php, line: 34
 #: 
 msgid "405"
-msgstr ""
+msgstr "405"
 
 #. File: /usr/lang/src/models.php, line: 35
 #: 
 msgid "408"
-msgstr ""
+msgstr "408"
 
 #. File: /usr/lang/src/models.php, line: 36
 #: 
 msgid "429"
-msgstr ""
+msgstr "429"
 
 #. File: /usr/lang/src/models.php, line: 37
 #: 
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #. File: /usr/lang/src/models.php, line: 38
 #: 
 msgid "502"
-msgstr ""
+msgstr "502"
 
 #. File: /usr/lang/src/models.php, line: 39
 #: 
 msgid "503"
-msgstr ""
+msgstr "503"
 
 #. File: /usr/lang/src/models.php, line: 40
 #: 
 msgid "504"
-msgstr ""
+msgstr "504"
 
 #. File: /usr/lang/src/models.php, line: 41
 #: 
@@ -36888,7 +36888,7 @@ msgstr "Je třeba nastavit heslo k Nextcloud serveru."
 #. File: /usr/lang/src/models.php, line: 43
 #: 
 msgid "A valid IPv4 mask must be between 1 and 32 bits."
-msgstr ""
+msgstr "Je třeba, aby platná maska IPv4 byla z rozmezí 1 až 32 bitů."
 
 #. File: /usr/lang/src/models.php, line: 44
 #: 
@@ -36898,17 +36898,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 45
 #: 
 msgid "A valid Port number must be specified."
-msgstr ""
+msgstr "Je třeba zadat platné číslo portu."
 
 #. File: /usr/lang/src/models.php, line: 46
 #: 
 msgid "A valid cache expiration must be set."
-msgstr ""
+msgstr "Je třeba nastavit platnou dobu skončení platnosti mezipaměti."
 
 #. File: /usr/lang/src/models.php, line: 47
 #: 
 msgid "A valid cache size in kilobytes must be set."
-msgstr ""
+msgstr "Je třeba zadat platnou velikost mezipaměti (v kilobajtech)"
 
 #. File: /usr/lang/src/models.php, line: 48
 #: 
@@ -36918,7 +36918,7 @@ msgstr "Je třeba zadat platnou velikost mezipaměti."
 #. File: /usr/lang/src/models.php, line: 49
 #: 
 msgid "A valid expiration time must be set."
-msgstr ""
+msgstr "Je třeba nastavit platný čas skončení platnosti."
 
 #. File: /usr/lang/src/models.php, line: 50
 #: 
@@ -36943,52 +36943,52 @@ msgstr "ACL seznamy"
 #. File: /usr/lang/src/models.php, line: 54
 #: 
 msgid "AES-128-CFB"
-msgstr ""
+msgstr "AES-128-CFB"
 
 #. File: /usr/lang/src/models.php, line: 55
 #: 
 msgid "AES-128-CTR"
-msgstr ""
+msgstr "AES-128-CTR"
 
 #. File: /usr/lang/src/models.php, line: 56
 #: 
 msgid "AES-128-GCM"
-msgstr ""
+msgstr "AES-128-GCM"
 
 #. File: /usr/lang/src/models.php, line: 57
 #: 
 msgid "AES-192-CFB"
-msgstr ""
+msgstr "AES-192-CFB"
 
 #. File: /usr/lang/src/models.php, line: 58
 #: 
 msgid "AES-192-CTR"
-msgstr ""
+msgstr "AES-192-CTR"
 
 #. File: /usr/lang/src/models.php, line: 59
 #: 
 msgid "AES-192-GCM"
-msgstr ""
+msgstr "AES-192-GCM"
 
 #. File: /usr/lang/src/models.php, line: 60
 #: 
 msgid "AES-256-CFB"
-msgstr ""
+msgstr "AES-256-CFB"
 
 #. File: /usr/lang/src/models.php, line: 61
 #: 
 msgid "AES-256-CTR"
-msgstr ""
+msgstr "AES-256-CTR"
 
 #. File: /usr/lang/src/models.php, line: 62
 #: 
 msgid "AES-256-GCM"
-msgstr ""
+msgstr "AES-256-GCM"
 
 #. File: /usr/lang/src/models.php, line: 63
 #: 
 msgid "AND [default]"
-msgstr ""
+msgstr "A [výchozí]"
 
 #. File: /usr/lang/src/models.php, line: 64
 #: 
@@ -37207,12 +37207,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 89
 #: 
 msgid "An URL for the Nextcloud server must be set."
-msgstr ""
+msgstr "Je třeba zadat URL adresu Nextcloud serveru."
 
 #. File: /usr/lang/src/models.php, line: 90
 #: 
 msgid "An user for the Nextcloud server must be set."
-msgstr ""
+msgstr "Je třeba zadat uživatelský účet na Nextcloud serveru."
 
 #. File: /usr/lang/src/models.php, line: 91
 #: 
@@ -37345,7 +37345,7 @@ msgstr "Zachycovací portál"
 #. File: /usr/lang/src/models.php, line: 117
 #: 
 msgid "ChaCha20-IETF-Poly1305"
-msgstr ""
+msgstr "ChaCha20-IETF-Poly1305"
 
 #. File: /usr/lang/src/models.php, line: 118
 #: 
@@ -37360,17 +37360,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 120
 #: 
 msgid "Check interval must be greater than 0"
-msgstr ""
+msgstr "Je třeba, aby interval kontroly byl vyšší než 0 (nula)"
 
 #. File: /usr/lang/src/models.php, line: 121
 #: 
 msgid "Chop URI at first whitespace"
-msgstr ""
+msgstr "Useknout URI na prvním prázdném znaku"
 
 #. File: /usr/lang/src/models.php, line: 122
 #: 
 msgid "ClamAV"
-msgstr ""
+msgstr "ClamAV"
 
 #. File: /usr/lang/src/models.php, line: 123
 #: 
@@ -37406,7 +37406,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 129
 #: 
 msgid "Collectd"
-msgstr ""
+msgstr "Collectd"
 
 #. File: /usr/lang/src/models.php, line: 130
 #: 
@@ -37416,7 +37416,7 @@ msgstr "Komerční podpora"
 #. File: /usr/lang/src/models.php, line: 131
 #: 
 msgid "Configd"
-msgstr ""
+msgstr "Configd"
 
 #. File: /usr/core/src/www/vpn_openvpn_export.php, line: 1546
 #. File: /usr/lang/src/models.php, line: 132
@@ -37437,7 +37437,7 @@ msgstr "Stav spojení"
 #. File: /usr/lang/src/models.php, line: 135
 #: 
 msgid "Connection count"
-msgstr ""
+msgstr "Počet spojení"
 
 #. File: /usr/lang/src/models.php, line: 137
 #: 
@@ -37458,7 +37458,7 @@ msgstr "Je třeba aby doba platnosti přihlašovacích údajů bylo celé kladn�
 #. File: /usr/lang/src/models.php, line: 140
 #: 
 msgid "Critical"
-msgstr ""
+msgstr "Kritické"
 
 #. File: /usr/lang/src/models.php, line: 141
 #: 
@@ -37468,7 +37468,7 @@ msgstr "Plánovač (cron)"
 #. File: /usr/lang/src/models.php, line: 142
 #: 
 msgid "Current connections"
-msgstr ""
+msgstr "Stávající spojení"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 476
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 326
@@ -37490,12 +37490,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 146
 #: 
 msgid "DELETE"
-msgstr ""
+msgstr "SMAZAT"
 
 #. File: /usr/lang/src/models.php, line: 147
 #: 
 msgid "DHCPv4"
-msgstr ""
+msgstr "DHCPv4"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1735
 #. File: /usr/lang/src/models.php, line: 148
@@ -37576,7 +37576,7 @@ msgstr "Odepřít"
 #. File: /usr/lang/src/models.php, line: 164
 #: 
 msgid "Deny request"
-msgstr ""
+msgstr "Odmítnout požadavek"
 
 #. File: /usr/lang/src/models.php, line: 165
 #: 
@@ -37696,7 +37696,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 188
 #: 
 msgid "Emergencies"
-msgstr ""
+msgstr "Nouzové stavy"
 
 #. File: /usr/lang/src/models.php, line: 189
 #: 
@@ -37977,7 +37977,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 239
 #: 
 msgid "HTTP [default]"
-msgstr ""
+msgstr "HTTP [výchozí]"
 
 #. File: /usr/lang/src/models.php, line: 245
 #: 
@@ -37987,7 +37987,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 246
 #: 
 msgid "HTTP/1.1"
-msgstr ""
+msgstr "HTTP/1.1"
 
 #. File: /usr/lang/src/models.php, line: 247
 #: 
@@ -38173,12 +38173,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 280
 #: 
 msgid "Information"
-msgstr ""
+msgstr "Informace"
 
 #. File: /usr/lang/src/models.php, line: 281
 #: 
 msgid "Informational"
-msgstr ""
+msgstr "Pro informaci"
 
 #. File: /usr/lang/src/models.php, line: 282
 #: 
@@ -38351,7 +38351,7 @@ msgstr "Je třeba, aby port, na kterém bude očekáváno spojení, bylo celé �
 #. File: /usr/lang/src/models.php, line: 315
 #: 
 msgid "Live View"
-msgstr ""
+msgstr "Živý pohled"
 
 #. File: /usr/lang/src/models.php, line: 316
 #: 
@@ -38456,7 +38456,7 @@ msgstr "Formát zprávy by měl být řetězec dlouhý 1 až 255 znaků."
 #. File: /usr/lang/src/models.php, line: 337
 #: 
 msgid "Microsoft office files"
-msgstr ""
+msgstr "Soubory Microsoft Office"
 
 #. File: /usr/lang/src/models.php, line: 338
 #: 
@@ -38482,7 +38482,7 @@ msgstr "Monit"
 #. File: /usr/lang/src/models.php, line: 343
 #: 
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 246
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 285
@@ -38507,7 +38507,7 @@ msgstr "NDP tabulka"
 #. File: /usr/lang/src/models.php, line: 347
 #: 
 msgid "NPTv6"
-msgstr ""
+msgstr "NTPv6"
 
 #. File: /usr/lang/src/models.php, line: 348
 #: 
@@ -38596,7 +38596,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 364
 #: 
 msgid "OR"
-msgstr ""
+msgstr "NEBO"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
@@ -38683,7 +38683,7 @@ msgstr "Odchozí"
 #. File: /usr/lang/src/models.php, line: 378
 #: 
 msgid "Output"
-msgstr ""
+msgstr "Výstup"
 
 #. File: /usr/lang/src/models.php, line: 379
 #: 
@@ -38759,22 +38759,22 @@ msgstr "Zachytávání paketů"
 #. File: /usr/lang/src/models.php, line: 391
 #: 
 msgid "Path contains string"
-msgstr ""
+msgstr "Popis umístění obsahuje řetězec"
 
 #. File: /usr/lang/src/models.php, line: 392
 #: 
 msgid "Path contains subdir"
-msgstr ""
+msgstr "Popis umístění obsahuje podsložku"
 
 #. File: /usr/lang/src/models.php, line: 393
 #: 
 msgid "Path ends with"
-msgstr ""
+msgstr "Popis umístění končí na"
 
 #. File: /usr/lang/src/models.php, line: 394
 #: 
 msgid "Path matches"
-msgstr ""
+msgstr "Popis umístění je shodný s"
 
 #. File: /usr/lang/src/models.php, line: 395
 #: 
@@ -38784,7 +38784,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 396
 #: 
 msgid "Path starts with"
-msgstr ""
+msgstr "Popis umístění začíná na"
 
 #. File: /usr/lang/src/models.php, line: 398
 #: 
@@ -38815,7 +38815,7 @@ msgstr "Holý pohled"
 #. File: /usr/lang/src/models.php, line: 404
 #: 
 msgid "Please choose a value between 1 and 3000"
-msgstr ""
+msgstr "Zvolte hodnotu z rozmezí 1 až 3000"
 
 #. File: /usr/lang/src/models.php, line: 405
 #: 
@@ -38855,22 +38855,22 @@ msgstr "Zadejte platné cíle (např. 192.168.0.1:2055)."
 #. File: /usr/lang/src/models.php, line: 412
 #: 
 msgid "Please provide IP or hostname (no spaces allowed)."
-msgstr ""
+msgstr "Zadejte IP adresu nebo název stroje (mezery nejsou dovoleny)."
 
 #. File: /usr/lang/src/models.php, line: 413
 #: 
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Zadejte název stroje."
 
 #. File: /usr/lang/src/models.php, line: 414
 #: 
 msgid "Please provide a remote directory."
-msgstr ""
+msgstr "Zadejte vzdálenou složku."
 
 #. File: /usr/lang/src/models.php, line: 415
 #: 
 msgid "Please provide a username."
-msgstr ""
+msgstr "Zadejte uživatelské jméno."
 
 #. File: /usr/lang/src/models.php, line: 416
 #: 
@@ -38880,12 +38880,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 417
 #: 
 msgid "Please provide a valid IPv4 address."
-msgstr ""
+msgstr "Zadejte platnou IPv4 adresu."
 
 #. File: /usr/lang/src/models.php, line: 418
 #: 
 msgid "Please provide a valid hostname or IP address."
-msgstr ""
+msgstr "Zadejte platný název stroje nebo IP adresu."
 
 #. File: /usr/lang/src/models.php, line: 419
 #: 
@@ -38900,7 +38900,7 @@ msgstr "Zadejte platnou adresu na které očekávat spojení, jako např. 127.0.
 #. File: /usr/lang/src/models.php, line: 421
 #: 
 msgid "Please provide a valid port number between 1 and 65535."
-msgstr ""
+msgstr "Zadejte platné číslo portu z rozmezí 1 až 65535."
 
 #. File: /usr/lang/src/models.php, line: 422
 #: 
@@ -39005,7 +39005,7 @@ msgstr "Zadejte hodnotu z rozmezí 0 až 50."
 #. File: /usr/lang/src/models.php, line: 442
 #: 
 msgid "Please specify a value between 0 and 500000."
-msgstr ""
+msgstr "Zadejte hodnotu z rozmezí 0 až 500000."
 
 #. File: /usr/lang/src/models.php, line: 443
 #: 
@@ -39020,7 +39020,7 @@ msgstr "Zadejte hodnotu z rozmezí 1 až 10000."
 #. File: /usr/lang/src/models.php, line: 445
 #: 
 msgid "Please specify a value between 1 and 1000000000."
-msgstr ""
+msgstr "Zadejte hodnotu z rozmezí 1 až 1000000000."
 
 #. File: /usr/lang/src/models.php, line: 446
 #: 
@@ -39030,7 +39030,7 @@ msgstr "Zadejte hodnotu z rozmezí 1 až 128."
 #. File: /usr/lang/src/models.php, line: 447
 #: 
 msgid "Please specify a value between 1 and 16384."
-msgstr ""
+msgstr "Zadejte hodnotu z rozmezí 1 až 16384."
 
 #. File: /usr/lang/src/models.php, line: 448
 #: 
@@ -39045,7 +39045,7 @@ msgstr "Zadejte hodnotu z rozmezí 1 až 65535."
 #. File: /usr/lang/src/models.php, line: 450
 #: 
 msgid "Please specify a value between 100 and 999."
-msgstr ""
+msgstr "Zadejte hodnotu z rozmezí 100 až 999."
 
 #. File: /usr/lang/src/models.php, line: 451
 #: 
@@ -39120,12 +39120,12 @@ msgstr "Je třeba, aby číslo portu bylo z rozmezí 1 až 65535"
 #. File: /usr/lang/src/models.php, line: 464
 #: 
 msgid "Postfix"
-msgstr ""
+msgstr "Postfix"
 
 #. File: /usr/lang/src/models.php, line: 465
 #: 
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #. File: /usr/lang/src/models.php, line: 466
 #: 
@@ -39160,7 +39160,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 472
 #: 
 msgid "Production Environment [default]"
-msgstr ""
+msgstr "Produkční prostředí [výchozí]"
 
 #. File: /usr/plugins/sysutils/node_exporter/src/etc/inc/plugins.inc.d/node_exporter.inc, line: 39
 #. File: /usr/lang/src/models.php, line: 473
@@ -39176,7 +39176,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 475
 #: 
 msgid "Protocol not found"
-msgstr ""
+msgstr "Protokol nenalezen"
 
 #. File: /usr/lang/src/models.php, line: 476
 #: 
@@ -39236,7 +39236,7 @@ msgstr "Restartovat"
 #. File: /usr/lang/src/models.php, line: 486
 #: 
 msgid "Redirection"
-msgstr ""
+msgstr "Přesměrování"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 256
 #. File: /usr/lang/src/models.php, line: 487
@@ -39413,7 +39413,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 521
 #: 
 msgid "Restart OPNsense Web UI"
-msgstr ""
+msgstr "Restartovat webové rozhraní OPNsense"
 
 #. File: /usr/lang/src/models.php, line: 522
 #: 
@@ -39493,7 +39493,7 @@ msgstr "SMART"
 #. File: /usr/lang/src/models.php, line: 537
 #: 
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #. File: /usr/lang/src/models.php, line: 538
 #: 
@@ -39575,7 +39575,7 @@ msgstr "Naplánované"
 #. File: /usr/lang/src/models.php, line: 554
 #: 
 msgid "Seconds"
-msgstr ""
+msgstr "Sekund"
 
 #. File: /usr/lang/src/models.php, line: 555
 #: 
@@ -39595,7 +39595,7 @@ msgstr "Vyberte příkaz ze seznamu."
 #. File: /usr/lang/src/models.php, line: 558
 #: 
 msgid "Senders"
-msgstr ""
+msgstr "Odesílatelé"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 153
 #. File: /usr/core/src/www/widgets/include/services_status.inc, line: 3
@@ -39765,7 +39765,7 @@ msgstr "Zdrojový otisk (hash)"
 #. File: /usr/lang/src/models.php, line: 596
 #: 
 msgid "Source IP is local"
-msgstr ""
+msgstr "Zdrojová IP adresa je místní"
 
 #. File: /usr/lang/src/models.php, line: 597
 #: 
@@ -39905,7 +39905,7 @@ msgstr "Zadejte rychlost stahování pro jednotlivé stroje (v kilobitech za sek
 #. File: /usr/lang/src/models.php, line: 624
 #: 
 msgid "Staging Environment"
-msgstr ""
+msgstr "Zkušební prostředí"
 
 #. File: /usr/lang/src/models.php, line: 626
 #: 
@@ -39935,7 +39935,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 631
 #: 
 msgid "Statically configured routes"
-msgstr ""
+msgstr "Staticky nastavené trasy"
 
 #. File: /usr/lang/src/models.php, line: 632
 #: 
@@ -39976,7 +39976,7 @@ msgstr "Přehled stavu"
 #. File: /usr/lang/src/models.php, line: 636
 #: 
 msgid "Stealth"
-msgstr ""
+msgstr "Neviditelné"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 165
 #. File: /usr/lang/src/models.php, line: 637
@@ -40007,7 +40007,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 643
 #: 
 msgid "Strip whitespaces"
-msgstr ""
+msgstr "Oříznout prázdné znaky"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/core.inc, line: 143
 #. File: /usr/core/src/www/diag_backup.php, line: 102
@@ -40034,7 +40034,7 @@ msgstr "TCP"
 #. File: /usr/lang/src/models.php, line: 648
 #: 
 msgid "TCP (Layer 4)"
-msgstr ""
+msgstr "TCP (4. vrstva)"
 
 #. File: /usr/lang/src/models.php, line: 649
 #: 
@@ -40044,7 +40044,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 650
 #: 
 msgid "TTLS"
-msgstr ""
+msgstr "TTLS"
 
 #. File: /usr/lang/src/models.php, line: 651
 #: 
@@ -40054,7 +40054,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 652
 #: 
 msgid "Table not found"
-msgstr ""
+msgstr "Tabulka nenalezena"
 
 #. File: /usr/lang/src/models.php, line: 653
 #: 
@@ -40074,7 +40074,7 @@ msgstr "Tester"
 #. File: /usr/lang/src/models.php, line: 656
 #: 
 msgid "Text files"
-msgstr ""
+msgstr "Textové soubory"
 
 #. File: /usr/lang/src/models.php, line: 657
 #: 
@@ -40119,7 +40119,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 665
 #: 
 msgid "The route priority must be greater than 0"
-msgstr ""
+msgstr "Je třeba, aby priorita trasy byla vyšší než 0 (nula)"
 
 #. File: /usr/lang/src/models.php, line: 666
 #: 
@@ -40164,7 +40164,7 @@ msgstr "Stopování trasy (trace route)"
 #. File: /usr/lang/src/models.php, line: 674
 #: 
 msgid "Traffic"
-msgstr ""
+msgstr "Provoz"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/ipfw.inc, line: 37
 #. File: /usr/core/src/etc/inc/plugins.inc.d/ipfw.inc, line: 56
@@ -40176,12 +40176,12 @@ msgstr "Omezování provozu"
 #. File: /usr/lang/src/models.php, line: 676
 #: 
 msgid "Traffic is HTTP"
-msgstr ""
+msgstr "Provoz je HTTP"
 
 #. File: /usr/lang/src/models.php, line: 677
 #: 
 msgid "Traffic is SSL"
-msgstr ""
+msgstr "Provoz je SSL"
 
 #. File: /usr/lang/src/models.php, line: 678
 #: 
@@ -40206,7 +40206,7 @@ msgstr "Vyladitelné"
 #. File: /usr/lang/src/models.php, line: 682
 #: 
 msgid "Tuning"
-msgstr ""
+msgstr "Vyladění"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 969
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 449
@@ -40230,12 +40230,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 686
 #: 
 msgid "URL parameter contains"
-msgstr ""
+msgstr "URL parametr obsahuje"
 
 #. File: /usr/lang/src/models.php, line: 687
 #: 
 msgid "USER"
-msgstr ""
+msgstr "UZIVATEL"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/unbound.inc, line: 58
 #. File: /usr/core/src/etc/inc/plugins.inc.d/unbound.inc, line: 72
@@ -40336,17 +40336,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 706
 #: 
 msgid "Verbose"
-msgstr ""
+msgstr "Podrobnější"
 
 #. File: /usr/lang/src/models.php, line: 707
 #: 
 msgid "Version 1"
-msgstr ""
+msgstr "Verze 1"
 
 #. File: /usr/lang/src/models.php, line: 708
 #: 
 msgid "Version 2"
-msgstr ""
+msgstr "Verze 2"
 
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 178
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 265
@@ -40388,7 +40388,7 @@ msgstr "Varování"
 #. File: /usr/lang/src/models.php, line: 715
 #: 
 msgid "Warnings"
-msgstr ""
+msgstr "Varování"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 386
 #. File: /usr/core/src/www/system_certmanager.php, line: 1275
@@ -40423,17 +40423,17 @@ msgstr "Je třeba, aby váha byla z rozsahu 1 až 100"
 #. File: /usr/lang/src/models.php, line: 721
 #: 
 msgid "White"
-msgstr ""
+msgstr "Bílá"
 
 #. File: /usr/lang/src/models.php, line: 722
 #: 
 msgid "Windows 2003"
-msgstr ""
+msgstr "Windows 2003"
 
 #. File: /usr/lang/src/models.php, line: 723
 #: 
 msgid "Windows 2008 with AES"
-msgstr ""
+msgstr "Windows 2008 s AES"
 
 #. File: /usr/core/src/www/interfaces_wireless.php, line: 80
 #. File: /usr/lang/src/models.php, line: 724
@@ -40502,7 +40502,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 736
 #: 
 msgid "active [default]"
-msgstr ""
+msgstr "aktivní [výchozí]"
 
 #. File: /usr/lang/src/models.php, line: 737
 #: 
@@ -40512,7 +40512,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 738
 #: 
 msgid "alert"
-msgstr ""
+msgstr "výstraha"
 
 #. File: /usr/lang/src/models.php, line: 739
 #: 
@@ -40522,7 +40522,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 740
 #: 
 msgid "all states"
-msgstr ""
+msgstr "všechny stavy"
 
 #. File: /usr/lang/src/models.php, line: 741
 #: 
@@ -40552,7 +40552,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 746
 #: 
 msgid "backup"
-msgstr ""
+msgstr "záloha"
 
 #. File: /usr/lang/src/models.php, line: 747
 #: 
@@ -40562,12 +40562,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 748
 #: 
 msgid "bit/s"
-msgstr ""
+msgstr "bit/s"
 
 #. File: /usr/lang/src/models.php, line: 749
 #: 
 msgid "both"
-msgstr ""
+msgstr "obojí"
 
 #. File: /usr/lang/src/models.php, line: 750
 #: 
@@ -40582,7 +40582,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 752
 #: 
 msgid "critical information (1)"
-msgstr ""
+msgstr "kritická informace (1)"
 
 #. File: /usr/lang/src/models.php, line: 753
 #: 
@@ -40602,12 +40602,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 756
 #: 
 msgid "daemon"
-msgstr ""
+msgstr "proces služby"
 
 #. File: /usr/lang/src/models.php, line: 757
 #: 
 msgid "debug"
-msgstr ""
+msgstr "ladění"
 
 #. File: /usr/lang/src/models.php, line: 758
 #: 
@@ -40638,12 +40638,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 764
 #: 
 msgid "encrypt"
-msgstr ""
+msgstr "šifrovat"
 
 #. File: /usr/lang/src/models.php, line: 765
 #: 
 msgid "enforce verify"
-msgstr ""
+msgstr "vynutit ověření"
 
 #. File: /usr/lang/src/models.php, line: 766
 #: 
@@ -40668,7 +40668,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 770
 #: 
 msgid "extended"
-msgstr ""
+msgstr "rozšířené"
 
 #. File: /usr/lang/src/models.php, line: 771
 #: 
@@ -40678,7 +40678,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 772
 #: 
 msgid "files"
-msgstr ""
+msgstr "soubory"
 
 #. File: /usr/lang/src/models.php, line: 773
 #: 
@@ -40708,12 +40708,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 778
 #: 
 msgid "ftp"
-msgstr ""
+msgstr "ftp"
 
 #. File: /usr/lang/src/models.php, line: 779
 #: 
 msgid "gre"
-msgstr ""
+msgstr "gre"
 
 #. File: /usr/lang/src/models.php, line: 780
 #: 
@@ -40723,7 +40723,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 781
 #: 
 msgid "greater than"
-msgstr ""
+msgstr "větší než"
 
 #. File: /usr/lang/src/models.php, line: 782
 #: 
@@ -40848,12 +40848,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 806
 #: 
 msgid "icmp"
-msgstr ""
+msgstr "icmp"
 
 #. File: /usr/lang/src/models.php, line: 807
 #: 
 msgid "igmp"
-msgstr ""
+msgstr "igmp"
 
 #. File: /usr/core/src/www/diag_ipsec.php, line: 205
 #. File: /usr/core/src/www/firewall_rules.php, line: 481
@@ -40866,7 +40866,7 @@ msgstr "odchozí"
 #. File: /usr/lang/src/models.php, line: 809
 #: 
 msgid "info [default]"
-msgstr ""
+msgstr "info [výchozí]"
 
 #. File: /usr/lang/src/models.php, line: 810
 #. File: /usr/lang/src/wizards.php, line: 320
@@ -40877,17 +40877,17 @@ msgstr "ip"
 #. File: /usr/lang/src/models.php, line: 811
 #: 
 msgid "ipv4"
-msgstr ""
+msgstr "ipv4"
 
 #. File: /usr/lang/src/models.php, line: 812
 #: 
 msgid "ipv6"
-msgstr ""
+msgstr "ipv6"
 
 #. File: /usr/lang/src/models.php, line: 813
 #: 
 msgid "kbit/s"
-msgstr ""
+msgstr "kbit/s"
 
 #. File: /usr/lang/src/models.php, line: 814
 #: 
@@ -40902,7 +40902,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 816
 #: 
 msgid "less than"
-msgstr ""
+msgstr "méně než"
 
 #. File: /usr/lang/src/models.php, line: 817
 #: 
@@ -40982,12 +40982,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 832
 #: 
 msgid "new states"
-msgstr ""
+msgstr "nové stavy"
 
 #. File: /usr/lang/src/models.php, line: 833
 #: 
 msgid "news"
-msgstr ""
+msgstr "novinky"
 
 #. File: /usr/lang/src/models.php, line: 834
 #: 
@@ -41071,17 +41071,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 845
 #: 
 msgid "ntp"
-msgstr ""
+msgstr "ntp"
 
 #. File: /usr/lang/src/models.php, line: 846
 #: 
 msgid "only store IPv4 addresses [default]"
-msgstr ""
+msgstr "uchovávat pouze IPv4 adresy [výchozí]"
 
 #. File: /usr/lang/src/models.php, line: 847
 #: 
 msgid "only store IPv6 addresses"
-msgstr ""
+msgstr "uchovávat pouze IPv6 adresy"
 
 #. File: /usr/lang/src/models.php, line: 848
 #: 
@@ -41159,17 +41159,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 862
 #: 
 msgid "router"
-msgstr ""
+msgstr "směrovač"
 
 #. File: /usr/lang/src/models.php, line: 864
 #: 
 msgid "standalone"
-msgstr ""
+msgstr "samostatné"
 
 #. File: /usr/lang/src/models.php, line: 865
 #: 
 msgid "store 32bit integers"
-msgstr ""
+msgstr "ukládat 32bit celočíselné"
 
 #. File: /usr/lang/src/models.php, line: 866
 #: 
@@ -41179,7 +41179,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 867
 #: 
 msgid "store substrings"
-msgstr ""
+msgstr "uchovávat dílčí řetězce"
 
 #. File: /usr/lang/src/models.php, line: 868
 #: 
@@ -41199,7 +41199,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 871
 #: 
 msgid "tcp"
-msgstr ""
+msgstr "tcp"
 
 #. File: /usr/lang/src/models.php, line: 872
 #: 
@@ -41304,7 +41304,7 @@ msgstr "Je třeba, aby počet procesů podřízených sslrtd bylo celé číslo 
 #. File: /usr/lang/src/models.php, line: 892
 #: 
 msgid "udp"
-msgstr ""
+msgstr "udp"
 
 #. File: /usr/lang/src/models.php, line: 893
 #: 
@@ -41314,17 +41314,17 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 894
 #: 
 msgid "uucp"
-msgstr ""
+msgstr "uucp"
 
 #. File: /usr/lang/src/models.php, line: 895
 #: 
 msgid "v5"
-msgstr ""
+msgstr "v5"
 
 #. File: /usr/lang/src/models.php, line: 896
 #: 
 msgid "v9"
-msgstr ""
+msgstr "v9"
 
 #. File: /usr/lang/src/models.php, line: 897
 #: 
@@ -41344,7 +41344,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 900
 #: 
 msgid "warning"
-msgstr ""
+msgstr "varování"
 
 #. File: /usr/lang/src/models.php, line: 901
 #: 
@@ -41359,7 +41359,7 @@ msgstr "(pokud žádné, nevyplňujte)"
 #. File: /usr/lang/src/wizards.php, line: 31
 #: 
 msgid "(leave empty to keep current one)"
-msgstr ""
+msgstr "(pro ponechání stávajícího nevyplňujte)"
 
 #. File: /usr/lang/src/wizards.php, line: 32
 #: 
@@ -41589,7 +41589,7 @@ msgstr "Město nebo jiný název oblasti (např. Middelharnis, Lipsko, Praha)"
 #. File: /usr/lang/src/wizards.php, line: 77
 #: 
 msgid "Click 'Reload' to apply the changes."
-msgstr ""
+msgstr "Změny uplatníte kliknutím na „Znovunačíst“"
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 550
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1322
@@ -42508,12 +42508,12 @@ msgstr "TCP – standardní"
 #. File: /usr/lang/src/wizards.php, line: 247
 #: 
 msgid "TCP4"
-msgstr ""
+msgstr "TCP4"
 
 #. File: /usr/lang/src/wizards.php, line: 248
 #: 
 msgid "TCP6"
-msgstr ""
+msgstr "TCP6"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 809
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 799
@@ -42535,7 +42535,7 @@ msgstr ""
 #. File: /usr/lang/src/wizards.php, line: 252
 #: 
 msgid "The interface where OpenVPN will listen for incoming connections."
-msgstr ""
+msgstr "Rozhraní na kterém bude OpenVPN očekávat spojení."
 
 #. File: /usr/lang/src/wizards.php, line: 253
 #: 
@@ -42680,12 +42680,12 @@ msgstr "UDP"
 #. File: /usr/lang/src/wizards.php, line: 280
 #: 
 msgid "UDP4"
-msgstr ""
+msgstr "UDP4"
 
 #. File: /usr/lang/src/wizards.php, line: 281
 #: 
 msgid "UDP6"
-msgstr ""
+msgstr "UDP6"
 
 #. File: /usr/lang/src/wizards.php, line: 283
 #: 
