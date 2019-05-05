@@ -35,7 +35,7 @@ def recursiveParseWizard(xmlNode):
         for tag in recursiveParseWizard(childNode):
             yield tag
 
-    if xmlNode.tag in ['description', 'title', 'name', 'displayname', 'message'] and xmlNode.text is not None:
+    if xmlNode.tag in ['description', 'title', 'name', 'typehint', 'displayname', 'message'] and xmlNode.text is not None:
         yield xmlNode.text
 
 
