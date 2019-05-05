@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (C) 2015-2018 Deciso B.V.
+ * Copyright (C) 2015-2019 Deciso B.V.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -31,6 +31,7 @@ echo gettext('(leave empty for none)');
 echo gettext('(leave empty to keep current one)');
 echo gettext('1024 bit');
 echo gettext('2048 bit');
+echo gettext('3072 bit');
 echo gettext('4096 bit');
 echo gettext('512 bit');
 echo gettext('A NetBIOS Scope ID provides an extended naming service for NetBIOS over TCP/IP. The NetBIOS Scope ID isolates NetBIOS traffic on a single network to only those nodes with the same NetBIOS Scope ID.');
@@ -53,8 +54,6 @@ echo gettext('Add new Server');
 echo gettext('Address Pool');
 echo gettext('Address of the LDAP server.');
 echo gettext('Address of the RADIUS server.');
-echo gettext('Admin Password');
-echo gettext('Admin Password AGAIN');
 echo gettext('Advanced');
 echo gettext('Allow DNS servers to be overridden by DHCP/PPP on WAN');
 echo gettext('Allow communication between clients connected to this server.');
@@ -67,6 +66,8 @@ echo gettext('Authentication Type Selection');
 echo gettext('Automatically generate a shared TLS authentication key.');
 echo gettext('Block RFC1918 Private Networks');
 echo gettext('Block bogon networks');
+echo gettext('Block non-Internet routed networks from entering via WAN');
+echo gettext('Block private networks from entering via WAN');
 echo gettext('Certificate');
 echo gettext('Certificate Authority');
 echo gettext('Certificate Authority Selection');
@@ -107,6 +108,7 @@ echo gettext('Dynamic IP');
 echo gettext('Email');
 echo gettext('Email address for the Certificate contact. Often the email of the person generating the certificate (i.e. You.)');
 echo gettext('Enable DNSSEC Support');
+echo gettext('Enable Dial-On-Demand mode');
 echo gettext('Enable NetBIOS over TCP/IP. If this option is not set, all NetBIOS-over-TCP/IP options (including WINS) will be disabled.');
 echo gettext('Enable Resolver');
 echo gettext('Enable authentication of TLS packets.');
@@ -134,6 +136,7 @@ echo gettext('Hostname');
 echo gettext('Hostname or IP address');
 echo gettext('IP Address');
 echo gettext('IP Address field is invalid');
+echo gettext('IPv4 Configuration Type');
 echo gettext('IPv4 Local Network');
 echo gettext('IPv4 Remote Network');
 echo gettext('IPv4 Tunnel Network');
@@ -222,6 +225,8 @@ echo gettext('Redirect Gateway');
 echo gettext('Reload');
 echo gettext('Reload Configuration');
 echo gettext('Reload in progress');
+echo gettext('Root Password');
+echo gettext('Root Password Confirmation');
 echo gettext('SSL - Encrypted');
 echo gettext('Search Scope Base DN');
 echo gettext('Search Scope Level');
@@ -232,7 +237,7 @@ echo gettext('SelectedType');
 echo gettext('Semicolon separated. This will be prepended to the search base DN above or you can specify full container path, e.g. CN=Users;DC=example or CN=Users,DC=example,DC=com;OU=OtherUsers,DC=example,DC=com');
 echo gettext('Server Certificate Selection');
 echo gettext('Server Setup');
-echo gettext('Set Admin Web GUI Password');
+echo gettext('Set Root Password');
 echo gettext('Set the MTU of the WAN interface. If you leave this field blank, an MTU of 1492 bytes for PPPoE and 1500 bytes for all other connection types will be assumed.');
 echo gettext('Set the TOS IP header value of tunnel packets to match the encapsulated packet value.');
 echo gettext('Shared Secret');
@@ -284,8 +289,8 @@ echo gettext('Upstream Gateway');
 echo gettext('User Naming Attribute');
 echo gettext('WINS Server 1');
 echo gettext('WINS Server 2');
-echo gettext('When set, this option blocks traffic from IP addresses that are reserved (but not RFC 1918) or not yet assigned by IANA. Bogons are prefixes that should never appear in the Internet routing table, and obviously should not appear as the source address in any packets you receive.');
-echo gettext('When set, this option blocks traffic from IP addresses that are reserved for private networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well as loopback addresses (127/8). You should generally leave this option turned on, unless your WAN network lies in such a private address space, too.');
+echo gettext('When set, this option blocks traffic from IP addresses that are reserved (but not RFC 1918) or not yet assigned by IANA.');
+echo gettext('When set, this option blocks traffic from IP addresses that are reserved for private networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well as loopback addresses (127/8) and Carrier-grade NAT addresses (100.64/10). This option should only be set for WAN interfaces that use the public IP address space.');
 echo gettext('Your configuration is now complete.');
 echo gettext('addrpool');
 echo gettext('authscope');
