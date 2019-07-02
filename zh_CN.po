@@ -2862,7 +2862,7 @@ msgstr "您必须为任何参与的同步节点上的接口分配IP。"
 #. File: /usr/core/src/www/system_hasync.php, line: 176
 #: 
 msgid "We recommend setting this to a interface other than LAN! A dedicated interface works the best."
-msgstr "我们建议将其设置为LAN以外的接口！ 专用接口效果最佳。"
+msgstr "建议将其设置为LAN以外的接口！ 最好使用专用接口。"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 173
 #: 
@@ -5267,12 +5267,12 @@ msgstr "禁用强制网关"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 408
 #: 
 msgid "Using policy routing in the packet filter rules causes packets to skip processing for the traffic shaper and captive portal tasks. Using this option enables the sharing of such forwarding decisions between all components to accomodate complex setups."
-msgstr "在数据包过滤规则中使用策略路由会导致数据包跳过流量整形器和强制门户任务的处理。 使用此选项可以在所有组件之间共享此类转发决策，以适应复杂的设置。"
+msgstr "在数据包过滤规则中使用策略路由会导致数据包跳过流量控制器和强制门户任务的处理。 使用此选项可以在所有组件之间共享此类转发决策，以适应复杂的设置。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 406
 #: 
 msgid "Use shared forwarding between packet filter, traffic shaper and captive portal"
-msgstr "在数据包过滤器、流量整形器和强制网络门户之间使用共享转发"
+msgstr "在数据包过滤器、流量控制器和强制网络门户之间使用共享转发"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 403
 #: 
@@ -6566,7 +6566,7 @@ msgstr "我的状态"
 #. File: /usr/core/src/www/status_dhcpv6_leases.php, line: 400
 #: 
 msgid "Failover Group"
-msgstr "失效组"
+msgstr "故障转移组"
 
 #. File: /usr/core/src/www/services_unbound_overrides.php, line: 249
 #: 
@@ -13165,7 +13165,7 @@ msgstr "如果statetype为none，则不能指定最大状态条目(高级选项)
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 345
 #: 
 msgid "You can only specify the state timeout (advanced option) for Pass type rules."
-msgstr "你只能为‘放行’类型的规则定义状态超时。"
+msgstr "你只能为‘通过’类型的规则定义状态超时。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 343
 #: 
@@ -13175,7 +13175,7 @@ msgstr "您只能为“通过”类型规则指定每个主机/每秒的最大�
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 341
 #: 
 msgid "You can only specify the maximum state entries per host (advanced option) for Pass type rules."
-msgstr "你只能为放行规则定义每主机最大状态条数。"
+msgstr "你只能为通过规则定义每主机最大状态条数。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 339
 #: 
@@ -13190,7 +13190,7 @@ msgstr "您只能为“通过”类型规则指定唯一源主机的最大数量
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 335
 #: 
 msgid "You can only specify the maximum state entries (advanced option) for Pass type rules."
-msgstr "你只能为‘放行’类型的规则定义最大状态条数。"
+msgstr "你只能为‘通过’类型的规则定义最大状态条数。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 331
 #: 
@@ -13304,7 +13304,7 @@ msgstr "拦截(已禁用)"
 #. File: /usr/core/src/www/firewall_rules.php, line: 719
 #: 
 msgid "pass (disabled)"
-msgstr "放行(已禁用)"
+msgstr "通过(已禁用)"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 709
 #: 
@@ -13324,7 +13324,7 @@ msgstr "拦截"
 #. File: /usr/core/src/www/firewall_rules.php, line: 700
 #: 
 msgid "pass"
-msgstr "放行"
+msgstr "通过"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 668
 #: 
@@ -13831,7 +13831,7 @@ msgstr "规则信息"
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1050
 #: 
 msgid "NOTE: The \"pass\" selection does not work properly with Multi-WAN. It will only work on an interface containing the default gateway."
-msgstr "注意：“放行”选择对于多WAN不能正常工作。 它只会在包含默认网关的接口上工作。"
+msgstr "注意：“通过”选项对于多WAN不能正常工作。 它只会在包含默认网关的接口上工作。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1046
 #: 
@@ -13848,7 +13848,7 @@ msgstr "添加关联的过滤规则"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 690
 #: 
 msgid "Pass"
-msgstr "放行"
+msgstr "通过"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1011
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1041
@@ -14378,7 +14378,7 @@ msgstr "禁用该规则"
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 242
 #: 
 msgid "Edit NAT 1:1 entry"
-msgstr "编辑NAT 1:1条目"
+msgstr "编辑NAT1:1条目"
 
 #. File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 126
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 200
@@ -19700,7 +19700,7 @@ msgstr "流量分析"
 #. File: /usr/core/src/etc/inc/plugins.inc.d/netflow.inc, line: 52
 #: 
 msgid "NetFlow Distributor"
-msgstr "网络流配送"
+msgstr "网络流分销商"
 
 #. File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 39
 #. File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 60
@@ -20175,7 +20175,7 @@ msgstr "失败"
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 64
 #: 
 msgid "PASSED"
-msgstr "已放行"
+msgstr "通过"
 
 #. File: /usr/plugins/net/frr/src/etc/inc/plugins.inc.d/frr.inc, line: 91
 #: 
@@ -20595,12 +20595,12 @@ msgstr "主机名包含无效字符。"
 #. File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 50
 #: 
 msgid "shadowsockslocal daemon"
-msgstr "shadowsockslocal 守护进程"
+msgstr "shadowsockslocal进程"
 
 #. File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 37
 #: 
 msgid "shadowsocks daemon"
-msgstr "shadowsocks 守护进程"
+msgstr "shadowsocks进程"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 384
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 389
@@ -23390,7 +23390,7 @@ msgstr "区域ID"
 #. File: /usr/plugins/www/web-proxy-useracl/src/etc/inc/plugins.inc.d/proxy_useracl.inc, line: 59
 #: 
 msgid "Group & User Squid ACL"
-msgstr "组& 用户Squid ACL"
+msgstr "组&用户Squid访问列表"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 292
 #: 
@@ -25635,12 +25635,12 @@ msgstr "启用STUN插件"
 #. File: /usr/lang/src/controllers.php, line: 415
 #: 
 msgid "Enable ShadowSocks Local"
-msgstr "启用本地ShadowSocks"
+msgstr "启用ShadowSocks本地"
 
 #. File: /usr/lang/src/controllers.php, line: 416
 #: 
 msgid "Enable ShadowSocks Server"
-msgstr "启用ShadowSocks 服务器"
+msgstr "启用ShadowSocks服务器"
 
 #. File: /usr/lang/src/controllers.php, line: 417
 #: 
@@ -32626,12 +32626,12 @@ msgstr "这将激活北电的 SONMP 协议。"
 #. File: /usr/lang/src/controllers.php, line: 1719
 #: 
 msgid "This will activate the ShadowSocks Local instance. This lets you tunnel your application to a public ShadowSocks server."
-msgstr "这将激活本地ShadowSocks，以便连接外部ShadowSocks服务器，实现翻墙访问境外网站。"
+msgstr "这将激活ShadowSocks本地实例，方便连接外部ShadowSocks服务器，实现翻墙。"
 
 #. File: /usr/lang/src/controllers.php, line: 1720
 #: 
 msgid "This will activate the ShadowSocks Server. This lets people around the world connect via ss-local to your server."
-msgstr "这将激活ShadowSocks服务器。 这使得世界各地的人们可以通过ss本地连接到您的服务器。"
+msgstr "这将激活ShadowSocks服务器。 这使得世界各地的人们可以通过SS本地连接到您的服务器。"
 
 #. File: /usr/lang/src/controllers.php, line: 1721
 #: 
@@ -35358,7 +35358,7 @@ msgstr "移动客户端"
 #. File: /usr/lang/src/models.php, line: 342
 #: 
 msgid "Monit"
-msgstr "监控"
+msgstr "Monit"
 
 #. File: /usr/lang/src/models.php, line: 343
 #: 
@@ -35499,7 +35499,7 @@ msgstr "OVH，kimsufi，soyoustart和runabove API"
 #. File: /usr/lang/src/models.php, line: 368
 #: 
 msgid "One-to-One"
-msgstr "1:1"
+msgstr "1：1"
 
 #. File: /usr/lang/src/models.php, line: 369
 #: 
@@ -48993,7 +48993,7 @@ msgstr "服务名称必须是唯一的。"
 #. File: /usr/lang/src/models.php, line: 942
 #: 
 msgid "Shaper"
-msgstr "整形"
+msgstr "流控"
 
 #. File: /usr/lang/src/models.php, line: 943
 #: 
