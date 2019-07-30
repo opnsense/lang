@@ -47,8 +47,8 @@ def recursiveParseMenu(xmlNode):
         for tag in recursiveParseMenu(childNode):
             yield tag
 
-    if not xmlNode.attrib.has_key('visibility'):
-        if xmlNode.attrib.has_key('VisibleName'):
+    if not 'visibility' in xmlNode.attrib:
+        if 'VisibleName' in xmlNode.attrib:
             yield xmlNode.attrib['VisibleName']
         else:
             yield xmlNode.tag
