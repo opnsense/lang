@@ -45,4 +45,4 @@ def getTranslations(root):
                 for item in childNode:
                     for itemTags in item:
                         if itemTags.tag == "descr":
-                            yield itemTags.text
+                            yield itemTags.text.replace("'", "&#039;")
