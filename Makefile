@@ -99,7 +99,7 @@ ${TEMPLATE}:
 	@if [ -d ${ROOTDIR}/src ]; then \
 		echo ">>> Scanning ${ROOTDIR}"; \
 		${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot; \
-		find ${ROOTDIR}/src -type -f -print0 | \
+		find ${ROOTDIR}/src -type f -print0 | \
 		    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot; \
 	fi
 .endfor
