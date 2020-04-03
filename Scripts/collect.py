@@ -66,7 +66,7 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
 
         # fill with gettext tags
         for textValue in translations:
-            line="echo gettext('%s');\n"%(unicode(textValue).replace("'","\\'"))
+            line="echo gettext('%s');\n"%(str(textValue).replace("'","\\'"))
             fOut.write(line)
 
         fOut.close()

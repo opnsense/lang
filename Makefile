@@ -111,6 +111,6 @@ merge: ${MERGE}
 test: ${TEST}
 
 src:
-	@${.CURDIR}/scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
+	@${.CURDIR}/Scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
 
 .PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src
