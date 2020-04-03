@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2017 Franco Fichtner <franco@opnsense.org>
+# Copyright (c) 2015-2020 Franco Fichtner <franco@opnsense.org>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -39,8 +39,9 @@ LANGUAGES+=	de_DE
 LANGUAGES+=	es_ES
 LANGUAGES+=	fr_FR
 LANGUAGES+=	it_IT
-LANGUAGES+=	nl_NL
 LANGUAGES+=	ja_JP
+LANGUAGES+=	nl_NL
+LANGUAGES+=	no_NO
 LANGUAGES+=	pt_BR
 LANGUAGES+=	pt_PT
 LANGUAGES+=	ro_RO
