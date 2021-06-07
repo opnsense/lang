@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (C) 2015-2020 Deciso B.V.
+ * Copyright (C) 2015-2021 Deciso B.V.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -129,7 +129,6 @@ echo gettext('General configuration');
 echo gettext('Generate TLS Key');
 echo gettext('Group Naming Attribute');
 echo gettext('Harden DNSSEC data');
-echo gettext('Hardware Crypto');
 echo gettext('Hostname');
 echo gettext('Hostname or IP address');
 echo gettext('IP Address');
@@ -163,6 +162,7 @@ echo gettext('LDAP servers');
 echo gettext('Language');
 echo gettext('Length of Diffie-Hellman (DH) key exchange parameters, used for establishing a secure communications channel. As with other such settings, the larger values are more secure, but may be slower in operation.');
 echo gettext('Lifetime');
+echo gettext('Lifetime in days. This is commonly set to 397 (approximately 1 year).');
 echo gettext('Lifetime in days. This is commonly set to 825 (approximately 2 years).');
 echo gettext('Local Port');
 echo gettext('Local User Access');
@@ -251,7 +251,6 @@ echo gettext('TCP4');
 echo gettext('TCP6');
 echo gettext('TLS Authentication');
 echo gettext('TLS Shared Key');
-echo gettext('The hardware cryptographic accelerator to use for this VPN connection, if any.');
 echo gettext('The interface where OpenVPN will listen for incoming connections.');
 echo gettext('The method used to authenticate traffic between endpoints. This setting must match on the client and server side, but is otherwise set however you like.');
 echo gettext('The method used to encrypt traffic between endpoints. This setting must match on the client and server side, but is otherwise set however you like. Certain algorithms will perform better on different hardware, depending on the availability of supported VPN accelerator chips.');
@@ -315,7 +314,6 @@ echo gettext('dummy');
 echo gettext('duplicate_cn');
 echo gettext('dynip');
 echo gettext('email');
-echo gettext('engine');
 echo gettext('generatetlskey');
 echo gettext('groupattr');
 echo gettext('interclient');

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (C) 2015-2020 Deciso B.V.
+ * Copyright (C) 2015-2021 Deciso B.V.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -44,7 +44,6 @@ echo gettext('
 echo gettext('Allow unprivileged access to tap(4) device nodes');
 echo gettext('Disable CTRL+ALT+Delete reboot from keyboard.');
 echo gettext('Disable Indirect Branch Restricted Speculation (Spectre V2 mitigation)');
-echo gettext('Disable the pf ftp proxy handler.');
 echo gettext('Do not delay ACK to try and piggyback it onto a data packet');
 echo gettext('Do not send ICMP port unreachable messages for closed UDP ports');
 echo gettext('Drop SYN-FIN packets (breaks RFC1379, but nobody uses it anyway)');
@@ -59,6 +58,7 @@ echo gettext('Generate SYN cookies for outbound SYN-ACK packets');
 echo gettext('Handling of non-IP packets which are not passed to pfil (see if_bridge(4))');
 echo gettext('Hide processes running as other groups');
 echo gettext('Hide processes running as other users');
+echo gettext('Hint at default settings for serial console in case the autodetect is not working');
 echo gettext('Increase UFS read-ahead speeds to match the state of hard drives and NCQ.');
 echo gettext('Maximum incoming/outgoing TCP datagram size (receive)');
 echo gettext('Maximum incoming/outgoing TCP datagram size (send)');
