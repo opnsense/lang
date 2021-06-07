@@ -4,9 +4,9 @@ OPNsense language translation kit
 The kit requires additional tools in order to properly extract strings
 from the source code.  You'll need to run this once locally:
 
-    # pkg install gettext-tools p5-Locale-Maketext-Lexicon python27
+    # pkg install gettext-tools p5-Locale-Maketext-Lexicon python37
 
-Regenerate source strings that can't be found in the template
+Regenerate source strings that cannot be found in the template
 generation step (XML contents, etc.):
 
     # make src
