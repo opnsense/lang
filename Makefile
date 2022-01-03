@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2020 Franco Fichtner <franco@opnsense.org>
+# Copyright (c) 2015-2022 Franco Fichtner <franco@opnsense.org>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -90,7 +90,8 @@ TEST+=		test-${LANG}
 .endfor
 
 _PLUGINSDIRS!=	if [ -d ${PLUGINSDIR} ]; then \
-			${MAKE} -C ${PLUGINSDIR} list | awk '{ print $$1 }'; \
+			${MAKE} -C ${PLUGINSDIR} \
+			    -v PLUGIN_DIRS PLUGIN_PYTHON=ignore; \
 		fi
 PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 
