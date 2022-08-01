@@ -108,7 +108,7 @@ ${TEMPLATE}:
 .endfor
 
 template: ${TEMPLATE}
-install: ${INSTALL}
+install upgrade: ${INSTALL}
 clean: ${CLEAN}
 merge: ${MERGE}
 test: ${TEST}
