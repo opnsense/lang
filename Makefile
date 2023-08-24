@@ -40,6 +40,7 @@ LANGUAGES+=	es_ES
 LANGUAGES+=	fr_FR
 LANGUAGES+=	it_IT
 LANGUAGES+=	ja_JP
+LANGUAGES+=	ko_KR
 LANGUAGES+=	no_NO
 LANGUAGES+=	po_PL
 LANGUAGES+=	pt_BR
@@ -115,5 +116,8 @@ test: ${TEST}
 
 src:
 	@${.CURDIR}/Scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
+
+fetch:
+	@${.CURDIR}/Scripts/fetch_po_files.py
 
 .PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src
