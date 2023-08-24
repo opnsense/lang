@@ -120,4 +120,8 @@ src:
 fetch:
 	@${.CURDIR}/Scripts/fetch_po_files.py
 
+cleanse:
+	@${.CURDIR}/Scripts/cleanse_po.py
+
+
 .PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src
