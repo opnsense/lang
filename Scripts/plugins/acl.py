@@ -39,6 +39,8 @@ def recursiveParseForm(xmlNode):
         yield xmlNode.text
 
 def getTranslations(root):
+    # exclude ACL's for now
+    return
     aclMap = dict()
 
     import os

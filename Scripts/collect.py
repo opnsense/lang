@@ -1,7 +1,7 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3
 
 """
-    Copyright (c) 2015 Deciso B.V.
+    Copyright (c) 2015-2023 Deciso B.V.
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
@@ -60,7 +60,11 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
         translations = list()
         for RootPath in RootPaths:
             for textValue in lang.getTranslations(RootPath + '/src'):
-                translations.append(textValue)
+                if textValue:
+                    if textValue.find('<') > -1 and textValue.find('>') > -1:
+                        # likely html content, exclude for now
+                        continue
+                    translations.append(textValue)
         translations = list(set(translations))
         translations.sort()
 
