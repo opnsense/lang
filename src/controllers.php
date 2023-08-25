@@ -39,7 +39,63 @@ echo gettext('
                   to upload your own theme content.
                 ');
 echo gettext('
+            Apcupsd will shutdown the system during a power failure when the remaining battery charge falls below the
+            specified percentage. Set to -1 to disable. (Default is 5).
+        ');
+echo gettext('
+            Apcupsd will shutdown the system during a power failure when the remaining runtime on batteries as
+            internally calculated by the UPS falls below the specified minutes. Set to -1 to disable. (Default is 3)
+        ');
+echo gettext('
+            By default, Unbound will allow queries from all networks. Use this setting
+            to change this behaviour. Since the most specific net block is used, the ACLs as
+            defined in the grid below have preference and will therefore override the behaviour of this setting
+            for the specified networks.
+        ');
+echo gettext('
+            Configure a maximum Negative Time to live in seconds for RRsets and messages in the cache.
+            When the internal TTL expires the negative response cache item is expired.
+            This can be configured to force the resolver to query for data more often in case you wont
+            get a valid answer.
+        ');
+echo gettext('
+            Configure a maximum Time to live in seconds for RRsets and messages in the cache.
+            When the internal TTL expires the cache item is expired.
+            This can be configured to force the resolver to query for data more often and
+            not trust (very large) TTL values.
+        ');
+echo gettext('
+            Configure a minimum Time to live in seconds for RRsets and messages in the cache.
+            If the minimum value kicks in, the data is cached for longer than
+            the domain owner intended, and thus fewer queries are made to look up the data.
+            The 0 value ensures the data in the cache is as the domain owner intended.
+            High values can lead to trouble as the data in the cache might not match up with the actual data anymore.
+        ');
+echo gettext('
+            Connection child to register this manual item on. Please note that an established tunnel needs
+            to reconnect in order to add the entry as we use an updown event.
+        ');
+echo gettext('
+            DNSKEYs are fetched earlier in the validation process when a Delegation signer is encountered.
+            This helps lower the latency of requests but does utilize a little more CPU.
+        ');
+echo gettext('
+            DNSSEC data is required for trust-anchored zones. If such data is absent, the zone becomes bogus.
+            If this is disabled and no DNSSEC data is received, then the zone is made insecure.
+        ');
+echo gettext('
+            Debug level for this agents services.
+        ');
+echo gettext('
+            Destination ip address for entries in the blocklist (leave empty to use default: 0.0.0.0).
+            Not used when "Return NXDOMAIN" is checked.
+        ');
+echo gettext('
             Direction of the traffic. The default policy is to filter inbound traffic, which sets the policy to the interface originally receiving the traffic.
+        ');
+echo gettext('
+            Domain to override (NOTE: this does not have to be a valid TLD!),
+            e.g. \'test\' or \'mycompany.localdomain\' or \'1.168.192.in-addr.arpa\'
         ');
 echo gettext('
             Enable certificate revocation lists, when selected a CRL with the format XXXXXXXX.r0 is required in the chroot (/var/run/stunnel/certs/).
@@ -50,11 +106,121 @@ echo gettext('
             Additions may need a restart of stunnel (when the certificate was already used).
             ');
 echo gettext('
+            Enable remote commands from the log collector, disabling this will ignore command and full_command log sources
+            and prevents Wazuh manager from running arbitrary commands on this node.
+        ');
+echo gettext('
+            Have the validator print validation failures to  the  log.
+            Regardless  of  the  verbosity setting.  Default is 0, off.  At 1,
+            for every user query that fails a line is printed to  the  logs.
+            This  way  you  can monitor what happens with validation.  Use a
+            diagnosis tool, such as dig or drill, to find out why validation
+            is  failing  for  these  queries.  At 2, not only the query that
+            failed is printed but also the reason why Unbound thought it was
+            wrong and which server sent the faulty data.
+        ');
+echo gettext('
+            IP address of the authoritative DNS server for this domain,
+            e.g. \'192.168.100.100\'. To use a non-default port for communication,
+            append an \'@\' with the port number.
+        ');
+echo gettext('
+            If a domain is entered here, queries for this specific domain will be forwarded to the specified server.
+            Leave blank to forward all queries to the specified server (default).
+        ');
+echo gettext('
             If a packet matches a rule specifying quick, then that rule is considered the last matching rule and the specified action is taken.
             When a rule does not have quick enabled, the last matching rule wins.
         ');
 echo gettext('
+            If enabled, a total number of unwanted replies is kept track of in every thread.
+            When it reaches the threshold, a defensive action is taken and a warning is printed to the log file.
+            This defensive action is to clear the RRSet and message caches, hopefully flushing away any poison.
+        ');
+echo gettext('
+            If enabled, log lines that say why queries return SERVFAIL to clients.
+            This is separate from the verbosity debug  logs,  much  smaller,
+            and printed at the error level, not the info level of debug info
+            from verbosity.
+        ');
+echo gettext('
+            If enabled, log lines to inform about local zone actions.  These lines
+            are like the local-zone type inform prints  out,  but  they  are
+            also printed for the other types of local zones.
+        ');
+echo gettext('
+            If enabled, prints one line per query to the log, with the log timestamp and IP address, name, type and class.
+            Note that it takes time to print these lines, which makes the server (significantly) slower. Odd
+            (non-printable) characters in names are printed as \'?\'.
+        ');
+echo gettext('
+            If enabled, prints one line per reply to the log, with the log timestamp and IP address, name, type,
+            class, return code, time to resolve, whether the reply is from the cache and the response size.
+            Note that it takes time to print these lines, which makes the server (significantly) slower. Odd
+            (non-printable) characters in names are printed as \'?\'.
+        ');
+echo gettext('
+            If enabled, prints the word \'query: \' and \'reply: \' with logged queries and replies. This makes filtering
+            logs easier.
+        ');
+echo gettext('
+            If this option is set, CNAME records for the WPAD host of all configured domains will be automatically added
+            as well as overrides for TXT records for domains. This allows automatic proxy configuration in your network
+            but you should not enable it if you are not using WPAD or if you want to configure it by yourself.
+        ');
+echo gettext('
+            If this option is set, the DNS cache will be flushed during each daemon reload.
+            This is the default behavior for Unbound, but may be undesired when multiple dynamic interfaces require frequent reloading.
+        ');
+echo gettext('
+            If this option is set, then IPv6 link-local addresses will not be registered in Unbound,
+            preventing return of unreachable address when more than one listen interface is configured.
+        ');
+echo gettext('
+            Interface IP addresses used for responding to queries from clients.
+            If an interface has both IPv4 and IPv6 IPs, both are used.
+            Queries to other interface IPs not selected below are discarded.
+            The default behavior is to respond to queries on every available IPv4 and IPv6 address.
+        ');
+echo gettext('
+            Interval to check the liveness of a peer actively using IKEv2 INFORMATIONAL exchanges or IKEv1 R_U_THERE messages.
+            Active DPD checking is only enforced if no IKE or ESP/AH packet has been received for the configured DPD delay. Defaults to 0s
+        ');
+echo gettext('
+            Keep probing hosts that are down in the infrastructure host cache. Hosts that are down are probed
+            about every 120 seconds with an exponential backoff. If hosts do not respond within this time period,
+            they are marked as down for the duration of the host cache TTL.
+        ');
+echo gettext('
             Leave as \'default\' to use the system routing table. Or choose a gateway to utilize policy based routing.
+        ');
+echo gettext('
+            Limits the serving of expired responses to the configured amount of seconds after expiration.
+            A value of 0 disables the limit. A suggested value per RFC 8767	is between 86400 (1 day) and 259200 (3	days).
+        ');
+echo gettext('
+            List of domains to mark as private. These domains and all its subdomains are allowed to contain
+            private addresses.
+        ');
+echo gettext('
+            List of named IP pools to allocate virtual IP addresses and other configuration attributes from.
+            Each name references a pool by name from either the pools section or an external pool.
+            Note that the order in which they are queried primarily depends on the plugin order.
+        ');
+echo gettext('
+            List of networks in CIDR notation to apply this ACL on. For example: 192.168.1.0/24.
+        ');
+echo gettext('
+            List of wildcard domains to blocklist. All subdomains of the given domain will
+            be blocked. Blocking first-level domains is not supported.
+        ');
+echo gettext('
+            Message cache elements are prefetched before they expire to help keep the cache up to date.
+            When enabled, this option can cause an increase of around 10% more DNS traffic and load
+            on the server, but frequently requested items will not expire from the cache.
+        ');
+echo gettext('
+            Number of hosts for which information is cached.
         ');
 echo gettext('
             Packets matching this rule will be mapped to the IP address given here.
@@ -74,13 +240,268 @@ echo gettext('
             This option is not compatible with "Enable CARP Failover".
       ');
 echo gettext('
-          How to determine the address to uswe for this host
+            Reqid to register this manual item on. Please note that an established tunnel needs
+            to reconnect in order to add the entry as we use an updown event.
+        ');
+echo gettext('
+            Select an alias from which the items should be ignored when dropping ip addresses using the opnsense-fw
+            active-response action.
+        ');
+echo gettext('
+            Select the log verbosity. Level 0 means no verbosity, only errors. Level 1 gives operational information.
+            Level 2 gives detailed operational information. Level 3 gives query level information, output per query.
+            Level 4 gives algorithm level information. Level 5 logs client identification for cache misses.
+        ');
+echo gettext('
+            Send certificate payloads when using certificate authentication.
+            With the default of [ifasked] the daemon sends certificate payloads only if certificate requests have been received.
+            [never] disables sending of certificate payloads altogether whereas [always] causes certificate payloads to be sent unconditionally
+            whenever certificate-based authentication is used.
+        ');
+echo gettext('
+            Send minimum amount of information to upstream servers to enhance privacy.
+            Do not fall-back to sending full QNAME to potentially broken nameservers.
+            A lot of domains will not be resolvable when this option in enabled.
+            Only use if you know what you are doing.
+        ');
+echo gettext('
+            Serve expired responses from the cache with a TTL of 0 without waiting for the actual resolution to finish.
+            The TTL can be modified with "Expired Record Reply TTL value"
+        ');
+echo gettext('
+            Set the TTL of expired records to the "TTL for Expired Responses" value after a failed attempt to
+            retrieve the record from an upstream server. This makes sure that the expired records will be served as long
+            as there are queries for it.
+        ');
+echo gettext('
+            Size of the RRset cache. Contains the actual RR data. Valid input is plain bytes, optionally appended
+            with \'k\', \'m\', or \'g\' for kilobytes, megabytes or gigabytes respectively.
+        ');
+echo gettext('
+            Size of the message cache. The message cache stores DNS rcodes and validation statuses.
+            Valid input is plain bytes, optionally appended with \'k\', \'m\', or \'g\' for kilobytes, megabytes
+            or gigabytes respectively.
+        ');
+echo gettext('
+            Specify a name for the UPS for log files, status reports etc.,
+            between 1 and 99 characters in length.
+        ');
+echo gettext('
+            TTL value to use when replying with expired data. If "Client Expired Response Timeout" is also used
+            then it is recommended to use 30 as the value as per RFC 8767.
+        ');
+echo gettext('
+            The Common Name of the DNS server (e.g. dns.example.com). This field is required to verify its TLS certificate.
+            DNS-over-TLS is susceptible to man-in-the-middle attacks unless certificates can be verified.
+            Leave empty to accept self-signed yet also potentially fraudulent certificates.
+        ');
+echo gettext('
+            The configured system nameservers will be used to forward queries to.
+            This will override any entry in the grid below, except for entries with a specific domain.
+            DNS over TLS will never be used for any query bound for a system nameserver.
+        ');
+echo gettext('
+            The number of incoming TCP buffers to allocate per thread.
+            If 0 is selected then no TCP queries, from clients, are accepted.
+        ');
+echo gettext('
+            The number of outgoing TCP buffers to allocate per thread.
+            If 0 is selected then no TCP queries, to authoritative servers, are done.
+        ');
+echo gettext('
+            The number of ports to open. This number of file descriptors can be opened per thread. Larger numbers
+            need extra resources from the operating system. For performance a very large value is best.
+            For reference, usually double the amount of queries per thread is used.
+        ');
+echo gettext('
+            The number of queries that every thread will service simultaneously. If more queries arrive that
+            need to be serviced, and no queries can be jostled out (see "Jostle Timeout"),
+            then these queries are dropped. This forces the client to resend after a timeout, allowing the
+            server time to work on the existing queries.
+        ');
+echo gettext('
+            The number of seconds from when a power failure is detected until apcupsd reacts with an onbattery event.
+            (Default is 6).
+        ');
+echo gettext('
+            This timeout is used for when the server is very busy. Set to a value that usually results in one
+            round-trip to the authority servers. If too many queries arrive, then 50% of the queries are allowed
+            to run to completion, and the other 50% are replaced with the new incoming query if they have
+            already spent more than their allowed time. This protects against denial of service by
+            slow queries or high query rates.
+        ');
+echo gettext('
+            Time in milliseconds before replying to the client with expired data. This essentially enables the serve-
+            stable behavior as specified in RFC 8767 that first tries to resolve before immediately responding with expired
+            data. A recommended value per RF 8767 is 1800. Setting this to 0 will disable this behavior.
+        ');
+echo gettext('
+            Time to live in seconds for entries in the host cache. The host cache contains round-trip timing, lameness
+            and EDNS support information.
+        ');
+echo gettext('
+            Time to schedule IKE reauthentication.
+            IKE reauthentication recreates the IKE/ISAKMP SA from scratch and re-evaluates the credentials.
+            In asymmetric configurations (with EAP or configuration payloads) it might not be possible to actively reauthenticate as responder.
+            The IKEv2 reauthentication lifetime negotiation can instruct the client to perform reauthentication.
+            Reauthentication is disabled by default (0).
+            Enabling it usually may lead to small connection interruptions as strongSwan uses a break-before-make policy with IKEv2 by default.
+        ');
+echo gettext('
+            Toggles whether Command Module should accept commands defined in the shared configuration or not.
+        ');
+echo gettext('
+            Upstream queries use TCP only for transport regardless of global flag tcp-upstream.
+            Please note this setting applies to the domain, so when multiple forwarders are defined for the same domain,
+            all are assumed to use tcp only.
+        ');
+echo gettext('
+            Utilize different network interfaces that Unbound will use to send queries to authoritative servers and receive their replies.
+            By default all interfaces are used. Note that setting explicit outgoing interfaces only works when they are statically configured.
+        ');
+echo gettext('
+            source network, usually the networks you would like to accept using network address translation.
+        ');
+echo gettext('
+          A proposal is a set of algorithms.
+          For non-AEAD algorithms this includes IKE an encryption algorithm, an integrity algorithm,
+          a pseudo random function (PRF) and a Diffie-Hellman key exchange group.
+          For AEAD algorithms, instead of encryption and integrity algorithms a combined algorithm is used.
+          With IKEv2 multiple algorithms of the same kind can be specified in a single proposal, from which one gets selected.
+          For IKEv1 only one algorithm per kind is allowed per proposal, more algorithms get implicitly stripped.
+          Use multiple proposals to offer different algorithm combinations with IKEv1. Algorithm keywords get separated using dashes.
+          Multiple proposals may be separated by commas.
+          The special value default adds a default proposal of supported algorithms considered safe and is usually a good choice for interoperability.
+        ');
+echo gettext('
+          Action to perform after a CHILD_SA gets closed by the peer.
+          The default of none does not take any action.
+          trap installs a trap policy for the CHILD_SA (note that this is redundant if start_action includes trap).
+          start tries to immediately re-create the CHILD_SA.
+
+          close_action does not provide any guarantee that the CHILD_SA is kept alive.
+          It acts on explicit close messages only but not on negotiation failures.
+          Use trap policies to reliably re-create failed CHILD_SAs
+        ');
+echo gettext('
+          Action to perform after loading the configuration.
+          The default of none loads the connection only, which then can be manually initiated or used as a responder configuration.
+          The value trap installs a trap policy which triggers the tunnel as soon as matching traffic has been detected.
+          The value start initiates the connection actively.
+          To immediately initiate a connection for which trap policies have been installed, user Trap+start.
+        ');
+echo gettext('
+          Action to perform for this CHILD_SA on DPD timeout.
+          The default clear closes the CHILD_SA and does not take further action.
+          trap installs a trap policy, which will catch matching traffic and tries to re-negotiate the tunnel on-demand
+          (note that this is redundant if start_action includes trap.
+          restart immediately tries to re-negotiate the CHILD_SA under a fresh IKE_SA.
+        ');
+echo gettext('
+          Charon by default uses the normal retransmission mechanism and timeouts to check the liveness of a peer,
+          as all messages are used for liveness checking.
+          For compatibility reasons, with IKEv1 a custom interval may be specified.
+          This option has no effect on IKEv2 connections
+        ');
+echo gettext('
+          Enables IKEv1 Aggressive Mode instead of IKEv1 Main Mode with Identity Protection.
+          Aggressive Mode is considered less secure because the ID and HASH payloads are exchanged unprotected.
+          This allows a passive attacker to snoop peer identities and even worse, start dictionary attacks on the Preshared Key
+        ');
+echo gettext('
+          Enables MOBIKE on IKEv2 connections.
+          MOBIKE is enabled by default on IKEv2 connections and allows mobility of clients and multi-homing on servers
+          by migrating active IPsec tunnels.
+          Usually keeping MOBIKE enabled is unproblematic, as it is not used if the peer does not indicate support for it.
+          However, due to the design of MOBIKE, IKEv2 always floats to UDP port 4500 starting from the second exchange.
+          Some implementations don’t like this behavior, hence it can be disabled
+        ');
+echo gettext('
+          HMAC-SHA-256 is used with 128-bit truncation with IPsec.
+          For compatibility with implementations that incorrectly use 96-bit truncation this option may be enabled to
+          configure the shorter truncation length in the kernel.
+          This is not negotiated, so this only works with peers that use the incorrect truncation length (or have this option enabled)
+        ');
+echo gettext('
+          Hard IKE_SA lifetime if rekey/reauth does not complete, as time.
+          To avoid having an IKE or ISAKMP connection kept alive if IKE reauthentication or rekeying fails perpetually,
+          a maximum hard lifetime may be specified.
+          If the IKE_SA fails to rekey or reauthenticate within the specified time, the IKE_SA gets closed.
+          In contrast to CHILD_SA rekeying, over_time is relative in time to the rekey_time and reauth_time values, as it applies to both.
+          The default is 10% of either rekey_time or reauth_time, whichever value is larger. [0.1 * max(rekey_time, reauth_time)]
+        ');
+echo gettext('
+          IKE major version to use for connection. 1 uses IKEv1 aka ISAKMP, 2 uses IKEv2.
+          A connection using IKEv1+IKEv2 accepts both IKEv1 and IKEv2 as a responder
+          and initiates the connection actively with IKEv2
+        ');
+echo gettext('
+          IKE rekeying refreshes key material using a Diffie-Hellman key exchange, but does not re-check associated credentials.
+          It is supported with IKEv2 only. IKEv1 performs a reauthentication procedure instead.
+          With the default value, IKE rekeying is scheduled every 4 hours minus the configured rand_time.
+          If a reauth_time is configured, rekey_time defaults to zero, disabling rekeying.
+          In that case set rekey_time explicitly to both enforce rekeying and reauthentication
+        ');
+echo gettext('
+          IPsec Mode to establish CHILD_SA with.
+          tunnel negotiates the CHILD_SA in IPsec Tunnel Mode whereas transport uses IPsec Transport Mode.
+          pass and drop are used to install shunt policies which explicitly bypass the defined traffic from IPsec processing or drop it, respectively.
+        ');
+echo gettext('
+          Inner tunnel remote address to be used for routing purposes.
+          The size of the subnet containing local and remote will be calculated automatically
+        ');
+echo gettext('
+          Leave empty to generate a device name. Custom names are possible, but only if the
+          start of the name matches the required prefix and contains numeric characters or
+          dots, e.g. "vlan0.1.2" or "qinq0.3.4".
+        ');
+echo gettext('
+          Local address[es] to use for IKE communication.
+          Accepts single IPv4/IPv6 addresses, DNS names, CIDR subnets or IP address ranges.
+          As an initiator, the first non-range/non-subnet is used to initiate the connection from.
+          As a responder the local destination address must match at least to one of the specified addresses, subnets or ranges.
+          If FQDNs are assigned, they are resolved every time a configuration lookup is done.
+          If DNS resolution times out, the lookup is delayed for that time. When left empty %any is choosen as default.
+        ');
+echo gettext('
+          Number of retransmission sequences to perform during initial connect.
+          Instead of giving up initiation after the first retransmission sequence with the default value of 1,
+          additional sequences may be started according to the configured value.
+          A value of 0 initiates a new sequence until the connection establishes or fails with a permanent error
+        ');
+echo gettext('
+          Remote address[es] to use for IKE communication.
+          Accepts single IPv4/IPv6 addresses, DNS names, CIDR subnets or IP address ranges.
+          As an initiator, the first non-range/non-subnet is used to initiate the connection to.
+          As a responder, the initiator source address must match at least to one of the specified addresses, subnets or ranges.
+          If FQDNs are assigned they are resolved every time a configuration lookup is done.
+          If DNS resolution times out, the lookup is delayed for that time.
+          To initiate a connection, at least one specific address or DNS name must be specified.
+        ');
+echo gettext('
+          Select the type of the key pair.
+          To generate a new one, select the number of bit and press the button next to the size selector.
         ');
 echo gettext('
           Send alerts in eve format to syslog, using log level info.
           This will not change the alert logging used by the product itself.
           Drop logs will only be send to the internal logger, due to restrictions in suricata.
-          ');
+        ');
+echo gettext('
+          Send certificate request payloads to offer trusted root CA certificates to the peer.
+          Certificate requests help the peer to choose an appropriate certificate/private key for authentication and are enabled by default.
+          Disabling certificate requests can be useful if too many trusted root CA certificates are installed,
+          as each certificate request increases the size of the initial IKE packets
+        ');
+echo gettext('
+          Specifies the skew to add to the base advertisement interval to make one host advertise slower than another host.
+          It is specified in 1/256 of seconds.  The acceptable values are 0 to 254.
+        ');
+echo gettext('
+          Subnet or range defining addresses allocated in pool.
+          Accepts a single CIDR subnet defining the pool to allocate addresses from
+        ');
 echo gettext('
           The interface can be configured in a multicast mode to create a virtual network of hosts.
           This is the IP multicast group address the interface will join.
@@ -95,7 +516,36 @@ echo gettext('
           When the interface is configured in unicast mode, the listening socket is bound to this address.
         ');
 echo gettext('
+          These are addresses on your private network, and are not allowed to be returned for public internet names.
+          Any occurrence of such addresses are removed from DNS answers.
+          Additionally, the DNSSEC validator may mark the answers bogus.
+          This protects against so-called DNS Rebinding.
+
+          (Only applicable when DNS rebind check is enabled in System->Settings->Administration)
+        ');
+echo gettext('
+          This might be helpful in some scenarios, like route based tunnels (VTI), but works only if each CHILD_SA configuration is instantiated not more than once.
+          The default uses dynamic reqids, allocated incrementally
+        ');
+echo gettext('
+          Time to schedule CHILD_SA rekeying.
+          CHILD_SA rekeying refreshes key material, optionally using a Diffie-Hellman exchange if a group is specified in the proposal.
+          To avoid rekey collisions initiated by both ends simultaneously, a value in the range of rand_time
+          gets subtracted to form the effective soft lifetime.
+          By default CHILD_SA rekeying is scheduled every hour, minus rand_time
+        ');
+echo gettext('
+          To enforce UDP encapsulation of ESP packets, the IKE daemon can manipulate the NAT detection payloads.
+          This makes the peer believe that a NAT situation exist on the transmission path, forcing it to encapsulate ESP packets in UDP.
+          Usually this is not required but it can help to work around connectivity issues with too restrictive intermediary
+          firewalls that block ESP packets
+        ');
+echo gettext('
           When the interface is configured in multicast mode, the dev interface is used to transmit IP multicast packets.
+        ');
+echo gettext('
+          Whether to install IPsec policies or not.
+          Disabling this can be useful in some scenarios e.g. VTI where policies are not managed by the IKE daemon
         ');
 echo gettext('
          Change the default time-to-live value in the IP headers for host checks.
@@ -192,34 +642,66 @@ echo gettext('
          This is a list with backend hosts
       ');
 echo gettext('
+         This is the number of packets the packet capture will grab. Default value is 100.
+         Enter 0 (zero) for no count limit.
+       ');
+echo gettext('
+         This value is either the Source or Destination IP/MAC address or subnet in CIDR notation.
+         The packet capture will look for this address in either field.
+         Matching can be negated by preceding the value with "not".
+         Multiple IP addresses or CIDR subnets may be specified as boolean expression.
+         If you leave this field blank, all packets on the specified interface will be captured.
+
+         Example: not 10.0.0.0/24 not and not 11.0.0.1 or 00:0a:01:02:03:04
+       ');
+echo gettext('
          Use SSL.
       ');
 echo gettext('
          Use the specified protocol definition for the relay.
       ');
+echo gettext('
+      Disable fragmentation.
+      Can be helpful to determine the maximum size a transport is able to send.
+      ');
+echo gettext('
+      Specifying ebgp-multihop allows sessions with eBGP neighbors to establish when they are multiple hops away.
+      When the neighbor is not directly connected and this knob is not enabled, the session will not establish.
+    ');
 echo gettext('(FQ-)CoDel ECN');
 echo gettext('(FQ-)CoDel interval');
 echo gettext('(FQ-)CoDel target');
 echo gettext('(PHP) Router Script');
+echo gettext('(no) GUI groups');
+echo gettext('(optional) This can be either an IP address, fully qualified domain name or an email address to identify the remote host.');
 echo gettext('(optional) user credentials.');
 echo gettext('* | realm | /regex/');
+echo gettext('0 for public DNS check or 1-84600s');
 echo gettext('0: Log everything, Positive Value: Log events that take longer than specified, Negative Value: Log nothing.');
+echo gettext('127.0.0.1 is the default');
 echo gettext('1984Hosting API');
+echo gettext('2');
+echo gettext('64:ff9b::/96');
+echo gettext('802.1Q VLAN PCP (priority code point)');
+echo gettext('802.1Q VLAN tag (between 1 and 4094)');
 echo gettext('A JSON document containing configuration options that apply to the local node');
 echo gettext('A blacklist rule increases the policy\'s score if the pattern matches. A whitelist rule instructs Naxsi to ignore specific rules under specific conditions.');
 echo gettext('A bridge is a private relay. It is not visible in the public directory. Uncheck this if you want to become a public relay.');
 echo gettext('A bug in the PROXY protocol v2 implementation was present in HAProxy up to version 2.1. Enabling this option reverts this old buggy behaviour.');
 echo gettext('A list of RPCs to disable.');
-echo gettext('A list of allowed IP addresses to receive notifies from.');
+echo gettext('A list of allowed IP addresses to receive notifies from (in addition to the primary server.)');
 echo gettext('A name for this server. Used when displaying information about this server (logs, info service, etc).');
 echo gettext('A standard HAProxy expression formed by a sample-fetch followed by some converters.');
 echo gettext('A string describing the pattern. This is mostly used for analyzing and to have some human-understandable text.');
 echo gettext('A time in seconds in which the transport security (TLS) should be enforced.');
+echo gettext('A virtual_server may be specified here.');
 echo gettext('ACL Entries');
+echo gettext('ACL for filter-aaaa');
 echo gettext('ACME Account');
 echo gettext('ACME CA');
 echo gettext('ACME CA Settings');
 echo gettext('ACME DNS');
+echo gettext('ACME DNS URL');
 echo gettext('AD Kerberos implementation');
 echo gettext('AD admin login');
 echo gettext('AD admin password');
@@ -233,6 +715,9 @@ echo gettext('API Token');
 echo gettext('API URL');
 echo gettext('API User');
 echo gettext('API key');
+echo gettext('API key generated in the TrueNAS web UI.');
+echo gettext('API key id');
+echo gettext('API key secret');
 echo gettext('APP ID');
 echo gettext('AS');
 echo gettext('AS-Path List');
@@ -242,6 +727,7 @@ echo gettext('AWS Route53');
 echo gettext('AWS Secret');
 echo gettext('Accept Parameters');
 echo gettext('Access Control List');
+echo gettext('Access List Name');
 echo gettext('Access Log Format');
 echo gettext('Access Token');
 echo gettext('Access Token used for the Zerotier API service');
@@ -249,8 +735,10 @@ echo gettext('Access log target');
 echo gettext('Access token for Highwinds API.');
 echo gettext('According to the service type path can be a file or a directory.');
 echo gettext('Account Hash');
+echo gettext('Account Name');
 echo gettext('Account hash for Highwinds API.');
 echo gettext('Accounting');
+echo gettext('Accounting Pool');
 echo gettext('Accounting-Response');
 echo gettext('Accounting-Server');
 echo gettext('Acmeproxy');
@@ -269,6 +757,8 @@ echo gettext('Active Check Servers');
 echo gettext('Active Directory user name with administrator rights (this value is not stored in configuration).');
 echo gettext('Active Directory user password (this value is not stored in configuration).');
 echo gettext('Active Timeout');
+echo gettext('Active response');
+echo gettext('Active24');
 echo gettext('Add AgentX Support');
 echo gettext('Add BLURL Signatures');
 echo gettext('Add BOFHLand Signatures');
@@ -276,6 +766,8 @@ echo gettext('Add Blocklist Alias');
 echo gettext('Add JURLBLA Signatures');
 echo gettext('Add Malware Expert Signatures');
 echo gettext('Add a header containing a visible indicator of the spam level.');
+echo gettext('Add a tag to packets that are dropped by CrowdSec rules for
+      diagnostic purposes.');
 echo gettext('Add all nameservers found in /etc/resolv.conf to this resolver configuration.');
 echo gettext('Add an optional description for this AS-Path list.');
 echo gettext('Add an optional description for this Community-List.');
@@ -285,17 +777,21 @@ echo gettext('Add attribute(s)');
 echo gettext('Add delay in ms to this pipe.');
 echo gettext('Add mailservers to this mailer configuration, i.e. 192.168.1.1:25. Use TAB key to complete typing.');
 echo gettext('Add more than localhost IP addresses to listen IPs for SOCKS connections.');
-echo gettext('Add nameservers to this resolver configuration, i.e. 127.0.0.1:53 or 192.168.1.1:53. Use TAB key to complete typing.');
+echo gettext('Add nameservers to this resolver configuration. They may be prefixed with either tcp@ or udp@ to use the TCP or UDP protocol respectively. For example 192.168.1.1:53, tcp@192.168.1.1:53 or udp@192.168.1.1:53. Use TAB key to complete typing.');
 echo gettext('Add resolver options. Use TAB key to complete typing.');
 echo gettext('Add routes in CIDR notation, e.g. 192.168.2.0/24. Multiple entries are allowed');
 echo gettext('Add servers to this backend. Use TAB key to complete typing.');
 echo gettext('Add some randomness in the check interval between 0 and +/- 50%. A value between 2 and 5 seems to show good results. The default value is 0 (disabled).');
 echo gettext('Add supplement-attribute(s)');
 echo gettext('Add supplement-vendor-attribute(s)');
+echo gettext('Add the parameter "all" after next-hop-self command.');
+echo gettext('Add this port value to the Host header. Not used by default.');
 echo gettext('Add userlist');
 echo gettext('Add vendor-attribute(s)');
 echo gettext('Additional exceptions for TLD rules.');
 echo gettext('Address');
+echo gettext('Address Family');
+echo gettext('Address Type');
 echo gettext('Address where the proxy will listen for redirected control connections. The default is 127.0.0.1.');
 echo gettext('Address(es) or hostname(s) to which this client should connect to separated by comma for multiple entries');
 echo gettext('Adds firewall alias "BlocklistMaltrail" referencing Maltrail\'s "/fail2ban" IP list. You can use this alias to block IPs that Maltrail detected as malicious.');
@@ -315,7 +811,9 @@ echo gettext('Advertise Protocols (ALPN)');
 echo gettext('After this idle time, the client gets disconnected.');
 echo gettext('Agent check');
 echo gettext('Agent port');
+echo gettext('Aggressive');
 echo gettext('Alert Log Level');
+echo gettext('Algorithm');
 echo gettext('Alias Item Key');
 echo gettext('All sender domains listed here are getting whitelisted, no matter if they have wrong SPF records or are on multiple blacklists.');
 echo gettext('All-Inkl.com domain API');
@@ -328,6 +826,8 @@ echo gettext('Allow Exit using IPv6 protocol');
 echo gettext('Allow HAProxy to automatically raise log level for non-completely successful connections to aid debugging.');
 echo gettext('Allow Header From Mismatch');
 echo gettext('Allow Header From Multiple');
+echo gettext('Allow IPv6');
+echo gettext('Allow IPv6 for updates');
 echo gettext('Allow Notfiy');
 echo gettext('Allow Privileged Ports');
 echo gettext('Allow Query');
@@ -336,10 +836,12 @@ echo gettext('Allow TLS Only');
 echo gettext('Allow Transfer');
 echo gettext('Allow Username Mismatch');
 echo gettext('Allow Write Access');
+echo gettext('Allow connecting to websockets. You can use wildcards here like wss://*.exmaple.com.');
 echo gettext('Allow connections from this client');
 echo gettext('Allow interface subnets');
 echo gettext('Allow loading files over HTTP(S) allows downloading of content over other domains or CDNs.
-      You can use wildcards here like https://*.exmaple.com.');
+        You can use wildcards here like https://*.exmaple.com.');
+echo gettext('Allow peerings between directly connected eBGP peers using loopback addresses.');
 echo gettext('Allow the daemon to use the sendfile function.');
 echo gettext('Allowed Groups');
 echo gettext('Allowed Hosts');
@@ -360,11 +862,17 @@ echo gettext('Always Advertise Default Gateway');
 echo gettext('Always send accounting requests');
 echo gettext('Always use TCP to connect to upstream servers. This can be can be useful if you need to route everything through Tor, otherwise keep it disabled.');
 echo gettext('Alwaysdata');
+echo gettext('An integer value containing the type of the SSL hello message found in the request buffer if the buffer contains data that parse as a complete SSL (v3 or superior) client hello message.');
 echo gettext('An integer value corresponding to the TCP source port of the connection on the client side, which is the port the client connected from.');
 echo gettext('An optional custom reason text for the HTTP status code. If empty the default reason for the specified code will be used.');
 echo gettext('An optional source IP address for outgoing connections.');
 echo gettext('An optional value provided by the CA when using ACME External Account Binding (EAB).');
+echo gettext('Annoy Delay');
+echo gettext('Annoy Time');
 echo gettext('Anti Malware');
+echo gettext('Anyprot Target');
+echo gettext('Apcupsd');
+echo gettext('Apcupsd Netserver IP Address');
 echo gettext('Append a HTTP header field with the specified name.');
 echo gettext('Application Key');
 echo gettext('Application Secret');
@@ -376,8 +884,10 @@ echo gettext('Area in wildcard mask style like 0.0.0.0 and no decimal 0. Only us
 echo gettext('Arguments');
 echo gettext('ArvanCloud API');
 echo gettext('As a DNS server may not answer all the IPs in one DNS request, haproxy keeps a cache of previous answers. An answer will be considered obsolete after [hold obsolete] seconds without the IP returned. Default is "30s".');
+echo gettext('Assigning services to the virtual IP\'s interface will automatically include this address. Check to prevent binding to this address instead.');
 echo gettext('At least two interfaces must be selected.');
 echo gettext('Attempt to circumvent censorship.');
+echo gettext('Attribute Unchanged');
 echo gettext('Auth ID');
 echo gettext('Auth Only');
 echo gettext('Auth Password');
@@ -389,6 +899,7 @@ echo gettext('Authentication Cookie');
 echo gettext('Authentication Key');
 echo gettext('Authentication Key ID');
 echo gettext('Authentication Password');
+echo gettext('Authentication Pool');
 echo gettext('Authentication Prompt');
 echo gettext('Authentication Settings');
 echo gettext('Authentication TTL (hours)');
@@ -396,9 +907,13 @@ echo gettext('Authentication Type');
 echo gettext('Authentication Username');
 echo gettext('Authentication method');
 echo gettext('Authentication processes');
+echo gettext('Authentication to perform for this round');
+echo gettext('Authentication to perform for this round, when using Pre-Shared key make sure to define one under "VPN->IPsec->Pre-Shared Keys"');
 echo gettext('Authorization type');
 echo gettext('Authorized clients');
 echo gettext('Auto Renewal');
+echo gettext('Autoban Response Code');
+echo gettext('Autoblock TTL (minutes)');
 echo gettext('Automatic');
 echo gettext('Automatic Index');
 echo gettext('Automatically added, will be removed when unused');
@@ -408,12 +923,18 @@ echo gettext('Automation Timeout');
 echo gettext('Automations');
 echo gettext('Avoid authentication for addresses and subnets in this list');
 echo gettext('Avoid authentication for physical addresses in this list');
+echo gettext('Avoid overwriting LAPI settings for config.yaml,
+      local_api_credentials.yaml, crowdsec-firewall-bouncer.yaml. The next
+      two configuration options (lapi_listen_address, lapi_listen_port) will
+      be ignored. Allows unsupported configurations like linking together
+      multiple opnsense instances or connecting to an existing crowdsec
+      multi-server setup.');
 echo gettext('Azure DNS');
 echo gettext('BCC To');
 echo gettext('BCMXCPUSB-Driver');
 echo gettext('BFD');
 echo gettext('BGP AS Number');
-echo gettext('BGP Neighbor');
+echo gettext('BGP MD5 Password');
 echo gettext('BGP graceful restart functionality as defined in RFC-4724 defines the mechanisms that allows BGP speaker to continue to forward data packets along known routes while the routing protocol information is being restored.');
 echo gettext('Backend');
 echo gettext('Backup Check Interval');
@@ -430,6 +951,9 @@ echo gettext('Banned host IP addresses');
 echo gettext('Base DN');
 echo gettext('Basic Authentication');
 echo gettext('Basic Credentials List');
+echo gettext('Battery Level Shutdown (%)');
+echo gettext('Battery Minutes Shutdown');
+echo gettext('Battery Timeout Shutdown');
 echo gettext('Bayes Learning');
 echo gettext('Begin of the port range or the port used by this ACL.');
 echo gettext('Beginning Hour');
@@ -441,8 +965,6 @@ echo gettext('Bind User');
 echo gettext('Bind option pass-through');
 echo gettext('Bind options');
 echo gettext('Bind the process/thread ID to this CPU.');
-echo gettext('Black or White list');
-echo gettext('Black/White');
 echo gettext('Blacklist');
 echo gettext('Blacklist destination domains. You may use a regular expression, use a comma or press Enter for new item. Examples: "mydomain.com" matches on "*.mydomain.com"; "^https?:\/\/([a-zA-Z]+)\.mydomain\." matches on "http(s)://textONLY.mydomain.*"; "\.gif$" matches on "*.gif" but not on "\*.gif\test"; "\[0-9]+\.gif$" matches on "\123.gif" but not on "\test.gif"');
 echo gettext('BlazerSerial-Driver');
@@ -459,6 +981,7 @@ echo gettext('Block specific MIME type reply');
 echo gettext('Block specific MIME type reply. You may use a regular expression, use a comma or press Enter for new item. Examples: "video/flv" matches on "Flash Video"; "application/x-javascript" matches on "javascripts"');
 echo gettext('Block user-agents. You may use a regular expression, use a comma or press Enter for new item. Examples: "^(.)+Macintosh(.)+Firefox/37\.0" matches on "Macintosh version of Firefox revision 37.0"; "^Mozilla" matches on "all Mozilla based browsers"');
 echo gettext('Blocked File Extensions');
+echo gettext('Blocklist Domains');
 echo gettext('Blocks files like .htaccess files or other files not intended for the public.');
 echo gettext('Blocks the request when a possibly bad bot is detected and adds the originating IP to the managed firewall alias for permanent blocking.');
 echo gettext('Body Buffer Size');
@@ -490,6 +1013,7 @@ echo gettext('CA-certificate');
 echo gettext('CARP demote');
 echo gettext('CF API Token');
 echo gettext('CF Account ID');
+echo gettext('CF Zone ID (Optional)');
 echo gettext('CPU');
 echo gettext('CPU Affinity Rules');
 echo gettext('CPU ID');
@@ -504,6 +1028,7 @@ echo gettext('Cache Max TTL');
 echo gettext('Cache Min TTL');
 echo gettext('Cache Negative Max TTL');
 echo gettext('Cache Negative Min TTL');
+echo gettext('Cache Settings');
 echo gettext('Cache Size');
 echo gettext('Cache directory location');
 echo gettext('Cache enabled');
@@ -530,33 +1055,34 @@ echo gettext('Certificate Hash');
 echo gettext('Certificate Hash Type');
 echo gettext('Certificate Options');
 echo gettext('Certificate Revocation Lists');
+echo gettext('Certificate to use to connect');
 echo gettext('Certificate-Name-Check');
 echo gettext('Certificates');
 echo gettext('Challenge Alias');
 echo gettext('Challenge Type');
-echo gettext('Change Puppet Agent Environment');
-echo gettext('Change Puppet Server FQDN');
-echo gettext('Change the check buffer size (in bytes). Higher values may help find string or regex patterns in very large pages, though doing so may imply more memory and CPU usage. The default value is 16384.');
 echo gettext('Charset');
+echo gettext('Check Hostheaders');
 echo gettext('Check Interval');
+echo gettext('Check Interval from 6 to 120');
 echo gettext('Check TLS Common-Name');
 echo gettext('Check Timeout');
 echo gettext('Check if the username should be sent to the ICAP server.');
 echo gettext('Check if you want to encode the username using base64.');
 echo gettext('Check interval');
 echo gettext('Check ip method');
+echo gettext('Check ip timeout');
 echo gettext('Check this box to match the variable name and not its content when matching any of the above checkboxes.');
-echo gettext('Check this box, if you want the client SNI header to be used instead of your backend hostname. This settings overrides the configured hostname in the upstream configuration.');
+echo gettext('Check this box, if you want to passthrough the hostname you get from the downstream to the upstream connection. Can be overriden in the upstream\'s hostname configuration. Please note, that TLS server certificates are validated against this servername. If the server name passed by the client leads to different processing on the upstream server (i.e. different virtual host is choosen), this may cause security leaks.');
 echo gettext('Check this to enable authentication against your Smarthost.');
 echo gettext('Check this to serve a file list when a directory is requested. This is useful for serving multiple files with someone without a web application. It is recommended to use this option only with authentication.');
 echo gettext('Check type');
+echo gettext('Check values in Host header (along with standard non-HTTP checks) for malicious DNS trails.');
 echo gettext('Checking this box allows functions like eval or createFunction in JS, or style attributes for CSS.');
 echo gettext('Checking this directive allows to use scripts or styles directly embedded in in the HTML content.
-      Examples are the script and the style tags.');
+        Examples are the script and the style tags.');
 echo gettext('Checks that the username given by the user matches the Common-Name of the certificate.');
 echo gettext('ChilliSpot Bandwith Max DOWN');
 echo gettext('ChilliSpot Bandwith Max UP');
-echo gettext('Choose "none" to disable TLS for sending mail. Set encrypt to enforce TLS security, please do not use this for Internet wide communication as not every server supports TLS yet. Default is "may" which will use TLS when offered.');
 echo gettext('Choose CPU affinity rules that should be applied to this Public Service.');
 echo gettext('Choose CPU affinity rules.');
 echo gettext('Choose If in case any case you want to ensure a match to evaluate as is, else choose unless if you want the negated version. Unless is used if you want to use the proxy for every host but not for some special ones.');
@@ -587,6 +1113,7 @@ echo gettext('Choose how to match on "URL Pattern".');
 echo gettext('Choose how to test. By using IF it tests if the condition evaluates to true. If you use UNLESS, the sense of the test is reversed.');
 echo gettext('Choose one of the 24 standard syslog facilities. The default value is local0.');
 echo gettext('Choose rules to be included in this Backend Pool.');
+echo gettext('Choose rules to be included in this FastCGI application. Only FastCGI rules are supported.');
 echo gettext('Choose rules to be included in this Public Service.');
 echo gettext('Choose rules.');
 echo gettext('Choose the Certificate Authority which signed your certificate.');
@@ -597,6 +1124,7 @@ echo gettext('Choose the certificate to use when other servers want to do TLS wi
 echo gettext('Choose the cipher to use for encryption.');
 echo gettext('Choose the interface on which the port should be opened.');
 echo gettext('Choose the local HAProxy frontends. They will automatically be configured to redirect acme challenges to the internal acme client. The HAProxy service will automatically be restarted if a certificate was renewed.');
+echo gettext('Choose the members that will be used for the link aggregation');
 echo gettext('Choose the type of client. Default Radius-clients use UDP.');
 echo gettext('Choose the type of server. Default Radius-clients use UDP.');
 echo gettext('Choose what to do with packets that match the criteria specified below.
@@ -604,6 +1132,7 @@ echo gettext('Choose what to do with packets that match the criteria specified b
         ');
 echo gettext('Choose which IP versions are allowed, defaults to all.');
 echo gettext('Choose which applications should be forwarded to the specified target, omit to select all.');
+echo gettext('Choose which applications to forward to Wazuh.');
 echo gettext('Choose which facilities to include, omit to select all.');
 echo gettext('Choose which interface the host to be woken up is connected to.');
 echo gettext('Choose which interface this host is connected to.');
@@ -615,16 +1144,20 @@ echo gettext('Cipher Suites');
 echo gettext('Cipher Suits');
 echo gettext('Ciphers');
 echo gettext('ClamAV engine version');
+echo gettext('ClamAV log verbose');
 echo gettext('ClamAV will scan within archives and compressed files.');
 echo gettext('Client CA Certificate');
 echo gettext('Client Certificate');
 echo gettext('Client Certificate Auth');
+echo gettext('Client EAP-Identity to use in EAP-Identity exchange and the EAP method');
+echo gettext('Client Expired Response Timeout');
 echo gettext('Client ID');
 echo gettext('Client Secret');
 echo gettext('Client Timeout');
 echo gettext('Client mode');
 echo gettext('Clients will be disconnected after this amount of inactivity. They may log in again immediately, though. Enter 0 to disable idle timeout.');
 echo gettext('Clients will be disconnected after this amount of time, regardless of activity. They may log in again immediately, though. Enter 0 to disable hard timeout (not recommended unless an idle timeout is set).');
+echo gettext('Close action');
 echo gettext('ClouDNS');
 echo gettext('CloudXNS');
 echo gettext('Cloudflare');
@@ -650,30 +1183,43 @@ echo gettext('Condition');
 echo gettext('Condition type');
 echo gettext('Config Frequency');
 echo gettext('Configure DNS alias mode to validate the certificate.');
+echo gettext('Configure listen addresses for the prometheus exporter, i.e. 10.0.0.1:8404 or haproxy.example.com:8404. Use TAB key to complete typing a listen address.');
 echo gettext('Configure listen addresses for the statistics page to enable remote access, i.e. 10.0.0.1:8080 or haproxy.example.com:8999. Use TAB key to complete typing a listen address.');
 echo gettext('Configure listen addresses for this Public Service, i.e. 127.0.0.1:8080 or www.example.com:443 or unix@socket-name. Use TAB key to complete typing a listen address.');
 echo gettext('Connect Timer');
 echo gettext('Connect To');
 echo gettext('Connect to this host');
+echo gettext('Connection');
 echo gettext('Connection Count (Streams Only)');
+echo gettext('Connection Management');
+echo gettext('Connection Mode');
+echo gettext('Connection Multiplexing');
 echo gettext('Connection Timeout');
+echo gettext('Connection child');
 echo gettext('Connection rate');
 echo gettext('Connection rate period');
 echo gettext('Connection scheme that will be used when uploading certificates to Synology DSM.');
+echo gettext('Connection scheme that will be used when uploading certificates to TrueNAS Core Server.');
+echo gettext('Connection uniqueness policy to enforce.
+          To avoid multiple connections from the same user, a uniqueness policy can be enforced.
+        ');
 echo gettext('Connections count');
 echo gettext('Consumer Key');
 echo gettext('Contact Info');
 echo gettext('Contains the size of a header Buffer. If a header or the request line does not fit into it, a large header buffer will be used.');
 echo gettext('Content');
+echo gettext('Content Security Policy (CSP)');
+echo gettext('Content Security Policy: Connect Source');
 echo gettext('Content Security Policy: Default Source');
-echo gettext('Content Security Policy: Enable');
 echo gettext('Content Security Policy: Font Source');
 echo gettext('Content Security Policy: Form Action');
+echo gettext('Content Security Policy: Frame Ancestors');
+echo gettext('Content Security Policy: Frame Source');
 echo gettext('Content Security Policy: Image Source');
 echo gettext('Content Security Policy: Media Source');
-echo gettext('Content Security Policy: Report Only');
 echo gettext('Content Security Policy: Script Source');
 echo gettext('Content Security Policy: Stylesheet Source');
+echo gettext('Content Security Policy: Worker Source');
 echo gettext('Context');
 echo gettext('Control Port');
 echo gettext('Control Port number on which tor should listen. The default is 9051. You should not change this unless you need the port.');
@@ -686,6 +1232,7 @@ echo gettext('Cookie-based persistence');
 echo gettext('Core-Networks API');
 echo gettext('Cost');
 echo gettext('Cost (when demoted)');
+echo gettext('Count');
 echo gettext('Count Of Large Header Buffers');
 echo gettext('Count of buffers for a single connection.');
 echo gettext('Create a list of sites which may not be inspected, for example bank sites. Prefix the domain with a . to accept all subdomains (e.g. .google.com).');
@@ -696,6 +1243,7 @@ echo gettext('Credentials');
 echo gettext('Current Time Statistics');
 echo gettext('Custom CA URL');
 echo gettext('Custom HTTP check');
+echo gettext('Custom IPv6 Routing');
 echo gettext('Custom Security Policy');
 echo gettext('Custom TCP check');
 echo gettext('Custom config');
@@ -705,6 +1253,7 @@ echo gettext('Custom template');
 echo gettext('Customer');
 echo gettext('Customer number');
 echo gettext('DDNSS API');
+echo gettext('DHCP Domain Override');
 echo gettext('DHCP Enable');
 echo gettext('DHCP Listen IP');
 echo gettext('DKIM');
@@ -716,11 +1265,17 @@ echo gettext('DNS Mode');
 echo gettext('DNS Resolve Order');
 echo gettext('DNS Server');
 echo gettext('DNS Service');
+echo gettext('DNS Sleep Time');
 echo gettext('DNS-01');
+echo gettext('DNS.Services');
+echo gettext('DNS64 Prefix');
 echo gettext('DNSMadeEasy');
 echo gettext('DNSPod');
 echo gettext('DNSSEC Validation');
 echo gettext('DNSimple');
+echo gettext('DPD action');
+echo gettext('DPD delay (s)');
+echo gettext('DPD timeout (s)');
 echo gettext('DSCP');
 echo gettext('DSCP value to set for RTP packets.');
 echo gettext('DSCP value to set for SIP packets.');
@@ -753,38 +1308,49 @@ echo gettext('Decode mail files');
 echo gettext('Default Action');
 echo gettext('Default Backend Pool');
 echo gettext('Default EAP Type');
+echo gettext('Default Fallback Proxy');
 echo gettext('Default MIME-Type');
 echo gettext('Default Metric');
 echo gettext('Default Options TTL');
 echo gettext('Default Parameters');
 echo gettext('Default Server');
+echo gettext('Default Source');
 echo gettext('Default backend pool');
 echo gettext('Default certificate');
 echo gettext('Default data collection interval for all inputs in seconds.');
 echo gettext('Default flushing interval for all outputs. You should not set this below interval.');
 echo gettext('Default for server');
+echo gettext('Default internet speed test interval in seconds.');
 echo gettext('Default is "No". Set to "Auto" to use the static trust anchor configuration by the system.');
 echo gettext('Default is 1 Minute.');
 echo gettext('Default option for all server entries.');
 echo gettext('Default target account');
 echo gettext('Default ttl');
-echo gettext('Define an ACL where you allow which client are allowed to query this zone.');
 echo gettext('Define an ACL where you allow which clients can resolve via this service. Usually use your local LAN.');
-echo gettext('Define an ACL where you allow which server can retrieve this zone.');
-echo gettext('Define an ACL where you allow which server can retrieve zones.');
 echo gettext('Define an optional path prefix for this location. It will be prepended to the path so http://www.example.com/index.php will be sent to http://www.example.com/app/index.php on your upstream if you choose "/app" as path prefix.');
+echo gettext('Define the ACLs where you allow which client are allowed to query this server.');
+echo gettext('Define the ACLs where you allow which client are allowed to query this zone.');
+echo gettext('Define the ACLs where you allow which server can retrieve this zone.');
+echo gettext('Define the ACLs where you allow which server can retrieve zones.');
+echo gettext('Define the Fallback VLAN group ID.');
+echo gettext('Define the document root on the remote host. It will be used to build the default value of FastCGI parameters SCRIPT_FILENAME and PATH_TRANSLATED. It is a mandatory setting.');
 echo gettext('Define the maximum expiration duration. Cache-Control response headers will be respected if they are less than this value. The default value is 60 seconds.');
+echo gettext('Define the maximum number of concurrent requests this application will accept. This option may be overwritten if the variable FCGI_MAX_REQS is retrieved during connection establishment. Furthermore, if the application does not support connection multiplexing, this option will be ignored.');
 echo gettext('Define the maximum size of the objects to be cached. Must not be greater than an half of the maximum size of the cache. If not set, it equals to a 256th of the cache size. All objects with sizes larger than this value will not be cached.');
+echo gettext('Define the script name that will be appended after an URI that ends with a slash ("/") to set the default value of the FastCGI parameter SCRIPT_NAME. It is an optional setting.');
 echo gettext('Define the size in RAM of the cache in megabytes. This size is split in blocks of 1kB which are used by the cache entries. Its maximum value is 4095.');
-echo gettext('Defines the maximum payload size accepted by HAProxy and announced to all the name servers configured in this resolvers section. The default is 512 bytes, the maximum allowed is 8192.');
+echo gettext('Defines the maximum payload size accepted by HAProxy and announced to all the name servers configured in this resolvers section. The default is 512 bytes, the maximum allowed is 8192 for UDP and 65535 for TCP.');
 echo gettext('Defines the time (in seconds) available for a mail/connection to be made and send to the mail server.');
+echo gettext('Defines which networks, which are connected to this router, will be advertised over BGP. To announce all defined networks, Network Import-Check can be disabled in advanced settings if required.');
 echo gettext('Delay');
 echo gettext('Delay Warning Time');
 echo gettext('Delay in minutes after which certificates are reloaded.');
+echo gettext('Deny service binding');
 echo gettext('Depend on (carp)');
 echo gettext('Depends');
 echo gettext('Description');
 echo gettext('Description for this Backend Pool.');
+echo gettext('Description for this FastCGI application.');
 echo gettext('Description for this Health Monitor.');
 echo gettext('Description for this Lua script.');
 echo gettext('Description for this Public Service.');
@@ -799,13 +1365,17 @@ echo gettext('Description for this rule.');
 echo gettext('Description for this server.');
 echo gettext('Description for this user.');
 echo gettext('Description for this validation.');
+echo gettext('Description to be displayed in the "jobs" tab.');
 echo gettext('Description to identify this pipe.');
 echo gettext('Description to identify this queue.');
 echo gettext('Description to identify this rule.');
 echo gettext('Description to identify this zone.');
 echo gettext('Destination');
 echo gettext('Destination / Invert');
+echo gettext('Destination Address');
 echo gettext('Destination IP');
+echo gettext('Destination Port');
+echo gettext('Destination network');
 echo gettext('Destination network for this static route');
 echo gettext('Destination port');
 echo gettext('Destination port number or well known name (imap, imaps, http, https, ...)');
@@ -824,6 +1394,8 @@ echo gettext('Directory Port');
 echo gettext('Disable 204 responses outside previews for virus_scan if your ICAP client does not support it.');
 echo gettext('Disable Bot Protection');
 echo gettext('Disable Commands');
+echo gettext('Disable Connected Check');
+echo gettext('Disable Expansion');
 echo gettext('Disable Graphite SSL/TLS');
 echo gettext('Disable IPv6');
 echo gettext('Disable Prefetching');
@@ -835,6 +1407,7 @@ echo gettext('Disable SSLv2 and SSLv3, only TLS allowed.');
 echo gettext('Disable TLS Verification');
 echo gettext('Disable TLS session tickets - increases privacy but also latency.');
 echo gettext('Disable cache');
+echo gettext('Disable expansion of this entry into IPs on NAT lists (e.g. 192.168.1.0/24 expands to 256 entries.');
 echo gettext('Disable password save');
 echo gettext('Disabled');
 echo gettext('Disabled RPCs');
@@ -846,17 +1419,22 @@ echo gettext('Disk Mount Points');
 echo gettext('Display Version in OID');
 echo gettext('Do Not Use');
 echo gettext('Do not NAT');
+echo gettext('Do not attempt to resolve hostnames: logs will contain IP addresses. This is mostly useful if the system\'s DNS is slow and running the sslh-select variant, as DNS requests will hang all connections. Default: false');
 echo gettext('Do not decode and/or filter SSL content, only log requested domains and IP addresses. Some old servers may not provide SNI, so their addresses will not be indicated.');
+echo gettext('Do not fragment');
 echo gettext('Do not keep data longer than N seconds in buffer.');
+echo gettext('Do not register IPv6 Link-Local addresses');
+echo gettext('Do not register system A/AAAA records');
 echo gettext('Do not send alerts for the following events but on all others.');
+echo gettext('Docroot');
 echo gettext('Domain');
 echo gettext('Domain Alias');
 echo gettext('Domain Level From');
 echo gettext('Domain Level To');
+echo gettext('Domain of the host, e.g. example.com');
 echo gettext('Domain-Offensive LetsEncrypt');
 echo gettext('Domain-Offensive Resellerinterface');
 echo gettext('Domainname');
-echo gettext('Domains');
 echo gettext('Domeneshop DNS API');
 echo gettext('Don\'t Sniff Content Type');
 echo gettext('Don\'t log normal');
@@ -868,21 +1446,31 @@ echo gettext('Down Interval');
 echo gettext('DreamHost');
 echo gettext('Dst-port');
 echo gettext('DuckDNS.org');
+echo gettext('Due to the nature of UDP, nginx cannot know, when the communication ends and this helps as it tells nginx the number of datagrams the communication is expected to last on server side and it is expected to be closed afterwards. If you enter 0, it is expected, that the server never responds to a datagram. If nginx gets a datagram, it will still get forwarded to the client. Setting this option might be useful in (mostly) unidirectional communication as well.');
 echo gettext('Dyn Managed DNS API');
+echo gettext('DynDNS Server hostname or uri to use (depending on the protocol).
+         When a URI is provided, the tag __MYIP__ will be replaced with the current detected address for this service
+         and __HOSTNAME__ will contain the (comma separated) list of hostnames provided.
+         ');
 echo gettext('Dynu');
 echo gettext('E-Mail');
 echo gettext('E-Mail Address');
 echo gettext('E-Mail Alert');
+echo gettext('EAP Id');
 echo gettext('ECDH curve');
 echo gettext('ESMTP check');
 echo gettext('ESMTP domain');
+echo gettext('ESP proposals');
 echo gettext('EUserv');
+echo gettext('EX: https://hostname:2083');
 echo gettext('EXOS VLAN Tagged list');
 echo gettext('EXOS VLAN Untagged');
 echo gettext('EXOS policy');
 echo gettext('Each Relay instance requires a unique ID. Valid values are 1 - 63');
 echo gettext('Either configure a static server or a template to initialize multiple servers with shared parameters.');
+echo gettext('Elasticsearch Password');
 echo gettext('Elasticsearch URL');
+echo gettext('Elasticsearch Username');
 echo gettext('Elliptic Curve');
 echo gettext('Elliptic Curves');
 echo gettext('Email');
@@ -890,9 +1478,11 @@ echo gettext('Email (from)');
 echo gettext('Email (to)');
 echo gettext('Enable');
 echo gettext('Enable / Disable');
+echo gettext('Enable AAAA-only mode');
 echo gettext('Enable ACME client plugin.');
 echo gettext('Enable AS-Override');
 echo gettext('Enable Active Checks');
+echo gettext('Enable Active response');
 echo gettext('Enable Advanced ACLs');
 echo gettext('Enable Advanced settings');
 echo gettext('Enable Authentication');
@@ -907,13 +1497,17 @@ echo gettext('Enable Caching');
 echo gettext('Enable ChilliSpot attributes');
 echo gettext('Enable Chrony time daemon.');
 echo gettext('Enable ClamAV');
+echo gettext('Enable ClamAV verbose logging.');
 echo gettext('Enable Client');
 echo gettext('Enable Client Certificate Authentication.');
 echo gettext('Enable CoDel');
 echo gettext('Enable CoDel active queue management');
+echo gettext('Enable CrowdSec (IDS)');
 echo gettext('Enable DNS v4 first');
+echo gettext('Enable DNS64 Support');
 echo gettext('Enable DNSBL and RPZ');
 echo gettext('Enable DNSCrypt-Proxy');
+echo gettext('Enable DNSSEC Support');
 echo gettext('Enable Daily Session Limit');
 echo gettext('Enable Data URLs');
 echo gettext('Enable Datadog Output');
@@ -925,10 +1519,13 @@ echo gettext('Enable Eval');
 echo gettext('Enable Extended Spam Headers');
 echo gettext('Enable FDP');
 echo gettext('Enable File System URLs');
+echo gettext('Enable Firewall Bouncer (IPS)');
+echo gettext('Enable Freshclam verbose logging.');
 echo gettext('Enable Google SafeSearch');
 echo gettext('Enable Graphite Output');
 echo gettext('Enable Graylog Output');
 echo gettext('Enable HAProxy');
+echo gettext('Enable HAProxy\'s Prometheus exporter.');
 echo gettext('Enable HAProxy\'s cache which was designed to perform cache on small objects (favicon, css...). This is a minimalist low-maintenance cache which runs in RAM.');
 echo gettext('Enable HAProxy\'s graceful stop mode. In this mode HAProxy will continue to process existing connections until they close. Note that this may severely slow down HAProxy\'s shutdown, depending on the configured timeout values. If graceful stop mode is not enabled, HAProxy will use the hard stop mode where it immediately quits and all established connections are closed. Hard stop mode is recommended.');
 echo gettext('Enable HAProxy\'s statistics page.');
@@ -940,12 +1537,14 @@ echo gettext('Enable HTTP/2');
 echo gettext('Enable HTTP/2 Preloading');
 echo gettext('Enable HTTPD');
 echo gettext('Enable HW-Probe.');
+echo gettext('Enable Headers More module');
 echo gettext('Enable Health Checking');
 echo gettext('Enable ICAP');
 echo gettext('Enable Influx Output');
 echo gettext('Enable Influx v2 Output');
 echo gettext('Enable Inline Scripting');
 echo gettext('Enable Kerberos based Single Sign-On');
+echo gettext('Enable LAPI');
 echo gettext('Enable LDAP');
 echo gettext('Enable LLDP Daemon');
 echo gettext('Enable Let\'s Encrypt Plugin Support');
@@ -973,7 +1572,6 @@ echo gettext('Enable Preview');
 echo gettext('Enable Prometheus Output');
 echo gettext('Enable Protected Mode');
 echo gettext('Enable Proxy authentication');
-echo gettext('Enable Puppet Agent');
 echo gettext('Enable RadSecProxy');
 echo gettext('Enable Rate Limiting');
 echo gettext('Enable Realm');
@@ -981,6 +1579,7 @@ echo gettext('Enable Redis');
 echo gettext('Enable Redis Plugin');
 echo gettext('Enable Relayd');
 echo gettext('Enable Remote Commands');
+echo gettext('Enable Remote Commands on Proxy.');
 echo gettext('Enable Remote MySQL');
 echo gettext('Enable Rspamd Integration');
 echo gettext('Enable SMTP Authentication');
@@ -991,6 +1590,7 @@ echo gettext('Enable SONMP');
 echo gettext('Enable SQLite');
 echo gettext('Enable SSL inspection');
 echo gettext('Enable SSL offloading');
+echo gettext('Enable SSLH');
 echo gettext('Enable STUN plugin');
 echo gettext('Enable Same Origin (recommended)');
 echo gettext('Enable Security Rules');
@@ -1011,9 +1611,12 @@ echo gettext('Enable Telegraf Agent');
 echo gettext('Enable Transparent HTTP proxy');
 echo gettext('Enable Transparent Proxy');
 echo gettext('Enable Transparent mode');
+echo gettext('Enable Unbound');
 echo gettext('Enable VLAN assignment');
+echo gettext('Enable VLAN fallback assignment');
 echo gettext('Enable WAF');
 echo gettext('Enable WISPr attributes');
+echo gettext('Enable Wazuh Agent');
 echo gettext('Enable Windows Update Cache');
 echo gettext('Enable WireGuard');
 echo gettext('Enable Youtube Adult Restrictions');
@@ -1044,6 +1647,9 @@ echo gettext('Enable encryption for authentication against network collector (op
 echo gettext('Enable encryption for mail server communication.');
 echo gettext('Enable eve syslog output');
 echo gettext('Enable fbox_anoncall_networks plugin');
+echo gettext('Enable file integrity monitoring');
+echo gettext('Enable filter-aaaa on IPv4 Clients');
+echo gettext('Enable filter-aaaa on IPv6 Clients');
 echo gettext('Enable fix_DTAG_networks plugin');
 echo gettext('Enable fix_bogus_via plugin');
 echo gettext('Enable freshclam service');
@@ -1061,10 +1667,15 @@ echo gettext('Enable internal ident service (rfc1413), which tracks authenticate
         ');
 echo gettext('Enable intrusion detection system.');
 echo gettext('Enable ipstats plugin');
+echo gettext('Enable lacp fast-timeout on the interface.');
+echo gettext('Enable lacp strict compliance on the interface. The default depends on the system tunable in net.link.lagg.lacp.default_strict_mode.');
 echo gettext('Enable learning mode means nothing is blocked but logged.');
 echo gettext('Enable load plugin');
 echo gettext('Enable local cache');
+echo gettext('Enable log collection for CrowdSec\'s block rules.');
+echo gettext('Enable log for rules');
 echo gettext('Enable logging');
+echo gettext('Enable logging of STDERR messages reported by the FastCGI application. It is an optional setting. By default STDERR messages are ignored.');
 echo gettext('Enable logging of defaulttarget plugin.');
 echo gettext('Enable logging of executed shell commands as warnings. Make sure to set the Debug Level accordingly.');
 echo gettext('Enable memory plugin');
@@ -1093,11 +1704,13 @@ echo gettext('Enable or disable the caching of packages for linux distributions.
 echo gettext('Enable or disable the defaulttarget plugin.');
 echo gettext('Enable or disable the fix_DTAG_networks plugin.');
 echo gettext('Enable or disable the fix_bogus_via plugin.');
-echo gettext('Enable or disable the local cache. Only UFS directory cache type is supported. Do not enable on embedded systems with SD or CF cards without the /var MFS option as this will wear down your drive.');
+echo gettext('Enable or disable the local cache. Only UFS directory cache type is supported. Do not enable on embedded systems with SD or CF cards as this will wear down your drive.');
 echo gettext('Enable or disable the nut service. If enabled, the system will shutdown when the UPS emits a low battery warning.');
+echo gettext('Enable or disable the processing of the Vary header. When disabled, a response containing such a header will never be cached.');
 echo gettext('Enable or disable the proxy service.');
 echo gettext('Enable or disable the rspamd service.');
 echo gettext('Enable or disable the squid SNMP Agent.');
+echo gettext('Enable or disable this ACL.');
 echo gettext('Enable or disable this ftp proxy.');
 echo gettext('Enable or disable this server.');
 echo gettext('Enable or disable this udp relay.');
@@ -1106,6 +1719,7 @@ echo gettext('Enable or disable verbose logging. Each log line turns into a much
 echo gettext('Enable parent proxy feature.');
 echo gettext('Enable peers');
 echo gettext('Enable pinger');
+echo gettext('Enable policy monitoring and anomaly detection');
 echo gettext('Enable processes plugin');
 echo gettext('Enable promiscuous mode, for certain setups (like IPS with vlans), this is required to actually capture data on the physical interface.');
 echo gettext('Enable proxy');
@@ -1129,8 +1743,10 @@ echo gettext('Enable support for HTTP/2 even if TLS is not enabled.');
 echo gettext('Enable support for HTTP/2.');
 echo gettext('Enable support for end-to-end HTTP/2 communication.');
 echo gettext('Enable swap plugin');
+echo gettext('Enable syscollector');
 echo gettext('Enable syslog alerts');
 echo gettext('Enable tcpconns plugin');
+echo gettext('Enable the APC UPS service.');
 echo gettext('Enable the APCSMART driver.');
 echo gettext('Enable the APCUPSD controlled devices driver.');
 echo gettext('Enable the BlazerSerial driver. Please be aware that this driver needs to run nut-tools as root.');
@@ -1146,6 +1762,7 @@ echo gettext('Enable the NETDEV collector.');
 echo gettext('Enable the NTP collector.');
 echo gettext('Enable the Netclient driver.');
 echo gettext('Enable the PowerWare BCMXCPUSB driver.');
+echo gettext('Enable the Puppet Agent service.');
 echo gettext('Enable the QEMU guest agent service.');
 echo gettext('Enable the QX driver.');
 echo gettext('Enable the Riello driver.');
@@ -1157,19 +1774,28 @@ echo gettext('Enable the collection of HAProxy statistics.');
 echo gettext('Enable the collection of NTP query metrics.');
 echo gettext('Enable the collection of Unbound metrics.');
 echo gettext('Enable the collection of ZFS statistics.');
+echo gettext('Enable the collection of apcupsd metrics.');
+echo gettext('Enable the collection of data about the internet speed on the system.');
+echo gettext('Enable the file download speed test.');
 echo gettext('Enable the logging of authentication requests, including MAC addresses.');
+echo gettext('Enable the override for this host');
 echo gettext('Enable the repeater.');
+echo gettext('Enable the retrieval of variables about connection management from the FastCGI application by sending the record FCGI_GET_VALUES on connection establishment. Some FastCGI applications do not support this feature and others close the connection immediately after sending their response. As a result, this option is disabled by default.');
+echo gettext('Enable the support for connection multiplexing. This option may be overwritten if the variable FCGI_MPXS_CONNS is retrieved during connection establishment.');
 echo gettext('Enable the usage of DNS blocklists.');
 echo gettext('Enable this Backend Pool');
 echo gettext('Enable this CPU affinity rule.');
+echo gettext('Enable this FastCGI application.');
 echo gettext('Enable this Lua script.');
 echo gettext('Enable this Onion service.');
 echo gettext('Enable this Public Service.');
 echo gettext('Enable this account');
 echo gettext('Enable this address');
+echo gettext('Enable this alias for the selected host');
 echo gettext('Enable this alias.');
 echo gettext('Enable this automation.');
 echo gettext('Enable this certificate. When disabled, no attemps to issue or renew the certificate will be made.');
+echo gettext('Enable this domain override');
 echo gettext('Enable this feature');
 echo gettext('Enable this fingerprint rule.');
 echo gettext('Enable this group.');
@@ -1204,10 +1830,17 @@ echo gettext('Enable transparent ftp proxy mode to forward all requests for dest
 echo gettext('Enable uptime plugin');
 echo gettext('Enable users plugin');
 echo gettext('Enable verbose logging');
-echo gettext('Enable verbose logging.');
 echo gettext('Enable vnStat daemon');
+echo gettext('Enable/disable the CrowdSec Local API. Keep this enabled unless you
+      connect to a LAPI on another machine.');
+echo gettext('Enable/disable the CrowdSec agent. Keep this enabled to detect
+      attacks and receive alerts from the CrowSec central service.');
+echo gettext('Enable/disable the firewall bouncer. Keep this enabled to block
+      packets from the attacking IP addresses.');
 echo gettext('Enabled');
 echo gettext('Enables or disables verification of OCSP responses by the server.');
+echo gettext('Enables the network information server which is required to obtain the current status information
+            from the local or remote UPS.');
 echo gettext('Enabling sends the plugin instance and type instance to Graphite as separate path components: host.cpu.0.cpu.idle. Disabling sends the plugin and plugin instance as one path component and type and type instance as another component: host.cpu-0.cpu-idle.');
 echo gettext('Enabling this option will disable NAT for traffic matching this rule and stop processing Outbound NAT rules.');
 echo gettext('Enabling this will write the policy to the config file.');
@@ -1220,6 +1853,8 @@ echo gettext('Endpoint Address');
 echo gettext('Endpoint Port');
 echo gettext('Enforce Recipient Relay Check');
 echo gettext('Enforce local group');
+echo gettext('Enforce protocol selection. 802.1Q is the default for VLAN interfaces, but 802.1ad is used when the parent is a VLAN (QinQ).');
+echo gettext('Enhanced version of the standard headers module. Allows to add, set, or clear any output or input header.');
 echo gettext('Enter FQDN here. Finish with TAB.');
 echo gettext('Enter IP addresses here. Finish each with TAB.');
 echo gettext('Enter a (partial) mail address, which should also receive extended headers. For example: user@example.com or @example.net.');
@@ -1247,13 +1882,13 @@ echo gettext('Enter a name for this category.');
 echo gettext('Enter a name for this key pair. The name should help you to identify this key pair.');
 echo gettext('Enter a name for this match.');
 echo gettext('Enter a name for your error page.');
-echo gettext('Enter a name of user/group. Group name is case sensitive.');
 echo gettext('Enter a network which will be used as an IP Pool to map onion Hosts.');
 echo gettext('Enter a number followed by one of the supported suffixes "d" (days), "h" (hour), "m" (minute), "s" (seconds), "ms" (miliseconds). This configures the maximum duration of an entry in the stick-table since it was last created, refreshed or matched. The maximum duration is slightly above 24 days.');
 echo gettext('Enter a number followed by one of the supported suffixes "k", "m", "g". This configures the maximum number of entries that can fit in the table. This value directly impacts memory usage. Count approximately 50 bytes per entry, plus the size of a string if any.');
 echo gettext('Enter a prefix added to the subject when Subject Score is reached.');
 echo gettext('Enter a proxy URL in the form proxy.example.com:3128.');
 echo gettext('Enter a regular expression to match the URL');
+echo gettext('Enter a secret to use with one-time password generation.');
 echo gettext('Enter a short description like a name for this ACL. It will be shown in the drop downs.');
 echo gettext('Enter a short description like a name for this redirect.');
 echo gettext('Enter a unique item key of your choice.');
@@ -1272,7 +1907,9 @@ echo gettext('Enter server address.');
 echo gettext('Enter start hour (minimum 0).');
 echo gettext('Enter the HTTP status codes for which the error page shall be shown.');
 echo gettext('Enter the URL of the ICAP Server');
-echo gettext('Enter the allowed overall bandtwith in kilobits per second (leave empty to disable).');
+echo gettext('Enter the VHID group password.');
+echo gettext('Enter the VHID group that the machines will share.');
+echo gettext('Enter the allowed overall bandwidth in kilobits per second (leave empty to disable).');
 echo gettext('Enter the allowed per host bandwidth in kilobits per second (leave empty to disable).');
 echo gettext('Enter the cache memory size to use or zero to disable completely.');
 echo gettext('Enter the days of the month for the job to act, can also be a comma-separated list, * (each) or a range (ex. 1,20,28 or 1-28)');
@@ -1300,7 +1937,7 @@ echo gettext('Enter the name of an existing item key.');
 echo gettext('Enter the name of the header.');
 echo gettext('Enter the network address to match in CIDR notation for example like 127.0.0.1/8 or ::1/128');
 echo gettext('Enter the number of first-level subdirectories for the local cache (default is 16).');
-echo gettext('Enter the number of first-level subdirectories for the local cache (default is 256).');
+echo gettext('Enter the number of second-level subdirectories for the local cache (default is 256).');
 echo gettext('Enter the number of ssl certificate workers to use (sslcrtd_children).');
 echo gettext('Enter the port of your target server.');
 echo gettext('Enter the realm for this directory and enable authentication.');
@@ -1313,6 +1950,7 @@ echo gettext('Enter the url where the RESPMOD requests should be sent to.');
 echo gettext('Enter this computer account name to register in AD for kerberos access. Default is hostname with suffix \'-K\'.');
 echo gettext('Enter your networks in CIDR notation like 127.0.0.0/8.');
 echo gettext('Ephemeral Keys');
+echo gettext('Error Log Level');
 echo gettext('Error Messages');
 echo gettext('Error Pages');
 echo gettext('Error code');
@@ -1334,12 +1972,15 @@ echo gettext('Expiration');
 echo gettext('Expiration time');
 echo gettext('Expire Time');
 echo gettext('Expire idle flows.');
+echo gettext('Expired Record Reply TTL value');
 echo gettext('Explicit Congestion Notification');
 echo gettext('Export type');
 echo gettext('Expression');
 echo gettext('Ext. Address');
 echo gettext('Ext. Port');
 echo gettext('Extended Headers Recipients');
+echo gettext('Extended Statistics');
+echo gettext('Extended pre auth data');
 echo gettext('Extensive Naxsi Log');
 echo gettext('External address of selected machine');
 echo gettext('External addresses of this machine');
@@ -1356,38 +1997,60 @@ echo gettext('FTP proxy port');
 echo gettext('Facilities');
 echo gettext('Facility');
 echo gettext('Fail Timeout');
+echo gettext('Fallback');
+echo gettext('Fallback Peer');
 echo gettext('Fallback Resolver');
+echo gettext('Fallback VLAN ID');
+echo gettext('Fallback for proxy server. Default disabled.');
 echo gettext('Fascist Firewall Ports');
 echo gettext('Fascist Mode');
+echo gettext('Fast timeout');
+echo gettext('FastCGI Application');
 echo gettext('File System Root');
 echo gettext('File format to export.');
+echo gettext('File integrity monitoring');
 echo gettext('Filename');
 echo gettext('Filename Scheme');
 echo gettext('Files larger than this limit won\'t be scanned.');
 echo gettext('Filesystem Statistics');
 echo gettext('Filter for group objects, should match all available group objects a user might be a member of.');
 echo gettext('Filter syslog level');
+echo gettext('Firewall command ignore');
 echo gettext('Fixed server address, also known as reverse mode. The proxy will always connect to the same server, regardless of where the client wanted to connect to (before it was redirected). Use this option to proxy for a server behind NAT, or to forward all connections to another proxy.');
 echo gettext('Flag');
 echo gettext('Flexible user parameters accept parameters with the key. This way a flexible user parameter can be the basis for creating several items.');
+echo gettext('Flush DNS Cache during reload');
 echo gettext('Flush Interval');
 echo gettext('Flush Jitter');
+echo gettext('Flush timeout for the v2 Telegraf output in seconds, formatted as a string. If not provided, will default to 5. 0 means no timeout, but is not recommended. Increase if you get timeout errors.');
 echo gettext('Follow directory symlinks');
 echo gettext('Follow regular file symlinks');
+echo gettext('Font');
 echo gettext('For a TLS/DTLS client you may also specify the tls option. The option value must be the name of a previously defined TLS block. If this option is not specified, the TLS block with the name defaultClient or default will be used if defined (in that order). If the specified TLS block name does not exist, or the option is not specified and none of the defaults exist, the proxy will exit with an error.');
 echo gettext('For a TLS/DTLS server, disable the default behaviour of matching CN or SubjectAltName against the specified hostname or IP address.');
 echo gettext('For example recipients without a domain or only a hostname.');
 echo gettext('For example senders without a domain or only a hostname.');
 echo gettext('For failed writes, Telegraf will cache metric_buffer_limit metrics for each output, and will flush this buffer on a successful write.');
+echo gettext('For some interface types a gateway is required to configure an IP Alias (ppp/pppoe/tun), leave this field empty for all other interface types.');
 echo gettext('Forbid Explicitly');
 echo gettext('Force HTTPS');
 echo gettext('Force Reject');
+echo gettext('Force SSL');
+echo gettext('Force SafeSearch');
 echo gettext('Force TCP');
+echo gettext('Force a specific hostname for the backend connection instead of passing the hostname from the downstream connection to the upstream connection.');
 echo gettext('Force encrypted connections.');
+echo gettext('Force the usage of SafeSearch on Google, DuckDuckGo, Bing, Qwant, PixaBay and YouTube');
+echo gettext('Force update using HTTPS, please note setting this option will enforce https updates on all accounts
+        as ddclient only supports SSL=yes on a global level (the check ip service may still use HTTP on other services)');
+echo gettext('Forces the multiplexer\'s protocol to use for the outgoing connections to this server. It must be compatible with the mode of the backend (TCP or HTTP). It must also be usable on the backend side. Idea behind this option is to bypass the selection of the best multiplexer\'s protocol for all connections established to this server. Use only when strictly necessary.');
+echo gettext('Form');
 echo gettext('Format: (address|*)[:port]');
 echo gettext('Forward HTTP traffic to transparent proxy');
 echo gettext('Forward HTTPS traffic to transparent proxy');
 echo gettext('Forward Proxy');
+echo gettext('Forward TCP upstream');
+echo gettext('Frame');
 echo gettext('Free text field for your set, please be careful! You can set e.g. "local-preference 300" or "community 1:1" (http://docs.frrouting.org/en/latest/routemap.html#route-map-set-command)');
 echo gettext('Free text field for your set, please be careful! You can set e.g. "local-preference 300" or "community 1:1" (http://www.nongnu.org/quagga/docs/docs-multi/Route-Map-Set-Command.html#Route-Map-Set-Command)');
 echo gettext('FreeDNS');
@@ -1425,10 +2088,12 @@ echo gettext('Global Parameters');
 echo gettext('Global interval when to fetch values in seconds.');
 echo gettext('GoDaddy');
 echo gettext('Google Cloud DNS');
+echo gettext('Google Domains');
 echo gettext('Google GSuite restricted');
 echo gettext('Graceful Restart');
 echo gettext('Graceful stop');
 echo gettext('Graceful stop timeout');
+echo gettext('Gradual connection close time');
 echo gettext('Graphite Prefix');
 echo gettext('Graphite SSL/TLS Verification');
 echo gettext('Graphite Server');
@@ -1447,13 +2112,10 @@ echo gettext('Greylist Score');
 echo gettext('Group');
 echo gettext('Group Filter');
 echo gettext('Group Name');
-echo gettext('Group or User ACL');
-echo gettext('Group/User');
 echo gettext('HAProxy');
 echo gettext('HAProxy Frontends');
 echo gettext('HAProxy Integration');
 echo gettext('HAProxy function');
-echo gettext('HAProxy processes (DEPRECATED)');
 echo gettext('HAProxy threads');
 echo gettext('HAProxy will extract the Host header from the HTTP request and search the map file for a match. If a match is found, the backend pool from the map file will be used.');
 echo gettext('HAProxy will handle service restarts in a way that no connections are dropped. This is the best restart mode, because it has no impact on user experience. That being said, there might be edge cases where seamless reloads lead to unexpected behaviour.');
@@ -1474,15 +2136,13 @@ echo gettext('HTTP Keep-Alive Timeout');
 echo gettext('HTTP Listen Address');
 echo gettext('HTTP Port');
 echo gettext('HTTP Port this service listens on.');
-echo gettext('HTTP Public Key Pinning: Fingerprints');
-echo gettext('HTTP Public Key Pinning: Include Subdomains');
-echo gettext('HTTP Public Key Pinning: Max Age');
-echo gettext('HTTP Public Key Pinning: Report Only');
 echo gettext('HTTP Reason Text');
 echo gettext('HTTP Redirect');
 echo gettext('HTTP Request Timeout');
 echo gettext('HTTP Service');
 echo gettext('HTTP Status Code');
+echo gettext('HTTP Strict Transport Security (HSTS)');
+echo gettext('HTTP Target');
 echo gettext('HTTP Token');
 echo gettext('HTTP check options');
 echo gettext('HTTP error count');
@@ -1514,7 +2174,9 @@ echo gettext('HTTPS Only');
 echo gettext('HTTPS Port');
 echo gettext('HTTPS Port this service listens on. If you enable HTTPS you will be redirected from HTTP to HTTPS. Please select a certificate below');
 echo gettext('Hard timeout (minutes)');
+echo gettext('Harden DNSSEC Data');
 echo gettext('Hash Bucket Size');
+echo gettext('Hash Layers');
 echo gettext('Header Buffer Size (kB)');
 echo gettext('Header Contains');
 echo gettext('Header Content');
@@ -1526,7 +2188,6 @@ echo gettext('Header Score');
 echo gettext('Header Suffix');
 echo gettext('Health Checking');
 echo gettext('Health Monitor');
-echo gettext('Health check buffer size');
 echo gettext('Healthy Threshold');
 echo gettext('Hello Interval');
 echo gettext('Here you can adjust the reference cost in Mbps for path calculation. Mostly needed when you bundle interfaces to higher bandwidth.');
@@ -1538,14 +2199,17 @@ echo gettext('Here you specify the devices allowed to do SIP connections to sipr
 echo gettext('Here you specify the networks disallowed to do SIP connections to siproxd. It has a higher priority than \'Hosts to allow SIP\'.');
 echo gettext('Hetzner DNS API');
 echo gettext('Hide Hostname');
+echo gettext('Hide Identity');
 echo gettext('Hide Version');
 echo gettext('History Cache Size');
 echo gettext('History Index Cache Size');
 echo gettext('History Rows');
 echo gettext('Hold Down Time');
+echo gettext('Home Servers');
 echo gettext('Home networks');
 echo gettext('Honeypot');
 echo gettext('Host');
+echo gettext('Host Address');
 echo gettext('Host Contains');
 echo gettext('Host Key');
 echo gettext('Host Name');
@@ -1554,15 +2218,25 @@ echo gettext('Host Prefix');
 echo gettext('Host Regex');
 echo gettext('Host String');
 echo gettext('Host Suffix');
+echo gettext('Host header port');
+echo gettext('Host name of MX host, e.g. mail.example.com');
 echo gettext('Host outbound');
+echo gettext('Host override');
 echo gettext('Host to deny SIP');
 echo gettext('Hostname');
 echo gettext('Hostname (of this machine) to redirect login page to, leave blank to use this interface IP address, otherwise make sure the client can access DNS to resolve this location. When using a SSL certificate, make sure both this name and the cert name are equal.');
+echo gettext('Hostname (or IP address) and port combination on which to listen, e.g. localhost:443, 10.5.0.1:443 (typically these resolve to-, or specify, a WAN IP address). This can be defined multiple times to bind sslh to several addresses.');
 echo gettext('Hostname / IP');
 echo gettext('Hostname DNS lookup');
 echo gettext('Hostname DNS reverse lookup');
 echo gettext('Hostname Upstream Map');
 echo gettext('Hostname of IP adress of the Synology DSM, i.e. synology.example.com or 192.168.0.1.');
+echo gettext('Hostname or IP');
+echo gettext('Hostname or IP adress of TrueNAS Core Server.');
+echo gettext('Hostname or address to ping.');
+echo gettext('Hostname or address to probe.');
+echo gettext('Hostname or address to resolve.');
+echo gettext('Hostname or address to trace.');
 echo gettext('Hostname to update');
 echo gettext('Hostname(s)');
 echo gettext('Hosts');
@@ -1570,28 +2244,44 @@ echo gettext('Hosts to allow SIP');
 echo gettext('Hosts to allow registration');
 echo gettext('Hours');
 echo gettext('How long a DNS query will wait for a response in milliseconds.');
+echo gettext('How long to wait before the checkip process times out');
 echo gettext('How much memory in percent the cache can use from the system. Default is 80%.');
+echo gettext('How often Puppet Agent applies the catalog. Enter a number followed by one of the supported suffixes: "y" (years), "d" (days), "h" (hours), "m" (minutes), "s" (seconds).');
 echo gettext('How often list of active checks is refreshed, in seconds.');
+echo gettext('How to determine the address to use for this host');
 echo gettext('Hurricane Electric');
 echo gettext('ICAP Settings');
 echo gettext('ICP port');
 echo gettext('ID');
+echo gettext('IKE identity to use for authentication round.
+          When using certificate authentication.
+          The IKE identity must be contained in the certificate,
+          either as the subject DN or as a subjectAltName
+          (the identity will default to the certificate’s subject DN if not specified).
+          Refer to https://docs.strongswan.org/docs/5.9/config/identityParsing.html for details on how
+          identities are parsed and may be configured.
+        ');
 echo gettext('INWX');
 echo gettext('IONOS domain API');
 echo gettext('IP / Net');
 echo gettext('IP ACL');
 echo gettext('IP Address');
 echo gettext('IP Address or Network with CIDR');
+echo gettext('IP Address v6');
 echo gettext('IP Addresses');
 echo gettext('IP Auto-Discovery');
 echo gettext('IP TTL');
 echo gettext('IP Version');
+echo gettext('IP address');
 echo gettext('IP address of DNS server to forward all requests.');
 echo gettext('IP address of host allowed to retrieve proxy statistics.');
+echo gettext('IP address of the host, e.g. 192.168.100.100 or fd00:abcd::1');
 echo gettext('IP address of the remote logging server.');
 echo gettext('IP address of the remote syslog server.');
 echo gettext('IP address or hostname of Zabbix server.');
 echo gettext('IP address or hostname of the SFTP server.');
+echo gettext('IP address or hostname of the SSH server.');
+echo gettext('IP address or hostname of the apcupsd net information server. Default address is 127.0.0.1');
 echo gettext('IP address or hostname of the remote ShadowSocks server.');
 echo gettext('IP address or hostname of the server.');
 echo gettext('IP address the server UI listens on.');
@@ -1614,21 +2304,31 @@ echo gettext('IPv6 Source');
 echo gettext('IPv6 address of the NAT64 interface. Must not have Tayga\'s IPv6 prefix. Only used for ICMP.');
 echo gettext('IPv6 hosts which send traffic through Tayga will be dynamically assigned an IPv4 address from this pool. Can be any size, but each IPv6 host requires one address.');
 echo gettext('IPv6 link-local interface');
+echo gettext('IPv64.net API');
+echo gettext('IPv64.net API Token');
+echo gettext('Id');
 echo gettext('Identity Type');
 echo gettext('Idle timeout');
 echo gettext('Idle timeout (minutes)');
+echo gettext('If ALL home servers are dead, then this "fallback" home server is used.');
 echo gettext('If Custom is specified. The detection engine tries to split out separate signatures into groups so that a packet is only inspected against signatures that can actually match. As in large rule set this would result in way too many groups and memory usage similar groups are merged together.');
 echo gettext('If Synology DSM has OTP enabled, then the device ID has to be provided so that no OTP is required when running the automation.');
 echo gettext('If an attached file has a suffix in this list, the mail will be rejected via a hard reject, which means that the server will be immeadiately informed about the policy violation.');
+echo gettext('If checked version 2 of the kv store will be used, otherwise version 1.');
 echo gettext('If checked, also subdomains are affected.');
 echo gettext('If checked, only attached files are scanned and images are omitted.');
-echo gettext('If checked, the CSP is enabled.');
 echo gettext('If checked, the CSP is not enforced (learning mode).');
+echo gettext('If checked, the Content Security Policy (CSP) header is enabled. A detailed configuration is still required via the other tabs of this sheet.');
 echo gettext('If checked, this part of the CSP is enabled.');
 echo gettext('If configured, only clients that are listed here are authorized to access the Onion service.');
 echo gettext('If enabled it allows you to use SMTPS.');
+echo gettext('If enabled, TLS handshakes for this server will be rejected.');
+echo gettext('If enabled, extended statistics are printed.');
+echo gettext('If enabled, id.server and hostname.bind queries are refused.');
 echo gettext('If enabled, the match value, the URL, named parameters and headers are matched using regular expressions; otherwise only exact matches trigger the rule.');
+echo gettext('If enabled, version.server and version.bind queries are refused.');
 echo gettext('If left unspecified, Tayga will construct its IPv6 address by using its IPv4 address and the IPv6 prefix (default). Tayga requires its own IPv6 address because it acts as a router and needs to be able to send ICMP messages. Tayga will also respond to ICMPv6 echo requests at this address.');
+echo gettext('If no DNS64 prefix is specified, the default prefix 64:ff9b::/96 (RFC 6052) will be used.');
 echo gettext('If not configured, the proxy will deny all Access-Requests for this realm.');
 echo gettext('If not configured, the proxy will silently ignore all Accounting-Requests for this realm.');
 echo gettext('If possible, a loopback address is the safest choice here, you can forward traffic to it using the firewall.');
@@ -1646,14 +2346,21 @@ echo gettext('If the request is larger, it will be rejectet with error 413 (Requ
 echo gettext('If the rule matches the counter of each policy containing the rule will increase. If a policy\'s counter exceeds the configured "value" (to be configured at the policy) the policy\'s action gets triggered.');
 echo gettext('If the sum of scores of all matching rules exceed the configured value the policy\'s action will get triggered.');
 echo gettext('If the user is authenticated, the headers will not be added if this is enabled. If this is checked, your outgoing mails will very likely not leak information about the the scanner.');
+echo gettext('If this AS-Path list should be enabled.');
+echo gettext('If this Prefix-List should be enabled.');
 echo gettext('If this amount of memory is reached, Tor will close circuits until 10% of this limit are free again.');
 echo gettext('If this checkbox is checked, all other settings for this directive are ignored and everything will be forbidden.');
 echo gettext('If this checkbox is checked, you can use an ICAP server to filter or replace content.');
 echo gettext('If this checkbox is enabled, a header about the authentication state will be added.');
 echo gettext('If this checkbox is enabled, a header containing the findings of the scan is added.');
 echo gettext('If this is box is checked, the score will be added if the rule does not match. Use with care.');
+echo gettext('If this option is set, Unbound will remove all A records from the answer section of all responses.');
+echo gettext('If this option is set, Unbound will synthesize AAAA records from A records if no actual AAAA records are present.');
+echo gettext('If this option is set, then any descriptions associated with Host entries and DHCP Static mappings will create a corresponding TXT record.');
+echo gettext('If this option is set, then machines that specify their hostname when requesting a DHCP lease will be registered in Unbound, so that their name can be resolved.');
 echo gettext('If this option is set, users can login on multiple machines at once. If disabled subsequent logins will cause machines previously logged in with the same username to be disconnected.');
 echo gettext('If true, collect raw CPU time metrics.');
+echo gettext('If used, should point to a "home_server_pool" that was defined.');
 echo gettext('If you check this box may help if tor is stuck at startup.');
 echo gettext('If you check this box, a TLS encrypted connection is enforced.');
 echo gettext('If you check this box, autolearning will be enabled. Autolearning is performing as spam if a message has reject action and as ham if a message has negative score.');
@@ -1675,7 +2382,8 @@ echo gettext('If you enable this option, the username of the client will be sent
 echo gettext('If you enable this, every entry in Recipients will be checked against. When there is no match mail will be rejected. Be aware that it does not matter if the action is "OK" or "REJECT". This setup allows you to run postfix in front of an internal system and already reject unsolicited mail at the border.');
 echo gettext('If you have a CARP setup, you may want to configure a router id in case of a conflict.');
 echo gettext('If you have a wildcard certificate or the CA is untrusted, you have to enter the SHA hash of the certificate to force a connect.');
-echo gettext('If you only want to test it, you can check this box (policy will be deployed but not enforced).');
+echo gettext('If you leave this field blank, the smallest mtu of this laggs children will be used.');
+echo gettext('If you run NTS mode you can enable this option in order to ignore wrong time in certificates for the first check. This helps if your system starts with wrong time.');
 echo gettext('If you select an IP ACL, the client can only access this service if it fulfills this requirement.');
 echo gettext('If you set this setting, all requests are sent to this script instead of the request path (URL). Not using this setting on a remote instance can be dangerous.');
 echo gettext('If you turn off this option, the original files will still be scanned, but without parsing individual messages/attachments.');
@@ -1684,12 +2392,18 @@ echo gettext('Ignore Client Abort');
 echo gettext('Ignore SSL certificate validation (for self-signed certificates)');
 echo gettext('Ignore hosts in access.log');
 echo gettext('Ignore some mountpoints by filesystem type. For example (dev)tmpfs (usually present on /run, /var/run, /dev/shm or /dev).');
+echo gettext('Image');
 echo gettext('Immediately respond to IPv6-related queries with an empty response. This makes things faster when there is no IPv6 connectivity.');
 echo gettext('In some cases it might be clearer to set a fixed router-id.');
 echo gettext('Inactive Time (Minutes)');
 echo gettext('Inactive Timeout');
 echo gettext('Inbound interface');
+echo gettext('Include Subdomains');
+echo gettext('Incoming TCP Buffers');
 echo gettext('Incoming bytes rate');
+echo gettext('Increase logging verboseness.');
+echo gettext('Increase the verbosity of the Suricata application logging by increasing the log level from the default.');
+echo gettext('Index');
 echo gettext('Index File');
 echo gettext('Index Name');
 echo gettext('Indicates in which order server addresses should be resolved upon startup. Method "last" suggests to pick the address which appears in the state file. Method "libc" uses the libc\'s internal resolver. Method "none" specifically indicates that the server should start without any valid IP address in a down state. It can be useful to ignore some DNS issues upon startup, waiting for the situation to get fixed later. Defaults to "last,libc".');
@@ -1702,6 +2416,9 @@ echo gettext('Influx v2 URL');
 echo gettext('Influx v2 authentication token.');
 echo gettext('Infoblox');
 echo gettext('Infomaniak DNS API');
+echo gettext('Initial delay after power failure before warning users to get off the system.');
+echo gettext('Inner tunnel local address to be used for routing purposes.');
+echo gettext('Inner-Tunnel LDAP');
 echo gettext('Input Plugins');
 echo gettext('Insecure Domains');
 echo gettext('Insert here the domain that will be allowed to use Google GSuite.
@@ -1709,28 +2426,49 @@ echo gettext('Insert here the domain that will be allowed to use Google GSuite.
 echo gettext('Instance');
 echo gettext('Instance ID');
 echo gettext('Instead of displaying a static error page redirect to a URL.');
+echo gettext('Instruct the FastCGI application to keep the connection open after sending a response. If disabled, the FastCGI application closes the connection after responding to a request.');
 echo gettext('Interface');
 echo gettext('Interface 2');
 echo gettext('Interface Configuration');
+echo gettext('Interface and port on which to forward HTTP connections, typically localhost:80.');
+echo gettext('Interface and port on which to forward OpenVPN connections, typically localhost:1194.');
+echo gettext('Interface and port on which to forward SSH connections, typically localhost:22.');
+echo gettext('Interface and port on which to forward SSL connection, typically localhost:443. Note that you can set sslh to listen on ext_ip:443 and httpd to listen on localhost:443: this allows clients inside your network to just connect directly to httpd. Also, sslh probes for SSLv3 (or TLSv1) handshake and will reject connections from clients requesting SSLv2. This is compliant with RFC6176 which prohibits the usage of SSLv2. If you wish to accept SSLv2, use --anyprot instead.');
+echo gettext('Interface and port on which to forward Tinc connections, typically localhost:655.');
+echo gettext('Interface and port on which to forward XMPP connections, typically localhost:5222.');
+echo gettext('Interface and port on which to forward if no other protocol has been found. Because sslh tries protocols in the order specified on the command line, this should be specified last. If no default is specified, sslh will forward unknown protocols to the first protocol specified.');
+echo gettext('Interface to monitor');
 echo gettext('Interfaces');
+echo gettext('Interfaces to capture.');
 echo gettext('Internal number used for this zone');
+echo gettext('Internet Speed File Download');
+echo gettext('Internet Speed Test');
 echo gettext('Interrupts Statistics');
 echo gettext('Interval');
 echo gettext('Interval before dropping packets (in ms), leave empty for default');
 echo gettext('Interval in seconds to check for address changes');
 echo gettext('Intrusion Dectection Alerts');
+echo gettext('Intrusion detection events');
+echo gettext('Invert Port');
+echo gettext('Invert Protocol');
 echo gettext('Invert destination');
 echo gettext('Invert source');
 echo gettext('It sets the default string describing the list of cipher algorithms ("cipher suite") that are negotiated during the SSL/TLS handshake for TLSv1.3.');
 echo gettext('It sets the default string describing the list of cipher algorithms ("cipher suite") that are negotiated during the SSL/TLS handshake up to TLSv1.2.');
+echo gettext('JD Cloud');
+echo gettext('JD Cloud region');
 echo gettext('JSON Key');
 echo gettext('Jitter the flush interval by a random amount. This is primarily to avoid large write spikes for users running a large number of telegraf instances.');
 echo gettext('Join Type');
 echo gettext('Joker');
+echo gettext('Jostle Timeout');
 echo gettext('KAS Authdata');
 echo gettext('KAS Authtype');
 echo gettext('KAS Login');
+echo gettext('Keep Connection Open');
+echo gettext('Keep probing down hosts');
 echo gettext('Keepalive');
+echo gettext('Keepalive Interval');
 echo gettext('Keepalive Timeout');
 echo gettext('Keepalive for HTTP (HTTPS, HTTP/2) queries in seconds.');
 echo gettext('Keepalive timer to check if the neighbor is still up. Default when unset is 60 seconds.');
@@ -1743,11 +2481,15 @@ echo gettext('Key Identifier');
 echo gettext('Key Length');
 echo gettext('Key Table creation');
 echo gettext('Key Type');
+echo gettext('Keyingtries');
 echo gettext('Keytab file');
 echo gettext('Keytab file must exist and be valid.');
+echo gettext('Kill Delay');
 echo gettext('KingHost');
 echo gettext('Knot');
 echo gettext('Knot server address, like: dns.example.com');
+echo gettext('LAPI listen address');
+echo gettext('LAPI listen port');
 echo gettext('LDAP Server');
 echo gettext('LDAP Server accessible');
 echo gettext('LDAP Server configuration');
@@ -1768,10 +2510,17 @@ echo gettext('Let DNSCrypt-Proxy use servers with DNSCrypt protocol enabled.');
 echo gettext('Let the Redis server listen on non-localhost interfaces.');
 echo gettext('Levels');
 echo gettext('Lifetime of Redis cache - 1 day by default.');
+echo gettext('Limit Idle Timeout');
+echo gettext('Limit Max Connections');
+echo gettext('Limit Max Requests');
 echo gettext('Limit Networks');
 echo gettext('Limit Requests');
 echo gettext('Limit Zone');
+echo gettext('Limit lifetime');
 echo gettext('Limit networks to directly connected networks. Enabling this option is recommended if your nginx instance is reachable via the internet to prevent remote access to the web interface for security reasons. Please note that you can lock yourself out if you are accessing OPNsense via a router without SNAT.');
+echo gettext('Limit the number of TCP connections to the home server. Setting this to 0 means "no limit".');
+echo gettext('Limit the total number of outstanding packets to the home server.');
+echo gettext('Limit the total number of requests sent over one TCP connection. Setting this to 0 means "no limit".');
 echo gettext('Limits');
 echo gettext('Linode API (v3 / Deprecated)');
 echo gettext('Linode API (v4)');
@@ -1781,19 +2530,27 @@ echo gettext('List of IP addresses that the agent should listen on. First IP add
 echo gettext('List of IP:port (or hostname:port) pairs of Zabbix servers for active checks. If port is not specified, the default port is used. IPv6 addresses must be enclosed in square brackets if the port for that host is specified. If the port is not specified, square brackets for IPv6 addresses are optional. If this parameter is not specified, active checks are disabled. Examples: zabbix.example.com, 10.0.0.2:20051, [::1]:30051,::1, [12fc::1]');
 echo gettext('List of addresses allowed to pass trough the tunnel adapter. Please use CIDR notation like 10.0.0.1/24.');
 echo gettext('List of addresses to configure on the tunnel adapter. Please use CIDR notation like 10.0.0.1/24.');
+echo gettext('List of certificate candidates to use for authentication.');
 echo gettext('List of comma delimited IP addresses that the trapper should listen on. Trapper will listen on all network interfaces if this parameter is missing.');
 echo gettext('List of domains from where blocklist will be downloaded.');
 echo gettext('List of domains not to be sent via parent proxy.');
 echo gettext('List of domains that are not checked by SURBL.');
+echo gettext('List of domains to blocklist. Only exact matches are supported.');
 echo gettext('List of domains to mark as insecure. DNSSEC chain of trust is ignored towards the domain name.');
-echo gettext('List of domains to mark as private. You only need this for some DNSBL lists which resolve to private addresses.');
 echo gettext('List of domains to whitelist. It will add a entry for the domains itself and all sub domains.');
 echo gettext('List of domains to whitelist. You can use regular expressions.');
 echo gettext('List of interface to listen on, none means listen on all interfaces.');
+echo gettext('List of local traffic selectors to include in CHILD_SA. Each selector is a CIDR subnet definition.
+              When left empty the address will be replaced by the tunnel outer address or the virtual IP if negotiated ([dynamic]).
+        ');
 echo gettext('List of networks for this ACL.');
 echo gettext('List of networks where to apply the DTAG fix. Default should fit for most situations.');
 echo gettext('List of networks where to apply the FritzBox Anoncall plugin. Default should fit for most situations.');
 echo gettext('List of peers for this server.');
+echo gettext('List of raw public key candidates to use for authentication.');
+echo gettext('List of remote traffic selectors to include in CHILD_SA. Each selector is a CIDR subnet definition.
+              When left empty the address will be replaced by the tunnel outer address or the virtual IP if negotiated ([dynamic])
+        ');
 echo gettext('List with events. Leave it empty for all events.');
 echo gettext('Listen Address');
 echo gettext('Listen Addresses');
@@ -1810,6 +2567,7 @@ echo gettext('Listen TLS');
 echo gettext('Listen UDP');
 echo gettext('Listen address');
 echo gettext('Listen address (IP)');
+echo gettext('Listen addresses');
 echo gettext('Listen for the address and port for the respective protocol. Normally the proxy will listen to the standard ports if configured to handle clients with the respective protocol. The default ports are 1812 for UDP and TCP and 2083 for TLS and DTLS. On most systems it will do this for all of the system’s IP addresses (both IPv4 and IPv6). On some systems however, it may respond to only IPv4 or only IPv6. To specify an alternate port you may use a value on the form *:port where port is any valid port number. If you also want to specify a specific address you can do e.g. 192.168.1.1:1812 or [2001:db8::1]:1812. The port may be omitted if you want the default one. Note that you must use brackets around the IPv6 address. These options may be specified multiple times to listen to multiple addresses and/or ports for each protocol.');
 echo gettext('Listen port');
 echo gettext('Listen port for trapper. Default is just fine.');
@@ -1818,6 +2576,7 @@ echo gettext('Listening interfaces');
 echo gettext('Load Average Statistics');
 echo gettext('Load Balancing Algorithm');
 echo gettext('Load the certificate and private key from the Windows Certificate System Store (Windows/OpenSSL Only).');
+echo gettext('Local');
 echo gettext('Local Address');
 echo gettext('Local Cache Settings');
 echo gettext('Local Description');
@@ -1825,9 +2584,15 @@ echo gettext('Local Description to help identify this network');
 echo gettext('Local Domains');
 echo gettext('Local HTTP Port');
 echo gettext('Local IPs');
+echo gettext('Local Identifier');
+echo gettext('Local Initiater IP');
 echo gettext('Local Port');
 echo gettext('Local TLS ALPN Port');
+echo gettext('Local Zone Type');
+echo gettext('Local address');
+echo gettext('Local addresses');
 echo gettext('Local stats TCP port');
+echo gettext('Local tunnel address used for the outer IP header of ESP packets');
 echo gettext('Location to fetch geoip address ranges from. Refer to the OPNsense documentation for
         further details');
 echo gettext('Locations');
@@ -1839,10 +2604,15 @@ echo gettext('Log File');
 echo gettext('Log File Size');
 echo gettext('Log Host');
 echo gettext('Log Level');
+echo gettext('Log Level Verbosity');
 echo gettext('Log Listen Address');
 echo gettext('Log Listen Port');
 echo gettext('Log MAC');
+echo gettext('Log Neighbor Changes');
+echo gettext('Log Queries');
 echo gettext('Log Remote Commands');
+echo gettext('Log Replies');
+echo gettext('Log SERVFAIL');
 echo gettext('Log SNI information only');
 echo gettext('Log Status Changes');
 echo gettext('Log Transactions Slower Than (microsecond)');
@@ -1850,14 +2620,18 @@ echo gettext('Log at debug level.');
 echo gettext('Log connections');
 echo gettext('Log extra debugging information.');
 echo gettext('Log full username');
+echo gettext('Log local actions');
 echo gettext('Log only error level messages.');
 echo gettext('Log package payload');
 echo gettext('Log packets that are handled by this rule');
 echo gettext('Log to File or Syslog');
 echo gettext('Log to syslog');
+echo gettext('Log validation level');
+echo gettext('Logcollector remote commands');
 echo gettext('Logfile level');
 echo gettext('Logging');
 echo gettext('Logging Options');
+echo gettext('Logging Settings');
 echo gettext('Logical operator for conditions');
 echo gettext('Login');
 echo gettext('Login-Time');
@@ -1875,8 +2649,11 @@ echo gettext('M/Monit Timeout');
 echo gettext('M/Monit URL');
 echo gettext('MAC Address');
 echo gettext('MAC address');
+echo gettext('MOBIKE');
 echo gettext('MTU');
 echo gettext('MX Check');
+echo gettext('MX Host');
+echo gettext('MX Priority');
 echo gettext('Mail Admin');
 echo gettext('Mail Recipient');
 echo gettext('Mail Sender');
@@ -1895,6 +2672,8 @@ echo gettext('Main Settings');
 echo gettext('Main rules increase the policiy\'s score if matched. Basic rules are added directly to the location and match immeditaly. Basic rules are specifically useful for whitelist rules. Also basic rules need to be added to a policy to allow association with a location.');
 echo gettext('Make sure the script is executable by the Monit service.');
 echo gettext('Make this device visible as Layer 3 enabled.');
+echo gettext('Manager hostname');
+echo gettext('Manual LAPI configuration');
 echo gettext('Map Host To IP Pool');
 echo gettext('Map file');
 echo gettext('Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR).');
@@ -1902,8 +2681,6 @@ echo gettext('Mask');
 echo gettext('Mask bits are used to limit the network range from which the message may be resent. This is used to avoid a rejection if another server sends the second mail.');
 echo gettext('Masquerade Domains');
 echo gettext('Masquerade internal domains to the outside. When you set example.com, the domain host.internal.example.com will be rewritten to example.com when mail leaves the system.');
-echo gettext('Master IP');
-echo gettext('Master Zone');
 echo gettext('Match');
 echo gettext('Match Certificate-Attribute');
 echo gettext('Match Name Instead of Value');
@@ -1919,6 +2696,7 @@ echo gettext('Max Client Connections');
 echo gettext('Max Connections');
 echo gettext('Max DNS answer size');
 echo gettext('Max Daily Session');
+echo gettext('Max Outstanding');
 echo gettext('Max Packet Length');
 echo gettext('Max directory recursion');
 echo gettext('Max file size');
@@ -1938,6 +2716,7 @@ echo gettext('MaxLinesPerSecond');
 echo gettext('Maximum Body Size');
 echo gettext('Maximum Cache Size');
 echo gettext('Maximum Clients');
+echo gettext('Maximum Concurrent Requests');
 echo gettext('Maximum Connections');
 echo gettext('Maximum Connections (Public Services)');
 echo gettext('Maximum Connections (Servers)');
@@ -1948,6 +2727,8 @@ echo gettext('Maximum Memory');
 echo gettext('Maximum Memory In Queues (MB)');
 echo gettext('Maximum Memory Policy');
 echo gettext('Maximum Memory Samples');
+echo gettext('Maximum Negative TTL for RRsets and messages');
+echo gettext('Maximum Number of secondary entries');
 echo gettext('Maximum Object Age (sec)');
 echo gettext('Maximum Object Size (bytes)');
 echo gettext('Maximum RAM per LUA process');
@@ -1957,6 +2738,7 @@ echo gettext('Maximum SSL Version');
 echo gettext('Maximum Size');
 echo gettext('Maximum Size (GB)');
 echo gettext('Maximum Size of Cache (MB)');
+echo gettext('Maximum TTL for RRsets and messages');
 echo gettext('Maximum TTL for cached entries.');
 echo gettext('Maximum TTL for negatively cached entries.');
 echo gettext('Maximum Temporary File Size');
@@ -1974,12 +2756,14 @@ echo gettext('Maximum object size (MB)');
 echo gettext('Maximum object size in memory (KB)');
 echo gettext('Maximum size of log file in MB. Zabbix Agent will automatically rotate the log once this limit is reached.');
 echo gettext('Maximum upload size (kB)');
+echo gettext('Media');
 echo gettext('Members');
 echo gettext('Memory');
 echo gettext('Memory Cache size in Megabytes');
 echo gettext('Memory Statistics');
 echo gettext('Memory cache mode');
 echo gettext('Message');
+echo gettext('Message Cache Size');
 echo gettext('Message Digest');
 echo gettext('Message Size Limit');
 echo gettext('Metric Batch Size');
@@ -1990,6 +2774,7 @@ echo gettext('Milter Default Action');
 echo gettext('Milter Headers');
 echo gettext('Min spare threads');
 echo gettext('Minimum SSL Version');
+echo gettext('Minimum TTL for RRsets and messages');
 echo gettext('Minimum TTL for cached entries.');
 echo gettext('Minimum TTL for negatively cached entries.');
 echo gettext('Minimum acceptable persistent queue delay (in ms), leave empty for default');
@@ -2009,6 +2794,7 @@ echo gettext('Multi-Protocol');
 echo gettext('Multicast addresses to use on this port when relaying multicast packets. e.g Sonos is 239.255.255.250, you may enter multiple addresses.');
 echo gettext('Multicast group');
 echo gettext('Multimap Settings');
+echo gettext('Multiplexer Protocol');
 echo gettext('MySQL 4.1+');
 echo gettext('MySQL Database');
 echo gettext('MySQL Password');
@@ -2017,8 +2803,10 @@ echo gettext('MySQL Server');
 echo gettext('MySQL User');
 echo gettext('MySQL check');
 echo gettext('MySQL user');
+echo gettext('Mythic Beasts');
 echo gettext('NOTE: A DNS sleep time of at least 1000 is recommended.');
 echo gettext('NOTE: A DNS sleep time of at least 1000 may be required.');
+echo gettext('NOTE: A DNS sleep time of at least 300 is recommended.');
 echo gettext('NOTE: A DNS sleep time of at least 600 is recommended.');
 echo gettext('NOTE: Settings below must not be changed after account registration.');
 echo gettext('NOTE: The specified server must be present in the Backend Pool where this rule is applied.');
@@ -2028,8 +2816,12 @@ echo gettext('NTP Statistics');
 echo gettext('NTPQ');
 echo gettext('NTPQ DNS Lookup');
 echo gettext('NTS Client Support');
+echo gettext('NTS Disable Certcheck');
 echo gettext('NX hold time');
 echo gettext('Name');
+echo gettext('Name of the UPS for log files, status reports etc.');
+echo gettext('Name of the host, without the domain part. Use "*" to create a wildcard entry.');
+echo gettext('Name of the protocol to connect to after the timeout period is over. Default is to forward to the first specified protocol. It usually makes sense to specify \'ssh\' as the timeout protocol, as the SSH specification does not tell who is supposed to speak first and a large number of SSH clients wait for the server to send its banner. Default: ssh');
 echo gettext('Name or Prefix');
 echo gettext('Name template for the certificate\'s private key.
             Placeholders "{{name}}" and "%s" are replaced by the name of the certificate being uploaded.
@@ -2045,6 +2837,7 @@ echo gettext('Name template for the public certificate.
               Leave blank to use default "{{name}}/cert.pem".');
 echo gettext('Name to identify a static server. When creating a server template, then this prefix is used for the server names to be built.');
 echo gettext('Name to identify this Backend Pool.');
+echo gettext('Name to identify this FastCGI application.');
 echo gettext('Name to identify this Health Monitor.');
 echo gettext('Name to identify this Lua script.');
 echo gettext('Name to identify this Public Service.');
@@ -2077,10 +2870,16 @@ echo gettext('Neighbor AS.');
 echo gettext('Nested archives are scanned recursively, e.g. if a Zip archive contains a RAR file, all files within it will also be scanned.');
 echo gettext('Netclient');
 echo gettext('Netmask');
+echo gettext('Netserver');
+echo gettext('Netserver IP Address');
+echo gettext('Netserver Port');
 echo gettext('Network');
+echo gettext('Network / Address');
 echo gettext('Network Address');
 echo gettext('Network ID');
+echo gettext('Network Import-Check');
 echo gettext('Network Interface Statistics');
+echo gettext('Network Interfaces');
 echo gettext('Network List');
 echo gettext('Network Mask');
 echo gettext('Network Name');
@@ -2094,24 +2893,37 @@ echo gettext('Network collector username');
 echo gettext('Network list for fbox anoncall plugin');
 echo gettext('Network on which this ACL is applied.');
 echo gettext('Network on which this ACL is applied. Enter \'any\' to use wildcard adressing.');
+echo gettext('Network port used to send status and event data over the network.');
 echo gettext('Networks');
 echo gettext('Networks to interpret as local');
 echo gettext('Networks to replace VIA-Header');
 echo gettext('New URL Pattern');
 echo gettext('New action');
 echo gettext('Next-Hop-Self');
+echo gettext('Next-Hop-Self All');
 echo gettext('Nickname');
 echo gettext('Njalla');
 echo gettext('No Delay (HTTP Only)');
 echo gettext('No Hostname');
+echo gettext('No Response Fail');
+echo gettext('No Strip');
+echo gettext('No numbers or spaces are allowed. Only characters in a-zA-Z');
+echo gettext('Nologon Mode');
+echo gettext('Normally disable unless you share an UPS using an APC ShareUPS card.');
+echo gettext('Normally standalone unless you share an UPS using an APC ShareUPS card.');
+echo gettext('Normally, when an incoming User-Name is matched against the realm, the realm name is "stripped" off, and the "stripped" user name is used to perform matches.');
 echo gettext('Not on');
+echo gettext('Note that specifying a Zone ID will limit this configuration to a single domain.');
 echo gettext('Note that this is the account token not the user token.');
+echo gettext('Num answers to alive');
 echo gettext('Number');
 echo gettext('Number Of Processes');
+echo gettext('Number of Hosts to cache');
 echo gettext('Number of Servers');
 echo gettext('Number of files to be scanned within an archive, a document, or any other container file.');
 echo gettext('Number of first-level subdirectories');
 echo gettext('Number of logs to keep.');
+echo gettext('Number of ping packets to send per interval. Corresponds to the "-c" option of the ping command.');
 echo gettext('Number of pre-forked instances of HTTP pollers.');
 echo gettext('Number of pre-forked instances of ICMP pingers.');
 echo gettext('Number of pre-forked instances of IPMI pollers.');
@@ -2121,9 +2933,12 @@ echo gettext('Number of pre-forked instances of pollers for unreachable hosts (i
 echo gettext('Number of pre-forked instances of pollers.');
 echo gettext('Number of pre-forked instances of trappers. Trappers accept incoming connections from Zabbix sender and active agents.');
 echo gettext('Number of pre-forked instances of zabbix_agentd that process passive checks. If set to 0, disables passive checks and the agent will not listen on any TCP port.');
+echo gettext('Number of queries per thread');
 echo gettext('Number of second-level subdirectories');
 echo gettext('Number of seconds that the control connection can be idle, before the proxy will disconnect. The maximum is 86400 seconds, which is also the default. Do not set this too low, because the control connection is usually idle when large data transfers are taking place.');
 echo gettext('Number of threads to create for each HAProxy process.');
+echo gettext('Numeric');
+echo gettext('Numeric identifier by which authentication rounds are sorted.');
 echo gettext('Nut Account Settings');
 echo gettext('OAuth Token');
 echo gettext('OCSP Must Staple');
@@ -2135,11 +2950,14 @@ echo gettext('OPNSense Server Port');
 echo gettext('OPNsense Web Service');
 echo gettext('OVH');
 echo gettext('Obsolete hold time');
+echo gettext('Offer extended data to the login template before authentication  (mac addresses for upstream use).');
 echo gettext('Omit Hostname');
+echo gettext('On Timeout');
 echo gettext('On system boot wait before Monit starts checking services.');
-echo gettext('One of the neighbor IPs');
+echo gettext('OnBattery Event Delay');
 echo gettext('Onion Service');
 echo gettext('Only Scan Attachments');
+echo gettext('Only VLAN capable interfaces will be shown.');
 echo gettext('Only allow a single request to call the backend on the same URL at a single time.');
 echo gettext('Only if the object is bigger than size then the percentage of data which defined by SendPercentData sent by the c-icap server before receiving the complete body of request.');
 echo gettext('Only request a new version, if the content has changed since the last cache update.');
@@ -2149,16 +2967,20 @@ echo gettext('Only use DNS server without user request logging.');
 echo gettext('Only use in a double nat scenario where SIP don\'t know your external public address. Format is CSV without spaces and CIDR, like 192.168.0.0/24,10.0.0.0/8.');
 echo gettext('Only use this setting if you know what you are doing. If not, expect your machine to get compromised. Use this setting when you want to run a local PHP application or call an external upstream, if selected, via FastCGI. Example upstreams are PHP-FPM or Rails via FastCGI API.');
 echo gettext('Open ports by the fascist firewall.');
+echo gettext('OpenVPN Target');
 echo gettext('Openphish Map');
 echo gettext('Openphish Premium offers more services, please only activate if you have a current license.');
 echo gettext('Openphish is a service where phishing URLs get collected and asked by rspamd.');
 echo gettext('Operator');
 echo gettext('Option pass-through');
 echo gettext('Optional');
+echo gettext('Optional DNS server address.');
 echo gettext('Optional EAB Credentials');
+echo gettext('Optional HTTP basic authentication details for Elasticsearch.');
 echo gettext('Optional comment field');
 echo gettext('Optional condition');
 echo gettext('Optional e-mail address for this account.');
+echo gettext('Optional source address.');
 echo gettext('Optionally define a (list of) service(s) which are required before monitoring this one, if any of the dependencies are either stopped or unmonitored this service will stop/unmonitor too.');
 echo gettext('Optionally enter a HTTP status code to change the response to. This does not work in combination with a redirection target.');
 echo gettext('Optionally set a fixed port for this instance to listen on. The standard port range starts at 51820.');
@@ -2169,8 +2991,12 @@ echo gettext('Originate all IPv6 traffic from this IP');
 echo gettext('Originate all traffic from this IP');
 echo gettext('Other hold time');
 echo gettext('Outbound interface');
+echo gettext('Outgoing Network Interfaces');
+echo gettext('Outgoing Range');
+echo gettext('Outgoing TCP Buffers');
 echo gettext('Outgoing bytes rate');
 echo gettext('Output Plugins');
+echo gettext('Over time (s)');
 echo gettext('Overall bandwidth throttling (kbps)');
 echo gettext('Override AS number of the originating router with the local AS number. This command is only allowed for eBGP peers.');
 echo gettext('Override default hostname, if empty use system hostname.');
@@ -2182,9 +3008,13 @@ echo gettext('PROXY Protocol');
 echo gettext('PSK');
 echo gettext('PSK Identity');
 echo gettext('PSK based encryption');
+echo gettext('Packet Length');
+echo gettext('Packet size');
 echo gettext('Page Content');
+echo gettext('Parameter');
 echo gettext('Parameter Value');
 echo gettext('Parameters');
+echo gettext('Parent');
 echo gettext('Parent Proxy Settings');
 echo gettext('Parent proxy IP address or hostname.');
 echo gettext('Parent proxy port.');
@@ -2201,10 +3031,12 @@ echo gettext('Password for admin user');
 echo gettext('Password for the bind user.');
 echo gettext('Password to authenticate against the remote server.');
 echo gettext('Password to authenticate against the server.');
+echo gettext('Password to use in authd.pass file.');
 echo gettext('Paste the content of your Lua script here.');
 echo gettext('Paste the content of your error messages here. The message must represent the full HTTP response and include required HTTP headers. It should not exceed the configured buffer size, which generally is 8 or 16 kB.');
 echo gettext('Path');
 echo gettext('Path Contains');
+echo gettext('Path Info');
 echo gettext('Path Matches');
 echo gettext('Path Prefix');
 echo gettext('Path Regex');
@@ -2212,10 +3044,11 @@ echo gettext('Path Suffix');
 echo gettext('Path on the SFTP server to change to after login.
               The path can be absolute or relative to home and must exist.
               Leave blank to not change path after login.');
+echo gettext('Path or address, leave blank for USB');
 echo gettext('Path to the Unifi keystore file in the local filesystem, i.e. /usr/local/share/java/unifi/data/keystore.');
 echo gettext('Pattern matcher');
-echo gettext('Peer 1 (this host)');
-echo gettext('Peer 2 (remote host)');
+echo gettext('Peer 1');
+echo gettext('Peer 2');
 echo gettext('Peer name (FQDN)');
 echo gettext('Peer-IP');
 echo gettext('Peers');
@@ -2247,12 +3080,15 @@ echo gettext('Phishing');
 echo gettext('Phishtank Map URL');
 echo gettext('Ping (IPv4)');
 echo gettext('Ping (IPv6)');
+echo gettext('Ping Count (IPv4)');
+echo gettext('Ping Count (IPv6)');
 echo gettext('Ping Hosts (IPv4)');
 echo gettext('Ping Hosts (IPv6)');
 echo gettext('Ping Hosts using IPv4 and measure the metrics.');
 echo gettext('Ping Hosts using IPv6 and measure the metrics.');
 echo gettext('PingTimeout');
 echo gettext('Pipe');
+echo gettext('Please create the TXT record with subdomain _acme-challenge first, than you can get the ID from the edit page. Up to two RIDs per fulldomain are supported but at least one must be set, e.g. _acme-challenge.domain.net:RID:RID2');
 echo gettext('Please manually install the plugin "os-bind" to enable support for it.');
 echo gettext('Please manually install the plugin "os-google-cloud-sdk" to enable support for Google Cloud DNS.');
 echo gettext('Please select a separator to join the matches. Or means any mach can be true which can be used to configure the same proxy for multiple networks while And means all matches must be true which can be used to assign the proxy in a more detailed way.');
@@ -2261,19 +3097,24 @@ echo gettext('Please specify the internal networks allowed to register here. Lea
 echo gettext('Plesk API URI');
 echo gettext('Plesk XML API');
 echo gettext('Plesk XML URIs often look similar to: https://my-plesk-site.com:8443/enterprise/control/agent.php');
+echo gettext('Policies');
 echo gettext('Policies are processed on a first match basis a lower number means more important.');
 echo gettext('Policy OIDs');
+echo gettext('Policy monitoring and anomaly detection');
 echo gettext('Poll Time');
 echo gettext('Polling Interval');
 echo gettext('Polling interval in seconds.');
+echo gettext('Polltime');
+echo gettext('Pools');
 echo gettext('Porkbun API');
 echo gettext('Port');
+echo gettext('Port 3551 is the default as registered with the IANA.');
 echo gettext('Port number on which the SOCKS server should listen. The default is 9050. You should not change this unless you need the port.');
 echo gettext('Port number on which the transparent DNS server should listen. The default is 9053. You should not change this unless you need the port.');
 echo gettext('Port number on which the transparent proxy server should listen. The default is 9040. You should not change this unless you need the port.');
 echo gettext('Port of DNS server, for usual DNS use 53, if you use DoT set it to 853.');
 echo gettext('Port of Zabbix trapper on Zabbix server. Default is fine for most scenarios.');
-echo gettext('Port of the logging server. Leave empty when sensor and server run on the same system.');
+echo gettext('Port of the logging server.');
 echo gettext('Port of the remote server.');
 echo gettext('Port of the server.');
 echo gettext('Port of the syslog server.');
@@ -2287,10 +3128,13 @@ echo gettext('PostgreSQL check');
 echo gettext('PostgreSQL user');
 echo gettext('PowerDNS');
 echo gettext('Pre-Forked Instances');
+echo gettext('Pre-Shared Key');
 echo gettext('Pre-defined commands for this automation.');
 echo gettext('Prefer IP Family');
 echo gettext('Prefer server ciphers');
 echo gettext('Prefers server ciphers over client ciphers.');
+echo gettext('Prefetch DNS Key Support');
+echo gettext('Prefetch Support');
 echo gettext('Prefix');
 echo gettext('Prefix List');
 echo gettext('Prefix to set before the hostname. If it ends with a dot it creates an own directory.');
@@ -2298,29 +3142,40 @@ echo gettext('Prefix-List In');
 echo gettext('Prefix-List Out');
 echo gettext('Prefix-List for inbound direction');
 echo gettext('Prefix-List for outbound direction');
+echo gettext('Preload');
 echo gettext('Preload on startup');
+echo gettext('Prevent grouping these members in the interfaces menu section');
 echo gettext('Preview Size');
+echo gettext('Primary IP');
 echo gettext('Priority');
+echo gettext('Priority of MX record, e.g. 10');
 echo gettext('Private Domains');
 echo gettext('Private Key');
 echo gettext('Private key');
 echo gettext('Private key for this host in the network (leave empty to generate)');
-echo gettext('Private key of this instance. After saving you will see here your private key, please keep it safe.');
-echo gettext('Process ID');
-echo gettext('Process ID that should bind to a specific CPU set. Any process IDs above nbproc are ignored.');
+echo gettext('Private key of this instance. You can specify your own one, or a key will be generated after saving. Please keep this key safe.');
 echo gettext('Process filter');
+echo gettext('Process vary enabled');
 echo gettext('Processes');
 echo gettext('Processing Timeout');
 echo gettext('Profile');
 echo gettext('Program Timeout');
 echo gettext('Prometheus Collector Exclude');
+echo gettext('Prometheus Enabled');
+echo gettext('Prometheus Exporter');
 echo gettext('Prometheus Listen Port');
+echo gettext('Prometheus Path');
 echo gettext('Prometheus String as Label');
+echo gettext('Promiscuous');
 echo gettext('Promiscuous mode');
+echo gettext('Proposals');
+echo gettext('Proto');
 echo gettext('Protocol');
 echo gettext('Protocol Type');
 echo gettext('Provide a more verbose WAF log for fixing false positives before going live.');
 echo gettext('Provide a service account key in JSON format for your Google Cloud account.');
+echo gettext('Provide an access list name.');
+echo gettext('Provide an address and subnet to use. (e.g 192.168.0.1/24)');
 echo gettext('Provide an optional TCP communication port to use during health checks, i.e. 80 or 443. The server port will used for health checks when no port is specified.');
 echo gettext('Provide either the FQDN for all the servers this template initializes or a service name to discover the available services via DNS SRV records.');
 echo gettext('Provide either the FQDN or the IP address of this server.');
@@ -2328,7 +3183,15 @@ echo gettext('Provide the TCP communication port to use during check, i.e. 80 or
 echo gettext('Provide the TCP or UDP communication port for this server, i.e. 80 or 443. If set, all connections will be sent to this port. If unset, the same port the client connected to will be used.');
 echo gettext('Provider');
 echo gettext('Proxies');
+echo gettext('Proxmox VE node name');
+echo gettext('Proxmox VE realm');
+echo gettext('Proxmox VE server');
+echo gettext('Proxmox VE server port');
+echo gettext('Proxmox VE token key');
+echo gettext('Proxmox VE token name');
+echo gettext('Proxmox VE user');
 echo gettext('Proxy');
+echo gettext('Proxy ARP and other type Virtual IPs cannot be bound to by anything running on the firewall, such as IPsec, OpenVPN, etc. Use a CARP or IP Alias type address for these cases.');
 echo gettext('Proxy Buffer Size (kB)');
 echo gettext('Proxy Buffers: Count');
 echo gettext('Proxy Buffers: Size (kB)');
@@ -2337,16 +3200,18 @@ echo gettext('Proxy Mode');
 echo gettext('Proxy Offline Buffer');
 echo gettext('Proxy Protocol');
 echo gettext('Proxy Read Timeout');
+echo gettext('Proxy Responses (UDP)');
 echo gettext('Proxy Send Timeout');
 echo gettext('Proxy Type');
 echo gettext('Proxy interfaces');
 echo gettext('Proxy port');
 echo gettext('Public Key');
+echo gettext('Public Keys');
 echo gettext('Public key');
 echo gettext('Public key for this host in the network');
 echo gettext('Public key for this host in the network (leave empty to generate)');
 echo gettext('Public key of this instance.');
-echo gettext('Public key of this instance. After saving you will see here your public key.');
+echo gettext('Public key of this instance. You can specify your own one, or a key will be generated after saving.');
 echo gettext('Publish Server Descriptor');
 echo gettext('Puppet Environment');
 echo gettext('Puppet Server FQDN');
@@ -2357,6 +3222,9 @@ echo gettext('Queue');
 echo gettext('Quick');
 echo gettext('Quiet Log');
 echo gettext('RECEIVING = header_checks / DELIVERING = smtp_header_checks');
+echo gettext('RID Mapping');
+echo gettext('RNDC Key');
+echo gettext('RRset Cache Size');
 echo gettext('RTP DSCP');
 echo gettext('RTP input dejitter');
 echo gettext('RTP output dejitter');
@@ -2370,6 +3238,7 @@ echo gettext('Rate Limit');
 echo gettext('Rate Limit Exceptions');
 echo gettext('Rate Limit Replies');
 echo gettext('Rate Unit');
+echo gettext('Re-auth time (s)');
 echo gettext('Read PF values via pfctl.');
 echo gettext('Read metrics about CPU usage.');
 echo gettext('Read metrics about disk IO by device.');
@@ -2380,6 +3249,7 @@ echo gettext('Read metrics about system load and uptime.');
 echo gettext('Read network interface metrics.');
 echo gettext('Real IP Source');
 echo gettext('Realm');
+echo gettext('Rebind protection networks');
 echo gettext('Recipient');
 echo gettext('Recipient Address');
 echo gettext('Recipients');
@@ -2391,6 +3261,8 @@ echo gettext('Reference Cost');
 echo gettext('Referrer');
 echo gettext('Refresh Time');
 echo gettext('Refused hold time');
+echo gettext('Register DHCP Leases');
+echo gettext('Register DHCP Static Mappings');
 echo gettext('Register the specified Lua service. You will most likely need to include/load your Lua code first.');
 echo gettext('Regular Expression');
 echo gettext('Regular expressions are allowed.');
@@ -2401,6 +3273,7 @@ echo gettext('Reject Non-FQDN HELO Hostname');
 echo gettext('Reject Non-FQDN Recipient');
 echo gettext('Reject Non-FQDN Sender');
 echo gettext('Reject Private IPs');
+echo gettext('Reject SSL Handshake');
 echo gettext('Reject Score');
 echo gettext('Reject Unauthenticated Destination');
 echo gettext('Reject Unauthenticated Pipelining');
@@ -2411,18 +3284,24 @@ echo gettext('Reject Unknown Sender Domain');
 echo gettext('Reject Unverified Recipient');
 echo gettext('Reject exiting to private IP space');
 echo gettext('Reject: Do not allow the connection; Accept: Pass the connection');
+echo gettext('Rekey time (s)');
 echo gettext('Relay Interfaces');
+echo gettext('Relay List');
 echo gettext('Relay Port');
 echo gettext('Reload HAProxy service');
 echo gettext('Reminder');
+echo gettext('Remote');
 echo gettext('Remote AS');
 echo gettext('Remote Access Server');
+echo gettext('Remote Identifier');
 echo gettext('Remote Path');
 echo gettext('Remote Port');
 echo gettext('Remote Server');
 echo gettext('Remote address');
+echo gettext('Remote addresses');
 echo gettext('Remote listen addresses');
 echo gettext('Remote ports in VIA-Header');
+echo gettext('Remote tunnel address used for the outer IP header of ESP packets');
 echo gettext('Remove attribute(s)');
 echo gettext('Remove the HTTP header field with the specified name and add a new one with the same name. This is useful when passing security information to the server, where the header must not be manipulated by external users.');
 echo gettext('Remove the HTTP header field with the specified name.');
@@ -2430,7 +3309,9 @@ echo gettext('Remove vendor-attribute(s)');
 echo gettext('Renewal Interval');
 echo gettext('Replaces the response status code. Must be an integer between 100 and 999.');
 echo gettext('Reply-Message');
+echo gettext('Report Only');
 echo gettext('Report cpu usage in percent');
+echo gettext('Reqid');
 echo gettext('Request Buffering');
 echo gettext('Request Modify URL');
 echo gettext('Request URI');
@@ -2440,7 +3321,11 @@ echo gettext('Require NoLog');
 echo gettext('Require the peers certificate to adhere to the policy specified by this oid / these oids.');
 echo gettext('Required Parameters');
 echo gettext('Requires Intrustion detection alerts are stored locally.');
+echo gettext('Requires the whole key file in a format that is compatible with TransIP.');
 echo gettext('Requires the whole key file in a format that is compatible with nsupdate.');
+echo gettext('Reset Expired Record TTL');
+echo gettext('Reset Timed Out Connections');
+echo gettext('Reset timed out connections and connections closed with the non-standard code 444. When the socket is closed, TCP RST is sent to the client, and all memory occupied by this socket is released. This helps avoid keeping an already closed socket with filled buffers in a FIN_WAIT1 state for a long time.');
 echo gettext('Resolve Retries');
 echo gettext('Resolve Timeout');
 echo gettext('Resolver');
@@ -2450,6 +3335,8 @@ echo gettext('Response Buffering');
 echo gettext('Response Code');
 echo gettext('Response Modify URL');
 echo gettext('Response Status Code');
+echo gettext('Response Window');
+echo gettext('Response Window from 5 to 60');
 echo gettext('Restart HAProxy service');
 echo gettext('Restrict match to a specific URL (supports regular expressions if enabled for this rule).');
 echo gettext('Restrict to URL');
@@ -2462,12 +3349,15 @@ echo gettext('Retrieve OCSP data everytime when starting or restarting HAProxy. 
 echo gettext('Retry Number');
 echo gettext('Retry Time');
 echo gettext('Retry Timeout');
+echo gettext('Return NXDOMAIN');
 echo gettext('Return a stale response to the client and update the cache.');
 echo gettext('Reverse DNS resolution for LDAP server IP.');
 echo gettext('Reverse DNS resolution for host IP.');
 echo gettext('Reverse address');
 echo gettext('Reverse port');
 echo gettext('Revision');
+echo gettext('Revive Interval');
+echo gettext('Revive interval from 60 to 3600');
 echo gettext('Rewrite From');
 echo gettext('Rewrite Subject');
 echo gettext('Rewrite To');
@@ -2481,6 +3371,7 @@ echo gettext('Root CA');
 echo gettext('Root Certificate');
 echo gettext('Rotate alert logs at provided interval.');
 echo gettext('Rotate log');
+echo gettext('Round');
 echo gettext('Round Interval');
 echo gettext('Rounds collection interval to \'interval\', e.g. if interval="10s" then always collect on :00, :10, :20, etc.');
 echo gettext('Route Map to set for Redistribution.');
@@ -2492,19 +3383,22 @@ echo gettext('Route-Map In');
 echo gettext('Route-Map Out');
 echo gettext('Route-Map for inbound direction');
 echo gettext('Route-Map for outbound direction');
+echo gettext('Route-map ID between 1 and 65535. Be aware that the sorting will be done under the hood, so when you add an entry between it get\'s to the right position');
 echo gettext('Route-map ID between 10 and 99. Be aware that the sorting will be done under the hood, so when you add an entry between it get\'s to the right position');
 echo gettext('Route-map name to match and set your patterns, it will be enabled via redistribution.');
-echo gettext('Route-map name to match and set your patterns, it will be enabled via the neigbor configuration.');
+echo gettext('Route-map name to match and set your patterns, it will be enabled via the neighbor configuration.');
 echo gettext('Router ID');
 echo gettext('Router ID as IPv4 Address');
 echo gettext('Routes');
 echo gettext('Routing Interface');
 echo gettext('Rule Type');
 echo gettext('Rule configured action');
-echo gettext('Rule priority');
 echo gettext('Rules');
+echo gettext('Rules for WAN type interfaces in groups do not contain the reply-to mechanism upon which Multi-WAN typically relies.');
 echo gettext('Rulesets');
 echo gettext('Run Command');
+echo gettext('Run Interval');
+echo gettext('Run Timeout');
 echo gettext('Run as Root');
 echo gettext('Run as root');
 echo gettext('SDNS Stamp');
@@ -2537,9 +3431,16 @@ echo gettext('SNMP password');
 echo gettext('SNMP port');
 echo gettext('SNMP-Driver');
 echo gettext('SOCKS Port Number');
+echo gettext('SSH Host');
+echo gettext('SSH Port');
+echo gettext('SSH Target');
+echo gettext('SSH server host key, formatted as in \'known_hosts\'.
+              Leave blank to auto accept host key on first connect (not as secure as specifying it).');
+echo gettext('SSH server port. Leave blank to use default "22".');
 echo gettext('SSL');
 echo gettext('SSL Client Certificate');
 echo gettext('SSL Error ID');
+echo gettext('SSL Hello Type');
 echo gettext('SSL Offloading');
 echo gettext('SSL Proxy port');
 echo gettext('SSL SNI');
@@ -2554,6 +3455,8 @@ echo gettext('SSL no bump sites');
 echo gettext('SSL option pass-through');
 echo gettext('SSL preferences');
 echo gettext('SSL/Fingerprint');
+echo gettext('SSL/TLS Target');
+echo gettext('STDERR Logging');
 echo gettext('STUN period');
 echo gettext('STUN port');
 echo gettext('STUN server');
@@ -2576,6 +3479,7 @@ echo gettext('Scheduler type');
 echo gettext('Scheme');
 echo gettext('SchlundTech');
 echo gettext('Score');
+echo gettext('Script');
 echo gettext('Seamless reload');
 echo gettext('Search for matchs in a multipart POST request\'s filenames.');
 echo gettext('Search for matchs in a request\'s GET arguments.');
@@ -2598,6 +3502,7 @@ echo gettext('Secret Key');
 echo gettext('Security Header');
 echo gettext('Security Settings');
 echo gettext('Select Authentication method');
+echo gettext('Select Error Log Level. Log levels are listed in the order of increasing verbosity. Setting a certain log level will cause all messages of the specified and more severe log levels to be logged.');
 echo gettext('Select Error Messages');
 echo gettext('Select HTTP method for health check.');
 echo gettext('Select HTTP version for a HTTP health check.');
@@ -2610,6 +3515,7 @@ echo gettext('Select a credential list to use.');
 echo gettext('Select a custom error page to display instead of the default builtin error pages for security rule violations. Only the page content itself is used. Status code rewriting and redirection is not supported.');
 echo gettext('Select a name for this match.');
 echo gettext('Select a pre-defined system command which should be run.');
+echo gettext('Select a response code for auto-blocking requests (bot user-agent or honeypot location). The default code is 403. 444 is a special response code that closes the connection without a response to the client.');
 echo gettext('Select all accepted TLS ciphers.');
 echo gettext('Select all the interfaces to enable NetFlow on.');
 echo gettext('Select an OpenVPN server to export profiles for.');
@@ -2641,10 +3547,13 @@ echo gettext('Select other routing sources, which should be redistributed to the
 echo gettext('Select some matches you want to use in this rule. This matches are joined using the selected separator.');
 echo gettext('Select the AS-Path List.');
 echo gettext('Select the Community List.');
+echo gettext('Select the FastCGI application that should be used for all servers in this backend.');
 echo gettext('Select the HTTP verbs to cache. GET and HEAD will be always cached.');
 echo gettext('Select the Prefix List.');
 echo gettext('Select the Youtube filter level.');
 echo gettext('Select the applicable protocol');
+echo gettext('Select the associated host override to apply this alias on');
+echo gettext('Select the backend to use.');
 echo gettext('Select the client certificate to use.');
 echo gettext('Select the command that needs to be executed at given time frame.');
 echo gettext('Select the configured AVPairs for this user.');
@@ -2657,18 +3566,22 @@ echo gettext('Select the interfaces you want or you do not want LLDPd send and r
 echo gettext('Select the interfaces, where no OSPF packets should be sent to.');
 echo gettext('Select the interfaces, where no RIP packets should be sent to.');
 echo gettext('Select the interfaces, whose CARP transitions should be monitored.');
+echo gettext('Select the mode in which to run sslh: fork - stable but slow performance | select - new but high performance');
 echo gettext('Select the multi-pattern matcher algorithm to use.');
-echo gettext('Select the network to advertise, you have to set a Null route via System -> Routes');
+echo gettext('Select the protocol to capture, Any to omit this filter.');
 echo gettext('Select the protocol to use.');
 echo gettext('Select the service to use.');
+echo gettext('Select the type of UPS in use. You may also need to specify the UPS device below.');
+echo gettext('Select the type of cable connecting the UPS to the server.');
 echo gettext('Select the type of hash. Possible values are SHA256 or SHA1.');
-echo gettext('Select the type of the key pair. Currently RSA is the only supported type.');
 echo gettext('Select the type of the match. Depending on the match, you will need different arguments.');
+echo gettext('Select the type of traffic to be captured, either Any, IPv4 only or IPv6 only.');
 echo gettext('Select the zone for this record.');
 echo gettext('Select type of health check.');
 echo gettext('Select what to do with URI that contain whitespaces. The current Squid implementation of encode and chop violates RFC2616 by not using a 301 redirect after altering the URL.');
 echo gettext('Select what to do with X-Forwarded-For header. If set to: "on", Squid will append your client\'s IP address in the HTTP requests it forwards. By default it looks like X-Forwarded-For: 192.1.2.3; If set to: "off", it will appear as X-Forwarded-For: unknown; "transparent", Squid will not alter the X-Forwarded-For header in any way; If set to: "delete", Squid will delete the entire X-Forwarded-For header; If set to: "truncate", Squid will remove all existing X-Forwarded-For entries, and place the client IP as the sole entry.');
 echo gettext('Select which kind of DNSBL you want to use.');
+echo gettext('Selfhost');
 echo gettext('Send Client IP');
 echo gettext('Send Data');
 echo gettext('Send Defaultroute');
@@ -2677,8 +3590,11 @@ echo gettext('Send a reminder after some cycles');
 echo gettext('Send aggregate values for CPU metrics in addition to values for individual cores.');
 echo gettext('Send alerts to system log in fast log format. This will not change the alert logging used by the product itself.');
 echo gettext('Send an authentication request to the OPNsense backend for advanced access control.');
+echo gettext('Send cert req');
+echo gettext('Send certificate');
 echo gettext('Send checks compatible with MySQL server 4.1 and later.');
 echo gettext('Send data');
+echo gettext('Send events from the intrusion detection engine to Wazuh (Suricata EVE log)');
 echo gettext('Send log data to the selected target. When syslog is selected, facility local 4 will be used to send messages of info level for these logs.');
 echo gettext('Send log messages to syslog');
 echo gettext('Send package payload to the log for further analyses.');
@@ -2691,6 +3607,8 @@ echo gettext('Sender Whitelist');
 echo gettext('Separate Statistics');
 echo gettext('Sequence');
 echo gettext('Sequence Number');
+echo gettext('Serve Expired Responses');
+echo gettext('Serve Expired Settings');
 echo gettext('Server');
 echo gettext('Server (FQDN)');
 echo gettext('Server Address');
@@ -2725,6 +3643,7 @@ echo gettext('Set Path');
 echo gettext('Set a list of DNS servers for this pool.');
 echo gettext('Set a name for your UPS.');
 echo gettext('Set a name for your outbound domain');
+echo gettext('Set a password for BGP authentication.');
 echo gettext('Set a password if parent proxy requires authentication.');
 echo gettext('Set a pattern to match like user@example.com');
 echo gettext('Set a pattern to match line user@example.com or @example.com');
@@ -2733,12 +3652,14 @@ echo gettext('Set action to perform here, only used when in IPS mode.');
 echo gettext('Set an optional description for this neighbor.');
 echo gettext('Set an optional prefix to the metrics.');
 echo gettext('Set as many NTP peers you need.');
+echo gettext('Set autoblock lifetime in minutes. Set to 0 for infinite.');
 echo gettext('Set database name of remote MySQL server.');
 echo gettext('Set exos policy filter id with Filter-ID="Entrasys:version=1:mgmt=su:policy=[policy_name]"');
 echo gettext('Set exos vlan tagged');
 echo gettext('Set exos vlan untagged');
 echo gettext('Set extra arguments for this UPS, e.g. "community=public".');
 echo gettext('Set extra arguments for this UPS, e.g. "port=auto".');
+echo gettext('Set fallback peer if you use NTS and your system starts with wrong time. Best to only use this for internal trusted peers.');
 echo gettext('Set here how to rewrite the Rewrite From pattern.');
 echo gettext('Set here the recipient address to send the mail as BCC.');
 echo gettext('Set how many replies per second are allowed.');
@@ -2749,7 +3670,7 @@ echo gettext('Set node_exporter\'s listen address. By default, node_exporter wil
 echo gettext('Set node_exporter\'s listen port. By default, node_exporter will listen on port 9100.');
 echo gettext('Set one or more hosts to send your DNS queries if the request is unknown.');
 echo gettext('Set permit for match or deny to negate the rule.');
-echo gettext('Set persistent keepalive interval.');
+echo gettext('Set persistent keepalive interval in seconds.');
 echo gettext('Set port the endpoint listens to.');
 echo gettext('Set public IP address the endpoint listens to.');
 echo gettext('Set target name to what to resolve.');
@@ -2765,9 +3686,8 @@ echo gettext('Set the DNS server hosting this file. This should usually be the F
 echo gettext('Set the Elliptical cryptography configuration.');
 echo gettext('Set the Hosts to ping using IPv4 in a CSV list.');
 echo gettext('Set the Hosts to ping using IPv6 in a CSV list.');
-echo gettext('Set the IP address and port combinations this service should listen on, e.g 127.0.0.1:5353 and/or [::1]:5353');
 echo gettext('Set the IP address for this static lease.');
-echo gettext('Set the IP address of master server when using slave mode.');
+echo gettext('Set the IP address of primary server.');
 echo gettext('Set the IP address of remote MySQL server.');
 echo gettext('Set the IP address of the graphite collector.');
 echo gettext('Set the IP address of the remote NUT server.');
@@ -2776,6 +3696,7 @@ echo gettext('Set the IP address or FQDN of the network collector.');
 echo gettext('Set the IP address or FQDN where all outgoing mails are sent to.');
 echo gettext('Set the IP address the user should receive.');
 echo gettext('Set the IP address to listen on.');
+echo gettext('Set the IP address/port combinations this service should listen on.');
 echo gettext('Set the IP addresses the service should listen to.');
 echo gettext('Set the IP addresses to forward the domain.');
 echo gettext('Set the IP addresses to listen to.');
@@ -2802,7 +3723,8 @@ echo gettext('Set the address the daemon is listening to. Empty means listen to 
 echo gettext('Set the addresses this service listen on.');
 echo gettext('Set the amount how big a logfile can growth.');
 echo gettext('Set the arguments for this check commands.');
-echo gettext('Set the authentication algorithm for the TSIG key.');
+echo gettext('Set the authentication algorithm for the RNDC key. This requires a restart of the Bind Service.');
+echo gettext('Set the authentication algorithm for the TSIG key used to transfer domain data from the primary server.');
 echo gettext('Set the cache size.');
 echo gettext('Set the certificate to use for HTTPS connections.');
 echo gettext('Set the community string to use.');
@@ -2824,11 +3746,13 @@ echo gettext('Set the hostname or IP of the SIP server.');
 echo gettext('Set the hostname or ip of the remote apcupsd server.');
 echo gettext('Set the hostname which will indicate this system at the central munin platform.');
 echo gettext('Set the index name.');
-echo gettext('Set the instance number needed for interface calculation. It has to be unique for each instance.');
 echo gettext('Set the interface MTU for this interface. Leaving empty uses the MTU from main interface which is fine for most setups.');
 echo gettext('Set the interface specific DNS server.');
 echo gettext('Set the interface to listen on.');
+echo gettext('Set the ip address.');
+echo gettext('Set the ip v6 address.');
 echo gettext('Set the list of allowed hosts which can query this system.');
+echo gettext('Set the local IP connecting to the neighbor. This is only required for BGP authentication.');
 echo gettext('Set the mail address of zone admin. A @-sign will automatically be replaced with a dot in the zone data.');
 echo gettext('Set the max size for messages to accept, default is 51200000 Bytes which is 50MB. Values must be entered in Bytes.');
 echo gettext('Set the maximum allowed time to wait for a complete HTTP request. In order to offer DoS protection, it may be required to lower the maximum accepted time to receive a complete HTTP request without affecting the client timeout. This helps protecting against established connections on which nothing is sent. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
@@ -2860,6 +3784,9 @@ echo gettext('Set the name for this instance.');
 echo gettext('Set the name for this record.');
 echo gettext('Set the name for this signatures.');
 echo gettext('Set the name for this zone. Both forward and reverse zones may be specified, i.e. example.com or 0.168.192.in-addr.arpa.');
+echo gettext('Set the name of Home Server Pool');
+echo gettext('Set the name of Home Server.');
+echo gettext('Set the name of Realm');
 echo gettext('Set the name of the bucket in Influx v2.');
 echo gettext('Set the name of the database on InfluxDB.');
 echo gettext('Set the name of the graphite collector.');
@@ -2873,7 +3800,8 @@ echo gettext('Set the number of retries to perform on a server after a connectio
 echo gettext('Set the number of retries to perform on a server after a connection failure.');
 echo gettext('Set the number of rows to be displayed in rspamd UI.');
 echo gettext('Set the number of worker processes to run.');
-echo gettext('Set the number of your Community-List. 1-99 are stardard lists while 100-500 are expanded lists.');
+echo gettext('Set the number of your Community-List. 1-99 are standard lists while 100-500 are expanded lists.');
+echo gettext('Set the packet layers to hash for aggregation protocols which load balance.');
 echo gettext('Set the password for admin user "admin".');
 echo gettext('Set the password for authentication.');
 echo gettext('Set the password for monitoring user "monuser".');
@@ -2882,6 +3810,7 @@ echo gettext('Set the password for the user. Minimum is 8 characters.');
 echo gettext('Set the password of remote MySQL server.');
 echo gettext('Set the password of the remote NUT server.');
 echo gettext('Set the password to authenticate against network collector (optional).');
+echo gettext('Set the port');
 echo gettext('Set the port chrony listen to.');
 echo gettext('Set the port for this host. Default should be fine for most cases.');
 echo gettext('Set the port munin listen to.');
@@ -2891,12 +3820,15 @@ echo gettext('Set the port of the network collector. Collectd is using 25826 per
 echo gettext('Set the port of the remote apcupsd server (optional).');
 echo gettext('Set the port the daemon is listening to.');
 echo gettext('Set the port the service should listen to.');
+echo gettext('Set the port to connect');
 echo gettext('Set the port to listen to.');
+echo gettext('Set the protocol');
 echo gettext('Set the protocol to use.');
 echo gettext('Set the recipient address to match.');
 echo gettext('Set the running mode or protocol for this Public Service.');
 echo gettext('Set the running mode or protocol of the Backend Pool. Usually the Public Service and the Backend Pool are in the same mode.');
 echo gettext('Set the same mode for backend and frontend.');
+echo gettext('Set the secret');
 echo gettext('Set the sender address to match.');
 echo gettext('Set the service mode. Currently only standalone and netclient are available.');
 echo gettext('Set the shared secret for the client. Must match on both sides.');
@@ -2908,7 +3840,7 @@ echo gettext('Set the time in seconds after which name servers should refresh th
 echo gettext('Set the time in seconds after which name servers should retry requests if the master does not respond.');
 echo gettext('Set the time in seconds after which name servers should stop answering requests if the master does not respond.');
 echo gettext('Set the type for this record.');
-echo gettext('Set the type for this zone.');
+echo gettext('Set the type of pool');
 echo gettext('Set the unique domain name to relay for.');
 echo gettext('Set the unique username for the user.');
 echo gettext('Set the unique username for the user. Allowed characters are 0-9, a-z, A-Z, and ._-');
@@ -2924,8 +3856,11 @@ echo gettext('Set the value at which an e-mail is rejected. The value has to be 
 echo gettext('Set the value for this AVPair.');
 echo gettext('Set the value for this record.');
 echo gettext('Set the value of the defined key.');
+echo gettext('Set the virtual server address.');
 echo gettext('Set this option to disable this static route without removing it from the list.');
 echo gettext('Set this option to enable this destination.');
+echo gettext('Set type of address');
+echo gettext('Set type of auth.');
 echo gettext('Set where to log radius requests, defaults to file.');
 echo gettext('Sets an additional read timeout for running health checks on a server. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
 echo gettext('Sets auth-nocache in the exported configuration when password authentication is used. This prevents OpenVPN from caching passwords in memory.');
@@ -2940,8 +3875,9 @@ echo gettext('Sets the operation mode to use for this server.');
 echo gettext('Sets the source address which will be used when connecting to the server(s).');
 echo gettext('Sets the source address which will be used when connecting to the server.');
 echo gettext('Severity');
+echo gettext('Shards');
 echo gettext('Shared Secret');
-echo gettext('Shared secret (PSK) for this peer.');
+echo gettext('Shared secret (PSK) for this peer. You can generate a key using "wg genpsk" on a client with WireGuard installed.');
 echo gettext('Short description (to display)');
 echo gettext('Short description of this client');
 echo gettext('Short description of this rule');
@@ -2949,10 +3885,14 @@ echo gettext('Short description to identify this TLS-config');
 echo gettext('Short description to identify this realm and its target');
 echo gettext('Short description to identify this server');
 echo gettext('Should be located in Tayga\'s IPv4 pool. Tayga requires its own IPv4 address because it acts as a router and needs to be able to send ICMP messages. Tayga will also respond to ICMPv4 echo requests at this address.');
+echo gettext('Should point to a "home_server_pool" that was defined.');
 echo gettext('Show Directory Frontpage');
+echo gettext('Show Remote Text');
 echo gettext('Show introduction pages');
+echo gettext('Shows the text given by the server when connecting to the port. Will take 10+ seconds to display if checked.');
 echo gettext('Sign Local');
 echo gettext('Signature Id');
+echo gettext('Simply.com');
 echo gettext('Simultaneous-Use');
 echo gettext('Siproxd will masquerade the interal UAs to this given string (optional).');
 echo gettext('Size');
@@ -2966,8 +3906,6 @@ echo gettext('Size of the ring buffer (in MB) to memory-map into the sensor proc
 echo gettext('Skip Authenticated');
 echo gettext('Skip Local');
 echo gettext('Skip Multi');
-echo gettext('Slave Zone');
-echo gettext('Sleep Time');
 echo gettext('Slow Transactions');
 echo gettext('Smart Host');
 echo gettext('Source');
@@ -2975,19 +3913,27 @@ echo gettext('Source / Invert');
 echo gettext('Source Address');
 echo gettext('Source DTLS');
 echo gettext('Source IP');
+echo gettext('Source IP Address');
 echo gettext('Source IP address for outgoing connections.');
 echo gettext('Source IPs and Ports');
 echo gettext('Source Item Key');
+echo gettext('Source Port');
 echo gettext('Source TCP');
 echo gettext('Source TLS');
 echo gettext('Source UDP');
 echo gettext('Source address');
+echo gettext('Source network');
 echo gettext('Source port');
 echo gettext('Source port number or well known name (imap, imaps, http, https, ...), for ranges use a dash');
+echo gettext('Source port.');
 echo gettext('Spam Protection');
 echo gettext('Spam Trap');
 echo gettext('Specifies a URI which will be intercepted to return HAProxy\'s health status instead of forwarding the request. When a HTTP request is received, HAProxy will return either "HTTP/1.0 200 OK" or "HTTP/1.0 503 Service unavailable", depending on the fined failure conditions.');
+echo gettext('Specifies a list of client addresses for which AAAA filtering is to be applied.');
+echo gettext('Specifies a time window during which connection closing will be spread during a soft-stop operation. Idle connections will all be closed at once if this option is not set, which may cause reconnecting clients to rush against the process. For best results, it should set lower than the "Graceful stop timout" option. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
 echo gettext('Specifies how long we wait for agent, SNMP device or external check (in seconds).');
+echo gettext('Specifies the IP address or the hostname of the Wazuh manager.');
+echo gettext('Specifies the base of the advertisement interval in seconds. The acceptable values are 1 to 255.');
 echo gettext('Specifies the days to renew the cert. The max value is 60 days.');
 echo gettext('Specifies the debug level for Zabbix agent.');
 echo gettext('Specifies the log level for acme.sh, default is "normal". All other log levels add information for debug purposes, but be aware that this will break the log formatting in the GUI.  Levels "debug 2" and "debug 3" log successively deeper log messages from the acme.sh including messages from DNS-01 DNSAPI scripts.');
@@ -3002,6 +3948,8 @@ echo gettext('Specify HTTP request URI for health check.');
 echo gettext('Specify a HAProxy condition/ACL that is currently not supported by the GUI.');
 echo gettext('Specify a HAProxy rule/ACL that is currently not supported by the GUI.');
 echo gettext('Specify a curve(s) for ECDHE ciphers. NGINX default (empty field): auto.');
+echo gettext('Specify a default weight value for the neighbor’s routes.');
+echo gettext('Specify a value to match with the expression.');
 echo gettext('Specify an optional maximum line length in characters. Log lines larger than this value will be truncated before being sent. The reason is that syslog servers act differently on log line length. All servers support the default value of 1024 characters, but some servers simply drop larger lines while others do log them.');
 echo gettext('Specify enabled ciphers in the TLS library cipher string format. Example: ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256. NGINX default (empty field): HIGH:!aNULL:!MD5.');
 echo gettext('Specify how many seconds the CA and CRL information should be cached. By default, the CA and CRL are loaded at startup and cached indefinetely. This option may be set to zero to disable caching.');
@@ -3018,13 +3966,15 @@ echo gettext('Specify the TCP port used for agent checks.');
 echo gettext('Specify the URL for your PowerDNS server, i.e. http://ns.example.com:8081.');
 echo gettext('Specify the URL parameter to be checked for the value specified below.');
 echo gettext('Specify the acmeproxy endpoint URL, i.e. https://acmeproxy.example.com/');
-echo gettext('Specify the custom ACME DNS Update URL, i.e. https://auth.acme-dns.io/update (optional)');
+echo gettext('Specify the custom ACME DNS URL, i.e. https://auth.acme-dns.io:443 (optional)');
 echo gettext('Specify the domain key length: 2048, 3072, 4096, 8192 or ec-256, ec-384.');
 echo gettext('Specify the domain name to present to the server for ESMTP health checks.');
 echo gettext('Specify the domain name to present to the server for SMTP health checks.');
 echo gettext('Specify the filename scheme for this Lua script. Usually using the ID is sufficient and the most fail-safe apparoach. However, when using Lua\'s "require" function this apparoach will not work and it becomes necessary to use the specified name as filename. In this case all non-alphanumeric characters are removed from the filename. Note that this may cause issues when creating multiple Lua scripts with the same name.');
 echo gettext('Specify the location of the generated TSIG Key inside the TSIG file using grep and cut, example: grep \# /etc/knot/acme.key | cut -d\' \' -f2');
 echo gettext('Specify the maximum length for a value in the stick-table. If the value is larger than this value it will be truncated before being stored. Depending on the stick-table type this repesents either characters or bytes.');
+echo gettext('Specify the name of a request header which will be passed to the FastCGI application. Most request headers are already available to the FastCGI application, prefixed with "HTTP_". Thus, this directive is only required to pass headers that are purposefully omitted. Currently, the headers "Authorization", "Proxy-Authorization" and hop-by-hop headers are omitted.');
+echo gettext('Specify the number of data bytes to be sent. Keep in mind this is the payload size, an IP and ICMP header are added.');
 echo gettext('Specify the pattern to look for in the response buffer. If the match is set to binary, then the pattern must be passed as a serie of hexadecimal digits in an even number.');
 echo gettext('Specify the resolver that the server template should look at to discover available services via DNS.');
 echo gettext('Specify the scheduling algorithm to use');
@@ -3043,8 +3993,11 @@ echo gettext('Start Pingers');
 echo gettext('Start Pollers');
 echo gettext('Start Pollers Unreachable');
 echo gettext('Start Port');
+echo gettext('Start TLS');
+echo gettext('Start Timeout');
 echo gettext('Start Trappers');
 echo gettext('Start VMware Collectors');
+echo gettext('Start action');
 echo gettext('Start send percentage data');
 echo gettext('Start servers');
 echo gettext('Start stunnel in it a chroot, although this is a more secure option there are small points of attention before
@@ -3057,7 +4010,7 @@ echo gettext('State Notification');
 echo gettext('Static Server');
 echo gettext('Statistics');
 echo gettext('Stats Allowed IP');
-echo gettext('Stats enabled');
+echo gettext('Status Check');
 echo gettext('Status Codes');
 echo gettext('Status-Server');
 echo gettext('Stick-table persistence');
@@ -3065,15 +4018,15 @@ echo gettext('Stickiness table');
 echo gettext('Sticky Address');
 echo gettext('Sticky counter key');
 echo gettext('Stop');
-echo gettext('Stop rule processing (break) and perform (internal) redirect (last). Return a moved permanently status code (301) or a teporary redirect (302).');
+echo gettext('Stop rule processing (break) or perform (internal) redirect (last). Return a moved permanently status code (301) or a temporary redirect (302).');
 echo gettext('Store');
 echo gettext('Store OCSP responses');
 echo gettext('Store the response on the local storage.');
 echo gettext('Stored data types');
-echo gettext('Strict Transport Security: Include Subdomains');
-echo gettext('Strict Transport Security: Time');
+echo gettext('Strict QNAME Minimisation');
 echo gettext('String to set after the hostname. For compatibility reason default is collectd, but you can also simply remove it.');
 echo gettext('Strip quotes');
+echo gettext('Stylesheet');
 echo gettext('Sub Auth ID');
 echo gettext('Subdir matches');
 echo gettext('Subdomain');
@@ -3094,11 +4047,13 @@ echo gettext('Syslog Server');
 echo gettext('Syslog facility');
 echo gettext('Syslog is a service which is made to collect log messages from different software and maybe to a central logging server. Check this box if you have such a setup.');
 echo gettext('Syslog level');
+echo gettext('Syslog verbosity');
 echo gettext('System');
 echo gettext('System Command');
 echo gettext('System Domain');
 echo gettext('System Hostname');
 echo gettext('System Origin');
+echo gettext('System inventory');
 echo gettext('TCP Listen Port');
 echo gettext('TCP Port');
 echo gettext('TCP connect timeout');
@@ -3129,10 +4084,15 @@ echo gettext('TLS: Trusted Certificate');
 echo gettext('TLS: Verify Certificate');
 echo gettext('TLS: Verify Depth');
 echo gettext('TTL');
+echo gettext('TTL for Expired Responses');
+echo gettext('TTL for Host Cache entries');
+echo gettext('TXT Comment Support');
 echo gettext('Table');
 echo gettext('Table Check');
 echo gettext('Table type');
 echo gettext('Tag');
+echo gettext('Tag Queries and Replies');
+echo gettext('Tag for matched packets');
 echo gettext('Target');
 echo gettext('Target Host');
 echo gettext('Target Port');
@@ -3147,8 +4107,10 @@ echo gettext('The \'System Domain\' parameter specifies the local internet domai
 echo gettext('The \'System Hostname\' parameter specifies the internet hostname of this mail system. The default is to use the fully-qualified domain name from gethostname(). It is used as a default value for many other configuration parameters.');
 echo gettext('The \'System Origin\' parameter specifies the domain that locally-posted mail appears to come from. The default is to append \'System Hostname\', which is fine for small sites.');
 echo gettext('The \'Trusted Networks\' parameter specifies the list of trusted SMTP clients. In particular, trusted SMTP clients are allowed to relay mail through Postfix. Please use CIDR notation like 192.168.0.0/24 separated by spaces. IPv6 addresses have to be in square brackets like [::1]/128.');
-echo gettext('The ACL rule number (10-99); keep in mind that there are no sequence numbers with AS-Path lists. When you want to add a new line between you have to completely remove the ACL!');
+echo gettext('The ACL rule number (0-4294967294); keep in mind that there are no sequence numbers with AS-Path lists. When you want to add a new line between you have to completely remove the ACL!');
+echo gettext('The ACL sequence number (1-4294967294)');
 echo gettext('The ACL sequence number (10-99)');
+echo gettext('The API token. Required.');
 echo gettext('The AS pattern you want to match, regexp allowed (e.g. .$ or _1$). It\'s not validated so please be careful!');
 echo gettext('The Administrator of this server. Used when displaying information about this server.');
 echo gettext('The CA certificate file used to verify the peers certificate.');
@@ -3170,41 +4132,52 @@ echo gettext('The PID file of the process.');
 echo gettext('The PSK configured on the Zabbix server');
 echo gettext('The PSK identity configured must match on agent and server');
 echo gettext('The PSK identity configured on the Zabbix server');
+echo gettext('The Packet length is the number of bytes of each packet that will be captured. Default value is 0, which will capture the entire frame regardless of its size.');
 echo gettext('The Processes plugin collects the number of processes, grouped by their state (e. g. running, sleeping, zombies, etc.).');
 echo gettext('The SSL fingerprint, for example "B5:E1:B3:70:5E:7C:FF:EB:92:C4:29:E5:5B:AC:2F:AE:70:17:E9:9E".');
 echo gettext('The Swap plugin collects swap space utilization (used and free).');
 echo gettext('The TCP port that should be used for connections to this peer. It must not be used by any other service.');
-echo gettext('The TSIG key used to transfer domain data from the master server.');
+echo gettext('The TCP/UDP port used for responding to DNS queries.');
+echo gettext('The TSIG key used to transfer domain data from the master server in Base64 encoding.');
 echo gettext('The Target host. Be careful when using localhost as some services may bypass ACLs when connecting from "127.0.0.1" or "::1".');
 echo gettext('The UDP port of the log server. Leave blank if you run server and sensor on the same machine. The default when in use should be set to 8337.');
 echo gettext('The URL pattern to match.');
 echo gettext('The Uptime plugin keeps track of the system uptime, providing informations such as the average running time or the maximum reached uptime over a certain period of time.');
 echo gettext('The Users plugin counts the number of users currently logged into the system (SSH).');
 echo gettext('The application protocol to negotiate TLS.');
+echo gettext('The authentication realm the user authenticates with. Defaults to pam.');
 echo gettext('The average bytes rate from the incoming connection\'s source address.');
 echo gettext('The average bytes rate to the incoming connection\'s source address.');
 echo gettext('The average connection rate from the incoming connection\'s source address.');
 echo gettext('The average rate of HTTP errors from the incoming connection\'s source address.');
 echo gettext('The average rate of HTTP requests from the incoming connection\'s source address.');
+echo gettext('The base64-encoded RNDC key. This requires a restart of the Bind Service.');
 echo gettext('The carp VHID to depend on, when this virtual address is not in master state,
       the interface cost will be set to the demoted cost (specified above).');
 echo gettext('The client\'s IP or net');
+echo gettext('The command to execute on the SSH server.');
 echo gettext('The commands here will be disabled and cannot be used anymore.');
 echo gettext('The community you want to match. You can also regex and it is not validated so please be careful.');
+echo gettext('The condition which determines when users are prevented from logging in during a power failure.');
 echo gettext('The cumulative number of HTTP errors from the incoming connection\'s source address.');
 echo gettext('The cumulative number of HTTP requests from the incoming connection\'s source address.');
 echo gettext('The cumulative number of connections initiated from the current incoming connection\'s source address.');
 echo gettext('The cumulative number of connections initiated from the incoming connection\'s source address.');
 echo gettext('The current amount of concurrent connections initiated from the current incoming connection\'s source address.');
+echo gettext('The default domain name to use for DHCP lease registration. If empty, the system domain is used.');
 echo gettext('The detection engine builds internal groups of signatures. The engine allow us to specify the profile to use for them, to manage memory on an efficient way keeping a good performance.');
 echo gettext('The email address to send alerts to.');
+echo gettext('The environment in which Puppet is running.');
 echo gettext('The external FQDN of this host.');
 echo gettext('The hard size limit of all queues managed by this instance, leave empty for defaults');
 echo gettext('The header which should be used to send the username to the ICAP server.');
+echo gettext('The home servers.');
 echo gettext('The host name sent in the SNI TLS extension to the server.');
 echo gettext('The host name sent in the SNI TLS extension to the server. Overrides the server\'s SNI setting for health checks.');
 echo gettext('The hostname for the selected machine in the network');
 echo gettext('The hostname for this machine in the network');
+echo gettext('The hostname of the proxmox ve node.');
+echo gettext('The idle timeout, in seconds, of a TCP connection. Setting this to 0 means "no timeout".');
 echo gettext('The initial number of server processes. Each server process generates a number of threads, which serve the requests.');
 echo gettext('The ipstats plugin lists multiple interface stats.');
 echo gettext('The length of the period over which the average is measured. It reports the average HTTP request error rate over that period, in requests per period. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
@@ -3213,11 +4186,13 @@ echo gettext('The length of the period over which the average is measured. It re
 echo gettext('The length of the period over which the average is measured. It reports the average incoming connection rate over that period, in connections per period. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
 echo gettext('The length of the period over which the average is measured. It reports the average incoming session rate over that period, in sessions per period. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
 echo gettext('The length of the period over which the average is measured. It reports the average outgoing bytes rate over that period, in bytes per period. Defaults to milliseconds. Optionally the unit may be specified as either "d", "h", "m", "s", "ms" or "us".');
+echo gettext('The lifetime, in seconds, of a TCP connection. Setting this to 0 means "forever".');
 echo gettext('The limit of the length of data to hash.');
 echo gettext('The listen address of the local peer or the address of the remote peer.');
 echo gettext('The listen port of the Monit httpd service.');
 echo gettext('The local port of the daemon, default is fine.');
 echo gettext('The maximum allowed number of server processes.');
+echo gettext('The maximum amount of time an agent run is allowed to take. Enter a number followed by one of the supported suffixes: "y" (years), "d" (days), "h" (hours), "m" (minutes), "s" (seconds).');
 echo gettext('The maximum number of characters that will be stored in the stick table (if appropiate table type is selected).');
 echo gettext('The maximum number of requests can be served by one connection');
 echo gettext('The maximum number of requests that a child process can serve. After this number has been reached, process dies.');
@@ -3225,9 +4200,11 @@ echo gettext('The maximum size of files which will be scanned by antivirus servi
 echo gettext('The maximum temporary file size limit. This does not apply to cached requests and responses.');
 echo gettext('The maximum time in seconds to wait for an automation to complete. When the timeout is reached the command is forcefully aborted. Defaults to 600 seconds.');
 echo gettext('The maximum time in seconds waiting for a new request before a connection will be closed.');
+echo gettext('The name of the API token created for the user account. Defaults to acme.');
 echo gettext('The name of the HTTP Header.');
 echo gettext('The name of the HTTP header field.');
-echo gettext('The name of the peer. This is usually the full hostname to make it possible for HAProxy to recognize the local peer. If HAProxy is unable to find the local peer it will fail to start.');
+echo gettext('The name of the TSIG key, which must match the value on the primary server.');
+echo gettext('The name of the node we will be connecting to.');
 echo gettext('The name of the service.');
 echo gettext('The name of the test.');
 echo gettext('The name of the variable starts with an indication about its scope.');
@@ -3253,8 +4230,11 @@ echo gettext('The password for mail server authentication.');
 echo gettext('The password name for this connection. Be aware that it will stored in cleartext on this device.');
 echo gettext('The password to use for SMTP authentication.');
 echo gettext('The path to the eventqueue directory.');
+echo gettext('The path where the Prometheus exporter can be accessed.');
 echo gettext('The percentage of data that can be sent by the c-icap server before receiving the complete body of a request. This feature in conjuction with the folowing can be useful because if the download of the object takes a lot of time the connection of web client to proxy can be expired.');
 echo gettext('The port (UDP/TCP) to connect to. If omitted, UDP and TCP will default to 1812 while TLS and DTLS will default to 2083.');
+echo gettext('The port can be either the source or destination port. The packet capture will look for this port in either field.');
+echo gettext('The port number the management interface is on. Defaults to 8006.');
 echo gettext('The port number where Squid listens for SNMP requests. To enable SNMP support set this to a suitable port number. Port number 3401 is often used for the Squid SNMP agent.');
 echo gettext('The port number where Squid sends and receives ICP queries to and from neighbor caches. Leave blank to disable (default). The standard UDP port for ICP is 3130.');
 echo gettext('The port number which is exposed in the Tor network.');
@@ -3263,7 +4243,9 @@ echo gettext('The port on which connections will be accepted.');
 echo gettext('The port the proxy service will listen to.');
 echo gettext('The port the ssl proxy service will listen to.');
 echo gettext('The port to forward traffic to.');
+echo gettext('The primary Puppet Server to which the Puppet Agent should connect.');
 echo gettext('The prompt will be displayed in the authentication request window.');
+echo gettext('The protocol to use, please refer to the documentation for a detailed explanation of the various types available');
 echo gettext('The proxy will use this as the source address for the control connection to a server.');
 echo gettext('The relay will use this as the source address for packets leaving the interface. The special values of "1.1.1.1" and "1.1.1.2" mean for the relayed packet to use the outgoing interface\'s address as the source IP address. "1.1.1.1" also means use the original packet\'s destination port as the new source port for the relayed packet. "1.1.1.2" means keep the source port unaltered from the original. Chromecast users should use 1.1.1.1.');
 echo gettext('The server certificate this proxy will use. The file may also contain a certificate chain.');
@@ -3277,7 +4259,7 @@ echo gettext('The start script of the service.');
 echo gettext('The state file of the Monit process.');
 echo gettext('The stop script of the service.');
 echo gettext('The symmetric cipher algorithm used to encrypt UDP packets.
-             Any cipher supported by LibreSSL or OpenSSL is recognised.
+             Any cipher supported by OpenSSL is recognised.
              Furthermore, specifying "none" will turn off packet encryption.
              It is best to use only those ciphers which support CBC mode
       ');
@@ -3285,18 +4267,22 @@ echo gettext('The target IP address for \'Remote Host\' and \'Network\' checks.'
 echo gettext('The tcpconns plugin lists a summary of all tcp connections.');
 echo gettext('The time in seconds after which a connection without activity can be cancelled.');
 echo gettext('The time in seconds how fast a neighbor tries to reconnect.');
-echo gettext('The time in seconds to wait for all the TXT records to take effect after adding them to the DNS API. Defaults to 120 seconds.');
+echo gettext('The time in seconds to wait for all the TXT records to take effect after adding them to the DNS API. Defaults to 0 seconds, which causes Acme Client to check public DNS services every 10 seconds for up to 20 minutes. If set to a non-zero value, a fixed DNS sleep time will be used and the local DNS servers will be queried instead. A DNS sleep time of 120 seconds or more is recommended for some DNS APIs.');
 echo gettext('The time in seconds when a neighbor is considered dead. This is usually 3 times the keeplive timer and when unset 180 seconds.');
 echo gettext('The timeout for custom program checks.');
+echo gettext('The timeout for custom program to start a service.');
 echo gettext('The token needs "Read" access to Zone.Zone and "Edit" access to Zone.DNS across all zones from an account.');
 echo gettext('The total amount of data received from the incoming connection\'s source address (in kilobytes).');
 echo gettext('The total amount of data sent to the incoming connection\'s source address (in kilobytes).');
 echo gettext('The total number of authenticator processes to spawn.');
 echo gettext('The type can either be \'Basic\' for a general-purpose authorization protocol or \'Stealth\' for a less scalable protocol that also hides service activity from unauthorized clients.');
 echo gettext('The type of identify to present to the SFTP server for authorization. Select \'none\' to use default "ECDSA".');
+echo gettext('The type of identify to present to the SSH server for authorization. Select \'none\' to use default "ECDSA".');
 echo gettext('The user name for this connection.');
+echo gettext('The user who owns the API key. Defaults to root.');
 echo gettext('The username for mail server authentication.');
 echo gettext('The username to login to the SFTP server.');
+echo gettext('The username to login to the SSH server.');
 echo gettext('The username to use for SMTP authentication.');
 echo gettext('The value of the Server Name TLS extension sent by a client contains the specified string (substring match).');
 echo gettext('The value of the Server Name TLS extension sent by a client ends with the specified string (suffix match).');
@@ -3306,9 +4292,12 @@ echo gettext('The value of the Server Name TLS extension sent by a client starts
 echo gettext('These lines will be added to the HAProxy backend configuration.');
 echo gettext('These lines will be added to the HAProxy frontend configuration.');
 echo gettext('This Host');
+echo gettext('This ID is used to distinguish traffic and security policies between several if_ipsec interfaces.');
 echo gettext('This TLS-config\'s unique name');
 echo gettext('This allows you to bind to an external LDAP server. Be aware that FreeRADIUS will not start if there is no further configuration.');
+echo gettext('This allows you to define a fallback VLAN-Group-ID. Warning: Setting this option will send an accepted RADIUS reply even if the authentication attempt fails.');
 echo gettext('This allows you to dynamically assign VLANs on your physical switch ports.');
+echo gettext('This can be either an IP address, fully qualified domain name or an email address.');
 echo gettext('This can be set to off to only log the realm in Access-Accept/Reject log messages (for privacy).');
 echo gettext('This can be used to specify source address and/or source port that the proxy will use for connecting to clients to send messages (e.g. Access Request). The same syntax as for Listen... applies.');
 echo gettext('This can help you when having connection issues with IPv6 enabled servers. Set a value in seconds');
@@ -3318,6 +4307,7 @@ echo gettext('This configures the default time to trigger name resolutions when 
 echo gettext('This configures the number of queries to send to resolve a server name before giving up.');
 echo gettext('This content type is sent if the file extension is unknown.');
 echo gettext('This enables CRL checking, please restart this service with every change to the CRL.');
+echo gettext('This enables LDAP authentication in inner-tunnel configuration. This is needed for protocols requiring encrypted authentication like 802.1X.');
 echo gettext('This enables SQLite module and accounting.');
 echo gettext('This enables remote MySQL support.');
 echo gettext('This enables the ChilliSpot attributes assignment via users tab.');
@@ -3330,11 +4320,13 @@ echo gettext('This field contains the amount of large header buffers. If there a
 echo gettext('This field contains the size of large header buffers. If a header or the request line does not fit into it, the server will respond with an HTTP error.');
 echo gettext('This is a list with service tests.');
 echo gettext('This is a normal, non-encrypted DNS resolver, that will be only used for one-shot queries when retrieving the initial resolvers list, and only if the system DNS configuration does not work. Format is e.g. 9.9.9.9:53');
+echo gettext('This is an advanced setting for selective routing scenarios. It will prevent installing the route which routes the IPv6 Prefix to Tayga. This requires assigning and locking the nat64 interface, enabling dynamic gateway policy, configuring a dynamic IPv6 gateway and adding custom routes.');
 echo gettext('This is only for your reference.');
 echo gettext('This is suited for all header fields which are allowed to carry more than one value: Matches the specified regular expression against every comma-delimited value of the header field.');
 echo gettext('This is the detail level of the log. A higher level means more data is logged.');
 echo gettext('This is the email address displayed in error messages to the users.');
 echo gettext('This is the hostname to be displayed in proxy server error messages.');
+echo gettext('This is the instance number to give the wg interface a unique name (wgX).');
 echo gettext('This let you fetch the current installed version via .1.3.6.1.4.1.8072.1.3.2.3.1.2.7.118.101.114.115.105.111.110');
 echo gettext('This let you manipulate the metric when advertising default gateway.');
 echo gettext('This machines external port to use');
@@ -3343,6 +4335,7 @@ echo gettext('This machines part of the network');
 echo gettext('This may only consist of characters and numbers and is used to identifiy your host.');
 echo gettext('This must be a /96 prefix selected from your organization\'s IPv6 address space or the Well-Known Prefix 64:ff9b::/96. The IPv4 address space is mapped into the IPv6 address space by prepending this prefix to the IPv4 address.');
 echo gettext('This option allows you to disable the caching feature of the engine.');
+echo gettext('This option automatically creates the specified number of listeners for every IP:port combination and evenly distributes them among available threads. This can sometimes be useful when using very large thread counts where the in-kernel locking on a single socket starts to cause a significant overhead.');
 echo gettext('This option determines whether or not the NRPE daemon will allow clients to specify arguments that contain bash command substitutions of the form $(...). Enabling this option is a high security risk.');
 echo gettext('This option enables scanning of HWP3 files.');
 echo gettext('This option enables scanning of OLE2 files, such as Microsoft Office documents and .msi files.');
@@ -3363,6 +4356,7 @@ echo gettext('This should be a combination of the username and role ID. For exam
 echo gettext('This specifies for how long (in hours) the proxy server assumes an externally validated username and password combination is valid (Time To Live). When the TTL expires, the user will be prompted for credentials again.');
 echo gettext('This specifies the maximum number of seconds that the NRPE daemon will allow plugins to finish executing before killing them off.');
 echo gettext('This specifies the maximum number of seconds that the NRPE daemon will wait for a connection to be established before exiting.');
+echo gettext('This specifies the prefix path in Vault.');
 echo gettext('This will activate ClamAV');
 echo gettext('This will activate DNSCrypt-Proxy service.');
 echo gettext('This will activate OpenConnect Client.');
@@ -3370,6 +4364,7 @@ echo gettext('This will activate SoftEther vpnserver process.');
 echo gettext('This will activate Tayga.');
 echo gettext('This will activate WireGuard and start all enabled instances.');
 echo gettext('This will activate certificate based authentication (EAP-TLS) and validation (EAP-TTLS). Please choose CA and Certificate below and do not forget to roll out certificates to the clients. If you do not enable this, default installation certificate will be used.');
+echo gettext('This will activate exetended logging of BGP neighbor changes.');
 echo gettext('This will activate ntopng.');
 echo gettext('This will activate support for Net-SNMP AgentX.');
 echo gettext('This will activate the BFD service.');
@@ -3401,6 +4396,7 @@ echo gettext('This will activate the freshclam service.');
 echo gettext('This will activate the isis service.');
 echo gettext('This will activate the node_exporter plugin.');
 echo gettext('This will activate the onion router.');
+echo gettext('This will activate the repeater service only on the master device.');
 echo gettext('This will activate the routing service only on the master device.');
 echo gettext('This will activate the routing service.');
 echo gettext('This will activate the siproxd service.');
@@ -3432,8 +4428,11 @@ echo gettext('This will enable or disable the check command.');
 echo gettext('This will enable or disable the client config.');
 echo gettext('This will enable or disable the domain account.');
 echo gettext('This will enable or disable the header_check rule.');
+echo gettext('This will enable or disable the home server pool.');
+echo gettext('This will enable or disable the homeserver setting.');
 echo gettext('This will enable or disable the key mapping.');
 echo gettext('This will enable or disable the list.');
+echo gettext('This will enable or disable the proxy config.');
 echo gettext('This will enable or disable the recipient rule in this entry.');
 echo gettext('This will enable or disable the sender address to match for.');
 echo gettext('This will enable or disable the sender canonical rewriting setting.');
@@ -3447,10 +4446,13 @@ echo gettext('This will enable or disable this record.');
 echo gettext('This will enable or disable this zone.');
 echo gettext('This will enable rate-limiting for DNS replies.');
 echo gettext('This will enable support for tags.');
+echo gettext('This will enable the SSLH service.');
 echo gettext('This will enable the use of DNS Blocklists for ADs, Malware, or both.');
 echo gettext('This will enable verification of a secure connection to Graphite. Default is disabled for compatibility reasons.');
 echo gettext('This will enable write access in addition to read-only.');
 echo gettext('This will enable/disable local logs. This includes both [query_log] and [nx_log] as described in the DNSCrypt-Proxy documentation.');
+echo gettext('This will filter AAAA records on IPv4 Clients');
+echo gettext('This will filter AAAA records on IPv6 Clients');
 echo gettext('This will force SafeSearch.');
 echo gettext('This will force safe Youtube browsing.');
 echo gettext('This will force safe search when using Bing.');
@@ -3469,22 +4471,30 @@ echo gettext('This will start the process with wheel group and root user permiss
 echo gettext('Thread ID');
 echo gettext('Thread ID that should bind to a specific CPU set. Any thread IDs above nbthread are ignored.');
 echo gettext('Threads per child');
+echo gettext('Time (Max Age)');
 echo gettext('Time Jitter');
 echo gettext('Time after which the graylist state expires in days. Default is 1 day.');
 echo gettext('Time in milli seconds siproxd should wait until the connection is established.');
+echo gettext('Time in seconds between annoying users to signoff prior to system shutdown. 0 disables.');
 echo gettext('Time in seconds how often siproxd should send an empty Sip-Keep-Alive to hold the connection.');
 echo gettext('Time in seconds how often to refresh trails.');
 echo gettext('Time in seconds when an inactive TCP session will be disconnected.');
+echo gettext('Time to Live for the DNS entry');
 echo gettext('Time until we send a notification to the sender if mail is delayed (in hours) - 0 or empty to disable.');
 echo gettext('Timeout');
 echo gettext('Timeout hold time');
+echo gettext('Timeout in seconds before forwarding the connection to the timeout protocol (which should usually be SSH). Default: 2');
 echo gettext('Timeout in seconds when connecting to database server.');
+echo gettext('Tinc Target');
 echo gettext('To Day');
 echo gettext('To Month');
+echo gettext('To add this cache parameter Vary support needs to be enabled. Define the maximum number of simultaneous secondary entries with the same primary key in the cache. Its default value is 10 and should be passed a strictly positive integer.');
 echo gettext('ToClient');
 echo gettext('ToServer');
 echo gettext('Toggles the Squid pinger service. This service is used in the selection of the best parent proxy.');
 echo gettext('Token');
+echo gettext('Token Mode');
+echo gettext('Token Secret');
 echo gettext('Total CPU');
 echo gettext('Total bandwidth for this pipe');
 echo gettext('Total number of entries in downloaded set.');
@@ -3493,8 +4503,10 @@ echo gettext('Total number of signatures');
 echo gettext('Traffic Management Settings');
 echo gettext('Transfer Key');
 echo gettext('Transfer Key Algorithm');
+echo gettext('Transfer Key Name');
 echo gettext('Transfer Source IP');
 echo gettext('Transfer Source IPv6');
+echo gettext('Transip');
 echo gettext('Translation / target');
 echo gettext('Translation port');
 echo gettext('Transparent DNS Port');
@@ -3505,6 +4517,9 @@ echo gettext('Transparent proxy (HTTPS)');
 echo gettext('Transport');
 echo gettext('Transport Type');
 echo gettext('Transport protocol');
+echo gettext('TrueNAS API key');
+echo gettext('TrueNAS hostname');
+echo gettext('TrueNAS scheme');
 echo gettext('Trusted');
 echo gettext('Trusted Networks');
 echo gettext('Trusted Only');
@@ -3514,6 +4529,8 @@ echo gettext('Try Fallback');
 echo gettext('Tuning Options');
 echo gettext('Tuning Parameters');
 echo gettext('Tunnel Address');
+echo gettext('Tunnel local address');
+echo gettext('Tunnel remote address');
 echo gettext('Type');
 echo gettext('Type CA name or choose from list.');
 echo gettext('Type CRL name or choose from list.');
@@ -3525,6 +4542,7 @@ echo gettext('Type IPs of alternative DNS servers you like to use.');
 echo gettext('Type certificate name or choose from list.');
 echo gettext('Type group or choose from list.');
 echo gettext('Type of DNSBL');
+echo gettext('Type of resource record, e.g. A or AAAA for IPv4 or IPv6 addresses');
 echo gettext('Type option name or choose from list.');
 echo gettext('Type or select a route source.');
 echo gettext('Type or select destinations.');
@@ -3537,14 +4555,21 @@ echo gettext('Type subnets you want to allow access to the proxy server.');
 echo gettext('Type subnets/addresses you want to ignore for the access.log.');
 echo gettext('Type username or choose from list.');
 echo gettext('UDP Port');
+echo gettext('UDP encapsulation');
 echo gettext('UI Listen Address');
 echo gettext('UI Listen Port');
 echo gettext('UNIX Socket');
+echo gettext('UPS Cable Type');
+echo gettext('UPS Class');
+echo gettext('UPS Device');
+echo gettext('UPS Mode');
+echo gettext('UPS Name');
 echo gettext('UPS Type');
 echo gettext('URL');
 echo gettext('URL Parameter');
 echo gettext('URL Pattern');
 echo gettext('URL Rewriting');
+echo gettext('URL of the Vault, i.e. http://vault.example.com:8200.');
 echo gettext('URL of the router, i.e. https://fritzbox.example.com.');
 echo gettext('URL of the signature database.');
 echo gettext('URLs of Blocklists');
@@ -3557,6 +4582,7 @@ echo gettext('Uncheck to hide all additional introduction pages. Requires a manu
 echo gettext('Uncheck to hide all introduction pages.');
 echo gettext('Unhealthy Threshold');
 echo gettext('Unifi keystore file');
+echo gettext('Unique');
 echo gettext('Unique identifier');
 echo gettext('Unique identifier for this client');
 echo gettext('Unique identifier for this server');
@@ -3567,44 +4593,52 @@ echo gettext('Unix permission to apply to uploaded private keys. Leave blank to 
 echo gettext('Unix permission to apply to uploaded public keys. Leave blank to use default "0440".');
 echo gettext('UnoEuro');
 echo gettext('Unrestricted IP addresses');
+echo gettext('Unwanted Reply Threshold');
 echo gettext('Update OCSP data for SSL certificates');
 echo gettext('Update Period');
-echo gettext('Update URL');
 echo gettext('Update-Source Interface');
 echo gettext('Upload a HTML file to /usr/local/etc/tor/exit-notice.html before enabling this to serve a directory frontpage.');
 echo gettext('Upstream Servers');
 echo gettext('Url');
 echo gettext('Usable Servers');
+echo gettext('Use Cache On Failure');
 echo gettext('Use DNS-over-HTTPS Servers');
 echo gettext('Use DNSCrypt Servers');
 echo gettext('Use Domain');
 echo gettext('Use Frontend port');
 echo gettext('Use Heuristics');
+echo gettext('Use Host header value from the client request ($http_host) for X-Forwarded-Host header. $host variable is used by default. Enabling this may cause incorrect behavior in case of malicious requests such as incorrect hostnames being logged or invalid redirects being performed.');
 echo gettext('Use IPv4 Servers');
 echo gettext('Use IPv6 Servers');
+echo gettext('Use KV v2');
 echo gettext('Use Recipient Address Verification. Please keep in mind that this could put significant load onto the next server.');
 echo gettext('Use Regular Expressions');
+echo gettext('Use System Nameservers');
 echo gettext('Use TLS (HTTPS) to connect to the server.');
 echo gettext('Use TTL for ID');
 echo gettext('Use Temp Path');
 echo gettext('Use Via header');
+echo gettext('Use a one-time password generation mode.');
 echo gettext('Use a password to protect the pkcs12 file contents');
 echo gettext('Use a random local source port (lport) for traffic from the client. Without this set, two clients may not run concurrently.');
 echo gettext('Use a specific output template. For usage see https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md');
 echo gettext('Use alternate DNS-servers');
-echo gettext('Use another hostname for SNI and certificate validation.');
 echo gettext('Use backend pool');
 echo gettext('Use c-icap with local squid');
 echo gettext('Use client mode for this tunnel. Connect to an SSL server, do not act as an SSL server.');
 echo gettext('Use custom template package for user login');
 echo gettext('Use eSLD');
+echo gettext('Use flowid');
 echo gettext('Use own certificates');
 echo gettext('Use random local port');
 echo gettext('Use resolv.conf');
 echo gettext('Use rfc5424 formated messages for this destination.');
 echo gettext('Use server');
+echo gettext('Use strict');
 echo gettext('Use syslog instead of logging to a file.');
+echo gettext('Use the DNS response code NXDOMAIN instead of a destination address.');
 echo gettext('Use the ID to set the TTL Value of the packet (Original method) rather than DSCP, default is not ticked');
+echo gettext('Use the RSS hash from the network card if available, otherwise a hash is locally calculated. The default depends on the system tunable in net.link.lagg.default_use_flowid.');
 echo gettext('Use the following format: username:password');
 echo gettext('Use the specified backend to count usable servers. Leave empty to use the current backend.');
 echo gettext('Use this option if your usernames need to be encoded.');
@@ -3634,8 +4668,11 @@ echo gettext('Users');
 echo gettext('Usual operators here are = or +=');
 echo gettext('Usually HAproxy userlists are created automatically in a context sensitive way. This option adds this group as userlist, so that it can be referenced in rules/conditions. All special and non-alphanumeric characters will be removed from the userlist name.');
 echo gettext('Usually the FQDN. Required for active checks and must match hostname as configured on the Zabbix server.');
+echo gettext('VHID Group');
 echo gettext('VLAN ID');
 echo gettext('VLAN ID the user receives, e.g. for 802.1X. Leave empty if you don\'t know what it is.');
+echo gettext('VLAN priority');
+echo gettext('VLAN tag');
 echo gettext('VNI');
 echo gettext('VPN Server');
 echo gettext('VXLAN Network Identifier (VNI) that identifies the virtual network segment membership of the interface.');
@@ -3645,20 +4682,25 @@ echo gettext('Value');
 echo gettext('Variable Name');
 echo gettext('Variable Scope');
 echo gettext('Variomedia');
+echo gettext('Vault Prefix');
+echo gettext('Vault URL');
 echo gettext('Verbose');
+echo gettext('Verbose /var/log/crowdsec/crowdsec-firewall-bouncer.log. Enable this
+      for debugging.');
+echo gettext('Verbose log for firewall bouncer');
 echo gettext('Verification');
 echo gettext('Verify CN');
 echo gettext('Verify Client Certificate');
 echo gettext('Verify SSL Certificate');
 echo gettext('Verify SSL Server Certificates');
 echo gettext('Verify SSL certificates');
-echo gettext('Verify if CN in certificate matches this value.');
 echo gettext('Verify the CA Common-Name of the certificate presented by the client against the specified string.');
 echo gettext('Verify the minimum number of usable servers in the named backend matches the specified value.');
 echo gettext('Verify the server certificate name when the client connects');
 echo gettext('Verify the source IPv4 address of the client of the session matches the specified IPv4 or IPv6 address.');
 echo gettext('Version');
 echo gettext('Violation Error Page');
+echo gettext('Virtual Server');
 echo gettext('Visible Hostname');
 echo gettext('Vscale');
 echo gettext('Vultr Cloud API');
@@ -3667,19 +4709,24 @@ echo gettext('WISPr Bandwith Max DOWN');
 echo gettext('WISPr Bandwith Max UP');
 echo gettext('WISPr Bandwith Min DOWN');
 echo gettext('WISPr Bandwith Min UP');
+echo gettext('WPAD Records');
 echo gettext('Waiting for a new job will timeout after this time in seconds.');
+echo gettext('Wazuh remote commands');
 echo gettext('WebSocket Support');
+echo gettext('Websockets');
 echo gettext('Weight');
 echo gettext('Weight of this queue (1..100), used to prioritize within a pipe. (1 is low, 100 is high)');
 echo gettext('What Postfix will do when Rspamd becomes temporarily unavailable.');
 echo gettext('When DNS resolution is enabled for a server and multiple IP addresses from different families are returned, HAProxy will prefer using an IP address from the selected family.');
 echo gettext('When HAProxy requests user name and password from the user, this optional authentication realm is returned with the response (typically the application\'s name).');
 echo gettext('When a DNS resolve request times out haproxy will not retry until [hold timeout] elapses. Default "30s"');
+echo gettext('When enabled (default), BGP only announces networks set at \'Network\' if they are present in the routers routing table (alternatively, you can also set a null-route via System -> Routes). If disabled, all configured networks will be announced.');
 echo gettext('When enabled the subnets of the selected interfaces will be added to the allow access list.');
 echo gettext('When enabled, a sudo rule is created to grant root access to the Zabbix user. When adding a User Parameter, just add "sudo" to the command to run it as root, i.e. instead of "echo test" use "sudo echo test".');
 echo gettext('When haproxy receives a NXDOMAIN error message (domain does not exist) from the resolver it will not retry until [hold nx] elapses. Default "30s".');
 echo gettext('When haproxy receives a valid NS response it will not query DNS until valid time expires. Default is "10s".');
 echo gettext('When set, report CPU usage in percent instead of units of kernel time.');
+echo gettext('When set, the system will capture all traffic present on the interface in stead of the traffic heading to the firewall.');
 echo gettext('When the DNS server refuses the resolve request haproxy will not retry until [hold refused] elapses. Default "30s".');
 echo gettext('When this buffer size is reached, nginx will send a part of the response to the client.');
 echo gettext('When this checkbox is enabled, you can add additional headers to your mails, which contain information about the scan results.');
@@ -3690,12 +4737,25 @@ echo gettext('When using profiles for group separation please set here.');
 echo gettext('When using the Random Balancing Algorithm, this value indicates the number of draws before selecting the least loaded of these servers.');
 echo gettext('When using the TLS ALPN extension, HAProxy advertises the specified protocol list as supported on top of ALPN. SSL offloading must be enabled.');
 echo gettext('When using the TLS ALPN extension, HAProxy advertises the specified protocol list as supported on top of ALPN. TLS must be enabled.');
+echo gettext('Where to listen for LAPI connections: IP address. The default value
+      is 127.0.0.1. You can change it to a LAN address to connect from other
+      agents/machines and bouncers.
+
+      This is written in /usr/local/etc/crowdsec/config.yaml,
+      local_api_credentials.yaml and bouncers/crowdsec-firewall-bouncer.yaml.
+      To enable TLS, add the certificate information to config.yaml and change
+      http to https in the other two files. Comments in YAML will not be
+      preserved.');
+echo gettext('Where to listen for LAPI connections: port. The default value is
+      8080, but you can change it to avoid conflicts with existing
+      services.');
 echo gettext('Whether HAProxy should load and execute this Lua script on startup. This is the default behaviour. However, if this Lua script is included by other Lua scripts using the "require" function, then preloading should be disabled to avoid HAProxy errors.');
 echo gettext('Whether or not to enable authentication for clients to Siproxd. If checked please set up clients in the users tab.');
 echo gettext('Whether remote commands from Zabbix server are allowed.');
 echo gettext('Whether to enable or disable the usage or heuristic detection.');
 echo gettext('Whether to report Per-CPU stats or not.');
 echo gettext('Whether to report total system CPU stats or not.');
+echo gettext('Whether to use the cached configuration when the remote configuration will not compile.');
 echo gettext('Whitelist');
 echo gettext('Whitelist Domains');
 echo gettext('Whitelist Recipients');
@@ -3708,12 +4768,14 @@ echo gettext('Whitelisted IPs');
 echo gettext('Whitelisted Servers');
 echo gettext('Whitespace handling of URI');
 echo gettext('Wildcard');
+echo gettext('Wildcard Domains');
 echo gettext('Windows Certificate System Store');
 echo gettext('With STUN periond you can set the time in seconds how often to request for IP info from STUN server.');
 echo gettext('With this option clamav will try to detect broken executables (both PE and ELF) and mark them as Broken.');
 echo gettext('With this option enabled OLE2 files with VBA macros, which were not detected by signatures will be marked as "Heuristics.OLE2.ContainsMacros".');
 echo gettext('With this option you can set a time frame how long the user is allowed to be logged in.');
 echo gettext('With this option, you can set the size of the packets on your network. It is possible that bigger packets have to be processed sometimes. The engine can still process these bigger packets, but processing it will lower the performance.');
+echo gettext('Worker');
 echo gettext('Worker Connections');
 echo gettext('Worker Processes');
 echo gettext('Write timeout (for the Elasticsearch client), formatted as a string. If not provided, will default to 5s. 0s means no timeout (not recommended).');
@@ -3721,15 +4783,21 @@ echo gettext('Write timeout (for the InfluxDB client), formatted as a string. If
 echo gettext('X-Forwarded-For header');
 echo gettext('X-Forwarded-For header handling');
 echo gettext('X-Real-IP and X-Forwarded-For are HTTP headers, while PROXY protocol is a protocol which needs to be enabled.');
+echo gettext('XFH: Use original Host header');
+echo gettext('XMPP Target');
 echo gettext('XSS Protection');
 echo gettext('Yandex');
+echo gettext('You can enable BFD support for this interface. You will also need to configure BFD peers.');
 echo gettext('You can enable BFD support for this neighbor.');
 echo gettext('You can enter a publicly visible (obfuscated) email address into this field to allow other users to notify you if there are issues with your relay.');
+echo gettext('You may enter a description here for your reference (not parsed)');
 echo gettext('You may enter a description here for your reference (not parsed).');
+echo gettext('You may enter a description here for your reference.');
 echo gettext('You may use replacement strings like $1 for the first match group from the source here.');
 echo gettext('You need to obtain your API key from variomedia\'s customer support.');
 echo gettext('YouTube Filter');
 echo gettext('Your AS Number here');
+echo gettext('Your TransIP username.');
 echo gettext('ZFS');
 echo gettext('ZFS Statistics');
 echo gettext('Zabbix Features');
@@ -3738,17 +4806,26 @@ echo gettext('Zabbix agent will listen on this port for connections from the ser
 echo gettext('Zero RTT');
 echo gettext('Zerotier Network ID e.g., 161411d4f6abe4a7');
 echo gettext('Zilore');
+echo gettext('Zombie Period');
+echo gettext('Zombie Period from 20 to 120');
 echo gettext('Zone');
 echo gettext('Zone Name');
 echo gettext('Zone Username');
+echo gettext('Zone containing the host entry.');
 echo gettext('Zone number');
 echo gettext('Zone.eu API');
 echo gettext('__template__label__');
 echo gettext('acme.sh TLS Web Server');
 echo gettext('add a DNS wildcard CNAME record that points to the configured host.');
+echo gettext('advbase');
+echo gettext('advskew');
 echo gettext('aliyun');
 echo gettext('autoDNS (InternetX)');
 echo gettext('bytecode');
+echo gettext('cPanel API Token');
+echo gettext('cPanel HTTP API');
+echo gettext('cPanel Hostname');
+echo gettext('cPanel Username');
 echo gettext('categories (if available)');
 echo gettext('choose a valid IPv4/v6 address');
 echo gettext('chroot service');
@@ -3761,6 +4838,7 @@ echo gettext('deSEC token');
 echo gettext('deSEC.io API');
 echo gettext('default packet size');
 echo gettext('destination ip or network, examples 10.0.0.0/24, 10.0.0.1');
+echo gettext('destination network, leave empty to use the networks propogated in the child sa');
 echo gettext('deviceId');
 echo gettext('dynv6 HTTP API');
 echo gettext('enable');
@@ -3771,10 +4849,18 @@ echo gettext('enabled');
 echo gettext('hexonet.com DNS API');
 echo gettext('hosting.de');
 echo gettext('invert destination (not)');
+echo gettext('invert port (not)');
+echo gettext('invert protocol (not)');
 echo gettext('invert source (not)');
 echo gettext('ip address of the mail host');
 echo gettext('lexicon');
 echo gettext('local.conf settings');
+echo gettext('localhost:1194');
+echo gettext('localhost:22');
+echo gettext('localhost:443');
+echo gettext('localhost:5222');
+echo gettext('localhost:655');
+echo gettext('localhost:80');
 echo gettext('main');
 echo gettext('mask');
 echo gettext('matches incoming or outgoing packets or both (default)');
@@ -3782,20 +4868,29 @@ echo gettext('metadata rules per category');
 echo gettext('netcup DNS API');
 echo gettext('nsupdate');
 echo gettext('number of dynamic queues, leave empty for default');
+echo gettext('number of status checks in a row that the home server needs to respond to before it is marked alive. From 3 to 10');
+echo gettext('online.net');
 echo gettext('opnsense');
 echo gettext('order in which the rule will be evaluated (lowest first)');
+echo gettext('orignal uuid');
 echo gettext('password (optional)');
 echo gettext('path MTU Discovery');
 echo gettext('pick a color to use.');
+echo gettext('priority sequence used in sorting the groups');
+echo gettext('regru');
+echo gettext('resourceId');
 echo gettext('rfc5424');
 echo gettext('rulesets this policy applies to (all when none selected)');
 echo gettext('secondary interface, matches packets traveling to/from interface (1) to/from interface (2). can be combined with direction.');
 echo gettext('select categories to use, leave empty for all. Categories are visible after initial download.');
 echo gettext('selectel');
 echo gettext('set debug output for this tinc network.');
+echo gettext('sha256_96');
 echo gettext('source ip or network, examples 10.0.0.0/24, 10.0.0.1');
 echo gettext('ssl ignore cert');
 echo gettext('target pipe or queue');
+echo gettext('united-domains Reselling');
 echo gettext('user:password, @group... Finish with TAB.');
 echo gettext('username (optional)');
+echo gettext('uuid');
 echo gettext('zonomi.com');
