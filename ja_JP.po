@@ -1,8 +1,3 @@
-# OPNsense Japanese Language Translation
-# Copyright (C) OPNsense project.
-# This file is distributed under the same BSD license as the OPNsense project.
-# Chie Taguchi, Kiyo Takami, and Isaac (.ike) Levy, 2013-2017.
-# https://github.com/dotike/opnsense.core.ja_JP.UTF8
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -38029,23 +38024,27 @@ msgstr "エントリを編集"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 371
 #: 
+#, fuzzy
 msgid "If this option is set, Dnsmasq will not forward reverse DNS lookups (PTR) for private addresses (RFC 1918) to upstream name servers. Any entries in the Domain Overrides section forwarding private \"n.n.n.in-addr.arpa\" names to a specific server are still forwarded. If the IP to name is not known from /etc/hosts, DHCP or a specific domain override then a \"not found\" answer is immediately returned."
-msgstr ""
+msgstr "このオプションが設定されている場合、Dnsmasq はプライベートアドレス (RFC 1918) に対する DNS の逆引き (PTR) を上流ネームサーバに転送しません。ドメイン上書きセクションにある、プライベートの「n.n.n.in-addr.arpa」名で特定のサーバに転送されているエントリの転送は継続されます。/etc/hosts、DHCP、特定のドメイン上書きで名前が解決できない IP は即座に「not found」応答が返されます。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 358
 #: 
+#, fuzzy
 msgid "If this option is set, Dnsmasq will not forward A or AAAA queries for plain names, without dots or domain parts, to upstream name servers. If the name is not known from /etc/hosts or DHCP then a \"not found\" answer is returned."
-msgstr ""
+msgstr "このオプションが設定されている場合、Dnsmasq はドットもしくはドメイン部分のない単純ホスト名に対する、A もしくは AAAA クエリを上流ネームサーバに転送しません。/etc/hosts、DHCP で名前が解決できない場合は「not found」応答が返されます。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 346
 #: 
+#, fuzzy
 msgid "If this option is set, Dnsmasq will query the DNS servers sequentially in the order specified (System: General Setup: DNS Servers), rather than all at once in parallel."
-msgstr ""
+msgstr "このオプションが設定されている場合、Dnsmasq は全サーバ同時に並列処理するのではなく、( システム: 全般設定: DNSサーバ ) で指定されている順番で順次DNSサーバにクエリを送信します。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 321
 #: 
+#, fuzzy
 msgid "If this option is set, then DHCP static mappings will be registered in Dnsmasq, so that their name can be resolved. You should also set the domain in %sSystem: General setup%s to the proper value."
-msgstr ""
+msgstr "このオプションが設定されている場合、DHCP 静的マッピングが Dnsmasq に登録され、名前解決できるようになります。%sシステム: 全般設定%sでドメインを適切な値に設定する必要があります。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 319
 #. File: /usr/core/src/www/services_unbound.php, line: 256
@@ -38055,50 +38054,59 @@ msgstr "DHCP 静的マッピングの登録"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 297
 #: 
+#, fuzzy
 msgid "If this option is set, then machines that specify their hostname when requesting a DHCP lease will be registered in Dnsmasq, so that their name can be resolved."
-msgstr ""
+msgstr "このオプションが設定されている場合、ホスト名を指定されたマシンは、DHCPリースがリクエストされることで、Dnsmasq に登録され、名前解決できるようになります。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 295
 #. File: /usr/core/src/www/services_unbound.php, line: 232
 #: 
+#, fuzzy
 msgid "Register DHCP leases"
-msgstr ""
+msgstr "DHCP リース登録"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 280
 #: 
+#, fuzzy
 msgid "This option does not work with IPv6. If set, Dnsmasq will not bind to IPv6 addresses."
-msgstr ""
+msgstr "このオプションは IPv6 では動作しません。設定しても Dnsmasq は IPv6 アドレスにはバインドされません。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 279
 #: 
+#, fuzzy
 msgid "If this option is set, Dnsmasq will only bind to the interfaces containing the IP addresses selected above, rather than binding to all interfaces and discarding queries to other addresses."
-msgstr ""
+msgstr "このオプションが設定されている場合、Dnsmasq は全てのインタフェースとバインドするのではなく、上記で選択した IP アドレスを含むインタフェースとだけバインドされます。その他のアドレスへのクエリは破棄されます。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 274
 #: 
+#, fuzzy
 msgid "Bind Mode"
-msgstr ""
+msgstr "バインドモード"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 269
 #: 
+#, fuzzy
 msgid "Interface IPs used by Dnsmasq for responding to queries from clients. If an interface has both IPv4 and IPv6 IPs, both are used. Queries to other interface IPs not selected below are discarded. The default behavior is to respond to queries on every available IPv4 and IPv6 address."
-msgstr ""
+msgstr "クライアントからのクエリに応答するために Dnsmasq によって使用されるインタフェースの IP。インタフェースに IPv4 と IPv6 が両方設定されていれば、どちらも使用されます。下記で選択されていないインタフェースの IP へのクエリは破棄されます。デフォルトの振る舞いは、全ての利用可能な IPv4 及び IPv6 アドレスへのクエリに応答します。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 246
 #: 
+#, fuzzy
 msgid "Enable Dnsmasq"
-msgstr ""
+msgstr "Dnsmasq を有効"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 236
 #. File: /usr/core/src/www/services_unbound.php, line: 186
 #: 
+#, fuzzy
 msgid "General options"
-msgstr ""
+msgstr "全般オプション"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 228
 #: 
+#, fuzzy
 msgid "The Dnsmasq configuration has been changed."
-msgstr ""
+msgstr "Dnsmasq 構成は変更されました。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 178
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 201
@@ -38108,53 +38116,63 @@ msgstr "Dnsmasq"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 70
 #: 
+#, fuzzy
 msgid "Unbound is still active on the same port. Disable it before enabling Dnsmasq."
-msgstr ""
+msgstr "同じポートで Unbound がまだアクティブになっています。Dnsmasq を有効化する前に無効にしてください。"
 
 #. File: /usr/core/src/www/services_dhcpv6_edit.php, line: 181
 #: 
+#, fuzzy
 msgid "When using a static WAN address, this should be entered using the full IPv6 address. When using a dynamic WAN address, only enter the suffix part (i.e. ::1:2:3:4)."
-msgstr ""
+msgstr "静的な WAN アドレスを使用する場合、完全な IPv6 アドレスを入力してください。動的な WAN アドレスを使用する場合は、サフィックスパートのみを入力してください ( 例: ::1:2:3:4)。"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 547
 #: 
+#, fuzzy
 msgid "When using a tracked interface then please only enter the range itself. i.e. ::xx. For example, for a /60 subnet from ::20 to ::40."
-msgstr ""
+msgstr "トラックされたインタフェースを使用する場合は、その範囲のみを ::xx のように入力してください。例えば、/60 のサブネットに対して from ::20 to ::40 のようにします。"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 541
 #: 
+#, fuzzy
 msgid "Ensure that any prefix delegation range does not overlap the LAN prefix range."
-msgstr ""
+msgstr "確実に、全てのプレフィックスデリゲーション範囲が LAN プリフィックス範囲と重ならないようにしてください。"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 481
 #: 
+#, fuzzy
 msgid "Prefix subnet will be prefixed to the available range."
-msgstr ""
+msgstr "サブネットのプリフィックスは有効な範囲にプリフィックスされます。"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 466
 #: 
+#, fuzzy
 msgid "Available prefix delegation size"
-msgstr ""
+msgstr "有効なプリフィックスデリゲーションサイズ"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 461
 #: 
+#, fuzzy
 msgid "Current LAN IPv6 prefix"
-msgstr ""
+msgstr "現在の LAN IPv6 プリフィックス"
 
 #. File: /usr/core/src/www/services_dhcp_relay.php, line: 166
 #: 
+#, fuzzy
 msgid "These are the IP addresses of servers to which DHCP requests are relayed. You can enter multiple server IP addresses, separated by commas."
-msgstr ""
+msgstr "DHCP リクエストがリレーされているサーバの IP アドレス。カンマ区切りで複数サーバの IP アドレスを入力できます。"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 997
 #: 
+#, fuzzy
 msgid "Enable Web Proxy Auto Discovery"
-msgstr ""
+msgstr "Web プロキシオートディスカバリーを有効"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 993
 #: 
+#, fuzzy
 msgid "Show WPAD"
-msgstr ""
+msgstr "WPAD を表示"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 990
 #: 
