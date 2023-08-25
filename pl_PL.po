@@ -312,7 +312,7 @@ msgstr "Protokół / port"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1578
 #: 
 msgid "Renegotiate data channel key after n seconds (default=3600).%sWhen using a one time password, be advised that your connection will automatically drop because your password is not valid anymore.%sSet to 0 to disable, remember to change your client as well."
-msgstr ""
+msgstr "Ponowna negocjacja klucza kanału danych po n sekundach (domyślnie=3600).%s Jeśli używasz jednorazowego hasła, pamiętaj, że połączenie zostanie automatycznie przerwane, ponieważ hasło nie jest już ważne.%s Ustaw 0, aby wyłączyć, pamiętaj również o zmianie nazwy użytkownika "
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1566
 #: 
@@ -327,7 +327,7 @@ msgstr "%s2,3%s -- wyświetl negocjacje TLS i informacje o trasach"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1564
 #: 
 msgid "%s1%s -- startup info + connection initiated messages + non-fatal encryption & net errors."
-msgstr ""
+msgstr "%s1%s — informacje o uruchomieniu + wiadomości o zainicjowanych połączeniach + niekrytyczne szyfrowanie i błędy sieciowe."
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1563
 #: 
@@ -377,7 +377,7 @@ msgstr "Niektórzy klienci, takie jak OpenVPN Connect (iOS/Android), mogą tego 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1353
 #: 
 msgid "Relevant when supplying a virtual adapter IP address to clients when using tun mode on IPv4."
-msgstr ""
+msgstr "Ma to znaczenie w przypadku dostarczania klientom adresu IP karty wirtualnej podczas korzystania z trybu tun w protokole IPv4."
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1352
 #: 
@@ -457,7 +457,7 @@ msgstr "Początek puli DHCP mostka serwera"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1142
 #: 
 msgid "The interface to which this tap instance will be bridged. This is not done automatically. You must assign this interface and create the bridge separately. This setting controls which existing IP address and subnet mask are used by OpenVPN for the bridge. Setting this to 'none' will cause the Server Bridge DHCP settings below to be ignored."
-msgstr ""
+msgstr "Interfejs, z którym ta instancja kranu zostanie zmostkowana. Nie odbywa się to automatycznie. Musisz przypisać ten interfejs i osobno utworzyć most. To ustawienie kontroluje, który istniejący adres IP i maska ​​podsieci są używane przez OpenVPN dla mostu. Ustawienie tej opcji na „brak” spowoduje zignorowanie poniższych ustawień DHCP mostka serwera."
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1115
 #: 
@@ -745,7 +745,7 @@ msgstr "UWAGA: Pamiętaj aby dodać te podsieci do listy Zdalnych Sieci IPv6 w u
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 526
 #: 
 msgid "These are the IPv6 networks that will be routed to this client specifically using iroute, so that a site-to-site VPN can be established. Expressed as a comma-separated list of one or more IP/PREFIX networks. You may leave this blank if there are no client-side networks to be routed."
-msgstr ""
+msgstr "Są to sieci IPv6, które będą kierowane do tego klienta specjalnie za pomocą iroute, aby można było ustanowić VPN typu lokacja-lokacja. Wyrażona jako lista rozdzielonych przecinkami jednej lub więcej sieci IP/PREFIX. Możesz pozostawić to pole puste, jeśli nie ma sieci po stronie klienta do trasowania."
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 516
 #: 
@@ -755,7 +755,7 @@ msgstr "UWAGA: Pamiętaj aby dodać te podsieci do listy Zdalnych Sieci IPv4 w u
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 510
 #: 
 msgid "These are the IPv4 networks that will be routed to this client specifically using iroute, so that a site-to-site VPN can be established. Expressed as a comma-separated list of one or more CIDR ranges. You may leave this blank if there are no client-side networks to be routed"
-msgstr ""
+msgstr "Są to sieci IPv4, które będą kierowane do tego klienta specjalnie za pomocą iroute, aby można było ustanowić VPN typu site-to-site. Wyrażona jako lista rozdzielonych przecinkami co najmniej jednego zakresu CIDR. Możesz pozostawić to pole puste, jeśli nie ma sieci po stronie klienta do routingu"
 
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 498
 #: 
@@ -838,12 +838,12 @@ msgstr "%s6%s-%s11%s -- zakres informacji debugowania."
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1567
 #: 
 msgid "%s5%s -- Output R and W characters to the console for each packet read and write, uppercase is used for TCP/UDP packets and lowercase is used for TUN/TAP packets."
-msgstr ""
+msgstr "%s5%s -- Wysyła znaki R i W do konsoli dla każdego odczytu i zapisu pakietu, duże litery są używane dla pakietów TCP/UDP, a małe litery są używane dla pakietów TUN/TAP."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1136
 #: 
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%sdefault%s-%s4%s — Normalny zakres użytkowania."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1135
 #: 
@@ -854,7 +854,7 @@ msgstr "%snone%s -- tylko błędy krytyczne."
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1562
 #: 
 msgid "Each level shows all info from the previous levels. Level 3 is recommended if you want a good summary of what's happening without being swamped by output."
-msgstr ""
+msgstr "Każdy poziom pokazuje wszystkie informacje z poprzednich poziomów.  Poziom 3 jest zalecany, jeśli chcesz uzyskać dobre podsumowanie tego, co się dzieje, bez zasypywania danymi wyjściowymi."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1120
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1547
@@ -877,7 +877,7 @@ msgstr "Konfiguracja zaawansowana"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1095
 #: 
 msgid "This option effectively bars the server from adding routes to the client's routing table, however note that this option still allows the server to set the TCP/IP properties of the client's TUN/TAP interface"
-msgstr ""
+msgstr "Ta opcja skutecznie uniemożliwia serwerowi dodawanie tras do tablicy routingu klienta, należy jednak pamiętać, że ta opcja nadal umożliwia serwerowi ustawienie właściwości TCP/IP interfejsu TUN/TAP klienta"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1091
 #: 
@@ -899,7 +899,7 @@ msgstr "Wyłącz IPv6"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1275
 #: 
 msgid "Set the TOS IP header value of tunnel packets to match the encapsulated packet value"
-msgstr ""
+msgstr "Ustaw wartość nagłówka IP TOS pakietów tunelowych, aby pasowała do wartości hermetyzowanego pakietu"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1036
 #: 
@@ -914,28 +914,28 @@ msgstr "Ogranicz ruch wychodzący"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1021
 #: 
 msgid "These are the IPv6 networks that will be routed through the tunnel, so that a site-to-site VPN can be established without manually changing the routing tables. Expressed as a comma-separated list of one or more IP/PREFIX. If this is a site-to-site VPN, enter the remote LAN/s here. You may leave this blank to only communicate with other clients"
-msgstr ""
+msgstr "Są to sieci IPv6, które będą kierowane przez tunel, dzięki czemu można ustanowić VPN typu site-to-site bez ręcznej zmiany tabel routingu. Wyrażona jako lista rozdzielonych przecinkami jednego lub więcej adresów IP/PREFIX. Jeśli jest to VPN typu site-to-site, wprowadź tutaj zdalne sieci LAN. Możesz zostawić to puste, aby komunikować się tylko z innymi klientami"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1006
 #: 
 msgid "These are the IPv4 networks that will be routed through the tunnel, so that a site-to-site VPN can be established without manually changing the routing tables. Expressed as a comma-separated list of one or more CIDR ranges. If this is a site-to-site VPN, enter the remote LAN/s here. You may leave this blank to only communicate with other clients"
-msgstr ""
+msgstr "Są to sieci IPv4, które będą kierowane przez tunel, dzięki czemu można ustanowić VPN typu site-to-site bez ręcznej zmiany tabel routingu. Wyrażona jako lista rozdzielonych przecinkami co najmniej jednego zakresu CIDR. Jeśli jest to VPN typu site-to-site, wprowadź tutaj zdalne sieci LAN. Możesz zostawić to puste, aby komunikować się tylko z innymi klientami"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 991
 #: 
 msgid "This is the IPv6 virtual network used for private communications between this client and the server expressed using CIDR (eg. fe80::/64). The first network address is assumed to be the server address and the second network address will be assigned to the client virtual interface"
-msgstr ""
+msgstr "Jest to wirtualna sieć IPv6 używana do prywatnej komunikacji między tym klientem a serwerem wyrażona za pomocą CIDR (np. fe80::/64). Zakłada się, że pierwszy adres sieciowy jest adresem serwera, a drugi adres sieciowy zostanie przypisany do wirtualnego interfejsu klienta"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 976
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 456
 #: 
 msgid "This is the IPv4 virtual network used for private communications between this client and the server expressed using CIDR (eg. 10.0.8.0/24). The first network address is assumed to be the server address and the second network address will be assigned to the client virtual interface"
-msgstr ""
+msgstr "Jest to wirtualna sieć IPv4 używana do prywatnej komunikacji między tym klientem a serwerem wyrażona za pomocą CIDR (np. 10.0.8.0/24). Zakłada się, że pierwszy adres sieciowy jest adresem serwera, a drugi adres sieciowy zostanie przypisany do wirtualnego interfejsu klienta"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 939
 #: 
 msgid "NOTE: Leave this set to SHA1 unless the server is set to match. SHA1 is the default for OpenVPN."
-msgstr ""
+msgstr "UWAGA: Pozostaw to ustawienie na SHA1, chyba że serwer jest ustawiony na dopasowanie.  SHA1 jest domyślną opcją dla OpenVPN."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 897
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 940
@@ -1036,7 +1036,7 @@ msgstr "Nazwa host lub adres proxy"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 721
 #: 
 msgid "Continuously attempt to resolve the server host name. Useful when communicating with a server that is not permanently connected to the Internet"
-msgstr ""
+msgstr "Ciągle próbuj rozwiązać nazwę hosta serwera. Przydatne podczas komunikacji z serwerem, który nie jest na stałe połączony z Internetem"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 719
 #: 
@@ -1072,7 +1072,7 @@ msgstr "Typ urządzenia"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 713
 #: 
 msgid "Select the protocol family to be used. Note that using both families with UDP/TCP does not work with an explicit interface as OpenVPN does not support listening to more than one specified IP address. In this case IPv4 is currently assumed."
-msgstr ""
+msgstr "Wybierz rodzinę protokołów, która ma być używana. Należy pamiętać, że używanie obu rodzin z UDP/TCP nie działa z jawnym interfejsem, ponieważ OpenVPN nie obsługuje nasłuchiwania więcej niż jednego określonego adresu IP. W tym przypadku obecnie zakłada się IPv4."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 575
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 643
@@ -1202,7 +1202,7 @@ msgstr "Rodziny protokołu i adresu IP są niezgodne. Nie można wybrać protoko
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 224
 #: 
 msgid "Launch IPsec in debug mode so that more verbose logs will be generated to aid in troubleshooting."
-msgstr ""
+msgstr "Uruchom protokół IPsec w trybie debugowania, aby wygenerować więcej pełnych dzienników ułatwiających rozwiązywanie problemów."
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 206
 #: 
@@ -1217,7 +1217,7 @@ msgstr "Debugowanie IPsec"
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 196
 #: 
 msgid "By default, IPsec installs routes when a tunnel becomes active. Select this option to prevent automatically adding routes to the system routing table. See charon.install_routes"
-msgstr ""
+msgstr "Domyślnie IPsec instaluje trasy, gdy tunel staje się aktywny. Wybierz tę opcję, aby zapobiec automatycznemu dodawaniu tras do systemowej tablicy routingu. Zobacz charon.install_routes"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 194
 #: 
@@ -1232,7 +1232,7 @@ msgstr "Nie zakładaj tras"
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 185
 #: 
 msgid "This exempts traffic for one or more subnets from getting processed by the IPsec stack in the kernel. When sending all traffic to the remote location, you probably want to add your lan network(s) here"
-msgstr ""
+msgstr "Zwalnia to ruch dla jednej lub więcej podsieci z przetwarzania przez stos IPsec w jądrze. Wysyłając cały ruch do zdalnej lokalizacji, prawdopodobnie chcesz dodać tutaj swoją sieć (sieci) lan"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 176
 #: 
@@ -1242,7 +1242,7 @@ msgstr "Przepuszczane sieci"
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 169
 #: 
 msgid "By default, if several SAs match, the newest one is preferred if it's at least 30 seconds old. Select this option to always prefer old SAs over new ones."
-msgstr ""
+msgstr "Domyślnie, jeśli kilka SA jest zgodnych, preferowany jest najnowszy, jeśli ma co najmniej 30 sekund. Wybierz tę opcję, aby zawsze preferować stare SA nad nowe."
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 167
 #: 
@@ -1257,12 +1257,12 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 160
 #: 
 msgid "Disable all auto-added VPN rules."
-msgstr ""
+msgstr "Wyłącz wszystkie automatycznie dodawane reguły VPN."
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 157
 #: 
 msgid "Disable Auto-added VPN rules"
-msgstr ""
+msgstr "Wyłącz automatycznie dodawane reguły VPN"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 150
 #: 
@@ -1272,7 +1272,7 @@ msgstr "Zaawansowane ustawienia IPsec"
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 63
 #: 
 msgid "Entry \"%s\" is not a valid network."
-msgstr ""
+msgstr "Wpis „%s” nie jest prawidłową siecią."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 744
 #: 
@@ -1282,7 +1282,7 @@ msgstr "np. 192.168.1.0/24, 192.168.2.0/24"
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 740
 #: 
 msgid "Register additional Security Policy Database entries"
-msgstr ""
+msgstr "Zarejestruj dodatkowe wpisy bazy danych zasad bezpieczeństwa"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 736
 #: 
@@ -1297,7 +1297,7 @@ msgstr "Automatycznie pinguj hosta"
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 707
 #: 
 msgid "Set globally in mobile client options"
-msgstr ""
+msgstr "Ustaw globalnie w opcjach klienta mobilnego"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 670
 #: 
@@ -1322,7 +1322,7 @@ msgstr "ESP dostarcza enkrypcje, AH tylko autentykację"
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 601
 #: 
 msgid "Phase 2 proposal (SA/Key Exchange)"
-msgstr ""
+msgstr "Propozycja fazy 2 (SA/Wymiana kluczy)"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 565
 #: 
@@ -1342,72 +1342,73 @@ msgstr "Sieć lokalna"
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 491
 #: 
 msgid "Set this option to disable this phase2 entry without removing it from the list"
-msgstr ""
+msgstr "Ustaw tę opcję, aby wyłączyć ten wpis fazy 2 bez usuwania go z listy"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 490
 #: 
 msgid "Disable this phase2 entry"
-msgstr ""
+msgstr "Wyłącz ten zapis fazy drugiej"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 351
 #: 
 msgid "SPD \"%s\" is not a valid network, it should match the tunnel type (IPv4/IPv6)."
-msgstr ""
+msgstr "SPD \"%s\" nie jest poprawną siecią, powinna ona pasować do typu tunelu (IPv4/IPv6)."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 344
 #: 
 msgid "The P2 lifetime must be an integer."
-msgstr ""
+msgstr "Czas życia P2 musi być liczbą całkowitą."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 336
 #: 
 msgid "At least one hashing algorithm needs to be selected."
-msgstr ""
+msgstr "Należy wybrać co najmniej jeden algorytm mieszający."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 331
 #: 
 msgid "At least one encryption algorithm must be selected."
-msgstr ""
+msgstr "Należy wybrać co najmniej jeden algorytm szyfrowania."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 319
 #: 
 msgid "Phase2 with this Local/Remote networks combination is already defined for this Phase1."
-msgstr ""
+msgstr "Faza 2 z taką kombinacją sieci Lokalnej/Zdalnej została już zdefiniowana dla tej Fazy 1."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 287
 #: 
 msgid "Phase2 with this Local Network is already defined for mobile clients."
-msgstr ""
+msgstr "Faza 2 z taką Siecią Lokalną jest już zdefiniowana dla klientów mobilnych."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 264
 #: 
 msgid "A valid remote network IPv6 address must be specified or you need to change Mode to IPv4"
-msgstr ""
+msgstr "Wymagana poprawna zdalna sieć IPv6, albo zmiana trybu na IPv4"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 262
 #: 
 msgid "A valid remote network IPv4 address must be specified or you need to change Mode to IPv6"
-msgstr ""
+msgstr "Wymagana poprawna zdalna sieć IPv4, albo zmiana trybu na IPv6"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 260
 #: 
 msgid "A valid remote network IP address must be specified."
-msgstr ""
+msgstr "Wymagany poprawny adres IP sieci zdalnej."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 255
 #: 
+#, fuzzy
 msgid "A valid remote network bit count must be specified."
-msgstr ""
+msgstr "Wymagana poprawna liczba bitów sieciowych dla sieci zdalnej."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 238
 #: 
 msgid "A valid local network IPv6 address must be specified or you need to change Mode to IPv4"
-msgstr ""
+msgstr "Wymagana poprawna lokalna sieć IPv6, albo zmiana trybu na IPv4"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 236
 #: 
 msgid "A valid local network IPv4 address must be specified or you need to change Mode to IPv6"
-msgstr ""
+msgstr "Wymagana poprawna lokalna sieć IPv4, albo zmiana trybu na IPv6"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 234
 #: 
@@ -1442,7 +1443,7 @@ msgstr "Podany musi być prawidłowy ikeid."
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1059
 #: 
 msgid "Number of consecutive failures allowed before disconnect."
-msgstr ""
+msgstr "Maksymalna liczba błędów z rzędu przed rozłączeniem."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1057
 #: 
@@ -1452,7 +1453,7 @@ msgstr "powtórzenia"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1053
 #: 
 msgid "Delay between requesting peer acknowledgement."
-msgstr ""
+msgstr "Zwłoka pomiędzy żądaniami potwierdzenia peera."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1046
 #: 
@@ -1487,7 +1488,7 @@ msgstr "Wymuś"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1013
 #: 
 msgid "NAT Traversal"
-msgstr ""
+msgstr "Translacja NAT"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1008
 #: 
@@ -1512,7 +1513,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 990
 #: 
 msgid "Whether a connection should be renegotiated when it is about to expire."
-msgstr ""
+msgstr "Czy połączenie powinno być renegocjowane, gdy zbliża się do wygaśnięcia."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 986
 #: 
@@ -1595,7 +1596,7 @@ msgstr "Identyfikator peera"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 793
 #: 
 msgid "KeyID tag"
-msgstr ""
+msgstr "KeyID tag"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 762
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 792
@@ -1616,7 +1617,7 @@ msgstr "Mój identyfikator"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 748
 #: 
 msgid "Aggressive is more flexible, but less secure."
-msgstr ""
+msgstr "Agresywny jest bardziej elastyczny, ale mniej bezpieczny."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 734
 #: 
@@ -1633,7 +1634,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 969
 #: 
 msgid "Must match the setting chosen on the remote side."
-msgstr ""
+msgstr "Musi pasować do ustawienia wybranego po stronie zdalnej."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 709
 #: 
@@ -1752,7 +1753,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 300
 #: 
 msgid "A valid IP address for 'Peer identifier' must be specified."
-msgstr ""
+msgstr "Należy podać prawidłowy adres IP dla „Identyfikatora peera”."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 297
 #: 
@@ -1852,7 +1853,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 215
 #: 
 msgid "The P1 lifetime must be an integer."
-msgstr ""
+msgstr "Czas życia P1 musi być liczbą całkowitą."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 209
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 685
@@ -1879,7 +1880,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 539
 #: 
 msgid "Login Banner"
-msgstr ""
+msgstr "Banner logowania"
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 497
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 658
@@ -1980,22 +1981,22 @@ msgstr "Utwórz fazę pierwszą"
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 135
 #: 
 msgid "A valid IP address for 'WINS Server #2' must be specified."
-msgstr ""
+msgstr "Należy określić prawidłowy adres IP dla „Serwera WINS #2”."
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 132
 #: 
 msgid "A valid IP address for 'WINS Server #1' must be specified."
-msgstr ""
+msgstr "Należy określić prawidłowy adres IP dla „Serwera WINS #1”."
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 128
 #: 
 msgid "A valid IP address for 'DNS Server #4' must be specified."
-msgstr ""
+msgstr "Należy określić prawidłowy adres IP dla „Serwera WINS #4”."
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 125
 #: 
 msgid "A valid IP address for 'DNS Server #3' must be specified."
-msgstr ""
+msgstr "Należy określić prawidłowy adres IP dla „Serwera WINS #3”."
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 122
 #: 
@@ -2020,7 +2021,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 97
 #: 
 msgid "User Authentication Source"
-msgstr ""
+msgstr "Źródło uwierzytelniania użytkownika"
 
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 156
 #: 
@@ -2030,7 +2031,7 @@ msgstr "Klucz PSK"
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 142
 #: 
 msgid "This can be either an IP address, fully qualified domain name or an email address."
-msgstr ""
+msgstr "Może to być adres IP, w pełni kwalifikowana nazwa domeny lub adres e-mail."
 
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 102
 #: 
@@ -2045,17 +2046,17 @@ msgstr "Zedytowano"
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 85
 #: 
 msgid "Another entry with the same identifier already exists."
-msgstr ""
+msgstr "Istnieje już inny wpis o takim samym identyfikatorze."
 
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 78
 #: 
 msgid "The identifier contains invalid characters."
-msgstr ""
+msgstr "Identyfikator zawiera nieprawidłowe znaki."
 
 #. File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 68
 #: 
 msgid "A user with this name already exists. Add the key to the user instead."
-msgstr ""
+msgstr "Użytkownik o tej nazwie już istnieje. Zamiast tego dodaj klucz do użytkownika."
 
 #. File: /usr/core/src/www/vpn_ipsec_keys.php, line: 157
 #: 
@@ -2195,7 +2196,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 51
 #: 
 msgid "Session timeout must be an integer value."
-msgstr ""
+msgstr "Limit czasu sesji musi być liczbą całkowitą."
 
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 145
 #. File: /usr/core/src/www/vpn_openvpn_export.php, line: 1368
@@ -2307,7 +2308,7 @@ msgstr "Autoryzowane klucze"
 #. File: /usr/core/src/www/system_usermanager.php, line: 925
 #: 
 msgid "Scan this QR code for easy setup with external apps."
-msgstr ""
+msgstr "Zeskanuj ten kod QR, aby ułatwić konfigurację z zewnętrznymi aplikacjami."
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 918
 #: 
@@ -2317,7 +2318,7 @@ msgstr "Kliknij by pokazać"
 #. File: /usr/core/src/www/system_usermanager.php, line: 916
 #: 
 msgid "OTP QR code"
-msgstr ""
+msgstr "OTP kod QR"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 904
 #: 
@@ -2327,7 +2328,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager.php, line: 902
 #: 
 msgid "Generate new secret (160 bit)"
-msgstr ""
+msgstr "Wygeneruj nowy sekret (160 bitów)"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 899
 #: 
@@ -2476,7 +2477,7 @@ msgstr "(potwierdzenie)"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 791
 #: 
 msgid "User distinguished name"
-msgstr ""
+msgstr "Nazwa wyróżniająca użytkownika"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 511
 #: 
@@ -2499,7 +2500,7 @@ msgstr "Czy na pewno chcesz usunąć tego użytkownika?"
 #. File: /usr/core/src/www/system_usermanager.php, line: 426
 #: 
 msgid "Do you really want to remove this certificate association?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć to powiązanie certyfikatu?"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 426
 #: 
@@ -2617,7 +2618,7 @@ msgstr "Serwery autentykacji"
 #. File: /usr/core/src/www/system_hasync.php, line: 236
 #: 
 msgid "Do not use the Synchronize Config to IP and password option on backup cluster members!"
-msgstr ""
+msgstr "Nie używaj opcji Synchronizuj konfigurację z adresem IP i hasłem na elementach klastra kopii zapasowej!"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 234
 #: 
@@ -2717,7 +2718,7 @@ msgstr "Kliknięcie zapisz wymusi synchronizację konfiguracji jeśli jest włą
 #. File: /usr/core/src/www/system_hasync.php, line: 140
 #: 
 msgid "pfsync transfers state insertion, update, and deletion messages between firewalls.%sEach firewall sends these messages out via multicast on a specified interface, using the PFSYNC protocol (%sIP Protocol 240%s).%sIt also listens on that interface for similar messages from other firewalls, and imports them into the local state table.%sThis setting should be enabled on all members of a failover group."
-msgstr ""
+msgstr "pfsync przesyła wiadomości wstawiania, aktualizacji i usuwania stanu między zaporami.%sKażda zapora wysyła te wiadomości za pośrednictwem multiemisji na określonym interfejsie, używając protokołu PFSYNC (%sIP Protocol 240%s).%sNasłuchuje również na tym interfejsie w poszukiwaniu podobnych wiadomości z innych zapór i importuje je do lokalnej tabeli stanów.%sTo ustawienie powinno być włączone dla wszystkich członków grupy pracy awaryjnej."
 
 #. File: /usr/core/src/www/system_hasync.php, line: 136
 #: 
@@ -2828,7 +2829,7 @@ msgstr "Opcje serwera DNS"
 #. File: /usr/core/src/www/system_general.php, line: 397
 #: 
 msgid "In addition, optionally select the gateway for each DNS server. When using multiple WAN connections there should be at least one unique DNS server per gateway."
-msgstr ""
+msgstr "Ponadto opcjonalnie wybierz bramę dla każdego serwera DNS. W przypadku korzystania z wielu połączeń WAN powinien istnieć co najmniej jeden unikalny serwer DNS na bramę."
 
 #. File: /usr/core/src/www/system_general.php, line: 352
 #: 
@@ -2838,7 +2839,7 @@ msgstr "Używaj bramy"
 #. File: /usr/core/src/www/system_general.php, line: 339
 #: 
 msgid "By default, if a hostname resolves IPv6 and IPv4 addresses IPv6 will be used, if you check this option, IPv4 will be used instead of IPv6."
-msgstr ""
+msgstr "Domyślnie, jeśli nazwa hosta rozwiązuje adresy IPv6 i IPv4, zostanie użyty IPv6, jeśli zaznaczysz tę opcję, zamiast IPv6 będzie używany IPv4."
 
 #. File: /usr/core/src/www/system_general.php, line: 337
 #: 
@@ -2889,7 +2890,7 @@ msgstr "np.: %smycorp.com, home, office, private, etc.%s"
 #. File: /usr/core/src/www/system_general.php, line: 267
 #: 
 msgid "Do not use 'local' as a domain name. It will cause local hosts running mDNS (avahi, bonjour, etc.) to be unable to resolve local hosts not running mDNS."
-msgstr ""
+msgstr "Nie używaj „local” jako nazwy domeny. Spowoduje to, że lokalne hosty z uruchomionym mDNS (avahi, bonjour itp.) nie będą w stanie rozwiązać lokalnych hostów, które nie obsługują mDNS."
 
 #. File: /usr/core/src/www/system_general.php, line: 256
 #: 
@@ -2962,7 +2963,7 @@ msgstr "Oznacz bramę jako opuszczoną"
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 663
 #: 
 msgid "Enter an alternative address here to be used to monitor the link. This is used for the quality RRD graphs as well as the load balancer entries. Use this if the gateway does not respond to ICMP echo requests (pings)"
-msgstr ""
+msgstr "Wprowadź tutaj alternatywny adres, który będzie używany do monitorowania łącza. Służy do tworzenia wykresów jakości RRD, a także wpisów modułu równoważenia obciążenia. Użyj tego, jeśli brama nie odpowiada na żądania echa ICMP (pingi)"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 649
 #: 
@@ -3205,17 +3206,17 @@ msgstr "Członek niedostępny"
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 282
 #: 
 msgid "Trigger Level"
-msgstr ""
+msgstr "Poziom wyzwalania"
 
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 277
 #: 
 msgid "The virtual IP field selects what (virtual) IP should be used when this group applies to a local Dynamic DNS, IPsec or OpenVPN endpoint"
-msgstr ""
+msgstr "Pole wirtualnego adresu IP określa, jaki (wirtualny) adres IP ma być używany, gdy ta grupa dotyczy lokalnego dynamicznego punktu końcowego DNS, IPsec lub OpenVPN"
 
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 271
 #: 
 msgid "The priority selected here defines in what order failover and balancing of links will be done. Multiple links of the same priority will balance connections until all links in the priority will be exhausted. If all links in a priority level are exhausted we will use the next available link(s) in the next priority level."
-msgstr ""
+msgstr "Wybrany tutaj priorytet określa kolejność przełączania awaryjnego i równoważenia łączy. Wiele łączy o tym samym priorytecie będzie równoważyć połączenia, aż wszystkie łącza w priorytecie zostaną wyczerpane. Jeśli wszystkie łącza na poziomie priorytetu zostaną wyczerpane, użyjemy następnego dostępnego łącza na kolejnym poziomie priorytetu."
 
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 270
 #: 
@@ -3270,7 +3271,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 224
 #: 
 msgid "Remember to use these Gateway Groups in firewall rules in order to enable load balancing, failover, or policy-based routing. Without rules directing traffic into the Gateway Groups, they will not be used."
-msgstr ""
+msgstr "Pamiętaj, aby używać tych grup bram w regułach zapory w celu włączenia równoważenia obciążenia, przełączania awaryjnego lub routingu opartego na zasadach. Bez reguł kierujących ruch do grup bram nie będą one używane."
 
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 215
 #. File: /usr/core/src/www/system_gateways.php, line: 404
@@ -3282,7 +3283,7 @@ msgstr "Powiel"
 #. File: /usr/core/src/www/system_gateways.php, line: 371
 #: 
 msgid "Warning (latency)"
-msgstr ""
+msgstr "Ostrzeżenie (opóźnienie)"
 
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 178
 #. File: /usr/core/src/www/system_gateways.php, line: 368
@@ -3337,13 +3338,13 @@ msgstr "Grupa bram"
 #. File: /usr/core/src/www/system_crlmanager.php, line: 642
 #: 
 msgid "Delete CRL"
-msgstr ""
+msgstr "Usuń CRL"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 631
 #. File: /usr/core/src/www/system_crlmanager.php, line: 636
 #: 
 msgid "Edit CRL"
-msgstr ""
+msgstr "Edytuj CRL"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 626
 #: 
@@ -3388,7 +3389,7 @@ msgstr "Brak certyfikatów dla wybranego urzędu certyfikacji"
 #. File: /usr/core/src/www/system_crlmanager.php, line: 497
 #: 
 msgid "Delete this certificate from the CRL"
-msgstr ""
+msgstr "Usuń ten certyfikat z listy CRL"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 486
 #: 
@@ -3409,7 +3410,7 @@ msgstr "Powód odwołania"
 #. File: /usr/core/src/www/vpn_openvpn_export.php, line: 1437
 #: 
 msgid "Certificate Name"
-msgstr ""
+msgstr "Nazwa certyfikatu"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 472
 #: 
@@ -3434,7 +3435,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_crlmanager.php, line: 399
 #: 
 msgid "Default: 9999"
-msgstr ""
+msgstr "Domyślnie: 9999"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 390
 #: 
@@ -3618,7 +3619,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 1130
 #: 
 msgid "*Revoked"
-msgstr ""
+msgstr "*Odwołany"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 1129
 #: 
@@ -3741,7 +3742,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 774
 #: 
 msgid "Certificate authority"
-msgstr ""
+msgstr "Urząd certyfikacji"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 292
 #: 
@@ -3756,27 +3757,27 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 258
 #: 
 msgid "Final Certificate data"
-msgstr ""
+msgstr "Dane Certyfikatu Końcowego"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 103
 #: 
 msgid "Choose an existing certificate"
-msgstr ""
+msgstr "Wybierz istniejący certyfikat"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 87
 #: 
 msgid "Create a Certificate Signing Request"
-msgstr ""
+msgstr "Utwórz żądanie podpisania certyfikatu"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 86
 #: 
 msgid "Create an internal Certificate"
-msgstr ""
+msgstr "Utwórz certyfikat wewnętrzny"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 85
 #: 
 msgid "Import an existing Certificate"
-msgstr ""
+msgstr "Importuj istniejący certyfikat"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 776
 #: 
@@ -4320,7 +4321,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 190
 #: 
 msgid "Tunables are composed of runtime settings for sysctl.conf which take effect immediately after apply and boot settings for loader.conf which require a reboot."
-msgstr ""
+msgstr "Tunable składają się z ustawień wykonawczych dla sysctl.conf, które zaczynają obowiązywać natychmiast po zastosowaniu, oraz ustawień startowych dla loader.conf, które wymagają ponownego uruchomienia."
 
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 181
 #: 
@@ -4416,7 +4417,7 @@ msgstr "Sprzętowe filtrowanie VLAN"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 238
 #: 
 msgid "Checking this option will disable hardware large receive offloading (LRO). This offloading is broken in some hardware drivers, and may impact performance with some specific NICs."
-msgstr ""
+msgstr "Zaznaczenie tej opcji spowoduje wyłączenie sprzętowego odciążania dużych odbiorów (LRO). To odciążanie jest zepsute w niektórych sterownikach sprzętu i może mieć wpływ na wydajność niektórych określonych kart sieciowych."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 236
 #: 
@@ -4559,7 +4560,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 400
 #: 
 msgid "The powerd utility monitors the system state and sets various power control options accordingly. It offers four modes (maximum, minimum, adaptive and hiadaptive) that can be individually selected while on AC power or batteries. The modes maximum, minimum, adaptive and hiadaptive may be abbreviated max, min, adp, hadp. Maximum mode chooses the highest performance values. Minimum mode selects the lowest performance values to get the most power savings. Adaptive mode attempts to strike a balance by degrading performance when the system appears idle and increasing it when the system is busy. It offers a good balance between a small performance loss for greatly increased power savings. Hiadaptive mode is alike adaptive mode, but tuned for systems where performance and interactivity are more important than power consumption. It raises frequency faster, drops slower and keeps twice lower CPU load."
-msgstr ""
+msgstr "Zasilane narzędzie monitoruje stan systemu i odpowiednio ustawia różne opcje sterowania zasilaniem. Oferuje cztery tryby (maksymalny, minimalny, adaptacyjny i hiadaptacyjny), które można indywidualnie wybrać przy zasilaniu prądem zmiennym lub bateriach. Tryby maksimum, minimum, adaptacyjny i hiadaptacyjny mogą być określane skrótem max, min, adp, hadp. Tryb maksymalny wybiera najwyższe wartości wydajności. Tryb minimalny wybiera najniższe wartości wydajności, aby uzyskać największą oszczędność energii. Tryb adaptacyjny próbuje osiągnąć równowagę, obniżając wydajność, gdy system wydaje się bezczynny i zwiększając ją, gdy system jest zajęty. Zapewnia dobrą równowagę między niewielką utratą wydajności, a znacznie większą oszczędnością energii. Tryb Hiadaptive jest podobny do trybu adaptacyjnego, ale dostosowany do systemów, w których wydajność i interaktywność są ważniejsze niż zużycie energii. Szybciej podnosi częstotliwość, wolniej spada i utrzymuje dwukrotnie mniejsze obciążenie procesora."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 396
 #: 
@@ -4604,7 +4605,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 329
 #: 
 msgid "This will periodically backup the RRD data so it can be restored automatically on the next boot."
-msgstr ""
+msgstr "Spowoduje to okresową kopię zapasową danych RRD, aby można je było przywrócić automatycznie przy następnym uruchomieniu."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 322
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 341
@@ -4635,12 +4636,12 @@ msgstr "Cykliczna kopia"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 301
 #: 
 msgid "If you do not have a supported thermal sensor chip in your system, this option will have no effect. To unload the selected module, set this option to 'none' and then reboot."
-msgstr ""
+msgstr "Jeśli nie masz w swoim systemie obsługiwanego układu czujnika temperatury, ta opcja nie będzie działać. Aby wyładować wybrany moduł, ustaw tę opcję na „brak”, a następnie uruchom ponownie."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 297
 #: 
 msgid "If you have a supported CPU, selecting a themal sensor will load the appropriate driver to read its temperature. Setting this to 'None' will attempt to read the temperature from an ACPI-compliant motherboard sensor instead, if one is present."
-msgstr ""
+msgstr "Jeśli masz obsługiwany procesor, wybranie czujnika termicznego załaduje odpowiedni sterownik, aby odczytać jego temperaturę. Ustawienie tej opcji na „Brak” spowoduje próbę odczytania temperatury z czujnika płyty głównej zgodnego z ACPI, jeśli taki jest obecny."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 287
 #: 
@@ -4656,28 +4657,28 @@ msgstr "Czujniki temperatury"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 256
 #: 
 msgid "If you do not have a crypto chip in your system, this option will have no effect. To unload the selected module, set this option to 'none' and then reboot."
-msgstr ""
+msgstr "Jeśli nie masz w swoim systemie chipa kryptograficznego, ta opcja nie przyniesie efektu. Aby wyładować wybrany moduł, ustaw tę opcję na „brak”, a następnie uruchom ponownie."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 235
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 284
 #: 
 msgid "Hardware"
-msgstr ""
+msgstr "Sprzęt"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 112
 #: 
 msgid "Please select a valid Thermal Hardware Sensor."
-msgstr ""
+msgstr "Wybierz prawidłowy czujnik sprzętu termicznego."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 108
 #: 
 msgid "Please select a valid Cryptographic Accelerator."
-msgstr ""
+msgstr "Wybierz prawidłowy akcelerator kryptograficzny."
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 63
 #: 
 msgid "Intel Core* CPU on-die thermal sensor"
-msgstr ""
+msgstr "Wbudowany czujnik termiczny procesora Intel Core*"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 62
 #: 
@@ -5012,7 +5013,7 @@ msgstr "Wyłącz wymuszanie bramy"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 408
 #: 
 msgid "Using policy routing in the packet filter rules causes packets to skip processing for the traffic shaper and captive portal tasks. Using this option enables the sharing of such forwarding decisions between all components to accomodate complex setups."
-msgstr ""
+msgstr "Użycie routingu strategii w regułach filtrowania pakietów powoduje, że pakiety pomijają przetwarzanie dla zadań kształtowania ruchu i portalu przechwytującego. Użycie tej opcji umożliwia współdzielenie takich decyzji o przekazywaniu między wszystkie komponenty, aby dostosować się do złożonych konfiguracji."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 406
 #: 
@@ -5027,7 +5028,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 396
 #: 
 msgid "Set the source tracking timeout for sticky connections in seconds. By default this is 0, so source tracking is removed as soon as the state expires. Setting this timeout higher will cause the source/destination relationship to persist for longer periods of time."
-msgstr ""
+msgstr "Ustaw limit czasu śledzenia źródła dla trwałych połączeń w sekundach. Domyślnie jest to 0, więc śledzenie źródła jest usuwane, gdy tylko stan wygaśnie. Ustawienie wyższego limitu czasu spowoduje, że relacja źródło/miejsce docelowe będzie utrzymywała się przez dłuższy czas."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 394
 #: 
@@ -5037,7 +5038,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 386
 #: 
 msgid "Successive connections will be redirected to the servers in a round-robin manner with connections from the same source being sent to the same gateway. This 'sticky connection' will exist as long as there are states that refer to this connection. Once the states expire, so will the sticky connection. Further connections from that host will be redirected to the next gateway in the round-robin."
-msgstr ""
+msgstr "Kolejne połączenia będą przekierowywane do serwerów w sposób okrężny, przy czym połączenia z tego samego źródła będą wysyłane do tej samej bramy. To „lepkie połączenie” będzie istniało, dopóki istnieją stany, które odnoszą się do tego połączenia. Gdy stany wygasną, to samo stanie się z lepkim połączeniem. Dalsze połączenia z tego hosta będą przekierowywane do następnej bramy w round-robin."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 384
 #: 
@@ -5517,7 +5518,7 @@ msgstr "Wiem co robię"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 307
 #: 
 msgid "Changing the listen interfaces of the web GUI may prevent you from accessing this page if you continue. It is recommended to keep this set to the default unless you know what you are doing."
-msgstr ""
+msgstr "Zmiana interfejsów nasłuchiwania sieciowego GUI może uniemożliwić dostęp do tej strony, jeśli będziesz kontynuować. Zaleca się pozostawienie tego domyślnego ustawienia, chyba że wiesz, co robisz."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 306
 #: 
@@ -6574,7 +6575,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 215
 #: 
 msgid "The local zone type used for the system domain. Type descriptions are available under \"local-zone:\" in the %sunbound.conf(5)%s manual page. The default is 'transparent'."
-msgstr ""
+msgstr "Typ strefy lokalnej używany w domenie systemowej. Opisy typów są dostępne w \"local-zone:\" na stronie podręcznika %sunbound.conf(5)%s. Wartość domyślna to „przezroczysta”."
 
 #. File: /usr/core/src/www/services_unbound.php, line: 205
 #: 
@@ -6625,7 +6626,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 354
 #: 
 msgid "Routes are specified in CIDR format. The prefix of a route definition should be network prefix; it can be used to advertise more specific routes to the hosts."
-msgstr ""
+msgstr "Trasy są określone w formacie CIDR. Prefiks definicji trasy powinien być prefiksem sieci; może być używany do rozgłaszania bardziej szczegółowych tras do hostów."
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 325
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 688
@@ -6980,7 +6981,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 367
 #: 
 msgid "Note: A higher baud rate is generally only helpful if the GPS is sending too many sentences. It is recommended to configure the GPS to send only one sentence at a baud rate of 4800 or 9600."
-msgstr ""
+msgstr "Uwaga: Wyższa prędkość transmisji jest generalnie pomocna tylko wtedy, gdy GPS wysyła zbyt wiele zdań. Zaleca się skonfigurowanie GPS tak, aby wysyłał tylko jedno zdanie z szybkością transmisji 4800 lub 9600."
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 357
 #: 
@@ -7477,7 +7478,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_dhcpv6_relay.php, line: 160
 #: 
 msgid "If this is checked, the DHCPv6 relay will append the circuit ID (interface number) and the agent ID to the DHCPv6 request."
-msgstr ""
+msgstr "Jeśli ta opcja jest zaznaczona, przekaźnik DHCPv6 dołączy identyfikator obwodu (numer interfejsu) i identyfikator agenta do żądania DHCPv6."
 
 #. File: /usr/core/src/www/services_dhcpv6_relay.php, line: 151
 #: 
@@ -7497,7 +7498,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_dhcpv6_relay.php, line: 112
 #: 
 msgid "The DHCPv6 server is currently enabled. Cannot enable the DHCPv6 relay while the DHCPv6 server is enabled on any interface."
-msgstr ""
+msgstr "Serwer DHCPv6 jest obecnie włączony. Nie można włączyć przekaźnika DHCPv6, gdy serwer DHCPv6 jest włączony na dowolnym interfejsie."
 
 #. File: /usr/core/src/www/services_dhcpv6_relay.php, line: 64
 #: 
@@ -7796,7 +7797,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 715
 #: 
 msgid "Enter the DHCP option number and the value for each item you would like to include in the DHCP lease information. For a list of available options please visit this %sURL%s."
-msgstr ""
+msgstr "Wprowadź numer opcji DHCP i wartość dla każdego elementu, który chcesz uwzględnić w informacjach o dzierżawie DHCP. Aby uzyskać listę dostępnych opcji, odwiedź ten %sURL%s."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 1029
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 697
@@ -8314,7 +8315,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_dhcp.php, line: 314
 #: 
 msgid "String type must be enclosed in quotes like \"this\" or must be a series of octets specified in hexadecimal, separated by colons, like 01:23:45:67:89:ab:cd:ef"
-msgstr ""
+msgstr "Typ ciągu musi być ujęty w cudzysłów, np. „this”, lub musi być serią oktetów określonych w systemie szesnastkowym, oddzielonych dwukropkami, np. 01:23:45:67:89:ab:cd:ef"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 312
 #: 
@@ -8736,7 +8737,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 733
 #: 
 msgid "This option is only meaningful if multi-link PPP is negotiated. It proscribes shorter multi-link fragment headers, saving two bytes on every frame. It is not necessary to disable this for connections that are not multi-link."
-msgstr ""
+msgstr "Ta opcja ma sens tylko wtedy, gdy negocjowany jest wielołączowy PPP. Blokuje krótsze nagłówki fragmentów wielołączowych, oszczędzając dwa bajty na każdą ramkę. Nie ma potrzeby wyłączania tej opcji dla połączeń, które nie są wielolinkowe."
 
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 731
 #: 
@@ -8751,7 +8752,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 719
 #: 
 msgid "This option causes mpd to adjust incoming and outgoing TCP SYN segments so that the requested maximum segment size is not greater than the amount allowed by the interface MTU. This is necessary in many setups to avoid problems caused by routers that drop ICMP Datagram Too Big messages. Without these messages, the originating machine sends data, it passes the rogue router then hits a machine that has an MTU that is not big enough for the data. Because the IP Don't Fragment option is set, this machine sends an ICMP Datagram Too Big message back to the originator and drops the packet. The rogue router drops the ICMP message and the originator never gets to discover that it must reduce the fragment size or drop the IP Don't Fragment option from its outgoing data."
-msgstr ""
+msgstr "Ta opcja powoduje, że mpd dostosowuje przychodzące i wychodzące segmenty TCP SYN tak, aby żądany maksymalny rozmiar segmentu nie był większy niż wielkość dozwolona przez MTU interfejsu. Jest to konieczne w wielu konfiguracjach, aby uniknąć problemów powodowanych przez routery, które upuszczają zbyt duże wiadomości ICMP Datagram. Bez tych wiadomości, maszyna inicjująca wysyła dane, przechodzi przez fałszywy router, a następnie trafia na maszynę, której MTU nie jest wystarczająco duże dla danych. Ponieważ ustawiona jest opcja IP Don't Fragment, ta maszyna wysyła komunikat ICMP zbyt duży datagram z powrotem do nadawcy i odrzuca pakiet. Nieuczciwy router odrzuca komunikat ICMP, a nadawca nigdy nie odkryje, że musi zmniejszyć rozmiar fragmentu lub usunąć opcję IP Don't Fragment z danych wychodzących."
 
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 717
 #: 
@@ -8766,7 +8767,7 @@ msgstr "TCPmssFix"
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 707
 #: 
 msgid "This option enables Van Jacobson TCP header compression, which saves several bytes per TCP data packet. You almost always want this option. This compression ineffective for TCP connections with enabled modern extensions like time stamping or SACK, which modify TCP options between sequential packets."
-msgstr ""
+msgstr "Ta opcja włącza kompresję nagłówka Van Jacobsona TCP, co pozwala zaoszczędzić kilka bajtów na pakiet danych TCP. Prawie zawsze chcesz tę opcję. Ta kompresja jest nieskuteczna w przypadku połączeń TCP z włączonymi nowoczesnymi rozszerzeniami, takimi jak znaczniki czasu lub SACK, które modyfikują opcje TCP między kolejnymi pakietami."
 
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 705
 #: 
@@ -8796,7 +8797,7 @@ msgstr "Limit czasu"
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 685
 #: 
 msgid "This option causes the interface to operate in dial-on-demand mode. Do NOT enable if you want your link to be always up. The interface is configured, but the actual connection of the link is delayed until qualifying outgoing traffic is detected."
-msgstr ""
+msgstr "Ta opcja powoduje, że interfejs działa w trybie wybierania numeru na żądanie. NIE włączaj, jeśli chcesz, aby Twój link był zawsze aktywny. Interfejs jest skonfigurowany, ale rzeczywiste połączenie łącza jest opóźnione do momentu wykrycia kwalifikującego się ruchu wychodzącego."
 
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 683
 #: 
@@ -13868,7 +13869,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 556
 #: 
 msgid "The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and _\". Aliases can be nested using this name."
-msgstr ""
+msgstr "Nazwa aliasu może składać się tylko ze znaków „a-z, A-Z, 0-9 i _”.  Aliasy można zagnieżdżać przy użyciu tej nazwy."
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 276
 #. File: /usr/core/src/www/firewall_aliases_import.php, line: 56
@@ -17306,7 +17307,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 182
 #: 
 msgid "Zones"
-msgstr ""
+msgstr "Strefy"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 169
 #: 
@@ -18659,12 +18660,12 @@ msgstr ""
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 65
 #: 
 msgid "FAILED"
-msgstr ""
+msgstr "ZAWIODŁO"
 
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 64
 #: 
 msgid "PASSED"
-msgstr ""
+msgstr "PRZESZŁO"
 
 #. File: /usr/plugins/net/frr/src/etc/inc/plugins.inc.d/frr.inc, line: 91
 #: 
@@ -21030,7 +21031,7 @@ msgstr ""
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 345
 #: 
 msgid "Zone ID"
-msgstr ""
+msgstr "ID strefy"
 
 #. File: /usr/plugins/www/web-proxy-useracl/src/etc/inc/plugins.inc.d/proxy_useracl.inc, line: 59
 #: 
@@ -34186,7 +34187,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 680
 #: 
 msgid "Trust"
-msgstr ""
+msgstr "Zaufany"
 
 #. File: /usr/lang/src/models.php, line: 681
 #: 
@@ -47064,7 +47065,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces.php, line: 1754
 #: 
 msgid "The real device name of this interface."
-msgstr ""
+msgstr "Prawdziwa nazwa urządzenia tego interfejsu."
 
 #. File: /usr/core/src/www/interfaces.php, line: 1726
 #: 
@@ -49794,7 +49795,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3133
 #: 
 msgid "Zone Name"
-msgstr ""
+msgstr "Nazwa Strefy"
 
 #. File: /usr/lang/src/controllers.php, line: 3146
 #: 
@@ -50882,7 +50883,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/Api/CategoryController.php, line: 65
 #: 
 msgid "(No Category)"
-msgstr ""
+msgstr "(brak kategorii)"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/OpenVPN/Api/ExportController.php, line: 208
 #: 
@@ -50892,7 +50893,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Syslog/Syslog.php, line: 73
 #: 
 msgid "A certificate is required for tls types"
-msgstr ""
+msgstr "Dla typów tls wymagany jest certyfikat"
 
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 267
 #: 
@@ -56439,23 +56440,23 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 66
 #: 
 msgid "(Re-) Import certificate"
-msgstr ""
+msgstr "Importuj certyfikat "
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 408
 #: 
 msgid "(Re-) import the selected certificate and associated CA certificates into the trust storage?"
-msgstr ""
+msgstr "(Ponownie) zaimportować wybrany certyfikat i powiązane certyfikaty CA do magazynu zaufania?"
 
 #. File: /usr/core/src/www/diag_packet_capture.php, line: 367
 #: 
 msgid "(de)select all"
-msgstr ""
+msgstr "Odznacz"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 447
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 209
 #: 
 msgid "A prefix longer than 28 cannot be used with a net30 topology."
-msgstr ""
+msgstr "Prefiks dłuższy niż 28 nie może być używany z topologią net30."
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 211
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 214
@@ -56466,12 +56467,12 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/logs.volt, line: 89
 #: 
 msgid "ACME Log"
-msgstr ""
+msgstr "Dziennik ACME"
 
 #. File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 61
 #: 
 msgid "ACME client"
-msgstr ""
+msgstr "Klient ACME"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 265
 #: 
@@ -56481,12 +56482,12 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 559
 #: 
 msgid "After changing settings, please remember to test and apply them with the buttons below."
-msgstr ""
+msgstr "Po zmianie ustawień pamiętaj o przetestowaniu i zastosowaniu poniższych przycisków."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_pftop.volt, line: 129
 #: 
 msgid "Age (sec)"
-msgstr ""
+msgstr "Wiek (sec)"
 
 #. File: /usr/core/src/www/system_general.php, line: 365
 #: 
@@ -56496,12 +56497,12 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 410
 #: 
 msgid "Allow service binding"
-msgstr ""
+msgstr "Zezwól na wiązanie usługi"
 
 #. File: /usr/core/src/www/widgets/widgets/system_log.widget.php, line: 103
 #: 
 msgid "An empty response from the server."
-msgstr ""
+msgstr "Pusta odpowiedź z serwera."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 110
 #: 
@@ -56521,7 +56522,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_authservers.php, line: 775
 #: 
 msgid "Automatic user creation"
-msgstr ""
+msgstr "Automatyczne tworzenie użytkowników"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/actions.volt, line: 209
 #: 
@@ -56531,7 +56532,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_pftop.volt, line: 133
 #: 
 msgid "Avg"
-msgstr ""
+msgstr "Avg"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 350
 #: 
@@ -56551,17 +56552,17 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1191
 #: 
 msgid "Close Action"
-msgstr ""
+msgstr "Zamknij Akcje"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 57
 #: 
 msgid "Copy account"
-msgstr ""
+msgstr "Skopiuj konto"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 64
 #: 
 msgid "Copy certificate"
-msgstr ""
+msgstr "Skopiuj certyfikat "
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 266
 #: 
@@ -56581,7 +56582,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 311
 #: 
 msgid "DNS Cache"
-msgstr ""
+msgstr "Pamięć podręczna DNS"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1209
 #: 
@@ -56591,7 +56592,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 109
 #: 
 msgid "Delete all filtered states"
-msgstr ""
+msgstr "Usuń wszystkie filtrowane stany"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 421
 #: 
@@ -56601,7 +56602,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd.php, line: 418
 #: 
 msgid "Deny packets that attempt a peer association"
-msgstr ""
+msgstr "Odrzuć pakiety, które próbują skojarzyć równorzędne"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 409
 #: 
@@ -56612,47 +56613,47 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 222
 #: 
 msgid "Dir"
-msgstr ""
+msgstr "Dir"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 415
 #: 
 msgid "Disable all except ntpq and ntpdc queries"
-msgstr ""
+msgstr "Wyłącz wszystkie oprócz zapytań ntpq i ntpdc"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 412
 #: 
 msgid "Disable ntpq and ntpdc queries"
-msgstr ""
+msgstr "Wyłącz zapytania ntpq i ntpdc"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 147
 #: 
 msgid "Disconnect dailup interfaces"
-msgstr ""
+msgstr "Odłącz interfejsy Dailup"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 527
 #: 
 msgid "Do you really want to remove this plugin?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć tę wtyczkę?"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 196
 #: 
 msgid "Download default template"
-msgstr ""
+msgstr "Pobierz domyślny szablon"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 56
 #: 
 msgid "Edit account"
-msgstr ""
+msgstr "Edytuj konto"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 63
 #: 
 msgid "Edit certificate"
-msgstr ""
+msgstr "Edytuj certyfikat"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 200
 #: 
 msgid "Emergency"
-msgstr ""
+msgstr "Nagły wypadek"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 406
 #: 
@@ -56662,7 +56663,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd.php, line: 360
 #: 
 msgid "Enable RRD graphs of NTP statistics"
-msgstr ""
+msgstr "Włącz wykresy RRD statystyk NTP"
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 358
 #: 
@@ -56672,12 +56673,12 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd.php, line: 392
 #: 
 msgid "Enable logging of NTP peer statistics"
-msgstr ""
+msgstr "Włącz rejestrowanie statystyk równorzędnych NTP"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 389
 #: 
 msgid "Enable logging of clock discipline statistics"
-msgstr ""
+msgstr "Włącz rejestrowanie statystyk dyscypliny zegara"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 367
 #: 
@@ -56698,18 +56699,18 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 835
 #: 
 msgid "Enabled - Authentication & encryption"
-msgstr ""
+msgstr "Włączone — uwierzytelnianie i szyfrowanie"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 816
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 832
 #: 
 msgid "Enabled - Authentication only"
-msgstr ""
+msgstr "Włączone — tylko uwierzytelnianie"
 
 #. File: /usr/core/src/www/services_dhcpv6_edit.php, line: 184
 #: 
 msgid "Enter a DUID Identifier in the following format:"
-msgstr ""
+msgstr "Wprowadź identyfikator DUID w następującym formacie:"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/FieldTypes/AliasContentField.php, line: 240
 #: 
@@ -56719,7 +56720,7 @@ msgstr ""
 #. File: /usr/plugins/dns/ddclient/src/opnsense/mvc/app/views/OPNsense/DynDNS/index.volt, line: 124
 #: 
 msgid "Error reconfiguring DynDNS"
-msgstr ""
+msgstr "Błąd ponownej konfiguracji DynDNS"
 
 #. File: /usr/plugins/sysutils/puppet-agent/src/opnsense/mvc/app/views/OPNsense/PuppetAgent/index.volt, line: 80
 #: 
@@ -56729,17 +56730,17 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/dot.volt, line: 131
 #: 
 msgid "Error reconfiguring unbound"
-msgstr ""
+msgstr "Błąd podczas ponownej konfiguracji unbound "
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_pftop.volt, line: 130
 #: 
 msgid "Expires (sec)"
-msgstr ""
+msgstr "Wygasa (sec)"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/pf.inc, line: 203
 #: 
 msgid "Firewall Log Templates"
-msgstr ""
+msgstr "Szablony dziennika zapory"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 116
 #: 
@@ -56749,7 +56750,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 314
 #: 
 msgid "Flush DNS cache during reload"
-msgstr ""
+msgstr "Opróżnij pamięć podręczną DNS podczas przeładowania"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 348
 #: 
@@ -56769,27 +56770,27 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 59
 #: 
 msgid "Go to page"
-msgstr ""
+msgstr "Idź do strony"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 348
 #: 
 msgid "HTTP Address"
-msgstr ""
+msgstr "Adres HTTP"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 349
 #: 
 msgid "HTTPS Address"
-msgstr ""
+msgstr "Adres HTTPS"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1933
 #: 
 msgid "Hardware settings"
-msgstr ""
+msgstr "Ustawienia sprzętowe"
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 331
 #: 
 msgid "Hash Layers"
-msgstr ""
+msgstr "Warstwy haszowania"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1201
 #: 
@@ -56824,7 +56825,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 348
 #: 
 msgid "Invalid argument for close action."
-msgstr ""
+msgstr "Nieprawidłowy argument dla akcji zamknięcia."
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 121
 #: 
@@ -56834,12 +56835,12 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 65
 #: 
 msgid "Issue or renew certificate"
-msgstr ""
+msgstr "Wydaj lub odnów certyfikat"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 505
 #: 
 msgid "Issue/Renew All Certificates"
-msgstr ""
+msgstr "Wydaj/odnów wszystkie certyfikaty"
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 334
 #: 
@@ -56904,7 +56905,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 523
 #: 
 msgid "Loaded#"
-msgstr ""
+msgstr "Załadowany#"
 
 #. File: /usr/core/src/www/diag_logs_settings.php, line: 224
 #: 
@@ -56940,18 +56941,18 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 32
 #: 
 msgid "Multiselect"
-msgstr ""
+msgstr "Wielokrotny wybór"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 970
 #: 
 msgid "Network booting"
-msgstr ""
+msgstr "Uruchamianie sieci"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 675
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 489
 #: 
 msgid "No available address range for configured interface subnet size."
-msgstr ""
+msgstr "Brak dostępnego zakresu adresów dla skonfigurowanego rozmiaru podsieci interfejsu."
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1031
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 733
@@ -56973,7 +56974,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 761
 #: 
 msgid "OpenVPN %s wizard allow client access"
-msgstr ""
+msgstr "Kreator OpenVPN %s zezwala na dostęp klienta"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 352
 #: 
@@ -56983,7 +56984,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces.php, line: 1938
 #: 
 msgid "Overwite global settings"
-msgstr ""
+msgstr "Zastąp ustawienia globalne"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1942
 #: 
@@ -56998,12 +56999,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/tunnels.volt, line: 185
 #: 
 msgid "Phase 1"
-msgstr ""
+msgstr "Faza 1"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/tunnels.volt, line: 187
 #: 
 msgid "Phase 2"
-msgstr ""
+msgstr "Faza 2"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 269
 #: 
@@ -57013,7 +57014,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/system.inc, line: 270
 #: 
 msgid "Polish"
-msgstr ""
+msgstr "Polski "
 
 #. File: /usr/core/src/www/interfaces.php, line: 1902
 #: 
@@ -57028,7 +57029,7 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 58
 #: 
 msgid "Register account"
-msgstr ""
+msgstr "Zarejestruj Konto"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 306
 #: 
@@ -57038,17 +57039,17 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 59
 #: 
 msgid "Remove account"
-msgstr ""
+msgstr "Usuń konto"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 70
 #: 
 msgid "Remove certificate"
-msgstr ""
+msgstr "Usuń certyfikat "
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 677
 #: 
 msgid "Remove log file:"
-msgstr ""
+msgstr "Usuń plik dziennika "
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 280
 #: 
@@ -57058,12 +57059,12 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 69
 #: 
 msgid "Reset certificate"
-msgstr ""
+msgstr "Resetuj certyfikat "
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 259
 #: 
 msgid "Reset source tracking"
-msgstr ""
+msgstr "Zresetuj śledzenie źródła"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 254
 #: 
@@ -57073,12 +57074,12 @@ msgstr ""
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 68
 #: 
 msgid "Revoke certificate"
-msgstr ""
+msgstr "Unieważnij certyfikat"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 67
 #: 
 msgid "Run automations"
-msgstr ""
+msgstr "Uruchom automatyzację "
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1149
 #: 
@@ -57143,7 +57144,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 344
 #: 
 msgid "Static Mode"
-msgstr ""
+msgstr "Tryb statyczny"
 
 #. File: /usr/core/src/www/system_general.php, line: 360
 #: 
@@ -57158,7 +57159,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 101
 #: 
 msgid "THR"
-msgstr ""
+msgstr "THR"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 301
 #: 
@@ -57173,18 +57174,18 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound.php, line: 270
 #: 
 msgid "The default domain name to use for DHCP lease registration. If empty, the system domain is used."
-msgstr ""
+msgstr "Domyślna nazwa domeny używana do rejestracji dzierżawy DHCP.  Jeśli jest pusta, używana jest domena systemowa."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 289
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 255
 #: 
 msgid "The field 'TLS Shared Key' does not appear to be valid"
-msgstr ""
+msgstr "Pole „Wspólny klucz TLS” jest nieprawidłowe"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 466
 #: 
 msgid "The following principles apply when managing certificates with this plugin:"
-msgstr ""
+msgstr "Podczas zarządzania certyfikatami za pomocą tej wtyczki obowiązują następujące zasady:"
 
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 234
 #: 
@@ -57204,7 +57205,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_vlan.php, line: 43
 #: 
 msgid "This VLAN cannot be deleted because it is assigned as an interface."
-msgstr ""
+msgstr "Nie można usunąć tej sieci VLAN, ponieważ jest ona przypisana jako interfejs."
 
 #. File: /usr/core/src/www/services_dhcpv6_relay.php, line: 166
 #: 
@@ -57220,7 +57221,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 142
 #: 
 msgid "This tunnel cannot be deleted because it is still being used as an interface."
-msgstr ""
+msgstr "Nie można usunąć tego tunelu, ponieważ nadal jest używany jako interfejs."
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 204
 #: 
@@ -57246,7 +57247,7 @@ msgstr "Nieprzydzielone"
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 311
 #: 
 msgid "Use flowid"
-msgstr ""
+msgstr "Użyj flowid"
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 345
 #: 
@@ -57271,7 +57272,7 @@ msgstr "Wietnamski"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 50
 #: 
 msgid "Waiting for data..."
-msgstr ""
+msgstr "Czekam na dane..."
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 348
 #: 
@@ -57291,7 +57292,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd.php, line: 297
 #: 
 msgid "When no servers are specified NTP will be completely disabled."
-msgstr ""
+msgstr "Gdy żaden serwer nie zostanie określony, NTP zostanie całkowicie wyłączony."
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 470
 #: 
@@ -57311,7 +57312,7 @@ msgstr ""
 #. File: /usr/plugins/net/wireguard/src/etc/inc/plugins.inc.d/wireguard.inc, line: 64
 #: 
 msgid "WireGuard (Group)"
-msgstr ""
+msgstr "WireGuard (Grupa)"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1215
 #: 
@@ -57321,37 +57322,37 @@ msgstr ""
 #. File: /usr/plugins/net/vnstat/src/opnsense/mvc/app/views/OPNsense/Vnstat/general.volt, line: 34
 #: 
 msgid "Yearly Statistics"
-msgstr ""
+msgstr "Statystyki roczne"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 368
 #: 
 msgid "You can only specify allow options (advanced option) for Pass type rules."
-msgstr ""
+msgstr "Możesz określić tylko opcje zezwalania (opcja zaawansowana) dla reguł typu Pass."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 68
 #: 
 msgid "You need a private key in p12 format to use Google Drive, instructions on how to acquire one can be found %shere%s."
-msgstr ""
+msgstr "Do korzystania z Dysku Google potrzebny jest klucz prywatny w formacie p12, instrukcje jak go zdobyć można znaleźć %tutaj%s."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 991
 #: 
 msgid "You need both a filename and a boot server configured for this to work."
-msgstr ""
+msgstr "Aby to zadziałało, potrzebujesz zarówno nazwy pliku, jak i serwera rozruchowego."
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 362
 #: 
 msgid "active ports"
-msgstr ""
+msgstr "Aktywne porty"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/tunnels.volt, line: 237
 #: 
 msgid "add phase 1 entry"
-msgstr ""
+msgstr "dodaj wpis fazy 1"
 
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 234
 #: 
 msgid "boot-time"
-msgstr ""
+msgstr "czas uruchamiania"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 363
 #: 
@@ -57371,7 +57372,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_states.volt, line: 201
 #: 
 msgid "kill all matched states"
-msgstr ""
+msgstr "zabij wszystkie dopasowane stany"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 345
 #: 
@@ -57381,7 +57382,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 483
 #: 
 msgid "loading data.."
-msgstr ""
+msgstr "ładowanie danych.."
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 128
 #: 
@@ -57401,7 +57402,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 232
 #: 
 msgid "runtime"
-msgstr ""
+msgstr "czas pracy"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/tunnels.volt, line: 221
 #: 
@@ -57427,7 +57428,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 230
 #: 
 msgid "unsupported"
-msgstr ""
+msgstr "nieobsługiwany"
 
 #. File: /usr/lang/src/controllers.php, line: 30
 #: 
@@ -57451,7 +57452,9 @@ msgstr ""
 msgid "\n"
 "         Specify an IP protocol for the listener.\n"
 "      "
-msgstr ""
+msgstr "\n"
+"         Określ protokół IP dla odbiornika.\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 219
 #: 
@@ -57471,7 +57474,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 275
 #: 
 msgid "Add Blocklist Alias"
-msgstr ""
+msgstr "Dodaj alias listy zablokowanych"
 
 #. File: /usr/lang/src/controllers.php, line: 301
 #: 
@@ -57481,7 +57484,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 365
 #: 
 msgid "An optional source IP address for outgoing connections."
-msgstr ""
+msgstr "Opcjonalny źródłowy adres IP dla połączeń wychodzących."
 
 #. File: /usr/lang/src/controllers.php, line: 366
 #: 
@@ -57491,17 +57494,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 378
 #: 
 msgid "As a DNS server may not answer all the IPs in one DNS request, haproxy keeps a cache of previous answers. An answer will be considered obsolete after [hold obsolete] seconds without the IP returned. Default is \"30s\"."
-msgstr ""
+msgstr "Ponieważ serwer DNS może nie odpowiedzieć na wszystkie adresy IP w jednym żądaniu DNS, haproxy przechowuje pamięć podręczną poprzednich odpowiedzi.  Odpowiedź zostanie uznana za przestarzałą po [przytrzymaj przestarzałe] sekundach bez zwrócenia adresu IP.  Wartość domyślna to „30s”."
 
 #. File: /usr/lang/src/controllers.php, line: 486
 #: 
 msgid "CA Options"
-msgstr ""
+msgstr "Opcje CA"
 
 #. File: /usr/lang/src/controllers.php, line: 519
 #: 
 msgid "Can be generated under ZoneID account management"
-msgstr ""
+msgstr "Można wygenerować w ramach zarządzania kontem ZoneID"
 
 #. File: /usr/lang/src/controllers.php, line: 525
 #: 
@@ -57531,7 +57534,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 694
 #: 
 msgid "Create certificates"
-msgstr ""
+msgstr "Utwórz certyfikaty"
 
 #. File: /usr/lang/src/controllers.php, line: 697
 #. File: /usr/lang/src/models.php, line: 398
@@ -57543,7 +57546,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 401
 #: 
 msgid "DDNSS API"
-msgstr ""
+msgstr "DDNSS API"
 
 #. File: /usr/lang/src/controllers.php, line: 760
 #: 
@@ -57558,17 +57561,17 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 782
 #: 
 msgid "Delay Warning Time"
-msgstr ""
+msgstr "Opóźnienie czasu ostrzeżenia"
 
 #. File: /usr/lang/src/controllers.php, line: 803
 #: 
 msgid "Description to identify this queue."
-msgstr ""
+msgstr "Opis do identyfikacji tej kolejki."
 
 #. File: /usr/lang/src/controllers.php, line: 804
 #: 
 msgid "Description to identify this rule."
-msgstr ""
+msgstr "Opis identyfikujący tę regułę."
 
 #. File: /usr/lang/src/controllers.php, line: 818
 #: 
@@ -57588,7 +57591,7 @@ msgstr "Wyłącz weryfikację SSL v2"
 #. File: /usr/lang/src/controllers.php, line: 841
 #: 
 msgid "Disabled Servers List"
-msgstr ""
+msgstr "Lista wyłączonych serwerów"
 
 #. File: /usr/lang/src/controllers.php, line: 860
 #: 
@@ -57653,12 +57656,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1102
 #: 
 msgid "Enable or disable this server."
-msgstr ""
+msgstr "Włącz lub wyłącz ten serwer."
 
 #. File: /usr/lang/src/controllers.php, line: 1112
 #: 
 msgid "Enable query logs"
-msgstr ""
+msgstr "Włącz dzienniki zapytań"
 
 #. File: /usr/lang/src/controllers.php, line: 1121
 #: 
@@ -57678,7 +57681,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1192
 #: 
 msgid "Enable this virtual server"
-msgstr ""
+msgstr "Włącz ten serwer wirtualny"
 
 #. File: /usr/lang/src/controllers.php, line: 1201
 #: 
@@ -57821,7 +57824,7 @@ msgstr "Linode API (v4)"
 #. File: /usr/lang/src/controllers.php, line: 1781
 #: 
 msgid "List of IP:port (or hostname:port) pairs of Zabbix servers for active checks. If port is not specified, the default port is used. IPv6 addresses must be enclosed in square brackets if the port for that host is specified. If the port is not specified, square brackets for IPv6 addresses are optional. If this parameter is not specified, active checks are disabled. Examples: zabbix.example.com, 10.0.0.2:20051, [::1]:30051,::1, [12fc::1]"
-msgstr ""
+msgstr "Lista par IP:port (lub nazwa hosta:port) serwerów Zabbix do aktywnego sprawdzania. Jeśli port nie jest określony, używany jest port domyślny. Adresy IPv6 muszą być ujęte w nawiasy kwadratowe, jeśli określono port dla tego hosta. Jeśli port nie jest określony, nawiasy kwadratowe dla adresów IPv6 są opcjonalne. Jeśli ten parametr nie zostanie określony, aktywne sprawdzenia są wyłączone. Przykłady: zabbix.example.com, 10.0.0.2:20051, [::1]:30051,::1, [12fc::1]"
 
 #. File: /usr/lang/src/controllers.php, line: 1785
 #: 
@@ -57912,12 +57915,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2104
 #: 
 msgid "Njalla"
-msgstr ""
+msgstr "Njalla"
 
 #. File: /usr/lang/src/controllers.php, line: 2137
 #: 
 msgid "Obsolete hold time"
-msgstr ""
+msgstr "Przestarzały czas wstrzymania"
 
 #. File: /usr/lang/src/controllers.php, line: 2158
 #: 
@@ -57937,7 +57940,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2199
 #: 
 msgid "Password associated with this account"
-msgstr ""
+msgstr "Hasło powiązane z tym kontem"
 
 #. File: /usr/lang/src/controllers.php, line: 2215
 #: 
@@ -57998,7 +58001,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2393
 #: 
 msgid "Refused hold time"
-msgstr ""
+msgstr "Odmówił czasu wstrzymania"
 
 #. File: /usr/lang/src/controllers.php, line: 2489
 #: 
@@ -58028,7 +58031,7 @@ msgstr "Schemat"
 #. File: /usr/lang/src/controllers.php, line: 2596
 #: 
 msgid "Secret API Key"
-msgstr ""
+msgstr "Tajny klucz API"
 
 #. File: /usr/lang/src/controllers.php, line: 2647
 #: 
@@ -58108,22 +58111,22 @@ msgstr "Wybierz port TCP zdalnego serwera NUT."
 #. File: /usr/lang/src/controllers.php, line: 2805
 #: 
 msgid "Set the authentication algorithm for the TSIG key."
-msgstr ""
+msgstr "Ustaw algorytm uwierzytelniania dla klucza TSIG."
 
 #. File: /usr/lang/src/controllers.php, line: 2843
 #: 
 msgid "Set the maximum number of concurrent connections for public services."
-msgstr ""
+msgstr "Ustaw maksymalną liczbę jednoczesnych połączeń dla połączeń  publicznych."
 
 #. File: /usr/lang/src/controllers.php, line: 2844
 #: 
 msgid "Set the maximum number of concurrent connections for servers."
-msgstr ""
+msgstr "Ustaw maksymalną liczbę jednoczesnych połączeń dla serwerów."
 
 #. File: /usr/lang/src/controllers.php, line: 2848
 #: 
 msgid "Set the maximum object size in memory (default 512KB when left empty)."
-msgstr ""
+msgstr "Ustaw maksymalny rozmiar obiektu w pamięci (domyślnie 512 KB, gdy pozostanie pusty)."
 
 #. File: /usr/lang/src/controllers.php, line: 2850
 #: 
@@ -58133,7 +58136,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2932
 #: 
 msgid "Sets the \"hold other\" timeout value for the resolver. Default \"30s\""
-msgstr ""
+msgstr "Ustawia wartość limitu czasu „wstrzymaj inne” dla przelicznika.  Domyślne „30s”"
 
 #. File: /usr/lang/src/controllers.php, line: 2989
 #: 
@@ -58344,12 +58347,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3630
 #: 
 msgid "Username or login to use"
-msgstr ""
+msgstr "Nazwa użytkownika lub login do użycia"
 
 #. File: /usr/lang/src/controllers.php, line: 3632
 #: 
 msgid "Username to login, must be an administrator."
-msgstr ""
+msgstr "Nazwa użytkownika do zalogowania, musi być administratorem."
 
 #. File: /usr/lang/src/controllers.php, line: 3642
 #: 
@@ -58394,7 +58397,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3688
 #: 
 msgid "When using HTTP-01 as challenge type, a local webserver is used to provide acme challenge data to the ACME CA. The local webserver is NOT directly exposed to the outside and should NOT use port 80 or any other well-known port. This setting allows you to change the local port of this webserver in case it interferes with another local service. Defaults to port 43580."
-msgstr ""
+msgstr "W przypadku używania protokołu HTTP-01 jako typu wyzwania, lokalny serwer sieciowy jest używany do dostarczania danych wyzwania acme do urzędu certyfikacji ACME. Lokalny serwer WWW NIE jest bezpośrednio wystawiony na zewnątrz i NIE powinien używać portu 80 ani żadnego innego dobrze znanego portu. To ustawienie umożliwia zmianę portu lokalnego tego serwera WWW w przypadku, gdy koliduje on z inną usługą lokalną. Domyślnie jest to port 43580."
 
 #. File: /usr/lang/src/controllers.php, line: 3693
 #: 
@@ -58536,12 +58539,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 474
 #: 
 msgid "DuckDNS"
-msgstr ""
+msgstr "DuckDNS"
 
 #. File: /usr/lang/src/models.php, line: 477
 #: 
 msgid "DynDNS.com"
-msgstr ""
+msgstr "DynDNS.com"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 509
 #. File: /usr/lang/src/models.php, line: 479
@@ -58652,7 +58655,7 @@ msgstr "Let's Encrypt [domyślne]"
 #. File: /usr/lang/src/models.php, line: 749
 #: 
 msgid "Logs / Global Error"
-msgstr ""
+msgstr "Dzienniki / Globalne błędy"
 
 #. File: /usr/lang/src/models.php, line: 750
 #: 
@@ -58732,12 +58735,12 @@ msgstr "Określ wartość z zakresu od 0 do 10000000."
 #. File: /usr/lang/src/models.php, line: 1109
 #: 
 msgid "Pulse Connect Secure"
-msgstr ""
+msgstr "Bezpieczne połączenie"
 
 #. File: /usr/lang/src/models.php, line: 1152
 #: 
 msgid "Related frontend item not found"
-msgstr ""
+msgstr "Nie znaleziono powiązanego elementu interfejsu użytkownika"
 
 #. File: /usr/lang/src/models.php, line: 1222
 #: 
@@ -58852,17 +58855,17 @@ msgstr "on"
 #. File: /usr/lang/src/models.php, line: 1790
 #: 
 msgid "ip4only.me"
-msgstr ""
+msgstr "ip4only.me"
 
 #. File: /usr/lang/src/models.php, line: 1791
 #: 
 msgid "ipify-ipv4"
-msgstr ""
+msgstr "ipify-ipv4"
 
 #. File: /usr/lang/src/models.php, line: 1792
 #: 
 msgid "ipify-ipv6"
-msgstr ""
+msgstr "ipify-ipv6"
 
 #. File: /usr/lang/src/models.php, line: 1823
 #: 
@@ -58922,10 +58925,10 @@ msgstr "secp384r1"
 #. File: /usr/lang/src/models.php, line: 1920
 #: 
 msgid "unix socket"
-msgstr ""
+msgstr "gniazdo unix"
 
 #. File: /usr/lang/src/models.php, line: 1940
 #: 
 msgid "zoneedit"
-msgstr ""
+msgstr "edycja strefy"
 
