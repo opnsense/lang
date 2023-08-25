@@ -26,7 +26,6 @@
 XGETTEXT=	xgettext -L PHP --from-code=UTF-8 -F --strict --debug
 XGETTEXT_PL=	xgettext.pl -P Locale::Maketext::Extract::Plugin::Volt \
 		-u -w -W
-MSGMERGE=	msgmerge -U -N --backup=off
 MSGFMT=		msgfmt
 
 PERL_DIR=	/usr/local/lib/perl5/site_perl
@@ -56,7 +55,6 @@ LANGDIR?=	/usr/lang
 
 TEMPLATE=	en_US
 INSTALL=
-MERGE=
 TEST=
 
 PAGER?=		less
@@ -74,11 +72,6 @@ install-${LANG}:
 clean-${LANG}:
 	@rm -f ${DESTDIR}${${LANG}DIR}/OPNsense.mo
 
-merge-${LANG}:
-	${MSGMERGE} ${LANG}.po ${TEMPLATE}.pot
-	# strip stale translations
-	sed -i '' -e '/^#~.*/d' ${LANG}.po
-
 test-${LANG}:
 	${MSGFMT} -o /dev/null ${LANG}.po
 	# XXX pretty this up
@@ -86,7 +79,6 @@ test-${LANG}:
 
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
-MERGE+=		merge-${LANG}
 TEST+=		test-${LANG}
 .endfor
 
@@ -111,7 +103,6 @@ ${TEMPLATE}:
 template: ${TEMPLATE}
 install upgrade: ${INSTALL}
 clean: ${CLEAN}
-merge: ${MERGE}
 test: ${TEST}
 
 src:
@@ -124,4 +115,4 @@ cleanse:
 	@${.CURDIR}/Scripts/cleanse_po.py
 
 
-.PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src
+.PHONY: ${INSTALL} ${TEMPLATE} src
