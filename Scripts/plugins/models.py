@@ -38,6 +38,9 @@ def recursiveParseModel(xmlNode):
     if xmlNode.tag == 'ValidationMessage':
         yield xmlNode.text
 
+    if xmlNode.tag == 'BlankDesc':
+        yield xmlNode.text
+
     if xmlNode.tag == 'OptionValues':
         for child in xmlNode:
             yield child.text
