@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2022 Franco Fichtner <franco@opnsense.org>
+# Copyright (c) 2015-2023 Franco Fichtner <franco@opnsense.org>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -48,6 +48,7 @@ LANGUAGES+=	ru_RU
 LANGUAGES+=	tr_TR
 LANGUAGES+=	vi_VN
 LANGUAGES+=	zh_CN
+LANGUAGES+=	zh_TW
 
 PLUGINSDIR?=	/usr/plugins
 COREDIR?=	/usr/core
