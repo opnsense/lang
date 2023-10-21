@@ -53,14 +53,14 @@ if 'response' in r and 'list' in r:
         if tmp == 'pt_BR.po':
             targets['pt-br'] = filename
         elif tmp == 'zh_TW.po':
-            targets['zh-Hant'] = filename
+            targets['zh-TW'] = filename
         else:
             targets[tmp.split('_')[0]] = filename
     for lang in r['list']:
         code = lang['code'].split('-')[0]
         if lang['code'] == 'pt-br':
             code = lang['code']
-        elif lang['code'] == 'zh-Hant':
+        elif lang['code'] == 'zh-TW':
             code = lang['code']
         if code not in targets:
             print("Skipped %(code)s (percentage complete : %(percentage).2f)" % lang)
