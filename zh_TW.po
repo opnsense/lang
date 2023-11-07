@@ -727,12 +727,12 @@ msgstr "%s5%s -- 在每個封包的讀寫向主制台輸出 R 和 W 字元，大
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1136
 #: 
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%s預設%s-%s4%s -- 正常使用範圍。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1135
 #: 
 msgid "%snone%s -- No output except fatal errors."
-msgstr ""
+msgstr "%s無%s -- 除非致命錯誤之外不會有輸出。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1134
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1562
@@ -819,7 +819,7 @@ msgstr "用於伺服器與用戶端之間的專用通訊 IPv4 虛擬網路，使
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 939
 #: 
 msgid "NOTE: Leave this set to SHA1 unless the server is set to match. SHA1 is the default for OpenVPN."
-msgstr ""
+msgstr "注意: 除非伺服器設定指定演算法，否則請將設定保留為 SHA1。SHA1 是 OpenVPN 的預設值。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 897
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 940
@@ -866,7 +866,7 @@ msgstr "自動產生共用的 TLS 認證金鑰"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 792
 #: 
 msgid "Renegotiate data channel key after n seconds (default=3600). Set to 0 to disable."
-msgstr ""
+msgstr "在幾秒後重新協商資料通道密鑰 (預設值 = 3600)。設定為 0 表示停用。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 788
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1573
@@ -892,7 +892,7 @@ msgstr "使用者認證設定"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 759
 #: 
 msgid "Set this option if you would like to bind to a specific port. Leave this blank or enter 0 for a random dynamic port."
-msgstr ""
+msgstr "如果要繫結到指定通訊埠請勾選。留空或輸入 0 將會採用隨機動態通訊埠。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 755
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 301
@@ -920,7 +920,7 @@ msgstr "Proxy 主機或位址"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 721
 #: 
 msgid "Continuously attempt to resolve the server host name. Useful when communicating with a server that is not permanently connected to the Internet"
-msgstr ""
+msgstr "持續嘗試解析伺服器主機名稱。這在沒有固定連線到網際網路的伺服器通訊時相當有用"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 719
 #: 
@@ -5894,12 +5894,12 @@ msgstr "CIDR"
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 232
 #: 
 msgid "Allow Snoop"
-msgstr ""
+msgstr "允許窺探"
 
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 229
 #: 
 msgid "Refuse"
-msgstr "拒絕"
+msgstr "拒絕查詢並回應錯誤"
 
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 223
 #: 
@@ -5955,7 +5955,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 390
 #: 
 msgid "Minimum Interval"
-msgstr ""
+msgstr "最小間隔"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 354
 #: 
@@ -6023,7 +6023,7 @@ msgstr "僅路由器"
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 114
 #: 
 msgid "Minimum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "最小間隔必須介於 %s 到 %s 秒之間。"
 
 #. File: /usr/core/src/www/services_router_advertisements.php, line: 111
 #: 
@@ -8561,7 +8561,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 459
 #: 
 msgid "Cache entry expire time"
-msgstr ""
+msgstr "快取項目過期時間"
 
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 450
 #: 
@@ -8626,7 +8626,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 352
 #: 
 msgid "Forward time"
-msgstr ""
+msgstr "轉送時間"
 
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 345
 #: 
@@ -11637,13 +11637,13 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_rules.php, line: 733
 #: 
 msgid "last match"
-msgstr "最近比對"
+msgstr "最後比對"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 489
 #. File: /usr/core/src/www/firewall_rules.php, line: 714
 #: 
 msgid "first match"
-msgstr "初次比對"
+msgstr "優先比對"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 388
 #. File: /usr/core/src/www/interfaces.php, line: 1694
@@ -12953,7 +12953,7 @@ msgstr ""
 #. File: /usr/core/src/www/diag_tables.php, line: 129
 #: 
 msgid "Tables"
-msgstr ""
+msgstr "表格"
 
 #. File: /usr/core/src/www/diag_system_pftop.php, line: 141
 #. File: /usr/core/src/www/diag_testport.php, line: 168
@@ -17029,7 +17029,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 470
 #: 
 msgid "Add %sBackend Pools:%s Group the previously added servers to build a server farm. All servers in a group usually deliver the same content. The Backend Pool takes care of health monitoring and load distribution. A Backend Pool must be configured even if you only have a single server."
-msgstr ""
+msgstr "加入%s後端集區:%s 對已經加入的伺服器進行分組以產生伺服器群。群組中所有伺服器通常會提供相同的內容。後端集區負責執行狀況監控和負載分配。即使只有一台伺服器，也必須設定後端集區。"
 
 #. File: /usr/plugins/sysutils/smart/src/www/widgets/widgets/smart_status.widget.php, line: 39
 #: 
@@ -17137,7 +17137,7 @@ msgstr "FRRouting 常駐程式"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 466
 #: 
 msgid "Welcome to the HAProxy plugin! This plugin is designed to offer all the features and flexibility HAProxy is famous for. If you are using HAProxy for the first time, please take some time to get familiar with it. The following information should help you to get started."
-msgstr ""
+msgstr "歡迎來到 HAProxy 外掛程式！這個外掛程式希望提供 HAProxy 知名的所有功能和靈活性。如果您是第一次使用 HAProxy 請花一些時間熟悉它，以下資訊應有助於您入門。"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 67
 #: 
@@ -18023,7 +18023,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 500
 #: 
 msgid "%sPublic Services:%s The HAProxy frontend. The Public Service listens for client connections, optionally applies rules and forwards client request data to the selected Backend Pool for load balancing or proxying. Every Public Service needs to be connected to a %spreviously created Backend Pool%s."
-msgstr ""
+msgstr "%s公開服務: %s HAProxy 前端。公開服務監聽用戶端連線，依需求套用規則，並將用戶端請求資料轉送到所選後端集區以進行負載平衡或代理。每個公開服務都需要連線至 %s已建立的後端集區%s。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 499
 #: 
@@ -18040,22 +18040,22 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 475
 #: 
 msgid "Further information is available in our %sHAProxy plugin documentation%s and of course in the %sofficial HAProxy documentation%s. Be sure to report bugs and request features on our %sGitHub issue page%s. Code contributions are also very welcome!"
-msgstr ""
+msgstr "更多資訊可以在我們的 %sHAProxy外掛程式文件%s 中找到，當然也可以在 %s官方HAProxy文件%s 中找到。請務必在我們的 %sGitHub 問題頁面%s 上回報錯誤並提出功能請求，程式碼貢獻也非常受歡迎！"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 474
 #: 
 msgid "Please be aware that you need to %smanually%s add the required firewall rules for all configured services."
-msgstr ""
+msgstr "請注意，您需要 %s手動%s 為所有已設定好的服務加入所需防火牆規則。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
 #: 
 msgid "Add %sPublic Services:%s The Public Service listens for client connections, optionally applies rules and forwards client request data to the selected Backend Pool for load balancing or proxying."
-msgstr ""
+msgstr "加入%s公開服務: %s 公開服務監聽用戶端連線，依設定套用規則並將用戶端請求資料轉送到所選後端集區，以進行負載平衡或代理。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 467
 #: 
 msgid "Note that you should configure HAProxy in the following order:"
-msgstr ""
+msgstr "請注意，您應該依照以下順序設定 HAProxy:"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 465
 #: 
@@ -18824,7 +18824,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 469
 #: 
 msgid "Add %sReal Servers:%s All physical or virtual servers that HAProxy should use to load balance between or proxy to."
-msgstr ""
+msgstr "加入%s真實伺服器: %s HAProxy 會用在負載平衡或代理到的所有實體或虛擬伺服器。"
 
 #. File: /usr/plugins/sysutils/nut/src/etc/inc/plugins.inc.d/nut.inc, line: 49
 #: 
@@ -19056,7 +19056,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 64
 #: 
 msgid "Add servers to this backend. Use TAB key to complete typing."
-msgstr ""
+msgstr "將伺服器加入到這個後端。使用 Tab 鍵完成輸入。"
 
 #. File: /usr/lang/src/controllers.php, line: 65
 #: 
@@ -19413,7 +19413,7 @@ msgstr "備份檢查逾時"
 #. File: /usr/lang/src/controllers.php, line: 129
 #: 
 msgid "Backup Table"
-msgstr ""
+msgstr "備用表格"
 
 #. File: /usr/lang/src/controllers.php, line: 130
 #: 
@@ -19428,7 +19428,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 132
 #: 
 msgid "Balancing Algorithm"
-msgstr ""
+msgstr "平衡演算法"
 
 #. File: /usr/lang/src/controllers.php, line: 133
 #: 
@@ -19737,7 +19737,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 196
 #: 
 msgid "Choose a logical operator."
-msgstr ""
+msgstr "選擇邏輯運算子。"
 
 #. File: /usr/lang/src/controllers.php, line: 197
 #: 
@@ -19757,12 +19757,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 200
 #: 
 msgid "Choose error messages to be included in this Backend Pool."
-msgstr ""
+msgstr "選擇要包含在這個後端集區中的錯誤訊息。"
 
 #. File: /usr/lang/src/controllers.php, line: 201
 #: 
 msgid "Choose error messages to be included in this Public Service."
-msgstr ""
+msgstr "選擇要包含在這個公開服務中的錯誤訊息。"
 
 #. File: /usr/lang/src/controllers.php, line: 202
 #: 
@@ -19777,7 +19777,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 204
 #: 
 msgid "Choose how to test. By using IF it tests if the condition evaluates to true. If you use UNLESS, the sense of the test is reversed."
-msgstr ""
+msgstr "選擇測試方式。經由使用 IF，它測試條件的計算結果是否為 true。如果使用 UNLESS，則測試的意義會顛倒過來。"
 
 #. File: /usr/lang/src/controllers.php, line: 205
 #: 
@@ -20070,7 +20070,7 @@ msgstr "目前時間統計"
 #. File: /usr/lang/src/controllers.php, line: 266
 #: 
 msgid "Custom HTTP check"
-msgstr ""
+msgstr "自訂 HTTP 檢查"
 
 #. File: /usr/lang/src/controllers.php, line: 267
 #: 
@@ -20248,7 +20248,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 300
 #: 
 msgid "Default Parameters"
-msgstr "默認參數"
+msgstr "預設參數"
 
 #. File: /usr/lang/src/controllers.php, line: 301
 #: 
@@ -20420,12 +20420,12 @@ msgstr "說明"
 #. File: /usr/lang/src/controllers.php, line: 311
 #: 
 msgid "Description for this Backend Pool."
-msgstr ""
+msgstr "這個後端集區的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 312
 #: 
 msgid "Description for this Health Monitor."
-msgstr ""
+msgstr "這個狀況監控器的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 313
 #: 
@@ -20435,7 +20435,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 314
 #: 
 msgid "Description for this Public Service."
-msgstr ""
+msgstr "這個公開服務的描述。"
 
 #. File: /usr/lang/src/controllers.php, line: 315
 #: 
@@ -20445,27 +20445,27 @@ msgstr "這個帳戶的說明。"
 #. File: /usr/lang/src/controllers.php, line: 316
 #: 
 msgid "Description for this certificate."
-msgstr ""
+msgstr "這個憑證的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 317
 #: 
 msgid "Description for this condition."
-msgstr ""
+msgstr "這個條件的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 318
 #: 
 msgid "Description for this error message."
-msgstr ""
+msgstr "這個錯誤訊息的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 320
 #: 
 msgid "Description for this rule."
-msgstr ""
+msgstr "這個規則的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 321
 #: 
 msgid "Description for this server."
-msgstr ""
+msgstr "這個伺服器的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 322
 #: 
@@ -20868,7 +20868,7 @@ msgstr "啟用 HTTPD"
 #. File: /usr/lang/src/controllers.php, line: 387
 #: 
 msgid "Enable Health Checking"
-msgstr ""
+msgstr "啟用狀況檢查"
 
 #. File: /usr/lang/src/controllers.php, line: 388
 #: 
@@ -21193,7 +21193,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 456
 #: 
 msgid "Enable insertion of the X-Forwarded-For header to requests sent to servers."
-msgstr ""
+msgstr "允許將 X-Forwarded-For 標頭插入至發送到伺服器的請求。"
 
 #. File: /usr/lang/src/controllers.php, line: 457
 #: 
@@ -21248,7 +21248,7 @@ msgstr "啟用或停用 Relayd。"
 #. File: /usr/lang/src/controllers.php, line: 468
 #: 
 msgid "Enable or disable SSL communication with this server."
-msgstr ""
+msgstr "啟用或停用這個伺服器的 SSL 通訊。"
 
 #. File: /usr/lang/src/controllers.php, line: 469
 #: 
@@ -21363,7 +21363,7 @@ msgstr "啟用或停用流量管理。"
 #. File: /usr/lang/src/controllers.php, line: 493
 #: 
 msgid "Enable or disable verbose logging. Each log line turns into a much richer format."
-msgstr ""
+msgstr "啟用或停用詳細記錄。每個記錄行都成為更詳細的格式。"
 
 #. File: /usr/lang/src/controllers.php, line: 494
 #: 
@@ -21932,7 +21932,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 609
 #: 
 msgid "Execute function"
-msgstr ""
+msgstr "執行函式"
 
 #. File: /usr/lang/src/controllers.php, line: 610
 #: 
@@ -21952,7 +21952,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 613
 #: 
 msgid "Expect Pattern"
-msgstr ""
+msgstr "預期模式"
 
 #. File: /usr/lang/src/controllers.php, line: 614
 #: 
@@ -21972,7 +21972,7 @@ msgstr "明確壅塞通知"
 #. File: /usr/lang/src/controllers.php, line: 617
 #: 
 msgid "Expression"
-msgstr ""
+msgstr "表達式"
 
 #. File: /usr/lang/src/controllers.php, line: 618
 #: 
@@ -22334,12 +22334,12 @@ msgstr "HAProxy 整合"
 #. File: /usr/lang/src/controllers.php, line: 695
 #: 
 msgid "HAProxy function"
-msgstr ""
+msgstr "HAProxy 函式"
 
 #. File: /usr/lang/src/controllers.php, line: 697
 #: 
 msgid "HAProxy will use this backend pool if the condition evaluates to true."
-msgstr ""
+msgstr "如果條件計算結果為 true，HAProxy 將使用這個後端集區。"
 
 #. File: /usr/lang/src/controllers.php, line: 698
 #: 
@@ -22530,7 +22530,7 @@ msgstr "標頭內容"
 #. File: /usr/lang/src/controllers.php, line: 734
 #: 
 msgid "Health Checking"
-msgstr ""
+msgstr "狀況檢查"
 
 #. File: /usr/lang/src/controllers.php, line: 735
 #: 
@@ -23501,7 +23501,7 @@ msgstr "記錄選項"
 #. File: /usr/lang/src/controllers.php, line: 897
 #: 
 msgid "Logical operator for conditions"
-msgstr ""
+msgstr "條件的邏輯運算子"
 
 #. File: /usr/lang/src/controllers.php, line: 898
 #: 
@@ -23812,7 +23812,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 960
 #: 
 msgid "Maximum object size (MB)"
-msgstr ""
+msgstr "最大物件大小 (MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 961
 #: 
@@ -24020,12 +24020,12 @@ msgstr "名稱"
 #. File: /usr/lang/src/controllers.php, line: 990
 #: 
 msgid "Name to identify this Backend Pool."
-msgstr ""
+msgstr "用來識別這個後端集區的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 991
 #: 
 msgid "Name to identify this Health Monitor."
-msgstr ""
+msgstr "用於識別這個狀況監控器的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 992
 #: 
@@ -24035,7 +24035,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 993
 #: 
 msgid "Name to identify this Public Service."
-msgstr ""
+msgstr "用於識別這個公開服務的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 994
 #: 
@@ -24045,7 +24045,7 @@ msgstr "用於識別這個帳戶的名稱。"
 #. File: /usr/lang/src/controllers.php, line: 995
 #: 
 msgid "Name to identify this condition."
-msgstr ""
+msgstr "用於識別這個條件的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 996
 #: 
@@ -24055,7 +24055,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 998
 #: 
 msgid "Name to identify this rule."
-msgstr ""
+msgstr "用於識別這個規則的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 1000
 #: 
@@ -24075,7 +24075,7 @@ msgstr "Name.com"
 #. File: /usr/lang/src/controllers.php, line: 1003
 #: 
 msgid "Negate condition"
-msgstr ""
+msgstr "反向條件"
 
 #. File: /usr/lang/src/controllers.php, line: 1004
 #: 
@@ -24418,7 +24418,7 @@ msgstr "選項透通"
 #. File: /usr/lang/src/controllers.php, line: 1064
 #: 
 msgid "Optional condition"
-msgstr ""
+msgstr "選用條件"
 
 #. File: /usr/lang/src/controllers.php, line: 1065
 #: 
@@ -24919,7 +24919,7 @@ msgstr "協定類型"
 #. File: /usr/lang/src/controllers.php, line: 1153
 #: 
 msgid "Provide either the FQDN or the IP address of this server."
-msgstr ""
+msgstr "提供這個伺服器的 FQDN 或 IP 位址。"
 
 #. File: /usr/lang/src/controllers.php, line: 1154
 #: 
@@ -24929,7 +24929,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1155
 #: 
 msgid "Provide the TCP or UDP communication port for this server, i.e. 80 or 443. If set, all connections will be sent to this port. If unset, the same port the client connected to will be used."
-msgstr ""
+msgstr "伺服器提供 TCP 或 UDP 通訊埠，例如 80 或 443。若有設定，所有連線都都會發送到這個通訊埠。如果未設定，將會採用戶端連線時的同一個目標通訊埠。"
 
 #. File: /usr/lang/src/controllers.php, line: 1156
 #: 
@@ -25180,7 +25180,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1207
 #: 
 msgid "Request URI"
-msgstr ""
+msgstr "請求 URI"
 
 #. File: /usr/lang/src/controllers.php, line: 1208
 #: 
@@ -25290,7 +25290,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1233
 #: 
 msgid "Route Priority"
-msgstr ""
+msgstr "路由優先順序"
 
 #. File: /usr/lang/src/controllers.php, line: 1234
 #: 
@@ -25776,7 +25776,7 @@ msgstr "選擇要使用的多重模式比對器演算法。"
 #. File: /usr/lang/src/controllers.php, line: 1335
 #: 
 msgid "Select type of health check."
-msgstr ""
+msgstr "選擇狀況檢查類型。"
 
 #. File: /usr/lang/src/controllers.php, line: 1337
 #: 
@@ -25786,7 +25786,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1338
 #: 
 msgid "Send Data"
-msgstr ""
+msgstr "發送資料"
 
 #. File: /usr/lang/src/controllers.php, line: 1339
 #: 
@@ -26094,7 +26094,7 @@ msgstr "設定這個位址的動作。"
 #. File: /usr/lang/src/controllers.php, line: 1399
 #: 
 msgid "Set the default Backend Pool to use for this Public Service."
-msgstr ""
+msgstr "設定要用在這個公開服務的預設後端集區。"
 
 #. File: /usr/lang/src/controllers.php, line: 1400
 #: 
@@ -26154,7 +26154,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1412
 #: 
 msgid "Set the maximum number of concurrent connections for this Public Service."
-msgstr ""
+msgstr "設定這個公開服務的最大同時連接數。"
 
 #. File: /usr/lang/src/controllers.php, line: 1414
 #: 
@@ -26209,7 +26209,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1425
 #: 
 msgid "Set the number of retries to perform on a server after a connection failure."
-msgstr ""
+msgstr "設定連線失敗後要在伺服器上執行的重試次數。"
 
 #. File: /usr/lang/src/controllers.php, line: 1426
 #: 
@@ -26259,12 +26259,12 @@ msgstr "設定要比對的收件者位址。"
 #. File: /usr/lang/src/controllers.php, line: 1436
 #: 
 msgid "Set the running mode or protocol for this Public Service."
-msgstr ""
+msgstr "設定這個公開服務的執行模式或協定。"
 
 #. File: /usr/lang/src/controllers.php, line: 1437
 #: 
 msgid "Set the running mode or protocol of the Backend Pool. Usually the Public Service and the Backend Pool are in the same mode."
-msgstr ""
+msgstr "設定後端集區的執行模式或協定。通常公開服務和後端集區會設定在同一模式。"
 
 #. File: /usr/lang/src/controllers.php, line: 1438
 #: 
@@ -26339,7 +26339,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1454
 #: 
 msgid "Sets the operation mode to use for this server."
-msgstr ""
+msgstr "設定要用在這個伺服器的操作模式。"
 
 #. File: /usr/lang/src/controllers.php, line: 1455
 #: 
@@ -26882,12 +26882,12 @@ msgstr "表格"
 #. File: /usr/lang/src/controllers.php, line: 1552
 #: 
 msgid "Table Check"
-msgstr ""
+msgstr "表格檢查"
 
 #. File: /usr/lang/src/controllers.php, line: 1553
 #: 
 msgid "Table type"
-msgstr ""
+msgstr "表格類型"
 
 #. File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 231
 #. File: /usr/lang/src/controllers.php, line: 1554
@@ -28123,7 +28123,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1810
 #: 
 msgid "Use this to invert the meaning of the expression."
-msgstr ""
+msgstr "勾選後可反向表達式的含義。"
 
 #. File: /usr/lang/src/controllers.php, line: 1811
 #: 
@@ -28427,7 +28427,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1862
 #: 
 msgid "X-Forwarded-For header"
-msgstr "X-Forwarded-For header"
+msgstr "X-Forwarded-For 標頭"
 
 #. File: /usr/lang/src/controllers.php, line: 1863
 #: 
@@ -28880,7 +28880,7 @@ msgstr "AES-256-GCM"
 #. File: /usr/lang/src/models.php, line: 63
 #: 
 msgid "AND [default]"
-msgstr ""
+msgstr "AND [預設]"
 
 #. File: /usr/lang/src/models.php, line: 65
 #: 
@@ -29387,7 +29387,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 163
 #: 
 msgid "Deny"
-msgstr "拒絕"
+msgstr "拒絕查詢"
 
 #. File: /usr/lang/src/models.php, line: 164
 #: 
@@ -29743,7 +29743,7 @@ msgstr "HTTP (Layer 7) [預設]"
 #. File: /usr/lang/src/models.php, line: 238
 #: 
 msgid "HTTP / HTTPS (SSL offloading) [default]"
-msgstr ""
+msgstr "HTTP / HTTPS (SSL 卸載) [預設]"
 
 #. File: /usr/lang/src/models.php, line: 239
 #: 
@@ -30066,7 +30066,7 @@ msgstr "租約"
 #. File: /usr/lang/src/models.php, line: 307
 #: 
 msgid "Least Connections"
-msgstr ""
+msgstr "最少連線優先"
 
 #. File: /usr/lang/src/models.php, line: 308
 #: 
@@ -30186,7 +30186,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 338
 #: 
 msgid "Minimum number of usable servers in backend"
-msgstr ""
+msgstr "後端可用伺服器的最小數量"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 450
 #. File: /usr/lang/src/models.php, line: 340
@@ -30306,7 +30306,7 @@ msgstr "選項 [預設]"
 #. File: /usr/lang/src/models.php, line: 364
 #: 
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
@@ -30393,7 +30393,7 @@ msgstr "輸出"
 #. File: /usr/lang/src/models.php, line: 379
 #: 
 msgid "Override server in Backend Pool"
-msgstr ""
+msgstr "替換後端集區中的伺服器"
 
 #. File: /usr/lang/src/models.php, line: 380
 #: 
@@ -30474,7 +30474,7 @@ msgstr "路徑包含子目錄"
 #. File: /usr/lang/src/models.php, line: 393
 #: 
 msgid "Path ends with"
-msgstr ""
+msgstr "路徑結尾為"
 
 #. File: /usr/lang/src/models.php, line: 394
 #: 
@@ -30484,12 +30484,12 @@ msgstr "路徑比對"
 #. File: /usr/lang/src/models.php, line: 395
 #: 
 msgid "Path regex"
-msgstr ""
+msgstr "路徑正則表達式"
 
 #. File: /usr/lang/src/models.php, line: 396
 #: 
 msgid "Path starts with"
-msgstr ""
+msgstr "路徑開頭為"
 
 #. File: /usr/lang/src/models.php, line: 398
 #: 
@@ -31360,12 +31360,12 @@ msgstr "來源 IP 是本地"
 #. File: /usr/lang/src/models.php, line: 597
 #: 
 msgid "Source IP matches specified IP"
-msgstr ""
+msgstr "來源 IP 與指定的 IP 比對"
 
 #. File: /usr/lang/src/models.php, line: 598
 #: 
 msgid "Source IP: TCP source port"
-msgstr ""
+msgstr "來源IP: TCP 來源通訊埠"
 
 #. File: /usr/lang/src/models.php, line: 599
 #: 
@@ -31380,7 +31380,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 601
 #: 
 msgid "Source IP: concurrent connections"
-msgstr ""
+msgstr "來源 IP: 同時連線數"
 
 #. File: /usr/lang/src/models.php, line: 602
 #: 
@@ -31390,37 +31390,37 @@ msgstr "來源 IP: 連線速率"
 #. File: /usr/lang/src/models.php, line: 603
 #: 
 msgid "Source IP: cumulative number of HTTP errors"
-msgstr ""
+msgstr "來源 IP: HTTP 錯誤的累積數"
 
 #. File: /usr/lang/src/models.php, line: 604
 #: 
 msgid "Source IP: cumulative number of connections"
-msgstr ""
+msgstr "來源 IP: 累計連線數"
 
 #. File: /usr/lang/src/models.php, line: 605
 #: 
 msgid "Source IP: incoming bytes rate"
-msgstr ""
+msgstr "來源 IP: 流入 bytes 速率"
 
 #. File: /usr/lang/src/models.php, line: 606
 #: 
 msgid "Source IP: number of HTTP requests"
-msgstr ""
+msgstr "來源 IP: HTTP 請求數"
 
 #. File: /usr/lang/src/models.php, line: 607
 #: 
 msgid "Source IP: outgoing bytes rate"
-msgstr ""
+msgstr "來源 IP: 流出 bytes 組速率"
 
 #. File: /usr/lang/src/models.php, line: 608
 #: 
 msgid "Source IP: rate of HTTP errors"
-msgstr ""
+msgstr "來源 IP: HTTP 錯誤率"
 
 #. File: /usr/lang/src/models.php, line: 609
 #: 
 msgid "Source IP: rate of HTTP requests"
-msgstr ""
+msgstr "來源 IP: HTTP 請求速率"
 
 #. File: /usr/lang/src/models.php, line: 610
 #: 
@@ -31435,7 +31435,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 612
 #: 
 msgid "Source-IP Hash [default]"
-msgstr ""
+msgstr "來源 IP 雜湊 [預設]"
 
 #. File: /usr/lang/src/models.php, line: 613
 #: 
@@ -31753,12 +31753,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 685
 #: 
 msgid "URI Hash (only HTTP mode)"
-msgstr ""
+msgstr "URI 雜湊 (僅限 HTTP 模式)"
 
 #. File: /usr/lang/src/models.php, line: 686
 #: 
 msgid "URL parameter contains"
-msgstr ""
+msgstr "網址參數包含"
 
 #. File: /usr/lang/src/models.php, line: 687
 #: 
@@ -31795,7 +31795,7 @@ msgstr "更新"
 #. File: /usr/lang/src/models.php, line: 692
 #: 
 msgid "Use specified Backend Pool"
-msgstr ""
+msgstr "使用指定的後端集區"
 
 #. File: /usr/lang/src/models.php, line: 694
 #: 
@@ -35284,12 +35284,12 @@ msgstr "同步"
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 246
 #: 
 msgid "Refuse Non-local"
-msgstr "拒絕非本地"
+msgstr "拒絕非本地查詢並回應錯誤"
 
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 243
 #: 
 msgid "Deny Non-local"
-msgstr ""
+msgstr "拒絕非本地查詢"
 
 #. File: /usr/core/src/www/services_unbound_acls.php, line: 174
 #. File: /usr/core/src/www/services_unbound_overrides.php, line: 92
@@ -37239,7 +37239,7 @@ msgstr ""
 #. File: /usr/lang/src/config.php, line: 53
 #: 
 msgid "Maximum socket buffer size"
-msgstr ""
+msgstr "最大 socket 緩衝區大小"
 
 #. File: /usr/lang/src/config.php, line: 54
 #: 
@@ -38053,7 +38053,7 @@ msgstr "這個自動化的說明。"
 #. File: /usr/lang/src/controllers.php, line: 476
 #: 
 msgid "Description for this group."
-msgstr ""
+msgstr "這個群組的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 477
 #: 
@@ -38063,7 +38063,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 480
 #: 
 msgid "Description for this user."
-msgstr ""
+msgstr "這個使用者的說明。"
 
 #. File: /usr/lang/src/controllers.php, line: 487
 #: 
@@ -39472,7 +39472,7 @@ msgstr "用於識別這個自動化的名稱。"
 #. File: /usr/lang/src/controllers.php, line: 1443
 #: 
 msgid "Name to identify this group."
-msgstr ""
+msgstr "用於識別這個群組的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 1444
 #: 
@@ -39482,7 +39482,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1447
 #: 
 msgid "Name to identify this user."
-msgstr ""
+msgstr "用於識別這個使用者的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 1454
 #: 
@@ -39630,12 +39630,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1596
 #: 
 msgid "Persistence"
-msgstr ""
+msgstr "持續性"
 
 #. File: /usr/lang/src/controllers.php, line: 1597
 #: 
 msgid "Persistence type"
-msgstr ""
+msgstr "持續性類型"
 
 #. File: /usr/lang/src/controllers.php, line: 1606
 #: 
@@ -41998,7 +41998,7 @@ msgstr "GID"
 #. File: /usr/lang/src/models.php, line: 418
 #: 
 msgid "HTTP Basic Auth: username/password from client matches selected User/Group"
-msgstr ""
+msgstr "HTTP 基本認證: 用戶端中的 使用者名稱/密碼 與選定的 使用者/群組 比對"
 
 #. File: /usr/lang/src/models.php, line: 419
 #: 
@@ -44288,7 +44288,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Diagnostics/Netflow.php, line: 71
 #: 
 msgid "WAN interfaces missing in listening interfaces: %s"
-msgstr ""
+msgstr "監聽介面中缺少 WAN 介面: %s"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Base/ApiMutableModelControllerBase.php, line: 136
 #: 
@@ -44693,7 +44693,9 @@ msgstr ""
 msgid "\n"
 "         If unchecked start the table disabled.\n"
 "      "
-msgstr ""
+msgstr "\n"
+"         不勾選即表示停用表格。\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 94
 #: 
@@ -44707,7 +44709,9 @@ msgstr ""
 msgid "\n"
 "         Match response against pattern.\n"
 "      "
-msgstr ""
+msgstr "\n"
+"         將回應結果與模式字元比對。\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 100
 #: 
@@ -44853,13 +44857,16 @@ msgstr "\n"
 msgid "\n"
 "         The name of the table check.\n"
 "      "
-msgstr ""
+msgstr "\n"
+"表格檢查的名稱。\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 158
 #: 
 msgid "\n"
 "         The name of the table."
-msgstr ""
+msgstr "\n"
+"表格的名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 160
 #: 
@@ -44891,14 +44898,18 @@ msgstr "\n"
 msgid "\n"
 "         The type of the protocol definition.\n"
 "      "
-msgstr ""
+msgstr "\n"
+"         協定的定義類型。\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 173
 #: 
 msgid "\n"
 "         This is a list with backend hosts\n"
 "      "
-msgstr ""
+msgstr "\n"
+"         要包含的後端主機清單\n"
+"      "
 
 #. File: /usr/lang/src/controllers.php, line: 176
 #: 
@@ -44960,7 +44971,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 261
 #: 
 msgid "Advertise Protocols (ALPN)"
-msgstr ""
+msgstr "通告協定 (ALPN)"
 
 #. File: /usr/lang/src/controllers.php, line: 266
 #: 
@@ -45246,7 +45257,7 @@ msgstr "啟用對 HTTP/2 的支援，即使未啟用 TLS。"
 #. File: /usr/lang/src/controllers.php, line: 961
 #: 
 msgid "Enable support for end-to-end HTTP/2 communication."
-msgstr ""
+msgstr "啟用端到端 HTTP/2 通訊的支援。"
 
 #. File: /usr/lang/src/controllers.php, line: 964
 #: 
@@ -45533,7 +45544,7 @@ msgstr "最大物件大小 (bytes)"
 #. File: /usr/lang/src/controllers.php, line: 1671
 #: 
 msgid "Maximum Size of Cache (MB)"
-msgstr ""
+msgstr "最大快取大小 (MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 1674
 #: 
@@ -46115,7 +46126,7 @@ msgstr "NRPE 常駐程式是否允許用戶端指定包含 $(...) 形式的 bash
 #. File: /usr/lang/src/controllers.php, line: 2815
 #: 
 msgid "This option forces encryption of all health checks over SSL, regardless of whether the server uses SSL or not for the normal traffic."
-msgstr ""
+msgstr "勾選後會強制通過 SSL 的所有狀況檢查進行加密，無論伺服器是否對正常流量使用 SSL。"
 
 #. File: /usr/lang/src/controllers.php, line: 2821
 #: 
@@ -47648,7 +47659,7 @@ msgstr "Git"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/traffic.volt, line: 456
 #: 
 msgid "Graph"
-msgstr "Graph"
+msgstr "圖表"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 337
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 389
@@ -47810,7 +47821,7 @@ msgstr ""
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 647
 #: 
 msgid "Lastly, enable HAProxy using the %sService%s settings page."
-msgstr ""
+msgstr "最後，請在 %s服務%s 設定頁啟用 HAProxy。"
 
 #. File: /usr/plugins/net/wireguard/src/www/widgets/widgets/wireguard.widget.php, line: 43
 #: 
@@ -48657,7 +48668,7 @@ msgstr "虛擬服務"
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 227
 #: 
 msgid "WAF Policies"
-msgstr "WAF 策略"
+msgstr "WAF 政策"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 224
 #: 
@@ -49026,7 +49037,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 273
 #: 
 msgid "Add resolver options. Use TAB key to complete typing."
-msgstr ""
+msgstr "加入解析器選項。使用 Tab 鍵完成輸入。"
 
 #. File: /usr/lang/src/controllers.php, line: 277
 #: 
@@ -49216,7 +49227,7 @@ msgstr "顏色"
 #. File: /usr/lang/src/controllers.php, line: 622
 #: 
 msgid "Common Options"
-msgstr ""
+msgstr "通用選項"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 143
 #. File: /usr/lang/src/controllers.php, line: 623
@@ -49350,7 +49361,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 847
 #: 
 msgid "Either configure a static server or a template to initialize multiple servers with shared parameters."
-msgstr ""
+msgstr "組態設並靜態伺服器或範本，以共用參數初始化多個伺服器。"
 
 #. File: /usr/lang/src/controllers.php, line: 868
 #: 
@@ -50033,7 +50044,7 @@ msgstr "NTS 用戶端支援"
 #. File: /usr/lang/src/controllers.php, line: 1954
 #: 
 msgid "Name or Prefix"
-msgstr ""
+msgstr "名稱或前置"
 
 #. File: /usr/lang/src/controllers.php, line: 1961
 #: 
@@ -50045,7 +50056,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1967
 #: 
 msgid "Name to identify a static server. When creating a server template, then this prefix is used for the server names to be built."
-msgstr ""
+msgstr "用於識別靜態伺服器的名稱。建立伺服器範本時，此前置用在要建立伺服器名稱上。"
 
 #. File: /usr/lang/src/controllers.php, line: 1984
 #: 
@@ -51588,22 +51599,22 @@ msgstr "HTTP 標頭包含"
 #. File: /usr/lang/src/models.php, line: 559
 #: 
 msgid "HTTP Header ends with"
-msgstr ""
+msgstr "HTTP 標頭結尾為"
 
 #. File: /usr/lang/src/models.php, line: 560
 #: 
 msgid "HTTP Header matches"
-msgstr ""
+msgstr "HTTP 標頭比對"
 
 #. File: /usr/lang/src/models.php, line: 561
 #: 
 msgid "HTTP Header regex"
-msgstr ""
+msgstr "HTTP 標頭正則表達式"
 
 #. File: /usr/lang/src/models.php, line: 562
 #: 
 msgid "HTTP Header starts with"
-msgstr ""
+msgstr "HTTP 標頭開頭為"
 
 #. File: /usr/lang/src/models.php, line: 582
 #: 
@@ -51881,7 +51892,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1267
 #: 
 msgid "Source IP: cumulative number of sessions"
-msgstr ""
+msgstr "來源 IP: 累計工作階段數"
 
 #. File: /usr/lang/src/models.php, line: 1274
 #: 
@@ -53284,7 +53295,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 654
 #: 
 msgid "Configure listen addresses for this Public Service, i.e. 127.0.0.1:8080 or www.example.com:443 or unix@socket-name. Use TAB key to complete typing a listen address."
-msgstr ""
+msgstr "組態設定這個公開服務的監聽位址，例如 127.0.0.1:8080、www.example.com:443 或 unix@socket-name。使用 Tab 鍵完成監聽地址的輸入。"
 
 #. File: /usr/lang/src/controllers.php, line: 662
 #: 
@@ -53441,7 +53452,7 @@ msgstr "啟用這個虛擬伺服器"
 #. File: /usr/lang/src/controllers.php, line: 1201
 #: 
 msgid "Enable to make the condition case-sensitive (if applicable). By default all conditions are not case-sensitive."
-msgstr ""
+msgstr "勾選可讓條件區分大小寫 (如果適用)。預設況下，所有條件都不區分大小寫。"
 
 #. File: /usr/lang/src/controllers.php, line: 1229
 #: 
@@ -56720,7 +56731,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1614
 #: 
 msgid "Use username instead of common name to match client specific override."
-msgstr ""
+msgstr "以使用者名稱而非以通用名稱比對用戶端特定覆寫。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 437
 #: 
@@ -57707,7 +57718,11 @@ msgid "\n"
 "          start of the name matches the required prefix and contains numeric characters or\n"
 "          dots, e.g. \"vlan0.1.2\" or \"qinq0.3.4\".\n"
 "        "
-msgstr ""
+msgstr "\n"
+"留空讓系統產生裝置名稱。可以自訂名稱，但前提是\n"
+"          名稱的開頭與所需的前置文字要相同，並且包含數字或\n"
+"          點，例如 “vlan0.1.2” 或 “qinq0.3.4”。\n"
+"        "
 
 #. File: /usr/lang/src/controllers.php, line: 459
 #: 
@@ -58365,7 +58380,7 @@ msgstr "拒絕服務繫結"
 #. File: /usr/lang/src/controllers.php, line: 1353
 #: 
 msgid "Description for this FastCGI application."
-msgstr ""
+msgstr "這個 FastCGI 應用程式的描述。"
 
 #. File: /usr/lang/src/controllers.php, line: 1368
 #: 
@@ -59871,7 +59886,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3550
 #: 
 msgid "Select the FastCGI application that should be used for all servers in this backend."
-msgstr ""
+msgstr "選擇要用這在這個後端中所有伺服器的 FastCGI 應用程式。"
 
 #. File: /usr/lang/src/controllers.php, line: 3555
 #: 
