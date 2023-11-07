@@ -43644,7 +43644,7 @@ msgstr "Por defecto se usa el nombre de dominio de este sistema como la lista de
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 162
 #: 
 msgid "A valid primary domain name server IPv6 address must be specified for the dynamic domain name."
-msgstr ""
+msgstr "Se debe especificar una dirección IPv6 válida del servidor de nombres de dominio primario para el nombre de dominio dinámico."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 1044
 #: 
@@ -43679,27 +43679,27 @@ msgstr "Habilitar OMAPI"
 #. File: /usr/core/src/www/services_dhcp.php, line: 869
 #: 
 msgid "Leave blank to use default (128) which should be fine for most cases. Enter a number (0-256) to specify the load-balancing split between the failover peers, the default of 128 means both peers will handle approximately 50% of the clients, 256 will make the primary handle all the clients. This value is only used on the primary peer, leave blank on the secondary."
-msgstr ""
+msgstr "Deje en blanco para usar el valor predeterminado (128), que deberia estar bien para la mayoría de los casos. Introduzca un número (0-256) para especificar la división de equilibrio de carga entre los pares de conmutación por error, el valor predeterminando de 128 significa que ambos pares manejarán aproximadamente el 50% de los clientes, 256 hará que el principal maneje todos los clientes. Este valor solo se utiliza en el par primario, deje en blanco en el secundario."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 865
 #: 
 msgid "Failover split:"
-msgstr ""
+msgstr "División de conmutación por error:"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 861
 #: 
 msgid "Leave blank to disable. Enter the interface IP address of the other machine. Machines must be using CARP. Interface's advskew determines whether the DHCPd process is Primary or Secondary. Ensure one machine's advskew<20 (and the other is >20). Note that changing this value will delete the current leases-database!"
-msgstr ""
+msgstr "Deje en blanco para desactivar. Introduzca la dirección IP de la interfaz de la otra máquina. Las máquinas deben usar CARP. El advskew de la interfaz determina si el proceso DHCPd es primario o secundario. Asegúrese de que la advskew de una máquina sea <20 (ya la otra es >20). ¡Tenga en cuenta que cambiar este valor eliminará la base de datos de arrendamientos acutal!"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 802
 #: 
 msgid "The default is to use the IP on this interface of the firewall as the gateway, if a valid (online) gateway has been configured under System->Gateways. Specify an alternate gateway here if this is not the correct gateway for your network. Type \"none\" for no gateway assignment."
-msgstr ""
+msgstr "El valor predeterminado es usar la IP en esta interfaz del firewall como puerta de enlace, si se ha configurado una puerta de enlace válida (en linea) en System->Gateways. Especifique una puerta de enlace alternativa aquí si esta no es la puerta de enlace correcta para su red. Escriba \"ninguno\" para ninguna asignación de puerta de enlace."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 314
 #: 
 msgid "Failover split must be a number between 0 and 256."
-msgstr ""
+msgstr "La división por error debe ser un número entre 0 y 256."
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 282
 #: 
@@ -43735,278 +43735,278 @@ msgstr "El MTU debe ser mayor que %s bytes y menor que %s."
 #. File: /usr/core/src/www/interfaces.php, line: 638
 #: 
 msgid "Cannot assign an IP configuration type to a tunnel interface."
-msgstr ""
+msgstr "No se puede asignar un tipo de configuración de IP a una interfaz de túnel."
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1443
 #: 
 msgid "Maximum state entries per host"
-msgstr ""
+msgstr "Entradas máximas de estado por host"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1434
 #: 
 msgid "Maximum number of established connections per host (TCP only)"
-msgstr ""
+msgstr "Número máximo de conexiones establecidas por host (solo TCP)"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1425
 #: 
 msgid "Maximum number of unique source hosts"
-msgstr ""
+msgstr "Número máximo de hosts de origen único"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 948
 #: 
 msgid "If you selected ICMP6 for the protocol above, you may specify an ICMP6 type here."
-msgstr ""
+msgstr "Si seleccionó ICMP6 para el protocolo anterior, puede especificar un tipo ICMP6 aquí."
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 906
 #: 
 msgid "ICMP6 type"
-msgstr ""
+msgstr "Tipo ICMP6"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 751
 #: 
 msgid "If a packet matches a rule specifying quick, then that rule is considered the last matching rule and the specified action is taken. When a rule does not have quick enabled, the last matching rule wins."
-msgstr ""
+msgstr "Si un paquete coincide con una regla que especifica rápido, entonces esa regla se considera la última regla coincidente y se toma la acción especificada. Cuando una regla no tiene activación rápida, la última regla coincidente gana."
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 1034
 #: 
 msgid "Floating rules are evaluated on a first-match basis (i.e. the action of the first rule to match a packet will be executed) only if the \"quick\" option is checked on a rule. Otherwise they will only apply if no other rules match. Pay close attention to the rule order and options chosen. If no rule here matches, the per-interface or default rules are used."
-msgstr ""
+msgstr "Las reglas flotantes se evalúan sobre la base de la primera coincidencia (es decir, se ejecutará la acción de la primera regla para que coincida con un paquete) solo si se marca la opción \"rápida\" en una regla. De lo contrario, solo se aplicarán si no coinciden otras reglas. Preste mucha atención al orden de las reglas y a las opciones elegidas. Si no coincide ninguna regla aquí, se utilizan las reglas por interfaz o por defecto."
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 1027
 #: 
 msgid "%s rules are evaluated on a first-match basis by default (i.e. the action of the first rule to match a packet will be executed). This means that if you use block rules, you will have to pay attention to the rule order. Everything that is not explicitly passed is blocked by default."
-msgstr ""
+msgstr "Las reglas %s se evalúan de forma predeterminada sobre la base de la primera coincidencia (es decir, se ejecutará la acción de la primera regla para que coincida con un paquete). Esto significa que si usas reglas de bloqueo, tendrás que prestar atención al orden de las reglas. Todo lo que no se pasa explícitamente se bloquea de forma predetermindada."
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 801
 #: 
 msgid "Enable logging"
-msgstr ""
+msgstr "Habilitar el registro"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 801
 #: 
 msgid "Disable logging"
-msgstr ""
+msgstr "Desactivar el registro"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 799
 #: 
 msgid "Enable rule"
-msgstr ""
+msgstr "Habilitar regla"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 799
 #: 
 msgid "Disable rule"
-msgstr ""
+msgstr "Desactivar regla"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 718
 #: 
 msgid "Automatically generated rules"
-msgstr ""
+msgstr "Reglas generadas automàticamente"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 701
 #: 
 msgid "Evaluations"
-msgstr ""
+msgstr "Evaluaciones"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 676
 #: 
 msgid "No %s rules are currently defined. All incoming connections on this interface will be blocked until you add a pass rule. Exceptions for automatically generated rules may apply."
-msgstr ""
+msgstr "Actualmente no hay reglas de %s definidas. Todas las conexiones entrantes en esta interfaz se bloquearán hasta que añadas una regla de pase. Pueden aplicarse excepciones para las reglas generadas automáticamente."
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 640
 #: 
 msgid "Inspect"
-msgstr ""
+msgstr "Inspeccionar"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 309
 #: 
 msgid "Enable Log"
-msgstr ""
+msgstr "Habilitar Registro"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 309
 #: 
 msgid "Disable Log"
-msgstr ""
+msgstr "Desactivar Registro"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 294
 #: 
 msgid "Enable Rule"
-msgstr ""
+msgstr "Habilitar Regla"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 294
 #: 
 msgid "Disable Rule"
-msgstr ""
+msgstr "Desactivar Regla"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 116
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 937
 #: 
 msgid "mtrace messages"
-msgstr ""
+msgstr "Mensajes de mtrace"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 115
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 936
 #: 
 msgid "mtrace response"
-msgstr ""
+msgstr "Respuesta de mtrace"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 114
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 935
 #: 
 msgid "Who-are-you reply"
-msgstr ""
+msgstr "Quién-eres-tu respuesta"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 113
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 934
 #: 
 msgid "Node information reply"
-msgstr ""
+msgstr "Respuesta de información del nodo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 112
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 933
 #: 
 msgid "FQDN reply"
-msgstr ""
+msgstr "Respuesta del FQDN"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 111
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 932
 #: 
 msgid "Who-are-you request"
-msgstr ""
+msgstr "Quién-eres-tu solicita"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 110
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 931
 #: 
 msgid "Node information query"
-msgstr ""
+msgstr "Consulta de información del nodo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 109
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 930
 #: 
 msgid "FQDN query"
-msgstr ""
+msgstr "Consulta de FQDN"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 108
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 929
 #: 
 msgid "Route renumbering"
-msgstr ""
+msgstr "Renumeración de rutas"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 107
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 928
 #: 
 msgid "Shorter route exists"
-msgstr ""
+msgstr "Existe una ruta más corta"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 106
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 927
 #: 
 msgid "Neighbor advertisement"
-msgstr ""
+msgstr "Anuncio de vecino"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 105
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 926
 #: 
 msgid "Neighbor solicitation"
-msgstr ""
+msgstr "Solicitud de vecino"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 104
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 925
 #: 
 msgid "Router advertisement"
-msgstr ""
+msgstr "Anuncio de enrutador"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 103
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 924
 #: 
 msgid "Router solicitation"
-msgstr ""
+msgstr "Solicitud de enrutador"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 102
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 923
 #: 
 msgid "Multicast listener done"
-msgstr ""
+msgstr "Escuchador de multidifusión hecho"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 101
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 922
 #: 
 msgid "Group membership termination"
-msgstr ""
+msgstr "Terminación de la membresía del grupo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 100
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 921
 #: 
 msgid "Multicast listener report"
-msgstr ""
+msgstr "Informe del oyente de multidifusión"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 99
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 920
 #: 
 msgid "Group membership report"
-msgstr ""
+msgstr "Informe de pertenencia al grupo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 98
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 919
 #: 
 msgid "Multicast listener query"
-msgstr ""
+msgstr "Consulta del oyente de multidifusión"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 97
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 918
 #: 
 msgid "Group membership query"
-msgstr ""
+msgstr "Consulta de pertenencia al grupo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 96
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 917
 #: 
 msgid "Echo service reply"
-msgstr ""
+msgstr "Respuesta del servicio Echo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 95
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 916
 #: 
 msgid "Echo service request"
-msgstr ""
+msgstr "Solicitud de servicio Echo"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 94
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 915
 #: 
 msgid "Invalid IPv6 header"
-msgstr ""
+msgstr "Cabecera IPv6 no válida"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 93
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 914
 #: 
 msgid "Time exceeded"
-msgstr ""
+msgstr "Tiempo excedido"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 92
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 913
 #: 
 msgid "Packet too big"
-msgstr ""
+msgstr "Paquete demasiado grande"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 91
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 912
 #: 
 msgid "Destination unreachable"
-msgstr ""
+msgstr "Destino inalcanzable"
 
 #. File: /usr/core/src/www/diag_pf_info.php, line: 32
 #: 
 msgid "timeouts"
-msgstr ""
+msgstr "Tiempos de espera"
 
 #. File: /usr/core/src/www/diag_pf_info.php, line: 32
 #: 
 msgid "rules"
-msgstr ""
+msgstr "Reglas"
 
 #. File: /usr/core/src/www/diag_pf_info.php, line: 32
 #: 
 msgid "memory"
-msgstr ""
+msgstr "Memoria"
 
 #. File: /usr/core/src/www/diag_pf_info.php, line: 32
 #: 
@@ -44016,127 +44016,127 @@ msgstr "interfaces"
 #. File: /usr/core/src/www/carp_status.php, line: 193
 #: 
 msgid "Current CARP demotion level"
-msgstr ""
+msgstr "Nivel actual de degradación de CARP"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 307
 #: 
 msgid "Remove selected item(s)?"
-msgstr ""
+msgstr "¿Eliminar el(los) articulo(s) seleccionado(s)?"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 304
 #: 
 msgid "Deselect All"
-msgstr ""
+msgstr "Anular la selección de todo"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 303
 #: 
 msgid "Select All"
-msgstr ""
+msgstr "Seleccionar todo"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 302
 #: 
 msgid "No results matched {0}"
-msgstr ""
+msgstr "No hay resultados coincidentes {0}"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 301
 #: 
 msgid "Nothing selected"
-msgstr ""
+msgstr "Nada seleccionado"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 121
 #: 
 msgid "Edit destination"
-msgstr ""
+msgstr "Editar destino"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 112
 #: 
 msgid "Error reconfiguring syslog"
-msgstr ""
+msgstr "Error al reconfigurar el syslog"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 92
 #: 
 msgid "SourceInstance"
-msgstr ""
+msgstr "Instancia de origen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 91
 #: 
 msgid "SourceId"
-msgstr ""
+msgstr "Id de origen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 90
 #: 
 msgid "SourceName"
-msgstr ""
+msgstr "Nombre de origen"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 458
 #: 
 msgid "Reset all generated content (cached files and certificates included) and restart the proxy."
-msgstr ""
+msgstr "Restablezca todo el contenido generado (archivos y certificados almacenados en caché incluidos) y reinicie el proxy."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 285
 #: 
 msgid "Support"
-msgstr ""
+msgstr "Apoyo"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 230
 #: 
 msgid "Are you sure you want to flush all generated content and restart the proxy?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres vaciar todo el contenido generado y reiniciar el proxy?"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 240
 #: 
 msgid "Error reconfiguring Monit"
-msgstr ""
+msgstr "Error al reconfigurar Monit"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/vxlan.volt, line: 53
 #: 
 msgid "Edit VxLan"
-msgstr ""
+msgstr "Editar VxLan"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/vxlan.volt, line: 45
 #: 
 msgid "Error reconfiguring vxlan"
-msgstr ""
+msgstr "Error al reconfigurar vxlan"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/loopback.volt, line: 52
 #: 
 msgid "Edit Loopback"
-msgstr ""
+msgstr "Editar Loopback"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/loopback.volt, line: 44
 #: 
 msgid "Error reconfiguring loopbacks"
-msgstr ""
+msgstr "Error al reconfigurar loopbacks"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/key_pairs.volt, line: 126
 #: 
 msgid "Edit key pair"
-msgstr ""
+msgstr "Editar par de claves"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/key_pairs.volt, line: 104
 #: 
 msgid "Key Fingerprint"
-msgstr ""
+msgstr "Huellas dactilares clave"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/key_pairs.volt, line: 103
 #: 
 msgid "Key Size"
-msgstr ""
+msgstr "Tamaño de la llave"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 901
 #: 
 msgid "SID"
-msgstr ""
+msgstr "SID"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 812
 #: 
 msgid "Drop selected"
-msgstr ""
+msgstr "Caída seleccionada"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 811
 #: 
 msgid "Alert selected"
-msgstr ""
+msgstr "Alerta seleccionada"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 223
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 231
@@ -44144,7 +44144,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 247
 #: 
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 219
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 227
@@ -44152,27 +44152,27 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 243
 #: 
 msgid "packets"
-msgstr ""
+msgstr "paquetes"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 610
 #: 
 msgid "Maintain a set of counters for each table entry"
-msgstr ""
+msgstr "Mantenga en conjunto de contadores para cada entrada de mesa"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 586
 #: 
 msgid "Countries"
-msgstr ""
+msgstr "Paises"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 585
 #: 
 msgid "Region"
-msgstr ""
+msgstr "Región"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 494
 #: 
 msgid "Enable this alias"
-msgstr ""
+msgstr "Habilita este alias"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 447
 #: 
