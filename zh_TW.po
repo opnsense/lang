@@ -121,7 +121,7 @@ msgstr "小工具高度："
 #. File: /usr/core/src/www/widgets/widgets/rss.widget.php, line: 91
 #: 
 msgid "Display number of items:"
-msgstr ""
+msgstr "顯示資料數量:"
 
 #. File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 156
 #: 
@@ -154,7 +154,7 @@ msgstr "更新中..."
 #. File: /usr/core/src/www/widgets/widgets/ntp_status.widget.php, line: 169
 #: 
 msgid "in use "
-msgstr ""
+msgstr "使用中 "
 
 #. File: /usr/core/src/www/widgets/widgets/ntp_status.widget.php, line: 163
 #: 
@@ -277,7 +277,7 @@ msgstr "核心"
 #. File: /usr/core/src/www/widgets/api/plugins/system.inc, line: 58
 #: 
 msgid "Current: %s MHz, Max: %s MHz"
-msgstr ""
+msgstr "目前: %s MHz, 最大: %s MHz"
 
 #. File: /usr/core/src/www/widgets/api/plugins/gateway.inc, line: 53
 #: 
@@ -427,7 +427,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1166
 #: 
 msgid "Server Bridge DHCP End"
-msgstr ""
+msgstr "伺服器橋接 DHCP 結束"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1156
 #: 
@@ -437,7 +437,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1152
 #: 
 msgid "Server Bridge DHCP Start"
-msgstr ""
+msgstr "伺服器橋接 DHCP 開始"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1142
 #: 
@@ -452,7 +452,7 @@ msgstr "橋接介面"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1109
 #: 
 msgid "Allow clients on the bridge to obtain DHCP."
-msgstr ""
+msgstr "允許橋接上的用戶端取得 DHCP。"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1104
 #: 
@@ -477,27 +477,27 @@ msgstr "當基於憑證的用戶端登入時，不接受低於這個深度的憑
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1026
 #: 
 msgid "Five (Client+4xIntermediate+Server)"
-msgstr ""
+msgstr "五 (用戶端+4x中繼+伺服器)"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1025
 #: 
 msgid "Four (Client+3xIntermediate+Server)"
-msgstr ""
+msgstr "四 (用戶端+3x中繼+伺服器)"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1024
 #: 
 msgid "Three (Client+2xIntermediate+Server)"
-msgstr ""
+msgstr "三 (用戶端+2x中繼+伺服器)"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1023
 #: 
 msgid "Two (Client+Intermediate+Server)"
-msgstr ""
+msgstr "二 (用戶端+中繼+伺服器)"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1022
 #: 
 msgid "One (Client+Server)"
-msgstr ""
+msgstr "一 (用戶端+伺服器)"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1019
 #: 
@@ -557,22 +557,22 @@ msgstr "勾選後可停用伺服器而不必將它從清單中移除"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 443
 #: 
 msgid "Do you really want to delete this server?"
-msgstr "是否真的要刪除這個伺服器？"
+msgstr "是否確定要刪除這個伺服器？"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 321
 #: 
 msgid "The Server Bridge DHCP range is invalid (start higher than end)."
-msgstr ""
+msgstr "伺服器橋接 DHCP 範圍無效（起始大於結束位址）。"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 318
 #: 
 msgid "Server Bridge DHCP End must be an IPv4 address."
-msgstr ""
+msgstr "伺服器橋接 DHCP 結束必須是 IPv4 位址。"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 315
 #: 
 msgid "Server Bridge DHCP Start must be an IPv4 address."
-msgstr ""
+msgstr "伺服器橋接 DHCP 起始必須是 IPv4 位址。"
 
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 312
 #: 
@@ -788,7 +788,7 @@ msgstr "設定通道封包的 TOS IP 標頭值用以比對封裝過的封包數�
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1036
 #: 
 msgid "Maximum outgoing bandwidth for this tunnel. Leave empty for no limit. The input value has to be something between 100 bytes/sec and 100 Mbytes/sec (entered as bytes per second)"
-msgstr ""
+msgstr "這個通道的最大連出頻寬。若無限制請留空。輸入值必須介於 100 bytes/sec 至 100 Mbytes/sec 之間（以每秒位元組計）"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1032
 #: 
@@ -825,7 +825,7 @@ msgstr "注意: 除非伺服器設定指定演算法，否則請將設定保留�
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 940
 #: 
 msgid "Automatically generate a shared key"
-msgstr ""
+msgstr "自動產生共用金鑰"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 892
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 934
@@ -836,7 +836,7 @@ msgstr "預先共用金鑰"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 886
 #: 
 msgid "if one is required for this connection."
-msgstr ""
+msgstr "如果此連線需要。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 885
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 910
@@ -905,7 +905,7 @@ msgstr "本地通訊埠"
 #. File: /usr/core/src/www/vpn_openvpn_export.php, line: 1395
 #: 
 msgid "ntlm"
-msgstr ""
+msgstr "ntlm"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 738
 #: 
@@ -990,7 +990,7 @@ msgstr "是否真的要刪除選擇的用戶端？"
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 383
 #: 
 msgid "Do you really want to delete this client?"
-msgstr ""
+msgstr "是否確定要刪除這個客戶端嗎？"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 295
 #: 
@@ -1012,12 +1012,12 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 267
 #: 
 msgid "The bandwidth limit must be a positive numeric value."
-msgstr ""
+msgstr "頻寬限制須為正的數值。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 250
 #: 
 msgid "User name and password are required for proxy with authentication."
-msgstr ""
+msgstr "需要使用者名稱和密碼才能進行需要認證的 proxy 設定。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 246
 #: 
@@ -1033,12 +1033,12 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 325
 #: 
 msgid "Renegotiate time should contain a valid number of seconds."
-msgstr ""
+msgstr "重新協商時間應該包含一個有效的秒數。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 234
 #: 
 msgid "At least one remote server must be specified."
-msgstr ""
+msgstr "至少需要指定一個遠端伺服器。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 224
 #: 
@@ -1059,34 +1059,34 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 205
 #: 
 msgid "The field 'Local port' must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "「本地通訊埠」欄位須填寫有效的通訊埠號碼，範圍從 0 到 65535。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 201
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 189
 #: 
 msgid "An IPv6 protocol was selected, but the selected interface has no IPv6 address."
-msgstr ""
+msgstr "已選用 IPv6 協定，但是所選擇的介面沒有 IPv6 位址。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 199
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 187
 #: 
 msgid "An IPv4 protocol was selected, but the selected interface has no IPv4 address."
-msgstr ""
+msgstr "已選用 IPv4 協定，但是所選擇的介面沒有 IPv4 位址。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 197
 #: 
 msgid "Protocol and IP address families do not match. You cannot select an IPv4 protocol and an IPv6 address."
-msgstr ""
+msgstr "協定與 IP 位址不符。您無法選擇 IPv4 協定與 IPv6 位址。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 195
 #: 
 msgid "Protocol and IP address families do not match. You cannot select an IPv6 protocol and an IPv4 address."
-msgstr ""
+msgstr "協定與 IP 位址不符。您無法選擇 IPv6 協定與 IPv4 位址。"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 224
 #: 
 msgid "Launch IPsec in debug mode so that more verbose logs will be generated to aid in troubleshooting."
-msgstr ""
+msgstr "啟動 IPsec 偵錯模式，產生更詳細記錄以利協助進行故障排除。"
 
 #. File: /usr/core/src/www/vpn_ipsec_settings.php, line: 206
 #: 
@@ -1146,7 +1146,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 744
 #: 
 msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
-msgstr ""
+msgstr "例如 192.168.1.0/24, 192.168.2.0/24"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 740
 #: 
@@ -1161,7 +1161,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 725
 #: 
 msgid "Automatically ping host"
-msgstr ""
+msgstr "自動 ping 主機"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 707
 #: 
@@ -1171,7 +1171,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 670
 #: 
 msgid "PFS key group"
-msgstr ""
+msgstr "PFS 金鑰群組"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 658
 #: 
@@ -1231,12 +1231,12 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 336
 #: 
 msgid "At least one hashing algorithm needs to be selected."
-msgstr ""
+msgstr "至少需要選擇一種雜湊演算法。"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 331
 #: 
 msgid "At least one encryption algorithm must be selected."
-msgstr ""
+msgstr "至少需要選擇一種加密演算法。"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 319
 #: 
@@ -1256,7 +1256,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 262
 #: 
 msgid "A valid remote network IPv4 address must be specified or you need to change Mode to IPv6"
-msgstr ""
+msgstr "須指定有效的遠端網路 IPv4 位址，或者需要將模式更改為 IPv6"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 260
 #: 
@@ -1301,7 +1301,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 218
 #: 
 msgid "Local network type"
-msgstr ""
+msgstr "本地網路類型"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 215
 #: 
@@ -1311,7 +1311,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1059
 #: 
 msgid "Number of consecutive failures allowed before disconnect."
-msgstr ""
+msgstr "允許的連續失敗次數上限，超過則中斷連線。"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1057
 #: 
@@ -1485,7 +1485,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 734
 #: 
 msgid "Negotiation mode"
-msgstr ""
+msgstr "協商模式"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 729
 #: 
@@ -1537,12 +1537,12 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 592
 #: 
 msgid "Start immediate"
-msgstr ""
+msgstr "立即開始"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 591
 #: 
 msgid "Start on traffic"
-msgstr ""
+msgstr "隨流量啟動"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 590
 #: 
@@ -1743,7 +1743,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 539
 #: 
 msgid "Login Banner"
-msgstr ""
+msgstr "登入頁標題字串"
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 497
 #. File: /usr/core/src/www/vpn_openvpn_csc.php, line: 658
@@ -1788,7 +1788,7 @@ msgstr "提供預設功能變數名稱給用戶端"
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 437
 #: 
 msgid "Save Xauth Password"
-msgstr ""
+msgstr "儲存 Xauth 密碼"
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 432
 #: 
@@ -1968,12 +1968,12 @@ msgstr "行動裝置用戶端"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 215
 #: 
 msgid "Require passwords to meet complexity rules"
-msgstr ""
+msgstr "要求密碼符合複雜性規則"
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 213
 #: 
 msgid "Enable complexity requirements"
-msgstr ""
+msgstr "啟用複雜性要求"
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 210
 #: 
@@ -2049,12 +2049,12 @@ msgstr "使用者設定"
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 97
 #: 
 msgid "Saved settings for user \"%s\""
-msgstr ""
+msgstr "使用者 \"%s\" 的設定已儲存"
 
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 72
 #: 
 msgid "Sorry, you cannot change settings for a non-local user."
-msgstr ""
+msgstr "抱歉，您無法更改非本機使用者的設定。"
 
 #. File: /usr/core/src/www/system_usermanager_import_ldap.php, line: 153
 #: 
@@ -2064,7 +2064,7 @@ msgstr "請選擇要匯入的使用者："
 #. File: /usr/core/src/www/system_usermanager_import_ldap.php, line: 143
 #: 
 msgid "Could not connect to the LDAP server. Please check your LDAP configuration."
-msgstr ""
+msgstr "無法連線至 LDAP 伺服器。請檢查您的 LDAP 組態。"
 
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 234
 #: 
@@ -2074,7 +2074,7 @@ msgstr "取消全選 (可見)"
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 230
 #: 
 msgid "Select all (visible)"
-msgstr ""
+msgstr "全選 (目前所見)"
 
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 185
 #: 
@@ -2094,7 +2094,7 @@ msgstr "允許"
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 172
 #: 
 msgid "System Privileges"
-msgstr ""
+msgstr "系統權限"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 1025
 #: 
@@ -2199,12 +2199,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager.php, line: 810
 #: 
 msgid "export certificate"
-msgstr ""
+msgstr "匯出憑證"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 806
 #: 
 msgid "export private key"
-msgstr ""
+msgstr "匯出私鑰"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 787
 #: 
@@ -2219,7 +2219,7 @@ msgstr "用戶憑證"
 #. File: /usr/core/src/www/system_usermanager.php, line: 773
 #: 
 msgid "edit privileges"
-msgstr ""
+msgstr "編輯權限"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 756
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 205
@@ -2309,14 +2309,14 @@ msgstr "是否確定要刪除這個 API 金鑰？"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 106
 #: 
 msgid "Popup blocker detected. Action aborted."
-msgstr ""
+msgstr "檢測到彈出式廣告攔截器。動作已中止。"
 
 #. File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users.php, line: 72
 #. File: /usr/plugins/net/pptp/src/www/vpn_pptp_users.php, line: 74
 #. File: /usr/core/src/www/system_usermanager.php, line: 450
 #: 
 msgid "Do you really want to delete this user?"
-msgstr ""
+msgstr "是否確定要刪除這個規則？"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 426
 #: 
@@ -2331,12 +2331,12 @@ msgstr "(憑證不會刪除)"
 #. File: /usr/core/src/www/system_usermanager.php, line: 313
 #: 
 msgid "Invalid login shell provided."
-msgstr ""
+msgstr "提供的 Login Shell 無效。"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 308
 #: 
 msgid "Invalid internal Certificate Authority"
-msgstr ""
+msgstr "無效的內部憑證單位"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 301
 #: 
@@ -2346,7 +2346,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager.php, line: 281
 #: 
 msgid "That username is reserved by the system."
-msgstr ""
+msgstr "這個使用者名稱已由系統保留。"
 
 #. File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 101
 #. File: /usr/plugins/net/pptp/src/www/vpn_pptp_users_edit.php, line: 105
@@ -2454,7 +2454,7 @@ msgstr "遠端系統密碼"
 #. File: /usr/core/src/www/system_hasync.php, line: 224
 #: 
 msgid "Do not use the Synchronize Config to IP and username option on backup cluster members!"
-msgstr ""
+msgstr "不要在備份叢集成員上使用同步組態至 IP 及使用者名稱選項！"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 222
 #: 
@@ -2514,7 +2514,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_hasync.php, line: 173
 #: 
 msgid "If Synchronize States is enabled, it will utilize this interface for communication."
-msgstr ""
+msgstr "如果啟用了同步狀態，將會使用這個介面進行通訊。"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 163
 #: 
@@ -2630,12 +2630,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_groupmanager.php, line: 92
 #: 
 msgid "The group name is longer than 32 characters."
-msgstr ""
+msgstr "群組名稱超過 32 個字元。"
 
 #. File: /usr/core/src/www/system_groupmanager.php, line: 88
 #: 
 msgid "The group name contains invalid characters."
-msgstr ""
+msgstr "群組名稱包含無效的字元。"
 
 #. File: /usr/core/src/www/system_general.php, line: 406
 #: 
@@ -2706,7 +2706,7 @@ msgstr "防火牆主機的名稱，不含網域"
 #. File: /usr/core/src/www/system_general.php, line: 70
 #: 
 msgid "The hostname may only contain the characters a-z, 0-9 and '-'."
-msgstr ""
+msgstr "主機名稱只能有 a-z、0-9 和 '-' 字元。"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 762
 #: 
@@ -2859,7 +2859,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 215
 #: 
 msgid "The high latency threshold needs to be positive."
-msgstr ""
+msgstr "高延遲閾值需要是正數。"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 213
 #: 
@@ -2884,12 +2884,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 183
 #: 
 msgid "The gateway name \"%s\" already exists."
-msgstr ""
+msgstr "\"%s\" 這個閘道名稱已經存在。"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 177
 #: 
 msgid "Changing name on a gateway is not allowed."
-msgstr ""
+msgstr "不允許變更閘道名稱。"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 151
 #: 
@@ -2904,7 +2904,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 141
 #: 
 msgid "Dynamic gateway values cannot be specified for interfaces with a static IPv4 configuration."
-msgstr ""
+msgstr "對於設有靜態 IPv4 組態的介面，無法指定動態閘道。"
 
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 111
 #: 
@@ -2934,7 +2934,7 @@ msgstr "刪除選擇項目"
 #. File: /usr/core/src/www/system_gateways.php, line: 324
 #: 
 msgid "Gateway is inactive because interface is missing"
-msgstr ""
+msgstr "由於介面遺失，因此閘道處於停用狀態。"
 
 #. File: /usr/core/src/www/system_gateways.php, line: 300
 #. File: /usr/core/src/www/widgets/widgets/gateways.widget.php, line: 81
@@ -3084,13 +3084,13 @@ msgstr "再製"
 #. File: /usr/core/src/www/system_gateways.php, line: 371
 #: 
 msgid "Warning (latency)"
-msgstr ""
+msgstr "警告 (延遲)"
 
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 178
 #. File: /usr/core/src/www/system_gateways.php, line: 368
 #: 
 msgid "Warning (packetloss)"
-msgstr ""
+msgstr "警告 (封包遺失)"
 
 #. File: /usr/plugins/net/wol/src/www/widgets/widgets/wake_on_lan.widget.php, line: 54
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 199
@@ -3185,7 +3185,7 @@ msgstr "撤銷憑證"
 #. File: /usr/core/src/www/system_crlmanager.php, line: 524
 #: 
 msgid "No Certificates Found for this CA."
-msgstr ""
+msgstr "沒有找到這個 CA 的憑證。"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 497
 #: 
@@ -3221,7 +3221,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_crlmanager.php, line: 434
 #: 
 msgid "Edit Imported Certificate Revocation List"
-msgstr ""
+msgstr "編輯已匯入的憑證撤銷清單"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 408
 #: 
@@ -3247,7 +3247,7 @@ msgstr "內部憑證撤銷清單"
 #. File: /usr/core/src/www/system_crlmanager.php, line: 447
 #: 
 msgid "Paste a Certificate Revocation List in X.509 CRL format here."
-msgstr ""
+msgstr "在此貼上 X.509 CRL 格式的憑證撤銷清單。"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 376
 #. File: /usr/core/src/www/system_crlmanager.php, line: 443
@@ -3258,7 +3258,7 @@ msgstr "CRL 資料"
 #. File: /usr/core/src/www/system_crlmanager.php, line: 371
 #: 
 msgid "Existing Certificate Revocation List"
-msgstr ""
+msgstr "現有憑證撤銷清單"
 
 #. File: /usr/core/src/www/system_crlmanager.php, line: 340
 #: 
@@ -3379,13 +3379,13 @@ msgstr "CA:"
 #. File: /usr/core/src/www/system_certmanager.php, line: 1233
 #: 
 msgid "external - signature pending"
-msgstr ""
+msgstr "外部 - 等待簽署中"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 1209
 #. File: /usr/core/src/www/system_crlmanager.php, line: 583
 #: 
 msgid "In Use"
-msgstr "正在使用"
+msgstr "使用中"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 1192
 #: 
@@ -3410,7 +3410,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 1174
 #: 
 msgid "Signing request data"
-msgstr ""
+msgstr "簽署請求資料"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 1171
 #: 
@@ -3430,7 +3430,7 @@ msgstr "*使用中"
 #. File: /usr/core/src/www/system_certmanager.php, line: 1111
 #: 
 msgid "Existing Certificates"
-msgstr ""
+msgstr "現有憑證"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 1106
 #: 
@@ -3537,7 +3537,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 326
 #: 
 msgid "Existing Certificate Choice"
-msgstr ""
+msgstr "現有憑證選擇"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 302
 #. File: /usr/core/src/www/system_certmanager.php, line: 774
@@ -3588,7 +3588,7 @@ msgstr "刪除 CA"
 #. File: /usr/core/src/www/system_camanager.php, line: 771
 #: 
 msgid "export CA private key"
-msgstr ""
+msgstr "匯出 CA 私鑰"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 766
 #: 
@@ -3689,7 +3689,7 @@ msgstr "Sachsen"
 #. File: /usr/core/src/www/system_certmanager.php, line: 1094
 #: 
 msgid "ex:"
-msgstr ""
+msgstr "例如："
 
 #. File: /usr/core/src/www/system_camanager.php, line: 606
 #. File: /usr/core/src/www/system_certmanager.php, line: 840
@@ -3758,12 +3758,12 @@ msgstr "現有憑證簽發單位"
 #. File: /usr/core/src/www/system_camanager.php, line: 503
 #: 
 msgid "Create an intermediate Certificate Authority"
-msgstr ""
+msgstr "建立中繼憑證授權單位"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 500
 #: 
 msgid "Create an internal Certificate Authority"
-msgstr "建立一個內部的憑證單位"
+msgstr "建立內部憑證單位"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 497
 #: 
@@ -3831,7 +3831,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_camanager.php, line: 558
 #: 
 msgid "Signing Certificate Authority"
-msgstr ""
+msgstr "簽署憑證單位"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 278
 #. File: /usr/core/src/www/system_camanager.php, line: 295
@@ -3863,7 +3863,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 320
 #: 
 msgid "Distinguished name City"
-msgstr ""
+msgstr "城市名稱"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 274
 #. File: /usr/core/src/www/system_camanager.php, line: 291
@@ -3871,7 +3871,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 319
 #: 
 msgid "Distinguished name State or Province"
-msgstr ""
+msgstr "州或省份名稱"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 273
 #. File: /usr/core/src/www/system_camanager.php, line: 290
@@ -3879,7 +3879,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_certmanager.php, line: 318
 #: 
 msgid "Distinguished name Country Code"
-msgstr ""
+msgstr "國碼"
 
 #. File: /usr/core/src/www/system_camanager.php, line: 261
 #: 
@@ -3914,7 +3914,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_authservers.php, line: 692
 #: 
 msgid "If left blank, the default value is 5 seconds."
-msgstr ""
+msgstr "如果留空，預設值為 5 秒。"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 691
 #: 
@@ -3939,7 +3939,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_authservers.php, line: 662
 #: 
 msgid "Services offered"
-msgstr ""
+msgstr "提供的服務"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 640
 #: 
@@ -3964,7 +3964,7 @@ msgstr "OpenLDAP"
 #. File: /usr/core/src/www/system_authservers.php, line: 628
 #: 
 msgid "Initial Template"
-msgstr ""
+msgstr "初始範本"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 617
 #: 
@@ -4058,7 +4058,7 @@ msgstr "請填寫必填值。"
 #. File: /usr/core/src/www/system_authservers.php, line: 356
 #: 
 msgid "Do you really want to delete this Server?"
-msgstr ""
+msgstr "是否確定要刪除這個伺服器？"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 189
 #: 
@@ -4085,7 +4085,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_authservers.php, line: 144
 #: 
 msgid "Bind user DN"
-msgstr ""
+msgstr "繫結使用者 DN"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 139
 #: 
@@ -4494,7 +4494,7 @@ msgstr "檢查別名網址的憑證"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 653
 #: 
 msgid "Note: Leave this blank for the default (300s)."
-msgstr ""
+msgstr "注意：保持空值則使用預設值 (300 秒)。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 651
 #: 
@@ -4534,12 +4534,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 623
 #: 
 msgid "Disable reply-to on WAN rules"
-msgstr ""
+msgstr "在 WAN 規則上停用 reply-to"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 620
 #: 
 msgid "Disable reply-to"
-msgstr ""
+msgstr "停用 reply-to"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 613
 #: 
@@ -4793,7 +4793,7 @@ msgstr "允許預設閘道切換"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 363
 #: 
 msgid "Gateway switching"
-msgstr "閘道交換"
+msgstr "閘道切換"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 354
 #: 
@@ -4838,7 +4838,7 @@ msgstr "自動建立連出 NAT 規則，這些規則可協助連入 NAT 規則�
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 296
 #: 
 msgid "Automatic outbound NAT for Reflection"
-msgstr "用於反射的自動出站 NAT"
+msgstr "自動連出 NAT 反射"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 290
 #: 
@@ -4890,7 +4890,7 @@ msgstr "IPv6 選項"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 88
 #: 
 msgid "The Firewall Maximum Table Entries value must be an integer."
-msgstr ""
+msgstr "防火牆最大資料表筆數必須是整數。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 85
 #: 
@@ -5228,12 +5228,12 @@ msgstr "使用預設值"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 312
 #: 
 msgid "I know what I am doing"
-msgstr ""
+msgstr "我明白我在做的事"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 307
 #: 
 msgid "Changing the listen interfaces of the web GUI may prevent you from accessing this page if you continue. It is recommended to keep this set to the default unless you know what you are doing."
-msgstr ""
+msgstr "變改網頁 GUI 的監聽介面可能會妨止您繼續存取這一頁。除非您已確認自己在做什麼，否則建議將這個設定保持為預設值。"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 306
 #: 
@@ -5243,7 +5243,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 90
 #: 
 msgid "You must specify a valid SSH port number."
-msgstr ""
+msgstr "您必須指定有效的 SSH 通訊埠。"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 84
 #: 
@@ -5258,7 +5258,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 73
 #: 
 msgid "You must specify a valid web GUI port number."
-msgstr ""
+msgstr "您必需指定有效的 web GUI 通訊埠號。"
 
 #. File: /usr/core/src/www/status_wireless.php, line: 163
 #: 
@@ -5666,12 +5666,12 @@ msgstr ""
 #. File: /usr/core/src/www/status_habackup.php, line: 267
 #: 
 msgid "Start %sService"
-msgstr ""
+msgstr "啟動 %s 服務"
 
 #. File: /usr/core/src/www/status_habackup.php, line: 256
 #: 
 msgid "Stop %sService"
-msgstr ""
+msgstr "停止 %s 服務"
 
 #. File: /usr/core/src/www/status_habackup.php, line: 246
 #: 
@@ -5820,17 +5820,17 @@ msgstr "Jostle 逾時"
 #. File: /usr/core/src/www/services_unbound_advanced.php, line: 239
 #: 
 msgid "Number of queries per thread"
-msgstr ""
+msgstr "每個執行緒的查詢數量"
 
 #. File: /usr/core/src/www/services_unbound_advanced.php, line: 222
 #: 
 msgid "Incoming TCP Buffers"
-msgstr ""
+msgstr "傳入 TCP 緩衝區"
 
 #. File: /usr/core/src/www/services_unbound_advanced.php, line: 205
 #: 
 msgid "Outgoing TCP Buffers"
-msgstr ""
+msgstr "傳出 TCP 緩衝區"
 
 #. File: /usr/core/src/www/services_unbound_advanced.php, line: 188
 #: 
@@ -6123,7 +6123,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd_pps.php, line: 123
 #: 
 msgid "Fudge time"
-msgstr ""
+msgstr "調整時間"
 
 #. File: /usr/core/src/www/services_ntpd_pps.php, line: 116
 #: 
@@ -6158,7 +6158,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 513
 #: 
 msgid "Calculate"
-msgstr ""
+msgstr "計算"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 507
 #: 
@@ -6231,7 +6231,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 439
 #: 
 msgid "NTP should not use this clock, it will be displayed for reference only (default: disabled)."
-msgstr ""
+msgstr "NTP 不應該使用這個時鐘，它只會當做參考來顯示 (預設為停用)。"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 431
 #: 
@@ -6790,7 +6790,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_unbound_overrides.php, line: 90
 #: 
 msgid "Do you really want to delete this host?"
-msgstr ""
+msgstr "是否確定要刪除這個主機？"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 67
 #: 
@@ -7550,12 +7550,12 @@ msgstr "靜態對應組態已有變更"
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 361
 #: 
 msgid "Do you really want to delete this mapping?"
-msgstr ""
+msgstr "是否確定要刪除這個對應？"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 571
 #: 
 msgid "Do you really want to delete this pool?"
-msgstr ""
+msgstr "是否確定要刪除這個集區？"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 382
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 217
@@ -7868,7 +7868,7 @@ msgstr "RRD 資料已清除。"
 #. File: /usr/core/src/www/reboot.php, line: 80
 #: 
 msgid "Are you sure you want to reboot the system?"
-msgstr ""
+msgstr "您確定要重新啟動系統嗎？"
 
 #. File: /usr/core/src/www/reboot.php, line: 52
 #: 
@@ -8225,7 +8225,7 @@ msgstr "介面/通訊埠"
 #. File: /usr/core/src/www/interfaces_ppps.php, line: 82
 #: 
 msgid "Do you really want to delete this PPP interface?"
-msgstr ""
+msgstr "是否確定要刪除這個 PPP 介面？"
 
 #. File: /usr/core/src/www/interfaces_ppps.php, line: 54
 #: 
@@ -8804,7 +8804,7 @@ msgstr "網路連接埠"
 #. File: /usr/core/src/www/interfaces_assign.php, line: 360
 #: 
 msgid "Do you really want to delete this interface?"
-msgstr ""
+msgstr "是否確定要刪除這個介面？"
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 264
 #: 
@@ -10041,7 +10041,7 @@ msgstr "啟用介面"
 #. File: /usr/core/src/www/interfaces.php, line: 1633
 #: 
 msgid "The %s configuration has been changed."
-msgstr ""
+msgstr "%s 的配置已經變更。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1633
 #: 
@@ -10351,7 +10351,7 @@ msgstr ""
 #. File: /usr/core/src/www/index.php, line: 403
 #: 
 msgid "Save to load widget"
-msgstr ""
+msgstr "儲存後載入小工具"
 
 #. File: /usr/core/src/www/index.php, line: 141
 #: 
@@ -10841,7 +10841,7 @@ msgstr "時間範圍"
 #. File: /usr/core/src/www/firewall_schedule.php, line: 90
 #: 
 msgid "Do you really want to delete this schedule?"
-msgstr ""
+msgstr "是否確定要刪除這個排程？"
 
 #. File: /usr/core/src/www/firewall_schedule.php, line: 60
 #: 
@@ -11372,12 +11372,12 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 353
 #: 
 msgid "You cannot specify the maximum number of established connections per host (advanced option) if statetype is none."
-msgstr ""
+msgstr "如果狀態類型設為無，無法指定每個主機的已建立連接的最大數量（進階選項）。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 351
 #: 
 msgid "You cannot specify the maximum number of unique source hosts (advanced option) if statetype is none."
-msgstr ""
+msgstr "如果狀態類型為無，無法指定唯一來源主機的最大數量（進階選項）。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 349
 #: 
@@ -11655,7 +11655,7 @@ msgstr "封鎖私有網路"
 #. File: /usr/core/src/www/firewall_scrub.php, line: 215
 #: 
 msgid "The firewall rule configuration has been changed.<br />You must apply the changes in order for them to take effect."
-msgstr ""
+msgstr "防火牆規則設定已更改。<br />您必須套用這些變更才能使它們生效。"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 276
 #: 
@@ -11708,7 +11708,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 671
 #: 
 msgid "Packets matching this rule will be mapped to the IP address given here."
-msgstr ""
+msgstr "符合此規則的封包將被對映到這裡提供的 IP 位址。"
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 660
 #: 
@@ -11750,7 +11750,7 @@ msgstr "提示: 在大多數情況下，您不會使用這個選項。"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 416
 #: 
 msgid "Enabling this option will disable NAT for traffic matching this rule and stop processing Outbound NAT rules."
-msgstr ""
+msgstr "啟用此選項將停用與此規則符合流量的 NAT，並停止處理連出 NAT 規則。"
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 412
 #: 
@@ -11889,17 +11889,17 @@ msgstr "(連出 NAT 已停用)"
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 261
 #: 
 msgid "Disable outbound NAT rule generation"
-msgstr ""
+msgstr "停用產生連出 NAT 規則"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 250
 #: 
 msgid "(no automatic rules are being generated)"
-msgstr "(未產生自動規則)"
+msgstr "(不產生自動規則)"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 249
 #: 
 msgid "Manual outbound NAT rule generation"
-msgstr ""
+msgstr "手動產生連出 NAT 規則"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 236
 #: 
@@ -11909,7 +11909,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 235
 #: 
 msgid "Hybrid outbound NAT rule generation"
-msgstr ""
+msgstr "結合產生連出 NAT 規則"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 224
 #: 
@@ -11919,7 +11919,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 223
 #: 
 msgid "Automatic outbound NAT rule generation"
-msgstr ""
+msgstr "自動產生連出 NAT 規則"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 126
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 146
@@ -12623,7 +12623,7 @@ msgstr "外部 IP"
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 201
 #: 
 msgid "The NAT configuration has been changed."
-msgstr ""
+msgstr "NAT 组態已更改。"
 
 #. File: /usr/core/src/www/firewall_nat_1to1.php, line: 111
 #. File: /usr/core/src/www/firewall_nat_1to1.php, line: 130
@@ -12669,7 +12669,7 @@ msgstr "啟用的規則"
 #. File: /usr/core/src/www/firewall_rules.php, line: 679
 #: 
 msgid "Move selected rules to end"
-msgstr ""
+msgstr "將所選擇的規則移到最後面"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 417
 #: 
@@ -12742,7 +12742,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_nat_npt.php, line: 185
 #: 
 msgid "The NAT configuration has been changed"
-msgstr ""
+msgstr "NAT 组態已更改"
 
 #. File: /usr/core/src/www/firewall_nat.php, line: 181
 #. File: /usr/core/src/www/firewall_nat_1to1.php, line: 131
@@ -12762,7 +12762,7 @@ msgstr ""
 #. File: /usr/core/src/www/firewall_scrub.php, line: 130
 #: 
 msgid "Do you really want to delete this rule?"
-msgstr ""
+msgstr "是否確定要刪除這個規則？"
 
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns.php, line: 72
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136.php, line: 70
@@ -12866,7 +12866,7 @@ msgstr "必須套用變更才能讓它生效。"
 #. File: /usr/core/src/www/firewall_aliases.php, line: 166
 #: 
 msgid "Cannot delete alias. Currently in use by %s"
-msgstr ""
+msgstr "無法刪除別名。因為它正在被使用於 %s"
 
 #. File: /usr/core/src/www/firewall_aliases.php, line: 42
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 578
@@ -13365,7 +13365,7 @@ msgstr "遠端子網路"
 #. File: /usr/core/src/www/status_interfaces.php, line: 90
 #: 
 msgid "collapse/expand all"
-msgstr ""
+msgstr "收折/展開 全部"
 
 #. File: /usr/core/src/www/diag_ipsec.php, line: 137
 #: 
@@ -13409,7 +13409,7 @@ msgstr "連線"
 #. File: /usr/core/src/www/diag_halt.php, line: 65
 #: 
 msgid "Are you sure you want to power off the system?"
-msgstr ""
+msgstr "您確定要將系統關機嗎？"
 
 #. File: /usr/core/src/www/diag_halt.php, line: 51
 #: 
@@ -13684,12 +13684,12 @@ msgstr "系統正在重新啟動。這可能需要一分鐘。"
 #. File: /usr/core/src/www/diag_backup.php, line: 250
 #: 
 msgid "The configuration could not be restored."
-msgstr ""
+msgstr "無法還原設定組態。"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 248
 #: 
 msgid "The configuration has been restored."
-msgstr ""
+msgstr "設定組態已經還原"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 228
 #: 
@@ -15444,7 +15444,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 339
 #: 
 msgid "The upgrade has finished and your device is being rebooted at the moment, please wait..."
-msgstr ""
+msgstr "升級完成，裝置正在重新啟動，請稍候..."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 334
 #. File: /usr/core/src/www/reboot.php, line: 47
@@ -16103,12 +16103,12 @@ msgstr "%s 已修改"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 294
 #: 
 msgid "No valid config.xml found, attempting to restore factory config."
-msgstr ""
+msgstr "沒有找到有效的 config.xml，正在嘗試還原出廠設定。"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 290
 #: 
 msgid "No valid config.xml found, attempting last known config restore."
-msgstr ""
+msgstr "沒有找到有效的 config.xml，正在嘗試還原最後已知的設定。"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 97
 #: 
@@ -16912,7 +16912,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/authgui.inc, line: 330
 #: 
 msgid "Wrong username or password."
-msgstr ""
+msgstr "錯誤的使用者名稱或密碼。"
 
 #. File: /usr/core/src/etc/inc/auth.inc, line: 738
 #. File: /usr/core/src/etc/inc/auth.inc, line: 787
@@ -17298,7 +17298,7 @@ msgstr "ClamAV 常駐程式"
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
 #: 
 msgid "Peers"
-msgstr ""
+msgstr "端點"
 
 #. File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 123
 #: 
@@ -17723,7 +17723,7 @@ msgstr "編輯 AS 路徑"
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 224
 #: 
 msgid "Edit Neighbor"
-msgstr ""
+msgstr "編輯鄰接裝置"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 141
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 138
@@ -18312,7 +18312,7 @@ msgstr ""
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 202
 #: 
 msgid "Key type"
-msgstr ""
+msgstr "金鑰類型"
 
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 223
 #. File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 227
@@ -19041,7 +19041,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 61
 #: 
 msgid "Add a header containing a visible indicator of the spam level."
-msgstr ""
+msgstr "新增標頭，其中包含垃圾郵件等級的可見指標。"
 
 #. File: /usr/lang/src/controllers.php, line: 62
 #: 
@@ -25155,7 +25155,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1202
 #: 
 msgid "Remove the HTTP header field with the specified name and add a new one with the same name. This is useful when passing security information to the server, where the header must not be manipulated by external users."
-msgstr ""
+msgstr "移除具有指定名稱的 HTTP 標頭欄位，並新增一個具有相同名稱的新標頭。這在將安全資訊傳遞給伺服器時很有用，此時標頭無法被外部使用者操控。"
 
 #. File: /usr/lang/src/controllers.php, line: 1203
 #: 
@@ -26647,7 +26647,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 625
 #: 
 msgid "Start"
-msgstr "開始畫面"
+msgstr "開始"
 
 #. File: /usr/lang/src/controllers.php, line: 1506
 #: 
@@ -27105,7 +27105,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1599
 #: 
 msgid "The hard size limit of all queues managed by this instance, leave empty for defaults"
-msgstr ""
+msgstr "此個體管理所有佇列的最大容量限制，留空則採預設值。"
 
 #. File: /usr/lang/src/controllers.php, line: 1600
 #: 
@@ -27245,7 +27245,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1630
 #: 
 msgid "The number of bytes a queue can serve before being moved to the tail of old queues list (bytes), leave empty for defaults"
-msgstr ""
+msgstr "佇列在被移至舊佇列尾端前能處理的數量 (bytes)，留空則採用預設值"
 
 #. File: /usr/lang/src/controllers.php, line: 1631
 #: 
@@ -32903,12 +32903,12 @@ msgstr "加入伺服器憑證"
 #. File: /usr/lang/src/wizards.php, line: 46
 #: 
 msgid "Add a rule to allow all traffic from connected clients to pass across the VPN tunnel."
-msgstr ""
+msgstr "新增規則，讓所有連線中的用戶端流量都能透過 VPN 通道傳輸。"
 
 #. File: /usr/lang/src/wizards.php, line: 47
 #: 
 msgid "Add a rule to permit traffic from clients on the Internet to the OpenVPN server process."
-msgstr ""
+msgstr "新增規則，允許來自網際網路上用戶端的流量到 OpenVPN 伺服器器處理程序。"
 
 #. File: /usr/lang/src/wizards.php, line: 48
 #: 
@@ -35120,7 +35120,7 @@ msgstr "必須提供伺服器名稱。"
 #. File: /usr/core/src/www/system_advanced_sysctl.php, line: 156
 #: 
 msgid "Are you sure you want to reset all tunables back to factory defaults?"
-msgstr ""
+msgstr "您確定要將所有調校參數恢復為出廠預設值嗎？"
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 363
 #: 
@@ -43800,7 +43800,7 @@ msgstr "自動產生的規則"
 #. File: /usr/core/src/www/firewall_rules.php, line: 701
 #: 
 msgid "Evaluations"
-msgstr ""
+msgstr "符合次數"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 676
 #: 
@@ -44182,7 +44182,7 @@ msgstr "GeoIP 設定"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias.volt, line: 338
 #: 
 msgid "In order to use GeoIP, you need to configure a source in the GeoIP settings tab"
-msgstr ""
+msgstr "要使用 GeoIP 功能，您需要在 GeoIP 設定頁籤中配置一個資料來源"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 555
 #: 
@@ -44197,7 +44197,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 76
 #: 
 msgid "Are you sure you want to remove this route? Caution, this could potentially lead to loss of connectivity"
-msgstr ""
+msgstr "您確定要移除這條路由嗎？請注意，這可能導致連線中斷。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 75
 #: 
@@ -44227,7 +44227,7 @@ msgstr "重新組態 cron 時發生錯誤"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 552
 #: 
 msgid "This software package is provided by an external vendor, for more information contact the author"
-msgstr ""
+msgstr "此軟體套件由外部供應商提供，欲了解更多資訊請聯絡開發者"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 551
 #: 
@@ -44278,7 +44278,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/IPsec.php, line: 137
 #: 
 msgid "Unsupported key type: %s"
-msgstr ""
+msgstr "不支援的金鑰類型: %s"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/IPsec.php, line: 109
 #: 
@@ -44428,7 +44428,7 @@ msgstr "快照錯誤"
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/views/OPNsense/Firewall/filter.volt, line: 112
 #: 
 msgid "Savepoint"
-msgstr ""
+msgstr "儲存目前版本"
 
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/views/OPNsense/Firewall/filter.volt, line: 105
 #: 
@@ -44444,17 +44444,17 @@ msgstr "還原"
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/views/OPNsense/Firewall/filter.volt, line: 38
 #: 
 msgid "Enter a savepoint to rollback to."
-msgstr ""
+msgstr "輸入先前儲存的版本以便進行倒回"
 
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/views/OPNsense/Firewall/filter.volt, line: 37
 #: 
 msgid "Revert to savepoint"
-msgstr ""
+msgstr "還原至先前儲存的版本"
 
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/views/OPNsense/Firewall/filter.volt, line: 27
 #: 
 msgid "Savepoint created"
-msgstr ""
+msgstr "目前版本已建立"
 
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 78
 #: 
@@ -44469,7 +44469,7 @@ msgstr ""
 #. File: /usr/plugins/net/firewall/src/opnsense/mvc/app/controllers/OPNsense/Firewall/Api/FilterController.php, line: 115
 #: 
 msgid "unknown (or removed) savepoint"
-msgstr ""
+msgstr "未知 (或已移除) 的版本"
 
 #. File: /usr/plugins/net-mgmt/zabbix-agent/src/etc/inc/plugins.inc.d/zabbixagent.inc, line: 84
 #: 
@@ -47180,7 +47180,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 148
 #: 
 msgid "Are you sure you want to request a new OTP token? The previous token will not be valid after this action."
-msgstr ""
+msgstr "您確定要申請新的 OTP 權仗嗎？進行這個動作後，先前的權仗將會失效。"
 
 #. File: /usr/plugins/net/chrony/src/opnsense/mvc/app/views/OPNsense/Chrony/general.volt, line: 33
 #: 
@@ -49320,7 +49320,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 784
 #: 
 msgid "Destination port number or well known name (imap, imaps, http, https, ...)"
-msgstr ""
+msgstr "目的通訊埠或已知名稱 (imap、imaps、http、https... 等)"
 
 #. File: /usr/lang/src/controllers.php, line: 788
 #: 
@@ -55555,7 +55555,7 @@ msgstr "家庭"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 1057
 #: 
 msgid "FastCGI Application Name"
-msgstr ""
+msgstr "FastCGI 應用程式名稱"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 1056
 #: 
@@ -55712,7 +55712,7 @@ msgstr "個體"
 #. File: /usr/core/src/www/system_advanced_misc.php, line: 43
 #: 
 msgid "Intel QuickAssist Technology"
-msgstr ""
+msgstr "Intel QuickAssist 技術"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnostics.volt, line: 163
 #: 
@@ -55810,7 +55810,7 @@ msgstr ""
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnostics.volt, line: 147
 #: 
 msgid "Linkstate"
-msgstr ""
+msgstr "連結狀態"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/connections.volt, line: 204
 #: 
@@ -56115,7 +56115,7 @@ msgstr ""
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 408
 #: 
 msgid "Radius (eap-radius)"
-msgstr ""
+msgstr "Radius (eap-radius)"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/ping.volt, line: 125
 #: 
@@ -56136,7 +56136,7 @@ msgstr "遠端認證"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 922
 #: 
 msgid "Remote Certificate Authority"
-msgstr ""
+msgstr "遠端憑證授權單位"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/connections.volt, line: 151
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/connections.volt, line: 272
@@ -56288,7 +56288,7 @@ msgstr "工作階段 ID"
 #. File: /usr/core/src/www/services_dhcp.php, line: 984
 #: 
 msgid "Set iPXE boot filename"
-msgstr ""
+msgstr "設定 iPXE 啟動檔案名稱"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 1066
 #: 
@@ -56361,7 +56361,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 856
 #: 
 msgid "Specifies the host key algorithms that the server offers"
-msgstr ""
+msgstr "指定伺服器提供的主機金鑰演算法。"
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 365
 #: 
@@ -56508,7 +56508,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 190
 #: 
 msgid "The monitor IP address \"%s\" is already in use."
-msgstr ""
+msgstr "監視 IP 位址「%s」已被使用。"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/FieldTypes/AliasNameField.php, line: 86
 #: 
@@ -56656,12 +56656,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Core/Firmware.php, line: 124
 #: 
 msgid "Unable to set invalid firmware flavour"
-msgstr ""
+msgstr "無法設定至無效的韌體"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Core/Firmware.php, line: 121
 #: 
 msgid "Unable to set invalid firmware mirror"
-msgstr ""
+msgstr "無法設定至無法使用的韌體鏡像站"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Core/Firmware.php, line: 127
 #: 
@@ -56701,7 +56701,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 1032
 #: 
 msgid "Unkown firmware validation error"
-msgstr ""
+msgstr "未知的韌體驗證錯誤"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/IPsec.php, line: 157
 #: 
@@ -56904,7 +56904,7 @@ msgstr "環境"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/FieldTypes/RemoteHostField.php, line: 78
 #: 
 msgid "hostname %s is not a valid hostname."
-msgstr ""
+msgstr "%s 不是有效的主機名稱。"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnostics.volt, line: 369
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnostics.volt, line: 407
@@ -56915,7 +56915,7 @@ msgstr "介面名稱"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Diagnostics/FieldTypes/HostField.php, line: 60
 #: 
 msgid "invalid token %s"
-msgstr ""
+msgstr "無效的權仗 %s"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/controllers/OPNsense/Quagga/Api/DiagnosticsController.php, line: 134
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/controllers/OPNsense/Quagga/Api/DiagnosticsController.php, line: 170
@@ -57991,7 +57991,7 @@ msgstr "Active24"
 #: 
 msgid "Add a tag to packets that are dropped by CrowdSec rules for\n"
 "      diagnostic purposes."
-msgstr ""
+msgstr "為了診斷問題，將對於被 CrowdSec 規則丟棄的封包加上標籤。"
 
 #. File: /usr/lang/src/controllers.php, line: 780
 #: 
@@ -58231,7 +58231,7 @@ msgstr "連線模式"
 #. File: /usr/lang/src/controllers.php, line: 1196
 #: 
 msgid "Connection Multiplexing"
-msgstr ""
+msgstr "連線多工處理"
 
 #. File: /usr/lang/src/controllers.php, line: 1198
 #: 
@@ -58278,7 +58278,7 @@ msgstr "內容安全政策: 工作子程序來源"
 #. File: /usr/lang/src/controllers.php, line: 1246
 #: 
 msgid "Custom IPv6 Routing"
-msgstr ""
+msgstr "自訂 IPv6 路由"
 
 #. File: /usr/lang/src/controllers.php, line: 1268
 #: 
@@ -58430,7 +58430,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1434
 #: 
 msgid "Domain of the host, e.g. example.com"
-msgstr ""
+msgstr "主機所在的網域，例如 example.com"
 
 #. File: /usr/lang/src/controllers.php, line: 1449
 #: 
@@ -58498,12 +58498,12 @@ msgstr "開啟防火牆入侵防護 (IPS)"
 #. File: /usr/lang/src/controllers.php, line: 1523
 #: 
 msgid "Enable Freshclam verbose logging."
-msgstr ""
+msgstr "啟用 Freshclam 詳細記錄。"
 
 #. File: /usr/lang/src/controllers.php, line: 1528
 #: 
 msgid "Enable HAProxy's Prometheus exporter."
-msgstr ""
+msgstr "啟用 HAProxy 的 Prometheus exporter。"
 
 #. File: /usr/lang/src/controllers.php, line: 1540
 #: 
@@ -58538,7 +58538,7 @@ msgstr "啟用 Wazuh 代理程式"
 #. File: /usr/lang/src/controllers.php, line: 1650
 #: 
 msgid "Enable file integrity monitoring"
-msgstr "啟用檔完整性監控"
+msgstr "啟用檔案完整性監控"
 
 #. File: /usr/lang/src/controllers.php, line: 1651
 #: 
@@ -58553,7 +58553,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1675
 #: 
 msgid "Enable log collection for CrowdSec's block rules."
-msgstr ""
+msgstr "啟用 CrowdSec 封鎖規則的記錄收集。"
 
 #. File: /usr/lang/src/controllers.php, line: 1676
 #: 
@@ -58593,7 +58593,7 @@ msgstr "啟用系統收集器"
 #. File: /usr/lang/src/controllers.php, line: 1749
 #: 
 msgid "Enable the APC UPS service."
-msgstr ""
+msgstr "啟用 APC UPS 服務。"
 
 #. File: /usr/lang/src/controllers.php, line: 1765
 #: 
@@ -58603,7 +58603,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1777
 #: 
 msgid "Enable the collection of apcupsd metrics."
-msgstr ""
+msgstr "啟用 apcupsd 指標收集。"
 
 #. File: /usr/lang/src/controllers.php, line: 1778
 #: 
@@ -58745,7 +58745,7 @@ msgstr "FastCGI 應用程式"
 #. File: /usr/lang/src/controllers.php, line: 2011
 #: 
 msgid "File integrity monitoring"
-msgstr "檔完整性監控"
+msgstr "檔案完整性監控"
 
 #. File: /usr/lang/src/controllers.php, line: 2018
 #: 
@@ -58878,7 +58878,7 @@ msgstr "要 ping 的主機名稱或位址。"
 #. File: /usr/lang/src/controllers.php, line: 2237
 #: 
 msgid "Hostname or address to probe."
-msgstr ""
+msgstr "要探測的主機名稱或位址。"
 
 #. File: /usr/lang/src/controllers.php, line: 2238
 #: 
@@ -58925,17 +58925,17 @@ msgstr "IP 位址 v6"
 #. File: /usr/lang/src/controllers.php, line: 2278
 #: 
 msgid "IP address of the host, e.g. 192.168.100.100 or fd00:abcd::1"
-msgstr ""
+msgstr "主機的 IP 位址，例如 192.168.100.100 或 fd00:abcd::1。"
 
 #. File: /usr/lang/src/controllers.php, line: 2283
 #: 
 msgid "IP address or hostname of the SSH server."
-msgstr ""
+msgstr "SSH 伺服器的 IP 位址或主機名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 2284
 #: 
 msgid "IP address or hostname of the apcupsd net information server. Default address is 127.0.0.1"
-msgstr ""
+msgstr "apcupsd 伺服器的 IP 位址或主機名稱。預設位址是 127.0.0.1。"
 
 #. File: /usr/lang/src/controllers.php, line: 2307
 #: 
@@ -58965,7 +58965,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2321
 #: 
 msgid "If checked, the Content Security Policy (CSP) header is enabled. A detailed configuration is still required via the other tabs of this sheet."
-msgstr ""
+msgstr "如果勾選將啟用內容安全政策 (CSP) 標頭，也還需經由這個分頁的其他頁籤進行詳細配置。"
 
 #. File: /usr/lang/src/controllers.php, line: 2325
 #: 
@@ -59010,7 +59010,7 @@ msgstr "包括子網域"
 #. File: /usr/lang/src/controllers.php, line: 2404
 #: 
 msgid "Increase logging verboseness."
-msgstr ""
+msgstr "增加記錄詳細程度。"
 
 #. File: /usr/lang/src/controllers.php, line: 2405
 #: 
@@ -59060,12 +59060,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2437
 #: 
 msgid "Interface and port on which to forward Tinc connections, typically localhost:655."
-msgstr ""
+msgstr "轉送 Tinc 連線的介面和通訊埠，通常是 localhost:655。"
 
 #. File: /usr/lang/src/controllers.php, line: 2438
 #: 
 msgid "Interface and port on which to forward XMPP connections, typically localhost:5222."
-msgstr ""
+msgstr "轉送 XMPP 連線的介面和通訊埠，通常是 localhost:5222。"
 
 #. File: /usr/lang/src/controllers.php, line: 2439
 #: 
@@ -59126,7 +59126,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2471
 #: 
 msgid "Keepalive Interval"
-msgstr ""
+msgstr "保持連線間隔"
 
 #. File: /usr/lang/src/controllers.php, line: 2487
 #: 
@@ -59236,7 +59236,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2607
 #: 
 msgid "Log Level Verbosity"
-msgstr ""
+msgstr "記錄等級詳細程度"
 
 #. File: /usr/lang/src/controllers.php, line: 2611
 #: 
@@ -59322,7 +59322,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2809
 #: 
 msgid "NOTE: A DNS sleep time of at least 300 is recommended."
-msgstr ""
+msgstr "注意：建議 DNS 等待時間至少為 300。"
 
 #. File: /usr/lang/src/controllers.php, line: 2819
 #: 
@@ -59559,7 +59559,7 @@ msgstr "集區"
 #. File: /usr/lang/src/controllers.php, line: 3111
 #: 
 msgid "Port 3551 is the default as registered with the IANA."
-msgstr ""
+msgstr "通訊埠號 3551 是根據 IANA 的註冊資料為預設值。"
 
 #. File: /usr/lang/src/controllers.php, line: 3117
 #: 
@@ -59669,7 +59669,7 @@ msgstr "公鑰"
 #. File: /usr/lang/src/controllers.php, line: 3214
 #: 
 msgid "Public key of this instance. You can specify your own one, or a key will be generated after saving."
-msgstr ""
+msgstr "此個體的公鑰。您可以指定自己的公鑰，或在儲存後產製公鑰。"
 
 #. File: /usr/lang/src/controllers.php, line: 3225
 #: 
@@ -59932,7 +59932,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3594
 #: 
 msgid "Send certificate"
-msgstr ""
+msgstr "傳送憑證"
 
 #. File: /usr/lang/src/controllers.php, line: 3597
 #: 
@@ -59967,7 +59967,7 @@ msgstr "如果使用 NTS 並且系統啟動時間錯誤，請設定後備伺服�
 #. File: /usr/lang/src/controllers.php, line: 3673
 #: 
 msgid "Set persistent keepalive interval in seconds."
-msgstr ""
+msgstr "設定持續保持連線的間隔秒數。"
 
 #. File: /usr/lang/src/controllers.php, line: 3690
 #: 
@@ -60027,7 +60027,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3813
 #: 
 msgid "Set the port"
-msgstr ""
+msgstr "設定通訊埠"
 
 #. File: /usr/lang/src/controllers.php, line: 3823
 #: 
@@ -60123,7 +60123,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3951
 #: 
 msgid "Specify a default weight value for the neighbor’s routes."
-msgstr ""
+msgstr "指定鄰接路由的預設權重值。"
 
 #. File: /usr/lang/src/controllers.php, line: 3952
 #: 
@@ -60153,7 +60153,7 @@ msgstr "Start TLS"
 #. File: /usr/lang/src/controllers.php, line: 3997
 #: 
 msgid "Start Timeout"
-msgstr ""
+msgstr "啟動逾時"
 
 #. File: /usr/lang/src/controllers.php, line: 4000
 #: 
@@ -60248,7 +60248,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4158
 #: 
 msgid "The command to execute on the SSH server."
-msgstr ""
+msgstr "在 SSH 伺服器上執行的指令。"
 
 #. File: /usr/lang/src/controllers.php, line: 4161
 #: 
@@ -60303,7 +60303,7 @@ msgstr "連線過去的節點名稱。"
 #. File: /usr/lang/src/controllers.php, line: 4233
 #: 
 msgid "The path where the Prometheus exporter can be accessed."
-msgstr ""
+msgstr "Prometheus Exporter 可以存取的路徑。"
 
 #. File: /usr/lang/src/controllers.php, line: 4237
 #: 
@@ -60337,7 +60337,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4273
 #: 
 msgid "The timeout for custom program to start a service."
-msgstr ""
+msgstr "自訂程式啟動服務的逾時。"
 
 #. File: /usr/lang/src/controllers.php, line: 4280
 #: 
@@ -60605,7 +60605,7 @@ msgstr "防火牆入侵防護詳細記錄"
 #. File: /usr/lang/src/controllers.php, line: 4714
 #: 
 msgid "Wazuh remote commands"
-msgstr ""
+msgstr "Wazuh 遠端指令"
 
 #. File: /usr/lang/src/controllers.php, line: 4716
 #: 
@@ -61565,7 +61565,7 @@ msgstr "Lagg 已存在！"
 #. File: /usr/lang/src/models.php, line: 847
 #: 
 msgid "LeaseWeb"
-msgstr ""
+msgstr "LeaseWeb"
 
 #. File: /usr/lang/src/models.php, line: 855
 #: 
@@ -61680,7 +61680,7 @@ msgstr "Namesilo.com"
 #. File: /usr/lang/src/models.php, line: 964
 #: 
 msgid "NearlyFreeSpeech.net"
-msgstr ""
+msgstr "NearlyFreeSpeech.net"
 
 #. File: /usr/lang/src/models.php, line: 965
 #: 
@@ -61740,12 +61740,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1098
 #: 
 msgid "Please provide a valid group name. Allowed are at most 64 characters from a-zA-Z0-9._-() and space."
-msgstr ""
+msgstr "請提供群組名稱。允許的字元包括 a-zA-Z0-9._-() 和空格，最多 64 個字元。"
 
 #. File: /usr/lang/src/models.php, line: 1103
 #: 
 msgid "Please provide a valid listen address, i.e. 10.0.0.1:8404 or haproxy.example.com:8404."
-msgstr ""
+msgstr "請提供有效的監聽地址，例如 10.0.0.1:8404 或 haproxy.example.com:8404。"
 
 #. File: /usr/lang/src/models.php, line: 1105
 #: 
@@ -61755,7 +61755,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1109
 #: 
 msgid "Please provide a valid username. Allowed characters are a-zA-Z0-9._-@ and it has to be 1-64 characters long."
-msgstr ""
+msgstr "請提供正確的用戶名稱。允許使用字元包括 a-zA-Z0-9._-@，長度在 1 到 64 個字元之間。"
 
 #. File: /usr/lang/src/models.php, line: 1117
 #: 
@@ -61810,7 +61810,7 @@ msgstr "PointHQ"
 #. File: /usr/lang/src/models.php, line: 1175
 #: 
 msgid "Polltime must be between 1 and 86400."
-msgstr ""
+msgstr "輪詢時間必須介於 1 到 86400 之間。"
 
 #. File: /usr/lang/src/models.php, line: 1176
 #: 
@@ -61875,7 +61875,7 @@ msgstr "RSA SecurID"
 #. File: /usr/lang/src/models.php, line: 1230
 #: 
 msgid "Rackspace"
-msgstr ""
+msgstr "Rackspace"
 
 #. File: /usr/lang/src/models.php, line: 1232
 #: 
@@ -62071,7 +62071,7 @@ msgstr "Smart"
 #. File: /usr/lang/src/models.php, line: 1462
 #: 
 msgid "Softlayer"
-msgstr ""
+msgstr "Softlayer"
 
 #. File: /usr/lang/src/models.php, line: 1499
 #: 
@@ -62111,7 +62111,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1577
 #: 
 msgid "The device name must be unique."
-msgstr ""
+msgstr "裝置名稱只能有一個。"
 
 #. File: /usr/lang/src/models.php, line: 1578
 #: 
