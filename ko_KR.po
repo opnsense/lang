@@ -12083,7 +12083,7 @@ msgstr "규칙 편집"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 264
 #: 
 msgid "Edit queue"
-msgstr "대기열 편집"
+msgstr "큐(queue) 편집"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 263
 #: 
@@ -15811,7 +15811,7 @@ msgstr "최대"
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
 #: 
 msgid "Queue"
-msgstr "대기열"
+msgstr "큐(queue)"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 236
 #: 
@@ -21202,12 +21202,12 @@ msgstr "수신 대기 끝 포트"
 #. File: /usr/lang/src/controllers.php, line: 862
 #: 
 msgid "Listen IP"
-msgstr "수신 IP"
+msgstr "수신 대기 IP"
 
 #. File: /usr/lang/src/controllers.php, line: 863
 #: 
 msgid "Listen IPs"
-msgstr "수신 IP"
+msgstr "수신 대기 IP"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 543
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 636
@@ -40320,7 +40320,7 @@ msgstr "FreeRADIUS DHCP 서비스를 활성화해야 합니다."
 #. File: /usr/lang/src/models.php, line: 1235
 #: 
 msgid "You need to set a proper listening IP."
-msgstr "적절한 수신 IP를 설정해야 합니다."
+msgstr "적절한 수신 대기 IP를 설정해야 합니다."
 
 #. File: /usr/lang/src/models.php, line: 1275
 #: 
@@ -41350,7 +41350,7 @@ msgstr "이 개인 키는 지정된 공용 키에 속하지 않습니다."
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Diagnostics/Netflow.php, line: 71
 #: 
 msgid "WAN interfaces missing in listening interfaces: %s"
-msgstr "수신 인터페이스에 WAN 인터페이스가 없음: %s"
+msgstr "수신 대기 인터페이스에 WAN 인터페이스가 없음: %s"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Base/ApiMutableModelControllerBase.php, line: 136
 #: 
@@ -41750,7 +41750,7 @@ msgid "\n"
 msgstr "\n"
 "          IPv4/IPv6 헤더를 캡슐화하는 데 사용되는 소스 주소입니다.\n"
 "          주소가 이미 기존 인터페이스에 할당되어 있어야 합니다.\n"
-"          인터페이스가 유니캐스트 모드로 구성된 경우 수신 소켓은 이 주소에 바인딩됩니다.\n"
+"          인터페이스가 유니캐스트 모드로 구성된 경우 수신 대기 소켓은 이 주소에 바인딩됩니다.\n"
 "        "
 
 #. File: /usr/lang/src/controllers.php, line: 85
@@ -42603,7 +42603,7 @@ msgstr "화이트리스트에 추가할 도메인 목록입니다. 정규식을 
 #. File: /usr/lang/src/controllers.php, line: 1551
 #: 
 msgid "Listening interfaces"
-msgstr "수신 인터페이스"
+msgstr "수신 대기 인터페이스"
 
 #. File: /usr/lang/src/controllers.php, line: 1553
 #: 
@@ -43095,7 +43095,7 @@ msgstr "munin 포트를 수신 대기 상태로 설정."
 #. File: /usr/lang/src/controllers.php, line: 2450
 #: 
 msgid "Set the port the daemon is listening to."
-msgstr "데몬이 수신하는 포트를 설정."
+msgstr "데몬이 수신 대기하는 포트를 설정."
 
 #. File: /usr/lang/src/controllers.php, line: 2463
 #: 
@@ -44886,7 +44886,7 @@ msgstr "레거시 - 적응 압축 없이 LZO 알고리즘 사용(%s)"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/statistics.volt, line: 295
 #: 
 msgid "Legend"
-msgstr "내역"
+msgstr "범례"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 278
 #: 
@@ -46882,7 +46882,7 @@ msgstr "해당 프로토콜의 주소와 포트에 대해 수신 대기합니다
 #. File: /usr/lang/src/controllers.php, line: 1749
 #: 
 msgid "Listening IPs and Ports"
-msgstr "수신 IP 및 포트"
+msgstr "수신 대기 IP 및 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 1753
 #: 
@@ -49944,7 +49944,7 @@ msgstr "파일을 전송하는 루트 폴더는 /usr/local/tftp입니다."
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/models/OPNsense/Base/Constraints/NgxUniqueDefaultServerConstraint.php, line: 65
 #: 
 msgid "There can only be one Default Server on each listening address: %s conflict."
-msgstr "수신 주소마다 기본 서버가 하나만 있을 수 있습니다. %s 충돌."
+msgstr "수신 대기 주소마다 기본 서버가 하나만 있을 수 있습니다. %s 충돌."
 
 #. File: /usr/core/src/www/interfaces_vlan.php, line: 43
 #: 
@@ -59635,99 +59635,99 @@ msgstr "클라이언트가 기본 데이터 암호화를 지원하지 않는 경
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/Api/CpuUsageController.php, line: 45
 #: 
 msgid "%s (%s cores, %s threads)"
-msgstr ""
+msgstr "%s (%s 코어, %s 쓰레드)"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 43
 #: 
 msgid "10 minutes"
-msgstr ""
+msgstr "10 분"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 48
 #: 
 msgid "1GB, 1 hour"
-msgstr ""
+msgstr "1GB, 1 시간"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 47
 #: 
 msgid "1GB, 60 seconds"
-msgstr ""
+msgstr "1GB, 60 초"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 46
 #: 
 msgid "512MB, 1 hour"
-msgstr ""
+msgstr "12MB, 1 시간"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 45
 #: 
 msgid "512MB, 10 minutes"
-msgstr ""
+msgstr "512MB, 10 분"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 44
 #: 
 msgid "512MB, 60 seconds"
-msgstr ""
+msgstr "512MB, 60 초"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 42
 #: 
 msgid "60 seconds"
-msgstr ""
+msgstr "160초"
 
 #. File: /usr/core/src/www/interfaces.php, line: 764
 #: 
 msgid "6RD requires an IPv4 configuration type to operate on."
-msgstr ""
+msgstr "6RD는 작동하기 위해 IPv4 구성 유형이 필요합니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 789
 #: 
 msgid "6to4 requires an IPv4 configuration type to operate on."
-msgstr ""
+msgstr "6to4는 작동하기 위해 IPv4 구성 유형이 필요합니다."
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 453
 #: 
 msgid "A leap second file allows NTP to advertise an upcoming leap second addition or subtraction."
-msgstr ""
+msgstr "윤초 파일은 NTP가 다가오는 윤초 추가 또는 삭제를 알릴 수 있도록 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/Swanctl.php, line: 101
 #: 
 msgid "A local and remote address should be provided or both should be left empty"
-msgstr ""
+msgstr "로컬 및 원격 주소는 모두 제공되거나 둘 다 비워 두어야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 143
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 173
 #: 
 msgid "A snapshot already exists by this name"
-msgstr ""
+msgstr "이 이름으로 이미 스냅샷이 존재합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 138
 #: 
 msgid "A token lifetime requires a non zero Renegotiate time."
-msgstr ""
+msgstr "토큰 수명은 0이 아닌 재협상 시간이 필요합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 106
 #: 
 msgid "A track interface is only allowed without an external prefix."
-msgstr ""
+msgstr "트랙 인터페이스는 외부 접두사 없이만 허용됩니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 897
 #: 
 msgid "A valid IP address list must be specified to reject DHCP leases from."
-msgstr ""
+msgstr "DHCP 임대 거부를 위해 유효한 IP 주소 목록이 지정되어야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/FieldTypes/LinkAddressField.php, line: 102
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/FieldTypes/VipNetworkField.php, line: 51
 #: 
 msgid "A valid network address is required."
-msgstr ""
+msgstr "유효한 네트워크 주소가 필요합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/FieldTypes/VipNetworkField.php, line: 53
 #: 
 msgid "A valid network subnet is required."
-msgstr ""
+msgstr "유효한 네트워크 서브넷이 필요합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 55
 #: 
 msgid "AJAX error accessing the API: "
-msgstr ""
+msgstr "API에 접근하는 중 AJAX 오류가 발생: "
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 59
 #: 
@@ -59738,1110 +59738,1110 @@ msgstr ""
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 201
 #: 
 msgid "Action was not successful or an error occurred."
-msgstr ""
+msgstr "작업이 성공하지 않았거나 오류가 발생했습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 25
 #: 
 msgid "Activate"
-msgstr ""
+msgstr "활성화"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 97
 #: 
 msgid "Active Ports"
-msgstr ""
+msgstr "활성 포트"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 75
 #: 
 msgid "Add Widget"
-msgstr ""
+msgstr "위젯 추가"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 217
 #: 
 msgid "Address %s referenced by outbound nat rule \"%s\""
-msgstr ""
+msgstr "아웃바운드 NAT 규칙 \"%s\"에 의해 참조된 주소 %s"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 73
 #: 
 msgid "Address Length"
-msgstr ""
+msgstr "주소 길이"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Kea/KeaDhcpv4.php, line: 89
 #: 
 msgid "Address not in specified subnet"
-msgstr ""
+msgstr "지정된 서브넷에 없는 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/DHCRelay/relay.volt, line: 87
 #: 
 msgid "Agent Info"
-msgstr ""
+msgstr "에이전트 정보"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 86
 #: 
 msgid "All Zones"
-msgstr ""
+msgstr "모든 영역"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 252
 #: 
 msgid "Allow PCP/NAT-PMP Port Mapping"
-msgstr ""
+msgstr "PCP/NAT-PMP 포트 매핑 허용"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 243
 #: 
 msgid "Allow UPnP IGD Port Mapping"
-msgstr ""
+msgstr "UPnP IGD 포트 매핑 허용"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 64
 #: 
 msgid "Also include sensitive material in dumps, e.g. keys"
-msgstr ""
+msgstr "덤프에 민감한 자료도 포함합니다. 예: 키"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 1030
 #: 
 msgid "Always reboot after a successful update"
-msgstr ""
+msgstr "업데이트가 성공적으로 완료된 후 항상 재부팅"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 168
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 175
 #: 
 msgid "An (unicast) address can only be configured for the same protocol family."
-msgstr ""
+msgstr "(유니캐스트) 주소는 동일한 프로토콜 패밀리에 대해서만 구성할 수 있습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.php, line: 92
 #: 
 msgid "An IPv4 destination for this relay is already set."
-msgstr ""
+msgstr "이 릴레이에 대한 IPv4 목적지가 이미 설정되어 있습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.php, line: 94
 #: 
 msgid "An IPv6 destination for this relay is already set."
-msgstr ""
+msgstr "이 릴레이에 대한 IPv6 목적지가 이미 설정되어 있습니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 81
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 198
 #: 
 msgid "Apply Success"
-msgstr ""
+msgstr "적용 성공"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 74
 #: 
 msgid "Are you sure you want to restore the default widget layout?"
-msgstr ""
+msgstr "기본 위젯 레이아웃으로 복원하시겠습니까?"
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 459
 #: 
 msgid "Assign a new interface"
-msgstr ""
+msgstr "새 인터페이스 할당"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3063
 #: 
 msgid "Assign prefix ID"
-msgstr ""
+msgstr "접두사 ID 할당"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 78
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 81
 #: 
 msgid "At least one IPv4 or IPv6 tunnel network is required."
-msgstr ""
+msgstr "최소한 하나의 IPv4 또는 IPv6 터널 네트워크가 필요합니다."
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 108
 #: 
 msgid "At least one of 'UPnP IGD' or 'PCP/NAT-PMP' must be allowed"
-msgstr ""
+msgstr "'UPnP IGD' 또는 'PCP/NAT-PMP' 중 최소한 하나는 허용되어야 함"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 287
 #: 
 msgid "At least one requested restore area could not be found: %s."
-msgstr ""
+msgstr "요청된 복원 영역 중 최소한 하나를 찾을 수 없습니다: %s."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 289
 #: 
 msgid "Authority"
-msgstr ""
+msgstr "인증 기관"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 753
 #: 
 msgid "Automatically generated rules (end of ruleset)"
-msgstr ""
+msgstr "자동으로 생성된 규칙 (규칙 집합의 끝)"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt, line: 110
 #: 
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/core.inc, line: 458
 #: 
 msgid "Backup - Google Drive"
-msgstr ""
+msgstr "백업 - 구글 드라이브"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/backup_history.volt, line: 228
 #: 
 msgid "Backups (compare)"
-msgstr ""
+msgstr "백업 (비교)"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 #: 
 msgid "Bogon networks"
-msgstr ""
+msgstr "Bogon 네트워크"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 376
 #: 
 msgid "By default deny access to service?"
-msgstr ""
+msgstr "기본적으로 서비스에 대한 접근을 거부할까요?"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 97
 #: 
 msgid "Bytes (in)"
-msgstr ""
+msgstr "Bytes (수신)"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 98
 #: 
 msgid "Bytes (out)"
-msgstr ""
+msgstr "Bytes (발신)"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 85
 #: 
 msgid "Bytes Transmitted"
-msgstr ""
+msgstr "전송된 바이트"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 161
 #: 
 msgid "CA Name"
-msgstr ""
+msgstr "CA 이름"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 162
 #: 
 msgid "CRL Name"
-msgstr ""
+msgstr "CRL 이름"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 44
 #: 
 msgid "CRL info"
-msgstr ""
+msgstr "CRL 정보"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 155
 #: 
 msgid "Caddyfile"
-msgstr ""
+msgstr "Caddyfile"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Trust/General.php, line: 51
 #: 
 msgid "Can not enable config constraints without modifying one of them"
-msgstr ""
+msgstr "구성 제약 조건 중 하나를 수정하지 않고는 제약 조건을 활성화할 수 없습니다"
 
 #. File: /usr/core/src/www/interfaces.php, line: 673
 #: 
 msgid "Cannot assign a MAC address to this type of interface."
-msgstr ""
+msgstr "이 유형의 인터페이스에는 MAC 주소를 할당할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/VipSettingsController.php, line: 196
 #: 
 msgid "Cannot delete CARP Virtual IP, IP Alias with VHID Group %s still exists."
-msgstr ""
+msgstr "CARP 가상 IP를 삭제할 수 없습니다. VHID  %s 그룹을 사용하는 IP 별칭이 아직 존재합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 218
 #: 
 msgid "Cannot delete active snapshot"
-msgstr ""
+msgstr "활성 스냅샷을 삭제할 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GifSettingsController.php, line: 134
 #: 
 msgid "Cannot delete gif. Currently in use by [%s] %s"
-msgstr ""
+msgstr "현재 [%s] %s에서 사용이므로 gif를 삭제할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GreSettingsController.php, line: 134
 #: 
 msgid "Cannot delete gre. Currently in use by [%s] %s"
-msgstr ""
+msgstr "현재 [%s] %s에서 사용이므로 gre를 삭제할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 61
 #: 
 msgid "Capabilities"
-msgstr ""
+msgstr "용량"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 219
 #: 
 msgid "Cert revocation error: CA certificate invalid: invalid date"
-msgstr ""
+msgstr "인증서 폐기 오류: CA 인증서가 유효하지 않음: 날짜가 잘못됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 250
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 253
 #: 
 msgid "Cert revocation error: CRL signature invalid"
-msgstr ""
+msgstr "인증서 폐기 오류: CRL 서명이 유효하지 않음"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 231
 #: 
 msgid "Cert revocation error: Unable to load CA private key"
-msgstr ""
+msgstr "인증서 폐기 오류: CA 개인 키를 로드할 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 212
 #: 
 msgid "Certificate does not seem to exist"
-msgstr ""
+msgstr "인증서가 존재하지 않는 것 같음"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/ca.volt, line: 71
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 103
 #: 
 msgid "Certificate download"
-msgstr ""
+msgstr "인증서 다운로드"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/ca.volt, line: 44
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 63
 #: 
 msgid "Certificate info"
-msgstr ""
+msgstr "인증서 정보"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 214
 #: 
 msgid "Certificate private key missing"
-msgstr ""
+msgstr "인증서 개인 키 누락"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/backup_history.volt, line: 263
 #: 
 msgid "Changes between selected versions"
-msgstr ""
+msgstr "선택된 버전간의 변경 사항"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 255
 #: 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "중국어 (번체)"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1742
 #: 
 msgid "Choose how states created by this rule are treated, default (as defined in advanced), floating in which case states are valid on all interfaces or interface bound. Interface bound states are more secure, floating more flexible"
-msgstr ""
+msgstr "이 규칙에 의해 생성된 상태가 처리되는 방식, 기본값(고급으로 정의됨) 플로팅, 모든 인터페이스 또는 인터페이스 바운드에서 유효한 경우 상태를 선택합니다. 인터페이스 바운드 상태는 더 안전하고 더 유연하게 플로팅됩니다"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 476
 #: 
 msgid "Client IPs"
-msgstr ""
+msgstr "클라이언트 IP"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/IPsecProposalField.php, line: 106
 #: 
 msgid "Commonly used AES"
-msgstr ""
+msgstr "일반적으로 사용되는 AES"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/IPsecProposalField.php, line: 117
 #: 
 msgid "Commonly used AES with Galois/Counter Mode"
-msgstr ""
+msgstr "갈루아/카운터 모드와 함께 일반적으로 사용되는 AES"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/IPsecProposalField.php, line: 120
 #: 
 msgid "Commonly used, but insecure cipher suites"
-msgstr ""
+msgstr "일반적으로 사용되지만 안전하지 않은 암호 제품군"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 661
 #: 
 msgid "Compliance"
-msgstr ""
+msgstr "준수"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 282
 #: 
 msgid "Config Preview"
-msgstr ""
+msgstr "구성 미리 보기"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 75
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 81
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 198
 #: 
 msgid "Configuration applied successfully."
-msgstr ""
+msgstr "구성이 성공적으로 적용되었습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Base/ApiMutableServiceControllerBase.php, line: 202
 #: 
 msgid "Configuration exception"
-msgstr ""
+msgstr "구성 예외"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/backup_history.volt, line: 136
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/backup_history.volt, line: 161
 #: 
 msgid "Confirmation required"
-msgstr ""
+msgstr "확인이 필요함"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 867
 #: 
 msgid "Constraint allowed groups to those selected in the container section. This may offer additional security in cases where users are able to inject memberOf attributes in different trees."
-msgstr ""
+msgstr "제약 조건은 컨테이너 섹션에서 선택된 그룹으로 제한됩니다. 이는 사용자가 다른 트리에서 memberOf 속성을 주입할 수 있는 경우 추가적인 보안을 제공할 수 있습니다."
 
 #. File: /usr/core/src/www/system_authservers.php, line: 863
 #: 
 msgid "Constraint groups"
-msgstr ""
+msgstr "제약 그룹"
 
 #. File: /usr/core/src/www/system_general.php, line: 100
 #: 
 msgid "Could not read uploaded file."
-msgstr ""
+msgstr "업로드한 파일을 읽을 수 없습니다."
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 80
 #: 
 msgid "Custom policies"
-msgstr ""
+msgstr "사용자 정의 정책"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 161
 #: 
 msgid "DCO type instances only support UDP mode."
-msgstr ""
+msgstr "DCO 유형 인스턴스는 UDP 모드만 지원합니다."
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 200
 #: 
 msgid "Default Originate"
-msgstr ""
+msgstr "기본 시작"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 79
 #: 
 msgid "Default Policies"
-msgstr ""
+msgstr "기본 정책"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 470
 #: 
 msgid "Default block"
-msgstr ""
+msgstr "기본 차단"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 480
 #: 
 msgid "Default pass"
-msgstr ""
+msgstr "기본 통과"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 583
 #: 
 msgid "Deny authentication, only applicable for local users"
-msgstr ""
+msgstr "인증 거부, 로컬 사용자에게만 적용 가능"
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 226
 #: 
 msgid "Device %s does not exist."
-msgstr ""
+msgstr "%s 장치가 없습니다."
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 211
 #: 
 msgid "Device %s was assigned to %d interfaces: %s"
-msgstr ""
+msgstr "%s 장치가 %d 인터페이스에 할당되었습니다: %s"
 
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 423
 #: 
 msgid "Disable or remove legacy mobile tunnel in order to use this."
-msgstr ""
+msgstr "이 터널을 사용하려면 기존 모바일 터널을 비활성화하거나 제거합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 69
 #: 
 msgid "Download CRL when available"
-msgstr ""
+msgstr "사용 가능할 때 CRL을 다운로드"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 82
 #: 
 msgid "Download OCSP demo index"
-msgstr ""
+msgstr "OCSP 데모 인덱스를 다운로드"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 66
 #: 
 msgid "Driver"
-msgstr ""
+msgstr "드라이버"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 61
 #: 
 msgid "Duplicate entry: The combination of %s and port %s is already used. Each combination of domain and port must be unique."
-msgstr ""
+msgstr "중복 항목: %s와 포트 %s의 조합이 이미 사용되고 있습니다. 도메인과 포트의 조합은 고유해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/ArrayField.php, line: 338
 #: 
 msgid "Duplicate key entry found"
-msgstr ""
+msgstr "중복 키 항목이 발견됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 101
 #: 
 msgid "Dynamic IPv6 prefix received"
-msgstr ""
+msgstr "동적 IPv6 접두사가 수신됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.php, line: 129
 #: 
 msgid "Dynamic gateway values cannot be specified for interfaces with a static %s configuration."
-msgstr ""
+msgstr "정적 %s 구성의 인터페이스에 대해서는 동적 게이트웨이 값을 지정할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 100
 #: 
 msgid "Dynamic nameserver received"
-msgstr ""
+msgstr "동적 네임서버 수신됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 102
 #: 
 msgid "Dynamic router received"
-msgstr ""
+msgstr "동적 라우터 수신됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 103
 #: 
 msgid "Dynamic searchdomain received"
-msgstr ""
+msgstr "동적 검색 도메인이 수신됨"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 587
 #: 
 msgid "Edit Access List"
-msgstr ""
+msgstr "액세스 리스트 수정"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 588
 #: 
 msgid "Edit Basic Auth"
-msgstr ""
+msgstr "기본 인증 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/DHCRelay/relay.volt, line: 118
 #: 
 msgid "Edit DHCP destination"
-msgstr ""
+msgstr "DHCP 목적지 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/DHCRelay/relay.volt, line: 117
 #: 
 msgid "Edit DHCP relay"
-msgstr ""
+msgstr "DHCP 릴레이 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 80
 #: 
 msgid "Edit Dashboard"
-msgstr ""
+msgstr "대시보드 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gre.volt, line: 86
 #: 
 msgid "Edit GRE"
-msgstr ""
+msgstr "GRE  수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routing/configuration.volt, line: 159
 #: 
 msgid "Edit Gateway"
-msgstr ""
+msgstr "게이트웨이 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gif.volt, line: 86
 #: 
 msgid "Edit Gif"
-msgstr ""
+msgstr "Gif 수정"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 586
 #: 
 msgid "Edit HTTP Handler"
-msgstr ""
+msgstr "HTTP 핸들러 수정"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 589
 #: 
 msgid "Edit HTTP Header"
-msgstr ""
+msgstr "HTTP 헤더 수정"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 179
 #: 
 msgid "Edit Layer4 Route"
-msgstr ""
+msgstr "L4 라우팅 수정"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 190
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 191
 #: 
 msgid "Edit List"
-msgstr ""
+msgstr "목록 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 225
 #: 
 msgid "Edit Peer"
-msgstr ""
+msgstr "피어 수정"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 326
 #: 
 msgid "Edit Peer Groups"
-msgstr ""
+msgstr "피어 그룹 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 224
 #: 
 msgid "Edit Reservation"
-msgstr ""
+msgstr "예약 수정"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/static.volt, line: 113
 #: 
 msgid "Edit Routes"
-msgstr ""
+msgstr "라우팅 수정"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 585
 #: 
 msgid "Edit Subdomain"
-msgstr ""
+msgstr "서브도메인 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 223
 #: 
 msgid "Edit Subnet"
-msgstr ""
+msgstr "서브넷 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 377
 #: 
 msgid "Edit instance"
-msgstr ""
+msgstr "인스턴스 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 376
 #: 
 msgid "Edit peer"
-msgstr ""
+msgstr "피어 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 84
 #: 
 msgid "Edit snapshot"
-msgstr ""
+msgstr "스냅샷 수정"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/EmailField.php, line: 49
 #: 
 msgid "Email address is invalid."
-msgstr ""
+msgstr "이메일 주소가 유효하지 않습니다."
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 320
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 97
 #: 
 msgid "Empty response from the backend. Please check logs."
-msgstr ""
+msgstr "백엔드에서 빈 응답이 왔습니다. 로그를 확인하세요."
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 238
 #: 
 msgid "Enable autonomous port mapping service."
-msgstr ""
+msgstr "자율 포트 매핑 서비스를 활성화합니다."
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 564
 #: 
 msgid "Enabling this option will disable scrub (normalization) for traffic matching this rule."
-msgstr ""
+msgstr "이 옵션을 활성화하면 이 규칙과 일치하는 트래픽에 대한 스크럽(정규화)이 비활성화됩니다."
 
 #. File: /usr/core/src/opnsense/www/api.php, line: 46
 #: 
 msgid "Endpoint not found"
-msgstr ""
+msgstr "엔드포인트를 찾을 수 없음"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/models/Deciso/Proxy/FieldTypes/CustomPolicyField.php, line: 77
 #: 
 msgid "Entry \"%s\" does not contain a valid domain or address."
-msgstr ""
+msgstr "\"%s\" 항목에는 유효한 도메인이나 주소가 포함되어 있지 않습니다."
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/models/Deciso/Proxy/FieldTypes/CustomPolicyField.php, line: 82
 #: 
 msgid "Entry \"%s\" does not contain a valid path."
-msgstr ""
+msgstr "\"%s\" 항목에는 유효한 패스가 포함되어 있지 않습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Kea/FieldTypes/KeaPoolsField.php, line: 57
 #: 
 msgid "Entry \"%s\" is not a valid range or subnet."
-msgstr ""
+msgstr "\"%s\" 항목에는 유효한 범위 또는 서브넷이 포함되어 있지 않습니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 73
 #: 
 msgid "Error applying configuration: "
-msgstr ""
+msgstr "구성 적용 오류: "
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 182
 #: 
 msgid "Error configuring policies"
-msgstr ""
+msgstr "구성 정책 오류"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 165
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 570
 #: 
 msgid "Error reconfiguring Caddy"
-msgstr ""
+msgstr "Caddy 재구성 중 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/ctrl_agent.volt, line: 65
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 215
 #: 
 msgid "Error reconfiguring DHCPv4"
-msgstr ""
+msgstr "DHCPv4 재구성 중 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gif.volt, line: 78
 #: 
 msgid "Error reconfiguring GIF"
-msgstr ""
+msgstr "GIF 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gre.volt, line: 78
 #: 
 msgid "Error reconfiguring GRE"
-msgstr ""
+msgstr "GRE 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/hasync.volt, line: 60
 #: 
 msgid "Error reconfiguring HAsync"
-msgstr ""
+msgstr "HAsync 재구성 오류"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 242
 #: 
 msgid "Error reconfiguring OSPFv3"
-msgstr ""
+msgstr "OSPFv3 재구성 오류"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/static.volt, line: 105
 #: 
 msgid "Error reconfiguring STATIC"
-msgstr ""
+msgstr "STATIC 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 153
 #: 
 msgid "Error reconfiguring Syslog"
-msgstr ""
+msgstr "Syslog 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/settings.volt, line: 65
 #: 
 msgid "Error reconfiguring Trust"
-msgstr ""
+msgstr "신뢰 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 370
 #: 
 msgid "Error reconfiguring WireGuard"
-msgstr ""
+msgstr "와이어가드 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/DHCRelay/relay.volt, line: 111
 #: 
 msgid "Error reconfiguring dhcrelay"
-msgstr ""
+msgstr "dhrelay 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routing/configuration.volt, line: 150
 #: 
 msgid "Error reconfiguring gateways"
-msgstr ""
+msgstr "게이트웨이 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/neighbor.volt, line: 84
 #: 
 msgid "Error reconfiguring neighbors"
-msgstr ""
+msgstr "이웃 재구성 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 159
 #: 
 msgid "Error resetting Syslog"
-msgstr ""
+msgstr " Syslog 재구성 오류"
 
 #. File: /usr/plugins/sysutils/apcupsd/src/opnsense/mvc/app/controllers/OPNsense/Apcupsd/Api/ServiceController.php, line: 140
 #: 
 msgid "Error: apcupsd is disabled"
-msgstr ""
+msgstr "오류: apcupsd가 비활성화됨"
 
 #. File: /usr/plugins/sysutils/apcupsd/src/opnsense/mvc/app/controllers/OPNsense/Apcupsd/Api/ServiceController.php, line: 137
 #: 
 msgid "Error: empty output from apcaccess"
-msgstr ""
+msgstr "오류: apcaccess에서 빈 출력"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 174
 #: 
 msgid "Export as csv"
-msgstr ""
+msgstr "csv로 내보내기"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/OneToOneController.php, line: 47
 #: 
 msgid "External"
-msgstr ""
+msgstr "외부"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 130
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 168
 #: 
 msgid "External subnet should match internal subnet."
-msgstr ""
+msgstr "외부 서브넷은 내부 서브넷과 일치해야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 134
 #: 
 msgid "Fail Duration"
-msgstr ""
+msgstr "실패 지속 기간"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 51
 #: 
 msgid "Failed to load content: "
-msgstr ""
+msgstr "콘텐츠를 로드하는 데 실패:"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 141
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 145
 #: 
 msgid "Failed to load data"
-msgstr ""
+msgstr "데이터 로드가 실패됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 78
 #: 
 msgid "Failed to load widget"
-msgstr ""
+msgstr "위젯을 로드하는 데 실패"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/ca.volt, line: 66
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 86
 #: 
 msgid "File type"
-msgstr ""
+msgstr "파일 유형"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 333
 #: 
 msgid "Filter by Domain"
-msgstr ""
+msgstr "도메인으로 필터링"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1732
 #: 
 msgid "Floating states"
-msgstr ""
+msgstr "플로팅 상태"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 589
 #: 
 msgid "Flush (full) local configuration history."
-msgstr ""
+msgstr "로컬 구성 기록을 (완전히)삭제합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 163
 #: 
 msgid "For BINAT rules only addresses or subnets are allowed."
-msgstr ""
+msgstr "BINAT 규칙의 경우 주소 또는 서브넷만 허용됩니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 80
 #: 
 msgid "For more information on how to migrate to ZFS, please refer to our documentation or support resources."
-msgstr ""
+msgstr "ZFS로 마이그레이션하는 방법에 대한 자세한 정보는 문서 또는 지원 리소스를 참조해 주세요."
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 399
 #: 
 msgid "For zone Check and Show to work, the zone must be enabled and the configuration applied."
-msgstr ""
+msgstr "존 체크 및 표시가 작동하려면 존이 활성화되어 있고 구성이 적용되어야 합니다."
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 415
 #: 
 msgid "Format: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cidr] [int port or range]"
-msgstr ""
+msgstr "형식: [허용 또는 거부] [외부 포트 또는 범위] [내부 IP 주소 또는 IP 주소/서브넷] [내부 포트 또는 범위]"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 720
 #: 
 msgid "Further information is available in the %sofficial HAProxy documentation%s. Be sure to report bugs and request features on our %sGitHub issue page%s. Code contributions are also very welcome!"
-msgstr ""
+msgstr "자세한 정보는 %s공식 HAProxy 문서%s에서 확인할 수 있습니다. 버그를 보고하고 기능 요청은 %sGitHub 이슈 페이지%s에서 해주세요. 코드 기여도 매우 환영합니다!"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Routing/Api/SettingsController.php, line: 221
 #: 
 msgid "Gateway %s cannot be deleted because it is in use on Gateway Group(s) '%s'"
-msgstr ""
+msgstr "%s 게이트웨이는 게이트웨이 그룹 '%s'에서 사용 중이므로 삭제할 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Routing/Api/SettingsController.php, line: 200
 #: 
 msgid "Gateway %s cannot be deleted because it is in use on Interface '%s'"
-msgstr ""
+msgstr "%s 게이트웨이는 인터페이스 '%s'에서 사용 중이므로 삭제할 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Routing/Api/SettingsController.php, line: 238
 #: 
 msgid "Gateway %s cannot be deleted because it is in use on Static Route(s) '%s'"
-msgstr ""
+msgstr "%s 게이트웨이는 정적 경로 '%s'에서 사용 중이므로 삭제할 수 없음"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/STATICd.php, line: 56
 #: 
 msgid "Gateway IP protocol should match network protocol"
-msgstr ""
+msgstr "게이트웨이 IP 프로토콜은 네트워크 프로토콜과 일치해야 함"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 319
 #: 
 msgid "Generate new keypair."
-msgstr ""
+msgstr "새로운 키 쌍을 생성."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 279
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 351
 #: 
 msgid "Generate new psk."
-msgstr ""
+msgstr "새로운 psk를 생성."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 61
 #: 
 msgid "Generic control flow with errors (default)"
-msgstr ""
+msgstr "오류가 있는 일반 제어 흐름(기본값)"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 499
 #: 
 msgid "Granularity"
-msgstr ""
+msgstr "세분화"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 114
 #: 
 msgid "HA Peers"
-msgstr ""
+msgstr "HA 피어"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 319
 #: 
 msgid "HTTP Access"
-msgstr ""
+msgstr "HTTP 접근"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 478
 #: 
 msgid "HTTP Code"
-msgstr ""
+msgstr "HTTP  코드"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 318
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 419
 #: 
 msgid "HTTP Handlers"
-msgstr ""
+msgstr "HTTP 핸들러"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 479
 #: 
 msgid "HTTP Message"
-msgstr ""
+msgstr "HTTP 메시지"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/diagnostics.volt, line: 89
 #: 
 msgid "Handshake"
-msgstr ""
+msgstr "핸드쉐이크"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 90
 #: 
 msgid "Hardware Offload Capabilities"
-msgstr ""
+msgstr "하드웨어 오프로드 기능"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 74
 #: 
 msgid "Header Length"
-msgstr ""
+msgstr "헤더 길이"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 153
 #: 
 msgid "IP protocol families should match."
-msgstr ""
+msgstr "IP 프로토콜 패밀리가 일치해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 53
 #: 
 msgid "IPv4 Addresses"
-msgstr ""
+msgstr "IPv4 주소"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2153
 #: 
 msgid "IPv4 gateway rules"
-msgstr ""
+msgstr "IPv4 게이트웨이 규칙"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 54
 #: 
 msgid "IPv6 Addresses"
-msgstr ""
+msgstr "IPv6 주소"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2654
 #: 
 msgid "IPv6 gateway rules"
-msgstr ""
+msgstr "IPv6 게이트웨이 규칙"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2245
 #: 
 msgid "If there are certain upstream DHCP servers that should be ignored, place the comma separated list of IP addresses of the DHCP servers to be ignored here."
-msgstr ""
+msgstr "무시해야 할 특정 업스트림 DHCP 서버가 있는 경우, 무시할 DHCP 서버의 IP 주소를 쉼표로 구분하여 여기에 입력하세요."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 724
 #: 
 msgid "If this is checked, errors from the web GUI will appear in the main system log."
-msgstr ""
+msgstr "이 항목을 체크하면 웹 GUI의 오류가 메인 시스템 로그에 나타납니다."
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 336
 #: 
 msgid "If this option is set, then DHCP static mappings will be registered in Dnsmasq, so that their name can be resolved. You should also set the domain in %sSystem: Settings: General%s to the proper value."
-msgstr ""
+msgstr "이 옵션을 설정하면 DHCP 정적 매핑이 Dnsmasq에 등록되어 이름을 확인할 수 있습니다. 또한 %s시스템: 설정: 일반%s에서 도메인을 적절한 값으로 설정해야 합니다."
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 364
 #: 
 msgid "If unchecked, IPv6 interface configuration will be ignored and all forwarding traffic will be blocked. Use with care."
-msgstr ""
+msgstr "체크하지 않으면 IPv6 인터페이스 구성이 무시되고 모든 전달 트래픽이 차단됩니다. 주의해서 사용하세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 170
 #: 
 msgid "Import csv"
-msgstr ""
+msgstr "cvs 가져오기"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 157
 #: 
 msgid "Import existing"
-msgstr ""
+msgstr "기존 가져오기"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 168
 #: 
 msgid "Import reservations"
-msgstr ""
+msgstr "예약 가져오기"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 297
 #: 
 msgid "In use"
-msgstr ""
+msgstr "사용 중"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/CaptivePortal/CaptivePortal.php, line: 108
 #: 
 msgid "Inbound interfaces may not overlap with zone interfaces (%s)"
-msgstr ""
+msgstr "인바운드 인터페이스는 영역 인터페이스(%s)와 겹치지 않을 수 있습니다"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 63
 #: 
 msgid "Including RAW data dumps in hex"
-msgstr ""
+msgstr "16진수로 된 원시 데이터 덤프 포함"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 80
 #: 
 msgid "Input Errors"
-msgstr ""
+msgstr "오류 입력"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 88
 #: 
 msgid "Input Queue Drops"
-msgstr ""
+msgstr "큐 드랍 입력"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 871
 #: 
 msgid "Interface / Invert"
-msgstr ""
+msgstr "인터페이스 / 반전"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 354
 #: 
 msgid "Interfaces do not seem to match, please check the %sassignments%s now for missing devices."
-msgstr ""
+msgstr "인터페이스가 일치하지 않는 것 같습니다. 누락된 장치를 확인하려면 지금 %s할당%s를 확인해 주세요."
 
 #. File: /usr/core/src/www/services_ntpd.php, line: 347
 #: 
 msgid "Interfaces to listen on and send outgoing queries."
-msgstr ""
+msgstr "수신 대기할 인터페이스와 나가는 쿼리를 보낼 인터페이스입니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/Base64Field.php, line: 43
 #: 
 msgid "Invalid Base64-encoded string."
-msgstr ""
+msgstr "유효하지 않은 Base64 인코딩 문자열."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 198
 #: 
 msgid "Invalid CRL provided."
-msgstr ""
+msgstr "유효하지 않은 CRL이 제공."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/IPPortField.php, line: 125
 #: 
 msgid "Invalid IP-port combination."
-msgstr ""
+msgstr "유효하지 않은 IP-포트 조합."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.php, line: 65
 #: 
 msgid "Invalid IPv4 address"
-msgstr ""
+msgstr "유효하지 않은 IPv4 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.php, line: 67
 #: 
 msgid "Invalid IPv6 address"
-msgstr ""
+msgstr "유효하지 않은 IPv6 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/MacAddressField.php, line: 95
 #: 
 msgid "Invalid MAC address."
-msgstr ""
+msgstr "유효하지 않은 MAC 주소."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/UrlField.php, line: 49
 #: 
 msgid "Invalid URL."
-msgstr ""
+msgstr "유효하지 않은 URL."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CaController.php, line: 105
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CertController.php, line: 104
 #: 
 msgid "Invalid X509 certificate provided"
-msgstr ""
+msgstr "유효하지 않은 X509 인증서가 제공"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CertController.php, line: 128
 #: 
 msgid "Invalid X509 certificate provided : %s"
-msgstr ""
+msgstr "유효하지 않은 X509 인증서가 제공 : %s"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/AutoNumberField.php, line: 63
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/IntegerField.php, line: 96
 #: 
 msgid "Invalid integer value."
-msgstr ""
+msgstr "유효하지 않은 정수값."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CrlController.php, line: 190
 #: 
 msgid "Invalid method %s"
-msgstr ""
+msgstr "유효하지 않은 %s 방법"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 145
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 175
 #: 
 msgid "Invalid name specified"
-msgstr ""
+msgstr "유효하지 않은 지정된 이름"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/NumericField.php, line: 62
 #: 
 msgid "Invalid numeric value."
-msgstr ""
+msgstr "유효하지 않은 숫자 값."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CaController.php, line: 112
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CertController.php, line: 111
 #: 
 msgid "Invalid private key provided"
-msgstr ""
+msgstr "유효하지 않은 개인 키가 제공"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 107
 #: 
 msgid "Invalid range provided."
-msgstr ""
+msgstr "제공된 범위가 유효하지 않습니다."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 163
 #: 
 msgid "Invalid rekey limit option."
-msgstr ""
+msgstr "rekey 제한 옵션이 유효하지 않습니다."
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 426
 #: 
 msgid "Invalid state policy type %s"
-msgstr ""
+msgstr "유효하지 않은 상태 정책 유형 %s"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 225
 #: 
 msgid "Inverting interfaces is only allowed for single targets to avoid mis-interpretations"
-msgstr ""
+msgstr "인터페이스를 반전하는 것은 잘못된 해석을 방지하기 위해 단일 대상에 대해서만 허용됨"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 156
 #: 
 msgid "JSON Configuration"
-msgstr ""
+msgstr "JSON 구성"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/kea.inc, line: 35
 #: 
 msgid "KEA DHCPv4 server"
-msgstr ""
+msgstr "KEA DHCPv4 서버"
 
 #. File: /usr/core/src/etc/inc/plugins.inc.d/kea.inc, line: 176
 #: 
 msgid "Kea DHCP"
-msgstr ""
+msgstr "Kea DHCP"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 261
 #: 
 msgid "Korean"
-msgstr ""
+msgstr "한국어"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 93
 #: 
 msgid "LAGG Hash"
-msgstr ""
+msgstr "LAGG 해시"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 100
 #: 
 msgid "Last accessed"
-msgstr ""
+msgstr "마지막 액세스"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 225
 #: 
 msgid "Last day"
-msgstr ""
+msgstr "지난 하루"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 227
 #: 
 msgid "Last month"
-msgstr ""
+msgstr "지난 달"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 226
 #: 
 msgid "Last week"
-msgstr ""
+msgstr "지난 주"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 110
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 117
 #: 
 msgid "Layer4 Routes"
-msgstr ""
+msgstr "L4 경로"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/Api/SystemController.php, line: 117
 #: 
 msgid "Licensed until %s"
-msgstr ""
+msgstr "%s까지 라이선스 부여됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 78
 #: 
 msgid "Line Rate"
-msgstr ""
+msgstr "라인 속도"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 75
 #: 
 msgid "Link State"
-msgstr ""
+msgstr "라인 상태"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/export.volt, line: 199
 #: 
 msgid "Linked user"
-msgstr ""
+msgstr "연결된 사용자"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/CSVListField.php, line: 72
 #: 
@@ -60851,453 +60851,453 @@ msgstr ""
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 354
 #: 
 msgid "Log packets"
-msgstr ""
+msgstr "패킷 로그"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 358
 #: 
 msgid "Log packets handled by service rules?"
-msgstr ""
+msgstr "서비스 규칙에 의해 처리된 패킷을 기록합니까?"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 #: 
 msgid "Log packets matched by automatic outbound NAT rules"
-msgstr ""
+msgstr "자동 발신 NAT 규칙에 의해 일치하는 패킷을 기록"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 473
 #: 
 msgid "Log packets matched from the default block rules"
-msgstr ""
+msgstr "기본 차단 규칙에서 일치하는 패킷을 기록"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 483
 #: 
 msgid "Log packets matched from the default pass rules"
-msgstr ""
+msgstr "기본 통과 규칙에서 일치하는 패킷을 기록"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 722
 #: 
 msgid "Log server errors"
-msgstr ""
+msgstr "로그 서버 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/neighbor.volt, line: 58
 #: 
 msgid "Mac"
-msgstr ""
+msgstr "Mac"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GifSettingsController.php, line: 152
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GreSettingsController.php, line: 152
 #: 
 msgid "Manual address"
-msgstr ""
+msgstr "수동 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 59
 #: 
 msgid "Media (Raw)"
-msgstr ""
+msgstr "미디어 (원시)"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 60
 #: 
 msgid "Media Options"
-msgstr ""
+msgstr "미디어 옵션"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 244
 #: 
 msgid "Minute(s)"
-msgstr ""
+msgstr "분"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Routing/Api/SettingsController.php, line: 136
 #: 
 msgid "Misconfigured Gateway IP"
-msgstr ""
+msgstr "잘못 구성된 게이트웨이 IP"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CaController.php, line: 238
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Trust/Api/CertController.php, line: 280
 #: 
 msgid "Misssing certificate"
-msgstr ""
+msgstr "누락된 인증서"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 62
 #: 
 msgid "More detailed debugging control flow"
-msgstr ""
+msgstr "보다 자세한 디버깅 제어 흐름"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 56
 #: 
 msgid "Mountpoint"
-msgstr ""
+msgstr "마운트 포인트"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/policy.volt, line: 165
 #: 
 msgid "Msg"
-msgstr ""
+msgstr "메시지"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.php, line: 60
 #: 
 msgid "Multicast group -or- Remote address has to be specified"
-msgstr ""
+msgstr "멀티캐스트 그룹 또는 원격 주소가 지정되어야 함"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.php, line: 78
 #: 
 msgid "Multicast group is specified, a Device must also be specified"
-msgstr ""
+msgstr "멀티캐스트 그룹이 지정된 경우 장치도 지정해야 함"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 86
 #: 
 msgid "Multicasts Received"
-msgstr ""
+msgstr "멀티캐스트 수신됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 87
 #: 
 msgid "Multicasts Transmitted"
-msgstr ""
+msgstr "멀티캐스트 전송됨"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/BFD.php, line: 47
 #: 
 msgid "Multihop is currently only supported for IPv4"
-msgstr ""
+msgstr "현재 다중 홉은 IPv4만 지원"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 87
 #: 
 msgid "NGINX config loaded successfully"
-msgstr ""
+msgstr "NGINX 구성이 성공적으로 로딩됨"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 88
 #: 
 msgid "NGINX config loaded. Config file created at"
-msgstr ""
+msgstr "NGINX 구성이 로드되었습니다. 구성 파일 생성 위치"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 107
 #: 
 msgid "NGINX config test failed"
-msgstr ""
+msgstr "NGINX 구성 테스트 실패됨"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 119
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 120
 #: 
 msgid "NGINX config test is successful"
-msgstr ""
+msgstr "NGINX 구성 테스트가 성공함"
 
 #. File: /usr/plugins/net-mgmt/net-snmp/src/etc/inc/plugins.inc.d/netsnmp.inc, line: 39
 #: 
 msgid "Netsnmp"
-msgstr ""
+msgstr "Netsnmp"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 199
 #: 
 msgid "Next Hop Self"
-msgstr ""
+msgstr "넥스트 홉 셀프"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/backup_history.volt, line: 270
 #: 
 msgid "No backups available"
-msgstr ""
+msgstr "사용 가능한 백업이 없음"
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 495
 #: 
 msgid "No devices available for assignment"
-msgstr ""
+msgstr "할당할 수 있는 장치 없음"
 
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 111
 #: 
 msgid "No gateway has been selected to be used in this group."
-msgstr ""
+msgstr "이 그룹에서 사용할 게이트웨이가 선택되지 않았습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Routing/Api/SettingsController.php, line: 144
 #: 
 msgid "No interface attached"
-msgstr ""
+msgstr "연결된 인터페이스 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 228
 #: 
 msgid "No limit"
-msgstr ""
+msgstr "제한 없음"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 396
 #: 
 msgid "Number of permissions"
-msgstr ""
+msgstr "권한 수"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 146
 #: 
 msgid "Number of permissions must be an integer greater than 0"
-msgstr ""
+msgstr "권한 수는 0보다 큰 정수여야 함"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 400
 #: 
 msgid "Number of permissions to configure."
-msgstr ""
+msgstr "구성된 권한 수."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 125
 #: 
 msgid "Only strict subnets are allowed for Proxy ARP types (e.g. 192.168.0.0/24, 192.168.1.1/32)."
-msgstr ""
+msgstr "프록시 ARP 유형에는 엄격한 서브넷만 허용됩니다(예: 192.168.0.0/24, 192.168.1.1/32)."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/BaseListField.php, line: 65
 #: 
 msgid "Option not in list."
-msgstr ""
+msgstr "옵션이 목록에 없습니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2815
 #. File: /usr/core/src/www/interfaces.php, line: 3080
 #: 
 msgid "Optional interface ID"
-msgstr ""
+msgstr "선택적 인터페이스 ID"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2803
 #: 
 msgid "Optional prefix ID"
-msgstr ""
+msgstr "선택적 접두사 ID"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 490
 #: 
 msgid "Outbound NAT"
-msgstr ""
+msgstr "아웃바운드 NAT"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 82
 #: 
 msgid "Output Errors"
-msgstr ""
+msgstr "출력 오류"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 79
 #: 
 msgid "Packets Received"
-msgstr ""
+msgstr "패킷 수신됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 81
 #: 
 msgid "Packets Transmitted"
-msgstr ""
+msgstr "패킷 전송됨"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 89
 #: 
 msgid "Packets for Unknown Protocol"
-msgstr ""
+msgstr "알 수 없는 프로토콜의 패킷"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 485
 #: 
 msgid "Packets that are allowed by the implicit default pass rule will be logged if you check this option. Per-rule logging options are still respected."
-msgstr ""
+msgstr "이 옵션을 선택하면 묵시적 기본 패스 규칙에 의해 허용되는 패킷이 기록됩니다. 규칙별 로깅 옵션은 여전히 ​​존중됩니다."
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 475
 #: 
 msgid "Packets that are blocked by the implicit default block rule will not be logged if you uncheck this option. Per-rule logging options are still respected."
-msgstr ""
+msgstr "이 옵션을 선택 취소하면 암묵적 기본 차단 규칙에 의해 차단된 패킷은 기록되지 않습니다. 규칙별 로깅 옵션은 여전히 ​​존중됩니다."
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 38
 #: 
 msgid "Peer Groups"
-msgstr ""
+msgstr "피어 그룹"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 273
 #: 
 msgid "Peer generator"
-msgstr ""
+msgstr "피어 생성"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 46
 #: 
 msgid "Physical"
-msgstr ""
+msgstr "물리적"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 173
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 578
 #: 
 msgid "Please do not forget to apply the configuration."
-msgstr ""
+msgstr "구성을 적용하는 것을 잊지 마세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 131
 #: 
 msgid "Please select an authentication option, at least one type of authentication is required."
-msgstr ""
+msgstr "인증 옵션을 선택해 주세요. 최소한 하나의 인증 유형이 필요합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/HostnameField.php, line: 174
 #: 
 msgid "Please specify a valid IP address or hostname."
-msgstr ""
+msgstr "유효한 IP 주소나 호스트 이름을 지정해 주세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/NetworkField.php, line: 190
 #: 
 msgid "Please specify a valid network segment or IP address."
-msgstr ""
+msgstr "유효한 네트워크 세그먼트 또는 IP 주소를 지정해 주세요."
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 81
 #: 
 msgid "Policy tester"
-msgstr ""
+msgstr "정책 테스트기"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 263
 #: 
 msgid "Polish"
-msgstr ""
+msgstr "폴란드어"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/diagnostics.volt, line: 88
 #: 
 msgid "Port / Endpoint"
-msgstr ""
+msgstr "포트 / 엔드포인트"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 150
 #: 
 msgid "Ports in \"Reverse Proxy - Domains\" must be empty or must be 1024 or above."
-msgstr ""
+msgstr "\"리버스 프록시 - 도메인\"의 포트는 비어 있거나 1024 이상이어야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 169
 #: 
 msgid "Ports in \"Reverse Proxy - Layer4 Routes\" must be empty or must be 1024 or above."
-msgstr ""
+msgstr "\"리버스 프록시 - L4 경로\"의 포트는 비어 있거나 1024 이상이어야 합니다."
 
 #. File: /usr/core/src/www/diag_backup.php, line: 360
 #: 
 msgid "Postponing reboot."
-msgstr ""
+msgstr "재부팅 연기 중."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Lagg.php, line: 84
 #: 
 msgid "Primary member %s not in member list."
-msgstr ""
+msgstr "주요 멤버%s이(가) 멤버 목록에 없습니다."
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 242
 #: 
 msgid "Primay zone check failed"
-msgstr ""
+msgstr "기본 영역 검사 실패됨"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 504
 #: 
 msgid "Private networks"
-msgstr ""
+msgstr "사설 네트워크"
 
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 167
 #: 
 msgid "Privileges - Deny config write"
-msgstr ""
+msgstr "권한 - 구성 쓰기 거부"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 68
 #: 
 msgid "Promiscuous Listeners"
-msgstr ""
+msgstr "무차별 대기"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 139
 #: 
 msgid "Property"
-msgstr ""
+msgstr "속성"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 300
 #: 
 msgid "Purpose"
-msgstr ""
+msgstr "목적"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 114
 #: 
 msgid "Range does not match specified subnet."
-msgstr ""
+msgstr "범위가 지정된 서브넷과 일치하지 않습니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 80
 #: 
 msgid "Reconfiguration request failed."
-msgstr ""
+msgstr "재구성 요청에 실패했습니다."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 913
 #: 
 msgid "Rekey Limit"
-msgstr ""
+msgstr "리키 제한"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.php, line: 55
 #: 
 msgid "Remote address -or- Multicast group has to be specified"
-msgstr ""
+msgstr "원격 주소 또는 멀티캐스트 그룹을 지정해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.php, line: 69
 #: 
 msgid "Remote address is specified, Device must be None"
-msgstr ""
+msgstr "원격 주소가 지정되면, 장치는 없음이어야 합니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2785
 #: 
 msgid "Request prefix only"
-msgstr ""
+msgstr "요청 접두사만"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 664
 #: 
 msgid "Require SHA-512 password hashing"
-msgstr ""
+msgstr "SHA-512 암호 해싱이 필요"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 666
 #: 
 msgid "Require passwords to meet compliance by using the hashing algorithm SHA-512. Otherwise, the more secure Bcrypt hash is used."
-msgstr ""
+msgstr "암호는 SHA-512 해싱 알고리즘을 사용하여 규정 준수를 충족해야 합니다. 그렇지 않으면 더 안전한 Bcrypt 해시가 사용됩니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 113
 #: 
 msgid "Reservations"
-msgstr ""
+msgstr "예약"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 575
 #: 
 msgid "Restore areas:"
-msgstr ""
+msgstr "복구 영역:"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 73
 #: 
 msgid "Restore default layout"
-msgstr ""
+msgstr "기본 레이아웃 복원"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 754
 #: 
 msgid "Rules from Automation"
-msgstr ""
+msgstr "자동화 규칙"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2170
 #: 
 msgid "Select a gateway from the list to reply the incoming packets to the proper next hop on their way back and apply source NAT when configured. This is typically disabled for LAN type interfaces."
-msgstr ""
+msgstr "목록에서 게이트웨이를 선택하여 들어오는 패킷을 올바른 다음 홉으로 회신하고 설정된 경우 소스 NAT을 적용합니다. 이는 일반적으로 LAN 유형 인터페이스에서는 비활성화됩니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2671
 #: 
 msgid "Select a gateway from the list to reply the incoming packets to the proper next hop on their way back. This is typically disabled for LAN type interfaces."
-msgstr ""
+msgstr "수신 패킷을 적절한 다음 홉으로 되돌리기 위해 목록에서 게이트웨이를 선택하십시오. 이는 일반적으로 LAN 유형 인터페이스에 대해 비활성화되어 있습니다."
 
 #. File: /usr/core/src/www/diag_backup.php, line: 475
 #: 
 msgid "Selecting specific restore areas during a configuration import may cause loss of configuration integrity due to external references not being restored. It is recommended to keep this set to the default unless you know what you are doing."
-msgstr ""
+msgstr "구성 가져오기 중에 특정 복원 영역을 선택하면 외부 참조가 복원되지 않아 구성 무결성이 손실될 수 있습니다. 무엇을 하고 있는지 모르는 경우에는 이 설정을 기본값으로 유지하는 것이 좋습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 71
 #: 
 msgid "Send Queue Drops"
-msgstr ""
+msgstr "큐 드랍 전송"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 69
 #: 
 msgid "Send Queue Length"
-msgstr ""
+msgstr "큐 길이 전송"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 70
 #: 
 msgid "Send Queue Max Length"
-msgstr ""
+msgstr "큐 최대 길이 전송"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2794
 #: 
 msgid "Send prefix hint"
-msgstr ""
+msgstr "접두사 힌트 전송"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 719
 #: 
 msgid "Server Log"
-msgstr ""
+msgstr "서버 로그"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 92
 #: 
 msgid "Server directive must define a subnet of /29 or lower unless topology equals p2p."
-msgstr ""
+msgstr "서버 지시문은 토폴로지가 p2p가 아닌 경우 /29 이하의 서브넷을 정의해야 합니다."
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 803
 #: 
 msgid "Show Config"
-msgstr ""
+msgstr "구성 표시"
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 245
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 265
 #: 
 msgid "Show zone content"
-msgstr ""
+msgstr "영역 내용 표시"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 147
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 181
@@ -61305,92 +61305,92 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 235
 #: 
 msgid "Snapshot not found"
-msgstr ""
+msgstr "스냅샷을 찾을 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 78
 #: 
 msgid "Snapshots are only available when a ZFS file system is used."
-msgstr ""
+msgstr "스냅샷은 ZFS 파일 시스템을 사용할 때만 사용할 수 있습니다."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 923
 #: 
 msgid "Specifies the maximum amount of data that may be transmitted or received before the session key is renegotiated within a given time. The defaults depend on cipher and are usually the best option."
-msgstr ""
+msgstr "주어진 시간 내에 세션 키를 재협상하기 전에 전송하거나 수신할 수 있는 최대 데이터 양을 지정합니다. 기본값은 암호에 따라 다르며 일반적으로 가장 적합한 옵션입니다."
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1725
 #: 
 msgid "State policy"
-msgstr ""
+msgstr "상태 정책"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 328
 #: 
 msgid "Step 1: Add Domain"
-msgstr ""
+msgstr "1 단계: 도메인 추가"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 329
 #: 
 msgid "Step 2: Add HTTP Handler"
-msgstr ""
+msgstr "2단계: HTTP 핸들러 추가"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 383
 #: 
 msgid "Subdomains"
-msgstr ""
+msgstr "서브도메인"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 64
 #: 
 msgid "Subnet Bits"
-msgstr ""
+msgstr "서브넷 비트"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 112
 #: 
 msgid "Subnets"
-msgstr ""
+msgstr "서브넷"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 45
 #: 
 msgid "Supported Media"
-msgstr ""
+msgstr "지원되는 미디어"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 93
 #: 
 msgid "TLS cannot be disabled if one of the following options are used: \"DNS-01 Challenge\", \"HTTP-01 Challenge Redirection\" and \"Custom Certificate\""
-msgstr ""
+msgstr "다음 옵션 중 하나를 사용하는 경우 TLS를 비활성화할 수 없습니다. \"DNS-01 챌린지\", \"HTTP-01 챌린지 리디렉션\" 및 \"사용자 정의 인증서\""
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Base/ApiMutableServiceControllerBase.php, line: 200
 #: 
 msgid "Template generation failed for internal service \"%s\". See backend log for details."
-msgstr ""
+msgstr "내부 서비스 \"%s\"에 대한 템플릿을 생성하지 못했습니다. 자세한 내용은 백엔드 로그를 참조하세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/TextField.php, line: 63
 #: 
 msgid "Text does not validate."
-msgstr ""
+msgstr "텍스트가 검증되지 않았습니다."
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 76
 #: 
 msgid "The Redis service is not active, make sure to configure it via : %s Services -> Redis %s first"
-msgstr ""
+msgstr "Redis 서비스가 활성화되지 않았습니다.  %s 서비스 -> Redis %s를 통해 구성하세요."
 
 #. File: /usr/core/src/www/interfaces.php, line: 1877
 #: 
 msgid "The assigned network device name of this interface."
-msgstr ""
+msgstr "이 인터페이스에 할당된 네트워크 장치 이름입니다."
 
 #. File: /usr/core/src/www/system_general.php, line: 92
 #: 
 msgid "The image file is too large. Please upload something smaller than 10MB."
-msgstr ""
+msgstr "이미지 파일이 너무 큽니다. 10MB보다 작은 파일을 업로드하세요."
 
 #. File: /usr/core/src/www/interfaces.php, line: 1868
 #: 
 msgid "The internal configuration identifier of this interface."
-msgstr ""
+msgstr "이 인터페이스의 내부 구성 식별자입니다."
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 553
 #: 
 msgid "The login shell for this non-admin user is not active for security reasons."
-msgstr ""
+msgstr "보안상의 이유로 이 비관리자 사용자의 로그인 셸이 활성화되어 있지 않습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gif.php, line: 54
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gif.php, line: 65
@@ -61398,338 +61398,338 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gre.php, line: 65
 #: 
 msgid "The remote address family has to match the one used in local."
-msgstr ""
+msgstr "원격 주소 패밀리는 로컬에서 사용되는 패밀리와 일치해야 합니다."
 
 #. File: /usr/core/src/www/diag_backup.php, line: 281
 #: 
 msgid "The selected config file could not be parsed."
-msgstr ""
+msgstr "선택한 구성 파일을 파싱할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.php, line: 84
 #: 
 msgid "The time period needs to be at least 2 times the sum of the probe interval and the loss interval."
-msgstr ""
+msgstr "시간 기간은 프로브 간격과 손실 간격의 합의 최소 2배여야 합니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 3009
 #: 
 msgid "The value in this field is the 6RD IPv4 prefix length. A value of 0 means we embed the entire IPv4 address in the 6RD prefix."
-msgstr ""
+msgstr "이 필드의 값은 6RD IPv4 접두사 길이입니다. 값이 0이면 전체 IPv4 주소를 6RD 접두사에 포함시킵니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2780
 #: 
 msgid "The value in this field is the delegated prefix length provided by the DHCPv6 server."
-msgstr ""
+msgstr "이 필드의 값은 DHCPv6 서버에서 제공하는 위임된 접두사 길이입니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2822
 #. File: /usr/core/src/www/interfaces.php, line: 3087
 #: 
 msgid "The value in this field is the numeric IPv6 interface ID used to construct the lower part of the resulting IPv6 prefix address. Setting a hex value will use that fixed value in its lower address part. Please note the maximum usable value is 0x7fffffffffffffff due to a PHP integer restriction."
-msgstr ""
+msgstr "이 필드의 값은 결과 IPv6 접두사 주소의 하위 부분을 구성하는 데 사용되는 숫자 IPv6 인터페이스 ID입니다. 16진수 값을 설정하면 해당 고정 값이 하위 주소 부분에 사용됩니다. PHP 정수 제한으로 인해 최대 사용 가능한 값은 0x7fffffffffffffff임을 유의하세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 118
 #: 
 msgid "This interface is not tracking the current rule interface."
-msgstr ""
+msgstr "이 인터페이스는 현재 규칙 인터페이스를 추적하고 있지 않습니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 3620
 #: 
 msgid "This option requires checking the \"Enable WPA box\"."
-msgstr ""
+msgstr "이 옵션을 사용하려면 \"WPA 활성화 상자\"를 선택해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 154
 #: 
 msgid "Timeout should be larger than interval."
-msgstr ""
+msgstr "타임아웃은 간격보다 커야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 124
 #: 
 msgid "To validate a certificate one has to be provided."
-msgstr ""
+msgstr "인증서를 검증하려면 인증서를 제공해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/NptController.php, line: 50
 #: 
 msgid "Track if"
-msgstr ""
+msgstr "추적 인터페이스"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 223
 #: 
 msgid "UPnP IGD & PCP/NAT-PMP Settings"
-msgstr ""
+msgstr "UPnP IGD 및 PCP/NAT-PMP 설정"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 402
 #: 
 msgid "Unable to load data"
-msgstr ""
+msgstr "데이터를 로드할 수 없음"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 147
 #: 
 msgid "Unable to locate a CA for this certificate."
-msgstr ""
+msgstr "이 인증서에 대한 CA를 찾을 수 없습니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/controllers/OPNsense/Caddy/Api/ServiceController.php, line: 71
 #: 
 msgid "Unable to parse the validation result."
-msgstr ""
+msgstr "유효성 검사 결과를 구문 분석할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 173
 #: 
 msgid "Unassigned Interface"
-msgstr ""
+msgstr "할당되지 않은 인터페이스"
 
 #. File: /usr/core/src/opnsense/www/api.php, line: 48
 #: 
 msgid "Unexpected error, check log for details"
-msgstr ""
+msgstr "예기치 않은 오류, 자세한 내용은 로그 확인"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 51
 #: 
 msgid "Unknown error"
-msgstr ""
+msgstr "알 수 없는 오류"
 
 #. File: /usr/core/src/www/system_general.php, line: 419
 #: 
 msgid "Upload a picture, to be displayed in the Picture widget on the dashboard."
-msgstr ""
+msgstr "대시보드의 이미지 위젯에 표시할 이미지를 업로드합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 91
 #: 
 msgid "Uptime at Attach or Statistics Reset"
-msgstr ""
+msgstr "연결 시 가동 시간 또는 통계 재설정"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 153
 #: 
 msgid "Uri"
-msgstr ""
+msgstr "Uri"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/ca.volt, line: 195
 #: 
 msgid "Usages"
-msgstr ""
+msgstr "사용량"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 876
 #: 
 msgid "Use all but selected interfaces"
-msgstr ""
+msgstr "선택한 인터페이스를 제외한 모든 인터페이스 사용"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 367
 #: 
 msgid "Use system uptime instead of service uptime?"
-msgstr ""
+msgstr "서비스 가동 시간 대신 시스템 가동 시간을 사용하시겠습니까?"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 99
 #: 
 msgid "VLAN Tag"
-msgstr ""
+msgstr "VLAN 태그"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 98
 #: 
 msgid "VLAN details"
-msgstr ""
+msgstr "VLAN 세부사항"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 166
 #: 
 msgid "Validate Caddyfile"
-msgstr ""
+msgstr "Caddyfile 유효성 검사"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 125
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 104
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 112
 #: 
 msgid "Validation Error"
-msgstr ""
+msgstr "유효성 검사 오류"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 128
 #: 
 msgid "Validation Request Failed"
-msgstr ""
+msgstr "유효성 검사 요청 실패"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 123
 #: 
 msgid "Validation Successful"
-msgstr ""
+msgstr "유효성 검사 성공"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/BaseField.php, line: 754
 #: 
 msgid "Validation failed."
-msgstr ""
+msgstr "유효성 검사 실패."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 108
 #: 
 msgid "Validation request failed."
-msgstr ""
+msgstr "유효성 검사 요청 실패."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 73
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 190
 #: 
 msgid "Validation request failed: "
-msgstr ""
+msgstr "유효성 검사 요청 실패: "
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/BooleanField.php, line: 49
 #: 
 msgid "Value should be a boolean (0,1)."
-msgstr ""
+msgstr "값은 부울이어야 합니다 (0, 1)."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 60
 #: 
 msgid "Very basic auditing logs, (e.g. SA up/SA down)"
-msgstr ""
+msgstr "매우 기본적인 감사 로그(예: SA 업/SA 다운)"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 269
 #: 
 msgid "Vietnamese"
-msgstr ""
+msgstr "베트남어"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/status.volt, line: 133
 #: 
 msgid "Virtual IPv4 Address"
-msgstr ""
+msgstr "가상 IPv4 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/status.volt, line: 134
 #: 
 msgid "Virtual IPv6 Address"
-msgstr ""
+msgstr "가상 IPv6 주소"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 187
 #: 
 msgid "When \"%s\" matcher is selected, domain is required."
-msgstr ""
+msgstr "\"%s\" 매칭기를 선택하면 도메인이 필요합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 203
 #: 
 msgid "When \"%s\" matcher is selected, domain must be empty or *."
-msgstr ""
+msgstr "\"%s\" 매칭기가 선택되면 도메인은 비워두거나 * 이어야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 70
 #: 
 msgid "When no certificate is provided a CA needs to be provided."
-msgstr ""
+msgstr "인증서가 제공되지 않을 경우 CA를 제공해야 합니다."
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/STATICd.php, line: 63
 #: 
 msgid "When no interface is provided, at least a gateway must be offered"
-msgstr ""
+msgstr "인터페이스가 제공되지 않을 경우 최소한 게이트웨이는 제공되어야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 255
 #: 
 msgid "When routing type is \"%s\", matchers \"HTTP\" or \"TLS\" cannot be chosen."
-msgstr ""
+msgstr "라우팅 유형이 \"%s\"인 경우, \"HTTP\" 또는 \"TLS\" 매칭기를 선택할 수 없습니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 215
 #: 
 msgid "When routing type is \"%s\", port is required."
-msgstr ""
+msgstr "라우팅 유형이 \"%s\"인 경우 포트가 필요합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 225
 #: 
 msgid "When routing type is \"%s\", port must be empty."
-msgstr ""
+msgstr "라우팅 유형이 \"%s\"인 경우 포트는 비어 있어야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 237
 #: 
 msgid "When routing type is \"%s\", protocol must be TCP."
-msgstr ""
+msgstr "라우팅 유형이 \"%s\"인 경우 프토토콜은 TCP여야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 100
 #: 
 msgid "When specifying a bridge gateway, a pool should also be provided."
-msgstr ""
+msgstr "브리지 게이트웨이를 지정할 때는 풀도 제공해야 합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 63
 #: 
 msgid "When using password authentication, both username and password are required"
-msgstr ""
+msgstr "비밀번호 인증을 사용할 때는 사용자 이름과 비밀번호 모두 필요합니다."
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 307
 #: 
 msgid "You can override a single LAN interface subnet here. Useful if you are rebroadcasting service traffic across networks."
-msgstr ""
+msgstr "여기에서 단일 LAN 인터페이스 서브넷을 재정의할 수 있습니다. 이는 서비스 트래픽을 여러 네트워크에 재전송하는 경우에 유용합니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.php, line: 57
 #: 
 msgid "You cannot mix address families for destinations."
-msgstr ""
+msgstr "목적지에 대해 주소 패밀리를 혼합할 수 없습니다."
 
 #. File: /usr/core/src/www/interfaces_assign.php, line: 215
 #: 
 msgid "You cannot set device %s to interface %s because it cannot be a member of itself."
-msgstr ""
+msgstr "%s 장치는 자신의 멤버가 될 수 없으므로 인터페이스 %s로 설정할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 99
 #: 
 msgid "You cannot use the broadcast address."
-msgstr ""
+msgstr "브로드캐스트 주소를 사용할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 92
 #: 
 msgid "You cannot use the network address."
-msgstr ""
+msgstr "네트워크 주소를 사용할 수 없습니다."
 
 #. File: /usr/core/src/www/interfaces.php, line: 758
 #. File: /usr/core/src/www/interfaces.php, line: 824
 #: 
 msgid "You must enter a valid hexadecimal number for the IPv6 interface ID."
-msgstr ""
+msgstr "IPv6 인터페이스 ID에 대해 유효한 16진수 숫자를 입력해야 합니다."
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 262
 #: 
 msgid "Zone check completed successfully"
-msgstr ""
+msgstr "영역 확인이 성공적으로 완료됨"
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/general.volt, line: 297
 #: 
 msgid "Zone loaded successfully"
-msgstr ""
+msgstr "영역이 성공적으로 로딩됨"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 840
 #: 
 msgid "create new user certificate"
-msgstr ""
+msgstr "새 사용자 인증서 생성"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Diagnostics/Api/SystemController.php, line: 49
 #: 
 msgid "day"
-msgstr ""
+msgstr "일"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 726
 #: 
 msgid "delete selected"
-msgstr ""
+msgstr "선택 삭제"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GifSettingsController.php, line: 135
 #: 
 msgid "gif in use"
-msgstr ""
+msgstr "사용 중인 gif"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GreSettingsController.php, line: 135
 #: 
 msgid "gre in use"
-msgstr ""
+msgstr "사용 중인 gre"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/IPsecProposalField.php, line: 127
 #: 
 msgid "null-sha256-x25519 (testing only, no encryption!)"
-msgstr ""
+msgstr "null-sha256-x25519 (테스트용, 암호화 없음!)"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routing/configuration.volt, line: 77
 #: 
 msgid "upstream"
-msgstr ""
+msgstr "업스트림"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 121
 #: 
 msgid "www user is active, HTTP port must not be empty and must be 1024 or above."
-msgstr ""
+msgstr "www 사용자가 활성화되어 있으며, HTTP 포트가 비어 있어서는 안 되며 1024 이상이어야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 131
 #: 
 msgid "www user is active, HTTPS port must not be empty and must be 1024 or above."
-msgstr ""
+msgstr "www 사용자가 활성화되어 있으며, HTTPS 포트가 비어 있어서는 안 되며 1024 이상이어야 합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 144
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 163
 #: 
 msgid "www user is active, port must be empty or must be 1024 or above."
-msgstr ""
+msgstr "www 사용자가 활성화되어 있으며, 포트가 비어 있어서는 안 되며 1024 이상이어야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 30
 #: 
@@ -61739,7 +61739,12 @@ msgid "\n"
 "            'Client Expired Response Timeout', otherwise, these late responses will not update the cache.\n"
 "            The value 0 disables it. Default 1900. This setting may increase the \"request queue exceeded\" counter.\n"
 "        "
-msgstr ""
+msgstr "\n"
+"\t    재귀 요청이 삭제되는 대기 시간(밀리초). 이는 많은 수의 응답이 누적되는 것을 막기 위한 것입니다. \n"
+"            '만료된 응답 제공'이 활성화된 경우 이 필드는 '클라이언트 만료된 응답 시간 초과'보다 크게 설정해야 합니다. \n"
+"            그렇지 않으면 이러한 늦은 응답이 캐시를 업데이트하지 않습니다.\n"
+"            값 0이면 이를 비활성화됩니다. 기본값은 1900입니다. 이 설정은 \"요청 대기열 초과\" 카운터를 증가시킬 수 있습니다.\n"
+"        "
 
 #. File: /usr/lang/src/controllers.php, line: 42
 #: 
@@ -61896,82 +61901,82 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 748
 #: 
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #. File: /usr/lang/src/controllers.php, line: 750
 #: 
 msgid "1800"
-msgstr ""
+msgstr "1800"
 
 #. File: /usr/lang/src/controllers.php, line: 751
 #: 
 msgid "192.168.1.1"
-msgstr ""
+msgstr "192.168.1.1"
 
 #. File: /usr/lang/src/controllers.php, line: 754
 #: 
 msgid "224.0.0.18"
-msgstr ""
+msgstr "224.0.0.18"
 
 #. File: /usr/lang/src/controllers.php, line: 755
 #: 
 msgid "224.0.0.240"
-msgstr ""
+msgstr "224.0.0.240"
 
 #. File: /usr/lang/src/controllers.php, line: 756
 #: 
 msgid "443"
-msgstr ""
+msgstr "443"
 
 #. File: /usr/lang/src/controllers.php, line: 757
 #: 
 msgid "4789"
-msgstr ""
+msgstr "4789"
 
 #. File: /usr/lang/src/controllers.php, line: 759
 #: 
 msgid "65535"
-msgstr ""
+msgstr "65535"
 
 #. File: /usr/lang/src/controllers.php, line: 760
 #: 
 msgid "80"
-msgstr ""
+msgstr "80"
 
 #. File: /usr/lang/src/controllers.php, line: 769
 #: 
 msgid "A list of server IP addresses to relay DHCP requests to."
-msgstr ""
+msgstr "DHCP 요청을 중계할 서버 IP 주소 목록입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 776
 #: 
 msgid "ACL applies on selected users and groups. Users are prefixed with *, best use groups to structure policies"
-msgstr ""
+msgstr "ACL은 선택한 사용자 및 그룹에 적용됩니다. 사용자는 *로 접두사가 붙으며, 그룹을 가장 잘 사용하여 정책을 구성합니다"
 
 #. File: /usr/lang/src/controllers.php, line: 783
 #: 
 msgid "ACME Email"
-msgstr ""
+msgstr "ACME 이메일"
 
 #. File: /usr/lang/src/controllers.php, line: 792
 #: 
 msgid "API Key (DEPRECATED)"
-msgstr ""
+msgstr "API 키(더 이상 사용되지 않음)"
 
 #. File: /usr/lang/src/controllers.php, line: 794
 #: 
 msgid "API Signing key in PEM format"
-msgstr ""
+msgstr "PEM 형식의 API 서명 키"
 
 #. File: /usr/lang/src/controllers.php, line: 798
 #: 
 msgid "API Username"
-msgstr ""
+msgstr "API 사용자 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 803
 #: 
 msgid "API-Key"
-msgstr ""
+msgstr "API-키"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 355
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 392
@@ -61979,97 +61984,97 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 814
 #: 
 msgid "Access List"
-msgstr ""
+msgstr "액세스 리스트"
 
 #. File: /usr/lang/src/controllers.php, line: 832
 #: 
 msgid "Action to perform."
-msgstr ""
+msgstr "수행할 작업"
 
 #. File: /usr/lang/src/controllers.php, line: 837
 #: 
 msgid "Activates the connections cache for upstream server and sets the max number of idle connections that are preserved in the cache of each worker process. Leave blank or set to 0 to disable. Keepalive support should be enabled at Location settings also."
-msgstr ""
+msgstr "업스트림 서버에 대한 연결 캐시를 활성화하고 각 작업자 프로세스의 캐시에 보존되는 유휴 연결의 최대 수를 설정합니다. 비활성화하려면 비워두거나 0으로 설정합니다. location 설정에서도 keepalive 지원을 활성화해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 852
 #: 
 msgid "Add Observium Support"
-msgstr ""
+msgstr "Observium 지원 추가"
 
 #. File: /usr/lang/src/controllers.php, line: 863
 #: 
 msgid "Add extended information to eve HTTP logging."
-msgstr ""
+msgstr "eve HTTP 로깅에 확장된 정보를 추가합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 864
 #: 
 msgid "Add extended information to eve TLS logging. For example, SNI field."
-msgstr ""
+msgstr "eve TLS 로깅에 확장된 정보를 추가합니다. 예를 들면, SNI 필드."
 
 #. File: /usr/lang/src/controllers.php, line: 874
 #: 
 msgid "Add the HA Proxy Protocol header. Either version 1 or 2 can be chosen. The default is off, since it is only needed when the upstream can use the Proxy Protocol header."
-msgstr ""
+msgstr "HAProxy  프로토콜 헤더를 추가합니다. 버전 1 또는 2 중 하나를 선택할 수 있습니다. 업스트림이 프록시 프로토콜 헤더를 사용할 수 있는 경우에만 필요하므로 기본값은 꺼져 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 875
 #: 
 msgid "Add the log level of each message after the subsystem (e.g. [IKE2])."
-msgstr ""
+msgstr "하위 시스템 뒤에 각 메시지의 로그 수준을 추가합니다(예: [IKE2])."
 
 #. File: /usr/lang/src/controllers.php, line: 877
 #: 
 msgid "Add the relay agent information option."
-msgstr ""
+msgstr "릴레이 에이전트 정보 옵션을 추가합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 881
 #: 
 msgid "Additional Fields"
-msgstr ""
+msgstr "추가 필드"
 
 #. File: /usr/lang/src/controllers.php, line: 886
 #: 
 msgid "Address on which the RESTful interface should be available"
-msgstr ""
+msgstr "RESTful 인터페이스가 사용 가능한 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 888
 #: 
 msgid "Address(es)"
-msgstr ""
+msgstr "주소(들)"
 
 #. File: /usr/lang/src/controllers.php, line: 891
 #: 
 msgid "Adds the directives required for upstream keepalive to work (enables HTTP 1.1 and clears the Connection header). Mutually exclusive with WebSocket support. Keepalive parameters must be set in Upstream settings too."
-msgstr ""
+msgstr "업스트림 keepalive가 작동하는 데 필요한 지시어를 추가합니다(HTTP 1.1을 활성화하고 Connection 헤더를 지웁니다). WebSocket 지원과는 상호 배타적입니다. 유지 연결 매개변수는 업스트림 설정에서도 설정해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 905
 #: 
 msgid "Affiliation Changed"
-msgstr ""
+msgstr "소속 변경됨"
 
 #. File: /usr/lang/src/controllers.php, line: 907
 #: 
 msgid "Agent Information"
-msgstr ""
+msgstr "에이전트 정보"
 
 #. File: /usr/lang/src/controllers.php, line: 911
 #: 
 msgid "Aggressive NSEC"
-msgstr ""
+msgstr "공격적인 NSEC"
 
 #. File: /usr/lang/src/controllers.php, line: 929
 #: 
 msgid "Allow Insecure Ciphers"
-msgstr ""
+msgstr "안전하지 않은 암호화 허용"
 
 #. File: /usr/lang/src/controllers.php, line: 933
 #: 
 msgid "Allow RDNC key update"
-msgstr ""
+msgstr "RNDC 키 업데이트 허용"
 
 #. File: /usr/lang/src/controllers.php, line: 941
 #: 
 msgid "Allow inbound"
-msgstr ""
+msgstr "인바운드 허용"
 
 #. File: /usr/lang/src/controllers.php, line: 945
 #: 
@@ -62081,78 +62086,78 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 950
 #: 
 msgid "Allow updates via the RDNC key named \"rndc-key\". The key is shown in the general tab."
-msgstr ""
+msgstr "\"rndc-key\"라는 이름의 RDNC 키를 통해 업데이트를 허용합니다. 키는 일반 탭에 표시됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 986
 #: 
 msgid "Applications other than daemons"
-msgstr ""
+msgstr "데몬 이외의 응용 프로그램"
 
 #. File: /usr/lang/src/controllers.php, line: 992
 #: 
 msgid "ArtFiles DNS API"
-msgstr ""
+msgstr "ArtFiles DNS API"
 
 #. File: /usr/lang/src/controllers.php, line: 996
 #: 
 msgid "At least 2 interfaces must be selected. The maximum number of supported interfaces by the daemon is 5."
-msgstr ""
+msgstr "최소 2개의 인터페이스를 선택해야 합니다. 데몬이 지원하는 최대 인터페이스 수는 5개입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1000
 #. File: /usr/lang/src/models.php, line: 281
 #: 
 msgid "Aurora (PCextreme/Versio)"
-msgstr ""
+msgstr "Aurora (PCextreme/Versio)"
 
 #. File: /usr/lang/src/controllers.php, line: 1004
 #: 
 msgid "Auth Provider"
-msgstr ""
+msgstr "인증 제공자"
 
 #. File: /usr/lang/src/controllers.php, line: 1025
 #: 
 msgid "Auto HTTPS"
-msgstr ""
+msgstr "자동 HTTPS"
 
 #. File: /usr/lang/src/controllers.php, line: 1027
 #: 
 msgid "Auto collect option data"
-msgstr ""
+msgstr "옵션 데이터 자동 수집"
 
 #. File: /usr/lang/src/controllers.php, line: 1028
 #: 
 msgid "Auto fetch CRL's"
-msgstr ""
+msgstr "CRL 자동 가져오기"
 
 #. File: /usr/lang/src/controllers.php, line: 1033
 #: 
 msgid "Automatic OCSP updates"
-msgstr ""
+msgstr "자동 OCSP 업데이트"
 
 #. File: /usr/lang/src/controllers.php, line: 1034
 #: 
 msgid "Automatically add a basic set of firewall rules to allow dhcp traffic, more fine grained controls can be offered manually when disabling this option."
-msgstr ""
+msgstr "기본 방화벽 규칙을 자동으로 추가하여 dhcp 트래픽을 허용하면 이 옵션을 비활성화할 때 수동으로 더 세분화된 제어 기능을 제공할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1038
 #: 
 msgid "Automatically update option data for relevant attributes as routers, dns servers and ntp servers when applying settings from the gui."
-msgstr ""
+msgstr "GUI에서 설정을 적용할 때 라우터, DNS 서버 및 NTP 서버와 같은 관련 속성에 대한 옵션 데이터를 자동으로 업데이트합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1053
 #: 
 msgid "BGP AD Distance"
-msgstr ""
+msgstr "BGP AD 거리"
 
 #. File: /usr/lang/src/controllers.php, line: 1057
 #: 
 msgid "BGP routes usually have an administrative distance of 20. Here you can adjust these values, e.g. when you want to prefer OSPF learned routes."
-msgstr ""
+msgstr "BGP 경로는 일반적으로 20의 관리 거리를 갖습니다. 여기서 이러한 값을 조정할 수 있습니다(예: OSPF 학습 경로를 선호하려는 경우)."
 
 #. File: /usr/lang/src/controllers.php, line: 1072
 #: 
 msgid "Base of exponential backoff"
-msgstr ""
+msgstr "지수 백오프의 기본"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 356
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 393
@@ -62160,83 +62165,83 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1073
 #: 
 msgid "Basic Auth"
-msgstr ""
+msgstr "기본 인증"
 
 #. File: /usr/lang/src/controllers.php, line: 1087
 #: 
 msgid "Bind address"
-msgstr ""
+msgstr "바인드 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 1090
 #: 
 msgid "Bind port"
-msgstr ""
+msgstr "바인드 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 1112
 #: 
 msgid "Boot filename to request"
-msgstr ""
+msgstr "요청할 부팅 파일 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 1113
 #: 
 msgid "Bots User Agents"
-msgstr ""
+msgstr "봇 유저 에이전트"
 
 #. File: /usr/lang/src/controllers.php, line: 1121
 #: 
 msgid "Brief description for reference."
-msgstr ""
+msgstr "참고용으로 간략하게 설명합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1129
 #. File: /usr/lang/src/models.php, line: 348
 #: 
 msgid "Bunny"
-msgstr ""
+msgstr "버니"
 
 #. File: /usr/lang/src/controllers.php, line: 1138
 #: 
 msgid "CA Compromise"
-msgstr ""
+msgstr "CA 침해"
 
 #. File: /usr/lang/src/controllers.php, line: 1140
 #: 
 msgid "CA reference"
-msgstr ""
+msgstr "CA 참조"
 
 #. File: /usr/lang/src/controllers.php, line: 1148
 #: 
 msgid "CHILD_SA/IPsec SA"
-msgstr ""
+msgstr "CHILD_SA/IPsec SA"
 
 #. File: /usr/lang/src/controllers.php, line: 1176
 #: 
 msgid "Caddy uses HTTP by default to connect to the Upstream. If the Upstream is only reachable via HTTPS, this option disables the TLS handshake verification. This makes the connection insecure and vulnerable to man-in-the-middle attacks. In private networks the risk is low, though do not use in production if possible. It is advised to either use plain HTTP, or proper TLS handling by using the options in \"Trust\"."
-msgstr ""
+msgstr "Caddy는 기본적으로 HTTP를 사용하여 업스트림에 연결합니다. 업스트림에 HTTPS를 통해서만 접근할 수 있는 경우 이 옵션은 TLS 핸드셰이크 검증을 비활성화합니다. 이렇게 하면 연결이 안전하지 않고 중간자 공격에 취약해집니다. 개인 네트워크에서는 위험이 낮지만 가능하면 프로덕션에서는 사용하지 마십시오. 일반 HTTP를 사용하거나 \"신뢰\"의 옵션을 사용하여 적절한 TLS 처리를 사용하는 것이 좋습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1191
 #: 
 msgid "Certificate Hold"
-msgstr ""
+msgstr "인증서 보유"
 
 #. File: /usr/lang/src/controllers.php, line: 1195
 #: 
 msgid "Certificate signing request"
-msgstr ""
+msgstr "인증서 서명 요청"
 
 #. File: /usr/lang/src/controllers.php, line: 1199
 #: 
 msgid "Cessation of Operation"
-msgstr ""
+msgstr "운영 중단"
 
 #. File: /usr/lang/src/controllers.php, line: 1202
 #: 
 msgid "Charon"
-msgstr ""
+msgstr "Charon"
 
 #. File: /usr/lang/src/controllers.php, line: 1224
 #: 
 msgid "Choose ACME to get automatic certificates with the built in ACME client; no additional plugin required. The \"HTTP-01\", \"TLS-ALPN-01\" or \"DNS-01\" challenge will be used to get automatic \"Let's Encrypt\" or \"ZeroSSL\" certificates. Alternatively, choose a custom certificate from \"System - Trust - Certificates\" for this domain. Make sure the full chain has been imported."
-msgstr ""
+msgstr "ACME를 선택하여 내장된 ACME 클라이언트로 자동 인증서를 받으세요. 추가 플러그인은 필요 없습니다. \"HTTP-01\", \"TLS-ALPN-01\" 또는 \"DNS-01\" 챌린지는 자동 \"Let's Encrypt\" 또는 \"ZeroSSL\" 인증서를 받는 데 사용됩니다. 또는 이 도메인에 대해 \"시스템 - 신뢰 - 인증서\"에서 사용자 지정 인증서를 선택하세요. 전체 체인이 가져왔는지 확인하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 1228
 #: 
@@ -62251,204 +62256,204 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1236
 #: 
 msgid "Choose a custom local port to listen on."
-msgstr ""
+msgstr "수신 대기할 사용자 정의 로컬 포트를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 1237
 #: 
 msgid "Choose a custom port for the upstream destination."
-msgstr ""
+msgstr "업스트림 목적지를 위한 사용자 정의 포트를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 1238
 #: 
 msgid "Choose a handling directive: \"reverse_proxy\" will proxy all HTTP traffic to the selected upstream. \"redir\" will create a HTTP redirect."
-msgstr ""
+msgstr "처리 지시어를 선택하세요: \"reverse_proxy\"는 모든 HTTP 트래픽을 선택한 업스트림으로 프록시합니다. \"redir\"은 HTTP 리다이렉트를 생성합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1239
 #: 
 msgid "Choose a handling type: \"handle\" (default) will keep the path in all requests. \"handle_path\" will strip the path from all requests."
-msgstr ""
+msgstr "처리 유형을 선택하세요: \"handle\"(기본값)은 모든 요청에서 경로를 유지합니다. \"handle_path\"는 모든 요청에서 경로를 제거합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1251
 #: 
 msgid "Choose a value between 1 and 255. Influences sort order when selecting a (default) gateway, lower means more important."
-msgstr ""
+msgstr "1과 255 사이의 값을 선택하세요. 이는 (기본) 게이트웨이를 선택할 때 정렬 순서에 영향을 미치며, 낮은 값일수록 더 중요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1252
 #: 
 msgid "Choose an instance to create a new peer for."
-msgstr ""
+msgstr "새로운 피어를 생성할 인스턴스를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 1253
 #: 
 msgid "Choose either \"listener_wrappers\" for multiplexing protocols on the default HTTP and HTTPS ports on OSI Layer 7, or \"global\" for raw TCP/UDP traffic routing on a custom \"Local port\" on OSI Layer 4 with optional OSI Layer 7 protocol matching."
-msgstr ""
+msgstr "OSI 계층 7의 기본 HTTP 및 HTTPS 포트에서 프로토콜을 다중화하려면 \"listener_wrappers\"를 선택하거나, 선택적으로 OSI 계층 7 프로토콜 매칭이 가능한 OSI 계층 4의 사용자 지정 \"로컬 포트\"에서 원시 TCP/UDP 트래픽 라우팅을 위해 \"global\"을 선택합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1286
 #: 
 msgid "Choose which gateway this route applies to."
-msgstr ""
+msgstr "이 경로가 적용될 게이트웨이를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 1290
 #: 
 msgid "Choose which interface this rule applies to. Hint: in most cases, you'll want to use WAN here"
-msgstr ""
+msgstr "이 규칙이 적용되는 인터페이스를 선택하세요. 힌트: 대부분의 경우 여기에서 WAN을 사용하는 것이 좋습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1297
 #: 
 msgid "CipherString"
-msgstr ""
+msgstr "암호 문자열"
 
 #. File: /usr/lang/src/controllers.php, line: 1299
 #: 
 msgid "Ciphersuites"
-msgstr ""
+msgstr "암호 모음"
 
 #. File: /usr/lang/src/controllers.php, line: 1307
 #: 
 msgid "Client EAP-Identity to use in EAP-Identity exchange and the EAP method. If set to %any the EAP-Identity method will be used to ask the client for an EAP identity."
-msgstr ""
+msgstr "EAP-Identity 교환 및 EAP 방법에서 사용할 클라이언트 EAP-Identity입니다. %any로 설정하면 EAP-Identity 방법이 사용되어 클라이언트에게 EAP 아이덴티티를 요청합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1310
 #: 
 msgid "Client ID, if not set a random ID is generated."
-msgstr ""
+msgstr "클라이언트 ID, 설정하지 않으면 임의의 ID가 생성됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1311
 #: 
 msgid "Client IP Addresses"
-msgstr ""
+msgstr "클라이언트 IP 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 1315
 #: 
 msgid "ClientId"
-msgstr ""
+msgstr "ClientId"
 
 #. File: /usr/lang/src/controllers.php, line: 1316
 #: 
 msgid "ClientSecret"
-msgstr ""
+msgstr "ClientSecret"
 
 #. File: /usr/lang/src/controllers.php, line: 1329
 #: 
 msgid "Comma-separated list of DNS servers to use on the peer."
-msgstr ""
+msgstr "피어에서 사용할 DNS 서버의 쉼표로 구분된 목록입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1345
 #: 
 msgid "Config"
-msgstr ""
+msgstr "구성"
 
 #. File: /usr/lang/src/controllers.php, line: 1347
 #: 
 msgid "Configuration constraints"
-msgstr ""
+msgstr "구성 제약 조건 "
 
 #. File: /usr/lang/src/controllers.php, line: 1348
 #: 
 msgid "Configuration management and plugins"
-msgstr ""
+msgstr "구성 관리와 플러그인"
 
 #. File: /usr/lang/src/controllers.php, line: 1416
 #: 
 msgid "Custom TLS fields to include in eve-log for TLS. (Overrides extended if non-empty)."
-msgstr ""
+msgstr "TLS를 위한 eve-log에 포함할 사용자 지정 TLS 필드입니다. (비어 있지 않으면 extended를 재정의합니다)."
 
 #. File: /usr/lang/src/controllers.php, line: 1427
 #: 
 msgid "DHCP option data"
-msgstr ""
+msgstr "DHCP 옵션 데이터"
 
 #. File: /usr/lang/src/controllers.php, line: 1428
 #: 
 msgid "DHGroups / Curves"
-msgstr ""
+msgstr "DH그룹 / 커브"
 
 #. File: /usr/lang/src/controllers.php, line: 1431
 #: 
 msgid "DNS API Additional Field 1"
-msgstr ""
+msgstr "DNS API 추가 필드 1"
 
 #. File: /usr/lang/src/controllers.php, line: 1432
 #: 
 msgid "DNS API Additional Field 2"
-msgstr ""
+msgstr "DNS API 추가 필드 2"
 
 #. File: /usr/lang/src/controllers.php, line: 1433
 #: 
 msgid "DNS API Additional Field 3"
-msgstr ""
+msgstr "DNS API 추가 필드 3"
 
 #. File: /usr/lang/src/controllers.php, line: 1434
 #: 
 msgid "DNS API Additional Field 4"
-msgstr ""
+msgstr "DNS API 추가 필드 4"
 
 #. File: /usr/lang/src/controllers.php, line: 1435
 #: 
 msgid "DNS API Additional Field 5"
-msgstr ""
+msgstr "DNS API 추가 필드 5"
 
 #. File: /usr/lang/src/controllers.php, line: 1436
 #: 
 msgid "DNS API Standard Field"
-msgstr ""
+msgstr "DNS API 표준 필드"
 
 #. File: /usr/lang/src/controllers.php, line: 1442
 #: 
 msgid "DNS Propagation"
-msgstr ""
+msgstr "DNS 전파"
 
 #. File: /usr/lang/src/controllers.php, line: 1443
 #: 
 msgid "DNS Provider"
-msgstr ""
+msgstr "DNS 제공자"
 
 #. File: /usr/lang/src/controllers.php, line: 1449
 #: 
 msgid "DNS domain names"
-msgstr ""
+msgstr "DNS 도메인 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 1450
 #: 
 msgid "DNS prefer IP family"
-msgstr ""
+msgstr "DNS 선호 IP 패밀리"
 
 #. File: /usr/lang/src/controllers.php, line: 1452
 #: 
 msgid "DNS servers to offer to the clients"
-msgstr ""
+msgstr "클라이언트에게 제공할 DNS 서버"
 
 #. File: /usr/lang/src/controllers.php, line: 1453
 #: 
 msgid "DNS servers to push as configuration payload (RFC4306 3.15 - Value 3 and 10). Accepts multiple IPv4/IPv6 addresses."
-msgstr ""
+msgstr "구성 페이로드로 푸시할 DNS 서버(RFC4306 3.15 - 값 3 및 10). 여러 개의 IPv4/IPv6 주소를 수용합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 357
 #. File: /usr/lang/src/controllers.php, line: 1455
 #: 
 msgid "DNS-01 Challenge"
-msgstr ""
+msgstr "DNS-01 챌린지"
 
 #. File: /usr/lang/src/controllers.php, line: 1458
 #. File: /usr/lang/src/models.php, line: 549
 #: 
 msgid "DNSExit"
-msgstr ""
+msgstr "DNS 종료"
 
 #. File: /usr/lang/src/controllers.php, line: 1473
 #: 
 msgid "Data format to output. Defaults to \"influx\"."
-msgstr ""
+msgstr "출력할 데이터 형식. 기본값은 \"influx\"입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1474
 #: 
 msgid "Data layout to output. Defaults to \"non-batch\"."
-msgstr ""
+msgstr "출력할 데이터 레이아웃. 기본값은 \"non-batch\"입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1479
 #: 
 msgid "Datadog"
-msgstr ""
+msgstr "데이터독"
 
 #. File: /usr/lang/src/controllers.php, line: 1514
 #: 
@@ -62509,102 +62514,102 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1608
 #: 
 msgid "Disable Propagation Timeout"
-msgstr ""
+msgstr "전파 타임아웃 비활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1615
 #: 
 msgid "Disable TLS verification"
-msgstr ""
+msgstr "TLS 검증 비활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1618
 #: 
 msgid "Disable gzip"
-msgstr ""
+msgstr "gzip 비활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1619
 #: 
 msgid "Disable legacy auto-added VPN rules."
-msgstr ""
+msgstr "기존 자동 추가 VPN 규칙을 비활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1622
 #: 
 msgid "Disable routes"
-msgstr ""
+msgstr "경로 비활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1626
 #: 
 msgid "Disables responses gzipping. Makes sense if TLS is used and this method of BREACH attack protection is preferred."
-msgstr ""
+msgstr "응답 gzipping을 비활성화합니다. TLS를 사용하고 이 BREACH 공격 보호 방법을 선호하는 경우 의미가 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1627
 #: 
 msgid "Discard Timeout"
-msgstr ""
+msgstr "폐기 타임아웃"
 
 #. File: /usr/lang/src/controllers.php, line: 1643
 #: 
 msgid "Do not request IPv4 addresses."
-msgstr ""
+msgstr "IPv4 주소를 요청하지 않습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1644
 #: 
 msgid "Do not request IPv6 addresses."
-msgstr ""
+msgstr "IPv6 주소를 요청하지 않습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1653
 #: 
 msgid "Domain search"
-msgstr ""
+msgstr "도메인 검색"
 
 #. File: /usr/lang/src/controllers.php, line: 1674
 #: 
 msgid "DynDns Check Http"
-msgstr ""
+msgstr "DynDns 체크 Http"
 
 #. File: /usr/lang/src/controllers.php, line: 1675
 #: 
 msgid "DynDns Check Interface"
-msgstr ""
+msgstr "DynDns 체크 인터페이스"
 
 #. File: /usr/lang/src/controllers.php, line: 1676
 #: 
 msgid "DynDns Check Interval"
-msgstr ""
+msgstr "DynDns 체크 간격"
 
 #. File: /usr/lang/src/controllers.php, line: 1677
 #: 
 msgid "DynDns IP Version"
-msgstr ""
+msgstr "DynDns IP 버전"
 
 #. File: /usr/lang/src/controllers.php, line: 1678
 #: 
 msgid "DynDns TTL"
-msgstr ""
+msgstr "DynDns TTL"
 
 #. File: /usr/lang/src/controllers.php, line: 1679
 #: 
 msgid "DynDns Update Only"
-msgstr ""
+msgstr "DynDns 업데이트만"
 
 #. File: /usr/lang/src/controllers.php, line: 1699
 #: 
 msgid "Elasticsearch"
-msgstr ""
+msgstr "Elasticsearch"
 
 #. File: /usr/lang/src/controllers.php, line: 1709
 #: 
 msgid "Email addresses"
-msgstr ""
+msgstr "이메일 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 1719
 #: 
 msgid "Enable AgentX SNMP Integration"
-msgstr ""
+msgstr "AgentX SNMP 통합 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1729
 #: 
 msgid "Enable Caddy"
-msgstr ""
+msgstr "Caddy 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1738
 #: 
@@ -62639,377 +62644,380 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1787
 #: 
 msgid "Enable Log Processor (IDS)"
-msgstr ""
+msgstr "로그 프로세서(IDS) 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1788
 #: 
 msgid "Enable MQTT"
-msgstr ""
+msgstr "MQTT 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1799
 #: 
 msgid "Enable OpenTelemetry Output"
-msgstr ""
+msgstr "OpenTelemetry 출력 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1819
 #: 
 msgid "Enable Remediation Component (IPS)"
-msgstr ""
+msgstr "업데이트 적용 구성 요소(IPS) 사용"
 
 #. File: /usr/lang/src/controllers.php, line: 1849
 #: 
 msgid "Enable TLS handshakes logging"
-msgstr ""
+msgstr "TLS 핸드셰이크 로깅을 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1872
 #: 
 msgid "Enable automatic OCSP response updates. Each OCSP response will be updated at least once an hour, and even more frequently if a given OCSP response has an expire date earlier than this one hour limit."
-msgstr ""
+msgstr "자동 OCSP 응답 업데이트를 활성화합니다. 각 OCSP 응답은 최소 한 시간에 한 번 업데이트되며, 특정 OCSP 응답의 만료 날짜가 이 한 시간 제한보다 이른 경우 더 자주 업데이트됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1875
 #: 
 msgid "Enable automatically created firewall rules, when additional policies are needed, disable this and define\n"
 "        your own custom policies in the Firewall section.\n"
 "        "
-msgstr ""
+msgstr "자동으로 생성된 방화벽 규칙을 활성화하고, 추가 정책이 필요할 때 이를 비활성화하고\n"
+"     방화벽 섹션에서 사용자 정의 정책을 정의합니다.\n"
+"        "
 
 #. File: /usr/lang/src/controllers.php, line: 1883
 #: 
 msgid "Enable control agent."
-msgstr ""
+msgstr "컨트롤 에이전트 활성화."
 
 #. File: /usr/lang/src/controllers.php, line: 1886
 #: 
 msgid "Enable custom constraints."
-msgstr ""
+msgstr "사용자 정의 제약을 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1894
 #: 
 msgid "Enable eve HTTP logging"
-msgstr ""
+msgstr "eve HTTP 로깅 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1895
 #: 
 msgid "Enable eve TLS logging"
-msgstr ""
+msgstr "eve TLS 로깅 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1897
 #: 
 msgid "Enable extended OIDs for Observium NMS."
-msgstr ""
+msgstr "Observium NMS에 대한 확장 OID를 활성화."
 
 #. File: /usr/lang/src/controllers.php, line: 1909
 #: 
 msgid "Enable insertion of the RFC7239 forwarded header in requests sent to servers."
-msgstr ""
+msgstr "서버에 전송되는 요청에 RFC7239 포워드 헤더 삽입을 활성화."
 
 #. File: /usr/lang/src/controllers.php, line: 1922
 #: 
 msgid "Enable legacy"
-msgstr ""
+msgstr "레거시 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 1925
 #: 
 msgid "Enable local logging"
-msgstr ""
+msgstr "로컬 로깅 사용"
 
 #. File: /usr/lang/src/controllers.php, line: 1937
 #: 
 msgid "Enable or disable Dynamic DNS. Requires a \"DNS Provider\" in \"General Settings\". The DNS records of this domain will be automatically updated. A wildcard domain will create a \"*.example.com\" record. A base domain will create a \"example.com\" or \"opn.example.com\" record. Some providers need subdomains to set records for domains like \"opn.example.com\"; in that case use the checkbox in the subdomains tab."
-msgstr ""
+msgstr "동적 DNS를 활성화하거나 비활성화합니다. \"일반 설정\"에서 \"DNS 제공자\"가 필요합니다. 이 도메인의 DNS 레코드는 자동으로 업데이트됩니다. 와일드카드 도메인은 \"*.example.com \" 레코드를 생성합니다. 기본 도메인은 \"example.com \" 또는 \"opn.example.com \" 레코드를 생성합니다. 일부 제공자는 \"opn.example.com \"과 같은 도메인의 레코드를 설정하기 위해 하위 도메인이 필요합니다. 이 경우 하위 도메인 탭의 체크박스를 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1938
 #: 
 msgid "Enable or disable Dynamic DNS. Requires a \"DNS Provider\" in \"General Settings\". The DNS records of this subdomain will be automatically updated."
-msgstr ""
+msgstr "동적 DNS를 활성화하거나 비활성화합니다. \"일반 설정\"에서 \"DNS 제공자\"가 필요합니다. 이 하위 도메인의 DNS 레코드는 자동으로 업데이트됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1939
 #: 
 msgid "Enable or disable Forward Auth. Requires an \"Auth Provider\" in \"General Settings\". Headers are set automatically to the standard of the chosen provider. Enabling this option will additionally generate the forward_auth directive in front of the reverse_proxy directive inside the scope of this handler."
-msgstr ""
+msgstr "전달 인증(Forward Auth)을 활성화하거나 비활성화합니다. \"일반 설정\"에서 \"인증 공급자\"가 필요합니다. 헤더는 선택한 공급자의 표준에 맞게 자동으로 설정됩니다. 이 옵션을 활성화하면 이 핸들러의 범위 내에서 reverse_proxy 지시문 앞에 forward_auth 지시문이 추가로 생성됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1941
 #: 
 msgid "Enable or disable HTTP over TLS (HTTPS) to communicate with the Forward Auth Provider."
-msgstr ""
+msgstr "전달 인증 공급자와 통신하기 위해 TLS(HTTPS)를 통한 HTTP를 활성화하거나 비활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1942
 #: 
 msgid "Enable or disable HTTP over TLS (HTTPS) to communicate with the upstream destination. Caddy uses HTTP with the upstream destination by default."
-msgstr ""
+msgstr "업스트림 목적지와 통신하기 위해 TLS(HTTPS)를 통한 HTTP를 활성화하거나 비활성화합니다. Caddy는 기본적으로 업스트림 목적지와 HTTP를 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1943
 #: 
 msgid "Enable or disable NTLM. Needed to reverse proxy an Exchange Server. Warning: NTLM has been deprecated by Microsoft. This option will stay for as long as the optional http.reverse_proxy.transport.http_ntlm module can be compiled without errors."
-msgstr ""
+msgstr "NTLM을 활성화하거나 비활성화합니다. Exchange 서버를 리버스 프록시하기 위해 필요합니다. 경고: NTLM은 Microsoft에 의해 더 이상 지원되지 않습니다. 이 옵션은 선택적 http.reverse_proxy.transport.http_ntlm 모듈이 오류 없이 컴파일될 수 있는 한 유지됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1955
 #: 
 msgid "Enable or disable the Caddy web server."
-msgstr ""
+msgstr "Caddy 웹 서버를 활성화하거나 비활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1973
 #: 
 msgid "Enable or disable this relay."
-msgstr ""
+msgstr "이 릴레이를 활성화하거나 비활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2015
 #: 
 msgid "Enable the DNS-01 Challenge for this domain. Requires a \"DNS Provider\" in \"General Settings\". This is only needed for wildcard domains, or when the default challenges can not be used due to restrictive firewall policies."
-msgstr ""
+msgstr "이 도메인에 DNS-01 챌린지를 활성화합니다. \"일반 설정\"에서 \"DNS 제공자\"가 필요합니다. 이는 와일드카드 도메인이나 제한적인 방화벽 정책으로 인해 기본 챌린지를 사용할 수 없는 경우에만 필요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2049
 #: 
 msgid "Enable this Layer4 route."
-msgstr ""
+msgstr "이 Layer4 경로를 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2060
 #: 
 msgid "Enable this domain."
-msgstr ""
+msgstr "이 도메인 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2064
 #: 
 msgid "Enable this handler."
-msgstr ""
+msgstr "핸들러를 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2068
 #: 
 msgid "Enable this item"
-msgstr ""
+msgstr "이 아이템을 활성화"
 
 #. File: /usr/lang/src/controllers.php, line: 2079
 #: 
 msgid "Enable this subdomain."
-msgstr ""
+msgstr "이 서브도메인 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2099
 #: 
 msgid "Enable writing log files to the local disk."
-msgstr ""
+msgstr "로컬 디스크에 로그 파일 쓰기를 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2104
 #: 
 msgid "Enable/disable the remediation component. Keep this enabled to block\n"
 "      packets from the attacking IP addresses."
-msgstr ""
+msgstr "복구 구성 요소를 활성화/비활성화합니다. 공격 IP 주소로부터 패킷을 차단하려면 \n"
+"      이 기능을 활성화 상태로 유지하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2107
 #: 
 msgid "Enables a passive health check when multiple destinations in \"Upstream Domain\" are set. \"Fail Duration\" is a value that defines how long to remember a failed request. A duration of 1 or more seconds enables passive health checking; the default is empty (off). A reasonable starting point might be 30s to balance error rates with responsiveness when bringing an unhealthy upstream back online."
-msgstr ""
+msgstr "\"업스트림 도메인\"에서 여러 대상이 설정될 때 수동적인 상태 확인을 활성화합니다. \"실패 지속 시간\"은 실패한 요청을 기억하는 데 걸리는 시간을 정의하는 값입니다. 1초 이상의 지속 시간은 수동적인 상태 확인을 가능하게 하며, 기본값은 비어 있습니다(꺼짐). 양호하지 않은 업스트림을 다시 온라인으로 전환할 때 오류율과 응답성을 균형 있게 맞추기 위해 합리적인 시작점은 30초일 수 있습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 297
 #. File: /usr/lang/src/controllers.php, line: 2119
 #: 
 msgid "Endpoint address"
-msgstr ""
+msgstr "엔드포인트 주소"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 298
 #. File: /usr/lang/src/controllers.php, line: 2120
 #: 
 msgid "Endpoint port"
-msgstr ""
+msgstr "엔드포인트 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 2131
 #: 
 msgid "Enter a URL to test the current IP address of the firewall via the HTTP protocol. This is generally not needed as Caddy uses default providers to test the current IP addresses. If a custom provider is preferred, enter the \"https://\" link to an IP address testing website."
-msgstr ""
+msgstr "HTTP 프로토콜을 통해 방화벽의 현재 IP 주소를 테스트할 URL을 입력하세요. 일반적으로 Caddy는 기본 제공자를 사용하여 현재 IP 주소를 테스트하므로 필요하지 않습니다. 사용자 지정 제공자를 선호하는 경우 IP 주소 테스트 웹사이트의 \"https://\" 링크를 입력하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2134
 #: 
 msgid "Enter a description for this Layer4 route."
-msgstr ""
+msgstr "이 Layer4 경로에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2135
 #: 
 msgid "Enter a description for this access list."
-msgstr ""
+msgstr "이 접근 목록에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2136
 #: 
 msgid "Enter a description for this domain."
-msgstr ""
+msgstr "이 도메인에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2137
 #: 
 msgid "Enter a description for this handler."
-msgstr ""
+msgstr "이 핸들러에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2138
 #: 
 msgid "Enter a description for this header."
-msgstr ""
+msgstr "이 헤더에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2141
 #: 
 msgid "Enter a description for this subdomain."
-msgstr ""
+msgstr "이 서브 도메인에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2142
 #: 
 msgid "Enter a description for this user."
-msgstr ""
+msgstr "이 사용자에 대한 설명을 입력."
 
 #. File: /usr/lang/src/controllers.php, line: 2146
 #: 
 msgid "Enter a domain name or IP address of the upstream destination. If multiple are chosen, they will be load balanced with the default random policy."
-msgstr ""
+msgstr "업스트림의 도메인 이름 또는 IP 주소를 입력하세요. 여러 개가 선택된 경우 기본 랜덤 정책으로 로드 밸런싱됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2147
 #: 
 msgid "Enter a domain name or IP address of the upstream destination. If multiple are chosen, they will be load balanced with the default random policy. A health check can be activated by populating \"Upstream Fail Duration\" in advanced mode. When directive is \"redir\", only the first domain will be evaluated."
-msgstr ""
+msgstr "업스트림 대상의 도메인 이름이나 IP 주소를 입력하세요. 여러 개를 선택하면 기본 임의 정책으로 로드 밸런싱됩니다. 고급 모드에서 \"업스트림 실패 기간\"을 입력하여 상태 검사를 활성화할 수 있습니다. 지시문이 \"redir\"인 ​​경우 첫 번째 도메인만 평가됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2148
 #: 
 msgid "Enter a domain name or IP address. The HTTP-01 challenge will be redirected to that destination. This enables an ACME Client behind Caddy to serve \"/.well-known/acme-challenge/\" on port 80. Caddy will reverse proxy the HTTP-01 challenge for this domain, and will still issue a certificate using the TLS-ALPN-01 challenge or DNS-01 challenge for itself. This option can be used for High Availability when using Caddy with a master and backup OPNsense."
-msgstr ""
+msgstr "도메인 이름이나 IP 주소를 입력하세요. HTTP-01 챌린지는 해당 목적지로 리디렉션됩니다. 이를 통해 Caddy 뒤에 있는 ACME 클라이언트가 포트 80에서 \"/.well-known/acme-challenge/\"를 제공할 수 있습니다. Caddy는 이 도메인에 대한 HTTP-01 챌린지를 역방향 프록시하고, 여전히 TLS-ALPN-01 챌린지 또는 DNS-01 챌린지를 사용하여 자체 인증서를 발급합니다. 이 옵션은 마스터 및 백업 OPNsense와 함께 Caddy를 사용할 때 고가용성에 사용할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2149
 #: 
 msgid "Enter a domain name or IP address. The HTTP-01 challenge will be redirected to that destination. This enables an ACME Client behind Caddy to serve \"/.well-known/acme-challenge/\" on port 80. Caddy will reverse proxy the HTTP-01 challenge for this subdomain."
-msgstr ""
+msgstr "도메인 이름이나 IP 주소를 입력하세요. HTTP-01 챌린지는 해당 목적지로 리디렉션됩니다. 이를 통해 Caddy 뒤의 ACME 클라이언트가 포트 80에서 \"/.well-known/acme-challenge/\"를 제공할 수 있습니다. Caddy는 이 하위 도메인에 대한 HTTP-01 챌린지를 역방향 프록시합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2150
 #: 
 msgid "Enter a domain name. For a base domain, use \"example.com\" or \"opn.example.com\". For a wildcard domain, use \"*.example.com\". Using a wildcard domain with subdomains requires a \"DNS Provider\" and the \"DNS-01 Challenge\" or a custom certificate."
-msgstr ""
+msgstr "도메인 이름을 입력하세요. 기본 도메인의 경우 \"example.com\" 또는 \"opn.example.com\"을 사용하세요. 와일드카드 도메인의 경우 \"*.example.com\"을 사용하세요. 하위 도메인이 있는 와일드카드 도메인을 사용하려면 \"DNS Provider\"와 \"DNS-01 Challenge\" 또는 사용자 지정 인증서가 필요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2152
 #: 
 msgid "Enter a header, for example \"Host\". Use the \"+\" or \"-\" prefix to add or remove this header, for example \"-Host\" or \"+Host\". A suffix match like \"-Host-*\" is also supported. To replace a header, use \"Host\" without \"+\" or \"-\"."
-msgstr ""
+msgstr "헤더를 입력합니다(예: \"Host\"). \"+\" 또는 \"-\" 접두사를 사용하여 이 헤더를 추가하거나 제거합니다(예: \"-Host\" 또는 \"+Host\"). \"-Host-*\"와 같은 접미사 일치도 지원됩니다. 헤더를 바꾸려면 \"+\" 또는 \"-\" 없이 \"Host\"를 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2153
 #: 
 msgid "Enter a hostname or IP address that matches the SAN \"Subject Alternative Name\" of the offered upstream certificate. This will change the SNI \"Server Name Indication\" of Caddy. Setting an IP address as \"Upstream Domain\", enabling \"TLS\" and selecting a \"TLS Trust Pool\", would make the SAN of the offered upstream certificate not match with the SNI of Caddy, since it will be an IP address instead of a hostname. Setting the hostname of the certificate here, fixes this issue. Please note that only SAN certificates are supported; CN \"Common Name\" will not work."
-msgstr ""
+msgstr "제공된 업스트림 인증서의 SAN \"주체 대체 이름\"과 일치하는 호스트 이름 또는 IP 주소를 입력하세요. 이렇게 하면 Caddy의 SNI \"서버 이름 표시\"가 변경됩니다. IP 주소를 \"업스트림 도메인\"으로 설정하고 \"TLS\"를 활성화하고 \"TLS 신뢰 풀\"을 선택하면 제공된 업스트림 인증서의 SAN이 호스트 이름이 아닌 IP 주소가 되므로 Caddy의 SNI와 일치하지 않습니다. 여기에 인증서의 호스트 이름을 설정하면 이 문제가 해결됩니다. SAN 인증서만 지원되며 CN \"일반 이름\"은 작동하지 않습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2155
 #: 
 msgid "Enter a list of IP addresses and ports (optional). Uses port 53 if omitted. Like \"8.8.8.8, [2001:4860:4860::8888], 8.8.8.8:5353\"."
-msgstr ""
+msgstr "IP 주소와 포트 목록을 입력하세요(선택 사항). 생략할 경우 포트 53이 사용됩니다. 예: \"8.8.8.8, [2001:4860:4860::8888], 8.8.8.8:5353\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2164
 #: 
 msgid "Enter a name for this access list."
-msgstr ""
+msgstr "이 액세스 목록의 이름을 입력하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2172
 #: 
 msgid "Enter a password. It will be hashed with bcrypt. It can only be set and changed but will not be visible anymore."
-msgstr ""
+msgstr "비밀번호를 입력하세요. 이 비밀번호는 bcrypt로 해싱됩니다. 설정 및 변경만 가능하며, 더 이상 표시되지 않습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2173
 #: 
 msgid "Enter a path to handle. Choose a pattern like \"/*\" or \"/example/*\". Leave empty to handle any paths (recommended). Any request matching this pattern will be handled by the chosen directive."
-msgstr ""
+msgstr "처리할 경로를 입력하세요. \"/*\" 또는 \"/example/*\"와 같은 패턴을 선택하세요. 모든 경로를 처리하려면 비워두세요(권장). 이 패턴과 일치하는 모든 요청은 선택한 지시문에 의해 처리됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2180
 #: 
 msgid "Enter a subdomain. For example, \"opn.example.com\" if the wildcard domain is \"*.example.com\". All subdomains use the same ports and protocols as their parent wildcard domain."
-msgstr ""
+msgstr "하위 도메인을 입력합니다. 예를 들어, 와일드카드 도메인이 \"*.example.com\"인 경우 \"opn.example.com\"입니다. 모든 하위 도메인은 부모 와일드카드 도메인과 동일한 포트와 프로토콜을 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2182
 #: 
 msgid "Enter a unique name for this relay destination."
-msgstr ""
+msgstr "이 릴레이 목적지에 대한 고유한 이름을 입력하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2184
 #: 
 msgid "Enter a username. Afterwards, select it in a \"Domain\" or \"Subdomain\" to restrict access with basic auth."
-msgstr ""
+msgstr "사용자 이름을 입력하세요. 그 후 \"도메인\" 또는 \"서브도메인\"에서 선택하여 기본 인증으로 액세스를 제한합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2186
 #: 
 msgid "Enter a value for the selected header. One of the most common options is \"{upstream_hostport}\". It is also possible to use a regular expression to search for a specific value in a header. For example: \"^prefix-([A-Za-z0-9]*)$\" which uses the regular expression language RE2 included in Go."
-msgstr ""
+msgstr "선택한 헤더에 대한 값을 입력하세요. 가장 일반적인 옵션 중 하나는 \"{upstream_hostport}\"입니다. 특정 헤더에서 특정 값을 검색하기 위해 정규 표현식을 사용할 수도 있습니다. 예를 들어: \"^prefix-([A-Za-z0-9]*)$\"는 Go에 포함된 정규 표현식 언어 RE2를 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2194
 #: 
 msgid "Enter one or multiple IP addresses and networks. Leaving this empty will allow any remote client to connect. If populated and the remote IP address of a client matches, the connection to the \"Upstream Domain\" is allowed, otherwise the connection is dropped. Due to restrictions with this matcher, this list can not be inverted."
-msgstr ""
+msgstr "하나 또는 여러 개의 IP 주소와 네트워크를 입력합니다. 이 주소를 비워두면 모든 원격 클라이언트가 연결될 수 있습니다. 입력된 주소와 클라이언트의 원격 IP 주소가 일치하면 \"업스트림 도메인\"에 대한 연결이 허용되며, 그렇지 않으면 연결이 중단됩니다. 이 매칭기와의 제한으로 인해 이 목록은 되돌릴 수 없습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2195
 #: 
 msgid "Enter one or multiple domains to route via SNI or Host Header. Wildcard domains and host wildcards are allowed, e.g. \"*.example.com\" and \"*\"."
-msgstr ""
+msgstr "SNI 또는 호스트 헤더를 통해 라우팅할 하나 이상의 도메인을 입력하세요. 와일드카드 도메인 및 호스트 와일드카드가 허용됩니다. 예: \"*.example.com\" 및 \"*\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2201
 #: 
 msgid "Enter the URI of the authz api endpoint."
-msgstr ""
+msgstr "authz API 엔드포인트의 URI를 입력합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2207
 #: 
 msgid "Enter the client IP addresses or networks for this access list. Accepts multiple IPv4/IPv6 addresses or networks."
-msgstr ""
+msgstr "이 액세스 목록에 대한 클라이언트 IP 주소 또는 네트워크를 입력합니다. 여러 개의 IPv4/IPv6 주소 또는 네트워크를 허용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2211
 #: 
 msgid "Enter the domain name or IP address of the chosen Forward Auth Provider."
-msgstr ""
+msgstr "선택한 전달 인증 공급자의 도메인 이름 또는 IP 주소를 입력하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2212
 #: 
 msgid "Enter the email address for certificate notifications. This is required to receive automatic certificates from \"Let's Encrypt\" and \"ZeroSSL\"."
-msgstr ""
+msgstr "인증서 알림을 받으려면 이메일 주소를 입력하세요. 이는 \"Let's Encrypt\"와 \"ZeroSSL\"에서 자동 인증서를 받으려면 필요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2214
 #: 
 msgid "Enter the external IPv6 prefix for this network prefix translation. Leave empty to auto-detect the prefix address using the specified tracking interface instead. The prefix size specified for the internal prefix will also be applied to the external prefix."
-msgstr ""
+msgstr "이 네트워크 접두사 변환을 위한 외부 IPv6 접두사를 입력하세요. 지정된 추적 인터페이스를 사용하여 접두사 주소를 자동 감지하려면 비워 두세요. 내부 접두사에 대해 지정된 접두사 크기도 외부 접두사에 적용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2215
 #: 
 msgid "Enter the external subnet's starting address for the 1:1 mapping or network. This is the address or network the traffic will translate to/from."
-msgstr ""
+msgstr "1:1 매핑 또는 네트워크에 대한 외부 서브넷의 시작 주소를 입력하세요. 이것은 트래픽이 변환될 주소 또는 네트워크입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2220
 #: 
 msgid "Enter the internal subnet for the 1:1 mapping."
-msgstr ""
+msgstr "1:1 매핑을 위한 내부 서브넷을 입력하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2223
 #: 
 msgid "Enter the listen port of the chosen Forward Auth Provider."
-msgstr ""
+msgstr "선택한 전달 인증 제공자의 수신 대기 포트를 입력합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2255
 #: 
 msgid "Ether Address"
-msgstr ""
+msgstr "주소 입력"
 
 #. File: /usr/lang/src/controllers.php, line: 2256
 #: 
 msgid "Eve HTTP dump all headers"
-msgstr ""
+msgstr "Eve HTTP 덤프 모든 헤더"
 
 #. File: /usr/lang/src/controllers.php, line: 2257
 #: 
 msgid "Eve HTTP extended logging"
-msgstr ""
+msgstr "Eve HTTP 확장 로깅"
 
 #. File: /usr/lang/src/controllers.php, line: 2258
 #: 
 msgid "Eve TLS custom logging"
-msgstr ""
+msgstr "EVE TLS 사용자 정의 로깅"
 
 #. File: /usr/lang/src/controllers.php, line: 2259
 #: 
 msgid "Eve TLS extended logging"
-msgstr ""
+msgstr "Eve TLS 확장 로깅"
 
 #. File: /usr/lang/src/controllers.php, line: 2260
 #: 
 msgid "Eve TLS log session resumption"
-msgstr ""
+msgstr "Eve TLS 로그 세션 재개"
 
 #. File: /usr/lang/src/controllers.php, line: 2267
 #: 
 msgid "Exclusion"
-msgstr ""
+msgstr "제외"
 
 #. File: /usr/lang/src/controllers.php, line: 2275
 #. File: /usr/lang/src/models.php, line: 680
@@ -63030,90 +63038,90 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2328
 #: 
 msgid "Fingerprints of other relays controlled or administered by the same group or organization. Do not list any bridge relay as it would compromise its concealment."
-msgstr ""
+msgstr "같은 그룹이나 조직이 통제하거나 관리하는 다른 릴레이의 지문. 브리지 릴레이는 은폐를 손상시키므로 나열하지 마세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2330
 #: 
 msgid "Firewall rules"
-msgstr ""
+msgstr "방화벽 규칙"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 437
 #. File: /usr/lang/src/controllers.php, line: 2361
 #: 
 msgid "Forward Auth"
-msgstr ""
+msgstr "전달 인증"
 
 #. File: /usr/lang/src/controllers.php, line: 2362
 #: 
 msgid "Forward Auth Domain"
-msgstr ""
+msgstr "전달 인증 도메인"
 
 #. File: /usr/lang/src/controllers.php, line: 2363
 #: 
 msgid "Forward Auth Port"
-msgstr ""
+msgstr "전달 인증 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 2364
 #: 
 msgid "Forward Auth Provider"
-msgstr ""
+msgstr "전달 인증 제공자"
 
 #. File: /usr/lang/src/controllers.php, line: 2365
 #: 
 msgid "Forward Auth URI"
-msgstr ""
+msgstr "전달 인증 URI"
 
 #. File: /usr/lang/src/controllers.php, line: 2368
 #: 
 msgid "Forwarded header (RFC7239)"
-msgstr ""
+msgstr "전달 헤더 (RFC7239)"
 
 #. File: /usr/lang/src/controllers.php, line: 2369
 #: 
 msgid "Forwarded header parameters"
-msgstr ""
+msgstr "전달 헤더 파라미터"
 
 #. File: /usr/lang/src/controllers.php, line: 2379
 #: 
 msgid "Frontend"
-msgstr ""
+msgstr "프론트엔드"
 
 #. File: /usr/lang/src/controllers.php, line: 2387
 #: 
 msgid "Gateway (optional)"
-msgstr ""
+msgstr "게이트웨이(선택적)"
 
 #. File: /usr/lang/src/controllers.php, line: 2392
 #: 
 msgid "General Log level"
-msgstr ""
+msgstr "일반 로그 레벨"
 
 #. File: /usr/lang/src/controllers.php, line: 2400
 #: 
 msgid "Generic settings"
-msgstr ""
+msgstr "일반 설정"
 
 #. File: /usr/lang/src/controllers.php, line: 2415
 #: 
 msgid "Grace Period"
-msgstr ""
+msgstr "유예 기간"
 
 #. File: /usr/lang/src/controllers.php, line: 2420
 #. File: /usr/lang/src/models.php, line: 756
 #: 
 msgid "Graphite"
-msgstr ""
+msgstr "그래파이트"
 
 #. File: /usr/lang/src/controllers.php, line: 2434
 #: 
 msgid "Graylog"
-msgstr ""
+msgstr "그레이로그"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 359
 #. File: /usr/lang/src/controllers.php, line: 2455
 #: 
 msgid "HTTP Access Log"
-msgstr ""
+msgstr "HTTP 액세스 로그"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 320
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 430
@@ -63121,18 +63129,18 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2462
 #: 
 msgid "HTTP Headers"
-msgstr ""
+msgstr "HTTP  헤더"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 440
 #. File: /usr/lang/src/controllers.php, line: 2464
 #: 
 msgid "HTTP Keepalive"
-msgstr ""
+msgstr "HTTP Keepalive"
 
 #. File: /usr/lang/src/controllers.php, line: 2471
 #: 
 msgid "HTTP Response Code"
-msgstr ""
+msgstr "HTTP 응답 코드"
 
 #. File: /usr/lang/src/controllers.php, line: 2472
 #: 
@@ -63236,203 +63244,203 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2620
 #: 
 msgid "IKESA table size"
-msgstr ""
+msgstr "IKESA 테이블 크기"
 
 #. File: /usr/lang/src/controllers.php, line: 2621
 #: 
 msgid "IKE_SA manager, handling synchronization for IKE_SA access"
-msgstr ""
+msgstr "IKE_SA 관리자, IKE_SA 액세스에 대한 동기화 처리"
 
 #. File: /usr/lang/src/controllers.php, line: 2622
 #: 
 msgid "IKE_SA/ISAKMP SA"
-msgstr ""
+msgstr "IKE_SA/ISAKMP SA"
 
 #. File: /usr/lang/src/controllers.php, line: 2638
 #: 
 msgid "IP address of the remote logging server. This is necessary if you are using a centralized Maltrail instance, otherwise leave it blank to use this instance as the logging server."
-msgstr ""
+msgstr "원격 로깅 서버의 IP 주소입니다. 중앙 집중식 Maltrail 인스턴스를 사용하는 경우 필요하며, 그렇지 않으면 이 인스턴스를 로깅 서버로 사용하려면 비워 두십시오."
 
 #. File: /usr/lang/src/controllers.php, line: 2647
 #: 
 msgid "IP address to assign to the provided MAC address, which will either end up in the ARP (IPv4) or NDP (IPv6) table."
-msgstr ""
+msgstr "제공된 MAC 주소에 할당할 IP 주소로, 이는 ARP(IPv4) 또는 NDP(IPv6) 테이블에 등록됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2650
 #: 
 msgid "IP address to offer to the client"
-msgstr ""
+msgstr "클라이언트에 제공할 IP 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 2651
 #: 
 msgid "IP adresses"
-msgstr ""
+msgstr "IP 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 2654
 #: 
 msgid "IPsec/Networking kernel interface"
-msgstr ""
+msgstr "IPsec/네트워킹 커널 인터페이스"
 
 #. File: /usr/lang/src/controllers.php, line: 2673
 #: 
 msgid "Identity Service API"
-msgstr ""
+msgstr "아이덴티티 서비스 API"
 
 #. File: /usr/lang/src/controllers.php, line: 2680
 #: 
 msgid "If Synology DSM has OTP enabled, then the device name has to be provided so that no OTP is required when running the automation."
-msgstr ""
+msgstr "Synology DSM에서 OTP(일회용 비밀번호)가 활성화되어 있는 경우, 자동화를 실행할 때 OTP가 필요하지 않도록 장치 이름을 제공해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2681
 #: 
 msgid "If a regular expression is used to search for a Header Value, the replacement string can be set here. For example: \"replaced-$1-suffix\" which expands the replacement string, allowing the use of captured values, \"$1\" being the first capture group."
-msgstr ""
+msgstr "헤더 값을 검색하기 위해 정규 표현식을 사용하는 경우, 여기에서 대체 문자열을 설정할 수 있습니다. 예를 들어: \"replaced-$1-suffix\"와 같이 대체 문자열을 확장하여 캡처된 값을 사용할 수 있습니다. \"$1\"은 첫 번째 캡처 그룹을 나타냅니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2683
 #: 
 msgid "If checked version 2 of the kv store will be used, otherwise version 1. If you use v2 please consider the comment in the field \"Vault Prefix\"."
-msgstr ""
+msgstr "선택하면 kv 스토어 버전 2가 사용되고, 그렇지 않으면 버전 1이 사용됩니다. v2를 사용하는 경우 \"Vault Prefix\" 필드의 주석을 고려하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2688
 #: 
 msgid "If checked, the access list logic will be inverted (i.e., the listed IPs will be blocked instead of allowed)."
-msgstr ""
+msgstr "선택하면 접근 목록의 논리가 반전됩니다(즉, 나열된 IP가 허용되는 대신 차단됩니다)."
 
 #. File: /usr/lang/src/controllers.php, line: 2689
 #: 
 msgid "If checked, the plugin collects CSP violation reports and stores one JSON document per line under /var/log/nginx/csp_violations.log. You can use that file to check for XSS attempts or broken web pages where the CSP denied access to a resource."
-msgstr ""
+msgstr "선택하면 플러그인이 CSP 위반 보고서를 수집하고 /var/log/nginx/csp_violations.log에 한 줄에 하나의 JSON 문서를 저장합니다. 이 파일을 사용하여 XSS 시도나 CSP가 리소스에 대한 접근을 차단한 깨진 웹 페이지를 확인할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2696
 #: 
 msgid "If enabled, no new DNS records will be created. Only existing records will be updated. This means that the A or AAAA records need to be created manually ahead of time."
-msgstr ""
+msgstr "활성화되면 새로운 DNS 레코드가 생성되지 않습니다. 기존 레코드만 업데이트됩니다. 이는 A 또는 AAAA 레코드가 미리 수동으로 생성되어야 함을 의미합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2709
 #: 
 msgid "If the default HTTP port is changed to e.g. 8080, then a port forward from port 80 to 8080 is necessary to issue automatic certificates with the HTTP-01 challenge and serve clients the reverse proxied resources."
-msgstr ""
+msgstr "기본 HTTP 포트를 예를 들어 8080으로 변경하면, HTTP-01 챌린지를 사용하여 자동 인증서를 발급하고 클라이언트에게 리버스 프록시된 리소스를 제공하기 위해 포트 80에서 8080으로의 포트 포워딩이 필요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2710
 #: 
 msgid "If the default HTTPS port is changed to e.g. 8443, then a port forward from port 443 to 8443 is necessary to issue automatic certificates with the TLS-ALPN-01 challenge and serve clients the reverse proxied resources."
-msgstr ""
+msgstr "기본 HTTPS 포트를 예를 들어 8443으로 변경하면, TLS-ALPN-01 챌린지를 사용하여 자동 인증서를 발급하고 클라이언트에게 리버스 프록시된 리소스를 제공하기 위해 포트 443에서 8443으로의 포트 포워딩이 필요합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2716
 #: 
 msgid "If the request scheme is not HTTPS, redirect to use HTTPS for this location."
-msgstr ""
+msgstr "요청 방식이 HTTPS가 아닌 경우, 이 위치에서 HTTPS를 사용하도록 리디렉션합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2717
 #: 
 msgid "If the request scheme is not HTTPS, redirect to use HTTPS for this server."
-msgstr ""
+msgstr "요청 방식이 HTTPS가 아닌 경우, 이 서버에 HTTPS를 사용하도록 리디렉션합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2743
 #: 
 msgid "If you enable the WebSocket Support option, nginx will pass the upgrade header to the backed server. Mutually exclusive with Keepalive support."
-msgstr ""
+msgstr "WebSocket 지원 옵션을 활성화하면, nginx가 업그레이드 헤더를 백엔드 서버로 전달합니다. 이는 Keepalive 지원과 상호 배타적입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2763
 #: 
 msgid "Ignore acquire ts"
-msgstr ""
+msgstr "획득 타임스탬프 무시"
 
 #. File: /usr/lang/src/controllers.php, line: 2766
 #: 
 msgid "Ike Name"
-msgstr ""
+msgstr "lke 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 2789
 #: 
 msgid "InfluxDB"
-msgstr ""
+msgstr "influxDB"
 
 #. File: /usr/lang/src/controllers.php, line: 2790
 #: 
 msgid "InfluxDB v2"
-msgstr ""
+msgstr "InfluxDB v2"
 
 #. File: /usr/lang/src/controllers.php, line: 2794
 #: 
 msgid "Init limit half open"
-msgstr ""
+msgstr "초기 제한 반개방"
 
 #. File: /usr/lang/src/controllers.php, line: 2796
 #: 
 msgid "Initial window size"
-msgstr ""
+msgstr "초기 윈도우 크기"
 
 #. File: /usr/lang/src/controllers.php, line: 2797
 #: 
 msgid "Initial window size (incoming)"
-msgstr ""
+msgstr "초기 윈도 크기(수신)"
 
 #. File: /usr/lang/src/controllers.php, line: 2798
 #: 
 msgid "Initial window size (outgoing)"
-msgstr ""
+msgstr "초기 윈도 크기(발신)"
 
 #. File: /usr/lang/src/controllers.php, line: 2799
 #: 
 msgid "Initiate IKEv2 reauthentication with a make-before-break instead of a break-before-make scheme. Make-before-break uses overlapping IKE and CHILD SA during reauthentication by first recreating all new SAs before deleting the old ones. This behavior can be beneficial to avoid connectivity gaps during reauthentication, but requires support for overlapping SAs by the peer."
-msgstr ""
+msgstr "break-before-make 방식 대신 make-before-break 방식으로 IKEv2 재인증을 시작합니다. make-before-break는 재인증 중에 겹치는 IKE와 CHILD SA를 사용하여 오래된 SA를 삭제하기 전에 모든 새 SA를 다시 만듭니다. 이 동작은 재인증 중에 연결 갭을 피하는 데 유용할 수 있지만 피어가 겹치는 SA를 지원해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2811
 #: 
 msgid "Integrity Measurement Collector"
-msgstr ""
+msgstr "무결성 측정 수집기"
 
 #. File: /usr/lang/src/controllers.php, line: 2812
 #: 
 msgid "Integrity Measurement Verifier"
-msgstr ""
+msgstr "무결성 측정 검증기"
 
 #. File: /usr/lang/src/controllers.php, line: 2826
 #: 
 msgid "Internal IPv6 Prefix (source)"
-msgstr ""
+msgstr "내부 IPv6 접두사(소스)"
 
 #. File: /usr/lang/src/controllers.php, line: 2836
 #: 
 msgid "Invert List"
-msgstr ""
+msgstr "목록 반전"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 130
 #. File: /usr/lang/src/controllers.php, line: 2837
 #: 
 msgid "Invert Matchers"
-msgstr ""
+msgstr "반전 매처"
 
 #. File: /usr/lang/src/controllers.php, line: 2842
 #: 
 msgid "Invert the sense of the matcher. E.g., if the protocol is TLS, inverting will match all traffic that is not TLS. When domains have been chosen, these will be equally inverted."
-msgstr ""
+msgstr "매처의 의미를 반전시킵니다. 예를 들어, 프로토콜이 TLS인 경우 반전하면 TLS가 아닌 모든 트래픽과 일치하게 됩니다. 도메인이 선택된 경우에도 동일하게 반전됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2851
 #: 
 msgid "Jobs queuing/processing and thread pool management"
-msgstr ""
+msgstr "작업 대기/처리 및 스레드 풀 관리"
 
 #. File: /usr/lang/src/controllers.php, line: 2859
 #: 
 msgid "Keep HTTP Access JSON Logs for (days)"
-msgstr ""
+msgstr "HTTP 액세스 JSON 로그 보관 기간(일)"
 
 #. File: /usr/lang/src/controllers.php, line: 2864
 #: 
 msgid "Keepalive interval"
-msgstr ""
+msgstr "Keepalive 주기"
 
 #. File: /usr/lang/src/controllers.php, line: 2865
 #: 
 msgid "Keepalive requests"
-msgstr ""
+msgstr "Keepalive 요청"
 
 #. File: /usr/lang/src/controllers.php, line: 2866
 #: 
 msgid "Keepalive timeout"
-msgstr ""
+msgstr "Keepalive 시간초과"
 
 #. File: /usr/lang/src/controllers.php, line: 2873
 #: 
@@ -63452,102 +63460,102 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2900
 #: 
 msgid "Layer 4"
-msgstr ""
+msgstr "레이어 4"
 
 #. File: /usr/lang/src/controllers.php, line: 2901
 #: 
 msgid "Layer 7"
-msgstr ""
+msgstr "레이어 7"
 
 #. File: /usr/lang/src/controllers.php, line: 2905
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Duckdns \"override_domain\", Route53 \"secret_access_key\", Porkbun \"api_secret_key\", ACME-DNS \"password\", Azure \"client_id\", OVH \"application_key\", Namecheap \"user\", PowerDNS \"api_token\", DDNSS \"username\", Linode \"api_url\", Tencent Cloud \"secret_key\", Dinahosting \"password\", Hexonet \"password\", Mail-in-a-Box \"email_address\", DNS Made Easy \"secret_key\", Scaleway \"organization_id\", ACME Proxy \"password\", INWX \"password\", Netcup \"api_key\", RFC2136 \"key_alg\", Name.com \"server\", EasyDNS \"api_key\", DirectAdmin \"user\"."
-msgstr ""
+msgstr "DNS 제공자가 여기에 지정되지 않은 경우 비워 두세요. 필드는 선택 사항인 경우 비워 둘 수 있습니다: Duckdns \"override_domain\", Route53 \"secret_access_key\", Porkbun \"api_secret_key\", ACME-DNS \"password\", Azure \"client_id\", OVH \"application_key\", Namecheap \"user\", PowerDNS \"api_token\", DDNSS \"username\", Linode \"api_url\", Tencent Cloud \"secret_key\", Dinahosting \"password\", Hexonet \"password\", Mail-in-a-Box \"email_address\", DNS Made Easy \"secret_key\", Scaleway \"organization_id\", ACME Proxy \"password\", INWX \"password\", Netcup \"api_key\", RFC2136 \"key_alg\", Name.com \"server\", EasyDNS \"api_key\", DirectAdmin \"user\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2906
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Route53 \"hosted_zone_id\", ACME-DNS \"subdomain\", Azure \"client_secret\", OVH \"application_secret\", Namecheap \"api_endpoint\", DDNSS \"password\", Linode \"api_version\", Mail-in-a-Box \"password\", DNS Made Easy \"api_endpoint\", ACME Proxy \"endpoint\", INWX \"shared_secret\", Netcup \"api_password\", Name.com \"user\", EasyDNS \"api_url\", DirectAdmin \"login_key\", RFC2136 \"key\"."
-msgstr ""
+msgstr "DNS 제공자가 여기에 지정되지 않은 경우 비워 두세요. 필드는 선택 사항인 경우 비워 둘 수 있습니다: Route53 \"hosted_zone_id\", ACME-DNS \"subdomain\", Azure \"client_secret\", OVH \"application_secret\", Namecheap \"api_endpoint\", DDNSS \"password\", Linode \"api_version\", Mail-in-a-Box \"password\", DNS Made Easy \"api_endpoint\", ACME Proxy \"endpoint\", INWX \"shared_secret\", Netcup \"api_password\", Name.com \"user\", EasyDNS \"api_url\", DirectAdmin \"login_key\", RFC2136 \"key\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2907
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Route53 \"profile\", ACME-DNS \"server_url\", Azure \"subscription_id\", OVH \"consumer_key\", Namecheap \"client_ip\", DDNS \"password\", INWX \"endpoint_url\", DirectAdmin \"insecure_requests\", RFC2136 \"server\"."
-msgstr ""
+msgstr "DNS 제공자가 여기에 지정되지 않은 경우 비워 두세요. 필드는 선택 사항인 경우 비워 둘 수 있습니다: Route53 \"profile\", ACME-DNS \"server_url\", Azure \"subscription_id\", OVH \"consumer_key\", Namecheap \"client_ip\", DDNS \"password\", INWX \"endpoint_url\", DirectAdmin \"insecure_requests\", RFC2136 \"server\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2908
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Route53 \"region\", Azure \"resource_group_name\"."
-msgstr ""
+msgstr "DNS 제공자가 여기에 지정되지 않은 경우 비워 두세요. 필드는 선택 사항인 경우 비워 둘 수 있습니다: Route53 \"region\", Azure \"resource_group_name\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2909
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Route53 \"session_token\"."
-msgstr ""
+msgstr "DNS 제공자가 여기에 지정되지 않은 경우 비워 두세요. 필드는 선택 사항인 경우 비워 둘 수 있습니다: Route53 \"session_token\"."
 
 #. File: /usr/lang/src/controllers.php, line: 2910
 #: 
 msgid "Leave empty to use default. Keepalive is either 0 (off) or a duration value that specifies how long to keep connections open (timeout) in seconds."
-msgstr ""
+msgstr "기본값을 사용하려면 비워 두세요. Keepalive는 0(비활성화) 또는 연결을 얼마나 오래 열어 둘지를 지정하는 지속 시간 값(초)입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2911
 #: 
 msgid "Leave empty to use ports 80 and 443 with automatic redirection from HTTP to HTTPS or choose a custom port. Don't forget to allow these ports with a Firewall rule. If the default ports have been changed in \"General Settings\", leaving this empty will use the chosen alternative ports instead."
-msgstr ""
+msgstr "기본값인 포트 80과 443을 사용하려면 비워 두고 HTTP에서 HTTPS로의 자동 리디렉션을 선택하거나 사용자 정의 포트를 선택하십시오. 이 포트를 방화벽 규칙으로 허용하는 것을 잊지 마세요. \"일반 설정\"에서 기본 포트가 변경된 경우, 비워 두면 선택한 대체 포트가 사용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2912
 #: 
 msgid "Leave empty to use the default port or choose a custom port for the upstream destination."
-msgstr ""
+msgstr "기본 포트를 사용하려면 비워 두거나 업스트림 대상에 대한 사용자 정의 포트를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2913
 #: 
 msgid "Leave empty to use the system resolvers (default). Resolvers customizes the DNS resolvers used when performing the DNS challenge; these take precedence over system resolvers or any default ones. If set here, the resolvers will propagate to all configured certificate issuers. If the system resolvers use DNS over TLS, setting an external resolver here is required or the DNS challenge will fail."
-msgstr ""
+msgstr "시스템 리졸버를 사용하려면 비워둡니다(기본). 리졸버는 DNS 챌린지를 수행할 때 사용되는 DNS 리졸버를 사용자 지정합니다. 이는 시스템 리졸버나 기본 리졸버보다 우선합니다. 여기에 설정하면 리졸버가 구성된 모든 인증서 발급자에게 전파됩니다. 시스템 리졸버가 TLS를 통한 DNS를 사용하는 경우 여기에 외부 리졸버를 설정해야 하며 그렇지 않으면 DNS 챌린지가 실패합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2920
 #: 
 msgid "Lifetime (days)"
-msgstr ""
+msgstr "수명 (일)"
 
 #. File: /usr/lang/src/controllers.php, line: 2922
 #: 
 msgid "Lima-City DNS API"
-msgstr ""
+msgstr "Lima-City DNS API"
 
 #. File: /usr/lang/src/controllers.php, line: 2932
 #: 
 msgid "Limit new connections based on the current number of half open IKE_SAs."
-msgstr ""
+msgstr "현재 반개방 IKE_SA 수에 따라 새로운 연결을 제한합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2933
 #: 
 msgid "Limit the default set of built-in curves to be used when using the standard openssl configuration."
-msgstr ""
+msgstr "표준 openssl 구성을 사용할 때 사용할 기본 제공 곡선의 기본 세트를 제한합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2944
 #: 
 msgid "List of addresses to configure on the device. Please use CIDR notation like 10.0.0.1/24."
-msgstr ""
+msgstr "장치에서 구성할 주소 목록입니다. CIDR 표기법(예: 10.0.0.1/24)을 사용하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2945
 #: 
 msgid "List of addresses to use on the remote peer, these will be allowed (and optionally routed) from this instance."
-msgstr ""
+msgstr "원격 피어에서 사용할 주소 목록입니다. 이 주소들은 이 인스턴스에서 허용되며(선택적으로 라우팅됨) 사용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2946
 #: 
 msgid "List of bot user agents that will be used in bot protection. Uses a well known list by default."
-msgstr ""
+msgstr "봇 보호에 사용될 봇 사용자 에이전트 목록입니다. 기본적으로 잘 알려진 목록을 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2949
 #: 
 msgid "List of domains and path entries, prefix with . to include subdomains (e.g. .com to block all .com domains). To match all use *"
-msgstr ""
+msgstr "도메인 및 경로 항목 목록입니다. 하위 도메인을 포함하려면 앞에 .을 붙이십시오(예: .com은 모든 .com 도메인을 차단합니다). 모든 항목과 일치하려면 *를 사용하십시오."
 
 #. File: /usr/lang/src/controllers.php, line: 2957
 #: 
 msgid "List of group memberships to require. The client must prove membership to at least one of the specified groups."
-msgstr ""
+msgstr "필요한 그룹 멤버십 목록입니다. 클라이언트는 지정된 그룹 중 최소한 하나에 대한 멤버십을 증명해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2958
 #: 
@@ -63637,203 +63645,203 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3064
 #: 
 msgid "Log violations"
-msgstr ""
+msgstr "로그 위반"
 
 #. File: /usr/lang/src/controllers.php, line: 3080
 #: 
 msgid "Low threshold for latency in milliseconds. Default is 200."
-msgstr ""
+msgstr "밀리초 단위의 대기 시간에 대한 낮은 임계값. 기본값은 200입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3081
 #: 
 msgid "Low threshold for packet loss in %. Default is 10."
-msgstr ""
+msgstr "패킷 손실에 대한 낮은 임계값(%). 기본값은 10입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3082
 #: 
 msgid "Low-level encoding/decoding (ASN.1, X.509 etc.)"
-msgstr ""
+msgstr "저수준 인코딩/디코딩 (ASN.1, X.509 등)"
 
 #. File: /usr/lang/src/controllers.php, line: 3091
 #: 
 msgid "MAC/Ether address of the client in question"
-msgstr ""
+msgstr "해당 클라이언트의 MAC/Ether 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 3093
 #: 
 msgid "MQTT"
-msgstr ""
+msgstr "MQTT"
 
 #. File: /usr/lang/src/controllers.php, line: 3094
 #: 
 msgid "MQTT Client ID"
-msgstr ""
+msgstr "MQTT 클라이언트 ID"
 
 #. File: /usr/lang/src/controllers.php, line: 3095
 #: 
 msgid "MQTT Format"
-msgstr ""
+msgstr "MQTT 형식"
 
 #. File: /usr/lang/src/controllers.php, line: 3096
 #: 
 msgid "MQTT Layout"
-msgstr ""
+msgstr "MQTT 레이아웃"
 
 #. File: /usr/lang/src/controllers.php, line: 3097
 #: 
 msgid "MQTT Password"
-msgstr ""
+msgstr "MQTT 비밀번호"
 
 #. File: /usr/lang/src/controllers.php, line: 3098
 #: 
 msgid "MQTT QoS"
-msgstr ""
+msgstr "MQTT QoS"
 
 #. File: /usr/lang/src/controllers.php, line: 3099
 #: 
 msgid "MQTT Retain"
-msgstr ""
+msgstr "MQTT 유지"
 
 #. File: /usr/lang/src/controllers.php, line: 3100
 #: 
 msgid "MQTT Timeout"
-msgstr ""
+msgstr "MQTT 시간초과"
 
 #. File: /usr/lang/src/controllers.php, line: 3101
 #: 
 msgid "MQTT Topic"
-msgstr ""
+msgstr "MQTT 토픽"
 
 #. File: /usr/lang/src/controllers.php, line: 3102
 #: 
 msgid "MQTT Topic Prefix"
-msgstr ""
+msgstr "MQTT 토픽 접두사"
 
 #. File: /usr/lang/src/controllers.php, line: 3103
 #: 
 msgid "MQTT Topic Prefix - Will be overidden by the Topic if defined below."
-msgstr ""
+msgstr "MQTT 토픽 접두사 - 아래에 정의된 토픽으로 덮어씌워집니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3104
 #: 
 msgid "MQTT Topic for produced messages. if left blank, will default to [ mqtt_topic_prefix/{{ .Hostname }}/{{ .PluginName }} ]"
-msgstr ""
+msgstr "생성된 메시지에 대한 MQTT 토픽. 비워두면 기본적으로 [ mqtt_topic_prefix/{{ .Hostname }}/{{ .PluginName }} ]로 설정됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3105
 #: 
 msgid "MQTT Username"
-msgstr ""
+msgstr "MQTT 사용자 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 3106
 #: 
 msgid "MQTT brokers"
-msgstr ""
+msgstr "MQTT 브로커"
 
 #. File: /usr/lang/src/controllers.php, line: 3126
 #: 
 msgid "Main daemon setup/cleanup/signal handling"
-msgstr ""
+msgstr "주 데몬 설정/정리/신호 처리"
 
 #. File: /usr/lang/src/controllers.php, line: 3128
 #: 
 msgid "Make Before Break"
-msgstr ""
+msgstr "휴식 전에 생성"
 
 #. File: /usr/lang/src/controllers.php, line: 3129
 #: 
 msgid "Make eve HTTP logging dump all HTTP headers. You may choose to dump headers for requests or responses or both."
-msgstr ""
+msgstr "Eve HTTP 로깅이 모든 HTTP 헤더를 덤프하도록 설정합니다. 요청 또는 응답, 또는 둘 다에 대한 헤더를 덤프하도록 선택할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3150
 #: 
 msgid "Match the received traffic on OSI Layer 4, either TCP or UDP. When \"Routing Type\" is \"listener_wrappers\", currently only TCP will match."
-msgstr ""
+msgstr "OSI 4계층에서 수신된 트래픽을 일치시킵니다. TCP 또는 UDP 중 하나입니다. \"라우팅 유형\"이 \"listener_wrappers\"인 경우 현재는 TCP만 일치합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3151
 #: 
 msgid "Match the received traffic on OSI Layer 7. When choosing a protocol like TLS, it will be matched and routed to the upstream destination. When \"Routing Type\" of the matcher is \"listener_wrapper\", any unmatched traffic will be received by the \"HTTP App\" (reverse_proxy). When \"Routing Type\" of the matcher is \"global\", unmatched traffic will be consumed and blocked. Choose \"ANY\" to not match on OSI Layer 7 and allow any traffic."
-msgstr ""
+msgstr "OSI 7계층에서 수신된 트래픽을 일치시킵니다. TLS와 같은 프로토콜을 선택하면 일치하는 트래픽이 업스트림 대상으로 라우팅됩니다. 매처의 \"라우팅 유형\"이 \"listener_wrapper\"인 경우 일치하지 않는 트래픽은 \"HTTP 앱\"(리버스 프록시)에서 수신됩니다. 매처의 \"라우팅 유형\"이 \"global\"인 경우 일치하지 않는 트래픽은 소비되고 차단됩니다. \"ANY\"를 선택하면 OSI 7계층에서 일치하지 않으며 모든 트래픽을 허용합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 129
 #. File: /usr/lang/src/controllers.php, line: 3152
 #: 
 msgid "Matchers"
-msgstr ""
+msgstr "매처"
 
 #. File: /usr/lang/src/controllers.php, line: 3162
 #: 
 msgid "Max Unacked clients"
-msgstr ""
+msgstr "최대 Unacked 클라이언트"
 
 #. File: /usr/lang/src/controllers.php, line: 3163
 #: 
 msgid "Max concurrent streams"
-msgstr ""
+msgstr "최대 동시 스트림"
 
 #. File: /usr/lang/src/controllers.php, line: 3164
 #: 
 msgid "Max concurrent streams (incoming)"
-msgstr ""
+msgstr "최대 동시 스트림(수신)"
 
 #. File: /usr/lang/src/controllers.php, line: 3165
 #: 
 msgid "Max concurrent streams (outgoing)"
-msgstr ""
+msgstr "최대 동시 스트림(발신)"
 
 #. File: /usr/lang/src/controllers.php, line: 3198
 #: 
 msgid "Maximum OCSP Interval"
-msgstr ""
+msgstr "최대 OCSP 간격"
 
 #. File: /usr/lang/src/controllers.php, line: 3215
 #: 
 msgid "Maximum file size (MB)"
-msgstr ""
+msgstr "최대 파일 크기(MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 3216
 #: 
 msgid "Maximum file size per log file. When set and a log file exceeds the amount specified, it will be rotated."
-msgstr ""
+msgstr "로그 파일당 최대 파일 크기입니다. 설정하고 로그 파일이 지정된 크기를 초과하면 회전됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3217
 #: 
 msgid "Maximum jitter in percent to apply randomly to calculated retransmission timeout (0 to disable)"
-msgstr ""
+msgstr "계산된 재전송 시간 초과에 무작위로 적용할 최대 지터(0은 비활성화)"
 
 #. File: /usr/lang/src/controllers.php, line: 3227
 #: 
 msgid "Maximum preserved files"
-msgstr ""
+msgstr "최대 보존 파일"
 
 #. File: /usr/lang/src/controllers.php, line: 3228
 #: 
 msgid "Maximum size of log file (in MB)."
-msgstr ""
+msgstr "최대 로그 파일 크기(MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 3249
 #: 
 msgid "MinProtocol"
-msgstr ""
+msgstr "최소 프로토콜"
 
 #. File: /usr/lang/src/controllers.php, line: 3250
 #: 
 msgid "MinProtocol (DTLS)"
-msgstr ""
+msgstr "최소 프로토콜 (DTLS)"
 
 #. File: /usr/lang/src/controllers.php, line: 3251
 #: 
 msgid "Minimum OCSP Interval"
-msgstr ""
+msgstr "최소 OCSP 간격"
 
 #. File: /usr/lang/src/controllers.php, line: 3262
 #: 
 msgid "Monit HTTPD Password"
-msgstr ""
+msgstr "Monit HTTPD 암호"
 
 #. File: /usr/lang/src/controllers.php, line: 3264
 #: 
 msgid "Monit HTTPD Username"
-msgstr ""
+msgstr "Monit HTTPD 사용자 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 3275
 #: 
@@ -63854,103 +63862,103 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3385
 #: 
 msgid "Next server"
-msgstr ""
+msgstr "다음 서버"
 
 #. File: /usr/lang/src/controllers.php, line: 3386
 #: 
 msgid "Next server IP address"
-msgstr ""
+msgstr "다음 서버 IP 주소"
 
 #. File: /usr/lang/src/controllers.php, line: 3408
 #: 
 msgid "Number of exclusively locked segments in the hash table."
-msgstr ""
+msgstr "해시 테이블에서 독점적으로 잠긴 세그먼트의 수입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3412
 #: 
 msgid "Number of logs to preserve. When no maximum file size is offered or the logs are smaller than the the size requested, this equals the number of days."
-msgstr ""
+msgstr "보존할 로그 수. 최대 파일 크기가 제공되지 않거나 로그가 요청된 크기보다 작은 경우, 이는 일 수와 같습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3424
 #: 
 msgid "Number of retransmissions to send before giving up."
-msgstr ""
+msgstr "중단하기 전에 전송할 재전송 횟수."
 
 #. File: /usr/lang/src/controllers.php, line: 3432
 #: 
 msgid "OCID of the user calling the API"
-msgstr ""
+msgstr "API를 호출하는 사용자의 OCID입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3433
 #: 
 msgid "OCID of your tenancy"
-msgstr ""
+msgstr "귀하의 테넌시 OCID"
 
 #. File: /usr/lang/src/controllers.php, line: 3437
 #: 
 msgid "OCSP uri"
-msgstr ""
+msgstr "OCSP uri"
 
 #. File: /usr/lang/src/controllers.php, line: 3444
 #: 
 msgid "Offer a hostname to the client"
-msgstr ""
+msgstr "클라이언트에게 호스트 이름을 제공"
 
 #. File: /usr/lang/src/controllers.php, line: 3456
 #: 
 msgid "Only texts containing letters, digits and underscores with a maximum length of 15 characters are allowed and the name may not end with a digit."
-msgstr ""
+msgstr "문자, 숫자 및 밑줄만 포함하고 최대 15자 길이로 제한됩니다. 이름은 숫자로 끝날 수 없습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3463
 #: 
 msgid "OpenTelemetry"
-msgstr ""
+msgstr "OpenTelemetry"
 
 #. File: /usr/lang/src/controllers.php, line: 3464
 #: 
 msgid "OpenTelemetry Server"
-msgstr ""
+msgstr "OpenTelemetry 서버"
 
 #. File: /usr/lang/src/controllers.php, line: 3478
 #: 
 msgid "Optional gateway IP address for this route."
-msgstr ""
+msgstr "이 경로에 대한 선택적 게이트웨이 IP 주소입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3479
 #: 
 msgid "Optional shared secret (PSK) for this peer."
-msgstr ""
+msgstr "이 피어에 대한 선택적 공유 비밀(PSK)입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3486
 #. File: /usr/lang/src/models.php, line: 1166
 #: 
 msgid "Oracle Cloud Infrastructure (OCI)"
-msgstr ""
+msgstr "Oracle Cloud Infrastructure (OCI)"
 
 #. File: /usr/lang/src/controllers.php, line: 3498
 #: 
 msgid "Output (PEM format)"
-msgstr ""
+msgstr "출력 (PEM 형식)"
 
 #. File: /usr/lang/src/controllers.php, line: 3500
 #: 
 msgid "Output TLS transaction where the session is resumed using a session id"
-msgstr ""
+msgstr "세션 ID를 사용하여 세션이 재개되는 출력 TLS 트랜잭션"
 
 #. File: /usr/lang/src/controllers.php, line: 3505
 #: 
 msgid "Override response TTL in seconds."
-msgstr ""
+msgstr "응답 TTL을 초 단위로 재정의."
 
 #. File: /usr/lang/src/controllers.php, line: 3515
 #: 
 msgid "Packet Loss High Threshold"
-msgstr ""
+msgstr "패킷 손실 높은 임계값"
 
 #. File: /usr/lang/src/controllers.php, line: 3516
 #: 
 msgid "Packet Loss Low Threshold"
-msgstr ""
+msgstr "패킷 손실 낮은 임계값"
 
 #. File: /usr/lang/src/controllers.php, line: 3517
 #: 
@@ -64040,205 +64048,205 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3668
 #: 
 msgid "Prefix-List for outbound direction."
-msgstr ""
+msgstr "아웃바운드 방향의 접두사 목록."
 
 #. File: /usr/lang/src/controllers.php, line: 3674
 #: 
 msgid "Primary interface"
-msgstr ""
+msgstr "기본 인터페이스"
 
 #. File: /usr/lang/src/controllers.php, line: 3684
 #: 
 msgid "Private key of this peer, not stored on this host, only used for the configuration below."
-msgstr ""
+msgstr "이 피어의 개인 키는 이 호스트에 저장되지 않으며 아래 구성에만 사용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3692
 #. File: /usr/lang/src/models.php, line: 1359
 #: 
 msgid "Prometheus"
-msgstr ""
+msgstr "Prometheus"
 
 #. File: /usr/lang/src/controllers.php, line: 3701
 #: 
 msgid "Propagation Timeout is a duration value that sets the maximum time to wait for the DNS TXT records to appear when using the DNS challenge. The default is 2 minutes. Disabling this will set propagation_timeout to -1 (checking propagation infinitely) and additionally set a propagation_delay of 30s (wait time before starting propagation checks). This can help when the DNS Challenge continues to fail because the local DNS Server does not know the new DNS TXT records yet in the default timeframe of 2 minutes."
-msgstr ""
+msgstr "전파 시간 초과은 DNS 챌린지를 사용할 때 DNS TXT 레코드가 나타나기까지 기다리는 최대 시간을 설정하는 기간 값입니다. 기본값은 2분입니다. 이 기능을 비활성화하면 `propagation_timeout`이 -1로 설정되어 전파를 무한정 확인하게 되며, `propagation_delay`가 30초로 설정되어 전파 확인을 시작하기 전에 대기 시간을 추가합니다. 이는 기본 2분 시간 내에 로컬 DNS 서버가 새로운 DNS TXT 레코드를 알지 못해 DNS 챌린지가 계속 실패할 때 도움이 될 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3730
 #: 
 msgid "Proxy Connect Timeout"
-msgstr ""
+msgstr "프록시 연결 시간 초과"
 
 #. File: /usr/lang/src/controllers.php, line: 3737
 #: 
 msgid "Proxy Timeout"
-msgstr ""
+msgstr "프록시 시간 초과"
 
 #. File: /usr/lang/src/controllers.php, line: 3747
 #: 
 msgid "Public key of this peer. You can generate the key using the private key piped to \"wg pubkey\"."
-msgstr ""
+msgstr "이 피어의 공개 키입니다. \"wg pubkey\"로 파이프된 개인 키를 사용하여 키를 생성할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3752
 #: 
 msgid "QoS policy for messages. 0 = at most once, 1 = at least once, 2 = exactly once. Defaults to 2."
-msgstr ""
+msgstr "메시지에 대한 QoS 정책. 0 = 최대 한 번, 1 = 최소 한 번, 2 = 정확히 한 번. 기본값은 2입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3759
 #: 
 msgid "RFC 5080 suggests that all clients should include it in an Access-Request. If the server requires it (option checked) and the client does not, then the packet will be silently discarded."
-msgstr ""
+msgstr "RFC 5080은 모든 클라이언트가 Access-Request에 포함해야 한다고 제안합니다. 서버에서 요구하고(옵션 체크) 클라이언트에서 요구하지 않으면 패킷은 자동으로 삭제됩니다."
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 307
 #. File: /usr/lang/src/controllers.php, line: 3801
 #: 
 msgid "Register ISC DHCP4 Leases"
-msgstr ""
+msgstr "ISC DHCP4 대여 등록"
 
 #. File: /usr/lang/src/controllers.php, line: 3830
 #: 
 msgid "Remote AS for tthis peergroup."
-msgstr ""
+msgstr "이 피어 그룹의 원격 AS."
 
 #. File: /usr/lang/src/controllers.php, line: 3841
 #: 
 msgid "Remote gif tunnel endpoint"
-msgstr ""
+msgstr "원격 gif 터널 엔드포인트"
 
 #. File: /usr/lang/src/controllers.php, line: 3842
 #: 
 msgid "Remote gre tunnel endpoint"
-msgstr ""
+msgstr "원격 gre 터널 엔드포인트"
 
 #. File: /usr/lang/src/controllers.php, line: 3844
 #: 
 msgid "Remote port"
-msgstr ""
+msgstr "원격 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 3861
 #: 
 msgid "Require Message-Authenticator"
-msgstr ""
+msgstr "메시지 인증기 필요"
 
 #. File: /usr/lang/src/controllers.php, line: 3876
 #: 
 msgid "Resolver time out in seconds. NGINX default (if empty) is 30 seconds."
-msgstr ""
+msgstr "리졸버 시간 초과(초). NGINX 기본값(비어 있는 경우)은 30초입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3889
 #: 
 msgid "Retransmission"
-msgstr ""
+msgstr "재전송"
 
 #. File: /usr/lang/src/controllers.php, line: 3905
 #: 
 msgid "Revocations per type"
-msgstr ""
+msgstr "유형별 폐기"
 
 #. File: /usr/lang/src/controllers.php, line: 3931
 #: 
 msgid "Route-Map for inbound direction."
-msgstr ""
+msgstr "인바운드 라우트 맵."
 
 #. File: /usr/lang/src/controllers.php, line: 3933
 #: 
 msgid "Route-Map for outbound direction."
-msgstr ""
+msgstr "아웃바운드 라우트 맵."
 
 #. File: /usr/lang/src/controllers.php, line: 3940
 #: 
 msgid "Routers (gateway)"
-msgstr ""
+msgstr "라우터 (게이트웨이)"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 125
 #. File: /usr/lang/src/controllers.php, line: 3943
 #: 
 msgid "Routing Type"
-msgstr ""
+msgstr "라우팅 유형"
 
 #. File: /usr/lang/src/controllers.php, line: 3947
 #: 
 msgid "Rules are sorted based on the sequence number, higher number means lower priority. Rules without a sequence number will be processed first."
-msgstr ""
+msgstr "규칙은 순서 번호를 기준으로 정렬되며, 숫자가 높을수록 우선순위가 낮습니다. 순서 번호가 없는 규칙이 먼저 처리됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3955
 #: 
 msgid "Run this service as \"www\" user and group, instead of \"root\". This setting increases security, but comes with the hard restriction that the well-known port range can not be used anymore. After enabling and saving this setting, the service has to be totally restarted. For this, please disable Caddy and press Apply. Afterwards enable Caddy and press Apply. This setting is reversible by following the same steps."
-msgstr ""
+msgstr "이 서비스를 \"root\" 대신 \"www\" 사용자 및 그룹으로 실행하세요. 이 설정은 보안을 강화하지만 잘 알려진 포트 범위를 더 이상 사용할 수 없다는 엄격한 제한이 따릅니다. 이 설정을 활성화하고 저장한 후에는 서비스를 완전히 다시 시작해야 합니다. 이를 위해 Caddy를 비활성화하고 적용을 누르세요. 그런 다음 Caddy를 활성화하고 적용을 누르세요. 이 설정은 동일한 단계를 따르면 되돌릴 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4009
 #: 
 msgid "SSL settings"
-msgstr ""
+msgstr "SSL 설정"
 
 #. File: /usr/lang/src/controllers.php, line: 4030
 #: 
 msgid "Schedule an hourly job to download CRLs using the defined Distributionpoints in the CAs deployed in our trust store."
-msgstr ""
+msgstr "신뢰 저장소에 배포된 CA에 정의된 배포 지점을 사용하여 CRL을 다운로드하는 매시간 작업을 예약합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4061
 #: 
 msgid "Select General Log level. Log levels are listed in the order of increasing verbosity. Setting a certain log level will cause all messages of the specified and more severe log levels to be logged."
-msgstr ""
+msgstr "일반 로그 수준을 선택합니다. 로그 수준은 자세한 정도에 따라 나열됩니다. 특정 로그 수준을 설정하면 지정된 로그 수준과 더 심각한 로그 수준의 모든 메시지가 기록됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4067
 #: 
 msgid "Select Users to restrict access to this domain. Basic Auth matches after Access Lists. If unset, any user is allowed access. When using CrowdSec, authorization failures will result in automatic bans."
-msgstr ""
+msgstr "이 도메인에 대한 액세스를 제한하려면 사용자를 선택합니다. 기본 인증은 액세스 목록 다음에 일치합니다. 설정하지 않으면 모든 사용자에게 액세스가 허용됩니다. CrowdSec을 사용하는 경우 인증 실패는 자동 금지로 이어집니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4068
 #: 
 msgid "Select Users to restrict access to this subdomain. Basic Auth matches after Access Lists. If unset, any user is allowed access."
-msgstr ""
+msgstr "이 하위 도메인에 대한 액세스를 제한하려면 사용자를 선택합니다. 기본 인증은 액세스 목록 다음에 일치합니다. 설정하지 않으면 모든 사용자가 액세스할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4070
 #: 
 msgid "Select a Forward Auth Provider. It can be added inside a \"Handler\" by enabling the \"Forward Auth\" checkbox. For Authelia only the basic subdomain example is supported. More information: https://www.authelia.com/integration/proxies/caddy/#basic-examples. For Authentik custom headers are not supported. More information: https://docs.goauthentik.io/docs/providers/proxy/server_caddy"
-msgstr ""
+msgstr "포워드 인증 공급자를 선택하세요. \"핸들러\" 내에서 \"포워드 인증\" 체크박스를 활성화하여 추가할 수 있습니다. Authelia의 경우 기본 서브도메인 예제만 지원됩니다. 자세한 내용은 https://www.authelia.com/integration/proxies/caddy/#basic-examples 를 참조하세요. Authentik의 경우 사용자 정의 헤더는 지원되지 않습니다. 자세한 내용은 https://docs.goauthentik.io/docs/providers/proxy/server_caddy 를 참조하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 4074
 #: 
 msgid "Select a domain to handle."
-msgstr ""
+msgstr "처리할 도메인을 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 4078
 #: 
 msgid "Select a subdomain to handle. Make sure to additionaly choose a wildcard domain as \"Domain\". Leave unset, if not using subdomains."
-msgstr ""
+msgstr "처리할 하위 도메인을 선택하세요. \"도메인\"으로 와일드카드 도메인을 추가로 선택하세요. 하위 도메인을 사용하지 않는 경우 설정하지 마세요."
 
 #. File: /usr/lang/src/controllers.php, line: 4079
 #: 
 msgid "Select a wildcard domain for this subdomain."
-msgstr ""
+msgstr "이 서브도메인에 대한 와일드카드 도메인을 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 4082
 #: 
 msgid "Select an Access List to restrict access to this domain. If unset, any local or remote client is allowed access."
-msgstr ""
+msgstr "이 도메인에 대한 액세스를 제한하려면 액세스 목록을 선택하세요. 설정하지 않으면 모든 로컬 또는 원격 클라이언트가 액세스가 허용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4083
 #: 
 msgid "Select an Access List to restrict access to this handler. If unset, any local or remote client is allowed access."
-msgstr ""
+msgstr "이 핸들러에 대한 액세스를 제한할 액세스 목록을 선택하세요. 설정하지 않으면 모든 로컬 또는 원격 클라이언트가 접근할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4084
 #: 
 msgid "Select an Access List to restrict access to this subdomain. If unset, any local or remote client is allowed access."
-msgstr ""
+msgstr "이 서브도메인에 대한 액세스를 제한할 액세스 목록을 선택하세요. 설정하지 않으면 모든 로컬 또는 원격 클라이언트가 접근할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4085
 #: 
 msgid "Select an Access List to set IP ranges of Trusted Proxies. If Caddy is not the first server being connected to by clients (for example, when a \"CDN\" is in front of Caddy), configure \"Trusted Proxies\" with a list of IP ranges (CIDRs) from which incoming requests are trusted to have sent good values for these headers. Additionally, set the same Access List to the domains the Trusted Proxies connect to."
-msgstr ""
+msgstr "신뢰할 수 있는 프록시의 IP 범위를 설정하기 위해 액세스 목록을 선택합니다. Caddy가 클라이언트가 연결하는 첫 번째 서버가 아닌 경우(예: \"CDN\"이 Caddy 앞에 있는 경우), 들어오는 요청이 이러한 헤더에 대해 좋은 값을 보낸 것으로 신뢰할 수 있는 IP 범위(CIDR) 목록으로 \"신뢰할 수 있는 프록시\"를 구성합니다. 또한 신뢰할 수 있는 프록시가 연결하는 도메인에 동일한 액세스 목록을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4088
 #: 
 msgid "Select an interface to extract the current IP addresses of the firewall. This is generally not needed as Caddy uses default providers to test the current IP addresses. Depending on the specified DynDns IP Version, at most one IPv6 Global Unicast Address and one IPv4 non-RFC1918 Address will be extracted."
-msgstr ""
+msgstr "방화벽의 현재 IP 주소를 추출할 인터페이스를 선택합니다. Caddy가 기본 공급자를 사용하여 현재 IP 주소를 테스트하기 때문에 일반적으로 필요하지 않습니다. 지정된 DynDns IP 버전에 따라 최대 하나의 IPv6 글로벌 유니캐스트 주소와 하나의 IPv4 비-RFC1918 주소가 추출됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4107
 #: 
 msgid "Select interface(s) to use. When enabling IPS, make sure the (virtual) driver supports this feature."
-msgstr ""
+msgstr "사용할 인터페이스를 선택하세요. IPS를 활성화할 때 (가상) 드라이버가 이 기능을 지원하는지 확인하십시오."
 
 #. File: /usr/lang/src/controllers.php, line: 4108
 #: 
@@ -64343,104 +64351,106 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4327
 #: 
 msgid "Set the gateway IP here when using \"Disable routes\" feature. You also have to add this as a system gateway."
-msgstr ""
+msgstr "\"경로 비활성화\" 기능을 사용할 때 여기에 게이트웨이 IP를 설정하세요. 이 IP를 시스템 게이트웨이로 추가해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4336
 #: 
 msgid "Set the interval in seconds to poll for changes in the IP address. Leave empty to use system defaults."
-msgstr ""
+msgstr "IP 주소 변경 사항을 확인하기 위한 간격을 초 단위로 설정하세요. 비워 두면 시스템 기본값이 사용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4369
 #: 
 msgid "Set the name for this peer."
-msgstr ""
+msgstr "이 피어의 이름을 설정하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 4395
 #: 
 msgid "Set the password for the user. Allowed characters are 0-9, a-z, A-Z, and ,._-!$%/()+#=:& with up to 128 characters."
-msgstr ""
+msgstr "사용자의 암호를 설정합니다. 허용되는 문자는 0-9, a-z, A-Z, ,._-!$%/()+#=:&이며 최대 128자입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4434
 #: 
 msgid "Set the unique username for the user. Allowed characters are 0-9, a-z, A-Z, and ._-@/:"
-msgstr ""
+msgstr "사용자의 고유한 사용자 이름을 설정합니다. 허용되는 문자는 0-9, a-z, A-Z, 및 ._-@/:입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4452
 #: 
 msgid "Sets a timeout in seconds during which an idle keepalive connection to an upstream server will stay open. NGINX default is 75s."
-msgstr ""
+msgstr "업스트림 서버에 대한 유휴 유지 연결이 열려 있을 시간 초과를 초 단위로 설정합니다. NGINX의 기본값은 75초입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4457
 #: 
 msgid "Sets the HTTP/2 initial window size for incoming connections, which is the number of bytes the client can upload before waiting for an acknowledgment from HAProxy."
-msgstr ""
+msgstr "수신 연결에 대한 HTTP/2 초기 윈도우 크기를 설정합니다. 이는 클라이언트가 HAProxy로부터 확인 응답을 기다리기 전에 업로드할 수 있는 바이트 수입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4458
 #: 
 msgid "Sets the HTTP/2 initial window size for outgoing connections, which is the number of bytes the server can respond to before waiting for an acknowledgment from HAProxy."
-msgstr ""
+msgstr "송신 연결에 대한 HTTP/2 초기 창 크기를 설정합니다. 이는 서버가 HAProxy로부터 확인 응답을 기다리기 전에 응답할 수 있는 바이트 수입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4459
 #: 
 msgid "Sets the HTTP/2 maximum number of concurrent streams per incoming connection (i.e. the number of outstanding requests on a single connection from a client)."
-msgstr ""
+msgstr "수신 연결당 HTTP/2의 최대 동시 스트림 수를 설정합니다(즉, 클라이언트의 단일 연결에서 처리 중인 요청 수)."
 
 #. File: /usr/lang/src/controllers.php, line: 4460
 #: 
 msgid "Sets the HTTP/2 maximum number of concurrent streams per outgoing connection (i.e. the number of outstanding requests on a single connection to a server)."
-msgstr ""
+msgstr "송신 연결당 HTTP/2의 최대 동시 스트림 수를 설정합니다(즉, 서버에 대한 단일 연결에서 처리 중인 요청 수)."
 
 #. File: /usr/lang/src/controllers.php, line: 4461
 #: 
 msgid "Sets the available ciphersuites for TLSv1.3."
-msgstr ""
+msgstr "TLSv1.3에 대한 사용 가능한 암호 모음을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4462
 #: 
 msgid "Sets the ciphersuite list for TLSv1.2 and below."
-msgstr ""
+msgstr "TLSv1.2 이하에 대한 암호 모음 목록을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4463
 #: 
 msgid "Sets the default HTTP/2 maximum number of concurrent streams per connection (i.e. the number of outstanding requests on a single connection). The default value is 100."
-msgstr ""
+msgstr "연결당 기본 HTTP/2 최대 동시 스트림 수를 설정합니다(즉, 단일 연결에서 처리 중인 요청 수). 기본값은 100입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4464
 #: 
 msgid "Sets the default value for the HTTP/2 initial window size, on both incoming and outgoing connections. The default value is 65536."
-msgstr ""
+msgstr "수신 및 송신 연결 모두에 대한 기본 HTTP/2 초기 윈도우 크기를 설정합니다. 기본값은 65536입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4470
 #: 
 msgid "Sets the maximum interval (in seconds) between two automatic updates of the same OCSP response."
-msgstr ""
+msgstr "같은 OCSP 응답의 두 자동 업데이트 사이의 최대 간격(초 단위)을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4471
 #: 
 msgid "Sets the maximum number of requests that can be served through one keepalive connection. NGINX default is 1000."
-msgstr ""
+msgstr "하나의 유지 연결을 통해 처리할 수 있는 최대 요청 수를 설정합니다. NGINX의 기본값은 1000입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4472
 #: 
 msgid "Sets the minimum interval (in seconds) between two automatic updates of the same OCSP response."
-msgstr ""
+msgstr "같은 OCSP 응답의 두 자동 업데이트 사이의 최소 간격(초 단위)을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4473
 #: 
 msgid "Sets the minimum supported DTLS version, when configuring MinProtocol and leaving this empty,\n"
 "        DTLS will be disabled.\n"
 "        "
-msgstr ""
+msgstr "최소 지원 DTLS 버전을 설정합니다. 최소프로토콜을 구성하고 이 필드를 비워 두면 \n"
+"        DTLS가 비활성화됩니다.\n"
+"        "
 
 #. File: /usr/lang/src/controllers.php, line: 4476
 #: 
 msgid "Sets the minimum supported SSL or TLS version."
-msgstr ""
+msgstr "최소 지원 SSL 또는 TLS 버전을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4480
 #: 
 msgid "Sets the timeout (in seconds) between two successive read or write operations on client or proxied server connections."
-msgstr ""
+msgstr "클라이언트 또는 프록시 서버 연결에서 두 개의 연속 읽기 또는 쓰기 작업 사이의 시간 초과(초 단위)를 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4484
 #: 
@@ -64545,105 +64555,105 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4648
 #: 
 msgid "Store the public parts of this peer and generate a keypair for the next."
-msgstr ""
+msgstr "이 피어의 공개 부분을 저장하고 다음 피어를 위한 키 쌍을 생성합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4652
 #: 
 msgid "StrictSubnets"
-msgstr ""
+msgstr "엄격한 서브넷"
 
 #. File: /usr/lang/src/controllers.php, line: 4661
 #: 
 msgid "Subnet or range defining addresses allocated in pool. Accepts a single CIDR subnet defining the pool to allocate addresses from."
-msgstr ""
+msgstr "풀에서 할당할 주소를 정의하는 서브넷 또는 범위입니다. 주소를 할당할 풀을 정의하는 단일 CIDR 서브넷을 허용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4662
 #: 
 msgid "Subnet this reservation belongs to"
-msgstr ""
+msgstr "이 예약이 속한 서브넷"
 
 #. File: /usr/lang/src/controllers.php, line: 4664
 #: 
 msgid "Subnet to use, should be large enough to hold the specified pools and reservations"
-msgstr ""
+msgstr "사용할 서브넷으로, 지정된 풀과 예약을 수용할 수 있을 만큼 커야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4667
 #: 
 msgid "Superseded"
-msgstr ""
+msgstr "대체됨"
 
 #. File: /usr/lang/src/controllers.php, line: 4672
 #: 
 msgid "Sync compatibility"
-msgstr ""
+msgstr "동기화 호환성"
 
 #. File: /usr/lang/src/controllers.php, line: 4673
 #: 
 msgid "Synchronize Config"
-msgstr ""
+msgstr "구성 동기화"
 
 #. File: /usr/lang/src/controllers.php, line: 4675
 #: 
 msgid "Synchronize all states via"
-msgstr ""
+msgstr "모든 상태를 통해 동기화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4691
 #: 
 msgid "System User"
-msgstr ""
+msgstr "시스템 사용자"
 
 #. File: /usr/lang/src/controllers.php, line: 4701
 #: 
 msgid "TFTP bootfile name"
-msgstr ""
+msgstr "TFTP 부팅 파일 이름"
 
 #. File: /usr/lang/src/controllers.php, line: 4703
 #: 
 msgid "TFTP server address or fqdn"
-msgstr ""
+msgstr "TFTP 서버 주소 또는 FQDN"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 444
 #. File: /usr/lang/src/controllers.php, line: 4708
 #: 
 msgid "TLS Insecure Skip Verify"
-msgstr ""
+msgstr "TLS 안전하지 않음 건너뛰기 확인"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 442
 #. File: /usr/lang/src/controllers.php, line: 4713
 #: 
 msgid "TLS Server Name"
-msgstr ""
+msgstr "TLS 서버 이름"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 441
 #. File: /usr/lang/src/controllers.php, line: 4714
 #: 
 msgid "TLS Trust Pool"
-msgstr ""
+msgstr "TLS 신뢰 풀"
 
 #. File: /usr/lang/src/controllers.php, line: 4752
 #: 
 msgid "The 1:1 mapping will only be used for connections to or from the specified destination. Hint: this is usually 'any'."
-msgstr ""
+msgstr "1:1 매핑은 지정된 대상과의 연결에만 사용됩니다. 힌트: 이는 일반적으로 'any'입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4756
 #: 
 msgid "The API Key is the previous mechanism that was replaced with Personal Access Tokens. API Keys should no longer be used."
-msgstr ""
+msgstr "API 키는 개인 액세스 토큰으로 대체된 이전 메커니즘입니다. API 키는 더 이상 사용해서는 안 됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4761
 #: 
 msgid "The CARP VHID to depend on. When this virtual address is not in master state, then the instance will be shutdown."
-msgstr ""
+msgstr "의존할 CARP VHID입니다. 이 가상 주소가 마스터 상태가 아닐 때 인스턴스는 종료됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4813
 #: 
 msgid "The default versions are highly recommended. Choose a HTTP version for the upstream destination. HTTP/3 (HTTP over QUIC) requires HTTPS, and only establishes connections to webservers that also support HTTP/3."
-msgstr ""
+msgstr "기본 버전을 강력히 권장합니다. 업스트림 대상에 대한 HTTP 버전을 선택하세요. HTTP/3(QUIC를 통한 HTTP)는 HTTPS를 필요로 하며 HTTP/3도 지원하는 웹 서버에만 연결을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4814
 #: 
 msgid "The destination server group to relay DHCP requests to."
-msgstr ""
+msgstr "DHCP 요청을 중계할 대상 서버 그룹입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4816
 #: 
