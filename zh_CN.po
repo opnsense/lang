@@ -10,7 +10,7 @@ msgstr ""
 #. File: /usr/core/src/www/wizard.php, line: 122
 #: 
 msgid "ERROR: Could not parse %s wizard file."
-msgstr "错误：无法解析 %s 向导文件。"
+msgstr "错误：无法解析%s向导文件。"
 
 #. File: /usr/core/src/www/wizard.php, line: 92
 #: 
@@ -1153,7 +1153,7 @@ msgstr "隧道隔离"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 999
 #: 
 msgid "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, reauthentication is always done."
-msgstr "IKE_SA重新密钥可以选择重新对对端进行认证。在IKEv1中，始终执行重新认证。"
+msgstr "IKE_SA密钥更新可以选择重新对对端进行认证。在IKEv1中，始终执行重新认证。"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 995
 #: 
@@ -1168,7 +1168,7 @@ msgstr "连接即将过期时是否应重新协商。。"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 986
 #: 
 msgid "Disable Rekey"
-msgstr "禁用重新密钥"
+msgstr "禁用密钥更新"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 940
 #: 
@@ -2191,7 +2191,7 @@ msgstr "认证服务器"
 #. File: /usr/core/src/www/system_hasync.php, line: 234
 #: 
 msgid "Enter the web GUI password of the system entered above for synchronizing your configuration."
-msgstr "输入上面输入的用于同步配置系统的Web GUI密码。"
+msgstr "输入该防火墙的Web GUI密码。"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 230
 #: 
@@ -2201,7 +2201,7 @@ msgstr "远程系统密码"
 #. File: /usr/core/src/www/system_hasync.php, line: 222
 #: 
 msgid "Enter the web GUI username of the system entered above for synchronizing your configuration."
-msgstr "输入上面输入的用于同步配置系统的Web GUI用户名。"
+msgstr "输入该防火墙的Web GUI用户名。"
 
 #. File: /usr/core/src/www/system_hasync.php, line: 218
 #: 
@@ -2532,7 +2532,7 @@ msgstr "必须指定有效的网关组名。"
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 224
 #: 
 msgid "Remember to use these Gateway Groups in firewall rules in order to enable load balancing, failover, or policy-based routing. Without rules directing traffic into the Gateway Groups, they will not be used."
-msgstr "网关组必须在防火墙规则中引用才能启用负载平衡、故障转移或基于策略的路由，否则它们将不会被使用。"
+msgstr "请在防火墙规则中使用这些网关组，以便启用负载平衡、故障转移或基于策略的路由。如果没有将流量引导到网关组的规则，则不会使用这些网关组。"
 
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 215
 #. File: /usr/core/src/www/system_gateways.php, line: 404
@@ -2579,7 +2579,7 @@ msgstr "待定"
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 163
 #: 
 msgid "Tier %s"
-msgstr "层级%s"
+msgstr "层级 %s"
 
 #. File: /usr/core/src/www/system_gateway_groups.php, line: 121
 #: 
@@ -3046,12 +3046,12 @@ msgstr "硬件LRO"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 228
 #: 
 msgid "Checking this option will disable hardware TCP segmentation offloading (TSO, TSO4, TSO6). This offloading is broken in some hardware drivers, and may impact performance with some specific NICs."
-msgstr "选中该选项将禁用硬件 TCP 分段卸载（TSO、TSO4、TSO6）。 这种卸载在某些硬件驱动程序中被破坏，并且可能会影响某些特定 NIC 的性能。"
+msgstr "选中该选项将禁用硬件 TCP 分片卸载（TSO、TSO4、TSO6）。 这种卸载在某些硬件驱动程序中被破坏，并且可能会影响某些特定 NIC 的性能。"
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 226
 #: 
 msgid "Disable hardware TCP segmentation offload"
-msgstr "禁用硬件TCP分段卸载"
+msgstr "禁用硬件TCP分片卸载"
 
 #. File: /usr/core/src/www/system_advanced_network.php, line: 223
 #: 
@@ -3611,12 +3611,12 @@ msgstr "如果默认网关所在的链路失效，则会将默认网关切换到
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 366
 #: 
 msgid "Allow default gateway switching"
-msgstr "允许默认网关交换"
+msgstr "允许默认网关切换"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 363
 #: 
 msgid "Gateway switching"
-msgstr "网关交换"
+msgstr "网关切换"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 354
 #: 
@@ -3708,7 +3708,7 @@ msgstr "别名主机域名解析间隔值必须为整数。"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 82
 #: 
 msgid "The Firewall Maximum Frags value must be an integer."
-msgstr "防火墙最大分段值必须为整数。"
+msgstr "防火墙最大分片值必须为整数。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 79
 #: 
@@ -5719,7 +5719,7 @@ msgstr "必须指定MAC地址或客户端标识符"
 #. File: /usr/core/src/www/services_dhcp.php, line: 1092
 #: 
 msgid "DHCP Static Mappings for this interface."
-msgstr "接口的DHCP静态映射。"
+msgstr "DHCP静态映射"
 
 #. File: /usr/core/src/www/services_dhcp.php, line: 1047
 #. File: /usr/core/src/www/services_dhcpv6.php, line: 715
@@ -6385,7 +6385,7 @@ msgstr "刷新报告"
 #. File: /usr/core/src/www/reporting_settings.php, line: 180
 #: 
 msgid "Graphs will not be allowed to be recreated within a 1 minute interval, please take this into account after changing the style."
-msgstr "1分钟的间隔内不允许重新创建图形，请在重置的时候注意这种限制。"
+msgstr "不允许在1分钟间隔内重新创建图表，请在更改样式后考虑到这一点。"
 
 #. File: /usr/core/src/www/reporting_settings.php, line: 175
 #: 
@@ -6618,7 +6618,7 @@ msgstr "ShortSeq"
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 719
 #: 
 msgid "This option causes mpd to adjust incoming and outgoing TCP SYN segments so that the requested maximum segment size is not greater than the amount allowed by the interface MTU. This is necessary in many setups to avoid problems caused by routers that drop ICMP Datagram Too Big messages. Without these messages, the originating machine sends data, it passes the rogue router then hits a machine that has an MTU that is not big enough for the data. Because the IP Don't Fragment option is set, this machine sends an ICMP Datagram Too Big message back to the originator and drops the packet. The rogue router drops the ICMP message and the originator never gets to discover that it must reduce the fragment size or drop the IP Don't Fragment option from its outgoing data."
-msgstr "此选项使MPD调整传入和传出的TCP SYN段，以便请求的最大段大小不大于接口MTU允许的量。在许多设置中，这是必要的，以避免由于路由器丢弃ICMP数据报的信息太大而引起的问题。如果没有这些信息，发起机器发送数据，它会通过流氓路由器，然后击中一台具有不足以容纳数据的MTU的机器。因为设置了IP不分段选项，这台机器将一个ICMP数据报太大的消息发送回发起方并丢弃数据包。流氓路由器丢弃了ICMP消息，发起者永远不会发现它必须减小分片大小，或者从它的传出数据中删除IP不分段选项。"
+msgstr "此选项使MPD调整传入和传出的TCP SYN段，以便请求的最大段大小不大于接口MTU允许的量。在许多设置中，这是必要的，以避免由于路由器丢弃ICMP数据报的信息太大而引起的问题。如果没有这些信息，发起机器发送数据，它会通过流氓路由器，然后击中一台具有不足以容纳数据的MTU的机器。因为设置了IP不分片选项，这台机器将一个ICMP数据报太大的消息发送回发起方并丢弃数据包。流氓路由器丢弃了ICMP消息，发起者永远不会发现它必须减小分片大小，或者从它的传出数据中删除IP不分片选项。"
 
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 717
 #: 
@@ -7342,7 +7342,7 @@ msgstr "启用EEE802.1X认证"
 #. File: /usr/core/src/www/interfaces.php, line: 3226
 #: 
 msgid "Setting this option will force the AP to rekey whenever a client disassociates."
-msgstr "设置此选项将强制 AP 在客户端取消关联时重新进行密钥更新。"
+msgstr "设置此选项会强制AP在客户端解除关联时重新键入。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3222
 #: 
@@ -7949,7 +7949,7 @@ msgstr "使用VLAN优先级"
 #. File: /usr/core/src/www/interfaces.php, line: 2536
 #: 
 msgid "Do not send a release message on client exit to prevent the release of an allocated address or prefix on the server."
-msgstr "不要在客户端退出时发送释放消息，以防止释放服务器上分配的地址或前缀。"
+msgstr "在客户端退出时不要发送释放消息，以防止释放服务器上分配的地址或前缀。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2532
 #: 
@@ -8042,7 +8042,7 @@ msgstr "启用按需拨号"
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 553
 #: 
 msgid "This field can usually be left empty unless specified by the provider."
-msgstr "Host-Uniq标签是PPPoE发现过程中使用的字段。除非提供商指定，否则该字段通常可以保留为空。"
+msgstr "除非提供商指定，否则该字段可以留空。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2207
 #. File: /usr/core/src/www/interfaces_ppps_edit.php, line: 549
@@ -8885,7 +8885,7 @@ msgstr "您真要删除该条目吗？"
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 623
 #: 
 msgid "Replaces the IP identification field with random values to compensate for predictable values generated by many hosts. This option only applies to packets that are not fragmented after the optional fragment reassembly."
-msgstr "用随机值替换IP标识字段，以补偿许多主机生成的可预测值。此选项仅适用于在可选分段重组后未分段的数据包。"
+msgstr "用随机值替换IP标识字段，以补偿许多主机生成的可预测值。此选项仅适用于在可选分片重组后未分片的数据包。"
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 619
 #: 
@@ -8895,12 +8895,12 @@ msgstr "随机ID"
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 614
 #: 
 msgid "Clears the dont-fragment bit from a matching IP packet."
-msgstr "从匹配的IP数据包中清除不分段位。"
+msgstr "清除匹配的 IP 数据包的不分片位。"
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 610
 #: 
 msgid "Do not fragment"
-msgstr "不分段"
+msgstr "不分片"
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 605
 #: 
@@ -8930,7 +8930,7 @@ msgstr "最大mss"
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 575
 #: 
 msgid "Normalizations"
-msgstr "正常化"
+msgstr "规范化"
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 460
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 553
@@ -9013,7 +9013,7 @@ msgstr "详细设置"
 #. File: /usr/core/src/www/firewall_scrub.php, line: 262
 #: 
 msgid "Replaces the IP identification field of packets with random values to compensate for operating systems that use predictable values. This option only applies to packets that are not fragmented after the optional packet reassembly."
-msgstr "使用随机值替换数据包的 IP 标识字段，以补偿使用可预测值的操作系统。此选项仅适用于可选数据包重组后未分段的数据包。"
+msgstr "使用随机值替换数据包的 IP 标识字段，以补偿使用可预测值的操作系统。此选项仅适用于可选数据包重组后未分片的数据包。"
 
 #. File: /usr/core/src/www/firewall_scrub.php, line: 258
 #: 
@@ -9023,12 +9023,12 @@ msgstr "IP随机ID"
 #. File: /usr/core/src/www/firewall_scrub.php, line: 250
 #: 
 msgid "This allows for communications with hosts that generate fragmented packets with the don't fragment (DF) bit set. Linux NFS is known to do this. This will cause the filter to not drop such packets but instead clear the don't fragment bit."
-msgstr "这允许与生成设置了不分段 (DF) 位的分段数据包的主机进行通信。众所周知，Linux NFS会这样做。这将导致过滤器不丢弃此类数据包，而是清除不分段位。"
+msgstr "这允许与生成带有不分片 (DF) 标志的分片数据包的主机进行通信。众所周知，Linux NFS会这样做。这将导致过滤器不丢弃此类数据包，而是清除不分片标志。"
 
 #. File: /usr/core/src/www/firewall_scrub.php, line: 246
 #: 
 msgid "IP Do-Not-Fragment"
-msgstr "IP不分段"
+msgstr "IP不分片"
 
 #. File: /usr/core/src/www/firewall_scrub.php, line: 235
 #: 
@@ -9366,7 +9366,7 @@ msgstr "不同步"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1444
 #: 
 msgid "Use this to choose TCP flags that must be set or cleared for this rule to match."
-msgstr "使用此选项选择必须设置或清除的TCP标志，此规则才能匹配。"
+msgstr "使用此选项来选择必须设置或清除才能匹配此规则的TCP标记。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1439
 #: 
@@ -9466,7 +9466,7 @@ msgstr "设置优先级"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1258
 #: 
 msgid "This allows packets with IP options to pass. Otherwise they are blocked by default. This is usually only seen with multicast traffic."
-msgstr "这允许具有IP选项的数据包通过。否则默认情况下它们被阻止。通常只能在多播流量中看到。"
+msgstr "允许带有IP选项的数据包通过。默认情况下会阻止它们。这通常只出现在多播流量中。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1254
 #: 
@@ -9489,7 +9489,7 @@ msgstr "高级选项"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1239
 #: 
 msgid "Leave as 'default' to use the system routing table. Or choose a gateway to utilize policy based routing."
-msgstr "保持\"默认\"使用系统路由表。 或者选择网关来使用基于策略的路由。"
+msgstr "保持\"默认\"则使用系统路由表。 或者选择网关来使用基于策略的路由。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1219
 #. File: /usr/core/src/www/interfaces.php, line: 2862
@@ -9509,17 +9509,17 @@ msgstr "保留为\"none\"可使规则始终保持启用状态。"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1179
 #: 
 msgid "Note: this only works for TCP rules. General OS choice matches all subtypes."
-msgstr "注意：这只适用于TCP规则。General OS选择匹配所有子类型。"
+msgstr "注意：这仅适用于 TCP 规则。常规操作系统选择匹配所有子类型。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1178
 #: 
 msgid "OS Type:"
-msgstr "OS类型:"
+msgstr "OS 类型:"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1165
 #: 
 msgid "Source OS"
-msgstr "源OS"
+msgstr "源 OS"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1162
 #: 
@@ -9561,7 +9561,7 @@ msgstr "如果您为上述协议选择了ICMP，则可以在此处指定ICMP类�
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 838
 #: 
 msgid "ICMP type"
-msgstr "ICMP类型"
+msgstr "ICMP 类型"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 833
 #: 
@@ -9572,7 +9572,7 @@ msgstr "注意：在大多数情况下，您应该在这里指定TCP。"
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 327
 #: 
 msgid "Choose on which interface packets must come in to match this rule."
-msgstr "选择数据包必须进入哪个接口来匹配此规则。"
+msgstr "选择数据包必须进入哪个接口才能符合此规则。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 743
 #: 
@@ -10001,7 +10001,7 @@ msgstr "设置已应用，规则现在在后台重新加载。"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 697
 #: 
 msgid "Static-port:"
-msgstr "静态端口:"
+msgstr "静态端口："
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 692
 #: 
@@ -10011,7 +10011,7 @@ msgstr "输入出站NAT映射的源端口。"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 688
 #: 
 msgid "port:"
-msgstr "端口:"
+msgstr "端口："
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 688
 #: 
@@ -10028,7 +10028,7 @@ msgstr "注意：防火墙的本地日志空间有限。不要打开所有日志
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1126
 #: 
 msgid "Log packets that are handled by this rule"
-msgstr "记录此规则处理的数据包"
+msgstr "记录规则处理的数据包"
 
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 672
 #: 
@@ -10301,17 +10301,17 @@ msgstr "规则信息"
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1050
 #: 
 msgid "NOTE: The \"pass\" selection does not work properly with Multi-WAN. It will only work on an interface containing the default gateway."
-msgstr "注意：\"通过\"选项不适用于Multi-WAN。它仅在包含默认网关的接口上工作。"
+msgstr "注意：\"通过\"选项不适用于多WAN。它仅在包含默认网关的接口上工作。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1046
 #: 
 msgid "Add unassociated filter rule"
-msgstr "添加未关联的过滤规则"
+msgstr "添加未关联过滤规则"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1045
 #: 
 msgid "Add associated filter rule"
-msgstr "添加关联的过滤规则"
+msgstr "添加关联过滤规则"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1016
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 1047
@@ -10331,7 +10331,7 @@ msgstr "关联过滤规则"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1188
 #: 
 msgid "Hint: This prevents the rule on Master from automatically syncing to other CARP members. This does NOT prevent the rule from being overwritten on Slave."
-msgstr "提示：这样可以防止主防火墙上的规则自动同步到其他CARP成员。这不会阻止该规则在备份防火墙上被覆盖。"
+msgstr "提示：这可防止主服务器上的规则自动同步到其他CARP成员。但这并不能防止从服务器上的规则被覆盖。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 991
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 757
@@ -10402,7 +10402,7 @@ msgstr "Round Robin：循环转换地址。"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 729
 #: 
 msgid "Only Round Robin types work with Host Aliases. Any type can be used with a Subnet."
-msgstr "只有Round Robin类型可以与主机别名一起使用。子网可以使用任何类型。"
+msgstr "Round Robin类型可以与主机别名一起使用。子网可以使用任何类型。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 951
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 725
@@ -10426,7 +10426,7 @@ msgstr "Round Robin with Sticky Address"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 703
 #: 
 msgid "Pool Options:"
-msgstr "池选项:"
+msgstr "池选项："
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 924
 #: 
@@ -10459,7 +10459,7 @@ msgstr "重定向目标端口"
 #. File: /usr/core/src/www/system_general.php, line: 258
 #: 
 msgid "e.g."
-msgstr "例如。"
+msgstr "例如"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 883
 #: 
@@ -10543,7 +10543,7 @@ msgstr "知名端口"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1067
 #: 
 msgid "to:"
-msgstr "到:"
+msgstr "到："
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 655
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 799
@@ -10551,7 +10551,7 @@ msgstr "到:"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1066
 #: 
 msgid "from:"
-msgstr "从:"
+msgstr "从："
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 650
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 942
@@ -11037,7 +11037,7 @@ msgstr "GeoIP"
 #. File: /usr/core/src/www/firewall_aliases_import.php, line: 56
 #: 
 msgid "An alias with this name already exists."
-msgstr "一个同名的别名已存在。"
+msgstr "一个相同的别名已存在。"
 
 #. File: /usr/core/src/www/firewall_aliases_edit.php, line: 262
 #. File: /usr/core/src/www/firewall_aliases_import.php, line: 51
@@ -11223,13 +11223,13 @@ msgstr "目标端口"
 #. File: /usr/core/src/www/diag_system_pftop.php, line: 131
 #: 
 msgid "Age"
-msgstr "有效期"
+msgstr "寿命"
 
 #. File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 201
 #. File: /usr/core/src/www/diag_system_pftop.php, line: 120
 #: 
 msgid "Long"
-msgstr "长"
+msgstr "详细"
 
 #. File: /usr/core/src/www/diag_states_summary.php, line: 120
 #. File: /usr/core/src/www/diag_states_summary.php, line: 122
@@ -11605,7 +11605,7 @@ msgstr "主机名或IP"
 #. File: /usr/core/src/www/diag_defaults.php, line: 75
 #: 
 msgid "Are you sure you want to proceed?"
-msgstr "确定要继续？"
+msgstr "您确定要继续吗？"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 73
 #: 
@@ -11615,17 +11615,17 @@ msgstr "更改完成后关闭"
 #. File: /usr/core/src/www/diag_defaults.php, line: 72
 #: 
 msgid "Admin user name and password will be reset"
-msgstr "管理员用户名和密码会被重置(默认root和opnsense)"
+msgstr "管理员用户名和密码会被重置(默认 root 和 opnsense)"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 71
 #: 
 msgid "WAN interface will be set to obtain an address automatically from a DHCP server"
-msgstr "WAN接口会被设置自动从DHCP服务器获得地址"
+msgstr "WAN 接口会被设置自动从 DHCP 服务器获得地址"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 70
 #: 
 msgid "System will be configured as a DHCP server on the default LAN interface"
-msgstr "系统会在默认的LAN接口上启用DHCP服务器"
+msgstr "系统会在默认的 LAN 接口上启用 DHCP 服务器"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 69
 #: 
@@ -11640,7 +11640,7 @@ msgstr "重设为出厂默认状态"
 #. File: /usr/core/src/www/diag_defaults.php, line: 66
 #: 
 msgid "If you click \"Yes\", the system will:"
-msgstr "单击\"是\"，系统将会:"
+msgstr "单击\"是\"，系统将:"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 52
 #: 
@@ -11681,7 +11681,7 @@ msgstr "在调整此值之前，请注意备份所消耗的空间。"
 #. File: /usr/core/src/www/diag_confbak.php, line: 211
 #: 
 msgid "Enter the number of older configurations to keep in the local backup cache."
-msgstr "设置保留在本地备份缓存中的备份文件数量。"
+msgstr "保留在本地缓存中的备份文件数量。"
 
 #. File: /usr/core/src/www/diag_confbak.php, line: 166
 #: 
@@ -11956,7 +11956,7 @@ msgstr "可以通过添加您的联系信息和问题描述进一步帮助我们
 #. File: /usr/core/src/www/crash_reporter.php, line: 225
 #: 
 msgid "Would you like to submit this crash report to the developers?"
-msgstr "您想将此崩溃报告提交给开发人员吗？"
+msgstr "您想将崩溃报告提交给开发人员吗？"
 
 #. File: /usr/core/src/www/crash_reporter.php, line: 223
 #: 
@@ -12823,7 +12823,7 @@ msgstr "到期"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 #: 
 msgid "Netif (name)"
-msgstr "网络接口(名称)"
+msgstr "网络接口（名称）"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 #: 
@@ -12858,7 +12858,7 @@ msgstr "开始日期"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 826
 #: 
 msgid "Resolution (seconds)"
-msgstr "分辨率(秒)"
+msgstr "分辨率（秒）"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 819
 #: 
@@ -12873,7 +12873,7 @@ msgstr "属性"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 802
 #: 
 msgid "Total (selection)"
-msgstr "全部(选择)"
+msgstr "全部（选择）"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 794
 #: 
@@ -14280,7 +14280,7 @@ msgstr "使用简单(不太安全)的密码，这更容易阅读"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 443
 #: 
 msgid "Use simple passwords (less secure)"
-msgstr "使用简单密码(不太安全)"
+msgstr "使用简单密码"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Voucher.php, line: 86
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 362
@@ -14386,7 +14386,7 @@ msgstr "升级"
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 202
 #: 
 msgid "reinstall"
-msgstr "重装"
+msgstr "重新安装"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 186
 #: 
@@ -15647,7 +15647,7 @@ msgstr "摘要"
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 53
 #: 
 msgid "LocPrf"
-msgstr "LocPrf"
+msgstr "本地优先级"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 51
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 51
@@ -15659,7 +15659,7 @@ msgstr "下一跳"
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 227
 #: 
 msgid "Edit Route Maps"
-msgstr "编辑Route Maps"
+msgstr "编辑路由映射"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 241
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 203
@@ -15699,7 +15699,7 @@ msgstr "序列号"
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 86
 #: 
 msgid "AS Number"
-msgstr "AS号码"
+msgstr "AS编号"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 61
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 61
@@ -16439,7 +16439,7 @@ msgstr "上游网络接口是出站接口，负责与可用的多播数据源进
 #. File: /usr/plugins/net/igmp-proxy/src/www/services_igmpproxy_edit.php, line: 193
 #: 
 msgid "Downstream network interfaces are the distribution interfaces to the destination networks, where multicast clients can join groups and receive multicast data. One or more downstream interfaces must be configured."
-msgstr "下游网络接口是到目标网络的分发接口，多播客户端可以在其中加入组并接收多播数据。必须配置一个或多个下游接口。"
+msgstr "下游网络接口是到目标网络的分发接口，组播客户端可以在其中加入组并接收组播数据。必须配置一个或多个下游接口。"
 
 #. File: /usr/plugins/net/igmp-proxy/src/www/services_igmpproxy_edit.php, line: 200
 #: 
@@ -17141,7 +17141,7 @@ msgstr "附加名称"
 #. File: /usr/lang/src/controllers.php, line: 92
 #: 
 msgid "Always Advertise Default Gateway"
-msgstr "始终广播默认网关"
+msgstr "始终通告默认网关"
 
 #. File: /usr/lang/src/controllers.php, line: 93
 #: 
@@ -17319,7 +17319,7 @@ msgstr "在此列表中的mac地址无需认证"
 #. File: /usr/lang/src/controllers.php, line: 124
 #: 
 msgid "BGP AS Number"
-msgstr "BGP AS Number"
+msgstr "BGP AS编号"
 
 #. File: /usr/lang/src/controllers.php, line: 126
 #: 
@@ -17758,7 +17758,7 @@ msgstr "选择此主机连接到的接口。"
 #. File: /usr/lang/src/controllers.php, line: 219
 #: 
 msgid "Choose your RIP version (1 or 2). 1 is classful, 2 supports CIDR."
-msgstr "选择您的RIP版本（1或2）。 1是classful，2支持CIDR。"
+msgstr "选择您的RIP版本（1或2）。 1为classful，2支持CIDR。"
 
 #. File: /usr/lang/src/controllers.php, line: 220
 #: 
@@ -19770,7 +19770,7 @@ msgstr "输入此计算机帐户名称以在AD中注册来获取Kerberos访问�
 #. File: /usr/lang/src/controllers.php, line: 600
 #: 
 msgid "Enter your networks in CIDR notation like 127.0.0.0/8."
-msgstr "以CIDR表示法输入您的网络，如127.0.0.0/8。"
+msgstr "以CIDR表示法输入网络，如127.0.0.0/8。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 456
 #. File: /usr/lang/src/controllers.php, line: 601
@@ -19791,7 +19791,7 @@ msgstr "事件队列路径"
 #. File: /usr/lang/src/controllers.php, line: 604
 #: 
 msgid "Eventqueue Slots"
-msgstr "事件队列插槽"
+msgstr "事件队列槽位"
 
 #. File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 292
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 284
@@ -21341,7 +21341,7 @@ msgstr "日志状态更改"
 #. File: /usr/lang/src/controllers.php, line: 889
 #: 
 msgid "Log Transactions Slower Than (microsecond)"
-msgstr "Log Transactions Slower Than (毫秒)"
+msgstr "记录交易速度慢于（微秒）"
 
 #. File: /usr/lang/src/controllers.php, line: 890
 #: 
@@ -22274,7 +22274,7 @@ msgstr "法西斯防火墙开放端口。"
 #. File: /usr/lang/src/controllers.php, line: 1060
 #: 
 msgid "Openphish Map"
-msgstr "Openphish地图"
+msgstr "Openphish映射"
 
 #. File: /usr/lang/src/controllers.php, line: 1061
 #: 
@@ -22345,7 +22345,7 @@ msgstr "PE代表Portable Executable - 它是一种可执行文件格式，用于
 #. File: /usr/lang/src/controllers.php, line: 1074
 #: 
 msgid "PID File"
-msgstr "PID 文件"
+msgstr "PID文件"
 
 #. File: /usr/lang/src/controllers.php, line: 1075
 #: 
@@ -22571,7 +22571,7 @@ msgstr "Phishing"
 #. File: /usr/lang/src/controllers.php, line: 1116
 #: 
 msgid "Phishtank Map URL"
-msgstr "Phishtank地图网址"
+msgstr "Phishtank映射网址"
 
 #. File: /usr/core/src/www/diag_dns.php, line: 134
 #. File: /usr/core/src/www/diag_ping.php, line: 104
@@ -23161,7 +23161,7 @@ msgstr "路由优先级"
 #. File: /usr/lang/src/controllers.php, line: 1234
 #: 
 msgid "Route Redistribution"
-msgstr "路由重新分配"
+msgstr "路由重新分发"
 
 #. File: /usr/lang/src/controllers.php, line: 1235
 #: 
@@ -25096,7 +25096,7 @@ msgstr "您想拥有的数据库数量。"
 #. File: /usr/lang/src/controllers.php, line: 1632
 #: 
 msgid "The number of eventqueue slots."
-msgstr "事件队列插槽数。"
+msgstr "事件队列槽位数。"
 
 #. File: /usr/lang/src/controllers.php, line: 1633
 #: 
@@ -26281,7 +26281,7 @@ msgstr "输入一个描述说明。"
 #. File: /usr/lang/src/controllers.php, line: 1867
 #: 
 msgid "Your AS Number here"
-msgstr "您的AS号码在这里"
+msgstr "您的AS编号在这里"
 
 #. File: /usr/lang/src/controllers.php, line: 1868
 #: 
@@ -27051,7 +27051,7 @@ msgstr "配置"
 #. File: /usr/lang/src/models.php, line: 133
 #: 
 msgid "Connected routes (directly attached subnet or host)"
-msgstr "连接路由(直接连接的子网或主机)"
+msgstr "连接的路由(直接连接的子网或主机)"
 
 #. File: /usr/lang/src/models.php, line: 134
 #: 
@@ -27275,7 +27275,7 @@ msgstr "ESMTP"
 #. File: /usr/lang/src/models.php, line: 188
 #: 
 msgid "Emergencies"
-msgstr "紧急情况"
+msgstr "紧急"
 
 #. File: /usr/lang/src/models.php, line: 189
 #: 
@@ -27315,7 +27315,7 @@ msgstr "错误"
 #. File: /usr/lang/src/models.php, line: 197
 #: 
 msgid "Eventqueue Slots must be a numeric value."
-msgstr "事件队列插槽必须是数值。"
+msgstr "事件队列槽位必须是数值。"
 
 #. File: /usr/lang/src/models.php, line: 198
 #: 
@@ -32527,7 +32527,7 @@ msgstr "设置保持状态的行为，默认情况下状态是浮动的，但是
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 531
 #: 
 msgid "Bind states to interface"
-msgstr "将绑定状态到接口"
+msgstr "绑定状态到接口"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 425
 #: 
@@ -32821,7 +32821,7 @@ msgstr "只允许使用字母，数字和下划线作为组名。"
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 287
 #: 
 msgid "By default, link-local addresses for bridges are disabled. You can enable them manually using this option. However, when a bridge interface has IPv6 addresses, IPv6 addresses on a member interface will be automatically removed before the interface is added."
-msgstr "默认情况下，网桥的本地链路地址被禁用。可以使用此选项手动启用它们。但是，当网桥接口具有IPv6地址时，会在添加接口之前自动删除成员接口上的IPv6地址。"
+msgstr "默认情况下，网桥的本地链路地址被禁用。可以在这里启用它们。但是，当网桥接口具有IPv6地址时，会在添加接口之前自动删除成员接口上的IPv6地址。"
 
 #. File: /usr/core/src/www/interfaces_bridge_edit.php, line: 285
 #: 
@@ -36546,7 +36546,7 @@ msgstr "匹配值"
 #. File: /usr/lang/src/controllers.php, line: 1342
 #: 
 msgid "Match against one or multiple DSCP values."
-msgstr "匹配一个或多个DSCP值。"
+msgstr "匹配一个或多个区分服务代码点的值。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 312
 #. File: /usr/lang/src/controllers.php, line: 1345
@@ -40411,7 +40411,7 @@ msgstr "Rekeyfuzz"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1199
 #: 
 msgid "Time before SA expiry the rekeying should start. (seconds)"
-msgstr "SA到期之前应重新更新密钥的间隔时间(秒)。"
+msgstr "SA到期之前应重新输入密钥的间隔时间(秒)。"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1195
 #: 
@@ -41103,7 +41103,7 @@ msgstr "没有匹配的结果{0}"
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 301
 #: 
 msgid "Nothing selected"
-msgstr "没有选择"
+msgstr "未选择"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 121
 #: 
@@ -42255,7 +42255,7 @@ msgstr "客户编号"
 #. File: /usr/lang/src/controllers.php, line: 609
 #: 
 msgid "DNS Alias Mode"
-msgstr "别名DNS模式"
+msgstr "DNS别名模式"
 
 #. File: /usr/lang/src/controllers.php, line: 637
 #: 
@@ -42265,7 +42265,7 @@ msgstr "调试日志"
 #. File: /usr/lang/src/controllers.php, line: 646
 #: 
 msgid "Default Metric"
-msgstr "默认单位"
+msgstr "默认指标"
 
 #. File: /usr/lang/src/controllers.php, line: 663
 #: 
@@ -42418,7 +42418,7 @@ msgstr "启用这个地址"
 #. File: /usr/lang/src/controllers.php, line: 1006
 #: 
 msgid "Enable this rule"
-msgstr "启用这个规则"
+msgstr "启用规则"
 
 #. File: /usr/lang/src/controllers.php, line: 1015
 #: 
@@ -42588,7 +42588,7 @@ msgstr "密钥类型"
 #. File: /usr/lang/src/controllers.php, line: 1501
 #: 
 msgid "Last updated timestamp. This is the time the vendor created the lists."
-msgstr "上次更新的时间。这是提供商创建列表的时间。"
+msgstr "最近更新的时间。这是提供商创建列表的时间。"
 
 #. File: /usr/lang/src/controllers.php, line: 1512
 #: 
@@ -42614,7 +42614,7 @@ msgstr "负载均衡算法"
 #: 
 msgid "Location to fetch geoip address ranges from. Refer to the OPNsense documentation for\n"
 "        further details"
-msgstr "下载geoip地址数据的远程网址。请参阅OPNsense文档了解更多详情"
+msgstr "geoip地址数据的远程网址。请参阅OPNsense文档了解更多详情"
 
 #. File: /usr/lang/src/controllers.php, line: 1580
 #: 
@@ -43305,7 +43305,7 @@ msgstr "这会使BIND运行在\"仅IPv4\"模式下。"
 #. File: /usr/lang/src/controllers.php, line: 2933
 #: 
 msgid "Total number of entries in downloaded set."
-msgstr "下载的条目总数。"
+msgstr "下载条目总数。"
 
 #. File: /usr/lang/src/controllers.php, line: 2934
 #: 
@@ -44154,7 +44154,7 @@ msgstr "%s注意：%s更改只能应用于正在运行的 HAProxy 服务中已�
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 558
 #: 
 msgid "%sNOTE:%s These changes will not be persisted across restarts of HAProxy."
-msgstr "%s注意：%s 这些更改不会在 HAProxy 重新启动后保留。"
+msgstr "%s注意：%s这些更改不会在HAProxy重新启动后保留。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 612
 #: 
@@ -44169,17 +44169,17 @@ msgstr "%s服务器模板：%s 构建服务器名称需要前缀。 此外，还
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 554
 #: 
 msgid "%sSet state to drain:%s This removes the server from load balancing. Health checks will continue to run and it still accepts new persistent connections."
-msgstr "%s将状态设置为排除：%s 这将从负载平衡中删除服务器。健康检查将继续运行，它仍然接受新的持续连接。"
+msgstr "%s设置状态为排除：%s将从负载平衡中删除服务器。健康检查将继续运行，它仍然接受新的持续连接。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 555
 #: 
 msgid "%sSet state to maintenance:%s This disables any traffic to the server. Health checks will also be disabled."
-msgstr "%s将状态设置为维护：%s这将禁用到服务器的任何通信。健康检查也将被禁用。"
+msgstr "%s设置状态为维护：%s将禁用到服务器的任何通信。健康检查也将被禁用。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 553
 #: 
 msgid "%sSet state to ready:%s This puts the server in normal mode."
-msgstr "%s将状态设置为就绪：%s 这将使服务器处于正常模式。"
+msgstr "%s设置状态为就绪：%s将使服务器处于正常模式。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 596
 #: 
@@ -44354,22 +44354,22 @@ msgstr "上次检查时间"
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 256
 #: 
 msgid "Checking this box requires the token after the password. Default requires the token before the password."
-msgstr "选中改选项需要密码后的令牌。 默认需要在密码之前设定的令牌。"
+msgstr "勾选此框则要求在密码后输入令牌。默认要求在密码前输入令牌。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 792
 #: 
 msgid "Click here to copy to clipboard."
-msgstr "点击复制到剪贴板。"
+msgstr "点击这里复制到剪贴板。"
 
 #. File: /usr/core/src/www/widgets/api/plugins/system.inc, line: 178
 #: 
 msgid "Click to view pending updates."
-msgstr "单击来查看待处理的更新。"
+msgstr "单击查看待处理的更新。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 828
 #: 
 msgid "Commit"
-msgstr "提交版本号"
+msgstr "哈希"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 36
 #: 
@@ -44451,7 +44451,7 @@ msgstr "删除所选模板"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1374
 #: 
 msgid "Determines how packets route back in the opposite direction (replies), when set to default, packets on WAN type interfaces reply to their connected gateway on the interface (unless globally disabled). A specific gateway may be chosen as well here. This setting is only relevant in the context of a state, for stateless rules there is no defined opposite direction."
-msgstr "决定报文如何反向路由(应答)，当设置为默认时，WAN类型接口上的报文应答接口上的连接网关(除非全局禁用)。这里也可以选择特定的网关。这个设置只在状态的上下文中相关，对于无状态规则，没有定义相反的方向。"
+msgstr "确定数据包如何路由回相反方向（回复），设置为默认值时，WAN 类型接口上的数据包将回复接口上连接的网关（除非全局禁用）。也可以在此处选择特定网关。此设置仅在状态上下文中相关，对于无状态规则，没有定义的相反方向。"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/maintenance.volt, line: 133
 #: 
@@ -44941,7 +44941,7 @@ msgstr "IPv6客户端日志的等级。\"信息\"会提供状态、接口租约�
 #. File: /usr/plugins/net/udpbroadcastrelay/src/opnsense/mvc/app/views/OPNsense/UDPBroadcastRelay/index.volt, line: 92
 #: 
 msgid "Multicast Addresses"
-msgstr "多播地址"
+msgstr "组播地址"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/models/OPNsense/Base/Constraints/NaxsiIdentifierConstraint.php, line: 72
 #: 
@@ -45032,7 +45032,7 @@ msgstr "最大出站(bps)"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 791
 #: 
 msgid "Output shown here for diagnostic purposes. There is no general need for manual system intervention."
-msgstr "这里显示的内容用于诊断目的，一般不需要手动系统干预。"
+msgstr "此处显示的输出用于诊断目的。一般不需要手动系统干预。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 762
 #: 
@@ -45058,7 +45058,7 @@ msgstr "允许用户在密码页面生成自己的OTP种子。"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/statistics.volt, line: 240
 #: 
 msgid "Pkt"
-msgstr "Pkt"
+msgstr "数据包"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/policy.volt, line: 126
 #: 
@@ -45632,7 +45632,7 @@ msgstr "上传选定的文件"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 982
 #: 
 msgid "Usage"
-msgstr "注意事项"
+msgstr "注意"
 
 #. File: /usr/plugins/net/udpbroadcastrelay/src/opnsense/mvc/app/views/OPNsense/UDPBroadcastRelay/index.volt, line: 98
 #: 
@@ -46009,7 +46009,7 @@ msgstr "为社区列表添加一个可选的描述。"
 #. File: /usr/lang/src/controllers.php, line: 266
 #: 
 msgid "Add an optional description for this Prefix-List."
-msgstr "为Prefix-List添加一个可选的描述。"
+msgstr "为前缀列表添加一个可选的描述。"
 
 #. File: /usr/lang/src/controllers.php, line: 267
 #: 
@@ -46096,7 +46096,7 @@ msgstr "自动"
 #. File: /usr/lang/src/controllers.php, line: 384
 #: 
 msgid "Automatically added, will be removed when unused"
-msgstr "已自动添加，不用的时候会被删除"
+msgstr "自动添加，不用的时候会被删除"
 
 #. File: /usr/lang/src/controllers.php, line: 394
 #. File: /usr/lang/src/models.php, line: 201
@@ -46241,7 +46241,7 @@ msgstr "配置频率"
 #. File: /usr/lang/src/controllers.php, line: 634
 #: 
 msgid "Connect Timer"
-msgstr "Connect Timer"
+msgstr "连接计时器"
 
 #. File: /usr/lang/src/controllers.php, line: 664
 #. File: /usr/lang/src/models.php, line: 375
@@ -46587,7 +46587,7 @@ msgstr "该设备的外部地址"
 #. File: /usr/lang/src/controllers.php, line: 1319
 #: 
 msgid "For a TLS/DTLS client you may also specify the tls option. The option value must be the name of a previously defined TLS block. If this option is not specified, the TLS block with the name defaultClient or default will be used if defined (in that order). If the specified TLS block name does not exist, or the option is not specified and none of the defaults exist, the proxy will exit with an error."
-msgstr "对于TLS/DTLS客户端，您也可以指定TLS选项。选项值必须是先前定义的TLS分段的名称。如果未指定此选项，则定义时将使用名为defaultClient或default的TLS分段(按此顺序)。如果指定的TLS分段名称不存在，或未指定该选项，且所有默认值都不存在，则代理将退出并提示错误。"
+msgstr "对于TLS/DTLS客户端，您也可以指定TLS选项。选项值必须是先前定义的TLS分片的名称。如果未指定此选项，则定义时将使用名为defaultClient或default的TLS分片(按此顺序)。如果指定的TLS分片名称不存在，或未指定该选项，且所有默认值都不存在，则代理将退出并提示错误。"
 
 #. File: /usr/lang/src/controllers.php, line: 1320
 #: 
@@ -47195,7 +47195,7 @@ msgstr "进程过滤"
 #. File: /usr/lang/src/controllers.php, line: 2220
 #: 
 msgid "Profile"
-msgstr "简况"
+msgstr "配置文件"
 
 #. File: /usr/lang/src/controllers.php, line: 2231
 #: 
@@ -47978,22 +47978,22 @@ msgstr "这应该是用户名和角色 ID 的组合。 例如，当用户名是\
 #. File: /usr/lang/src/controllers.php, line: 3233
 #: 
 msgid "This will activate support for Net-SNMP AgentX."
-msgstr "这将激活对 Net-SNMP AgentX 的支持。"
+msgstr "激活对Net-SNMP AgentX的支持。"
 
 #. File: /usr/lang/src/controllers.php, line: 3234
 #: 
 msgid "This will activate the BFD service."
-msgstr "这将激活BFD服务。"
+msgstr "激活BFD服务。"
 
 #. File: /usr/lang/src/controllers.php, line: 3274
 #: 
 msgid "This will disable SSL/TLS connection to Graphite host. Default is encrypted connection."
-msgstr "这将禁用与 Graphite 主机的 SSL/TLS 连接。 默认是加密连接。"
+msgstr "禁用与Graphite主机的SSL/TLS连接。 默认是加密连接。"
 
 #. File: /usr/lang/src/controllers.php, line: 3276
 #: 
 msgid "This will enable Datadog output."
-msgstr "这将启用数据狗输出。"
+msgstr "启用数据狗输出。"
 
 #. File: /usr/lang/src/controllers.php, line: 3281
 #: 
@@ -48018,7 +48018,7 @@ msgstr "ToServer"
 #. File: /usr/lang/src/controllers.php, line: 3342
 #: 
 msgid "Toggles the Squid pinger service. This service is used in the selection of the best parent proxy."
-msgstr "切换 Squid pinger 服务。 此服务用于选择最佳父代理。"
+msgstr "切换Squid pinger服务。 此服务用于选择最佳父代理。"
 
 #. File: /usr/lang/src/controllers.php, line: 3350
 #: 
@@ -48048,7 +48048,7 @@ msgstr "唯一标识符"
 #. File: /usr/lang/src/controllers.php, line: 3410
 #: 
 msgid "Unique identifier for this client"
-msgstr "此客户端的唯一标识符"
+msgstr "该客户端的唯一标识符"
 
 #. File: /usr/lang/src/controllers.php, line: 3411
 #: 
@@ -49520,13 +49520,13 @@ msgstr "启用系统消息的日志记录"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 835
 #: 
 msgid "Enabled - Authentication & encryption"
-msgstr "已启用 - 身份验证和加密"
+msgstr "启用 - 身份验证和加密"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 816
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 832
 #: 
 msgid "Enabled - Authentication only"
-msgstr "已启用 - 仅限身份验证"
+msgstr "启用 - 仅限身份验证"
 
 #. File: /usr/core/src/www/services_dhcpv6_edit.php, line: 184
 #: 
@@ -49820,7 +49820,7 @@ msgstr "删除日志文件："
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 280
 #: 
 msgid "Reset ACME Client"
-msgstr "重置ACME 客户端"
+msgstr "重置ACME客户端"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 69
 #: 
@@ -49962,7 +49962,7 @@ msgstr "该GRE隧道不能被删除，因为它仍然被当作一个接口。"
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 204
 #: 
 msgid "This will remove ALL certificates, private keys, CSRs from ACME Client and reset all certificate and account states. However, existing certificates will remain in OPNsense trust storage. The ACME Client will automatically regenerate everything on its next scheduled run. This is most useful when importing a config backup to a new firewall. Continue?"
-msgstr "这将从ACME 客户端中删除所有证书、私钥、CSR，并重置所有证书和帐户状态。但是，现有证书将保留在 OPNsense 信任存储中。ACME 客户端将在下次计划运行时自动重新生成所有内容。这在将配置备份导入新防火墙时最有用。确定继续？"
+msgstr "这将从ACME客户端中删除所有证书、私钥、CSR，并重置所有证书和帐户状态。但是，现有证书将保留在 OPNsense 信任存储中。ACME客户端将在下次计划运行时自动重新生成所有内容。这在将配置备份导入新防火墙时最有用。确定继续？"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 780
 #: 
@@ -49983,12 +49983,12 @@ msgstr "使用flowid"
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 345
 #: 
 msgid "Use strict"
-msgstr "使用strict"
+msgstr "使用严格合规"
 
 #. File: /usr/core/src/www/interfaces_lagg_edit.php, line: 324
 #: 
 msgid "Use the RSS hash from the network card if available, otherwise a hash is locally calculated. The default depends on the system tunable in net.link.lagg.default_use_flowid."
-msgstr "使用网卡中的 RSS 哈希(如果可用)，否则将在本地计算哈希值。默认值取决于net.link.lagg.default_use_flowid的可调参数值。"
+msgstr "使用网卡中的RSS哈希(如果可用)，否则将在本地计算哈希值。默认值取决于net.link.lagg.default_use_flowid的可调参数值。"
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 347
 #: 
@@ -51128,7 +51128,7 @@ msgstr "服务类型是必需的。"
 #. File: /usr/lang/src/models.php, line: 117
 #: 
 msgid "ACME Client"
-msgstr "ACME 客户端"
+msgstr "ACME客户端"
 
 #. File: /usr/lang/src/models.php, line: 144
 #: 
@@ -52035,7 +52035,7 @@ msgstr "DST"
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 262
 #: 
 msgid "Default: Round Robin, Sticky Address determined by advanced settings"
-msgstr "默认: Round Robin，Sticky Address由高级设置决定"
+msgstr "默认: Round Robin，粘性地址由高级设置决定"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 1051
 #: 
@@ -52070,7 +52070,7 @@ msgstr "禁用入口过滤"
 #. File: /usr/core/src/www/firewall_scrub.php, line: 251
 #: 
 msgid "Disable all default interface scrubbing rules, mss clamping will also be disabled when you check this. Detailed settings specified below will still be used."
-msgstr "禁用所有默认接口清理规则，选中此项时， MSS限制也将被禁用。仍将使用下面指定的详细设置。"
+msgstr "禁用所有默认接口清理规则，选中此项时 MSS 限制也将被禁用。仍将使用下面指定的详细设置。"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 418
 #: 
@@ -52095,7 +52095,7 @@ msgstr "断开"
 #. File: /usr/core/src/www/system_gateways_edit.php, line: 574
 #: 
 msgid "Do not create a dedicated host route for this monitor."
-msgstr "不要为该网关控创建专用主机路由。"
+msgstr "不要为此监视器创建专用主机路由。"
 
 #. File: /usr/core/src/www/services_dnsmasq.php, line: 400
 #: 
@@ -52280,7 +52280,7 @@ msgstr "在Web GUI上启用访问日志记录。"
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 450
 #: 
 msgid "Enable mobile settings, some of the settings below depend on configuration choices in configured tunnels, when not dependent on configured networks, they will also be used for configured connections when this option is checked."
-msgstr "启用移动客户端支持, 下面的一些设置取决于已配置隧道中的配置选择， 当不依赖于配置的网络时，如果选中此选项，它们也将用于配置的连接。"
+msgstr "启用移动设置，下面的一些设置取决于配置的隧道中的配置选择，当不依赖于配置的网络时，选中此选项时它们也将用于配置的连接。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 714
 #: 
@@ -52383,7 +52383,7 @@ msgstr "更新拦截列表出错"
 #. File: /usr/core/src/www/diag_backup.php, line: 438
 #: 
 msgid "Exclude console settings from import."
-msgstr "从导入中排除控制台设置。"
+msgstr "从导入配置中排除控制台设置。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3545
 #: 
@@ -52484,7 +52484,7 @@ msgstr "仅针对严重错误生成调试消息。"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/instances.volt, line: 142
 #: 
 msgid "Generate new."
-msgstr "生成新的。"
+msgstr "生成新的密钥。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 726
 #: 
@@ -52776,7 +52776,7 @@ msgstr "未找到所选主机的结果或未选择任何结果"
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 561
 #: 
 msgid "No scrub (NOT)"
-msgstr "禁用scub"
+msgstr "禁用清理"
 
 #. File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 730
 #: 
@@ -52802,7 +52802,7 @@ msgstr "注意：共享密钥验证需要 WEP。仅适用于接入点模式。"
 #. File: /usr/core/src/www/firewall_rules.php, line: 710
 #: 
 msgid "Number of interfaces this rule applies to"
-msgstr "本规则适用的接口数量"
+msgstr "此规则适用的接口数量"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vlan.php, line: 75
 #: 
@@ -53077,7 +53077,7 @@ msgstr "次要区域"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 1001
 #: 
 msgid "Select an alternate firmware flavour."
-msgstr "选择备用固件风格。"
+msgstr "选择备用固件版本。"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 743
 #: 
@@ -53112,7 +53112,7 @@ msgstr "设置iPXE启动文件名"
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 1066
 #: 
 msgid "Set the deployment type of this OPNsense instance."
-msgstr "选择OPNsense防火墙的部署类型。"
+msgstr "选择防火墙部署类型。"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 510
 #: 
@@ -53205,7 +53205,7 @@ msgstr "静态密钥"
 #. File: /usr/core/src/www/system_gateway_groups_edit.php, line: 264
 #: 
 msgid "Sticky Address: The Sticky Address option can be used with the Round Robin pool type to ensure that a particular source address is always mapped to the same translation address."
-msgstr "Sticky Address：Sticky Address选项可与Random和Round Robin池类型一起使用，以确保特定的源地址始终映射到相同的转换地址。"
+msgstr "粘性地址选项可与循环池类型一起使用，以确保特定的源地址始终映射到相同的转换地址。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/service.volt, line: 52
 #. File: /usr/core/src/www/widgets/widgets/services_status.widget.php, line: 78
@@ -54924,7 +54924,7 @@ msgid "\n"
 "         Enter 0 (zero) for no count limit.\n"
 "       "
 msgstr "\n"
-"         这是数据包捕获将抓取的数据包数量。\n"
+"         抓取的数据包数量。\n"
 "         默认值为100。为0则没有数量限制。\n"
 "       "
 
@@ -54955,7 +54955,7 @@ msgid "\n"
 "      Can be helpful to determine the maximum size a transport is able to send.\n"
 "      "
 msgstr "\n"
-"      禁用分段。\n"
+"      禁用分片。\n"
 "      有助于确定传输能够发送的最大大小。\n"
 "      "
 
@@ -55013,7 +55013,7 @@ msgstr "ACL for filter-aaaa"
 #. File: /usr/lang/src/controllers.php, line: 704
 #: 
 msgid "ACME DNS URL"
-msgstr "ACME DNS URL"
+msgstr "ACME DNS网址"
 
 #. File: /usr/lang/src/controllers.php, line: 718
 #: 
@@ -55140,7 +55140,7 @@ msgstr "将服务分配给虚拟IP的接口将自动包含该地址。选中则�
 #. File: /usr/lang/src/controllers.php, line: 890
 #: 
 msgid "Attribute Unchanged"
-msgstr "属性不变"
+msgstr "属性未更改"
 
 #. File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/proxy.volt, line: 210
 #. File: /usr/lang/src/controllers.php, line: 902
@@ -55186,7 +55186,7 @@ msgstr "避免覆盖config.yaml、local_api_credentials.yaml、\n"
 #. File: /usr/lang/src/controllers.php, line: 937
 #: 
 msgid "BGP MD5 Password"
-msgstr "BGP MD5 密码"
+msgstr "BGP MD5密码"
 
 #. File: /usr/lang/src/controllers.php, line: 954
 #: 
@@ -55530,7 +55530,7 @@ msgstr "ESP协议"
 #. File: /usr/lang/src/controllers.php, line: 1465
 #: 
 msgid "EX: https://hostname:2083"
-msgstr "EX: https://hostname:2083"
+msgstr "例如：EX: https://hostname:2083"
 
 #. File: /usr/lang/src/controllers.php, line: 1471
 #: 
@@ -55700,7 +55700,7 @@ msgstr "启用该FastCGI应用程序。"
 #. File: /usr/lang/src/controllers.php, line: 1794
 #: 
 msgid "Enable this alias for the selected host"
-msgstr "为所选主机启用此别名"
+msgstr "为选定的主机启用此别名"
 
 #. File: /usr/lang/src/controllers.php, line: 1798
 #: 
@@ -56279,7 +56279,7 @@ msgstr "本地标识符"
 #. File: /usr/lang/src/controllers.php, line: 2588
 #: 
 msgid "Local Initiater IP"
-msgstr "Local Initiater IP"
+msgstr "本地发起者IP"
 
 #. File: /usr/lang/src/controllers.php, line: 2593
 #: 
@@ -56299,7 +56299,7 @@ msgstr "日志详细程度"
 #. File: /usr/lang/src/controllers.php, line: 2611
 #: 
 msgid "Log Neighbor Changes"
-msgstr "Log Neighbor Changes"
+msgstr "记录邻居变更"
 
 #. File: /usr/lang/src/controllers.php, line: 2614
 #: 
@@ -56430,7 +56430,7 @@ msgstr "网络/地址"
 #. File: /usr/lang/src/controllers.php, line: 2880
 #: 
 msgid "Network Import-Check"
-msgstr "网络导入-检查"
+msgstr "网络导入检查"
 
 #. File: /usr/lang/src/controllers.php, line: 2896
 #: 
@@ -56440,7 +56440,7 @@ msgstr "用于通过网络发送状态和事件数据的网络端口。"
 #. File: /usr/lang/src/controllers.php, line: 2903
 #: 
 msgid "Next-Hop-Self All"
-msgstr "Next-Hop-Self All"
+msgstr "全部Next-Hop-Self"
 
 #. File: /usr/lang/src/controllers.php, line: 2908
 #: 
@@ -56540,7 +56540,7 @@ msgstr "出站范围"
 #. File: /usr/lang/src/controllers.php, line: 2999
 #: 
 msgid "Over time (s)"
-msgstr "Over time (s)"
+msgstr "随时间推移（秒）"
 
 #. File: /usr/lang/src/controllers.php, line: 3012
 #: 
@@ -56762,7 +56762,7 @@ msgstr "拒绝SSL握手"
 #. File: /usr/lang/src/controllers.php, line: 3287
 #: 
 msgid "Rekey time (s)"
-msgstr "重新密钥时间（秒）"
+msgstr "重新生成密钥时间（秒）"
 
 #. File: /usr/lang/src/controllers.php, line: 3289
 #: 
@@ -56940,7 +56940,7 @@ msgstr "选择应用于该后端所有服务器的FastCGI应用程序。"
 #. File: /usr/lang/src/controllers.php, line: 3555
 #: 
 msgid "Select the associated host override to apply this alias on"
-msgstr "选择相关的主机覆盖，在其上应用此别名"
+msgstr "选择关联的主机覆盖以应用此别名"
 
 #. File: /usr/lang/src/controllers.php, line: 3556
 #: 
@@ -56955,7 +56955,7 @@ msgstr "选择运行 sslh 的模式： fork - 稳定但性能较慢 | select - �
 #. File: /usr/lang/src/controllers.php, line: 3571
 #: 
 msgid "Select the protocol to capture, Any to omit this filter."
-msgstr "选择要捕获的协议，选择any则忽略该过滤器。"
+msgstr "捕获协议，选择any则忽略该过滤器。"
 
 #. File: /usr/lang/src/controllers.php, line: 3574
 #: 
@@ -57177,7 +57177,7 @@ msgstr "指定与表达式匹配的值。"
 #. File: /usr/lang/src/controllers.php, line: 3969
 #: 
 msgid "Specify the custom ACME DNS URL, i.e. https://auth.acme-dns.io:443 (optional)"
-msgstr "指定自定义 ACME DNS URL，即 https://auth.acme-dns.io:443（可选）"
+msgstr "指定自定义 ACME DNS 网址，即 https://auth.acme-dns.io:443 （可选）"
 
 #. File: /usr/lang/src/controllers.php, line: 3976
 #: 
@@ -57644,7 +57644,7 @@ msgstr "Websockets"
 #. File: /usr/lang/src/controllers.php, line: 4723
 #: 
 msgid "When enabled (default), BGP only announces networks set at 'Network' if they are present in the routers routing table (alternatively, you can also set a null-route via System -> Routes). If disabled, all configured networks will be announced."
-msgstr "启用时（默认），BGP 仅宣布在“网络”中设置的网络（如果它们存在于路由器路由表中）（或者，您也可以通过系统 -> 路由设置空路由）。如果禁用，将宣布所有配置的网络。"
+msgstr "启用时（默认），BGP仅在网络设置为“网络”并且存在于路由器的路由表中时才会通告网络（另外，您还可以通过系统 -> 路由设置空路由）。如果禁用，则会通告所有配置的网络。"
 
 #. File: /usr/lang/src/controllers.php, line: 4729
 #: 
@@ -59869,7 +59869,7 @@ msgstr "分配新接口"
 #. File: /usr/core/src/www/interfaces.php, line: 3063
 #: 
 msgid "Assign prefix ID"
-msgstr "指定前缀 ID"
+msgstr "分配前缀ID"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 78
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 81
@@ -60043,7 +60043,7 @@ msgstr "中文(繁体)"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1742
 #: 
 msgid "Choose how states created by this rule are treated, default (as defined in advanced), floating in which case states are valid on all interfaces or interface bound. Interface bound states are more secure, floating more flexible"
-msgstr "选择如何处理此规则创建的状态，默认（如高级中定义），浮动，在这种情况下状态在所有接口或接口绑定上都有效。 将绑定状态到接口更安全，浮动状态更灵活"
+msgstr "选择如何处理此规则创建的状态，默认（如高级中定义），浮动，在这种情况下状态在所有接口或接口绑定上有效。接口绑定状态更安全，浮动更灵活"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 476
 #: 
@@ -60101,7 +60101,7 @@ msgstr "将允许的组限制为在容器部分中选择的组。如果用户能
 #. File: /usr/core/src/www/system_authservers.php, line: 863
 #: 
 msgid "Constraint groups"
-msgstr "约束组"
+msgstr "限制组"
 
 #. File: /usr/core/src/www/system_general.php, line: 100
 #: 
@@ -60236,7 +60236,7 @@ msgstr "编辑仪表盘"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gre.volt, line: 86
 #: 
 msgid "Edit GRE"
-msgstr "编辑 GRE"
+msgstr "编辑GRE"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routing/configuration.volt, line: 159
 #: 
@@ -60246,7 +60246,7 @@ msgstr "编辑网关"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gif.volt, line: 86
 #: 
 msgid "Edit Gif"
-msgstr "编辑 Gif"
+msgstr "编辑Gif"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 586
 #: 
@@ -60328,12 +60328,12 @@ msgstr "后端响应为空。请检查日志。"
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 238
 #: 
 msgid "Enable autonomous port mapping service."
-msgstr "启用自治端口映射服务。"
+msgstr "启用自主端口映射服务。"
 
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 564
 #: 
 msgid "Enabling this option will disable scrub (normalization) for traffic matching this rule."
-msgstr "启用将禁用与此规则匹配的流量的清理（正常化）。"
+msgstr "启用此选项将禁用与此规则匹配的流量的清理（规范化）。"
 
 #. File: /usr/core/src/opnsense/www/api.php, line: 46
 #: 
@@ -60455,7 +60455,7 @@ msgstr "导出csv"
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/OneToOneController.php, line: 47
 #: 
 msgid "External"
-msgstr "外部网络"
+msgstr "外部"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 130
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 168
@@ -60635,7 +60635,7 @@ msgstr "IPv6 地址"
 #. File: /usr/core/src/www/interfaces.php, line: 2654
 #: 
 msgid "IPv6 gateway rules"
-msgstr "IPv6 网关规则"
+msgstr "IPv6网关规则"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2245
 #: 
@@ -60804,7 +60804,7 @@ msgstr "无效的状态策略类型%s"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 225
 #: 
 msgid "Inverting interfaces is only allowed for single targets to avoid mis-interpretations"
-msgstr "仅允许对单个目标反转接口，以避免误解"
+msgstr "仅允许对单个目标进行反转接口以避免误解"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/diagnostics.volt, line: 156
 #: 
@@ -61048,7 +61048,7 @@ msgstr "无限制"
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 396
 #: 
 msgid "Number of permissions"
-msgstr "许可数量"
+msgstr "权限数量"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 146
 #: 
@@ -61058,7 +61058,7 @@ msgstr "权限数必须是大于 0 的整数"
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 400
 #: 
 msgid "Number of permissions to configure."
-msgstr "要配置的权限数。"
+msgstr "要配置的权限数量。"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 125
 #: 
@@ -61074,12 +61074,12 @@ msgstr "选项不在列表中。"
 #. File: /usr/core/src/www/interfaces.php, line: 3080
 #: 
 msgid "Optional interface ID"
-msgstr "可选接口 ID"
+msgstr "可选接口ID"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2803
 #: 
 msgid "Optional prefix ID"
-msgstr "可选前缀 ID"
+msgstr "可选前缀ID"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 490
 #: 
@@ -61140,7 +61140,7 @@ msgstr "不要忘记应用配置。"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 131
 #: 
 msgid "Please select an authentication option, at least one type of authentication is required."
-msgstr "请选择验证选项，至少需要一种验证类型。"
+msgstr "请选择一个身份验证选项，至少需要一个身份验证类型。"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/HostnameField.php, line: 174
 #: 
@@ -61155,7 +61155,7 @@ msgstr "请指定有效的网段或IP地址。"
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 81
 #: 
 msgid "Policy tester"
-msgstr "Policy tester"
+msgstr "策略测试器"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 263
 #: 
@@ -61170,7 +61170,7 @@ msgstr "端口/地址"
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 150
 #: 
 msgid "Ports in \"Reverse Proxy - Domains\" must be empty or must be 1024 or above."
-msgstr "反向代理 - 域 \"中的端口必须为空或必须为 1024 或以上。"
+msgstr "“反向代理 - 域”中的端口必须为空，或者必须为1024或以上。"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 169
 #: 
@@ -61210,7 +61210,7 @@ msgstr "混杂监听器"
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 139
 #: 
 msgid "Property"
-msgstr "Property"
+msgstr "属性"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 300
 #: 
@@ -61245,7 +61245,7 @@ msgstr "已指定远程地址，设备必须为空"
 #. File: /usr/core/src/www/interfaces.php, line: 2785
 #: 
 msgid "Request prefix only"
-msgstr "仅申请前缀"
+msgstr "仅请求IPv6前缀"
 
 #. File: /usr/core/src/www/system_authservers.php, line: 664
 #: 
@@ -61285,7 +61285,7 @@ msgstr "为了正确处理传入数据包，您需要选择一个网关，来将
 #. File: /usr/core/src/www/interfaces.php, line: 2671
 #: 
 msgid "Select a gateway from the list to reply the incoming packets to the proper next hop on their way back. This is typically disabled for LAN type interfaces."
-msgstr "从列表中选择一个网关，将传入数据包回复到适当的下一跳。局域网接口通常禁用此功能。"
+msgstr "从列表中选择一个网关，用于将传入的数据包在返回时回复到正确的下一跳。对于LAN类型的接口，此功能通常处于禁用状态。"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 475
 #: 
@@ -61384,7 +61384,7 @@ msgstr "子网"
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 45
 #: 
 msgid "Supported Media"
-msgstr "支持媒体"
+msgstr "支持的连接模式"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 93
 #: 
@@ -61404,7 +61404,7 @@ msgstr "文本无效。"
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/views/Deciso/Proxy/acl.volt, line: 76
 #: 
 msgid "The Redis service is not active, make sure to configure it via : %s Services -> Redis %s first"
-msgstr "Redis 服务未激活，请确保通过 ：%s 服务 -> Redis %s 首先"
+msgstr "Redis服务未处于活动状态，请确保先通过以下方式配置它：%s 服务->Redis %s"
 
 #. File: /usr/core/src/www/interfaces.php, line: 1877
 #: 
@@ -61447,7 +61447,7 @@ msgstr "时间段至少是探测间隔和损失间隔之和的 2 倍。"
 #. File: /usr/core/src/www/interfaces.php, line: 3009
 #: 
 msgid "The value in this field is the 6RD IPv4 prefix length. A value of 0 means we embed the entire IPv4 address in the 6RD prefix."
-msgstr "该字段的值是 6RD IPv4 前缀长度。值为 0 表示我们将整个 IPv4 地址嵌入 6RD 前缀中。"
+msgstr "该字段中的值是6RD IPv4前缀长度。值为0表示我们将整个IPv4地址嵌入到6RD前缀中。"
 
 #. File: /usr/core/src/www/interfaces.php, line: 2780
 #: 
@@ -61458,7 +61458,7 @@ msgstr "该字段的值为DHCPv6服务器提供的委托前缀长度。"
 #. File: /usr/core/src/www/interfaces.php, line: 3087
 #: 
 msgid "The value in this field is the numeric IPv6 interface ID used to construct the lower part of the resulting IPv6 prefix address. Setting a hex value will use that fixed value in its lower address part. Please note the maximum usable value is 0x7fffffffffffffff due to a PHP integer restriction."
-msgstr "此字段中的值是 IPv6 接口 ID 的数值，用于构建生成的 IPv6 前缀地址的下部。设置十六进制值将在地址下部使用该固定值。请注意，由于 PHP 整数限制，最大可用值为 0x7fffffffffffffffff。"
+msgstr "此字段中的值用于构建生成的IPv6前缀地址低位部分的数字IPv6接口ID。设置十六进制值将在其低位地址部分使用该固定值。注意，由于PHP整数限制，最大可用值为 0x7ffffffffffffffff。"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 118
 #: 
@@ -61478,7 +61478,7 @@ msgstr "超时时间应大于时间间隔。"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 124
 #: 
 msgid "To validate a certificate one has to be provided."
-msgstr "要验证证书，必须提供一份证书。"
+msgstr "要验证证书，必须提供一个证书。"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/NptController.php, line: 50
 #: 
@@ -61523,7 +61523,7 @@ msgstr "未知错误"
 #. File: /usr/core/src/www/system_general.php, line: 419
 #: 
 msgid "Upload a picture, to be displayed in the Picture widget on the dashboard."
-msgstr "上传图片，图片将显示在仪表板上的图片小部件中。"
+msgstr "上传图片，图片将显示在仪表盘的图片小部件中。"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 91
 #: 
@@ -61661,7 +61661,7 @@ msgstr "路由类型为\"%s\"时，端口必须为空。"
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 237
 #: 
 msgid "When routing type is \"%s\", protocol must be TCP."
-msgstr "路由类型为\"%s\"时，协议必须为 TCP。"
+msgstr "路由类型为\"%s\"时，协议必须为TCP。"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 100
 #: 
@@ -61763,7 +61763,7 @@ msgstr "www 用户处于活动状态，HTTPS 端口不得为空，且必须大�
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.php, line: 163
 #: 
 msgid "www user is active, port must be empty or must be 1024 or above."
-msgstr "www 用户处于活动状态，端口必须为空或必须为 1024 或以上。"
+msgstr "www用户处于活动状态，端口必须为空或者必须为1024或以上。"
 
 #. File: /usr/lang/src/controllers.php, line: 30
 #: 
@@ -61907,7 +61907,7 @@ msgid "\n"
 "            This should be empty on the backup machine. When an IP address is offered, both web GUI configurations should be equal (port and protocol).\n"
 "        "
 msgstr "\n"
-"            输入所选配置部分应同步到的防火墙的IP地址。\n"
+"            输入所选配置部分应同步的其他防火墙IP地址。\n"
 "            在备份机器上，此项应为空。当提供IP地址时，两个Web GUI配置应相同（端口和协议）。\n"
 "        "
 
@@ -62047,7 +62047,7 @@ msgstr "中继服务器IP地址列表。"
 #. File: /usr/lang/src/controllers.php, line: 776
 #: 
 msgid "ACL applies on selected users and groups. Users are prefixed with *, best use groups to structure policies"
-msgstr "ACL 适用于选定的用户和组。用户以 * 为前缀，最好使用组来构建策略"
+msgstr "访问控制列表（ACL）适用于选定的用户和组。用户名前缀为 *，建议使用组来组织策略"
 
 #. File: /usr/lang/src/controllers.php, line: 783
 #: 
@@ -62245,7 +62245,7 @@ msgstr "从GUI应用设置时，自动更新相关属性（如路由器、DNS服
 #. File: /usr/lang/src/controllers.php, line: 1053
 #: 
 msgid "BGP AD Distance"
-msgstr "BGP AD Distance"
+msgstr "BGP管理距离"
 
 #. File: /usr/lang/src/controllers.php, line: 1057
 #: 
@@ -62509,7 +62509,7 @@ msgstr "DNS提供商"
 #. File: /usr/lang/src/controllers.php, line: 1449
 #: 
 msgid "DNS domain names"
-msgstr "DNS 域名"
+msgstr "DNS域名"
 
 #. File: /usr/lang/src/controllers.php, line: 1450
 #: 
@@ -62524,7 +62524,7 @@ msgstr "提供给客户端的DNS服务器"
 #. File: /usr/lang/src/controllers.php, line: 1453
 #: 
 msgid "DNS servers to push as configuration payload (RFC4306 3.15 - Value 3 and 10). Accepts multiple IPv4/IPv6 addresses."
-msgstr "DNS服务器作为配置负载推送（RFC4306 3.15 - 值3和10）。接受多个IPv4/IPv6地址。"
+msgstr "作为配置负载推送的DNS服务器（RFC4306 3.15 - 值 3 和 10）。接受多个 IPv4/IPv6 地址。"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 357
 #. File: /usr/lang/src/controllers.php, line: 1455
@@ -62581,7 +62581,7 @@ msgstr "定义在重新加载期间关闭Caddy的宽限期（以秒为单位）�
 #. File: /usr/lang/src/controllers.php, line: 1539
 #: 
 msgid "Defines the target for the static route, in CIDR notation."
-msgstr "用CIDR符号定义静态路由的目标。"
+msgstr "定义静态路由的目标，采用CIDR表示法。"
 
 #. File: /usr/lang/src/controllers.php, line: 1546
 #: 
@@ -62697,7 +62697,7 @@ msgstr "Elasticsearch"
 #. File: /usr/lang/src/controllers.php, line: 1709
 #: 
 msgid "Email addresses"
-msgstr "邮箱地址"
+msgstr "邮件地址"
 
 #. File: /usr/lang/src/controllers.php, line: 1719
 #: 
@@ -62881,7 +62881,7 @@ msgstr "启用该处理程序。"
 #. File: /usr/lang/src/controllers.php, line: 2068
 #: 
 msgid "Enable this item"
-msgstr "启用此项目"
+msgstr "启用此项"
 
 #. File: /usr/lang/src/controllers.php, line: 2079
 #: 
@@ -63344,7 +63344,7 @@ msgstr "IKE 网络通信"
 #. File: /usr/lang/src/controllers.php, line: 2619
 #: 
 msgid "IKESA table segments"
-msgstr "IKESA表分段"
+msgstr "IKESA表分片"
 
 #. File: /usr/lang/src/controllers.php, line: 2620
 #: 
@@ -63379,7 +63379,7 @@ msgstr "提供给客户端的IP地址"
 #. File: /usr/lang/src/controllers.php, line: 2651
 #: 
 msgid "IP adresses"
-msgstr "IP 地址"
+msgstr "IP地址"
 
 #. File: /usr/lang/src/controllers.php, line: 2654
 #: 
@@ -63655,7 +63655,7 @@ msgstr "用于机器人保护的机器人用户代理列表。默认使用众所
 #. File: /usr/lang/src/controllers.php, line: 2949
 #: 
 msgid "List of domains and path entries, prefix with . to include subdomains (e.g. .com to block all .com domains). To match all use *"
-msgstr "域名和路径条目列表，前缀为.可包含子域（例如，.com 可阻止所有 .com 域名）。要匹配所有域名，请使用 *"
+msgstr "域名和路径列表，使用 . 作为前缀以包含子域（例如，.com 将阻止所有 .com 域）。匹配所有内容请使用 *"
 
 #. File: /usr/lang/src/controllers.php, line: 2957
 #: 
@@ -63690,7 +63690,7 @@ msgstr "池列表，每行一个，采用范围或子网格式（例如 192.168.
 #. File: /usr/lang/src/controllers.php, line: 2974
 #: 
 msgid "List of standard categories"
-msgstr "标准类别清单"
+msgstr "标准类别列表"
 
 #. File: /usr/lang/src/controllers.php, line: 3016
 #: 
@@ -63700,7 +63700,7 @@ msgstr "本地gre隧道端点"
 #. File: /usr/lang/src/controllers.php, line: 3024
 #: 
 msgid "Log Adjacency Changes"
-msgstr "Log Adjacency Changes"
+msgstr "记录邻接变化"
 
 #. File: /usr/lang/src/controllers.php, line: 3028
 #: 
@@ -63951,7 +63951,7 @@ msgstr "Monit HTTPD用户名"
 #. File: /usr/lang/src/controllers.php, line: 3275
 #: 
 msgid "Multihop"
-msgstr "Multihop"
+msgstr "多跳"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 443
 #. File: /usr/lang/src/controllers.php, line: 3294
@@ -64027,7 +64027,7 @@ msgstr "OpenTelemetry 服务器"
 #. File: /usr/lang/src/controllers.php, line: 3478
 #: 
 msgid "Optional gateway IP address for this route."
-msgstr "此路由的可选网关 IP 地址。"
+msgstr "此路由的可选网关IP地址。"
 
 #. File: /usr/lang/src/controllers.php, line: 3479
 #: 
@@ -64391,7 +64391,7 @@ msgstr "选择最低全局日志级别。“INFO”是默认值，不建议更�
 #. File: /usr/lang/src/controllers.php, line: 4146
 #: 
 msgid "Select the services that should be send to the other host."
-msgstr "选择应发送到其他主机的服务。"
+msgstr "选择应同步到其他防火墙的服务。"
 
 #. File: /usr/lang/src/controllers.php, line: 4161
 #: 
@@ -64426,7 +64426,7 @@ msgstr "设置指定的设备MTU。"
 #. File: /usr/lang/src/controllers.php, line: 4237
 #: 
 msgid "Set bypass keyword. Increases traffic throughput. Suricata reads a packet, decodes it, checks it in the flow table. If the corresponding flow is local bypassed then it simply skips all streaming, detection and output and the packet goes directly out in IDS mode and to verdict in IPS mode."
-msgstr "设置旁路关键字，增加吞吐量。 Suricata读取数据包并进行解码，并在流表中检查。 如果相应的流被本地旁路，则它会简单地跳过所有流的传输、检测和输出，并且数据包直接在IDS模式下发出并在IPS模式下进行判决。"
+msgstr "设置旁路关键字。增加流量吞吐量。Suricata读取数据包、解码数据包并在流表中检查数据包。如果相应的流是本地旁路的，则它会跳过所有流式传输、检测和输出，数据包在 IDS 模式下直接输出，在IPS模式下进行判定。"
 
 #. File: /usr/lang/src/controllers.php, line: 4258
 #: 
@@ -64501,7 +64501,7 @@ msgstr "设置每个入站连接的HTTP/2最大并发流数（即来自客户端
 #. File: /usr/lang/src/controllers.php, line: 4460
 #: 
 msgid "Sets the HTTP/2 maximum number of concurrent streams per outgoing connection (i.e. the number of outstanding requests on a single connection to a server)."
-msgstr "设置 HTTP/2 每个传出连接的最大并发流数（即服务器单个连接上的未处理请求数）。"
+msgstr "设置每个传出连接的 HTTP/2 最大并发流数（即与服务器的单个连接上的未完成请求数）。）"
 
 #. File: /usr/lang/src/controllers.php, line: 4461
 #: 
@@ -64575,7 +64575,7 @@ msgstr "跳过 TLS 验证"
 #. File: /usr/lang/src/controllers.php, line: 4517
 #: 
 msgid "Soft reconfiguration inbound"
-msgstr "Soft reconfiguration inbound"
+msgstr "软重配置入站"
 
 #. File: /usr/lang/src/controllers.php, line: 4519
 #: 
@@ -64670,7 +64670,7 @@ msgstr "StrictSubnets"
 #. File: /usr/lang/src/controllers.php, line: 4661
 #: 
 msgid "Subnet or range defining addresses allocated in pool. Accepts a single CIDR subnet defining the pool to allocate addresses from."
-msgstr "定义池中分配的地址的子网或范围。"
+msgstr "定义池中分配的子网或范围的地址。接受定义池以分配地址的单个CIDR子网。"
 
 #. File: /usr/lang/src/controllers.php, line: 4662
 #: 
@@ -64680,7 +64680,7 @@ msgstr "该预留所属的子网"
 #. File: /usr/lang/src/controllers.php, line: 4664
 #: 
 msgid "Subnet to use, should be large enough to hold the specified pools and reservations"
-msgstr "要使用的子网应足够大来容纳指定的池和预留量"
+msgstr "要使用的子网，子网应足够大来容纳指定的地址池和保留地址"
 
 #. File: /usr/lang/src/controllers.php, line: 4667
 #: 
@@ -64843,8 +64843,8 @@ msgstr "服务器名称"
 #: 
 msgid "This specifies the URL of our server instance, which should use a different port than the control agent.\n"
 "        For example http://192.0.2.1:8001/"
-msgstr "这指定了我们的服务器实例的URL，\n"
-"      它应该使用与控制代理不同的端口。例如 http://192.0.2.1:8001/"
+msgstr "指定服务器实例的URL，\n"
+"        它应该使用与控制代理不同的端口。例如 http://192.0.2.1:8001/"
 
 #. File: /usr/lang/src/controllers.php, line: 5020
 #: 
@@ -65075,7 +65075,7 @@ msgstr "选中后，度量指标将设置 RETAIN 标志。"
 #. File: /usr/lang/src/controllers.php, line: 5431
 #: 
 msgid "When the interface is configured in multicast mode, the dev interface is used to transmit IP multicast packets."
-msgstr "当接口配置为多播模式时，设备接口用于传输IP多播报文。"
+msgstr "当接口配置为组播模式时，设备接口用于传输IP组播报文。"
 
 #. File: /usr/lang/src/controllers.php, line: 5437
 #: 
@@ -66494,7 +66494,7 @@ msgstr "SSHFP"
 #. File: /usr/lang/src/models.php, line: 1542
 #: 
 msgid "STATIC"
-msgstr "STATIC"
+msgstr "静态"
 
 #. File: /usr/lang/src/models.php, line: 1550
 #: 
