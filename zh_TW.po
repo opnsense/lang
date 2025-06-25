@@ -570,7 +570,7 @@ msgstr "%s無%s -- 除非致命錯誤之外不會有輸出。"
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1562
 #: 
 msgid "Each level shows all info from the previous levels. Level 3 is recommended if you want a good summary of what's happening without being swamped by output."
-msgstr "每個級別都會包含它前一個級別的所有資訊。如果您想在不被輸出資訊淹沒的情況下容易的掌握概況，建議使用等級 3。"
+msgstr "每個等級都會包含它前一個等級的所有資訊。如果您想在不被輸出資訊淹沒的情況下容易的掌握概況，建議使用等級 3。"
 
 #. File: /usr/core/src/www/vpn_openvpn_client.php, line: 1120
 #. File: /usr/core/src/www/vpn_openvpn_server.php, line: 1547
@@ -3651,7 +3651,7 @@ msgstr "更新頻率"
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 310
 #: 
 msgid "Bogon Networks"
-msgstr "專用網路"
+msgstr "專有網路"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 300
 #: 
@@ -4752,7 +4752,7 @@ msgstr ""
 #. File: /usr/core/src/www/services_opendns.php, line: 161
 #: 
 msgid "Signon Username to log into your OpenDNS dashboard. It is used to automatically update the IP address of the registered network."
-msgstr ""
+msgstr "登入使用者名稱，用於進入您的 OpenDNS 資訊看板。它用於自動更新已註冊網路的 IP 位址。"
 
 #. File: /usr/core/src/www/services_opendns.php, line: 147
 #: 
@@ -6465,7 +6465,7 @@ msgstr "系統正在重新啟動，請稍候..."
 #. File: /usr/core/src/www/interfaces_wireless_edit.php, line: 142
 #: 
 msgid "Wireless clone configuration"
-msgstr ""
+msgstr "無線網路再製設定"
 
 #. File: /usr/core/src/www/interfaces_wireless_edit.php, line: 102
 #: 
@@ -8706,7 +8706,7 @@ msgstr ""
 #. File: /usr/core/src/www/index.php, line: 141
 #: 
 msgid "Click to %scontinue to the dashboard%s."
-msgstr ""
+msgstr "點按 %s 繼續前往資訊看板 %s。"
 
 #. File: /usr/core/src/www/index.php, line: 138
 #: 
@@ -9871,7 +9871,7 @@ msgstr "放行"
 #. File: /usr/core/src/www/firewall_rules.php, line: 664
 #: 
 msgid "No floating rules are currently defined. Floating rules are not bound to a single interface and can therefore be used to span policies over multiple networks at the same time."
-msgstr ""
+msgstr "目前未定義任何浮動規則。浮動規則不受限於單一介面，因此可用於同時跨多個網路制定的策略。"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 518
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 859
@@ -10234,7 +10234,7 @@ msgstr "手動產生連出 NAT 規則"
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 236
 #: 
 msgid "(automatically generated rules are applied after manual rules)"
-msgstr ""
+msgstr "(自動產生的規則會在手動規則之後套用)"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 235
 #: 
@@ -10244,7 +10244,7 @@ msgstr "結合產生連出 NAT 規則"
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 224
 #: 
 msgid "(no manual rules can be used)"
-msgstr ""
+msgstr "(不使用手動規則)"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 223
 #: 
@@ -10372,31 +10372,31 @@ msgstr "設定本地標籤"
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 734
 #: 
 msgid "Sticky Address: The Sticky Address option can be used with the Random and Round Robin pool types to ensure that a particular source address is always mapped to the same translation address."
-msgstr ""
+msgstr "持久位址：持久位址選項可與隨機和輪詢位址集區類型一起使用，以確保特定的來源位址總是對應到相同的轉換後位址。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 959
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 733
 #: 
 msgid "Bitmask: Applies the subnet mask and keeps the last portion identical; 10.0.1.50 -&gt; x.x.x.50."
-msgstr ""
+msgstr "位元遮罩：套用子網路遮罩並保持最後部分相同; 10.0.1.50 -&gt; x.x.x.50."
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 958
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 732
 #: 
 msgid "Source Hash: Uses a hash of the source address to determine the translation address, ensuring that the redirection address is always the same for a given source."
-msgstr ""
+msgstr "來源雜湊：使用來源位址的雜湊值來決定轉換位址，確保對於給出的來源，在重新導向後的位址始終相同。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 957
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 731
 #: 
 msgid "Random: Selects an address from the translation address pool at random."
-msgstr ""
+msgstr "隨機：從轉換位址集區中隨機選擇一個位址。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 956
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 730
 #: 
 msgid "Round Robin: Loops through the translation addresses."
-msgstr ""
+msgstr "輪詢：循環使用轉換後的位址。"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 955
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 729
@@ -10495,7 +10495,7 @@ msgstr "這通常是"
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 707
 #: 
 msgid "When using the TCP or UDP protocols, specify the source port or port range for this rule"
-msgstr ""
+msgstr "使用 TCP 或 UDP 協定時，指定此規則的來源通訊埠或通訊埠範圍"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 671
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 688
@@ -11168,7 +11168,7 @@ msgstr ""
 #. File: /usr/core/src/www/diag_testport.php, line: 118
 #: 
 msgid "This page allows you to perform a simple TCP connection test to determine if a host is up and accepting connections on a given port. This test does not function for UDP since there is no way to reliably determine if a UDP port accepts connections in this manner."
-msgstr ""
+msgstr "這個頁面允許您執行簡單的 TCP 連線測試，以確定主機是否正常運作並接受指定通訊埠號上的連線。這個測試不適用於 UDP，因為無法可靠地判斷 UDP 通訊埠是否接受連線。"
 
 #. File: /usr/core/src/www/diag_tables.php, line: 167
 #: 
@@ -13265,7 +13265,7 @@ msgstr "天"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 229
 #: 
 msgid "Origin"
-msgstr ""
+msgstr "來源"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 116
 #: 
@@ -14141,7 +14141,7 @@ msgstr "確認中斷連線"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/Menu/MenuSystem.php, line: 251
 #: 
 msgid "Floating"
-msgstr ""
+msgstr "浮動"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/Menu/MenuSystem.php, line: 244
 #: 
@@ -14504,7 +14504,7 @@ msgstr "德文"
 #. File: /usr/core/src/etc/inc/system.inc, line: 224
 #: 
 msgid "French"
-msgstr "法語"
+msgstr "法文"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 222
 #: 
@@ -14514,7 +14514,7 @@ msgstr "中文 (簡體)"
 #. File: /usr/core/src/etc/inc/system.inc, line: 221
 #: 
 msgid "Czech"
-msgstr "捷克語"
+msgstr "捷克文"
 
 #. File: /usr/core/src/etc/inc/system.inc, line: 220
 #: 
@@ -15754,7 +15754,7 @@ msgstr "AS 路徑清單"
 #. File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 33
 #: 
 msgid "Neighbors"
-msgstr ""
+msgstr "鄰接裝置"
 
 #. File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
 #: 
@@ -24369,7 +24369,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1481
 #: 
 msgid "Specifies the debug level for Zabbix agent."
-msgstr "指定 Zabbix 代理程式的偵錯級別。"
+msgstr "指定 Zabbix 代理程式的偵錯等級。"
 
 #. File: /usr/lang/src/controllers.php, line: 1483
 #: 
@@ -30739,7 +30739,7 @@ msgstr "封鎖 RFC1918 私有網路"
 #. File: /usr/lang/src/wizards.php, line: 69
 #: 
 msgid "Block bogon networks"
-msgstr "封鎖專用網路"
+msgstr "封鎖 bogon 專有網路"
 
 #. File: /usr/core/src/www/system_certmanager.php, line: 570
 #. File: /usr/core/src/www/system_usermanager.php, line: 425
@@ -34111,7 +34111,7 @@ msgstr "連線限制"
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 163
 #: 
 msgid "Upstream Server"
-msgstr ""
+msgstr "上游伺服器"
 
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 147
 #: 
@@ -34126,7 +34126,7 @@ msgstr ""
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 141
 #: 
 msgid "Data Streams"
-msgstr ""
+msgstr "資料串流"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 328
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 330
@@ -34665,7 +34665,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 113
 #: 
 msgid "Allow Write Access"
-msgstr ""
+msgstr "允許寫入存取權"
 
 #. File: /usr/lang/src/controllers.php, line: 117
 #: 
@@ -38501,7 +38501,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 132
 #: 
 msgid "Automation"
-msgstr "Automation"
+msgstr "自動化規則"
 
 #. File: /usr/lang/src/models.php, line: 135
 #: 
@@ -40270,7 +40270,7 @@ msgstr "更新中"
 #. File: /usr/lang/src/models.php, line: 1187
 #: 
 msgid "Upstream"
-msgstr ""
+msgstr "上游"
 
 #. File: /usr/lang/src/models.php, line: 1208
 #: 
@@ -40606,12 +40606,12 @@ msgstr "選擇允許使用 sudo 的群組。”wheel” 群組會預設選取以
 #. File: /usr/core/src/www/status_interfaces.php, line: 505
 #: 
 msgid "advskew"
-msgstr ""
+msgstr "通告偏移值"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 504
 #: 
 msgid "advbase"
-msgstr ""
+msgstr "通告基準值"
 
 #. File: /usr/core/src/www/status_interfaces.php, line: 502
 #: 
@@ -40827,7 +40827,7 @@ msgstr "如果封包與指定快速的規則比對符合，則該規則將被視
 #. File: /usr/core/src/www/firewall_rules.php, line: 1034
 #: 
 msgid "Floating rules are evaluated on a first-match basis (i.e. the action of the first rule to match a packet will be executed) only if the \"quick\" option is checked on a rule. Otherwise they will only apply if no other rules match. Pay close attention to the rule order and options chosen. If no rule here matches, the per-interface or default rules are used."
-msgstr ""
+msgstr "浮動規則只有在規則中勾選了「快速」選項時，才會按照先符合先執行的原則進行評估 (也就是說，第一個符合封包的規則動作將被執行)。否則，它們只會在沒有其他規則符合時才會套用。請特別注意規則順序和所選的選項。如果這裡沒有規則符合，則會使用按介面設定的規則或預設規則。"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 1027
 #: 
@@ -41073,7 +41073,7 @@ msgstr "介面"
 #. File: /usr/core/src/www/carp_status.php, line: 193
 #: 
 msgid "Current CARP demotion level"
-msgstr "目前 CARP 降級級別"
+msgstr "目前 CARP 降級等級"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 307
 #: 
@@ -42135,7 +42135,7 @@ msgstr "選擇要包括的設施，不選取則代表全選。"
 #. File: /usr/lang/src/controllers.php, line: 522
 #: 
 msgid "Choose which levels to include, omit to select all."
-msgstr "選擇要包含的級別，不選取則表示全選。"
+msgstr "選擇要包含的等級，不選取則表示全選。"
 
 #. File: /usr/lang/src/controllers.php, line: 530
 #: 
@@ -42540,7 +42540,7 @@ msgstr "取得 GeoIP 位址範圍的位置。更多細節資訊請參閱 OPNsens
 #. File: /usr/lang/src/controllers.php, line: 1580
 #: 
 msgid "Log at debug level."
-msgstr "在偵錯級別記錄。"
+msgstr "在偵錯等級記錄。"
 
 #. File: /usr/lang/src/controllers.php, line: 1582
 #: 
@@ -43857,7 +43857,7 @@ msgstr "WindowsSpyBlocker (update)"
 #. File: /usr/lang/src/models.php, line: 1395
 #: 
 msgid "You have to enable Disable Routes option."
-msgstr ""
+msgstr "您必須啟用 停用路由 選項。"
 
 #. File: /usr/lang/src/models.php, line: 1421
 #: 
@@ -44848,7 +44848,7 @@ msgstr "鏡像站"
 #. File: /usr/core/src/www/system_advanced_network.php, line: 370
 #: 
 msgid "Modify log level for IPv6 clients. Info will give status, interface leases and addresses. Debug will give full diagnostics."
-msgstr "修改 IPv6 用戶端的紀錄級別。資訊將提供狀態、介面租約和位址；偵錯會將提供完整的診斷。"
+msgstr "修改 IPv6 用戶端的紀錄等級。資訊將提供狀態、介面租約和位址；偵錯會將提供完整的診斷。"
 
 #. File: /usr/plugins/net/udpbroadcastrelay/src/opnsense/mvc/app/views/OPNsense/UDPBroadcastRelay/index.volt, line: 92
 #: 
@@ -45052,7 +45052,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 255
 #: 
 msgid "Request new OTP seed"
-msgstr ""
+msgstr "請求新的 OTP 種子碼"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 765
 #: 
@@ -45509,7 +45509,7 @@ msgstr "追蹤"
 #. File: /usr/core/src/etc/inc/system.inc, line: 247
 #: 
 msgid "Turkish"
-msgstr "土耳其語"
+msgstr "土耳其文"
 
 #. File: /usr/plugins/net/udpbroadcastrelay/src/opnsense/mvc/app/views/OPNsense/UDPBroadcastRelay/index.volt, line: 82
 #: 
@@ -45660,7 +45660,7 @@ msgstr "包含"
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 81
 #: 
 msgid "deactivated"
-msgstr ""
+msgstr "停用"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 685
 #: 
@@ -46206,7 +46206,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 757
 #: 
 msgid "Depend on (carp)"
-msgstr ""
+msgstr "相依於 (carp)"
 
 #. File: /usr/lang/src/controllers.php, line: 784
 #: 
@@ -46386,7 +46386,7 @@ msgstr "啟用 QEMU 客體機代理程式服務。"
 #. File: /usr/lang/src/controllers.php, line: 1108
 #: 
 msgid "Enable the ZFS collector."
-msgstr ""
+msgstr "啟用 ZFS 收集器。"
 
 #. File: /usr/lang/src/controllers.php, line: 1110
 #: 
@@ -51746,7 +51746,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/System/Status/CrashReporterStatus.php, line: 62
 #: 
 msgid "An issue was detected and can be reviewed using the firmware crash reporter."
-msgstr ""
+msgstr "已偵測到問題，可以使用韌體當機回報工具進行檢視。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/dns_diagnostics.volt, line: 89
 #: 
@@ -54388,7 +54388,7 @@ msgid "\n"
 "          Drop logs will only be send to the internal logger, due to restrictions in suricata.\n"
 "        "
 msgstr "\n"
-"使用記錄級別資訊將 eve 格式的警報發送到 syslog。\n"
+"使用記錄等級資訊將 eve 格式的警報發送到 syslog。\n"
 "          這不會變更產品本身使用的警報記錄。\n"
 "          由於 suricata 中的限制，丟棄記錄只會轉送到內部記錄器。\n"
 "        "
@@ -55548,7 +55548,7 @@ msgstr "如果勾選將啟用內容安全政策 (CSP) 標頭，也還需經由�
 #. File: /usr/lang/src/controllers.php, line: 2325
 #: 
 msgid "If enabled, TLS handshakes for this server will be rejected."
-msgstr ""
+msgstr "如果啟用，這個伺服器的 TLS 交握將被拒絕。"
 
 #. File: /usr/lang/src/controllers.php, line: 2349
 #: 
@@ -55593,7 +55593,7 @@ msgstr "增加記錄詳細程度。"
 #. File: /usr/lang/src/controllers.php, line: 2405
 #: 
 msgid "Increase the verbosity of the Suricata application logging by increasing the log level from the default."
-msgstr "經由拉高預設值的記錄級別來增加 Suricata 應用程式記錄的詳細程度。"
+msgstr "經由拉高預設值的記錄等級來增加 Suricata 應用程式記錄的詳細程度。"
 
 #. File: /usr/lang/src/controllers.php, line: 2419
 #: 
@@ -55834,7 +55834,7 @@ msgstr "記錄本地動作"
 #. File: /usr/lang/src/controllers.php, line: 2629
 #: 
 msgid "Log validation level"
-msgstr "記錄驗證級別"
+msgstr "記錄驗證等級"
 
 #. File: /usr/lang/src/controllers.php, line: 2630
 #: 
@@ -59226,7 +59226,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 173
 #: 
 msgid "A snapshot already exists by this name"
-msgstr ""
+msgstr "已存在同名稱的快照"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 138
 #: 
@@ -59273,7 +59273,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 25
 #: 
 msgid "Activate"
-msgstr ""
+msgstr "啟用"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 97
 #: 
@@ -59283,7 +59283,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 75
 #: 
 msgid "Add Widget"
-msgstr ""
+msgstr "加入小工具"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 217
 #: 
@@ -59360,7 +59360,7 @@ msgstr ""
 #. File: /usr/core/src/www/interfaces_assign.php, line: 459
 #: 
 msgid "Assign a new interface"
-msgstr ""
+msgstr "指派新介面"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3063
 #: 
@@ -59386,7 +59386,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 289
 #: 
 msgid "Authority"
-msgstr ""
+msgstr "授權機構"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 753
 #: 
@@ -59411,7 +59411,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 #: 
 msgid "Bogon networks"
-msgstr ""
+msgstr "Bogon 專有網路"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 376
 #: 
@@ -59436,12 +59436,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 161
 #: 
 msgid "CA Name"
-msgstr ""
+msgstr "CA 名稱"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 162
 #: 
 msgid "CRL Name"
-msgstr ""
+msgstr "CRL 名稱"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 44
 #: 
@@ -59471,7 +59471,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 218
 #: 
 msgid "Cannot delete active snapshot"
-msgstr ""
+msgstr "無法刪除作用中的快照"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/GifSettingsController.php, line: 134
 #: 
@@ -59534,7 +59534,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/system.inc, line: 255
 #: 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "中文 (繁體)"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 1742
 #: 
@@ -59569,7 +59569,7 @@ msgstr ""
 #. File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 282
 #: 
 msgid "Config Preview"
-msgstr ""
+msgstr "組態預覽"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/general.volt, line: 75
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 81
@@ -59627,12 +59627,12 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 470
 #: 
 msgid "Default block"
-msgstr ""
+msgstr "預設封鎖"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 480
 #: 
 msgid "Default pass"
-msgstr ""
+msgstr "預設放行"
 
 #. File: /usr/core/src/www/system_usermanager.php, line: 583
 #: 
@@ -59657,7 +59657,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 69
 #: 
 msgid "Download CRL when available"
-msgstr ""
+msgstr "當可用時下載 CRL"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/crl.volt, line: 82
 #: 
@@ -59727,7 +59727,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 80
 #: 
 msgid "Edit Dashboard"
-msgstr ""
+msgstr "編輯資訊看板"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/gre.volt, line: 86
 #: 
@@ -59793,12 +59793,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 223
 #: 
 msgid "Edit Subnet"
-msgstr ""
+msgstr "編輯子網路"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 377
 #: 
 msgid "Edit instance"
-msgstr ""
+msgstr "編輯個體"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 376
 #: 
@@ -59808,7 +59808,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 84
 #: 
 msgid "Edit snapshot"
-msgstr ""
+msgstr "編輯快照"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/EmailField.php, line: 49
 #: 
@@ -59834,7 +59834,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/www/api.php, line: 46
 #: 
 msgid "Endpoint not found"
-msgstr ""
+msgstr "找不到端點"
 
 #. File: /usr/plugins/www/OPNProxy/src/opnsense/mvc/app/models/Deciso/Proxy/FieldTypes/CustomPolicyField.php, line: 77
 #: 
@@ -59973,12 +59973,12 @@ msgstr ""
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 145
 #: 
 msgid "Failed to load data"
-msgstr ""
+msgstr "資料載入失敗"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 78
 #: 
 msgid "Failed to load widget"
-msgstr ""
+msgstr "小工具載入失敗"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/ca.volt, line: 66
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 86
@@ -60070,7 +60070,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 114
 #: 
 msgid "HA Peers"
-msgstr ""
+msgstr "HA 節點"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 319
 #: 
@@ -60096,7 +60096,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/diagnostics.volt, line: 89
 #: 
 msgid "Handshake"
-msgstr ""
+msgstr "交握"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 90
 #: 
@@ -60151,7 +60151,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_network.php, line: 364
 #: 
 msgid "If unchecked, IPv6 interface configuration will be ignored and all forwarding traffic will be blocked. Use with care."
-msgstr ""
+msgstr "如果取消勾選，將會忽略 IPv6 介面設定且所有轉發流量將被阻擋。請謹慎使用。"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 170
 #: 
@@ -60171,7 +60171,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 297
 #: 
 msgid "In use"
-msgstr ""
+msgstr "使用中"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/CaptivePortal/CaptivePortal.php, line: 108
 #: 
@@ -60320,7 +60320,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/system.inc, line: 261
 #: 
 msgid "Korean"
-msgstr ""
+msgstr "韓文"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 93
 #: 
@@ -60335,17 +60335,17 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 225
 #: 
 msgid "Last day"
-msgstr ""
+msgstr "最近一天"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 227
 #: 
 msgid "Last month"
-msgstr ""
+msgstr "最近一個月"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 226
 #: 
 msgid "Last week"
-msgstr ""
+msgstr "最近一週"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 110
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 117
@@ -60396,17 +60396,17 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 473
 #: 
 msgid "Log packets matched from the default block rules"
-msgstr ""
+msgstr "記錄符合預設封鎖規則的封包"
 
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 483
 #: 
 msgid "Log packets matched from the default pass rules"
-msgstr ""
+msgstr "記錄符合預設通過規則的封包"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 722
 #: 
 msgid "Log server errors"
-msgstr ""
+msgstr "記錄伺服器錯誤"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Interface/neighbor.volt, line: 58
 #: 
@@ -60453,7 +60453,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 56
 #: 
 msgid "Mountpoint"
-msgstr ""
+msgstr "掛接點"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/policy.volt, line: 165
 #: 
@@ -60539,7 +60539,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/log.volt, line: 228
 #: 
 msgid "No limit"
-msgstr ""
+msgstr "無限制"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 396
 #: 
@@ -60620,7 +60620,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 273
 #: 
 msgid "Peer generator"
-msgstr ""
+msgstr "對端產生器"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 46
 #: 
@@ -60656,7 +60656,7 @@ msgstr ""
 #. File: /usr/core/src/etc/inc/system.inc, line: 263
 #: 
 msgid "Polish"
-msgstr ""
+msgstr "波蘭文"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/diagnostics.volt, line: 88
 #: 
@@ -60691,7 +60691,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_firewall.php, line: 504
 #: 
 msgid "Private networks"
-msgstr ""
+msgstr "私有網路"
 
 #. File: /usr/core/src/www/system_usermanager_addprivs.php, line: 167
 #: 
@@ -60711,7 +60711,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Trust/cert.volt, line: 300
 #: 
 msgid "Purpose"
-msgstr ""
+msgstr "用途"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 114
 #: 
@@ -60756,7 +60756,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 113
 #: 
 msgid "Reservations"
-msgstr ""
+msgstr "保留"
 
 #. File: /usr/core/src/www/diag_backup.php, line: 575
 #: 
@@ -60766,7 +60766,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/dashboard.volt, line: 73
 #: 
 msgid "Restore default layout"
-msgstr ""
+msgstr "還原預設版面配置"
 
 #. File: /usr/core/src/www/firewall_rules.php, line: 754
 #: 
@@ -60811,7 +60811,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 719
 #: 
 msgid "Server Log"
-msgstr ""
+msgstr "伺服器記錄"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/OpenVPN/OpenVPN.php, line: 92
 #: 
@@ -60835,12 +60835,12 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/SnapshotsController.php, line: 235
 #: 
 msgid "Snapshot not found"
-msgstr ""
+msgstr "沒有找到快照 "
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/snapshot.volt, line: 78
 #: 
 msgid "Snapshots are only available when a ZFS file system is used."
-msgstr ""
+msgstr "ZFS 檔案系統才可以使用快照功能。"
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 923
 #: 
@@ -60875,7 +60875,7 @@ msgstr ""
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Kea/dhcpv4.volt, line: 112
 #: 
 msgid "Subnets"
-msgstr ""
+msgstr "子網路"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 45
 #: 
@@ -61019,7 +61019,7 @@ msgstr ""
 #. File: /usr/core/src/www/system_general.php, line: 419
 #: 
 msgid "Upload a picture, to be displayed in the Picture widget on the dashboard."
-msgstr ""
+msgstr "上傳圖片，將會顯示在資訊看板的圖片小工具中。"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Interfaces/Api/OverviewController.php, line: 91
 #: 
@@ -61524,7 +61524,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 852
 #: 
 msgid "Add Observium Support"
-msgstr ""
+msgstr "加入 Observium 支援"
 
 #. File: /usr/lang/src/controllers.php, line: 863
 #: 
@@ -61574,7 +61574,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 905
 #: 
 msgid "Affiliation Changed"
-msgstr ""
+msgstr "隸屬關係變更"
 
 #. File: /usr/lang/src/controllers.php, line: 907
 #: 
@@ -61647,7 +61647,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1027
 #: 
 msgid "Auto collect option data"
-msgstr ""
+msgstr "自動收集選項資料"
 
 #. File: /usr/lang/src/controllers.php, line: 1028
 #: 
@@ -61662,12 +61662,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1034
 #: 
 msgid "Automatically add a basic set of firewall rules to allow dhcp traffic, more fine grained controls can be offered manually when disabling this option."
-msgstr ""
+msgstr "自動新增基本防火牆規則以允許 DHCP 流量，停用此選項可提供更精細的手動控制。"
 
 #. File: /usr/lang/src/controllers.php, line: 1038
 #: 
 msgid "Automatically update option data for relevant attributes as routers, dns servers and ntp servers when applying settings from the gui."
-msgstr ""
+msgstr "從圖形介面套用設定時，自動更新相關屬性的選項資料，例如路由器、DNS 伺服器和 NTP 伺服器。"
 
 #. File: /usr/lang/src/controllers.php, line: 1053
 #: 
@@ -61726,12 +61726,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1138
 #: 
 msgid "CA Compromise"
-msgstr ""
+msgstr "CA 遭入侵"
 
 #. File: /usr/lang/src/controllers.php, line: 1140
 #: 
 msgid "CA reference"
-msgstr ""
+msgstr "CA 參照"
 
 #. File: /usr/lang/src/controllers.php, line: 1148
 #: 
@@ -61746,7 +61746,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1191
 #: 
 msgid "Certificate Hold"
-msgstr ""
+msgstr "憑證暫停"
 
 #. File: /usr/lang/src/controllers.php, line: 1195
 #: 
@@ -61756,7 +61756,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1199
 #: 
 msgid "Cessation of Operation"
-msgstr ""
+msgstr "服務終止"
 
 #. File: /usr/lang/src/controllers.php, line: 1202
 #: 
@@ -61886,7 +61886,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1427
 #: 
 msgid "DHCP option data"
-msgstr ""
+msgstr "DHCP 選項資料"
 
 #. File: /usr/lang/src/controllers.php, line: 1428
 #: 
@@ -62013,12 +62013,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1546
 #: 
 msgid "Depend on (CARP)"
-msgstr ""
+msgstr "相依於 (CARP)"
 
 #. File: /usr/lang/src/controllers.php, line: 1585
 #: 
 msgid "Detection"
-msgstr ""
+msgstr "檢測"
 
 #. File: /usr/lang/src/controllers.php, line: 1588
 #: 
@@ -62059,7 +62059,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1622
 #: 
 msgid "Disable routes"
-msgstr ""
+msgstr "停用路由"
 
 #. File: /usr/lang/src/controllers.php, line: 1626
 #: 
@@ -62084,7 +62084,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1653
 #: 
 msgid "Domain search"
-msgstr ""
+msgstr "網域搜尋"
 
 #. File: /usr/lang/src/controllers.php, line: 1674
 #: 
@@ -62139,7 +62139,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1738
 #: 
 msgid "Enable DHCPv4 server."
-msgstr ""
+msgstr "啟用 DHCPv4 伺服器。"
 
 #. File: /usr/lang/src/controllers.php, line: 1766
 #: 
@@ -62164,7 +62164,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1784
 #: 
 msgid "Enable Legacy Providers."
-msgstr ""
+msgstr "啟用舊版提供者。"
 
 #. File: /usr/lang/src/controllers.php, line: 1787
 #: 
@@ -62189,7 +62189,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1849
 #: 
 msgid "Enable TLS handshakes logging"
-msgstr ""
+msgstr "啟用 TLS 交握記錄"
 
 #. File: /usr/lang/src/controllers.php, line: 1872
 #: 
@@ -62211,7 +62211,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1886
 #: 
 msgid "Enable custom constraints."
-msgstr ""
+msgstr "啟用自訂限制。"
 
 #. File: /usr/lang/src/controllers.php, line: 1894
 #: 
@@ -62226,7 +62226,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1897
 #: 
 msgid "Enable extended OIDs for Observium NMS."
-msgstr ""
+msgstr "啟用 Observium NMS 的擴充 OID。"
 
 #. File: /usr/lang/src/controllers.php, line: 1909
 #: 
@@ -62236,12 +62236,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 1922
 #: 
 msgid "Enable legacy"
-msgstr ""
+msgstr "啟用舊版"
 
 #. File: /usr/lang/src/controllers.php, line: 1925
 #: 
 msgid "Enable local logging"
-msgstr ""
+msgstr "啟用本機記錄"
 
 #. File: /usr/lang/src/controllers.php, line: 1937
 #: 
@@ -62316,7 +62316,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2099
 #: 
 msgid "Enable writing log files to the local disk."
-msgstr ""
+msgstr "啟用後會記錄檔案寫入本機硬碟。"
 
 #. File: /usr/lang/src/controllers.php, line: 2104
 #: 
@@ -62333,13 +62333,13 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2119
 #: 
 msgid "Endpoint address"
-msgstr ""
+msgstr "端點位址"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 298
 #. File: /usr/lang/src/controllers.php, line: 2120
 #: 
 msgid "Endpoint port"
-msgstr ""
+msgstr "端點通訊埠"
 
 #. File: /usr/lang/src/controllers.php, line: 2131
 #: 
@@ -62509,7 +62509,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2255
 #: 
 msgid "Ether Address"
-msgstr ""
+msgstr "乙太網路位址"
 
 #. File: /usr/lang/src/controllers.php, line: 2256
 #: 
@@ -62565,7 +62565,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2330
 #: 
 msgid "Firewall rules"
-msgstr ""
+msgstr "防火牆規則"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 437
 #. File: /usr/lang/src/controllers.php, line: 2361
@@ -62701,7 +62701,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2514
 #: 
 msgid "Hardware MAC address of the client (format xx:xx:xx:xx:xx:xx)."
-msgstr ""
+msgstr "用戶端的硬體 MAC 位址 (格式為 xx:xx:xx:xx:xx:xx)。"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 540
 #. File: /usr/lang/src/controllers.php, line: 2525
@@ -62786,7 +62786,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2647
 #: 
 msgid "IP address to assign to the provided MAC address, which will either end up in the ARP (IPv4) or NDP (IPv6) table."
-msgstr ""
+msgstr "指派給提供的 MAC 位址的 IP 位址，這將會記錄在 ARP (IPv4) 或 NDP (IPv6) 表中。"
 
 #. File: /usr/lang/src/controllers.php, line: 2650
 #: 
@@ -62967,7 +62967,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2873
 #: 
 msgid "Key Compromise"
-msgstr ""
+msgstr "金鑰遭入侵"
 
 #. File: /usr/lang/src/controllers.php, line: 2897
 #: 
@@ -63037,7 +63037,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 2920
 #: 
 msgid "Lifetime (days)"
-msgstr ""
+msgstr "存留期限 (天)"
 
 #. File: /usr/lang/src/controllers.php, line: 2922
 #: 
@@ -63318,12 +63318,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3215
 #: 
 msgid "Maximum file size (MB)"
-msgstr ""
+msgstr "最大檔案大小 (MB)"
 
 #. File: /usr/lang/src/controllers.php, line: 3216
 #: 
 msgid "Maximum file size per log file. When set and a log file exceeds the amount specified, it will be rotated."
-msgstr ""
+msgstr "每個記錄檔案的最大檔案大小。當設定此選項且記錄檔案超過指定的大小時，將會進行輪替。"
 
 #. File: /usr/lang/src/controllers.php, line: 3217
 #: 
@@ -63333,7 +63333,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3227
 #: 
 msgid "Maximum preserved files"
-msgstr ""
+msgstr "最大保留檔案數"
 
 #. File: /usr/lang/src/controllers.php, line: 3228
 #: 
@@ -63384,12 +63384,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3385
 #: 
 msgid "Next server"
-msgstr ""
+msgstr "下一個伺服器"
 
 #. File: /usr/lang/src/controllers.php, line: 3386
 #: 
 msgid "Next server IP address"
-msgstr ""
+msgstr "下一個伺服器 IP 位址"
 
 #. File: /usr/lang/src/controllers.php, line: 3408
 #: 
@@ -63399,7 +63399,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3412
 #: 
 msgid "Number of logs to preserve. When no maximum file size is offered or the logs are smaller than the the size requested, this equals the number of days."
-msgstr ""
+msgstr "要保留的記錄數量。當沒有設定最大檔案大小或記錄小於請求的大小時，也等同於要保留的天數。"
 
 #. File: /usr/lang/src/controllers.php, line: 3424
 #: 
@@ -63662,7 +63662,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 3905
 #: 
 msgid "Revocations per type"
-msgstr ""
+msgstr "撤銷類型"
 
 #. File: /usr/lang/src/controllers.php, line: 3931
 #: 
@@ -63768,7 +63768,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4107
 #: 
 msgid "Select interface(s) to use. When enabling IPS, make sure the (virtual) driver supports this feature."
-msgstr ""
+msgstr "選擇要使用的介面。啟用 IPS 時，請確保 (虛擬) 驅動程式支援此功能。"
 
 #. File: /usr/lang/src/controllers.php, line: 4108
 #: 
@@ -63873,7 +63873,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4327
 #: 
 msgid "Set the gateway IP here when using \"Disable routes\" feature. You also have to add this as a system gateway."
-msgstr ""
+msgstr "使用「停用路由」功能時，請在這裡設定閘道 IP。您還需要將這個 IP 新增為系統閘道。"
 
 #. File: /usr/lang/src/controllers.php, line: 4336
 #: 
@@ -64010,7 +64010,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4544
 #: 
 msgid "Specifies a ´search list´ of Domain Names to be used by the client to locate not-fully-qualified domain names."
-msgstr ""
+msgstr "指定用戶端用來定位非 FQDN 的「搜尋清單」網域名稱。"
 
 #. File: /usr/lang/src/controllers.php, line: 4548
 #: 
@@ -64055,7 +64055,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4631
 #: 
 msgid "Static routes that the client should install in its routing cache, defined as dest-ip1,router-ip1;dest-ip2,router-ip2"
-msgstr ""
+msgstr "用戶端應該要安裝在其路由快取中的靜態路由，定義為 dest-ip1,router-ip1;dest-ip2,router-ip2"
 
 #. File: /usr/lang/src/controllers.php, line: 4644
 #: 
@@ -64070,7 +64070,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4646
 #: 
 msgid "Store and generate next"
-msgstr ""
+msgstr "儲存並產生下一個"
 
 #. File: /usr/lang/src/controllers.php, line: 4648
 #: 
@@ -64095,12 +64095,12 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4664
 #: 
 msgid "Subnet to use, should be large enough to hold the specified pools and reservations"
-msgstr ""
+msgstr "要使用的子網路，應該要能夠容納指定的位址集區和保留"
 
 #. File: /usr/lang/src/controllers.php, line: 4667
 #: 
 msgid "Superseded"
-msgstr ""
+msgstr "已取代"
 
 #. File: /usr/lang/src/controllers.php, line: 4672
 #: 
@@ -64178,7 +64178,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 4816
 #: 
 msgid "The domain name to offer to the client, set to this firewall's domain name when left empty"
-msgstr ""
+msgstr "提供給用戶端的網域名稱，留空則設定為這個防火牆的網域名稱"
 
 #. File: /usr/lang/src/controllers.php, line: 4819
 #: 
@@ -64250,7 +64250,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 5013
 #: 
 msgid "This server name"
-msgstr ""
+msgstr "伺服器名稱"
 
 #. File: /usr/lang/src/controllers.php, line: 5018
 #: 
@@ -64351,7 +64351,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 5212
 #: 
 msgid "Tunnel address"
-msgstr ""
+msgstr "通道位址"
 
 #. File: /usr/lang/src/controllers.php, line: 5214
 #: 
@@ -64391,7 +64391,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 5278
 #: 
 msgid "Unspecified"
-msgstr ""
+msgstr "未指定"
 
 #. File: /usr/lang/src/controllers.php, line: 5283
 #: 
@@ -64442,7 +64442,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 5327
 #: 
 msgid "Use rfc5424 formatted messages for this destination."
-msgstr ""
+msgstr "將對這個目的地採用 rfc5424 格式傳送。"
 
 #. File: /usr/lang/src/controllers.php, line: 5344
 #: 
@@ -64452,7 +64452,7 @@ msgstr ""
 #. File: /usr/lang/src/controllers.php, line: 5373
 #: 
 msgid "Valid lifetime"
-msgstr ""
+msgstr "有效存留期"
 
 #. File: /usr/lang/src/controllers.php, line: 5375
 #: 
@@ -64598,7 +64598,7 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 33
 #: 
 msgid "Announcements"
-msgstr ""
+msgstr "公告"
 
 #. File: /usr/lang/src/dashboard.php, line: 35
 #: 
@@ -64743,7 +64743,7 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 99
 #: 
 msgid "Last configuration change"
-msgstr ""
+msgstr "最後組態變更"
 
 #. File: /usr/lang/src/dashboard.php, line: 103
 #: 
@@ -64803,7 +64803,7 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 122
 #: 
 msgid "No picture was supplied for this system."
-msgstr ""
+msgstr "這個統未提供圖片。"
 
 #. File: /usr/lang/src/dashboard.php, line: 123
 #: 
@@ -64859,7 +64859,7 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 138
 #: 
 msgid "Picture"
-msgstr ""
+msgstr "圖片"
 
 #. File: /usr/lang/src/dashboard.php, line: 140
 #: 
@@ -64884,7 +64884,7 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 150
 #: 
 msgid "Self test"
-msgstr ""
+msgstr "自我測試"
 
 #. File: /usr/lang/src/dashboard.php, line: 157
 #: 
@@ -64894,12 +64894,12 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 162
 #: 
 msgid "System Information"
-msgstr ""
+msgstr "系統資訊"
 
 #. File: /usr/lang/src/dashboard.php, line: 164
 #: 
 msgid "Temperature"
-msgstr ""
+msgstr "溫度"
 
 #. File: /usr/lang/src/dashboard.php, line: 165
 #: 
@@ -64914,12 +64914,12 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 171
 #: 
 msgid "Traffic In"
-msgstr ""
+msgstr "輸入流量"
 
 #. File: /usr/lang/src/dashboard.php, line: 172
 #: 
 msgid "Traffic Out"
-msgstr ""
+msgstr "輸出流量"
 
 #. File: /usr/lang/src/dashboard.php, line: 175
 #: 
@@ -64934,13 +64934,13 @@ msgstr ""
 #. File: /usr/lang/src/dashboard.php, line: 185
 #: 
 msgid "WakeOnLan"
-msgstr ""
+msgstr "網路喚醒"
 
 #. File: /usr/lang/src/dashboard.php, line: 186
 #. File: /usr/lang/src/models.php, line: 2006
 #: 
 msgid "Wireguard"
-msgstr ""
+msgstr "Wireguard"
 
 #. File: /usr/lang/src/dashboard.php, line: 187
 #: 
@@ -65069,7 +65069,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 284
 #: 
 msgid "Authelia"
-msgstr ""
+msgstr "Authelia"
 
 #. File: /usr/lang/src/models.php, line: 285
 #: 
@@ -65084,14 +65084,14 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 434
 #: 
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #. File: /usr/plugins/www/caddy/src/etc/inc/plugins.inc.d/caddy.inc, line: 40
 #. File: /usr/plugins/www/caddy/src/etc/inc/plugins.inc.d/caddy.inc, line: 59
 #. File: /usr/lang/src/models.php, line: 438
 #: 
 msgid "Caddy Web Server"
-msgstr ""
+msgstr "Caddy 網頁伺服器"
 
 #. File: /usr/lang/src/models.php, line: 440
 #: 
@@ -65101,7 +65101,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 442
 #: 
 msgid "Carbon2"
-msgstr ""
+msgstr "Carbon2"
 
 #. File: /usr/lang/src/models.php, line: 461
 #: 
@@ -65111,7 +65111,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 470
 #: 
 msgid "Civo"
-msgstr ""
+msgstr "Civo"
 
 #. File: /usr/lang/src/models.php, line: 473
 #: 
@@ -65166,12 +65166,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 523
 #: 
 msgid "Custom GET"
-msgstr ""
+msgstr "自訂 GET"
 
 #. File: /usr/lang/src/models.php, line: 525
 #: 
 msgid "Custom PUT"
-msgstr ""
+msgstr "自訂 PUT"
 
 #. File: /usr/lang/src/models.php, line: 528
 #: 
@@ -65212,12 +65212,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 560
 #: 
 msgid "DTLSv1"
-msgstr ""
+msgstr "DTLSv1"
 
 #. File: /usr/lang/src/models.php, line: 561
 #: 
 msgid "DTLSv1.1"
-msgstr ""
+msgstr "DTLSv1.1"
 
 #. File: /usr/lang/src/models.php, line: 566
 #: 
@@ -65282,7 +65282,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 630
 #: 
 msgid "Dynamic"
-msgstr ""
+msgstr "動態"
 
 #. File: /usr/lang/src/models.php, line: 641
 #: 
@@ -65292,7 +65292,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 647
 #: 
 msgid "EasyDNS (UNSUPPORTED)"
-msgstr ""
+msgstr "EasyDNS (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 652
 #: 
@@ -65317,7 +65317,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 679
 #: 
 msgid "ExoScale (UNSUPPORTED)"
-msgstr ""
+msgstr "ExoScale (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 686
 #: 
@@ -65337,27 +65337,27 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 745
 #: 
 msgid "Gif already exists!"
-msgstr ""
+msgstr "Gif 已經存在！"
 
 #. File: /usr/lang/src/models.php, line: 749
 #: 
 msgid "GoDaddy (UNSUPPORTED)"
-msgstr ""
+msgstr "GoDaddy (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 752
 #: 
 msgid "Google Cloud (UNSUPPORTED)"
-msgstr ""
+msgstr "Google Cloud (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 757
 #: 
 msgid "GratisDNS (UNSUPPORTED)"
-msgstr ""
+msgstr "GratisDNS (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 759
 #: 
 msgid "Gre already exists!"
-msgstr ""
+msgstr "GRE 已經存在！"
 
 #. File: /usr/lang/src/models.php, line: 777
 #: 
@@ -65377,7 +65377,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 808
 #: 
 msgid "HTTPS and NTLM must be enabled at the same time."
-msgstr ""
+msgstr "HTTPS 和 NTLM 必須同時啟用。"
 
 #. File: /usr/lang/src/models.php, line: 820
 #: 
@@ -65397,7 +65397,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 841
 #: 
 msgid "Hurricane Electric (UNSUPPORTED)"
-msgstr ""
+msgstr "Hurricane Electric (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 853
 #: 
@@ -65432,12 +65432,12 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 873
 #: 
 msgid "ISC DHCPv4"
-msgstr ""
+msgstr "ISC DHCPv4"
 
 #. File: /usr/lang/src/models.php, line: 874
 #: 
 msgid "ISC DHCPv6"
-msgstr ""
+msgstr "ISC DHCPv6"
 
 #. File: /usr/lang/src/models.php, line: 881
 #: 
@@ -65447,7 +65447,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 884
 #: 
 msgid "Import certificate (signed by CA)"
-msgstr ""
+msgstr "匯入憑證 (由 CA 簽署)"
 
 #. File: /usr/lang/src/models.php, line: 887
 #: 
@@ -65502,22 +65502,22 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 973
 #: 
 msgid "Linode"
-msgstr ""
+msgstr "Linode"
 
 #. File: /usr/lang/src/models.php, line: 976
 #: 
 msgid "Linode v3 (UNSUPPORTED)"
-msgstr ""
+msgstr "Linode v3 (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 977
 #: 
 msgid "Linode v4 (UNSUPPORTED)"
-msgstr ""
+msgstr "Linode v4 (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 1007
 #: 
 msgid "LuaDNS (UNSUPPORTED)"
-msgstr ""
+msgstr "LuaDNS (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 1019
 #: 
@@ -65597,32 +65597,32 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1127
 #: 
 msgid "OPNsense 24.1[.x] or below"
-msgstr ""
+msgstr "OPNsense 24.1[.x] 或更低版本"
 
 #. File: /usr/lang/src/models.php, line: 1128
 #: 
 msgid "OPNsense 24.7 or above"
-msgstr ""
+msgstr "OPNsense 24.7 或更高版本"
 
 #. File: /usr/lang/src/models.php, line: 1136
 #: 
 msgid "OVH (UNSUPPORTED)"
-msgstr ""
+msgstr "OVH (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 1141
 #: 
 msgid "Off (default)"
-msgstr ""
+msgstr "關閉 (預設)"
 
 #. File: /usr/lang/src/models.php, line: 1144
 #: 
 msgid "On (default)"
-msgstr ""
+msgstr "開啟 (預設)"
 
 #. File: /usr/lang/src/models.php, line: 1149
 #: 
 msgid "Online (UNSUPPORTED)"
-msgstr ""
+msgstr "線上 (不支援)"
 
 #. File: /usr/lang/src/models.php, line: 1153
 #: 
@@ -65931,7 +65931,7 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 1651
 #: 
 msgid "Snapshots"
-msgstr ""
+msgstr "快照"
 
 #. File: /usr/lang/src/models.php, line: 1689
 #: 
@@ -66540,5 +66540,5 @@ msgstr ""
 #. File: /usr/lang/src/models.php, line: 2519
 #: 
 msgid "www"
-msgstr ""
+msgstr "www"
 
