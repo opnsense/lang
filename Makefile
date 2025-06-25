@@ -35,6 +35,7 @@ LOCALEDIR=	/usr/local/share/locale/%%LANG%%/LC_MESSAGES
 
 LANGUAGES+=	cs_CZ
 LANGUAGES+=	de_DE
+LANGUAGES+=	el_GR
 LANGUAGES+=	es_ES
 LANGUAGES+=	fr_FR
 LANGUAGES+=	it_IT
