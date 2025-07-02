@@ -61446,23 +61446,23 @@ msgstr "Vybraný soubor s nastaveními se nepodařilo zpracovat."
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.php, line: 84
 #: 
 msgid "The time period needs to be at least 2 times the sum of the probe interval and the loss interval."
-msgstr "Časový interval musí být alespoň dvojnásobkem součtu intervalu sondy a intervalu ztráty."
+msgstr "Je třeba, aby časový interval byl alespoň dvojnásobkem součtu intervalu sondy a intervalu ztráty."
 
 #. File: /usr/core/src/www/interfaces.php, line: 3009
 #: 
 msgid "The value in this field is the 6RD IPv4 prefix length. A value of 0 means we embed the entire IPv4 address in the 6RD prefix."
-msgstr "Hodnota v tomto poli je délka prefixu 6RD IPv4. Hodnota 0 znamená, že do prefixu 6RD vložíme celou adresu IPv4."
+msgstr "Hodnota v této kolonce je délka předpony 6RD IPv4. Hodnota 0 znamená, že do předpony 6RD bude vložena celá IPv4 adresa."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2780
 #: 
 msgid "The value in this field is the delegated prefix length provided by the DHCPv6 server."
-msgstr "Hodnota v tomto poli je délka delegovaného prefixu poskytnutá serverem DHCPv6."
+msgstr "Hodnota v této kolonce je délka delegované předpony poskytnutá DHCPv6 serverem."
 
 #. File: /usr/core/src/www/interfaces.php, line: 2822
 #. File: /usr/core/src/www/interfaces.php, line: 3087
 #: 
 msgid "The value in this field is the numeric IPv6 interface ID used to construct the lower part of the resulting IPv6 prefix address. Setting a hex value will use that fixed value in its lower address part. Please note the maximum usable value is 0x7fffffffffffffff due to a PHP integer restriction."
-msgstr "Hodnota v tomto poli je číselný identifikátor rozhraní IPv6, který se použije pro konstrukci spodní části výsledné adresy prefixu IPv6. Nastavením hexadecimální hodnoty se v dolní části adresy použije tato pevná hodnota. Upozorňujeme, že maximální použitelná hodnota je 0x7fffffffffffff kvůli celočíselnému omezení PHP."
+msgstr "Hodnota v této kolonce je číselný identifikátor IPv6 rozhraní, který bude použit pro vytvoření nižší části výsledné adresy IPv6 předpony. Nastavením šestnáctkové hodnoty bude v nižší části adresy použita tato pevná hodnota. Upozorňujeme, že nejvyšší použitelná hodnota je 0x7fffffffffffff (kvůli celočíselnému omezení PHP)."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.php, line: 118
 #: 
@@ -61852,8 +61852,8 @@ msgid "\n"
 "                rules being setup.\n"
 "            "
 msgstr "\n"
-"                Tato možnost se vztahuje pouze na starší konfigurace tunelů, připojení vyžadují ruční bránu firewall.\n"
-"                nastavit pravidla.\n"
+"                Tato předvolba se vztahuje pouze na starší nastavení tunelů, připojení vyžadují ruční nastavení\n"
+"                pravidel brány firewall.\n"
 "            "
 
 #. File: /usr/lang/src/controllers.php, line: 122
@@ -62094,7 +62094,7 @@ msgstr "Akce kterou provést."
 #. File: /usr/lang/src/controllers.php, line: 837
 #: 
 msgid "Activates the connections cache for upstream server and sets the max number of idle connections that are preserved in the cache of each worker process. Leave blank or set to 0 to disable. Keepalive support should be enabled at Location settings also."
-msgstr "Aktivuje mezipaměť připojení pro upstream server a nastaví maximální počet nečinných připojení, která jsou uchovávána v mezipaměti každého pracovního procesu. Nechte prázdné nebo nastavte hodnotu 0 pro vypnutí. Podpora Keepalive by měla být povolena také v nastavení Location."
+msgstr "Aktivuje mezipaměť připojení pro upstream server a nastaví nejvyšší počet nečinných připojení, která jsou uchovávána v mezipaměti každého zpracovávajícího procesu. Pokud chcete vypnout, nevyplňujte nebo nastavte na hodnotu 0. Podpora pro udržování spojení by měla být povolena také v nastavení Umístění."
 
 #. File: /usr/lang/src/controllers.php, line: 852
 #: 
@@ -62114,7 +62114,7 @@ msgstr "Přidání rozšířených informací do protokolování eve TLS. Např�
 #. File: /usr/lang/src/controllers.php, line: 874
 #: 
 msgid "Add the HA Proxy Protocol header. Either version 1 or 2 can be chosen. The default is off, since it is only needed when the upstream can use the Proxy Protocol header."
-msgstr "Přidejte hlavičku protokolu HA Proxy. Lze zvolit verzi 1 nebo 2. Výchozí nastavení je vypnuto, protože je potřeba pouze v případě, že upstream může používat hlavičku protokolu Proxy."
+msgstr "Přidat hlavičku protokolu HA Proxy. Lze zvolit verzi 1 nebo 2. Ve výchozím nastavení je vypnuto, protože je potřeba pouze v případě, že upstream může používat hlavičku protokolu Proxy."
 
 #. File: /usr/lang/src/controllers.php, line: 875
 #: 
@@ -62458,7 +62458,7 @@ msgstr "Správa nastavení a zásuvné moduly"
 #. File: /usr/lang/src/controllers.php, line: 1416
 #: 
 msgid "Custom TLS fields to include in eve-log for TLS. (Overrides extended if non-empty)."
-msgstr "Vlastní pole TLS, která se mají zahrnout do eve-logu pro TLS. (Přepisuje rozšířené, pokud není prázdné)."
+msgstr "Uživatelsky určené kolonky TLS, které mají být zahrnuty do eve-log pro TLS. (Pokud vyplněno, přebíjí rozšířené)."
 
 #. File: /usr/lang/src/controllers.php, line: 1427
 #: 
@@ -62473,32 +62473,32 @@ msgstr "DHGroups / Křivky"
 #. File: /usr/lang/src/controllers.php, line: 1431
 #: 
 msgid "DNS API Additional Field 1"
-msgstr "Doplňkové pole 1 rozhraní DNS API"
+msgstr "Doplňková kolonka 1 API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1432
 #: 
 msgid "DNS API Additional Field 2"
-msgstr "Doplňkové pole 2 rozhraní DNS API"
+msgstr "Doplňková kolonka 2 API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1433
 #: 
 msgid "DNS API Additional Field 3"
-msgstr "Doplňkové pole 3 rozhraní DNS API"
+msgstr "Doplňková kolonka 3 API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1434
 #: 
 msgid "DNS API Additional Field 4"
-msgstr "Doplňkové pole 4 rozhraní DNS API"
+msgstr "Doplňková kolonka 4 API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1435
 #: 
 msgid "DNS API Additional Field 5"
-msgstr "Doplňkové pole rozhraní DNS API 5"
+msgstr "Doplňková kolonka 5 API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1436
 #: 
 msgid "DNS API Standard Field"
-msgstr "Standardní pole rozhraní DNS API"
+msgstr "Standardní kolonka API rozhraní DNS"
 
 #. File: /usr/lang/src/controllers.php, line: 1442
 #: 
@@ -62580,7 +62580,7 @@ msgstr "Definuje dobu platnosti adres (pronájmů) přidělených serverem (v se
 #. File: /usr/lang/src/controllers.php, line: 1537
 #: 
 msgid "Defines the grace period for shutting down Caddy during a reload in seconds. If clients do not finish their requests within the grace period, the server will be forcefully terminated to allow the reload to complete and free up resources. This can influence how long \"Apply\" of new configurations take, since Caddy waits for all open connections to close. If the grace period is over and Caddy is unresponsive, there will be a forced kill and service restart."
-msgstr "Definuje dobu odkladu pro vypnutí systému Caddy při opětovném načtení v sekundách. Pokud klienti neukončí své požadavky během této doby odkladu, server bude násilně ukončen, aby se reload dokončil a uvolnily se prostředky. To může ovlivnit, jak dlouho bude trvat \"Apply\" nových konfigurací, protože Caddy čeká na uzavření všech otevřených spojení. Pokud doba odkladu uplyne a Caddy neodpovídá, dojde k nucenému ukončení a restartu služby."
+msgstr "Definuje dobu odkladu (v sekundách) pro vypnutí Caddy serveru při opětovném načtení. Pokud klienti nedokončí své požadavky během této doby, server bude násilně ukončen, aby bylo opětovné načtení dokončeno a byly uvolněny prostředky. To může ovlivnit, jak dlouho bude trvat „Použít“ nových nastavení, protože Caddy čeká na uzavření všech otevřených spojení. Pokud doba odkladu uplyne a Caddy neodpovídá, dojde k nucenému ukončení a restartu služby."
 
 #. File: /usr/lang/src/controllers.php, line: 1539
 #: 
@@ -62641,7 +62641,7 @@ msgstr "Vypnout trasy"
 #. File: /usr/lang/src/controllers.php, line: 1626
 #: 
 msgid "Disables responses gzipping. Makes sense if TLS is used and this method of BREACH attack protection is preferred."
-msgstr "Zakáže gzipování odpovědí. Má smysl, pokud se používá TLS a tento způsob ochrany před útoky BREACH je preferován."
+msgstr "Vypíná komprimování (gzip) odpovědí. Má smysl, pokud je používáno TLS a je upřednostňován tento způsob ochrany před útoky typu BREACH."
 
 #. File: /usr/lang/src/controllers.php, line: 1627
 #: 
@@ -62721,7 +62721,7 @@ msgstr "Zapnout DHCPv4 server."
 #. File: /usr/lang/src/controllers.php, line: 1766
 #: 
 msgid "Enable HTTP request logging for this domain and its subdomains. This option is mostly used for troubleshooting, audits and CrowdSec. It will log every single request."
-msgstr "Povolení protokolování požadavků HTTP pro tuto doménu a její subdomény. Tato možnost se většinou používá pro řešení problémů, audity a CrowdSec. Bude zaznamenávat každý jednotlivý požadavek."
+msgstr "Povolení zaznamenávání událostí požadavků HTTP pro tuto doménu a její subdomény. Tato předvolba je většinou používá pro řešení problémů, auditování a CrowdSec. Bude zaznamenáván každý jednotlivý požadavek."
 
 #. File: /usr/lang/src/controllers.php, line: 1773
 #: 
@@ -62825,7 +62825,7 @@ msgstr "Zapnout místní zaznamenávání událostí"
 #. File: /usr/lang/src/controllers.php, line: 1937
 #: 
 msgid "Enable or disable Dynamic DNS. Requires a \"DNS Provider\" in \"General Settings\". The DNS records of this domain will be automatically updated. A wildcard domain will create a \"*.example.com\" record. A base domain will create a \"example.com\" or \"opn.example.com\" record. Some providers need subdomains to set records for domains like \"opn.example.com\"; in that case use the checkbox in the subdomains tab."
-msgstr "Povolení nebo zakázání dynamického DNS. Vyžaduje \"Poskytovatele DNS\" v \"Obecných nastaveních\". Záznamy DNS této domény budou automaticky aktualizovány. Doména se zástupným znakem vytvoří záznam \"*.example.com\". Základní doména vytvoří záznam \"example.com\" nebo \"opn.example.com\". Někteří poskytovatelé potřebují k nastavení záznamů pro domény typu \"opn.example.com\" subdomény; v takovém případě použijte zaškrtávací políčko na kartě subdomény."
+msgstr "Povolení nebo zakázání dynamického DNS. Vyžaduje nastavení „Poskytovatel DNS“ v „Obecná nastavení“. DNS záznamy této domény budou automaticky aktualizovány. Doména se zástupným znakem vytvoří záznam „*.example.com“. Základní doména vytvoří záznam „example.com“ nebo „opn.example.com“. Někteří poskytovatelé potřebují k nastavení záznamů pro domény typu „opn.example.com“ subdomény; v takovém případě použijte zaškrtávací kolonku na kartě subdomén."
 
 #. File: /usr/lang/src/controllers.php, line: 1938
 #: 
@@ -62870,7 +62870,7 @@ msgstr "Povolte výzvu DNS-01 pro tuto doménu. Vyžaduje \"Poskytovatele DNS\" 
 #. File: /usr/lang/src/controllers.php, line: 2049
 #: 
 msgid "Enable this Layer4 route."
-msgstr "Povolte tuto trasu vrstvy 4."
+msgstr "Povolit tuto trasu na 4. vrstvě."
 
 #. File: /usr/lang/src/controllers.php, line: 2060
 #: 
@@ -63039,12 +63039,12 @@ msgstr "Zadejte hodnotu vybraného záhlaví. Jednou z nejčastějších možnos
 #. File: /usr/lang/src/controllers.php, line: 2194
 #: 
 msgid "Enter one or multiple IP addresses and networks. Leaving this empty will allow any remote client to connect. If populated and the remote IP address of a client matches, the connection to the \"Upstream Domain\" is allowed, otherwise the connection is dropped. Due to restrictions with this matcher, this list can not be inverted."
-msgstr "Zadejte jednu nebo více IP adres a sítí. Ponecháte-li tuto položku prázdnou, umožníte připojení jakémukoli vzdálenému klientovi. Pokud je vyplněno a vzdálená IP adresa klienta se shoduje, je připojení k \"Upstream Domain\" povoleno, v opačném případě je připojení přerušeno. Vzhledem k omezením u tohoto matcheru nelze tento seznam invertovat."
+msgstr "Zadejte jednu nebo více IP adres a sítí. Pokud toto zůstane nevyplněné, bude připojení umožněno jakémukoli vzdálenému klientovi. Pokud vyplněno a vzdálená IP adresa klienta se shoduje, je připojení k „Upstream doméně“ povoleno, v opačném případě je připojení přerušeno. Vzhledem k omezením u tohoto nástroje pro hledání shody nelze význam tohoto seznamu převrátit."
 
 #. File: /usr/lang/src/controllers.php, line: 2195
 #: 
 msgid "Enter one or multiple domains to route via SNI or Host Header. Wildcard domains and host wildcards are allowed, e.g. \"*.example.com\" and \"*\"."
-msgstr "Zadejte jednu nebo více domén pro směrování prostřednictvím SNI nebo hlavičky hostitele. Zástupné domény a zástupné znaky hostitele jsou povoleny, např. \"*.example.com\" a \"*\"."
+msgstr "Zadejte jednu nebo více domén pro směrování prostřednictvím SNI nebo hlavičky hostitele. Zástupné domény a hostitele jsou povoleny, např. „*.example.com“ a „*“."
 
 #. File: /usr/lang/src/controllers.php, line: 2201
 #: 
@@ -63099,17 +63099,17 @@ msgstr "Eve HTTP výpis všech záhlaví"
 #. File: /usr/lang/src/controllers.php, line: 2257
 #: 
 msgid "Eve HTTP extended logging"
-msgstr "Rozšířené protokolování Eve HTTP"
+msgstr "Rozšířené zaznamenávání událostí v Eve HTTP"
 
 #. File: /usr/lang/src/controllers.php, line: 2258
 #: 
 msgid "Eve TLS custom logging"
-msgstr "Vlastní protokolování Eve TLS"
+msgstr "Uživatelsky určené zaznamenávání událostí v Eve TLS"
 
 #. File: /usr/lang/src/controllers.php, line: 2259
 #: 
 msgid "Eve TLS extended logging"
-msgstr "Rozšířené protokolování Eve TLS"
+msgstr "Rozšířené zaznamenávání událostí v Eve TLS"
 
 #. File: /usr/lang/src/controllers.php, line: 2260
 #: 
@@ -63223,7 +63223,7 @@ msgstr "Graylog"
 #. File: /usr/lang/src/controllers.php, line: 2455
 #: 
 msgid "HTTP Access Log"
-msgstr "Protokol o přístupu HTTP"
+msgstr "Záznam událostí přístupu k HTTP"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 320
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 430
@@ -63368,12 +63368,12 @@ msgstr "IKE_SA/ISAKMP SA"
 #. File: /usr/lang/src/controllers.php, line: 2638
 #: 
 msgid "IP address of the remote logging server. This is necessary if you are using a centralized Maltrail instance, otherwise leave it blank to use this instance as the logging server."
-msgstr "IP adresa vzdáleného serveru pro protokolování. Tato položka je nutná, pokud používáte centralizovanou instanci Maltrail, v opačném případě ji ponechte prázdnou, pokud chcete jako server pro protokolování používat tuto instanci."
+msgstr "IP adresa vzdáleného serveru pro záznam událostí. Toto je nezbytné, pokud používáte centralizovanou instanci Maltrail. V opačném případě nevyplňujte (pokud chcete jako server pro záznam událostí používat tuto instanci)."
 
 #. File: /usr/lang/src/controllers.php, line: 2647
 #: 
 msgid "IP address to assign to the provided MAC address, which will either end up in the ARP (IPv4) or NDP (IPv6) table."
-msgstr "IP adresa, která bude přiřazena zadané MAC adrese a která se dostane do tabulky ARP (IPv4) nebo NDP (IPv6)."
+msgstr "IP adresa, která bude přiřazena zadané MAC adrese a která se dostane do ARP tabulky (IPv4) nebo NDP (IPv6)."
 
 #. File: /usr/lang/src/controllers.php, line: 2650
 #: 
@@ -63393,7 +63393,7 @@ msgstr "Rozhraní jádra systému pro IPsec / síťování"
 #. File: /usr/lang/src/controllers.php, line: 2673
 #: 
 msgid "Identity Service API"
-msgstr "Rozhraní API služby Identity"
+msgstr "API rozhraní služby Identity"
 
 #. File: /usr/lang/src/controllers.php, line: 2680
 #: 
@@ -63524,7 +63524,7 @@ msgstr "Prohodit nástroje pro hledání shody"
 #. File: /usr/lang/src/controllers.php, line: 2842
 #: 
 msgid "Invert the sense of the matcher. E.g., if the protocol is TLS, inverting will match all traffic that is not TLS. When domains have been chosen, these will be equally inverted."
-msgstr "Obraťte smysl maticového prvku. Např. pokud je protokol TLS, invertování bude odpovídat veškerému provozu, který není TLS. Pokud byly vybrány domény, budou tyto domény stejně invertovány."
+msgstr "Převrátit smysl pro hledání shody. Např. pokud je protokol TLS, invertování bude odpovídat veškerému provozu, který není TLS. Pokud byly vybrány domény, budou tyto domény také brány obráceně."
 
 #. File: /usr/lang/src/controllers.php, line: 2851
 #: 
@@ -63594,7 +63594,7 @@ msgstr "Pokud zde není zadán váš poskytovatel DNS, ponechte prázdné pole. 
 #. File: /usr/lang/src/controllers.php, line: 2908
 #: 
 msgid "Leave empty if your DNS Provider isn't specified here. Field can be left empty if optional: Route53 \"region\", Azure \"resource_group_name\"."
-msgstr "Pokud zde není zadán váš poskytovatel DNS, ponechte prázdné pole. Pokud je pole nepovinné, může být ponecháno prázdné: Route53 \"region\", Azure \"resource_group_name\"."
+msgstr "Pokud zde vámi využívaný poskytovatel DNS není uveden, nevyplňujte. Pokud jsou kolonky volitelné, je možné je nevyplňovat: Route53 „region“, Azure „resource_group_name“."
 
 #. File: /usr/lang/src/controllers.php, line: 2909
 #: 
@@ -64737,7 +64737,7 @@ msgstr "Název TLS serveru"
 #. File: /usr/lang/src/controllers.php, line: 4714
 #: 
 msgid "TLS Trust Pool"
-msgstr "Svěřenský fond TLS"
+msgstr "Fond TLS důvěryhodnosti"
 
 #. File: /usr/lang/src/controllers.php, line: 4752
 #: 
@@ -64988,7 +64988,7 @@ msgstr "Nespecifikováno"
 #. File: /usr/lang/src/controllers.php, line: 5283
 #: 
 msgid "Upper limit in seconds for calculated retransmission timeout (0 to disable)"
-msgstr "Horní limit v sekundách pro vypočtený časový limit retransmise (0 pro vypnutí)"
+msgstr "Horní limit (v sekundách) pro vypočtený časový limit opětovného přenosu (0 pro vypnutí)"
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 131
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 433
@@ -65696,7 +65696,7 @@ msgstr "Webový server Caddy"
 #. File: /usr/lang/src/models.php, line: 440
 #: 
 msgid "Can not disable all record types."
-msgstr "Nelze zakázat všechny typy záznamů."
+msgstr "Není možné zakázat veškeré typy záznamů."
 
 #. File: /usr/lang/src/models.php, line: 442
 #: 
@@ -66087,7 +66087,7 @@ msgstr "Kea DHCPv4"
 #. File: /usr/lang/src/models.php, line: 952
 #: 
 msgid "Layer4 Proxy"
-msgstr "Layer4 Proxy"
+msgstr "Proxy na 4. vrstvě"
 
 #. File: /usr/lang/src/models.php, line: 956
 #: 
@@ -66508,7 +66508,7 @@ msgstr "Scaleway"
 #. File: /usr/lang/src/models.php, line: 1564
 #: 
 msgid "Selected resolver not found"
-msgstr "Vybraný řešitel nebyl nalezen"
+msgstr "Vybraný poskytovatel DNS překladu nenalezen"
 
 #. File: /usr/lang/src/models.php, line: 1578
 #: 
@@ -66518,7 +66518,7 @@ msgstr "Je třeba, aby se hodnota posloupnosti neopakovala, případně aby neby
 #. File: /usr/lang/src/models.php, line: 1583
 #: 
 msgid "Servers [legacy]"
-msgstr "Servery [starší]"
+msgstr "Servery [postaru]"
 
 #. File: /usr/lang/src/models.php, line: 1623
 #: 
