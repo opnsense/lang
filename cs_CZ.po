@@ -10,12 +10,12 @@ msgstr ""
 #. File: /usr/core/src/www/wizard.php, line: 122
 #: 
 msgid "ERROR: Could not parse %s wizard file."
-msgstr "CHYBA: nedaří se zpracovat soubor průvodce %s."
+msgstr "CHYBA: nebylo možné zpracovat soubor průvodce %s."
 
 #. File: /usr/core/src/www/wizard.php, line: 92
 #: 
 msgid "ERROR: Could not find wizard file."
-msgstr "Chyba: nedaří se nalézt soubor průvodce."
+msgstr "Chyba: nepodařilo se nalézt soubor průvodce."
 
 #. File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 176
 #: 
@@ -1789,7 +1789,7 @@ msgstr "Trvání"
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 171
 #: 
 msgid "Enable password policy constraints"
-msgstr "Zapnout omezení politiky hesel"
+msgstr "Zapnout omezení zásadami pro hesla"
 
 #. File: /usr/core/src/www/system_usermanager_settings.php, line: 168
 #: 
@@ -7219,7 +7219,7 @@ msgstr "Je třeba, aby maxage bylo celé číslo z rozmezí 6 až 40."
 #. File: /usr/core/src/www/interfaces_lagg.php, line: 124
 #: 
 msgid "Members"
-msgstr "Účastnící se"
+msgstr "Členové"
 
 #. File: /usr/core/src/www/interfaces_bridge.php, line: 87
 #: 
@@ -10151,7 +10151,7 @@ msgstr "automatický odchozí nat"
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 525
 #: 
 msgid "Source Networks"
-msgstr "Zdrojové sítě"
+msgstr "Přístupné ze sítí"
 
 #. File: /usr/core/src/www/firewall_nat_out.php, line: 507
 #: 
@@ -13440,7 +13440,7 @@ msgstr "Komentář"
 #. File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 171
 #: 
 msgid "Click to check for updates."
-msgstr "Kliknutím zkontrolujte aktualizace."
+msgstr "Kliknutím vyhledáte aktualizace."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 732
 #: 
@@ -14306,7 +14306,7 @@ msgstr "O kolik se může lišit čas serveru a tokenu – výchozí je 10 sekun
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 232
 #: 
 msgid "Grace period"
-msgstr "Grace perioda"
+msgstr "Doba tolerance"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 226
 #: 
@@ -14921,7 +14921,7 @@ msgstr "Uživatelské jméno:"
 #. File: /usr/core/src/etc/inc/authgui.inc, line: 497
 #: 
 msgid "Login"
-msgstr "Přihlášení"
+msgstr "Přihlásit"
 
 #. File: /usr/core/src/etc/inc/authgui.inc, line: 354
 #: 
@@ -24643,7 +24643,7 @@ msgstr "Potlačit řetězec s verzí"
 #. File: /usr/lang/src/controllers.php, line: 1536
 #: 
 msgid "Swap"
-msgstr "Výměna"
+msgstr "Odklád. prostor"
 
 #. File: /usr/lang/src/controllers.php, line: 1537
 #: 
@@ -29377,7 +29377,7 @@ msgstr "Název šablony by měl být řetězec znaků dlouhý 1 až 255 znaků"
 #. File: /usr/lang/src/models.php, line: 655
 #: 
 msgid "Tester"
-msgstr "Tester"
+msgstr "Vyzkoušení"
 
 #. File: /usr/lang/src/models.php, line: 656
 #: 
@@ -29447,7 +29447,7 @@ msgstr "Je třeba, aby toto bylo platné číslo portu."
 #. File: /usr/lang/src/models.php, line: 671
 #: 
 msgid "Tinc"
-msgstr "Tinc protokol"
+msgstr "Tinc"
 
 #. File: /usr/lang/src/models.php, line: 672
 #: 
@@ -42961,7 +42961,7 @@ msgstr "Cíle SYSLOG"
 #. File: /usr/lang/src/controllers.php, line: 2209
 #: 
 msgid "Select all the interfaces to enable NetFlow on."
-msgstr "Vyberte všechny rozhraní na kterých chcete zapnout NetFlow."
+msgstr "Vyberte všechna rozhraní na kterých chcete zapnout NetFlow."
 
 #. File: /usr/lang/src/controllers.php, line: 2241
 #: 
@@ -47877,7 +47877,7 @@ msgstr "Port na který přeposílat provoz."
 #. File: /usr/lang/src/controllers.php, line: 3130
 #: 
 msgid "The relay will use this as the source address for packets leaving the interface. The special values of \"1.1.1.1\" and \"1.1.1.2\" mean for the relayed packet to use the outgoing interface's address as the source IP address. \"1.1.1.1\" also means use the original packet's destination port as the new source port for the relayed packet. \"1.1.1.2\" means keep the source port unaltered from the original. Chromecast users should use 1.1.1.1."
-msgstr "Relé ji použije jako zdrojovou adresu pro pakety opouštějící rozhraní. Speciální hodnoty \"1.1.1.1\" a \"1.1.1.2\" znamenají, že předávaný paket použije jako zdrojovou IP adresu odchozího rozhraní. Hodnota \"1.1.1.1\" také znamená použití cílového portu původního paketu jako nového zdrojového portu pro předávaný paket. \"1.1.1.2\" znamená, že zdrojový port zůstane oproti původnímu nezměněn. Uživatelé zařízení Chromecast by měli používat 1.1.1.1."
+msgstr "Předávání toto použije jako zdrojovou adresu pro pakety opouštějící rozhraní. Speciální hodnoty „1.1.1.1“ a „1.1.1.2“ znamenají, že předávaný paket použije jako zdrojovou IP adresu odchozího rozhraní. Hodnota „1.1.1.1“ také znamená použití cílového portu původního paketu jako nového zdrojového portu pro předávaný paket. „1.1.1.2“ znamená, že zdrojový port zůstane oproti původnímu nezměněn. Uživatelé zařízení Chromecast by měli používat 1.1.1.1."
 
 #. File: /usr/lang/src/controllers.php, line: 3131
 #: 
@@ -50042,7 +50042,7 @@ msgstr "WireGuard (skupina)"
 #. File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1215
 #: 
 msgid "With clear the connection is closed with no further actions taken. hold installs a trap policy, which will catch matching traffic and tries to re-negotiate the connection on demand. restart will immediately trigger an attempt to re-negotiate the connection. The default is none and disables the close action."
-msgstr "Při použití funkce clear se spojení uzavře bez dalších akcí. hold nainstaluje zásadu trap, která zachytí odpovídající přenosy a na požádání se pokusí spojení znovu vyjednat. restart okamžitě spustí pokus o opětovné vyjednání spojení. Výchozí hodnota je žádná a zakazuje akci uzavření."
+msgstr "Při použití vyčistit bude spojení uzavřeno bez dalších akcí. podržet nainstaluje zásadu zachytit, která zachytí odpovídající přenosy a na požádání se pokusí spojení znovu vyjednat. restart okamžitě spustí pokus o opětovné vyjednání spojení. Výchozí hodnota je nic a vypíná akci zavírání."
 
 #. File: /usr/plugins/net/vnstat/src/opnsense/mvc/app/views/OPNsense/Vnstat/general.volt, line: 34
 #: 
@@ -50975,7 +50975,7 @@ msgstr "Doba po které bude odesilateli zasláno oznámení, pokud je pošta zpo
 #. File: /usr/lang/src/controllers.php, line: 3480
 #: 
 msgid "Timeout hold time"
-msgstr "Doba podržení timeoutu"
+msgstr "Doba podržení časového limitu"
 
 #. File: /usr/lang/src/controllers.php, line: 3494
 #: 
@@ -59821,12 +59821,12 @@ msgstr "Všechny zóny"
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 252
 #: 
 msgid "Allow PCP/NAT-PMP Port Mapping"
-msgstr "Povolení mapování portů PCP/NAT-PMP"
+msgstr "Umožnit mapování portů PCP/NAT-PMP"
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 243
 #: 
 msgid "Allow UPnP IGD Port Mapping"
-msgstr "Povolení mapování portů UPnP IGD"
+msgstr "Umožnit mapování portů UPnP IGD"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/IPsec/FieldTypes/CharonLogLevelField.php, line: 64
 #: 
@@ -59847,12 +59847,12 @@ msgstr "Adresa (jednosměrového vysílání) lze nastavit pouze pro stejnou gen
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.php, line: 92
 #: 
 msgid "An IPv4 destination for this relay is already set."
-msgstr "Cílová adresa IPv4 pro tento relay je již nastavena."
+msgstr "Cílová IPv4 adresa pro toto předávání je už nastavená."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.php, line: 94
 #: 
 msgid "An IPv6 destination for this relay is already set."
-msgstr "Cílová adresa IPv6 pro tento relay je již nastavena."
+msgstr "Cílová IPv6 adresa pro toto předávání je už nastavená."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 81
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/reverse_proxy.volt, line: 198
@@ -60337,7 +60337,7 @@ msgstr "Zapnout autonomní službu mapování portů."
 #. File: /usr/core/src/www/firewall_scrub_edit.php, line: 564
 #: 
 msgid "Enabling this option will disable scrub (normalization) for traffic matching this rule."
-msgstr "Povolením této možnosti se zakáže čištění (normalizace) pro přenosy odpovídající tomuto pravidlu."
+msgstr "Zapnutím této předvolby bude vypnuto čištění (normalizace) provozu, odpovídajícího tomuto pravidlu."
 
 #. File: /usr/core/src/opnsense/www/api.php, line: 46
 #: 
@@ -61778,10 +61778,10 @@ msgid "\n"
 "            The value 0 disables it. Default 1900. This setting may increase the \"request queue exceeded\" counter.\n"
 "        "
 msgstr "\n"
-"\t    Doba čekání v msec, po kterou jsou požadavky na rekurzi ukončeny. To slouží k zastavení velkého počtu odpovědí\n"
-"            kumulaci odpovědí. Pokud je povolena funkce \"Serve Expired Responses\", mělo by být toto pole nastaveno na hodnotu větší než\n"
-"            'Client Expired Response Timeout', jinak tyto pozdní odpovědi nebudou aktualizovat mezipaměť.\n"
-"            Hodnota 0 tuto funkci vypíná. Výchozí hodnota 1900. Toto nastavení může zvýšit čítač \"překročení fronty požadavků\".\n"
+"\t    Doba čekání (v milisekundách), po kterou jsou požadavky na rekurzi zahazovány. To slouží proti nashromáždění velkého počtu odpovědí.\n"
+"            Pokud je zapnuto „Poskytovat i odpovědi, kterých platnost skončila“, měla by tato kolonka být nastavena na hodnotu vyšší než\n"
+"            „Časový limit odpovědi klienta se skončenou platností“, jinak tyto pozdní odpovědi nebudou aktualizovat mezipaměť.\n"
+"            Hodnota 0 (nula) tuto funkci vypíná. Výchozí hodnota je 1900. Toto nastavení může zvýšit čítač „délka fronty požadavků překračuje“.\n"
 "        "
 
 #. File: /usr/lang/src/controllers.php, line: 42
@@ -61794,11 +61794,11 @@ msgid "\n"
 "                    This always happens for IKEv1 connections as the protocol only supports one set of traffic selectors per CHILD SA\n"
 "            "
 msgstr "\n"
-"                    Pokud je tato funkce vypnuta, jsou výběry provozu z událostí akvizice jádra,\n"
+"                    Pokud je toto vypnuto, jsou výběry provozu z událostí akvizice jádra,\n"
 "                    které jsou odvozeny od spouštěcího paketu, jsou předřazeny k selektorům provozu z událostí\n"
-"                    konfigurace pro připojení IKEv2. Povolením této funkce budou takové specifické selektory provozu ignorovány a\n"
-"                    budou odesílány pouze ty, které jsou uvedeny v konfiguraci.\n"
-"                    K tomu dochází vždy u spojení IKEv1, protože protokol podporuje pouze jednu sadu selektorů provozu na jedno DÍTĚ SA.\n"
+"                    nastavení pro připojení IKEv2. Povolením této funkce budou takové specifické selektory provozu ignorovány a\n"
+"                    budou odesílány pouze ty, které jsou uvedeny v nastavení.\n"
+"                    K tomu dochází vždy u spojení IKEv1, protože protokol podporuje pouze jednu sadu výběrů provozu na jedno podřízené SA.\n"
 "            "
 
 #. File: /usr/lang/src/controllers.php, line: 54
@@ -61808,8 +61808,8 @@ msgid "\n"
 "                Select this option to always prefer old SAs over new ones.\n"
 "            "
 msgstr "\n"
-"                Ve výchozím nastavení, pokud se shoduje několik přidružení zabezpečení, je upřednostněno nejnovější, pokud je staré alespoň 30 sekund.\n"
-"                Tuto možnost vyberte, chcete-li vždy upřednostňovat starší přidružení zabezpečení před novými.\n"
+"                Ve výchozím nastavení, pokud je nalezena shoda ve vícero přidružení zabezpečení (SA), je upřednostněno to nejnovější, pokud je staré alespoň 30 sekund.\n"
+"                Tuto volbu vyberte, pokud chcete vždy upřednostňovat starší přidružení zabezpečení před těmi novými.\n"
 "            "
 
 #. File: /usr/lang/src/controllers.php, line: 58
@@ -61819,8 +61819,8 @@ msgid "\n"
 "                When using multiple phase 2 definitions a higher value than the default (3) would be advisable to prevent re-keying issues\n"
 "            "
 msgstr "\n"
-"                Maximální počet výměn IKEv1 fáze 2 na IKE_SA, o kterých se má uchovávat stav a které se mají sledovat současně.\n"
-"                Při použití více definic fáze 2 by bylo vhodné zvolit vyšší hodnotu než výchozí (3), aby se předešlo problémům s opakovaným klíčováním.\n"
+"                Maximální počet výměn ve 2. fázi IKEv1 v jednotlivých IKE_SA, kterých stav má být uchováván a mají být sledovány souběžně.\n"
+"                Při použití vícero definic fáze 2 by bylo vhodné zvolit vyšší hodnotu než výchozí (3), aby se předešlo problémům s opakovaným opatřováním klíči.\n"
 "            "
 
 #. File: /usr/lang/src/controllers.php, line: 62
@@ -62388,7 +62388,7 @@ msgstr "Zvolte instanci pro kterou vytvořit nový protějšek."
 #. File: /usr/lang/src/controllers.php, line: 1253
 #: 
 msgid "Choose either \"listener_wrappers\" for multiplexing protocols on the default HTTP and HTTPS ports on OSI Layer 7, or \"global\" for raw TCP/UDP traffic routing on a custom \"Local port\" on OSI Layer 4 with optional OSI Layer 7 protocol matching."
-msgstr "Vyberte buď \"listener_wrappers\" pro multiplexování protokolů na výchozích portech HTTP a HTTPS na vrstvě OSI 7, nebo \"global\" pro směrování surového provozu TCP/UDP na vlastním \"místním portu\" na vrstvě OSI 4 s volitelným přiřazováním protokolů na vrstvě OSI 7."
+msgstr "Vyberte buď „listener_wrappers“ pro multiplexování protokolů na výchozích portech HTTP a HTTPS na vrstvě OSI 7, nebo „globální“ pro směrování surového provozu TCP/UDP na uživatelsky určeném „místním portu“ na vrstvě OSI 4 s volitelným přiřazováním protokolů na vrstvě OSI 7."
 
 #. File: /usr/lang/src/controllers.php, line: 1286
 #: 
@@ -63331,13 +63331,13 @@ msgid "IKE identity to use for authentication round.\n"
 "          Refer to https://docs.strongswan.org/docs/5.9/config/identityParsing.html for details on how\n"
 "          identities are parsed and may be configured.\n"
 "        "
-msgstr "Identita IKE, která se použije pro kolo ověřování.\n"
+msgstr "Identita IKE, která bude použita pro kolo ověřování.\n"
 "          Při použití ověřování certifikátem\n"
-"          musí být identita IKE obsažena v certifikátu;\n"
+"          je třeba, aby identita IKE byla obsažena v certifikátu;\n"
 "          buď jako DN subjektu, nebo jako subjectAltName.\n"
-"          (není-li identita zadána, je výchozí hodnotou DN subjektu certifikátu).\n"
+"          (pokud není identita zadána, je výchozí hodnotou DN subjektu certifikátu).\n"
 "          Podrobnosti o tom, jak postupovat, naleznete na adrese https://docs.strongswan.org/docs/5.9/config/identityParsing.html.\n"
-"          se identity analyzují a mohou být konfigurovány.\n"
+"          identity jsou zpracovávány a mohou být nastavovány.\n"
 "        "
 
 #. File: /usr/lang/src/controllers.php, line: 2618
@@ -63493,7 +63493,7 @@ msgstr "Počáteční velikost okna (odchozí)"
 #. File: /usr/lang/src/controllers.php, line: 2799
 #: 
 msgid "Initiate IKEv2 reauthentication with a make-before-break instead of a break-before-make scheme. Make-before-break uses overlapping IKE and CHILD SA during reauthentication by first recreating all new SAs before deleting the old ones. This behavior can be beneficial to avoid connectivity gaps during reauthentication, but requires support for overlapping SAs by the peer."
-msgstr "Zahájení opětovného ověření IKEv2 pomocí schématu make-before-break namísto schématu break-before-make. Make-before-break používá překrývající se IKE a CHILD SA během opětovného ověření tím, že nejprve znovu vytvoří všechny nové SA a teprve poté odstraní staré. Toto chování může být výhodné pro zamezení přerušení spojení během opětovného ověřování, ale vyžaduje podporu překrývajících se SA ze strany partnera."
+msgstr "Zahájit opětovného ověření IKEv2 pomocí schématu make-before-break namísto schématu break-before-make. Make-before-break používá překrývající se IKE a CHILD SA během opětovného ověření tím, že nejprve znovu vytvoří všechny nové SA a teprve poté odstraní staré. Toto chování může být výhodné pro zamezení přerušení spojení během opětovného ověřování, ale vyžaduje podporu překrývajících se SA ze strany protějšku."
 
 #. File: /usr/lang/src/controllers.php, line: 2811
 #: 
@@ -63654,7 +63654,7 @@ msgstr "Seznam adres, které mají být použity na vzdáleném protějšku – 
 #. File: /usr/lang/src/controllers.php, line: 2946
 #: 
 msgid "List of bot user agents that will be used in bot protection. Uses a well known list by default."
-msgstr "Seznam uživatelských agentů botů, kteří budou použiti při ochraně botů. Ve výchozím nastavení používá dobře známý seznam."
+msgstr "Seznam uživatelských agentů, využívaných boty. Bude použito při ochraně proti botům. Ve výchozím nastavení je využíván seznam obecně známých."
 
 #. File: /usr/lang/src/controllers.php, line: 2949
 #: 
@@ -64178,7 +64178,7 @@ msgstr "Prometheus"
 #. File: /usr/lang/src/controllers.php, line: 3701
 #: 
 msgid "Propagation Timeout is a duration value that sets the maximum time to wait for the DNS TXT records to appear when using the DNS challenge. The default is 2 minutes. Disabling this will set propagation_timeout to -1 (checking propagation infinitely) and additionally set a propagation_delay of 30s (wait time before starting propagation checks). This can help when the DNS Challenge continues to fail because the local DNS Server does not know the new DNS TXT records yet in the default timeframe of 2 minutes."
-msgstr "Propagation Timeout je hodnota trvání, která nastavuje maximální dobu čekání na zobrazení záznamů DNS TXT při použití výzvy DNS. Výchozí hodnota je 2 minuty. Zakázáním této hodnoty se nastaví propagation_timeout na -1 (kontrola šíření nekonečně dlouho) a navíc se nastaví propagation_delay na 30 s (čekací doba před zahájením kontroly šíření). To může pomoci, pokud Výzva DNS stále selhává, protože místní server DNS ještě nezná nové záznamy DNS TXT ve výchozím časovém rámci 2 minut."
+msgstr "Časový limit propagace je hodnota trvání, která při použití DNS výzvy nastavuje maximální dobu čekání na zobrazení záznamů DNS TXT. Výchozí hodnota je 2 minuty. Zakázáním této hodnoty bude nastaveno propagation_timeout na -1 (kontrola propagace nekonečně dlouho) a navíc bude nastaveno propagation_delay na 30 s (čekací doba před zahájením kontroly propagace). To může pomoct, pokud se DNS výzva neustále nedaří, protože místní DNS server ve výchozím časovém rámci 2 minut ještě nezná nové DNS TXT záznamy."
 
 #. File: /usr/lang/src/controllers.php, line: 3730
 #: 
