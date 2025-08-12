@@ -85,8 +85,8 @@ TEST+=		test-${LANG}
 .endfor
 
 _PLUGINSDIRS!=	if [ -d ${PLUGINSDIR} ]; then \
-			${MAKE} -C ${PLUGINSDIR} \
-			    -v PLUGIN_DIRS PLUGIN_PYTHON=ignore; \
+			${MAKE} -C ${PLUGINSDIR} -v PLUGIN_DIRS \
+			PLUGIN_PHP=ignore PLUGIN_PYTHON=ignore; \
 		fi
 PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 
