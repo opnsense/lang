@@ -116,5 +116,8 @@ fetch:
 cleanse:
 	@${.CURDIR}/Scripts/cleanse_po.py
 
+bootstrap:
+	@pkg install gettext-tools p5-Locale-Maketext-Lexicon python3
+
 
 .PHONY: ${INSTALL} ${TEMPLATE} src

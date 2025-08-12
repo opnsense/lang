@@ -4,8 +4,7 @@ OPNsense language translation kit
 The kit requires additional tools in order to properly extract strings
 from the source code.  You'll need to run this once locally:
 
-    # pkg install gettext-tools p5-Locale-Maketext-Lexicon python39
-    # cd /usr/local/bin && ln -sfn python3.9 python3
+    # make bootstrap
 
 Fetch the latest translations (having set up poeditor.apikey file):
 
