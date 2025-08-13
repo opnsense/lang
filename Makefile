@@ -75,9 +75,8 @@ clean-${LANG}:
 	@rm -f ${DESTDIR}${${LANG}DIR}/OPNsense.mo
 
 test-${LANG}:
-	${MSGFMT} -o /dev/null ${LANG}.po
-	# XXX pretty this up
-	@echo $$(grep -c ^msgid ${LANG}.po) / $$(grep -c ^msgstr ${LANG}.po)
+	@${MSGFMT} -o /dev/null ${LANG}.po
+	@echo "${LANG}: OK"
 
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
