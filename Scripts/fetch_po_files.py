@@ -56,6 +56,8 @@ if 'response' in r and 'list' in r:
             targets['zh-TW'] = filename
         elif tmp == 'el_GR.po':
             targets['el'] = filename
+        elif tmp == 'uk_UA.po':
+            targets['uk'] = filename
         else:
             targets[tmp.split('_')[0]] = filename
     for lang in r['list']:
