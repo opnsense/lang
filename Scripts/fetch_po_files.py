@@ -58,6 +58,8 @@ if 'response' in r and 'list' in r:
             targets['el'] = filename
         elif tmp == 'uk_UA.po':
             targets['uk'] = filename
+        elif tmp == 'fa_IR.po':
+            targets['fa'] = filename
         else:
             targets[tmp.split('_')[0]] = filename
     for lang in r['list']:
@@ -67,7 +69,7 @@ if 'response' in r and 'list' in r:
         elif lang['code'] == 'zh-TW':
             code = lang['code']
         if code not in targets:
-            print("Skipped %(code)s (percentage complete : %(percentage).2f)" % lang)
+            print("Skipped %(code)s (%(percentage).2f%%)" % lang)
         else:
             lang['target_filename'] =  targets[code]
             r = requests.post('https://poeditor.com/api/', {
@@ -79,5 +81,5 @@ if 'response' in r and 'list' in r:
             }).json()
             with open(lang['target_filename'], 'w') as f_out:
                 f_out.write(requests.get(r['item']).text)
-            print("Downloaded %(code)s to %(target_filename)s (percentage complete : %(percentage).2f)" % lang)
+            print("Downloaded %(code)s to %(target_filename)s (%(percentage).2f%%)" % lang)
 
