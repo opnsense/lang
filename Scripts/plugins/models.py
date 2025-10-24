@@ -43,7 +43,15 @@ def recursiveParseModel(xmlNode):
 
     if xmlNode.tag == 'OptionValues':
         for child in xmlNode:
-            yield child.text
+            if len(child) > 0:
+                optgroup = child.get('value')
+                if optgroup is None:
+                    optgroup = child.tag
+                yield optgroup
+                for opt in child:
+                    yield opt.text
+            else:
+                yield child.text
 
 def recursiveParseMenu(xmlNode):
     for childNode in xmlNode:
