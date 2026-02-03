@@ -10033,7 +10033,7 @@ msgstr "Hodnoty"
 #. File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 312
 #: 
 msgid "You must apply the changes in order for them to take effect."
-msgstr "Aby se projevily, je třeba změny použít."
+msgstr "Aby se projevily, je třeba kliknout na tlačítko uplatnění změn."
 
 #. File: /usr/core/src/www/firewall_aliases.php, line: 166
 #: 
@@ -15387,7 +15387,7 @@ msgstr "výsledek zkoušky nastavení acme-klienta"
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 180
 #: 
 msgid "Your acme-client config contains no errors."
-msgstr "Nastavení acme-client jsou bez chyb."
+msgstr "Nastavení acme-client jsou v pořádku."
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 193
 #: 
@@ -35344,7 +35344,7 @@ msgstr "Ochrana před XSS skriptováním"
 #. File: /usr/lang/src/controllers.php, line: 2665
 #: 
 msgid "You may use replacement strings like $1 for the first match group from the source here."
-msgstr "Zde můžete použít náhradní řetězce jako $1 pro první skupinu shod ze zdroje."
+msgstr "Zde je možné použít nahrazující řetězce jako je $1 pro první skupinu shod ze zdroje."
 
 #. File: /usr/lang/src/controllers.php, line: 2667
 #: 
@@ -37330,7 +37330,7 @@ msgstr "Je třeba povolit službu FreeRADIUS DHCP."
 #. File: /usr/lang/src/models.php, line: 1235
 #: 
 msgid "You need to set a proper listening IP."
-msgstr "Je třeba nastavit správnou IP adresu pro očekávání spojení."
+msgstr "Je třeba nastavit řádnou IP adresu pro očekávání spojení."
 
 #. File: /usr/lang/src/models.php, line: 1275
 #: 
@@ -38502,8 +38502,7 @@ msgid "\n"
 "            Direction of the traffic. The default policy is to filter inbound traffic, which sets the policy to the interface originally receiving the traffic.\n"
 "        "
 msgstr "\n"
-"            Směr provozu. Výchozí zásadou je filtrování příchozího provozu, což nastavuje zásadu na rozhraní, které provoz původně přijalo.\n"
-"        "
+"Směr provozu. Výchozí zásadou je filtrování příchozího provozu, což nastavuje zásadu na rozhraní, které provoz původně přijalo.        "
 
 #. File: /usr/lang/src/controllers.php, line: 36
 #: 
@@ -38512,9 +38511,8 @@ msgid "\n"
 "            When a rule does not have quick enabled, the last matching rule wins.\n"
 "        "
 msgstr "\n"
-"            Pokud paket odpovídá pravidlu, které určuje rychlou akci, je toto pravidlo považováno za poslední odpovídající pravidlo a je provedena určená akce.\n"
-"            Pokud pravidlo nemá zapnutou funkci rychlé akce, vítězí pravidlo, které odpovídá jako poslední.\n"
-"        "
+"Pokud paket odpovídá pravidlu, které určuje rychlou akci, je toto pravidlo považováno za poslední odpovídající pravidlo a je provedena určená akce.\n"
+"Pokud pravidlo nemá zapnutou funkci rychlé akce, vítězí pravidlo, které odpovídá jako poslední.        "
 
 #. File: /usr/lang/src/controllers.php, line: 40
 #: 
@@ -38522,8 +38520,7 @@ msgid "\n"
 "            Leave as 'default' to use the system routing table. Or choose a gateway to utilize policy based routing.\n"
 "        "
 msgstr "\n"
-"            Pokud chcete použít systémovou směrovací tabulku, ponechte hodnotu „výchozí“. Nebo pokud chcete použít směrování založené na zásadách, zvolte bránu.\n"
-"        "
+"Pokud chcete použít systémovou směrovací tabulku, ponechte hodnotu „výchozí“. Nebo pokud chcete použít směrování založené na zásadách, zvolte bránu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 43
 #: 
@@ -38532,9 +38529,8 @@ msgid "\n"
 "            Must be pasted including the '-----BEGIN ...-----' and '-----END [...]-----' headers.\n"
 "        "
 msgstr "\n"
-"            Vložte veřejný klíč vybraného typu ve formátu X.509.\n"
-"            Je třeba, aby to bylo včetně hlaviček „-----BEGIN ...-----“ a „-----END [...]-----“.\n"
-"        "
+"Vložte veřejný klíč vybraného typu ve formátu X.509.\n"
+"Je třeba, aby to bylo včetně hlaviček „-----BEGIN ...-----“ a „-----END [...]-----“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 47
 #: 
@@ -38544,10 +38540,9 @@ msgid "\n"
 "            Must be pasted including the '-----BEGIN ...-----' and '-----END [...]-----' headers.\n"
 "        "
 msgstr "\n"
-"            Vložte volitelný soukromý klíč vybraného typu ve formátu X.509, který patří k výše uvedenému veřejnému klíči.\n"
-"            Při přidávání veřejného klíče protějšku by tato kolonka měla zůstat prázdná, protože soukromý klíč zůstává výhradně na protějšku.\n"
-"            Je třeba, aby bylo vloženo včetně hlaviček „-----BEGIN ...-----“ a „-----END [...]-----“.\n"
-"        "
+"Vložte volitelný soukromý klíč vybraného typu ve formátu X.509, který patří k výše uvedenému veřejnému klíči.\n"
+"Při přidávání veřejného klíče protějšku by tato kolonka měla zůstat prázdná, protože soukromý klíč zůstává výhradně na protějšku.\n"
+"Je třeba, aby bylo vloženo včetně hlaviček „-----BEGIN ...-----“ a „-----END [...]-----“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 69
 #: 
@@ -38556,9 +38551,8 @@ msgid "\n"
 "          This is the IP multicast group address the interface will join.\n"
 "        "
 msgstr "\n"
-"          Rozhraní je možné nastavit v režimu vícesměrového vysílání a vytvořit tak virtuální síť hostitelů.\n"
-"          Jedná se o adresu skupiny IP multicast, ke které se rozhraní připojí.\n"
-"        "
+"Rozhraní je možné nastavit v režimu vícesměrového vysílání a vytvořit tak virtuální síť hostitelů.\n"
+"Toto je adresa skupiny IP vícesměrového vysílání, ke které se rozhraní připojí.        "
 
 #. File: /usr/lang/src/controllers.php, line: 73
 #: 
@@ -38567,9 +38561,8 @@ msgid "\n"
 "          This is the IP address of the remote end of the tunnel.\n"
 "        "
 msgstr "\n"
-"          Rozhraní lze nastavit v režimu jednosměrného vysílání nebo v režimu bod-bod a vytvořit tak tunel mezi dvěma hostiteli.\n"
-"          Jedná se o IP adresu vzdáleného konce tunelu.\n"
-"        "
+"Rozhraní lze nastavit v režimu jednosměrového vysílání nebo v režimu bod-bod a vytvořit tak tunel mezi dvěma hostiteli.\n"
+"Toto je IP adresa vzdáleného konce tunelu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 77
 #: 
@@ -38579,10 +38572,9 @@ msgid "\n"
 "          When the interface is configured in unicast mode, the listening socket is bound to this address.\n"
 "        "
 msgstr "\n"
-"          Zdrojová adresa použitá v zapouzdřující hlavičce IPv4/IPv6.\n"
-"          Adresa by už měla být přiřazena existujícímu rozhraní.\n"
-"          Pokud je rozhraní nastaveno v režimu unicast, je spojení očekávající soket vázán na tuto adresu.\n"
-"        "
+"Zdrojová adresa použitá v zapouzdřující hlavičce IPv4/IPv6.\n"
+"Adresa by už měla být přiřazena existujícímu rozhraní.\n"
+"Pokud je rozhraní nastaveno v režimu jednosměrového vysílání (unicast), je spojení očekávající soket vázán na tuto adresu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 85
 #: 
@@ -38590,7 +38582,7 @@ msgid "\n"
 "         Change the default time-to-live value in the IP headers for host checks.\n"
 "      "
 msgstr "\n"
-"Změnit výchozí hodnotu doby živostnosti v hlavičkách IP pro kontroly hostitele.      "
+"Změnit výchozí hodnotu doby živostnosti v hlavičkách IP protokolu pro kontroly hostitele.      "
 
 #. File: /usr/lang/src/controllers.php, line: 88
 #: 
@@ -38598,7 +38590,7 @@ msgid "\n"
 "         Change the route priority used when adding a route.\n"
 "      "
 msgstr "\n"
-"Změna priority trasy použité při přidávání další trasy.      "
+"Změnit prioritu trasy použitou při přidávání trasy.      "
 
 #. File: /usr/lang/src/controllers.php, line: 91
 #: 
@@ -38638,7 +38630,7 @@ msgid "\n"
 "         Override the global interval. I must be a multiple of the global interval.\n"
 "      "
 msgstr "\n"
-"         Přepsat globální interval. Je třeba, aby bylo násobkem globálního intervalu.\n"
+"Přebít globální interval. Je třeba, aby bylo násobkem globálního intervalu.\n"
 "      "
 
 #. File: /usr/lang/src/controllers.php, line: 106
@@ -38647,8 +38639,7 @@ msgid "\n"
 "         Send data.\n"
 "      "
 msgstr "\n"
-"         Poslat data.\n"
-"      "
+"Poslat data.      "
 
 #. File: /usr/lang/src/controllers.php, line: 109
 #: 
@@ -38656,8 +38647,7 @@ msgid "\n"
 "         Set the scheduling algorithm to select a host from the table.\n"
 "      "
 msgstr "\n"
-"         Nastavte algoritmus plánování, aby bylo možné vybrat hostitele z tabulky.\n"
-"      "
+"Nastavte algoritmus plánování pro výběr hostitele z tabulky.      "
 
 #. File: /usr/lang/src/controllers.php, line: 112
 #: 
@@ -38665,8 +38655,7 @@ msgid "\n"
 "         Specify an address to listen on.\n"
 "      "
 msgstr "\n"
-"         Zadejte adresu, na které očekávat spojení.\n"
-"      "
+"Zadejte adresu, na které očekávat spojení.      "
 
 #. File: /usr/lang/src/controllers.php, line: 115
 #: 
@@ -38674,8 +38663,7 @@ msgid "\n"
 "         Specify the destination port.\n"
 "      "
 msgstr "\n"
-"         Zadejte cílový port.\n"
-"      "
+"Zadejte cílový port.      "
 
 #. File: /usr/lang/src/controllers.php, line: 118
 #: 
@@ -38683,8 +38671,7 @@ msgid "\n"
 "         Specify the end of a port range.\n"
 "      "
 msgstr "\n"
-"         Zadejte konec rozsahu portů.\n"
-"      "
+"Zadejte konec rozsahu portů.      "
 
 #. File: /usr/lang/src/controllers.php, line: 121
 #: 
@@ -38692,8 +38679,7 @@ msgid "\n"
 "         Specify the port to listen on.\n"
 "      "
 msgstr "\n"
-"         Zadejte port na kterém očekávat spojení.\n"
-"      "
+"Zadejte port na kterém očekávat spojení.      "
 
 #. File: /usr/lang/src/controllers.php, line: 124
 #: 
@@ -38701,8 +38687,7 @@ msgid "\n"
 "         Specify the table check.\n"
 "      "
 msgstr "\n"
-"         Zadejte kontrolu tabulky.\n"
-"      "
+"Zadejte kontrolu tabulky.      "
 
 #. File: /usr/lang/src/controllers.php, line: 127
 #: 
@@ -38710,8 +38695,7 @@ msgid "\n"
 "         Specify the table of target hosts to be used.\n"
 "      "
 msgstr "\n"
-"         Zadejte tabulku.\n"
-"      "
+"Zadejte tabulku cílových hostitelů, kterou použít.      "
 
 #. File: /usr/lang/src/controllers.php, line: 130
 #: 
@@ -38719,8 +38703,7 @@ msgid "\n"
 "         The HTTP 'Host' header value.\n"
 "      "
 msgstr "\n"
-"         Hodnota HTTP hlavičky „Hostitel“.\n"
-"      "
+"Hodnota HTTP hlavičky „Hostitel“.      "
 
 #. File: /usr/lang/src/controllers.php, line: 133
 #: 
@@ -38728,8 +38711,7 @@ msgid "\n"
 "         The Interface to listen on. Leave it unset to listen on all interfaces.\n"
 "      "
 msgstr "\n"
-"         Rozhraní na kterém očekávat spojení. Pokud to má být na všech, nevyplňujte.\n"
-"      "
+"Rozhraní na kterém očekávat spojení. Pokud to má být na všech, nevyplňujte.      "
 
 #. File: /usr/lang/src/controllers.php, line: 136
 #: 
@@ -38737,8 +38719,7 @@ msgid "\n"
 "         The URL path for HTTP(S) or the script path for SCRIPT checks.\n"
 "      "
 msgstr "\n"
-"         Popis umístění v rámci URL pro HTTP(S) nebo skriptu pro kontroly SCRIPT.\n"
-"      "
+"URL popis umístění pro HTTP(S) nebo umístění skriptu pro kontroly SCRIPT.      "
 
 #. File: /usr/lang/src/controllers.php, line: 139
 #: 
@@ -38746,8 +38727,7 @@ msgid "\n"
 "         The backend host address.\n"
 "      "
 msgstr "\n"
-"         Adresa hostitele podpůrné vrstvy.\n"
-"      "
+"Adresa hostitele podpůrné vrstvy.      "
 
 #. File: /usr/lang/src/controllers.php, line: 142
 #: 
@@ -38755,8 +38735,7 @@ msgid "\n"
 "         The expected response code.\n"
 "      "
 msgstr "\n"
-"         Očekávaný kód odpovědi.\n"
-"      "
+"Očekávaný kód odpovědi.      "
 
 #. File: /usr/lang/src/controllers.php, line: 145
 #: 
@@ -38764,8 +38743,7 @@ msgid "\n"
 "         The expected response message digest.\n"
 "      "
 msgstr "\n"
-"         Očekávaný otisk odpovědi.\n"
-"      "
+"Očekávaný otisk (digest) odpovědi.      "
 
 #. File: /usr/lang/src/controllers.php, line: 148
 #: 
@@ -38773,22 +38751,21 @@ msgid "\n"
 "         The interface to use for routing packages.\n"
 "      "
 msgstr "\n"
-"         Rozhraní které použít pro směrování balíčků.\n"
-"      "
+"Rozhraní které použít pro směrování balíčků.      "
 
 #. File: /usr/lang/src/controllers.php, line: 151
 #: 
 msgid "\n"
 "         The name of the host."
 msgstr "\n"
-"         Název hostitele."
+"Název hostitele."
 
 #. File: /usr/lang/src/controllers.php, line: 153
 #: 
 msgid "\n"
 "         The name of the protocol definition."
 msgstr "\n"
-"         Název definice protokolu."
+"Název definice protokolu."
 
 #. File: /usr/lang/src/controllers.php, line: 155
 #: 
@@ -38796,22 +38773,21 @@ msgid "\n"
 "         The name of the table check.\n"
 "      "
 msgstr "\n"
-"         Název kontroly tabulky.\n"
-"      "
+"Název kontroly tabulky.      "
 
 #. File: /usr/lang/src/controllers.php, line: 158
 #: 
 msgid "\n"
 "         The name of the table."
 msgstr "\n"
-"         Název tabulky."
+"Název tabulky."
 
 #. File: /usr/lang/src/controllers.php, line: 160
 #: 
 msgid "\n"
 "         The name of the virtual server."
 msgstr "\n"
-"         Název virtuálního serveru."
+"Název virtuálního serveru."
 
 #. File: /usr/lang/src/controllers.php, line: 162
 #: 
@@ -38821,10 +38797,7 @@ msgid "\n"
 "         host state to down.\n"
 "      "
 msgstr "\n"
-"         Nepovinná předvolba opětovného pokusu přidává toleranci k neúspěšným kontrolám hostitele;\n"
-"         kontrola bude opakována vícekrát, a až teprve poté bude stav hostitele nastaven\n"
-"         na nedostupný.\n"
-"      "
+"Nepovinná předvolba opětovného pokusu přidává toleranci k neúspěšným kontrolám hostitele. Kontrola bude opakována vícekrát (viz zadaný počet) a až teprve poté bude stav hostitele nastaven na nedostupný.      "
 
 #. File: /usr/lang/src/controllers.php, line: 167
 #: 
@@ -38832,8 +38805,7 @@ msgid "\n"
 "         The protocol options.\n"
 "      "
 msgstr "\n"
-"         Předvolby protokolu.\n"
-"      "
+"Předvolby protokolu.      "
 
 #. File: /usr/lang/src/controllers.php, line: 170
 #: 
@@ -38841,8 +38813,7 @@ msgid "\n"
 "         The type of the protocol definition.\n"
 "      "
 msgstr "\n"
-"         Typ definice protokolu.\n"
-"      "
+"Typ definice protokolu.      "
 
 #. File: /usr/lang/src/controllers.php, line: 173
 #: 
@@ -38850,8 +38821,7 @@ msgid "\n"
 "         This is a list with backend hosts\n"
 "      "
 msgstr "\n"
-"         Toto je seznam s hostiteli podpůrné vrstvy\n"
-"      "
+"Toto je seznam s hostiteli podpůrné vrstvy      "
 
 #. File: /usr/lang/src/controllers.php, line: 176
 #: 
@@ -42674,13 +42644,12 @@ msgid "\n"
 "            Additions may need a restart of stunnel (when the certificate was already used).\n"
 "            "
 msgstr "\n"
-"            Používat seznamy odvolaných certifikátů. Pokud je nastaveno, je v chroot (/var/run/stunnel/certs/) vyžadován CRL seznam ve formátu XXXXXXXX.r0.\n"
-"            Při správě certifikátů z tohoto počítače jsou připojené seznamy CRL vytvářeny automaticky.\n"
-"            Další informace o této předvolbě naleznete v části CRLpath v příručce k stunnels.\n"
+"Používat seznamy odvolaných certifikátů. Pokud je nastaveno, je v chroot (/var/run/stunnel/certs/) vyžadován CRL seznam ve formátu XXXXXXXX.r0.\n"
+"Při správě certifikátů z tohoto počítače jsou připojené seznamy CRL vytvářeny automaticky.\n"
+"Další informace o této předvolbě naleznete v části CRLpath v příručce k stunnels.\n"
 "\n"
-"            Pokud nastaveno a není k dispozici platný CRL není k dispozici, budou všechna připojení odmítnuta.\n"
-"            Přidání může vyžadovat restart stunnel (pokud byl certifikát už použit).\n"
-"            "
+"Pokud nastaveno a není k dispozici platný CRL není k dispozici, budou všechna připojení odmítnuta.\n"
+"Přidání může vyžadovat restart stunnel (pokud byl certifikát už použit).            "
 
 #. File: /usr/lang/src/controllers.php, line: 53
 #: 
@@ -42688,8 +42657,7 @@ msgid "\n"
 "            Packets matching this rule will be mapped to the IP address given here.\n"
 "        "
 msgstr "\n"
-"            Pakety odpovídající tomuto pravidlu budou mapovány na zde zadanou IP adresu.\n"
-"        "
+"Pakety odpovídající tomuto pravidlu budou mapovány na zde zadanou IP adresu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 193
 #: 
@@ -44891,7 +44859,7 @@ msgstr "Statistiky ZFS"
 #. File: /usr/lang/src/controllers.php, line: 3581
 #: 
 msgid "__template__label__"
-msgstr "__stitek__stablony__"
+msgstr "__stitek__sablony__"
 
 #. File: /usr/lang/src/controllers.php, line: 3587
 #: 
@@ -46818,9 +46786,9 @@ msgid "\n"
 "                "
 msgstr "\n"
 "Řídí, které objekty uchovávat v mezipaměti (v RAM) – cache_mem.\n"
-"   vždy: uchovávat v paměti nejnověji načtené objekty (výchozí)\n"
-"   disk: v paměti uchovávat pouze to, co už bylo odbaveno z mezipaměti na disku. To znamená, že je třeba, aby objekt byl nejprve uložen do mezipaměti na disku a poté vyžádán už podruhé – teprve poté je uložen do mezipaměti v operační paměti.\n"
-"   síť: v operační paměti jsou uchovávány pouze objekty načtené ze sítě                "
+"vždy: uchovávat v paměti nejnověji načtené objekty (výchozí)\n"
+"disk: v paměti uchovávat pouze to, co už bylo odbaveno z mezipaměti na disku. To znamená, že je třeba, aby objekt byl nejprve uložen do mezipaměti na disku a poté vyžádán už podruhé – teprve poté je uložen do mezipaměti v operační paměti.\n"
+"síť: v operační paměti jsou uchovávány pouze objekty načtené ze sítě                "
 
 #. File: /usr/lang/src/controllers.php, line: 127
 #: 
@@ -46828,8 +46796,7 @@ msgid "\n"
 "         Specify an IP protocol for the listener.\n"
 "      "
 msgstr "\n"
-"         Zadejte IP protokol pro proces očekávající spojení.\n"
-"␣␣␣␣␣␣"
+"Zadejte IP protokol pro proces očekávající spojení.␣␣␣␣␣␣"
 
 #. File: /usr/lang/src/controllers.php, line: 219
 #: 
@@ -50338,11 +50305,7 @@ msgid "\n"
 "            for the specified networks.\n"
 "        "
 msgstr "\n"
-"            Ve výchozím nastavení přijímá Unbound dotazy ze všech sítí. Toto nastavení použijte, pokud\n"
-"            toto chování chcete změnit. Vzhledem k tomu, že se používá nejkonkrétnější síťový blok, mají ACL seznamy,\n"
-"            definované v níže uvedené mřížce, přednost a proto budou mít přednost před chováním tohoto nastavení\n"
-"            pro zadané sítě.\n"
-"        "
+"Ve výchozím nastavení Unbound přijímá dotazy ze všech sítí. Toto nastavení použijte, pokud toto chování chcete změnit. Vzhledem k tomu, že se používá nejkonkrétnější síťový blok, mají ACL seznamy, definované v níže uvedené mřížce, přednost a proto budou mít přednost před chováním tohoto nastavení pro zadané sítě.        "
 
 #. File: /usr/lang/src/controllers.php, line: 55
 #: 
@@ -50353,11 +50316,9 @@ msgid "\n"
 "            get a valid answer.\n"
 "        "
 msgstr "\n"
-"            Nastavení nejdelší chtěné záporné životnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
-"            Po skončení platnosti interního TTL je platnost položky mezipaměti negativních odpovědí ukončena.\n"
-"            Tuto hodnotu lze nastavit tak, aby bylo vynucováno častější dotazování překladu na údaje v případě, že nedostáváte\n"
-"            platnou odpověď.\n"
-"        "
+"Nastavení nejdelší chtěné záporné životnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
+"Po skončení platnosti interního TTL je platnost položky mezipaměti negativních odpovědí ukončena.\n"
+"Tuto hodnotu lze nastavit tak, aby bylo vynucováno častější dotazování překladu na údaje v případě, že nedostáváte platnou odpověď.        "
 
 #. File: /usr/lang/src/controllers.php, line: 61
 #: 
@@ -50368,11 +50329,9 @@ msgid "\n"
 "            not trust (very large) TTL values.\n"
 "        "
 msgstr "\n"
-"            Nastavení nejdelší chtěné živostnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
-"            Po vypršení skončení platnosti interního TTL je platnost položky mezipaměti ukončena.\n"
-"            Tuto hodnotu lze nastavit tak, aby bylo vynucováno častější dotazování překladu na údaje a\n"
-"            nedůvěřovat (velmi vysokým) hodnotám TTL.\n"
-"        "
+"Nastavení nejdelší chtěné živostnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
+"Po vypršení skončení platnosti interního TTL je platnost položky mezipaměti ukončena.\n"
+"Tuto hodnotu lze nastavit tak, aby bylo vynucováno častější dotazování překladu na údaje a nedůvěřovat (velmi vysokým) hodnotám TTL.        "
 
 #. File: /usr/lang/src/controllers.php, line: 67
 #: 
@@ -50384,12 +50343,10 @@ msgid "\n"
 "            High values can lead to trouble as the data in the cache might not match up with the actual data anymore.\n"
 "        "
 msgstr "\n"
-"            Nastavení nejkratší chtěné životnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
-"            Pokud na tuto hodnotu dojde, budou údaje uloženy v mezipaměti déle, než\n"
-"            vlastník domény zamýšlel a tím bude pro vyhledání údajů prováděno méně dotazů.\n"
-"            Hodnota 0 (nula) zajistí, že data v mezipaměti budou taková, jaká zamýšlel vlastník domény.\n"
-"            Vysoké hodnoty mohou vést k potížím, protože data v mezipaměti už mezitím nemusí odpovídat skutečnosti.\n"
-"        "
+"Nastavení nejkratší chtěné životnosti (v sekundách) pro sady RR a zprávy v mezipaměti.\n"
+"Pokud na tuto hodnotu dojde, budou údaje uloženy v mezipaměti déle, než vlastník domény zamýšlel a tím bude pro vyhledání údajů prováděno méně dotazů.\n"
+"Hodnota 0 (nula) zajistí, že data v mezipaměti budou taková, jaká zamýšlel vlastník domény.\n"
+"Vysoké hodnoty mohou vést k potížím, protože data v mezipaměti už mezitím nemusí odpovídat skutečnosti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 74
 #: 
@@ -50398,9 +50355,7 @@ msgid "\n"
 "            to reconnect in order to add the entry as we use an updown event.\n"
 "        "
 msgstr "\n"
-"            Potomek připojení, ke kterému zaregistrovat tuto ručně vytvořenou položku. Vezměte prosím na vědomí, že vytvořený tunel potřebuje\n"
-"            znovu připojit, aby bylo možné přidat položku, protože je využíváno události updown.\n"
-"        "
+"Potomek připojení, ke kterému zaregistrovat tuto ručně vytvořenou položku. Vezměte prosím na vědomí, že vytvořený tunel potřebuje znovu připojit, aby bylo možné přidat položku, protože je využíváno události updown.        "
 
 #. File: /usr/lang/src/controllers.php, line: 78
 #: 
@@ -50409,9 +50364,8 @@ msgid "\n"
 "            This helps lower the latency of requests but does utilize a little more CPU.\n"
 "        "
 msgstr "\n"
-"            DNSKEY klíče jsou v rámci ověřovacího procesu stahovány dříve, už když se narazí na podepisujícího Delegace.\n"
-"            To pomáhá snížit prodlevy požadavků, ale vytěžuje to o něco více procesor.\n"
-"        "
+"DNSKEY klíče jsou v rámci ověřovacího procesu stahovány dříve, už když se narazí na podepisujícího Delegace.\n"
+"To pomáhá snížit prodlevy požadavků, ale vytěžuje to o něco více procesor.        "
 
 #. File: /usr/lang/src/controllers.php, line: 82
 #: 
@@ -50420,9 +50374,8 @@ msgid "\n"
 "            If this is disabled and no DNSSEC data is received, then the zone is made insecure.\n"
 "        "
 msgstr "\n"
-"            Pro důvěryhodně ukotvené zóny jsou vyžadována DNSSEC data. Pokud tato data chybí, zóna se stane falešnou.\n"
-"            Pokud je tato funkce vypnuta a nejsou přijata žádná DNSSEC data, zóna se stane nezabezpečenou.\n"
-"        "
+"Pro důvěryhodně ukotvené zóny jsou vyžadována DNSSEC data. Pokud tato data chybí, zóna se stane falešnou.\n"
+"Pokud je tato funkce vypnuta a nejsou přijata žádná DNSSEC data, zóna se stane nezabezpečenou.        "
 
 #. File: /usr/lang/src/controllers.php, line: 86
 #: 
@@ -50430,8 +50383,7 @@ msgid "\n"
 "            Debug level for this agents services.\n"
 "        "
 msgstr "\n"
-"            Podrobnost ladících informací pro služby tohoto agenta.\n"
-"        "
+"Podrobnost ladících informací pro služby tohoto agenta.        "
 
 #. File: /usr/lang/src/controllers.php, line: 89
 #: 
@@ -50440,9 +50392,8 @@ msgid "\n"
 "            Not used when \"Return NXDOMAIN\" is checked.\n"
 "        "
 msgstr "\n"
-"            Cílová ip adresa pro položky v seznamu blokovaných (nevyplňujte, pokud chcete použít výchozí: 0.0.0.0).\n"
-"            Nepoužívá se, pokud je zaškrtnuto „Vrátit NXDOMAIN“.\n"
-"        "
+"Cílová ip adresa pro položky v seznamu blokovaných (nevyplňujte, pokud chcete použít výchozí: 0.0.0.0).\n"
+"Nepoužívá se, pokud je zaškrtnuto „Vrátit NXDOMAIN“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 108
 #: 
@@ -50451,9 +50402,7 @@ msgid "\n"
 "            and prevents Wazuh manager from running arbitrary commands on this node.\n"
 "        "
 msgstr "\n"
-"            Umožnit vzdálené příkazy ze sběrače protokolů. Vypnutím této funkce budou ignorovány zdroje protokolů command a full_command\n"
-"            a zabrání správci Wazuh spouštět na tomto uzlu libovolné příkazy.\n"
-"        "
+"Umožnit vzdálené příkazy ze sběrače protokolů. Vypnutím této funkce budou ignorovány zdroje protokolů command a full_command a zabrání správci Wazuh spouštět na tomto uzlu libovolné příkazy.        "
 
 #. File: /usr/lang/src/controllers.php, line: 112
 #: 
@@ -50468,15 +50417,9 @@ msgid "\n"
 "            wrong and which server sent the faulty data.\n"
 "        "
 msgstr "\n"
-"            Nechat validátor vypisovat nezdařilé ověření správnosti do záznamu událostí.\n"
-"            Bez ohledu na nastavení stupně podrobností.  Výchozí hodnota je 0 (nula) – vypnuto.  Při 1,\n"
-"            bude pro každý uživatelský dotaz, který se nezdaří, vypsán řádek do záznamů událostí.\n"
-"            Takto je možné sledovat, co se děje s ověřování správnosti.  Použijte\n"
-"            diagnostický nástroj, například dig nebo drill, abyste zjistili, proč se ověřování\n"
-"             u těchto dotazů nedaří.  Pokud nastaveno na 2, bude zobrazen nejen dotaz, který\n"
-"            se nezdařil, ale také důvod, proč bylo v Unbound vyhodnoceno, že je nesprávně\n"
-"            a který server chybná data odeslal.\n"
-"        "
+"Nechat validátor vypisovat nezdařilé ověření správnosti do záznamu událostí.\n"
+"Bez ohledu na nastavení stupně podrobností.  Výchozí hodnota je 0 (nula) – vypnuto.  Při 1, bude pro každý uživatelský dotaz, který se nezdaří, vypsán řádek do záznamů událostí.\n"
+"Takto je možné sledovat, co se děje s ověřování správnosti.  Použijte diagnostický nástroj, například dig nebo drill, abyste zjistili, proč se věřování u těchto dotazů nedaří. Pokud nastaveno na 2, bude zobrazen nejen dotaz, který se nezdařil, ale také důvod, proč bylo v Unbound vyhodnoceno, že je nesprávně a který server chybná data odeslal.        "
 
 #. File: /usr/lang/src/controllers.php, line: 127
 #: 
@@ -50485,9 +50428,8 @@ msgid "\n"
 "            Leave blank to forward all queries to the specified server (default).\n"
 "        "
 msgstr "\n"
-"            Pokud je zde zadána doména, budou dotazy pro tuto konkrétní doménu přesměrovány na zadaný server.\n"
-"            Pokud nevyplněno, budou všechny dotazy předány na zadaný server (výchozí nastavení).\n"
-"        "
+"Pokud je zde zadána doména, budou dotazy pro tuto konkrétní doménu přesměrovány na zadaný server.\n"
+"Pokud nevyplněno, budou všechny dotazy předány na zadaný server (výchozí nastavení).        "
 
 #. File: /usr/lang/src/controllers.php, line: 135
 #: 
@@ -50497,10 +50439,9 @@ msgid "\n"
 "            This defensive action is to clear the RRSet and message caches, hopefully flushing away any poison.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, sleduje se celkový počet nežádoucích odpovědí v každém vlákně.\n"
-"            Pokud dosáhne prahové hodnoty, bude provedena obranná akce a do souboru se záznamem událostí bude vypsáno varování.\n"
-"            Tato obranná akce spočívá ve vyčištění mezipaměti sad RR a mezipaměti zpráv, čímž snad bude odstraněny veškeré nepatřičnosti.\n"
-"        "
+"Pokud zapnuto, sleduje se celkový počet nežádoucích odpovědí v každém vlákně.\n"
+"Pokud dosáhne prahové hodnoty, bude provedena obranná akce a do souboru se záznamem událostí bude vypsáno varování.\n"
+"Tato obranná akce spočívá ve vyčištění mezipaměti sad RR a mezipaměti zpráv, čímž snad bude odstraněny veškeré nepatřičnosti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 140
 #: 
@@ -50511,10 +50452,8 @@ msgid "\n"
 "            from verbosity.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, budou do záznamu událostí vypsány řádky se zdůvodněním, proč na dotazy bylo klientům vráceno SERVFAIL.\n"
-"            Toto je nezávislé na stupni podrobností záznamů událostí pro ladění, mnohem menší,\n"
-"            a vypisované na stupni chyba, nikoli na stupni informace ladících informací.\n"
-"        "
+"Pokud zapnuto, budou do záznamu událostí vypsány řádky se zdůvodněním, proč na dotazy bylo klientům vráceno SERVFAIL.\n"
+"Toto je nezávislé na stupni podrobností záznamů událostí pro ladění, mnohem menší, a vypisované na stupni chyba, nikoli na stupni informace ladících informací.        "
 
 #. File: /usr/lang/src/controllers.php, line: 146
 #: 
@@ -50524,10 +50463,7 @@ msgid "\n"
 "            also printed for the other types of local zones.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, budou do záznamu událostí vypisovány řádky ohledně akcí v místní zóně. Tyto řádky\n"
-"            jsou podobné těm, které vypisují typ informování o místní zóně, ale jsou\n"
-"            vypisovány i pro ostatní typy místních zón.\n"
-"        "
+"Pokud zapnuto, budou do záznamu událostí vypisovány řádky ohledně akcí v místní zóně. Tyto řádky jsou podobné těm, které vypisují typ informování o místní zóně, ale jsou vypisovány i pro ostatní typy místních zón.        "
 
 #. File: /usr/lang/src/controllers.php, line: 151
 #: 
@@ -50537,10 +50473,8 @@ msgid "\n"
 "            (non-printable) characters in names are printed as '?'.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, bude do záznamu událostí pro každý dotaz zapsán jeden řádek pro každý dotaz s časovým razítkem a IP adresou, názvem, typem a třídou.\n"
-"            Všimněte si, že vypisování těchto řádků trvá dlouho, což server (výrazně) zpomaluje. Nestandardní\n"
-"            (netisknutelné) znaky v názvech budou vypisovány jako „?“.\n"
-"        "
+"Pokud zapnuto, bude do záznamu událostí pro každý dotaz zapsán jeden řádek pro každý dotaz s časovým razítkem a IP adresou, názvem, typem a třídou.\n"
+"Všimněte si, že vypisování těchto řádků trvá dlouho, což server (výrazně) zpomaluje. Nestandardní (netisknutelné) znaky v názvech budou vypisovány jako „?“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 156
 #: 
@@ -50551,11 +50485,8 @@ msgid "\n"
 "            (non-printable) characters in names are printed as '?'.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, bude do záznamu událostí pro každou odpověď zapsán jeden řádek s časovým razítkem a IP adresou, názvem a typem,\n"
-"            třídu, návratový kód, dobu zabranou překladem, zda je odpověď z mezipaměti a velikost odpovědi.\n"
-"            Všimněte si, že vypisování těchto řádků trvá dlouho, což server (výrazně) zpomaluje. Zvláštní\n"
-"            (netisknutelné) znaky v názvech budou vypisovány jako „?“.\n"
-"        "
+"Pokud zapnuto, bude do záznamu událostí pro každou odpověď zapsán jeden řádek s časovým razítkem a IP adresou, názvem a typem, třídu, návratový kód, dobu zabranou překladem, zda je odpověď z mezipaměti a velikost odpovědi.\n"
+"Všimněte si, že vypisování těchto řádků trvá dlouho, což server (výrazně) zpomaluje. Zvláštní (netisknutelné) znaky v názvech budou vypisovány jako „?“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 162
 #: 
@@ -50564,8 +50495,7 @@ msgid "\n"
 "            logs easier.\n"
 "        "
 msgstr "\n"
-"            Pokud zapnuto, vypíše u zaznamenaných dotazů a odpovědí slovo „query: “, resp. „reply: “. Díky tomu se pak v záznamech událostí snáze filtruje.\n"
-"        "
+"Pokud zapnuto, vypíše u zaznamenaných dotazů a odpovědí slovo „query: “, resp. „reply: “. Díky tomu se pak v záznamech událostí snáze filtruje.        "
 
 #. File: /usr/lang/src/controllers.php, line: 166
 #: 
@@ -50575,10 +50505,7 @@ msgid "\n"
 "            but you should not enable it if you are not using WPAD or if you want to configure it by yourself.\n"
 "        "
 msgstr "\n"
-"            Pokud je tato předvolba nastavena, budou automaticky přidány CNAME záznamy pro hostitele WPAD všech nastavených domén.\n"
-"            stejně jako přepsání záznamů TXT pro domény. To umožňuje automatické nastavení proxy serverů v síti\n"
-"            ale neměli byste zapínat, pokud nepoužíváte WPAD nebo pokud toto chcete nastavit sami.\n"
-"        "
+"Pokud je tato předvolba nastavena, budou automaticky přidány CNAME záznamy pro hostitele WPAD všech nastavených domén stejně jako přepsání záznamů TXT pro domény. To umožňuje automatické nastavení proxy serverů v síti ale neměli byste zapínat, pokud nepoužíváte WPAD nebo pokud toto chcete nastavit sami.        "
 
 #. File: /usr/lang/src/controllers.php, line: 171
 #: 
@@ -50587,9 +50514,8 @@ msgid "\n"
 "            This is the default behavior for Unbound, but may be undesired when multiple dynamic interfaces require frequent reloading.\n"
 "        "
 msgstr "\n"
-"            Pokud je tato předvolba nastavena, bude mezipaměť DNS zahozena při každém znovunačtení procesu služby.\n"
-"            Toto je výchozí chování pro Unbound, ale může být nežádoucí, pokud je třeba často načítat více dynamických rozhraní.\n"
-"        "
+"Pokud je tato předvolba nastavena, bude mezipaměť DNS zahozena při každém znovunačtení procesu služby.\n"
+"Toto je výchozí chování pro Unbound, ale může být nežádoucí, pokud je třeba často načítat více dynamických rozhraní.        "
 
 #. File: /usr/lang/src/controllers.php, line: 175
 #: 
@@ -50598,9 +50524,7 @@ msgid "\n"
 "            preventing return of unreachable address when more than one listen interface is configured.\n"
 "        "
 msgstr "\n"
-"            Pokud je tato předvolba nastavena, nebudou místní IPv6 adresy registrovány v Unbound,\n"
-"            zabrání se tak vrácení nedosažitelné adresy, pokud je nastaveno více než jedno rozhraní, na kterém očekávat spojení.\n"
-"        "
+"Pokud je tato předvolba nastavena, nebudou místní IPv6 adresy registrovány v Unbound, zabrání se tak vrácení nedosažitelné adresy, pokud je nastaveno více než jedno rozhraní, na kterém očekávat spojení.        "
 
 #. File: /usr/lang/src/controllers.php, line: 179
 #: 
@@ -50611,11 +50535,10 @@ msgid "\n"
 "            The default behavior is to respond to queries on every available IPv4 and IPv6 address.\n"
 "        "
 msgstr "\n"
-"            IP adresy rozhraní používané pro odpovídání na dotazy klientů.\n"
-"            Pokud má rozhraní jak IPv4. tak IPv6 adresy, budou použity obě.\n"
-"            Dotazy na jiné IP adresy rozhraní, které nejsou vybrány níže, jsou vyřazeny.\n"
-"            Výchozí chování je odpovídat na dotazy na všech dostupných IPv4 a IPv6 adresách.\n"
-"        "
+"IP adresy rozhraní používané pro odpovídání na dotazy klientů.\n"
+"Pokud má rozhraní jak IPv4. tak IPv6 adresy, budou použity obě.\n"
+"Dotazy na jiné IP adresy rozhraní, které nejsou vybrány níže, jsou vyřazeny.\n"
+"Výchozí chování je odpovídat na dotazy na všech dostupných IPv4 a IPv6 adresách.        "
 
 #. File: /usr/lang/src/controllers.php, line: 185
 #: 
@@ -50624,9 +50547,8 @@ msgid "\n"
 "            Active DPD checking is only enforced if no IKE or ESP/AH packet has been received for the configured DPD delay. Defaults to 0s\n"
 "        "
 msgstr "\n"
-"            Interval pro kontrolu živosti partnera, který aktivně používá výměny IKEv2 INFORMATIONAL nebo zprávy IKEv1 R_U_THERE.\n"
-"            Aktivní kontrola DPD je vynucena pouze v případě, že po dobu nastavené prodlevy DPD nebyl přijat žádný paket IKE nebo ESP/AH. Výchozí hodnota je 0s\n"
-"        "
+"Interval pro kontrolu živosti partnera, který aktivně používá výměny IKEv2 INFORMATIONAL nebo zprávy IKEv1 R_U_THERE.\n"
+"Aktivní kontrola DPD je vynucena pouze v případě, že po dobu nastavené prodlevy DPD nebyl přijat žádný paket IKE nebo ESP/AH. Výchozí hodnota je 0s        "
 
 #. File: /usr/lang/src/controllers.php, line: 189
 #: 
@@ -50636,10 +50558,7 @@ msgid "\n"
 "            they are marked as down for the duration of the host cache TTL.\n"
 "        "
 msgstr "\n"
-"            Pokračovat v prověřování hostitelů, kteří jsou v mezipaměti hostitelů infrastruktury ve stavu nedostpný. Hostitelé, kteří jsou nedostupní, jsou sondováni\n"
-"            přibližně každých 120 sekund s exponenciální zpětnou vazbou. Pokud hostitelé během této doby neodpoví,\n"
-"            jsou označeny jako nefunkční po dobu trvání TTL mezipaměti hostitelů.\n"
-"        "
+"Pokračovat v prověřování hostitelů, kteří jsou v mezipaměti hostitelů infrastruktury ve stavu nedostpný. Hostitelé, kteří jsou nedostupní, jsou sondováni přibližně každých 120 sekund s exponenciální zpětnou vazbou. Pokud hostitelé během této doby neodpoví, jsou označeny jako nefunkční po dobu trvání TTL mezipaměti hostitelů.        "
 
 #. File: /usr/lang/src/controllers.php, line: 197
 #: 
@@ -50648,9 +50567,8 @@ msgid "\n"
 "            A value of 0 disables the limit. A suggested value per RFC 8767\tis between 86400 (1 day) and 259200 (3\tdays).\n"
 "        "
 msgstr "\n"
-"            Omezí doručování odpovědí se skončenou platností na nastavený počet sekund po skončení platnosti.\n"
-"            Hodnota 0 tento limit vypne. Doporučená hodnota podle normy RFC 8767 je mezi 86400 (1 den) a 259200 (3 dny).\n"
-"        "
+"Omezí doručování odpovědí se skončenou platností na nastavený počet sekund po skončení platnosti.\n"
+"Hodnota 0 tento limit vypne. Doporučená hodnota podle normy RFC 8767 je mezi 86400 (1 den) a 259200 (3 dny).        "
 
 #. File: /usr/lang/src/controllers.php, line: 201
 #: 
@@ -50659,9 +50577,7 @@ msgid "\n"
 "            private addresses.\n"
 "        "
 msgstr "\n"
-"            Seznam domén, které chcete označit jako soukromé. Tyto domény a všechny jejich subdomény\n"
-"            budou moci obsahovat soukromé adresy.\n"
-"        "
+"Seznam domén, které chcete označit jako soukromé. Tyto domény a všechny jejich subdomény budou moci obsahovat soukromé adresy.        "
 
 #. File: /usr/lang/src/controllers.php, line: 205
 #: 
@@ -50671,10 +50587,9 @@ msgid "\n"
 "            Note that the order in which they are queried primarily depends on the plugin order.\n"
 "        "
 msgstr "\n"
-"            Seznam nazvaných fondů IP, ze kterých jsou přidělovány virtuální IP adresy a další atributy nastavení.\n"
-"            Každý název odkazuje na fond podle názvu ze sekce pools nebo na externí fond.\n"
-"            Všimněte si, že pořadí, v jakém jsou dotazovány, závisí především na pořadí zásuvných modulů.\n"
-"        "
+"Seznam nazvaných fondů IP, ze kterých jsou přidělovány virtuální IP adresy a další atributy nastavení.\n"
+"Každý název odkazuje na fond podle názvu ze sekce pools nebo na externí fond.\n"
+"Všimněte si, že pořadí, v jakém jsou dotazovány, závisí především na pořadí zásuvných modulů.        "
 
 #. File: /usr/lang/src/controllers.php, line: 210
 #: 
@@ -50682,8 +50597,7 @@ msgid "\n"
 "            List of networks in CIDR notation to apply this ACL on. For example: 192.168.1.0/24.\n"
 "        "
 msgstr "\n"
-"            Seznam sítí (v CIDR zápisu), na které má být tento ACL seznam použit. Například: 192.168.1.0/24.\n"
-"        "
+"Seznam sítí (v CIDR zápisu), na které má být tento ACL seznam použit. Například: 192.168.1.0/24.        "
 
 #. File: /usr/lang/src/controllers.php, line: 213
 #: 
@@ -50692,8 +50606,7 @@ msgid "\n"
 "            be blocked. Blocking first-level domains is not supported.\n"
 "        "
 msgstr "\n"
-"            Seznam domén se zástupnými znaky pro blokování. Všechny subdomény dané domény budou blokovány. Blokování domén první úrovně není podporováno.\n"
-"        "
+"Seznam domén se zástupnými znaky pro blokování. Všechny subdomény dané domény budou blokovány. Blokování domén první úrovně není podporováno.        "
 
 #. File: /usr/lang/src/controllers.php, line: 217
 #: 
@@ -50703,10 +50616,8 @@ msgid "\n"
 "            on the server, but frequently requested items will not expire from the cache.\n"
 "        "
 msgstr "\n"
-"            Prvky mezipaměti zpráv jsou před skončením platnosti přednačítány, aby byla mezipaměť udržována aktuální.\n"
-"            Pokud je tato volba zapnutá, může způsobit zvýšení DNS provozu a vytížení serveru\n"
-"            o přibližně 10%, ale často požadovaným položkám v mezipaměti díky tomu neskončí platnost.\n"
-"        "
+"Prvky mezipaměti zpráv jsou před skončením platnosti přednačítány, aby byla mezipaměť udržována aktuální.\n"
+"Pokud je tato volba zapnutá, může způsobit zvýšení DNS provozu a vytížení serveru o přibližně 10%, ale často požadovaným položkám v mezipaměti díky tomu neskončí platnost.        "
 
 #. File: /usr/lang/src/controllers.php, line: 222
 #: 
@@ -50714,8 +50625,7 @@ msgid "\n"
 "            Number of hosts for which information is cached.\n"
 "        "
 msgstr "\n"
-"            Počet hostitelů, pro které jsou informace ukládány v mezipaměti.\n"
-"        "
+"Počet hostitelů, pro které jsou informace ukládány v mezipaměti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 242
 #: 
@@ -50724,9 +50634,7 @@ msgid "\n"
 "            to reconnect in order to add the entry as we use an updown event.\n"
 "        "
 msgstr "\n"
-"            Reqid kterým zaregistrovat tento ruční požadavek. Pamatujte, že v případě už navázaného tunelu, aby bylo možné přidat položku, je potřeba ho znovu\n"
-"            připojit (protože je využívána událost updown).\n"
-"        "
+"Reqid kterým zaregistrovat tento ruční požadavek. Pamatujte, že v případě už navázaného tunelu, aby bylo možné přidat položku, je potřeba ho znovu připojit (protože je využívána událost updown).        "
 
 #. File: /usr/lang/src/controllers.php, line: 246
 #: 
@@ -50735,9 +50643,7 @@ msgid "\n"
 "            active-response action.\n"
 "        "
 msgstr "\n"
-"            Vyberte alternativní název, ze kterého mají být při akci opnsense-fw active-response ignorovány  \n"
-"            položky při zahazování ip active-response.\n"
-"        "
+"Vyberte alternativní název, ze kterého mají být při akci opnsense-fw active-response ignorovány  položky při zahazování ip active-response.        "
 
 #. File: /usr/lang/src/controllers.php, line: 250
 #: 
@@ -50747,10 +50653,13 @@ msgid "\n"
 "            Level 4 gives algorithm level information. Level 5 logs client identification for cache misses.\n"
 "        "
 msgstr "\n"
-"            Zvolte stupeň podrobnosti záznamu událostí. Úroveň 0 znamená, že žádné pdorobnosti, pouze chyby. Úroveň 1 poskytuje provozní informace.\n"
-"            Úroveň 2 poskytuje podrobné provozní informace. Úroveň 3 poskytuje informace na úrovni dotazu, výstup pro jednotlivé dotazy.\n"
-"            Úroveň 4 poskytuje informace na úrovni algoritmu. Úroveň 5 zaznamenává identifikaci klienta v případech, kdy data nebyla nalezena v mezipaměti.\n"
-"        "
+"Zvolte stupeň podrobnosti záznamu událostí.\n"
+"Úroveň 0 znamená, že žádné pdorobnosti, pouze chyby.\n"
+"Úroveň 1 poskytuje provozní informace.\n"
+"Úroveň 2 poskytuje podrobné provozní informace.\n"
+"Úroveň 3 poskytuje informace na úrovni dotazu, výstup pro jednotlivé dotazy.\n"
+"Úroveň 4 poskytuje informace na úrovni algoritmu.\n"
+"Úroveň 5 zaznamenává identifikaci klienta v případech, kdy data nebyla nalezena v mezipaměti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 255
 #: 
@@ -50761,11 +50670,9 @@ msgid "\n"
 "            whenever certificate-based authentication is used.\n"
 "        "
 msgstr "\n"
-"            Odesílat obsahy certifikátů při použití ověřování pomocí certifikátů.\n"
-"            Při výchozí hodnotě [ifasked] proces služby odesílá obsahy certifikátů pouze v případě, že byly přijaty žádosti o certifikát.\n"
-"            [never] zcela vypne odesílání obsahu certifikátů, zatímco [always] způsobí, že obsahy certifikátů budou odesílány bezpodmínečně,\n"
-"            kdykoli je použito ověřování založené na certifikátu.\n"
-"        "
+"Odesílat obsahy certifikátů při použití ověřování pomocí certifikátů.\n"
+"Při výchozí hodnotě [ifasked] proces služby odesílá obsahy certifikátů pouze v případě, že byly přijaty žádosti o certifikát.\n"
+"[never] zcela vypne odesílání obsahu certifikátů, zatímco [always] způsobí, že obsahy certifikátů budou odesílány bezpodmínečně, kdykoli je použito ověřování založené na certifikátu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 261
 #: 
@@ -50776,11 +50683,9 @@ msgid "\n"
 "            Only use if you know what you are doing.\n"
 "        "
 msgstr "\n"
-"            Odesílat na nadřazené servery jen zcela nezbytné informace a zlepšit tak ochranu soukromí.\n"
-"            Neodesílat náhradně úplné QNAME na potenciálně nefunkční jmenné servery.\n"
-"            Mnoho domén nebude při zapnutí této možnosti přeložitelných.\n"
-"            Použijte pouze v případě, že víte, co děláte.\n"
-"        "
+"Odesílat na nadřazené servery jen zcela nezbytné informace a zlepšit tak ochranu soukromí.\n"
+"Neodesílat náhradně úplné QNAME na potenciálně nefunkční jmenné servery.\n"
+"Mnoho domén nebude při zapnutí této možnosti přeložitelných. Použijte pouze v případě, že víte, co děláte.       "
 
 #. File: /usr/lang/src/controllers.php, line: 267
 #: 
@@ -50789,9 +50694,8 @@ msgid "\n"
 "            The TTL can be modified with \"Expired Record Reply TTL value\"\n"
 "        "
 msgstr "\n"
-"            Podávat odpovědi z mezipaměti i když jejich platnost skončila (s TTL 0) a nečekat na výsledek dotazu na nadřazený DNS server.\n"
-"            TTL lze upravit pomocí položky „TTL hodnota odpovědi prošlým záznamem“\n"
-"        "
+"Podávat odpovědi z mezipaměti i když jejich platnost skončila (s TTL 0) a nečekat na výsledek dotazu na nadřazený DNS server.\n"
+"TTL lze upravit pomocí položky „TTL hodnota odpovědi prošlým záznamem“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 271
 #: 
@@ -50801,11 +50705,7 @@ msgid "\n"
 "            as there are queries for it.\n"
 "        "
 msgstr "\n"
-"            Po neúspěšném pokusu o načtení z nadřazeného serveru, nastavovat TTL u záznamů,\n"
-"            kterým skončila platnost, na hodnotu „TTL pro odpovědi se skončenou platností“.\n"
-"            Tím bude zajištěno, že záznamy, kterým skončila platnost, budou obsluhovány tak dlouho, dokud\n"
-"            na ně budou existovat dotazy.\n"
-"        "
+"Po neúspěšném pokusu o načtení z nadřazeného serveru, nastavovat TTL u záznamů, kterým skončila platnost, na hodnotu „TTL pro odpovědi se skončenou platností“. Tím bude zajištěno, že záznamy, kterým skončila platnost, budou obsluhovány tak dlouho, dokud na ně budou existovat dotazy.        "
 
 #. File: /usr/lang/src/controllers.php, line: 276
 #: 
@@ -50814,9 +50714,7 @@ msgid "\n"
 "            with 'k', 'm', or 'g' for kilobytes, megabytes or gigabytes respectively.\n"
 "        "
 msgstr "\n"
-"            Velikost mezipaměti RRset. Obsahuje aktuální data RR. Platným vstupem je prosté číslo (bajty),\n"
-"            volitelně doplněné o příponu „k“, „m“ nebo „g“ pro kilobajty, megabajty nebo gigabajty.\n"
-"        "
+"Velikost mezipaměti RRset. Obsahuje aktuální data RR. Platným vstupem je prosté číslo (bajty), volitelně doplněné o příponu „k“, „m“ nebo „g“ pro kilobajty, megabajty nebo gigabajty.        "
 
 #. File: /usr/lang/src/controllers.php, line: 280
 #: 
@@ -50826,10 +50724,8 @@ msgid "\n"
 "            or gigabytes respectively.\n"
 "        "
 msgstr "\n"
-"            Velikost mezipaměti zpráv. Do vyrovnávací paměti zpráv jsou ukládány DNS rkódy a stavy ověřování.\n"
-"            Platným vstupem je prosté číslo (bajty), volitelně doplněné o příponu  „k“, „m“ nebo „g“\n"
-"             pro kilobajty, megabajty nebo gigabajty.\n"
-"        "
+"Velikost mezipaměti zpráv. Do vyrovnávací paměti zpráv jsou ukládány DNS rkódy a stavy ověřování.\n"
+"Platným vstupem je prosté číslo (bajty), volitelně doplněné o příponu  „k“, „m“ nebo „g“ pro kilobajty, megabajty nebo gigabajty.        "
 
 #. File: /usr/lang/src/controllers.php, line: 285
 #: 
@@ -50847,7 +50743,7 @@ msgid "\n"
 "            then it is recommended to use 30 as the value as per RFC 8767.\n"
 "        "
 msgstr "\n"
-"Hodnota TTL, kterou použít při odpovědi údaji, kterým už skončila platnost. Pokud je použita také předvolba „Časový limit prošlé odpovědi klientovi“, pak se doporučuje použít hodnotu 30 (viz norma RFC 8767).        "
+"Hodnota TTL, kterou použít při odpovědi údaji, kterým skončila platnost. Pokud je použita také předvolba „Časový limit prošlé odpovědi klientovi“, pak se doporučuje použít hodnotu 30 (viz norma RFC 8767).        "
 
 #. File: /usr/lang/src/controllers.php, line: 293
 #: 
@@ -50857,10 +50753,9 @@ msgid "\n"
 "            Leave empty to accept self-signed yet also potentially fraudulent certificates.\n"
 "        "
 msgstr "\n"
-"            Běžný název DNS serveru (např. dns.example.com). Tato kolonka je nutná pro ověření jeho TLS certifikátu.\n"
-"            DNS-over-TLS je náchylné k útokům typu „někdo uprostřed“ (MitM), pokud nelze certifikáty ověřit.\n"
-"            Pokud chcete, aby byly přijímány samy sebou podepsané certifikáty (ale také potenciálně podvodné), nevyplňujte.\n"
-"        "
+"Běžný název DNS serveru (např. dns.example.com). Tato kolonka je nutná pro ověření jeho TLS certifikátu.\n"
+"Pokud certifikáty nelze ověřit, je DNS-over-TLS je náchylné k útokům typu „někdo uprostřed“ (MitM).\n"
+"Pokud chcete, aby byly přijímány samy sebou podepsané certifikáty (ale také potenciálně podvodné), nevyplňujte.        "
 
 #. File: /usr/lang/src/controllers.php, line: 298
 #: 
@@ -50870,10 +50765,7 @@ msgid "\n"
 "            DNS over TLS will never be used for any query bound for a system nameserver.\n"
 "        "
 msgstr "\n"
-"            Nastavené systémové jmenné servery budou použity k předávání dotazů.\n"
-"            Toto přepíší libovolnou položku v níže uvedené mřížce, s výjimkou položek s konkrétní doménou.\n"
-"            DNS přes TLS se nikdy nepoužije pro žádný dotaz vázaný na systémový jmenný server.\n"
-"        "
+"Dotazy budou předávány na DNS servery, nastavené v systému. Toto přebíjí libovolnou položku v níže uvedené mřížce, s výjimkou položek s konkrétní doménou. DNS přes TLS se nikdy nepoužije pro žádný dotaz vázaný na systémový DNS server.        "
 
 #. File: /usr/lang/src/controllers.php, line: 303
 #: 
@@ -50882,10 +50774,7 @@ msgid "\n"
 "            If 0 is selected then no TCP queries, from clients, are accepted.\n"
 "        "
 msgstr "\n"
-"            Počet vyrovnávacích pamětí pro TCP, které přidělovat\n"
-"            jednotlivým vláknům. Pokud je vybrána hodnota 0, nejsou\n"
-"            přijímány žádné TCP dotazy od klientů.\n"
-"        "
+"Počet vyrovnávacích pamětí pro TCP, které přidělovat jednotlivým vláknům. Pokud je vybrána hodnota 0, nejsou přijímány žádné TCP dotazy od klientů.        "
 
 #. File: /usr/lang/src/controllers.php, line: 307
 #: 
@@ -50894,9 +50783,7 @@ msgid "\n"
 "            If 0 is selected then no TCP queries, to authoritative servers, are done.\n"
 "        "
 msgstr "\n"
-"            Počet vyrovnávacích pamětí pro odchozí TCP, které mají být přiděleny jednomu vláknu.\n"
-"            Pokud je vybrána hodnota 0, neprovádějí se žádné TCP dotazy na autoritativní servery.\n"
-"        "
+"Počet vyrovnávacích pamětí pro odchozí TCP, které mají být přiděleny jednomu vláknu. Pokud je vybrána hodnota 0, neprovádějí se žádné TCP dotazy na autoritativní servery.        "
 
 #. File: /usr/lang/src/controllers.php, line: 311
 #: 
@@ -50906,10 +50793,9 @@ msgid "\n"
 "            For reference, usually double the amount of queries per thread is used.\n"
 "        "
 msgstr "\n"
-"            Počet portů, které mají být otevřeny. Pro každé z vláken pak lze otevřít tento počet popisovačů souborů.\n"
-"            Vyšší počty vyžadují více prostředků operačního systému. Pro síťovou propustnost je nejlepší velmi velká hodnota.\n"
-"            Pro informaci, obvykle se používá dvojnásobek počtu dotazů na vlákno.\n"
-"        "
+"Počet portů, které mají být otevřeny. Pro každé z vláken pak lze otevřít tento počet popisovačů souborů.\n"
+"Vyšší počty vyžadují více prostředků operačního systému. Pro síťovou propustnost je nejlepší velmi velká hodnota.\n"
+"Pro informaci, obvykle se používá dvojnásobek počtu dotazů na vlákno.        "
 
 #. File: /usr/lang/src/controllers.php, line: 316
 #: 
@@ -50920,11 +50806,7 @@ msgid "\n"
 "            server time to work on the existing queries.\n"
 "        "
 msgstr "\n"
-"            Počet dotazů, které bude každé vlákno obsluhovat souběžně. Pokud přijde více dotazů, než je\n"
-"            je třeba obsloužit, a žádné dotazy nelze vyřadit (viz „Jostle Timeout\"),\n"
-"            pak jsou tyto dotazy vyřazeny. To nutí klienta po uplynutí časového limitu znovu odeslat, což umožňuje\n"
-"            serveru čas na práci se stávajícími dotazy.\n"
-"        "
+"Počet dotazů, které bude každé vlákno obsluhovat souběžně. Pokud přijde více dotazů, než je třeba obsloužit, a žádné dotazy nelze vytlačit (viz „Časový limit vytlačení\"), pak jsou tyto dotazy zahozeny. To nutí klienta po uplynutí časového limitu znovu odeslat, což serveru poskytuje čas na zpracování stávajících dotazů.        "
 
 #. File: /usr/lang/src/controllers.php, line: 322
 #: 
@@ -50945,12 +50827,7 @@ msgid "\n"
 "            slow queries or high query rates.\n"
 "        "
 msgstr "\n"
-"            Tento časový limit je použít v případě, že je server velmi vytížen. Nastavte na hodnotu, která obvykle vede k jednomu\n"
-"            kolečku tam-zpět na autoritativní servery. Pokud přijde příliš mnoho dotazů, je  50 % dotazů dovoleno\n"
-"            dokončit a zbylých 50 % je nahrazeno novým příchozím dotazem, pokud\n"
-"            už strávily více času, než je povoleno. Tím se chrání před odepření služby\n"
-"            pomalými dotazy nebo jejich vysokým počtem.\n"
-"        "
+"Tento časový limit je použít v případě, že je server velmi vytížen. Nastavte na hodnotu, která obvykle vede k jednomu kolečku tam-zpět na autoritativní servery. Pokud přijde příliš mnoho dotazů, je  50 % dotazů dovoleno dokončit a zbylých 50 % je nahrazeno novým příchozím dotazem, pokud už strávily více času, než je povoleno. Toto chrání před útoky typu „odepření služby“ pomalými dotazy nebo jejich vysokým počtem.        "
 
 #. File: /usr/lang/src/controllers.php, line: 338
 #: 
@@ -50959,9 +50836,7 @@ msgid "\n"
 "            and EDNS support information.\n"
 "        "
 msgstr "\n"
-"            Doba platnosti (v sekundách) pro záznamy v mezipaměti hostitele. Hostitelská mezipaměť obsahuje časování okružní cesty, nepřesvědčivosti\n"
-"            a informace o podpoře EDNS.\n"
-"        "
+"Doba platnosti (v sekundách) pro záznamy v mezipaměti hostitele. Hostitelská mezipaměť obsahuje časování okružní cesty, nepřesvědčivosti a informace o podpoře EDNS.        "
 
 #. File: /usr/lang/src/controllers.php, line: 342
 #: 
@@ -50974,13 +50849,11 @@ msgid "\n"
 "            Enabling it usually may lead to small connection interruptions as strongSwan uses a break-before-make policy with IKEv2 by default.\n"
 "        "
 msgstr "\n"
-"            Doba pro naplánování opětovné ověření IKE.\n"
-"            Opětovné ověření IKE znovu vytvoří IKE/ISAKMP SA od začátku a znovu vyhodnotí pověření.\n"
-"            V asymetrických uspořádáních (nesoucími EAP nebo nastavení) nemusí být možné aktivně provést opětovné ověření jako odpovídač.\n"
-"            Vyjednávání o době životnosti opětovného ověření IKEv2 může dát klientovi pokyn k provedení opětovného ověření.\n"
-"            Ve výchozím nastavení je opětovné ověřování vypnuto (0).\n"
-"            Jeho zapnutí může obvykle vést k malým přerušením spojení, protože strongSwan ve výchozím nastavení v případě IKEv2 používá zásadu break-before-make.\n"
-"        "
+"Doba pro naplánování opětovného ověření IKE.\n"
+"Opětovné ověření IKE znovu vytvoří IKE/ISAKMP SA od začátku a znovu vyhodnotí pověření.\n"
+"V asymetrických uspořádáních (nesoucími EAP nebo nastavení) nemusí být možné aktivně provést opětovné ověření jako odpovídač.\n"
+"Vyjednávání o době životnosti opětovného ověření IKEv2 může dát klientovi pokyn k provedení opětovného ověření.\n"
+"Ve výchozím nastavení je opětovné ověřování vypnuto (0). Jeho zapnutí může obvykle vést k malým přerušením spojení, protože strongSwan ve výchozím nastavení v případě IKEv2 používá zásadu break-before-make.        "
 
 #. File: /usr/lang/src/controllers.php, line: 350
 #: 
@@ -50988,8 +50861,7 @@ msgid "\n"
 "            Toggles whether Command Module should accept commands defined in the shared configuration or not.\n"
 "        "
 msgstr "\n"
-"            Vypíná/zapíná přijímání příkazů, definovaných ve sdíleném nastavení, příkazovým modulem.\n"
-"        "
+"Vypíná/zapíná přijímání příkazů, definovaných ve sdíleném nastavení, příkazovým modulem.        "
 
 #. File: /usr/lang/src/controllers.php, line: 353
 #: 
@@ -50999,7 +50871,8 @@ msgid "\n"
 "            all are assumed to use tcp only.\n"
 "        "
 msgstr "\n"
-"Upstream dotazy používají pro přenos pouze protokol TCP bez ohledu na globální příznak tcp-upstream. Všimněte si, že toto nastavení se vztahuje na doménu, takže pokud je pro stejnou doménu definováno více přeposílačů pedpokládá se, že všechny používají pouze tcp.        "
+"Upstream dotazy používají pro přenos pouze protokol TCP bez ohledu na globální příznak tcp-upstream.\n"
+"Všimněte si, že toto nastavení se vztahuje na doménu, takže pokud je pro stejnou doménu definováno více přeposílačů pedpokládá se, že všechny používají pouze tcp.        "
 
 #. File: /usr/lang/src/controllers.php, line: 358
 #: 
@@ -51017,12 +50890,10 @@ msgid "\n"
 "            source network, usually the networks you would like to accept using network address translation.\n"
 "        "
 msgstr "\n"
-"            zdrojová síť – obvykle sítě, které chcete přijmout pomocí překladu síťových adres (nat).\n"
-"        "
+"zdrojová síť – obvykle sítě, které chcete přijmout pomocí překladu síťových adres (nat).        "
 
 #. File: /usr/lang/src/controllers.php, line: 365
 #: 
-#, fuzzy
 msgid "\n"
 "          A proposal is a set of algorithms.\n"
 "          For non-AEAD algorithms this includes IKE an encryption algorithm, an integrity algorithm,\n"
@@ -51036,13 +50907,12 @@ msgid "\n"
 "        "
 msgstr "\n"
 "Návrh je sada algoritmů.\n"
-"   V případě těch, které nejsou algoritmy AEAD, toto zahrnuje IKE šifrovací algoritmus, algoritmus integrity, pseudonáhodnou funkci (PRF) a Diffie-Hellmanovu skupinu pro výměnu klíčů.\n"
-"   V případě AEAD algoritmů je namísto šifrovacích a integritních algoritmů používán kombinovaný algoritmus.\n"
-"   V případě IKEv2 lze v jednom návrhu zadat vícero algoritmů stejného druhu, ze kterých je pak jeden vybrán.\n"
-"   V případě IKEv1 je v jednom návrhu povolen pouze jeden algoritmus jednoho druhu – další algoritmy jsou výslovně odstraňovány.\n"
-"   Pokud je třeba v případě IKEv1 nabídnout různé kombinace algoritmů, je třeba použít několik návrhů. Klíčová slova algoritmů oddělujte pomlčkami.\n"
-"   Jednotlivé návrhy je možné oddělovat čárkami.\n"
-"   Speciální hodnota „default“ přidává výchozí návrh podporovaných algoritmů, které jsou považovány za bezpečné a obvykle jsou dobrou volbou pro interoperabilitu.        "
+"V případě těch, které nejsou algoritmy AEAD, toto zahrnuje IKE (šifrovací algoritmus), algoritmus integrity, pseudonáhodnou funkci (PRF) a Diffie-Hellmanovu skupinu pro výměnu klíčů.\n"
+"V případě AEAD algoritmů je namísto šifrovacích a integritních algoritmů používán kombinovaný.\n"
+"V případě IKEv2 lze v jednom návrhu zadat vícero algoritmů stejného druhu, ze kterých je pak jeden vybrán.\n"
+"V případě IKEv1 je v jednom návrhu povolen pouze jeden algoritmus jednoho druhu – další algoritmy jsou výslovně odstraňovány.\n"
+"Pokud je třeba v případě IKEv1 nabídnout různé kombinace algoritmů, je třeba použít několik návrhů. Klíčová slova algoritmů oddělujte pomlčkami. Jednotlivé návrhy je možné oddělovat čárkami.\n"
+"Speciální hodnota „default“ přidává výchozí návrh podporovaných algoritmů, které jsou považovány za bezpečné a obvykle je dobrou volbou pro interoperabilitu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 376
 #: 
@@ -51058,14 +50928,12 @@ msgid "\n"
 "        "
 msgstr "\n"
 "Akce, která bude provedena po uzavření CHILD_SA partnerem.\n"
-"          Výchozí hodnota none neprovede žádnou akci.\n"
-"          trap nainstaluje zásadu trap pro CHILD_SA (všimněte si, že je to zbytečné, pokud start_action obsahuje trap).\n"
-"          start se pokusí okamžitě znovu vytvořit CHILD_SA.\n"
+"Výchozí hodnota „none“ neprovede žádnou akci.\n"
+"trap nainstaluje zásadu trap pro CHILD_SA (všimněte si, že je to zbytečné, pokud start_action obsahuje trap).\n"
+"start se pokusí okamžitě znovu vytvořit CHILD_SA.\n"
 "\n"
-"          close_action neposkytuje žádnou záruku, že CHILD_SA zůstane aktivní.\n"
-"          Působí pouze na výslovné zprávy o uzavření, ale ne na nezdar při dojednávání.\n"
-"          Pro spolehlivé znovuvytvoření neúspěšných CHILD_SA použijte zásady trap.\n"
-"        "
+"close_action neposkytuje žádnou záruku, že CHILD_SA zůstane aktivní. Působí pouze na výslovné zprávy o uzavření, ale ne na nezdar při dojednávání.\n"
+"Pro spolehlivé znovuvytváření neúspěšných CHILD_SA použijte zásady trap.        "
 
 #. File: /usr/lang/src/controllers.php, line: 386
 #: 
@@ -51077,12 +50945,11 @@ msgid "\n"
 "          To immediately initiate a connection for which trap policies have been installed, user Trap+start.\n"
 "        "
 msgstr "\n"
-"          Akce, kterou provést po načtení nastavení.\n"
-"          Výchozí hodnota „none“ (žádná) pouze načte připojení, které pak lze ručně iniciovat nebo použít jako nastavení odpovídače.\n"
-"          Hodnota „trap“ nainstaluje zásadu trap, která spustí tunel, jakmile byl zjištěn odpovídající provoz.\n"
-"          Hodnota „start“ aktivně iniciuje spojení.\n"
-"          Pokud chcete okamžitě iniciovat spojení, pro které byly nainstalovány zásady trap, použijte hodnotu Trap+start.\n"
-"        "
+"Akce, kterou provést po načtení nastavení.\n"
+"Výchozí hodnota „none“ (žádná) pouze načte připojení, které pak lze ručně iniciovat nebo použít jako nastavení odpovídače.\n"
+"Hodnota „trap“ nainstaluje zásadu trap, která spustí tunel, jakmile byl zjištěn odpovídající provoz.\n"
+"Hodnota „start“ aktivně iniciuje spojení.\n"
+"Pokud chcete okamžitě iniciovat spojení, pro které byly nainstalovány zásady trap, použijte hodnotu Trap+start.        "
 
 #. File: /usr/lang/src/controllers.php, line: 393
 #: 
@@ -51094,12 +50961,11 @@ msgid "\n"
 "          restart immediately tries to re-negotiate the CHILD_SA under a fresh IKE_SA.\n"
 "        "
 msgstr "\n"
-"          Akce, která má být provedeno pro tento CHILD_SA po překročení časového limitu DPD.\n"
-"          Výchozí vymazání uzavře CHILD_SA a neprovede žádnou další akci.\n"
-"          trap nainstaluje zásadu trap, která zachytí odpovídající přenosy a pokusí se na vyžádání znovu vyjednat tunel.\n"
-"          (všimněte si, že tato funkce je zbytečná, pokud start_action obsahuje trap.\n"
-"          restart se okamžitě pokusí znovu vyjednat CHILD_SA pod novou IKE_SA.\n"
-"        "
+"Akce, která má být provedena pro tento CHILD_SA po překročení časového limitu DPD.\n"
+" Výchozí „vyčistit“ uzavře CHILD_SA a neprovede žádnou další akci.\n"
+" „trap“ nainstaluje zásadu trap, která zachytí odpovídající přenosy a pokusí se na vyžádání znovu vyjednat tunel.\n"
+" (všimněte si, že tato funkce je zbytečná, pokud start_action obsahuje trap.\n"
+" restart se okamžitě pokusí znovu vyjednat CHILD_SA pod novou IKE_SA.        "
 
 #. File: /usr/lang/src/controllers.php, line: 400
 #: 
@@ -51110,11 +50976,9 @@ msgid "\n"
 "          This option has no effect on IKEv2 connections\n"
 "        "
 msgstr "\n"
-"          Charon ve výchozím nastavení používá ke kontrole živosti protějšku běžný mechanismus opakovaného přenosu a časové limity,\n"
-"          protože pro kontrolu životaschopnosti se používají všechny zprávy.\n"
-"          Z důvodů kompatibility s IKEv1 lze zadat vlastní interval.\n"
-"          Tato volba nemá žádný vliv na připojení IKEv2.\n"
-"        "
+"Charon ve výchozím nastavení používá ke kontrole živosti protějšku běžný mechanismus opakovaného přenosu a časové limity, protože pro kontrolu životaschopnosti se používají všechny zprávy.\n"
+"Z důvodů kompatibility s IKEv1 lze zadat vlastní interval.\n"
+"Tato volba nemá žádný vliv na připojení IKEv2.        "
 
 #. File: /usr/lang/src/controllers.php, line: 406
 #: 
@@ -51124,10 +50988,9 @@ msgid "\n"
 "          This allows a passive attacker to snoop peer identities and even worse, start dictionary attacks on the Preshared Key\n"
 "        "
 msgstr "\n"
-"          Povolí agresivní režim IKEv1 místo hlavního režimu IKEv1 s ochranou identity.\n"
-"          Agresivní režim je považován za méně bezpečný, protože užitečné soubory ID a HASH jsou vyměňovány bez ochrany.\n"
-"          To umožňuje pasivnímu útočníkovi slídit po identitách partnerů a co hůř, zahájit slovníkové útoky na předsdílený klíč.\n"
-"        "
+"Povolí agresivní režim IKEv1 namísto hlavního režimu IKEv1 s ochranou identity.\n"
+"Agresivní režim je považován za méně bezpečný, protože výměna datových nákladů ID a HASH probíhají bez ochrany.\n"
+"To umožňuje pasivnímu útočníkovi slídit po identitách partnerů a co hůř, zahájit slovníkové útoky na předsdílený klíč.        "
 
 #. File: /usr/lang/src/controllers.php, line: 411
 #: 
@@ -51140,13 +51003,11 @@ msgid "\n"
 "          Some implementations don’t like this behavior, hence it can be disabled\n"
 "        "
 msgstr "\n"
-"          Povolí MOBIKE u IKEv2 připojení.\n"
-"          MOBIKE je ve výchozím nastavení povolen u připojení IKEv2 a umožňuje mobilitu klientů a multi-homing na serverech\n"
-"          migrací aktivních IPsec tunelů.\n"
-"          Obvykle je ponechání zapnutého MOBIKE bezproblémové, protože se nepoužívá, pokud partner neoznačí jeho podporu.\n"
-"          Vzhledem k návrhu MOBIKE však IKEv2 vždy pluje na port UDP 4500 počínaje druhou výměnou.\n"
-"          Některým implementacím se toto chování nelíbí, proto jej lze zakázat\n"
-"        "
+"Povolí MOBIKE u IKEv2 připojení.\n"
+"MOBIKE je ve výchozím nastavení povolen u připojení IKEv2 a umožňuje mobilitu klientů a multi-homing na serverech migrací aktivních IPsec tunelů.\n"
+"Obvykle je ponechání zapnutého MOBIKE bezproblémové, protože se nepoužívá, pokud partner neoznačuje jeho podporu.\n"
+"Nicméně, vzhledem k tomu, jak je MOBIKE navržené, však IKEv2 vždy pluje na port UDP 4500 a to počínaje druhou výměnou.\n"
+"Některým implementacím se toto chování nelíbí, proto jej lze zakázat.        "
 
 #. File: /usr/lang/src/controllers.php, line: 419
 #: 
@@ -51157,11 +51018,9 @@ msgid "\n"
 "          This is not negotiated, so this only works with peers that use the incorrect truncation length (or have this option enabled)\n"
 "        "
 msgstr "\n"
-"          HMAC-SHA-256 se v IPsec používá se 128bitovým zkrácením.\n"
-"          Pro kompatibilitu s implementacemi, které nesprávně používají 96bitové zkrácení, může být tato\n"
-"          možnost povolena, aby byla nastavena kratší délku zkracování v jádře systému.\n"
-"          Tato volba není vyjednávána, takže funguje pouze u partnerů, kteří používají nesprávnou délku zkrácení (nebo mají tuto volbu povolenou)\n"
-"        "
+"HMAC-SHA-256 se v IPsec používá zkrácené na 128bitů.\n"
+"Pro kompatibilitu s implementacemi, které nesprávně používají 96 bitové zkracování, může být tato možnost povolena, aby byla nastavena kratší délka zkracování v jádře systému.\n"
+"Tato volba není vyjednávána, takže funguje pouze u partnerů, kteří používají nesprávnou délku zkrácení (nebo mají tuto předvolbu zapnutou).        "
 
 #. File: /usr/lang/src/controllers.php, line: 425
 #: 
@@ -51174,13 +51033,11 @@ msgid "\n"
 "          The default is 10% of either rekey_time or reauth_time, whichever value is larger. [0.1 * max(rekey_time, reauth_time)]\n"
 "        "
 msgstr "\n"
-"          Tvrdá životnost IKE_SA, pokud není dokončeno znovuopatření klíčem / opětovné ověření, jako čas.\n"
-"          Aby se zabránilo tomu, že IKE nebo ISAKMP spojení bude udržováno při životě, pokud opakované ověření pravosti IKE nebo opakované klíčování trvale selže,\n"
-"          může být zadána maximální pevná doba životnosti.\n"
-"          Pokud se IKE_SA nepodaří znovu zadat klíč nebo ověřit pravost během zadané doby, IKE_SA se uzavře.\n"
-"          Na rozdíl od znovuopatření klíčem CHILD_SA je over_time časově vztažené vůči hodnotám rekey_time a reauth_time, protože se uplatňuje na obě.\n"
-"          Výchozí hodnota je 10 % z rekey_time nebo reauth_time – podle toho, která hodnota je vyšší. [0,1 * max(rekey_time, reauth_time)]\n"
-"        "
+"Nepřekročitelná životnost IKE_SA, pokud není dokončeno znovuopatření klíčem / opětovné ověření, jako čas.\n"
+"Aby se zabránilo tomu, že IKE nebo ISAKMP spojení bude udržováno při životě, i když opakované ověření pravosti IKE nebo opakované znovuopatřování klíčem bude neustále selhávat, může být zadána maximální nepřekročitelná doba životnosti.\n"
+"Pokud se IKE_SA nepodaří znovu opatřit klíčem nebo znovu ověřit během zadané doby, IKE_SA se uzavře.\n"
+"Na rozdíl od znovuopatření klíčem CHILD_SA je over_time časově vztažené vůči hodnotám rekey_time a reauth_time, protože se uplatňuje na obě.\n"
+"Výchozí hodnota je 10% z rekey_time nebo reauth_time – podle toho, která hodnota je vyšší. [0,1 * max(rekey_time, reauth_time)].        "
 
 #. File: /usr/lang/src/controllers.php, line: 433
 #: 
@@ -51190,10 +51047,8 @@ msgid "\n"
 "          and initiates the connection actively with IKEv2\n"
 "        "
 msgstr "\n"
-"          Hlavní verze IKE, která má být použta pro připojení. 1 používá IKEv1 neboli ISAKMP, 2 používá IKEv2.\n"
-"          Připojení používající IKEv1+IKEv2 akceptuje IKEv1 i IKEv2 jako odpovídač\n"
-"          a aktivně iniciuje spojení pomocí IKEv2.\n"
-"        "
+"Hlavní verze IKE, která má být použta pro připojení. 1 používá IKEv1 neboli ISAKMP, 2 používá IKEv2.\n"
+"Připojení používající IKEv1+IKEv2 přijímá IKEv1 i IKEv2 jako odpovídače a aktivně iniciuje spojení pomocí IKEv2.        "
 
 #. File: /usr/lang/src/controllers.php, line: 438
 #: 
@@ -51205,12 +51060,11 @@ msgid "\n"
 "          In that case set rekey_time explicitly to both enforce rekeying and reauthentication\n"
 "        "
 msgstr "\n"
-"          IKE znovuopatřování klíčem obnovuje materiál klíče pomocí Diffie-Hellman výměny klíčů, ale neprovádí opětovnou kontrolu přidružených pověření.\n"
-"          Je podporováno pouze v IKEv2. IKEv1 místo toho provádí postup opětovného ověření.\n"
-"          Při výchozí hodnotě je změna klíčů IKE naplánována každé 4 hodiny mínus nastavený rand_time.\n"
-"          Pokud je nastavena hodnota reauth_time, je výchozí hodnota rekey_time rovna nule, čímž je výměna klíčů vypnutá.\n"
-"          V takovém případě nastavte rekey_time výslovně, aby bylo vynucena jak výměna klíčů, tak opakované ověřování.\n"
-"        "
+"IKE znovuopatřování klíčem obnovuje materiál klíče pomocí Diffie-Hellman výměny klíčů, ale neprovádí opětovnou kontrolu přidružených pověření.\n"
+"Je podporováno pouze v IKEv2. IKEv1 místo toho provádí postup opětovného ověření.\n"
+"Při výchozí hodnotě je změna klíčů IKE naplánována každé 4 hodiny mínus nastavený rand_time (náhodná doba).\n"
+"Pokud je nastavena hodnota reauth_time, je výchozí hodnota rekey_time rovna nule, čímž je výměna klíčů vypnutá.\n"
+"V takovém případě nastavte rekey_time výslovně, aby bylo vynucena jak výměna klíčů, tak opětovné ověřování.        "
 
 #. File: /usr/lang/src/controllers.php, line: 445
 #: 
@@ -51220,10 +51074,9 @@ msgid "\n"
 "          pass and drop are used to install shunt policies which explicitly bypass the defined traffic from IPsec processing or drop it, respectively.\n"
 "        "
 msgstr "\n"
-"          Režim IPsec pro vytvoření CHILD_SA.\n"
-"          tunel vyjednává CHILD_SA v režimu IPsec Tunnel Mode, zatímco transport používá režim IPsec Transport Mode.\n"
-"          pass a drop slouží k instalaci zásad shunt, které výslovně vynechávají definovaný provoz ze zpracování IPsec, resp. jej zahazují.\n"
-"        "
+"Režim IPsec pro vytvoření CHILD_SA.\n"
+"tunel vyjednává CHILD_SA v režimu IPsec Tunnel Mode, zatímco transport používá režim IPsec Transport Mode.\n"
+"pass a drop slouží k instalaci zásad shunt, které výslovně vynechávají definovaný provoz ze zpracování IPsec, resp. jej zahazují.        "
 
 #. File: /usr/lang/src/controllers.php, line: 450
 #: 
@@ -51242,10 +51095,7 @@ msgid "\n"
 "          dots, e.g. \"vlan0.1.2\" or \"qinq0.3.4\".\n"
 "        "
 msgstr "\n"
-"          Pokud má být název zařízení vytvořen automaticky, nevyplňujte. Uživatelsky určené názvy jsou možné, ale pouze v případě, že\n"
-"          začátek názvu odpovídá požadované předponě a obsahuje číselné znaky nebo\n"
-"          tečky, např. „vlan0.1.2“ nebo „qinq0.3.4“.\n"
-"        "
+"Pokud má být název zařízení vytvořen automaticky, nevyplňujte. Uživatelsky určené názvy jsou možné, ale pouze v případě, že začátek názvu odpovídá požadované předponě a obsahuje číselné znaky nebo tečky, např. „vlan0.1.2“ nebo „qinq0.3.4“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 467
 #: 
@@ -51256,11 +51106,9 @@ msgid "\n"
 "          A value of 0 initiates a new sequence until the connection establishes or fails with a permanent error\n"
 "        "
 msgstr "\n"
-"          Počet sekvencí opakovaného přenosu, které provádět v úvodu připojení.\n"
-"          Namísto vzdání snahy už po první sekvenci opakovaného přenosu (výchozí hodnota je totiž 1),\n"
-"          mohou být podle nastavené hodnoty spuštěny ještě další sekvence.\n"
-"          Hodnotou 0 (nula) bude dokola iniciována nová sekvence, dokud spojení nebude navázáno nebo se nezdaří s trvalou chybou\n"
-"        "
+"Počet posloupností opakovaného přenosu, které provádět v úvodu připojení.\n"
+"Namísto vzdání snahy už po první sekvenci opakovaného přenosu (výchozí hodnota je totiž 1), mohou být podle nastavené hodnoty spuštěny ještě další sekvence.\n"
+"Hodnotou 0 (nula) bude pořád dokola iniciována nová sekvence, dokud nebude navázáno spojení nebo se nezdaří s trvalou chybou.        "
 
 #. File: /usr/lang/src/controllers.php, line: 473
 #: 
@@ -51274,14 +51122,13 @@ msgid "\n"
 "          To initiate a connection, at least one specific address or DNS name must be specified.\n"
 "        "
 msgstr "\n"
-"          Vzdálené adresy, které mají být použity pro IKE komunikaci.\n"
-"          Je možné zadat jednotlivé IPv4/IPv6 adresy, DNS názvy, CIDR podsítě nebo rozsahy IP adres.\n"
-"          Jako iniciátor bude pro zahájení spojení použita první adresa, která není z rozsahu/podsítě.\n"
-"          Jako odpovídač je třeba, aby zdrojová adresa iniciátora odpovídala alespoň jedné ze zadaných adres, podsítí nebo rozsahů.\n"
-"          Pokud jsou přiřazeny FQDN, jsou překládány při každém vyhledávání nastavení.\n"
-"          Pokud dojde k přerušení DNS překladu, vyhledávání se o tuto dobu zpozdí.\n"
-"          Pro zahájení připojení je třeba, aby byla zadána alespoň jedna konkrétní adresa nebo DNS název.\n"
-"        "
+"Vzdálené adresy, které mají být použity pro IKE komunikaci.\n"
+"Je možné zadat jednotlivé IPv4/IPv6 adresy, DNS názvy, CIDR podsítě nebo rozsahy IP adres.\n"
+"Jako iniciátor bude pro zahájení spojení použita první adresa, která není z rozsahu/podsítě.\n"
+"Jako odpovídač je třeba, aby zdrojová adresa iniciátoru odpovídala alespoň jedné ze zadaných adres, podsítí nebo rozsahů.\n"
+"Pokud jsou přiřazeny FQDN názvy, jsou překládány při každém vyhledávání nastavení.\n"
+"Pokud dojde k přerušení DNS překladu, vyhledávání se o tuto dobu zpozdí.\n"
+"Pro zahájení spojení je třeba, aby byla zadána alespoň jedna konkrétní adresa nebo DNS název.        "
 
 #. File: /usr/lang/src/controllers.php, line: 482
 #: 
@@ -51290,9 +51137,8 @@ msgid "\n"
 "          To generate a new one, select the number of bit and press the button next to the size selector.\n"
 "        "
 msgstr "\n"
-"          Vyberte typ páru klíčů.\n"
-"          Pokud chcete nechat vyvořit nový, vyberte počet bitů a klikněte na tlačítko vedle voliče velikosti.\n"
-"        "
+"Vyberte typ páru klíčů.\n"
+"Pokud chcete nechat vyvořit nový, vyberte počet bitů a klikněte na tlačítko vedle voliče velikosti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 486
 #: 
@@ -51302,10 +51148,9 @@ msgid "\n"
 "          Drop logs will only be send to the internal logger, due to restrictions in suricata.\n"
 "        "
 msgstr "\n"
-"          Odesílání výstrah do syslogu ve formátu eve, v rámci stupně podrobnosti záznamu „info“.\n"
-"          Tím se nezmění protokolování výstrah používané samotným produktem.\n"
-"          Záznamy z hlášení o pádu se budou odesílat pouze do interního nástroje pro záznam událostí, a to kvůli omezením v suricata.\n"
-"        "
+"Odesílat výstrahy do syslog (v eve formátu) a to v rámci stupně podrobnosti záznamu událostí „info“.\n"
+"Toto nezmění zaznamenávání událostí výstrah, používané produktem samotným.\n"
+"Záznamy událostí zahazování budou odesílány pouze do interního nástroje pro zaznamenávání a to kvůli omezením v suricata.        "
 
 #. File: /usr/lang/src/controllers.php, line: 491
 #: 
@@ -51316,11 +51161,9 @@ msgid "\n"
 "          as each certificate request increases the size of the initial IKE packets\n"
 "        "
 msgstr "\n"
-"          Odesílání užitečných zatížení žádostí o certifikát za účelem nabízení důvěryhodných certifikátů kořenových certifikačních autorit partnerovi.\n"
-"          Žádosti o certifikát pomáhají peerovi vybrat vhodný certifikát/privátní klíč pro ověření a jsou ve výchozím nastavení povoleny.\n"
-"          Vypnutí žádostí o certifikát může být užitečné, pokud je nainstalováno příliš mnoho důvěryhodných certifikátů kořenových certifikačních autorit,\n"
-"          protože každá žádost o certifikát zvyšuje velikost počátečních paketů IKE\n"
-"        "
+"Odesílat data žádostí o certifikát za účelem nabízení certifikátů důvěryhodných kořenových cert. autorit partnerovi.\n"
+"Žádosti o certifikát pomáhají partnerovi vybrat vhodný certifikát/privátní klíč pro ověření a jsou ve výchozím nastavení povoleny.\n"
+"Vypnutí žádostí o certifikát může být užitečné, pokud je nainstalováno příliš mnoho důvěryhodných certifikátů kořenových certifikačních autorit, protože každá žádost o certifikát zvyšuje velikost počátečních paketů IKE.        "
 
 #. File: /usr/lang/src/controllers.php, line: 497
 #: 
@@ -51329,9 +51172,8 @@ msgid "\n"
 "          It is specified in 1/256 of seconds.  The acceptable values are 0 to 254.\n"
 "        "
 msgstr "\n"
-"          Určuje posun, který přidávat k základnímu intervalu propagace, aby jeden hostitel inzeroval pomaleji než jiný hostitel.\n"
-"          Udává se v 1/256 sekund.  Přípustné hodnoty jsou 0 až 254.\n"
-"        "
+"Určuje posun, který přidávat k základnímu intervalu propagace, aby se jeden hostitel propagoval pomaleji než jiný hostitel.\n"
+"Udává se v 1/256 sekund.  Přípustné hodnoty jsou 0 až 254.        "
 
 #. File: /usr/lang/src/controllers.php, line: 518
 #: 
@@ -51344,13 +51186,12 @@ msgid "\n"
 "          (Only applicable when DNS rebind check is enabled in System->Settings->Administration)\n"
 "        "
 msgstr "\n"
-"          Jedná se o adresy v soukromé síti, které není povoleno vracet pro veřejné internetové názvy.\n"
-"          Všechny výskyty takových adres jsou z DNS odpovědí odstraněny.\n"
-"          Validátor DNSSEC navíc může tyto odpovědi označit jako falešné.\n"
-"          Tím se chrání před takzvaným DNS Rebindingem.\n"
+"Tyto jsou adresami na vaší soukromé síti a není jimi proto povoleno odpovídat na dotazy na veřejné internetové názvy.\n"
+"Jakékoli výskyty takových adres jsou z DNS odpovědí odstraňovány.\n"
+"A navíc, ověřování platnosti v rámci DNSSEC může takové odpovědi označit jako falešné.\n"
+"Toto chrání před útoky typu „DNS rebinding“.\n"
 "\n"
-"          (Platí pouze v případě, že je v Systém->Nastavení->Správa povolena kontrola DNS rebind).\n"
-"        "
+"(Uplatnitelné pouze v případě, že je v Systém->Nastavení->Správa povoleno kontrolování na DNS rebind).        "
 
 #. File: /usr/lang/src/controllers.php, line: 526
 #: 
@@ -51359,9 +51200,8 @@ msgid "\n"
 "          The default uses dynamic reqids, allocated incrementally\n"
 "        "
 msgstr "\n"
-"          Toto se může hodit v některých případech, například u tunelů založených na směrování (VTI), ale funguje to pouze v případě, že každé nastavení CHILD_SA není instancováno více než jednou.\n"
-"          Ve výchozím nastavení se používají dynamické reqid identifikátory, které se přidělují postupně\n"
-"        "
+"Toto se může hodit v některých případech, například u tunelů založených na směrování (VTI), ale funguje to pouze v případě, že každé nastavení CHILD_SA není instancováno více než jednou.\n"
+"Ve výchozím nastavení se používají dynamické, postupně přidělované reqid identifikátory.        "
 
 #. File: /usr/lang/src/controllers.php, line: 530
 #: 
@@ -51373,12 +51213,10 @@ msgid "\n"
 "          By default CHILD_SA rekeying is scheduled every hour, minus rand_time\n"
 "        "
 msgstr "\n"
-"          Doba po které naplánovat změnu klíče CHILD_SA.\n"
-"          CHILD_SA znovu opatření klíčem obnovuje materiál klíče, případně pomocí Diffie-Hellmanovy výměny, pokud je v návrhu uvedena skupina.\n"
-"          Aby nedocházelo ke kolizím při obnovování klíčů iniciovaných oběma stranami současně, je odečtena hodnota v rozsahu rand_time\n"
-"          a vytvořena tak skutečná efektivní měkká doba životnosti.\n"
-"          Ve výchozím nastavení je změna klíčů CHILD_SA naplánována každou hodinu, mínus rand_time\n"
-"        "
+"Doba po které naplánovat změnu klíče CHILD_SA.\n"
+"CHILD_SA znovu opatření klíčem obnovuje materiál klíče (volitelně pomocí Diffie-Hellmanovy výměny, pokud je v návrhu uvedena skupina).\n"
+"Aby nedocházelo ke kolizím při obnovování klíčů iniciovaných oběma stranami současně, je odečtena hodnota v rozsahu rand_time (náhodná doba) a vytvořena tak skutečná (překročitelná) doba životnosti.\n"
+"Ve výchozím nastavení je změna klíčů CHILD_SA naplánována každou hodinu, mínus rand_time.        "
 
 #. File: /usr/lang/src/controllers.php, line: 537
 #: 
@@ -51389,11 +51227,8 @@ msgid "\n"
 "          firewalls that block ESP packets\n"
 "        "
 msgstr "\n"
-"          Pro vynucení UDP zapouzdření ESP paketů může proces služby IKE manipulovat s obsahem detekce NAT.\n"
-"          To protějšek přiměje, aby se domníval, že na přenosové cestě existuje situace NAT, a donutí ho zapouzdřit ESP pakety do protokolu UDP.\n"
-"          Obvykle to není nutné, ale může to pomoci obejít problémy s konektivitou u příliš omezujících bran firewall po cestě,\n"
-"          které blokují ESP pakety\n"
-"        "
+"Pro vynucení zapouzdřování ESP paketů do UDP, může proces služby IKE manipulovat s daty, přenášenými za účelem detekce NAT překladu. To protějšek přesvědčí, že na přenosové cestě existuje situace s NAT a donutí ho zapouzdřovat ESP pakety do protokolu UDP.\n"
+"Obvykle to není nutné, ale může to pomoci obejít problémy s konektivitou v případě příliš omezujících bran firewall po cestě, které blokují ESP pakety.        "
 
 #. File: /usr/lang/src/controllers.php, line: 546
 #: 
@@ -51402,9 +51237,8 @@ msgid "\n"
 "          Disabling this can be useful in some scenarios e.g. VTI where policies are not managed by the IKE daemon\n"
 "        "
 msgstr "\n"
-"          Zda mají být IPsec zásady instalovány, nebo ne.\n"
-"          Vypnutí toho může být užitečné v některých scénářích, např. u VTI, kde zásady nejsou spravovány procesem služby IKE.\n"
-"        "
+"Zda mají být IPsec zásady instalovány, nebo ne.\n"
+"Vypnutí tohoto může být užitečné v některých scénářích, např. u VTI, kde zásady nejsou spravovány procesem služby IKE.        "
 
 #. File: /usr/lang/src/controllers.php, line: 644
 #: 
@@ -51413,9 +51247,8 @@ msgid "\n"
 "         Enter 0 (zero) for no count limit.\n"
 "       "
 msgstr "\n"
-"         Jedná se o počet paketů, které jednotlivé zachycení provede. Výchozí hodnota je 100.\n"
-"         Pokud nechcete omezovat, zadejte 0 (nula).\n"
-"       "
+"Jedná se o počet paketů, které jednotlivé zachycení provede. Výchozí hodnota je 100.\n"
+"Pokud nechcete omezovat, zadejte 0 (nula).       "
 
 #. File: /usr/lang/src/controllers.php, line: 648
 #: 
@@ -51429,14 +51262,13 @@ msgid "\n"
 "         Example: not 10.0.0.0/24 not and not 11.0.0.1 or 00:0a:01:02:03:04\n"
 "       "
 msgstr "\n"
-"         Tato hodnota je buď zdrojová, nebo cílová IP/MAC adresa nebo podsíť v CIDR zápisu.\n"
-"         Zachycení paketu bude hledat tuto adresu v obou kolonkách.\n"
-"         Shodu lze negovat uvedením „not“ před hodnotou.\n"
-"         Vícero IP adres nebo CIDR podsítí lze zadat jako logický výraz.\n"
-"         Pokud nevyplněno, budou zachyceny všechny pakety na zadaném rozhraní.\n"
+"Tato hodnota je buď zdrojová, nebo cílová IP/MAC adresa nebo podsíť (v CIDR zápisu).\n"
+"Zachycování paketů bude tuto adresu hledat v obou kolonkách.\n"
+"Shodu lze negovat uvedením „not“ před hodnotou.\n"
+"Vícero IP adres nebo CIDR podsítí lze zadat jako logický výraz.\n"
+"Pokud nevyplněno, budou zachyceny všechny pakety na zadaném rozhraní.\n"
 "\n"
-"         Příklad: not 10.0.0.0/24 not and not 11.0.0.1 or 00:0a:01:02:03:04\n"
-"       "
+"Příklad: not 10.0.0.0/24 not and not 11.0.0.1 or 00:0a:01:02:03:04       "
 
 #. File: /usr/lang/src/controllers.php, line: 663
 #: 
@@ -51446,7 +51278,7 @@ msgid "\n"
 "      "
 msgstr "\n"
 "Zakázat fragmentaci.\n"
-"      Může být užitečné pro určení maximální velikosti, kterou je transport schopen odeslat."
+"Může být užitečné pro určení maximální velikosti, kterou je transport schopen odeslat.      "
 
 #. File: /usr/lang/src/controllers.php, line: 675
 #: 
@@ -54091,7 +53923,7 @@ msgstr "Vaše uživatelské jméno u TransIP."
 #. File: /usr/lang/src/controllers.php, line: 4809
 #: 
 msgid "Zombie Period"
-msgstr "Období zombie"
+msgstr "Zombie období"
 
 #. File: /usr/lang/src/controllers.php, line: 4810
 #: 
@@ -57834,7 +57666,7 @@ msgid "\n"
 "            The value 0 disables it. Default 1900. This setting may increase the \"request queue exceeded\" counter.\n"
 "        "
 msgstr "\n"
-"Doba čekání (v milisekundách), po kterou jsou požadavky na rekurzi zahazovány. To slouží proti nashromáždění velkého počtu odpovědí. Pokud je zapnuto „Poskytovat i odpovědi, kterým skončila platnost“, měla by tato kolonka být nastavena na hodnotu vyšší než „Časový limit odpovědi klienta se skončenou platností“, jinak tyto pozdní odpovědi nebudou aktualizovat mezipaměť. Hodnota 0 (nula) tuto funkci vypíná. Výchozí je 1900. Může se stát, že tato nastavení bude zvýšovat čítač „délka fronty požadavků překračuje“.        "
+"Doba čekání (v milisekundách), po kterou jsou požadavky na rekurzi zahazovány. To slouží proti nashromáždění velkého počtu odpovědí. Pokud je zapnuto „Poskytovat i odpovědi, kterým skončila platnost“, měla by tato kolonka být nastavena na hodnotu vyšší než „Časový limit odpovědi klienta se skončenou platností“, jinak tyto pozdní odpovědi nebudou aktualizovat mezipaměť. Hodnota 0 (nula) tuto funkci vypíná. Výchozí je 1900. Může se stát, že toto nastavení bude zvýšovat čítač „délka fronty požadavků překročena“.        "
 
 #. File: /usr/lang/src/controllers.php, line: 42
 #: 
@@ -57846,7 +57678,7 @@ msgid "\n"
 "                    This always happens for IKEv1 connections as the protocol only supports one set of traffic selectors per CHILD SA\n"
 "            "
 msgstr "\n"
-"Pokud je toto vypnuto, jsou výběry provozu z událostí akvizic jádra, které jsou odvozeny od spouštěcího paketu, předřazeny selektorům provozu z událostí nastavení pro připojení IKEv2. Povolením této funkce budou takové specifické selektory provozu ignorovány a budou odesílány pouze ty, které jsou uvedeny v nastavení. K tomu dochází vždy u spojení IKEv1, protože protokol podporuje pouze jednu sadu výběrů provozu na jedno podřízené SA.        "
+"Pokud je toto vypnuto, jsou výběry provozu ze získávání událostí jádra systému, které jsou odvozené od spouštěcího paketu, předřazeny výběrům provozu událostí z nastavení pro IKEv2 připojení. Povolením této funkce budou takové specifické výběry provozu ignorovány a budou odesílány pouze ty, které jsou uvedeny v nastavení. V případě IKEv1 spojení k tomu dochází vždy, protože protokol podporuje pouze jednu sadu výběrů provozu na jedno podřízené SA.        "
 
 #. File: /usr/lang/src/controllers.php, line: 54
 #: 
@@ -57882,9 +57714,8 @@ msgid "\n"
 "                When sending all traffic to the remote location, you probably want to add your lan network(s) here.\n"
 "            "
 msgstr "\n"
-"                Toto vyjme přenosy pro jednu nebo více podsítí ze zpracování IPsec vrstvami v jádře.\n"
-"                Při odesílání veškerého provozu do vzdáleného umístění sem pravděpodobně budete chtít přidat síť(e) lan.\n"
-"            "
+"Toto vyjme přenosy pro jednu nebo více podsítí ze zpracovávání IPsec vrstvami v jádře systému.\n"
+"Při odesílání veškerého provozu do vzdáleného umístění sem pravděpodobně budete chtít přidat své síť(e) lan.            "
 
 #. File: /usr/lang/src/controllers.php, line: 70
 #: 
@@ -57893,9 +57724,7 @@ msgid "\n"
 "                rules being setup.\n"
 "            "
 msgstr "\n"
-"                Tato předvolba se vztahuje pouze na starší nastavení tunelů, připojení vyžadují ruční nastavení\n"
-"                pravidel brány firewall.\n"
-"            "
+"Tato předvolba se vztahuje pouze na zastaralá nastavení tunelů – připojení vyžadují ruční nastavení pravidel brány firewall.            "
 
 #. File: /usr/lang/src/controllers.php, line: 122
 #: 
@@ -57904,9 +57733,7 @@ msgid "\n"
 "            but can be configured as unicast address when multicast can not be used (for example with cloud providers)\n"
 "        "
 msgstr "\n"
-"            Cílová adresa, která bude použita při oznamování. Výchozí hodnota je vícesměrové vysílání,\n"
-"            ale může být nastaveno jako adresa jednosměrového, pokud nelze použít vícesměrové (například u poskytovatelů cloudových služeb).\n"
-"        "
+"Cílová adresa, která bude použita při oznamování. Výchozí hodnota je vícesměrové vysílání, ale může být nastaveno jako adresa jednosměrového, pokud nelze použít vícesměrové (například u poskytovatelů cloudových služeb).        "
 
 #. File: /usr/lang/src/controllers.php, line: 137
 #: 
@@ -57916,10 +57743,8 @@ msgid "\n"
 "            if there are errors in the zone config.\n"
 "        "
 msgstr "\n"
-"            Zapnout agresivní používání mezipaměti ověřené protokolem DNSSEC na základě normy RFC8198.\n"
-"            Pomáhá snížit míru dotazů směrem k cílům, ale může vést k falešně negativním odpovědím\n"
-"            pokud se v nastavení zóny vyskytnou chyby.\n"
-"        "
+"Zapnout agresivní používání mezipaměti ověřené protokolem DNSSEC na základě normy RFC8198.\n"
+"Pomáhá snížit míru dotazů směrem k cílům, ale může vést k falešně negativním odpovědím pokud se v nastavení zóny vyskytnou chyby.        "
 
 #. File: /usr/lang/src/controllers.php, line: 154
 #: 
@@ -57928,9 +57753,8 @@ msgid "\n"
 "            Will be auto incremented when a new certificate is created.\n"
 "        "
 msgstr "\n"
-"            Zadejte desítkové číslo, které použít jako sériové pro další certifikát, který má být vytvořen pomocí této certifikační autority.\n"
-"            Při následném vytváření dalších certifikátů bude automaticky zvyšováno.\n"
-"        "
+"Zadejte desítkové číslo, které použít jako sériové pro další certifikát, který má být vytvořen pomocí této certifikační autority.\n"
+"Při následném vytváření dalších certifikátů bude automaticky zvyšováno.        "
 
 #. File: /usr/lang/src/controllers.php, line: 158
 #: 
@@ -57940,10 +57764,9 @@ msgid "\n"
 "            Use this if the gateway does not respond to ICMP echo requests (pings).\n"
 "        "
 msgstr "\n"
-"            Sem zadejte alternativní adresu, kterou používat pro dohledování linky.\n"
-"            Je používáno pro RRD grafy kvality i pro záznamy o rozdělování zátěže.\n"
-"            Toto použijte, pokud brána neodpovídá na požadavky ICMP echo (ping).\n"
-"        "
+"Sem zadejte alternativní adresu, kterou používat pro dohledování linky.\n"
+"Je používáno pro RRD grafy kvality i pro záznamy o rozdělování zátěže.\n"
+"Toto použijte, pokud brána neodpovídá na požadavky ICMP echo (ping).        "
 
 #. File: /usr/lang/src/controllers.php, line: 163
 #: 
@@ -57952,9 +57775,8 @@ msgid "\n"
 "            This should be empty on the backup machine. When an IP address is offered, both web GUI configurations should be equal (port and protocol).\n"
 "        "
 msgstr "\n"
-"            Zadejte IP adresu brány firewall, na kterou mají být vybrané části nastavení synchronizovány.\n"
-"            Na záložním zařízení by toto mělo zůstat nevyplněné. Pokud je zadána IP adresa, měla by být nastavení obou webových rozhraní stejná (port a protokol).\n"
-"        "
+"Zadejte IP adresu brány firewall, na kterou mají být vybrané části nastavení synchronizovány.\n"
+"Na záložním zařízení by toto mělo zůstat nevyplněné. Pokud je zadána IP adresa, měla by být nastavení obou webových rozhraní stejná (port a protokol).        "
 
 #. File: /usr/lang/src/controllers.php, line: 277
 #: 
@@ -57963,9 +57785,8 @@ msgid "\n"
 "            Always make sure both nodes use the same version to avoid inconsistent state tables.\n"
 "        "
 msgstr "\n"
-"            Novější verze OPNsense nabízejí další atributy synchronizace stavu, z důvodu kompatibility je zde možné případně zvolit starší verzi.\n"
-"            Vždy se ujistěte, že oba uzly používají stejnou verzi, abyste se vyhnuli nekonzistentním stavovým tabulkám.\n"
-"        "
+"Novější verze OPNsense nabízejí další atributy synchronizace stavu, z důvodu kompatibility je zde možné případně zvolit starší verzi.\n"
+"Vždy se ujistěte, že oba uzly používají stejnou verzi, abyste se vyhnuli nekonzistentním stavovým tabulkám.        "
 
 #. File: /usr/lang/src/controllers.php, line: 396
 #: 
@@ -57975,10 +57796,8 @@ msgid "\n"
 "            data. A recommended value per RFC 8767 is 1800. Setting this to 0 will disable this behavior.\n"
 "        "
 msgstr "\n"
-"            Doba (v milisekundách) před odesláním odpovědi klientovi daty, kterým skončila platnost. To v podstatě umožňuje serveru\n"
-"            stabilní chování, jak je specifikováno v normě RFC 8767, které se nejprve snaží vyřešit problém a teprve poté okamžitě odpoví daty, kterým skončila platnost.\n"
-"            Doporučená hodnota podle RFC 8767 je 1800. Nastavením této hodnoty na 0 se toto chování zakáže.\n"
-"        "
+"Doba (v milisekundách) před odesláním odpovědi klientovi daty, kterým skončila platnost. To v podstatě umožňuje serveru stabilní chování, jak je specifikováno v normě RFC 8767, které se nejprve snaží vyřešit problém a teprve poté okamžitě odpoví daty, kterým skončila platnost.\n"
+"Doporučená hodnota podle RFC 8767 je 1800. Nastavením této hodnoty na 0 se toto chování zakáže.        "
 
 #. File: /usr/lang/src/controllers.php, line: 522
 #: 
@@ -57991,13 +57810,12 @@ msgid "\n"
 "          If DNS resolution times out, the lookup is delayed for that time. When left empty %any is chosen as default.\n"
 "        "
 msgstr "\n"
-"          Místní adresy, které používat pro IKE komunikaci.\n"
-"          Je možné zadat jednotlivé IPv4/IPv6 adresy, DNS názvy, CIDR podsítě nebo rozsahy IP adres.\n"
-"          Jako iniciátor bude pro zahájení spojení použita první adresa, která není z rozsahu/podsítě.\n"
-"          Je třeba, aby se coby odpovídač místní cílová adresa shodovala alespoň s jednou ze zadaných adres, podsítí nebo rozsahů.\n"
-"          Pokud jsou přiřazeny FQDN názvy, jsou překládány při každém zpracování nastavení.\n"
-"          Pokud DNS překládání trvá příliš dlouhou, zpracovávání se o tuto dobu zpozdí. Pokud nevyplněno, bude použito výchozí %any.\n"
-"        "
+"Místní adresy, které používat pro IKE komunikaci.\n"
+"Je možné zadat jednotlivé IPv4/IPv6 adresy, DNS názvy, CIDR podsítě nebo rozsahy IP adres.\n"
+"Jako iniciátor bude pro zahájení spojení použita první adresa, která není z rozsahu/podsítě.\n"
+"Je třeba, aby se coby odpovídač místní cílová adresa shodovala alespoň s jednou ze zadaných adres, podsítí nebo rozsahů.\n"
+"Pokud jsou přiřazeny FQDN názvy, jsou překládány při každém zpracování nastavení.\n"
+"Pokud DNS překládání trvá příliš dlouhou, zpracovávání se o tuto dobu zpozdí. Pokud nevyplněno, bude použito výchozí %any.        "
 
 #. File: /usr/lang/src/controllers.php, line: 719
 #: 
@@ -58006,7 +57824,7 @@ msgid "\n"
 "A BINAT rule specifies a bidirectional mapping between an external and internal network and can be used from both ends, nat only applies in one direction.\n"
 "        "
 msgstr "\n"
-"Zde vyberte možnost BINAT (výchozí) nebo NAT. Pokud jsou sítě stejně velké, je obvykle nejlepší volbou binat. Zatímco pomocí NAT je možné  mapovat i nestejně velké sítě.\n"
+"Zde vyberte možnost BINAT (výchozí) nebo NAT. Pokud jsou sítě stejně velké, je obvykle nejlepší volbou binat, zatímco pomocí NAT je možné  mapovat i nestejně velké sítě.\n"
 "BINAT pravidlo určuje obousměrné mapování mezi vnější a vnitřní sítí a lze ho použít z obou stran, zatímco nat platí pouze v jednom směru.        "
 
 #. File: /usr/lang/src/controllers.php, line: 723
@@ -64643,12 +64461,10 @@ msgid "\n"
 "              A higher level will increase sensitivity at the cost of more false positives.\n"
 "            "
 msgstr "\n"
-"              Stupeň paranoi 1 je výchozí. Při této úrovni je většina ústředních pravidel zapnutá.\n"
-"              PL1 je doporučena pro začátečníky, instalace pokrývající mnoho různých site a aplikací a uspořádání\n"
-"              se standarními potřebami zabezpečení.\n"
+"Stupeň paranoie 1 je výchozí. Při této úrovni je většina základových pravidel zapnutá.\n"
+"PL1 je doporučena pro začátečníky, instalace pokrývající mnoho různých lokalit a aplikací, dále pro uspořádání se standarními potřebami zabezpečení.\n"
 "\n"
-"              Vyšší stupeň zvýší citlivost za cenu zvýšení počtu falešně pozitivních nálezů.\n"
-"            "
+"Vyšší stupeň zvýší citlivost za cenu zvýšení počtu falešně pozitivních nálezů.            "
 
 #. File: /usr/lang/src/controllers.php, line: 85
 #: 
@@ -64657,9 +64473,8 @@ msgid "\n"
 "              This will need the virtual server to be accesible on the standard HTTPS port (443)\n"
 "            "
 msgstr "\n"
-"              Zapnout protokol ACME pro automatické poskytování certifikátů pomocí Let's Encrypt.\n"
-"              Toto bude potřebovat, aby byl virtuální server dostupný na standardním HTTPS portu (443)\n"
-"            "
+"Zapnout protokol ACME pro automatické poskytování certifikátů pomocí Let's Encrypt.\n"
+"Toto bude potřebovat, aby byl virtuální server dostupný na standardním HTTPS portu (443).            "
 
 #. File: /usr/lang/src/controllers.php, line: 89
 #: 
@@ -64669,10 +64484,8 @@ msgid "\n"
 "              offer and what they might exclude or require from you. mod_md cannot, by itself, agree to such a thing.\n"
 "            "
 msgstr "\n"
-"              Při používání mod_md pro získání certifikátu se vy stáváte zákazníkem certifikační autority (např. Let's Encrypt).\n"
-"              To znamená, že je třeba, abyste si přečetli a odsouhlasili jejich všeobecné podmínky, takže budete rozumět tomu, co\n"
-"              nabízejí a co naopak vzlučují nebo od vás vyžadují. mod_md samotný v takové věci nemůže odsouhlasovat.\n"
-"            "
+"Při používání mod_md pro získání certifikátu se vy stáváte zákazníkem certifikační autority (např. Let's Encrypt).\n"
+"To znamená, že je třeba, abyste si přečetli a odsouhlasili jejich všeobecné podmínky, takže budete rozumět tomu, co nabízejí a co naopak vylučují nebo od vás vyžadují. mod_md samotný v takové věci nemůže odsouhlasovat.            "
 
 #. File: /usr/lang/src/controllers.php, line: 102
 #: 
@@ -64681,9 +64494,8 @@ msgid "\n"
 "            Please note when no CRL is offered all clients are rejected.\n"
 "        "
 msgstr "\n"
-"            Přiložit (první) nalezený seznam odvolaných certifikátů pro označenou cert. autoritu k tomuto virtuálnímu hostiteli..\n"
-"            Uvědomte si, že pokud není nabídnut žádný CRL seznam, jsou odmítáni všichni klienti.\n"
-"        "
+"Přiložit (první) nalezený seznam odvolaných certifikátů pro označenou cert. autoritu k tomuto virtuálnímu hostiteli.\n"
+"Uvědomte si, že pokud není nabídnut žádný CRL seznam, jsou odmítáni všichni klienti.        "
 
 #. File: /usr/lang/src/controllers.php, line: 112
 #: 
@@ -64693,10 +64505,8 @@ msgid "\n"
 "            Interface bound states are more secure, floating more flexible\n"
 "        "
 msgstr "\n"
-"            Zvolte jak bude nakládáno se stavy, vytvořenými tímto pravidlem. Výchozí (jak dopředu definováno),\n"
-"            plovoucí, kdy pravidla jsou platná na všechna rozhraní, nebo navázaná na konkrétní rozhraní.\n"
-"            Stavy navázané na konkrétní rozhraní jsou bezpečnější, ale ty plovoucí zase flexibilnější\n"
-"        "
+"Zvolte jak bude nakládáno se stavy, vytvořenými tímto pravidlem. Výchozí je (jak dopředu definováno) jako s plovoucími, kdy pravidla jsou platná na všechna rozhraní. Nebo případně jako s navázanými na konkrétní rozhraní.\n"
+"Stavy navázané na konkrétní rozhraní jsou bezpečnější, ale ty plovoucí zase flexibilnější.        "
 
 #. File: /usr/lang/src/controllers.php, line: 159
 #: 
@@ -64704,8 +64514,7 @@ msgid "\n"
 "            Determines how packets route back in the opposite direction (replies), when set to default, packets on WAN type interfaces reply to their connected gateway on the interface (unless globally disabled). A specific gateway may be chosen as well here. This setting is only relevant in the context of a state, for stateless rules there is no defined opposite direction.\n"
 "        "
 msgstr "\n"
-"            Určuje, jak pakety směřují zpět v opačném směru (odpovědi). Pokud nastaveno na výchozí, pakety na rozhraních typu WAN odpoví na jejich připojenou bránu na rozhraní (pokud není globálně vypnuto). Je zde možné zvolit také konkrétní bránu. Toto nastavení je relevantní pouze v kontextu stavů – pro bezstavová pravidla není definován opačný směr.\n"
-"        "
+"Určuje, jak pakety směřují zpět v opačném směru (odpovědi). Pokud nastaveno na výchozí, pakety na rozhraních typu WAN odpoví na jejich připojenou bránu na rozhraní (pokud není globálně vypnuto). Je zde možné zvolit také konkrétní bránu. Toto nastavení je relevantní pouze v kontextu stavů – pro bezstavová pravidla není definován opačný směr.        "
 
 #. File: /usr/lang/src/controllers.php, line: 205
 #: 
@@ -64714,9 +64523,7 @@ msgid "\n"
 "            you might want to disable sending default headers to clients.\n"
 "        "
 msgstr "\n"
-"            Zabezpečení záhlaví – ve výchozím stavu je nastaveno několik hlaviček, souvisejících se soukromým a zabezpečením. V některých případech (například staré aplikace)\n"
-"            je možné že budete chtít vypnout odesílání výchozích záhlaví klientům.\n"
-"        "
+"Zabezpečení záhlaví – ve výchozím stavu je nastaveno několik hlaviček, souvisejících se soukromým a zabezpečením. V některých případech (například staré aplikace) je možné že budete chtít vypnout odesílání výchozích záhlaví klientům.        "
 
 #. File: /usr/lang/src/controllers.php, line: 213
 #: 
@@ -64724,8 +64531,7 @@ msgid "\n"
 "            If a forwarded query is met with a SERVFAIL error, and this option is enabled, Unbound will fall back to normal recursive resolution for this query as if no query forwarding had been specified. The fallback will only occur after a delay, so consider refining any server timeouts as needed. Please note this setting applies to the domain, so when multiple forwarders are defined for the same domain, all are assumed to use this setting.\n"
 "        "
 msgstr "\n"
-"            Pokud se přeposlaný dotaz setká s chybou SERVFAIL a tato volba je zapnutá, Unbound pro tento dotaz náhradně použije běžný rekurzivní překlad, jako kdyby nebylo uvedeno žádné přeposílání dotazu. Náhradní způsob nastane až po prodlevě, takže zvažte poupravení jakýchkoli časových limitů serveru dle potřeby. Všimněte si, že toto nastavení platí na doménu, takže pokud je definováno vícero přeposlání pro stejnou doménu, u všech je předpokládáno, že používají toto nastavení.\n"
-"        "
+"Pokud se přeposlaný dotaz setká s chybou SERVFAIL a tato volba je zapnutá, Unbound pro tento dotaz náhradně použije běžný rekurzivní překlad, jako kdyby nebylo uvedeno žádné přeposílání dotazu. Náhradní způsob nastane až po prodlevě, takže zvažte poupravení jakýchkoli časových limitů serveru dle potřeby. Všimněte si, že toto nastavení platí na doménu, takže pokud je definováno vícero přeposlání pro stejnou doménu, u všech je předpokládáno, že používají toto nastavení.        "
 
 #. File: /usr/lang/src/controllers.php, line: 282
 #: 
@@ -64734,9 +64540,8 @@ msgid "\n"
 "            When this limit is reached, further packets that would create state are dropped until existing states time out.\n"
 "        "
 msgstr "\n"
-"            Omezuje počet souběžných stavů, které pravidlo smí vytvořit.\n"
-"            Při dosažení tohoto limitu jsou další pakety zahazovány a to do doby, než je dosažen časový limit existujících stavů.\n"
-"        "
+"Omezuje počet souběžných stavů, které pravidlo smí vytvořit.\n"
+"Při dosažení tohoto limitu jsou další pakety zahazovány a to do doby, než je dosažen časový limit existujících stavů.        "
 
 #. File: /usr/lang/src/controllers.php, line: 315
 #: 
@@ -64745,9 +64550,7 @@ msgid "\n"
 "            items specified here.\n"
 "        "
 msgstr "\n"
-"            Počet (po sobě nejdoucích) záloh, které ponechávat – poslední záloha určeného typu intervalu je zachována po počet položek,\n"
-"            zde uvedených.\n"
-"        "
+"Počet (po sobě nejdoucích) záloh, které ponechávat – poslední záloha určeného typu intervalu je zachována po počet položek, zde uvedených.        "
 
 #. File: /usr/lang/src/controllers.php, line: 322
 #: 
@@ -64755,8 +64558,7 @@ msgid "\n"
 "            Number of sequential backups to preserve from remote host (per host), copy of local history to a maximum of X per host.\n"
 "        "
 msgstr "\n"
-"            Počet po sobě jdoucích záloh, které zachovávat ze vzdáleného hostitele (pro jednotlivé hostitele), kopie lokální historie po maximum X na hostitele.\n"
-"        "
+"Počet po sobě jdoucích záloh, které zachovávat ze vzdáleného hostitele (pro jednotlivé hostitele), kopie lokální historie po maximum X na hostitele.        "
 
 #. File: /usr/lang/src/controllers.php, line: 325
 #: 
@@ -64766,10 +64568,8 @@ msgid "\n"
 "            alternatively specify your own table here\n"
 "        "
 msgstr "\n"
-"            Tabulka přetíženého je použita pokud bylo dosaženo nejvyššího povoleného počtu nových spojení za časový interval.\n"
-"            Výchozí tabulka virusprot přichází s výchozím blokovacím pravidlem v plovoucích nastaveních,\n"
-"            alternativně zde zadejte svou vlastní tabulku\n"
-"        "
+"Tabulka přetíženého je použita pokud bylo dosaženo nejvyššího povoleného počtu nových spojení za časový interval.\n"
+"Výchozí tabulka virusprot přichází s výchozím blokovacím pravidlem v plovoucích nastaveních, alternativně zde zadejte svou vlastní tabulku.        "
 
 #. File: /usr/lang/src/controllers.php, line: 330
 #: 
@@ -64780,11 +64580,7 @@ msgid "\n"
 "            header\n"
 "        "
 msgstr "\n"
-"            Paketům, které odpovídají tomuto pravidlu, bude přiřazena konkrétní priorita při zařazování do fronty. Pokud\n"
-"            je paket přenášen na vlan(4) rozhraní, priorita při zařazování do\n"
-"fronty \n"
-"            bude zapsána jako kódový bod v hlavičce 802.1Q VLAN\n"
-"        "
+"Paketům, které odpovídají tomuto pravidlu, bude přiřazena konkrétní priorita při zařazování do fronty. Pokud je paket přenášen na vlan(4) rozhraní, priorita při zařazování do fronty bude zapsána jako kódový bod v hlavičce 802.1Q VLAN.        "
 
 #. File: /usr/lang/src/controllers.php, line: 339
 #: 
@@ -64797,13 +64593,9 @@ msgid "\n"
 "            new one but will not remove a previously applied tag.  A packet is only ever assigned one tag at a time.\n"
 "        "
 msgstr "\n"
-"            Pakety odpovídající tomuto pravidlo budou opatřeny štítkem – zadaným řetězcem.\n"
-"            Štítek slouží jako interní označovač, který je možné použít pro pozdější identifikaci těchto paketů.\n"
-"            Toto je možné použít například pro poskytnutí důvěryhodnosti mezi rozhraními a ke zjišťování, zda pakety byly\n"
-"            zpracovány překladovými pravidly.  Štítky jsou „lepkavé“, což znamená, že paket bude opatřen štítkem i když\n"
-"            pravidlo není poslední shodující se pravidlo. Další shodující se pravidla mohou štítek nahradit\n"
-"            novým, ale neodebere dříve uplatněný štítek. Paketu je přiřazen pouze jeden štítek naráz.\n"
-"        "
+"Pakety odpovídající tomuto pravidlo budou opatřeny štítkem – zadaným řetězcem.\n"
+"Štítek slouží jako interní označovač, který je možné použít pro pozdější identifikaci těchto paketů.\n"
+"Toto je možné použít například pro poskytnutí důvěryhodnosti mezi rozhraními a ke zjišťování, zda pakety byly zpracovány překladovými pravidly.  Štítky jsou „lepkavé“, což znamená, že paket bude opatřen štítkem i když pravidlo není poslední shodující se pravidlo. Další shodující se pravidla mohou štítek nahradit novým, ale neodebere dříve uplatněný štítek. Paketu je přiřazen pouze jeden štítek naráz.        "
 
 #. File: /usr/lang/src/controllers.php, line: 356
 #: 
@@ -64812,9 +64604,7 @@ msgid "\n"
 "            non standard ports when origination from remote destinations. (e.g. listen 8443 on, forward 443 to 8443)\n"
 "        "
 msgstr "\n"
-"            Číslo portu, na kterém tento vhost bude očekávat spojení, je možné snadno kombinovat s nat pravidly brány firewall pro mapování pro mapování provozu na\n"
-"            nestandartní porty, když pochází ze vzdálených destinací. (např. očekávat spojení na 8443, přeposílat 443 na 8443)\n"
-"        "
+"Číslo portu, na kterém tento vhost bude očekávat spojení, je možné snadno kombinovat s nat pravidly brány firewall pro mapování pro mapování provozu na nestandartní porty, když pochází ze vzdálených destinací. (např. očekávat spojení na 8443, přeposílat 443 na 8443).        "
 
 #. File: /usr/lang/src/controllers.php, line: 360
 #: 
@@ -64823,9 +64613,7 @@ msgid "\n"
 "            uncheck validate SSL first (you can re-enable after provisioning)\n"
 "        "
 msgstr "\n"
-"            Při provisioningu WebUI, natlačit vybraný certifikát. Pokud zatím není nainstalován platný certifikát,\n"
-"            nejprve zrušte zaškrtnutí ověřování SSL (po provisioningu je možné pak zase zapnout)\n"
-"        "
+"Při provisioningu WebUI, natlačit vybraný certifikát. Pokud zatím není nainstalován platný certifikát, nejprve zrušte zaškrtnutí ověřování SSL (po provisioningu je možné pak zase zapnout).        "
 
 #. File: /usr/lang/src/controllers.php, line: 377
 #: 
@@ -64835,10 +64623,8 @@ msgid "\n"
 "            can help preventing BREACH attacks.\n"
 "        "
 msgstr "\n"
-"            Vyberte které hlavičky požadavku odnastavit, než budou předány od klienta serveru.\n"
-"            Zrušení nastavení některých z těchto hlaviček může zlepšit zabezpečení, např. odnastavení „Accept-Encoding“\n"
-"            může pomoci bránit útokům typu BREACH.\n"
-"        "
+"Vyberte které hlavičky požadavku odnastavit, než budou předány od klienta serveru.\n"
+"Zrušení nastavení některých z těchto hlaviček může zlepšit zabezpečení, např. odnastavení „Accept-Encoding“ může pomoci bránit útokům typu BREACH.        "
 
 #. File: /usr/lang/src/controllers.php, line: 430
 #: 
@@ -64847,9 +64633,7 @@ msgid "\n"
 "            i.e. the number of CA certificates which are max allowed to be followed while verifying the client certificate.\n"
 "        "
 msgstr "\n"
-"            Hloubka je ve skutečnosti nejvyšší umožněný počet mezilehlých vydavatelů certifikátu,\n"
-"            tj. počet certifikátů cert. autorit, který je nejvíce umožněno následovat při ověřování klientského certifikátu.\n"
-"        "
+"Hloubka je ve skutečnosti nejvyšší umožněný počet mezilehlých vydavatelů certifikátu, tj. počet certifikátů cert. autorit, který je nejvíce umožněno následovat při ověřování klientského certifikátu.        "
 
 #. File: /usr/lang/src/controllers.php, line: 457
 #: 
@@ -64860,10 +64644,7 @@ msgid "\n"
 "            certificate is valid and within its validity period.\n"
 "        "
 msgstr "\n"
-"            Pokud je mod_ssl ve funkci SSL klienta, tato direktiva zapíná ověřování datum konce platnosti certifikátu serveru.\n"
-"            Kontrola se nezdaří, pokud platnost certifikátu skončila, což způsobí, že SSL požadavek bude přerušen a vrácen stavový\n"
-"            kód 502 (chybná brána). Tuto volbu zapněte, pokud se chcete ujistit, že certifikát serveru je platný a v rámci období své platnosti.\n"
-"        "
+"Pokud je mod_ssl ve funkci SSL klienta, tato direktiva zapíná ověřování datum konce platnosti certifikátu serveru. Kontrola se nezdaří, pokud platnost certifikátu skončila, což způsobí, že SSL požadavek bude přerušen a vrácen stavový kód 502 (chybná brána). Tuto volbu zapněte, pokud se chcete ujistit, že certifikát serveru je platný a v rámci období své platnosti.      "
 
 #. File: /usr/lang/src/controllers.php, line: 495
 #: 
@@ -64893,12 +64674,10 @@ msgid "\n"
 "          The documentation contains further information about the usage of this option.\n"
 "        "
 msgstr "\n"
-"          Pro označené položky nastavení je možné omezit rozhraní, která budou na vzdálené bráně firewall použita. V takovém případě\n"
-"          lokální položky nastavení budou po provision nedotčeny.\n"
-"          Pokud nevyplněno, veškerá nastavená rozhraní na tomto stroji vbudou nabídnuta spravované bráně firewall.\n"
+"Pro označené položky nastavení je možné omezit rozhraní, která budou na vzdálené bráně firewall použita. V takovém případě lokální položky nastavení budou po provision nedotčeny.\n"
+"Pokud nevyplněno, veškerá nastavená rozhraní na tomto stroji budou nabídnuta spravované bráně firewall.\n"
 "\n"
-"          Dokumentace obsahuje další informace o použití této volby.\n"
-"        "
+"Dokumentace obsahuje další informace o použití této volby.        "
 
 #. File: /usr/lang/src/controllers.php, line: 674
 #: 
@@ -64909,10 +64688,7 @@ msgid "\n"
 "          and a 502 status code (Bad Gateway) is returned.\n"
 "        "
 msgstr "\n"
-"          Pokud je mod_ssl ve funkci SSL klienta, tato direktiva nastavuje ověřování názvu stroje u certifikátu serveru. Kontrola bude úspěšná,\n"
-"          pokud se název stroje z URI požadavku shoduje s tím v atributu/atributech CN předmětu certifikátu,\n"
-"          nebo s rozšířením subjectAltName. Pokud se kontrola nezdaří, SSL požadavek je přerušen a vrácen stavový kód 502 (chybná brána.\n"
-"        "
+"Pokud je mod_ssl ve funkci SSL klienta, tato direktiva nastavuje ověřování názvu stroje v certifikátu serveru. Kontrola bude úspěšná, pokud se název stroje z URI požadavku shoduje s tím v atributu/atributech CN předmětu certifikátu, nebo s rozšířením subjectAltName. Pokud se kontrola nezdaří, SSL požadavek je přerušen a vrácen stavový kód 502 (chybná brána).        "
 
 #. File: /usr/lang/src/controllers.php, line: 814
 #: 
@@ -64922,10 +64698,7 @@ msgid "\n"
 "        the option to skip the selected interface in our firewall rules which removes this inconsistency.\n"
 "        "
 msgstr "\n"
-"        Ve výchozím stavu inbound pravidla brány firewall platí pouze na IPsec rozhraní, nicméně outbound procházejí jak virtuální\n"
-"        rozhraní a IPsec (enc0) rozhraní, což znemožňuje použití zdrojového NAT překladu. Tento přepínač nabízí\n"
-"        volbu přeskočit vybrané rozhraní ve vašich pravidlech brány firewall, což tuo nekonzistenci odstraní.\n"
-"        "
+"Ve výchozím stavu inbound pravidla brány firewall platí pouze na IPsec rozhraní, nicméně outbound procházejí jak virtuální tak IPsec (enc0) rozhraní, což znemožňuje použití zdrojového NAT překladu. Tento přepínač nabízí volbu přeskočit vybrané rozhraní ve vašich pravidlech brány firewall, což tuto nekonzistenci odstraní.        "
 
 #. File: /usr/lang/src/controllers.php, line: 832
 #: 
