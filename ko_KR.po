@@ -4309,7 +4309,7 @@ msgstr "NTP PPS 구성"
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 534
 #: 
 msgid "For the best results, NTP should have at least three sources of time. So it is best to configure at least 2 servers under %sServices: Network Time%s to minimize clock drift if the GPS data is not valid over time. Otherwise ntpd may only use values from the unsynchronized local clock when providing time to clients."
-msgstr "최상의 결과를 얻으려면 NTP에 최소한 세 가지 시간 소스가 있어야 합니다. 따라서 시간이 지남에 따라 GPS 데이터가 유효하지 않은 경우 시계 드리프트를 최소화하려면 %s서비스: 네트워크 타임%s에서 최소 2개의 서버를 구성하는 것이 가장 좋습니다. 그렇지 않으면 ntpd는 클라이언트에 시간을 제공할 때 동기화되지 않은 로컬 시계의 값만 사용할 수 있습니다."
+msgstr "최상의 결과를 얻으려면 NTP에 최소 3개의 시간 소스가 있어야 합니다.따라서 GPS 데이터가 장시간 유효하지 않을 때 시계 드리프트를 최소화하려면 %s서비스: 네트워크 타임%s에서 최소 2개의 서버를 구성하는 것이 가장 좋습니다. 그렇지 않으면 ntpd는 클라이언트에 시간을 제공할 때 동기화되지 않은 로컬 시계의 값만 사용할 수 있습니다."
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 532
 #: 
@@ -4547,7 +4547,7 @@ msgstr "일반"
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 304
 #: 
 msgid "NTP Serial GPS Configuration"
-msgstr "NTP 직렬 GPS 구성"
+msgstr "NTP 시리얼 GPS 설정"
 
 #. File: /usr/core/src/www/services_ntpd_gps.php, line: 54
 #. File: /usr/core/src/www/services_ntpd_pps.php, line: 52
@@ -5690,7 +5690,7 @@ msgstr "라운드 로빈 데이터베이스"
 #. File: /usr/core/src/www/reporting_settings.php, line: 161
 #: 
 msgid "Reporting Database Options"
-msgstr "보고 데이터베이스 옵션"
+msgstr "리포트 데이터베이스 옵션"
 
 #. File: /usr/core/src/www/reporting_settings.php, line: 125
 #: 
@@ -10507,7 +10507,7 @@ msgstr "연결"
 #. File: /usr/core/src/www/diag_halt.php, line: 65
 #: 
 msgid "Are you sure you want to power off the system?"
-msgstr "시스템의 전원을 끄시겠습니까?"
+msgstr "정말로 시스템을 종료하시겠습니까?"
 
 #. File: /usr/core/src/www/diag_halt.php, line: 51
 #: 
@@ -10547,12 +10547,12 @@ msgstr "호스트 이름 또는 IP"
 #. File: /usr/core/src/www/diag_defaults.php, line: 75
 #: 
 msgid "Are you sure you want to proceed?"
-msgstr "계속하시겠습니까?"
+msgstr "정말로 계속할까요?"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 73
 #: 
 msgid "Shut down after changes are complete"
-msgstr "변경이 완료된 후시스템이 종료됨"
+msgstr "변경 사항이 완료된 후 시스템이 종료됨"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 72
 #: 
@@ -10577,7 +10577,7 @@ msgstr "출고 시 기본값으로 초기화"
 #. File: /usr/core/src/www/diag_defaults.php, line: 66
 #: 
 msgid "If you click \"Yes\", the system will:"
-msgstr "\"예\"를 클릭하면 시스템이 다음을 수행합니다:"
+msgstr "\"예\"를 클릭하면 시스템이 다음 작업을 수행합니다:"
 
 #. File: /usr/core/src/www/diag_defaults.php, line: 52
 #: 
@@ -10603,7 +10603,7 @@ msgstr "이 백업 삭제"
 #. File: /usr/core/src/www/diag_confbak.php, line: 318
 #: 
 msgid "Revert to this configuration"
-msgstr "이 설정으로 되돌리기"
+msgstr "이 구성으로 되돌리기"
 
 #. File: /usr/core/src/www/diag_confbak.php, line: 220
 #: 
@@ -10623,12 +10623,12 @@ msgstr "로컬 백업 캐시에 보관할 이전 구성 수를 입력하세요."
 #. File: /usr/core/src/www/diag_confbak.php, line: 166
 #: 
 msgid "Remove Configuration Backup"
-msgstr "설정 백업 삭제"
+msgstr "구성 백업 삭제"
 
 #. File: /usr/core/src/www/diag_confbak.php, line: 144
 #: 
 msgid "Restore from Configuration Backup"
-msgstr "설정 백업본으로 복원"
+msgstr "구성 백업본으로 복원"
 
 #. File: /usr/core/src/www/diag_confbak.php, line: 109
 #. File: /usr/core/src/www/diag_confbak.php, line: 121
@@ -10686,7 +10686,7 @@ msgstr "복원"
 #. File: /usr/core/src/www/diag_backup.php, line: 371
 #: 
 msgid "Click this button to download the system configuration in XML format."
-msgstr "시스템 구성을 XML 형식으로 다운로드하려면 이 단추를 클릭하세요."
+msgstr "시스템 구성을 XML 형식으로 다운로드하려면 이 버튼을 클릭하세요."
 
 #. File: /usr/core/src/www/diag_backup.php, line: 366
 #: 
@@ -10711,7 +10711,7 @@ msgstr "백업 성공, 현재 파일 목록:"
 #. File: /usr/core/src/www/diag_backup.php, line: 255
 #: 
 msgid "The system is rebooting now. This may take one minute."
-msgstr "시스템이 지금 재부팅 중입니다. 이 작업은 1분 정도 걸릴 수 있습니다."
+msgstr "시스템이 지금 재부팅 중입니다. 1분 정도 소요될 수 있습니다."
 
 #. File: /usr/core/src/www/diag_backup.php, line: 250
 #: 
@@ -11918,6 +11918,7 @@ msgstr "패킷"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 99
 #: 
+#, fuzzy
 msgid "Sources"
 msgstr "출발지"
 
@@ -12124,7 +12125,7 @@ msgstr "이전 페이지로 돌아가기"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 854
 #: 
 msgid "In order to apply these settings a firmware update must be performed after save, which can include a reboot of the system."
-msgstr "이 설정을 적용하기 위해서는 저장 후에 펌웨어 업데이트를 수행해야 하며, 이 과정에는 시스템 재부팅이 있을 수 있습니다."
+msgstr "이 설정을 적용하려면 저장 후 펌웨어 업데이트를 수행해야 하며, 시스템 재부팅이 포함될 수 있습니다."
 
 #. File: /usr/plugins/devel/helloworld/src/opnsense/mvc/app/views/OPNsense/HelloWorld/index.volt, line: 66
 #. File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 399
@@ -25463,7 +25464,7 @@ msgstr "인증"
 #. File: /usr/lang/src/models.php, line: 95
 #: 
 msgid "Authorities"
-msgstr "권한"
+msgstr "인증 기관"
 
 #. File: /usr/lang/src/models.php, line: 98
 #: 
@@ -25601,7 +25602,7 @@ msgstr "유료 지원"
 #. File: /usr/lang/src/models.php, line: 132
 #: 
 msgid "Configuration"
-msgstr "구성"
+msgstr "구성 설정"
 
 #. File: /usr/lang/src/models.php, line: 133
 #: 
@@ -27085,7 +27086,7 @@ msgstr "전원"
 #. File: /usr/lang/src/models.php, line: 467
 #: 
 msgid "Power Off"
-msgstr "전원 종료"
+msgstr "시스템 종료"
 
 #. File: /usr/lang/src/models.php, line: 469
 #: 
@@ -27323,7 +27324,7 @@ msgstr "리포팅"
 #. File: /usr/lang/src/models.php, line: 517
 #: 
 msgid "Reporting"
-msgstr "보고"
+msgstr "리포트"
 
 #. File: /usr/lang/src/models.php, line: 518
 #: 
@@ -27358,7 +27359,7 @@ msgstr "역방향 포트는 1에서 65535 사이의 정수 값이어야 함"
 #. File: /usr/lang/src/models.php, line: 525
 #: 
 msgid "Revocation"
-msgstr "취소"
+msgstr "인증서 폐기"
 
 #. File: /usr/core/src/www/firewall_nat_edit.php, line: 936
 #. File: /usr/core/src/www/firewall_nat_out_edit.php, line: 710
@@ -27994,7 +27995,7 @@ msgstr "전송 딜레이는 0에서 4294967295사이의 값이어야 합니다."
 #. File: /usr/lang/src/models.php, line: 680
 #: 
 msgid "Trust"
-msgstr "신뢰성"
+msgstr "인증서 관리"
 
 #. File: /usr/lang/src/models.php, line: 681
 #: 
@@ -34627,7 +34628,7 @@ msgstr "간단한 설명(표시)"
 #. File: /usr/lang/src/controllers.php, line: 2106
 #: 
 msgid "Show Directory Frontpage"
-msgstr "디렉터리 전면 페이지 표시"
+msgstr "디렉토리 첫 페이지 표시"
 
 #. File: /usr/lang/src/controllers.php, line: 2110
 #: 
@@ -38084,7 +38085,7 @@ msgstr "모두 선택"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 121
 #: 
 msgid "Edit destination"
-msgstr "대상 편집"
+msgstr "목적지 편집"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/index.volt, line: 92
 #: 
@@ -41143,7 +41144,7 @@ msgstr "상태 확인"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 852
 #: 
 msgid "Checked on"
-msgstr "확인됨"
+msgstr "확인 일시"
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 256
 #: 
@@ -41163,7 +41164,7 @@ msgstr "보류 중인 업데이트를 보려면 클릭하세요."
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 828
 #: 
 msgid "Commit"
-msgstr "적용"
+msgstr "커밋"
 
 #. File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 36
 #: 
@@ -42411,7 +42412,7 @@ msgstr "인증서 업데이트"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 846
 #: 
 msgid "Updated on"
-msgstr "업데이트 날짜"
+msgstr "업데이트 일시"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 775
 #: 
@@ -42497,17 +42498,17 @@ msgstr "XSS 점수"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 245
 #: 
 msgid "You can not assign a reply-to destination to a rule that applies to IPv4 and IPv6"
-msgstr "IPv4 및 IPv6에 적용되는 규칙에는 응답 대상을 할당할 수 없습니다"
+msgstr "IPv4 및 IPv6에 적용되는 규칙에는 회신 대상 목적지를 할당할 수 없습니다"
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 248
 #: 
 msgid "You can not assign the IPv4 reply-to destination to an IPv6 filter rule."
-msgstr "IPv4 응답 대상을 IPv6 필터 규칙에 할당할 수 없습니다."
+msgstr "IPv4 회신 대상 목적지를 IPv6 필터 규칙에 할당할 수 없습니다."
 
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 251
 #: 
 msgid "You can not assign the IPv6 reply-to destination to an IPv4 filter rule."
-msgstr "IPv6 응답 대상을 IPv4 필터 규칙에 할당할 수 없습니다."
+msgstr "IPv6 응답 목적지를 IPv4 필터 규칙에 할당할 수 없습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes/VirtualIPField.php, line: 85
 #: 
@@ -42937,12 +42938,12 @@ msgstr "사용자가 지정한 사용자 이름이 인증서의 일반 이름과
 #. File: /usr/lang/src/controllers.php, line: 550
 #: 
 msgid "Choose a name for this mailer configuration."
-msgstr "메일러 환경설정의 이름을 선택합니다."
+msgstr "이 메일러 환경설정의 이름을 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 551
 #: 
 msgid "Choose a name for this resolver configuration."
-msgstr "이 확인자 구성의 이름을 선택하세요."
+msgstr "이 리졸버 설정의 이름을 선탁하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 552
 #: 
@@ -43128,7 +43129,7 @@ msgstr "공유 매개 변수를 사용하여 여러 서버를 초기화하도록
 #. File: /usr/lang/src/controllers.php, line: 868
 #: 
 msgid "Enable Chrony time daemon."
-msgstr "Chrony time daemon을 사용합니다."
+msgstr "Chrony 시간 데몬을 활성화합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 870
 #: 
@@ -43291,7 +43292,7 @@ msgstr "이 영역 사용"
 #. File: /usr/lang/src/controllers.php, line: 1137
 #: 
 msgid "Enable this resolver configuration."
-msgstr "이 확인자 구성을 사용합니다."
+msgstr "이 리졸버 구성을 사용합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1139
 #: 
@@ -44350,7 +44351,7 @@ msgstr "이 서버와 시간을 동기화할 수 있는 네트워크를 설정�
 #. File: /usr/lang/src/controllers.php, line: 2769
 #: 
 msgid "Set the port chrony listen to."
-msgstr "포트 시간대 수신 대기를 설정하세요."
+msgstr "chrony가 수신 대기할 포트를 설정하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2775
 #: 
@@ -46707,7 +46708,7 @@ msgstr "데이터를 기다리는 중..."
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/validations.volt, line: 118
 #: 
 msgid "When experiencing issues with a challenge type, try setting the log level to \"debug\". Please provide full logs when %sreporting issues%s for a challenge type. You should also consider to ask the Certificate Authority for support, if you choose to use a commercial CA."
-msgstr "챌린지 유형에 문제가 발생하면 로그 수준을 \"디버그\"로 설정해 보세요. 챌린지 유형에 대한 %s문제 보고%s시 전체 로그를 제공하세요. 상용 CA를 사용하려면 CA에 지원을 요청하는 것도 고려해야 합니다."
+msgstr "챌린지 유형에서 문제가 발생하면 로그 수준을 \"debug\"로 설정해 보세요. 챌린지 유형에 대한 %s문제 보고%s할 때 전체 로그를 제공해 주세요. 상용 CA를 사용하려면 CA에 지원을 요청하는 것도 고려해야 합니다."
 
 #. File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 472
 #: 
@@ -49093,7 +49094,7 @@ msgstr "새로 생성."
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 726
 #: 
 msgid "Go to the Reporting configuration"
-msgstr "보고 구성으로 이동"
+msgstr "리포트 구성으로 이동"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/Api/GroupController.php, line: 126
 #: 
@@ -49273,7 +49274,7 @@ msgstr "로컬 넷"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 724
 #: 
 msgid "Local gathering of statistics is not enabled. Enable it in Reporting Settings page."
-msgstr "로컬 통계 수집이 활성화되지 않았습니다. 보고 설정 페이지에서 활성화하세요."
+msgstr "로컬 통계 수집이 활성화되지 않았습니다. 리포트 설정 페이지에서 활성화하세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IPsec/sessions.volt, line: 151
 #: 
@@ -49288,7 +49289,7 @@ msgstr "로컬주소"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 803
 #: 
 msgid "Logarithmic"
-msgstr "대수"
+msgstr "로그 스케일"
 
 #. File: /usr/core/src/www/interfaces.php, line: 903
 #: 
@@ -49511,7 +49512,7 @@ msgstr "공개 키 서명 알고리즘"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 793
 #: 
 msgid "Queries over the last "
-msgstr "다음 시간 동안 쿼리 수 "
+msgstr "최근 기간별 쿼리 수 "
 
 #. File: /usr/plugins/dns/bind/src/opnsense/mvc/app/views/OPNsense/Bind/logs.volt, line: 108
 #: 
@@ -49752,7 +49753,7 @@ msgstr "%s  ~ %s 항목 표시"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 781
 #: 
 msgid "Size of blocklist"
-msgstr "차단목록 크기"
+msgstr "차단 목록 크기"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3320
 #: 
@@ -49990,17 +49991,17 @@ msgstr "토글"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 824
 #: 
 msgid "Top 10 client activity over the last "
-msgstr "다음 시간동안 상위 10개 클라이언트 활동 "
+msgstr "최근 기간별 상위 10개 클라이언트 활동 "
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 866
 #: 
 msgid "Top blocked domains"
-msgstr "상위 차단된 도메인"
+msgstr "차단된 상위 도메인"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/overview.volt, line: 857
 #: 
 msgid "Top passed domains"
-msgstr "상위 통과된 도메인"
+msgstr "통과된 상위 도메인"
 
 #. File: /usr/core/src/www/interfaces.php, line: 3555
 #: 
@@ -50042,7 +50043,7 @@ msgstr "잘못된 펌웨어 릴리스 유형을 설정할 수 없음"
 #. File: /usr/core/src/www/reporting_settings.php, line: 226
 #: 
 msgid "Unbound DNS reporting"
-msgstr "Unbound DNS 보고서"
+msgstr "Unbound DNS 리포트"
 
 #. File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/Api/AliasController.php, line: 256
 #: 
@@ -50173,7 +50174,7 @@ msgstr "화이트리스트 도메인"
 #. File: /usr/core/src/www/firewall_rules_edit.php, line: 243
 #: 
 msgid "You can not assign a reply-to destination to a rule that uses a gateway."
-msgstr "게이트웨이를 사용하는 규칙에는 응답 대상을 할당할 수 없습니다."
+msgstr "게이트웨이를 사용하는 규칙에는 회신 대상 목적지를 할당할 수 없습니다."
 
 #. File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 131
 #: 
@@ -56163,7 +56164,7 @@ msgstr "덤프에 민감한 자료도 포함합니다. 예: 키"
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 1030
 #: 
 msgid "Always reboot after a successful update"
-msgstr "업데이트가 성공적으로 완료된 후 항상 재부팅"
+msgstr "업데이트 성공 시 항상 재부팅"
 
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 168
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.php, line: 175
@@ -58043,7 +58044,7 @@ msgstr "\n"
 "          IKE 통신에 사용할 로컬 주소입니다.\n"
 "          단일 IPv4/IPv6 주소, DNS 이름, CIDR 서브넷 또는 IP 주소 범위를 허용합니다.\n"
 "          시작자로서 첫 번째 비범위/비서브넷이 연결을 시작하는 데 사용됩니다.\n"
-"          응답자로서 로컬 대상 주소는 지정된 주소, 서브넷 또는 범위 중 적어도 하나와 일치해야 합니다.\n"
+"          응답자로서 로컬 목적지주소는 지정된 주소, 서브넷 또는 범위 중 적어도 하나와 일치해야 합니다.\n"
 "          FQDN이 할당되면 구성 조회가 수행될 때마다 문제가 해결됩니다.\n"
 "          DNS 해석이 시간 초과되면 해당 시간 동안 조회가 지연됩니다. 빈 상태로 두면 %any가 기본값으로 선택됩니다.\n"
 "        "
@@ -58408,7 +58409,7 @@ msgstr "TCP, UDP 또는 둘 다 릴레이 모드를 선택"
 #. File: /usr/lang/src/controllers.php, line: 1230
 #: 
 msgid "Choose a CA or self-signed certificate to trust from \"System - Trust - Authorities\". Useful if the upstream destination only accepts TLS connections and offers a self signed certificate. Adding that certificate here will allow for the encrypted connection to succeed."
-msgstr "\"시스템 - 신뢰성 - 인증 기관\"에서 신뢰할 CA 또는 자체 서명 인증서를 선택하세요. 업스트림 대상이 TLS 연결만 허용하고 자체 서명 인증서를 제공하는 경우 유용합니다. 해당 인증서를 여기에 추가하면 암호화된 연결이 성공할 수 있습니다."
+msgstr "\"시스템 - 신뢰성 - 인증 기관\"에서 신뢰할 CA 또는 자체 서명 인증서를 선택하세요. 업스트림 목적지가 TLS 연결만 허용하고 자체 서명 인증서를 제공하는 경우 유용합니다. 해당 인증서를 여기에 추가하면 암호화된 연결이 성공할 수 있습니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1236
 #: 
@@ -58721,7 +58722,7 @@ msgstr "이 도메인 및 해당 하위 도메인에 대한 HTTP 요청 로깅�
 #. File: /usr/lang/src/controllers.php, line: 1773
 #: 
 msgid "Enable High availability hook, requires the Control Agent to be enabled as well."
-msgstr "고가용성 후크를 활성화하려면 Control Agent도 사용해야 합니다."
+msgstr "고가용성 훅을 활성화하려면 제어 에이전트도 사용해야 합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1782
 #: 
@@ -58945,12 +58946,12 @@ msgstr "이 사용자에 대한 설명을 입력하세요."
 #. File: /usr/lang/src/controllers.php, line: 2146
 #: 
 msgid "Enter a domain name or IP address of the upstream destination. If multiple are chosen, they will be load balanced with the default random policy."
-msgstr "업스트림의 도메인 이름 또는 IP 주소를 입력하세요. 여러 개가 선택된 경우 기본 랜덤 정책으로 로드 밸런싱됩니다."
+msgstr "업스트림 목적지의 도메인 이름 또는 IP 주소를 입력하세요. 여러 개가 선택된 경우 기본 랜덤 정책으로 로드 밸런싱됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2147
 #: 
 msgid "Enter a domain name or IP address of the upstream destination. If multiple are chosen, they will be load balanced with the default random policy. A health check can be activated by populating \"Upstream Fail Duration\" in advanced mode. When directive is \"redir\", only the first domain will be evaluated."
-msgstr "업스트림 대상의 도메인 이름이나 IP 주소를 입력하세요. 여러 개를 선택하면 기본 임의 정책으로 로드 밸런싱됩니다. 고급 모드에서 \"업스트림 실패 기간\"을 입력하여 상태 검사를 활성화할 수 있습니다. 지시문이 \"redir\"인 ​​경우 첫 번째 도메인만 평가됩니다."
+msgstr "업스트림 목적지의 도메인 이름이나 IP 주소를 입력하세요. 여러 개를 선택하면 기본 임의 정책으로 로드 밸런싱됩니다. 고급 모드에서 \"업스트림 실패 기간\"을 입력하여 상태 검사를 활성화할 수 있습니다. 지시문이 \"redir\"인 ​​경우 첫 번째 도메인만 평가됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 2148
 #: 
@@ -59555,7 +59556,7 @@ msgstr "기본값인 포트 80과 443을 사용하려면 비워 두고 HTTP에�
 #. File: /usr/lang/src/controllers.php, line: 2912
 #: 
 msgid "Leave empty to use the default port or choose a custom port for the upstream destination."
-msgstr "기본 포트를 사용하려면 비워 두거나 업스트림 대상에 대한 사용자 정의 포트를 선택하세요."
+msgstr "기본 포트를 사용하려면 비워 두거나 업스트림 목적지에 대한 사용자 정의 포트를 선택하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 2913
 #: 
@@ -59805,7 +59806,7 @@ msgstr "OSI 4계층에서 수신된 트래픽을 일치시킵니다. TCP 또는 
 #. File: /usr/lang/src/controllers.php, line: 3151
 #: 
 msgid "Match the received traffic on OSI Layer 7. When choosing a protocol like TLS, it will be matched and routed to the upstream destination. When \"Routing Type\" of the matcher is \"listener_wrapper\", any unmatched traffic will be received by the \"HTTP App\" (reverse_proxy). When \"Routing Type\" of the matcher is \"global\", unmatched traffic will be consumed and blocked. Choose \"ANY\" to not match on OSI Layer 7 and allow any traffic."
-msgstr "OSI 7계층에서 수신된 트래픽을 일치시킵니다. TLS와 같은 프로토콜을 선택하면 일치하는 트래픽이 업스트림 대상으로 라우팅됩니다. 매처의 \"라우팅 유형\"이 \"listener_wrapper\"인 경우 일치하지 않는 트래픽은 \"HTTP 앱\"(리버스 프록시)에서 수신됩니다. 매처의 \"라우팅 유형\"이 \"global\"인 경우 일치하지 않는 트래픽은 소비되고 차단됩니다. \"ANY\"를 선택하면 OSI 7계층에서 일치하지 않으며 모든 트래픽을 허용합니다."
+msgstr "OSI 7계층에서 수신된 트래픽을 일치시킵니다. TLS와 같은 프로토콜을 선택하면 일치하는 트래픽이 업스트림 목적지로 라우팅됩니다. 매처의 \"라우팅 유형\"이 \"listener_wrapper\"인 경우 일치하지 않는 트래픽은 \"HTTP 앱\"(리버스 프록시)에서 수신됩니다. 매처의 \"라우팅 유형\"이 \"global\"인 경우 일치하지 않는 트래픽은 소비되고 차단됩니다. \"ANY\"를 선택하면 OSI 7계층에서 일치하지 않으며 모든 트래픽을 허용합니다."
 
 #. File: /usr/plugins/www/caddy/src/opnsense/mvc/app/views/OPNsense/Caddy/layer4.volt, line: 129
 #. File: /usr/lang/src/controllers.php, line: 3152
@@ -60618,7 +60619,7 @@ msgstr "TLS 신뢰 풀"
 #. File: /usr/lang/src/controllers.php, line: 4752
 #: 
 msgid "The 1:1 mapping will only be used for connections to or from the specified destination. Hint: this is usually 'any'."
-msgstr "1:1 매핑은 지정된 대상과의 연결에만 사용됩니다. 힌트: 이는 일반적으로 '모두'입니다."
+msgstr "1:1 매핑은 지정된 목적지와의 연결에만 사용됩니다. 힌트: 이는 일반적으로 '모두'입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4756
 #: 
@@ -60633,12 +60634,12 @@ msgstr "의존할 CARP VHID입니다. 이 가상 주소가 마스터 상태가 �
 #. File: /usr/lang/src/controllers.php, line: 4813
 #: 
 msgid "The default versions are highly recommended. Choose a HTTP version for the upstream destination. HTTP/3 (HTTP over QUIC) requires HTTPS, and only establishes connections to webservers that also support HTTP/3."
-msgstr "기본 버전을 강력히 권장합니다. 업스트림 대상에 대한 HTTP 버전을 선택하세요. HTTP/3(QUIC를 통한 HTTP)는 HTTPS를 필요로 하며 HTTP/3도 지원하는 웹 서버에만 연결을 설정합니다."
+msgstr "기본 버전을 강력히 권장합니다. 업스트림 목적지에 대한 HTTP 버전을 선택하세요. HTTP/3(QUIC를 통한 HTTP)는 HTTPS를 필요로 하며 HTTP/3도 지원하는 웹 서버에만 연결을 설정합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4814
 #: 
 msgid "The destination server group to relay DHCP requests to."
-msgstr "DHCP 요청을 중계할 대상 서버 그룹입니다."
+msgstr "DHCP 요청을 중계할 목적지 서버 그룹입니다."
 
 #. File: /usr/lang/src/controllers.php, line: 4816
 #: 
@@ -60889,7 +60890,7 @@ msgstr "대상 프리픽스가 제공되지 않으면 이 규칙이 적용되는
 #. File: /usr/lang/src/controllers.php, line: 5327
 #: 
 msgid "Use rfc5424 formatted messages for this destination."
-msgstr "이 대상에는 rfc5424 형식의 메시지를 사용하세요."
+msgstr "이 목적지에는 rfc5424 형식의 메시지를 사용하세요."
 
 #. File: /usr/lang/src/controllers.php, line: 5344
 #: 
@@ -60924,7 +60925,7 @@ msgstr "HTTP를 선택하면 자동 인증서 관리가 비활성화되고 해�
 #. File: /usr/lang/src/controllers.php, line: 5421
 #: 
 msgid "When directive is \"reverse_proxy\", enter a path prefix like \"/guacamole\" that should be prepended to the upstream request. This is useful for destinations that have a virtual directory as their base path. When directive is \"redir\", add the path the request should be redirected to; leaving it empty will append {uri}."
-msgstr "지시어가 \"reverse_proxy\"인 경우 업스트림 요청에 추가해야 하는 \"/guacamole\"과 같은 경로 접두사를 입력합니다. 이는 가상 디렉터리를 기본 경로로 갖는 대상에 유용합니다. 지시어가 \"redir\"인 ​​경우 요청이 리디렉션되어야 하는 경로를 추가합니다. 비워두면 {uri}가 추가됩니다."
+msgstr "지시어가 \"reverse_proxy\"인 경우 업스트림 요청에 추가해야 하는 \"/guacamole\"과 같은 경로 접두사를 입력합니다. 이는 가상 디렉터리를 기본 경로로 갖는 목적지에 유용합니다. 지시어가 \"redir\"인 ​​경우 요청이 리디렉션되어야 하는 경로를 추가합니다. 비워두면 {uri}가 추가됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 5427
 #: 
@@ -62847,32 +62848,32 @@ msgstr "웹"
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 209
 #: 
 msgid "#Failed Hosts"
-msgstr ""
+msgstr "#실패한 호스트"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 201
 #: 
 msgid "#Files Fetched"
-msgstr ""
+msgstr "#가져온 파일"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 205
 #: 
 msgid "#Files Removed"
-msgstr ""
+msgstr "#지워진 파일"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 197
 #: 
 msgid "#Hosts"
-msgstr ""
+msgstr "#호스트"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 213
 #: 
 msgid "#Total Files"
-msgstr ""
+msgstr "#모든 파일"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/host.volt, line: 217
 #: 
 msgid "#Total Size"
-msgstr ""
+msgstr "#모든 사이즈"
 
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 163
 #: 
@@ -63427,7 +63428,7 @@ msgstr "비밀번호 암호화"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Dnsmasq/Dnsmasq.php, line: 285
 #: 
 msgid "End address may only be left empty for static ipv4 ranges."
-msgstr "정적 IPv4 범위에 대해서만 종료 주소를 비워둘 수 있습니다."
+msgstr "고정 IPv4 범위에 대해서만 종료 주소를 비워둘 수 있습니다."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/OpenVPN/PlainOpenVPN.php, line: 147
 #: 
@@ -63785,7 +63786,7 @@ msgstr "로딩중..."
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 141
 #: 
 msgid "Local data collection is not enabled. Enable it in Reporting Settings page."
-msgstr "로컬 데이터 수집이 활성화되어 있지 않습니다. 보고 설정 페이지에서 활성화하세요."
+msgstr "로컬 데이터 수집이 활성화되어 있지 않습니다. 리포트 설정 페이지에서 활성화하세요."
 
 #. File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProviders/Provider.php, line: 75
 #: 
@@ -64195,7 +64196,7 @@ msgstr "Span 인터페이스는 브리지의 일부가 될 수 없습니다."
 #. File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/health.volt, line: 169
 #: 
 msgid "Stacked"
-msgstr "쌓임"
+msgstr "누적"
 
 #. File: /usr/deciso-plugins/deciso/OPNcentral/src/opnsense/mvc/app/views/Deciso/OPNcentral/hostresources.volt, line: 309
 #: 
@@ -64206,7 +64207,7 @@ msgstr "상태 사용량"
 #. File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Dnsmasq/Dnsmasq.php, line: 294
 #: 
 msgid "Static only accepts a starting address."
-msgstr "고정 IP 설정은 시작 주소만 허용됨."
+msgstr "정적 IP 설정은 시작 주소만 허용됨."
 
 #. File: /usr/core/src/www/system_advanced_admin.php, line: 1092
 #: 
@@ -65183,62 +65184,62 @@ msgstr "빠른 링크 장애 감지를 위해 양방향 전달 감지를 활성�
 #. File: /usr/lang/src/controllers.php, line: 980
 #: 
 msgid "Active Health Body"
-msgstr ""
+msgstr "능동 상태 확인 본문"
 
 #. File: /usr/lang/src/controllers.php, line: 981
 #: 
 msgid "Active Health Fails"
-msgstr ""
+msgstr "능동 상태 확인 실패 횟수"
 
 #. File: /usr/lang/src/controllers.php, line: 982
 #: 
 msgid "Active Health Follow Redirects"
-msgstr ""
+msgstr "능동 상태 확인 리디렉션 따르기"
 
 #. File: /usr/lang/src/controllers.php, line: 983
 #: 
 msgid "Active Health Interval"
-msgstr ""
+msgstr "능동 상태 확인 간격"
 
 #. File: /usr/lang/src/controllers.php, line: 984
 #: 
 msgid "Active Health Passes"
-msgstr ""
+msgstr "능동 상태 확인 성공 횟수"
 
 #. File: /usr/lang/src/controllers.php, line: 985
 #: 
 msgid "Active Health Port"
-msgstr ""
+msgstr "능동 상태 확인 포트"
 
 #. File: /usr/lang/src/controllers.php, line: 986
 #: 
 msgid "Active Health Status"
-msgstr ""
+msgstr "능동 상태 확인 상태"
 
 #. File: /usr/lang/src/controllers.php, line: 987
 #: 
 msgid "Active Health Timeout"
-msgstr ""
+msgstr "능동 상태 확인 타임아웃"
 
 #. File: /usr/lang/src/controllers.php, line: 988
 #: 
 msgid "Active Health URI"
-msgstr ""
+msgstr "능동 상태 확인 URI"
 
 #. File: /usr/lang/src/controllers.php, line: 989
 #: 
 msgid "Active Health Upstream"
-msgstr ""
+msgstr "능동 상태 확인 업스트림"
 
 #. File: /usr/lang/src/controllers.php, line: 993
 #: 
 msgid "Adaptive Timeouts [end]"
-msgstr ""
+msgstr "적응형 타임아웃 [종료]"
 
 #. File: /usr/lang/src/controllers.php, line: 994
 #: 
 msgid "Adaptive Timeouts [start]"
-msgstr ""
+msgstr "적응형 타임아웃 [시작]"
 
 #. File: /usr/lang/src/controllers.php, line: 1000
 #: 
@@ -65575,7 +65576,7 @@ msgstr "도메인이 이 범위에 속한 클라이언트에만 적용될지, �
 #. File: /usr/lang/src/controllers.php, line: 1481
 #: 
 msgid "Choose multiple CAs or self-signed certificates from \"System - Trust - Authorities\". Client Auth is activated as soon as at least one certificate has been chosen. Important: Certificate revocation lists are not evaluated. If you need granular control, provide individual self-signed certificates for each device, and unset them to block access. Though keep in mind that if no certificate is left in this field, Client Auth will be deactivated."
-msgstr "\"시스템 → 신뢰성 → 인증 기관(System - Trust - Authorities)\"에서 여러 CA 또는 자체 서명 인증서를 선택할 수 있습니다. 하나 이상의 인증서를 선택하는 즉시 클라이언트 인증(Client Auth)이 활성화됩니다. 중요: 인증서 폐기 목록(CRL)은 평가되지 않습니다. 세밀한 제어가 필요하다면 각 장치별로 개별 자체 서명 인증서를 제공하고, 접근을 차단하려면 해당 인증서를 해제하세요. 단, 이 필드에 인증서가 하나도 남아 있지 않으면 클라이언트 인증이 비활성화됩니다."
+msgstr "\"시스템 - 신뢰성 -인증 기관\"에서 여러 CA 또는 자체 서명 인증서를 선택할 수 있습니다. 하나 이상의 인증서를 선택하는 즉시 클라이언트 인증이 활성화됩니다. 중요: 인증서 폐기 목록은 평가되지 않습니다. 세밀한 제어가 필요하다면 각 장치별로 개별 자체 서명 인증서를 제공하고, 접근을 차단하려면 해당 인증서를 해제하세요. 단, 이 필드에 인증서가 하나도 남아 있지 않으면 클라이언트 인증이 비활성화됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1499
 #: 
@@ -65860,7 +65861,7 @@ msgstr "사용자에게 표시되는 설명"
 #. File: /usr/lang/src/controllers.php, line: 1861
 #: 
 msgid "Destinations to forward requests to, one destination per line. When type is Redirect or Exchange Server, only a single destination is allowed."
-msgstr "요청을 전달할 대상입니다. 한 줄에 하나의 대상만 입력하세요. 유형이 Redirect 또는 Exchange Server인 경우에는 하나의 대상만 허용됩니다."
+msgstr "요청을 전달할 목적지입니다. 한 줄에 하나의 대상만 입력하세요. 유형이 Redirect 또는 Exchange Server인 경우에는 하나의 대상만 허용됩니다."
 
 #. File: /usr/lang/src/controllers.php, line: 1866
 #: 
@@ -66325,7 +66326,7 @@ msgstr "Crowdsec 차단 목록에서 차단 규칙을 생성하세요.\n"
 #. File: /usr/lang/src/controllers.php, line: 2812
 #: 
 msgid "Group membership"
-msgstr "그룹 소속"
+msgstr "소속 그룹"
 
 #. File: /usr/lang/src/controllers.php, line: 2814
 #: 
@@ -66410,7 +66411,7 @@ msgstr "IPv6 전용 선호(옵션 108)"
 #. File: /usr/lang/src/controllers.php, line: 3058
 #: 
 msgid "ISC / KEA DHCP (legacy)"
-msgstr ""
+msgstr "ISC / KEA DHCP (레거시)"
 
 #. File: /usr/lang/src/controllers.php, line: 3059
 #: 
@@ -66821,7 +66822,7 @@ msgstr "클라이언트의 하드웨어 주소(MAC 주소)를 기준으로 일�
 #. File: /usr/lang/src/controllers.php, line: 3627
 #: 
 msgid "Match the identifier of the client, e.g., DUID for DHCPv6. Setting the special character \"*\" will ignore the client identifier for DHCPv4 leases if a client offers both as choice."
-msgstr "클라이언트 식별자(예: DHCPv6의 경우 DUID)와 일치시킵니다. 특수 문자 \"*\"를 설정하면 클라이언트가 두 가지 옵션을 모두 제공하는 경우 DHCPv4 임대에 대해 클라이언트 식별자를 무시합니다."
+msgstr "클라이언트 식별자(예: DHCPv6의 경우 DUID)와 일치시킵니다. 특수 문자 \"*\"를 설정하면 클라이언트가 두 가지 옵션을 모두 제공하는 경우 DHCPv4 대여에 대해 클라이언트 식별자를 무시합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 3640
 #: 
@@ -67787,7 +67788,7 @@ msgstr "규칙 방향에서 선택한 파이프 또는 큐를 사용하여 패�
 #. File: /usr/lang/src/controllers.php, line: 5175
 #: 
 msgid "Should be set when Dnsmasq is definitely the only DHCP server on a network. For DHCPv4, it changes the behaviour from strict RFC compliance so that DHCP requests on unknown leases from unknown hosts are not ignored."
-msgstr "이 설정은 Dnsmasq가 네트워크에서 유일한 DHCP 서버인 경우에만 필요합니다. DHCPv4의 경우, 이 설정은 엄격한 RFC 규정 준수에서 벗어나 알 수 없는 호스트에서 온 알 수 없는 임대에 대한 DHCP 요청을 무시하지 않도록 동작을 변경합니다."
+msgstr "이 설정은 Dnsmasq가 네트워크에서 유일한 DHCP 서버인 경우에만 필요합니다. DHCPv4의 경우, 이 설정은 엄격한 RFC 규정 준수에서 벗어나 알 수 없는 호스트에서 온 알 수 없는 대여에 대한 DHCP 요청을 무시하지 않도록 동작을 변경합니다."
 
 #. File: /usr/lang/src/controllers.php, line: 5180
 #: 
@@ -68836,7 +68837,7 @@ msgstr "저 배터리"
 #. File: /usr/lang/src/dashboard.php, line: 134
 #: 
 msgid "NUT"
-msgstr ""
+msgstr "NUT"
 
 #. File: /usr/lang/src/dashboard.php, line: 141
 #: 
@@ -68898,12 +68899,12 @@ msgstr "시리얼 넘버"
 #. File: /usr/lang/src/models.php, line: 1977
 #: 
 msgid "Tailscale"
-msgstr ""
+msgstr "Tailscale"
 
 #. File: /usr/lang/src/dashboard.php, line: 197
 #: 
 msgid "Tailscale IP"
-msgstr ""
+msgstr "Tailscale IP"
 
 #. File: /usr/lang/src/dashboard.php, line: 198
 #: 
@@ -68978,137 +68979,137 @@ msgstr "초"
 #. File: /usr/lang/src/models.php, line: 46
 #: 
 msgid "/Microsoft-Server-ActiveSync"
-msgstr ""
+msgstr "/Microsoft-Server-ActiveSync"
 
 #. File: /usr/lang/src/models.php, line: 47
 #: 
 msgid "/autodiscover"
-msgstr ""
+msgstr "/autodiscover"
 
 #. File: /usr/lang/src/models.php, line: 48
 #: 
 msgid "/ecp"
-msgstr ""
+msgstr "/ecp"
 
 #. File: /usr/lang/src/models.php, line: 49
 #: 
 msgid "/ews"
-msgstr ""
+msgstr "/ews"
 
 #. File: /usr/lang/src/models.php, line: 50
 #: 
 msgid "/exchange"
-msgstr ""
+msgstr "/exchange"
 
 #. File: /usr/lang/src/models.php, line: 51
 #: 
 msgid "/exchweb"
-msgstr ""
+msgstr "/exchweb"
 
 #. File: /usr/lang/src/models.php, line: 52
 #: 
 msgid "/mapi"
-msgstr ""
+msgstr "/mapi"
 
 #. File: /usr/lang/src/models.php, line: 53
 #: 
 msgid "/oab"
-msgstr ""
+msgstr "/oab"
 
 #. File: /usr/lang/src/models.php, line: 54
 #: 
 msgid "/owa"
-msgstr ""
+msgstr "/owa"
 
 #. File: /usr/lang/src/models.php, line: 55
 #: 
 msgid "/public"
-msgstr ""
+msgstr "/public"
 
 #. File: /usr/lang/src/models.php, line: 56
 #: 
 msgid "/rpc"
-msgstr ""
+msgstr "/rpc"
 
 #. File: /usr/lang/src/models.php, line: 60
 #: 
 msgid "1 (768 bits)"
-msgstr ""
+msgstr "1 (768 bits)"
 
 #. File: /usr/lang/src/models.php, line: 74
 #: 
 msgid "14 (2048 bits)"
-msgstr ""
+msgstr "14 (2048 bits)"
 
 #. File: /usr/lang/src/models.php, line: 76
 #: 
 msgid "15 (3072 bits)"
-msgstr ""
+msgstr "5 (3072 bits)"
 
 #. File: /usr/lang/src/models.php, line: 78
 #: 
 msgid "16 (4096 bits)"
-msgstr ""
+msgstr "16 (4096 bits)"
 
 #. File: /usr/lang/src/models.php, line: 80
 #: 
 msgid "17 (6144 bits)"
-msgstr ""
+msgstr "17 (6144 bits)"
 
 #. File: /usr/lang/src/models.php, line: 82
 #: 
 msgid "18 (8192 bits)"
-msgstr ""
+msgstr "18 (8192 bits)"
 
 #. File: /usr/lang/src/models.php, line: 84
 #: 
 msgid "19 (NIST EC 256 bits)"
-msgstr ""
+msgstr "9 (NIST EC 256 bits)"
 
 #. File: /usr/lang/src/models.php, line: 88
 #: 
 msgid "2 (1024 bits)"
-msgstr ""
+msgstr "2 (1024 bits)"
 
 #. File: /usr/lang/src/models.php, line: 92
 #: 
 msgid "20 (NIST EC 384 bits)"
-msgstr ""
+msgstr "20 (NIST EC 384 bits)"
 
 #. File: /usr/lang/src/models.php, line: 96
 #: 
 msgid "21 (NIST EC 521 bits)"
-msgstr ""
+msgstr "21 (NIST EC 521 bits)"
 
 #. File: /usr/lang/src/models.php, line: 97
 #: 
 msgid "22 (1024(sub 160) bits)"
-msgstr ""
+msgstr "22 (1024(sub 160) bits)"
 
 #. File: /usr/lang/src/models.php, line: 98
 #: 
 msgid "23 (2048(sub 224) bits)"
-msgstr ""
+msgstr "23 (2048(sub 224) bits)"
 
 #. File: /usr/lang/src/models.php, line: 99
 #: 
 msgid "24 (2048(sub 256) bits)"
-msgstr ""
+msgstr "24 (2048(sub 256) bits)"
 
 #. File: /usr/lang/src/models.php, line: 100
 #: 
 msgid "28 (Brainpool EC 256 bits)"
-msgstr ""
+msgstr "28 (Brainpool EC 256 bits)"
 
 #. File: /usr/lang/src/models.php, line: 101
 #: 
 msgid "29 (Brainpool EC 384 bits)"
-msgstr ""
+msgstr "29 (Brainpool EC 384 bits)"
 
 #. File: /usr/lang/src/models.php, line: 104
 #: 
 msgid "30 (Brainpool EC 512 bits)"
-msgstr ""
+msgstr "30 (Brainpool EC 512 bits)"
 
 #. File: /usr/lang/src/models.php, line: 107
 #: 
@@ -69138,12 +69139,12 @@ msgstr "308 (영구 리다이렉트)"
 #. File: /usr/lang/src/models.php, line: 114
 #: 
 msgid "31 (Elliptic Curve 25519)"
-msgstr ""
+msgstr "31 (Elliptic Curve 25519)"
 
 #. File: /usr/lang/src/models.php, line: 138
 #: 
 msgid "5 (1536 bits)"
-msgstr ""
+msgstr "5 (1536 bits)"
 
 #. File: /usr/lang/src/models.php, line: 182
 #: 
@@ -69178,17 +69179,17 @@ msgstr "유효한 위치 정보를 제공해야 합니다."
 #. File: /usr/lang/src/models.php, line: 248
 #: 
 msgid "Accept-Charset"
-msgstr ""
+msgstr "Accept-Charset"
 
 #. File: /usr/lang/src/models.php, line: 249
 #: 
 msgid "Accept-Encoding"
-msgstr ""
+msgstr "Accept-Encoding"
 
 #. File: /usr/lang/src/models.php, line: 250
 #: 
 msgid "Accept-Language"
-msgstr ""
+msgstr "Accept-Language"
 
 #. File: /usr/lang/src/models.php, line: 258
 #: 
@@ -69203,17 +69204,17 @@ msgstr "별칭이 없음."
 #. File: /usr/lang/src/models.php, line: 314
 #: 
 msgid "Appsecconfigs"
-msgstr ""
+msgstr "Appsecconfigs"
 
 #. File: /usr/lang/src/models.php, line: 315
 #: 
 msgid "Appsecrules"
-msgstr ""
+msgstr "Appsecrules"
 
 #. File: /usr/lang/src/models.php, line: 319
 #: 
 msgid "Arp"
-msgstr ""
+msgstr "Arp"
 
 #. File: /usr/lang/src/models.php, line: 325
 #: 
@@ -69234,17 +69235,17 @@ msgstr "백업 & 이력"
 #. File: /usr/lang/src/models.php, line: 364
 #: 
 msgid "Bearer"
-msgstr ""
+msgstr "Bearer"
 
 #. File: /usr/lang/src/models.php, line: 365
 #: 
 msgid "Beats"
-msgstr ""
+msgstr "Beats"
 
 #. File: /usr/lang/src/models.php, line: 398
 #: 
 msgid "Bouncers"
-msgstr ""
+msgstr "Bouncers"
 
 #. File: /usr/lang/src/models.php, line: 400
 #: 
@@ -69254,29 +69255,29 @@ msgstr "브리지 장치가 이미 존재합니다."
 #. File: /usr/lang/src/models.php, line: 414
 #: 
 msgid "CHECKOUT"
-msgstr ""
+msgstr "CHECKOUT"
 
 #. File: /usr/lang/src/models.php, line: 417
 #: 
 msgid "CONNECT"
-msgstr ""
+msgstr "CONNECT"
 
 #. File: /usr/lang/src/models.php, line: 418
 #: 
 msgid "COPY"
-msgstr ""
+msgstr "COPY"
 
 #. File: /usr/lang/src/models.php, line: 496
 #: 
 msgid "Cache-Control"
-msgstr ""
+msgstr "Cache-Control"
 
 #. File: /usr/plugins/www/caddy/src/etc/inc/plugins.inc.d/caddy.inc, line: 40
 #. File: /usr/plugins/www/caddy/src/etc/inc/plugins.inc.d/caddy.inc, line: 59
 #. File: /usr/lang/src/models.php, line: 497
 #: 
 msgid "Caddy"
-msgstr ""
+msgstr "Caddy"
 
 #. File: /usr/lang/src/models.php, line: 515
 #: 
@@ -69286,7 +69287,7 @@ msgstr "체크섬 실패됨"
 #. File: /usr/lang/src/models.php, line: 551
 #: 
 msgid "Collections"
-msgstr ""
+msgstr "Collections"
 
 #. File: /usr/lang/src/models.php, line: 560
 #: 
@@ -69301,12 +69302,12 @@ msgstr "연결 실패됨"
 #. File: /usr/lang/src/models.php, line: 568
 #: 
 msgid "Content-Length"
-msgstr ""
+msgstr "Content-Length"
 
 #. File: /usr/lang/src/models.php, line: 569
 #: 
 msgid "Content-Type"
-msgstr ""
+msgstr "Content-Type"
 
 #. File: /usr/lang/src/models.php, line: 571
 #: 
@@ -69399,22 +69400,22 @@ msgstr "이 가상 서버에서는 중복된 경로가 허용되지 않습니다
 #. File: /usr/lang/src/models.php, line: 721
 #: 
 msgid "ECDSA+SHA224"
-msgstr ""
+msgstr "ECDSA+SHA224"
 
 #. File: /usr/lang/src/models.php, line: 722
 #: 
 msgid "ECDSA+SHA256"
-msgstr ""
+msgstr "ECDSA+SHA256"
 
 #. File: /usr/lang/src/models.php, line: 723
 #: 
 msgid "ECDSA+SHA384"
-msgstr ""
+msgstr "ECDSA+SHA512"
 
 #. File: /usr/lang/src/models.php, line: 724
 #: 
 msgid "ECDSA+SHA512"
-msgstr ""
+msgstr "ECDSA+SHA512"
 
 #. File: /usr/lang/src/models.php, line: 753
 #: 
@@ -69439,7 +69440,7 @@ msgstr "실행 실패됨"
 #. File: /usr/lang/src/models.php, line: 772
 #: 
 msgid "Expect"
-msgstr ""
+msgstr "Expect"
 
 #. File: /usr/lang/src/models.php, line: 776
 #: 
@@ -69449,7 +69450,7 @@ msgstr "확장 차단 목록"
 #. File: /usr/lang/src/models.php, line: 802
 #: 
 msgid "Filebeat"
-msgstr ""
+msgstr "Filebeat"
 
 #. File: /usr/lang/src/models.php, line: 807
 #: 
@@ -69499,27 +69500,27 @@ msgstr "그룹 이름은 이미 존재합니다."
 #. File: /usr/lang/src/models.php, line: 983
 #: 
 msgid "If-Match"
-msgstr ""
+msgstr "If-Match"
 
 #. File: /usr/lang/src/models.php, line: 984
 #: 
 msgid "If-Modified-Since"
-msgstr ""
+msgstr "If-Modified-Since"
 
 #. File: /usr/lang/src/models.php, line: 985
 #: 
 msgid "If-None-Match"
-msgstr ""
+msgstr "If-None-Match"
 
 #. File: /usr/lang/src/models.php, line: 986
 #: 
 msgid "If-Range"
-msgstr ""
+msgstr "If-Range"
 
 #. File: /usr/lang/src/models.php, line: 987
 #: 
 msgid "If-Unmodified-Since"
-msgstr ""
+msgstr "If-Unmodified-Since"
 
 #. File: /usr/lang/src/models.php, line: 1020
 #: 
@@ -69534,7 +69535,7 @@ msgstr "잘못된 유형"
 #. File: /usr/lang/src/models.php, line: 1038
 #: 
 msgid "Kea DHCPv6"
-msgstr ""
+msgstr "Kea DHCPv6"
 
 #. File: /usr/lang/src/models.php, line: 1054
 #: 
@@ -69549,7 +69550,7 @@ msgstr "락"
 #. File: /usr/lang/src/models.php, line: 1072
 #: 
 msgid "Leases DHCPv6"
-msgstr "DHCPv6 임대"
+msgstr "DHCPv6 대여"
 
 #. File: /usr/lang/src/models.php, line: 1089
 #: 
@@ -69564,22 +69565,22 @@ msgstr "로그파일"
 #. File: /usr/lang/src/models.php, line: 1133
 #: 
 msgid "MERGE"
-msgstr ""
+msgstr "MERGE"
 
 #. File: /usr/lang/src/models.php, line: 1134
 #: 
 msgid "MKACTIVITY"
-msgstr ""
+msgstr "MKACTIVITY"
 
 #. File: /usr/lang/src/models.php, line: 1135
 #: 
 msgid "MKCOL"
-msgstr ""
+msgstr "MKCOL"
 
 #. File: /usr/lang/src/models.php, line: 1136
 #: 
 msgid "MOVE"
-msgstr ""
+msgstr "MOVE"
 
 #. File: /usr/lang/src/models.php, line: 1140
 #: 
@@ -69614,20 +69615,20 @@ msgstr "Monit 인스턴스가 변경됨"
 #. File: /usr/lang/src/models.php, line: 1195
 #: 
 msgid "NNTP"
-msgstr ""
+msgstr "NNTP"
 
 #. File: /usr/plugins/net/ndproxy/src/etc/inc/plugins.inc.d/ndproxy.inc, line: 40
 #. File: /usr/plugins/net/ndproxy/src/etc/inc/plugins.inc.d/ndproxy.inc, line: 59
 #. File: /usr/lang/src/models.php, line: 1210
 #: 
 msgid "Ndproxy"
-msgstr ""
+msgstr "Ndproxy"
 
 #. File: /usr/plugins/security/netbird/src/etc/inc/plugins.inc.d/netbird.inc, line: 45
 #. File: /usr/lang/src/models.php, line: 1216
 #: 
 msgid "NetBird"
-msgstr ""
+msgstr "NetBird"
 
 #. File: /usr/lang/src/models.php, line: 1238
 #: 
@@ -69647,7 +69648,7 @@ msgstr "정상이지만 주의가 필요한 상태"
 #. File: /usr/lang/src/models.php, line: 1264
 #: 
 msgid "OPTIONS"
-msgstr ""
+msgstr "OPTIONS"
 
 #. File: /usr/lang/src/models.php, line: 1275
 #: 
@@ -69672,7 +69673,7 @@ msgstr "유효한 IPv4 네트워크 또는 서브넷 마스크를 포함한 개�
 #. File: /usr/lang/src/models.php, line: 1319
 #: 
 msgid "PATCH"
-msgstr ""
+msgstr "PATCH"
 
 #. File: /usr/lang/src/models.php, line: 1323
 #: 
@@ -69687,12 +69688,12 @@ msgstr "PPID 실패됨"
 #. File: /usr/lang/src/models.php, line: 1331
 #: 
 msgid "PROPFIND"
-msgstr ""
+msgstr "PROPFIND"
 
 #. File: /usr/lang/src/models.php, line: 1332
 #: 
 msgid "PROPPATCH"
-msgstr ""
+msgstr "PROPPATCH"
 
 #. File: /usr/lang/src/models.php, line: 1342
 #: 
@@ -69702,17 +69703,17 @@ msgstr "Paranoia level 1 (기본)"
 #. File: /usr/lang/src/models.php, line: 1343
 #: 
 msgid "Paranoia level 2"
-msgstr ""
+msgstr "Paranoia 수준 2"
 
 #. File: /usr/lang/src/models.php, line: 1344
 #: 
 msgid "Paranoia level 3"
-msgstr ""
+msgstr "Paranoia 수준 3"
 
 #. File: /usr/lang/src/models.php, line: 1345
 #: 
 msgid "Paranoia level 4"
-msgstr ""
+msgstr "Paranoia 수준 4"
 
 #. File: /usr/lang/src/models.php, line: 1346
 #: 
@@ -69872,12 +69873,12 @@ msgstr "포탈 관리자"
 #. File: /usr/lang/src/models.php, line: 1515
 #: 
 msgid "Postoverflows"
-msgstr ""
+msgstr "Postoverflows"
 
 #. File: /usr/lang/src/models.php, line: 1520
 #: 
 msgid "Pragma"
-msgstr ""
+msgstr "Pragma"
 
 #. File: /usr/lang/src/models.php, line: 1529
 #: 
@@ -69902,52 +69903,52 @@ msgstr "프로비저닝"
 #. File: /usr/lang/src/models.php, line: 1551
 #: 
 msgid "Proxy-Authorization"
-msgstr ""
+msgstr "Proxy-Authorization"
 
 #. File: /usr/lang/src/models.php, line: 1552
 #: 
 msgid "ProxyPass"
-msgstr ""
+msgstr "ProxyPass"
 
 #. File: /usr/lang/src/models.php, line: 1559
 #: 
 msgid "QUIC"
-msgstr ""
+msgstr "QUIC"
 
 #. File: /usr/lang/src/models.php, line: 1560
 #: 
 msgid "QUIC (SNI Client Hello)"
-msgstr ""
+msgstr "QUIC (SNI Client Hello)"
 
 #. File: /usr/lang/src/models.php, line: 1574
 #: 
 msgid "RSA+SHA224"
-msgstr ""
+msgstr "RSA+SHA224"
 
 #. File: /usr/lang/src/models.php, line: 1575
 #: 
 msgid "RSA+SHA256"
-msgstr ""
+msgstr "RSA+SHA256"
 
 #. File: /usr/lang/src/models.php, line: 1576
 #: 
 msgid "RSA+SHA384"
-msgstr ""
+msgstr "RSA+SHA384"
 
 #. File: /usr/lang/src/models.php, line: 1577
 #: 
 msgid "RSA+SHA512"
-msgstr ""
+msgstr "RSA+SHA512"
 
 #. File: /usr/lang/src/models.php, line: 1598
 #: 
 msgid "RedirectMatch"
-msgstr ""
+msgstr "RedirectMatch"
 
 #. File: /usr/lang/src/models.php, line: 1601
 #: 
 msgid "Referer"
-msgstr ""
+msgstr "Referer"
 
 #. File: /usr/lang/src/models.php, line: 1607
 #: 
@@ -70057,7 +70058,7 @@ msgstr "Suricata (침입 탐지)"
 #. File: /usr/lang/src/models.php, line: 1948
 #: 
 msgid "TE"
-msgstr ""
+msgstr "TE"
 
 #. File: /usr/lang/src/models.php, line: 1976
 #: 
@@ -70112,7 +70113,7 @@ msgstr "전송 인코딩"
 #. File: /usr/lang/src/models.php, line: 2135
 #: 
 msgid "Turnserver"
-msgstr ""
+msgstr "Turnserver"
 
 #. File: /usr/lang/src/models.php, line: 2145
 #: 
@@ -70203,12 +70204,12 @@ msgstr "주"
 #. File: /usr/lang/src/models.php, line: 2245
 #: 
 msgid "Winbox"
-msgstr ""
+msgstr "Winbox"
 
 #. File: /usr/lang/src/models.php, line: 2258
 #: 
 msgid "X-Forwarded-Proto"
-msgstr ""
+msgstr "X-Forwarded-Proto"
 
 #. File: /usr/lang/src/models.php, line: 2266
 #: 
@@ -70218,187 +70219,187 @@ msgstr "예 (대소문자 구분 안 함)"
 #. File: /usr/lang/src/models.php, line: 2289
 #: 
 msgid "[X-]SSL-CIPHER"
-msgstr ""
+msgstr "[X-]SSL-CIPHER"
 
 #. File: /usr/lang/src/models.php, line: 2290
 #: 
 msgid "[X-]SSL-CLIENT-I-DN"
-msgstr ""
+msgstr "[X-]SSL-CLIENT-I-DN"
 
 #. File: /usr/lang/src/models.php, line: 2291
 #: 
 msgid "[X-]SSL-CLIENT-S-DN"
-msgstr ""
+msgstr "[X-]SSL-CLIENT-S-DN"
 
 #. File: /usr/lang/src/models.php, line: 2292
 #: 
 msgid "[X-]SSL-CLIENT-V-START"
-msgstr ""
+msgstr "[X-]SSL-CLIENT-V-START"
 
 #. File: /usr/lang/src/models.php, line: 2293
 #: 
 msgid "[X-]SSL-CLIENT-VERIFY"
-msgstr ""
+msgstr "[X-]SSL-CLIENT-VERIFY"
 
 #. File: /usr/lang/src/models.php, line: 2294
 #: 
 msgid "[X-]SSL-PROTOCOL"
-msgstr ""
+msgstr "[X-]SSL-PROTOCOL"
 
 #. File: /usr/lang/src/models.php, line: 2295
 #: 
 msgid "[X-]SSL-SERVER-S-DN-OU"
-msgstr ""
+msgstr "[X-]SSL-SERVER-S-DN-OU"
 
 #. File: /usr/lang/src/models.php, line: 2296
 #: 
 msgid "[hagezi] Anti Piracy"
-msgstr ""
+msgstr "[hagezi] 불법 복제 방지"
 
 #. File: /usr/lang/src/models.php, line: 2297
 #: 
 msgid "[hagezi] Badware Hoster blocking"
-msgstr ""
+msgstr "[hagezi] 배드웨어 호스팅 차단"
 
 #. File: /usr/lang/src/models.php, line: 2298
 #: 
 msgid "[hagezi] DoH/VPN/TOR/Proxy Bypass"
-msgstr ""
+msgstr "[hagezi] DoH/VPN/TOR/프록시 우회 차단"
 
 #. File: /usr/lang/src/models.php, line: 2299
 #: 
 msgid "[hagezi] Dynamic DNS blocking"
-msgstr ""
+msgstr "[hagezi] 동적 DNS 차단"
 
 #. File: /usr/lang/src/models.php, line: 2300
 #: 
 msgid "[hagezi] Fake - scams / fakes"
-msgstr ""
+msgstr "[hagezi] 가짜 사기/위조 사이트"
 
 #. File: /usr/lang/src/models.php, line: 2301
 #: 
 msgid "[hagezi] Gambling"
-msgstr ""
+msgstr "[hagezi] 도박"
 
 #. File: /usr/lang/src/models.php, line: 2302
 #: 
 msgid "[hagezi] Gambling - Medium"
-msgstr ""
+msgstr "[hagezi] 도박 - Medium"
 
 #. File: /usr/lang/src/models.php, line: 2303
 #: 
 msgid "[hagezi] Gambling - Mini"
-msgstr ""
+msgstr "Mini[hagezi] 도박 - Mini"
 
 #. File: /usr/lang/src/models.php, line: 2304
 #: 
 msgid "[hagezi] Multi LIGHT - Basic protection"
-msgstr ""
+msgstr "[hagezi] 멀티 LIGHT - 기본 보호"
 
 #. File: /usr/lang/src/models.php, line: 2305
 #: 
 msgid "[hagezi] Multi NORMAL - All-round protection"
-msgstr ""
+msgstr "[hagezi] 멀티 NORMAL - 종합 보호"
 
 #. File: /usr/lang/src/models.php, line: 2306
 #: 
 msgid "[hagezi] Multi PRO - Extended protection"
-msgstr ""
+msgstr "[hagezi] 멀티 PRO - 확장 보호"
 
 #. File: /usr/lang/src/models.php, line: 2307
 #: 
 msgid "[hagezi] Multi PRO mini "
-msgstr ""
+msgstr "[hagezi] 멀티 PRO mini"
 
 #. File: /usr/lang/src/models.php, line: 2308
 #: 
 msgid "[hagezi] Multi PRO++ - Maximum protection"
-msgstr ""
+msgstr "[hagezi] 멀티 PRO++ - 최대 보호"
 
 #. File: /usr/lang/src/models.php, line: 2309
 #: 
 msgid "[hagezi] Multi PRO++ mini"
-msgstr ""
+msgstr "[hagezi] 멀티 PRO++ 미니"
 
 #. File: /usr/lang/src/models.php, line: 2310
 #: 
 msgid "[hagezi] Multi ULTIMATE - Aggressive protection"
-msgstr ""
+msgstr "[hagezi] 멀티 ULTIMATE - 강력 보호"
 
 #. File: /usr/lang/src/models.php, line: 2311
 #: 
 msgid "[hagezi] Multi ULTIMATE mini"
-msgstr ""
+msgstr "[hagezi] 멀티 ULTIMATE mini"
 
 #. File: /usr/lang/src/models.php, line: 2312
 #: 
 msgid "[hagezi] Pop-Up Ads"
-msgstr ""
+msgstr "[hagezi] 팝업 광고"
 
 #. File: /usr/lang/src/models.php, line: 2313
 #: 
 msgid "[hagezi] Safesearch not supported"
-msgstr ""
+msgstr "[hagezi] 세이프서치 미지원"
 
 #. File: /usr/lang/src/models.php, line: 2314
 #: 
 msgid "[hagezi] Threat Intelligence Feeds"
-msgstr ""
+msgstr "[hagezi] 위협 인텔리전스 피드"
 
 #. File: /usr/lang/src/models.php, line: 2315
 #: 
 msgid "[hagezi] Threat Intelligence Feeds - Medium"
-msgstr ""
+msgstr "[hagezi] 위협 인텔리전스 피드 - Medium"
 
 #. File: /usr/lang/src/models.php, line: 2316
 #: 
 msgid "[hagezi] Threat Intelligence Feeds - Mini"
-msgstr ""
+msgstr "[hagezi] 위협 인텔리전스 피드 - Mini"
 
 #. File: /usr/lang/src/models.php, line: 2319
 #: 
 msgid "ack"
-msgstr ""
+msgstr "ack"
 
 #. File: /usr/lang/src/models.php, line: 2326
 #: 
 msgid "akamai"
-msgstr ""
+msgstr "akamai"
 
 #. File: /usr/lang/src/models.php, line: 2327
 #: 
 msgid "akamai-ipv4"
-msgstr ""
+msgstr "akamai-ipv4"
 
 #. File: /usr/lang/src/models.php, line: 2328
 #: 
 msgid "akamai-ipv6"
-msgstr ""
+msgstr "akamai-ipv6"
 
 #. File: /usr/lang/src/models.php, line: 2354
 #: 
 msgid "base64"
-msgstr ""
+msgstr "base64"
 
 #. File: /usr/lang/src/models.php, line: 2359
 #: 
 msgid "block-ipv6"
-msgstr ""
+msgstr "block-ipv6"
 
 #. File: /usr/lang/src/models.php, line: 2377
 #: 
 msgid "client_ip"
-msgstr ""
+msgstr "client_ip"
 
 #. File: /usr/lang/src/models.php, line: 2378
 #: 
 msgid "client_ip_hash"
-msgstr ""
+msgstr "client_ip_hash"
 
 #. File: /usr/lang/src/models.php, line: 2393
 #: 
 msgid "cwr"
-msgstr ""
+msgstr "cwr"
 
 #. File: /usr/lang/src/models.php, line: 2410
 #: 
@@ -70408,82 +70409,82 @@ msgstr "목적지 (ip6)"
 #. File: /usr/lang/src/models.php, line: 2421
 #: 
 msgid "dynu-ipv4"
-msgstr ""
+msgstr "dynu-ipv4"
 
 #. File: /usr/lang/src/models.php, line: 2422
 #: 
 msgid "dynu-ipv6"
-msgstr ""
+msgstr "dynu-ipv6"
 
 #. File: /usr/lang/src/models.php, line: 2427
 #: 
 msgid "ece"
-msgstr ""
+msgstr "ece"
 
 #. File: /usr/lang/src/models.php, line: 2429
 #: 
 msgid "ed25519:ed448"
-msgstr ""
+msgstr "ed25519:ed448"
 
 #. File: /usr/lang/src/models.php, line: 2440
 #: 
 msgid "explicit-exit-notify"
-msgstr ""
+msgstr "explicit-exit-notify"
 
 #. File: /usr/lang/src/models.php, line: 2448
 #: 
 msgid "fin"
-msgstr ""
+msgstr "fin"
 
 #. File: /usr/lang/src/models.php, line: 2451
 #: 
 msgid "first"
-msgstr ""
+msgstr "first"
 
 #. File: /usr/lang/src/models.php, line: 2463
 #: 
 msgid "forward"
-msgstr ""
+msgstr "forward"
 
 #. File: /usr/lang/src/models.php, line: 2511
 #: 
 msgid "h2c://"
-msgstr ""
+msgstr "h2c://"
 
 #. File: /usr/lang/src/models.php, line: 2566
 #: 
 msgid "ip_hash"
-msgstr ""
+msgstr "ip_hash"
 
 #. File: /usr/lang/src/models.php, line: 2574
 #: 
 msgid "iterative"
-msgstr ""
+msgstr "반복"
 
 #. File: /usr/lang/src/models.php, line: 2577
 #: 
 msgid "ja4"
-msgstr ""
+msgstr "ja4"
 
 #. File: /usr/lang/src/models.php, line: 2586
 #: 
 msgid "least_conn"
-msgstr ""
+msgstr "least_conn"
 
 #. File: /usr/lang/src/models.php, line: 2649
 #: 
 msgid "no state"
-msgstr ""
+msgstr "상태 없음"
 
 #. File: /usr/lang/src/models.php, line: 2673
 #: 
 msgid "off-link"
-msgstr ""
+msgstr "off-link"
 
 #. File: /usr/lang/src/models.php, line: 2678
 #: 
 msgid "origin"
-msgstr ""
+msgstr "origin"
 
 #. File: /usr/lang/src/models.php, line: 2689
 #: 
@@ -70493,97 +70494,97 @@ msgstr "유효한 네트워크 세그먼트 또는 주소(IPv4/IPv6)를 지정�
 #. File: /usr/lang/src/models.php, line: 2700
 #: 
 msgid "psh"
-msgstr ""
+msgstr "psh"
 
 #. File: /usr/lang/src/models.php, line: 2701
 #: 
 msgid "push block-ipv6"
-msgstr ""
+msgstr "push block-ipv6"
 
 #. File: /usr/lang/src/models.php, line: 2705
 #: 
 msgid "ra-advrouter"
-msgstr ""
+msgstr "ra-advrouter"
 
 #. File: /usr/lang/src/models.php, line: 2706
 #: 
 msgid "ra-names"
-msgstr ""
+msgstr "ra-names"
 
 #. File: /usr/lang/src/models.php, line: 2707
 #: 
 msgid "ra-only"
-msgstr ""
+msgstr "ra-only"
 
 #. File: /usr/lang/src/models.php, line: 2708
 #: 
 msgid "ra-stateless"
-msgstr ""
+msgstr "ra-stateless"
 
 #. File: /usr/lang/src/models.php, line: 2712
 #: 
 msgid "raw"
-msgstr ""
+msgstr "raw"
 
 #. File: /usr/lang/src/models.php, line: 2725
 #: 
 msgid "remote_ip"
-msgstr ""
+msgstr "remote_ip"
 
 #. File: /usr/lang/src/models.php, line: 2727
 #: 
 msgid "require"
-msgstr ""
+msgstr "require"
 
 #. File: /usr/lang/src/models.php, line: 2728
 #: 
 msgid "require_and_verify"
-msgstr ""
+msgstr "require_and_verify"
 
 #. File: /usr/lang/src/models.php, line: 2733
 #: 
 msgid "round_robin"
-msgstr ""
+msgstr "round_robin"
 
 #. File: /usr/lang/src/models.php, line: 2738
 #: 
 msgid "rsa_pss_pss_sha256"
-msgstr ""
+msgstr "rsa_pss_pss_sha256"
 
 #. File: /usr/lang/src/models.php, line: 2739
 #: 
 msgid "rsa_pss_pss_sha384"
-msgstr ""
+msgstr "rsa_pss_pss_sha384"
 
 #. File: /usr/lang/src/models.php, line: 2740
 #: 
 msgid "rsa_pss_pss_sha512"
-msgstr ""
+msgstr "rsa_pss_pss_sha512"
 
 #. File: /usr/lang/src/models.php, line: 2741
 #: 
 msgid "rsa_pss_rsae_sha256"
-msgstr ""
+msgstr "rsa_pss_rsae_sha256"
 
 #. File: /usr/lang/src/models.php, line: 2742
 #: 
 msgid "rsa_pss_rsae_sha384"
-msgstr ""
+msgstr "rsa_pss_rsae_sha384"
 
 #. File: /usr/lang/src/models.php, line: 2743
 #: 
 msgid "rsa_pss_rsae_sha512"
-msgstr ""
+msgstr "rsa_pss_rsae_sha512"
 
 #. File: /usr/lang/src/models.php, line: 2744
 #: 
 msgid "rst"
-msgstr ""
+msgstr "rst"
 
 #. File: /usr/lang/src/models.php, line: 2759
 #: 
 msgid "slaac"
-msgstr ""
+msgstr "slaac"
 
 #. File: /usr/lang/src/models.php, line: 2765
 #: 
@@ -70593,12 +70594,12 @@ msgstr "출발지 (ip6)"
 #. File: /usr/lang/src/models.php, line: 2770
 #: 
 msgid "standard"
-msgstr ""
+msgstr "standard"
 
 #. File: /usr/lang/src/models.php, line: 2781
 #: 
 msgid "syn"
-msgstr ""
+msgstr "syn"
 
 #. File: /usr/lang/src/models.php, line: 2809
 #: 
@@ -70608,52 +70609,52 @@ msgstr "텍스트"
 #. File: /usr/lang/src/models.php, line: 2812
 #: 
 msgid "tls-auth_sha256_inverse"
-msgstr ""
+msgstr "tls-auth_sha256_inverse"
 
 #. File: /usr/lang/src/models.php, line: 2813
 #: 
 msgid "tls-auth_sha256_normal"
-msgstr ""
+msgstr "tls-auth_sha256_normal"
 
 #. File: /usr/lang/src/models.php, line: 2814
 #: 
 msgid "tls-auth_sha512_inverse"
-msgstr ""
+msgstr "tls-auth_sha512_inverse"
 
 #. File: /usr/lang/src/models.php, line: 2815
 #: 
 msgid "tls-auth_sha512_normal"
-msgstr ""
+msgstr "tls-auth_sha512_normal"
 
 #. File: /usr/lang/src/models.php, line: 2816
 #: 
 msgid "tls-crypt"
-msgstr ""
+msgstr "tls-crypt"
 
 #. File: /usr/lang/src/models.php, line: 2817
 #: 
 msgid "tls-crypt2_client"
-msgstr ""
+msgstr "tls-crypt2_client"
 
 #. File: /usr/lang/src/models.php, line: 2818
 #: 
 msgid "tls-crypt2_server"
-msgstr ""
+msgstr "tls-crypt2_server"
 
 #. File: /usr/lang/src/models.php, line: 2826
 #: 
 msgid "urg"
-msgstr ""
+msgstr "urg"
 
 #. File: /usr/lang/src/models.php, line: 2827
 #: 
 msgid "uri_hash"
-msgstr ""
+msgstr "uri_hash"
 
 #. File: /usr/lang/src/models.php, line: 2842
 #: 
 msgid "verify_if_given"
-msgstr ""
+msgstr "verify_if_given"
 
 #. File: /usr/lang/src/models.php, line: 2857
 #: 
